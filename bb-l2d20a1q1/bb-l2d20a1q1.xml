@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 20, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 20, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d20a1q1">
+            <head xml:id="bb-l2d20a1q1-Hd1e99">II, Distinctio 20, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d20a1q1-Hd1e102" type="question-title">Utrum in statu innocentiae fuisset sexuum commixtio.</head>
+ 
+            <p xml:id="bb-l2d20a1q1-d1e105">Circa primum sic proceditur et ostenditur quod, si homo stetisset, facta esset sexuum commixtio.</p>
+            <div xml:id="bb-l2d20a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d20a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d20a1q1-d1e113">Primo per textum Genesis secundo: <quote xml:id="bb-l2d20a1q1-Qd1e115" ana="#gen2_18">Faciamus ei adiutorium simile sibi</quote>. Sed vir non indigebat adiutorio mulieris nisi quantum ad actum generationis, nec poterant simul aliquem generare nisi simul commiscerentur : ergo etc.</p>
+               <p xml:id="bb-l2d20a1q1-d1e119">2. Item, <name ref="#Augustine">Augustinus</name>, XIV De civitate Dei : <quote xml:id="bb-l2d20a1q1-Qd1e124" source="http://scta.info/resource/adcd-l14">Quisquis dicit non coituros, non generaturos homines, nisi peccassent, quid aliud dicit nisi propter numerositatem Sanctorum necessarium fuisse peccatum ?</quote> Ergo si hoc est inconveniens ponere, etiamsi homo non peccasset, vir et mulier per commixtionem sexuum generarent.</p>
+               <p xml:id="bb-l2d20a1q1-d1e128">3. Item, distinctio sexuum non est nisi propter generationem ; sed in primaria sui conditione distinctio fuit in humana specie sicut in aliis : ergo si sexus distincti ad unum effectum non concurrunt nisi commisceantur, videtur quod, si homo stetisset, vir et mulier commixti essent.</p>
+               <p xml:id="bb-l2d20a1q1-d1e131">4. Item, vir habuit vim generativam ; sed planum est quod prolem intra se concipere non poterat, cum nec haberet locum, in quo fetus vegetaretur, nec viam, perquam egrederetur : ergo videtur quod ad hoc quod generaret, necessarium erat sibi cum muliere commisceri et convenire.</p>
+
+ 
+               <p xml:id="bb-l2d20a1q1-d1e135">Sed contra : 1. <name ref="#Augustine">Augustinus</name>, De bono coniugali : <quote xml:id="bb-l2d20a1q1-Qd1e140">Nuptiae non nisi mortalium esse poterunt</quote> ; constat hoc dictum esse quantum ad commixtionem sexuum ; si ergo, manente statu innocentiae, homo non poterat mori, ergo nec mulieri poterat commisceri.</p>
+               <p xml:id="bb-l2d20a1q1-d1e144">2. Item, <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-l2d20a1q1-Qd1e149" source="http://scta.info/resource/jddfo-l4c24">Poterat Deus genus hoc absque generatione multiplicare, si homo mandatum suum servasset usque in finem</quote>. Ergo videtur quodsi homo stetisset, quod vir mulieri commisceri non haberet nec filium procreare.</p>
+               <p xml:id="bb-l2d20a1q1-d1e153">3. Item, ad hoc data est vis generativa ut quae non possunt continuari in se, conserventur in suo simili ; sed, homine stante, in perpetuum continuari posset : ergo non videtur quod homo generaret.</p>
+               <p xml:id="bb-l2d20a1q1-d1e156">4. Item, commixtio sexuum est opus carnale ; sed primi parentes, cum essent spirituales, non erant dediti operibus carnis nec impediebantur a quiete contemplationis : ergo non videtur quod, natura stante, haberent insimul commisceri.</p>
+            </div>
+            <div xml:id="bb-l2d20a1q1-Dd1e160">
+               <head xml:id="bb-l2d20a1q1-Hd1e162">Conclusio</head>
+               <head xml:id="bb-l2d20a1q1-Hd1e165" type="question-title">Statu innocentiae perduarante, fuisset generatio et sexuum commixtio</head>
+ 
+               <p xml:id="bb-l2d20a1q1-d1e168">Respondeo : Dicendum quod in statu innocentiae absque dubio homo haberet generari ex homine ; et hoc attestatur auctoritate Scripturae et ludicio rationis rectae.
+Dicitur enim hominibus in statu innocentiae, sicut scribitur Genesis 1, 28 : <quote xml:id="bb-l2d20a1q1-Qd1e170" ana="#gen1_28">Crescite et multiplicamini et replete terram</quote>. Et alius textus dicit mulierem in adiutorium viri esse factam.
+Rationi etiam rectae hoc consonat, quae dicit potentiam generandi spectare ad completionem naturae, usum vero generationis ad complementum et perfectionem civitatis supernae. Et quia in statu innocentiae natura perfectior erat quam in statu viae ; et si homo stetisset, superna civitas suorum civium numerositate nequaquam fraudata esset : ponendum est quod homo in statu innocentiae generare poterat et genuisset. Et quia nec vir per se nec mulier per se suffecisset ad generandum, ideo per commixtionem fieret coniunctio unius ad alterum, et mutuum sibi praeberent auxilium in procreatione prolis ad multiplicandum genus humanum.
+Et ideo concedendae sunt rationes ostendentes quod, si homo stetisset, et esset generatio et sexuum commixtio.</p>
+            </div>
+            <div xml:id="bb-l2d20a1q1-Dd1e176">
+               <head xml:id="bb-l2d20a1q1-Hd1e178">Ad rationes</head>
+
+               <p xml:id="bb-l2d20a1q1-d1e181">1. Ad illud autem quod primo obicitur in contrarium de verbo <name ref="#Augustine">Augustini</name>, in libro De bono coniugali, dicendum quod mortale non vocatur ibi quod habet necessitatem in moriendo, sed mortale dicitur generaliter pro vita animali, in qua sola potest fieri generatio, quia in ea solum potest fieri decisio et restauratio ; et quia haec mortalitas esse poterat in statu innocentiae, quamvis non in statu gloriae, ideo patet illud.</p>
+               <p xml:id="bb-l2d20a1q1-d1e187">2. Ad illud quod obicitur de verbo <name ref="#JohnDamascenus">Damasceni</name>, dicendum quod <name ref="#JohnDamascenus">Damascenus</name> non vult dicere quod non esset generatio, si homo stetisset, sed quod non esset per eum modum per quem est modo, scilicet cum libidine et foeditate. Praeterea, ipse non dicit, quid Deus faceret, sed quid facere posset.</p>
+               <p xml:id="bb-l2d20a1q1-d1e196">3. Ad illud quod obicitur, quod ideo data est vis generativa quod perpetuentur corruptibilia, dicendum quod illa non est ratio tota ; immo ratio praecipua et secundum fidem, quam ignoravit <name ref="#Aristotle">Philosophus</name>, est propter multiplicationem numeri electorum, quam Deus sic disposuit facere successive propter congruentiam multiplicem, sicut supra tactum est : tum videlicet propter divinae gloriae manifestationem ; tum etiam propter hominum maiorem coniunctionem, ut magis ad invicem se diligerent ; tum etiam propter universi decorem et perfectionem, quae non solummodo attenditur secundum esse permanens, immo etiam secundum esse decurrens ; decursus autem in rebus irrationalibus debet esse secundum ordinem et exigentiam ad res rationales, propter quas factae sunt.</p>
+               <p xml:id="bb-l2d20a1q1-d1e202">4. Ad illud quod obicitur, quod commixtio sexuum est opus carnale, dicendum quod caro uno modo sonat in vitium, sicut illud ad Galatas 5, 17 : <quote xml:id="bb-l2d20a1q1-Qd1e204" ana="#gal5_17">Caro concupiscit adversus spiritum</quote> ; alio modo caro dicit naturam, sicut illud ad Ephesios 5, 29 : <quote xml:id="bb-l2d20a1q1-Qd1e207" ana="#gal5_29">Nemo carnem suam odio habuit</quote>. Et sic carnale potest dici dupliciter : vel a carne secundum quod dicit naturam, vel a carne secundum quod dicit vitium. Et hoc ultimo modo in primo statu sexuum commixtio non esset carnale opus, eo quod non esset ibi vitiositas ; esset tamen opus carnale, secundum quod caro sonat in naturam ; et nihilominus esset spirituale opus, quia natura et opus naturae concordaret spiritui et gratiae.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p1a2q2">
+            <head xml:id="bb-l2d24p1a2q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d24p1a2q2-Hd1e102" type="question-title">Utrum superior et inferior portio potentiarum sint diversae potentiae.</head>
+ 
+            <p xml:id="bb-l2d24p1a2q2-d1e105">Secundo quaeritur de illa divisione potentiarum animae quae est per superiorem et inferiorem portionem et est quaestio, utrum superior portio et inferior sint diversae potentiae.</p>
+            <div xml:id="bb-l2d24p1a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p1a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p1a2q2-d1e113">Et quod sic, videtur. Sicut dicit <name ref="#Augustine">Augustinus</name>, XII De Trinitate inter superiorem portionem rationis et inferiorem est coniugium, quia haec dicitur vir et illa dicitur mulier ; sed non est coniugium eiusdem ad se, sed diversi ad diversum. Cum igitur inter haec duo sit coniugium, in quantum sunt potentiae, ergo in genere potentiae sunt diversae.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e119">Item, sicut, in pluribus locis in libro De Trinitate, dicit <name ref="#Augustine">Augustinus</name>, imago non consistit in ratione quantum ad inferiorem partem, sed quantum ad superiorem ; sed esse ad imaginem non est accidens potentiis animae, sed est eis essentiale. Cum igitur superior portio et inferior differant per esse ad imaginem et non esse ad imaginem, videtur quod sint potentiae per essentiam diversae.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e125">Item, sicut vult <name ref="#Augustine">Augustinus</name>, superior portio se habet ad inferiorem sicut regens ad rectum ; regens autem et rectum sunt ad invicem relative opposita. Si ergo relative opposita non possunt esse circa idem, necesse est aliam esse potentiam quae regit, aliam quae regitur.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e131">Item, nihil secundum idem agit et patitur ; sed superioris portionis.est movere inferiorem et inferioris est moveri : ergo impossibile est quod concurrant in eamdem potentiam : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e135">Item, si ratio superior et inferior non differrent nisi quia haec intendit aeternis et illa intendit temporalibus, ergo non plus differrent quam oculus aspiciens sursum et aspiciens deorsum ; sed. nullo modo dividitur oculus in superiorem et inferiorem pro eo quod aspicit sursum et deorsum : ergo nec ratio sic dividi deberet. Si ergo dividitur, ergo ratio superior et inferior non differunt tantum penes actus et aspectus, sed etiam penes id quod sunt.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e138">Item, si solum penes aspectus diversos et actus esset ibi differentia, cum ratio angeli aspiciat et superiora et inferiora, videtur quod deberet dividi in superiorem et inferiorem ; sed talis divisio in potentiis angeli non consuevit assignari ; amplius ergo differunt quam secundum actus et aspectus : ergo redit idem quod prius, quod sunt diversae potentiae secundum id quod sunt.</p>
+
+ 
+               <p xml:id="bb-l2d24p1a2q2-d1e141">Sed contra : 
+<name ref="#Augustine">Augustinus</name> dicit, XII De Trinitate : <quote xml:id="bb-l2d24p1a2q2-Qd1e146" source="http://scta.info/resource/adt-l12">Cum disserimus de natura mentis humanae, de una quadam re disserimus ; nec eam per haec duo, quae commemoravi, nisi per officia, geminamus</quote> sermo praecesserat de superiori portione rationis et inferiori : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e150">Item, <quote xml:id="bb-l2d24p1a2q2-Qd1e152" source="http://scta.info/resource/aristda-l3">anima, sicut dicit <name ref="#Aristotle">Philosophus</name>, secundum intellectum quodam modo est omnia</quote> ; sed hoc non esset nisi potentia intellectiva, cum sit una, nata esset cognoscere omnia. Si ergo dicitur ratio superior in quantum cognoscit superiora, et inferior in quantum cognoscit inferiora, ergo non est alia et alia potentia.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e159">Item, idem est habitus qui dirigit animam ad amorem Dei et proximi, utpote caritas. Ergo multo fortius eadem potentia qua convertimur ad Deum et ad proximum ; sed haec est ratio superior et inferior : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e162">Item, lux increata se habet ad creaturas sicut se habet lux solis ad colores, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro Soliloquiorum ; sed eadem est potentia sensitiva qua cognoscimus tam lucem quam colorem. Si ergo intellectiva potentia multo largior est et liberior quam potentia sensitiva, videtur quod una et eadem potentia sit qua convertatur anima ad lucem aeternam et ad haec temporalia.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a2q2-Dd1e169">
+               <head xml:id="bb-l2d24p1a2q2-Hd1e171">Conclusio</head>
+               <head xml:id="bb-l2d24p1a2q2-Hd1e174" type="question-title">Portio superior et inferior non sunt diversae potentiae, 
+        sed differunt secundum dispositiones atque officia</head>
+               <p xml:id="bb-l2d24p1a2q2-d1e177">Respondeo : Dicendum quod divisio rationis in superiorem portionem et inferiorem non est adeo per diversa membra ut haec et illa sit potentia alia et alia, sicut rationes ostendunt ad secundam partem inductae ; nec est per membra ita convenientia ut non sit in eis differentia nisi solum secundum aspectus. Est enim differentia in eis secundum dispositiones et secundum officia. Secundum dispositiones, quia haec fortis et illa debilis ; secundum officia, quia haec regit et illa regitur. Ratione diversae dispositionis in debilitate et fortitudine haec vocatur vir et illa mulier ; ratione diversitatis in officio et regimine haec vocatur superior, quia regit, et ilia inferior, quia regitur.</p>
+    
+               <p xml:id="bb-l2d24p1a2q2-d1e180">Talis autem dispositionum diversitas ortum habet, non ex diversitate naturae, sed ex diversa comparatione eiusdem potentiae. Dum enim ratio nostra ad superiora convertitur, purgatur et illuminatur et perficitur ; dum leges aeternas conspicit et immutabilitatem divinae virtutis et aequitatis, in bono fortificatur et vigoratur ; dum autem ad haec inferiora convertitur, utpote ad sensibilitatem et carnem, quodam modo trahitur et emollitur. Et ideo sunt eiusdem naturae ratio superior et inferior, differentes secundum fortitudinis et debilitatis dispositionem.
+Et quia una oritur ab altera et ei coniungitur tamquam adiatorium simile sibi, recte haec dicitur vir et illa dicitur mulier et inter eas dicitur esse coniugium.
+Diversitas autem officiorum similiter non venit ex diversitate naturarum, sed ex diversitate dispositionum. Quia enim haec fortis est et illa debilis, haec intelligens et consulens divinam voluntatem, illa vero opere exsequens, ideo haec regit et illa regitur, et ex hoc illa superior et ista inferior appellatur.
+</p>
+ 
+               <p xml:id="bb-l2d24p1a2q2-d1e183">Et sic patet quod superior portio rationis et inferior, etsi aliquo modo recte condividantur, tamen diversae potentiae non sunt - ista enim membra, videlicet superius et inferius, essentiam potentiae non variant - sed dispositiones et officia ; et hoc insinuant ipsa nomina.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a2q2-Dd1e188">
+               <head xml:id="bb-l2d24p1a2q2-Hd1e190">Ad rationes</head>
+
+               <p xml:id="bb-l2d24p1a2q2-d1e193">Ad illud ergo quod obicitur de coniugio, iam patet responsio. Hoc enim dictum est relative, non quia ratio superior et inferior sint diversae potentiae, sicut vir et mulier sunt diversae personae, sed quia, cum una ab altera educatur, natura tamen non differunt, sed sibi invicem coniunguntur quasi ad mutuum obsequium.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e196">Ad illud quod obicitur, quod haec est ad imaginem et illa non, dicendum quod, cum negamus inferiorem portionem rationis esse ad imaginem, non hoc dicimus quia imago non sit in illa potentia, sed quia non attenditur secundum conversionem illam. Unde non removetur ratio imaginis a portione inferiori secundum id quod est imago et secundum in quod est ratio, sed solum secundum comparationem superadditam.</p>
+               <p xml:id="bb-l2d24p1a2q2-d1e199">Ad illud quod obicitur, quod regens et rectum sunt opposita, dicendum quod verum est ; sed ex hoc non sequitur diversitas in spirituali potentia, in ea maxime quae nata est reflecti super se ipsam ; et talis est ratio et voluntas.
+Quod ergo obicitur, quod relative opposita non possunt esse circa idem, dicendum quod verum est secundum idem et ad idem ; cum autem aliquid comparatur ad diversa, nihil impedit in eo simul reperiri relationes mutuas sine repugnantia et oppositione.
+Praeterea, illud habet locum in relativis secundum esse et non secundum dici.</p>
+
+               <p xml:id="bb-l2d24p1a2q2-d1e202">4. Et per hoc patet responsio ad illud quod sequitur, quod nihil secundum idem agit et patitur. Hoc verum est de actione et passione physica ; de passione autem spirituali, qua dicimus idem a se moveri et regi, veritatem non habet, cum dicat <name ref="#Anselm">Anselmus</name> voluntatem esse instrumentum se ipsum movens.</p>
+
+               <p xml:id="bb-l2d24p1a2q2-d1e209">5-6. Ad duo ultima iam patet responsio. Concedo enim quod illa divisio non solum attenditur secundum diversitatem in aspectu, sed etiam in dispositione et officio, quae non reperitur in angelo vel in oculo, sicut patet per ea quae praedicta sunt. Et ista sufficiant.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

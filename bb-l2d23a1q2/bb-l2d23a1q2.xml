@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 23, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 23, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d23a1q2">
+            <head xml:id="bb-l2d23a1q2-Hd1e99">II, Distinctio 23, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d23a1q2-Hd1e102" type="question-title">Utrum Deus debuerit permittere hominem impugnari.</head>
+ 
+            <p xml:id="bb-l2d23a1q2-d1e105">Secundo quaeritur, utrum debuit Deus permittere hominem impugnari.</p>
+            <div xml:id="bb-l2d23a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d23a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d23a1q2-d1e113">Et quod sic, videtur :
+  Per illud quod dicit Magister in littera : <quote xml:id="bb-l2d23a1q2-Qd1e115" source="http://scta.info/resource/pl-l2d23c1-d1e111">Non esset laudabile bene vivere nisi esset qui male vivere suaderet</quote>. Ergo, si debuit permittere omne quod faciebat ad humanam laudem ampliandam, debuit ergo permittere hominem impugnari per suggestionem diabolicam.</p>
+               <p xml:id="bb-l2d23a1q2-d1e119">Item, secundum rectum iudicium rationis et attestationem Apostoli, II ad Timotheum 2, 5 : <quote xml:id="bb-l2d23a1q2-Qd1e121" ana="#IItim2_5">Non coronabitur, nisi qui legitime certaverit</quote>. Si ergo homo perducendus erat ad coronam gloriae, videtur ex recto ordine quod statui debuerit in conflictu tentationis et pugnae.</p>
+               <p xml:id="bb-l2d23a1q2-d1e125">Item, decet Deum sic administrare res et eis providere ut salva sit lex quam indidit eis a primaria conditione, iuxta illud <name ref="#Augustine">Augustini</name>, VII De civitate Dei : <quote xml:id="bb-l2d23a1q2-Qd1e130" source="http://scta.info/resource/adcd-l7">Sic res, quas Deus condidit, administrat, ut eas agere proprios motus sinat</quote> ; sed Deus fecit et facere debuit hominem in vertibilitate arbitrii et relinquere eum in manu consilii sui, et similiter Luciferum : ergo, si diabolus voluit hominem vexare et homo voluit ei consentire, Deus nullum illorum debuit impedire.</p>
+               <p xml:id="bb-l2d23a1q2-d1e134">Item, facilius erat homini vincere adversarium quam diabolo vincere hominem ; homo enim non poterat vinci nisi volens. Ergo pugna illa de se magis erat ordinata ad victoriam hominis quam ad victoriam diaboli : ergo magis ad bonum quam ad malum. Si ergo Deus permittere debet quod directe ad bonum hominis ordinatur, videtur quod a tentatione primi hominis adversarius non erat arcendus.</p>
+
+               <p xml:id="bb-l2d23a1q2-d1e138">Contra : Impius esset pater qui permitteret filium aggredi bellum, in quo sciret eum esse ab alio superandum ; sed Deus noverat Adam illa tentatione esse superandum : ergo videtur quod non tamquam pius pater se habuit, dum permisit eum ad diabolo superari.</p>
+               <p xml:id="bb-l2d23a1q2-d1e141">Item, non est bonus praelatus nec pastor qui permittit ovem a lupo morderi et rapi, dum potest ipsum repellere et arcere ; sed Deus praelatus et pastor hominis erat : ergo, cum videret lupum atrociter insistere, videtur quod non debuit permittere ab adversario hominem impugnari sive impeti a lupo.</p>
+               <p xml:id="bb-l2d23a1q2-d1e144">Item, non est rectus iudex qui bellum constituit inter eos qui non sunt aequaliter fortes ; sed diabolus multo fortior erat viribus per naturam quam homo cum non sit potestas super terram, quae possit ei comparari. Multo etiam erat obstinatior in malitia quam homo esset confirmatus in gratia. Si igitur Deus iudex aequus est, non debuit permittere eos invicem confligere.</p>
+               <p xml:id="bb-l2d23a1q2-d1e147">Item, non est fortis possessor qui permittit alium invadere atrium suum : cum enim fortis armatus custodit atrium suum, in pace sunt omnia quae possidet. Cum igitur homo in primo statu atrium et templum esset Dei et Dominus ipse custodiret, aut Deus non fuit fortis armatus et custos aut non debuit permitiere adversarium vexare et invadere hominem per conflictum et pugnam tentationis.</p>
+            </div>
+            <div xml:id="bb-l2d23a1q2-Dd1e151">
+               <head xml:id="bb-l2d23a1q2-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d23a1q2-Hd1e156" type="question-title">Propter plures rationes decuit Deum permittere, ut homo impugnaretur</head>
+ 
+               <p xml:id="bb-l2d23a1q2-d1e159">Respondeo : Ad praedicta dicendum est quod, cum Deus posset adversarium prohibere ne hominem tentaret, decuit tamen ipsum permittere.
+Et ratio condecentiae haberi potest ex rationibus praeassignatis in praecedenti problemate, in quo ostensum est quod Deus debuit facere hominem in libertate liberi arbitrii.</p>
+ 
+               <p xml:id="bb-l2d23a1q2-d1e162">Praeter has tamen rationes assignari potest ratio, primo ex ordine qui attenditur ex comparatione virtutis ad proprium actum. Sic enim Deus res omnes administrat ut eas agere proprios motus sinat ; et ideo tam hominem quam diabolum constituit in libertate arbitrii et in manu consilii sui reliquit, et utrumque permisit agere quod voluit, sive hunc in tentando sive illum in consentiendo. Hoc enim competebat regimini in conservatione ordinis qui attenditur ex comparatione virtutis ad actum proprium.</p>
+              <p xml:id="bb-l2d23a1q2-d1e165">Secundo vero sumitur ratio ex ordine qui attenditur per comparationem boni ad suum oppositum, in quo gloriosior et laudabilior ostenditur virtus, sive ex ipsa praedicta comparatione, ob quam relucet et magis apparet, sive ex cuiusdam nobilis triumphi assecutione, ob quam fortificatur et vigoratur. Ideo, ut virtus hominis reluceret et proficeret, decuit Deum permittere ipsum ab adversario impugnari, quia vel tunc vel post ex ipsa tentationis impulsione manifestanda erat fortitudo et eminentia caritatis, de qua dicit Apostolus : quod <quote xml:id="bb-l2d23a1q2-Qd1e167" ana="#rom8_38">neque mors neque vita neque principatus neque potestates ab ea poterunt separare</quote>, ad Romanos 8, 38.</p>
+               <p xml:id="bb-l2d23a1q2-d1e172">Tertio potest sumi ratio ex ordine qui attenditur ex comparatione morbi ad suum remedium. Quia enim peccatum hominis non debebat carere remedio, propter hoc quod tota in ipso humana natura erat, sic debuit Deus hominem permittere peccare, quod deceret ipsum eidem Redemptorem praestare. Et ideo magis disposuit Deus permittere hominem peccare, alio suggerente et impellente, quam voi luntate propria incurvante, qua fortassis incurvatione homo cecidisset, etsi nunquam adversarius pestifera suggessisset.</p>
+               <p xml:id="bb-l2d23a1q2-d1e175">Quarta ratio sumi potest ex ordine qui attenditur per comparationem meriti ad praemium. Quia enim nemo dignus est coronari nisi qui certat legitime, ideo decuit Deum hominem militem suum in campo certaminis prius examinare, quam ipsum in gloria exaltare ; et quia examinatio consistit in conflictu et pugna, permittere debuit hominem a diabolo impugnari.
+Sunt et aliae rationes quae possunt de hoc ipso reddi, ad praesens tamen istae sufficiant.</p>
+            </div>
+            <div xml:id="bb-l2d23a1q2-Dd1e180">
+               <head xml:id="bb-l2d23a1q2-Hd1e182">Ad rationes</head>
+               <p xml:id="bb-l2d23a1q2-d1e185">Ad illud autem quod primo obicitur in contrarium de pietate paterna, dicendum quod, etsi Deus sit pater pius, est tamen iudex aequus ; et ideo sic decebat Deum erga hominem pietatem paternam ostendere, ut tamen non omitteret officium potestatis iudiciariae ; et ideo, quidquid de homine praenosset, sustinere debuit ipsum ab adversario impeti tentationis bello.</p>
+               <p xml:id="bb-l2d23a1q2-d1e188">Ad illud quod obicitur de bonitate praelationis, dicendum quod praelatus debet ovem a morsu lupi eripere, sive quia ad hoc tenetur ex lege caritatis sive quia ex malo nescit et ideo non potest elicere bonum maioris utilitatis. Utriusque horum oppositum reperitur in Deo, si quis attendat ; et ideo illa ratio non cogit in proposito.</p>
+               <p xml:id="bb-l2d23a1q2-d1e191">Ad illud quod obicitur de rectitudine iudicis, dicendum quod, etsi diabolus fortior et astutior esset quam homo, in pugna tamen tentationis non erat fortior, immo multo debilior, sive ex generali lege tentationis, qua nemo vincitur nisi volens, sive ex fidelitate Dei, qui non permittit aliquem tentari supra id quod possit, immo facit cum tentatione proventum. Et ideo impulsus tentationis primariae, cum fieret et servata Dei fidelitate et tentationis lege, non fuit contra ordinem potestatis iudiciariae.</p>
+               <p xml:id="bb-l2d23a1q2-d1e194">Ad illud quod obicitur de fortitudine armati custodientis, dicendum quod, etsi Deus hominem fortiter custodiret, non tamen custodiebat invitum sive involuntarium, quia non acceptat Deus servitium coactum, sed liberale et voluntarium. Et ideo, si homo cum Deo stare voluisset, nullus violenter de manu Dei eum auferre potuisset ; sed quia ipse ab eius custodia se subtraxit, ideo Deus suam ei custodiam denegavit, et ex hoc adversarius eum invasit, immo non ex defectu Dei custodientis, sed ex ingratitudine hominis custoditi.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

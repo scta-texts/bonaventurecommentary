@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 16, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 16, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d16a2q2">
+            <head xml:id="bb-l2d16a2q2-Hd1e99">II, Distinctio 16, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d16a2q2-Hd1e102" type="question-title">Utrum imago principalius sit in masculo quam in femina.</head>
+ 
+            <p xml:id="bb-l2d16a2q2-d1e105">Secundo quaeritur, utrum principalius sit imago in masculo quam in femina.</p>
+            <div xml:id="bb-l2d16a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d16a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d16a2q2-d1e113">
+        Et quod sic, videtur. I ad Corinthios 11, 7 : <quote xml:id="bb-l2d16a2q2-Qd1e115" ana="#Icor11_7">Vir est imago et gloria Dei</quote>. Hoc autem, ut dicit Apostolus, separat virum a muliere : ergo aut mulier noti est imago aut si est imago, non est ita expressa sicut vir.</p>
+               <p xml:id="bb-l2d16a2q2-d1e119">2. Item, Glossa ibidem : <quote xml:id="bb-l2d16a2q2-Qd1e121">Ad imaginem Dei factus est vir, non mulier</quote> ; sed hoc non est dictum quod mulier nullo modo sit ad imaginem facta : ergo dictum est quia minus est ad imaginem quam vir.</p>
+               <p xml:id="bb-l2d16a2q2-d1e125">3. Item, quia homo est ad imaginem, unibilis est naturae divinae ; sed magis fuit unibilis in sexu masculino quam feminino : ergo magis est imago vir quam mulier.</p>
+               <p xml:id="bb-l2d16a2q2-d1e128">4. Item, quia homo est imago Dei, omnibus est praelatus sive praepositus, secundum quod innuitur in textu, Genesis 1, 26 : <quote xml:id="bb-l2d16a2q2-Qd1e130" ana="#gen1_26">Faciamus hominem ad imaginem</quote> etc., et subditur : Et praesit piscibus etc. : ergo si praesidere non convenit homini in sexu femineo sed masculino, videtur quod imago excellentiori modo sit in masculino sexu quam in feminino.</p>
+
+ 
+               <p xml:id="bb-l2d16a2q2-d1e135">Contra : Genesis, : <quote xml:id="bb-l2d16a2q2-Qd1e137" ana="#gen1_27">Creavit Deus hominem ad imaginem et similitudinem suam, masculum et feminam creavit illos</quote> ; si igitur mulier creata est ad imaginem Dei et ad aequalitatem viri - sicut innuit formatio eius de latere, et ratio etiam quare formata est, cum dicitur : Faciamus adiutorium simile sibi - videtur ergo quod in viro et muliere aequaliter reperiatur ratio imaginis.</p>
+               <p xml:id="bb-l2d16a2q2-d1e141">2. Item, imago attenditur in homine quantum ad supremum animae ; sed in supremo animae non est distinctio aliqua secundum sexum : ergo sive homo sit mulier sive vir, aequaliter est imago.</p>
+               <p xml:id="bb-l2d16a2q2-d1e144">3. Item, sexus non variat speciem : ergo vir et mulier sunt eiusdem speeiei ; sed imago consequitur hominem quantum ad formam speciei, non quantum ad formam individui : ergo aequaliter est in viro et muliere,</p>
+               <p xml:id="bb-l2d16a2q2-d1e147">4. Item, imago creationis ordinatur ad imaginem recreationis sive gratificationis ; sed imago recreationis, quae consistit in gratia et virtutibus, ita excellenter potest esse in muliere sicut in viro : ergo pari ratione et imago creationis in qua conditus est homo.</p>
+            </div>
+            <div xml:id="bb-l2d16a2q2-Dd1e151">
+               <head xml:id="bb-l2d16a2q2-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d16a2q2-Hd1e156" type="question-title">Ratio imaginis non est magis in viro quam in muliere quoad primum esse, 
+      sed tantum quoad accidentalem proprietatem</head>
+ 
+               <p xml:id="bb-l2d16a2q2-d1e159">Respondeo : Ad praedictorum intelligentiam est notandum quod, sicut ex praecedentibus patet, imago quantum ad suum esse principaliter consistit in anima et eius potentiis, et in his potissime prout habent ad Deum converti ; et quantum ad hoc non est distinctio masculi et feminae, servi et liberi. Ideo imago, quantum ad id quod est de complemento eius et de eius esse, non magis reperitur in viro quam in muliere.
+Quantum autem ad bene esse sive ad clariorem expressionem, consistit magis in anima, secundum quod ad corpus habet ordinem et habitudinem. Et quoniam ex parte corporis est sexuum distinctio, et secundum sexuum distinctionem maior est repraesentatio sive quantum ad rationem praesidendi sive quantum ad rationem principiandi, quia vir est caput mulieris et vir est principium mulieris, et non vir propter mulierem sed mulier propter virum : quantum ad hunc utique modum excellentiori modo reperitur imago in sexu masculino quam feminino, non ratione eius quod est de esse ipsius imaginis, sed ratione ipsius quod adiacet. Et secundum hoc satis plane potest responderi ad obiecta.</p>
+ 
+               <p xml:id="bb-l2d16a2q2-d1e162">Rationes enim ostendentes quod non magis est imago vir quam mulier, procedunt de imagine quantum ad suum primum esse, sicut intuenti patet. Rationes vero ad oppositum procedunt de imagine quantum ad aliquam accidentalem proprietatem sive per relationem ad corpus.</p>
+            </div>
+            <div xml:id="bb-l2d16a2q2-Dd1e167">
+               <head xml:id="bb-l2d16a2q2-Hd1e169">Ad rationes</head>
+               <p xml:id="bb-l2d16a2q2-d1e172">1-2. Ad illud autem quod dicit Apostolus et Glossa, quod <quote xml:id="bb-l2d16a2q2-Qd1e174">vir est imago et gloria Dei</quote>, dicendum quod vir accipitur metaphorice pro superiori parte rationis, et mulier pro inferiori, sicut exponit <name ref="#Augustine">Augustinus</name>, XII De Trinitate. Et si tu obicias quod Apostolus loquitur de viro et muliere ad litteram, dicendum quod loquitur de eis non secundum se, sed secundum significationem. Vir enim, quia fortis est et praesidet mulieri, superiorem portionem rationis significat, mulier vero inferiorem. Unde etiam est in matrimonio quod vir significat Deum et mulier significat Ecclesiam sive animam. Hoc autem est ratione virilitatis ex parte una et infirmitatis sive fragilitatis ex altera, quae non respiciunt imaginem secundum se sed ratione corporis annexi, et ita non essentialiter sed accidentaliter.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

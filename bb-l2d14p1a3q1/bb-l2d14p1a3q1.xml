@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 1, A. 3, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 1, A. 3, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p1a3q1">
+            <head xml:id="bb-l2d14p1a3q1-Hd1e99">II, Distinctio 14, P. 1, A. 3, Q. 1</head>
+            <head xml:id="bb-l2d14p1a3q1-Hd1e102" type="question-title">Utrum caelum immediate moveatur a Deo.</head>
+ 
+            <p xml:id="bb-l2d14p1a3q1-d1e105">Circa primum sic proceditur et ostenditur, quod caelum immediate moveatur a Deo :</p>
+
+            <p xml:id="bb-l2d14p1a3q1-d1e108">Primo per <name ref="#Aristotle">Philosophum</name>, qui, in II De Caelo et mundo, dicit : <quote xml:id="bb-l2d14p1a3q1-Qd1e113">Causa prima movet causatum primum</quote> ; causa autem prima non est nisi Deus : ergo etc.</p>
+            <p xml:id="bb-l2d14p1a3q1-d1e117">Item, <name ref="#Boethius">Boethius</name>, De Consolatione, loquens ad Dominum :
+<quote xml:id="bb-l2d14p1a3q1-Qd1e122">Stabilisque manens das cuncta moveri :</quote>
+ergo videtur quod maxime moveat illud quod est primum mobile ; hoc autem est caelum : ergo etc.</p>
+
+            <p xml:id="bb-l2d14p1a3q1-d1e127">3. Item, ratione videtur. Primi mobilis motor debet esse primus ; sed primus motor est immobilis omnino, quia nunquam est status nisi in immobili ; sed nihil est omnino primum et immobile nisi solus Deus : ergo motus primi mobilis solus Deus est principium.</p>
+            <p xml:id="bb-l2d14p1a3q1-d1e130">4. Item, ex motu et influentia caelestis corporis est conservatio omnium corporum viventium : ergo ex motore eius erit conservatio omnium spirituum vivificantium, quia, sicut se habet mobile ad mobile sic se habet motor ad motorem ; sed solus Deus est ille qui est conservator et vivificator spirituum : ergo solus ipse movet primum caelum.</p>
+
+            <p xml:id="bb-l2d14p1a3q1-d1e133">Sed contra : Immensitas potentiae et sapientiae et bonitatis hoc requirit, ut Deus communicet virtuti creatae actum, quem illa est nata suscipere ; sed actus, qui est movere secundum locum quodcumque corpus, est natus convenire virtuti creatae : ergo videtur quod Deus nullum corpus moveat absque virtute alicuius creaturae.</p>
+            <p xml:id="bb-l2d14p1a3q1-d1e136">Item, virtus motoris debet proportionari mobili ; sed virtus caeli finita est, virtus autem Dei infinita est : ergo ad hoc quod salvetur in mundo proportio debita, videtur quod inter Deum moventem et caelum motum sit ponere aliquam virtutem creatam et finitam.</p>
+            <p xml:id="bb-l2d14p1a3q1-d1e139">Item, <name ref="#Aristotle">Philosophus</name> dicit, quod si tanta virtus movet in tanto tempore et maior in minori et maxima in minimo et infinita in nunc : ergo si Deus infinitae virtutis est et ipse immediate movet caelum, videtur quod in instanti revolvat ipsum ab oriente in occidens, quod manifeste falsum est. Si tu dicas, quod Deus in movendo non exercet totius virtutis suae effectum, quia cum sit movens voluntarium, potest movere et cito et tarde, tunc redit prima obiectio, quia, cum actus iste, scilicet movere successive, sit virtutis finitae, erit natus convenire creaturae.</p>
+            <p xml:id="bb-l2d14p1a3q1-d1e145">Item, ea quae sunt immediate a divina potentia, procedunt, in esse secundum cursum mirabilem, ut patet in creatione et iustificatione et miraculorum operatione : ergo si caelum immediate movetur a Deo, motus eius est mirabilis, non naturalis ; quodsi est naturalis, non ergo est a Deo immediate.</p>
+
+            <div xml:id="bb-l2d14p1a3q1-Dd1e149">
+               <head xml:id="bb-l2d14p1a3q1-Hd1e151">Conclusio</head>
+               <head xml:id="bb-l2d14p1a3q1-Hd1e154" type="question-title">Deus movet primum mobile mediante aliqua virtute creata, 
+    cui ipse immediate cooperatur</head>
+
+               <p xml:id="bb-l2d14p1a3q1-d1e157">Respondeo : Ad praedictorum intelligentiam est notandum quod in omni operatione Deus operatur intime et immediate, cum Dei voluntas, sicut dicit <name ref="#Augustine">Augustinus</name>, et habitum est in primo libro, sit prima et summa causa omnium specierum et motionum. In aliquibus autem sic operatur, ut ipse sit tota causa ; in aliquibus sic operatur et movet, ut virtutem agendi et movendi communicet creaturae. Et prima quidem dicuntur mirabilia, secunda vero naturalia vel voluntaria quantum ad egressum.</p>
+               <p xml:id="bb-l2d14p1a3q1-d1e163">Quando ergo quaeritur, utrum motus primi mobilis immediate sit a Deo, non est quaestio, utrum virtus divina intime operetur et immediate ad illam mutationem exercendam, quia sic nihil movetur, nisi ipse moveat et cooperetur virtuti motivae ; sed est quaestio, utrum motus primi mobilis sit a Deo tamquam a tota causa, an simul cum virtute divina movente moveat aliqua virtus creata.
+Et ad istam quaestionem satis de plano responderi potest, quod cum motus ille sit natus convenire virtuti finitae propter sui successionem, et divina bonitas ad sui manifestationem communicet creaturae quod ipsa nata est suscipere, quod Deus primum mobile movet mediante aliqua virtute creata, sicut et alia mobilia.
+Et concedendae sunt rationes ad hoc inductae, quamvis aliquae non necessario cogant.</p>
+
+               <p xml:id="bb-l2d14p1a3q1-d1e166">1. Ad illud vero quod obicitur de <name ref="#Aristotle">Philosopho</name>, dici posset satis probabiliter, quod <name ref="#Aristotle">Philosophus</name> non intellexit, quod primi orbis motor per modum efficientis esset Deus. Ipse enim ponit virtutem motoris adeo proportionari mobili, quod si minimum vel modicum corpus apponeretur corpori, lassaretur virtus motoris in movendo, sicut dicit in libro De caelo et mundo. Sed ponit quod Deus moveat primum causatum metaphorice sicut finis et desideratum ; aut si ponit quod moveat per modum efficientis, non ponit quod ipse solus moveat sed cooperante virtute mobili proportionata. Unde verbum suum potest intelligi esse dictum per quamdam appropriationem et primariam influentiae suae susceptionem.</p>
+               <p xml:id="bb-l2d14p1a3q1-d1e176">Ad illud quod obicitur de <name ref="#Boethius">Boethio</name>, quod Deus cuncta movet, dicendum quod ex illa auctoritate non concluditur quod solus Deus moveat sed quod non moventur absque divinae virtutis influentia. Nulla enim virtus alicuius motoris potest vel modicum operari sine beneficio et auxilio eius qui penitus est immobilis, sicut in primo libro ostensum fuit et in sequentibus ostendetur, cum quaeritur, utrum omnis actio sit a Deo.</p>
+               <p xml:id="bb-l2d14p1a3q1-d1e182">3. Ad illud quod obicitur, quod motor primi mobilis est primus et immobilis, dicendum quod non oportet motorem primi mobilis esse omnimode primum vel omnimode immobilem ; sed sufficit quod sit primus respectu aliorum motorum sive virtutum moventium, et quod sit immobilis secundum eum modum per quem movet. Non enim oportet esse statum in motore primi mobilis simpliciter sed in genere creaturarum. Omnes autem creaturae defectivae sunt et reducuntur ad ipsum Deum, qui est principium et finis omnium, citra quem nec est perfecta quies nec perfectus status.</p>
+               <p xml:id="bb-l2d14p1a3q1-d1e185">4. Ad illud quod obicitur quod sicut influentia mobilis conservat mobilia, ita influentia motoris motores alios, dicendum quod illud non oportet, quia non est consimilis proportio, pro eo quod ordo est in corporibus mundi secundum tantam praedominantiam et excellentiam, quod unum potest simpli| citer influere in alterum. Spiritus vero rationales, qui sunt vivificatores et motores corporum, sic habent gradum et ordinem, ut tamen secundum suum supremum a Deo immediate perficiantur et formentur ; et hoc est propter rationem imaginis, per quam immediate sunt ipsius Dei capaces.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

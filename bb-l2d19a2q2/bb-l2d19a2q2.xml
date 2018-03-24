@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 19, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 19, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d19a2q2">
+            <head xml:id="bb-l2d19a2q2-Hd1e99">II, Distinctio 19, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d19a2q2-Hd1e102" type="question-title">Utrum, Adam peccante, corpus eius posset perpetuari per esum ligni vitae.</head>
+            <p xml:id="bb-l2d19a2q2-d1e105">Secundo quaeritur, utrum, Adam peccante, corpus eius posset perpetuari per esum ligni vitae.</p>
+            <div xml:id="bb-l2d19a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d19a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d19a2q2-d1e113">Et quod sic, videtur : 1. Primo per textum Genesis tertio: <quote xml:id="bb-l2d19a2q2-Qd1e115" ana="#gen3_22">Nunc ergo ne forte sumat de ligno vitae et vivat in aeternum</quote> ; hoc dictum est de Adam post peccatum : ergo si post peccatum sumsisset, in aeternum vixisset et corpus eius perpetuum fuisset.</p>
+               <p xml:id="bb-l2d19a2q2-d1e119">2. Item, hoc ipsum videtur per Richardum de sancto Victore, qui de Adam ait sic : Habuit ante peccatum corruptibilitatem, post peccatum corruptionem ; sed utroque modo per esum ligni vitae potuit sustentari.</p>
+               <p xml:id="bb-l2d19a2q2-d1e122">3. Item, hoc probatur per experimentum. Henoch enim et Elias, sicut dicunt Glossa et auctoritates Sanctorum, in paradiso conservantur per esum ligni vitae usque ad antichristi adventum ; sed qua ratione usque ad illud tempus conservari possunt, eadem ratione et deinceps : ergo pari ratione et corpus Adae.</p>
+               <p xml:id="bb-l2d19a2q2-d1e125">4. Item, non fuit maioris efficaciae lignum scientiae boni et mali ad corpus perdendum quam lignum vitae ad conservandum ; sed per esum illius ligni corpus hominis factum est dissolubile : ergo pari ratione per esum alterius ligni poterat corpus corruptibile solidari et perpetuari, sicut econtra alterius ligni comestio corpus sanum et solidum reddidit dissolubile et infirmum.</p>
+               <p xml:id="bb-l2d19a2q2-d1e129">5. Item, post peccatum si spiritus hominis iungeretur fonti vitae, disponeretur ad perpetuam beatitudinem et vitam immortalem : ergo si lignum vitae corporale sic se habebat ad corpus servandum sicut lignum vitae spirituale se habet ad spiritum, videtur quodsi homo poenituisset et de ligno vitae gustasset, quod corpus eius esset factum indissolubile.</p>
+               <p xml:id="bb-l2d19a2q2-d1e132">6. Item, homo bene complexionatus, si non habet impedimentum extrinsecum, vivere potest usque ad consumtionem humidi radicalis. Si igitur illud humidum posset restaurari, posset corpus eius in perpetuum incorruptum servari : si ergo illud lignum vitae, sicut dicunt doctores, habebat vlrn restaurandi humidum radicale, videtur quodsi homo de illo comedisset, quod corpus eius in aeternum posset durare, etiam post commissionem culpae.</p>
+
+               <p xml:id="bb-l2d19a2q2-d1e135">Sed contra : Ad Romanos sexto : <quote xml:id="bb-l2d19a2q2-Qd1e137" ana="#rom6_23">Stipendia peccati mors</quote> ; ergo si, postquam homo peccavit, necessarium fuit ipsum peccasse, necessarium fuit ipsum mori : ergo necessarium fuit corpus eius dissolvi : ergo non poterat perpetuari per esum alicuius ligni.</p>
+               <p xml:id="bb-l2d19a2q2-d1e141">2. Item, sententia data fuit, Genesis secundo: <quote xml:id="bb-l2d19a2q2-Qd1e143" ana="#gen2_17">Quacumque die comederitis</quote> etc. Si ergo illam sententiam nulla virtus creata potest infirmare, quantumcumque homo comederet de ligno vitae, necesse erat ipsum mori et corpus eius resolvi. Et hoc hoc ipsum dicit alius textus, Genesis 3, 19 : Pulvis es, et in pulverem etc.</p>
+               <p xml:id="bb-l2d19a2q2-d1e147">3. Item, homo per peccatum <quote xml:id="bb-l2d19a2q2-Qd1e149" ana="#ps48_13">similis factus est iumentis insipientibus</quote> ; sed iumenta si comederent de ligno vitae, non propter hoc corpora eorum fierent indissolubilia : ergo si homo, quantum ad conditionem mortis, iumentis similis effectus est per culpam, quantumcumque de ligno vitae comederet, corpus eius dissolvi necesse esset.</p>
+               <p xml:id="bb-l2d19a2q2-d1e153">4. Item, non minus est de mortali immortalem facere quam de mortuo vivum ; sed mortuum suscitare hoc est virtutis solius Dei et virtutis infinitae : ergo corpus dissolubile ad indissolubile reducere, hoc est solius virtutis divinae : ergo si homo post peccatum de illo ligno comederet, corpus eius nihilominus dissolvi esset necesse.</p>
+
+            </div>
+            <div xml:id="bb-l2d19a2q2-Dd1e157">
+               <head xml:id="bb-l2d19a2q2-Hd1e159">Conclusio</head>
+               <head xml:id="bb-l2d19a2q2-Hd1e162" type="question-title">Esus ligni vitae post peccatum non potuisset Adam reddere immortalem</head>
+               <p xml:id="bb-l2d19a2q2-d1e165">Respondeo : Dicendum quod eadem lege, qua divina iustitia non patitur innocentem puniri et mori, non patitur etiam malum remanere impunitum. Et ideo divinum decretum fuit ut, si homo mandatum Dei transgrediendo peccaret et ipsi Auctori suo inobediens existeret, spiritus carnis dominium amitteret ; et sicut voluntas a Deo recesserat, sic anima invita corpus ipsum desereret, et dissolutum in suam originem, unde sumtum erat, rediret. Et quoniam divinum decretum erat inviolabile, hinc est quod postquam homo peccavit, quantumcumque de ligno vitae ederet, corpus eius non fieret indissolubile, ita quod mortem posset evadere.
+Ideo concedendae sunt rationes hoc ostendentes.
+</p>
+            </div>
+            <div xml:id="bb-l2d19a2q2-Dd1e170">
+               <head xml:id="bb-l2d19a2q2-Hd1e172">Ad rationes</head>
+
+               <p xml:id="bb-l2d19a2q2-d1e175">1. Ad illud quod primo obicitur in contrarium de textu, dicendum quod aeternum non dicit ibi vitae interminabilitatem, sed vitae quamdam diuturnitatem, quo modo saepe consuevit loqui Scriptura. Quamvis autem lignum vitae illud corpus non posset perpetuare, poterat tamen adeo naturam ipsius adiuvare et vigorare ut diutius viveret.</p>
+
+               <p xml:id="bb-l2d19a2q2-d1e178">2-3. Et per hoc patet responsio ad duo sequentia, scilicet ad verbum Richardi et ad illud quod obicitur de Henoch et Elia. Utrumque enim non concludit vitae interminabilitatem, sed solum quamdam diuturnitatem, quam etsi lignum vitae posset homini lapso conferre per sibi divinitus collatam virtutem, non tamen poterat in aeternum conservare, quia divinum decretum infirmare non poterat, et corpus hominis peccantis ad hoc post peccatum habile non erat, et illud lignum in solo eo quod dispositionem habebat ad eius effectum, efficaciam habebat.</p>
+
+               <p xml:id="bb-l2d19a2q2-d1e181">4. Ad illud quod obicitur per simile de ligno scientiae boni et mali, dicendum quod illud simile deficit dupliciter. Primum, quia illud lignum scientiae boni et mali non fecit corpora illa esse dissolubilia, sed solum hominis culpa et divina sententia. Secundo vero, quia corpus Adae, antequam peccaret, nec habebat necessitatem ad permanendum nec necessitatem ad corrumpendum ; sed postquam homo peccavit, corpus eius subiectum fuit necessitati moriendi, et ideo per esum ligni vitae non poterat conservari.</p>
+               <p xml:id="bb-l2d19a2q2-d1e184">5. Ad illud quod obicitur de coniunctione spiritus ad fontem vitae spiritualis etc., dicendum quod illud simile deficit dupliciter. Primo quidem quia voluntas facilius vertitur et revertitur quam natura. Secundo vero, quia fons vitae spiritualis multo potentior est super animam quam illud lignum esset super corpus ; et ideo non sequitur quodsi divinus Spiritus recreat et vivificat animam, quod lignum vitae reformet et consolidet corpus in statum pristinum.</p>
+               <p xml:id="bb-l2d19a2q2-d1e188">6. Ad illud quod obicitur, quod lignum vitae restauraret humidum radicale, dicendum quod etsi per sui esum sufficienter restauraret humidum in corpore hominis secundum statum naturae institutae, nunquam tamen in statu naturae lapsae sic restauraret quin semper aliqua deperditio fieret ; et ita, quamvis diutius conservaret, nihilominus tamen aliquando illud radicale humidum deficeret et corpus ad dissolutionem perveniret.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

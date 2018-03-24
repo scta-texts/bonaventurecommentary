@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 22, A. 2, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 22, A. 2, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d22a2q1">
+            <head xml:id="bb-l2d22a2q1-Hd1e99">II, Distinctio 22, A. 2, Q. 1</head>
+            <head xml:id="bb-l2d22a2q1-Hd1e102" type="question-title">Utrum peccatum primorum parentum fuerit ex ignorantia.</head>
+ 
+            <p xml:id="bb-l2d22a2q1-d1e105">Circa primum sic proceditur et ostenditur quod peccatum primorum parentum fuit ex ignorantia, ad minus peccatum mulieris.</p>
+            <div xml:id="bb-l2d22a2q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d22a2q1-Hd1e110">Rationes principales</head>
+
+               <p xml:id="bb-l2d22a2q1-d1e113">Genesis 3, 13 : <quote xml:id="bb-l2d22a2q1-Qd1e115" ana="#gen3_13">Serpens seduxit me</quote> etc. ; sed ubi est seductio, ibi est scientiae privatio ; ubi autem hoc est, ibi est ignorantia : ergo etc.</p>
+               <p xml:id="bb-l2d22a2q1-d1e119">Item, qui dubitat de aliquo de quo debet esse certus, potius dicitur illud ignorare quam scire ; sed mulier de verbo Domini debuit esse certa, quod dixerat : Quacumque die comederis, morte morieris, et de hoc dubitavit, cum dixit : Ne forte moriamur. Ergo ex ignorantia peccasse videtur.</p>
+               <p xml:id="bb-l2d22a2q1-d1e122">Item, qui credit mortale peccatum esse veniale, ignorat veritatem iuris divini ; sed Adam credidit peccatum illud esse veniale, sicut dicit <name ref="#Augustine">Augustinus</name> et Magister adducit in littera : Arbitratus est illud esse veniale, non mortale delictum. Ergo videtur quod tam vir quam mulier peccaverintex ignorantia.</p>
+               <p xml:id="bb-l2d22a2q1-d1e128">Item, omne peccatum aut est ex ignorantia aut est ex infirmitate aut est ex malitia. Sed peccatum primorum parentum non fuit ex malitia, quia tunc esset peccatum in Spiritum sanctum ; nec ex infirmitate, quia nullam habebant pronitatem ad peccandum : ergo fuit ex ignorantia.</p>
+               <p xml:id="bb-l2d22a2q1-d1e132">Item, si Adam et Eva credidissent Deum. tam graviter offendere et tantas poenalitates incurrere, cum nullam haberent ad peccatum pronitatem, nullo modo videtur quod culpam commisissent. Si ergo culpam commiserunt, videtur quod hoc ignoraverunt, et ita ex ignorantia peccaverunt.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q1-Dd1e136">
+ 
+               <p xml:id="bb-l2d22a2q1-d1e138">Sed contra :
+1. Si peccaverunt ex ignorantia, aut illa ignorantia fuit poena aut culpa. Si culpa, ergo culpa fuit in eis ante primam culpam, quod est impossibile, cum implicentur hic duo opposita. Si poena, ergo poena fuit ante culpam.</p>
+               <p xml:id="bb-l2d22a2q1-d1e141">2. Item, si fuit ibi ignorantia, aut ergo iuris aut facti. Non facti, quia bene sciebant se de ligno vetito comedere. Non iuris, quia bene sciebant se debere Deo obedire et contra eius imperium nullo modo facere. Nulla ergo videtur in eis ignorantia fuisse.</p>
+               <p xml:id="bb-l2d22a2q1-d1e144">3. Item, si fuit ibi ignorantia, aut ergo voluntaria aut involuntaria. Si voluntaria, ergo videtur quod iam voluntas eorum in appetendo ignorantiam esset inordinata. Si involuntaria, ergo videtur quod nullo modo debuit eis imputari culpa. Si ergo est imputata, non videtur quod fuisset ex aliqua ignorantia.</p>
+               <p xml:id="bb-l2d22a2q1-d1e147">4. Item, si fuit ex ignorantia, aut ergo innata aut contracta aut inflicta aut procurata. Non ex procurata nec contracta nec inflicta : ergo fuit ex ignorantia innata. Sed non decebat Deum facere naturam humanam cum pronitate et impotentia : ergo pari ratione non debuit eam facere cum caecitate et ignorantia. Si ergo ex ignorantia peccaverunt, videtur quod hoc possit imputari Deo.</p>
+               <p xml:id="bb-l2d22a2q1-d1e150">5. Item, si aliquo modo dicitur ex ignorantia peccasse mulier, hoc est quia a serpente seducta fuit ; sed vir non fuit seductus, sicut dicit Apostolus : ergo ex ignorantia peccatum eius non processit. Si ergo radix peccati in viro et muliere non fuit altera et altera, videtur etiam quod nec mulier peccaverit ex ignorantia.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q1-Dd1e155">
+               <head xml:id="bb-l2d22a2q1-Hd1e157">Conclusio</head>
+               <head xml:id="bb-l2d22a2q1-Hd1e160" type="question-title">Peccatum Evae et etiam Adae fuit ex quadam ignorantia, accepta in sensu largo</head>
+               <p xml:id="bb-l2d22a2q1-d1e163">Respondeo : Dicendum quod peccatum esse ex ignorantia potest dici dupliciter, videlicet proprie et communiter. Proprie, prout distinguitur peccatum ex ignorantia contra peccatum ex infirmitate et ex industria ; et hoc modo ignorantia dicit privationem scientiae, quae non competit homini ex natura, sed merito primae culpae fuit contracta. Et hoc modo peccatum primorum parentum non potest dici ex ignorantia nec continetur sub ilia divisione qua dicitur quod omne peccatum aut est ex ignorantia aut etc. Illa enim divisio peccati est secundum statum naturae lapsae.
+Communiter autem dicitur peccatum esse ex ignorantia, quod committitur aliqua nescientia existente circa peccantem, ratione cuius nec considerat gravitatem culpae nec gravitatem poenae. Et sic peccatum primorum parentum ex ignorantia dici potest fuisse, quia tam in viro quam in muliere fuit quaedam nescientia, quae non fuit poena, sed quaedam naturalis imperfectio, magis reperta in muliere quam in viro. Mulier enim ignoravit utrum serpens sibi verum vel falsum suggereret ; ignoravit etiam severitatem divinae iustitiae. Vir autem alterum horum dicitur ignorasse, videlicet divinae iustitiae severitatem, in hoc quod aestimavit de illa transgressione cito veniam invenire : inexpertus enim erat severitatem divinae iustitiae. Uterque tamen cognoscere potuit per scientiam quam habebat se male facere.
+</p>
+ 
+               <p xml:id="bb-l2d22a2q1-d1e166">Et sic large accipiendo ignorantiam dici potest peccatum primorum parentum fuisse ex ignorantia, et magis peccatum Evae quam Adae. Et hoc concludunt rationes ad primam partem inductae.
+Proprie vero accipiendo ignorantiam, secundum quod dicit poenam, et hoc est prout dicit nescientiam eius rei quam homo deberet scire secundum exigentiam, sic peccatum primorum parentum non fuit ex Ignorantia, sicut ostendunt rationes adductae ad partem contrariam ; et hoc patet discurrendo per singulas.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q1-Dd1e170">
+               <head xml:id="bb-l2d22a2q1-Hd1e172">Ad rationes</head>
+               <p xml:id="bb-l2d22a2q1-d1e175">Quod enim obicitur, quod ignorantia aut est poena aut culpa, dici potest quod ista divisio non est sufficiens, nisi accipiatur ignorantia proprie. Nam non solum homo primo institutus, sed etiam angelus beatus aliqua ignorat, cum multa innotescant Principatibus et Potestatibus per Ecclesiam. Unde talis ignorantia nec culpa nec poena est, quia est respectu horum quae non debet scire, quantum est de prima conditione naturae.</p>
+               <p xml:id="bb-l2d22a2q1-d1e178">Ad illud quod obicitur, quod aut fuit ignorantia iuris aut facti, dicendum quod non fuit ibi, proprie loquendo, ignorantia iuris quantum ad principale, sed quantum ad aliquid annexum, utpote quantum ad severitatem iudicis. Similiter non fuit ibi ignorantia facti quantum ad principale, quia bene sciebant se gustare lignum vetitum. Fuit tamen in muliere quaedam ignorantia quantum ad illud quod crebebat assequi per illud, videlicet assimilationem ad Deum ; et ita non fuit ibi ignorantia proprie dicta, sed communiter.</p>
+               <p xml:id="bb-l2d22a2q1-d1e181">Ad illud quod obicitur, quod ignorantia aut erat voluntaria aut involuntaria, dicendum quod ista non est divisio per immediata, si iarge accipiatur ignorantia. Aliquis enim est qui nihil cogitat de eo quod ignorat, et tunc nec circa illud afficitur voluntarie nec involuntarie ; et sic erat de illa ignorantia Evae.</p>
+               <p xml:id="bb-l2d22a2q1-d1e184">Ad illud quod obicitur, quod aut erat innata aut contracta etc., dicendum quod illa ignorantia dicebat quamdam scientiae incompletionem et imperfectionem, quae inerat animabus primorum parentum ex defectu propriae naturae per hoc quod animae eorum non erant in omnimoda lucis plenitudine. In tali autem statu decuit sic hominem fieri, quia, sicut infra patebit, prius debuit esse viator quam comprehensor. Nec tamen ex illa ignorantia dicitur homo fuisse in tenebris vel in caecitate, quia sufficiens lumen habebat ad incedendum per viam iustitiae ; et ideo non est similede pronitate. Pronitas enim non solummodo dicit imperfectionem, sed etiam quamdam naturae curvationem, ac per hoc deordinationem.</p>
+               <p xml:id="bb-l2d22a2q1-d1e188">Ad illud quod ultimo obicitur, quod vir non peccavit ex ignorantia, quia non fuit seductus, dicendum quod non solummodo mulier ignorasse dicitur propter seductionem, sed etiam quia ignoravit poenae subsequentis acerbitatem. Et licet in Adam non fuerit ignorantia illius seductionis, fuit tamen ignorantia per inexperientiam divinae ultionis ; et ideo aliqua ignorantia sive nescientia fuit in Adam, licet minor quam in Eva.
+Nec valet illud quod obicitur de radice, quia ignorantia non ponitur ibi esse tamquam ex una radice, sed quia quodam modo talis nescientia occasionem praebuit ad peccandum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

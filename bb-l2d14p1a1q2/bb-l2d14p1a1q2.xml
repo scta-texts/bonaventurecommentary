@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 1, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 1, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p1a1q2">
+            <head xml:id="bb-l2d14p1a1q2-Hd1e99">II, Distinctio 14, P. 1, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d14p1a1q2-Hd1e102" type="question-title">An firmamentum sit idem cum ignis elemento.</head>
+ 
+            <p xml:id="bb-l2d14p1a1q2-d1e105">Secundo quaeritur de natura firmamenti, et est quaestio, utrum sit eiusdem naturae cum igne elemento.
+Et quod sic, videtur.</p>
+
+            <p xml:id="bb-l2d14p1a1q2-d1e108">Primo per auctoritatem Scripturae, quae nullam facit mentionem de productione ignis : ergo si ipsum est nobilissimum elementum, eius productio non debuit praetermitti ; propterea videtur quod saltem intelligatur nomine caeli.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e111">Item, hoc videtur auctoritate <name ref="#Augustine">Augustini</name>, qui, <ref xml:id="bb-l2d14p1a1q2-Rd1e116">Super Genesim ad litteram</ref> et in <ref xml:id="bb-l2d14p1a1q2-Rd1e119">libro De civitate Dei</ref>, dicit tantum quatuor esse corpora mundi, scilicet <quote xml:id="bb-l2d14p1a1q2-Qd1e122">humor et humus, aer et lux</quote> ; si ergo firmamentum est aliquod de corporibus mundi, et non est terra nec aqua nec aer, ergo est ignis.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e127">Item, Hugo de sancto Victore exponens illud : <quote xml:id="bb-l2d14p1a1q2-Qd1e129" ana="#gen1_1">In principio creavit Deus caelum et terram</quote>, dicit, circa principium libri De sacramentis : <quote xml:id="bb-l2d14p1a1q2-Qd1e132">Ibi namque terra erat ipsum terrae elementum, et caelum erat levis et mobilis circumfusio reliquorum trium, quae in circuitu medio iacentis terrae suspensa ferebatur, et illud opus omnium corporum, sive caelestium sive terrestrium, formandorum materiam continebat</quote>. Ex hoc sequitur quod firmamentum sit de natura alicuius elementi.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e136">Item, hoc videtur ratione. Tantum quatuor sunt qualitates primae : ergo videtur quod tantum quatuor debent esse corpora, quae sunt de constitutione mundi primaria : ergo vel firmamentum est corpus mixtum vel est de natura alicuius quatuor elementorum. Sed non est mixtum nec de natura trium elementorum inferiorum : ergo est de natura ignis.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e139">Item, triplex est species ignis, scilicet ignis carbo, ignis lux et ignis flamma ; sed natura firmamenti est ut natura lucis : ergo videtur contineri sub tertia specie ignis.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e142">Item, caliditas inest igni in summo, ergo si aliquid maxime calefacit, illud habet naturam ignis ; sed corpora caelestia maxime calefaciunt inferiora, sicut patet in sole : ergo habent igneam naturam.</p>
+
+ 
+            <p xml:id="bb-l2d14p1a1q2-d1e145">Ad oppositum est : Auctoritas <name ref="#Aristotle">Philosophi</name>, in libro De caelo et mundo, qui praeter haec quatuor corpora ponit esse corpus quintum.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e151">Item, hoc ipsum ratione ostenditur. Corruptibile et incorruptibile per naturam non habent eamdem formam completivam ; sed firmamentum naturaliter est incorruptibile, ignis elementum naturaliter corrumpitur : ergo non sunt eiusdem naturae.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e155">Item, corporum habentium diversos motus naturales diversae sunt naturae ; sed firmamentum et ignis habent diversos motus naturales, quia ignis naturaliter movetur motu recto, firmamentum naturaliter movetur motu orbiculari : ergo ignis et firmamentum sunt alterius et alterius naturae. Si tu dicas, quod ille motus non est naturalis firmamento, obicitur contra hoc, quia si aliquis motus inest alicui corpori non naturalis, est reperire aliquod corpus, cui sit naturalis : ergo si hoc esset verum, tunc esset ponere aliquod corpus, cui magis conveniret moveri orbiculariter quam firmamento ; quod falsum est.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e158">Item, si firmamentum esset igneae naturae, ergo naturaliter inflammaret corpora sibi maxime proxima : cum igitur sit maxime quantitatis, videtur quod statim totum aerem obsorberet. Si tu dicas, quod a Deo reprimitur, hoc non videtur, quia Conditor naturae <quote xml:id="bb-l2d14p1a1q2-Qd1e160" source="http://scta.info/resource/adcd-l7">sic res, quas condidit, administrat, sicut dicit <name ref="#Augustine">Augustinus</name>, VII De civitate Dei, ut eas agere proprios motus sinat</quote>. Et praeterea, si hoc verum esset, tunc mundus non subsisteret naturaliter, sed miraculose.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e167">Item, nobilius est corpus quod non habet contrarietatem, quam corpus quod habet contrarietatem : ergo si ponere est corpora habentia contrarietatem, erit ponere corpus a contrarietate immune ; sed hoc non est nisi corpus caeleste : ergo firmamentum nonhabet contrarium. Sed ignis elementum habet contrarium : ergo non erit de natura eius.</p>
+            <p xml:id="bb-l2d14p1a1q2-d1e170">Item, si aliqua diversa reducantur ad concordiam per aliquid, videtur quod illud non habeat naturam alicuius illorum, sed quod potens sit super omnia ; sed firmamentum sua influentia facit elementa contraria concurrere ad corpora mixta : ergo non est de natura alicuius elementi.</p>
+            <div xml:id="bb-l2d14p1a1q2-Dd1e173">
+               <head xml:id="bb-l2d14p1a1q2-Hd1e175">Conclusio</head>
+               <head xml:id="bb-l2d14p1a1q2-Hd1e178" type="question-title">Firmamentum et ignis elementum non sunt eiusdem naturae</head>
+               <p xml:id="bb-l2d14p1a1q2-d1e181">Respondeo : Hic praenotandum est quod in huius quaestionis determinatione videntur Sancti et expositores sacrae Scripturae contradicere philosophis.</p>
+               <p xml:id="bb-l2d14p1a1q2-d1e184">Communiter enim philosophi praeter quatuor elementa posuerunt essentiam quintam, quam dixerunt esse corpus incorruptibile et elevatum a contrarietate, et per hoc esse principium conciliativum et conservativum.</p>
+
+               <p xml:id="bb-l2d14p1a1q2-d1e187">Sancti vero non videntur ponere nisi solummodo quatuor corpora, et sentire videntur naturam firmamenti esse igneam. Sed cum recta ratio satis evidenter persuadeat firmamentum esse alterius naturae quam sit aliquod elementum, tum propter motum qui non latet sensus nostros, tum etiam propter effectus varios, tum etiam propter universi perfectionem, non absurde credi potest philosophos in hac parte verum sensisse, et doctores veritatis ab eis in sensu non discrepasse, quamvis voce tenus videantur contraire. Sicut enim patet ex verbis <name ref="#Augustine">Augustini</name> in pluribus locis, ipse <name ref="#Augustine">Augustinus</name> elementum ignis denominat a perfectione lucis : naturales vero philosophi maxime ignem notificant per proprietatem caliditatis. Et quoniam natura lucis reperitur et in corpore quinto et in igne elemento, ideo ipsum firmamentum et ignem dixit corpus unius naturae esse ; non, inquam, unius quia habeant unam formam speciei specialissimae, sed quia naturam lucis participant secundum quamdam rationem analogiae. Quia vero illud corpus, scilicet firmamentum, sublevatum est a natura contrarietatis et lucem participat in quadam puritate, ignis vero naturam habet contrarietatis : hinc est quod philosophi dixerunt ignem et firmamentum alterius et alterius naturae esse. In cuius testimonium adducunt quod ignis, quia contrariatur terrae, movetur directe motu contrario, scilicet sursum ; caelum vero, quia contrarietatem non habet, movetur orbiculariter ; is enim solus motus est simplex, qui caret contrarietate. Et in hoc verum dixerunt et Sanctis, ut praedictum est, non contradixerunt. Unde rationes ostendentes quod firmamentum et ignis elementum non sunt eiusdem naturae, concedendae sunt.</p>
+ 
+               <p xml:id="bb-l2d14p1a1q2-d1e197">1. Ad illud ergo quod obicitur, quod Scriptura non facit mentionem de igne, dicendum quod similiter non facit mentionem de aere : in separatione autem aquarum a terra intelligenda est distinctio elementorum facta fuisse, sicut infra melius patebit.</p>
+
+               <p xml:id="bb-l2d14p1a1q2-d1e200">2-3. Ad illud quod obicitur de <name ref="#Augustine">Augustino</name> et Hugone, iam patet responsio. Ideo enim caelum comprehenditur sub igne propter conformem lucis participationem. Unde, sicut dictum est supra, quod caelum crystallinum censeri potest nomine aquae, quia aliquam proprietatem eius in se habet, sic et in proposito intelligi potest. Triplex enim est ignis proprietas, sicut supra dictum est de aqua : una est luminositas, altera caliditas et tertia levitas, per quam movetur motu qui est sursum. In prima proprietate ignis et firmamentum conveniunt. In tertia ignis et firmamentum simpliciter differunt. In media vero partim conveniunt et partim differunt. Conveniunt utique in hoc quod tam ignis quam firmamentum est calidum effective. Differunt vero in hoc quod ignis est calidus formaliter, firmamentum vero minime ; si enim haberet caliditatem informantem, haberet utique contrarietatem.</p>
+
+               <p xml:id="bb-l2d14p1a1q2-d1e206">4. Ad illud quod obicitur, quod tantum quatuor sunt primae qualitates, dicendum quod verum est de qualitatibus activis et passivis secundum contrarietatem ; et ideo non sequitur quod omnia corpora quae sunt in prima constitutione mundi, habeant aliquam illarum qualitatum, sed solummodo illa quae habent contrarietatem. Ad constitutionem autem mundi non solum haec corpora requiruntur, sed etiam aliud quod sit supra haec, sicut prius ostensum est.</p>
+               <p xml:id="bb-l2d14p1a1q2-d1e209">5. Ad illud quod obicitur, quod lux est species ignis, dicendum quod non quaecumque lux est species ignis, sed illa quae est in materia transmutabili ; et haec est quae habet caliditatem annexam, informantem eamdem materiam ; huiusmodi autem non est lux corporis quinti, quamvis aliquo modo sit isti conformis.</p>
+               <p xml:id="bb-l2d14p1a1q2-d1e212">6. Ad illud quod obicitur, quod corpus quintum calefacit, respondetur quod corpus quintum calefacit non per naturam caliditatis, quam in se habeat, sed per vim luminis ; et hoc apparet, cum ex concursu et reflexione radiorum circa speculum concavum generatur ignis. Et si tu obicias, quod nihil dat alteri quod non habet, ergo si caelum non habet in se naturam igneam, non magis generabit ignem quam aerem, respondetur quod illud habet instantiam in generatione aequivoca, sicut patet, quando aliquid calefit a motu. Sic et in proposito intelligitur esse. Et si tu quaeras, quare magis generat ignem quam aerem, cum non habeat cum ipso conformitatem, dicendum quod, etsi non habeat conformitatem in forma ultima, tamen ignis maxime accedit ad eius naturam. Praeterea, cum aliquid habet potestatem educendi multa, quae sunt in potentia in materia, esto quod sit ad illa indifferens, magis educit quod nobilius est : natura enim semper desiderat quod melius est ; et ideo, cum ignis sit nobilior, magis educit ignem.
+Sed adhuc manet quaestio : si corpora caelestia calefaciunt per naturam luminis, unde est hoc quod luna humectat et infrigidat ? Sed de hoc fortassis aliquid dicetur infra. Ad praesens autem tantum sufficiat quod aggeneratio caloris a corpore caelesti in his inferioribus, vel est propter radiorum aggregationem et intensionem ex qua subtiliatur aer suscipiens illuminationem, vel est ab aliqua virtute divinitus ei data a prima sui conditione, tolam speciem consequente - sicut ponitur in virtute adamantis - quae etsi non faciat corpora caelestia formaliter calida, quia sua materia non est ad formam contrarietatis apta, influens tamen in haec inferiora inflammat ea, cum sint transmutabilia propter dispositionem repertam in materia.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

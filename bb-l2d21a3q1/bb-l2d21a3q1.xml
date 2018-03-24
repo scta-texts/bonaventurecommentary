@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, A. 3, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, A. 3, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21a3q1">
+            <head xml:id="bb-l2d21a3q1-Hd1e99">II, Distinctio 21, A. 3, Q. 1</head>
+            <head xml:id="bb-l2d21a3q1-Hd1e102" type="question-title">Utrum peccatum Adae potuerit esse veniale.</head>
+ 
+            <p xml:id="bb-l2d21a3q1-d1e105">Circa primum sic proceditur et quaeritur, utrum primum peccatum hominis fuerit vel esse potuerit peccatum veniale.</p>
+            <div xml:id="bb-l2d21a3q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d21a3q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d21a3q1-d1e113">Et quod sic, videtur. 1. In egressu a rectitudine prius curvatur aliquid parva obliquitate quam magna ; sed magna obliquitas est culpa mortalis et parva est culpa venialis : ergo, cum cecidit a statu rertitudinis innocentiae, per veniale transivit ad mortale : ergo prius peccavit venialiter quam mortaliter.</p>
+               <p xml:id="bb-l2d21a3q1-d1e116">2. Item, consensum sive electionem praecedit appetitus : nihil enim eligimus nisi prius illud appetamus. Ergo ante consensum primi hominis fuit appetitus. Sed appetitus ille erat ad illicitum : ergo erat peccatum ; sed non mortale, quia nihil est mortale citra consensum : ergo veniale. Prius igitur peccavit peccato veniali quam peccato mortali.</p>
+               <p xml:id="bb-l2d21a3q1-d1e119">3. Item, contingit aliquid diligere inordinate et supra Deum, contingit etiam aliquid diligere ordinate et sub Deo ; sed inter haec duo cadit medium, videlicet diligere aliquid sub Deo, sed inordinate : si igitur ab extremo in extremum pervenitur per medium, prius dilexit homo aliquid inordinate sub Deo quam supra Deum ; sed primum est mortale, secundum veniale : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d21a3q1-d1e122">Si tu dicas quod homo in primo statu existens non potuit peccare venialiter, ostenditur quod sic :</p>
+
+               <p xml:id="bb-l2d21a3q1-d1e126">4. Primum, quia verbum otiosum est peccatum veniale, quantum est de genere suo, cum non sit contra aliquod mandatum ; sed Adam poterat verbum otiosum dicere et cum uxore sua iocari : ergo poterat in statu illo venialiter peccare.</p>
+               <p xml:id="bb-l2d21a3q1-d1e129">5. Item, quod potest in maius potest in minus quod est ordinatum ad illud ; sed Adam poterat peccare mortaliter ; sed peccatum mortale est maius quam veniale. Cum igitur Adam primo potuit peccare mortaliter, potuit primo peccare venialiter.</p>
+               <p xml:id="bb-l2d21a3q1-d1e132">6. Item, est ponere statum in quo non potest quis peccare venialiter nec mortaliter, utpote statum comprehensoris ; et statum in quo potest peccare venialiter et mortaliter, utpote statum viatoris ; et statum in quo contingit peccare mortaliter et non venialiter, sicut statum angeli lapsi. Ergo erit ponere statum in quo contingeret peccare venialiter et non mortaliter ; sed hic non est status nisi hominis instituti : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d21a3q1-d1e135">Sed contra : 1. Peccatum veniale ideo veniale est propter impulsionem et pronitatem quam homo habet ad illud ; sed primus homo nullum habuit impulsum : ergo non potuit primo committere veniale peccatum.</p>
+               <p xml:id="bb-l2d21a3q1-d1e138">2. Item, in primo homine nullus erat motus brutalis, sed quilibet erat secundum deliberationem rationis ; sed peccatum committere cum deliberatione rationis, ubi nulla est pronitas, non potest esse nisi mortale : ergo etc.</p>
+               <p xml:id="bb-l2d21a3q1-d1e141">3. Item, regnum animae adeo ordinatum erat, sicut dicit <name ref="#Augustine">Augustinus</name> quod, si ipsa servaret ordinem sub Deo, nihil exiret eius imperium. Ergo impossibile fuit hominem peccare nisi prius a Deo se averteret ; sed hoc est per mortale : ergo etc.</p>
+               <p xml:id="bb-l2d21a3q1-d1e148">4. Item, angelus propter dignitatem sui status non solum peccavit mortaliter, sed etiam irremediabiliter ; ergo, si status innocentiae excedebat statum miseriae in magna praecellentia, videtur quod illud quod est in nobis modo modicum et leve, in statu illo esset magnum et grave : nulla igitur essent ibi levia et minuta peccata, sed omnia essent gravia et mortalia.</p>
+               <p xml:id="bb-l2d21a3q1-d1e151">5. Item, omne peccatum aufert innocentiam ; sed quod auferebat homini innocentiam auferebat immortalitatem ; et quod auferebat immortalitatem inferebat mortem ; et quod inferebat mortem erat mortale : ergo a primo, nullum peccatum poterat esse primo in homine quod non esset mortale.</p>
+               <p xml:id="bb-l2d21a3q1-d1e154">6. Item, si Adam primo commisisset veniale, quaero, utrum potuisset poenitere an non. Si non, ergo fuisset irremediabile. Si sic, ergo propter veniale peccatum doluisset : ergo passibilis factus esset ; et si passibilis, ergo et mortalis, cum eadem esset in eo ratio passibilitatis et mortis. Ergo necesse fuit primum peccatum primi hominis vel esse mortale vel esse irremediabile vel quod aliquid esset veniale et inferret mortem, quae duo simul stare non poterant.</p>
+            </div>
+            <div xml:id="bb-l2d21a3q1-Dd1e158">
+               <head xml:id="bb-l2d21a3q1-Hd1e160">Conclusio</head>
+               <head xml:id="bb-l2d21a3q1-Hd1e163" type="question-title">Primum peccatum Adae fuit mortael nec potuit esse veniale.</head>
+ 
+               <p xml:id="bb-l2d21a3q1-d1e166">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc duplex fuit opinio.</p>
+               <p xml:id="bb-l2d21a3q1-d1e169">Quidam enim dixerunt quod Adam primo peccato peccavit mortaliter, potuisset tamen peccare venialiter, non tamen omni genere venialis. Quoddam enim est veniale quod est veniale ex genere actus, sicut dicere verbum otiosum et mendacium iocosum vel exire in risum dissolutum ; et hoc est veniale, non solum cum praevenit rationis iudicium, sed etiam cum subsequitur ; et hoc peccato dicunt Adam primo peccare potuisse. Est aliud genus venialis peccatiquod dicitur veniale a veniendo, quia venit ex surreptione et pronitate naturae corruptae ; et hoc praevenit, non subsequitur iudicium rationis ; et tali peccato dixerunt Adam peccare non potuisse propter ordinem originalis iustitiae, quo inferior potentia ita subdebatur superiori quod nihil appeteret absque eius imperio et dictamine.
+Et haec positio satis fuit probabilis.</p>
+ 
+               <p xml:id="bb-l2d21a3q1-d1e172">Verumtamen communiter non approbant eam doctores theologiae. Nam improbabilitatem habet, si quis attendat ad perfectionem status et regulam rectitudinis in qua erat ; a qua etiam, cum nullum haberet impellens, exire non poterat nisi contemnendo divinam iustitiam et foedando suam innocentiam et corrumpendo naturam suam ; quae omnia faciunt primam culpam Adae non venialem, sed mortalem fuisse nec potuisse aliter esse. Et ideo est communis opinio, quam hodie approbant doctores, quod Adam in statu innocentiae primo peccato peccavit mortaliter nec primum eius peccatum veniale esse potuit.
+Unde concedendae sunt rationes quae hpc ostendunt.</p>
+            </div>
+            <div xml:id="bb-l2d21a3q1-Dd1e177">
+               <head xml:id="bb-l2d21a3q1-Hd1e179">Ad rationes</head>
+
+               <p xml:id="bb-l2d21a3q1-d1e182">1. Ad illud ergo quod obicitur, quod prius est pervenire ad parvam obliquitatem quam ad magnam, dicendum quod verum est ubi est curvitas paulativa et per successionem ; ibi autem potius fuit fractio quam curvatio, vel, si curvatio dici debet, primo incepit in consensu, qui fuit mortale peccatum, et ita inter rectitudinem et illam obliquitatem non intercidit medium. Et si tu quaeras : unde hoc ? dico quod hoc non fuit propter immediatam oppositionem rectitudinis ad peccatum mortale, sed quia in tali subiecto, quod quidem vel oportebat esse sanum vel mortuum.</p>
+               <p xml:id="bb-l2d21a3q1-d1e185">Ad secundum quod obicitur, quod appetitus praecedit consensum, dicendum quod verum est ; sed appetitus, qui praecessit consensum primorum parentum, non fuit libidinosus, sed natnralis ; ex tunc autem incepit esse libidinosus, quando voluntas deliberativa consensit, et tunc etiam incepit esse mortalis ; et ita non ante coepit esse peccatum quam esset mortale.</p>
+               <p xml:id="bb-l2d21a3q1-d1e188">Ad illud quod obicitur, quod medium est inter diligere ordinate sub Deo et inordinate supra Deum, dicendum quod, etsi sit medium, comparando statum ad statum simpliciter, comparando tamen ad hominem illum, non cadebat medium. Ratio autem huius erat propter magnam approximationem ad Deum, ob quam nihil poterat inordinate diligere quin per hoc Deo iniuriam faceret ac per hoc supra Deum diligeret.</p>
+               <p xml:id="bb-l2d21a3q1-d1e191">Ad aliud quod obicitur, quod poterat dicere verbum otiosum, quod est veniale, dicendum quod verbum otiosum ei fuisset mortale propter status perfectionem. Unde quod dicitur aliquod peccatum esse veniale generaliter sive de genere sui actus, hoc intelligendum est respectu naturae lapsae.</p>
+               <p xml:id="bb-l2d21a3q1-d1e195">Ad illud quod obicitur : quod potest in maius, potest in minus, dicendum quod illud non est semper verum, quia non est hominis potestas aliquando ita ordinata ad minus sicut ad maius. Unde maius est hominem mori quam febricitare, facilius tamen potest aliquis alicui inferre mortem quam febrem ; sic et homo primus citius potuit se occidere quam debilitare, id est, prius mortaliter quam venialiter peccare.</p>
+               <p xml:id="bb-l2d21a3q1-d1e198">Ad illud quod obicitur, quod quartus status esse deberet, in quo posset tantum venialiter peccare, dicendum quod illum statum nullo modo convenit esse. Quod enim aliquod peccatum sit veniale alicui, hoc est propter magnam pronitatem quam habet ad peccandum, et difficultatem quam habet ad bene faciendum ; et ubi haec sunt, est facilitas ad mortale. Et ita nunquam est ponere statum in quo peccetur venialiter, in quo non possit peccari mortaliter ; est tamen ponere e converso statum, scilicet in quo contingit peccare mortaliter et non venialiter, propter defectum  poenitentiae ; huiusmodi autem est status daemonum.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

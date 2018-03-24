@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 20, A. 1, Q. 4</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 20, A. 1, Q. 4</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d20a1q4">
+            <head xml:id="bb-l2d20a1q4-Hd1e99">II, Distinctio 20, A. 1, Q. 4</head>
+            <head xml:id="bb-l2d20a1q4-Hd1e102" type="question-title">Utrum in coitu in statu innocentiae fuisset integritatis corruptio.</head>
+ 
+            <p xml:id="bb-l2d20a1q4-d1e105">Quarto quaeritur, utrum in illo coitu esset integritatis corruptio.</p>
+            <div xml:id="bb-l2d20a1q4-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d20a1q4-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d20a1q4-d1e113">Et quod non, videtur. 1. Primo per <name ref="#Augustine">Augustinum</name>, XIV De civitate Dei : <quote xml:id="bb-l2d20a1q4-Qd1e118" source="http://scta.info/resource/adcd-l14">Sine ulla corruptione integritatis infunderetur maritus gremio mulieris</quote>. 
+  Ergo videtur quod, si homo stetisset, nulla esset integritatis corruptio.</p>
+               <p xml:id="bb-l2d20a1q4-d1e122">2. Item, ubi est corruptio integritatis in re habente sensum, est passio vel dolor, quia dolor est sensus divisionis partium, sicut dicit <name ref="#Aristotle">Philosophus</name>. Si ergo in actu illo fuisset integritatis corruptio, cum esset in re habente sensum, esset nihilominus per consequens doloris passio ; sed haec passio non poterat esse in natura stante : ergo nec integritatis corruptio.</p>
+               <p xml:id="bb-l2d20a1q4-d1e128">3. Item, ubi est corruptio integritatis, est amissio virginalis dignitatis ; sed, si homo stetisset, in actu illo non fuisset alicuius dignitatis amissio : ergo nec integritatis violatio.</p>
+               <p xml:id="bb-l2d20a1q4-d1e131">4. Item, corruptio integritatis est principium destructionis et disponens ad mortem : Immortalitas enim integritatem dicit et privat corruptionem. Si ergo, statu illo manente, tam vir quam mulier erant immortales, ergo integritatem per corruptionem aliquam non poterant perdere.</p>
+
+ 
+               <p xml:id="bb-l2d20a1q4-d1e135">Sed contra :
+1. Impossibile est semen suscipi et emitti nisi per apertionem viarum ; sed in actu generationis fuisset seminum commixtio : ergo fuisset et viarum apertio. Si igitur in apertione viarum est integritatis virginalis violatio, ergo etc.</p>
+               <p xml:id="bb-l2d20a1q4-d1e138">2. Item, quamvis naturalia sint deteriorata, non tamen sunt ablata : ergo sicut modo commiscetur maritus uxori, ita et tunc ; sed nunc non potest commisceri sine corruptione integritatis : ergo nec tunc.</p>
+               <p xml:id="bb-l2d20a1q4-d1e141">3. Item, quod aliqua virgo conceperit, hoc est miraculum et proprium solius Matris Christi ; si ergo miraculum est supra naturam et contra naturam, videtur quod, natura stante, nulla mulier posset concipere, manente virginitate et corporis integritate.</p>
+               <p xml:id="bb-l2d20a1q4-d1e144">4. Item, mulier non posset parere, salva claustrorum integritate, quia fetus non posset nisi per apertam portam exire ; exire enim per ianuam clausam, hoc est solius Christi proprium et naturae impossibile. Si ergo esset integritatis corruptio in partu, pari ratione et in conceptu.</p>
+            </div>
+            <div xml:id="bb-l2d20a1q4-Dd1e148">
+               <head xml:id="bb-l2d20a1q4-Hd1e150">Conclusio</head>
+               <head xml:id="bb-l2d20a1q4-Hd1e153" type="question-title">In statu innocentiae, 
+      si vir uxorem cognovisset, fuisset claustrorum apertio, tamen sine poena 
+      et foeditate.</head>
+
+ 
+               <p xml:id="bb-l2d20a1q4-d1e156">Respondeo : Dicendum quod proposita quaestio pius habet curiositatis quam utilitatis ; quia tamen habet ortum ex verbis <name ref="#Augustine">Augustini</name>, ideo introducta est, maxime propter explanationem illius verbi quod dicit quod maritus commisceretur uxori sine ulla corruptione integritatis ; quod quidem non videtur esse intelligibile Si enim mulier permaneret integra, nunquam esset viri ad mulierem carnis commixtio.
+Propter quod intelligendum est quod integritatis corruptio tria dicit, scilicet claustrorum apertionem, poenalem passionem et foedam delectationem. Primum est naturae, secundum est poenae, tertium vero est corruptionis vitiosae, quae tenet medium inter culpam et poenam.</p>
+ 
+               <p xml:id="bb-l2d20a1q4-d1e162">Si igitur vir uxorem cognovisset in tempore naturae institutae, fuisset ibi claustrorum apertio, sicut ostendunt rationes secundo inductae ; non tamen fuisset ibi poenalis passio ac foeda delectatio, quia vis generativa nec esset corrupta nec esset infecta ; immo obedirent rationi illa membra, sicut dicit <name ref="#Augustine">Augustinus</name>, sicut obediunt os, manus et lingua. Unde sicut manus aperitur et clauditur et os aperitur et clauditur, nec est ibi passio vel poena nec delectatio foeda, sic fuisset in natura ; nec turpius fuisset tunc loqui de istis membris quam sit loqui de aliis. Nunc enim turpe est loqui propter hoc quod natura horret et erubescit actum illum ratione foeditatis quae in ipso consistit.</p>
+ 
+               <p xml:id="bb-l2d20a1q4-d1e168">Et sic patet responsio ad rationes ad partem oppositam. Omnes enim procedunt de corruptione, secundum quod corruptio sonat in violentiam et poenalitatem et in delectationem et foeditatem, et sic minuit dignitatem virginalem. Et hoc patet pertractanti singulas.</p>
+ 
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

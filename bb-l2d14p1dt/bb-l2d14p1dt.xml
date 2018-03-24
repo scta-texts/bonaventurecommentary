@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 1, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 1, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p1dt">
+            <head xml:id="bb-l2d14p1dt-Hd1e99">II, Distinctio 14, P. 1, Divisio Textus</head>
+
+            <p xml:id="bb-l2d14p1dt-d1e102">Supra egit Magister de productione illius formae, quae est quasi generale principium distinguendi caeteras corporales formas. In hac parte agit de productione rerum quantum ad formas speciales. Et quoniam quaedam res sunt simplices, quaedam mixtae, sive quaedam sunt insensibiles, quaedam sensibiles. ideo pars ista habet duas.
+In prima agit Magister de productione simplicium et insensibilium.
+In secunda vero de productione mixtorum et sensibilium, infra distinctione decima quinta : Dixit quoque Deus : Producant aquae reptile etc.</p>
+ 
+            <p xml:id="bb-l2d14p1dt-d1e105">Et quoniam corpora simplicia sive insensibilia sunt in duplici differentia - quaedam enim sunt continentia, quaedam contenta - ideo pars prima duas habet.
+In prima agit de productione et distinctione corporalium quantum ad res continentes.
+In secunda vero quantum ad res contentas, ibi : Sequitur : Dixit Deus : Congregenter aquae etc.
+Prima pars, in qua scilicet agitur de rebus continentibus, utpote de caelis et caelorum distinctione, habet quatuor partes.
+In prima determinat caelorum naturam.
+In secunda tangit quaestionem de figura, ibi : Quaeri etiam solet, cuius figurae etc.
+In tertia quaerit de motu, ibi : Quaeritur etiam, si stet aut moveatur.
+In quarta vero removet quoddam dubium, ibi : Post haec quaeri solet, quare etc.
+Omnes hae partes remanent indivisae praeter primam, quae dividitur in duas.
+In prima determinat naturam caelorum secundum veritatem.
+In secunda secundum quorumdam opinionem, ibi : Quidam vero caelum etc. Et sic breviter tria inquirit Magister in hac parte : caelorum naturam et figuram et motum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

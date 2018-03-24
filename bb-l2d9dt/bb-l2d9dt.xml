@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 9, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 9, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d9dt">
+            <head xml:id="bb-l2d9dt-Hd1e99">II, Distinctio 9, Divisio Textus</head>
+            <p xml:id="bb-l2d9dt-d1e102">Supra egit Magister de consequentibus ad ma- 
+lorum obstinationem ; in hac parte agit de his quae 
+consequuntur bonorum ' confirraationem. Haec autem 
+sunt duo, scilicet distinctio ordinum et consequens 
+ministeriimi : ideo haec pars duas habet. In prima 
+agit de angelicorum ordinum distinctione. In se- 
+cunda de Angelorum ministerio et missione, infra di- 
+stinctione decima: Hoc etiam investigandum est etc.</p> 
+
+            <p xml:id="bb-l2d9dt-d1e105">Prima pars habet duas partes. In prima agit 
+de distinctione ordinum quantum ad primam ^ con- 
+ditionem; in secunda vero quantum ad reparationem , 
+ibi: Notandum eliam, quod decimus ordo etc. 
+
+
+
+Prima pars habet quatuor partes. In prima determi- 
+nat, qualiter Angelorum ordines distinguuntur. In 
+secunda, qualiter nominantur, ibi: Haec nomina 
+illis non propter se " etc. In tertia determinat, quod 
+sit huius ordinationis principium, ibi: lani nunc 
+inquirere restat etc. In quarta vero et ultima determi- 
+nat modum , ibi : Praeterea comiderari oportet etc.
+</p>
+            <p xml:id="bb-l2d9dt-d1e108">
+  Secunda vero pars principalis, quae ibi incipit: 
+Notandum etc, duas habet. In prima determinat de 
+reparatione ordinum angelicoruiu fienda quantuiu 
+ad gradum ; in secunda vero quantum ad numerum, 
+ibi: Non enim iuxta numerum eorum etc.</p> 
+         </div>
+      </body>
+   </text>
+</TEI>

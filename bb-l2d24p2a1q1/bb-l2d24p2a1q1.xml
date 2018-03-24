@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2a1q1">
+            <head xml:id="bb-l2d24p2a1q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d24p2a1q1-Hd1e102" type="question-title">Utrum in superiori parte rationis habeat esse peccatum secundum se.</head>
+ 
+            <p xml:id="bb-l2d24p2a1q1-d1e105">Circa primum sic proceditur et ostenditur quod in superiori parte rationis secundum se, hoc est absque instinctu partis inferioris, non possit esse peccatum.</p>
+            <div xml:id="bb-l2d24p2a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p2a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p2a1q1-d1e113">Primo, per illud <name ref="#Augustine">Augustini</name>, Contra Manichaeos, ubi sic ait : <quote xml:id="bb-l2d24p2a1q1-Qd1e118">Ratio nostra deduci ad consensum peccati non potest nisi cum delectatio fuerit mota in iila parte animi quae debet obtemperare rationi tamquam rectori viro suo</quote>. Ergo nunquam peccat ratio superior nisi peccatum praecedat in parte inferiori.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e122">Item, <name ref="#Aristotle">Philosophus</name>, in III De anima : <quote xml:id="bb-l2d24p2a1q1-Qd1e127" source="http://scta.info/resource/aristda-l3">Intellectus semper est rectus, phantasia autem recta et non recta</quote>. Ergo intellectus, quantum est de se, nunquam errat : ergo nec superior portio deviat a veritate iustitiae nisi inclinetur per sensualitatem et inferiorem portionem.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e131">Item, peccatum est per conversionem ad bonum commutabile ; sed superior portio rationis dicitur in quantum convertitur ad aeterna, inferior, in quantum convertitur ad temporalia : ergo impossibile est peccatum esse vel fieri in nobis ex actu partis rationis superioris absque actu inferioris.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e134">Item, ratio superior dicitur in quantum legibus aeternis intendit ; sed impossibile est aliquem peccare nisi declinando a legibus aeternis : ergo impossibile est peccatum in superiori parte rationis esse secundum se.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e138">Item, mulier est media inter sensualitatem et rationem superiorem ; sed sensualitas semper movet ad bonum ut nunc, quantum est de se : ergo ratio superior, quantum est de se, semper movet ad bonum simpliciter. Sed virtus, quae movet ad bonum simpliciter, in movendo non peccat : ergo in superiori parte rationis, quantum est de se, peccatum esse non potest.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e141">Item, anima, quando convertitur ad Deum, purgatur, melioratur et perficitur ; sed superior portio rationis attenditur in quantum convertitur ad Deum : ergo, cum peccatum foedet et obnubilet, peccatum in superiori parte rationis secundum se esse non potest.</p>
+
+ 
+               <p xml:id="bb-l2d24p2a1q1-d1e144">Sed contra : Ieremiae 2, 16 : <quote xml:id="bb-l2d24p2a1q1-Qd1e146" ana="#ier2_16">Filii Mempheos et Taphnes constupraverunt te usque ad verticem. Si ergo vertex</quote>, secundum quod Sancti exponunt, dicitur ibi apex mentis sive superior portio rationis, videtur quod et illa habeat per peccatum constuprari et foedari.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e150">Item, <name ref="#Augustine">Augustinus</name>, XII De Trinitate : <quote xml:id="bb-l2d24p2a1q1-Qd1e155" source="http://scta.info/resource/adt-l12">Vir manducat, quando superior portio rationis consentit illecebrae</quote>. Sed eius est peccare cuius est consentire : si igitur hoc est nuperioris partis, patet etc.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e159">Item, contingit aliquem pdccare peccato infidelitatis discredendo aliquos articulos qui sunt respectu divinitatis ; sed ad illos articulos solum superior rationis portio se extendit : ergo in illo genere peccandi portio superior proprie culpam committit.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e162">Item, liberum arbitrium constat esse vertibile ; sed liberum arbitrium maxime consistit in superiori portione rationis, cum ibi maxime sit iudicium et imperium : ergo videtur quod in superiori portione rationis etiam secundum se sit vertibilitasad malum : ergo et peccatum.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e166">Item, superior portio rationis est illa quae discernit et iudicat tam de agendis quam de credendis ; sed iudicium creaturae, quantum est de se, absque gratia deficit ab his quae sunt fidei catholicae : ergo per se potest errare et ab illis declinare ; et si hoc, potest per se peccare.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e169">Item, angelus, cum peccavit primo peccato, appetiit aequiparari Deo in potentia, et mulier similiter in sapientia ; sed hoc est appetibile solum partis superioris ; ergo videtur quod tam peccatum hominis quam angeli inceperit a parte rationis superiori : ergo in superiori parte rationis secundum se peccatum habet fieri et esse.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a1q1-Dd1e173">
+               <head xml:id="bb-l2d24p2a1q1-Hd1e175">Conclusio</head>
+               <head xml:id="bb-l2d24p2a1q1-Hd1e178" type="question-title">Licet peccatum carnale non possit esse in superiori parte rationis absque inferiori, 
+    tamen peccatum spirituale potest fieri et esse in superiori parte rationis secundum se</head>
+               <p xml:id="bb-l2d24p2a1q1-d1e181">Respondeo : Ad praedictorum intelligentiam est notandum quod aliqui dicere voluerunt quod superior portio rationis non est aliud quam synderesis et quod ipsa superior portio, quantum est de se, semper est recta et fortis nisi incurvetur et emolliatur per portionem inferiorem ; et ideo dixerunt peccatum in ea non esse secundum se, sed si peccat, hoc solum dicunt esse consentiendo inferiori parti sive non compescendo eius deordinationem.</p>
+ 
+               <p xml:id="bb-l2d24p2a1q1-d1e184">Sed haec positio tripliciter deviat a veritate. Primo in hoc quod dicit quod idem est superior portio rationis et synderesis. Quod plane falsum est, cum superior portio rationis et inferior pertineant ad arbitrii libertatem, sicut dicit <name ref="#Augustine">Augustinus</name>, et ideo nominant potentiam deliberativam ; synderesis autem potentiam naturalem nominat, quae semper uniformiter ad bonum inclinat.
+Secundo vero a veritate deviat in hoc quod dicit in synderesi aliquo modo esse peccatum. Hoc enim plane falsum est, sicut infra manifestabitur, et Glossa dicit expresse, Ezechielis 1, 7.
+Tertio vero a veritate deviat in hoc quod dicit quod in superiori parte rationis secundum se culpa non potest esse nisi ab inferiori procedat et tribuatur sibi occasio. Hoc enim contra rationem est, cum in illa portione consistat arbitrii libertas, et ita per naturam insit ei ad malum vertibilitas, et Ita possibilitas ad peccandum.
+Est etiam hoc contra experimentum, quia ratio superior non solum habet iudicare secundum leges aeternas, sed etiam habet indicare secundum lumen proprium et secundum lumen sibi ab inferiori acquisitum. Et quamvis aspiciendo ad leges aeternas non peccet iudicando, tamen, secundum ea quae percipit a sensibus vel etiam secundum lumen sibi datum et innatum, potest deficere et errare, maxime in statu naturae lapsae. Esto enim quod sibi proponatur credibile et aliquis articulus fidei, utpote articulus de Trinitate et Unitate, cum iste non solum repugnet sensui et imaginationi, sed etiam discrepet a naturali iudicio rationis, si noster intellectus secundum lumen proprium vel aspiciendo ad partes inferiores iudicaret, deficeret et discrederet et peccaret.</p>
+ 
+               <p xml:id="bb-l2d24p2a1q1-d1e190">Et propter hoc est alius modus dicendi, quod duplex est genus peccati : quaedam enim sunt peccata carnalia, quaedam vero spiritualia. Si loquamur de peccatis carnalibus, sic fatendum est quod non contingit esse peccatum in superiori parte rationis absque inferiori. Si autem de peccatis spiritualibus fiat sermo, tunc concedendum est quod peccatum habet fieri et esse, licet non semper fiat, in superiori parte rationis secundum se ; et rationes quae hoc ostendunt sunt concedendae.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a1q1-Dd1e195">
+               <head xml:id="bb-l2d24p2a1q1-Hd1e197">Ad rationes</head>
+               <p xml:id="bb-l2d24p2a1q1-d1e200">Et per hoc patet responsio ad illud quod primo obicitur in contrarium. Nam <name ref="#Augustine">Augustinus</name> in proposita auctoritate loquitur de progressu in perpetratione peccatorum carnalium.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e206">Ad illud quod obicitur, quod intellectus semper est rectus, dicendum quod verbum <name ref="#Aristotle">Philosophi</name> intelligendum est in his ad quae movet potentia intellectiva per modum naturae ; in his vero ad quae movet per modum deliberationis non habet veritatem ; unde idem vocat ipse intellectum quod nos vocamus conscientiam naturalem.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e212">Ad Illud quod obicitur, quod peccatum est per conversionem ad bonum commutabile, responderi potest dupliciter : primo, quod non solum est peccatum, quando fit conversio ad id quod secundum veritatem est bonum commutabile, sed etiam quando fit conversio ad id quod est bonum incommutabile et appetitur ut commutabile. Aliter potest dici quod superior portio, etsi differat ab inferiori in hoc quod ipsa convertitur ad superna, nihilominus tamen habet converti ad inferiora, prout disponit et regit inferiores potentias ; et sic potest deordinari male eas regendo, sive frena laxando sive suo imperio eas incurvando.</p>
+
+               <p xml:id="bb-l2d24p2a1q1-d1e215">Ad illud quod obicitur, quod ratio superior intendit legibus aeternis, dicendum quod iste est actus nobilissimus superioris partis. Sed non semper hunc actum exercet, immo etiam intendit sibi et ad se convertitur, et sic potest nimie ad se converti ac per hoc a Deo averti et deviare a legibus aeternis.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e219">Ad illud quod obicitur, quod sensualitas inclinat ad bonum ut nunc, dicendum quod sensualitas non semper movetur inordinate ; et praeterea, esto quod semper inordinate moveretur, non tamen ex hoc concluditur quod superior portio rationis semper ordinate moveatur : alia enim vis assignatur, secundum quam semper ordinate movetur, utpote synderesis, quae est scintilla conscientiae.</p>
+               <p xml:id="bb-l2d24p2a1q1-d1e222">Ad illud quod obicitur, quod superior portio rationis dicitur in quantum convertitur, dicendum quod hoc non est verum in quantum actu convertitur, sed in quantum est nata converti. Praeterea, inordinate converti potius est averti quam converti. Cum autem dicitur quod conversio ad Deum purgat, illuminat, et perficit, hoc intelligitur de ordinata conversione, quam non est semper necessarium invenire in actione superioris portionis.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

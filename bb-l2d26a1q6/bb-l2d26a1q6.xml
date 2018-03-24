@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d26a1q6">
+            <head xml:id="bb-l2d26a1q6-Hd1e99">Quaestio 6</head>
+    <head xml:id="bb-l2d26a1q6-Hd1e102" type="question-title">Utrum gratia comparetur ad animam in ratione motoris.</head>
+            <p xml:id="bb-l2d26a1q6-d1e105">Sexto et ultimo quaeritur, utrum gratia comparetur ad animam in ratione motoris.</p>
+            <div xml:id="bb-l2d26a1q6-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d26a1q6-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d26a1q6-d1e113">Et quod sic, videtur : Primo, per auctoritatem <name ref="#Augustine">Augustini</name>s quam Magister adducit in littera, quod gratia praeveniens est quae <quote xml:id="bb-l2d26a1q6-Qd1e118">praevenit bonae voluntatis meritum et respectu cuius ipsa voluntas bona pedissequa est, non praevia</quote>. Ergo gratia respectu voluntatis se habet per modum excitantis, imperantis et regentis ; et omne tale se habet in ratione motoris : ergo etc.</p>
+
+               <p xml:id="bb-l2d26a1q6-d1e122">2. Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d26a1q6-Qd1e127">Gratia se habet ad liberum arbitrium sicut sessor ad equum</quote>. Sed sessor est motor equi : ergo gratia est motrix liberi arbitrii.</p>
+               <p xml:id="bb-l2d26a1q6-d1e131">3. Item, hoc videtur ratione. Plus est potentiam aliquam supra se erigere quam ipsam movere ; sed gratia elevat potentiam liberi arbitrii ad opera meritoria, quae sunt supra ipsam : ergo est liberi arbitrii motrix.</p>
+               <p xml:id="bb-l2d26a1q6-d1e134">4. Item, plus potest gratia super liberum arbitrium quam liberum arbitrium possit super se ipsum ; sed <quote xml:id="bb-l2d26a1q6-Qd1e136">liberum arbitrium est instrumentum se ipsum movens</quote>, sicut dicit <name ref="#Anselm">Anselmus</name>, et voluntas movere potest se ipsam : ergo multo fortius moveri potest a gratia.</p>
+               <p xml:id="bb-l2d26a1q6-d1e144">5. Item, omne quod est principium vitae perfectae est principium motus in eo quod vivificat ; sed gratia est principium vitae in anima : ergo etc.</p>
+ 
+               <p xml:id="bb-l2d26a1q6-d1e147">Contra :
+1. Voluntas eo ipso est libera quo movetur ex se ipsa. Cum igitur gratia sit aliud a voluntate, si gratia movet voluntatem, aufert ei libertatem ; sed constans est quod gratia voluntati libertatem non aufert ; ergo ipsam non movet.</p>
+               <p xml:id="bb-l2d26a1q6-d1e150">2. Item, omnis motor sufficiens est hoc aliquid et substantia completa distans a mobili. Ergo aut gratia non movet liberum arbitrium aut, si movet, est substantia. Si igitur gratia creata non potest esse in genere substantiae, sed in genere accidentis, ergo etc.</p>
+               <p xml:id="bb-l2d26a1q6-d1e153">3. Item, si gratia movet liberum, aut movet naturaliter aut violenter aut voluntarie. Si naturaliter, ergo opera meritoria erunt naturalia. Rursus, si naturaliter movet, semper movet, quantum est de se : ergo numquam quiescit homo ab operibus meritoriis. Si violenter, ergo nec salvatur ibi ratio meriti hec libertas arbitrii, quorum utrumque patet esse falsum. Si voluntarie, sed nihil movet voluntarie nisi habeat cognitionem et voluntatem : ergo gratia cognoscit et vult, et ita est substantia rationalis. Igitur vel gratia, si movet liberum arbitrium, non est aliquid creatum vel, si est aliquid creatum, non movet liberum arbitrium.</p>
+               <p xml:id="bb-l2d26a1q6-d1e156">4. Item, si movet liberum arbitrium, aut sicut motor motus aut sicut motor non motus. Si tu des quod sicut motor motus, ergo, cum nihil secundum idem moveatur et moveat, gratia secundum se habebit aliam et aliam naturam, per quam moveatur et moveat : ergo non erit accidens simplex. Si sicut motor non motus, sed talis motor non est quid creatum : ergo vel gratia non est quid creatum vel non movet liberum arbitrium.</p>
+               <p xml:id="bb-l2d26a1q6-d1e159">5. Item, idem, manens idem, in creaturis semper est natum facere idem : ergo, si gratia est quid creatum et movet liberum arbitrium, cum gratia non varietur, semper ad idem inclinabit liberum arbitrium : ergo nunquam facit homo per gratiam nisi unum opus meritorium. Si igitur liberum arbitrium modo excitatur ad unum genus operis, modo ad aliud, videtur quod aut illa excitatio non sit a gratia aut gratia non dicit aliquid creatum aut gratia mutatur et variatur sicut liberum arbitrium.</p>
+            </div>
+            <div xml:id="bb-l2d26a1q6-Dd1e163">
+               <head xml:id="bb-l2d26a1q6-Hd1e165">Conclusio</head>
+               <head xml:id="bb-l2d26a1q6-Hd1e168" type="question-title">Liberum arbitrium movetur a gratia dupliciter: 
+      tum a gratia operante ut instrumeto dei, 
+      tum a cooperante ut dispositione ad motum</head>
+               <p xml:id="bb-l2d26a1q6-d1e171">Respondeo : Dicendum quod absque dubio, sicut auctoritates Sanctorum dicunt, necesse est ponere liberum arbitrium a gratia moveri et excitari. Ab ipsa enim gratia operante praevenitur et a cooperante ad opera meritoria elevatur, ita quod respectu operis meritorii gratia est sicut principalis motrix et voluntas sicut pedissequa.</p>
+               <p xml:id="bb-l2d26a1q6-d1e174">Qualiter autem ipsa gratia, cum sit accidens animae, ipsam habeat movere, hoc habet difficultatem. Ad huius autem difficultatis explicationem duplex est modus dicendi sive intelligendi, secundum quem liberum arbitrium dicitur a gratia moveri.
+Unus modus dicendi est quod gratia movere dicitur liberum arbitrium, quoniam ipsa est dispositio ad quemdam spiritualem motum. Sicut enim pondus in corporibus disponit ad motum, sic et suo modo pondus in spiritibus. Gratia autem est quoddam spirituale pondus datum animae, per quod habet sursum tendere ; et quoniam liberum arbitrium est natum se ipsum movere secundum actus In quos potest dese ; cum est adiutum et informatum gratia, excellentius movet se ipsum, ita quod, cum liberum arbitrium sit movens et motum, gratia disponit ipsum sub ratione moventis. Et pro tanto dicitur gratia movere liberum arbitrium, quia liberum arbitrium, gratia informatum, movet se ipsum, per quem modum amor dicitur movere hominem ad magna opera facienda.</p>
+               <p xml:id="bb-l2d26a1q6-d1e177">Alius est modus intelligendi, secundum quem liberum arbitrium dicitur a gratia moveri. Gratia enim est sicut quaedam influentia procedens a luce superna, quae semper habet coniunctionem cum sua origine, sicut lumen cum sole ; et quia semper suae origini coniungitur, ideo non tantum attribuitur ei operatio ratione subiecti in quo est, sed etiam ratione subiecti a quo est. Unde sicut lumen non solum operatur cum aere, sed etiam operatur in ipsum aerem ratione continuationis cum suo fonte, sic et gratia non solum operatur cum libero arbitrio, sed etiam operatur in liberum arbitrium et liberum arbitrium movet.
+Unde non est aliud dicere gratiam liberum arbitrium movere quam gratiam esse Spiritus sancti instrumentum ad movendum liberum arbitrium.</p>
+               <p xml:id="bb-l2d26a1q6-d1e181">Uterque horum modorum Intelligendi conveniens est et rectus nec unus sine altero sufficit. Nam primus competit gratiae cooperanti sive subsequenti ; secundus competit gratiae operanti sive praevenienti. Gratia enim operaris liberum arbitrium praevenit et movet, quia Deus illam infundendo voluntatem hominis sanat et praeparat. Gratia vero cooperans sive subsequens liberum arbitrium dicitur movere, quia voluntas, tali dono gratiae informata, movet se Ipsam.
+Hanc enim potentiam habet voluntas, scilicet movendi se ipsam, quia est potentia materiae non alligata, sicut supra ostensum est, cum de libero arbitrio agebatur.
+Concedendae sunt igitur rationes ostendentes quod gratia ad liberum arbitrium comparari habet in ratione motoris. Ad rationes autem ad oppositum plana est responsio ex iam dictis.</p>
+            </div>
+            <div xml:id="bb-l2d26a1q6-Dd1e186">
+               <head xml:id="bb-l2d26a1q6-Hd1e188">Ad rationes</head>
+               <p xml:id="bb-l2d26a1q6-d1e191">Ad illud enim quod primo obicitur de voluntate, quod se ipsam movet, dicendum quod hoc non obstat, imrao consonat ei quod dicitur quod movetur per gratiam. Sicut enim voluntas movet se ipsam ad opera naturalia, sic adluta per gratiam movet se ipsam ad opera meritoria.
+Vel secundum alium modum intelligendi, Deus per gratiam movet voluntatem ; nec tamen hoc voluntati repugnat, quia voluntas vult sic moveri a Deo. Unde sic movetur a Deo quod movetur etiam a se ipsa ; et ideo omne opus meritorium attribuitur gratiae et libero arbitrio.</p>
+               <p xml:id="bb-l2d26a1q6-d1e194">2. Ad illud quod obicitur, quod motor distat a mobili, dicendum quod illud intelligitur in eo motu in quo moveri est vere pati, sicut est in motu corporali, et de eo motore qui est tota causa sufficiens et tota causa motus. Talis autem motor non dicitur esse gratia, pro eo quod non movet nisi sicut dispositio vel sicut instrumentum, sicut prius fuit explanatum.</p>
+               <p xml:id="bb-l2d26a1q6-d1e197">3. Ad illud quod quaeritur : aut movet naturaliter etc., dicendum quod movet voluntarie, non a voluntate qua ipsa gratia sit volens, sed a voluntate qua Deus gratiam influens est volens, et a voluntate qua liberum arbitrium gratificatum vult movere se ipsum.</p>
+               <p xml:id="bb-l2d26a1q6-d1e200">4. Ad illud quod quaeritur, utrum sit motor motus vel non motus, iam patet responsio. Illa enim divisio motoris est de motore qui est hoc aliquid et substantia et est motor sufficiens ; talis autem motor non est gratia, ut praedictum est.</p>
+               <p xml:id="bb-l2d26a1q6-d1e204">5. Ad illud quod obicitur, quod idem, manens idem, semper etc., dicendum quod illud fallit in Deo ; et ideo, secundum quod Deus movet per gratiam, per eamdem gratiam potest excitare ad diversa opera. Secundum vero quod liberum arbitrium se ipsum movet per gratiam ad diversa opera, est in ipso cognitionis et affectionis diversitas, secundum quas ordinari habet ad diversa operum genera ; et ideo, quamvis gratia non varietur in se, movet tamen ad diversa, ratione variationis in motore sibi coniuncto, sine quo non potest movere, Numquam enim gratia elicit opus meritorium nisi voluntas sibi cooperetur.</p>
+ 
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

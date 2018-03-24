@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2a1q2">
+            <head xml:id="bb-l2d24p2a1q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d24p2a1q2-Hd1e102" type="question-title">Utrum in superiori portione rationis possit esse veniale peccatum.</head>
+ 
+            <p xml:id="bb-l2d24p2a1q2-d1e105">Secundo quaeritur, utrum in superiori portione rationis possit esse veniale peccatum.</p>
+            <div xml:id="bb-l2d24p2a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p2a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p2a1q2-d1e113">Et quod sic, videtur : Quia contingit circa aliquem articulum fidei ex surreptione dubitare. Et constat ibi esse peccatum, cum sit motus ad illicitum ; constat etiam esse in superiori parte, cum sit circa articulos fidei respectu aeternorum ; constat etiam esse veniale, cum sit ex surreptione : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e116">Item, tunc peccat superior portio rationis, et vir comedit, quando est plenus consensus et praebentur <quote xml:id="bb-l2d24p2a1q2-Qd1e118" ana="#rom6_13">arma iniquitatis peccato</quote> ; sed contingit aliquem plene consentire in verbum otiosum et mendacium iocosum, et haec non sunt nisi peccata venialia : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e122">Item, superior portio rationis est corrupta sicut et inferior, cum originale omnes vires animae inficiat et dehabilitet. Ergo, si peccatum veniale potest esse in aliis viribus quae subsunt libero arbitrio, propter corruptionem quam accepit ex originali, eadem ratione et in parte superiori.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e125">Item, contingit quod aliquis in convertendo se ad Deum per amorem est negligens ; sed non magis tenetur homo ad hoc mandatum quam ad alia : ergo, si negligentia in aliorum mandatorum observatione est venialis, ergo et negligentia in amando Deum est venialis ; sed hoc est in superiori parte rationis : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d24p2a1q2-d1e129">Sed contra : <ref xml:id="bb-l2d24p2a1q2-Rd1e131">
+                     <name>
+                        <name ref="#Augustine">Augustinus</name>
+                     </name>
+                  </ref> dicit et <ref xml:id="bb-l2d24p2a1q2-Rd1e140">
+                     <name>Magister</name> in littera</ref> recitat quod, quando <quote xml:id="bb-l2d24p2a1q2-Qd1e146" source="http://scta.info/resource/adt-l14">superior pars rationis consentit illecebrae, tunc est peccatum damnabile et mortale</quote>. Ergo videtur quod, quandocumque peccatum superiorem partem attingit, statim sit mortale.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e150">Item, penes superiorem partem rationis residet regula directionis in toto regno animae ; sed, facta obliquatione in regula, iam non remanet aliqua rectitudo nec species rectitudinis : igitur, cum superior portio rationis peccat, deordinatur tota anima : ergo, si plena deordinatio non est absque mortali peccato, videtur etc.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e153">Item, nulla creatura est excellentior anima quantum ad superiorem portionem, sicut <name ref="#Augustine">Augustinus</name> in multis locis innuit et dicit expresse ; sed angelus propter suam dignitatem non potest peccare nisi mortaliter : ergo videtur pari ratione quod nec peccatum veniale possit esse in superiori parte.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e159">Item, <quote xml:id="bb-l2d24p2a1q2-Qd1e161">nihil est adeo veniale quod non fiat peccatum mortale, dum placet</quote> ; sed complacentia tunc vere dicitur quando superior pars rationis ad culpam incurvatur ; hoc autem est cum ipsa peccat : ergo non videtur quod aliquod peccatum possit in ea esse quin sit mortale.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a1q2-Dd1e166">
+               <head xml:id="bb-l2d24p2a1q2-Hd1e168">Conclusio</head>
+               <head xml:id="bb-l2d24p2a1q2-Hd1e171" type="question-title">Probabilius est, quod peccatum veniale in ratione superiori possit esse</head>
+ 
+               <p xml:id="bb-l2d24p2a1q2-d1e174">Respondeo : Ad praedictorum intelligentiam est notandum quod aliqui dicere voluerunt quod in superiori portione rationis non potest esse nisi mortale peccatum, et hoc propter elongationem sui a carne et a sensualitate, in qua consistit initium suggestionis malae et ex cuius pronitate habet esse peccatum veniale secundum statum naturae lapsae. Et hi dixerunt quod, cum sint tres gradus in potentiis animae, correspondentes serpenti, mulieri et viro, videlicet sensualitas, portio inferior et superior, sensualitatis est tantum peccare venialiter, superioris partis tantum mortaliter, inferioris partis utroque modo. Cum enim sit media inter utramque, naturam sapit utriusque.
+Sed quia planum est in superiori portione rationis posse esse aliquo modo motus inordinatos ex surreptione, planum est etiam in ea esse corruptionem aliquam ex originalis contractione. Ideo aliis videtur probabilius et melius quod peccatum veniale in ratione superiori habeat esse. Unde concedendae sunt rationes hoc ostendentes.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a1q2-Dd1e179">
+               <head xml:id="bb-l2d24p2a1q2-Hd1e181">Ad rationes</head>
+
+               <p xml:id="bb-l2d24p2a1q2-d1e184">Ad illud ergo quod obicitur, quod quando superior pars rationis comedit, damnabile est et mortale peccatum, dicendum quod illud intelligitur de pleno consensu, et hoc respectu illius peccati cuius actus est in prohibitione, sicut est de peccato fornicationis.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e187">Ad illud quod obicitur, quod penes superiorem partem residet regula directionis, dicendum quod regula directionis non tollitur per qualecumque peccatum, sed per illud quod inducit divinum contemptum et aversionem a Deo ; hoc autem non est in quolibet peccato superioris partis, utpote in illo quod ex surreptione committitur.</p>
+               <p xml:id="bb-l2d24p2a1q2-d1e190">Ad illud quod obicitur, quod nulla creatura est superior anima secundum mentem, dicendum quod, etsi nulla sit superior secundum ordinem efficientis et finis, est tamen aliqua maioris dignitatis et excellentis naturae, et propter hoc minorem habet excusationem.
+Praeterea, nulla natura rationalis in statu innocentiae potest peccare venialiter, ut supra ostensum est ; nulla autem natura rationalis lapsa de culpa potest consequi veniam nisi homo propter fragilitatem carnis ; et ideo non valet illud quod obicit de angelo.</p>
+
+               <p xml:id="bb-l2d24p2a1q2-d1e193">Ad illud quod ultimo obicitur, quod complacentia facit de veniali mortale, dicendum quod complacentia non dicit ibi quamcumque inclinationem, sed plenum consensum et deliberatum cum quadam plena quietatione ; et ita ex hoc non concluditur quod omnis deordinatio superioris partis cedat in genus peccati mortalis.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 22, Dubia</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 22, Dubia</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d22dubia">
+            <head xml:id="bb-l2d22dubia-Hd1e99">II, Distinctio 22, Dubia</head>
+            <div xml:id="bb-l2d22dubia-Dd1e102">
+               <head xml:id="bb-l2d22dubia-Hd1e104">Dub I</head>
+    
+               <p xml:id="bb-l2d22dubia-d1e107">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de hoc quod dicit : Si vir non peccasset, humanum genus minime peccatis corruptum periret. Sed contra : Ita contrahit homo massam carnis a muliere sicut a viro, et magis. Si ergo originale peccatum contrahimus ex corruptione massae damnatae, ergo ita contraheret originale peccatum ex corruptione massae damnatae, ergo ita contraheret originale peccatum ex corruptione mulieris sicut ex corruptione viri.</p>
+               <p xml:id="bb-l2d22dubia-d1e110">Respondeo : Dicendum quod, quia principale principium propagationis residet penes virum, potestas servandi iustitiam maxim e penes virum residebat et Deus hanc viro servandam commiserat ; et ideo, si vir non peccasset, posteri originali iustitia non carerent.
+Ad illud ergo quod obicitur de muliere, respondetur dupliciter : vel quod homo tunc ex parte mulieris contraheret corruptionem poenalitatis, non corruptionem foeditatis, quae principaliter habet ortum ex parte viri ; vel certe, quod probabilius videtur, vir mulieri commixtus amplius non esset, sed ei Deus aliam novam formasset, hoc salvo quod sententia damnationis et mortis et corruptionis permansisset in ea.
+</p>
+            </div>
+            <div xml:id="bb-l2d22dubia-Dd1e114">
+               <head xml:id="bb-l2d22dubia-Hd1e116">Dub. II.</head>
+               <p xml:id="bb-l2d22dubia-d1e119">Item quaeritur de hoc quod dicit : Tribus modis, ut ait Isidorus, peccatum geritur etc. ; quoniam Beda dicit quod quatuor sunt nobis inflicta propter primum peccatum, videlicet infirmitas, ignorantia, malitia et concupiscentia. Ergo, cum omnia ista sint peccatorum principia, videtur divisio Isidori insufficiens esse, quae ponit tantum tria membra.
+Item, sicut ignorantiae opponitur industria, ita infirmitati opponitur potentia. Ergo sicut ponitur aliud genus peccati esse ex ignorantia, et aliud esse ex industria, similiter deberet poni aliud ex infirmitate, aliud ex potentia.</p>
+      
+               <p xml:id="bb-l2d22dubia-d1e122">Respondeo : Dicendum quod ista divisio peccati accipitur penes corruptionem virium animae, ita quod ignorantia respicit rationalem, infirmitas irascibilem et malitia respicit concupiscibilem ; et vocatur hic idem peccatum ex industria et ex malitia. Ideo, cum omnes vires motivae sub his tribus comprehendi possint, omne peccatum, quod fit in statu naturae lapsae, ad ista tria genera habet reduci.
+Ad illud vero quod obicitur de concupiscentia, dicendum quod illud membrum non distinguit contra alia, quia, sicut idem Beda dicit, concupiscentia ex omnibus his est conflata, et ideo penes concupiscentiam non sumitur aliqua differentia, cum omnia peccata procedant ab. ipsa. Sic enim dicit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d22dubia-Qd1e127">Dum lex prohibet concupiscentiam, prohibet omne malum</quote>.</p>
+               <p xml:id="bb-l2d22dubia-d1e131">Ad illud quod obicitur, quod potentia opponitur infirmitati sicut industria ignorantiae, dicendum quod industria non stat ibi principaliter pro scientia, quae est ignorantiae opposita, sed stat ibi pro malitia quam concomitatur scientia. Quare autem peccatum ex malitia dicatur ex industria, infra patebit, cum agetur de peccato in Spiritum sanctum.</p>
+            </div>
+            <div xml:id="bb-l2d22dubia-Dd1e135">
+               <head xml:id="bb-l2d22dubia-Hd1e137">Dub. III.</head>
+               <p xml:id="bb-l2d22dubia-d1e140">Item quaeritur de hoc quod dicit : Ignorantia eorum qui scire nolunt, dum possint, non excusat, quia, sicut dicit <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d22dubia-Qd1e145" source="http://scta.info/resource/aristmet-l1">omnes homines naturaliter scire desiderant</quote> ; sed quod naturale est, nullo modo assuescit in contrarium : ergo videtur quod nullus homo scientiam respuat.
+Item, sic se habet scientia ad intellectum sicut se habet pax ad affectum ; sed, quia pax est perfectio affectus, nullus est qui non appetat pacem, sicut dicit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d22dubia-Qd1e151" source="http://scta.info/resource/adcd-l19">Propter pacem enim bellant omnes quicumque bellant</quote>. Ergo videtur similiter quod nullus scientiam respuat.</p>
+              <p xml:id="bb-l2d22dubia-rdqrdq">Respondeo : Dicendum quod sicut contingit aliquid nosse in universali et ignorare in particulari, sic contingit aliquid appetere in universali et tamen contemnere in particulari. Et hoc patet : omnis enim homo appetit beatitudinem ; illam tamen beatitudinem, quam Christiani exspectant, multi sunt qui aspernantur et recusant ; et primus quidem appetitus est a voluntate naturali, secundus est a voluntate electiva. Per hunc modum est in proposito. Etsi omnes homines natura scire desiderent et velint esse scientes, scientiam tamen mandatorum Dei plurimi aspernantur.</p>
+              <p xml:id="bb-l2d22dubia-espesp">Et sic patet responsio ad illa duo obiecta ; nam scientiam recusare, hoc non est naturae, sed voluntatis electivae. Etsi etiam pacem in universali nullus recuset, tamen hunc modum pacis vel illum multi refugiunt, et ideo confugiunt ad bellum.</p>
+    </div>
+            <div xml:id="bb-l2d22dubia-Dd1e156">
+               <head xml:id="bb-l2d22dubia-Hd1e158">Dub. IV.</head>
+               <p xml:id="bb-l2d22dubia-d1e161">Item quaeritur de hoc quod dicit : Non est confugiendum ad ignorantiae tenebras. Cum enim ignorantia sit pura privatio, et nihil appetatur nisi sub ratione boni et utilis, videtur quod ignorantia non possit affectari vel ad eam confugi. Praeterea, nihil amatur nisi cognitum ; sed ignorantiae tenebrae non cognoscuntur : ergo videtur quod ad eas nullus confugiat.</p>
+               <p xml:id="bb-l2d22dubia-d1e164">Respondeo : Dicendum quod quaedam appetuntur propter aliquid appetibile et delectabile quod habent in se, sicut bona spiritualia et corporalia. Quaedam appetuntur propter bonum quod ad ea consequitur et ex ipsis elicitur, sicut aliquis appetit angustias et tribulationes, ex quibus pervenit homo ad perfectionem in merito et praemio. Quaedam appetuntur propter comparationem maioris mali, sicut aliquis, ne capiatur, proicit se de alto ; et illud proprie non est appetere, sed ad ipsum confugere. Per hunc modum intelligendum est esse in proposito. Quia enim homo timet deprehendi in scelere, ideo fugit lucem ; non enim venit ad lucem, ne arguantur opera eius. Et quia non contingit fugere lucem nisi in tenebris et per tenebras, ideo oculus adulteri observat caliginem, et qui vult male facere divinorum mandatorum requirit ignorantiam ; non quia illam propter se appetat, sed quia refugit sceleris deprehensionem et amat delectationem, quam amat in sceleris perpetratione.</p>
+            </div>
+            <div xml:id="bb-l2d22dubia-Dd1e169">
+               <head xml:id="bb-l2d22dubia-Hd1e171">Dub. V.</head>
+
+               <p xml:id="bb-l2d22dubia-d1e174">Item quaeritur de hoc quod dicit : In ipso homine et in alio causa exstitit ut fieret deterior. Ex hoc enim videtur quod homo non peccasset nisi diabolus fuisset ; et hoc videtur falsum, quia homo habebat liberum arbitrium vertibile : ergo, circumscripta omni tentatione diaboli, in malum poterat consentire ac per hoc peccare.
+Item, <name ref="#Augustine">Augustinus</name> probat quod <quote xml:id="bb-l2d22dubia-Qd1e179" source="http://scta.info/resource/a83-q3"> <!-- possibly also q4 -->alio auctore nullus potest fieri deterior</quote>, in principio 83 Quaestionum, quia nec a minori nec a pari nec a superiori. Minus enim non potest ; par aequali non praevalet ; superius non vult, quia nihil est superius bono nisi bonum, et bonum non vult bonum deteriorare.</p>
+               <p xml:id="bb-l2d22dubia-d1e185">Respondeo : Dicendum quod absque dubio, nulla tentatione pellente, homo peccare poterat, sicut patet in Lucifero, qui peccavit sine impulsu alieno qui etiam excellentior erat homine primo. Magister autem loquitur supponendo modum peccandi secundum quod homo lapsus est, videlicet ad suggestionem diaboli ; et ideo dicit quod in ipso homine et in diabolo erat quod fieret homo deterior, sed aliter et aliter ; quia diabolus solum erat causa inducens et quasi adminiculans, sed homo fuit causa perficiens et consummans. Et quia omne peccatum quod facimus, quodam modo habet ortum a peccato primo propter corruptionem, quae inolevit per originalis transfusionem, hinc est quod non solum primus parens deterioratus dicitur fuisse a diabolo, immo etiam omne peccatum dicitur esse ab ipso. Unde Hieronymus, Super Ieremiam, in originali dicit : Quidquid peccamus, quidquid nocte et die malorum operum perpetramus, imperium est daemonum, quia vel omne peccatum procedit ex suggestione daemonum immediata vel ex illa suggestione primaria.
+Et sic patet illud quod dicit Magister in littera. Nec obstat illud <name ref="#Augustine">Augustini</name>, qui intelligit de principali agente, volens ostendere quod corruptionis primariae nullus potuit esse principalis auctor nisi ipse homo.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

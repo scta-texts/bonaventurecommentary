@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21dt">
+            <head xml:id="bb-l2d21dt-Hd1e99">II, Distinctio 21, Divisio Textus</head>
+    
+            <p xml:id="bb-l2d21dt-d1e102">Terminata prima parte principali huius totalis libri, in qua agit Magister de hominis conditione, sequitur secunda pars principalis, in qua agit de lapsu. Et quoniam lapsus hominis est per peccatum, et peccatum hominis est triplex - quoddam, in quo persona corrumpit naturam, et hoc fuit peccatum primi hominis ; quoddam, in quo natura corrumpit personam, et hoc est originale ; quoddam vero, in quo persona corrumpit se ipsam, et hoc est actuale - ideo pars ista habet tres partes.
+In prima determinat Magister de peccato primorum parentum.
+In secunda vero determinat de peccato originali, quod ab illo fuit causatum, infra distinctione trigesima : In superioribus insinuatum est etc.
+In tertia vero de peccato actuali, infra distinctione trigesima quarta : Post praedicta de peccato actuali etc.</p>
+ 
+            <p xml:id="bb-l2d21dt-d1e105">Prima pars, in qua determinat de peccato primorum parentum, habet duas.
+In prima determinat modum transgrediendi.
+In secunda vero, ut ostendatur hominis culpa, ostendit quod homo habuit potentiam resistendi.
+Sive in prima determinat de culpa per quam cecidit ;
+in secunda de potentia per quam stare potuit, infra distinctione vigesima quarta : Nunc diligenter investigari oportet etc.</p>
+ 
+            <p xml:id="bb-l2d21dt-d1e108">Et quoniam culpa sive peccatum Adae comparationem habet ad diabolum tentantem et ad hominem cadentem et ad Deum permittentem, ideo prima pars habet tres partes.
+In prima determinat de diaboli tentatione.
+In secunda vero determinat de hominis transgressione, infra distinctione vigesima secunda : Hic videtur diligenter investigandum etc.
+In tertia vero determinat de Dei permissione, infra distinctione vigesima tertia : Praeterea solet quaeri etc.</p>
+ 
+            <p xml:id="bb-l2d21dt-d1e111">Prima pars continet praesentem distinctionem et potest dividi in tres partes.
+In prima Magister determinat qualiter primi parentes fuerunt tentati.
+In secunda vero determinat generaliter modos tentandi, ibi : Porro sciendum est duas esse species tentationis.
+In tertia vero concludit propter tentationem praeambulam remissibilitatem humani peccati, ibi : Homo igitur, qui sola exteriori tentatione etc.
+Duabus ultimis partibus remanentibus indivisis, prima pars habet tres partes.
+In prima determinat de tentatione primi hominis quantum ad motivum, scilicet primo capitulo.
+In secunda vero quantum ad instrumentum, ibi : Sed quia per violentiam etc.
+In tertia vero determinat quantum ad progressum, ibi : Tentatio vero hoc modo facta est.
+Et sic in parte ista tria determinantur,
+scilicet modus primae tentationis in speciali ;
+modi etiam cuiuslibet tentationis in generali ;
+postremo vero qualitas et quantitas peccati humani, ibi : Homo igitur, qui sola exteriori tentatione etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

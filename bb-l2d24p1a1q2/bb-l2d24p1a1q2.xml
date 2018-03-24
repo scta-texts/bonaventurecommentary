@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p1a1q2">
+            <head xml:id="bb-l2d24p1a1q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d24p1a1q2-Hd1e102" type="question-title">Utrum homini datum fuerit naturale adiutorium, per quod posset absque gratia tentationi resistere.</head>
+ 
+            <p xml:id="bb-l2d24p1a1q2-d1e105">Secundo quaeritur, utrum datum fuerit homini naturale adiutorium, per quod posset absque omni gratia tentationi resistere.</p>
+            <div xml:id="bb-l2d24p1a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p1a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p1a1q2-d1e113">Et quod sic, videtur.
+<quote xml:id="bb-l2d24p1a1q2-Qd1e115">Liberum arbitrium, ut dicit <name ref="#Anselm">Anselmus</name>, est potestas servandi rectitudinem propter se</quote>. Sed liberum arbitrium est potentia naturalis : ergo per naturalem potentiam absque addita gratia homo poterat servare rectitudinem sive iustitiam ; sed servando rectitudinem tentationi non consentiret, immo resisteret et superaret : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e122">Item, ponatur homo in puris naturalibus : aut igitur posset resistere diabolo suadenti aut non. Si non, et nullus peccat in eo quod vitare non potest, ergo, si consentiret tentationi diabolicae, non peccaret ; quod est impossibile. Si sic, ergo per naturale adiutorium sine gratia superaddita superare poterat adversarium.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e125">Item, natura nulli dat esse quin etiam det ei aliquam potentiam permanendi, cum non deficiat in necessariis ; unde sicut aliquid naturaliter propagatur, sic etiam in naturali virtute in esse conservatur. Si ergo liberum arbitrium homini datum per naturam propriam innocens erat et immune a culpa, ergo per naturam propriam absque omni gratia permanere poterat in sua innocentia : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e128">Item, rectitudo voluntatis solo actu voluntatis servatur : qui enim rectus est obliquus esse non potest, quamdiu vult esse rectus ; sed nihil tam est in voluntate nostra qudm ipsa voluntas, nihil facilius homini recto quam velle rectitudinem. Si ergo liberum arbitrium hominis, quantum est de sua conditione primaria, rectum erat, absque omni gratia superaddita rectitudinem servare poterat et sic adversario resistere et tentationem superare.</p>
+
+               <p xml:id="bb-l2d24p1a1q2-d1e132">Sed contra :
+<name ref="#Augustine">Augustinus</name>, De vera innocentia : <quote xml:id="bb-l2d24p1a1q2-Qd1e137">Humana natura, etsi in illa integritate, in qua condita est, permaneret, nullo tamen modo se ipsam, Creatore non adiuvante, servaret</quote>. Ergo quantumcumque homo haberet liberum arbitrium, ad hoc ut permaneret necessarium ei erat gratiae divinae suffragium.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e141">Item, si tunc poterat de potentia naturae tentationi resistere, et naturalia sunt eadem in nobis et in ipso, ergo tentationi resistere esset nobis per naturam possibile : ergo frustra frequentaremus dominicam orationem, petentes : <quote xml:id="bb-l2d24p1a1q2-Qd1e143" ana="#mt6_13 #lc11_4">Et ne nos inducas in tentationem</quote>. Quod si absurdum est dicere, patet etc.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e147">Item, si virtute propria posset homo absque omni gratia tentationi resistere, potuisset etiam victoriam de inimico obtinere ; sed victoriae respondet corona : ergo absque omni gratia potuisset mereri et pervenire ad gloriam ; quod si evidenter falsum est, restat etc.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e150">Item, tentationi resistere hoc est opus de se laudabile ; sed faciens opus laudabile non potest non proficere : ergo, si virtute propria habuit unde posset stare, virtute propria habuit unde posset proficere ; quod est contra Magistrum in littera, qui dicit quod habuit unde posset stare, sed non habuit unde posset proficere.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a1q2-Dd1e154">
+               <head xml:id="bb-l2d24p1a1q2-Hd1e156">Conclusio</head>
+               <head xml:id="bb-l2d24p1a1q2-Hd1e159" type="question-title">
+        Primus homo per naturale adiutorium cum continuatione 
+        divinae influentiae poterat tentationi 
+        resistere sine novae gratiae appositione
+      </head>
+ 
+               <p xml:id="bb-l2d24p1a1q2-d1e162">Respondeo : Dicendum quod aliquem posse resistere virtute propria tentationi diabolicae absque omni gratia, intelligi potest dupliciter : aut ita quod excludatur continuatio divinae influentiae aut ita quod excludatur appositio novae gratiae. Primum simpliciter est impossibile ; nunquam enim liberum arbitrium malae suggestioni resisteret nisi Deus suae bonitatis influentia continua in bono conservaret. Secundo modo veritatem habet pro statu innocentiae. Sicut enim dicit Magister in littera, magna erat in primo homine liberi arbitrii ab omni labe et corruptione immunitas atque naturalium potentiarum animae sinceritas et vivacitas, et per hoc poterat evitare et repellere suggestionem diabolicam ; nec indigebat ad hoc apponi sibi novam gratiam, cum respectu huius nulla esset in eo difficultas, sicut dicit Magister in littera, et rationes ostendunt quae ad primam partem inducuntur ; et ideo concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a1q2-Dd1e167">
+               <head xml:id="bb-l2d24p1a1q2-Hd1e169">Ad rationes</head>
+               <p xml:id="bb-l2d24p1a1q2-d1e172">Ad illud ergo <name ref="#Augustine">Augustini</name>, De vera innocentia, iam patet responsio. Dicit enim quod nulla creatura rationalis potest sine divino adiutorio conservari, non quia ad resistendum peccato sit ei necessaria gratia, quamdiu est in innocentia, sed quia, in quocumque statu est, necessaria est sibi divinae bonitatis influentia.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e178">Ad illud quod obicitur, quod eadem sunt naturalia in nobis et in primo homine, dicendum quod, etsi eadem sunt secundum substantiam, tamen infirmata sunt et vulnerata et deteriorata ; et ideo non sequitur quod tantum posse habeant quantum habuerunt quando natura erat instituta.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e181">Ad illud quod obicitur, quod tentationi resistere, hoc est victoriam obtinere, dicendum quod plus est adversarium superare quam eidem resistere. Ad hoc enim quod aliquis adversarium superet, opportunum est quod oppositum assequatur ad quod adversarius pertrahere intendebat ; hoc autem solum est quando homo non tantum resistit adversario voluntarie, verum etiam meritorie. Tunc enim recte vincitur diabolus quando ex vexatione tentationis, per quam intendebat incurvare ad demeritum, homo proficit ad meritum. Hoc autem liberum arbitrium facere non potest nisi per gratiae adiutorium, quamvis per se posset refugere peccatum. Si enim absque gratia peccatum refugeret, meritorium sibi non esset, et tamen tentationi resisteret.</p>
+               <p xml:id="bb-l2d24p1a1q2-d1e184">Et per hoc patet responsio ad sequens, quia Magister non loquitur de quocumque profectu, sed de profectu in merito, in quo non semper proficit homo, cum facit opus bonum bonitate morali, nisi adsit gratia Spiritus sancti, sicut melius infra patebit.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

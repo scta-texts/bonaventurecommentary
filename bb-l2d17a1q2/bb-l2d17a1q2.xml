@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 17, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 17, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d17a1q2">
+            <head xml:id="bb-l2d17a1q2-Hd1e99">II, Distinctio 17, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d17a1q2-Hd1e102" type="question-title">Utrum anima Adae fuerit producta ex materia.</head>
+ 
+            <p xml:id="bb-l2d17a1q2-d1e105">Secundo quaeritur, utrum anima Adae producta fuerit ex materia.</p>
+            <div xml:id="bb-l2d17a1q2-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d17a1q2-d1e110">Et quod non, videtur.
+  1. Primo, per <name ref="#Aristotle">Philosophum</name>, qui dicit quod <quote xml:id="bb-l2d17a1q2-Qd1e115">forma est compositioni contingens in simplici essentia consistens</quote> . Si igitur anima rationalis vere forma est, ergo simplex est : ergo non componitur ex materia et forma.</p>
+               <p xml:id="bb-l2d17a1q2-d1e119">2. Item, <name ref="#Aristotle">Philosophus</name>, in principio III De anima, dicit quod <quote xml:id="bb-l2d17a1q2-Qd1e124" source="http://scta.info/resource/aristda-l3">intellectus est impermixtus et impassibilis</quote> ; sed omne quod habet materiam, habet potentiam passivam : ergo substantia intellectiva non habet materiam.</p>
+               <p xml:id="bb-l2d17a1q2-d1e128">3. Item, Magister, in littera : <quote xml:id="bb-l2d17a1q2-Qd1e130"><!-- can't find this -->Substantiam animae, in qua viveret, creavit Deus non de materia aliqua corporali vel spirituali, sed de nihilo</quote> .</p>
+               <p xml:id="bb-l2d17a1q2-d1e135">4. Item, hoc ipsum videtur ratione. Substantia intellectiva nihil cognoscit nisi abstrahatur a materia ; sed in actu cognoscendi fit assimilatio cognoscentis ad cognoscibile et e converso : ergo, si ad hoc quod intelligatur, necesse est quod abstrahatur a materia, ad hoc quod aliqua substantia inteiligat, necesse est quod sit per naluram a materia separata ; sed anima Adae fuit huiusmodi : ergo etc.</p>
+               <p xml:id="bb-l2d17a1q2-d1e138">5. Item, quanto forma nobilior tanto simplicior ; sed anima inter omnes formas est nobilissima : ergo simplicissima ; sed aliae formae non componuntur ex materia et forma : ergo multo fortius nec rationalis anima.</p>
+               <p xml:id="bb-l2d17a1q2-d1e142">6. Item, omne quod habet materiam et formam ut partes constitutivas, est hoc aliquid et est completum ; nihil autem, quod est hoc aliquid et completum in se, venit ad constitutionem tertii ; sed anima rationalis venit ad constitutionem tertii, ita quod ex anima et corpore fit unum per essentiam : ergo anima non est hoc aliquid : ergo vel est materia vel forma pura ; non materia :, ergo forma.</p>
+
+ 
+               <p xml:id="bb-l2d17a1q2-d1e145">Sed contra : 1. In III De anima dicit <name ref="#Aristotle">Philosophus</name> quod <quote xml:id="bb-l2d17a1q2-Qd1e150" source="http://scta.info/resource/aristda-l3">sicut in omni natura est materia et efficiens, sic in anima est intellectus quo est omnia fieri, et intellectus quo est omnia facere</quote>. Si igitur potentia passiva est a materia, et haec est in anima, patet etc.</p>
+               <p xml:id="bb-l2d17a1q2-d1e154">2. Item, in non Primae <name ref="#Aristotle">Philosophi</name>ae dicit <name ref="#Aristotle">Philosophus</name> quod <quote xml:id="bb-l2d17a1q2-Qd1e162" source="http://scta.info/resource/aristmet-l9">sicut materia est subiectum formarum substantialium, sic compositum est subiectum accidentis</quote> ; sed anima rationalis est subiectum scientiarum et virtutum, etiam secundum se considerata : ergo composita est ex materia et forma.</p>
+               <p xml:id="bb-l2d17a1q2-d1e166">3. Item, <name ref="#Aristotle">Philosophus</name>, in VIII Metaphysicae : <quote xml:id="bb-l2d17a1q2-Qd1e171" source="http://scta.info/resource/aristmet-l8">Operans et generans non facit aliud nisi propter materiam</quote> : ergo si Deus facit animam, quae est aliud quam ipse, necesse est quod materia vel sit in Deo vel sit in anima ; sed non est in Deo : ergo est in anima.</p>
+               <p xml:id="bb-l2d17a1q2-d1e175">4. Item, hoc ipsum videtur ratione. Omne creatum cui debetur propria operatio, habet haec duo diversa, scilicet quod agit et quo agit ; sed animae secundum se consideratae debetur propria operatio : ergo videtur quod non solum sit forma, quia, si pure lofma esset, tunc ageret se ipsa : ergo habet aliquid de materia.</p>
+               <p xml:id="bb-l2d17a1q2-d1e178">5. Item, omne illud quod secundum sui mutationem est susceptibile contrariorum, est hoc aliquid et substantia per se existens in genere, et omne tale compositum est ex materia et forma ; sed anima secundum sui mutationem est susceptiva gaudii et tristitiae : ergo anima rationalis composita est ex materia et forma.</p>
+               <p xml:id="bb-l2d17a1q2-d1e182">6. Item, anima rationalis non solummodo vitam praebet corpori, sed etiam ipsa vivit ; aut igitur est sua vita aut non. Si sic : ergo non. differt in ea vivens et quo vivit. Et iterum, si est sua vita, non vivit per participationem sed per essentiam ; quae duo sunt contra <name ref="#Boethius">Boethium</name> et <name ref="#Augustine">Augustinum</name> : ergo ponere est in anima, secundum se considerata, aliquid quod det vitam et aliquid quod recipiat. Et si hoc, ergo est composita ex materia et forma. Et ad hoc possunt adduci rationes, quae adductae sunt supra ad ostendendum angelum esse compositum ex materia et forma.</p>
+            </div>
+            <div xml:id="bb-l2d17a1q2-Dd1e192">
+               <head xml:id="bb-l2d17a1q2-Hd1e194">Conclusio</head>
+               <head xml:id="bb-l2d17a1q2-Hd1e197" type="question-title">Anima rationalis, non autem brutalis, habet materiam, quae vocatur spiritualis.</head>
+
+               <p xml:id="bb-l2d17a1q2-d1e200">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc diversi diversa opinati sunt.</p>
+               <p xml:id="bb-l2d17a1q2-d1e203">Quidam enim dixerunt nullam animam, nec rationalem nec brutalem, habere materiam, quia spiritus sunt simplices ; animam tamen rationalem dixerunt habere compositionem ex quo est et quod est, quia ipsa est hoc aliquid et nata est per se et in se subsistere.
+Sed cum planum sit animam rationalem posse pati et agere et mutari ab una proprietate in aliam et in se ipsa subsistere, non videtur quod illud sufficiat dicere quod in ea sit tantum compositio ex quo est et quod est nisi addatur esse in ea compositio materiae et formae.
+</p>
+ 
+               <p xml:id="bb-l2d17a1q2-d1e206">Ideo fuerunt et alii, qui dixerunt non solum animam rationalem sed etiam brutalem ex materia et forma compositam esse, cum utraque sit molor corporis sufficiens.
+Sed quia anima brutalis propriam operationem non habet nec est nata per se subsistere, non videtur quod habeat materiam intra se.</p>
+ 
+               <p xml:id="bb-l2d17a1q2-d1e210">Et ideo est tertius modus dicendi, tenens medium inter utrumque, scilicet quod anima rationalis, cum sit hoc aliquid et per se nata subsistere et agere et pati, movere et moveri, quod habet intra se fundamentum suae existentiae et principium materiale a quo habet existere, et formale a quo habet esse. De brutali autem non oportet illud dicere, cum ipsa fundetur in corpore. Cum igitur principium, a quo est fixa existentia creaturae in se, sit principium materiale, concedendum est animam humanam materiam habere. Illa autem materia sublevata est supra esse extensionis et supra esse privationis et corruptionis, et ideo dicitur materia spiritualis.
+Et propterea illi qui locuti sunt de materiali principio quantum ad esse extensionis et prout habet esse sub privatione, dixerunt animam rationalem non habere materiam, non intendentes de materia in sua generalitate sed prout ad eam stat resolutio physica, sicut dictum est de simplicitate angeli.
+Unde concedendae sunt rationes hoc ostendentes.
+</p>
+ 
+            </div>
+            <div xml:id="bb-l2d17a1q2-Dd1e215">
+               <head xml:id="bb-l2d17a1q2-Hd1e217">Ad rationes</head>
+
+               <p xml:id="bb-l2d17a1q2-d1e220">1. Ad illud quod obicitur, quod omnis forma est simplex, dicendum quod auctor ille, definiens formam, loquitur de forma : illa quae est forma tantum, non de ea quae est forma et hoc aliquid ; unde vel definit ibi formam accidentalem vel definit formam universalem.</p>
+               <p xml:id="bb-l2d17a1q2-d1e223">2. Ad illud quod obicitur, quod intellectus est impassibilis et impermixtus, dicendum quod <name ref="#Aristotle">Philosophus</name> removet ab intellectu materiam, secundum quod consideratur sub privatione et sub potentia ad transmutationem secundum esse ; non removet materiam universaliter, immo ponit, cum dicit quod in intellectu est natura qua est facere et qua est fieri.</p>
+               <p xml:id="bb-l2d17a1q2-d1e229">3. Ad illud quod dicit Magister in littera, dicendum quod Magister non vult dicere quod anima non habeat materiam sed quod non hai beat materiam praeiacentem ; huius autem ratio habebitur infra, scii licet quare anima non est producta nec producitur ex praeiacenti materia.</p>
+               <p xml:id="bb-l2d17a1q2-d1e232">4. Ad illud quod obicitur, quod substantia intellectiva nihil cognoscit nisi quod abstrahitur a materia, dicendum quod hoc non facit propter hoc quod ipsa sit omnino immaterialis, sed propter hoc quod res non potest ei uniri secundum veritatem, ideo oportet quod uniatur secundum similitudinem, quam anima abstrahit a re. 
+  Alia est etiam ratio, quia intellectus per similitudinem, per quam intelligit, debet fieri in actu intelligendi ; illud autem quod facit rem esse in actu, species est et forma. Ideo anima non cognoscit rem nisi speciem eius et formam sibi imprimat ; et hoc non potest esse nisi illa abstrahatur a materia. Nec ex hoc sequitur quod anima careat materia ; res enim abstracta a materia propria bene potest fieri in re alia, quae suam habet propriam materiam et formam, sicut similitudo coloris in speculo.
+</p>
+
+               <p xml:id="bb-l2d17a1q2-d1e236">5. Ad illud quod obicitur, quod quanto forma nobilior tanto simplicior est, dicendum quod istud habet locum in his quae sunt purae formae ; anima autem non tantum est forma, immo etiam est hoc aliquid ; et ideo, si comparetur forma animae ad alias formas, absque dubio simplicior erit quam aliae formae. Ipsa autem anima, cum sit rationalis, cum sit per se existens, aliquam compositionem habet quam aliae formae non sunt natae per se habere, dum non sunt natae per se existere ; nihilominus tamen ipsa anima simplicior alite formis dici potest. Est enim multiplex genus simplicitatis, secundum quod et multiplex est genus compositionis et partium. Sunt enim partes substantiales et sunt partes quantitativae, et compositio ex partibus substantialibus et compositio ex partibus quantitativis. Et sic simplex dicitur dupliciter : aut quod caret partibus constitutivis aut quod caret partibus quantitativis. Quamvis igitur anima non sit aliis formis simplicior quantum ad partes constitutivas, quia tales partes habere spectat ad complementum ed perfectionem : hoc enim facit rem esse per se ; simplicior tamen est quantum ad privationem partium quantitativarum. Ipsa enim nec habet extensionem per se nec habet extensionem per accidens nec quantum ad substantiam nec quantum ad proprium actum. Aliae autem formae per accidens possunt habere extensionem et partibilitatem vel secundum id quod sunt vel secundum id quod operantur. Et ideo quantum ad hoc anima, et maxime rationalis, est forma nobilior.</p>
+
+               <p xml:id="bb-l2d17a1q2-d1e239">6. Ad illud quod obicitur, quod compositum ex materia et forma est ens completum, et ita non venit ad constitutionem tertii, dicendum quod hoc non est verum generaliter, sed tunc quando materia terminat omnem appetitum formae et forma omnem appetitum materiae ; tunc non est appetitus ad aliquid extra et ita nec possibilitas ad compositionem, quae praeexigit in componentibus appetitum et inclinationem. Licet autem anima rationalis compositionem habeat ex materia et forma, appetitum tamen habet ad perficiendam corporalem naturam ; sicut corpus organicum ex materia et forma compositum est et tamen habet appetitum ad suscipiendam animam.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

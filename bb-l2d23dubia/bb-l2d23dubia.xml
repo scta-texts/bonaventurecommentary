@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubia</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubia</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d23dubia">
+            <head xml:id="bb-l2d23dubia-Hd1e99">Dubia</head>
+            <div xml:id="bb-l2d23dubia-Dd1e102">
+               <head xml:id="bb-l2d23dubia-Hd1e104">Dub. I.</head>
+               <p xml:id="bb-l2d23dubia-d1e107">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de hoc quod dicit primo capitulo : Non esset homini laudabile bene vivere, si nemo male vivere suaderet. Sed contra : Si enim hoc verum est, tunc videtur quod vita nostra in gloria laudabilis non erit, ubi nemo male vivere suadebit.
+Item, esto quod diabolus nihil homini persuasisset, nihilominus mereri potuisset ; sed, si mereretur, esset laude dignus : ergo etc.</p>
+               <p xml:id="bb-l2d23dubia-d1e110">Respondeo : Dicendum quod laus quaedam est quae respicit dignitatem operis voluntarii, in quantum opus illud nobile est ; et hoc posset esse in homine, etiamsi nullus ipsum tentasset. Quaedam autem est laus quae non tantum respicit opus voluntarium, sed etiam opus strenuum et arduum, quod consistit in expugnationeadversarii et reportatione triumphi ; et de hoc loquitur Apostolus, II ad Timotheum 2, 5 : <quote xml:id="bb-l2d23dubia-Qd1e112" ana="#IItim2_5">Non coronabitur nisi qui legitime certaverit</quote>. Et de hac laude Magister intelligit.
+Et sic patent ilia duo obiecta, quia procedunt de laude secundum primum modum.</p>
+            </div>
+            <div xml:id="bb-l2d23dubia-Dd1e117">
+               <head xml:id="bb-l2d23dubia-Hd1e119">Dub. II.</head>
+               <p xml:id="bb-l2d23dubia-d1e122">Item quaeritur de hoc quod dicitur : Gloriosius est non consentire peccato quam tentari non posse. Sed contra : Deus non potest tentari ; homo vero sic : ergo gloriosior est homo quam Deus.
+Item, in statu gloriae homo non poterit tentari, in statu viae potest : ergo gloriosior est status viae quam patriae ; quod si verum est, gloriosior est miseria quam gloria.</p>
+               <p xml:id="bb-l2d23dubia-d1e125">Respondeo : Dicendum quod verbum Magistri intelligendum est circa eum qui efficitur gloriosus ex merito suorum operum ; et ideo non valet illud quod obicit de Deo.
+Item, intensio gloriae intelligenda est in verbo proposito, non quantum ad praemium substantiale, sed quantum ad aliquam accidentalem laudem, qua laudatur vir iustus, Ecclesiastici 31, 10 : Qui potuit transgredi, et non est transgressurus etc. ; et ideo non valet illud quod obicitur secundo.
+ </p>
+            </div>
+            <div xml:id="bb-l2d23dubia-Dd1e129">
+               <head xml:id="bb-l2d23dubia-Hd1e131">DUB. III.</head>
+               <p xml:id="bb-l2d23dubia-d1e134">Item quaeritur de hoc quod dicit quod scientiam rerum creatarum homo non perdidit, et propterea in Scriptura de ea non eruditur. Utrumque enim videtur esse falsum. Constat enim quod nos, qui sumus filii Adae, rerum naturas ignoramus et ignorantes nascimur nec nosse possumus nisi cum magna difficultate discamus.
+Similiter, secundum videtur esse falsum, quia in sacra Scriptura habetur de productione omnium rerum in operibus sex dierum, et qualiter productae sunt et qualiter etiam distinctae sunt.</p>
+               <p xml:id="bb-l2d23dubia-d1e137">Respondeo : Dicendum quod, etsi homo merito primi peccati excaecatus sit et factus sit ignorans tam in cognitione universitatis propter ipsum creatae quam etiam in cognitione viae salutis suae, plus tamen excaecatus est in secundo quam in primo. Nam ad cognitionem naturalium rerum multum potest proficere proprio studio atque ingenio, sed in cognitione modi perveniendi ad vitam per se ipsum plus deficit quam proficit nisi divinae revelationis instructione dirigatur. Et propterea magis data est nobis Scriptura divinitus et per Spiritum sanctum revelata, in cognitione fidei et morum quam in cognitione rerum naturalium, licet omnis veritas aliquo modo a Spiritu sancto esse dicatur. Et pro tanto intelligendum est verbum prius propositum a Magistro fuisse dictum.</p>
+               <p xml:id="bb-l2d23dubia-d1e140">Quod ergo obicitur de amissione cognitionis, verum est quod amisit habitum, non tamen amisit naturale iudicatorium.
+Ad illud vero quod obicitur, quod Scriptura insinuat productionem rerum, dicendum quod non determinat ibi rerum speciales naturas et causas ; sed hoc explicat quod sentit fides sana, videlicet divinam voluntatem omnium esse causam primam et summam et omnia esse facta, per Verbum et reparata per Verbum.</p>
+            </div>
+            <div xml:id="bb-l2d23dubia-Dd1e144">
+               <head xml:id="bb-l2d23dubia-Hd1e146">Dub. IV</head>
+               <p xml:id="bb-l2d23dubia-d1e149">Item quaeritur de hoc quod dicit quod homo non habuit praescientiam eorum quae futura erant Si enim hoc verum esset, cum nos multa praesciamus de futuris, et sancti Patres praesciverunt adventum Christi, et Prophetae similiter, videtur quod Adam non fuit ita sapiens sicut nos sumus hodie.
+Si tu dicas quod hoc non est inconveniens propter gratuitam revelationem, quae in nobis est et Prophetis, ut aliquid sciamus quod ignoravit Adam, obicitur contra hoc : quia, sicut Sancti exponunt, Adam in sopore illo raptus est et ad caelestem curiam dicitur fuisse perductus ; et hoc innuit textus, quod statim post evigilationem prophetice locutus est : Hoc nunc os etc. Si ergo vere locutus est prophetice, praecognovit quid significabat mulieris et viri coniunctio et mulieris de latere viri formatio. Sed primum significat Christi incarnationem ; secundum, passionem : ergo praecognovit Christum incarnandum et Christum passurum ; sed redemptio et reparatio praesupponit lapsum : ergo praecognovit Adam lapsum futurum et suum remedium.</p>
+               <p xml:id="bb-l2d23dubia-d1e152">Respondeo : Dicendum quod Magister non loquitur de quibuscumque futuris, sed de his quae spectabant ad statum suum, utpote de lapsu et confirmatione. Confirmationem enim praescire non potuit, quia non erat mansurus ; lapsum autem scire non debuit ; et rationes supra assignatae sunt, cum hoc quaesitum fuit de angelo.</p>
+               <p xml:id="bb-l2d23dubia-d1e155">Cum ergo obicitur, quod praescivit incarnationem, dupliciter respondetur : uno modo, quod hoc falsum est. Etsi enim sciret mulierem factam ut coniungeretur sibi per coniugii Sacramentum, non tamen oportuit quod sciret incarnationem et passionem, pro eo quod coniugium tempore innocentiae non significabat coniunctionem Christi et Ecclesiae quantum ad naturarum coniunctionem, sed per caritatem et dilectionem.
+Alius est modus respondendi, quod sicut Ioseph praecognovit suum principatum, non tamen praecognovit suam venditionem, et hoc fuit antecedens ad illud sic Adam nosse potuit aliquid quod spectabat ad hanc naturae exaltationem, sicut fuit Christi incarnatio, ita tamen quod ignorabat posteritatis suae lapsum per suam praevaricationem, vel quia Deus non revelavit vel quia ipse non pertractavit.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

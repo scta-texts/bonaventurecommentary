@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 18, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 18, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d18a1q2">
+            <head xml:id="bb-l2d18a1q2-Hd1e99">II, Distinctio 18, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d18a1q2-Hd1e102" type="question-title">Utrum mulier formata fuerit de costa viri secundum rationem seminalem.</head>
+ 
+            <p xml:id="bb-l2d18a1q2-d1e105">Secundo quaeritur, utrum mulier formata sit de costa viri secundum rationem seminalem.</p>
+            <div xml:id="bb-l2d18a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d18a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d18a1q2-d1e113">Et quod sic, videtur. 1. Primo per textum : <quote xml:id="bb-l2d18a1q2-Qd1e115" ana="#gen2_2">Consummavit Deus die sexto omne opus suum</quote>. Si ergo formatio mulieris fuit post diem sextum, sicut Scriptura innuit, ergo aliquo modo in illis operibus sex dierum mulier condita fuit ; sed non erat nisi in costa : ergo in costa erat unde fieret mulier. Sed quod sic est in aliquo dicitur esse in eo secundum rationem seminalem : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q2-d1e119">2. Item, <name ref="#Augustine">Augustinus</name>, VI Super Genesim ad litteram : <quote xml:id="bb-l2d18a1q2-Qd1e124">Omnia quae consequentibus erant evolvenda temporibus, primitus Deus creavit simul, cum faceret mundum ; consummata quidem, quoniam nihil habent illa in naturis propriis, quibus suorum temporum cursus agunt, quod non in istis causaliter factum sit ; inchoata autem, quoniam quaedam erant semina futurorum</quote>. Ergo si mulier postea producenda erat, semen mulieris praeexistebat ; sed non nisi in costa : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q2-d1e128">3. Item, vir dicitur esse imago Dei, quia ex ipso fiunt omnes homines, sicut omnia sunt ex Deo ; sed nulla creatura est ex Deo materialiter : ergo si recta est assimilatio, necesse est quod vir respectu mulieris non solum habeat habitudinem principii materialis sed etiam activi. Sed quod est ex aliquo sicut ex materiali et activo principio est secundum rationem seminalem : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q2-d1e131">4. Item, vir productus est ex limo,et mulier de viro. Aut ergo est maior habitudo et convenientior costae ad mulierem quam viri ad limum aut non. Si non : ergo non magis attinet mulier viro quam vir limo. Si sic : ergo ultra rationem possibilis fuit ibi aliquo modo ratio activi. Si igitur haec est ratio seminalis, apparet quod secundum rationem seminalem ex costa formatum fuit corpus mulieris.</p>
+               <p xml:id="bb-l2d18a1q2-d1e135">5. Item, cum Deus produxit corpus mulieris de costa, aut hoc fuit secundum naturam aut contra. Si secundum naturam : cum natura, quidquid facit faciat secundum rationes seminales, videtur quod seminaliter mulier de costa producta sit. Si contra naturam, contra : <quote xml:id="bb-l2d18a1q2-Qd1e137">Conditor naturae, ut dicit <name ref="#Augustine">Augustinus</name>, non facit contra naturam</quote> ; et idem, Super Genesim ad litteram : <quote xml:id="bb-l2d18a1q2-Qd1e143">Tam non facit Deus contra causas, quas bonas constituit, quam contra voluntatem suam non facit</quote>. Ergo si formatio Evae non potuit esse contra naturam, fuit ergo secundum naturam ; et si hoc, fuit ergo secundum rationem seminalem.</p>
+               <p xml:id="bb-l2d18a1q2-d1e147">6. Item, si productio illa fuit contra naturam, ergo formatio mulieris fuit miraculum ; sed <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, dicit quod Deus in rerum conditione non utitur rebus ad miraculum suae potentiae, sed secundum quod proprie competit ipsarum rerum naturae : ergo si miraculum non faciebat, sed operabatur secundum quod natura exigebat, videtur quod mulierem produxerit secundum seminalem rationem, si eam produxit secundum exigentiam naturae.</p>
+
+               <p xml:id="bb-l2d18a1q2-d1e153">Contra : 1. Magister dicit in littera, et est auctoritas <name ref="#Augustine">Augustini</name> : <quote xml:id="bb-l2d18a1q2-Qd1e158" source="http://scta.info/resource/pl-l2d18c6-d1e108"><!-- might actually be quote from augustine -->Illa quae secundum causam seminalem fiunt, dicuntur naturaliter fieri, quia ita cursus naturae hominibus innotuit</quote>. Si ergo productio mulieris de costa non est secundum naturae cursum, ergo non erit secundum rationem seminalem.</p>
+               <p xml:id="bb-l2d18a1q2-d1e163">2. Item, Magister in littera : Corpus mulieris de costa factum dicitur eo sane miraculo quo de quinque panibus quinque millia hominum saturata sunt ; sed illud non fuit secundum rationem seminalem : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q2-d1e166">3. Item, hoc videtur ratione. Semen dicit principium activum et intrinsecum, unde non dicitur semen hominis humor quicumque, sed ille qui decisus est a lumbis paternis ; sed in costa non erat vis activa ad mulieris productionem : ergo nec ratio seminalis.</p>
+               <p xml:id="bb-l2d18a1q2-d1e169">4. Item, semen habet in se rationem totius et partium eius rei quae ex ipso producitur. Unde <name ref="#Augustine">Augustinus</name>, V Super Genesim ad litteram : In semine omnia producta sunt et fuerant primitus non mole magnitudinis, sed in potentia causali. Sed in costa illa non erat virtus ad singula membra formanda : ergo non erat ibi mulier secundum rationem seminalem.</p>
+               <p xml:id="bb-l2d18a1q2-d1e176">5. Item, impossibile est aliquid crescere per virtutem creatam nisi per rarefactionem aut appositionem ; sed corpus mulieris de illa costa productum est, quod erat ipsa maius, non per costae rarefactionem nec extrinsecae materiae appositionem, sicut dicit Magister in littera : ergo productio illa ex costa non fuit secundum virtutem creaturae, sed solum creatricis essentiae. Sed seminalis ratio dicit virtutem creatam ; non enim dicuntur in Deo res esse seminaliter : ergo haec productio mulieris ex costa non fuit secundum rationes seminales.</p>
+               <p xml:id="bb-l2d18a1q2-d1e179">6. Item, secundum rationes seminales attenditur rerum propagatio et generatio ; sed secundum eductionem corporis de costa non fit propagatio in humana specie : ergo productio alicuius corporis humani ex costa non est secundum rationem seminalem.</p>
+
+ 
+               <p xml:id="bb-l2d18a1q2-d1e182">Propter hoc est quaestio : cum Magister dicat aliqua fieri secundum rationes causales, aliqua secundum rationes seminales, quae sit differentia inter haec duo. Si tu dicas quod illa fiunt secundum rationes causales, quae fiunt secundum rationes incommutabiles vel aeternas ; illa secundum rationes seminales, quae fiunt secundum exigentiam et virtutem potentiarum inditarum ipsis creaturis ; obicitur contra hoc per <name ref="#Augustine">Augustinum</name>. Dicit enim <name ref="#Augustine">Augustinus</name>, VI Super Genesim ad litteram : <quote xml:id="bb-l2d18a1q2-Qd1e190">Nihil habent res in naturis propriis, quod non in primis diebus causaliter factum est</quote>. Et iterum : <quote xml:id="bb-l2d18a1q2-Qd1e193">Causales illae rationes, quas mundo indidit, cum primum simul omnia creavit, quomodo institutae sunt, merito quaeri potest</quote>. Et paulo post : <quote xml:id="bb-l2d18a1q2-Qd1e196">in illis primis rerum causis, quas mundo primitus Creator inseruit, non tantum posuit quod de limo formaturus erat hominem, sed quemadmodum producturus</quote>. Ergo rationes causales non dicunt quid increatum sed creatum.
+Item, ipse <name ref="#Augustine">Augustinus</name> rationes causales, quas dicit inditas primis rebus, distinguit contra incommutabiles rationes, tam in V Super Genesim ad litteram, quam in sexto.</p>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e204">Quaeritur etiam, quae differentia sit inter rationes seminales et naturales. Et videtur quod nulla : quia <name ref="#Augustine">Augustinus</name> dicit quod cum arbor germinatur de semine, quotidie est propagatio secundum rationem seminalem, in fine V Super Genesim ; sed hoc idem est secundum rationem naturalem.
+Item, operatio, quae est a vi seminali, aut est naturalis aut est voluntaria. Cum enim non sit a causa per accidens et sit a causa creata, necesse est quod sit a natura vel ab intellectu. Sed non est ab intellectu, ergo a natura : ergo omne quod fit seminaliter fit naturaliter. Pari ratione, cum natura sit vis propagativa, et propagatio fiat mediante semine, omne quod fit naturaliter videtur fieri seminaliter.</p>
+            </div>
+            <div xml:id="bb-l2d18a1q2-Dd1e211">
+               <head xml:id="bb-l2d18a1q2-Hd1e213">Conclusio</head>
+               <head xml:id="bb-l2d18a1q2-Hd1e216" type="question-title">Corpus mulieris non fuit in costa Adae secundum rationes seminales, 
+    nisi large intelligantur; et omnino non est inde factum secundum easdem</head>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e219">Respondeo ; Ad praedictorum intelligentiam est notandum quod, cum de his rationibus seminalibus egregius doctor <name ref="#Augustine">Augustinus</name>, in V et VI Super Genesim ad litteram, ambigue loquatur, et ab ipso potissime habeamus horum nominum usum, non est facile inter huiusmodi vocabula recte distinguere. Ipse enim rationes causales modo dicit rebus fuisse insertas, modo dicit quantum ad aliqua in divina voluntate fuisse servatas. Possumus tamen, quantum est de vi vocabuli, differentiam assignare in hunc modum.</p>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e225">Causa enim communis est ad principium intrinsecum et extrinsecum, similiter et ratio causalis, quantum est de vi nominis ; semen vero dicit principium intrinsecum. Et ita ratio causalis se extendit ad rationes creatas et increatas ; ratio vero seminalis solum ad rationes creatas. Quantum ergo est de vi nominis, unum est commune respectu alterius ; in quantum autem ad invicem distinguuntur et connumerantur, sic causa et causalis ratio accipitur quantum ad principium increatum, semen vero et seminalis ratio spectat ad principium creatum.
+Differunt autem causa et ratio causalis, quia causa dicit principium productivum, ratio vero, causalis dicit regulam dirigentem illud principium in sua operatione. Similiter per hunc modum differt semen et ratio seminalis. Regula autem agentis increati est forma exemplaris sive idealis, regula vero agentis creati est forma naturalis ; et ita rationes causales sunt formae ideales sive exemplares, rationes vero seminales sunt formae naturales.</p>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e228">Et secundum hoc patet quod rationes causales et primordiales idem sunt re, differentes sola ratione. Primordiales enim dicuntur per privationem prioris, sed causales per positionem posterioris ; et primordiales, in quantum respiciunt Deum ut principium primum ; causales, in quantum respiciunt Deum ut finem ultimum, qui est causa causarum.
+Similiter naturales rationes et seminales re idem sunt, ratione vero differunt. Quia enim semen dicit ut ex quo, et natura dicit ut a quo, ratio seminalis attenditur in quantum dirigit potentiam naturae, ut ex aliquo fiat aliquid ; naturalis vero, ut ab aliquo fiat aliquid.
+Vel ratio seminalis respicit inchoationem et intrinsecam virtutem, quae movet et operatur ad effectus productionem ; naturalis vero concernit producentis ad productum assimiliationem et modi agendi assuetudinem. Unde appropriate loquendo, cum magi ex virgis fecerunt serpentes hoc fuit secundum rationes seminales ; cum vero serpentes, sicut assolent, serpentes generant, hoc fit secundum rationes naturales, licet utraeque et naturales et seminales congrue dici possint.</p>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e232">Quando ergo quaeritur, utrum aliquis effectus fiat secundum rationes causales aut seminales, respondendum est quod aut sic est a Deo ille effectus, quod creatura non habet in eo potentiam aliquam ; aut si habet, habet solam potentiam obedientiae, utpote cum mundus fit de nihilo, ubi nulla est potentia creaturae, vel cum multi panes multiplicantur ex pane uno, ubi est sola potentia obedientiae ; et haec fiunt secundum rationes causales, quas Deus servavit in sua voluntate, quia non fiunt secundum exigentiam creaturae, sed secundum exigentiam dispositionis aeternae.
+Si autem sic producitur effectus, quod est in potentia naturae non solum obediente sed etiam potente ad actum perducere, sic dicitur fieri secundum rationes seminales ; sicut patet, cum homo generatur ex homine vel arbor ex arbore.</p>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e235">Sed attendendum est quod illa potentia naturae ad effectus istos aut est propinqua et sufficiens, sicut est in semine deciso a lumbis ad generationem humani corporis, et sic dicitur proprie habere in se rationem seminalem ; aut est remota et insufficiens, sicut est in pane vel in alimento ut ex eo fiat homo, et sic minus proprie dicitur esse ibi ratio seminalis. Non enim dicitur in pane esse ratio seminalis respectu hominis producendi, nisi valde large accipiatur.
+Quod autem sic est in remota dispositione respectu effectus, aut perducitur ad illum effectum mediantibus illis ad quae habebat ordinem immediatum, aut immediate. Si mediate, tunc potest dici quod effectus ille sit secundum rationem seminalem, utpote si panis comedatur et digeratur et convertatur in humorem et postmodum in lumbis convertatur in semen, deinde in hominem. Si autem immediate perducatur ad effectum, utpote si de pane statim formaretur corpus hominis, sic nullo modo dicitur esse factum secundum rationes seminales, sed secundum rationes causales. Quamvis enim ibi esset aliqua potentia activa ad hoc quod inde fieret corpus per multa intermedia, tamen quod immediate fieret hoc habuit in sola potentia obedientiae.</p>
+ 
+               <p xml:id="bb-l2d18a1q2-d1e238">Cum ergo quaeritur, utrum corpus mulieris fuerit in costa seminaliter, dicendum quod, si proprie accipiatur ratio seminalis, non ; si autem accipiatur large pro quacumque potentia activa existente in materia, sic potest dici in costa fuisse ratio seminalis. Rursus, si quaeratur, utrum mulier facta sit de costa secundum rationes seminales, respondendum est quod non, quia costa respectu talis modi producendi et respectu tanti corporis ex ea formandi absque additione non habuit nisi solam potentiam obedientiae. Unde concedendae sunt rationes ad hoc inductae.</p>
+            </div>
+            <div xml:id="bb-l2d18a1q2-Dd1e243">
+               <head xml:id="bb-l2d18a1q2-Hd1e245">Ad rationes</head>
+
+               <p xml:id="bb-l2d18a1q2-d1e248">1-2. Ad illud autem quod primo obicitur in contrarium, quod nihil novum fecit Deus ultra diem sextum, dicendum quod illud argumentum deficit dupliciter. Primo, quia, etsi formatio mulieris post diem sextum narretur, non est tamen credendum quod tam longo tempore viri formatio praecesserit, sed quod die sexto de latere viri producta est. Illud autem quod subditur, intelligendum est per recapitulationem : recapitulat enim Scriptura, ut addat. Deficit etiam in hoc quod Deus non dicitur facere novum, non solum in hoc quod omnia producta sint in ratione seminali, sed quia producta sunt in suo simili ; et hoc necessarium est dicere propter creationem animae, quae non exit in esse secundum seminalem rationem.
+Et per hoc patet responsio ad sequens, quia formatio mulieris non fuit de consequentibus ad opera sex dierum ; vel si fuit, causaliter dicitur fuisse facta, qpia praecessit potentia obedientiae in costa, vel etiam aliqua ratio seminalis longinqua, licet secundum illam mulier non sit formata, sed secundum potentiam divinam.</p>
+
+               <p xml:id="bb-l2d18a1q2-d1e251">Ad illud quod obicitur, quod vir est imago Dei, quia principium omnium hominum, dicendum quod non est omnimoda similitudo. Deus enim est principium sufficiens respectu omnium ; vir autem non est per se principium sufficiens respectu hominum, aliquo tamen modo tenet rationem principii ; et hoc facit ad maiorem expressionem imaginis, ad cuius expressionem aliquo modo amplificandam non solum facit assimilatio perfecta, sed etiam assimilatio modica.</p>
+               <p xml:id="bb-l2d18a1q2-d1e254">Ad illud quod obicitur, quod maior erat convenientia costae ad mulierem quam limi ad virum, dicendum quod costa dupliciter potest considerari : aut in se aut in quantum fuit pars viri. In se quidem ita bene distabat a formatione corporis mulieris, sicut limus a formatione corporis viri. Si autem consideretur in quantum est pars viri, sic, quia vir et mulier sunt personae, in quibus potest esse affinitas et attinentia, talis formatio faciebat quoddam maius vinculum attinehtiae esse inter virum et mulierem, quod quidem non poterat esse inter virum et elementum terrae.</p>
+               <p xml:id="bb-l2d18a1q2-d1e257">Ad illud quod obicitur, quod productio mulieris de costa non fuit contra naturam, dicendum quod dupliciter dicitur natura. Uno modo dicitur natura omne illud quod competit rei a sua naturali origine ; et sic competit creaturae, ut ex ea producatur omne quod Deus vult. Opus enim respectu sui artificis habet in se potentiam perfectae obedientiae, cum per omnia subiaceat eius voluntati ; propter quod dicitur quod spiritus Domini ferebatur super aquas ; et contra hanc naturam Deus nunquam facit, immo quidquid facit de creatura, secundum hanc naturam facit. Et secundum hunc modum accipiendi naturam, mulier de costa non est formata contra naturam.
+Alio modo dicitur natura proprie vis insita rebus, secundum quam res naturales peragunt cursus suos et motus solitos ; et hoc modo accipiendo naturam, aliquando Deus facit contra naturam, aliquando supra naturam.
+Tunc facit contra naturam, quando facit aliquid, cuius simile in natura et a natura produci habet, tamen alio modo omnino diverso, ut patet in hoc quod natura dat alicui visum et successive in primaria generatione, similiter et dat vitam ; nunquam tamen caecum reducit ad visum nec mortuum ad vitam. Si ergo Deus sua virtute hoc faciat, ut alicui caeco visum restituat et mortuo vitam, tunc dicitur facere contra naturam, id est contra solitum cursum naturae, et tunc dicitur miraculum.
+Quando vero Deus facit aliquid, cuius simile natura facere non potest et ad quod natura non habet ordinem secundum propriam virtutem, sicut quando Deus factus est homo vel quando corpus mortale fit gloriosum ; tunc facit supra naturam, et illud opus proprie dicitur mirabile, non miraculum.
+Quoniam igitur in operibus sex dierum naturae rerum nondum erant conditae nec cursus earum determinati, ideo tam in productione mulieris ex costa viri quam in productione aliarum rerum operabatur supra naturam, non contra ; et ideo opera illa mirabilia, non miracula, dici debebant.</p>
+
+               <p xml:id="bb-l2d18a1q2-d1e261">Et per hoc patet responsio ad ultimum obiectum, quia non fuit proprie contra naturam nec est miraculum dicendum.</p>
+
+               <p xml:id="bb-l2d18a1q2-d1e264">Patet etiam responsio ad illud quod consuevit quaeri, quae differentia est inter miraculum et mirabile et in quo differt facere aliquid contra naturam et supra ; postremo, qualiter verum est quod Deus nihil facit contra naturam, et tamen miracula aliquo modo sunt contra naturam.
+Patet etiam quae differentia sit inter rationes primordiales, causales, seminales et naturales. Duo enim prima membra, scilicet primordiales rationes et causales, differunt ratione ; similiter duo ultima, scilicet rationes seminales et naturales. Duo vero intermedia, scilicet rationes causales et seminales, uno modo se habent sicut generale et speciale ; alio modo, si fiat appropriatio, causales sunt quae servatae sunt in mente divina, seminales vero quae sunt rebus insertae.
+Et hinc est quod <name ref="#Augustine">Augustinus</name> causales rationes dicit esse rationes ad ea quae fiunt miraculose et naturaliter ; dicit etiam quasdam rationes causales in mente divina reservatas, quasdam autem esse rebus insertas, VI Super Genesim. Et sic patet quod nulla est contrarietas.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

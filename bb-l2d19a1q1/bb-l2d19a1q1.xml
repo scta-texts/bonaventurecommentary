@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 19, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 19, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d19a1q1">
+            <head xml:id="bb-l2d19a1q1-Hd1e99">II, Distinctio 19, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d19a1q1-Hd1e102" type="question-title">Utrum anima humana per naturam sit immortalis.</head>
+ 
+            <p xml:id="bb-l2d19a1q1-d1e105">Circa primum sic proceditur et ostenditur quod anima rationalis non sit naturaliter immortalis.</p>
+            <div xml:id="bb-l2d19a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d19a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d19a1q1-d1e113">Primo per auctoritatem Apostoli, I ad Timotheum ultimo, 16 : <quote xml:id="bb-l2d19a1q1-Qd1e115" ana="#Itim6_16">Qui solus habet immortalitatem</quote> ; loquitur de Deo : ergo immortalitas non convenit alicui creaturae. Si tu dicas hoc esse dictum, quia soli Deo convenit per naturam, animae hominis vero non convenit per naturam, sed per gratiam - contra : gratia non repugnat naturae nec naturam variat, sed potius conservat. Si ergo mortalitas inest omni creaturae per naturam, immortalitas, quae est conditio opposita, nulli creaturae inest per gratiam : ergo hec animae.</p>
+               <p xml:id="bb-l2d19a1q1-d1e119">Item, <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-l2d19a1q1-Qd1e124" source="http://scta.info/resource/jddfo-l1c3">Omne quod a versione incipit, in versionem tendit</quote> ; sed anima rationalis a versione incipit, cum sit creata, ut ostensum fuit supra : ergo tendit in versionem : ergo non est immortalis. Si tu dicas quod tendit, quantum est de se, sed tenetur et sustentatur manu Conditoris - contra hoc est illud <name ref="#Augustine">Augustini</name>, VII De civitate Dei : <quote xml:id="bb-l2d19a1q1-Qd1e130" source="http://scta.info/resource/adcd-l7">Sic res, quas condidit, administrat, ut eas agere proprios motus sinat</quote>, loquitur de Deo ; si ergo de se ad corruptionem tendit, divinae manus potentia non obsistit.</p>
+               <p xml:id="bb-l2d19a1q1-d1e134">Item, per auctoritatem <name ref="#Aristotle">Philosophi</name> : <quote xml:id="bb-l2d19a1q1-Qd1e139" source="http://scta.info/resource/aristda-l1">Intellectus corrumpitur quodam interius corrupto</quote> ; sed non corrumpitur intellectus nisi a corruptione animae rationalis : ergo anima rationalis non est immortalis.</p>
+               <p xml:id="bb-l2d19a1q1-d1e143">Item, hoc ipsum videtur ratione. Anima patitur in corpore per naturam, sicut planum est ; sed <quote xml:id="bb-l2d19a1q1-Qd1e145">passio magis et magis facta abicit a substantia</quote> ; a quacumque autem substantia fiat aliqua abiectio, fit etiam aliqua corruptio, per quam aliquid inde corrumpitur ; et omnis talis substantia est corruptibilis : ergo anima rationalis est corruptibilis,</p>
+               <p xml:id="bb-l2d19a1q1-d1e150">6. Item, anima rationalis condolet corpori patienti, ergo magis patienti magis condolet, et maxime patienti maxime compatitur : ergo videtur quod morienti commoriatur.</p>
+               <p xml:id="bb-l2d19a1q1-d1e153">6. Item, si substantia est incorruptibilis, et operatio correspondens illi substantiae, quia nunquam substantia privatur propria operatione : ergo si destruitur et laeditur operatio, destruitur et laeditur substantia. Sed ad laesionem corporis laeditur et impeditur actus substantiae rationalis, qui est intelligere : ergo videtur quod laedatur et ipsa substantia : ergo substantia est corruptibilis et mortalis.</p>
+
+ 
+               <p xml:id="bb-l2d19a1q1-d1e156">Ad oppositum sunt innumerabiles auctoritates et philosophorum et Sanctorum, et ideo ostendamus hoc rationibus. Ut autem sufficienter animae ostendatur immortalitas, attendendum est quod anima habet considerari in ordine et habet considerari in se : in ordine, respectu universae creaturae vel respectu divinae iustitiae vel respectu finis, qui competit propriae naturae ; et in se, quantum ad virtutem, quantum ad actum et quantum ad obiectum ; et sic sex modis considerari habet.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e159">Et prima consideratio est secundum ordinem, quem habet inter creaturas universi, et secundum hanc considerationem ostenditur eius immortalitas ex duplici ratione. Prima est haec. In ordine creaturarum universi reperimus primam materiam et ultimam formam, et aeque vel magis est de complemento universi ultima forma sicut et prima materia. Si igitur prima materia est incorruptibilis, ergo et ultima forma ; sed haec est anima rationalis : ergo etc.</p>
+               <p xml:id="bb-l2d19a1q1-d1e162">Item, alia ratio ad idem. Ad hoc quod universum sit completum, necesse est reperire differentias creaturarum secundum perfectam combinationem ; sed contingit reperire in universo substantiam habentem magnitudinem, existentem incorruptibilem, ut corpus caeli ; et contingit reperire substantiam incorruptibilem, quae nec est magnitudo nec coniuncta magnitudini : ergo contingit reperire substantiam mediam incorruptibilem, quae non sit magnitudo, sed coniuncta magnitudini ; sed haec est anima rationalis. Ex perfectione igitur ordinis universitatis colligitur animam esse immortalem.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e165">3. 4. Ex secunda consideratione, scilicet ex ordine divinae iustitiae, ostenditur sic. <quote xml:id="bb-l2d19a1q1-Qd1e167">Nullum bonum est irremuneratum et nullum malum est impunitum</quote> apud eum qui iuste iudicat ; sed multa bona remanent irremunerata et multa mala impunita secundum praesentem vitam : ergo est ponere vitam aliam quam hanc ; sed hoc non esset nisi anima remaneret post corpus : ergo etc. Si tu dicas quod hoc non cogit, quia, sicut suscitatur corpus, ita posset anima suscitari ; non est conveniens talis instantia. Cum enim anima ex nihilo sit creata, si corrumperetur, in nihilum tenderet : ergo non suscitaretur, sed alia anima de novo crearetur.</p>
+               <p xml:id="bb-l2d19a1q1-d1e172">Item, ad divinam iustitiam spectat quod nihil bene et iuste factum debet vergere in malum exitum ; sed, secundum moralem philosophum et secundum legem divinam et secundum etiam omnes sectas, potius homo debet pati mortem quam recedere a veritate vitae et a veritate iustitiae. Sed si omnino perimeretur anima, perimeretur omnino iustitia, quae est in ipsa : ergo talis mortis perpessio, quae iusta est et quam laudat omnis ratio recta, malum haberet simpliciter exitum ; quod est contra divinam iustitiam. Colligitur igitur ex ordine iustitiae animam immortalem esse.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e175">5. 6. Ex tertia consideratione, scilicet ex ordine ipsius animae ad proprium finem, ostenditur sic. Remoto ultimo fine, qui principaliter movet, omnes alii fines cassi sunt et vani ; sed finis ultimus omnis operationis rationalis est beatitudo perfecta : ergo si illa non est, omnia quaecumque facit anima, facit frustra. Si ergo hoc est inconveniens, necesse est illum finem ponere. Sed beatitudo est status omnium bonorum congregatione perfectus ; ubi autem hoc est, necesse est esse immortalitatem : ergo anima per naturam est apta nata ad incorruplionem et immortalitatem.</p>
+               <p xml:id="bb-l2d19a1q1-d1e178">Item, omnis anima rationalis naturaliter appetit beatitudinem ; sed nihil est otiosum in fundamento naturae : ergo omnis anima rationalis nata est ad beatitudinem pervenire. Ubi autem bealitudo, ibi perfecta securitas ; ubi perfecta securitas, ibi immortalitas ; ubi enim mors potest accidere, necesse est timere.
+Colligitur igitur ex ordine ipsius animae ad suum finem ipsam habere immortalitatem. Et haec triplex consideratio sumta est secundum triplicem ordinem ipsius animae, scilicet ad finem proprium, ad divinum iudicium, ad totum universum.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e181">7. 8. Ex quarta consideratione, scilicet ipsius animae quantum ad propriam virtutem, arguitur sic. Nulla virtus materialis et corruptibilis nata est super se reflecti : haec per se manifesta est ; anima rationalis secundum actum proprium nata est super se reflecti cognoscendo se et amando : ergo virtus animae rationalis non est materialis et corruptibilis : ergo est immaterialis et incorruptibilis. Sed si virtus est incorruptibilis, et substantia : ergo etc.</p>
+               <p xml:id="bb-l2d19a1q1-d1e184">Item, omnis virtus, quae per recessum et impermixtionem cum corpore corruptibili fortificatur et potentior efficitur, est incorruptibilis per naturam ; anima rationalis est huiusmodi, sicut patet, quia tanto magis relevatur spiritus et homo interior, quanto magis mortificatur homo exterior : virtus igitur animae rationalis est incorruptibilis. Et sic ex sua virtute colligitur anima rationalis esse immortalis.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e187">9. 10. Ex quinta consideratione, scilicet quantum ad operationem, arguitur sic. Cuiuslibet substantiae spiritualis, secundum esse et durationem pendentis ex corpore, operatio pendet ex corpore ; sed anima rationalis propriam operationem habet secundum quam non pendet ex corpore, scilicet intelligere, quia nullum organum sibi appropriat : ergo duratio animae non pendet ex corpore. Sed ipsa de se corrumpi non habet, cum nullam contrarietatem habeat : ergo de se est immortalis et incorruptibilis.</p>
+               <p xml:id="bb-l2d19a1q1-d1e191">Item, cuiuslibet substantiae corruptibilis operatio antiquatur et senescit in tempore ; sed animae rationalis operatio nec antiquatur nec senescit in tempore, immo iuvenescit, quia in antiquis est sapientia, et in multo tempore prudentia. Ex propria ergo operatione colligere possumus animam rationalem esse immortalem.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e194">11. 12. Ex sexta consideratione, scilicet per comparationem ad obiectum, probatur anima rationalis immortalis esse, sic. Necesse est proportionem esse cognoscentis ad cognitum sive potentiae ad obiectum ; sed anima rationalis nata est cognoscere et intelligere veritatem ; veritas autem est incorruptibilis, sicut probat <name ref="#Augustine">Augustinus</name>, in Soliloquis, cum sit talis naturae quod ipsa negatio veritatis veritatem ponat : ergo anima rationalis, cum sit veritati proportionabilis, est immortalis. Haec autem ratio non solum concludit animam esse immortalem per veritatem intelligentiae sive conscientiae, sed etiam per veritatem vitae sive iustitiae, de qua Sapientiae, dicitur : Iustitia est perpetua et immortalis, ac per hoc anima, quae est iustitiae capax.</p>
+               <p xml:id="bb-l2d19a1q1-d1e200">Item, omnis virtus corruptibilis laeditur ab obiecto improportionabiliter excellenti et magis nata est delectari in medio quam in extremo. Sed anima rationalis, intelligens maiora et maxima, non propter hoc peius intelligit minora et magis delectatur in cognitione summae lucis et perceptione sapientiae Dei quam in cognitione alicuius
+
+Ex comparatione ergo ad obiectum colligitur anima rationalis esse immortalis. Si igitur substantia cognoscitur per virtutem et virtus per operationem et operatio per obiectum, cum secundum hanc triplicem considerationem ipsius animae ostensum sit ipsam esse immortalem, omnis animae consideratio sive in se sive in ordine astruit animae immortalitatem.</p>
+            </div>
+            <div xml:id="bb-l2d19a1q1-Dd1e204">
+               <head xml:id="bb-l2d19a1q1-Hd1e206">Conclusio</head>
+               <head xml:id="bb-l2d19a1q1-Hd1e209" type="question-title">Animam rationalem esse immortalem, 
+    quadruplici ratione probatur</head>
+ 
+               <p xml:id="bb-l2d19a1q1-d1e212">Respondeo : Ad praedicta dicendum est quod anima rationalis est immortalis, secundum quod dicit fides catholica, cui concordat philosophia et omnis ratio recta. Licet autem in cognitionem immortalitatis animae rationalis multiplici via possemus deduci et manuduci, potissimus tamen modus deveniendi in eius cognitionem est ex consideratione finis ; et hunc modum praecipue approbat <name ref="#Augustine">Augustinus</name>, in XIII De Trinitate et in libro De civitate Dei . Nec immerito, quia finis imponit necessitatem his quae sunt ad finem.</p>
+ 
+               <p xml:id="bb-l2d19a1q1-d1e218">Hoc igitur primo supponendum est tamquam verum et certum quod anima rationalis facta sit ad participandam summam beatitudinem. Hoc enim adeo certum est ex clamore omnis appetitus naturalis, quod nullus de eo dubitat nisi cuius ratio est omnino subversa : certissimum enim est nobis quod omnes volumus esse beati. Si igitur beatus esse non potest qui bonum, quod habet, potest amittere, quia hoc ipso iam habet unde timeat et unde etiam doleat et ita unde miser existat, necesse est ergo quodsi anima facta est capax beatitudinis, quod ipsa sit per naturam immortalis. Et sic colligitur eius immortalitas ex parte causae finalis.</p>
+ 
+               <p xml:id="bb-l2d19a1q1-d1e221">Colligitur etiam nihilominus consequenter ex parte causae formalis. Quia enim facta est ad participandam beatitudinem, quae consistit in solo summo bono, facta est capax Dei et ita ad ipsius imaginem et similitudinem. Sed si est imago Dei, expresse ei assimilatur ; hoc autem non esset, si mortis termino clauderetur : cum ergo de natura sua sit imago Dei, non polest mortis termino claudi.</p>
+ 
+               <p xml:id="bb-l2d19a1q1-d1e225">Ex hoc etiam habetur et colligitur ratio ex parte materiae. Quia enim ipsum quo est anima sive forma tantae dignitatis est ut ipsam animam reddat Dei imagine insignitam, quae est conditio nobilissima, materia, quae huic formae unitur, tanto appetitu ei coniungitur et ita eius appetitus in ipsa terminatur quod nullatenus queat aliam formam appetere, cum optima colligantia iungantur ad invicem.</p>
+ 
+               <p xml:id="bb-l2d19a1q1-d1e228">Et quoniam quod <quote xml:id="bb-l2d19a1q1-Qd1e230">bona ratione iunctum est, dissolvi velle non est Dei</quote>, hinc est quod Deus, qui fuit animae auctor, est continuus animae conservator.
+Et sic patet ratio immortalitatis animae ex quadruplici genere causae, quamvis principaliter sumatur ex fine. Et istae sunt rationes ostendentes non solummodo quia est immortalis, sed etiam propter quid est.
+Rationes vero superius inductae ostendunt quod anima est immortalis, et verum concludunt et ideo concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d19a1q1-Dd1e236">
+               <head xml:id="bb-l2d19a1q1-Hd1e238">Ad rationes</head>
+
+               <p xml:id="bb-l2d19a1q1-d1e241">1. Ad illud ergo quod primo obicitur in contrarium de Apostolo, dicendum quod Apostolus dicit solum Deum habere immortalitatem, quia solus est qui potest summe se perpetuare sine alterius iuvamine. Anima autem, etsi sit secundum suam originem idonea ad immortalitatem, non tamen potest sufficienter se continuare in esse nisi conservetur a summo Auctore ; et illa conservatio est a gratuita Dei bonitate nec repugnat naturae ipsius animae quantum ad principia ex quibus constituitur, sed potius conservat illorum principiorum appetitum.
+  <!-- possible relation between this paragraph and http://scta.info/resource/ahsh-l2Ai4t3q1t2d1m2c2-d1e306 in Hales -->
+</p>
+               <p xml:id="bb-l2d19a1q1-d1e246">2. Ad illud quod obicitur de <name ref="#JohnDamascenus">Damasceno</name>, quod tendit in versionem, dicendum quod tendentia illa non est per aliquem appetitum virtutis, sed potius per defectum vanitatis, qua creatura est ex nihilo. Hunc autem defectum summa Veritas et Potestas sua praesentia et manutenentia excludit a creatura. Et quia sic praesens est animae rationali, quam fecit, ut eam nunquam deserat quin sit in ea per potentiam, praesentiam et essentiam, ideo anima rationalis nunquam potest corrumpi.
+Nec valet instantia quam obicit de verbo <name ref="#Augustine">Augustini</name>. <name ref="#Augustine">Augustinus</name> enim inlelligit de motibus qui sunt a natura, secundum quod natura dicit originale principium alicuius effectus, non secundum quod dicit defectum. Et sic intelligendum est etiam quod gratia naturam perficit et ei uon repugnat ; et hoc melius explicatum est in libro primo, distinctione octava .
+</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e258">3. Ad illud quod obicitur de <name ref="#Aristotle">Philosopho</name>, quod intellectus corrumpitur etc., dicendum quod illud verbum pium debet habere intellectum. Non enim credendum est quod <name ref="#Aristotle">Philosophus</name> voluerit dicere intellectum esse corruptibilem, cum postea probet ipsum impassibilem, incorruptibilem et immortalem esse, sicut, in III De anima, expresse patet ; sed vult dicere quod operatio intellectus, quam habet in corpore, impeditur propter aliquam laesionem factam interius in organo imaginationis vel alterius virtutis sensibilis. Et quantum ad hoc vefrum dixit, sicut patet et est manifestum sensui.</p>
+               <p xml:id="bb-l2d19a1q1-d1e267">4. Ad illud quod obicitur, quod anima patitur, responderi potest dupliciter. Primum quidem, quia passio eius non est per ipsius laesionem, sed per compassionem respectu corporis laesi ; et hoc non ponit aliquid de substantia eius abici, sed de substantia cui habet uniri.
+Aliter potest responderi quod ipsa anima non solum in corpore, sed etiam extra corpus habet pati ; nec tamen sequitur quod habeat corrumpi : non enim est illa corruptio per partis ademptionem, sed per quietis et pacis continuam impeditionem. Hoc autem in quarto planius determinatum est, cum agitur de poenis animarum damnatarum.</p>
+
+               <p xml:id="bb-l2d19a1q1-d1e271">5. Ad illud quod obicitur, quod anima corpori condolet, dicendum quod illa compassio non est nisi salva coniunctione animae et corporis. Et quoniam mors separat illam coniunctionem, ideo non oportet compassionem mortis communicare, quia illa consequentia non tenet nisi manente causa. Praeterea, illa consequentia non tenet, si anima maxime compatitur corpori maxime patienti, quod commoriatur morienti. Anima enim, cum sit capax laetitiae, est capax et doloris ; sed cum sit capax vitae, nullo modo est susceptibilis mortis.</p>
+               <p xml:id="bb-l2d19a1q1-d1e274">6. Ad illud quod obicitur, quod operatio animae laeditur vel impeditur, dicendum quod hoc est per accidens solum. Quia enim anima magna inclinatione inclinatur ad corpus et corpori suas operationes communicat, et virtutes sensitivae ipsi virtuti intellectivae immediate subministrant, inde est quod, laesis organis corporeis et impeditis viribus sensitivis, operatio intellectus, quamdiu est in corpore, habet impediri, ipso intellectu nullatenus in se laeso ; quod ex hoc patet quod statim cum a corpore separatur, habet suum usum completum. Et haec sufficiant quantum ad propositum.</p>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

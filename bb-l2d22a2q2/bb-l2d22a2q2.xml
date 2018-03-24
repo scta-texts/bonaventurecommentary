@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 22, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 22, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d22a2q2">
+            <head xml:id="bb-l2d22a2q2-Hd1e99">II, Distinctio 22, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d22a2q2-Hd1e102" type="question-title">Utrum ignorantia in aliquo homine possit esse culpa.</head>
+            <p xml:id="bb-l2d22a2q2-d1e105">Secundo quaeritur gratia huius, utrum ignorantia in aliquo homine possit esse culpa.</p>
+            <div xml:id="bb-l2d22a2q2-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d22a2q2-d1e110">Et quod sic, videtur. I ad Corinthios 14, 38 : <quote xml:id="bb-l2d22a2q2-Qd1e112" ana="#Icor14_38">Ignorans ignorabitur</quote> ; sed nullus ignoratur a Deo nisi propter culpam : ergo etc.</p>
+               <p xml:id="bb-l2d22a2q2-d1e116">Item, super illud Psalmi [35, 4] : <quote xml:id="bb-l2d22a2q2-Qd1e118" ana="#ps35_4">Noluit intelligere</quote> etc., Glossa <name ref="#Augustine">Augustini</name> ; <quote xml:id="bb-l2d22a2q2-Qd1e124">Ignorantia in his qui intelligere nolunt est peccatum</quote>.</p>
+               <p xml:id="bb-l2d22a2q2-d1e128">Item, ratione videtur. Cognoscere credenda et operanda est actus virtutis, scilicet fidei et prudentiae : ergo haec ignorare est virtutibus privari ; sed privationes virtutum sunt vitia et peccata : ergo aliqua ignorantia est culpa.</p>
+               <p xml:id="bb-l2d22a2q2-d1e131">Item, non facere ea quae homo tenetur facere est peccatum, similiter non dicere similiter non amare ea quae homo tenetur amare est peccatum : ergo similiter nescire quod tenetur scire est peccatum ; sed multi sunt qui ignorant ea quae tenentur scire, utpote ea sine quibus salvari non possunt : ergo in talibus ignorantia est culpa.</p>
+               <p xml:id="bb-l2d22a2q2-d1e134">Item, error est peccatum : aut ergo ratione eius quod ponit aut ratione eius quod privat. Non ratione eius quod ponit, quia peccatum privatio est, non positio. Si ratione eius quod privat ; sed error privat scientiam, et privatio scientiae est ignorantia : ergo ignorantia est culpa.</p>
+
+ 
+               <p xml:id="bb-l2d22a2q2-d1e138">Contra : <name ref="#Augustine">Augustinus</name>, in Enchiridio, dicit quod <quote xml:id="bb-l2d22a2q2-Qd1e143">inflicta est nobis ignorantia rerum agendarum et concupiscentia noxiarum</quote>. Sed nullum peccatum est nobis inflictum : ergo ignorantia non est peccatum.</p>
+               <p xml:id="bb-l2d22a2q2-d1e147">Item, ratione videtur. In omni enim peccato est aversio a bono incommutabili et conversio ad commutabile ; sed in ignorantia nulla est ad bonum commutabile conversio : ergo ignorantia non est culpa.</p>
+               <p xml:id="bb-l2d22a2q2-d1e150">Item, nullum peccatum remanet post poenitentiam. ; sed ignorantia remanet in homine post poenitentiam et contritionem ; ergo ignorantia non est culpa. Si tu dicas quod remanet actu, sed transit reatu, ergo tunc videtur quod ignorantia non esset culpa actualis, sed originalis. Sed non est originalis, quia remanet post baptismum, et hoc melius patebit infra ; nec actualis : ergo non est culpa.</p>
+               <p xml:id="bb-l2d22a2q2-d1e153">Item, omne peccatum est in affectu, cum omne peccatum sit voluntarium ; sed ignorantia est in intellectu : ergo ignorantia non est peccatum.</p>
+               <p xml:id="bb-l2d22a2q2-d1e156">Item, si ignorantia est peccatum, ergo ignorare est peccare ; sed de viro ignorante verum est dicere quod in omni instanti ignorat : ergo in omni instanti peccat : ergo tot sunt in eo peccata, quot sunt instantia. Quod si hoc est falsum et impossibile, restat ignorantiam peccatum non esse.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q2-Dd1e160">
+               <head xml:id="bb-l2d22a2q2-Hd1e162">Conclusio</head>
+               <head xml:id="bb-l2d22a2q2-Hd1e165" type="question-title">Ignorantia rerum ad salutem necessariarum potest interdum esse peccatum, interdum non</head>
+
+ 
+               <p xml:id="bb-l2d22a2q2-d1e168">Respondeo : Ad praedictorum intelligentiam est notandum quod, cum privationes cognoscantur, per habitus, cognitio ignorantiae pendet ex cognitione scientiae.
+Attendendum autem quod quaedam est cognitio aliquorum, quae nec est necessaria ad virtutem nec est necessaria ad salutem, sicut est artium mechanicarum et liberalium ; et talis cognitio nec est virtus nec de esse virtutis ; et illa ignorantia, quate est huius cognitionis privatio, culpa non est, sive sit ignorantia negationis sive dispositionis, sive etiam sit voluntaria sive non.
+Alia est cognitio credibilium et operabilium, quae ad salutem necessaria est in adulto ; et haec est cognitio fidei et prudentiae ; et ad hanc cognitionem habendam tenemur, quia sine hac nullus potest recte vivere.
+Huius autem cognitionis privatio potest dupliciter in nobis esse : aut manente tentione aut non manente. Si manente tentione, tunc est ibi culpa, quia, cum quis tenetur ad aliquid et illud non implet, ex hoc ipso culpatur et dignus est poena. Si autem sit in nobis privatio, non manente tentione, utpote cum non potest scire, et impotentia excusat ab obligatione, sic privatio huius cognitionis culpa non est, sicut in furiosis.
+Et secundum hoc ignorantia, quae dicit privationem, cognitionis ad salutem necessariae, uno modo peccatum est, alio vero modo minime.
+ 
+Aliter potest dici, et quasi in idem redit, quod privatio cognitionis ad salutem necessariae dupliciter potest esse : aut ita quod est in nobis, sed non a nobis, et hoc modo culpa non est, sed magis poena ; et cum non simus eius principium, in ipsa nec meremur nec demeremur ; aut ita quod est in nobis et a nobis, et sic culpa est.
+Hoc autem potest esse tripliciter : vel cum in via veritatis existentes voluntarie ab ea recedimus et in erroris foveam nos praecipitamus, et haec privatio potest dici ignorantia erronea, quae est in haeriticis ; vel cum, ad viam veritatis valentes pertingere, cupimus in tenebris ambulare, et haec potest dici ignorantia affectata ; aut quia ex quadam pigritia et negligentia non curamus veritatem addiscere, et haec dicitur ignorantia crassa et supina.
+Et quaelibet istarum est culpa, licet prima maior quam secunda, et secunda quam tertia.</p>
+               <p xml:id="bb-l2d22a2q2-d1e171">Et sic concedendae sunt rationes ostendentes quod ignorantia aliquo modo potest esse culpa.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q2-Dd1e176">
+               <head xml:id="bb-l2d22a2q2-Hd1e178">Ad rationes</head>
+               <p xml:id="bb-l2d22a2q2-d1e181">Ad illud ergo quod obicitur in contrarium, quod ignorantia est nobis inflicta, dicendum quod prout nobis inflicta est, poena est et non culpa ; prout tamen voluntas nostra aliquo modo deordinatur circa illam, sicut prius dictum est, incipit esse culpa ; sicut passiones sanctis martyribus illatae poenae erant, consideratae secundum se ; comparatae tamen ad voluntatem sanctorum libenter eas perferentem pro amore Christi, erant eis meritoriae. Utrum autem aliquo modo sit culpa, prout scilicet contracta est, videbitur infra, cum agetur de originali peccato.</p>
+               <p xml:id="bb-l2d22a2q2-d1e184">Ad illud quod obicitur, quod ignorantia non est conversio, dicendum quod verum est, prout est pura privatio ; prout tamen ipsam concomitatur aliquo modo nostra affectio, non habet veritatem ; et hoc modo dicitur esse culpa, non primo.</p>
+               <p xml:id="bb-l2d22a2q2-d1e187">Ad illud quod obicitur, quod ignorantia remanet post poenitentiam, dicendum quod non remanet, prout habet rationem culpae, scilicet ratione voluntatis concomitantis vel quodam modo eam causantis ; sed, si remanet, hoc est in quantum habet rationem poenae ex originali contractae. Ideo quantum ad primum, in quo habet rationem actualis, transit non solum actu, sed etiam reatu, cum quis poenitet ; quantum vero ad secundum, quodam modo remanet, et ita videtur ignorantia remanere actu ; et in hoc habet quamdam approximationem ad peccatum originale ; secundum id tamen quod culpa est, actuale peccatum est.</p>
+               <p xml:id="bb-l2d22a2q2-d1e190">Ad illud quod obicitur, quod ignorantia est in intellectu, dicendum quod illa ignorantia quae opponitur cognitioni virtutis ad quam tenemur, non tantum respicit intellectum, sed etiam affectum, sicut et virtus sibi opposita. Unde non tantum dicit scientiae carentiam, sed etiam voluntatis incuriam et negligentiam ad scientiam percipiendam.</p>
+               <p xml:id="bb-l2d22a2q2-d1e194">Ad illud quod obicitur, quod in quolibet instanti ignorat, dicendum quod ignorare non dicitur esse culpa nisi eatenus qua quis tenetur scire quod ignorat. Et ideo, etsi in quolibet instanti ignoret et in quolibet teneatur, quia tamen praeceptum affirmativum non obligat pro semper, sed pro loco et tempore, ignorans ignorando non peccat nisi in illo instanti et tempore in quo tenetur nosse vel addiscere quod ignorat ; ideo, quamvis semper dicatur ignorare, non tamen semper dicitur peccare.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

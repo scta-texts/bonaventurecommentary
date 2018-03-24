@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 22, A. 2, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 22, A. 2, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d22a2q3">
+            <head xml:id="bb-l2d22a2q3-Hd1e99">II, Distinctio 22, A. 2, Q. 3</head>
+            <head xml:id="bb-l2d22a2q3-Hd1e102" type="question-title">Utrum ignorantia sit culpae excusatio.</head>
+ 
+            <p xml:id="bb-l2d22a2q3-d1e105">Tertio quaeritur, utrum ignorantia sit culpae excusatio.</p>
+            <div xml:id="bb-l2d22a2q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d22a2q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d22a2q3-d1e113">
+  Et quod sic, videtur. I ad Timotheum 1, 13 : <quote xml:id="bb-l2d22a2q3-Qd1e115" ana="#Itim1_13">Misericordiam consecutus sum, quia ignorans hoc feci</quote>. Si ergo ignorantia fuit ratio quare pervenit ad misericordiam, videtur quod ignorantia excusabilem fecerit eius culpam.</p>
+               <p xml:id="bb-l2d22a2q3-d1e119">Item, scientia aggravat culpam, sicut dicitur Lucae 12, 47 : <quote xml:id="bb-l2d22a2q3-Qd1e121" ana="#lc12_47">Servus sciens voluntatem Domini sui</quote> etc. Ergo, per oppositum, ignorantia alleviat, ergo excusat.</p>
+               <p xml:id="bb-l2d22a2q3-d1e125">Item, omne peccatum est voluntarium : ergo quod diminuit de ratione voluntarii, diminuit de ratione peccati ; sed ignorantia diminuit de ratione voluntarii, quia voluntarium est, ut dicit <name ref="#Aristotle">Philosophus</name>, cuius principium est in ipso cognoscente singularia : ergo etc.</p>
+               <p xml:id="bb-l2d22a2q3-d1e131">Item, sicut ad resistendum peccato requiritur fortitudo, sic etiam requiritur et cognitio ; sed defectus fortitudinis, utpote infirmitas, excusat culpam : ergo similiter videtur quod et defectus cognitionis, scilicet ignorantia.</p>
+               <p xml:id="bb-l2d22a2q3-d1e135">Item, quod in sua plenitudine omnino tollit culpam, citra plenitudinem aliquo modo diminuit ; sed cum aliquis simpliciter est ignarus, sicut parvulus et furiosus, nihil quod faciat imputatur ei in peccatum, sicut dicit <name ref="#Bernard">Bernardus</name> et alii doctores : ergo videtur quod omnis ignorantia, peccato perpetrato, aliquo modo praebeat excusationis patrocinium.</p>
+
+ 
+               <p xml:id="bb-l2d22a2q3-d1e141">Contra: Isidorus, in libro De ecclesiastica institutione : <quote xml:id="bb-l2d22a2q3-Qd1e143">Nullus in culpa maior est quam qui Deum nescit</quote>. Ergo videtur quod ignorantia non excuset, sed aggravet.</p>
+               <p xml:id="bb-l2d22a2q3-d1e147">Item, super illud ad Romanos 2, 4 : <quote xml:id="bb-l2d22a2q3-Qd1e149" ana="#rom2_4">An ignoras</quote> etc, <name ref="#Ambrose">Ambrosii</name> Glossa ; <quote xml:id="bb-l2d22a2q3-Qd1e155">Gravissime peccas, quia ignoras</quote>. Ergo videtur ignorantia gravare culpam.</p>
+               <p xml:id="bb-l2d22a2q3-d1e159">Item, ignorantia de se malum est ; sed malum additum malo facit maius malum : ergo videtur quod ignorantia peccatum augeat, non excuset.</p>
+               <p xml:id="bb-l2d22a2q3-d1e162">Item, scientia nec auget nec minuit meritum, sed sola gratia et caritas : ergo pari ratione nec ignorantia auget nec diminuit demeritum, ergo non excusat peccatum.</p>
+               <p xml:id="bb-l2d22a2q3-d1e165">Item, esto quod unus sciens peccet ex aliquanta libidine et alter ignorans ex tanta libidine ; si aequalis est ibi libido, ergo aequalis debet esse punitio : ergo videtur quod aequalis sit utrobique excusatio vel accusatio : ergo non magis excusat vel accusat ignorantia quam scientia.</p>
+  
+               <p xml:id="bb-l2d22a2q3-d1e169">Est igitur quaestio : propter quid magis excusat ignorantia quam scientia ? Et cum tam ignorantia quam infirmitas excuset, similiter est quaestio quae istarum magis excuset.</p>
+               <p xml:id="bb-l2d22a2q3-d1e172">Rursus, cum sint multae differentiae ignorantiae, cum hoc quaeritur quae earum excusent et quae non et quae magis et quae minus.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q3-Dd1e176">
+               <head xml:id="bb-l2d22a2q3-Hd1e178">Conclusio</head>
+               <head xml:id="bb-l2d22a2q3-Hd1e181" type="question-title">Quaelibet ignorantia aliquo modo excusat 
+    peccatum vel a tot vel a tanto</head>
+ 
+               <p xml:id="bb-l2d22a2q3-d1e184">Respondeo : Ad praedictorum intelligentiam est notandum quod omnis ignorantia aliquo modo excusat peccatum.
+Et ratio huius est, quia minuit de ratione voluntarii, minuit etiam de ratione contemptus. Caeteris enim paribus, magis contemnit qui peccat ex industria quam qui ignoranter peccat. Et iterum, cum voluntarium includat in secognitionem, quod privat cognitionem privat de ratione voluntarii.
+Quia ergo peccatum mensuratur secundum quantitatem libidinis et contemptus, et ignorantia diminuit de ratione horum, generaliter verum est quod omnis ignorantia, in quantum huiusmodi, excusat peccatum ; et si tanta sit quod privet omnino rationem voluntarii et rationem contemptus, excusat a toto ; si vero non omnino, privet, excusat a tanto.
+Concedendae sunt igitur rationes ostendentes quod ignorantia excusat peccatum.</p>
+            </div>
+            <div xml:id="bb-l2d22a2q3-Dd1e189">
+               <head xml:id="bb-l2d22a2q3-Hd1e191">Ad rationes</head>
+               <p xml:id="bb-l2d22a2q3-d1e194">Ad illud ergo quod obicitur in contrarium de Isidoro : Gravissime peccat qui Deum nescit, dicendum quod Isidorus ibi comparat peccatum infidelitatis ad alia peccatorum genera ; et ipsum in se valde grave est, quia non est sine magna animae deordinatione. Nihilominus tamen, cum quis ignorans aliquid facit et in incredulitate, sicut dicit Apostolus de se, minus graviter peccat quam ille qui facit ex certa scientia.</p>
+               <p xml:id="bb-l2d22a2q3-d1e197">Ad illud <name ref="#Ambrose">Ambrosii</name>, quod dicit quod gravissime peccat qui ignorat, dicendum quod hoc dicitur non ratione maioris culpae, sed ratione infirmitatis magis periculosae, quia cum non habeat scientiam de morbo sive culpa, non quaerit medicinam ; et ita semper remanet morbus et corruptio. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, in libro Confessionum : Eo insanabilius peccabam quo me non peccare arbitrabar.</p>
+               <p xml:id="bb-l2d22a2q3-d1e206">Ad illud quod obicitur, quod malum additum malo facit maius malum, dicendum quod illud habet veritatem cum malum malo conformatur. Malum autem poenae, cum sit involuntarium, non conformatur malo culpae, quod est voluntarium ; et ideo non auget, sed potius diminuit. Et quoniam ignorantia in nobis non est sic culpa quin etiam aliquo modo sit poena, ideo culpam perpetratam excusat.</p>
+               <p xml:id="bb-l2d22a2q3-d1e209">Ad illud quod obicitur, quod scientia non auget meritum, dicendum quod illud non sequitur. Quantitas enim meriti non est a nobis, sed a gratia Dei ; demeritum vero et eius quantitas ortum habet a voluntate liberi arbitrii : et ideo quod facit ad rationem voluntarii, facit aliquo modo ad augmentum peccati, et similiter quod diminuit, facit ad alleviationem peccati. Talis aulem est ignorantia, ut dictum fuit supra.</p>
+               <p xml:id="bb-l2d22a2q3-d1e213">Ad illud quod obicitur, quod peccantes ex pari libidine aequaliter puniuntur, dicendum quod hoc non cogit quin ignorantia excuset, quia si ille qui ignorat, peccat ex tanta libidine ex quanta ille qui cognoscit, in statu ignorantiae existens, si haberet scientiam, peccaret multo maiori, et ita gravius peccaret et gravius puniretur ; et ideo ignorantia, quae in ipso est, excusat peccatum ; excusat, inquam, et minuit quantitatem peccati, non quam habet, sed quam haberet, si ignorantia non esset.</p>
+
+               <p xml:id="bb-l2d22a2q3-d1e216">Ad illud quod quaeritur quae magis excuset, utrum ignorantia vel infirmitas, responderi potest quod duo sunt de ratione voluntarii, videlicet cognitio singularium sive circumstantiarum et quod operationis principium sit intrinsecum. Ignorantia igitur excusat, quia privat de ratione cognoscendi ; infirmitas excusat, quia privat de ratione perfecte principiandi. Et quoniam privato priori, privatur posterius, et non convertitur, et cognoscere praeambulum est ad facere, plus tollit de ratione voluntarii ignorantia quam infirmitas vel impotentia : et ideo magis excusat, caeteris paribus. Adeo tamen potest infirmitas praecellere et ignorantia parva esse sive ex culpa nostra procedere, quod erit e converso. Unde etsi, in generalitate loquendo, verum est dicere quod magis excuset ignorantia quam infirmitas, descendendo tamen ad specialia peccata, possunt se habere sicut excedentia et excessa.</p>
+ 
+               <p xml:id="bb-l2d22a2q3-d1e219">Ad illud quod quaeritur quae ignorantia excuset et quantum, dicendum quod est ignorantia facti et ignorantia iuris.
+Ignorantia facti potest esse dupliciter : aut adhibita debita diligentia aut non. Si adhibita debita diligentia, excusat a toto ; si non adhibita, non excusat a toto, sed a tanto.</p>
+ 
+               <p xml:id="bb-l2d22a2q3-d1e222">Si autem sit ignorantia iuris, hoc potest esse dupliciter : aut est vincibilis aut invincibilis. Si vincibilis, tunc est ignorantia, quae est culpa. Et haec aut est ex consensu vero, ut ignorantia affectata, et ista sic ex una parte excusat quod ex alia parte magis aggravat ; aut est ex negligentia et ignavia, sicut ignorantia crassa et supina, et ista, etsi aliquo modo excuset, non tamen ita excusat ut sempiterno igne non ardeat, sicut dicit <name ref="#Augustine">Augustinus</name> et Magister in littera.</p>
+ 
+               <p xml:id="bb-l2d22a2q3-d1e228">Si autem sit ignorantia invincibilis, hoc potest esse dupliciter : aut ista ignorantia est in nobis introducta per culpam praeambulam aut praeter omnem culpam. Si praeter omnem culpam, aut simpliciter privat cognitionem iuris, sicut in infantibus et furiosis, qui omnino carent usu rationis ; et haec excusat a toto. Unde dicit <name ref="#Bernard">Bernardus</name> 
+                  <quote xml:id="bb-l2d22a2q3-Qd1e233">quod pueris infantibus et dormientibus nihil quod faciunt imputatur</quote>.
+Aut non tollit omnino usum rationis, sed plenum, et tunc non excusat a toto, sed a tanto, sicut est in his qui non sunt plene furiosi, sed habent aliquo modo lucida intervalla, et in pueris, qui aliquo modo sunt capaces praecepti, licet non plene.
+Si autem ignorantia est introducta per culpam propriam, sicut est in ebrio et furioso, quorum uterque se praecipitavit in hoc per culpam suam, sic non excusat a toto, sed a tanto, quia, sicut dicit <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d22a2q3-Qd1e239" source="http://scta.info/resource/aristneth-l3">ebrius habebit duplices maledictiones, maledictionem scilicet pro culpa praecedenti et maledictionem pro culpa subsequenti</quote>.</p>
+ 
+               <p xml:id="bb-l2d22a2q3-d1e243">Quantum autem et qualiter excuset sequentem culpam, diversimode quidam determinant.
+Quidam enim dicunt quod nec ebrius nec furiosus, qui usu rationis caret, committi novam culpam, sed ex inordinatione sequenti aggravatur culpa prima ; potest enim culpa aggravari ex eventu sequenti.
+Aliis autem videtur quod nec sic excuset quin novam culpam committat ; non tamen est adeo gravis sicut si illam faceret ex certa scientia. Primus tamen modus dicendi probabilior esse videtur.
+Ex his patet quod Loth non omnino excusatur a culpa incestus, cum cognovit filias suas. Primum quidem, quia non fuit in eo plena ignorantia ; licet enim dicatur in textu quod non senserit, quando filiae accubuerunt, hoc dicitur quia non discrevit. Secundo vero, quia in illam ignorantiam pervenit per ebrietatem, quam debuisset vitare ; et ideo Sancti dicunt eum fuisse culpabilem, licet ex alia parte dicant eum fuisse aliquatenus excusabilem.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

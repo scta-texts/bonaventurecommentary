@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 15, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 15, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d15dt">
+            <head xml:id="bb-l2d15dt-Hd1e99">II, Distinctio 15, Divisio Textus</head>
+
+            <p xml:id="bb-l2d15dt-d1e102">Supra egit Magister de productione rerum insensibilium, in hac parte agit de productione mixtorum et sensibilium, ut animalium. Et quoniam ad animalium productionem facta est universitatis completio, et ad completionem sequitur ab opere cessatio, ideo ista pars habet tres partes.
+In prima agit de sensibilium productione ;
+in secunda vero de divinorum operum perfectione ibi : Omnibus autem his creatis atque dispositis etc.
+In tertia agit de septimae diei requietione, ibi : Iam de septimae diei requie aliquid loqui oportet etc.</p>
+ 
+            <p xml:id="bb-l2d15dt-d1e105">Prima pars habet duas.
+In prima determinat de productione animalium ex aquis ;
+in secunda de productione animalium ex terra, ibi : Sequitur : Dixit Deus : Producat terra etc.
+In qua parte primo determinat veritatem, deinde solvit dubitationem.
+Similiter secunda pars, in qua determinat de operum divinorum consummatione, habet duas.
+In prima ostendit, qualiter in productione hominis facta est et consummata distinctio rerum.
+In secunda vero circa eamdem distinctionem explicat diversas sententias catholicorum tractatorum, ibi : In hac enim rerum distinctione catholici tractatores etc.
+Similiter tertia pars habet duas.
+In prima veritatem explicat ;
+in secunda quaestionem movet et determinat, ibi : Sed quaeritur, quomodo septimo die dicatur Deus etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

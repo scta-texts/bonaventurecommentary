@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 16, A. 2, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 16, A. 2, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d16a2q3">
+            <head xml:id="bb-l2d16a2q3-Hd1e99">II, Distinctio 16, A. 2, Q. 3</head>
+            <head xml:id="bb-l2d16a2q3-Hd1e102" type="question-title">Utrum imago principalius sit in cognitiva quam in affectiva.</head>
+ 
+            <p xml:id="bb-l2d16a2q3-d1e105">Tertio quaeritur, utrum imago principalius sit in cognitiva quam in motiva sive affectiva.</p>
+            <div xml:id="bb-l2d16a2q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d16a2q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d16a2q3-d1e113">Et quod principalius sit in cognitiva, videtur. 1. Per illud quod dicit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d16a2q3-Qd1e118">Imago est in potentia cognoscendi et similitudo in potentia diligendi</quote> ; sed hoc non est dictum quod omnino sit in potentia cognoscendi : ergo dictum est, quia principalius est ibi.</p>
+               <p xml:id="bb-l2d16a2q3-d1e122">2. Item, imago primo et principaliter convenit ipsi Verbo aeterno : ergo ei principaliter magis convenit quod illi Verbo aeterno respondet ; hoc autem est ipsa intelligentia, quae est in ipsa potentia cognitiva : ergo etc.</p>
+               <p xml:id="bb-l2d16a2q3-d1e125">3. Item, imago consistit in memoria, intelligentia et voluntate ; sed duae istarum potentiarum, scilicet memoria et intelligentia, tenent se ex parte cognitivae : ergo et imago plus se tenet ex parte cognitivae quam affectivae.</p>
+               <p xml:id="bb-l2d16a2q3-d1e128">4. Item, imago dicit quamdam configurationem et distinctionem ; sed affectivae est unire et cognitivae distinguere : ergo imago principalius residet penes cognitivam quam penes affectivam.</p>
+
+ 
+               <p xml:id="bb-l2d16a2q3-d1e132">Contra : 1. Imago reformationis respondet imagini creationis ; sed imago reformationis, quae quidem est gratia, principalius est in affectiva quam in cognitiva ; ergo et imago creationis.</p>
+               <p xml:id="bb-l2d16a2q3-d1e135">2. Item, in eo principaliter consistit res in quo consistit eius complementum ; sed imago completur in voluntate et voluntas se tenet ex parte affectivae : ergo etc.</p>
+               <p xml:id="bb-l2d16a2q3-d1e138">3. Item, imago est nobilissimum in anima, ergo consistit penes id quod est in anima nobilissimum ; sed liberum arbitrium sive voluntas est nobilissimum quod sit in anima : ergo principaliter consistit imago penes arbitrii libertatem sive voluntatem ; hoc autem principaliter respicit affectivam ; ergo etc.</p>
+               <p xml:id="bb-l2d16a2q3-d1e141">4. Item, similitudo est in plus quam sit imago ; non enim quaelibet similitudo est imago, sed similitudo expressa in quadam configuratione et imitatione ergo ubicumque est imago, est et similitudo : ergo ubi principaliter est imago, principaliter est et similitudo. Sed similitudo non est principaliter penes cognitionem sed penes affectionem, cum similitudo sit in gratuitis quae maxime respiciunt potentiam affectivam : ergo pari ratione imago.</p>
+
+               <p xml:id="bb-l2d16a2q3-d1e144">Iuxta hoc quaeritur, quae sit differentia inter imaginem et similitudinem. Cum enim in plus sit similitudo quam imago, sicut ostendit <name ref="#Augustine">Augustinus</name>, in libro Quaestionum, et superius non debeat connumerari suo inferiori, videtur quod male dicitur homo factus ad imaginem et similitudinem.</p>
+  
+               <p xml:id="bb-l2d16a2q3-d1e150">Item, cum duae sint potentiae ex parte affectionis, scilicet irascibilis et concupiscibilis, sicut duae ex parte cognitionis, scilicet memoria et intelligentia, quaestio est quare in ratione imaginis potius accipiuntur duae potenliae ex parte cognitivae et una ex parte affectivae. Videtur enim quod potius deberet esse e converso, cum tres virtutes theologicae quae reformant imaginem animae, sic in ea ponantur ut duae sint ex parte affectivae, scilicet spes et caritas, quarum una est in irascibili et altera in concupiscibili, et una ex parte cognitivae, scilicet fides, quae communiter ponitur in rationali.</p>
+            </div>
+            <div xml:id="bb-l2d16a2q3-Dd1e154">
+               <head xml:id="bb-l2d16a2q3-Hd1e156">Conclusio</head>
+               <head xml:id="bb-l2d16a2q3-Hd1e159" type="question-title">Imago principalius respicit cognitivam quam affectivam</head>
+               <p xml:id="bb-l2d16a2q3-d1e162">Respondeo : Dicendum quod de prima nominis impositione differt imago et similitudo. Imago enim nominat conformilatem in quantitate, similitudo vero convenientiam in qualitate. Imago enim nominat quamdam configurationem, et ita importat figuram, quae est quantitas in qualitate vel qualitas in quantitate ; similitudo vero dicitur rerum differentium eadem qualitas.</p>
+ 
+               <p xml:id="bb-l2d16a2q3-d1e165">Ex hac autem primaria differentia triplex consuevit assignari modus distinguendi inter imaginem et similitudinem, cum dicitur : Faciamus hominem ad imaginem et similitudinem.
+Primus est quem dicit Hugo quod similitudo respicit naturam et imago respicit figuram, quia similitudo dicit convenientiam in qualitate naturali, imago vero convenientiam in distinctione figurali, ad modum cuiusdam trianguli in quo sunt tres termini et tres lineae, quia tres sunt potentiae, quarum quaelibet habitudinem habet ad quamlibet, et similiter tres personae ; et potentia vel persona tenet rationem termini, habitudo vero vel emanatio tenet rationem lineae.
+</p>
+               <p xml:id="bb-l2d16a2q3-d1e168">
+Secundus modus distinguendi est quod imago est in naturalibus et similitudo in gratuitis, qui similiter habet ortum ex illa prima differentia. Quia enim imago dicit configurationem, et illa attenditur ex parte naturalium potentiarum animae, scilicet memoriae, inlelligentiae et voluntatis, hinc est quod imago est in naturalibus. Quia vero similitudo dicit convenientiam, quae ortum habet a qualitate, et qualitas, in qua anima similatur Deo, haec est gratia, ideo similitudo dicitur in gratuitis esse.</p>
+               <p xml:id="bb-l2d16a2q3-d1e172">Tertius modus distinguendi est quod imago est in potentia cognoscendi et similitudo in potentia diligendi ; et iste modus similiter habet ortum ex differentia prima. Quia enim imago consistit in convenientia secundum configurationem, et configuratio attenditur in origine, habitudine et potentiarum distinctione, et haec origo et habitudo principaliter residet ex parte cognitivae : ideo imago principalius ponitur in cognitiva. Similitudo vero dicit convenientiam in qualitate ; et quia qualitas, in qua principaliter assimilatur anima Deo, est in voluntate sive in affectione, hinc est quod similitudo ponitur principaliter in potentia affectiva.</p>
+ 
+               <p xml:id="bb-l2d16a2q3-d1e175">Et inde est quod in imagine creationis duae sunt potentiae ex parte cognitivae, scilicet memoria et intelligentia, et una ex parte affectivae, scilicet voluntas. Econtra vero in imagine recreationis, quae quidem consistit in gratia, duae virtutes sunt ex parte affectivae, scilicet spes et caritas, et una ex parte cognitivae, scilicet fides. Imago enim principaliter respicit originem et habitudinem ; habitudo autem et origo attenditur inter memoriam et intelligentiam per modum parentis et prolis, et inter haec duo et voluntatem secundum modum derivationis sive processionis. Inter irascibilem vero et concupiscibilem nec est talis ordo nec origo, cum motus irascibills possit esse sine concupiscibili et e converso ; motus autem voluntatis non potest esse sine motu intelligentiae praevio, nec actus similiter intelligentiae sine actu memoriae, in his dico quae sunt de ratione imaginis. Ideo in assignatione imaginis duo sumuntur membra ex parte cognitivae et unum ex parte affectivae. Hoc enim exigit ordo et origo et distinctio, et propterea imago principalius est in cognitiva quam in affectiva.
+Similitudo vero principalius consistit in unione animae ad Deum, quae quidem est per gratiam. Et quoniam unio et gratia principaliter respiciunt affectivam, hinc est quod in imagine recreationis, quae quidem est in gratuitis, duae sunt virtutes quae respiciunt affectivam, scilicet spes et caritas, penes duas vires, scilicet irascibilem et concupiscibilem ; una vero, quae respicit cognitivam, scilicet fides, quae respicit rationalem, quamvis et spes, reformans irascibilem, per consequens reformet memoriam, cum conveniant in actu, qui est tenere.
+</p>
+ 
+               <p xml:id="bb-l2d16a2q3-d1e178">Secundum hoc igitur planum est respondere ad quaestionem et ad obiecta. Concedendum enim est de plano quod imago principaliter respicit cognitivam ; concedendae sunt etiam rationes quae hoc probant.</p>
+            </div>
+            <div xml:id="bb-l2d16a2q3-Dd1e183">
+               <head xml:id="bb-l2d16a2q3-Hd1e185">Ad rationes</head>
+               <p xml:id="bb-l2d16a2q3-d1e188">1. Ad illud vero quod obicitur de imagine reformationis, dicendum quod non valet, quia imago reformationis potius est similitudo quaedam quam sit imago. Si enim proprie esset imago, esset capax Dei et esset immortalis ; nunc autem non est sic. Et ideo, quia imago recreationis potius est similitudo quam imago, magis principaliter respicit potentiam affectivam quam cognitivam, quamvis reformet tam cognitivam quam affectivam.</p>
+               <p xml:id="bb-l2d16a2q3-d1e191">2. Ad illud quod obicitur, quod complementum imaginis est in voluntate, dicendum quod etsi voluntas ultima sit in imagine, non tamen se habet per modum complementi in ratione imaginis. Imago enim dicit ordinem et originem in potentiis, sicut est in personis ; et quemadmodum tertia persona non ponitur aliarum completiva nec alias complere, sed potius ab eis recipere, sic voluntas, prout est pars imaginis, potius consideratur in ratione egredientis quam in ratione complentis. Et quia prima ratio originis est per modum naturae, quae quidem consistit in ortu intelligentiae ex memoria, hinc est quod imago principalius respicit cognitivam quam affectivam.</p>
+               <p xml:id="bb-l2d16a2q3-d1e194">3. Ad illud quod obicitur, quod imago consistit penes nobilissimum in anima, dicendum quod nobilius in anima dupliciter potest accipi : vel secundum distinctionem potentiarum, scilicet affectivae et cognitivae, vel secundum conditionem statuum, scilicet superioris portionis et inferioris. Cum ergo dicitur quod imago consistat penes nobilissimum, hoc inteiligitur quantum ad statum in superiori parte non quantum ad potentias, quia imago complectitur tam affectivam quam cognitivam, cum utraque nata sit immediate ferri in Deum.</p>
+               <p xml:id="bb-l2d16a2q3-d1e197">4. Ad illud quod obicitur, quod similitudo est in plus quam imago, dicendum quod similitudo, si accipiatur in sua generalitate, in plus est ; si vero accipiatur proprie, sicut accipitur in proposito, non est in plus, immo distinguitur ab imagine, ita quod, etsi utraque tam affectivam quam cognitivam respiciat, imago tamen principalius respicit cognitivam et similitudo affectivam ; et ratio iam dicta est. 
+  Et per hoc patet responsio ad illa duo quae quaerebantur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, A. 3, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, A. 3, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21a3q2">
+            <head xml:id="bb-l2d21a3q2-Hd1e99">II, Distinctio 21, A. 3, Q. 2</head>
+            <head xml:id="bb-l2d21a3q2-Hd1e102" type="question-title">Utrum peccatum primum hominis fuerit remissibile vel irremissibile.</head>
+ 
+            <p xml:id="bb-l2d21a3q2-d1e105">Secundo quaeritur, utrum peccatum, quod primo secutum est ex tentatione illa, fuerit remissibile vel irremissibile.</p>
+            <div xml:id="bb-l2d21a3q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d21a3q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d21a3q2-d1e113">Et quod irremissibile, videtur.
+<name ref="#Augustine">Augustinus</name>, De mirabilibus sacrae Scripturae, loquens de angelo, dicit quod resurgere non potuit, quia de sublimissimo statu cecidit ; sed homo cecidit de nobilissimo gradu et statu quem potuit habere in via : ergo, si non potuit resurgere daemon, pari ratione nec homo.</p>
+               <p xml:id="bb-l2d21a3q2-d1e119">Item, peccatum ad quod nullam habet homo inclinationem, nullam habet excusationem, et quod omni caret excusatione non est dignum remissione ; sed peccatum quod omnino ineptum est ad remissionem est irremissibile : ergo peccatum illud est irremissibile quod fit sine aliqua inclinatione ; sed tale fuit peccatum quod consecutum est ex prima tentatione : ergo etc.</p>
+               <p xml:id="bb-l2d21a3q2-d1e122">Item, morbus qui totam naturam inficit est incurabilis, quia omnino sanitatem et principium sanitatis expellit ; sed peccatum quod ex primaria tentatione subsecutum est totam naturam humanam infecit : videtur igitur quod fuerit morbus incurabilis.</p>
+               <p xml:id="bb-l2d21a3q2-d1e125">Item, Adam, antequam peccaret, non solum habuit naturalia, sed etiam gratuita, sicut ostendetur infra, et hoc innuit Glossa, Lucae 10, 30-31, ubi dicit quod homo vulneratus fuit in naturalibus et exspoliatus gratuitis ; angelus vero non habuit gratuita, sed solum naturalia, sicut ostensum fuit supra : ergo maiorem corruptionem fecit peccatum hominis in homine quam peccatum angeli in angelo ; sed peccatum quod magis corrumpit, minus est aptum sanari : ergo, si peccatum angeli fuit irremediabile, multo fortius peccatum hominis.</p>
+
+ 
+               <p xml:id="bb-l2d21a3q2-d1e129">Sed contra : Poenitentia est via ad inveniendam veniam ; sed primus parens, postquam peccavit, potuit poenitere, quod patet, quia doluit et poenituit : ergo potuit veniam et misericordiam invenire. Ergo peccatum eius fuit remissibile.</p>
+               <p xml:id="bb-l2d21a3q2-d1e132">Item, dignum est ut qui ab alio deicitur, ab alio adiuvetur ; sed homo, cum peccavit, alio tentante deiectus est : ergo decuit ipsum habere praesidium et adiutorium ad resurgendum ; sed, illo habito, peccatum hominis est remissibile : ergo etc.</p>
+               <p xml:id="bb-l2d21a3q2-d1e135">Item, peccatum primi hominis totam humanam naturam infecit. Ergo, si irremissibile fuisset, tota humana natura damnata fuisset : ergo divina providentia et dispositio, quae hominem fecerat propter beatitudinem, fuisset frustrata, et ita esset vana.</p>
+               <p xml:id="bb-l2d21a3q2-d1e138">Item, non est maioris stabilitatis culpa quam gratia nec demeritum quam meritum. Ergo, si culpa Adae fuisset irremissibilis, gratia praecedens fuisset inamissibilis : ergo, si gratiam potuit amittere, pari ratione a culpa potuit resurgere.</p>
+    
+               <p xml:id="bb-l2d21a3q2-d1e141">Quaestio est igitur propter quid remissibile fuerit peccatum humanum, non angelicum.</p>
+            </div>
+            <div xml:id="bb-l2d21a3q2-Dd1e145">
+               <head xml:id="bb-l2d21a3q2-Hd1e147">Conclusio</head>
+               <head xml:id="bb-l2d21a3q2-Hd1e150" type="question-title">Peccatum primum hominis remissible fuit, quod 
+      triplici ratione congruum esse probatur.</head>
+               <p xml:id="bb-l2d21a3q2-d1e153">Respondeo : Dicendum quod primum peccatum hominis, quod ex tentatione diaboli subsecutum est, remissibile fuit.</p>
+               <p xml:id="bb-l2d21a3q2-d1e156">Et si quaeratur ratio huius, dicendum quod ex tribus rationibus una potest ratio sufficiens colligi. Remissibile namque fuit peccatum primi hominis, quia erat in carne mortalis, quia in voluntate vertibilis, quia in transgressione excusabilis.
+Carnis mortalitas faciebat remissibilitatem. Potuit enim divina iustitia severitatem et aequitatem sui iudicii in homine exercere praeter aeternam damnationem in hoc quod hominem peccatorem morti tradidit et hominis innocentis mortem pro satisfactione suscepit, ut sic exerceretur in homine severitatis vindicta pro culpa perpetrata, ut, quemadmodum homo voluntarie peccando Deum deseruerat et se ipsum morte culpae occiderat, sic spiritus invitus desereret corpus et mors exigatur in poena, sicut commissa fuerat in culpa. Angelus autem per naturam immortalis erat nec mori poterat nisi morte aeterna, et ideo non erat alia via exercendi in ipsum iustitiae severitatem nisi per mortem damnationis aeternae. Et sic carnis mortalitas multum facit ad hoc quod peccatum hominis esset remissibile.</p>
+ 
+               <p xml:id="bb-l2d21a3q2-d1e159">Voluntatis vertibilitas ad hoc nihilominus faciebat. Quia enim homo conditus est in vertibilitate arbitrii, quae non tantum debebat esse in eo ad momentum, sed etiam ad tempus diuturnum, quia longo tempore debebat esse viator, hinc est quod sicut gratia adveniens eius voluntati non abstulit vertibilitatem ad malum, sic culpa superveniens non abstulit potentiam revertendi ad bonum ; et sicut potuit transgredi, ita potuit conteri ; et sicut per culpam pervenit ad iram divinam, sic per poenitentiam rediit ad gratiam. Hoc autem angelus non habuit, sicut ostensum fuit supra, distinctione septima, propter brevitatem spatii merendi, post quod voluntas eius vertibilitatem habere non poterat, sicut ibidem ostensum est.
+</p>
+ 
+               <p xml:id="bb-l2d21a3q2-d1e163">Excusabilitas etiam in culpa faciebat ad peccati hominis remissibilitatem. Quia enim alio suggerente cecidit, dignum fuit per alium sublevari, et ideo competebat sibi mediatorem habere. Et quia lapsus non potest resurgere sine manu sublevante et inimicus non potest reconciliari sine mediatore interveniente, hinc est quod peccatum hominis remissibile fuit, non peccatum angeli, quia homo, qui per alium cecidit, alium debuit habere adiutorem et relevatorem ; angelus vero non, quia cecidit per semetipsum. Et haec est ratio quam Magister reddit in littera.</p>
+ 
+               <p xml:id="bb-l2d21a3q2-d1e166">Et sic patet quod triplex est ratio quare peccatum hominis remissibile fuit, et istae tres concurrentes reddunt unam rationem integram. Inter has tamen praecipua est ratio quae medio loco posita, est, scilicet vertibilitas voluntatis post lapsum, per quam homo susceptibilis erat poenitentiae, mediante qua ad veniam poterat pervenire.
+Concedendae sunt igitur rationes ostendentes peccatum hominis, quod ex prima tentatione secutum est, fuisse remissibile.
+</p>
+            </div>
+            <div xml:id="bb-l2d21a3q2-Dd1e171">
+               <head xml:id="bb-l2d21a3q2-Hd1e173">Ad rationes</head>
+               <p xml:id="bb-l2d21a3q2-d1e176">Ad illud ergo quod obicitur, quod cecidit de nobilissimo statu, dicendum quod, quamvis homo esset in statu sublimi, non tamen sic dicitur de sublimissimo statu cecidisse sicut angelus. Angelus enim proximus erat gloriae, adeo quod uno solo motu conversionis ad Deum poterat effici gloriosus ; non sic fuit de homine ; et ideo non est simile.</p>
+               <p xml:id="bb-l2d21a3q2-d1e179">Ad illud quod obicitur, quod homo nullam habuit inclinationem, dicendum quod, etsi non habuit inclinativum interius, habuit tamen impulsivum exterius, ratione cuius aliquo. modo fuit peccatum eius excusabile. Esto tamen quod excusabile non esset in se, nihilominus excusabile factum est quando homo incepit de sua transgressione dolere.</p>
+               <p xml:id="bb-l2d21a3q2-d1e182">Ad illud quod obicitur, quod tota natura corrupta est, dicendum quod, etsi corrupta sit tota quantum ad totam posteritatem, quae seminaliter ex Adam procedit, nihilominus tamen remansit ipsi Adae semen, in quo benedictae sunt omnes gentes, id est Christus, in quo nulla fuit corruptio, immo membrum sanissimum fuit, et ideo sua cauterizatione caetera membra a faece peccati curavit. Remansit etiam in homine aliqua naturalis rectitudo, utpote synderesis, quae non fuit in eo extincta, qua movente et instigante potuit peccatum detestari et detestando ad Deum reverti et revertendo curari.</p>
+               <p xml:id="bb-l2d21a3q2-d1e185">Ad illud quod obicitur, quod homo habuit naturalia et gratuita quando peccavit, dicendum quod, etsi aliquod donum amiserit in peccando, quod Lucifer non perdidit, quia non habuit, naturae tamen rectitudo non est adeo obliquata in homine sicut fuit in diabolo ; et non tam improbe et pertinaciter adhaesit ei quod appetiit, sicut angelus qui nullum habuit retardativum.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

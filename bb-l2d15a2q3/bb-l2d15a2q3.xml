@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 15, A. 2, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 15, A. 2, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d15a2q3">
+            <head xml:id="bb-l2d15a2q3-Hd1e99">II, Distinctio 15, A. 2, Q. 3</head>
+            <head xml:id="bb-l2d15a2q3-Hd1e102" type="question-title">Quis sit ordo productionis animalium respectu quietis.</head>
+ 
+            <p xml:id="bb-l2d15a2q3-d1e105">Tertio quaeritur de ordine productionis animalium ad quietem. Et quaeritur, utrum Deus, postquam animalia produxit, ab omni opere quieverit. Et quod sic, videtur.</p>
+
+            <p xml:id="bb-l2d15a2q3-d1e108">1. Per Scripturam Genesis 2, 2 : <quote xml:id="bb-l2d15a2q3-Qd1e110" ana="#gen2_2">Requievit Deus die septimo ab omni opere, quod patrarat</quote> ; sed animalia producta sunt quinto et sexto die : ergo post eorum productionem sequitur quietatio.</p>
+            <p xml:id="bb-l2d15a2q3-d1e114">2. Item, omnis operatio quae pervenit ad completionem, habet quietem subsequentem ; sed productio creaturarum completur in productione animalium et maxime hominis : ergo videtur quod postquam Deus die sexto animalia produxit, quod deinceps requievit.</p>
+            <p xml:id="bb-l2d15a2q3-d1e118">3. Item, distinctio dierum est ad nostram instructionem ; sed sex diebus permisit Deus homines operari, septimo praecepit quiescere et cessare ab omni opere : si ergo illud mandatum rationem habet ex primaria rerum conditione, videtur quod ad animalium productionem subsecuta fuerit quies.</p>
+            <p xml:id="bb-l2d15a2q3-d1e121">4. Item, omnis creaturae productio finem habet et terminum ; ergo similiter dies omnis, in qua aliquid producitur, habet vesperam ; sed septimae diei secundum Scripturam non assignantur vesperae : ergo post sextam diem nulla sunt producta ; et in sexto die producta sunt animalia : ergo etc.</p>
+
+ 
+            <p xml:id="bb-l2d15a2q3-d1e124">Contra : Ioannis quinto: <quote xml:id="bb-l2d15a2q3-Qd1e126" ana="#io5_17">Pater meus operatur usque modo, et ego operor</quote> : ergo si usque modo operatus est, videtur quod septimo die non cessaverit ab opere.</p>
+            <p xml:id="bb-l2d15a2q3-d1e130">2. Item, septimus dies aut est novus dies praeter praecedentes aut non. Si non : ergo non debet aliis connumerari ; si sic : et illum fecit Deus ; constat ergo quod non requievit ab omni opere postquam produxit animalia. Si tu dicas quod dies ille non differt a praecedentibus nisi secundum numerum, sed sic differt octavus et decimus, et sic deinceps : ergo si septimus numeratur eadem ratione et octavus deberet numerari.</p>
+            <p xml:id="bb-l2d15a2q3-d1e133">3. Item, requies aut connotat aliquem effectum aut nullum. Si nullum effectum connotat, ergo ab aeterno requievit ; ergo ante requievit quam aliquid produceret : ergo penes requietionem non debet accipi aliquis dies. Si connotat aliquem effectum, et iste effectus non fuit in diebus praecedentibus ; ergo aliquid novum produxit in die septimo : non ergo requievit ab omni opere suo postquam produxit animalia die sexto.</p>
+            <p xml:id="bb-l2d15a2q3-d1e136">4. Item, Deus creat quotidie novas animas et infundit corporibus : creare autem est opus soli Deo proprium : ergo non videtur quod ab operatione quieverit post diem sextum.</p>
+            <p xml:id="bb-l2d15a2q3-d1e140">5. Item, animalia quaedam producuntur per putrefactionem ; sed constat quod illa non sunt producta in sex diebus, sicut dicit <name ref="#Augustine">Augustinus</name>, III Super Genesim ad litteram, et huiusmodi habent species proprias et naturas : ergo videtur quod post sextum diem non cessaverit a productione novarum specierum in genere animalium.</p>
+            <p xml:id="bb-l2d15a2q3-d1e146">6. Item, quaedam animalia generantur per commixtionem, sicut mulus ex equa et asino ; haec autem in sex diebus non fuerunt facta, nec in esse individuali nec in sua specie : ergo post sextum diem non cessavit a rerum productione, non solum quantum ad individua sed etiam quantum ad species et genera.</p>
+            <div xml:id="bb-l2d15a2q3-Dd1e149">
+               <head xml:id="bb-l2d15a2q3-Hd1e151">Post animalium productionem secuta est quies die septimo, non quasi facta sit laboris cessatio, 
+  sed operis inchoati completio</head>
+ 
+               <p xml:id="bb-l2d15a2q3-d1e154">Respondeo : Ad praedictorum intelligentiam est notandum quod omnis artifex perfectus opus inchoat ut ad perfectionem perducat ; et sicut intendit ita facit, si per omnia sufficientia virtutis agentis sibi suppetit ; cum autem ad perfectionem deduxerit, habet quod intendit. Omne autem operans propter aliquid, obtento eo propter quod agit, quiescit. Omnis ergo agens perfectus sic operatur ut aliquando quiescat.</p>
+               <p xml:id="bb-l2d15a2q3-d1e157">Cum igitur Deus sit agens perfectissimus in producendo ipsum universum, necesse est ipsum aliquando quiescere. Sed cum duplex sit agens, quoddam quod movetur et laborat in sua operatione, quoddam vero quod nec mutatur nec variatur, illud quod primo modo agit, quiescit per quietationem, quae quidem est privatio motus et laboris, sicut est agens creatum ; illud vero quod secundo modo agit, quiescit quietatione, non quae sit laboris vel fatigationis privatio, sed quae est cessatio ab opere propter ipsius perfectionem ; et sic dicitur Deus ab omni opere quievisse, cum universum produxit ad perfectum esse, etsic quievit sicut ad perfectum esse deduxit.</p>
+               <p xml:id="bb-l2d15a2q3-d1e160">Propter quod nota, quod duplex est perfectio universi : una et praecipua secundum esse permanens, alia est secundum ipsius esse decurrens. Prima attenditur in completa existentia principiorum et completo numero specierum, quae quidem species naturam generis participant secundum rectam et ordinatam intentionem naturae. Secunda vero perfectio consistit in productione eorum quae per tempora decurrunt et sibi consequenter succedunt, ex cuius successionis ordinatione resultat quaedam unitatis pulcritudo et perfectio. Quoniam igitur secundum primam perfectionem Deus universum in sex diebus ad esse produxit, scilicet quantum ad completam existentiam principiorum et quantum ad completum numerum specierum, ideo dicitur requievisse ab omni opere quod patrarat. Quia vero continue operatur ad rerum successionem per propagationem et individuorum multiplicationem, ideo dicitur operari usque modo. Et ex his patet responsio ad quaestionem propositam.</p>
+               <p xml:id="bb-l2d15a2q3-d1e163">Concedendum est enim quod ad productionem animalium, maxime hominis, secuta est quies in die septimo, non quia facta sit laboris terminatio, sed quia facta est operis inchoati completio ; et concedendae sunt rationes hoc probantes.</p>
+ 
+               <p xml:id="bb-l2d15a2q3-d1e167">1. Ad illud quod obicitur in contrarium de Ioannis quinto : <quote xml:id="bb-l2d15a2q3-Qd1e169" ana="#5_17">Pater meus operatur</quote>, iam patet responsio. Obicit enim de illa operatione quae spectat ad perfectionem universi secundum esse decurrens, non secundum esse permanens.</p>
+  
+               <p xml:id="bb-l2d15a2q3-d1e173">2. Ad illud quod obicitur, quod fecit diem septimum, dicendum quod dies septimus non fuit alius specie a praecedentibus diebus, immo quodam modo iam erat in aliis productus ; et ideo ad primum complementum universi nihil addebat ratione sui ; et ideo eius productio non repugnabat quieti, secundum quod quies dicit cessationem a productione eorum quae sunt de principali universi constitutione. Enumeratur tamen cum praedictis diebus magis quam dies octavus vel decimus propter cessationem ab opere constituendi universum, secundum quam non attenditur numeratio dierum, quia non habent terminum ; et ideo septimus dies non dicitur habere vesperam nec post illum enumeratur dies novus, sed fit regressus ad principium.</p>
+               <p xml:id="bb-l2d15a2q3-d1e176">3. Ad illud quod obicitur, quod requiescere ab opere, aut connotat effectum aliquem aut nullum, dicendum quod secundum <name ref="#Augustine">Augustinum</name> requiescere dicitur in Deo causaliter, quia facit creaturam spiritualem per completam contemplationem sibi inhaerendo quiescere vel quiescendo sibi inhaerere. Secundum autem alios Sanctos et viam communem quiescere dicit effectum, non qui sit in die sabbati sed qui praecessit ; unde Deus dicitur requiescere ab opere, quia prius fecit et deinde nova non facit. Et propter hoc dicitur complesse omne opus suum in die septimo, non quia tunc aliquid fecerit quod fuerit ad completionem, sed quia tunc quiescendo consummatum ostendit.</p>
+               <p xml:id="bb-l2d15a2q3-d1e182">4. Ad illud quod obicitur de creatione animarum, dicendum quod cum creantur nunc animae rationales, non creatur nova species sed novum individuum ; hoc autem individuum non est de constitutione universi primaria ; et ideo per quietationem in sabbato non excludebatur animarum creatio.</p>
+
+               <p xml:id="bb-l2d15a2q3-d1e185">5-6. Ad illud quod obicitur de productione eorum quae sunt per putrefactionem et commixtionem, quod sunt novae species, dicendum quod tam illa quae generantur per putrefactionem quam illa quae generantur per diversarum specierum commixtionem, producta sunt in suis principiis et rationibus seminalibus, quamvis non sint producta in simili secundum formam. Principia enim eorum sunt de primaria constitutione universi, utpote species completae et rationes seminales ; sed illarum specierum actualis existentia ad primariam constitutionem universi non spectat, quia species illae quodam modo sunt degenerantes et quasi per quamdam degenerationem produci habent, sicut vermes producuntur ex humano corpore per corruptionem aliquam, quae quidem facit corpus humanum a propria forma degenerare. Et ideo non oportuit haec produci in se nec in suo simili ad primariam constitutionem universi ; nec tamen sunt superflua, quia universum, quantum ad bene esse, aliquo modo decorant.
+</p>
+               <p xml:id="bb-l2d15a2q3-d1e188">Unde breviter nota quod eorum quae successione producuntur, quaedam fuerunt in prima dierum distinctione producta in simili, sed non in ratione seminali, utpote animae rationales, quae scilicet producuntur per creationem et ideo non habent rationem seminalem ; in simili tamen productae sunt, quando producta fuit anima Adae, post cuius productionem non producitur nova species, quamvis producantur nova individua.
+Quaedam sunt quae productae sunt in primis diebus quantum ad rationem seminalem, sed non in simili, sicut ea quae generantur per putrefactionem et per diversarum specierum commixtionem.
+Quaedam sunt quae producta sunt et in ratione seminali et in simili, sicut plantae et bruta animalia, quae producuntur per propagationem.
+Et ad haec tria rerum genera possunt reduci ; omnia quae fiunt ; et propterea non dicitur Deus producere aliqua de novo, secundum quod dicitur in Ecclesiastis 1, 10, quod nihil novum sub sole ; sed dicitur ab omni opere requievisse, quia nihil producit quod prius non fuerit vel in simili specie vel in ratione seminali, quae tunc erant de primaria constitutione universi.
+Et sic patet qualiter ad animalium productionem in die sexto sequitur requies ab omni opere in die septimo.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

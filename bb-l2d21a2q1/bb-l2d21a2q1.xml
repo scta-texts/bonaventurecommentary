@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, A. 2, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, A. 2, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21a2q1">
+            <head xml:id="bb-l2d21a2q1-Hd1e99">II, Distinctio 21, A. 2, Q. 1</head>
+            <head xml:id="bb-l2d21a2q1-Hd1e102" type="question-title">Utrum carnis sit tentare.</head>
+ 
+            <p xml:id="bb-l2d21a2q1-d1e105">Circa primum sic proceditur et ostenditur quod carnis sit tentare.</p>
+            <div xml:id="bb-l2d21a2q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d21a2q1-Hd1e110">Rationes principales</head>
+
+               <p xml:id="bb-l2d21a2q1-d1e113">1. Iacobi primo : <quote xml:id="bb-l2d21a2q1-Qd1e115" ana="#iac1_14">Unusquisque tentatur a concupiscentia sua abstractus et illectus</quote> ; sed concupiscentia, quae maxime nos abstrahit et illicit, est concupiscentia carnis : ergo etc.</p>
+               <p xml:id="bb-l2d21a2q1-d1e119">2. Item, Cassiodorus, definiens tentationem, dicit quod tentatio est assimilatio boni ad fallendum ; sed appetitus carnalis facit bonum ut nunc credi esse bonum simpliciter, et hoc decipit et fallit spiritum : ergo contingit spiritum tentari a carnali appetitu.</p>
+               <p xml:id="bb-l2d21a2q1-d1e122">3. Item, tentatio diabolica non est aliud quam eius suggestio, ; sed sicut diabolus suggerit homini mala, ita et carnis prudentia, quae est Deo inimica : ergo, si diabolus dicitur tentare, cum suggerit mala, eadem ratione et caro, cum spiritum trahit ad carnalia.</p>
+               <p xml:id="bb-l2d21a2q1-d1e125">4. Item, diabolus impugnat nos tentando, nec est aliud diaboli tentatio quam eius Impugnatio ; sed sicut impugnamur a diabolo, ita etiam et a carne impugnamur et impellimur : ergo videtur quod sicut tentamur a diabolo, ita vere et proprie tentamur a carne.</p>
+
+ 
+               <p xml:id="bb-l2d21a2q1-d1e129">Sed contra :
+1. Hugo de sancto Victore : <quote xml:id="bb-l2d21a2q1-Qd1e131">Tentare est callide experiri et quasi quibusdam blandis conatibus probare</quote>. Sed experimentum sumere hoc est sollus substantiae rationalis : ergo non videtur esse carnis.</p>
+               <p xml:id="bb-l2d21a2q1-d1e135">2. Item, tentans differt a tentato : nullus enim tentat se ipsum ; sed qui tentatur est homo carnalis : cum igitur homo carnalis a carne sua non differat per substantiam, videtur quod nullus homo tentetur a carne sua nec ab alia : constat ergo quod nulla caro tentat.</p>
+               <p xml:id="bb-l2d21a2q1-d1e138">3. Item, persuasio ordinata ad decipiendum potius est sophisticatio quam tentatio : tentatio ehim est persuasio ordinata ad sumendum experimentum. Sed caro vitiosa directe inclinat ad malum et sua inclinatione seducit spiritum : ergo carnis propulsatio potius debet dici sophisticatio quam tentatio.</p>
+               <p xml:id="bb-l2d21a2q1-d1e141">4. Item, quandocumque aliquis actus de aliquibus subiectis dicitur, dicitur secundum aliquod commune in eis repertum ; sed Deus tentare dicitur in Scriptura et diabolus et homo et caro : ergo secundum aliquod commune debet dici. Sed caro non videtur aliquo modo communicare in aliquo cum Deo et cum spiritu angelico : ergo videtur quod ei non possit competere tentatio ; aut, si competat, hoc erit aequivoce et secundum alium modum dicendi.
+Et si est, tunc est quaestio : secundum quem modum dicitur et quare illa carnis impulsio tentatio appellatur ?
+</p>
+            </div>
+            <div xml:id="bb-l2d21a2q1-Dd1e145">
+               <head xml:id="bb-l2d21a2q1-Hd1e147">Conclusio</head>
+               <head xml:id="bb-l2d21a2q1-Hd1e150" type="question-title">Cum tentatio sit quidam tactus ad probandum ordinatus, 
+      et carnis concupiscentia nos impellit, 
+      ad cuius impulsum sequitur approbatio, vel 
+      improbatio hominis, recte caro dicitur tentare.</head>
+               <p xml:id="bb-l2d21a2q1-d1e153">Respondeo : Dicendum quod hoc vocabulum <mentioned> tentare </mentioned> multas habet acceptiones, sicut dicunt illi qui significationes vocabulorum studiose rimati sunt. Si tamen velimus eius principalem et praecipuam significationem accipere, tentare probare est ; unde tentatio dici potest quidam tactus, quo illud quod tangitur, probatur : sicut caecus dicitur tentare, quando suo tactu vult aliquam certitudinem habere de aliqua re quam tangit. Per hunc modum in spiritualibus tentatio dicitur quidam tactus ad probandum ordinatus.
+Hoc autem potest esse quadrupliciter : aut quia ille qui pulsat, intendit probare et approbare sive probatum ostendere ; et hoc modo tentat Deus, secundum quod dicitur Sapientiae 3, 5 : <quote xml:id="bb-l2d21a2q1-Qd1e158" ana="#sap3_5">Deus tentavit illos et invenit illos dignos se</quote>.
+Aut ille qui pulsat, intendit probare et reprobare sive reprobum facere ; et sic tentat diabolus, secundum quod dicitur Actuum 5, 3 : <quote xml:id="bb-l2d21a2q1-Qd1e161" ana="#act5_3">Cur tentavit Satanas cor tuum mentiri Spiritui sancto ?</quote>
+Aut quia ille qui pulsat, intendit solum probare et experimentum sumere de eo quod est in homine ; et sic tentat homo cautus ; et de hoc Ecclesiastici 13, 14 : <quote xml:id="bb-l2d21a2q1-Qd1e164" ana="#sir13_14">Ex multis loquelis tentabit te, et subridens interrogabit te de absconditis tuis</quote>.
+Aut quia, etsi pulsans nihil intendit, ad eius tamen pulsationem sequitur approbatio vel reprobatio hominis ; et sic tentat caro vel carnalis concupiscentia, de qua Iacobi 1, 14 : <quote xml:id="bb-l2d21a2q1-Qd1e167" ana="#iac1_14">Unusquisque tentatur a concupiscentia sua abstractus et illectus</quote>. A carne enim sive a carnis concupiscentia homo pulsatur et quasi tangitur, cui tactui sive pulsationi si consentiat, probatur et reprobatur ; si vero dissentiat, probatur et approbatur. Et sic recte et proprie carnis impulsio tentatio dici potest.
+Unde rationes hoc ostendentes concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d21a2q1-Dd1e173">
+               <head xml:id="bb-l2d21a2q1-Hd1e175">Ad rationes</head>
+               <p xml:id="bb-l2d21a2q1-d1e178">1. Ad illud autem quod obicitur in contrarium, quod tentare est experiri, dicendum quod illa ratio ab Hugone non assignatur nisi proprie de tentatione diaboli.
+Si autem quis generaliter velit eam intelligere, ut se extendat ad omnem tentationem quae ad malum inclinat, tunc dicemus quod intelligitur per causam, ut sit sensus quod per tentationem fit experientia et probatio utrum homo dignus sit approbari vel reprobari ; et hoc non tantum fit a diabolo, sed etiam a carne.
+Si autem velit dicere hoc essentialiter esse dictum, tunc dicemus quod nomine carnis non intelligitur corpus solum, sed ratio carnalis ; et idem ipse homo, secundum quod carnalis est et ad carnem conversus, se ipsum tentat secundum quod spiritualis est et divinae legi subiectus.
+</p>
+
+               <p xml:id="bb-l2d21a2q1-d1e181">2. Ad illud quod obicitur secundo, quod tentans differta tentato secundum substantiam, dicendum quod sicut iudicare et iudicari sunt actus diversarum personarum, nihilominus tamen eadem persona secundum aliam et aliam sui portionem potest se ipsam iudicare, sicut semetipsum homo diiudicat et superior portio iudicat inferiorem ; sic etiam intelligendum est quod spirituali ter ipsa sensualitas tentare potest rationem, sive homo exterior interiorem ; et ita, cum caro tentat spiritum, non idem tentatur a se, sed alius ab alio ; illa tamen reperiri habent in eadem persona.</p>
+               <p xml:id="bb-l2d21a2q1-d1e184">3. Ad illud quod obicitur, quod persuasio, ordinata ad decipiendum, potius est sophisticatio quam tentatio, dici potest quod tentatio large dicta comprehendit et sophisticationem et tentationem proprie dictam. Sophistica enim persuasione potest homo de alio experimentum sumere ; et ita non valet illa obiectio, quia tentatio, secundum quod hic accipitur, contra deceptionem et sophisticationem non dividitur. Aliter tamen posset dici quod tentationis nomen magis translatum est a tentatione materiali, in qua est quaedam palpatio, secundum quod caecus dicitur tentare, quam a tentatione illa quae est in ratiocinationibus, per quem modum dividitur contra sophisticatioriem, ut dicatur alius syllogismus sophisticus, alius tentativus.</p>
+
+               <p xml:id="bb-l2d21a2q1-d1e187">4. Ad ultimum patet responsio ex praedictis. Aliquod enim commune reperitur in omnibus illis de quibus dicitur actus tentandi, videlicet tactu quodam pulsare, ad quem consequitur pulsati probatio ; et hoc prius explanatum est.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

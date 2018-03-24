@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 2, A. 1, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 2, A. 1, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p2a1q3">
+            <head xml:id="bb-l2d14p2a1q3-Hd1e99">II, Distinctio 14, P. 2, A. 1, Q. 3</head>
+            <head xml:id="bb-l2d14p2a1q3-Hd1e102" type="question-title">Utrum conveniat alicui orbi moveri absque stellis.</head>
+ 
+            <p xml:id="bb-l2d14p2a1q3-d1e105">Tertio quaeritur, utrum conveniat alicui orbi moveri absque stellis.
+Et quod non, videtur.</p>
+
+            <p xml:id="bb-l2d14p2a1q3-d1e108">1. Quia caelum empyreum ponitur a Sanctis esse immobile propter sui uniformitatem ; sed caelum, quod universaliter caret stellis, est uniforme : ergo nullum caelum quod caret stellis, est mobile.</p>
+            <p xml:id="bb-l2d14p2a1q3-d1e111">2. Item, ubicumque est motus ibi est continuitas et variatio ; sed continuitas, quae est in motu, est a continuitate magnitudinis : ergo pari ratione variatio motus est a varietate mobilis. Sed corpus caeleste quod caret stellis, non habet in suis motibus varietatem : ergo nec mutabilitatem.</p>
+            <p xml:id="bb-l2d14p2a1q3-d1e115">3. Item, omnis motus est propter aliquam indigentiam supplendam vel in ipso mobili vel in aliquo inferiori ; sed caelum quod caret stellis, non potest moveri propter suam indigentiam, cum nulla in motu illo eius indigentia compleatur ; nec propter supplendam indigentiam in inferioribus, quia ita bene influit quiescendo sicut movendo, et uniformiter : ergo videtur quod nullo modo absque stellis caelesti corpori moveri competat.</p>
+            <p xml:id="bb-l2d14p2a1q3-d1e118">4. Item, motus caeli est perfectissimus omnium motuum, et ideo est omnium motuum regula : ergo si per regulam mensurantur omnia quae sunt in genere illo, anima mensurat omnes motus per motum primi mobilis : ergo motus primi mobilis maxime notus est ipsi animae. Sed nullius corporis motus est notus ipsi animae, nisi quod habet in se aliquod luminare, quia non deprehenditur motus orbis nisi per motum luminaris : ergo videtur quod non sit ponibile aliquem orbem moveri, qui careat omni luminari, praecipue cum motus eius lateat sensum nostrum, et sacra Scriptura uniformis orbis reticeat motum. Et sic videtur quod ponere aliquem orbem moveri supra firmamentum quod est nostris oculis conspicuum, sit temerarium.</p>
+
+ 
+            <p xml:id="bb-l2d14p2a1q3-d1e121">Contra : 1. Omnis multitudo reducitur ad unitatem ; ergo motus corporis multiformis reducitur ad motum corporis uniformis ; sed uniforme corpus non est, nisi quod caret omni luminari : ergo videtur quod ultra istos orbes, in quibus sunt luminaria, sit aliquod caelum mobile.</p>
+            <p xml:id="bb-l2d14p2a1q3-d1e124">2. Item, motus ille qui est mensura omnium motuum, est ille qui est ab oriente in oriens per occidens, qui est motus diei naturalis effectivus et complet viginti quatuor horas ; sed dies naturalis omni tempore est uniformis : ergo et iste motus : ergo et mobile : ergo etc.</p>
+            <p xml:id="bb-l2d14p2a1q3-d1e127">3. Item, si est recta ordinatio medii ad extrema, necesse est medium participare quodam modo naturam utriusque extremi ; sed caelum crystallinum medium est inter empyreum et firmamentum : cum ergo empyreum sit uniforme et immobile et firmamentum sit multiforme et mobile, videtur quod crystallinum caelum sit aut multiforme et immobile aut uniforme et mobile. Sed si multiforme et immobile esse non potest, cum varietas mobilis disponat ad motum : ergo necesse est quod sit uniforme et mobile.</p>
+            <p xml:id="bb-l2d14p2a1q3-d1e130">4. Item, quandocumque aliqua plura concurrunt ad constitutionem alicuius, necesse est per virtutem alicuius illa coniungi : ergo quandocumque plura mobilia concurrunt ad effectum unum conformem per suam influentiam, necesse est quod coniungantur per alicuius mobilis uniformitatem. Si ergo virtus planetarum et stellarum concurrit ad productionem effectuum in his inferioribus secundum quamdam conformitatem, necesse est ultra illa esse aliquod mobile per quod iungantur, quod quidem habeat in toto et in partibus uniformitatem ; et ita alicui orbi absque stellis competit moveri.</p>
+
+            <p xml:id="bb-l2d14p2a1q3-d1e134">Est igitur quaestio, quis sit ille orbis, et per quam naturam competit ei moveri. Si enim, quia caelum est, tunc ergo empyreum erit mobile. Si quia caelum quod est non tantum continens sed etiam contentum, obicitur tunc de caelo igneo et aethereo, qui quidem continent et continentur, et tamen non moventur orbiculariter.
+Iuxta hoc quaeritur de sufficientia et numero caelorum ; et cum natura caelestis distinguatur ab elementari, quomodo aliquae differentiae caelorum sumuntur penes elementa ? Si tu dicas, quod propter naturam perspicui in eis repertam, tunc cum perspicuitas sit in aqua, elementum aquae deberet dici caelum.
+</p>
+            <div xml:id="bb-l2d14p2a1q3-Dd1e137">
+               <head xml:id="bb-l2d14p2a1q3-Hd1e139">CONCLUSIO</head>
+               <head xml:id="bb-l2d14p2a1q3-Hd1e142" type="question-title">Caelum aliquod carens stellis ultra firmamentum est mobile</head>
+               <p xml:id="bb-l2d14p2a1q3-d1e145">Respondeo : Dicendum quod est ponere aliquod caelum moveri, quod caret luminarium et stellarum varietate ; et hoc est caelum aqueum sive crystallinum. Ad cuius cognitionem, etsi pauci philosophi pervenerunt, quia corporeum latet sensum, ratiocinando tamen pervenerunt aliqui ; et illi qui pervenerunt, posuerunt ipsum moveri, sicut quidam astronomi nisi sunt hoc probare. Communiter tamen ad cognitionem existentiae huius caeli pervenerunt omnes tractatores catholici, auctoritate sacrae Scripturae divinitus illustrati, quae ipsius existentiam expresse declarat, motum tamen eius vel quietem non explicat. Sed doctores theologiae, rationibus suffulti, communiter ponunt illud caelum moveri.</p>
+               <p xml:id="bb-l2d14p2a1q3-d1e148">Et inter alias rationes potissima ratio est illa quae sumitur ex perfectione universi, ex qua etiam distinctio caelorum et numerus rationabiliter potest investigari. Et hoc patet sic. Caelum enim de sua communi acceptione dicit aliquam naturam perspicuam et contentivam ; de sua vero propria acceptione nominat naturam perspicuam, contentivam, supra contrarietatem elevatam.</p>
+ 
+               <p xml:id="bb-l2d14p2a1q3-d1e151">Secundum primam acceptionem caelorum distinguuntur a Rabano septem caeli.
+Natura enim perspicua et contentiva aut est luminis dativa aut receptiva. Si est dativa : aut est uniformis non mota et sic est empyreum, aut est multiformis et mota et sic est sidereum, aut est uniformis et mota et sic est crystallinum. Quarta differentia esse non potest, scilicet quod sit multiformis non mota, propter hoc quod motus est passio consequens naturaliter ad multiformitatem corpori. Si autem natura perspicua est luminis receptiva, aut separabiliter aut inseparabiliter. Si inseparabiliter : aut secundum circulum superioris superficiei, et tunc est igneum ; aut secundum circulum inferioris superficiei, in quo communicat aeri, et tunc est olympium, quod quidem dicitur olympium propter Olympi montis approximationem. Si autem est receptiva separabiliter, sicut aer, qui illuminatur ex praesentia corporis luminosi et obtenebratur ex eius absentia, hoc dupliciter : aut secundum superiorem partem et sic est aethereum, aut secundum inferiorem et sic est aereum. Et in hac distinctione comprehenduntur omnia corpora mundi praeter terram et aquam. Terra enim non potest comprehendi nomine caeli, quia caret tam perspicuitate quam ambiendi capacitate. Aqua autem similiter caret, quia, quamvis habeat perspicuitatem, non tamen am bit undique. Et sic ex ista sufficientia caelorum, in qua ostenditur sapientia Conditoris et perfectio universitatis, satis manifeste apparet quod oportet ponere aliquem orbem sine luminarium multiformitate moveri ; et illud proprie dicendum est primum mobile. Haec autem distinctio et sufficientia sumta est secundum enumerationem Rabani, qui caelos numerat secundum communem acceptionem caeli, prout nominat naturam perspicuam et contentivam ; sic enim comprehendit naturam caelestem proprie dictam et elementarem, licet non omnem.</p>
+ 
+               <p xml:id="bb-l2d14p2a1q3-d1e155">Si autem caelum proprie dicatur natura caelestis, scilicet natura perspicua undique contentiva, et nulli contraria, sic distinguitur a quibusdam philosophis per octo orbes, qui dixerunt octavam sphaeram ultimam esse. Alii autem, amplius illuminati in hac materia, ultra octavam sphaeram posuerunt nonam. Tertii, perfecte illuminati, venerunt ad perfectam orbium distinctionem ut ponerent decimam sphaeram, in qua est quies et vita sempiterna, videlicet caelum empyreum, de quo, etsi <name ref="#Augustine">Augustinus</name> vix aut nunquam loquatur, Beda tamen et Rabanus ipsum esse expresse testantur.</p>
+ 
+               <p xml:id="bb-l2d14p2a1q3-d1e161">Horum autem numerun et sufficientiam possumus sumere sic. Distinctio enim caelorum aut est per diversitatem propriarum formarum aut per distinctionem motuum et luminarium contentorum. Si per diversitatem formarum, sic distinguimus tres caelos. Aut enim viget in eo natura perfectae luminositatis, et sic est habile ad statum gloriae, et ideo quietum ; et sic est empyreum. Aut viget in eo natura perfectae perspicuitatis et effectivae frigiditatis, et sic est crystallinum sive aqueum, quod quidem facit ad conservationem rerum corruptibilium, et ideo est habile ad motum. Aut viget in eo natura perspicuitatis simul et luminositatis et effectivae caliditatis, et sic est caelum sidereum, quod quidem facit ad transmutationem rerum inferiorum ; ideo est multiforme et motum.</p>
+ 
+               <p xml:id="bb-l2d14p2a1q3-d1e164">Si vero fiat distinctio caelorum penes distinctionem luminarium, sic est distinctio orbium. Aut enim orbis continet multitudinem siderum aut unitatem. Si multitudinem, sic est caelum stellatum ; si unitatem, sic cum septem sint planetae, secundum quos regitur universitas temporum, quae septenario dierum clauditur, septem sunt orbes ; et sic tertium caelum sua multiformitate continet octo sphaeras sive orbes, et duo sunt praecedentes, et ita decem, ut sic perfectioni partium universi respondeat etiam perfectio numeri, scilicet denarii.</p>
+ 
+               <p xml:id="bb-l2d14p2a1q3-d1e167">Ex praedictis igitur patet quod qualitercumque sumatur sufficientia caelorum, sive sub propria appellatione caeli sive sub communi, ponere est caelum crystallinum moveri, quod quidem caret stellis.
+Et ideo ad quaestionem propositam respondendum est quod absque stellis potest aliquis orbis moveri, scilicet caelum aqueum quod est mobile primum et quod uniformiter movetur ab oriente in oriens per occidens ; et illius virtute trahitur firmamentum et omnes orbes inferiores, ut uno die naturali, scilicet per spatium viginti quatuor horarum, ab oriente in oriens revolvatur, quamvis nostro sensui non appareat, et aliqui philosophi hoc senserint quod firmamentum sit mobile primum. Aliqui tamen philosophi deprehenderunt quod ipsum firmamentum movetur proprio motu, ita quod in centum annis procedit uno gradu. Sive autem hoc sit verum sive falsum, hoc tenendum est, quod communiter doctores theologiae ponunt quod est caelum aliquod mobile ultra firmamentum, carens stellis. Et concedendae sunt rationes hoc ostendentes.</p>
+ 
+               <p xml:id="bb-l2d14p2a1q3-d1e170">1-2. Ad illud vero quod obicitur in contrarium, quod est uniforme, dicendum quod si habeat uniformitatem per carentiam diversitatis partium, habet tamen diversitatem secundum rationem dextrae et sinistrae per comparationem ad influentiam motoris, et haec diversitas sufficit ad faciendum motum.
+Et per hoc patet responsio ad secundum, quia non est talis variatio in illo motu primi mobilis, quae exigat diversitatem luminis in partibus, quin potius concordat uniformitati. Etsi enim motus dicatur variatio respectu quietis, motus tamen primi mobilis respectu aliorum est uniformis.</p>
+
+               <p xml:id="bb-l2d14p2a1q3-d1e173">3. Ad illud quod obicitur, quod aequaliter influit, cum movetur et quiescit, dicendum quod falsum est. Si enim quiesceret, non moveret orbes inferiores suo motu ; nunc autem, cum movetur, vis motiva ab ipso descendit in corpora in| feriora.</p>
+               <p xml:id="bb-l2d14p2a1q3-d1e177">4. Ad illud quod obicitur, quod motus eius debet esse notissimus, cum sit regula aliorum motuum, dicendum quod non oportet esse notum sensui in se, sed sufficit quod notificetur in effectu suo. Sic etiam non percipimus revolutionem octavae sphaerae ab oriente in oriens manifeste nisi per solem et et alia luminaria. Per hunc modum uniformitas quantum ad spatium horarum nobis motum caeli uniformis expresse indicat ; hunc tamen percipimus per varietatem diei et noctis.</p>
+
+              <p xml:id="bb-l2d14p2a1q3-aivsep">Ad illa vero, quae ultimo querebantur, iam palet solutio ex praedictis.</p>
+ 
+</div>
+         </div>
+      </body>
+   </text>
+</TEI>

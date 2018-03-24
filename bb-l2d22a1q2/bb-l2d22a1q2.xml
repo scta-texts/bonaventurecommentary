@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 22, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 22, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d22a1q2">
+            <head xml:id="bb-l2d22a1q2-Hd1e99">II, Distinctio 22, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d22a1q2-Hd1e102" type="question-title">Utrum id quod mulier appetiit vir etiam concupierit.</head>
+ 
+            <p xml:id="bb-l2d22a1q2-d1e105">Secundo quaeritur, utrum quod mulier appetiit, vir etiam concupierit.</p>
+            <div xml:id="bb-l2d22a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d22a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d22a1q2-d1e113">Et quod non, videtur. I ad Timotheum 2, 14 : <quote xml:id="bb-l2d22a1q2-Qd1e115" ana="#Itim2_14">Vir non est seductus, sed mulier</quote> ; sed, si Adam voluisset esse sicut Deus, quemadmodum mulier, utique circumventus fuisset : si ergo circumventus vel seductus non fuit, id quod mulier appetiit, non concupivit.</p>
+               <p xml:id="bb-l2d22a1q2-d1e119">Item, <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram : <quote xml:id="bb-l2d22a1q2-Qd1e124">Non arbitror virum, si iam spirituali mente praeditus erat, credere quod diabolus promittebat</quote>. Si ergo Adam gratiam habuit, patet etc.</p>
+               <p xml:id="bb-l2d22a1q2-d1e128">Item, si Adam appetiit esse sicut Deus, cum adhuc multo minorem haberet similitudinem quam Lucifer, videtur quod gravius peccavit Adam quam Lucifer. Ergo, si peccatum Luciferi fuit irremissibile, et peccatum hominis fuisset irremissibile, quod supra improbatum est.</p>
+               <p xml:id="bb-l2d22a1q2-d1e131">Item, si Adam appetiit esse sicut Deus, aut ergo suggerente muliere aut suggerente serpente. Non suggerente serpente, quia ipse Adam non conqueritur de serpente, sed de muliere, Genesis 3, 12-13 : Mulier, quam dedisti mihi etc. Si suggerente muliere, ergo sicut mulier decepta fuit a serpente, ita vir a muliere. Sicut igitur mulier dixit : Serpens seduxit me, ita vir dixisset : Mulier decepit me ; sed hoc non dixit, sed dixit : Mulier dedit mihi etc.
+Quodsi tu dicas quod ita fuit, quamvis Scriptura non exprimat, hoc simpliciter apparet improbabile. Nam si mulier dixisset : Comede, quia eris sicut Deus, cum ipsa comedisset et absque dubio non esset sicut Deus, nulla ratione videtur probabile quod vir ei credidisset.
+</p>
+ 
+               <p xml:id="bb-l2d22a1q2-d1e135">Sed contra :
+1. Super illud Psalmi [118, 51] : <quote xml:id="bb-l2d22a1q2-Qd1e137" ana="#ps118_51">Superbi inique</quote>, Glossa : <quote xml:id="bb-l2d22a1q2-Qd1e140">Nisi homo suggestione serpentis ut Deus esse voluisset, non letalis culpae transisset ad nos haereditas</quote>. Si tu dicas hoc esse dictum quantum ad mulierem, obicitur de viro per illud quod dicit Gregorius, in Moralibus et habetur in Glossa, Iob 41, 24 : <quote xml:id="bb-l2d22a1q2-Qd1e143">Per se accipere divinitatem Adam credidit et immortalitatis gloriam amisit</quote>. Ergo Adam idem quod mulier appetiit.
+2. Item, super illud ad Philippenses 2, 6 : <quote xml:id="bb-l2d22a1q2-Qd1e146" ana="#phil2_6">Non rapinam arbitratus est</quote>, Glossa ; <quote xml:id="bb-l2d22a1q2-Qd1e149">Non usurpavit quod suum non erat, scilicet aequalitatem Dei, sicut diabolus fecit et primus homo</quote>. Ergo primus homo voluit esse sicut Deus ; et hoc voluit mulier : ergo etc. Si tu dicas quod primus homo stat ibi pro muliere, contra : Super illud Psalmi [68, 3] : <quote xml:id="bb-l2d22a1q2-Qd1e153" ana="#ps68_3">Quae non rapui</quote>, Adam et Eva voluerunt rapere divinitatem et amiserunt felicitatem. Ecce expresse dicitur de utroque.</p>
+               <p xml:id="bb-l2d22a1q2-d1e157">3. Item, hoc videtur ratione. Maiorem assimilationem habebat vir ad Deum quam mulier. Ergo, si similitudo est mater falsitatis, videtur quod multo magis credibile fuit virum appetere esse sicut Deus quam mulierem.</p>
+               <p xml:id="bb-l2d22a1q2-d1e160">4. Item, multo sapientior erat Lucifer quam esset homo primus. Ergo, si cum tota sua sapientia Lucifer voluit esse sicut Deus, nec sapientia impedivit superbiam, multo minus videtur quod hoc sapientia impediret humana. Si ergo hoc mulier appetiit, non est improbabile quod vir concupierit, maxime cum Glossae et auctoritates videantur hoc dicere.</p>
+            </div>
+            <div xml:id="bb-l2d22a1q2-Dd1e164">
+               <head xml:id="bb-l2d22a1q2-Hd1e166">Conlusio</head>
+               <head xml:id="bb-l2d22a1q2-Hd1e169" type="question-title">Adam, cum peccavit, non appetiit esse sicut Deus, quemadmodum mulier</head>
+               <p xml:id="bb-l2d22a1q2-d1e172">Respondeo : Dicendum quod, quia ista est quaestio facti, circa quam non potest homo multum efficaciter ratiocinari, et Scriptura non determinat expresse, et Sancti super hoc loquuntur varie, ideo sunt hic opiniones diversae.
+</p>
+               <p xml:id="bb-l2d22a1q2-d1e175">Quidam enim propter auctoritates inductas dicunt quod Adam idem ipsum, quod mulier appetiit, concupivit, sed non credidit sicut mulier ; et propter hoc factus est superbus, sed tamen non dicitur fuisse seductus. Appetere enim potest aliquis aliquid et tamen non credere ad hoc pervenire ; multa quidem cupimus ad quae non speramus nos perventuros, quia non quid possit, sed quid velit, attendit ambitionis flagitium.
+Et istam positionem sustinendo respondent ad rationes ad utramque partem.</p>
+               <p xml:id="bb-l2d22a1q2-d1e178">Sed quia verbis beati <name ref="#Augustine">Augustini</name> haec opinio non consonat, immo expresse videtur sentire contrarium, sicut patet ex auctoritatibus eius inductis in littera, nec videtur esse credibile quod vir appeteret aliquid, ad quod crederet se non posse pervenire, cum ante illud peccatum valde ordinatus esset, ideo est alia positio, quod vir in appetibili et principali motivo non fuit conformis mulieri transgrediendo, licet esset ei conformis in transgressione mandati divini. Uterque enim inobediens fuit, sed aliter vir quam mulier ad inobedientiae culpam prolapsus est. Non enim vir pomum comedit propter appetitum excellentiae in sui ad Deum assimilatione nec propter appetitum sufficientiae in multorum cognitione nec propter appetitum suavitatis in cibi degustatione, sicut fecit mulier.
+Fuit tamen in viro quaedam superbia, quaedam avaritia et quaedam lascivia, per quas perductus est ad inobedientiam.</p>
+ 
+               <p xml:id="bb-l2d22a1q2-d1e185">Quodam enim modo superbivit, dum se nimis magni pretii esse apud Deum aestimavit, et tanti ut propter comestionem illius cibi non incurreret gravitatem alicuius supplicii, sed de facili consequeretur veniam de offensa.
+Fuit etiam quaedam avaritia, dum curiose scire voluit quid sibi eveniret, dum cibum vetitum degustaret.
+Fuit etiam quaedam lascivia, non carnalis delectationis, sed cuiusdam amicabilis affectionis, qua frequenter fit ut offendatur Deus ne contristetur proximus ; hoc autem fecit Adam, dum comedere voluit, ne suas delicias contristaret, hoc est, ne mulierem offenderet. Unde et Dominus ipsum arguit quod obedivit voci mulieris ; et per hoc perductus est ad inobedientiam et transgressionem mandati Dei. Et haec tria trahuntur ex verbis <name ref="#Augustine">Augustini</name>, Super Genesim ad litteram, quae adducit Magister in littera. Primo enim dicit quod non est putandum quod homo deiceretur, nisi praecessisset in eo quaedam elatio comprimenda. Et iterum dicit : Voluit Adam lignum vetitum experiri, cum non videret mulierem mortuam, esca illa percepta. Et iterum : Noluit eam contristare, quam credebat sine solatio contabescere et a se alienatam interire.</p>
+ 
+               <p xml:id="bb-l2d22a1q2-d1e191">Concedendum est igitur quod Adam non appetiit esse sicut Deus, quemadmodum mulier, sicut ostendunt rationes ad hoc inductae.
+Si autem dicatur alicubi appetiisse esse sicut Deus, hoc potest esse dictum triplici ratione : aut quia divinum contempsit imperium et voluntatem suam divinae praetulit iussioni et se sibi tamquam Deo subicere et ex hoc Deo aequiparari voluit.
+Aut dictum est quia mulier, de illo sumta, appetiit sicut Deus esse, et per synecdochem quod est partis attribuitur toti. Unde Sancti, quod appetiit alter, frequenter loquuntur synecdochice et attribuunt utrique.
+Aut potest hoc tertio modo dictum intelligi, quia ipse, cum esset mulieri praepositus, ipsam non compescuit : unde sibi imputatur culpa mulieris. Mulier autem intelligenda est appetiisse esse sicut Deus, non per omnimodam aequalitatem, sed per quamdam sublimationem in dignitate supra humanum modum ; quam cum vir non compescuit, immo potius eius voluntati paruit, sibi peccatum mulieris imputatur et voluisse esse sicut Deus refertur.</p>
+            </div>
+            <div xml:id="bb-l2d22a1q2-Dd1e196">
+               <head xml:id="bb-l2d22a1q2-Hd1e198">Ad rationes</head>
+               <p xml:id="bb-l2d22a1q2-d1e201">1-2. Et sic patet responsio ad auctoritates quae prius inductae sunt ; et per hanc viam determinari possunt, si quae aliae circa istam materiam consimiles inveniantur.</p>
+
+               <p xml:id="bb-l2d22a1q2-d1e204">Ad illud ergo quod obicitur, quod maiorem assimilationem habebat vir quam mulier, dicendum quod, etsi maiorem haberet assimilationem, habebat tamen praecellentiam virtutis et cognitionis respectu mulieris, quae duo non patiebantur hominem ita trahi a modica similitudine sicut mulierem.</p>
+               <p xml:id="bb-l2d22a1q2-d1e207">Ad illud quod obicitur, quod angelus erat sapientior homine, dicendum quod verum est de cognitione innata, non tamen verum est de cognitione gratuita. Creditur enim a doctoribus quod primus homo ante lapsum habuit gratiam, sicut melius ostendetur infra ; de Lucifero vero creditur quod gratiam gratum facientem non habuit, sicut determinatum fuit supra.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

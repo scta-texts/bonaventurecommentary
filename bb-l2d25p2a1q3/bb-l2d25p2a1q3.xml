@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p2a1q3">
+            <head xml:id="bb-l2d25p2a1q3-Hd1e99">Quaestio 3</head>
+            <head xml:id="bb-l2d25p2a1q3-Hd1e102" type="question-title">Utrum liberum arbitrium, secundum quod liberum, possit in malum.</head>
+ 
+            <p xml:id="bb-l2d25p2a1q3-d1e105">Tertio quaeritur de libero arbitrio in comparatione ab obiectum, et est quaestio, utrum liberum arbitrium, secundum quod liberum, possit in malum.</p>
+            <div xml:id="bb-l2d25p2a1q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p2a1q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p2a1q3-d1e113">Et quod sic, videtur. De nullo vituperatur quis nec laudatur nisi de illo quod est a libero arbitrio secundum quod liberum ; sed de peccato et malo vituperatur quis et punitur : ergo peccatum est a libero arbitrio secundum quod liberum : ergo liberum arbitrium potest in peccatum secundum quod liberum et in malum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e116">Item, actus liberi arbitrii, secundum quod liberum, est eligere ; sed liberum arbitrium de se, cum est gratia destitutum, habet eligere malum ; bonum autem non eligit nisi per auxilium gratiae : ergo liberum arbitrium, quantum est de se, plus habet obiectum malum quam bonum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e119">Item, potestates rationales sunt ad opposita secundum quod huiusmodi ; sed liberum arbitrium, secundum quod liberum, est potestas rationalis : ergo est ad opposita quantum est de sui natura. Sed non est ad opposita quae sunt dulce et amarum, verum et falsum et consimilia : ergo ad opposita quae sunt bonum et malum : ergo malum est obiectum liberi arbitrii secundum quod liberum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e122">Item, liberum arbitrium potest facere malum, aut. igitur se ipso aut alio. Si alio, quaero : mediante quo ? et non est dare ; tunc enim esset quaerere, utrum illud esset liberum aut non ; et si non esset liberum, iam in opere suo nec esset laudabile nec vituperabile, et ita nec peccare posset. Si autem esset liberum, ergo vel erit abire in infinitum vel est dare quod liberum arbitrium se ipso peccat. Si igitur se ipso potest in malum et se ipso est liberum, ergo liberum arbitrium, secundum quod liberum, habet pro obiecto ipsum malum.</p>
+
+               <p xml:id="bb-l2d25p2a1q3-d1e126">Sed contra : <name ref="#Anselm">Anselmus</name>, De libero arbitrio : <quote xml:id="bb-l2d25p2a1q3-Qd1e131">Quod libertati appositum eam minuit et separatum auget non est libertas nec pars libertatis</quote>. Sed potestas peccandi est huiusmodi, ut dicit ; et ex hoc concluditur quod potestas peccandi nec est libertas nec pars libertatis. Si igitur malum non est obiectum nisi potestatis peccandi, liberum arbitrium, secundum quod liberum, non habet pro obiecto malum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e135">Item, posse peccare plus dicit impotentiam quam potentiam et plus dicit defectum quam complementum ; sed <quote xml:id="bb-l2d25p2a1q3-Qd1e137">liberum arbitrium, secundum quod liberum, est sub Deo potentissimum</quote> : ergo liberum arbitrium, secundum quod liberum, non habet obiectum malum sive peccatum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e141">Item, si malum est obiectum liberi arbitrii secundum quod liberum, ergo ubicumque est libertas arbitrii, est potestas ad malum : ergo vel in Deo est potestas ad malum vel in ipso non est liberum arbitrium ; quod si utrumque horum est impossibile et contra <name ref="#Augustine">Augustinum</name> restat etc.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e147">Item, liberum arbitrium nunquam facit nec appetit malum nisi sub ratione boni ; sed vinum, quia non appetitur nisi sub ratione dulcis, ipsum per se non est appetibile, sed dulce. Si ergo malum non appetitur nisi in quantum apparet bonum, solum bonum est obiectum liberi arbitrii.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e150">Item, unaquaeque potentia est completior cum coniuncta est suo obiecto mediante actu quam cum non est coniuncta : ergo, si malum esset obiectum liberi arbitrii, secundum quod liberum, liberum arbitrium esset completius ctim exiret in malum ; sed hoc est falsum : manifestum ergo etc.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e153">Item, si malum esset obiectum liberi arbitrii secundum quod liberum, ergo insufficienter definiretur ab Anselmo, cum dicitur : <quote xml:id="bb-l2d25p2a1q3-Qd1e155">Potestas servandi rectitudinem</quote>. Si tu dicas quod bonum est obiectum per se et malum per accidens, hoc non solvit, quia non sufficienter definit medicinam qui dicit eam esse scientiam sani, nisi addat eius oppositum, licet medicina sit scientia sani per se et aegri per accidens.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q3-Dd1e160">
+               <head xml:id="bb-l2d25p2a1q3-Hd1e162">Conclusio</head>
+               <head xml:id="bb-l2d25p2a1q3-Hd1e165" type="question-title">Obiectum liberi arbitrii tum secundum communem rationem, 
+      tum prout est in creaturis, per se 
+      est bonum, ita ut ipsum non, nisi quatenus est 
+      deficiens, eligat malum.</head>
+ 
+               <p xml:id="bb-l2d25p2a1q3-d1e168">Respondeo : Dicendum quod de libero arbitrio est loqui dupliciter : aut secundum communem rationem, secundum quam reperitur iri Creatore et in creatura ; et sic obiectum eius est bonum et aequum, malum vero non est obiectum, nisi quis dicat hoc esse obiectum, quia liberum arbitrium illud respuit et detestatur ; hic autem vocatur obiectum illud quod intendit liberum arbitrium per actum proprium sive quod efficit.
+Alio modo contingit loqui de libero arbitrio secundum quod reperitur in creatura, et sic est loqui de ipsp dupliciter : aut in quantum liberum aut in quantum deficiens. Si in quantum liberum, sic natum est exire in actum aequitatis susceptibilem et aequitate informatum. Si autem loquamur de ipso in quantum deficiens, sic liberum arbitrium, in quantum arbitrium liberum, potest et exit in actum deliberativum, quia deficiens, exit in actum deformatum, et ita in malum. Sic ergo patet quod liberum arbitrium, secundum quod liberum est, habet obiectum bonum et exit in bonum, non in malum, sicut rationes ad secundam partem inductae ostendunt. Nihilominus tamen, in quantum cum libertate habet defectibilitatem, potest in malum, ita quod malitia non est obiectum liberi arbitrii nec a libero arbitrio secundum quod liberum, sed secundum quod deficiens. Actus autem substratus, cum sit deliberativus, exit a libero arbitrio secundum quod liberum.
+Et per hoc patet responsio ad primum obiectum.
+</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q3-Dd1e173">
+               <head xml:id="bb-l2d25p2a1q3-Hd1e175">Ad rationes</head>
+               <p xml:id="bb-l2d25p2a1q3-d1e178">Quod enim obicitur, solis operibus liberi arbitrii deberi laudem et vituperium, hoc non solum verum est de his quae liberum arbitrium respiciunt secundum quod liberum, sed etiam secundum quod defectivum. Sic enim opus ab eo veniens est vituperio dignum ratione deformitatis, quae non habet causam efficientem, sed deficientem, sicut infra manifestabitur.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e181">Ad illud quod obicitur, quod liberum arbitrium de se eligit malum, dicendum quod, etsi sufficiat ad eligendum malum, pro eo quod facilius est deficere quam proficere, non tamen ad illud ordinatur principaliter, quoniam hoc non convenit ei secundum naturae propriae complementum, sed potius secundum propriae naturae defectum. Praeterea, etsi de se eligat malum, nunquam tamen eligit malum nisi in quantum apparet esse bonum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e184">Ad illud quod obicitur, quod rationales potestates sunt ad opposita, dicendum quod, etsi verum sit in rationalibus potestatibus defectibilibus et creatis, non tamen est verum in rationalibus potestatibus, in quibus non potest esse defectus. Absit enim quod illud philosophicum verbum sit verum, quo dicitur quod Deus potest prava agere ; hoc enim est contra veritatem et contra <name ref="#Augustine">Augustinum</name>, sicut in primo libro ostensum fuit et inferius suo loco ostendetur. Quod enim dicuntur rationales potestates esse ad opposita, hoc non est quia sunt rationales, sed quia sunt deficientes, maxime si in eiusmodi oppositis intelligatur quorum unum est privatio alterius, sicut se habent bonum et malum. Et ex ita hoc non sequitur quod liberum arbitrium, secundum quod liberum, possit ad malum.</p>
+               <p xml:id="bb-l2d25p2a1q3-d1e190">Ad illud quod obicitur, quod liberum arbitrium se ipso potest in malum, dicendum quod, etsi se ipso possit, non tamen potest se ipso sufficiente, sed potius se ipso deficiente : se ipso enim potest deficere nec oportet aliud intervenire ad hoc quod exeat in malum.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 23, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 23, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d23a2q2">
+            <head xml:id="bb-l2d23a2q2-Hd1e99">II, Distinctio 23, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d23a2q2-Hd1e102" type="question-title">Utrum, si primi parentes stetissent in statu innocentiae, aliquando decipi potuissent.</head>
+
+            <p xml:id="bb-l2d23a2q2-d1e105">Secundo quaeritur de cognitione primorum parentum quantum ad defectum. Et hoc est quaerere, utrum, si stetissent in statu, innocentiae, aliquando decipi potuissent.</p>
+            <div xml:id="bb-l2d23a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d23a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d23a2q2-d1e113">Et quod sic, videtur. Genesis 3, 13 : <quote xml:id="bb-l2d23a2q2-Qd1e115" ana="#gen3_13">Dixit mulier : Serpens seduxit me</quote> ; sed constat quod mulier non consensit nisi quia aestimavit esse verum quod serpens dixit ; sed ante consensum non peccavit : ergo antequam peccaret, decepta fuit.</p>
+               <p xml:id="bb-l2d23a2q2-d1e119">Item, <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, et habetur supra, distinctione vigesima secunda : <quote xml:id="bb-l2d23a2q2-Qd1e124">Credidit Adam utrumque fieri posse, ut et uxori morem gereret et per poenitentiam veniam haberet</quote>. Sed constat quod illud fuit falsum ; et hoc credidit antequam peccaret, quia aliter non peccasset : ergo etc.</p>
+               <p xml:id="bb-l2d23a2q2-d1e128">Item, Magister, supra, distinctione vigesima prima, loquens de muliere et serpente, dicit quod mulier non horruit serpentem, quia, cum noverit esse creatum, etiam officium loquendi a Deo accepisse putavit. Sed constat hoc falsum fuisse quod putavit : ergo etc.</p>
+               <p xml:id="bb-l2d23a2q2-d1e131">Item, hoc videtur ratione. Si Adam stetisset, dormivisset utique et habuisset alias operationes naturales. Ergo, cum somnium sit ex naturali motu fumositatum et phantasmatum circa organum phantasiae, Adam sonmiasset ; sed in somnio similitudo rei accipitur pro veritate, et ubicumque hoc est, ibi est deceptio : ergo etc.</p>
+               <p xml:id="bb-l2d23a2q2-d1e135">Item, naturale est quod quidquid videtur, videtur sub angulo, et quanto a remotiori aliquid videtur, tanto minorem generat speciem et videtur sub angulo acutiori. Ergo ita parvus videretur sol ipsi Adae sicut et nobis : ergo sicut decipitur sensus noster in iudicando de quantitate solis, ita videtur quod deciperetur sensus Adae.</p>
+               <p xml:id="bb-l2d23a2q2-d1e138">Item, ponatur quod aliquis homo peccasset, Adam ignorante, et assereret ei falsum ; aut Adam sciret ipsum dicere falsum aut non. Si sic, tunc sciret occulta cordis alterius ; pono enim quod ipse loquatur ei de secretis cordis sui, quae nosse in alio est proprium solius Dei. Si nesciret esse falsum, ergo nesciret ipsum esse mendacem : ergo crederet ipsum esse veracem aut male iudicaret de ipso. Sed, si crederet ipsum esse veracem, crederet ipsum dicere verum ; ergo necessario deciperetur.</p>
+
+ 
+               <p xml:id="bb-l2d23a2q2-d1e141">Sed contra : <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d23a2q2-Qd1e146">Vera pro falsis approbare non est natura hominis instituti, sed poena damnati</quote>. Sed cum quis decipitur, approbat verum pro falso vel e converso : ergo nunquam hoc fuisset in homine, si perstitisset in statu innocentiae.</p>
+               <p xml:id="bb-l2d23a2q2-d1e150">Item, <name ref="#Augustine">Augustinus</name>, in Enchiridio, 19 capitulo : <quote xml:id="bb-l2d23a2q2-Qd1e155">Ipse per se ipsum error aut magnum in re magna aut parvum in re parva, tamen semper est malum</quote>. Et ubicumque est deceptio, ibi est error aliquis, vel magnus vel parvus : ergo non potest esse in aliquo quin in eo sit malum. Sed in Adam in statu innocentiae nec erat malum culpae nec matum poenae : ergo etc.</p>
+               <p xml:id="bb-l2d23a2q2-d1e159">Item, <name ref="#Augustine">Augustinus</name>, in Enchiridio, capitulo 17. <quote xml:id="bb-l2d23a2q2-Qd1e164">Hic homines fallunt atque falluntur miserioresque sunt, cum mentiendo fallunt quam cum mentientibus credendo falluntur</quote>. Ergo videtur quod utrobique sit miseria, licet maior in fallendo ; ergo, si in statu innocentiae non erat miseria, videtur etc.</p>
+               <p xml:id="bb-l2d23a2q2-d1e168">Item, in statu innocentiae nihil homo pateretur vel ageret contra naturam ; sed deceptio est contra appetitum naturae rationalis ; unde <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-l2d23a2q2-Qd1e173">Usque tantum rationalis creatura refugit falsitatem et, quantum potest, devitat errorem, ut falli noluerit etiam quicumque amat fallere</quote>. Adam Igitur hoc naturaliter recusabat : ergo in statu innocentiae decipi non poterat.</p>
+               <p xml:id="bb-l2d23a2q2-d1e178">Item, in Adam omnes vires inferiores subiectae erant voluntati, alioquin rectus ordo non servaretur in homine in statu innocentiae. Ergo, si homo nolebat decipi nec assentire falso, videtur quod nunquam in ratione eius fuisset deceptio vel ad falsum inclinatio, quamdiu permansisset in statu illo primo.</p>
+               <p xml:id="bb-l2d23a2q2-d1e181">Item, maioris indignitatis est falli in animo quam pati in corpore : unde decuit Christum assumere passionem in corpore, non deceptionem in mente ; sed, si Adam stetisset, nulla fuisset corporalis passio : ergo nulla fuisset in eo deceptio.</p>
+            </div>
+            <div xml:id="bb-l2d23a2q2-Dd1e185">
+               <head xml:id="bb-l2d23a2q2-Hd1e187">Conclusio</head>
+               <head xml:id="bb-l2d23a2q2-Hd1e190" type="question-title">Si Adam stetisset, nulla fuisset in eo deceptio nec 
+      ab intrinseco nec ab extrinseco, quamvis in eo potuerit esse aliqua nescientia</head>
+ 
+               <p xml:id="bb-l2d23a2q2-d1e193">Respondeo : Ad praedictam quaestionem de facili posset responderi et rationes etiam dissolvi quadam facili distinctione. Posset enim sic dici quod deceptio quaedam est circa scibilia, quaedam vero circa opinabilia. Scibilia autem dico illa quae certa ratione comprehendi possunt, sicut sunt illa de quibus sunt scientiae liberales. Opinabilia vero voco illa quae non habent cognosci nisi per quamdam coniecturam, sicut secreta alienae conscientiae et futura contingentia, quae fiunt casu et fortuna vel voluntate libera.
+In primis autem Adam falli non poterat, quia omnium cognitionem habebat. In secundis vero dupliciter contingit aliquem falli : aut ita quod adhaeret firma credulitate aut quod adhaeret qualicumque aestimatione. Et prima deceptio vocatur error proprie : et haec in primo homine stante non fuisset. Secunda vero potest dici opinio, in qua est acceptio unius partis sine pleno assensu credulitatis, et haec potest dici quaedam aestimatio falsa. Et haec fuisset in Adam absque culpa et poena, maxime cum ex hac aestimatione nec incideret in peccatum nec incurreret damnum.
+Et secundum hanc distinctionem dissolvi possunt rationes ad utramque partem inductae. Nam rationes ostendentes quod in Adam potuit esse deceptio, fere omnes procedunt de deceptione secundum quod dicitur qualiscumque aestimatio.
+Rationes vero ad oppositum procedunt secundum quod deceptio dicit firmam credulitatem, ut non solum quis decipiatur putando falsum esse verum, sed etiam approbando falsum esse verum vel e converso ; et talis est deceptio quae est error.</p>
+ 
+               <p xml:id="bb-l2d23a2q2-d1e196">Sed licet hoc quod nunc dictum est, satis probabile videatur, non tamen plene satisfacit rationi nec concordat verbis <name ref="#Augustine">Augustini</name>. Ait enim <name ref="#Augustine">Augustinus</name>, in Enchiridio, capitulo 17 : <quote xml:id="bb-l2d23a2q2-Qd1e204">Cum nihil aliud sit errare quam verum putare quod falsum est falsumve quod verum est vel certum habere pro incerto incertumve pro certo, sive falsum sit sive verum ; idque tam sit in animo deforme atque indecens quam pulcrum atque decorum esse sentimus vel in loquendo vel in assentiendo est, est ; non, non : profecto et ob hoc ipsum vita ista misera est, qua vivimus, quod ei nonnunquam, ut non amittatur, error est necessarius</quote>. Ex hoc verbo colligitur quod <name ref="#Augustine">Augustinus</name> vocat errorem generaliter omnem deceptionem, et illum dicit indecorum et indecentem et ad vitam miseram pertinere. Et, in libro De utilitate credendi, expresse dicit <quote xml:id="bb-l2d23a2q2-Qd1e210">quod nullus error absque vitio potest esse</quote>.</p>
+ 
+               <p xml:id="bb-l2d23a2q2-d1e214">Ideo dicendum est quod, etsi in statu innocentiae fuisset in homine alicuius nescientiae imperfectio, sicut ostensum fuit supra, distinctione proxima praecedenti, non tamen in eo fuisset deceptio. Deceptio enim ultra nescientiam addit iudicii obliquationem. Haec non fuisset in Adam in statu innocentiae, sicut nec fuisset in eo passio corporalis.</p>
+ 
+               <p xml:id="bb-l2d23a2q2-d1e218">Et hoc potest intelligi sic. Sicut enim dupliciter contingit aliquem pati : aut passione intrinseca aut ab extrinseco illata, sic contingit aliquem dupliciter decipi : aut quod ipse se ipsum paralogizet aut quod paralogizetur ab alio ; neutrum autem horum in Adam fuisset. Sicut enim nulla fuisset in eo passio intrinseca, quia virtus animae regitiva perfecte suo corpori praesidebat et ipsum conservare poterat, sic nulla fuisset deceptio veniens ab intrinseco, quia ludicium rationis omnibus potentiis sensitivis praesidebat ; nec ipsae in contrarium rationi movebantur, sed potius ab ea sufficienter dirigebantur.
+Quemadmodum etiam pati non poterat passione illata, sive quia nullus in tempore illo esset qui inferret, sive quia, si adesset, divina virtus eum protegeret, sicut supra determinatum est, sic etiam in statu illo nemo esset qui hominem circumveniret aut paralogizaret : nam unusquisque loqueretur veritatem cum proximo suo ; aut si esset, divinae inspirationis revelatio, sive per se sive per angelum, succurreret ne falleretur, sicut virtus succurrebat ne laederetur.
+Et sic, Adam stante, nulla fuisset in eo deceptio, nec ab intrinseco nec ab extrinseco.
+Unde rationes quae hoc probant concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d23a2q2-Dd1e223">
+               <head xml:id="bb-l2d23a2q2-Hd1e225">Ad rationes</head>
+               <p xml:id="bb-l2d23a2q2-d1e228">1-2. Ad illud autem quod obicitur de seductione mulieris et etiam viri, dupliciter potest responderi. Uno modo sic, quod illa seductio fuit falsa credulitas, et si praecesserit peccatum inobedientiae et ambitionis, secuta fuit peccatum praesumtionis, merito cuius excaecatus est oculus rationis, ut falsum aestimaret esse verum. Statim enim mulier, audita prolatione serpentis, de se ipsa praesumsit, et simititer vir, audita suggestione mulieris ; et ideo mulier existimavit per comestionem assequi posse excellentiam et vir de transgressione mandati invenire veniam.</p>
+               <p xml:id="bb-l2d23a2q2-d1e231">Aliter potest dici quod duplex est iudicium. Quoddam est speculationis, et illud non est pars liberi arbitrii nec in eo consistit peccatum ; et huius iudicii error post peccatum est, non ante. Est etiam aliud iudicium in agendis et in his quae spectant ad veritatem vitae, et illud iudicium est liberi arbitrii, et hoc nunquam est sine voluntate. Et huius iudicii error bene potest esse culpa vel praesumtionis vel infidelitatis vel alicuius alterius. Et haec fuit deceptio qua mulier primo decepta fuit et ipse Adam : et in ista deceptione non permansit in statu innocentiae, immo cecidit. Et per hoc patet responsio ad duas auctoritates primo inductas.</p>
+
+               <p xml:id="bb-l2d23a2q2-d1e234">Ad illud quod tertio obicitur de auctoritate Magistri, quod mulier putavit serpentem habere usum loquendi, dicendum quod aut intelligit quod talis putatio fuit in muliere post peccatum aut, si ante fuit, non pufavit quod hoc officium haberet determinate virtute sibi naturaliter data, sed aliqua latente virtute, permittente divina providentia, quae omnes res gubernabat et regebat sicut creaverat. Nec mirum si non expavit, quia nondum erat in ipsa muliere passio timoris ; unde mulier aspiciendo serpentem, falsum pro vero non approbavit, sed aliquam ibi virtutem latentem ignoravit.</p>
+               <p xml:id="bb-l2d23a2q2-d1e237">Ad illud quod obicitur de somnio, dicendum quod in statu innocentiae non fuisset somnium ex perpessione phantasiarum ad modum parturientis, sicut dicitur Ecclesiastici 34, 6-7. Hoc enim venit, quia vires inferiores non sunt subiectae rationi et corpus non obedit spiritui ; sed, si fuisset, hoc esset quia ab Altissimo mitteretur aliqua visitatio, in qua homo non deciperetur, immo potius illustraretur.
+Praeterea, esto quod esset ibi somnium, non sequitur quod esset propter hoc ibi deceptio. Deceptio enim respicit rationis usum ; in somniis autem rationis usus non esset, aut, si esset, purgaret potius deceptionem phantasiae quam ei consentiret ; potius enim diceret ratio in somniis homini somnianti : tu somnias, quam diceret : quod vides est veritas.</p>
+
+               <p xml:id="bb-l2d23a2q2-d1e241">Ad illud quod obicitur de visu, dicendum quod nulla esset deceptio, quia bene nosset Adam quod res a remotiori apparet esse minor ; et ideo non iudicaret secundum apparentiam oculi tantum, sed pensata distantia medii ; et ideo non falleretur, sed haberet iudicium rectum.</p>
+               <p xml:id="bb-l2d23a2q2-d1e244">Ad ultimum iam patet responsio ex praedictis, quia vel Adam manifesto signo deprehenderet istum peccasse - quod satis videtur probabile, cum magna valde transmutatio facta fuerit in natura Adae per commissionem culpae - et tunc non crederet ei nec discrederet nisi quatenus alias videret sibi credendum fore. Aut si non deprehenderet eum peccatorem, ubi sua non sufficeret cautela, succurreret divinae providentiae cura diligentissima, quae nec permisisset eum laedi nec permisisset falli, si voluisset eius imperiis obtemperanter subici.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

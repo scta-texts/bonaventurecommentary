@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubia</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubia</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p1dubia">
+            <head xml:id="bb-l2d24p1dubia-Hd1e99">Dubia</head>
+            <div xml:id="bb-l2d24p1dubia-Dd1e102">
+               <head xml:id="bb-l2d24p1dubia-Hd1e104">Dub. I.</head>
+               <p xml:id="bb-l2d24p1dubia-d1e107">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de hoc quod dicit Magister in littera, quod resistere malo non fecisset illi meritum, quia nihil erat in eo quod ad malum impelleret. Si enim hoc verum est, tunc, cum nullum fuisset in Adam impellens, nunquam meruisset in aliquo opere suo.
+Item, Christus nullum habuit interius impellens ad malum, cum diabolo in tentatione restitit et in operibus suis nullum habuit retrahens a bono : ergo nihil meruit in sua tentatione nec in aliqua operatione ; quod omnino nefarium est dicere.
+Item, exemplum eius videtur esse malum, cum subiungit : Sicut angelis non fuit meritorium quod steterunt. Hoc enim est contra veritatem et contra <name ref="#Augustine">Augustinum</name>, qui dicit, in libro De correptione et gratia, quod angeli, qui, aliis cadentibus, remanserunt, huius mansionis debitam mercedem receperunt. Ergo videtur quod stando meruerunt.
+</p>
+               <p xml:id="bb-l2d24p1dubia-d1e113">Ad hoc dici posset quod est meritum dimissionis poenae sive satisfactorium et est meritum vitae aeternae sive substantialis praemii. Ad primum requiritur poenalitas et difficultas, ad secundum vero sufficit sola caritas. Magister autem intelligit de merito secundum primam differentiam, non secundum aliam.
+Sed quia illud meritum satisfactionis nunquam fuisset in Adam nec profectus in eo, si in statu innocentiae permansisset, praedicta responsio non videtur pertinere ad propositum.</p>
+               <p xml:id="bb-l2d24p1dubia-d1e116">Et propterea aliter videtur esse dicendum quod est meritorium quantum est de genere operis et est meritorium ex radice caritatis. Meritorium de genere operis dicitur quod est opus virtutis de se : hoc autem est arduum et difficile. Alio modo dicitur meritorium omne opus, quodcumque sit, dum tamen ex radice caritatis procedat. Vult igitur Magister dicere quod in resistendo tentationi Adae non fuisset meritum, si non habuisset gratiam, nec primo modo nec secundo ; si vero restitisset ex caritate, meritorium fuisset secundo modo, non primo. In nobis autem semper est meritorium vel utroque modo vel altero propter difficultatem ad bonum et pronitatem ad malum.
+Et per hoc patet responsio ad obiecta, quia procedunt de merito secundum differentiam secundam, videlieet de eo quod est meritorium ratione radicis.</p>
+            </div>
+            <div xml:id="bb-l2d24p1dubia-Dd1e120">
+               <head xml:id="bb-l2d24p1dubia-Hd1e122">Dub. II.</head>
+               <p xml:id="bb-l2d24p1dubia-d1e125">Item quaeritur de hoc quod dicit quod declinare a malo semper vitat poenam, sed non semper meretur palmam. Aut enim declinat quis a malo ex caritate aut non. Si non, similiter nec facere bonum extra caritatem meretur palmam : ergo non est differentia inter declinare a malo et facere bonum. Si sic, cum omne illud quod fit ex caritate sit meritorium, patet etc. Si tu dicas quod non meretur palmam ex genere operis, quia non est difficile, hoc non solvit, quia, licet non sit difficile homini in statu innocentiae, est tamen difficile in statu naturae lapsae : ergo semper meretur palmam.
+Item, declinare a malo est una pars iustitiae, sicut facere bonum : ergo sicut unum est meritorium, ita et reliquum.</p>
+               <p xml:id="bb-l2d24p1dubia-d1e128">Respondeo : Dicendum quod declinare a malo dupliciter dicitur sicut non velle.malum : uno modo privative, sicut dicitur dormiens non velle maium, quia non habet aliquam affectionem ad malum ; alio modo contrarie, ut dicatur non velle malum, quia respuit et contraria affectione afficitur contra malum ; sic etiam declinare a malo dupliciter dicitur. Et si dicatur contrarie, tunc est meritorium ; si vero privative, vitat poenam, quia qui non peccat non punitur, non tamen meretur palmam, quia non est ibi aliquod opus meritorium ; et primo modo est pars iustitiae, secundo modo non, quia non est opus.</p>
+            </div>
+            <div xml:id="bb-l2d24p1dubia-Dd1e132">
+               <head xml:id="bb-l2d24p1dubia-Hd1e134">Dub. III.</head>
+               <p xml:id="bb-l2d24p1dubia-d1e137">Item quaeritur de hoc quod dicit : Liberum vero arbitrium est facultas, qua malum eligitur, gratia desistente. Videtur enim falsum dicere, quia, si hoc verum esset, tunc liberum arbitrium, gratia destitutum, semper consentiret peccato ; quod plane falsum est.
+Item, videtur quod hoc non deberet poni in definitione liberi arbitrii, quia, sicut dicit <name ref="#Aristotle">Philosophus</name>, peccat qui definit aliquid per peiora et per ea ad quae non habet principaliter ordinari. Si ergo liberum arbitrium de se, quantum est de prima conditione sua, non ordinatur ad malum, non debet definiri per electionem mali.</p>
+               <p xml:id="bb-l2d24p1dubia-d1e143">Respondeo : Dicendum quod Magister definit hic liberum arbitrium non simpliciter, sed secundum statum naturae lapsae ; et quia in statu naturae lapsae defectum habet et inclinationem ad malum, ideo non tantummodo definit per electionem boni, ad quam ordinatur mediante gratia, sed etiam per electionem mali, in quam cadit ex defectibilitate propria. Nec ponitur ibi electio mali tamquam finis ad quem ordinatur, sed ut per hoc magis innotescat qualiter ad finem proprium ordinatur ; non enim ad illud pervenit nisi per gratiae adiutorium.
+Et sic patet responsio ad utrumque obiectum.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

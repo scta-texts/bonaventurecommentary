@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 18, A. 1, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 18, A. 1, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d18a1q3">
+            <head xml:id="bb-l2d18a1q3-Hd1e99">II, Distinctio 18, A. 1, Q. 3</head>
+            <head xml:id="bb-l2d18a1q3-Hd1e102" type="question-title">Utrum ratio seminalis sit forma universalis vel singularis.</head>
+ 
+            <p xml:id="bb-l2d18a1q3-d1e105">Tertio quaeritur, quid sit ratio seminalis secundum essentiam ; et cum constet eam esse formam, est quaestio, utrum sit forma universalis an singularis.</p>
+            <div xml:id="bb-l2d18a1q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d18a1q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d18a1q3-d1e113">Et quod sit forma universalis, videtur. 1. Primo per <name ref="#Aristotle">Philosophum</name>, in XVI De animalibus, ubi dicit quod <quote xml:id="bb-l2d18a1q3-Qd1e118">prius est animal quam homo</quote> : ergo natura producit formam speciei mediante forma generis ; sed illa est ratio seminalis, mediante qua natura pervenit ad ultimum complementum ; ergo ratio seminalis non est aliud quam forma universalis.</p>
+               <p xml:id="bb-l2d18a1q3-d1e122">Item, quanto aliquid simplicius tanto prius ; sed forma quanto universalior tanto simplicior : ergo tanto prior. Sed in processu ordinato per id quod prius est devenitur ad id quod posterius est ; ergo natura, procedens ad generationem formae singularis, pervenit ad ipsam mediante universali. Sed ratio seminalis est illa, mediante qua pervenit ad effectum completum : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q3-d1e125">Item, intellectus, si verus est, intelllgit sicut est in re ; alioquin, si non respondet ei ita in re sicut intelligit, falsus est et vanus ; sed tam rationalis philosophus quam etiam metaphysicus dicit differentias extrahi de potentia generis : ergo oportet quod ita sit in re quod formae minus universales exeant in esse a formis magis universalibus, aut consideratio logici et philosophi est omnino vana. Quod si est inconveniens, restat quod formae universales sunt illae mediantibus quibus educuntur singulares in esse ; sed huiusmodi sunt rationes seminales : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q3-d1e128">Item, forma particularis dicit ens in actu completo, quia nulla potest ulterius fieri additio, materia vero dicit ens omnino in potentia ; sed inter ens omnino in actu et omnino in potentia cadit medium ens, quod est partim in actu et partim in potentia ; huiusmodi autem est forma universalis, quae respectu materiae est ens in actu, respectu ulterioris formae est ens in potentia : ergo si non pervenitur ab extremo in extremum nisi per medium, materia non perducitur ad actum completum nisi mediantibus formis universalibus. Sed rationes seminales sunt illae mediantibus quibus pervenitur ad actum completum : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q3-d1e132">Item, ex homine generatur homo, non asinus ; hoc autem non est nisi propter aliquam convenientiam, quae est inter hominem et hominem, et non inter hominem et asinum ; illa autem convenientia non est nisi in forma universali : ergo ratio quare homo generat hominem, est forma universalis. Sed illa est ratio seminalis : ergo etc.</p>
+               <p xml:id="bb-l2d18a1q3-d1e135">Item, hoc videtur per deductionem ad impossibile. Ex eo incipit generatio, in quod terminatur corruptio, et e converso ; si igitur natura nihil producit ex nihilo, corruptione naturali nulla forma naturalis cedit in nihil. Cum igitur ex aere fit ignis, forma aeris non corrumpitur in nihil nec in materiam, quia materia non erat aliquid de essentia ipsius formae : corrumpitur ergo in aliquam formam. Illa ergo forma aut est universalis aut singularis. Si singularis : aut ergo est forma ignis aut forma alia ab igne. Non alia ab igne, quia in igne generato non sunt duae formae singulares, sed una tantum. Si est forma ignis : ergo forma aeris et forma ignis sunt una forma numero ; quod est impossibile. Restat ergo, cum non possit esse forma singularis, quod sit forma universalis. Si ergo habet incipi generatio ad quod terminatur corruptio, generatio uniuscuiusque rei naturalis incipit a forma universali ; sed a quo generatio incipit est ratio seminalis : ergo ratio seminalis non est aliud quam forma universalis.</p>
+
+               <p xml:id="bb-l2d18a1q3-d1e138">Contra :
+<name ref="#Aristotle">Philosophus</name>, in libro De anima : <quote xml:id="bb-l2d18a1q3-Qd1e143" source="http://scta.info/resource/aristda-l1">Universale aut nihil est aut posterius est</quote> ; sed ratio seminalis semper prior est : ergo ratio seminalis non potest esse forma universalis.</p>
+               <p xml:id="bb-l2d18a1q3-d1e147">2. Item, <quote xml:id="bb-l2d18a1q3-Qd1e149">universale est semper et ubique</quote> ; sed ratio seminalis respicit hanc materiam, in qua fundatur determinate : ergo ratio seminalis non potest esse forma universalis.</p>
+               <p xml:id="bb-l2d18a1q3-d1e153">3. Item, ratio seminalis non praedicatur de eo cuius est seminalis ratio : non enim potest dici quod homo sit semen vel quod corpus hominis sit embryo ; sed universale praedicatur de singulari : ergo ratio seminalis non potest esse forma universalis.</p>
+               <p xml:id="bb-l2d18a1q3-d1e156">4. Item, omnis operatio naturae terminatur ad hoc aliquid et est circa hoc aliquid ; hoc aliquid autem dicit formam cum materia, universale autem dicit formam tantum : ergo forma universalis, secundum quod huiusmodi, nec est operationis principium nec est operationis terminus per se ; sed ratio seminalis dicit operationis principium : ergo ratio seminalis non potest esse forma universalis.</p>
+               <p xml:id="bb-l2d18a1q3-d1e160">5. Item, si ratio seminalis dicit formam universalem, aut ergo formam generis aut formam speciei. Si formam generis : ergo in homine est ratio seminalis respectu asini ; si formam speciei : ergo humanitas est ratio seminalis huius hominis. Sed illud est ratio seminalis alicuius, quod ante praeexistit in materia quam sit res completa in actu : ergo ante erit forma humanitatis in materia quam sit res completa. Sed hoc est falsum et non intelligibile quod forma humanitatis sit in aliquo et illud non sit res completa : ergo non est ponere quod forma universalis dicat rationem seminalem.</p>
+               <p xml:id="bb-l2d18a1q3-d1e163">6. Item, si forma universalis respectu particularis esset ratio seminalis, cum ergo haec albedo dicat formam singularem et albedo dicat formam speciei et color formam generis, et qualitas sensibilis adhuc formam superioris generis, et qualitas corporalis adhuc formam magis universalem, et qualitas adhuc formam universalissimam, tunc natura in productione huius albedinis perveniret mediantibus omnibus praedictis : ergo prius faceret qualitatem quam qualitatem corporalem, et qualitatem corporalem prius quam qualitatem sensibilem, et qualitatem sensibilem prius quam colorem, quod non est intelligibile.</p>
+            </div>
+            <div xml:id="bb-l2d18a1q3-Dd1e167">
+               <head xml:id="bb-l2d18a1q3-Hd1e169">CONCLUSIO</head>
+               <head xml:id="bb-l2d18a1q3-Hd1e172" type="question-title">Ratio seminalis non est forma universalis in proprio sensu; in sensu autem largiore ita vocari potest.</head>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e175">Respondeo : Ad praedictorum intelligentiam est notandum quod, cum satis constet rationem seminalem esse potentiam activam inditam materiae ; et illam potentiam activam constet esse essentiam formae, cum ex ea fiat forma mediante operatione naturae, quae non producit aliquid ex nihilo : satis rationabiliter ponitur quod ratio seminalis est essentia formae producendae, differens ab illa secundum esse completum et incompletum, sive secundum esse in potentia et in actu.
+Utrum autem illa forma sive potentia activa, quam dicimus rationem seminalem, sit forma universalis, hoc non est ita planum. Diversi enim sunt modi dicendi secundum diversas positiones, quas habent diversi de forma universali.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e178">Quidam enim dicere voluerunt quod, cum universalia non sint fictiones, realiter et secundum veritatem non solum sunt in anima, sed etiam in natura ; et quia omne quod est in natura, habet fundari in materia, tam formae universales quam singulares in materia habent esse. Et ita non differunt forma universalis et singularis per abstractionem a materia et concretionem in materia, sed differunt per additionem unius ad alteram et per magis completum et minus completum. Cuius signum est, quia in coordinatione generum et specierum forma speciei est completissima et compositissima. Forma vero generis respectu illius est ens in potentia, et fit magis in actu per differentiam sibi superadditam. Et ita, cum ratio seminalis dicat formam ratione incompleta, dixerunt nihil aliud esse rationem seminalem quam formam universalem.</p>
+
+               <p xml:id="bb-l2d18a1q3-d1e181">Haec autem positio parvipendenda non est : magnorum enim est et concors esse videtur et auctoritati et rationi et sensui. Auctoritati, quia ipse <ref xml:id="bb-l2d18a1q3-Rd1e183">Commentator dicit, Super Metaphysicam, in capitulo <seg type="incipit"> Quoniam autem in fundamento </seg>
+                  </ref>, quod materia suscipit formas singulares mediantibus formis universalibus.
+Rationi etiam concordat, quia, cum singulare dicat ens in actu, et materia ens in potentia, et forma universalis quodam modo dicat ens in actu et quodam modo in potentia, rectum videtur et congruum quod materia perducatur ad formam completam mediantibus formis universalibus.
+Sensui etiam concordat, quia, sicut vult <name ref="#Aristotle">Philosophus</name>, in principio Physicorum, progressus nostrae cognitionis assimilatur progressui naturae in sua operatione ; sed nobis innata est via ab universalioribus ad minus universalia : ergo consimiliter erit in natura.
+Si quis autem hanc positionem sustinere velit, poterit declinare rationes ad oppositum adductas, dicens quod loquuntur de universali secundum quod habet esse abstractum in anima ; et sic praedictae positioni non obviant.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e194">Aliorum vero positio est quod universale forma est, sed non quaelibet forma proprie universale est ; est enim forma partis et forma totius ; et universale non est forma partis, sed forma totius. Anima enim non dicitur esse universale respectu unius hominis, sed potius homo. Illam autem dicunt esse formam totius, quae quidem dat esse toti, et haec dicitur essentia rei, quia totum esse complectitur ; et hanc formam considerat metaphysicus. Formam vero partis, quae in genere non habet esse nisi per reductionem, non est dicere proprie universalem ; potest tamen aliquo modo dici universalis radicatione, cum illa est indifferens ad multa quae possunt fieri ex ipsa, sicut causa dicitur esse universalis, quia potest in multa. Et sic illa potentia activa quae est in materia, quae dicebatur ratio seminalis, potest dici universalis, non proprie, secundum quod universale consideratur a metaphysico, sed large, ut dicat quamdam principii indifferentiam, quam etiam considerat physicus.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e197">Et haec positio magnorum est et multorum et magis eam approbat via communis ; nec immerito, quia concordat rationi, auctoritati et sensui.
+Rationi quidem, quia necesse est ponere universales formas propter cognitionem et praedicationis univocationem. Si igitur non est integra cognitio nisi totum esse rei cognoscatur, et non est cognitio nisi per formam, necesse est aliquam formam esse quae complectatur totum esse ; hanc autem dicimus essentiam, et haec est universalis forma, ut dicit Avicenna. Dicit enim quod essentia nihil aliud est quam quidditas rei universalis.
+Similiter, non est vera univocatio nisi quando aliqua in una forma communi realiter assimilantur, quae de ipsis essentialiter praedicatur. Forma autem, in qua plura assimilantur, non potest esse nisi forma universalis ; quae vero essentialiter praedicatur de illis, non potest esse nisi forma totum complectens. Forma igitur universalis non est aliud quam forma totius, quae, cum de se nata sit esse in multis, universalis est ; partigularizatur autem non per additionem ulterioris formae, sed per coniunctionem sui cum materia, ex qua coniunctione materia appropriat sibi formam, et forma materiam, sicut dictum est supra. Et quia nunquam est forma haec separata a materia, nunquam est forma universalis sine particulari. Quamvis autem unum non sit sine altero, differt tamen unum ab altero. Quamvis enim albedo non possit esse sine corpore, differt tamen a corpore ; unde inseparabilitas non ponit identitatem omnimodam.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e200">Concordat etiam haec positio auctoritati. Dicit enim <name ref="#Aristotle">Philosophus</name>, quod <quote xml:id="bb-l2d18a1q3-Qd1e205">cum dico caelum, dico formam ; cum dico hoc caelum, dico materiam</quote> : ergo individuum super formam universalem non addit formam, sed solum materiam. Dicit etiam <name ref="#Boethius">Boethius</name> quod species est totum esse individui : ergo forma universalis, quae est species, est forma totius, quae complectitur totum esse, et quae est sufficiens ratio cognoscendi quantum ad esse substantiale ; et hoc melius tactum est supra, distinctione tertia.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e212">Concordat etiam sensui. Alius est enim ordo et modus in egressu specierum a genere et in eductione formarum de potentia materiae. Naturalis enim dicit quod materia prius suscipit formam elementarem, et mediante illa venit ad formam mixtionis, et mediante illa venit ad formam complexionis, quia considerat illam potentiam materiae, secundum quod per operationem naturae habet in effectum prodire. Metaphysicus vero, qui considerat universales formas sive essentias, in quibus res singulares habent assimilari, ponit magis universale et minus, secundum quod plura vel pauciora habent assimilari in illo, et illud in quo est prima assimilatio, dicit esse genus generalissimum, illud vero, in quo est perfecta assimilatio, dicit esse speciem specialissimam. Et propterea dicit speciem addere ad genus, et hoc totum invenit in re ; dicit etiam genus simplicius specie et in pluribus reperiri. Et hinc est quod genus in aliquo assimilatur Deo magis quam species, in aliquo e converso. Deus enim, quia nobilissimus est in fine totius nobilitatis, simul habet in se omnem perfectionem, ita quod ipse est simplicissimus et omnino incorruptibilis ; est etiam perfectus et in omnimoda actualitate constitutus. Creatura vero, secundum quod potest, semiplene assimilatur Deo ; et quantum ad rationem simplicitatis et incorruptibilitatis magis assimilatur magis universale ; quantum ad rationem actualitatis magis assimilatur minus universale.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e215">Harum autem duarum positionum quae sit probabilior et verior difficile est videre stanti in communi consideratione ; descendenti vero ad particulares operationes naturae videbitur consideratio physici et metaphysici diversificari nec posse bene simul sibi correspondere. Aliter enim definitur albedo, sicut prius tactum est, aliter a natura producitur. Definitur enim per genus suum, quod est color, et color per genus superius, et sic usque ad summum generis sui. Sed natura in producendo non servat hunc ordinem, sed sic producitur albedo sicut exigit operatio qualitatum elementarium cum virtute luminis. Et ideo positio ultimo dicta communior est et intelligibiiibr et sensui vicinior.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e218">Hanc igitur iuxta viam communem sustinendo respondere possumus ad quaestionem propositam, quod si forma universalis dicatur proprie, secundum quam res est ordinabitis in genere, quam metaphysicus hahet considerare, ratio seminalis non est forma universalis. Si autem dicatur forma universalis forma existens secundum esse incompletum in materia et indifferens et possibilis ad multa producenda, sic potest dici ratio seminalis forma universalis.</p>
+ 
+               <p xml:id="bb-l2d18a1q3-d1e222">Et secundum hoc patet responsio ad obiecta quantum ad utramque partem. Rationes enim, quae probant quod ratio seminalis non sit forma universalis, loquuntur de universali proprie ; rationes vero ad oppositum adductae loquuntur de forma universali secundum aliam acceptionem, secundum quam forma universalis dicitur quaecumque forma existens in potentia, sive sit forma totius sive sit forma partis ; et hoc patet discurrendo per singula.</p>
+ 
+            </div>
+            <div xml:id="bb-l2d18a1q3-Dd1e227">
+               <head xml:id="bb-l2d18a1q3-Hd1e229">Ad rationes</head>
+
+               <p xml:id="bb-l2d18a1q3-d1e232">1. Nam illud quod primo obicit, quod prius est animal quam homo, non cogit quod ratio seminalis sit forma universalis proprie dicta. Nam homo et animal et quaepumque alia universalis forma non dicitur esse nisi per eductionem alicuius singularis. Unde auctor Sex Principiorum, dicit quod <quote xml:id="bb-l2d18a1q3-Qd1e234">natura in his occulte operatur</quote>.</p>
+               <p xml:id="bb-l2d18a1q3-d1e238">2. Ad illud similiter quod obicit, quod universale est simplicius, patet responsio. Verum est enim quod universale est simplicius secundum eam viam secundum quam habet coordinaiionem ad id quod est minus universale, scilicet secundum esse definitivum. Secundum autem viam generationis non habet coordinationem nisi solum per accidens : accidit enim quod per operationem naturae prius sit aliquando genus quam species ; species autem nunquam est quin sit individuum.</p>
+               <p xml:id="bb-l2d18a1q3-d1e241">3. Ad illud quod obicitur, quod considerationi philosophicae aliquid respondet in re, dicendum quod verum est. Vera enim et realis est similitudo inter Petrum et Paulum, et ita necesse est ponere aliquid tertium, in quo assimilantur. Similiter inter hominem et asinum realis est similitudo, et ideo consideratio philosophica non est vana ; nec tamen oportet ita essentias rerum produci sicut habent cognosci : sufficit enim quod sic se habeant ad esse sicut se habent ad cognitionem, sed non oportet quod sic se habeant ad productionem.</p>
+               <p xml:id="bb-l2d18a1q3-d1e244">4. Ad illud quod obicitur, quod forma particularis dicit ens in actu completo, dicendum quod verum est quod illud, quo mediante pervenitur ab ente in potentia ad esse completum, est quodam modo ens in actu, quodam modo in potentia. Sed hoc non est quocumque modo ens in potentia, sed illud quod habet ordinationem ad hoc ; et hoc est potentia materiae activa, quae rationem universalis non habet, cum sit forma partis, quamvis sit quodam modo in actu, quodam modo in potentia.</p>
+               <p xml:id="bb-l2d18a1q3-d1e248">5. Ad illud quod obicitur, quod homo generat hominem, non asinum, dicendum quod hoc non est propter formam humanitatis, sed hoc est propter vim datam illi naturae ad producendum sui simile.</p>
+               <p xml:id="bb-l2d18a1q3-d1e251">6. Ad ultimum patet responsio. Concedo enim quod potentia illa activa non est forma singularis nec ignis nec aeris, sed est indifferens ad utrumque ; et ideo ex illa quaelibet earum potest educi et in illam quaelibet earum habet resolvi ; et illa dici potest ratio seminalis.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

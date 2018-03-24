@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 20, A. 1, Q. 6</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 20, A. 1, Q. 6</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d20a1q6">
+            <head xml:id="bb-l2d20a1q6-Hd1e99">II, Distinctio 20, A. 1, Q. 6</head>
+            <head xml:id="bb-l2d20a1q6-Hd1e102" type="question-title">Utrum aequalis fieret multiplicatio virorum et mulierum, si homo stetisset.</head>
+    
+            <p xml:id="bb-l2d20a1q6-d1e105">Sexto et ultimo quaeritur, utrum aequalis fieret multiplicatio virorum et mulierum.</p>
+            <div xml:id="bb-l2d20a1q6-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d20a1q6-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d20a1q6-d1e113">Et quod sic, videtur.
+  1. Natura sic procederet in generando sicut Deus eam instituit ; sed Deus, cum produxit naturam humanam, produxit masculum et feminam in pari numero : ergo similiter et natura in pari numero multiplicasset.</p>
+               <p xml:id="bb-l2d20a1q6-d1e116">2. Item, generatio hominis non poterat continuari nisi per masculum et feminam, et ita necessaria est ad generationem mulier sicut et masculus : ergo videtur quod natura aequaliter intenderet utrumque sexum ; sed sicut intendebat, ita multiplicabat : ergo etc.</p>
+               <p xml:id="bb-l2d20a1q6-d1e119">3. Item, sicut vir intendit se salvare in simili, scilicet in viro quem generat, sic et mulier in consimili, scilicet in muliere ; sed natura aeque bene esset ordinata in muliere sicut in viro : ergo, si vir non frustraretur sua intentione, similiter nec mulier : ergo quot conciperet masculos ad conservationem sexus virilis, tot conciperet feminas ad conservationem sexus muliebris.</p>
+               <p xml:id="bb-l2d20a1q6-d1e122">4. Item, in statu innocentiae sicut quilibet comederet, ita quilibet prolem multiplicaret, cum omnibus esset dictum : Crescite et multiplicamini : ergo quilibet haberet uxorem. Si ergo matrimonium requirit quod sint duo in carne una, tot essent viri quot mulieres, nec plures nec pauciores.</p>
+
+ 
+               <p xml:id="bb-l2d20a1q6-d1e126">Sed contra : 1. Sicut dicit <name ref="#Aristotle">Philosophus</name>, in libro De animalibus, <quote xml:id="bb-l2d20a1q6-Qd1e131">femina est vir occasionatus</quote> : ergo videtur esse praeter naturae intentionem ; sed tempore naturae institutae, cum natura esset recta, nihil produceretur praeter intentionem ipsius : ergo videtur quod nulla mulier generaretur vel saltem paucae : ergo plures essent viri quam mulieres.</p>
+               <p xml:id="bb-l2d20a1q6-d1e135">2. Item, sicut vult <name ref="#Aristotle">Philosophus</name> : <quote xml:id="bb-l2d20a1q6-Qd1e140">Natura semper desiderat quod melius est</quote> ; sed sexus virilis perfectior est et melior quam sexus muliebris : ergo natura magis desiderat generare virum quam mulierem ; si ergo sic produceret secundum quod desideraret, plures produceret viros quam mulieres.</p>
+               <p xml:id="bb-l2d20a1q6-d1e144">3. Item, generatio maris est propter vigorem virtutis generantis et seminis decisi, sicut dicunt naturales et medici ; sed in statu naturae institutae virtus generativa et semen decisum completam et sufficientem haberet virtutem : ergo semper vel pluries masculos generari contingeret.</p>
+               <p xml:id="bb-l2d20a1q6-d1e147">4. Item, cum semen viri praedominatur semini mulieris, tunc ad propriam naturam trahit et convertit ; sed secundum ordinem naturae masculus potentior est femina : ergo, natura stante, semper vel pluries vinceret semen virile : ergo plures generaret natura masculos quam mulieres.</p>
+            </div>
+            <div xml:id="bb-l2d20a1q6-Dd1e151">
+               <head xml:id="bb-l2d20a1q6-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d20a1q6-Hd1e156" type="question-title">Si homo mansisset in statu innocentiae, 
+      natura aequaliter multiplicasset viros et mulieres</head>
+
+               <p xml:id="bb-l2d20a1q6-d1e159">Respondeo : Dicendum quod, si homo stetisset, aequaliter natura multiplicaret viros et mulieres. Rationem autem huius facile est accipere a parte finis ad quem, sed difficile est accipere a parte principii a quo.</p>
+ 
+               <p xml:id="bb-l2d20a1q6-d1e162">A parte namque finis ad quem ratio est in promptu. Cum enim distinctio sexuum esset propter multiplicationem generis humani et completionem numeri electorum, et illa multiplicatio ad omnes spectaret, et hoc solum secundum legem matrimonii, in qua tantum una erat unius : necesse est, si natura stetisset, tot fuisse mulieres quot viros, cum nulia mulier careret viro et nullus vir careret uxore, nec una esset plurium nec plures unius.</p>
+ 
+               <p xml:id="bb-l2d20a1q6-d1e165">Rationem autem a parte principii effectivi assignare est difficile ; potest tamen sic investigari, descendendo ad principia alterius scientiae, scilicet naturalis et medicinae, quarum utraque famulari habet theologiae. Magna est enim quaestio apud naturales et medicos de distantia generationis maris et feminae ; et cum quaeritur, quare modo mas, modo femina generatur, triplex ratio redditur a diversis. Una a parte vasis suscipientis : si enim suscipitur in parte dextra, dicunt quod ibi generatur vir propter fortem calorem qui ibi viget ; si in parte sinistra, sic generari habet mulier.
+Secunda ratio redditur ex parte commixtionis utriusque sexus, scilicet viri et mulieris. Si enim praedominatur semen viri, tunc trahitur ad naturam viri et generatur masculus ; si vero semen mulieris, tunc trahitur ad suam naturam et generatur sexus femineus.
+Tertia ratio redditur ex parte virtutis seminis virilis. Si enim semen virile fuerit virtutis fortis ex concursu triplicis caloris et spiritus in ipso existentis, tunc fit fortior coagulatio et complexio et generatur sexus vigorosus, id est masculinus. Si autem fuerit virtutis debilis, tunc fit coagulatio mollior et fragilior et generatur ex eo sexus infirmus, scilicet femineus.
+Haec autem ratio tertio dicta principalior est inter istas tres, nec aliae habent efficaciam nisi ab ista. Nam, sicut vult <name ref="#Aristotle">Philosophus</name>, principaliter movens in generatione, sive maris sive feminae, est semen virile ; et ideo nec semen mulieris proprie habet semini viri praedominari, nisi hoc dicatur propter debilitatem seminis virilis, qua accedit ad conformitatem seminis mulieris ; nec locus matricis facit sexuum diversitatem principaliter sicut principaliter movens, sed sicut cooperans principaliter moventi, quae quidem est fortitudo vel debilitas in virtutd seminis virilis.
+</p>
+ 
+               <p xml:id="bb-l2d20a1q6-d1e172">Si autem quaeratur, quae sit ratio diversitatis in debilitate et virtute virilis seminis, triplex etiam ratio potest reddi. Una est propter caliditatem et bonam dispositionem membri, a quo fit seminis generatio et per quod fit seminis transfusio, ita quod nec excedit in caliditate nec declinat ad frigiditatem ; tunc enim semen, quod ab illo membro transfunditur, est fortis virtutis et vigoris. Si autem membrum se habet in opposita dispositione, tunc semen est virtutis debilis.</p>
+               <p xml:id="bb-l2d20a1q6-d1e175">Alia ratio potest sumi ex parte exterioris adiutorii, utpote alimenti et venti et temporis, quae multum faciunt ad vigorationem vel debilitationem virtutis. Boreas enim suo flatu virtutem vigorat, dum eam recludit interius ; sed auster debililat, dum eam exhalare facit ; sic etiam facit cibus et tempus. Et quando exteriores dispositiones concurrunt quae virtutem habent vigorare, tunc semen est fortis virtutis ; quando vero sunt in contraria dispositione, tunc semen est virtutis debilis.
+Tertia ratio sumitur ex parte animae. Vis enim generativa multum conformatur accidentibus animae et imaginationibus, secundum quod per experimentum patet. Nam ex memoria delectationis frequenter fit excitatio pruritus carnis ; et ex imaginatione forti in somnis fit effusio seminis, sicut fit ad praesentiam mulieris ; et vis formativa, quae est praecipua virtus in semine, multum adluvatur ab imaginativa, secundum quod exempla ponuntur et sunt in sacra Scriptura et etiam in medicina, ut patet in ovibus Iacob, Genesis 30, 37-42. Et narratur pro exemplo, quod mulier, quae nanum aspiciebat, cum a viro cognoscebatur, omnes filios nanos concipiebat.</p>
+ 
+               <p xml:id="bb-l2d20a1q6-d1e178">Inter has autem rationes, cum omnes sint bonae et faciant ad seminis vigorationem, secundum statum naturae lapsae praecipua sumitur ratio ex parte complexionis membri ; aliae duae sunt sicut adminiculares solum vel impedientes.</p>
+ 
+               <p xml:id="bb-l2d20a1q6-d1e181">Sed tempore naturae institutae, in qua corpus sublectum erat animae, principalis ratio sumitur generationis maris et feminae a parte virtutis animalis moventis et imaginantis. Cum enim vir intenderet et vellet generare virum, tunc vigoraretur virtus naturalis eius in agendo et esset semen maioris virtutis et generaretur sexus vigorosus sive masculus ; quando vero vellet et imaginaretur generare sexum femineum, tunc minus forti impressione ageret in naturam inferiorem corporalem, et tunc semen esset minus forte et generaretur sexus femineus : et ideo in tempore naturae institutae generatio maris et feminae subesset voluntati rationali.
+Et quoniam ratio dictaret omnia facienda esse ordinate et tot producere mulieres quot viros, ut quilibet vir haberet adiutorium simile sibi secundum exigentiam legis matrimonii, ideo tunc viros et mulieres produceret in humero aequali. Nunc autem, quia generativa non omnino subest virtuti animali, id est imaginariae, nec etiam rationali, licet ei aliquo modo conformetur, sed magis variatur penes dispositionem membri et exterioris adiutorii, hinc est quod non est certa determinatio numeri nec in viris nec in feminis generandis ; immo modo, quando credit generare masculum, generat feminam, et quando credit generare feminam, generat masculum ; et aliqui plures habent feminas, aliqui plures masculos.
+Sic ergo patet quod, si homo stetisset, in aequali numero fieret multiplicatio virorum et mulierum. Unde rationes hoc ostendentes concedendae sunt.
+</p>
+            </div>
+            <div xml:id="bb-l2d20a1q6-Dd1e186">
+               <head xml:id="bb-l2d20a1q6-Hd1e188">Ad rationes</head>
+
+               <p xml:id="bb-l2d20a1q6-d1e191">1. Ad illud autem quod primo obicitur, quod femina dicitur vir occasionatus, dicendum quod <name ref="#Aristotle">Philosophus</name> non vult dicere quod femina sit praeter naturae intentionem, sed quod virtus naturae aliquem defectum habet in productione mulieris respectu productionis viri ; ille autem defectus non repugnat ordini naturae, sed potius salvat. Secundum enim ordinem naturae, sicut producuntur in eodem corpore quaedam membra magis fortia, quaedam minus, sic producuntur in eodem specie quaedam individua unius sexus, quaedam alterius. Et ideo, licet ille defectus, qui ordinem naturae corrumpit, utputa est ille qui est causa defectus membri vel bonae complexionis, sit praeter naturae intentionem, generatio tamen mulieris nec est praeter naturam nec contra naturam, sed secundum naturam.</p>
+               <p xml:id="bb-l2d20a1q6-d1e197">2. Ad illud quod obicitur, quod natura semper desiderat illud quod melius est, dicendum quod non intelligitur quod semper desiderat melius simpliciter, sed melius in ordine ; licet autem sexus masculinus melior sit in se quam femineus, non tamen esset ita sufficienter salus naturae in solo virili sexu, sicut est in virili et muliebri : et ideo natura magis desiderat utrumque quam alterum solum.</p>
+
+               <p xml:id="bb-l2d20a1q6-d1e200">4. Ad illud quod obicitur, quod semen viri praedominatur semini mulieris, dicendum quod illa ratio debet sane intelligi ad hoc quod valeat. Proprie enim loquendo, nunquam semen mulieris praedominatur semini viri ; sed ideo dicitur praedominari semen mulieris, quia semen viri adeo est debilis virtutis quod magis est idoneum ad productionem sexus muliebris quam virilis ; hoc autem modo potuit esse in statu primo, sicut praetactum est.
+</p>
+               <p xml:id="bb-l2d20a1q6-d1e203">
+3. Et per hoc patet responsio ad aliud quod obicitur de fortitudine caloris et virtutis. Gradus enim ibi fuissent secundum ordinem rationis et secundum exigentiam finis, ita quod vir aliquando operaretur actione magis fortificata in productione viri, aliquando minus fortificata in productione mulieris.
+Si quis autem vellet dicere, sicut aliqui existimant, quod mulier semper gemellos conciperet, ita quod pars dextra attraheret quod est maioris virtutis de semine ad generationem sexus virilis, et pars sinistra quod est virtutis magis debilis ad generationem sexus feminei ; tunc facile esset ad ea quae obiecta sunt respondere. Hoc autem nec de facili probatur nec etiam reprobatur certitudine rationis ; et ideo modus solvendi praehabitus videtur esse magis rationabilis.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

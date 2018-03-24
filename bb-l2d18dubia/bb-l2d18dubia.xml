@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 18, Dubia</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 18, Dubia</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d18dubia">
+            <head xml:id="bb-l2d18dubia-Hd1e99">II, Distinctio 18, Dubia</head>
+            <div xml:id="bb-l2d18dubia-Dd1e102">
+               <head xml:id="bb-l2d18dubia-Hd1e104">Dubium</head>
+               <p xml:id="bb-l2d18dubia-d1e107">Posset tamen aliquis dubitare de hoc quod dicit, quod mulier de costa facta est eo miraculo, quo de quinque panibus etc. Videtur enim dicere quod formatio mulieris fuerit miraculosa ; et gratia huius posset introduci quaestio de miraculis. Sed propter suam prolixitatem et quia parum pertinet ad propositum, omittenda est ad praesens. Hoc solum dixisse sufficiat quod ideo dictum est mulierem de costa miraculo esse factam, non quia factum sit contra solitum cursum naturae vel contra naturam, sed quia factum est virtute divina operante supra naturam.</p>
+               <p xml:id="bb-l2d18dubia-d1e110">Si quis autem quaerat, utrum hoc opus supra naturam fecerit, ministrante sibi virtute angelica, respondet <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, libro IX, ita inquiens : Quale ministerium exhibuere angeli in illa mulieris formatione, quis audeat assignare ? Certissime tamen dixerim supplementum illud carnis in costae loco, ipsiusque feminae corpus et animam configurationemque membrorum, omnia viscera, sensus omnes et quidquid erat, quo illa et creatura et homo et femina erat, non nisi illo opere Dei factum, quod Deus non per angelos, sed per se ipsum operatus est.
+Ratio autem potissima quare Deus ita formavit, est tum quia modus ille formandi erat supra potestatem naturae ; tum etiam ut homo in utroque sexu immediate in eum tenderet et ex se toto eum diligeret, a quo se nosset immediate esse factum.
+</p>
+               <p xml:id="bb-l2d18dubia-d1e116">Ratio autem quare ex uno homine Deus omnes producere voluerit, licet in aliis generibus animalium hoc non fecerit, sumi potest ex ordine et connexione et significatione. Ex ordine vero dupliciter. Primo, ex ordine corporis ad animam, ut, sicut omnes animae rationales immediate procedunt ab uno principio, sic omnia corpora humana immediate exirent ab uno. Secundo vero, ex ordine totius coniuncti ad alias creaturas : quia enim homo medium tenet inter naturam angelicam et brutalem, cum angeli singillatim a Deo producti sint, et creaturae brutales in duplici sexu, in masculino scilicet et feminino : homo debuit produci medio modo, et sic femina ex viro.</p>
+               <p xml:id="bb-l2d18dubia-d1e119">Ex connexione similiter duplex sumitur ratio. Primo, respectu totius speciei universaliter, ut omnis homo diligat omnem hominem tamquam fratrem. Secundo vero, respectu uxoris specialiter, propter quod vinculum relinquit homo patrem et matrem et adhaeret uxori et sunt duo in carne una.
+</p>
+               <p xml:id="bb-l2d18dubia-d1e123">Ex significatione etiam duplex sumitur ratio. Primo, ex significatione allegorica, qua intelligimus per virum et mulierem Christum et Ecclesiam. Secundo, per anagogicam, qua per virum, qui fuit principium omnium hominum, intelligimus Deum, qui fuit principium omnium rerum.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 11, Diviso Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 11, Diviso Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d11dt">
+            <head xml:id="bb-l2d11dt-Hd1e99">II, Distinctio 11, Diviso Textus</head>
+
+            <p xml:id="bb-l2d11dt-d1e102">Supra delerminavit Magister de Angelorum mi- 
+nisterio quantum ad ipsos Angelos niinislrantes. In 
+hac parte determinat de Angelorum ministerio per 
+comparationem ad hominem, cui ministrant. Et quo- 
+niam omne officium sive ministerium laudabile et 
+honum debel haljere praemium, ideo pars ista ha- 
+bet duas partes. In prima determinat, quaiiter An- 
+geli, hominibus ministrando, eos custodiunt. In se- 
+cunda vero qnaerit, utrum Angeli ex ipso actu 
+ministrandi in merito vel in praemio proflciant, et 
+incipit illa secunda pars ibi: Praelerea illud con- 
+siderari oportet etc.</p> 
+
+            <p xml:id="bb-l2d11dt-d1e105">Prima pars habet duas. In prima oslendit, quod 
+Angeli deputantur ad custodiam liominum '. In secunda 
+quaerit et determinat, ntrum singuli depu- 
+tentur ad custodiam singulorum , ibi : Solet autem 
+quaeri, utrum singuli etc.</p> 
+
+            <p xml:id="bb-l2d11dt-d1e108">Similiter secimda pars principalis duas habet 
+secundum duas opiniones, secundum quas duplici- 
+ter determinat quaestionem propositam. In prima 
+parte ponit primam opinionem, quae incipit ibi: 
+Praeterea illud considerari oportet etc. In secunda 
+secundam, ibi: Alii aiUem dicunt, Angelos in con- 
+firmatione etc. Subdivisiones autem partium et in- 
+tellectus Magistri patent in littera. Nam totalis in- 
+tentio dislinctionis versatur circa duo , videlicet circa 
+custodiam et eius consequentia vel annexa.</p> 
+
+         </div>
+      </body>
+   </text>
+</TEI>

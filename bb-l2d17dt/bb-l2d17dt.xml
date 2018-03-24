@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 17, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 17, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d17dt">
+            <head xml:id="bb-l2d17dt-Hd1e99">II, Distinctio 17, Divisio Textus</head>
+
+            <p xml:id="bb-l2d17dt-d1e102">Supra egit Magister de productione hominis in comparatione ad principium extra ; in hac vero parte agit de productione eius quantum ad principia constitutiva, scilicet quantum ad corpus et animam. Dividitur autem ista pars in duas.
+In prima determinat de productione viri ;
+in secunda vero de productione mulieris ex viro, infra : In eodem quoque paradiso mulierem formavit etc., distinctione decima octava, in principio.</p>
+ 
+            <p xml:id="bb-l2d17dt-d1e105">Prima pars habet duas, in prima determinat de hominis formatione ;
+in secunda de hominis formati locatione, ibi : Hominem autem ita formatum etc.
+Prima pars habet duas.
+In prima determinat de productione animae in se ;
+in secunda vero in relatione ad corpus, ibi : Sed utrum in corpore an extra corpus etc.</p>
+ 
+            <p xml:id="bb-l2d17dt-d1e108">Pars autem illa, in qua determinat de productione animae in se, habet duas.
+In prima determinat veritatem ;
+in secunda removet errorem, ibi : Putaverunt enim quidam haeretici etc.</p>
+ 
+            <p xml:id="bb-l2d17dt-d1e111">Similiter illa pars, in qua determinat de productione animae in comparatione ad corpus, habet duas.
+In prima determinat, utrum Deus creaverit animam in corpore an extra corpus.
+In secunda quaerit, utrum Deus fecerit hominem in aetate perfecta, ibi : Solet etiam quaeri, utrum Deus hominem repente etc.
+</p>
+            <p xml:id="bb-l2d17dt-d1e115">
+Similiter pars illa, in qua determinat de locatione iam formati, habet duas.
+In prima determinat de loco eius in se.
+In secunda vero determinat in comparatione ad contenta, ibi : In hoc autem paradiso erant ligna etc.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

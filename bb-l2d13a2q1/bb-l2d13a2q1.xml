@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 13, A. 2, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 13, A. 2, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d13a2q1">
+            <head xml:id="bb-l2d13a2q1-Hd1e99">II, Distinctio 13, A. 2, Q. 1</head>
+            <head xml:id="bb-l2d13a2q1-Hd1e102" type="question-title">Utrum lux sit corpus, vel forma corporis.</head>
+ 
+            <p xml:id="bb-l2d13a2q1-d1e105">Circa primum sic proceditur et ostenditur quod lux sit corpus.</p>
+
+            <p xml:id="bb-l2d13a2q1-d1e108">
+               <name ref="#Augustine">Augustinus</name>, in libro De libero arbitrio, III : <quote xml:id="bb-l2d13a2q1-Qd1e113">corporibus lux primum locum tenet</quote>.</p>
+            <p xml:id="bb-l2d13a2q1-d1e117">Item, <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, libro VII : Anima omnem corpoream naturam dignitate naturae praecellit ; per lucem tamen et aerem, quae in mundo praecellentia sunt corpora, corpus administrat.</p>
+            <p xml:id="bb-l2d13a2q1-d1e124">Item, <name ref="#Augustine">Augustinus</name>, in epistola ad Volusianum tertia : Hominum, inquit, iste sensus est nihil nisi corpora valentium cogitare, sive ista grossiora, scilicet humor aut humus, sive subtiliora, sicut aer et lux ; sed tamen corpore.</p>
+            <p xml:id="bb-l2d13a2q1-d1e130">Item, hoc videtur ratione. In spiritualibus est reperire spiritum, qui est pure lux : ergo similiter in corporalibus videtur quod sit reperire corpus, quod sit pura lux : ergo videtur quod id quod est luminosum in corporibus, sit lux pure. Sed illud est corpus, cum habeat extensionem, sicut patet in sole : ergo videtur quod lux sit corpus.</p>
+            <p xml:id="bb-l2d13a2q1-d1e133">Item, lux in sole est in plena actualitate et potestate multiplicandi se, ergo non videtur quod sit permixta possibilitati materiae ; constat autem solem esse corpus : ergo videtur quod pura lux sit corpus.</p>
+            <p xml:id="bb-l2d13a2q1-d1e136">Item, nihil movetur localiter motu dimensivo nisi corpus ; sed lux illa, quae primo creata fuit, suo motu faciebat diem et noctem : ergo erat corpus.</p>
+
+ 
+            <p xml:id="bb-l2d13a2q1-d1e139">Ad oppositum : <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-l2d13a2q1-Qd1e144">Lumen est qualitas naturalis ipsius ignis</quote> ; sed nulla qualitas est corpus ; ergo iux non est corpus, sed qualitas corporis.</p>
+            <p xml:id="bb-l2d13a2q1-d1e148">Item, dicit <name ref="#Aristotle">Philosophus</name> quod forma est principium agendi ; ergo quod maxime est principium agendi, illud maxime est forma ; sed lux inter caetera corporalia est maxime activa : ergo videtur quod sit pure forma. Sed nullum corpus est pure forma, cum omne corpus sit compositum : ergo lux non est corpus.</p>
+            <p xml:id="bb-l2d13a2q1-d1e155">Item, <name ref="#Augustine">Augustinus</name>, XII Super Genesim ad litteram : <quote xml:id="bb-l2d13a2q1-Qd1e160">Lux est subtilissimum in corpore, et ob hoc animae vicinissimum</quote> ; sed quod est vicinissimum nobilissimae formae, illud maxime participat rationem formae : ergo videtur quod ipsa lux sit pure forma.</p>
+            <p xml:id="bb-l2d13a2q1-d1e164">Item, nulli corpori opponitur aliquid privative, secundum quod corpus est ; sed luci, secundum quod lux est, opponitur tenebra privative : ergo lux non est corpus.</p>
+            <div xml:id="bb-l2d13a2q1-Dd1e167">
+               <head xml:id="bb-l2d13a2q1-Hd1e169">CONCLUSIO</head>
+               <head xml:id="bb-l2d13a2q1-Hd1e172" type="question-title">Lux proprie et in abstractione dicta non est corpus, sed forma corporis luminosi</head>
+ 
+               <p xml:id="bb-l2d13a2q1-d1e175">Respondeo : Dicendum quod quidam, non attendentes nec interius considerantes verba <name ref="#Augustine">Augustini</name>, dixerunt lucem esse corpus, pro eo quod posuerunt aliquod corpus esse pure lucem, ita quod in eo nihil esset admixtum de tenebrositate materiae, sicut est corpus solare, a quo caetera corpora mundi recipiunt illuminationem.
+Sed cum supra probatum sit, quod nulla substantia per se existens, sive corporalis sive spiritualis, est pure forma nisi solus Deus, satis planum est quod nullum corpus potest esse pure forma. Cum etiam nullum corpus careat extensione, et omnis extensio fundetur super materiam corporalem, nullum corpus potest esse sine materia : et ita nullum corpus potest esse pure forma. Si ergo lux formam dicit, non potest esse lux ipsum corpus sed aliquid corporis. Si enim lux esset ipsum corpus, cum lucis sit ex se ipsa se ipsam multiplicare, aliquod corpus posset se ipsum multiplicare ex se sine appositione materiae aliunde ; quod est impossibile alicui creaturae, cum materia non habeat educi nisi per creationem.
+</p>
+               <p xml:id="bb-l2d13a2q1-d1e181">Et ideo aliter dicendum est quod sicut humor et calor dupliciter accipiuntur : aliquando enim dicunt proprietates sive qualitates corporeae substantiae, sicut dicuntur humor aquae et calor ipsius ignis ; aliquando nominant ipsam substantiam sub tali forma, sicut dicit <name ref="#Augustine">Augustinus</name>, quod humor et humus sunt elementa, et philosophi dicunt quod calor est substantia quaedam subtilis. Sic intelligendum est a parte lucis, quod lux potest dici in abstractione, et sic nominat formam corporis luminosi, per quam corpus illud habet lucere et agere ; et sic dicit <name ref="#JohnDamascenus">Damascenus</name> quod lux est qualitas ignis. Aliquando nominat in concretione ipsam, scilicet substantiam luminosam ; et sic accipitur in illa divisione, scilicet quod tres sunt species ignis, scilicet carbo, flamma et lux. Et per hunc modum loquitur <name ref="#Augustine">Augustinus</name>, quando dicit quod lux tenet primum locum in corporibus, et quod lux et aer sunt corpora subtiliora. Vocat enim ibi lucem quod nos vocamus ignem, sicut ex verbis ipsius <name ref="#Augustine">Augustini</name> colligitur expresse.
+Et per hoc patent obiecta ad utramque partem. Nam auctoritates et rationes, quae dicunt et probant, lucem non esse corpus, sed qualitatem, accipiunt lucem in abstractione, sicut patet.</p>
+  
+ 
+               <p xml:id="bb-l2d13a2q1-d1e196">1. 2.3. Auctoritates vero, quae ad oppositum inducuntur, loquuntur de luce, prout accipitur concretive.
+Rationes vero, quae probant, quod aliquod corpus sit pure lux, non sunt cogentes.</p>
+
+               <p xml:id="bb-l2d13a2q1-d1e200">4. Ad illud enim quod obicitur de similitudine spiritualium et corporalium, non est simile, quia lux spiritualis est communis Creatori et creaturae secundum analogiam. Et quia Creator pure actus est, ideo potest reperiri in spiritualibus lux in omnimoda actualitate, ita quod nihil habeat de possibilitate materiae nec de tenebrositate ignorantiae. Corporalis vero lux non reperitur nisi in creatura, quae ad hoc, ut per se existat, indiget sustentante materia ; et ideo non potest inveniri lux pura per omnimodam exclusionem possibilitatis materiae, potest tamen reperiri pura lux per exclusionem opacitatis et tenebrae ; et sic est in sole.</p>
+               <p xml:id="bb-l2d13a2q1-d1e203">5. Ad illud quod obicitur, quod si lux solis esset permixta materiae, non posset se multiplicare perfecte, dicendum quod praesentia materiae non tollit actualiiatem formae, maxime quando corpus multum habet de specie et parum de materia ; et quia in sole est abundantia lucis, quamvis sit ibi materia, non impeditur ab actione sua. Ea autem quae dicuntur habere lucem incorporatam, non habent perfectam potestatem multiplicandi se, non quia lux sit solum ibi in materia, sed quia corpora illa multum habent de materia et parum de specie.</p>
+               <p xml:id="bb-l2d13a2q1-d1e206">6. Ad illud quod obicitur, quod lux primo creata mota fuit dimensive et successive, dicendum quod lux ibi vocatur nubecula lucida, quae vere corpus erat ; et illa non fuit creata, pro eo quod fuit ex praeexistenti materia forma lucis sibi divinitus impressa vel educta. Sic igitur ex praedictis patet, quod lux, proprie et abstracte loquendo, non est corpus sed forma corporis.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

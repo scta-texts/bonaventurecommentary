@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d28dt">
+            <head xml:id="bb-l2d28dt-Hd1e99">Divisio textus</head>
+            <p xml:id="bb-l2d28dt-d1e102">Supra determinavit Magister quantum potest liberum arbitrium cum gratia ; in hac vero parte determinat quantum potest liberum arbitrium sine gratia. Et dividitur haec pars in duas.
+In prima determinat de potestate liberi arbitrii lapsi, quam habet, gratia circumscripta.
+Secundo vero determinat de libero arbitrio primi hominis, utrum gratia operante et cooperante eguerit, infra distinctione vigesima nona : Post haec considerandum est, utrum etc.</p>
+ 
+            <p xml:id="bb-l2d28dt-d1e105">Dividitur autem pars ista in tres partes.
+In prima, quia Pelagiam errabant circa potestatem liberi arbitrii, ponit illius haeresis improbationem.
+In secunda vero respondet ad Pelagianorum argumentationes, ibi : Quod vero dicunt, sine gratia etc.
+In tertia vero subiungit catholicae veritatis expressionem, ibi : Id vero de gratia et libero arbitrio indubitanter teneamus etc.
+ 
+Media pars dividitur in tres partes secundum tria media, a quibus sumuntur tres rationes, quibus Magister respondet.
+Primo enim respondet ad illud quod Pelagius dicebat, nullum esse culpandum, si non vitat vel non facit illud quod sibi est impossibile. Ex quo sumuntur duae rationes, ad quas Magister respondet duobus capitulis.
+Secundo vero respondet ad illud quod Pelagius dicebat, quod nihil est tam in nostra potestate quam ipsa voluntas, quod etiam ab ipso <name ref="#Augustine">Augustino</name> Pelagius assumserat, ibi : Alibi etiam <name ref="#Augustine">Augustinus</name> dicit quod huic gratiae etc.
+Tertio vero respondet ad illud quod Pelagius dicebat : Quod credere nostrum est, quod etiam extraxerat de verbis <name ref="#Augustine">Augustini</name> ex duobus locis ; et ideo Magister respondet in duobus capitulis. Et incipit ilia pars ibi : In expositione quarumdam propositionum etc.
+</p>
+ 
+         </div>
+      </body>
+   </text>
+</TEI>

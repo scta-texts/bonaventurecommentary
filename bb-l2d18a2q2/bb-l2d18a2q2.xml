@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 18, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 18, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d18a2q2">
+            <head xml:id="bb-l2d18a2q2-Hd1e99">II, Distinctio 18, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d18a2q2-Hd1e102" type="question-title">Utrum animae omnium fuerint simul productae.</head>
+ 
+            <p xml:id="bb-l2d18a2q2-d1e105">Secundo quaeritur, utrum animae omnium fuerint simul productae.</p>
+            <div xml:id="bb-l2d18a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d18a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d18a2q2-d1e113">Et quod sic, videtur. 1. Iob 40, 10 : <quote xml:id="bb-l2d18a2q2-Qd1e115" ana="#iob40_10">Ecce Behemoth, quem feci tecum</quote> : ergo Iob factus est simul cum Lucifero ; sed non est factum corpus : ergo est facta anima : ergo anima Iob facta est simul cum Lucifero : ergo pari ratione et animae aliorum hominum productae sunt in primordio.</p>
+               <p xml:id="bb-l2d18a2q2-d1e119">2. Item, angeli simul producti sunt et corpora caelestia propter immortalitatem et incorruptibilitatem : si ergo animae rationales sunt huiusmodi, videtur etc.</p>
+               <p xml:id="bb-l2d18a2q2-d1e122">3. Item, animae omnes aequalis sunt durationis cum angelis ex parte post : ergo pari ratione videtur quod debeant esse aequalis durationis ex parte ante : ergo omnes simul cum angelis fuerunt creatae.</p>
+               <p xml:id="bb-l2d18a2q2-d1e125">4. Item, non est anima propter corpus, sed corpus propter animam : ergo potius corpus deberet formari secundum exigentiam animae quam anima produci secundum exigentiam corporis ; sed illud, ad cuius exigentiam fit alterum, prius est : ergo videtur quod omnes animae, antequam sua corpora sint, productae fuerint.</p>
+               <p xml:id="bb-l2d18a2q2-d1e129">5. Item, reperimus spiritum qui per naturam suam est omnino separatus, et spiritum qui per naturam suam semper est coniunctus : ergo videtur quod sit reperire spiritum qui sit natus esse separatus et coniunctus ; talis autem non est nisi anima humana. Ergo si anima humana de sua natura est separata, ergo videtur quod animae separatim a suis corporibus debuerint produci, et ita simul.</p>
+
+               <p xml:id="bb-l2d18a2q2-d1e132">Ad oppositum arguitur sic.</p>
+
+               <p xml:id="bb-l2d18a2q2-d1e135">1. In Psalmo [32, 15] : <quote xml:id="bb-l2d18a2q2-Qd1e137" ana="#ps32_15">Qui finxit singillatim corda eorum</quote> ; Glossa exponit : id est animas. Ergo animae factae sunt singillatim et successive sicut et corpora.</p>
+               <p xml:id="bb-l2d18a2q2-d1e141">2. Item, <name ref="#Augustine">Augustinus</name>, in libro De ecclesiasticis dogmatibus : Tenendum est quod animae non sunt simul creatae.</p>
+               <p xml:id="bb-l2d18a2q2-d1e147">3. Item, hoc videtur ratione. Si animae essent creatae, ante corpus, aut haberent usum rationis aut non. Si non : quaero quid impediret ? et cum non sit dare, restat quod, si simul conditae fuerunt, statim habuerunt usum rationis ; et si hoc, ergo meruerunt vel demeruerunt, quorum utrumque est contra Apostolum ad Romanos 9, 11 : Antequam aliquid boni vel mali egissent etc.</p>
+               <p xml:id="bb-l2d18a2q2-d1e150">4. Item, si animae fuerunt simul creatae, aut volunt venire ad corpus aut non. Si volunt, cum corpora illa sint infecta et poenalia : ergo sunt impiae et stultae, cum veniant voluntarie ad contrahendam culpam et poenam. Si nolunt, et mittuntur in corpora : ergo cum sint innocentes, fit eis iniuria, dum ante infligitur poena quam commisissent culpam.</p>
+               <p xml:id="bb-l2d18a2q2-d1e154">5. Item, anima, quamdiu est in corpore, mole corporis gravatur : ergo melius est ei et perfectius est esse extra carnem quam in carne ; sed non est ordo, sed perversio, procedere ad statum minus perfectum a statu magis perfecto. Si ergo Deus et natura ordinate facit quidquid facit, nec ordine naturae nec ordine divinae providentiae decet animas simul creari et postmodum corporibus uniri.
+Ad hoc etiam faciunt rationes, quae supra adductae sunt de anima Adae, ubi ostenditur quod anima creata fuerit in corpore, et non ante.</p>
+            </div>
+            <div xml:id="bb-l2d18a2q2-Dd1e158">
+               <head xml:id="bb-l2d18a2q2-Hd1e160">CONCLUSIO</head>
+               <head xml:id="bb-l2d18a2q2-Hd1e163" type="question-title">Animae humanae non fuerunt simul creatae</head>
+               <p xml:id="bb-l2d18a2q2-d1e166">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc triplex est modus dicendi : unus secundum aestimationem aliquorum philosophorum, alter secundum inventionem quorumdam haereticorum, tertius secundum instructionem sanctorum Doctorum.</p>
+ 
+               <p xml:id="bb-l2d18a2q2-d1e169">Primus modus dicendi est quod animae simul fuerunt creatae in stellis comparibus, et post, formatis corporibus sibi idoneis, ad haec corpora vivificanda descendunt per lacteum caelum et alios orbes planetarum, et postmodum, corruptis corporibus, illuc revertuntur, et postmodum suo loco et tempore iterum descendunt ; et cum descendunt obliviscuntur prius cognitorum, et cum ascendunt obliviscuntur malorum, quae in corpore habuerunt. Haec autem positio Platonis fuit et suorum sequacium, et hanc multum nititur approbare Macrobius, explanans somnium Scipionis.
+Sed vere ista positio plus est somnium quam aliquod dictum authenticum. Primum quidem, quia talis creatio et descensus et ascensus nullam omnino potest habere certitudinem, cum nemo possit hoc convincere ratiocinando, nemo etiam sit qui possit dicere se talium recordari. Secundo vero, quia manifestam continet absurditatem : quia, dum ponit talem animarum circulationem, ponit quod anima non sit vera corporis perfectio, cum <quote xml:id="bb-l2d18a2q2-Qd1e171" source="http://scta.info/resource/aristda-l2">proprius actus in propria materia habeat fieri</quote>. Ponit etiam quod nulla possit esse beatitudo, cum illa non sit nisi ubi est perpetuitas et certitudo, sicut ostendit <name ref="#Augustine">Augustinus</name>, De Trinitate XIV.</p>
+ 
+               <p xml:id="bb-l2d18a2q2-d1e178">Secundus modus dicendi est quod animae humanae simul fuerunt creatae in caelo cum angelis, utpote quia sunt eiusdem naturae, et postmodum ad suggestionem dei tenebrarum peccaverunt, et merito illius peccati in corpora sunt detrusae tamquam in carceres, ut ibi purgentur, et, cum purgatae fuerint, ad caelestem patriam revocentur.
+Haec autem positio est haereticorum, qui dicuntur Manichaei, et non solum est contra fidem catholicam, sed etiam contra philosophiam et contra sensibilem experientiam. Contra fidem catholicam est, cum ponat animas ante peccasse quam corporibus essent unitae, cum dicat Apostolus de Iacob et Esau, ad Romanos 9, 11 : <quote xml:id="bb-l2d18a2q2-Qd1e180" ana="#rom9_11">Antequam aliquid boni et mali egissent</quote> ; ponat etiam nullam animam damnari finaliter, et ita timorem Dei auferat de corde.
+Contra philosophiam est, dum ponit animas circuire diversa corpora, cum propria forma in propria materia habeat fieri ; dum etiam ponit quod corpus comparatur ad animam non sicut perfectibile, sed sicut carcer ; quod si verum est, homo non est vera species, cum exanima et corpore non fiat unum.
+Contra rationem et sensibilem experientiam est, quia videmus animam, quantumcumque bonam, nolle a corpore separari, secundum quod dicit Apostolus : <quote xml:id="bb-l2d18a2q2-Qd1e183" ana="#IIcor5_4">Nolumus exspoliari, sed supervestiri</quote> ; quod mirum esset, si ad corpus naturalem aptitudinem et inclinationem non haberet sicut ad suum sodalem, non sicut ad carcerem. Videmus etiam quod nihil novimus nisi ea quae, postquam nati sumus, didicimus ; quod non esset, si animae nostrae a primordio creatae fuissent et in caelo peccassent : multa enim alia scirent. Quodsi tu dicas quod mole corporis oppressae obliviscuntur, quaero tunc : quare processu temporis non recordantur aliqua ?</p>
+ 
+               <p xml:id="bb-l2d18a2q2-d1e188">Tertius modus dicendi est quod animae non simul sunt creatae, sed successive producuntur in suis corporibus ; et in hoc consenserunt omnes catholici tractatores ; et adeo certum est quod non licet alicui dubitare de animabus aliorum hominum ab Adam. Nam de anima Adae dubitasse videtur <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, utrum fuerit ante corpus vel in corpore creata. De istis autem non dubitat, immo improbat quod ante corpus productae fuerint, duplici ratione movente circa animas aliorum hominum, quarum nulla reperitur in anima Adae. Prima est quod animae, cum corporibus uniuntur, originalem culpam contrahunt et inficiuntur, ita quod nullam habent culpam actualem : ergo in eis nec meritum nec demeritum potuit praecedere nec liberi arbitrii usus nec deliberatio veniendi vel non veniendi ad corpus.
+Alia vero ratio est, quia animae nostrae a sua prima origine sunt ignorantes nec noverunt ista quae per sensus addiscunt ; non enim addiscere est reminisci, ut probant Sancti et philosophi.
+Et ideo animae nostrae hac duplici de causa non possunt dici ante corpora productae, tum propter ignorantiam, tum propter originalem culpam, quarum neutra fuit in anima Adae quando in corpus fuit infusa ; et ideo magis de illa dubitavit quam de istis. Probabilius tamen est de illa dicere, sicut supra ostensum fuit, quod fuerit creata in corpore.</p>
+ 
+               <quote xml:id="bb-l2d18a2q2-Qd1e194">De istis autem non solum debemus opinari probabiliter, sed etiam cogimur credere fideliter, quod ante corpora creatae non fuerint ; et hoc omnes catholici sentiunt tractatores. Et sic, quando invenitur eorum auctoritas, quae videatur aliud sonare, pie intelligenda est, quia vel loquuntur secundum aliorum opinionem, vel si secundum propriam loquuntur, intelligunt quod anima, priusquam corpori uniatur, creata est non ordine temporis, sed naturae. Et sic intelligenda sunt verba Gregorii Nazianzeni et verba <name ref="#JohnDamascenus">Damasceni</name> et verba etiam <name ref="#Augustine">Augustini</name>, in libro De anima et spiritu qui dicit quod concupiscibilitas et irascibilitas prius insunt animae quam ipsa uniatur corpori. In omnibus enim istis magis notatur ordo naturae quam temporis.
+Concedendae sunt ergo rationes ostendentes quod animae non fuerunt simul creatae.</quote>
+            </div>
+            <div xml:id="bb-l2d18a2q2-Dd1e205">
+               <head xml:id="bb-l2d18a2q2-Hd1e207">Ad rationes</head>
+
+               <p xml:id="bb-l2d18a2q2-d1e210">1. Ad illud quod obicitur primo de Iob, dicendum quod <mentioned> tecum </mentioned> non dicit ibi associationem quantum ad simultatem durationis, sed dicit conformitatem ln participatione rationis, quasi diceret : Feci tecum, id est tibi similem.</p>
+               <p xml:id="bb-l2d18a2q2-d1e216">2. Ad illud quod obicitur, quod angeli sunt simul creati, quia incorruptibiles, dicendum quod ista non est ratio tota, sed quia sunt incorruptibiles, ita quod non habent inclinationem ad alicuius alterius rei perfectionem. Anima vero, cum sit perfectio corporis, naturalem habet inclinationem ad corpus ; et ideo, quamvis sit incorruptibilis et a corpore separabilis, debet tamen tunc produci quando facta est formatio corporis, secundum exigentiam inclinationis ad corpus, quam non est ponere in angelis. Qui autem hanc inclinationem negat esse in animabus, indiget sensu.</p>
+               <p xml:id="bb-l2d18a2q2-d1e219">3. Ad illud quod obicitur, quod omnis animae duratio a parte post est aequalis durationi angeli, ergo et a parte ante, dicendum quod non est simile, quia duratio aeviterni a parte post est infinita, et infinitum infinito non est maius ; et ideo nulla substantia spiritualis incorruptibilis potest aliam excedere quantum ad durationem ex parte post. Quantum autem ad durationem ex parte ante est finitas, et ex illa parte potest esse excessus, et excedit duratio angeli durationem animae propter naturam animae, per quam habet uniri proprio corpori ut perfectibili. Et quia corpora non decuit simul esse, sed successive produci, spiritus similiter humanos oportuit non simul produci, sed successive.</p>
+               <p xml:id="bb-l2d18a2q2-d1e222">4. Ad illud quod obicitur, quod corpus est propter animam, dicendum quod verum est, sed tamen non oportet propter hoc quod anima praecedat secundum rem, sed solum secundum intentionem artificis ; finis enim, etsi praecedat in intentione, tamen habet sequi in executione.</p>
+               <p xml:id="bb-l2d18a2q2-d1e226">5. Ad, illud quod obicitur, quod deberet esse spiritus, qui modo sit separatus, modo coniunctus, dicendum quod illa combinatio non est congrua nec debet esse per naturam. Spiritus enim, qui naturaliter coniungitur corpori, nunquam natus est a corpore separari nisi propter poenam peccati. Cum enim sit incorruptibilis secundum naturalem institutionem, debet ei aptari corpus incorruptibile, cum non possit ab eo separari absque dolore ; et ideo illa tertia differentia spiritus non debet naturaliter reperiri.
+Posset tamen dici quod competentius est animam manere post corpus quam ante, quia incorruptibile necessario excedit corruptibile duratione ex parte post, sed commetiri se potest duratione ex parte ante. Et hoc quidem decebat esse in anima et corpore, cum proportio debeat esse perfectionis ad perfectibile, quanta potest esse.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

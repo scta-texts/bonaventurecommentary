@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p1tqprae">
+            <head xml:id="bb-l2d25p1tqprae-Hd1e99">Praeambulum</head>
+            <p xml:id="bb-l2d25p1tqprae-d1e102">Ad intelligentiam huius partis incidit hic quaestio, quid sit liberum arbitrium secundum rem. Et quoniam eius quidditas et natura cognoscitur in assignando convenientiam et differentiam ipsius ad voluntatem et rationem, ideo de ipso quaerendum est in comparatione ad rationem et voluntatem.
+Ad huius autem comparationis dilucidationem circa sex contingit dubitare et quaerere.
+Primo enim quaeritur, utrum liberum arbitrium sit in solis habentibus rationem et voluntatem.
+Secundo, dato quod sic, quaeritur, utrum sit potentia distincta contra rationem et voluntatem an non.
+Tertio, dato quod non, quaeritur, utrum complectatur simul rationem et voluntatem.
+Quarto, dato quod sic, quaeritur, utrum complectatur illas duas potentias per modum potentiae an per modum habitus.
+Quinto, dato quod per modum habitus, quaeritur, utrum habitus ille addat aliquid per essentiam rationi et voluntati.
+Sexto et ultimo quaeritur, secundum quam illarum duarum potentiarum principalius insit animae libertas arbitrii, utrum videlicet secundum rationem an secundum voluntatem.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p1a1q4">
+            <head xml:id="bb-l2d25p1a1q4-Hd1e99">Quaestio 4</head>
+            <head xml:id="bb-l2d25p1a1q4-Hd1e102" type="question-title">Utrum liberum arbitrium sit nomen habitus vel potentiae.</head>
+            <p xml:id="bb-l2d25p1a1q4-d1e105">Quarto quaeritur, utrum liberum arbitrium complectatur rationem et voluntatem per modum potentiae an per modum habitus.</p>
+            <div xml:id="bb-l2d25p1a1q4-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p1a1q4-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p1a1q4-d1e113">Et quod per modum potentiae, videtur :</p>
+
+               <p xml:id="bb-l2d25p1a1q4-d1e116">Primo per <name ref="#Anselm">Anselmum</name>, in libro De libero arbitrio, ubi ait sic : <quote xml:id="bb-l2d25p1a1q4-Qd1e121">Liberum arbitrium est potestas servandi rectitudinem</quote>. Sed potestas est in genere potentiae : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e125">Item, <name ref="#Bernard">Bernardus</name>, De libero arbitrio : <quote xml:id="bb-l2d25p1a1q4-Qd1e130">Tolle liberum arbitrium, iam non erit quod salvetur</quote>. Sed salvari non dicitur nisi substantia vel potentia ratione substantiae : ergo liberum arbitrium vel est nomen substantiae vel potentiae ; sed non est substantiae : ergo est potentiae.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e134">Item, in nobis est ponere aliquam potentiam quae semper inclinat ad bonum simpliciter, utpote synderesim, et aliquam quae semper inclinat ad bonum ut nunc, quantum est de se, utpote sensualitatem : ergo est ponere potentiam medio modo se habentem ; hanc autem dicimus liberum arbitrium : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e138">Item, omne quod est susceptibile habitus, est potentia ; sed liberum arbitrium est susceptibile habitus, utpote gratiae : ergo est potentia. Media patet per <name ref="#Augustine">Augustinum</name>, qui dicit quod <quote xml:id="bb-l2d25p1a1q4-Qd1e143">gratia se habet ad liberum arbitrium sicut sessor ad equum</quote>.</p>
+
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e147">Sed contra : <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-l2d25p1a1q4-Qd1e152">Libero arbitrio male utens, homo et se perdidit et ipsum</quote>. Sed nulla potentia peccando perditur : ergo liberum arbitrium non est potentia.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e156">Item, liberum arbitrium sic definitur ab <name ref="#Augustine">Augustino</name>, cuius definitio posita est distinctione praecedenti : <quote xml:id="bb-l2d25p1a1q4-Qd1e161">Liberum arbitrium est facultas voluntatis et rationis</quote>. Sed facultas est illud quo potentia efficitur facilis : ergo, cum omne illud quod reddit potentiam facilem ad opus, reddat eam habilem, et tale sit habitus, videtur etc.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e165">Item, <name ref="#Bernard">Bernardus</name>, De libero arbitrio :<quote xml:id="bb-l2d25p1a1q4-Qd1e170"> Liberum arbitrium est habitus animi liber sui</quote>. Sed, si haec definitio recte est assignata, videtur, quod liberum arbitrium essentialiter sit habitus ; sed non nisi rationis et voluntatis : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e174">Item, liberum arbitrium non est aliud, sicut Magister dicit in littera et philosophi definiunt, quam liberum iudicium ; sed iudicium non est potentia, sed actus vel habitus : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e177">Item, potentiae non est potentia, nec potentia dicitur esse in potentia ; sed liberum arbitrium est facultas rationis et voluntatis, et est in ratione et voluntate : ergo non videtur quod sit potentia aliqua ; et est potentia vel habitus : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q4-d1e181">Item, omne quod habet diminui et augeri potius habet rationem habitus quam potentiae ; sed liberum arbitrium est huiusmodi, sicut Magister dicit in littera, quod maior libertas est in Beatis quam in confirmatis : ergo etc.</p>
+            </div>
+            <div xml:id="bb-l2d25p1a1q4-Dd1e185">
+               <head xml:id="bb-l2d25p1a1q4-Hd1e187">Conclusio</head>
+               <head xml:id="bb-l2d25p1a1q4-Hd1e190" type="question-title">Liberum arbitrium principaliter dicit habitum et complectitur rationem et voluntatem, 
+        non tanquam una potentia ex eis constituta, sed tanquam unus habitus.
+      </head>
+               <p xml:id="bb-l2d25p1a1q4-d1e193">Respondeo : Dicendum quod cum quaeritur, utrum liberum arbitrium sit nomen habitus aut potentiae, hoc dupliciter potest quaeri : aut ita quod quaeratur, utrum praecise nominet habitum vel praecise nominet potentiam. Et talis quaestio parum habet difficultatis, pro eo quod fere omnia nomina potentiarum animae aliquando accipiuntur pro potentiis, aliquando pro habitibus, aliquando pro actibus. Sicut enim vult <name ref="#Aristotle">Philosophus</name>, intellectus vocatur aliquando potentia intellectiva, aliquando habitus intelligendi, aliquando actus. Et <name ref="#Anselm">Anselmus</name> dicit quod <quote xml:id="bb-l2d25p1a1q4-Qd1e201">voluntas aliquando dicitur instrumentum, aliquando affectus, aliquando usus</quote>. Et ideo hoc in proposita quaestione non intenditur.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e205">Alio modo potest intelligi praedicta quaestio ut hoc inquiratur, cui videlicet primo et principaliter nomen liberi arbitrii imponatur, secundum quod de eo sacri doctores loquuntur. Et ad istam quaestionem triplex est modus respondendi secundum diversos.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e208">Quidam enim senserunt quod liberum arbitrium nomen est potentiae, quae se habet per modum universalis ad rationem et voluntatem et comprehendit eas, sicut totum universale comprehendit partes. Unde sicut potentia rationalis rationi et voluntati dicitur esse communis, sic et libertas arbitrii, secundum istum modum dicendi.
+Sed istud supra improbatum est. Si enim nominaret potentiam universalem ad rationem et voluntatem, iam, cum ratio et voluntas sint duae potentiae rationales, iam essent in eis duae libertates, et duo libera arbitria essent in quolibet homine.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e212">Et ideo est alia positio, quod liberum arbitrium nominat potentiam ex voluntate et ratione constitutam ad aliquid faciendum, ad quod neutra illarum per se poterat. Et quia una iuncta alteri non tantummodo reddit potentiam potentem, immo etiam facilem, hinc est quod liberum arbitrium non tantummodo nominat potentiam, sed etiam nominat facilem potentiam et habilitatem. Et propterea nomen illud, quamvis sit nomen impositum potentiae, videtur tamen esse nomen habitus.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e215">Sed, quoniam difficile est intelligere qualiter ex duabus potentiis una constituatur vel quomodo liberum arbitrium, loquendo formaliter et proprie, sit duae potentiae, maxime cum non dicatur esse ratio et voluntas, sed facultas rationis et voluntatis, ideo est tertius modus dicendi quod liberum arbitrium est nomen principaliter impositum habitui.
+Et hoc plane manifestat ipsa nominis impositio. Arbitrium enim non dicit potentiam, sed habitum. Manifestat etiam ipsa notificatio : non enim dicitur liberum arbitrium esse potentia facilis, sed facultas potentiarum. Quemadmodum autem, cum dico potentiam facilem, dico potentiam habilitatam, sic, cum dico facultatem potentiae, dico habitum eiusdem. Quoniam igitur liberum arbitrium secundum propriam suam assignationem facultas rationis et voluntatis recte esse dicitur, hinc est quod liberum arbitrium principaliter dicit habitum et complectitur rationem et voluntatem, non tamquam una potentia ex eis constituta, sed tamquam unus habitus, qui quidem recte dicitur facultas et dominium, qui consurgit ex coniunctione utriusque et potens est super actus uiriusque potentiae, per se et in se consideratae, sicut arbitraria potestas in duabus personis regimen habet super actus utriusque in se consideratae.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e218">Concedendae sunt igitur rationes ostendentes quod liberum arbitrium nominat habitum ; verum enim concludunt, quia habitui principaliter imponitur. Unde essentialiter loquendo, haec est vera : liberum arbitrium est habitus animae sive facultas voluntatis et rationis.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q4-d1e221">Ad ea vero quae in contrarium obiciuntur, de facili respondetur. Concedo enim quod liberum arbitrium aliquando supponit potentiam et accipitur pro potentia ; sed hoc non est de sua principali significatione, sed sicut nomen potentiae trahitur ad nomen habitus, sic nomen habitus frequenter ad nomen potentiae. Et sic patent ad utramque partem obiecta.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

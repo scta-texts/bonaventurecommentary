@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2a2q2">
+            <head xml:id="bb-l2d24p2a2q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d24p2a2q2-Hd1e102" type="question-title">Utrum pars inferior possit peccare mortaliter absque superiori.</head>
+ 
+            <p xml:id="bb-l2d24p2a2q2-d1e105">Secundo quaeritur, utrum pars inferior possit peccare mortaliter absque superiori.</p>
+            <div xml:id="bb-l2d24p2a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p2a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p2a2q2-d1e113">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera : <quote xml:id="bb-l2d24p2a2q2-Qd1e118" source="http://scta.info/resource/adt-l12">Si peccatum diu in cogitatione delectationis teneatur, etsi voluntas perficiendi desit, mortale est</quote>. Sed tunc vir non dicitur comedere nisi quando adest voluntas perficiendi : ergo, sola muliere comedente, contingit peccare mortaliter.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e122">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera, capitulo illo : Nec sane, quod, si sola mulier comedat, totus homo damnatur ; sed hoc non est nisi propter peccatum mortale : ergo, sola muliere comedente, contingit peccare mortaliter.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e128">Item, superior portio rationis dicitur, in quantum nata est aspicere superiora ; sed contingit aliquod peccatum committere, ita quod nihil cogitemus de legibus aeternis : ergo contingit aliquem peccare mortaliter solo actu inferioris partis, nihil faciente actu superioris.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e131">Item, frequenter offendit quis proximum, nihil cogitans de offensa Dei ; sed inferior portio est secundum quam ordinamur ad proximum, superior, secundum quam ordinamur ad Deum : ergo contingit peccare mortaliter ex actu inferioris partis sine actu superioris.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e135">Item, magis prona est ad peccatum inferior portio quam superior, cum ex coniunctione.ad sensualitatem mollior sit, et ob hoc mulier nuncupetur. Ergo, si superior portio rationis potest peccare per se ipsam, multo fortius videtur quod inferior.</p>
+  
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e138">Sed contra : <name ref="#Augustine">Augustinus</name>, XII De Trinitate, et habetur in littera, capitulo illo : Nec sane et, ubi dicitur quod, <quote xml:id="bb-l2d24p2a2q2-Qd1e143" source="http://scta.info/resource/adt-l12">cum mens sola cogitatione oblectatur, de talibus cogitationibus venia petenda est pectusque percutiendum et dicendum : Dimitte nobis debita</quote> etc. Sed talis est poenitentia venialium : ergo, quamdiu mulier comedit absque viro, peccatum est solum veniale.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e147">Item, impossibile est inferiorem portionem damnari absque superiori ; sed superior portio nunquam damnatur sine culpa : ergo impossibile est inferiorem portionem absque superiori peccare mortaliter.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e150">Item, impossibile est esse peccatum mortale sine consensu ; sed consensus residet penes iudicem et arbitrum principalem : haec autem est superior portio rationis, sicut dicit <name ref="#Augustine">Augustinus</name> et habetur in littera : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e156">Item, impossibile est aliquem peccare mortaliter sine aversione ; sed eius est averti cuius est converti, hoc autem est superioris partis : ergo inferiorem portionem absque superiori impossibile est peccare mortaliter.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e159">Item, nunquam meretur aliquis in cogitatione boni nisi proponat illud facere vel complere, si possit, Ergo similiter nunquam aliquis demeretur demerito mortalis peccati in cogitatione mali nisi proponat illud perficere, si possit ; hoc autem non est sine superiori portione rationis : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e163">Item, quando aliquod peccatum est veniale, consentire in illud non facit peccatum mortale ; sed delectatio carnalis citra consensum est veniale : ergo consentire in delectationem, ita quod non consentiatur in opus, non erit mortale. Si ergo consensus in opus est superioris partis, sicut dicit <name ref="#Augustine">Augustinus</name>, nunquam est peccatum mortale in inferiori parte absque superiori.
+Quod autem consensus in veniale non faciat mortale, probatur per hoc quod consensus in verbum otiosum et mendacium iocosum non est mortalis, sed venialis.
+Si autem tu dicas quod non est simile, quia delectatio carnalis via est ad mortale peccatum, tunc ego quaero quare potius consensus in delectationem attribuitur inferiori parti quam superiori et quare consensus in opus potius appropriatur superiori ? Cum enim inferioris partis ita bene sit regere membra sicut et affectiones et alia, videtur quod ita bene sit in potestate inferioris partis praebere arma iniquitatis peccato sicut etiam in delectationem consentire.</p>
+
+               <p xml:id="bb-l2d24p2a2q2-d1e169">Ideo est quaestio quae differentia sit inter peccare et comedere ; et utrum comedere sit idem quod consentire ; et quando dicatur mulier comedere et quando vir ; et quando mulier comedendo peccat mortaliter et quando venialiter.
+Non enim videtur illud verbum <name ref="#Augustine">Augustini</name> de comestione viri esse generaliter verum, quod tunc comedit vir quando praebet arma iniquitatis peccato. Multa enim sunt peccata quae consummantur in sola cogitatione interna ; et tunc comedit et nulla membra corporis praebentur arma iniquitatis, cum illud peccatum non habeat exerceri per membra corporis.</p>
+
+            </div>
+            <div xml:id="bb-l2d24p2a2q2-Dd1e176">
+               <head xml:id="bb-l2d24p2a2q2-Hd1e178">Conclusio</head>
+               <head xml:id="bb-l2d24p2a2q2-Hd1e181" type="question-title">Inferior ratioinis portio non potest mortaliter peccare absque superiori portione rationis</head>
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e184">Respondeo : Ad praedictorum intelligentiam est notandum quod, etsi possibile sit mulierem comedere absque viro, non tamen est possibile mulierem peccare mortaliter absque viro, sive inferiorem portionem absque superiori. Et hoc patet sic :</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e187">Aliud enim est peccatum mortale committere, aliud cibum vetitum degustare.
+Peccatum enim mortale dicit deordinationem a Deo, quae est cum consensu et contemptu ; inordinatio autem talis est per aversionem, et haec est superioris partis : eius enim est averti cuius est converti. Consentire autem ad illam potentiam spectat apud quam residet iudiciaria potestas et regiminis auctoritas ; haec autem est superior portio rationis ; et ideo impossibile est aliquod peccatum mortale esse in nobis, quod superiori portioni non imputetur et in quo ipsa non deordinetur, propter naturam peccati mortalis, quae exigit ibi esse et contemptum aversionis et consensum deliberationis, quorum utrumque est superioris partis.
+Est etiam ratio ex istarum potentiarum connexione, quoniam inter superiorem portionem et inferiorem lex coniugii est, et idea una tenetur alteram, regere et reprimere. Non sic autem est inter sensualitatem et inferiorem portionem ; et propter hoc, cum inferior portio deordinatur, negligentiae viri, qui debuit eam reprimere, imputatur et pariter cum illa culpabilis iudicatur. Sic igitur patet quod impossibile est inferiorem portionem rationis absque superiori peccare mortaliter.</p>
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e190">Possibile tamen est unam earum absque altera comedere ; et hoc, quia comestio dicit conversionem ad delectationem secundum actum proprium mulieris aut viri. Contingit autem rationalem potentiam converti ad delectationem a sensualitate oblatam secundum actum inferioris portionis, ita tamen quod non convertitur secundum actum superioris ; et ita contingit mulierem comedere, viro non degustante.</p>
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e194">Et hoc patet, si attendamus progressum tentationis et delectationis. Primo enim delectabile offertur sive percipitur ; secundo vero delectatio advertitur : tertio vero in id ad quod trahit delectatio consentitur vel dissentitur. Delectabile percipere est sensualitatis ; delectationem advertere est inferioris partis rationis, quae interiores motus et affectus habet diiudicare et cognoscere ; hoc enim non est potentiae sensitivae. Definire autem an hoc sit amplectendum vel respuendum, hoc est superioris partis, in qua residet auctoritas iudiciariae potestatis.
+Contingit igitur delectari ad apprehensionem delectabilis ante adversionem delectationis : et hoc est sensualitatis et absque dubio est veniale peccatum. Contingit iterum delectari post apprehensionem delectabilis et perceptionem delectationis ante plenum consensum deliberationis : et hoc est inferioris partis et aliquando mortale, aliquando veniale ; et tunc dicitur comedere sola mulier. Contingit iterum tertio delectari post apprehensionem delectabilis et adversionem delectationis et post plenum consensum deliberationis ; et tunc dicitur comedere vir, et tunc est mortale peccatum in his generibus peccatorum quorum actus sunt in prohibitione, propter plenum consensum et deordinationem.
+Unde, cum tentatio inchoat a sensualitate, planum est esse veniale ; cum consummatur in superiori parte rationis, planum est esse mortale ; cum vero sola mulier comedit, potest esse mortale vel veniale ; et ideo dubium est discernere quando sit mortale vel veniale.
+</p>
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e197">Potest tamen discerni hoc modo : quia, cum percipitur delectatio, aut statim repellitur aut retinetur. Si statim repellitur, tunc leve est peccatum. Si vero tenetur, hoc potest esse tripliciter : aut quia placet ipsa delectatio et operis consummatio, ita quod est voluntas delectandi in cogitatione et etiam in opere, si facultas adesset ; et tunc est ibi plenus consensus et peccatum mortale, simul concurrente viri et mulieris comestione. Aut placet delectatio, sed tamen displicet peccati consummatio ; et tunc est consensus semiplenus, et tunc dicitur manducare mulier ; nihilominus tamen peccat mortaliter, cum in illam consentit delectationem. Aut utrumque displicet, scilicet ipsa interior delectatio et operis consummatio ; et tunc aut advertit periculum aut non advertit. Si non advertit periculum delectationis nec repellit eam, peccat, sed non mortaliter ; gravius tamen peccat quam si statim et viriliter repulisset. Aut advertit periculum et delectationem illam non repellit, sed mentem in talibus cogitationibus revolvi sinit ; et tunc dicunt magistri quod peccat mortaliter, quia, quamvis non sit ibi consensus verus, est tamen ibi consensus interpretativus ; et comedit sola multer, nihilominus tamen peccatum illud imputatur viro, quia, cum eam compescere debuisset et teneretur, non tamen compescuit.</p>
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e200">Hoc tamen, quod nunc ultimo dictum est, non est usquequaque certum. Negant enim aliqui esse mortale in negligentia reprimendi, ubi est displicentia, quantumcumque quis periculum advertat.
+Sed tamen securior via tenenda est, quidquid sit rei veritas. Et si cui hoc contingat, sanum est consilium quod de ipso ut de mortali poenlteat ; in dubiis enim securior via eligenda est.
+Et nota quod non de quacumque delectatione loquimur, utpote de illa qua quis delectatur cogitando de pulcritudine mulieris, sed de illa quae surglt ex cogitatione illius operis nefarii.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e203">Et sic patet quod mulierem contingit comedere sine viro, pro eo quod vir solum dicitur comedere, quando plenus consensus adest ; et tunc dicuntur arma iniquitatis praeberi peccato, quia totus homo ibi ad peccatum incurvatur, sive sit peccatum carnis sive spiritus. Peccare autem non potest mortaliter absque viro, quia non potest esse peccatum sine viri consensu vero vel interpretativo.
+Concedendae sunt Igitur rationes ostendentes quod inferior portio absque superiori non potest peccare mortaliter, licet duae ultimae non cogant. Illae enim ostendunt quod mulier non potest comedere sine viro, per hoc quod consensum in delectationem dicunt non esse peccatum ; quod absque dubio falsum est, sicut dicit <name ref="#Augustine">Augustinus</name> in littera.</p>
+               <p xml:id="bb-l2d24p2a2q2-d1e209">Nec valet quod obicit de consensu in bonum vel de consensu in verbum otiosum. Primum non valet, quia plura requiruntur ad bonum consummandum quam ad malum perpetrandum ; unius enim circumstantiae defectus operationem deformat. Secundum non valet, quia nullum est ibi periculum in delectatione veniali, cuius actus est venialis ; ibi autem periculum est, cum delectatio via est perducens ad peccatum mortale.</p>
+ 
+               <p xml:id="bb-l2d24p2a2q2-d1e212">Ad illa vero quae ultimo quaerebantur, iam patet responsio ex praedictis, videlicet quae differentia sit inter comestionem et culpae mortalis commissionem. Patet etiam quando vir dicitur comedere et quando mulier. Patet enim quando mulier in comedendo peccat mortaliter et quando peccat venialiter. Patet etiam quare consensus in delectationem attribuitur mulieri et consensus in opus viro, quia consensus in operis perpetrationem est plenarius consensus ; consensus vero in delectationem absque opere est consensus semiplenus. Si autem peccatum consisteret in sola delectatione, tunc consensus in delectationem posset esse plenarius consensus ; et tunc non tantum esset superioris partis, sed etiam inferioris ; unde non tantum dicitur vir consentire, quia movet exteriora membra, sed quia movetur voluntate plenaria. Et hanc circumloquitur <name ref="#Augustine">Augustinus</name> in eo quod dicit virum comedere, cum arma iniquitatis peccato praebet.</p>
+ 
+            </div>
+            <div xml:id="bb-l2d24p2a2q2-Dd1e220">
+               <head xml:id="bb-l2d24p2a2q2-Hd1e222">Ad rationes</head>
+      
+               <p xml:id="bb-l2d24p2a2q2-d1e225">1-2. Ad rationes autem quae adducuntur ad oppositum, quibus ostenditur quod mulier sine viro mortaliter peccare potest, plana est responsio. Nam primae duae auctoritates loquuntur de comestione, non de culpae commissione.</p>
+
+               <p xml:id="bb-l2d24p2a2q2-d1e228">Ad illud vero quod obicitur tertio ioco, quod superior portio rationis habet converti ad superiora, dicendum quod non solum actus eius est ad superna, sed etiam actus eius est discernere et sententiare de his quae fiunt in regno animae et compescere vires inferiores ; et ideo, cum non compescit, imputatur sibi.</p>
+
+               <p xml:id="bb-l2d24p2a2q2-d1e231">4-5. Ad duo sequentia similiter patet responsio. Illis enim duabus rationibus ostenditur quod peccatum potest esse in inferiori portione rationis absque proprio actu rationis superioris. Et hoc quidem verum est ; sed tamen ex hoc non sequitur quod peccatum possit esse in inferiori parte rationis absque superiori, quiaipsa negligentia cohibendi inferiorem partem in sui motus deordinatione reddit ipsam cui pabilem, ut saepe dictum est.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

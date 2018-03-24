@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d28a1q1">
+            <head xml:id="bb-l2d28a1q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d28a1q1-Hd1e102" type="question-title">Utrum liberum arbitrium absque gratia gratum faciente possit a culpa resurgere</head>
+ 
+            <p xml:id="bb-l2d28a1q1-d1e105">Circa primum sic proceditur et quaeritur, utrum liberum arbitrium absque gratia gratum faciente pcssit a culpa resurgere.</p>
+            <div xml:id="bb-l2d28a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d28a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d28a1q1-d1e113">Et quod non, videtur : Primo per illud quod dicitur ad Romanos 3, 24 : <quote xml:id="bb-l2d28a1q1-Qd1e115" ana="#rom3_24">Iustificati gratis per gratiam ipsius</quote> ; et paulo ante : <quote xml:id="bb-l2d28a1q1-Qd1e118" ana="#rom3_20">Ex operibus legis non iustificatur omnis caro</quote> ; et expressius ad Titum 3, 24 : <quote xml:id="bb-l2d28a1q1-Qd1e121" ana="#tit3_24">Non ex operibus iustitiae, quae fecimus nos, sed secundum suam misericordiam</quote> etc. Igitur, gratia gratum faciente circumscripta, non potest liberum arbitrium per se resurgere a culpa.</p>
+               <p xml:id="bb-l2d28a1q1-d1e125">Item, ad Galatas 2, 21 : <quote xml:id="bb-l2d28a1q1-Qd1e127" ana="#gal2_21">Non abicio gratiam Dei ; si enim pet legem iustitia, ergo Christus gratis mortuus est</quote>. Si ergo virtute liberi arbitrii posset homo ad iustitiam redire, videtur quod Christus frustra mortuus esset ; quod si hoc est impium dicere, patet etc.</p>
+               <p xml:id="bb-l2d28a1q1-d1e131">Item, nemo petit ab alio quod habet in sua potestate ; sed in Psalmo [40, 5] petit vir sanctus : <quote xml:id="bb-l2d28a1q1-Qd1e133" ana="#ps40_5">Sana animam meam, quia peccavi tibi</quote> ; docet etiam nos ipse Salvator petere in oratione dominica : <quote xml:id="bb-l2d28a1q1-Qd1e136" ana="#mt6_12">Et dimitte nobis debita nostra</quote>. Ergo etc.</p>
+               <p xml:id="bb-l2d28a1q1-d1e140">Item, hoc ostenditur ratione, quam facit <name ref="#Bernard">Bernardus</name> : Cum aliquis de impio fit pius, de malo fit bonus ; et cum de malo fit bonus, melioratur ; nullus tamen habet posse supra se : ergo nullus potest se ipsum meliorare propria virtute : ergo nec absque gratia Dei a culpa resurgere.</p>
+               <p xml:id="bb-l2d28a1q1-d1e147">Item, omni peccato offenditur Deus, qui est ipsa iustitia, et omne peccatum fit contra mandatum Dei ; sed tanta est offensa quantus est ille qui offenditur : cum igitur ipse sit infinitus, offensa habet aliquo modo rationem infiniti. Si igitur liberum arbitrium potentiae finitae est, impossibile est quod in pristinum statum, redeat nisi reducatur per divinam misericordiam, quae sua gratuita bonitate condonet culpam sive remittat offensam ; hoc autem non fit sine gratia : ergo etc.</p>
+               <p xml:id="bb-l2d28a1q1-d1e150">Item, peccatum est privatio vitae spiritualis et privatio lucis ; sed vita spiritualis non potest redire ad animam nisi a fonte vitae, nec lux nisi a fonte Ilicis : ergo impossibile est quod anima resurgat a culpa, nisi Deus, qui est fons vitae et lux perennis, sua benignitate eam vivificet et illuminet ; hoc autem non est nisi per donum gratiae : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d28a1q1-d1e153">Sed contra :
+<name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-l2d28a1q1-Qd1e158" source="http://scta.info/resource/jddfo-l4c20">Peccatum est ab eo quod est secundum naturam in id quod est praeter naturam aversio</quote> ; sed facilius est unicuique rei moveri secundum naturam quam praeter naturam : ergo, si liberum arbitrium virtute propria peccando potest moveri praeter naturam, virtute propria redire poterit ad naturam : ergo sicut potuit cadere, ita et resurgere.</p>
+               <p xml:id="bb-l2d28a1q1-d1e162">Item, maior est virtus liberi arbitrii quam naturae ; sed natura, cum infirmatur, sanari potest absque auxilio medicinae : ergo multo fortius liberum arbitrium, cum infirmatur per culpam, sanari potest absque omni gratia.</p>
+               <p xml:id="bb-l2d28a1q1-d1e165">Item, absque gratia gratum faciente de ignorante potest fieri homo sciens, non solum in his quae subsunt naturae, sed etiam in his quae sunt supra naturam : ergo pari ratione absque gratia gratum faciente poterit homo fieri iustus de peccatore.</p>
+               <p xml:id="bb-l2d28a1q1-d1e168">Item, peccator in mortali peccato existens potest desiderare et velle iustitiam ; sed nihil aliud est. esse iustum quam velle iustitiam, quia iustitia est rectitudo voluntatis ; tunc autem voluntas recta est quando vult iustitiam : ergo peccator in mortali peccato absque gratia gratum faciente iustificari potest.</p>
+               <p xml:id="bb-l2d28a1q1-d1e172">Item, per eamdem vim per quam quis movetur ad aliquid quiescit ibidem : ergo, si aliquis non movetur ad culpam nisi voluntate, non quiescit ibi nisi per voluntatem et quamdiu vult : ergo, si non vult in culpa persistere absque gratia gratum faciente, videtur quod possit a culpa resurgere. Si tu dicas quod non potest velle, contra : <quote xml:id="bb-l2d28a1q1-Qd1e174" source="http://scta.info/resource/aristmet-l9">Potestates rationales sunt ad opposita</quote> sicut dicit <name ref="#Aristotle">Philosophus</name>, et voluntas, quamdiu est in via, vertibilis est : ergo sicut voluntarie potuit culpam appetere, ita voluntarie potest a culpa resurgere.</p>
+               <p xml:id="bb-l2d28a1q1-d1e181">Item, inter gratiam et culpam media est innocentia, sicut melius patebit infra ; ergo, cum possit ab aliquo haberi innocentia sine gratia, sicut habita fuit ab Adam in primordio, et innocentia habita deleatur culpa, videtur quod sine gratia gratum faciente aliquis possit a culpa resurgere.</p>
+            </div>
+            <div xml:id="bb-l2d28a1q1-Dd1e185">
+               <head xml:id="bb-l2d28a1q1-Hd1e187">Conclusio</head>
+               <head xml:id="bb-l2d28a1q1-Hd1e190" type="question-title">Ut liberum arbitrium resurgat a culpa, necessaria 
+    est etiam gratia, secundum quod dicitur habitus animi</head>
+ 
+               <p xml:id="bb-l2d28a1q1-d1e193">Respondeo : Dicendum quod in huius quaestionis determinatione aliter senserunt philosophi, aliter senserunt haeretici, aliter senserunt tractatores catholici.</p>
+               <p xml:id="bb-l2d28a1q1-d1e196">
+                  <name ref="#Aristotle">Philosophi</name> enim, ignorantes qualiter peccato offendatur divina maiestas et qualiter per ipsum adimatur potentiarum habilitas, dixerunt quod homo per exercitationem poterat iustus effici, sicut per inordinationem a recta ratione factus erat iniustus. Unde et <name ref="#Aristotle">Philosophus</name> dicit quod pravus, ad meliores exercitationes deductus, aut multum proficiet aut perfecte in contrarium habitum restituitur.</p>
+               <p xml:id="bb-l2d28a1q1-d1e205">Haeretici vero, aliquod lumen fidei habentes, cognoverunt quod per peccatum offenditur maiestas divina et quodam modo damnificatur. Excaecati tamen non consideraverunt qualiter ex culpa natura infirmatur ; et ideo dixerunt quod ad hoc quod liberum arbitrium a culpa resurgat non est sibi necessaria aliqua gratia curans, sed sufficit sola gratuita Dei misericordia, quae inclinatur ad remittendum peccata nostra propter satisfactionem, quam Christus sibi facere voluit, dum se in cruce pro nobis obtulit.
+Sed haec positio non tantum a veritate deficit, sed etiam, dum contraria implicat, se ipsam destruit. Dicit enim quod ad hoc quod liberum arbitrium a culpa resurgat necesse est quod Deus sibi culpam remittat ; et tamen non est necesse quod aliquid sibi tribuat vel circa ipsum faciat. Si enim Deus non mutatur et iterum ipse iuslus iudex est, ut nihil acceptet nisi tantum quantum valet, ad hoc quod culpa remittatur et peccator Deo reconcilietur necesse est quod aliquid ipsi peccatori tribuatur, per quod morbus peccati sanetur.</p>
+               <p xml:id="bb-l2d28a1q1-d1e209">Catholici vero tractatores et luce fidei et auctoritate Scripturae cognoverunt quod peccatum et Dei est offensivum et etiam quodam modo damnificativum, dum homo se transfert de servitio Dei ad servitutem diaboli, et etiam imaginis deformativum. Et ideo dixerunt quod ad hoc quod liberum arbitrium resurgat a culpa, necessaria est gratia, non solum secundum quod gratia dicitur gratuita voluntas Dei nec etiam secundum quod dicitur liberalis passio Christi, sed etiam secundum quod dicitur habitus animi. Gratuita enim voluntas Dei concurrit ad hoc quod fiat offensae remissio : voluntarie enim nobis condonat offensam ; liberalis autem passio Christi concurrit ad hoc quod fiat damni satisfactio ; habitus infusus concurrit ad hoc quod fiat morbi curatio et imaginis reformatio. Et ideo ad hoc quod homo resurgat a culpa, multum per omnem modum necessaria est sibi gratia.
+Concedendae sunt igitur rationes ostendentes quod homo absque gratia gratum faciente non potest a culpa resurgere.</p>
+            </div>
+            <div xml:id="bb-l2d28a1q1-Dd1e214">
+               <head xml:id="bb-l2d28a1q1-Hd1e216">Ad rationes</head>
+               <p xml:id="bb-l2d28a1q1-d1e219">Ad illud vero quod primo obicitur in contrarium, quod motus in id quod est secundum naturam, facilior est quam ille qui est in id quod est praeter naturam, dicendum quod illud verum est de illo motu qui est secundum naturam, ita quod subiacet potestati naturae ; et de illo etiam motu qui est praeter naturam, ita tamen quod non corrumpitur nec diminuitur ibi naturae potestas, sicut est in motu lapidis sursum. Facilius enim regreditur deorsum quam ascenderit sursum, tum quia moveri deorsum est in eius potestate ; tum etiam quia per motum sursum nihil diminuebatur vel adimebatur de eius gravitate. Non sic autem est in proposito, tum quia moveri ad iustitiam est per virtutem supra naturam ; tum etiam quia motus ad culpam diminuit habilitatem liberi arbitrii. Per peccatum enim non solum homo exspoliatur gratuitis, sed etiam vulneratur in naturalibus.</p>
+
+               <p xml:id="bb-l2d28a1q1-d1e222">Et per hoc patet responsio ad sequens, quod obicitur de similitudine sanitatis naturae ad sanitatem voluntatis ; non enim est simile. Nam sanitas corporalis est in potestate naturae, sanitas vero spiritualis est per aliquid quod est supra naturam. Cum autem aliquid infirmatur corporaliter, non omnino naturae perimitur virtus, quae erat principium sanitatis ; et ideo a tali infirmitate ad sanitatem naturaliter potest fieri regressus. In peccato vero perditur ipsa gratia Dei et Justitia, per quam erat spiritualis sanitas ; et pro tanto dicitur grave peccatum esse mortale, quia aufert homini principium vitae. Et propterea, sicut de mortuo non potest, fieri vivus nisi virtute mirabili et supra naturam, sic nec de peccatore potest fieri iustus naturaliter vel voluntarie, sed mirabiliter.</p>
+               <p xml:id="bb-l2d28a1q1-d1e225">Ad illud quod obicitur de ignorante, quod potest fieri sciens sine gratia gratum faciente, dicendum quod non est simile ; ignorantia enim, in quantum huiusmodi, potius dicit defectum poenae quam culpae. Unde ignorans, secundum quod ignorans, non displicet Deo ; peccans autem, secundum quod peccans, Deo displicet ; et ideo culpae recte opponitur gratia, quae reddit Deo acceptum, sicut ignorantiae opponitur scientia. Et quoniam oppositum expelli habet per suum oppositum, ideo non sequitur quodsi ignorantia habet expelli sine gratia, quod similiter culpa.</p>
+               <p xml:id="bb-l2d28a1q1-d1e228">Ad illud quod obicitur, quod peccator, manens in mortali, potest velle iustitiam, dicendum quod velle aliquid est dupliciter : vel exiliter et semiplene, sicut dicitur : Vult, et non vult piger, vel plene et sufficienter, sicut dicit Apostolus ad Philippenses 2, 13 : <quote xml:id="bb-l2d28a1q1-Qd1e230" ana="#phil2_13">Deus operatur in nobis velle et perficere</quote>. Primo modo potest esse in peccatore, et talis voluntas non facit aliquem iustum ; secundo modo non potest esse sine gratia praeveniente et adiuvante voluntatem. Hoc autem secundo modo, non primo, voluntas iustitiae reddit animam iustam.</p>
+               <p xml:id="bb-l2d28a1q1-d1e235">Ad illud quod obicitur, quod per eamdem vim, per quam aliquid movetur, quiescit, dicendum quod verum est in eo motu qui est ad aliquod complementum ; hoc autem non oportet esse in motu corruptionis et destructionis. Aliquis enim interficitur per violentiam, non tamen oportet quod per illam eamdem vim in morte persistat. Et quia peccatum corruptio dicitur, non oportet quod quis persistat in peccato ex solo actu voluntatis, sicut per actum voluntatis se in peccato praecipitavit, sicut patet in eo qui se voluntarie interficit vel voluntarie se demergit.</p>
+               <p xml:id="bb-l2d28a1q1-d1e238">Ad illud quod obicitur, quod Deus possit restituere innocentiam et ita delere culpam absque gratia, dicendum quod hoc verum est ; sed largitas divinae misericordiae sic decrevit auferre malum, per quod homo Deo displicet, ut simul daretur borium, per quod homo Deo placeret ; nec unquam expellit culpam quin sanctificet ipsam animam et in ea habitet per gratiam. Unde nihil est medium secundum tempus inter iustum et impiam ; ex quo enim homo nascitur, necesse est animam eius vel esse perversam per culpam ver erectam per gratiam.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

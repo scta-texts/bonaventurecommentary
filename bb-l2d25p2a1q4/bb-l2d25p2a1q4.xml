@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p2a1q4">
+            <head xml:id="bb-l2d25p2a1q4-Hd1e99">Quaestio 4</head>
+            <head xml:id="bb-l2d25p2a1q4-Hd1e102" type="question-title">Utrum liberum arbitrium ab aliquo agente creato cogi possit.</head>
+ 
+            <p xml:id="bb-l2d25p2a1q4-d1e105">Quarto quaeritur de libero arbitrio in comparatione ad aliud agens creatum, et est quaestio, utrum liberum arbitrium ab aliquo agente creato possit cogi.</p> 
+            <div xml:id="bb-l2d25p2a1q4-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p2a1q4-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p2a1q4-d1e113">Et quod sic, videtur. Tam <name ref="#JohnDamascenus">Damascenus</name> quam <name ref="#Aristotle">Philosophus</name> dicunt quod quaedam sunt operationes partim voluntariae, partim involuntariae et quodam modo permixtae ex voluntario et involuntario, sicut iactare merces in mare et consimilia. Si igitur involuntarium est illud quod est per violentiam, aliquas operationes exeuntes a libero arbitrio contingit permisceri violentia. Ergo, si contingit magis et magis permisceri, contingit eas simpliciter esse involuntarias et coactas : ergo liberum arbitrium cogi potest in actione sua.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e122">Item, maior virtus potest inferre violentiam minori ; sed quod potest inferre violentiam potest compellere : ergo minor virtus a maiori potest compelli ; sed aliqua virtus potentior est libero arbitrio viatoris, utpote virtus angeli : ergo saltem ab angelo liberum arbitrium nostrum potest cogi.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e125">Item, si, aliqua virtus potest impediri ab actu suo, potest violentari ; etsi sufficienter potest impediri, sufficienter potest vioientari ; et si sufficienter potest violentari, potest cogi. Cum igitur liberum arbitrium ab actu suo et usu impediri possit, sicut patet quod diabolus potest auferre usum liberi arbitrii et facere hominem furiosum, ergo videtur quod ab eo liberum arbitrium nostrum possit</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e128">Item, quando radius est iunctus aquae, mota aqua, necesse est moveri radium ; sed multo maiori vinculo coniungitur anima corpori quam conlungatur radius aquae : ergo, moto corpore, necesse est moveri affectus animae. Si igitur aliqua virtus creata potest corpus transmutare, poterit per consequens liberum arbitrium vertere et compellere, ipso nolente.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e132">Item, sicut se habet intellectus ad verum, ita se habet affectus ad bonum ; sed intellectus compelli potest ad credendum aliquod verum : ergo et affectus ad amandum bonum. Si ergo liberum arbitrium non dicit aliud quam rationem et voluntatem, videtur quod, et ipsum compelli possit per actionem alicuius agentis creati.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e135">Item, agens creatum sua actione potest liberum arbitrium cogere coactione inducente, quae est dispositio respectu coactionis sufficientis ; sed dispositio per frequentem sui iterationem et intensionem potest fieri necessitas : ergo videtur quodsi voluntas possit cogi coactione inducente, quod processu temporis compelli possit coactione sufficienti per actionem alicuius creaturae.</p>
+
+               <p xml:id="bb-l2d25p2a1q4-d1e138">Sed contra : <name ref="#Bernard">Bernardus</name>, De libero arbitrio : <quote xml:id="bb-l2d25p2a1q4-Qd1e143">Voluntas pro ingenita sui nobilitate nulla cogitur necessitate</quote>. Si igitur voluntas a nemine potest cogi, et hoc non est ob aliud nisi propter liberi arbitrii libertatem, ergo liberum arbitrium a nulla creatura cogi potest.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e147">Item, si aliqua creatura posset liberum arbitrium hominis cogere, hoc maxime competeret ipsi diabolo, de quo dicitur Iob, 41, 24 : Non est potestas super terram, quae ei possit comparari. Si ergo diabolus liberum arbitrium nostrum non potest cogere, quia tunc faceret nos continue peccare, videtur quod nulla alia creatura possit ipsum cogere.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e150">Item, nulla maior compulsio potest fieri libero arbitrio hominis quam per intentationem mortis ; sed mortis intentatio ad compellendum liberum arbitrium non sufficit, sicut patet in Martyribus sanctis et aliis, qui potius volunt mori quam fidem suam diffiteri : ergo non videtur quod liberum arbitrium ab aliqua creatura possit compelli.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e153">Item, liberum arbitrium est secundum id quod est supremum in anima, cum Ipsius sit regere et movere omnes potentias ; sed eo quod supremum est in anima solus Deus maior est : ergo nulla creatura potest super illud : nulla ergo creatura potest in hominis liberum arbitrium compellendum.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q4-Dd1e157">
+               <head xml:id="bb-l2d25p2a1q4-Hd1e159">Conclusio</head>
+               <head xml:id="bb-l2d25p2a1q4-Hd1e162" type="question-title">Liberum arbitrium ab agente creato quoad actum 
+    exteriorem quidem potest cogi: quoad actum interiorem aliquo modo induci et impediri potest, 
+    non autem cogi</head>
+ 
+               <p xml:id="bb-l2d25p2a1q4-d1e165">Respondeo : Ad praedictorum intelligentiam est notandum quod est loqui de libero arbitrio quantum ad actum exteriorem et quantum ad actum interiorem sive quantum ad actum proprium et quantum ad actum alienum.
+Si loquamur de libero arbitrio quantum ad actum exteriorem, sic respectu talium actuum potest intervenire coactio ; potest enim quis compelli ut genua coram idolo flectat et ut manibus propriis thura altaribus imponat vel incendat.
+Si autem loquamur quantum ad actum interiorem, qui scilicet est velle vel eligere aut consentire, sic respectu talis actus potest liberum arbitrium aliquo modo induci, potest et impediri, sed nullo modo potest compelli.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q4-d1e168">Induci quidem potest, quoniam amat aliud a se et quod infra se est. Unde per oblationem alicuius rei amatae vel ablationem potest induci ad consentiendum in aliquid multum efficaci persuasione, per quem modum idololatrae tentabant sanctos Martyres consentire in idololatria, modo promittendo delectabilia, modo infligendo tristia. Ista tamen inductio longe distat a coactione, sicut probat ipse exitus, quia nec blandimentis allici nec tormentis terreri adeo potuerunt ut a veritate iustitiae muterentur. Et sic liberum arbitrium induci potest, quia amat aliquid infra se, utpote vitam temporalem vel aliud consimile, quod potest agens creatum conferre vel auferre.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q4-d1e171">Potest etiam impediri propter inclinationem et coniunctionem sui ad naturam corporalem, quae subest virtuti creaturae ; unde bene posset aliquis alium ita laedere quod usum liberi arbitrii amitteret ; ex hoc tamen liberum arbitrium non cogeret. Coactio enim ponit liberi arbitrii actum et usum, sed ligatio vel impeditio tollit. Et iter rum, impeditio provenire potest ab inferiori, coactio provenire habet a superiori.
+Et hinc est quod liberum arbitrium, etsi possit induci ab agente creato ratione boni exterioris amati et possit impediri ratione corporis coniuncti, non potest cogi respectu actus proprii. Hanc enim dignitatem habet liberum arbitrium, ut, in quantum liberum, soli Deo sit subiectum ; et quia, in quantum liberum, nulli agenti creato subest, cum coactio sit a superiori, nullum agens creatum potest ipsum cogere.
+Unde concedendae sunt rationes hoc ostendentes.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q4-Dd1e176">
+               <head xml:id="bb-l2d25p2a1q4-Hd1e178">Ad rationes</head>
+
+               <p xml:id="bb-l2d25p2a1q4-d1e181">Ad illud autem quod primo obicitur in contrarium, quod est actio mixta ex voluntario et involuntario, dicendum quod illud intelligitur de actione exteriori, et quantum ad illam potest intervenire coactio. Praeterea, intelligitur ibi de involuntario, prout dicitur involuntarium per violentiam, non, inquam, per violentiam coactionis sufficientis, sed solum inducentis.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e184">Ad illud quod obicitur, quod maior virtus potest violentare minorem, iam patet responsio, quia quantum ad libertatis dignitatem, sicut ostensum fuit in primo problemate, omnes creaturae rationales habent aequalitatem nec una nata est secundum istam proprietatem in alteram agere, et propter hoc nec alteram violentare nec cogere. Cum enim dicitur quod maior virtus potest violentare minorem, hoc veritatem habet, si, secundum quod maior est, nata sit agere in minorem.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e187">Ad illud quod obicitur, quod liberum arbitrium potest in sua actione impediri, dicendum quod verum est, tamen ex hoc non sequitur quod possit cogi. Impedimentum enim privat actum libertatis, sed coactio ponit actum liberi arbitrii, et simul cum hoc ponit quod non sit libertatis ; et ista sunt incompossibilia, sicut si poneretur quod aliquis actus esset voluntatis et non esset voluntarius ; et hoc melius videbitur infra. Et ideo ratio illa non cogit.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e190">Ad illud quod obicitur, quod, aqua mota, necessario movetur radius ei coni unctus, dicendum quod non est simile, pro eo quod radii multiplicatio est naturalis, nec potest lux se ipsam non multiplicare, cum invenit materiam sibi aptam ; et sicut multiplicatio radiorum est naturalis, ita et reflexio ipsorum est naturalis et repercussio ; et propterea, cum aqua movetur, alio modo suscipitur radius ; ideo necesse est ipsum alio modo reflecti. Liberum autem arbitrium praeest corpori, cum in suum actum voluntarie exit, et se ipso est proprii actus variatio, non ex hoc quod sit aliqua mutatio in corpore coniuncto.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e194">Ad illud quod obicitur de comparatione intellectus ad verum et affectus ad bonum, dicendum quod, etsi aliquo modo sit comparatio consimilis, non tamen est omnimoda similitudo, quoniam, sicut ostensum fuit supra, libertas arbitrii plus se tenet ex parte motivae quam cognitivae ; et ideo coactio plus repugnat affectioni quam repugnet cognitioni ; et propterea non sequitur quodsi intellectus potest cogi, quod et affectus.</p>
+               <p xml:id="bb-l2d25p2a1q4-d1e197">Ad illud quod obicitur, quod potest induci, dicendum quod, etsi inductio videatur esse quaedam coactio - maxime secundum humana iura, quae dicunt illud quod fit causa metus non esse habendum ratum, maxime de eo metu qui potest cadere in constantem virum, pro eo quod considerant exteriora opera - secundum veritatem tamen ista inductio stat cum libertate voluntatis nec ei repugnat in aliquo, sed potius repugnat plenitudini amoris et voluntatis. Non enim ita plene vult aliquis, quando vult ex conditione sicut quando vult absolute, sicut patet de iactatlone mercium in mare ; nihilominus tamen salvatur ibi ratio libertatis et voluntatis. Unde talis metus apud Deum non excusat a culpa, sicut aperte patet in negatione a Petro facta ; et propterea non sequitur quodsi possit a creatura induci, quod possit cogi.
+Nec valet quod obicit de dispositione quae habet fieri necessitas per iterationem. Hoc enim verum est respectu virtutis naturalis et actus qui determinatur ad unam differentiam contrarietatis ; non autem verum est respectu voluntatis, quae absoluta est, et, quantum est de se, vertibilis est. Praeterea, illud habet locum in eo genere dispositionis quae est eiusdem generis et proprietatis, ut est dispositio proxima et remota. Sic autem non est in proposito, ut ostensum est supra. Et sic patent obiecta.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

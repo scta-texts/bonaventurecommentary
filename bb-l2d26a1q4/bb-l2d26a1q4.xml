@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d26a1q4">
+            <head xml:id="bb-l2d26a1q4-Hd1e99">Quaestio 4</head>
+    <head xml:id="bb-l2d26a1q4-Hd1e102" type="question-title">Utrum gratia sit in genere accidentis corruptibilis vel incorruptibilis</head>
+ 
+            <p xml:id="bb-l2d26a1q4-d1e105">Quarto quaeritur, utrum gratia sit in genere accidentis corruptibilis an incorruptibilis.</p>
+            <div xml:id="bb-l2d26a1q4-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d26a1q4-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d26a1q4-d1e113">Et quod sit accidens corruptibile, videtur.
+1. Omne accidens quod est in subiecto variabili, secundum quod est variabile, est corruptibile ; sed gratia est in subiecto variabili, utpote in anima, secundum libertatem arbitrii, in qua consistit mutatio et vertibilitas : ergo etc.</p>
+               <p xml:id="bb-l2d26a1q4-d1e116">2. Item, omne accidens, quod habet oppositum potens inesse suo subiecto, est corruptibile ; sed gratia opponitur culpae, et culpa potest inesse animae viri iusti, quamdiu est in statu viae : ergo etc.</p>
+               <p xml:id="bb-l2d26a1q4-d1e119">3. Item, omne accidens, quod est aliunde et non habet causam in subiecto, potest ab illo separari ; sed gratia est in anima et non habet ortum ab anima : ergo potest separari ab ipsa ; sed post separationem non potest in esse conservari : ergo gratia nata est corrumpi.</p>
+               <p xml:id="bb-l2d26a1q4-d1e122">4. Item, omne accidens, cuius conservatio pendet ex conversione voluntatis ad Deum, est corruptibile, cum voluntas possit a Deo averti ; sed gratia est huiusmodi : ergo etc.</p>
+ 
+               <p xml:id="bb-l2d26a1q4-d1e126">Sed contra :
+1. Anima, eo ipso quod est imago Dei, est incorruptibilis : <quote xml:id="bb-l2d26a1q4-Qd1e128">non enim esset imago Dei, sicut dicit <name ref="#Augustine">Augustinus</name>, si mortis termino clauderetur</quote>. Ergo, cum in gratia consistat imago reformationis, videtur quod gratia sit incorruptibilis.</p>
+               <p xml:id="bb-l2d26a1q4-d1e135">2. Item, accidens, quod est in subiecto non a se, sed ab alio, non movetur necessario ad motum eius in quo est, sicut patet de specie existente in speculo et lumine existente in medio ; sed gratia est in anima non a se, sed a Deo : ergo non videtur quod ad mutationem seu ad variationem animae corrumpatur.</p>
+               <p xml:id="bb-l2d26a1q4-d1e138">3. Item, his quae sunt corruptibilia dedit divina virtus propagandi potentiam : igitur aut gratia non est corruptibilis aut, si corrumpitur, habet vim producendi gratiam sibi similem ; sed gratia non potest sibi similem producere, sicut in primo libro ostensum est : ergo non est corruptibilis de se.</p>
+               <p xml:id="bb-l2d26a1q4-d1e141">4. Item, omne quod corrumpitur in tempore, sui diuturnitate senescit in tempore ; sed gratia, quanto magis durat in homine, tanto perfectior est et stabilior et magis renovat spiritum : ergo gratia non videtur corrumpi.</p>
+               <p xml:id="bb-l2d26a1q4-d1e144">5. Item, si gratia corrumpitur, aut corrumpitur a Deo aut a libero arbitrio aut a peccato. A Deo non, cum gratiam corrumpi sit malum ; a libero arbitrio non, cum nullum subiectum corrumpat suam perfectionem ; a peccato non, quia peccatum est pura privatio, et modica gratia potest super omnem culpam : ergo, cum nihil habeat corrumpens, videtur quod sit incorruptibilis.</p>
+               <p xml:id="bb-l2d26a1q4-d1e147">6. Item, si corrumpitur, aut corrumpitur in aliquid aut in nihil. Si in aliquid, quaero : in quid ? Nec est aliquid dare, cum non producatur ex aliquo, sed de nihilo. Si in nihil, contra : nihil quod corrumpitur secedit omnino in non-ens. Si igitur gratia nobilissimum est inter omnia accidentia, et Deus non permittit alia accidentia in non-ens cedere, videtur quod nec de gratia permittat.</p>
+            </div>
+            <div xml:id="bb-l2d26a1q4-Dd1e151">
+               <head xml:id="bb-l2d26a1q4-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d26a1q4-Hd1e156" type="question-title">Gratia est corruptibilis et in nihil potest redigi</head>
+ 
+               <p xml:id="bb-l2d26a1q4-d1e159">Respondeo : Dicendum quod, cum gratia sit accidens, non potest esse praeter subiectum in quo est ; et cum in subiecto, in quo est, non possit simul cum culpa subsistere, et ipsi subiecto, in quo est gratia, contingat culpam inesse, necesse est gratiam esse quid corruplibile.
+Rursus, cum gratia non producatur ex aliquo materialiter,. sed sit simpliciter donum gratuitum et omnino deorsum descendens a Patre luminum ; et omne quod corrumpitur in id cedat unde producitur, necesse est gratiam, sicut ex nihilo producitur, sic in nihilum redigi, cum corrumpitur.
+Talis autem modus corrumpendi non solum competit gratiae ratione sui initii, sed etiam ratione esse proprii sive modi existendi. Ratione, inquam, sui initii, quia, sicut dictum est, sicut ex nihilo producitur, ita in nihil redigitur, quemadmodum in aliis accidentibus consimiliter reperitur quod in id redeunt unde exeunt cum producuntur.
+Competit etiam hoc ei ratione esse proprii sive modi existendi, quoniam, cum gratia non causetur ex principiis eius in quo est, sed aliud habeat pro subiecto, aliud pro causa, quemadmodum, cum lumen corrumpitur vel similitudo in speculo vel ipsa species in anima, non corrumpitur illud in quo est nec redit ad illud a quo est, sed, quantum est de se, in nihil cedit : sic gratia - quia non habet esse in anima per modum naturae, sed per modum habitus, ut prius habitum est, nec ex principiis animae producitur - cum corrumpitur, in nihil redigitur. Et propterea peccatum, in quo fit gratiae corruptio, dicitur esse nihil et inter omnes corruptiones summo Auctori et Conservatori omnium bonorum maxime displicere dignoscitur.
+Concedendae sunt igitur rationes ostendentes quod gratia corrumpitur.</p>
+            </div>
+            <div xml:id="bb-l2d26a1q4-Dd1e164">
+               <head xml:id="bb-l2d26a1q4-Hd1e166">Ad rationes</head>
+
+               <p xml:id="bb-l2d26a1q4-d1e169">1. Ad illud ergo quod primo obicitur in contrarium, quod in gratia reperitur ratio Imaginis sicut in anima, dicendum quod aliter et aliter reperitur imago hic et ibi. Anima enim est imago Dei, quia capax Dei est et particeps esse potest, et ita propter beatitudinem facta est et ad beatitudinem apta, quae, inquam, beatitudo non potest inesse nisi substantiae immortali ; ideo necesse est, animam immortalem esse. Gratia vero ex hoc solo dicitur imago, quia est imaginis reformatio ; et quoniam illa imago per gratiam reformata potest deformari, hinc est quod gratia potest corrumpi. Nec valet illa ratio, quia hinc inde non est consimilis imaginis acceptio.</p>
+               <p xml:id="bb-l2d26a1q4-d1e172">2. Ad illud quod obicitur, quod accidens, quod non habet ortum a subiecto, non mutatur ad mutationem subiecti, dicendum quod hoc non est propter hoc solum quod habeat ortum aliunde, sed quia non dependet ab eo in quo est, sicut patet in radio et lumine. Gratia autem non solum dependet ab eo a quo est, sed etiam ab anima in qua est, nec persistit in ea nisi quamdiu habet faciem suam sive mentem ad Deum conversam.</p>
+               <p xml:id="bb-l2d26a1q4-d1e175">3-4. Ad illud quod obicitur, quod rei corruptibili debet dari virtus propagandi, dicendum quod illud verum est quando illa res est nata talem virtutem suscipere et quando etiam ilia corruptibilitas inest rei ex defectu propriae naturae. Neutrum autem horum competit gratiae : nam gratia nata est immediate ab ipso Deo procedere nec aliquo modo corrumpitur nisi propter aversionem mentis nostrae a rectitudine veritatis aeternae.
+Et per hoc patet responsio ad sequens quod obicitur, quod omne quod corrumpitur senescit in tempore ; hoc enim verum est de eo quod habet causam corruptionis intra se.</p>
+               <p xml:id="bb-l2d26a1q4-d1e178">5. Ad illud quod quaeritur, a quo corrumpitur, utrum a Deo vel a peccato vel a libero arbitrio, dicendum quod ipsa gratia deficit in se ipsa.
+Si autem quaeratur ratio huius quare deficit, hoc est propter aversionem mentis humanae. Cum enim gratia non salvetur nisi ex continuatione influentiae a bonitate divina super faciem mentis nostrae, quando anima a Deo avertitur, influentia non continuatur, et per consequens gratia corrumpitur ; anima autem avertitur per peccatum : et ideo quodam modo gratia per peccatum dicitur corrumpi, non quod peccatum agat in gratiam, sed quia, anima per peccatum se avertente et Deo cessante influere, necesse est gratiam in se ipsa deficere.</p>
+
+               <p xml:id="bb-l2d26a1q4-d1e182">Ad illud quod obicitur, quod nihil quod corrumpitur secedit omnino in non-ens, dicendum quod illud habet veritatem in accidentibus quae habent esse naturae et in eis quae causantur ex principiis subiecti, pro eo quod, cum corrumpuntur accidentia, manent nihilo minus et salvantur illa principia ; et ideo, cum talia accidentia corrumpuntur, non omnino annihilantur. In his vero accidentibus quae habent esse habitus, sicut similitudo in anima et lumen in aere, non habet veritatem. Non enim similitudo hominis mortui, quae est in anima tua, si de anima tua deleatur et corrumpatur, redit ad hominem illum ; vel cum lumen corrumpitur, redit ad solem, maxime si corruptio luminis fiat per corporis interpositionem, nisi forte quis dicat ad suam originem redire, pro eo quod adhuc salvatur in suo principio effectivo, quod potest producere illi simile. Quia igitur gratia habet se ad modum habitus et ex nihilo producitur, ut prius habitum est, ideo ilia propositio non habet hic locum.
+Et si tu quaeras : unde hoc est quod Deus permittit perire tam nobile accidens ? satis facile est respondere. Similis enim quaestio est, si quaeratur : cum Deus diligat amicos suos et plus diligat unam animam.sanctam quam diligat caelum et terram, quid est quod permittit animam sanctam a se separari et non permittit caelum et terram corrumpi ? Ad hoc respondebit qui sane intelligit, quod hoc cursui rerum congruit et Deus sic res, quas condidit, administrat, ut eas agere proprios motus sinat. Et propterea, quia thesaurus gratiae habetur in vasis fictilibus, quamvis sit valde nobilis, tamen de facili amittitur, quamdiu procellis tentationum concutitur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

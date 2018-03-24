@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 16, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 16, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d16a1q2">
+            <head xml:id="bb-l2d16a1q2-Hd1e99">II, Distinctio 16, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d16a1q2-Hd1e102" type="question-title">Utrum homo sit imago Dei naturaliter.</head>
+            <p xml:id="bb-l2d16a1q2-d1e105">Secundo quaeritur, utrum homo sit imago Dei naturaliter.</p>
+            <div xml:id="bb-l2d16a1q2-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d16a1q2-d1e110">Et quod sic, videtur. 
+  1. Quod inest alicui a sua prima origine inest ei naturaliter ; sed esse imaginem Dei convenit homini a sua prima conditione ; ergo est ei naturale.</p>
+               <p xml:id="bb-l2d16a1q2-d1e113">2. Item, quod inest omnibus communiter et inseparabiliter, inest naturaliter ; sed esse imaginem convenit homini universaliter et inseparabiliter ; ergo etc.</p>
+               <p xml:id="bb-l2d16a1q2-d1e116">3. Item, quod convenit alicui secundum naturales eius proprietates convenit ei naturaliter ; sed esse imaginem convenit homini secundum intrinsecas potentias et naturales : ergo convenit ei naturaliter.</p>
+               <p xml:id="bb-l2d16a1q2-d1e119">4. Item, esse imaginem Dei non est homini accidens, sed potius substantiale, sicut esse vestigium nulli accidit creaturae : si ergo homo rion est imago Dei naturalis, ergo non est res naturalis, sed artificialis. Si igitur hoc hoc est plane falsum, scilicet quod homo sit artificialis, ergo non est imago artificialis sed naturalis.</p>
+               <p xml:id="bb-l2d16a1q2-d1e122">5. Item, asinus artificialis non est asinus verus, ergo imago artificialis non est imago vera ; sed homo est imago vera : ergo non est imago artificialis ; et est artificialis vel naturalis : ergo etc.</p>
+ 
+               <p xml:id="bb-l2d16a1q2-d1e126">Contra : Hilarius, in libro De synodo, definiens naturalem imaginem dicit : <quote xml:id="bb-l2d16a1q2-Qd1e128">Imago est eius rei, ad quam imaginatur, species indifferens</quote> ; sed homo non est species indifferens ipsius Dei : ergo non est imago naturalis.</p>
+               <p xml:id="bb-l2d16a1q2-d1e132">2. Item, <name ref="#Augustine">Augustinus</name>, De decem chordis : <quote xml:id="bb-l2d16a1q2-Qd1e137">Sicut differt imago imperatoris in filio et in nummo, sic differt imago in Filio Dei et in homine</quote> : si igitur imago in filio imperatoris est naturalis, in nummo est artificialis, videtur quod solus Filius Dei sit imago naturalis, homo vero solum artificialis.</p>
+               <p xml:id="bb-l2d16a1q2-d1e141">3. Item, hoc ipsum videtur ratione. Sicut proprium est personae Filii esse filium, ita proprium est esse imaginem ; sed sola persona Filii est filius naturalis, et non homo : ergo pari ratione sola persona Filii est imago naturalis, et non homo.</p>
+               <p xml:id="bb-l2d16a1q2-d1e144">4. Item, quod est a voluntate non est a natura ; sed productio hominis est a voluntate Dei : ergo non est a natura. Sed ab eo habet esse imaginem a quo habet et produci : si igitur anima hominis non producitur a Deo secundum naturam sed secundum voluntatem, non erit imago Dei naturalis sed voluntaria.</p>
+               <p xml:id="bb-l2d16a1q2-d1e147">5. Item, imago dicit imitationem et similitudinem : ergo si aliquid est imago alicuius naturalis, assimilatur cum eo in natura ; sed homo cum Deo in natura assimilari non potest : ergo non potest esse eius imago naturalis.</p>
+            </div>
+            <div xml:id="bb-l2d16a1q2-Dd1e151">
+               <head xml:id="bb-l2d16a1q2-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d16a1q2-Hd1e156" type="question-title">Homo est Dei imago nec artificailis nec connaturalis</head>
+               <p xml:id="bb-l2d16a1q2-d1e159">Respondeo : Dicendum quod, cum imago dicatur ab actu repraesentandi - nam imago refertur ad prototypum, ut dicit <name ref="#JohnDamascenus">Damascenus</name> - et repraesentatio dupliciter possit convenire alicui : vel per formam naturalem vel per formam artificialem, quod duplex est imago, naturalis scilicet et artificialis. Et cum homo non repraesentet per formam artificialem, sed per suam formam naturalem et potentias ei naturaliter inditas, homo non est imago artificialis sed naturalis.</p>
+               <p xml:id="bb-l2d16a1q2-d1e165">Differt autem dicere imaginem naturalem et connaturalem. Nam imago naturalis est, quae repraesentat per id quod habet a natura, sive cum illo quod repraesentat conveniat in natura sive non. Imago vero connaturalis dicitur quae imitatur et refertur non solum per id quod habet a natura sed per convenientiam in eadem natura. Ideo, etsi esse imaginem conveniat homini, esse tamen imaginem connaturalem non convenit homini sed soli Filio Dei.</p>
+               <p xml:id="bb-l2d16a1q2-d1e168">Concedendae sunt igitur rationes ostendentes quod homo non est imago artificialis, sed naturalis.</p>
+            </div>
+            <div xml:id="bb-l2d16a1q2-Dd1e173">
+               <head xml:id="bb-l2d16a1q2-Hd1e175">Ad rationes</head>
+
+               <p xml:id="bb-l2d16a1q2-d1e178">1. Ad illud vero quod obicitur in contrarium, dicendum quod Hilarius definit imaginem connaturalem, non naturalem.</p>
+               <p xml:id="bb-l2d16a1q2-d1e181">2. Ad illud quod obicitur de <name ref="#Augustine">Augustino</name>, dicendum quod non intendit ponere similitudinem quantum ad naturale et artificiale, sed quantum ad convenientiam et discrepantiam in natura. Sicut enim nummus cum imperatore in natura non convenit, sed filius eius convenit, sic in proposito intelligendum est.</p>
+               <p xml:id="bb-l2d16a1q2-d1e187">3. Ad aliud quod obicitur, quod sola persona Filii est filius naturalis, dicendum quod non est simile. Aliter enim accipitur naturale prout adiacet Filio, aliter prout adiacet imagini ; non enim differt dicere Filium naturalem et connaturalem, sicut differt in imagine. 
+  Et ratio huius est ista : quia Filius dicit ut <mentioned> a quo </mentioned>, quantum est de suo principali intellectu, imago dicit ut <mentioned> ad quem </mentioned>. Ideo naturale, dictum de Filio, significat quod egressus Filii sit per modum naturae, et ita quod cum Patre conveniat in natura ; sed cum dicitur imago naturalis, significatur quod illa repraesentatio est a naturali principio sive proprietate ; et propter hoc non datur intelligi quod sit inter imaginem et eum cuius est imago convenientia naturae.</p>
+
+               <p xml:id="bb-l2d16a1q2-d1e196">4. Ad illud quod obicitur, quod est a voluntate non est a natura, dicendum quod verum est ex ea parte ex qua est a voluntate ; unde, cum creatura a Deo producitur voluntarie, non dicitur ab eo exire naturaliter sed voluntarie ; ex hoc tamen non sequitur quod voluntarie repraesentet, immo est ibi accidens. Quamvis enim Deus voluntarie produxerit hominem, homo tamen habet operationes naturales, quia divina voluntas fabricavit ei fecit ipsam naturam ; non sic autem est de voluntate artificis creati, qui naturalem formam non potest producere.</p>
+               <p xml:id="bb-l2d16a1q2-d1e200">5. Ad illud quod obicitur, quod imago dicit similitudinem in natura, dicendum quod haec determinatio naturaliter, addita alicui termino, qui quidem nec dicit habitudinem ut <mentioned> a quo </mentioned> nec ut <mentioned> ad quem </mentioned>, ambiguam reddit locutionem, quia potest dicere habitudinem vel in ratione causae vel in ratione formae. Unde haec est duplex iste naturaliter assimilatur illi : vel ut intelligatur causaliter, quia assimilatur in eo quod habet a natura ; vel ut intelligatur formaliter, quia assimilatur in ipsa natura. Primo modo accipiendo, haec est vera : homo naturaliter assimilatur Deo, secundo modo falsa ; et primo modo sequitur ad hanc : homo naturaliter est imago Dei, alio vero modo non.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

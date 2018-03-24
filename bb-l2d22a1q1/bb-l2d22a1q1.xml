@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 22, A. 1, Q. 1 Circa primum sic proceditur et ostenditur quod mulier peccaverit peccato superbiae.</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 22, A. 1, Q. 1 Circa primum sic proceditur et ostenditur quod mulier peccaverit peccato superbiae.</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d22a1q1">
+            <head xml:id="bb-l2d22a1q1-Hd1e99">II, Distinctio 22, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d22a1q1-Hd1e102" type="question-title">Quo genere peccati mulier peccaverit.</head>
+ 
+            <head xml:id="bb-l2d22a1q1-Hd1e105">Circa primum sic proceditur et ostenditur quod mulier peccaverit peccato superbiae.</head>
+            <div xml:id="bb-l2d22a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d22a1q1-Hd1e110">Rationes principales</head>
+
+               <p xml:id="bb-l2d22a1q1-d1e113">Ecclesiastici 10, 15 : <quote xml:id="bb-l2d22a1q1-Qd1e115" ana="#sir10_15">Initium omnis peccati superbia</quote> ; et iterum Ecclesiastici 25, 33 : <quote xml:id="bb-l2d22a1q1-Qd1e118" ana="#sir25_33">A muliere initium peccati</quote>. Ergo mulier peccavit peccato superbiae.</p>
+               <p xml:id="bb-l2d22a1q1-d1e122">Item, <name ref="#Augustine">Augustinus</name>, in libro De virginitate : <quote xml:id="bb-l2d22a1q1-Qd1e127">Diabolus in caelo voluit esse sicut Deus ; cadens autem persuasit homini similitudinem suae voluntatis</quote>. Ergo si persuasit mulieri, et mulier persuadenti consensit, peccavit igitur peccato superbiae.</p>
+               <p xml:id="bb-l2d22a1q1-d1e131">Item, hoc videtur ratione. Impossibile erat hominem deordinari. in potentia inferiori nisi prius deordinaretur in superiori. Ergo non poterat prius inordinate converti ad bonum inferius vel exterius quam converteretur ad bonum superius ; sed converti inordinate ad bonum superius hoc est superbia.ergo primum peccatum mulieris non potuit esse nisi superbia.</p>
+               <p xml:id="bb-l2d22a1q1-d1e134">Item, mulier voluit manducare pomum : hoc non fuit propter famem vel appetitum delectandi in cibo, cum nulla esset in gustu eius deordinatio : igitur hoc fuit quia aliquid spirituale per illius cibi comestionem intendebat ; hoc autem non erat nisi esse sicut Deus, quod diabolus promiserat : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d22a1q1-d1e138">Sed contra :
+Videtur quod primum peccatum mulieris fuerit inobedientia. Primo, quia hoc innuit textus Genesis 3, 11 : <quote xml:id="bb-l2d22a1q1-Qd1e140" ana="#gen3_11">Quis indicavit tibi, quod nudus esses, nisi quia de ligno, de quo praeceperam tibi, ut non comederes, comedisti ?</quote>
+Secundo, quia hoc confirmat Apostolus, ad Romanos 5, 19 : <quote xml:id="bb-l2d22a1q1-Qd1e143" ana="#rom5_19">Sicut per unius inobedientiam peccatores constituti sunt multi</quote> etc. Et iterum : Per unius inobedientiam mors intravit in mundum. Postremo hoc expressius declarat <name ref="#Augustine">Augustinus</name>, De vera religione, ubi ait : Adam propter transgressionem inobedientiae de paradiso eiectus est.
+Si ergo primum peccatum hominis fuit inobedientia, non ergo videtur quod fuerit superbia.</p>
+
+               <p xml:id="bb-l2d22a1q1-d1e150">Item, quod primum peccatum fuerit gula, videtur. Primo, per hoc quod innuit textus Genesis 3, 6 : <quote xml:id="bb-l2d22a1q1-Qd1e152" ana="#gen3_6">Vidit igitur mulier lignum, quod esset ad vescendum suave</quote>.
+Secundo, hoc confirmat Evangelium, quia Christus primo fuit tentatus a diabolo de gula, sicut legitur Matthaei 4, 3 : <quote xml:id="bb-l2d22a1q1-Qd1e155" ana="#mt4_3">Dic ut lapides isti</quote> etc. ; sed eo ordine tentationis tentavit primum hominem quo tentavit Christum, sicut Sancti dicunt.
+Postremo, hoc expressius declarat <name ref="#Ambrose">Ambrosius</name>, in illo hymno : Quando pomi noxialis morte morsu corruit.
+Si igitur peccatum primum fuit gula, ergo non fuit superbia, cum sint diversa peccatorum genera, et, unum et idem simul et semel in diversis generibus esse non possit.</p>
+
+               <p xml:id="bb-l2d22a1q1-d1e162">Item, videtur quod primum peccatum mulieris fuerit avaritia. Primo, per textum Genesis 3, 5 : <quote xml:id="bb-l2d22a1q1-Qd1e164" ana="#gen3_5">Eritis sicut dii, scientes bonum et malum</quote>. Hoc promisit diabolus et hoc primo cecidit in mulieris appetitum ; sed appetere multitudinem scientiae plus quam oportet, hoc est avaritiae, sicut dicit Gregorius.
+Deinde, hoc confirmat Apostolus, I ad Timotheum ultimo, 10 : <quote xml:id="bb-l2d22a1q1-Qd1e167" ana="#Itim6_10">Radix omnium malorum est cupiditas</quote> ; sed peccatum mulieris omnium aliorum peccatorum radix fuit.
+Postremo, hoc ipsum expresse declarat Glossa super illud Psalmi [68, 5] : <quote xml:id="bb-l2d22a1q1-Qd1e170" ana="#ps68_5">Quae non rapui, tunc</quote> etc., ubi dicit quod Eva tunc voluit rapere divinitatem. Si ergo rapina est peccatum avaritiae, primum peccatum Evae fuit in genere avaritiae : ergo non fuit in genere superbiae.</p>
+
+               <p xml:id="bb-l2d22a1q1-d1e174">Item, videtur quod primum peccatum fuerit infidelitas. Primo, quia hoc insinuat textus Genesis 3, 3, ubi dixit mulier : <quote xml:id="bb-l2d22a1q1-Qd1e176" ana="#gen3_3">Ne forte moriamur</quote> ; dubitavit ergo de verbo Dei. Si ergo dubitare de eo quod debemus credere, hoc est infidelitatis, peccatum infidelitatis primo commisit.
+
+Secundo, hoc confirmat Evangelium, Lucae 1, 45 : <quote xml:id="bb-l2d22a1q1-Qd1e182" ana="#lc1_45">Beata, quae credidisti</quote>, dictum est Virgini Mariae. Si ergo salus respondet per oppositum praevaricationi, et haec incepit a fide Mariae, videtur quod illa inceperit ab infidelitate Evae.
+Postremo, hoc expressius declarat Magister et habitum est in distinctione praecedenti, in progressu tentationis, ubi dicit quod mulier, cum dubitavit, ab affirmante recessit et neganti appropinquavit. Sed hoc non fuit sine culpa infidelitatis : ergo infidelitas fuit primum mulieris peccatum : non ergo primo peccavit peccato superbiae.
+</p>
+               <p xml:id="bb-l2d22a1q1-d1e186">
+Si forte tu dicas quod pluribus generibus peccatorum simul et semel peccaverit, hoc non videtur possibile, cum simul et semel non possit se pluribus conversionibus et aversionibus deordinare ; et quidquid de hoc sit, planum est quod esse primum peccatum uni soli convenire potest, cum per superabundantiam dici habeat.
+  </p>
+
+            </div>
+            <div xml:id="bb-l2d22a1q1-Dd1e190">
+               <head xml:id="bb-l2d22a1q1-Hd1e192">Conclusio</head>
+               <head xml:id="bb-l2d22a1q1-Hd1e195" type="question-title">Peccatum mulieris inchoatum fuit in superbia, 
+        progressum habuit in quadam avaritia, consummationem habuit in gula et inobedientia</head>
+               <p xml:id="bb-l2d22a1q1-d1e198">Respondeo : Dicendum quod, sicut innuit textus et expresse dicit Apostolus, principale peccatum hominis, per quod lapsus est, fuit inobedientia, et per quod derivatur mors in omnes posteros. Unde et ad hoc diabolus ipsum inducere intendebat ; quod patet per principium suae interrogationis : Cur praecepit vobis Deus ? etc.
+Sed quoniam nemo operatur ad malum aspiciens nec appetit malum nisi sub specie boni, ideo clare deprehendens diabolus quod non posset mulierem in peccatum praecipitare nisi proponeret aliquod appetibile, illa in tentando proposuit fallaciter ad quae omnis homo secundum veritatem tendit naturaliter. Naturaliter enim omnis homo beatitudinem appetit, quae est bonum gloriosum et copiosum et deliciosum ; ideo omnis homo naturaliter appetit excellentiam et sufficientiam et laetitiam ; et in ordinato appetitu eorum consistit iustitia, in immoderato vero consistit culpa. Nam superbia non est aliud quam immoderatus appetitus excellentiae ; avaritia non est aliud quam immoderatus appetitus sufficientiae ; gula non est aliud quam immoderatus appetitus cibi reficientis suaviter.
+        </p>
+               <p xml:id="bb-l2d22a1q1-d1e201">Considerans igitur diabolus hanc esse viam ad praecipitandam mulierem in culpam, primo promisit dignitatis excellentiam : Eritis sicut dii ; secundo subiunxit cognitionis abundantiam : Scientes bonum et malum ; postremo praetendit suavitatis experientiam, cum ostendit lignum pulcrum visu et ad vescendum suave. Quoniam igitur mulier diabolicae suggestioni consensit, ideo primo, in appetendo esse sicut Deus fuit superba ; deinde, in appetendo scire bonum et malum quod non oportebat et scire plus quam oportebat fuit avara ; postremo, in experiendo suavitatem ligni vetiti fuit gulosa ; et in hoc fuit transgressionis rea et culpa inobedientiae involuta.
+Et sic patet quod peccatum mulieris inchoatum fuit in superbia, progressum habuit in avaritia, consummationem habuit in gula.
+Patet etiam quod inordinata fuit quantum ad triplicem potentiam, scilicet quantum ad irascibilem, dum appetiit alta ; quantum ad rationalem, dum appetiit scire occulta ; quantum ad concupiscibilem, dum voluit degustare suavia. Unde ex illo peccato pullulaverunt radices omnium peccatorum.</p>
+               <p xml:id="bb-l2d22a1q1-d1e204">
+Ex his igitur patet responsio ad quaesita. Rationes enim ostendentes quod primum peccatum fuit superbia, verum concludunt, quia ab illo fuit inchoatio. Rationes similiter ostendentes quod fuerit inobedientia, gula et avaritia, verum concludunt, licet non fuerit ibi avaritia proprie dicta, secundum quod dicitur esse appetitus pecuniae ; fuit tamen avaritia secundum quod est appetitus sufficientiae, et in ipsa fuit peccati progressus ; sed in peccato gulae et inobedientiae fuit consummatio, in actu videlicet comedendi. Gula enim erat, in quantum in illo cibo inordinate delectari volebat ; sed inobedientia, cum in actu ipsius comestionis contra divinum imperium faciebat. Et hoc expresse dicit Gregorius, in quadam homilia, ubi ostendit quod tribus peccatorum generibus tentavit diabolus Christum, sicut prius tentaverat mulierem, et in illis tribus a Christo deiectus est sicut per illa tria mulierem deiecerat.
+Nec est inconveniens plura genera peccatorum secundum progressum concurrere ad unum flagitium perpetrandum. Facillimum enim est de peccato in peccatum ruere, sicut contingit de motu unius virtutis ad motum alterius ascendere.</p>
+ 
+               <p xml:id="bb-l2d22a1q1-d1e208">Ad illud igitur solum restat respondere quod obiectum est de infidelitate. Non enim concedendum est mulierem peccato infidelitatis peccasse, nisi infidelitas accipiatur valde large.
+Quod ergo obicitur, quod mulier dixit <mentioned> forte </mentioned>, dici potest quod <mentioned> forte </mentioned> est ibi nota eventus, non dubitationis.
+Sed quia Magister dicit expresse quod est nota dubitationis, ideo aliter potest dici quod revera mulier non dubitavit verum esse quod Dominus dixerat, sed de hoc dubitavit qualiter Dominus intelligebat, utrum scilicet intelligeret de morte corporali vel spirituali vel alio quocumque modo ; et illa dubitatio nec fuit poena nec fuit culpa, sed quaedam nescientia, quae diabolo tentanti praebuit viam.
+Nec cogit illud quod obicit de fide beatae Mariae. Nam, etsi fides de conceptione Filii Dei non modicum tenuerit locum, habuit tamen humilitatis usum praeambulum, ratione cuius dicitur Virgo Deo placuisse, sicut ipsa dicit : Respexit Deus humilitatem ancillae suae. Nec oportet etiam omnino per eumdem ordinem respondere reparationem destructioni, immo frequenter est e contrario, sicut via resolutionis et compositionis oppositis modis habent terminari et inchoari, sic et in proposito potest intelligi.</p>
+            </div>
+            <!-- not sure where ad rationes section is or if it exists -->
+         </div>
+      </body>
+   </text>
+</TEI>

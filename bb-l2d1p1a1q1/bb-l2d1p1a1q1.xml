@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio I, Pars 1, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio I, Pars 1, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+              <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#Qb" n="14"/>
+           <pb ed="#H" n="7-v"/><cb ed="#H" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bb-l2d1p1a1q1">
+            <head xml:id="bb-l2d1p1a1q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d1p1a1q1-Hd1e102" type="question-title">Utrum res habeant principium causale.</head> 
+            <p xml:id="bb-l2d1p1a1q1-d1e105">Quantum ad primum sic proceditur.</p>
+           <div xml:id="bb-l2d1p1a1q1-Dd1e117" type="rationes-principales">
+             <head xml:id="bb-l2d1p1a1q1-Hd1e119">Rationes principales</head>
+
+           <p xml:id="bb-l2d1p1a1q1-d1e108">Cum constet secundum Sanctos et philosophos, quod omnes res mundanae habuerint principium productivum tum propter rerum varietatem, tum propter rerum mutabilitatem, tum propter rerum ordinem, tum etiam propter imperfectionem - multitudo enim ortum habet ab unitate, et motus sive mutabile ab immutabili, et ordo ad primum, et imperfectum ad perfectum originaliter reducuntur - ideo hoc supposito, scilicet quod res habeant principium causale aliquo modo, est quaestio, utrum res sint productae omnino, hoc est secundum principium materiale et formale, an tantum secundum alterum principiorum.</p> 
+
+             <p xml:id="bb-l2d1p1a1q1-d1e111">Et quod secundum utrumque, videtur : Primo a parte producentis sic : quanto producens est prius et perfectius, tanto plus influit in rem : ergo primum et per<cb ed="#H" n="b"/>fectissimum influit totum et in totum ; et si hoc, ergo totum producit. Sed primum agens est huiusmodi : ergo etc.</p> 
+
+           <p xml:id="bb-l2d1p1a1q1-d1e115">Item, nobilius et perfectius est agens, quanto paucioribus indiget ad agendum, ergo agens nobilissimum nullo extra se eget : ergo si ipsum solum esset, adhuc res produceret ; sed non ex se, cum ipse nullius sit pars : ergo ex nihilo ; patet ergo quod Deus potest in totam substantiam creaturae.</p> 
+
+           <p xml:id="bb-l2d1p1a1q1-d1e118">3. Item, agens secundum formam potest producere formam : ergo pari ratione agens secundum se totum potest producere totum ; sed Deus se 
+             <pb ed="#Qb" n="15"/>
+             toto agit, cum sit omnino simplex : ergo producit totum.
+</p>
+
+           <p xml:id="bb-l2d1p1a1q1-d1e121">4. Item, hoc ipsum ostenditur a parte rei conditae sic : quod non est ab alio, est a se ipso ; nihil autem tale quod a se ipso est, indiget alio, ut sit ; sed omne intrinsecum principium rei indiget alio, ut sit, nam forma indiget materia, et e convergo : ergo etc.</p> 
+
+           <p xml:id="bb-l2d1p1a1q1-d1e124">5. Item, efficiens et finis sunt causae correlativae, ergo quod non est ab alio, non est, ad aliud ; sed omnia sunt ad aliud secundum omne quod sunt, quia secundum omne quod sunt, appetunt bonum ; et status non est nisi in summo bono. Et quod ista ratio sit bona, ostenditur. Si enim bonum et ens convertuntur, ergo quod est se ipso ens se ipso est bonum ; sed quod se ipso est bonum, non est propter aliquid aliud : ergo quod non est ab alio, non est propter aliud. Si ergo omnia mundana secundum se tota sunt propter aliud, ergo sunt ab alio.</p> 
+
+            <p xml:id="bb-l2d1p1a1q1-d1e127">
+              Item, si res non est totaliter ab alio, aut hoc est ratione formae aut ratione materiae. Constat quod non formae, quia, videmus formas produci, et si formae non producerentur, omnino nihil produceretur. Si ratione materiae ; sed contra : Ut dicit <name>Philosophus</name> in Prima Philosophia <quote xml:id="bb-l2d1p1a1q1-Qd1e129" source="http://scta.info/resource/aristmet-l9">actus est ante potentiam</quote>; constat quod non loquitur de potentia activa, sed passiva : ergo cum, actus rei sit ab alio, similiter et materia. Si tu dicas ; quod intelligitur non de actu, qui est forma, sed efficiens, idem concluditur.
+              
+              Et iterum, ego quaero, quare materia non sit ab alio. Si quia est principium, ex quo fiunt caetera, nec habet unde fiat ; tunc ego quaero de forma, utrum fiat ex aliquo, vel ex nihilo. Si ex nihilo, pari ratione et materia ex nihilo. Si ex aliquo, quaero, quid sit illud. Non essentia materiae ; constat, quia, forma simplex est : ergo forma non fit ex materia, ita quod materia sit eius principium constitutivum. Nec fit ex materia, ita quod materia fiat forma : fit ergo ex aliquo, quod est in materia. Tunc ego quaero : de quo est illud ? Et constat quod non est ex materia ; pari ratione : ergo vel erit abire in infinitum in causando, vel necesse est ponere essentias formarum a primo opifice productas ex nihilo : ergo pari ratione et materiam.
+            </p> 
+
+           <p xml:id="bb-l2d1p1a1q1-d1e133">1. Ad oppositum 1 sunt rationes, primo a parte efficientis. Prima haec est : omnis effectus aliquo modo assimilatur causae ; sed principium primum est actus purus, nihil habens de possibili, materia autem rerum est possibile purum per sui essentiam, nihil habens de actu : ergo cum materia in nullo assimiletur opifici, non est ab ipso.</p> 
+
+           <p xml:id="bb-l2d1p1a1q1-d1e137">Item, ab agente pulcherrimo et luminosissimo non procedit turpe et tenebrosum ; sed Deus est ipsa pulcritudo et ipsa lux, materiale principium est turpe et tenebrosum : ergo etc.</p> 
+
+            <p xml:id="bb-l2d1p1a1q1-d1e140">
+              3. A parte rerum ostenditur de formali principio : <quote xml:id="bb-l2d1p1a1q1-Qd1e142">Omne enim quod producitur et fit, fit a sibi simili nomine et specie, ut homo ab homine</quote>, secundum quod dicit <name>Philosophus</name>, VII Philosophiae primae. Si ergo formae rerum sunt principia producendi, et principium producendi praecedit rerum productionem : ergo res non sunt productae quoad principium formale.
+            </p> 
+
+
+           <p xml:id="bb-l2d1p1a1q1-d1e152">
+             <pb ed="#Qb" n="16"/>
+             Item, artifex non potest producere, nisi praecognoscat ; non potest praecognoscere nisi per formas ; non potest per formas cognoscere, quae nullo modo sunt : ergo impossibile fuit, quod summus artifex mundum formaret, nisi formae prius essent, per quas cognosceret ; et illae non potuerunt produci similiter nisi per formas : ergo si non est in infinitum abire, est ponere formas rerum non esse productas.</p> 
+
+            <p xml:id="bb-l2d1p1a1q1-d1e155">
+              5. Item, hoc ipsum ostenditur quoad materiale principium. <quote xml:id="bb-l2d1p1a1q1-Qd1e157">Omne quod producitur, producitur ex aliquo, vel ex nihilo ; sed ex nihilo nihil : ergo omnia ex aliquo</quote> ; illud autem est materia : ergo si stare est et non abire in infinitum, illud non est productum. Quod autem ex nihilo nihil fiat, videtur. Productio enim rei est actio ; sed omnis actio requirit in quid 
+              <pb ed="#H" n="8-r"/>
+              <cb ed="#H" n="a"/>
+              agat, ergo et omnis productio : ergo omni productioni subicitur aliquid ; non nisi materia : ergo etc.</p>
+
+            <p xml:id="bb-l2d1p1a1q1-d1e161">
+              Item, ego quaero de productione sive creatione passiva, utrum illa sit substantia, vel accidens ; non substantia, ergo accidens. Sed omne accidens fundatur in aliquo ; sed hoc non potest esse creatum, cum illud sequatur naturaliter ipsam creationem : ergo necesse est quod sit increatum et aliud a Deo, quia creatio-passio in alio est : ergo necesse est, omne quod producitur, ex aliquo produci ; et ideo Philosophus in I Physicorum dicit quod materia est ingenita.
+            </p>
+           </div>
+            <div xml:id="bb-l2d1p1a1q1-Dd1e164">
+
+               <head xml:id="bb-l2d1p1a1q1-Hd1e166">CONCLUSIO</head> 
+               <head xml:id="bb-l2d1p1a1q1-Hd1e169" type="question-title">Mundus de nihilo est productus et secundum se 
+totum et secundum sua principia intrinseca.</head> 
+
+               <p xml:id="bb-l2d1p1a1q1-d1e172">
+                 Respondeo : Dicendum quod haec veritas est : mundus in esse productus est, et non solum secundum se totum, sed etiam secundum sua intrinseca principia, quae non ex aliis, sed de nihilo sunt producta.
+                 Haec autem veritas, etsi nunc cuilibet fideli sit aperta et lucida, latuit tamen prudentiam philosophicam, quae in huius quaestionis inquisitione longo, tempore ambulavit per devia.
+                 <pb ed="#Qb" n="17"/>
+                 Fuerunt enim quidam antiqui philosophi, qui dixerunt mundum factum esse a Deo et de sui essentia, quia non videbant, quomodo aliquid posset fieri ex nihilo ; et solus Deus fuit in principio, et ideo dixerunt quod fecit omnia de se ipso.
+                 Sed haec positio non solum fidelibus, sed etiam sequentibus philosophis apparuit improbabilis, quod Dei essentia omnino invariabilis et nobilissima fieret corporalium et variabilium materia, quae de se est imperfecta, nisi perficiatur per formam.
+               </p> 
+
+              <p xml:id="bb-l2d1p1a1q1-d1e175">Fuerunt et alii, qui dixerunt mundum factum esse ex principiis praeexistentibus, scilicet ex materia et forma ; sed formae latebant in materia, antequam intellectus illas distingueret. Et hoc posuit Anaxagoras.
+                Sed quia formas esse omnes simul in materia non capit ratio recta, ideo per sequentes philosophos ista positio improbata est.</p> 
+
+              <p xml:id="bb-l2d1p1a1q1-d1e178">Fuerunt et tertii, qui mundum ex principiis praeexistentibus factum posuerunt, scilicet materia et forma ; sed materiam per se posuerunt, formas separatas et postmodum ex tempore ab opifice summo esse coniunctas. Et hi fuerunt Platonici.
+                Sed quia illud irrationabile videtur, quod materia ab aeterno fuerit imperfecta, et quod eadem forma sit separata pariter et coniuncta ; et absurdum videtur triplicem hominem ponere, scilicet naturalem, mathematicum et divinum : ideo etiam per sequentes philosophos haec positio reprobata est.</p> 
+
+
+               <p xml:id="bb-l2d1p1a1q1-d1e182">
+                 Fuerunt etiam quarti, scilicet Peripatetici, quorum princeps et dux fuit Aristoteles, qui veritati magis appropinquantes dixerunt mundum factum, sicut legitur in II Meteororum : <quote xml:id="bb-l2d1p1a1q1-Qd1e184">Dico igitur, quod mare factum est</quote>, et in principio De Caelo et mundo, et de pluribus aliis locis potest elici. Sed dixerunt non esse factum ex principiis praeexistentibus. Sicut enim vult in I Vegetabilium, mundus semper fuit plantis et animalibus plenus, ubi, loquitur contra Abrucalem. Utrum autem posuerit materiam et formam factam de nihilo, hoc nescio ; credo tamen quod non pervenit ad hoc, sicut melius videbitur in problemate secundo : ideo et ipse etiam defecit, licet minus quam alii.
+                
+                 
+                 </p> 
+
+               <p xml:id="bb-l2d1p1a1q1-d1e188">
+                 Ubi autem deficit philosophorum peritia, subvenit nobis sacrosancta Scriptura, quae dicit ?, omnia esse creata et secundum omne quod sunt in esse producta. Et ratio etiam a fide non discordat, sicut supra in opponendo ostensum est.</p> 
+            </div>
+           <div xml:id="bb-l2d1p1a1q1-Dd1e220">
+             <head xml:id="bb-l2d1p1a1q1-Hd1e222">Ad rationes</head>
+             <p xml:id="bb-l2d1p1a1q1-d1e191">1. Quod ergo obicitur de similitudine, quod materia est ens omnino in potentia, dicendum quod materia non propter se facta est, sed propter sustentationem formae, quae eius est actus ; quamvis ergo materia non sit Deo actu similis, tamen assimilabilis est per formam. Unde Augustinus dicit quod ipsa materia, etsi non habeat de se et in se actum formae, ipsa tamen capacitas formae est ei pro forma. Ideo patet illud.</p> 
+
+             <p xml:id="bb-l2d1p1a1q1-d1e197">2. Quod obicitur, quod turpis etc., dicendum quod nec turpis nec tenebrosa dicitur nisi comparative. Nam materia non est privatio pura, immo ratione suae essentiae habet aliquid de pulcritudine et aliquid de luce. Unde Augustinus dicit quod habet modum, speciem et ordinem, quamvis imperfecte. Non oportet autem quod Deus omnes res producat sibi aequaliter similes, immo secundum gradum. Et ideo ad hoc, quod gradus sint perfecti, necesse est ponere aliquid prope Deum, et hoc simillimum ; et aliquid prope nihil, et hoc aliquo modo simile, licet non omnino nec perfecte, quod, quamvis in se minimum habeat de bono, tamen optime ordinatum est.
+</p>
+               <p xml:id="bb-l2d1p1a1q1-d1e203">
+                 3-4. Quod obicitur, quod omne quod producitur, producitur per simile in forma, et cognoscitur similiter, dicendum quod est agens secundum naturam, et secundum intellectum. Agens secundum naturam producit per formas, quae sunt vere naturae, sicut homo hominem, et asinus asinum ; agens per intellectum producit per formas, quae non sunt 
+                 <cb ed="#H" n="b"/>
+                 aliquid rei, sed ideae in mente, sicut artifex producit arcam ; et sic productae sunt res, et hoc modo sunt formae rerum aeternae, quia sunt Deus. Et si sic posuit Plato, commendandus est, et sic imponit ei Augustinus. Si autem ultra processit, ut imponit ei Aristoteles, absque dubio erravit, et ratio sua, quae praedicta est, omnino nihil cogit. Nam sicut ostendit Philosophus formae rerum extra Deum a singularibus separatae nihil omnino faciunt, nec ad operationem, nec ad cognitionem.
+</p>
+
+             <p xml:id="bb-l2d1p1a1q1-d1e212">Quod ultimo obicitur de materia : materia 
+               <pb ed="#Qb" n="18"/>
+               non potest fieri, quia vel ex aliquo vel ex nihilo, dicendum quod ex nihilo, et hoc per creationem.
+             Quod obicitur, quod actio est in quid, dicendum quod creare non est agere, sed facere, et hoc refert inter agere et facere ; nam agere in quid, non quid agat, exigit ; facere autem e converso.</p> 
+
+             <p xml:id="bb-l2d1p1a1q1-d1e216">6. Quod ulterius quaeritur, in quo sit creatio-passio ; dupliciter respondetur. Quidam dicunt quod non est substantia nec accidens, sed via ad utrumque ; et tale praecedit illud, ad quod est naturaliter, quamvis in eo habeat esse.
+               Aliter dicunt alii quod aliquid creari non est aliud quam nunc primo esse ; nec creatio dicit naturam aliquam mediam inter Deum et creaturam, sed solum dicit esse rei, connotando ordinem ad primum efficiens a quo et ad non-esse, ita tamen quod ordo ille totaliter est in re creata et non in nihilo. Unde cum dicitur ex nihilo aliquid fieri, potest intelligi tripliciter : aut materialiter, ut ex ferro cultellus ; aut causaliter, ut ex patre filius ; aut ordinaliter, ut de mane fit meridies. Primis duobus modis verum est ex nihilo nihil fieri ; tertio vero modo verum est secundum naturam, sed falsum supra naturam. Per virtutem enim infinitam, quae non indiget fulcimento materiae, ita faciliter potest aliquid produci ex nihilo, sicut de aliquo ; alioquin non esset virtus primi principii infinita, sed egeret materiae fundamento ; et ideo illi virtuti soli hoc attribuendum est necessario, quamvis non possit consimile reperiri in aliquo creato. Hoc enim est eius proprium, sicut et ipsa omnipotentia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

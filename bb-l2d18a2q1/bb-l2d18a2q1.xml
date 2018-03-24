@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 18, A. 2, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 18, A. 2, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d18a2q1">
+            <head xml:id="bb-l2d18a2q1-Hd1e99">II, Distinctio 18, A. 2, Q. 1</head>
+            <head xml:id="bb-l2d18a2q1-Hd1e102" type="question-title">Utrum animae omnium hominum sint una substantia an diversae.</head>
+ 
+            <p xml:id="bb-l2d18a2q1-d1e105">Circa primum sic proceditur et ostenditur quod animae omnium hominum sint una anima numero, non diversae.</p>
+            <div xml:id="bb-l2d18a2q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d18a2q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d18a2q1-d1e113">1. Omne quod individuatur et multiplicatur ad alterius multiplicationem et individuationem, substantialiter dependet ad illo ; sed anima intellectiva non dependet substantialiter a corpore, cum possit esse substantialiter sine illo : ergo non individuatur nec multiplicatur secundum individuationem corporis vel multiplicationem.</p>
+               <p xml:id="bb-l2d18a2q1-d1e116">2. Item, plus assimilantur in complexione et natura duorum hominum corpora quam eiusdem corporis membra diversa, ut caro mea carni tuae quam os meum carni meae : ergo si una anima potest esse vivificativa diversorum membrorum unius corporis, ita quod in illa membra diversas habet influentias secundum eorum dispositiones varias, videtur multo fortius quod una anima possit esse perfectio duorum corporum sibi similium.</p>
+               <p xml:id="bb-l2d18a2q1-d1e119">3. Item, multiplicatio in individuis eiusdem speciei attenditur propter conservationem, ut perpetuetur esse in pluribus quod non poterat perpetuari in uno ; sed anima rationalis est incorruptibilis, sicut infra patebit : ergo videtur quod in ea non sit multiplicatio secundum numerum : ergo in diversis hominibus non numeratur sed est eadem numero.</p>
+               <p xml:id="bb-l2d18a2q1-d1e122">4. Item, si anima intellectiva individuaretur secundum corpus, per consequens quod reciperetur in illa, individuaretur secundum exigentiam corporis ; sed anima intellectiva suscipit formam universalem, ut est universalis : ergo si forma existens in anima non individuatur, pari ratione nec anima, prout est in hoc corpore, individuari potest.</p>
+               <p xml:id="bb-l2d18a2q1-d1e126">5. Item, ad hoc quod anima rationalis aliquid intelligat, necesse est quod ex se intelligente et intellecto fiat unum ; sed contingit animas diversorum hominum, omnino idem intelligere : ergo contingit unum et idem eis uniri. Sed quaecumque uni et eidem sunt eadem, inter se sunt eadem : ergo animae plurium hominum sunt una et eadem substantia numero.</p>
+               <p xml:id="bb-l2d18a2q1-d1e129">6. Item, actus et officium substantiae spiritualis est regere et movere substantiam corporalem : ergo si nihil est otiosum in natura, nunquam est ponere substantiam spiritualem quae non moveat corporalem ; sed si diversae essent substantiae in diversis hominibus, cum contingat eas separari a corporibus propriis, contingeret eas aliquando ab actu cessare et ita otiosas esse : quod si hoc est inconveniens, inconveniens est plures homines diversas animas rationales habere.</p>
+
+               <p xml:id="bb-l2d18a2q1-d1e132">Contra: 1. Sicut dicit <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d18a2q1-Qd1e137" source="http://scta.info/resource/aristda-l2">proprius actus habet fieri in propria materia</quote> ; sed anima rationalis est actu et entelechia corporis humani : ergo cum diversa sint corpora humana, diversae erunt animae rationales illorum corporum perfectivae.</p>
+               <p xml:id="bb-l2d18a2q1-d1e141">2. Item, perfectionem et perfectibile necesse est ad invicem esse proportionabilia : ergo nec perfectibile excedit perfectionem nec perfectio ipsum perfectibile. Si ergo anima rationalis est perfectio corporis humani, illa anima rationalis, quae est perfectio istius corporis, non : est perfectio alterius corporis ; et ita impossibile est quod perficiat aliud corpus.</p>
+               <p xml:id="bb-l2d18a2q1-d1e144">3. Item, ab eodem est esse et esse unum sive esse distinctum ; sed unumquodque habet esse a sua perfectione : ergo distinctionem. Si igitur homo ab homine distinguitur, ergo et perfectio unius hominis a perfectione alterius ; sed perfectio hominis, secundum quod est homo, est ipsa anima rationalis, non tantum sensibilis : ergo etc.</p>
+               <p xml:id="bb-l2d18a2q1-d1e147">4. Item, hoc ipsum videtur per deductionem ad impossibile multiplex. Quorum primum est, quia, si eadem anima est in multis hominibus, cum unus sit sciens, alter ignorans, unus bonus alter malus, unus etiam odiat alterum, sequitur tunc quod duo contraria erunt in eodem subiecto secundum numerum et idem ipsum contrariabitur sibi ipsi. Quodsi hoc est impossibile, restat quod et illud ex quo sequitur, scilicet unam et eamdem animam esse in pluribus hominibus.</p>
+               <p xml:id="bb-l2d18a2q1-d1e151">5. Item, si una et eadem anima est in pluribus, post mortem nihil plus habet iustus quam impius : ergo bonum remanet irremuneratum et malum impunitum : ergo mundus est inordinatus et Deus est iniustus, et stultus est qui facit aliquod bonum. Ergo si hoc est adeo impossibile ut non tantum sit contra fidem, sed etiam contra rationem rectam, impossibile est plures homines eamdem animam rationalem habere.</p>
+               <p xml:id="bb-l2d18a2q1-d1e154">6. Item, si una anima rationalis est in diversis hominibus, ergo post mortem non est magis beatus unus quam alter. Si igitur ad beatitudinem non pervenitur nisi per virtutem, et multi sunt qui in hac vita non habent virtutes : ergo multi sunt qui non perveniunt ad beatitudirtem. Si igitur eadem est omnium anima, nulli beatificantur : ergo frustra factus est homo, frustra factus est etiam totus mundus. Et si hoc est omnino falsum et impium, falsum et impium est unam animam esse in pluribus.</p>
+            </div>
+            <div xml:id="bb-l2d18a2q1-Dd1e158">
+               <head xml:id="bb-l2d18a2q1-Hd1e160">Conclusio</head>
+               <head xml:id="bb-l2d18a2q1-Hd1e163" type="question-title">Secundum fidem, rationem et experientiam constat, quod diversi homines diversas habent animas rationales</head>
+ 
+               <p xml:id="bb-l2d18a2q1-d1e166">Respondeo : Ad praedictorum intelligentiam est notandum quod in hac quaestione multi philosophantes multa dixerunt falsa et vana.</p>
+               <p xml:id="bb-l2d18a2q1-d1e169">Quidam enim philosophi crediderunt, non solum eamdem esse animam in omnibus hominibus, sed etiam in omnibus animalibus. Crediderunt enim animam non esse aliud quam Deum ; et huius positionis fuit Pythagoras et Varro, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro De civitate Dei, de Varrone. Maxime autem hoc putaverunt de anima humana propter sui dignitatem et spiritualitatem quantum ad intellectum agentem ; quantum vero ad intellectum possibilem crediderunt esse idem quod hyle, quia anima potest recipere omnia, et ita denudata est a formis omnibus.</p>
+               <p xml:id="bb-l2d18a2q1-d1e175">Hoc autem ponere non est philosophia, sed manifesta insipientia. Cum enim anima sit variabilis et transmutabilis et bonitatis et malitiae susceptibilis, omnino Deus esse non potest. Cum iterum sit forma nobilissima inter naturales formas, dans actum et complementum corpori et distincta ab aliis formis naturalibus, hyle esse non potest.</p>
+ 
+               <p xml:id="bb-l2d18a2q1-d1e179">Alii autem aliter opinati sunt, quod anima humana sive intellectualis, secundum quod intellectualis est, una est in omnibus hominibus, non solum quantum ad intellectum agentem, sed etiam quantum ad intellectum possibilem.
+Et ratio, quae movit ad hoc ponendum, fuit ipsius animae immaterialitas et incorruptibilitas. Quia enim immaterialis est et a corpore non dependens, per corpus non potest individuari, cum nec sit corpus nec virtus in corpore, ut dicit <name ref="#Aristotle">Philosophus</name>. Cum sit incorruptibilis, non indiget multiplicari, cum una numero conservari possit.
+Et haec fuit positio Commentatoris, super librum De anima, quam etiam vult imponere Aristoteli et trahere ex verbis suis, tum quia ponit mundum aeternum, et ita homines innumerabiles praecesserunt ; tum etiam quia ponit quod nulla sit substantia spiritualis, quae non habeat corpus movere ; quodsi diversae animae essent in diversis hominibus, aliquando cessarent ab actu movendi, cum separantur ; essent etiam infinitae actu, cum motus caeli non habuerit principium, secundum <name ref="#Aristotle">Philosophum</name>.
+Ad vitandas autem obiectiones in contrarium adductas distinguit Commentator tres partes in humana anima. Cuius verba sunt haec, super III De anima : <quote xml:id="bb-l2d18a2q1-Qd1e187">Opinandum est quod in anima sunt tres partes intellectus, quarum una est intellectus recipiens, secunda autem efficiens, tertia autem factum ; et duae istarum sunt aeternae, scilicet agens et recipiens, tertia autem est generabilis et corruptibilis</quote>. Animam autem tertiam, quam dicit generabilem et corruptibilem, vocat intellectum passivum, et illud dicit quod nihil aliud est quam imaginatio. Unde postmodum subiungit : <quote xml:id="bb-l2d18a2q1-Qd1e190">Intellectus passivus est corruptibilis, et absque hoc nihil intelligitur. Per intellectum autem passivum intelligo virtutem imaginariam</quote>. Unde vult dicere quod, sicut in visu est color et est lux et est oculus videns, sic in intellectu se habet quod species imaginariae sunt sicut color, intellectus agens est sicut lux, intellectus possibilis est sicut oculus. Et sicut ex concursu illorum trium efficitur visus, ita ex concursu illorum trium efficitur intellectus ; et sicut ex diversitate vel defectu coloris causatur diversitas vel defectus actus videndi, sic ex diversitate existente in similitudinibus imaginariis vel imaginatione causatur diversitas in intellectu plurium et defectus etiam actus intelligendi in eodem homine, quia nihil intelligimus nisi in phantasmate. Et pro tanto dicit <name ref="#Aristotle">Philosophus</name> corrumpi intellectum, quodam interius corrupto ; intellectum, inquam, non quemlibet, sed adeptum. Et per haec quae dicta sunt, nititur declinare inconvenientia quae ad hanc opinionem sequuntur.</p>
+               <p xml:id="bb-l2d18a2q1-d1e197">Quantumcumque autem hanc opinionem coloret, pessima est et haeretica. Est enim contra Christianam religionem, dum aufert meritorum retributionem, quae non esset si omnium anima una esset.
+Est etiam contra rectam rationem. Planum est enim quod anima intellectiva, ut intellectiva est, est perfectio hominis secundum quod homo. Si ergo homines non sunt diversi solum secundum quod animalia, sed secundum quod homines, non solum habent diversas imaginationes et animas sensibiles, immo etiam diversos Intellectus et animas rationales.
+Est etiam contra sensibilem experientiam, quoniam diversi homines diversas habent et contrarias cogitationes et affectiones. Quodsi tu dicas quod hoc venit ex diversitate specierum existentium in imaginatione, hoc nihil est, quia non solummodo diversificantur in his intelligibilibus, quae extrahuntur a sensu, immo etiam in his quae sunt supra omnem imaginationem, sicut sunt virtutes, quae intelliguntur per suam essentiam, non per speciem imaginariam, sicut etiam est ipse Deus, quem quidam diligunt, quidam contemnunt.</p>
+               <p xml:id="bb-l2d18a2q1-d1e200">Hanc igitur positionem repudiando tamquam haereticam et falsam, dicendum est secundum fidem et veritatem quod diversi homines diversas habent animas rationales, et concedendae sunt rationes hoc probantes.</p>
+            </div>
+            <div xml:id="bb-l2d18a2q1-Dd1e205">
+               <head xml:id="bb-l2d18a2q1-Hd1e207">Ad rationes</head>
+
+               <p xml:id="bb-l2d18a2q1-d1e210">1. Ad illud autem quod primo obicitur in contrarium, quod intellectus non dependet a corpore, ergo ab eo non potest individuari, dicendum quod intellectus individuatur secundum corporis indigentiam ; non tamen pius individuatio est a corpore, sed a propriis principiis, materia scilicet et forma sua, quas de se habet, sicut in se subsistit, sicut determinatum est supra.</p>
+               <p xml:id="bb-l2d18a2q1-d1e213">2. Ad illud quod obicitur, quod una anima potest perficere diversa membra, dicendum quod non est simile, pro eo quod omnia membra continuantur et reducuntur ad unum principale membrum in corpore, mediante quo est defluxus, motus et sensus ad alia membra, ut patet in corde ; diversorum autem hominum corpora non continuantur nec reducuntur ad unum membrum : et ideo non possunt habere unam perfectionem.</p>
+               <p xml:id="bb-l2d18a2q1-d1e216">3. Ad illud quod obicitur, quod multiplicatio numeralis fit propter conservationem speciei, dicendum quod, sicut in praecedentibus dictum est, haec non est tota causa nec praecipua, immo principalis ratio est ad manifestationem bonitatis divinae ; et haec praecipue est in animabus, quae multae sunt, ut eis distribuatur gratiarum Dei multiformitas et compleatur illius supernae civitatis integritas et numerositas.</p>
+               <p xml:id="bb-l2d18a2q1-d1e219">4. Ad illud quod obicitur, quod anima recipit formam universalem, ut est universalis, dicendum quod etsi illa forma, quam anima recipit, sit universalis per indifferentiam ad multa singularia cognoscenda, tamen revera illa species, quae est in anima, est quoddam accidens singulare, quae qualificat et disponit ipsam animam et in diversis animabus diversificatur, sicut et scientia, quae in diversis cognoscentibus est alia et alia, quamvis sit de re unica.</p>
+               <p xml:id="bb-l2d18a2q1-d1e223">5. Et per hoc patet responsio ad sequens. Quando enim dicitur quod ad actum intelligendi requitur quod ex intellecto et intelligente fiat unum, hoc intelligitur quantum ad speciem, quae unitur intellectui, non quantum ad ipsum obiectum extrinsecum. Illa autem species, quae intellectui unitur, habet comparationem ad intellectum, in quo est, et ad obiectum, ad quod est et quod repraesentat : et quamvis in comparatione ad obiectum habeat unitatem quodam modo in diversis cognoscentibus, quia ad idem, in quantum est ratio et similitudo eiusdem, tamen in comparatione ad animam, in qua est, habet diversitatem. Et potest poni exemplum de speciebus receptis in duobus speculis vel in duobus oculis.</p>
+               <p xml:id="bb-l2d18a2q1-d1e226">6. Ad illud quod obicitur, quod substantiae spiritualis officium est movere corpus, dicendum quod illud argumentum dupliciter deficit. Primum quidem, quia propter hoc non est substantia spiritualis principaliter facta. Cessabit enim omnis motus, quod ignoravit <name ref="#Aristotle">Philosophus</name> ; unde vana est ratio sua, quando assumsit numerum motorum secundum numerum mobilium et motuum ; multo enim plures sunt angeli quam sint orbes qui moventur ; non enim facti sunt ad hoc, sed ad fruendum Deo.
+Deficit etiam in hoc quod, etsi anima separetur a corpore, resumet tamen aliquando corpus suum per resurrectionem : quod etiam <name ref="#Aristotle">Philosophus</name> ignoravit ; et ideo non est mirum si in huiusmodi deficit. Necesse est enim philosophantem in aliquem errorem labi nisi adiuvetur per radium fidei.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

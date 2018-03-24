@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p2a1q2">
+            <head xml:id="bb-l2d25p2a1q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d25p2a1q2-Hd1e102" type="question-title">Utrum liberum arbitrium sit actuum contingentium et necessariorum an contingentium tantum.</head>
+ 
+            <p xml:id="bb-l2d25p2a1q2-d1e105">Secundo quaeritur de libero arbitrio in comparatione ad actum, et quaeritur, utrum sit actuum contingentium et necessariorum an contingentium tantum.</p>
+            <div xml:id="bb-l2d25p2a1q2-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d25p2a1q2-d1e110">Et quod sit contingentium tantum, videtur : 
+        Per Magistrum, in secundo capitulo huius distinctionis, ubi ait sic : <quote xml:id="bb-l2d25p2a1q2-Qd1e112" source="http://scta.info/resource/pl-l2d25c1-d1e111">Hoc autem sciendum quod liberum arbitrium non refertur ad praesens vel ad praeteritum, sed ad futura contingentia</quote>.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e116">Item, liberum arbitrium est respectu eorum actuum qui sunt a nobis et eorum de quibus consiliamur. Si ergo non consiliamur de necessariis et impossibilibus, sed de contingentibus, et ea quae sunt in nobis possumus facere et non facere, videtur quod soli actus contingentes ad liberum arbitrium habeant pertinere.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e119">Item, liberum arbitrium est potestas rationalis ; sed potestas rationalis est indifferens ad faciendum et non faciendum ; et nihil quod exit a potentia indifferenter se habente ad hoc et ad eius oppositum est necessarium, sed contingens : ergo etc.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e122">Item, necessarium et voluntarium ex opposito dividuntur : ergo, si actus liberi arbitrii esset necessarius, non esset voluntarius : si ergo omnis actus liberi arbitrii est voluntarius, videtur quod nullus sit necessarius.</p>
+
+ 
+               <p xml:id="bb-l2d25p2a1q2-d1e125">Sed contra : <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-l2d25p2a1q2-Qd1e130">Erit homo sic ut velle male non possit nec tamen ideo carebit libero arbitrio</quote>. Et paulo post ; Neque aut voluntas non est aut libera dicenda non est, qua beati sic esse volumus ut esse miseri non solum nolimus, sed nequaquam prorsus velle possimus. Ex hoc expresse colligitur quod liberum arbitrium est respectu actus necessarii et immutabilis.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e135">Item, liberum arbitrium est in Deo et angelis et hominibus beatis ; sed Deus est immutabilis per naturam, angelus vero et homo beatus per gloriam : ergo in ipsis liberum arbitrium necessario et immutabiliter in suum actum exit : ergo non solum est respectu actus contingentis, verum etiam necessarii.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e138">Item, non est meritum sine actu liberi arbitrii ; sed iste qui fecit bonum vult se fecisse, et hoc ipso meretur : si igitur hunc fecisse bonum, demonstrato illo qui fecit, est necessarium, liberum arbitrium est respectu actus necessarii, etiam secundum statum meriti.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e141">Item, liberum arbitrium est potestas non alligata, eo ipso quod liberum est. Si igitur potentia intellectiva, eo ipso quod non est alligata, potest cognoscere necessaria et contingentia, ergo, cum voluntas vel arbitrii libertas ad nihil astringatur, videtur quod erit respectu actuum necessariorum et contingentium simul.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q2-Dd1e145">
+               <head xml:id="bb-l2d25p2a1q2-Hd1e147">Conclusio</head>
+               <head xml:id="bb-l2d25p2a1q2-Hd1e150" type="question-title">Actus liberi arbitrii, ut liberi, non solum potest 
+      esse circa necessarium, sed etiam esse necessarius in se; actus eius, ut deliberantis, semper 
+      est contingens, licet possit esse circa necessarium</head>
+ 
+               <p xml:id="bb-l2d25p2a1q2-d1e153">Respondeo : Dicendum quod liberum arbitrium dupliciter potest considerari : aut secundum quod liberum aut secundum quod deliberans.
+Si loquamur de ipso secundum quod liberum, sic concedo quod potest esse, non solum respectu contingentis, sed etiam necessarii, sicut patet in Deo et in Christo et in angelis et in hominibus beatis. Cum enim duplex sit necessitas, videlicet coactionis et immutabilitatis, necessitas coactionis repugnat libertati arbitrii, necessitas vero immutabilitatis non, pro eo quod arbitrium dicitur liberum, non quia sic velit hoc ut possit velle eius oppositum, sed quia omne quod vult appetit ad sui ipsius imperium, quia sic vult aliquid ut velit se velle illud ; et ideo in actu volendi se ipsum movet et sibi dominatur, et pro tanto dicitur liberum, quamvis immutabiliter ordinetur ad illud.
+</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e156">Si autem loquamur de libero arbitrio secundum quod deliberans utrum hoc fiat vel non fiat, sic actus eius, de quo deliberat, est contingens : nullus enim deliberat de necessario et impossibili ; actus tamen ille potest esse circa necessarium vel circa contingens. In libero enim arbitrio est considerare actum volendi et ipsum volitum. Et in quantum liberum arbitrium est deliberans, necesse est quod contingentia sit circa utrumque istorum vel circa alterum : circa utrumque, ut cum quis deliberat utrum velit intrare religionem vel diligere inimicum ; circa alterum, ut cum quis deliberat utrum debeat sibi placere vel displicere malum quod fecit vel utrum debeat consentire vel dissentire appetitui naturaliter inserto, utpote appetitui beatitudinis. Sic igitur actus liberi arbitrii deliberantis, quamvis possit esse circa riecessarium, semper est contingens ; actus vero liberi arbitrii, ut liberum est, non solum potest esse circa necessarium, sed etiam necessarius in se.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q2-Dd1e161">
+               <head xml:id="bb-l2d25p2a1q2-Hd1e163">Ad rationes</head>
+               <p xml:id="bb-l2d25p2a1q2-d1e166">Et per hoc patet responsio ad quaestionem propositam, patet etiam responsio ad obiecta. Nam rationes, quae ostendunt quod liberum arbitrium potest esse respectu actus necessarii, concludunt de libero arbitrio secundum quod liberum, sicut manifeste apparet pertractanti. Auctoritates vero et rationes ad oppositum intelliguntur de libero arbitrio secundum quod deliberans et consilians ; aliter non cogunt.</p>
+
+               <p xml:id="bb-l2d25p2a1q2-d1e169">Nam quod primo obicitur de verbo Magistri, planum est quod intelligit de libero arbitrio secundum statum viatoris, sicut ipse Magister in littera se ipsum exponit.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e172">Similiter quod secundo obicitur, quod liberum arbitrium est eorum de quibus consiliamur ; hoc enim verum est de libero arbitrio, secundum quod tenet rationem deliberantis.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e175">Ad illud quod obicitur, quod rationalis potestas est ad opposita, dicendum quod illud non est verum de omni potestate rationali, sicut iam in sequenti problemate melius patebit ; sed hoc est verum de rationali potestate secundum statum mutabilitatis et vertibilitatis, secundum quem statum intelligitur verbum <name ref="#Aristotle">Philosophi</name>.</p>
+               <p xml:id="bb-l2d25p2a1q2-d1e182">Ad illud quod obicitur, quod necessarium et voluntarium ex opposito dividuntur, dicendum quod verum est secundum quod necessarium dictum est a necessitate coactionis ; secundum autem quod necessarium dictum est a necessitate immulabilitatis, non dividitur contra voluntarium, nisi voluntarium dicatur a voluntate deliberante et consiliante. Et hoc modo bene concedo quod voluntarium est contingens, et hoc non obviat, sed potius consonat ei quod prius dictum est.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 19, A. 3, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 19, A. 3, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d19a3q1">
+            <head xml:id="bb-l2d19a3q1-Hd1e99">II, Distinctio 19, A. 3, Q. 1</head>
+            <head xml:id="bb-l2d19a3q1-Hd1e102" type="question-title">Utrum immortalitas inesset homini a natura vel a gratia.</head>
+ 
+            <p xml:id="bb-l2d19a3q1-d1e105">Circa primum sic proceditur et quaeritur, utrum illa immortalitas esset a natura vel a gratia.</p>
+            <div xml:id="bb-l2d19a3q1-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d19a3q1-d1e110">Et quod a natura, videtur.
+1. Illud est nobis naturale, quod nobis innascitur, et cum quo nati sumus ; sed homo cum illa immortalitate productus est, et illa immortalitas indita est homini a sua conditione : ergo fuit ei naturalis vel a natura.</p>
+               <p xml:id="bb-l2d19a3q1-d1e113">2. Item, mors non poterat inesse homini nisi praecedente culpa, sicut probatum est supra ; sed culpa non poterat homini inesse nisi deordinaretur natura : si ergo mors inerat homini contra naturam, immortalitas inerat ei per naturam.</p>
+               <p xml:id="bb-l2d19a3q1-d1e116">3. Item, per hoc homo erat immortalis per quod erat innocens ; sed innocens erat ex conditione naturae ; esto enim quod nullam haberet gratiam, nihilominus tamen haberet innocentiam : ergo immortalis erat ex conditione naturae, non ex beneficio gratiae.</p>
+               <p xml:id="bb-l2d19a3q1-d1e119">4. Item, immortalitas hominis consistit in continua coniunctione animae et corporis, continua autem coniunctio animae et corporis est per continuum appetitum unius ad alterum ; sed anima habet continuum appetitum ad corpus et e converso, per naturam absque gratia : ergo immortalitas inerat homini per naturam.</p>
+               <p xml:id="bb-l2d19a3q1-d1e122">5. Item, idem est principium per quod datur rei esse et per quod in esse continuatur ; sed anima rationalis, quae est forma per naturam immortalis et incorruptibilis, corpori dabat naturaliter esse et complementum : ergo et ipsius corporis sive hominis esse naturaliter continuabat ; sed a quo in esse est continuatio, ab eodem est immortalitatis perpetuatio : ergo etc.</p>
+               <p xml:id="bb-l2d19a3q1-d1e126">6. Item, naturale est homini comedere ea quae sibi apponuntur ; sed homo per esum ligni vitae et aliorum lignorum paradisi vitam suam poterat perpetuare, sicut dicit <name ref="#Augustine">Augustinus</name> et Magister : ergo videtur quod hominis perpetuatio inerat homini per naturam.</p>
+
+ 
+               <p xml:id="bb-l2d19a3q1-d1e132">Sed contra : <name ref="#Augustine">Augustinus</name>, Super Genesim, et Magister dicit in littera : <quote xml:id="bb-l2d19a3q1-Qd1e137">Creatus est homo immortalis, quod erat ei de ligno vitae, non de conditione naturae ; mortalis erat conditione corporis animalis, immortalis beneficio Conditoris</quote>. Et idem ipse <name ref="#Augustine">Augustinus</name> expressius dicit quod sicut praestitum fuit filiis Israel quod in quadraginta annis vestimenta eorum non veterascerent, ita praestitum fuit Adae ut non moreretur.</p>
+               <p xml:id="bb-l2d19a3q1-d1e144">2. Item, super illud Lucae 10, 30 : <quote xml:id="bb-l2d19a3q1-Qd1e146" ana="#lc10_30">Exspoliaverunt eum, et plagis impositis</quote>, Glossa exponit de primo homine, quem dicit expoliatum fuisse gratuitis et vulneratum in naturalibus : si ergo immortalitas non fuit vulnerata, sed simpliciter ablata ipsi homini per culpam, ergo non inerat ei a natura, sed a gratia.</p>
+               <p xml:id="bb-l2d19a3q1-d1e150">3. Item, hoc videtur ratione. Proprietates naturales non derelinquunt subiectum propter culpam : ergo si immortalitas inerat homini a natura, non videtur quod debuerit eum relinquere propter culpam ; quodsi eam amisit, patet etc.</p>
+               <p xml:id="bb-l2d19a3q1-d1e153">4. Item, impossibile est duo opposita inesse eidem secundum eadem principia, maxime secundum principia naturaliter causantia, quae non inclinant ad opposita ; sed homo per naturam suam poterat mori : ergo aut immortalis non erat aut, si erat, non erat per naturam, sed per gratiam solum.</p>
+               <p xml:id="bb-l2d19a3q1-d1e156">5. Item, corpus Adae per naturam propriam erat nobiliter complexionatum : ergo molles et teneras carnes habebat ; sed naturaliter molle cedit duro : ergo per naturam corpus Adae vulnerari poterat et secari : ergo per naturam Adam non erat immortalis.</p>
+               <p xml:id="bb-l2d19a3q1-d1e160">6. Item, ignis naturaliter consumit corpus ex elementis quatuor constitutum, et corpus animale per naturam indiget aspiratione et respiratione : ergo, si homo caderet in aquam vel in ignem et non moreretur, hoc non esset per virtutem naturae, sed potius contra vel supra : non ergo esset a natura, sed potius ex gratia.</p>
+            </div>
+            <div xml:id="bb-l2d19a3q1-Dd1e164">
+               <head xml:id="bb-l2d19a3q1-Hd1e166">Conclusio</head>
+               <head xml:id="bb-l2d19a3q1-Hd1e169" type="question-title">Immortalitas Adae in statu innocentiae quoad aptitudinem erat a natura, 
+      sed quoad completionem a gratia</head>
+               <p xml:id="bb-l2d19a3q1-d1e172">Respondeo : Dicendum quod, sicut dicit Magister in littera, circa hoc multiplex et varia fuit opinio. Quidam enim dicere voluerunt quod immortalitas primi hominis esset a natura ; quidam quod esset a gratia. Utraque autem harum opinionum habuit aliquam efficacem rationem moventem et utraque habet aliquid veritatis, licet una plus habeat quam altera.
+Sicut enim, cum dicitur : homo est beatificabilis, duo tanguntur, et aptitudo et dispositio, ita etiam, cum dicitur homo est immortalis. Unde, sicut homo quodam modo potest dici beatificabilis per naturam, quodam modo per gratiam, sic et in proposito. Prout enim hoc quod est beatificabile importat aptitudinem, sic inest homini per naturam : homo enim a natura sua habet aptitudinem ad beatitudinem. Secundum autem quod importat, dispositionem sufficientem, per quam quis pervenit ad beatitudinem sive sufficientem ordinem ad actum, sic inest homini non per naturam, sed per gratiam, per quam sufficienter disponitur ad gloriam, nec sine illa potest sufficere natura.
+Sic et in proposito immortalis quantum ad statum innocentiae dici poterat homo per naturam, immortalis etiam per gratiam, quia a natura habebat aptitudinem, sed a gratia habebat completionem.
+</p>
+ 
+               <p xml:id="bb-l2d19a3q1-d1e175">Et hoc patet sic. Tripliciter enim potest mors homini contingere : aut per elementorum pugnam et dissolutionem aut per humidi consumtionem aut per extrinsecam laesionem. Immortalitas ergo dicit privationem huius triplicis modi moriendi quantum ad actum et potentiam in Beatis, qui dicuntur immortales, quia non possunt mori ; quantum ad actum vero solum in hominibus institutis, qui dicuntur immortales, quia poterant non mori hoc triplici genere moriendi ; habebant enim aptitudinem evadendi hoc triplex genus mortis per id quod habebant a natura.</p>
+ 
+               <p xml:id="bb-l2d19a3q1-d1e178">Nam corpus valde bene erat complexionatum et anima de se incorruptibilis erat, quae illud corpus regebat et conservabat, et ita idoneus erat primus homo ex his constitutus, quod nunquam deficeret per elementorum pugnam. Sed tamen illud non sufficiebat : hoc enim non posset anima peccatrix facere, si poneretur in consimili corpore. Et ideo datum fuit illi animae donum gratiae, per quam posset corpori praesidere et illud regere et elementa quasi in quadam amicitia custodire, et hoc, quamdiu vellet, suo auctori subiacere. Hoc autem donum gratiae vocat <name ref="#Anselm">Anselmus</name> iustitiam originalem. Et sic patet quod, quantum ad immortalitatem, contra primum genus moriendi aptitudinem habebat a natura, sed complementum a gratia.</p>
+ 
+               <p xml:id="bb-l2d19a3q1-d1e185">Similiter quantum ad secundum genus moriendi, quod est per humidi consumtionem. Vis enim nutritiva potens erat ad convertendum alimentum sibi sufficiens, et alimenta efficacem habebant virtutem ad nutriendum ; et ex hoc homo idoneus erat ut conservaretur in eo sine corruptione humidum naturale. Sed quia humidum radicale paulative consumitur nec potest reparari per quodcumque alimentum, ideo data est virtus specialis cuidam ligno, quod dictum est lignum vitae, per cuius sumtionem repararetur humidum radicale. Et hoc quidem non fuit ex conditione naturae, sed ex beneficio Conditoris, sicut dicit <name ref="#Augustine">Augustinus</name>.</p>
+ 
+               <p xml:id="bb-l2d19a3q1-d1e191">Similiter et quantum ad tertium genus, quod quidem fit per extrinsecam laesionem. Adam enim fortis et potens erat ad repellendum nociva, sapiens et diligens ad praecavenda, nec habebat nociva extrinseca ; et ideo idoneitatem habebat ut per nullius laesionem incurreret mortem. Verumtamen quod bestiae, et si qua alia sunt quae nocere possent, ipsum omnino non laederent, nec in somno nec in vigilia, hoc non erat a natura, sed a Dei speciali providentia, quae ita eum custodiebat ut sub pedibus eius omnia subiacerent, ut nihil cuperet ipsum offendere, et, si cuperet, non valeret.</p>
+ 
+               <p xml:id="bb-l2d19a3q1-d1e194">Et sic patet quod immortalitas, quae fuit in statu innocentiae, quantum ad aptitudinem fuit a natura, quantum ad complementum fuit a gratia.
+Et per hoc pro magna parte patet responsio ad obiecta. Rationes enim quae probant quod non fuit simpliciter a natura, concedendae sunt, quia verum concludunt.</p>
+ 
+            </div>
+            <div xml:id="bb-l2d19a3q1-Dd1e199">
+               <head xml:id="bb-l2d19a3q1-Hd1e201">Ad rationes</head>
+               <p xml:id="bb-l2d19a3q1-d1e204">1. Ad illud vero quod obicitur, quod fuit a natura, quia fuit ei innata, dicendum quod non omne quod inest homini a principio suae nativitatis naturale est, nisi extendatur hoc nomen naturale ; multa enim bona gratis data concreantur et dantur cum natura, sicut planum est. Et ideo illud non valet.</p>
+               <p xml:id="bb-l2d19a3q1-d1e207">2. Ad illud quod obicitur, quod mors non poterat intervenire nisi praevia culpa, dicendum quod hoc non erat solum propter naturam, sed propter beneficium gratiae, quod erat naturae superadditum. Quia enim originalis iustitia faciebat naturam immortalem esse, et hanc non poterat perdere nisi per culpam, ideo mors non poterat intervenire nisi per culpam.</p>
+               <p xml:id="bb-l2d19a3q1-d1e210">3. Ad illud quod obicitur, quod innocentia erat a natura, ergo similiter et immortalitas, dicendum quod innocentia dupliciter potest dici : uno modo privative, quia privat culpam ; alio modo positive, quia ponit iustitiam contrariam. Innocentia autem non erat causa immortalitatis, secundum quod dicit puram privationem, sed secundum quod importat originalem iustitiam, merito cuius erat in anima vis totius corporis contentiva.</p>
+               <p xml:id="bb-l2d19a3q1-d1e213">4. Ad illud quod obicitur, quod continuatio vitae est ex coniunctione animae et corporis, dicendum quod ad continuationem vitae non sufficit appetitus, sicut ad beatificationem non sufficit appetere beatitudinem, sed necessaria est ulterius virtus ad satisfaciendum appetitui. Omnis enim natura appetit esse et durare, non solum hominum, sed etiam brutorum, non tamen in omnibus est immortalitas. Et ideo non sequitur quodsi a natura sit continuatio appetitus, quod a natura sit continuatio immortalitatis.</p>
+               <p xml:id="bb-l2d19a3q1-d1e217">5. Et per hoc patet responsio ad aliud quod obicitur, quod ab eodem est datio esse et conservatio. Dicendum enim quod etsi illud sit verum de conservatione quae est ad tempus, non tamen es{ verum de perpetuatione ; multa enim sunt quae possunt dare esse et tamen non possunt perpetuare.</p>
+               <p xml:id="bb-l2d19a3q1-d1e220">6. Ad illud quod ultimo obicitur, quod per esum ligni vitae et aliorum lignorum poterat in esse conservari, dicendum quod ista non erat tota causa, immo necessaria erat divina virtus protegens et prohibens nociva et interior virtus conservans et concilians contraria. Praeterea, quod lignum vitae talem effectum haberet, hoc speciale donum erat Dei, sicut etiam quod tanto tempore vestimenta et calceamenta populi Israel potuerunt sibi praebere obsequia. Et sic patet illud.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

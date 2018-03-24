@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d26a1q3">
+            <head xml:id="bb-l2d26a1q3-Hd1e99">Quaestio 3</head>
+    <head xml:id="bb-l2d26a1q3-Hd1e102" type="question-title">Utrum gratia sit in genere substantiae vel accidentis.</head>
+ 
+            <p xml:id="bb-l2d26a1q3-d1e105">Tertio quaeritur, utrum gratia sit in genere substantiae vel in genere accidentis.</p>
+            <div xml:id="bb-l2d26a1q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d26a1q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d26a1q3-d1e113">Et quod sit in genere accidentis, videtur.
+Omne quod advenit substantiae iam completae est accidens ; sed gratia advenit substantiae iam completae, scilicet animae rationali : ergo gratia est accidens.</p>
+
+               <p xml:id="bb-l2d26a1q3-d1e116">2. Item, quod <quote xml:id="bb-l2d26a1q3-Qd1e118">adest et abest praeter sublecti corruptionem est accidens</quote> ; sed gratia est huiusmodi, sicut patet, quia multi iusti efficiuntur peccatores et e converso : ergo etc.</p>
+               <p xml:id="bb-l2d26a1q3-d1e122">3. Item, omne quod recipit magis et minus, est accidens ; sed gratia recipit magis et minus, quia maior est in uno quam in altero et in eodem ipso secundum diversa tempora magis intenditur : ergo etc.</p>
+               <p xml:id="bb-l2d26a1q3-d1e125">4. Praeterea, aut gratia est substantia aut accidens. Si est accidens, habeo propositum ; si substantia ; aut substantia-materia aut substantia-forma aut substantiacompositum. Substantia materia non, hoc constat ; substantia composita non, quia tunc non esset animae unibilis ; substantia-forma non, quia tunc ex gratia et anima fieret unum per essentiam. Ergo, sl non est substantia, restat quod est accidens.</p>
+               <p xml:id="bb-l2d26a1q3-d1e129">5. Item, si est substantia, aut corporalis aut spiritualis. Non corporalis, hoc constat ; si spiritualis, aut Deus aut angelus aut anima rationalis ; sed constans est quod gratia creata nec est Deus nec est angelus nec rationalis anima : ergo re&amp;tat quod gratia creata sit in genere accidentis.</p>
+               <p xml:id="bb-l2d26a1q3-d1e132">6. Item, nulla substantia est habitus ; sed gratia est quidam habitus animam decorans et ornans, sicut dicitur super illud Psalmi [103, 15] : <quote xml:id="bb-l2d26a1q3-Qd1e134" ana="#ps103_15">Ut exhilaret faciem in oleo</quote> : Gratia est quidam nitor animi etc. Ergo gratia non est substantia ; et est substantia vel accidens : ergo etc.</p>
+ 
+               <p xml:id="bb-l2d26a1q3-d1e138">Sed contra : Nullum accidens est nobilius substantia ; sed gratia est nobilior anima, quam perficit et complet, sicut perfectio est nobilior perfectibili : ergo gratia non est accidens ; et est accidens vel substantia : ergo etc.</p>
+               <p xml:id="bb-l2d26a1q3-d1e141">Item, nullum accidens est substantiae similius quam substantia ; sed gratia inter ceteras creaturas est Deo similior, et Deus est substantia : ergo gratia est in genere substantiae.</p>
+               <p xml:id="bb-l2d26a1q3-d1e144">Item, nullum accidens est stabilius quam substantia, pro eo quod substantia praebet fulcimentum accidenti, non e converso ; sed gratia stabilit ipsam animam et confirmat in bono nec potest ipsa gratia aliquo modo incurvari in malo : si ergo anima est substantia, gratia est substantia.</p>
+               <p xml:id="bb-l2d26a1q3-d1e147">Item, omnis forma quae est principium vitae est in genere substantiae ; sed gratia est principium vitae et nobilissimae vitae : ergo gratia est in genere substantiae.</p>
+               <p xml:id="bb-l2d26a1q3-d1e151">Item, tria sunt genera bonorum, scilicet bona media, bona minima et bona maxima, sicut vult <name ref="#Augustine">Augustinus</name>, in libro De libero arbitrio ; sed bona minima et bona media sunt in genere substantiae : ergo multo fortius et bona maxima ; et gratia est de bonis maximis : ergo etc.</p>
+               <p xml:id="bb-l2d26a1q3-d1e157">Item, omne accidens quod inest alicui ut accidens, aut inest per se aut per accidens ; si igitur gratia inest animae ut accidens, aut ergo inest per se aut per accidens. Si per se, ergo habet ortum ex propriis principiis subiecti : ergo iam non erit gratia, sed naturalis proprietas. Si per accidens, sed omne per accidens reducibile est ad per se : ergo, si gratia inest animae per accidens, erit aliud subiectiim cui inerit per se. Quaero igitur quid sit illud. Si autem non est aliquod tale dare, restat quod gratia non est accidens ; et est accidens vel substantia : ergo etc.</p>
+            </div>
+            <div xml:id="bb-l2d26a1q3-Dd1e161">
+               <head xml:id="bb-l2d26a1q3-Hd1e163">Conclusio</head>
+               <head xml:id="bb-l2d26a1q3-Hd1e166" type="question-title">Gratia ut donum creatum est accidens</head>
+ 
+               <p xml:id="bb-l2d26a1q3-d1e169">Respondeo : Dicendum quod ponentes gratiam donum esse creatum, necesse habent ponere gratiam esse in genere accidentis.</p>
+               <p xml:id="bb-l2d26a1q3-d1e172">Ad cuius intelligentiam notandum est quod est aliquod accidens, quod comparatur ad aliquid sicut ad subiectum et causam ; aliquod, quod solum comparatur ad aliquid sicut ad subiectum et ad aliud sicut ad causam : verbi gratia, nigredo in corvo comparatur ad ipsum corvum sicut ad subiectum et causam ; lumen in aere vel spectes in speculo comparatur solum sicut ad subiectum, non sicut ad causam, quia, etsi ibi recipiatur, aliunde tamen habet ortum.</p>
+               <p xml:id="bb-l2d26a1q3-d1e175">Tale autem accidens, quod comparatur ad aliquid sicut ad subiectum et ad aliud sicut ad causam, potest esse sub triplici differentia. Quoddam enim est quod habet ortum ab inferiori ; quoddam, quod habet ortum a pari ; quoddam, quod habet ortum a superiori : sicut ab inferiori, ut species Iapidis in oculo vel etiam in intellectu nostro ; sicut a pari, ut similitudo speculi in speculo : sicut a superiori, ut lumen in aere illuminato.
+Tale autem accidens quod habet ortum a superiori, in quantum accidens est, complementum est, non quantum ad esse primum, sed quantum ad esse secundum. Quia vero a superiori est, habet nobilitare subiectum in hoc quod iungit ipsum et conformat ei quod est ipso superius. Et si sit tale accidens, quod ortum habet ab ente primo supremo, si eius infusio vel origo sit secundum perfectam influentiam, non solum habet nobilitare, verum etiam consummare et quietare ; et hoc non facittantum ratione sui, verum etiam ratione eius a quo procedit, in quo reperitur omnis perfectio et bonorum omnium aggregatio, ac per hoc completa beatitudo.
+Concedendae sunt ergo rationes probantes gratiam esse accidens.
+</p>
+            </div>
+            <div xml:id="bb-l2d26a1q3-Dd1e180">
+               <head xml:id="bb-l2d26a1q3-Hd1e182">Ad rationes</head>
+               <p xml:id="bb-l2d26a1q3-d1e185">Ad illud autem quod obicitur primo in contrarium, quod nullum accidens nobilius est substantia, dicendum quod illa ratio deficit tripliciter. Primum quidem, quia nobilitas substantiae et accidentis et bonitas substantiae et accidentis proprie non habent comparari. Accidens enim bonum dicitur non sibi, sed alii, non sicut ordinatum, sed sicut ratio ordinandi ; sed ipsa substantia bona est tamquam bonitatis participativa.
+Alius etiam defectus est ibi, quoniam, etsi nullum accidens nobilius sit substantia, prout accidens comparatur in se quantum ad essentiam generis sive quantum ad esse primum, nihilominus tamen, prout accidens consideratur in subiecto et includit esse subiecti, quamdam nobilitatem superaddit quantum ad esse secundum. 
+Tertius etiam defectus est, quia, quod gratia dicatur nobilior anima et perfectio animae, hoc non est ratione sui tantum, sed quia unit bono increato, sicut praedictum est.</p>
+
+               <p xml:id="bb-l2d26a1q3-d1e188">Ad illud quod obicitur, quod nullum accidens similius est substantiae quam substantia, dicendum quod, sicut dictum est de bonitate, quod alio modo dicitur anima esse bona, alio modo gratia ; sic etiam alio modo anima Deo assimilatur et alio modo gratia. Anima enim Deo assimilatur sicut divinae similitudinis susceptiva, gratia vero sicut ipsa similitudo vel donum assimilativum ; unde non est comparatio proprie inter hunc modum assimilandi et illum.</p>
+
+               <p xml:id="bb-l2d26a1q3-d1e191">Alius est etiam defectus, quia, cum anima assimiletur Deo propter gratiam, et ubi unum propter alterum, utrobique tantum unum, sic non est maior vel minor assimilatio dicenda in anima gratificata quam in gratia gratificante. - Tertius etiam defectus est, quia, etsi substantia plus assimiletur substantiae in ratione entis, nihil tamen prohibet accidens plus assimilari alicui substantiae sub ratione proprietatis, sicut anima sapiens plus assimilatur Deo, in quantum est ens per se, quam ipsa qualitas sapientiae ; nihilominus tamen Deo, in quantum est sapiens, plus assimilatur anima in quantum est sapiens quam in quantum est substantia. Sic et in proposito intelligendum est.
+</p>
+               <p xml:id="bb-l2d26a1q3-d1e194">Ad illud quod obicitur, quod nullum accidens est stabilius substantia, dicendum quod verum est de illo accidente quod comparatur ad aliquid sicut ad subiectum et causam ; de eo vero accidente quod aliunde habet originem, non habet veritatem, sicut patet in radio exeunte a sole, qui fixus permanet, aere moto. Et quia gratia est tale accidens, ideo illa ratio non habet locum in proposito.</p>
+
+               <p xml:id="bb-l2d26a1q3-d1e198">4. Ad illud quod obicitur, quod gratia est forma, quae est principium vitae, dicendum quod illud habet veritatem de forma quae dat vivere, quod spectat ad esse primum. Gratia autem est forma dans vitam quantum ad esse secundum sive quantum ad bene esse ; et ideo illud non valet. Non enim fit unum per essentiam ex gratificato et gratia, sicut fit unum per essentiam ex corpore vivificato et anima vivificante.</p>
+               <p xml:id="bb-l2d26a1q3-d1e201">5. Ad illud quod obicitur de bonis maximis et minimis et mediis, dicendum quod illa divisio bonorum est secundum acceptionem boni, qua aliquid dicitur bonum, quia bonum alii et utile, sicut patet ex verbis <name ref="#Augustine">Augustini</name> ibidem, quia bona maxima sunt illa quibus non contingit male uti ; et ideo ad gradum bonitatis, secundum eum modum per quem ibi loquitur <name ref="#Augustine">Augustinus</name>, nihil facit utrum bonum illud, quod dicitur maximum, sit in genere substantiae vel accidentis.</p>
+               <p xml:id="bb-l2d26a1q3-d1e210">6. Ad illud quod quaeritur, utrum insit animae per se aut per accidens, dicendum quod per se inest in genere subiecti, sed non per se in genere causae. Et quia per se inest in genere subiecti, ideo non est quaerendum aliud subiectum cui per prius insit. Quia vero non inest per se in genere causae, ideo non inest omni animae nec ex principiis animae habet originem, ideo quodam modo habet naturam accidentis inhaerentis per se, quodam modo naturam accidentis inhaerentis per accidens.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

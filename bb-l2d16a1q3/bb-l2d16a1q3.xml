@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 16, A. 1, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 16, A. 1, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d16a1q3">
+            <head xml:id="bb-l2d16a1q3-Hd1e99">II, Distinctio 16, A. 1, Q. 3</head>
+            <head xml:id="bb-l2d16a1q3-Hd1e102" type="question-title">Utrum esse imaginem conveniat homini proprie, ita quod nulli alii.</head>
+ 
+            <p xml:id="bb-l2d16a1q3-d1e105">Tertio quaeritur, utrum esse imaginem conveniat homini proprie, ita quod nulli alii.</p>
+            <div xml:id="bb-l2d16a1q3-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d16a1q3-d1e110">Et quod sic, videtur. 1. In solius hominis conditione dictum est : <quote xml:id="bb-l2d16a1q3-Qd1e112" ana="#gen1_26">Faciamus hominem ad imaginem</quote> etc. ; sed haec est nobilissima conditio, quae si daretur aliis, nullo modo deberet praetermitti : ergo videtur quod nulli alii quam homini esse ad imaginem suam Deus dederit. Quod si praetermisit de aliis, et non de homine, tunc est quaestio : quare Scriptura fecit ?</p>
+               <p xml:id="bb-l2d16a1q3-d1e116">2. Item, <name ref="#Augustine">Augustinus</name>, in sermone de imagine : <quote xml:id="bb-l2d16a1q3-Qd1e121">Ad imaginem et similitudinem suam Deus illum creavit - loquitur de homine - quod nulli alii creaturae dedit</quote>.</p>
+               <p xml:id="bb-l2d16a1q3-d1e125">3. Item, hoc videtur per rationem, quia quod per superabundantiam dicitur, uni soli convenit ; sed imago dicit similitudinem expressissimam in genere creaturae : ergo oportet quod conveniat vel uni soli speciei vel uni soli individuo.</p>
+               <p xml:id="bb-l2d16a1q3-d1e128">4. Item, eo ipso homo est imago Dei, quia immediate tendit in Deum ; si ergo universum est ordinatum secundum omnem sui partem, impossibile est quod aliquae creaturae diversarum specierum ordinentur in Deum ex aequo et immediate : ergo vel homo et angelus erunt eiusdem speciei vel esse imaginem convenit soli homini.</p>
+               <p xml:id="bb-l2d16a1q3-d1e131">5. Item, homo, eo ipso quod est imago Dei, est finis omnium aliorum ; sed hoc non potest pluribus diversis specie convenire, et planum est quod angelo non convenit : ergo videtur quod esse imaginem conveniat soli homini.</p>
+               <p xml:id="bb-l2d16a1q3-d1e135">6. Item, quia homo est imago Dei, fuit unibilis divinae naturae ; hoc autem est eius proprium : ergo proprium est homini esse Dei imaginem.</p>
+
+ 
+               <p xml:id="bb-l2d16a1q3-d1e138">Contra : 1. <name ref="#Dionysius">Dionysius</name>, De divinis Nominibus, dicit quod <quote xml:id="bb-l2d16a1q3-Qd1e143">Angelus est imago Dei, manifestatio occulti luminis</quote> etc.</p>
+               <p xml:id="bb-l2d16a1q3-d1e147">2. Item, <quote xml:id="bb-l2d16a1q3-Qd1e149">anima eo ipso est imago Dei quo capax Dei est et particeps esse potest</quote> ; sed hoc competit angelo sicut animae : ergo non soli homini competit esse imaginem.</p>
+               <p xml:id="bb-l2d16a1q3-d1e153">3. Item, ista est nobilissima omnium conditionum naturalium, videlicet esse imaginem : ergo nobilissima omnium creaturarum huiusmodi proprietatis non debuit esse expers ; si igitur creatura angelica est huiusmodi, patete etc.</p>
+               <p xml:id="bb-l2d16a1q3-d1e156">4. Item, imago inest animae secundum superiorem partem, sicut in primo libro ostensum est ; sed in illa parte homo et angelus habent convenientiam : ergo videtur similiter quod in dignitate imaginis conveniunt : ergo esse imaginem non est proprium solius hominis.</p>
+            </div>
+            <div xml:id="bb-l2d16a1q3-Dd1e160">
+               <head xml:id="bb-l2d16a1q3-Hd1e162">Conclusio</head>
+               <head xml:id="bb-l2d16a1q3-Hd1e165" type="question-title">Esse imaginem Dei proprie convenit homini respectu brutorum, non tamen respectu Angelorum, cum quibus hoc est ei commune.</head>
+ 
+               <p xml:id="bb-l2d16a1q3-d1e168">Respondeo : Dicendum quod proprium dicitur dupliciter. Est enim proprium simpliciter et proprium alicui. Proprium simpliciter est quod convenit omni et soli ; proprium alicui est quod convenit omni contento sub illa specie, ita quod quibusdam aliis convenit, quibusdam vero minime ; sicut esse bipedem proprie convenit homini respectu quadrupedum, non respectu volatilium.
+Dicendum est igitur quod sicut esse rationale vel intellectuale non est proprium homini simpliciter, quia convenit in hoc cum angelo, sed est proprium respectu rerum corporalium, sic esse imaginem proprie convenit homini respectu brutorum, non tamen respectu angelorum, immo communiter convenit hominibus et angelis, sicut ostendunt rationes ad hoc inductae.</p>
+            </div>
+            <div xml:id="bb-l2d16a1q3-Dd1e173">
+               <head xml:id="bb-l2d16a1q3-Hd1e175">Ad rationes</head>
+               <p xml:id="bb-l2d16a1q3-d1e178">1. Ad illud ergo quod primo obicitur in contrarium, quod Scriptura non exprimit, dicendum quod Scriptura non determinat conditionem angeli expresse ; ideo non est mirum si non determinat eius modum nec dicit eam ad imaginem esse factam. Si autem quaeras, quare non determinat, hoc determinatum est supra, distinctione decima tertia.</p>
+               <p xml:id="bb-l2d16a1q3-d1e181">2. Ad illud <name ref="#Augustine">Augustini</name> dicendum quod <name ref="#Augustine">Augustinus</name> non excludit creaturas spirituales, sed creaturas corporales et visibiles, quando dicit quod nulli alii creaturae dedit. Item, hoc dicit propter aliquam proprietatem repraesentationis quam Deus dedit homini, non alii creaturae spirituali vel corporali, non propter rationem imaginis principalem quae consequitur omnem naturam rationalem.</p>
+               <p xml:id="bb-l2d16a1q3-d1e190">3. Ad illud quod obicitur, quod est similitudo expressissima, dicendum quod superlativum dupliciter potest exponi : uno modo per suum positivum cum <mentioned> valde </mentioned> adverbio, ut albissimum, id est valde album ; et sic intelligitur cum dicitur ad imaginem ; et non oportet ipsum angelum superponi. Aliquando superlativum intelligitur respective, et tunc dicit excessum respectu omnium ad quae comparatur ; et hoc modo non potest convenire pluribus ; et sic non accipitur in proposito.</p>
+
+               <p xml:id="bb-l2d16a1q3-d1e196">4-5. Ad illud quod obicitur, quod eo ipso quo est imago, est finis, dicendum quod ista non est tota ratio ; immo, quia sic est imago in anima, quod ex parte corporis cum omnibus corporalibus habet quamdam convenientiam ; et ideo solus homo dicitur omnis creatura, et omnia propter ipsum quodam modo fieri et ad ipsum etiam referri.</p>
+
+               <p xml:id="bb-l2d16a1q3-d1e200">6. Ad illud, quod obicitur de unione, dicendum quod, etsi ratio imaginis sit dispositio ad unionem, non tamen est dispositio sufficiens de se, nisi competat hoc personali proprietati et culpabili infirmitati ; et hoc est reperire in homine, non in angelo, sicut infra melius patebit in tertio. Ad praesens autem sufficiat quod, quidquid sit de unibilitate, imago tamen universaliter consequitur creaturam rationalem, ita quod omnis creatura rationalis est imago Dei veraciter et naturaliter. Et ratio huius est expressio similitudinis quantum ad convenientiam ordinis, quae supra in principio quaestionis explanata fuit.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

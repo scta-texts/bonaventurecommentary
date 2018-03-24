@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p2a1q5">
+            <head xml:id="bb-l2d25p2a1q5-Hd1e99">Quaestio 5</head>
+            <head xml:id="bb-l2d25p2a1q5-Hd1e102" type="question-title">Utrum liberum arbitrium a Deo cogi possit.</head>
+ 
+            <p xml:id="bb-l2d25p2a1q5-d1e105">Quinto quaeritur de libero arbitrio in comparatione ad movens primum, scilicet ad ipsum Deum, et est quaestio, utrum liberum arbitrium possit a Deo cogi.</p>
+            <div xml:id="bb-l2d25p2a1q5-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p2a1q5-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p2a1q5-d1e113">Et quod sic, videtur. Lucae 14, 23 : <quote xml:id="bb-l2d25p2a1q5-Qd1e115" ana="#lc14_23">Exi in vias et sepes et compelle intrare, ut impleatur domus mea</quote>. Si ergo in domum Dei non contingit intrare nisi per usum liberi arbitrii, et Dominus intrare compellit, videtur quod liberum arbitrium cogit.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e119">Item, Ioannis 6, 44 : <quote xml:id="bb-l2d25p2a1q5-Qd1e121" ana="#io6_44">Nemo venit ad me, nisi Pater traxerit illum</quote> ; sed ad Christum non itur nisi per liberi arbitrii actum : si igitur liberum arbitrium non venit ad Filium nisi trahatur a Patre, et tractus est motus violentus, sicut dicit <name ref="#Aristotle">Philosophus</name>, liberum arbitrium a Deo violentatur et cogitur.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e128">Item, Proverbiorum 21, 1 :<quote xml:id="bb-l2d25p2a1q5-Qd1e130" ana="#prov21_1"> Sicut divisiones aquarum, ita cor regis in manu Domini ; quocumque voluerit, inclinabit illud</quote>. Ergo, si liberum arbitrium inclinatur ad unam partem contradictionis, quantumcumque ad illam inclinetur, Deus potest perfecte facere quod velit oppositum : ergo potest cogere liberum arbitrium ad volendum.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e134">Item, omnis creatura est in perfecta obedientia respectu Creatoris : ergo, si liberum arbitrium aliquid creatum a Deo est, necesse est ipsum esse in perfecta obedientia respectu Dei : ergo, si aliqua virtus potest a Deo compelli, potest et virtus liberi arbitrii. Sed Deus de aliis creaturis potest facere contra propriam naturam : ergo et de libero arbitrio potest facere contra propriam libertatem : ergo potest ipsum compellere.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e138">Item, plus potest facere libeberum arbitrium divinum super humanum quam possit liberum arbitrium humanum super aliquod brutum ; sed homo potest aliquod brutum cogere ad aliquam operationem inferendo sibi violentiam : ergo multo fortius virtus increata potest cogere voluntatem nostram.</p>
+
+               <p xml:id="bb-l2d25p2a1q5-d1e141">Sed contra : <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram : <quote xml:id="bb-l2d25p2a1q5-Qd1e146">Tam non potest Deus facere contra naturam, quam bonam instituit, quam non potest facere contra voluntatem suam</quote>. Si igitur Deus voluntarie liberum arbitrium dedit homini, impossibile est eum de libero arbitrio facere contra inditam sibi libertatem ; sed, si ipsum cogeret, contra libertatem eius faceret : ergo liberum arbitrium cogi a Deo est impossibile.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e150">Item, <name ref="#Augustine">Augustinus</name>, XXI De civitate Dei : <quote xml:id="bb-l2d25p2a1q5-Qd1e155" source="http://scta.info/resource/adcd-l21">Illud est unicuique rei naturale quod de ipsa facere disposuerit Omnipotentis voluntas</quote>. Ergo, si nullum naturale est violentum, nihil quod facit Deus est violentum. Si igitur omnis coactio est per violentiam, quidquid Deus de libero arbitrio faciat, nulla potest sibi a Deo inferri violentia, ac per hoc nulla coactio.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e159">Item, voluntas hoc ipso libere vult, quia, cum vult, vult se velle et se ipsam movet ; sed impossibile est voluntatem aliquid velle plene, quin illud velle sit a voluntate se ipsam movente et quin voluntas velit se velle : ergo impossibile est liberum arbitrium cogi, non solum ab aliquo creato, verum etiam nec a Deo.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e162">Item, nihil aliud est dicere aliquem facere aliquid ex coactione quam quod faciat illud invitus : ergo liberum arbitrium vel voluntatem cogi ad actum proprium non est aliud quam quod voluntas aliquid velit invita ; sed, si est invita respectu alicuius, illud non vult : ergo voluntatem cogere nihil aliud est facere nisi facere voluntatem simul et semel velle et nolle. Si ergo duo contradictoria simul esse non tantum est impossibile creaturae, verum etiam, creatrici essentiae, patet etc.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e165">Item, tunc aliqua virtus cogitur, quando ad oppositum suae inclinationis movetur ; sed liberum arbitrium, eo ipso quod liberum, ita natum est inclinari ad unum oppositum sicut et ad reliquum : ergo libertas eius salvatur in inclinatione ad utrumque oppositum, sive ad hoc inclinetur sive ad illud. Si ergo coactio excludit libertatem, et libertas non excluditur, ad quodcumque inclinetur, ergo ex nulla inclinatione cogi potest libertas arbitrii ; sed non est alius modus ipsum cogendi nisi inclinando ipsum ad aliquod volitum : ergo impossibile est ipsum cogi nec per movens creatum nec per agens primum.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q5-Dd1e169">
+               <head xml:id="bb-l2d25p2a1q5-Hd1e171">Conclusio</head>
+               <head xml:id="bb-l2d25p2a1q5-Hd1e174" type="question-title">Liberum arbitrium, salva libertate, induci potest 
+    ab agente creato, immutari non nisi a Deo, 
+    cogi vero a nullo</head>
+ 
+               <p xml:id="bb-l2d25p2a1q5-d1e177">Respondeo : Ad praedictorum Intelligentiam est notandum quod cum quaeritur, utrum liberum arbitrium possit cogi a Deo, quod illud potest intelligi dupliciter : aut ita quod intelligatur quod possit auferre libertatem et auferendo libertatem superinducere coactionem ; et hoc modo nulli dubium esse debet quin Deus possit hoc facere quantum est de immensitate suae potentiae.
+Alio modo, ut intelligatur quod Deus cogat liberum arbitrium, salva proprietate libertatis et eius natura ; et hoc modo non solum est impossibile, sed etiam non intelligibile, pro eo quod implicat in se duo contradictorie opposita. Ex hoc etiim quod liberum arbitrium liberum est, si aliquid vult, libere vult ; et ex hoc quod voluntarium est, si aliquid vult, voluntarie vult et se ipso movente vult. Ex hoc autem quod cogitur, si aliquid vult, serviliter vult ; et si quid vult, invite vult ; et si quid vult, ab alio vult, quia violentum est cuius principium est extra, nihil conferente vim passo. Ergo liberum arbitrium cogi non est aliud quam actum liberi arbitrii simul et semel esse liberum et servilem, esse voluntarium et non voluntarium, esse a se et non a se. Si igitur impossibile, quod claudit intra se utramque partem contradictionis, non tantum est impossibile creaturae, verum etiam creatrici essentiae, quia illud posse non est posse, sicut in primo libro ostensum est, planum est quod liberum arbitrium secundum hunc modum intelligendi a Deo cogi, est impossibile.
+Unde concedendae sunt rationes ad hoc inductae.</p>
+    
+ 
+               <p xml:id="bb-l2d25p2a1q5-d1e180">Ad intelligentiam autem rationum ad oppositum adductarum notandum est quod differt dicere voluntatem induci et voluntatem mutari et voluntatem cogi. Tunc enim induci dicitur, quando aliqua persuasio fit, qua disponitur ut ad aliquod appetibile inclinetur ; quae, si valde intensa sit, nomen coactionis sortitur, quamvis non sit vera coactio, ut ostensum est supra.
+Tunc autem voluntas mutatur, quando, ipsa volente unum, potenti virtute affectio immittitur ei ad contrarium et de volente fit nolens, ita quod una affeclio expellitur et contraria inducitur ; sicut patet, cum Deus de amatore temporalium facit temporalium contemptorem ; et hoc dicitur esse quaedam compulsio et tractio, dum voluntas ab ea re separatur cui per amoris glutinum fortiter iungebatur.
+Tunc autem voluntas dicitur cogi, quando intelligitur ipsam invitam aliquid velle, et repugnante actu voluntatis deliberativae, aliena virtute movente et repugnantia manente, ad aliquid volendo inclinari ; et hoc duo opposita implicat, sicut ostensum est.
+Voluntas igitur induci potest ab agente creato ; mutari vero ab alio non potest nisi ab agente increato ; cogi vero ab aliquo non potest. Et pro tanto dicit <name ref="#Bernard">Bernardus</name> quod libertas voluntatis est ita plena suo modo in creatura sicut in Creatore et quod in omnibus reperitur aequaliter. Hoc enim, sicut supra explanatum fuit, intelligitur quantum ad coactionis privationem ; et per hoc manifesta est responsio ad auctoritates et rationes.</p>
+ 
+            </div>
+            <div xml:id="bb-l2d25p2a1q5-Dd1e188">
+               <head xml:id="bb-l2d25p2a1q5-Hd1e190">Ad rationes</head>
+               <p xml:id="bb-l2d25p2a1q5-d1e193">1-3. Quod enim dicitur in Scriptura, Deum voluntatem hominis compellere et voluntatem hominis trahere et voluntatem hominis ad quodcumque voluerit inclinare, sicut ostendunt illae tres primae auctoritates, hoc intelligitur, non quia voluntatem cogat, sed quia voluntatem creatam non solum inducit, sicut agens creatum, verum etiam immutat, immittendo affectiones varias, in qua immissione non est coactio, pro eo quod ita voluntarie volo illud quod Deus immittit sicut illud quod ex me ipso volo ; et si aliquid volo, volens volo, non invitus, et ita in volendo ad nihil compellor.</p>
+
+               <p xml:id="bb-l2d25p2a1q5-d1e196">Ad illud quod obicitur de perfecta obedientia creaturae, dicendum quod ex hac ratione potius potest concludi oppositum quam propositum. Quia enim ibi est obedientiae perfectio, et liberum arbitrium respectu Dei ad omne quod Deus voluerit sic habet moveri sicut pila ad omnem partem, ideo, quidquid de ipso vel circa ipsum faciat, non compellit nec violentat nec etiam alicui creaturae violentiam inducit quantum ad illam potentiam obedientiae ; quantum autem ad potentiam specialis naturae bene aliquando infert violentiam in miraculorum operatione. Sed talis violentia infertur virtuti naturali, non voluntati, quia virtus naturalis sic est determinata ad unum, ut si trahatur ad oppositum, hoc est per violentiam. Voluntas vero vertibilis est ad utrumque oppositum, sicut et rota et pila habet vertibilitatem ad motum.</p>
+               <p xml:id="bb-l2d25p2a1q5-d1e199">Ad illud quod obicitur, quod plus potest liberum arbitrium divinum super hominem quam humanum etc., dicendum quod verum est in his quae posse est potentiae ; posse autem cogere brutum, hoc est potentiae, sed posse cogere liberum arbitrium manens liberum, hoc est inordinationis et impotentiae, sicut prius ostensum est. Coactio enim non sic repugnat naturae brutali sicut repugnat libertati arbitrii ; et propterea illaobiectio non concludit.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

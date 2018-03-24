@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d27a2q2">
+            <head xml:id="bb-l2d27a2q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d27a2q2-Hd1e102" type="question-title">Utrum per gratiam contingat mereri gratiae augmentum.</head>
+ 
+            <p xml:id="bb-l2d27a2q2-d1e105">Secundo quaeritur, utrum per gratiam contingat mereri gratiae augmentum.</p>
+            <div xml:id="bb-l2d27a2q2-Dd1e108">
+               <p xml:id="bb-l2d27a2q2-d1e110">Et quod sic, videtur :
+1. Primo per <name ref="#Augustine">Augustinum</name>, ad Bonifacium : <quote xml:id="bb-l2d27a2q2-Qd1e115">Gratia meretur augeri, ut aucta mereatur et perfici</quote>.</p>
+               <p xml:id="bb-l2d27a2q2-d1e119">2. Item, hoc videtur ratione. Omnis habens gratiam, habet unde possit proficere in merito ; sed profectus in merito non est nisi per augmentum gratiae : ergo gratia sui ipsius augmentum mereri potest.</p>
+               <p xml:id="bb-l2d27a2q2-d1e122">3. Item, peccans uno genere peccati meretur incidere in aliud genus peccati, unde efficitur peior, sicut peccans peccato superbiae meretur incidere in peccatum luxuriae. Ergo pari ratione, qui bene utitur gratia per bonorum operum exercitium videtur mereri ut fiat sibi gratiae augmentum.</p>
+               <p xml:id="bb-l2d27a2q2-d1e125">4. Item, laudabilior est qui se extendit ad opus perfectionis cum minori adiutorio quam qui se extendit cum maiori. Ergo, si habens minorem gratiam se elevat ad opera aequalis perfectionis cum eo qui habet maiorem, videtur quod tantundem vel amplius apud Deum mereri habeat : ergo, si nulli fit retributio nisi secundum quantitatem gratiae, videtur quod talis meretur augmentum in gratia.</p>
+               <p xml:id="bb-l2d27a2q2-d1e128">5. Item, qui petit pie, perseveranter, pro se et ad salutem, meretur exaudiri ; sed qui petit gratiae augmentum continue, hoc modo petit : ergo videtur gratiae augmentum mereri.</p>
+    
+ 
+               <p xml:id="bb-l2d27a2q2-d1e132">Sed contra :
+1. Meritum non est respectu eius quod omnino est impossibile ; sed gratiam, cum sit forma simplex, augeri est impossibile : ergo impossibile est mereri gratiae augmentum.</p>
+               <p xml:id="bb-l2d27a2q2-d1e135">2. Item, meritum non est respectu eius quod est in nobis, sed quod est ab alio ; sed habens gratiam per virtutem eius quod habet potest in bonum proficere ; non solum enim habet unde possit stare, sicut dicit <name ref="#Augustine">Augustinus</name>, sed etiam unde possit proficere. Si igitur profectus gratiae consistit in eius augmento, sicut profectus gratiae est in eius potestate, ita videtur quod et augmentum : ergo non videtur ad hoc concurrere meritum.</p>
+               <p xml:id="bb-l2d27a2q2-d1e141">3. Item, nihil augetur nisi per rem eiusdem generis et naturae ; sed gratia quae primo datur, quantum est de natura sui, est ita gratuita quod non cadit sub merito, sicut supra ostensum est, et <name ref="#Augustine">Augustinus</name> dicit, de Trinitate, IV : <quote xml:id="bb-l2d27a2q2-Qd1e146" source="http://scta.info/resource/adt-l4">Quod meritis redditur, non est gratia</quote>. Si igitur non contingit mereri ipsum gratiae donum, non contingit mereri ipsius gratiae augmentum.</p>
+               <p xml:id="bb-l2d27a2q2-d1e150">4. Item, Deus remunerat opus secundum quantitatem radicis : ergo tantum meretur quis per opus gratuitum, quanta est illa gratia a qua exit opus. Si igitur gratia augmentata excedit illam, videtur quod minor gratia per suum opus non possit mereri sui ipsius augmentum.</p>
+               <p xml:id="bb-l2d27a2q2-d1e153">5. Item, si aliquis meretur augmentum, tunc, si Deus non augeret ei gratiam, esset iniustus ; et cum auget, opus illud est remuneratum : ergo videtur quod opus illud non esset dignum remuneratione gloriae. Si igitur hoc est falsum et impossibile ut per augmentum gratiae auferatur efficacia merendi gloriam, impossibile est ponere quod augmentum gratiae mereri contingat.</p>
+            </div>
+            <div xml:id="bb-l2d27a2q2-Dd1e157">
+               <head xml:id="bb-l2d27a2q2-Hd1e159">Conclusio</head>
+               <head xml:id="bb-l2d27a2q2-Hd1e162" type="question-title">Homo gratiae augmentum potest mereri</head>
+               <p xml:id="bb-l2d27a2q2-d1e165">Respondeo : Dicendum quod, sicut dicit <name ref="#Augustine">Augustinus</name>, absque dubio tenendum est quod gratia meretur augeri.
+Quis autem sit modus augendi et modus merendi, difficile est assignare.
+Cum enim multi sint modi augendi, quis eorum competat gratiae non est facile discernere. Contingit enim aliquid augeri per impermixtionem cum contrario, sicut dicitur quod albius est quod est nigro impermixtius. Contingit nihilominus aliquid augeri propter hoc quod minori succedit maius, sicut dies augeri dicuntur. Contingit etiam aliquid augeri propter aggregationem multorum, sicut lumen augetur in aere propter multitudinem candelarum, ex quarum concursu fit aggregatio luminum. Contingit etiam aliquid augeri per additionem, sicut augetur corpus per alimentum. Contingit etiam aliquid augeri per magnificationem rei in se ipsa, sicut augmentata fuit costa, cum de ea facta fuit Eva, et sicut augmentati fuerunt quinque panes, cum de eis quinque millia hominum pasti sunt. Contingit etiam sexto modo aliquid augeri per accessum ad suum summum, sicut aliquid dicitur magis pulcrum et magis luminosum, quod magis accedit ad perfectionem pulcritudinis et lucis.</p>
+ 
+               <p xml:id="bb-l2d27a2q2-d1e171">Omnibus his sex modis dixerunt aliqui gratiam augeri. Sed primi tres modi improbari possunt de facili, et in primo libro, distinctione decima septima, improbati sunt aliquo modo, cum agitur de caritatis augmento. Eodem enim modo tam caritas quam gratia habent augeri.
+Tres autem modi sequentes satis convenientes sunt nec improbari de facili possunt. Primus tamen eorum famosior est, pro eo quod magis consonat Sanctorum auctoritatibus, quae videntur dicere in augmento gratiae infundi novam gratiam, cum loquuntur de diversa Sacramentorum efficacia. Qualiter autem hic modus valeat sustineri, in primo libro, distinctione decima septima dictum fuit. Ultimus autem modus non est minus intelligibilis quam aliquis praedictorum, immo secundum hunc modum dicendi obiectiones, quae fiunt contra gratiae augmentum, facilius declinari possunt. Quamvis enim augmentum per appositionem videatur repugnare simplicibus, maxime cum in spiritualibus quanto aliquid est simplicius, tanto sit virtute maius, augmentum tamen per accessum ad summum valde videtur eis consonum.
+Quocumque autem horum trium modorum sequentium dicatur, non est magna vis facienda, sed pro certo habentes gratiam Dei in nobis augeri posse, laborare debemus qualiter in nobis augeatur per bona opera. Per illa enim, ut dicit <name ref="#Augustine">Augustinus</name>, meretur augeri, ut aucta mereatur et perfici.</p>
+ 
+               <p xml:id="bb-l2d27a2q2-d1e177">Modum autem merendi gratiae augmentum sic videre possumus. Contingit enim aliquid mereri ex congruo et contingit aliquid mereri ex condigno. Tunc est meritum ex condigno, quando ratio meriti reperitur ibi perfecte et plene ; et tunc est quaedam commensuratio et adaequatio meriti ad praemium. Et quia hoc non potest esse cum gratia augetur, hinc est quod non potest quis mereri gratiae augmentum merito condigni. Si igitur contingit ipsum augmentum gratiae mereri, hoc est merito congrui. Meritum autem congrui dicitur in quo est aliqua dispositio congruitatis respectu eius ad quod illa dispositio ordinatur, quae tamen deficit a ratione condignitatis. Et hoc potest esse tripliciter. Aut enim est congruitas sine dignitate, et sic peccator per bona opera in genere, facta extra caritatem, meretur de congruo primam gratiam ; ibi enim est quaedam congruitas, quia facit quod in se est ; non est tamen condignitas, quia inimicus Dei est et indignus pane quo vescitur. Aut est ibi dignitas cum indignitatae, sicut est quando vir iustus meretur peccatori primam gratiam : dignitas enim ex parte viri iusti, qui est amicus Dei et dignus a Deo exaudiri, sed indignitas est ex parte peccatoris ; et ideo non est ibi plena ratio meriti. Aut est ibi dignitas cum gradus inferioritate, et sic habens gratiam minorem meretur per bonum usum pervenire ad gratiae cumulum ; et hic modus merendi, etsi deficiat a merito condigni et contineatur sub merito congrui, maxime tamen inter ceteros modos praedictos merendi accedit ad perfectionem meriti, et ideo quasi medium tenet inter meritum congrui et meritum condigni.
+Ex praedictis igitur haberi potest qualiter gratia augetur et etiam qualiter augeri meretur. Unde auctoritates et rationes, ostendentes quod gratia meretur augeri, concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d27a2q2-Dd1e182">
+               <head xml:id="bb-l2d27a2q2-Hd1e184">Ad rationes</head>
+               <p xml:id="bb-l2d27a2q2-d1e187">1. Ad illud autem quod obicitur in contrarium, quod,cum sit simplex, non potest augeri, dicendum vel quod gratia non est omnino simplex, sed solum per privationem partium quantitativarum quantitate molis, non autem per privationem partium quantitativarum quantitate virtutis ; et quantum ad tale genus partium est ei augmentum, non quantum ad primum. Vel potest dici secundum ultimum modum dicendi, quod augmentum, quod attenditur per accessum ad summum, non ponit compositionem, sed quamdam maioris simplicitatis et unitatis perfectionem ; et ideo non repugnat gratiae ratione simplicitatis essentiae.</p>
+               <p xml:id="bb-l2d27a2q2-d1e190">2. Ad illud quod obicitur, quod profectus est in potestate gratiae, dicendum quod quidam est profectus accidentalis, utpote qui attenditur in fervoris intensione vel habitus radicatione vel operum multiplicatione : et hic profectus est in potestate gratiae ; et secundum hunc profectum gratia non dicitur augeri proprie, quia non efficitur homo dignus maiori praemio substantiali per illum. Alius vero est profectus, qui respicit praemium substantiale, secundum quem dicitur homo dignus maiori praemio ; et hic non est in potestate gratiae, sed in sola illius potestate cuius est gratiam infundere ; et ideo hunc gratia non facere, sed mereri dicitur ; et penes hunc effectum attenditur gratiae augmentum.</p>
+               <p xml:id="bb-l2d27a2q2-d1e193">3. Ad illud quod obicitur, quod augmentum gratiae est eiusdem generis cum gratia primo data, dicendum quod, etsi sit eiusdem naturae quantum ad rationem habitus, differentia tamen est quantum ad statum, pro eo quod supponit gratiae initium. Et quia eiusdem generis est cum gratia primo data, ideo non potest mereri merito condigni, sed merito congrui. Quia vero gratiam praesupponit, maiori congruitate meretur quis gratiae augmentum quam gratiae initium, sicut supra dictum fuit.</p>
+               <p xml:id="bb-l2d27a2q2-d1e196">4-5. Ad illud quod obicitur, quod renumeratio attenditur secundum quantitatem radicis, respondendum est quod illud intelligitur in merito condigni ; in merito autem congrui locum non habet. Et per hunc etiam modum respondendum est ad illud quod ultimo opponit.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

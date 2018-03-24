@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d27a1q1">
+            <head xml:id="bb-l2d27a1q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d27a1q1-Hd1e102" type="question-title">Utrum gratia gratum faciens dividi habeat per differentias essentialiter diversas.</head>
+ 
+            <p xml:id="bb-l2d27a1q1-d1e105">Circa primum sic proceditur et quaeritur, utrum gratia gratum faciens dividi habeat per differentias diversas per essentiam.</p>
+            <div xml:id="bb-l2d27a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d27a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d27a1q1-d1e113">Et quod sic, videtur.
+1. Magister in littera, sumens auctoritatem <name ref="#Augustine">Augustini</name>, dividit gratiam in praevenientem et subsequentem. Si igitur recta divisio debet esse per opposita, et opposita non possunt fieri circa idem simul et semel, videtur igitur quod impossibile sit unam et eamdem gratiam esse praevenientem et subsequentem. Quodsi tu dicas istam divisionem esse solummodo per differentias quantum ad actum et effectum, non quantum ad habitum, contra hoc est quod dicitur in Glossa super Exodi 33, 13 : <quote xml:id="bb-l2d27a1q1-Qd1e118" ana="#ex33_13">Si inveni gratiam</quote>, ibi Glossa : Non una gratia sufficit sanctis. Una enim praecedit, ut Dominum diligant et cognoscant, altera subsequitur, ut se mundos custodiant. Ergo divisio gratiae in praevenientem et subsequentem non solum est per diversos usus, sed etiam per diversos habitus.</p>
+               <p xml:id="bb-l2d27a1q1-d1e122">2. Item, I ad Corinthios 12, 4 : <quote xml:id="bb-l2d27a1q1-Qd1e124" ana="#Icor12_4">Divisiones gratiarum</quote> etc Si igitur illae gratiae, quas ibi distinguit Apostolus, divisae sunt, et a Spiritu sancto dividuntur, videtur quod essentialiter distinguantur. Si tu dicas quod loquitur de gratiis gratis datis, non de gratia gratum faciente, obicitur contra hoc, quia plura sunt necessaria ad hoc quod quis habeat gratiam gratum facientem quam gratiam gratis datam : ergo si ad perfectionem usus gratiae gratis datae requiritur habituum multitudo, multo fortius ad perfectionem gratiae gratum facientis.</p>
+               <p xml:id="bb-l2d27a1q1-d1e128">3. Item, hoc ipsum videtur ratione. Si unum oppositorum dicitur multipliciter, et reliquum quod illi opponitur ; sed culpa, eo ipso quod culpa est, opponitur gratiae gratum facienti secundum quod gratia est : ergo, cum multae sint differentiae culparum, quae formaliter distinguuntur, videtur quod multae sint differentiae gratiae gratum facientis, quae essentialiter diversificentur.</p>
+               <p xml:id="bb-l2d27a1q1-d1e131">4. Item, <quote xml:id="bb-l2d27a1q1-Qd1e133" source="http://scta.info/resource/aristneth-l2">habitus diversificantur per actus</quote> ; sed ad gratiam, secundum quod huiusmodi, pertinet animam curare, pertinet etiam a malo praeservare, pertinet etiam eam in bono fortificare. Si igitur isti sunt alii et alii actus, secundum quos etiam medicinae corporales ad invicem distinguuntur, quia alia est medicina praeservativa, alia curativa, alia restaurativa, pari ratione videtur hoc convenire gratiae.</p>
+               <p xml:id="bb-l2d27a1q1-d1e138">5. Item sicut se habet scientia respectu cognoscendorum, sic se habet gratia respectu meritorum ; sed scientia respectu diversorum cognoscibilium est alia et alia : ergo videtur quod gratia, quae est principium diversorum meritorum, sit alia et alia ; haec autem est gratia gratum faciens : ergo etc.</p>
+ 
+               <p xml:id="bb-l2d27a1q1-d1e141">Sed contra : Prima divisio gratiae gratum facientis est in praevenientem et subsequentem ; sed ista membra, ut dicit Magister, in littera, non faciunt diversitatem habituum, sed effectuum : ergo nec aliqua alia membra gratiam dividentia.</p>
+
+               <p xml:id="bb-l2d27a1q1-d1e144">2. Item, eadem est lucis influentia quae fugat tenebras et illuminat aerem : ergo in spiritualibus eadem est influentia quae culpam expellit et ad bonum disponit ; sed prima est gratia praeveniens, secunda subsequens : ergo videtur quod una tantum gratia sit in anima.</p>
+               <p xml:id="bb-l2d27a1q1-d1e147">3. Item, unius acceptati una est acceptatio. Si igitur gratia gratum faciens non est aliud quam ipsa acceptatio sive ratio acceptandi, qua anima acceptatur a Deo, videtur quod in uno homine unam tantum sit ponere gratiam gratum facientem.</p>
+               <p xml:id="bb-l2d27a1q1-d1e150">4. Item, imago recreationis respondet imagini creationis ; sed ad imaginem creationis non solum requiritur potentiarum pluralitas, sed etiam essentiae unitas, ad quam reducatur illa pluralitas : ergo et in imagine recreationis necesse est ponere aliquem habitum unum, in quo uniantur omnes habitus virtutum ; hic autem non est nisi gratia gratum faciens : ergo etc.</p>
+               <p xml:id="bb-l2d27a1q1-d1e153">5. Item, unus homo omnibus virtutibus idem et aequaliter meretur et in omnibus aequaliter acceptatur ; hoc autem non esset, nisi una esset ratio acceptandi ipsum hominem secundum se et in omnibus actibus suis ; haec autem non est nisi gratia gratum faciens : ergo etc.</p>
+            </div>
+            <div xml:id="bb-l2d27a1q1-Dd1e157">
+               <head xml:id="bb-l2d27a1q1-Hd1e159">Conclusio</head>
+               <head xml:id="bb-l2d27a1q1-Hd1e162" type="question-title">In una anima una tantum ponenda est gratia gratum faciens</head>
+               <p xml:id="bb-l2d27a1q1-d1e165">Respondeo : Dicendum quod in una anima unam tantum est ponere gratiam gratum facientem.</p>
+               <p xml:id="bb-l2d27a1q1-d1e168">Ratio autem huius sumitur et ex parte principii effectivi et ex parte finis ultimi et ex parte finis primi et etiam intermedii.
+Ex parte principii effectivi, quoniam gratia est influentia a Deo procedens in ipsam animam, secundum quam Deus totam animam sibi assimilat. Unde, quia unius rei una est similitudo, in una anima una reperitur gratia procedens ab effectivo principio.
+Ex parte subiecti similiter necesse est gratiam gratum facientem esse unam, pro eo quod gratia comparatur ad animam sicut principium dans ei vitam in esse secundo. Et quoniam unius vivificabilis una est vita sive principium vivificans, hinc est quod in una anima una tantum debet esse gratia.
+Ex parte vero finis tam primi quam ultimi quam etiam intermedii ratio sumitur. Gratia enim est ad hoc quod faciat hominem Deo acceptum ; est etiam ad hoc ut per ipsam perveniat homo ad unum et summum bonum ; est etiam ad hoc ut opus a libero arbitrio egrediens sit meritorium apud Deum. Quoniam igitur Deus non acceptat hominem secundum quid, sed, si acceptat, totum acceptat ; et opera eiusdem hominis secundum unum statum sunt aequaliter meriritoria ; et merces omnium meritorum est una : hinc est quod necesse est ponere in uno homine gratiam esse unam, exigente hoc comparatione ad principium effectivum et ad subiectum et ad finem immediatum et ultimum.
+Unde rationes, quae hoc ostendunt, concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d27a1q1-Dd1e173">
+               <head xml:id="bb-l2d27a1q1-Hd1e175">Ad rationes</head>
+               <p xml:id="bb-l2d27a1q1-d1e178">Ad illud vero quod primo obicitur in contrarium de divisione Magistri, quam ponit in littera, dicendum quod illa divisio gratiae est penes effectus, quos habet in nobis, quorum unus accipitur respectu mali a quo liberat, alter respectu boni ad quod ordinat. Unde notandum est quod nomen gratiae aequivocatur, ut aliquando accipiatur pro habitu, aliquando pro effectu habitus ; et in proposita divisione non accipitur pro habitu, sed pro efiectu. Per hunc etiam modum accipitur in illa Glossa, in qua dicitur quod non una gratia necessaria est sanctis etc., id est non unus effectus gratiae tantum. Et si tu obicias quod habitus diversificantur per actus et effectus, dicendum quod illud habet veritatem in actibus primis, quorum unus ad alterum non habet ordinari. Sic autem non est in proposito, quia actus gratiae praevenientis ordinem habet ad actum gratiae subsequentis.</p>
+               <p xml:id="bb-l2d27a1q1-d1e181">2. Ad illud quod obicitur de auctoritate Apostoli, dicendum quod, sicut in opponendo praedictum est, hoc intelligitur de gratiis gratis datis. Illae enim multiplicantur propter hoc quod ordinantur ad opera exteriora, ita quod secundum primam et immediatam rationem effectus diversos respiciunt ; gratia autem gratum faciens, in quantum huiusmodi, non habet respicere opera exteriora sicut interiora, nisi mediantibus habitibus virtutum et donorum ; aut si illa respicit, hoc non est nisi in quantum considerantur sub una ratione, videlicet sub ratione meriti.
+Et ideo non tenet illud quod consequenter obicit, quod maior est perfectio gratiae gratum facientis quam gratiae gratis datae ; quod etsi verum sit intensive, non tamen oportet quod extensive.
+</p>
+               <p xml:id="bb-l2d27a1q1-d1e184">3. Ad illud quod obicitur, quod culpa multiplicatur, ergo et gratia, responderi potest quod illa ratio deficit dupliciter. Primum quidem, quia illud intelligitur de multiplicatione, non secundum divisionem, quae est in partes subiectivas, sed secundum diversas acceptiones sive significationes. Cum enim irrationale dividatur contra rationale, non oportet quod tot sint rationalia quot irrationalia. Secundo etiam deficit, quia uni bono nata sunt opponi plura mala, cum malum sit multifariam et bonum uno modo.</p>
+               <p xml:id="bb-l2d27a1q1-d1e187">4. Ad illud quod obicitur, quod actus gratiae, secundum quod gratia est, diversificantur etc., dicendum quod, etsi actus illi diversi sint tanta diversitate quod in corporalibus diversis rebus attribuuntur, quia alterius medicinae est curare et alterius praeservare ; in spiritualibus tamen non sic diversificantur ut inducant diversitatem habitus, tum propter ipsorum actuum et effectuum ordinem, tum etiam propter ipsius habitus perfectionem, ex qua habet ut possit multo melius in plures effectus sine sui multiplicatione quam natura corporalis hoc possit ex diversarum naturarum coniunctione.</p>
+               <p xml:id="bb-l2d27a1q1-d1e191">5. Ad illud quod obicitur de scientia, plana est responsio per iam dicta. Non enim est simile, tum quia scientia dicit habitum habentem respectum ad exteriora cognoscibilia secundum speciales et proprias conditiones et naturas ; tum etiam, quia aliquo modo scientia creata causari dicitur ex rebus extra ; tum etiam, quia ad ipsam scientiam maxime pertinet distinguere. Opposita autem harum proprietatum et conditionum reperiri habent in gratia, sicut haberi potest ex his quae praedicta sunt ; et ideo non plurificatur, sed in una anima reperitur una.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

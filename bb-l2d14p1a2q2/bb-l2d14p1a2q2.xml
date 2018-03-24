@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 1, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 1, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p1a2q2">
+            <head xml:id="bb-l2d14p1a2q2-Hd1e99">II, Distinctio 14, P. 1, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d14p1a2q2-Hd1e102" type="question-title">Utrum in caelo sit ponere dextram et sinistram.</head>
+ 
+            <p xml:id="bb-l2d14p1a2q2-d1e105">Secundo quaeritur, utrum in corpore caeli sit ponere dextram et sinistram.
+Et quod sic, videtur.</p>
+
+            <p xml:id="bb-l2d14p1a2q2-d1e108">1. Per illud quod dicit <name ref="#Aristotle">Philosophus</name>, in II De caelo et mundo. Ait enim sic :<quote xml:id="bb-l2d14p1a2q2-Qd1e113"> Est orbi procul dubio virtus diversa, scilicet dextra et sinistra, quoniam sunt ei loca inceptionis et status ex opere factionis suae</quote>.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e117">2. Item, hoc ostenditur per rationem suam, ibidem : Omnis motus finitus habet principium a quo incipit ; sed cuiuslibet caeli revolutio est finita : ergo habet aliquem situm a quo incipit. Sed dextra dicitur in corporibus unde est motus principium, sinistra ad quam est motus finis : ergo cum caeli sint mobiles, caeli habent dextram et sinistram.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e121">3. Item, dextrum et sinistrum sunt termini latitudinis, sicut sursum et deorsum termini longitudinis, et ante et retro termini profunditatis ; sed omne corpus completum et terminatum habet tres dimensiones et terminos dimensionum ; corpus autem caeli est huiusmodi : ergo videtur quod habeat dextram et sinistram.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e124">4. Item, perfectiori motu moventur corpora caelestia quam inferiora ; sed propter motus completionem animalia habent dextram et sinistram : ergo multo fortius corpora caelestia.</p>
+
+            <p xml:id="bb-l2d14p1a2q2-d1e127">Contra : Sicut dicit <name ref="#Aristotle">Philosophus</name>, in II De caelo et mundo : <quote xml:id="bb-l2d14p1a2q2-Qd1e132">In plantis nec est dextra nec sinistra</quote> ; sed multo magis plantae accedunt ad distinctionem organizationis quam caelum : ergo videtur quod caelum non habeat dextram et sinistram.</p>
+
+            <p xml:id="bb-l2d14p1a2q2-d1e136">2. Item, dextrum et sinistrum causantur in nobis, ut dicit Commentator, super librum De caelo et mundo, a qualitatibus activis et passivis, scilicet ab abundantia caloris naturalis procedente a corde, et spirituum plus vigentium in parte dextera quam sinistra : si igitur hoc non est reperire in caelesti natura, videtur etc.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e139">3. Item, dextrum et sinistrum praesupponunt sursum et deorsum, sicut latitudo praesupponit longitudinem et habet secum annexa ante et retro ; in caelo autem non est ponere sursum et deorsum, cum haec sint contraria ; non est etiam ponere ante et retro, cum; ante dicatur, ubi est sensus, sicut dicit <name ref="#Aristotle">Philosophus</name> : ergo videtur quod non sit ibi dextra et sinistra.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e145">4. Item, nihil quod habet extra se principium et finem sui motus, habet dextram et sinistram ; sed corpus caeli est huiusmodi, cum motor eius sit separatus : ergo non habet dextram et sinistram.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e149">5. Item, dextrum est, unde est principium motus ; sed una parte circuli mota, moventur omnes : ergo non magis incipit motus ab una parte circuli quam ab alia : ergo in circulo vel quaelibet pars erit dextera vel nulla ; sed caelum est corpus circulare, quia movetur circulariter : ergo etc.</p>
+            <p xml:id="bb-l2d14p1a2q2-d1e152">6. Item, si aliquod corpus habet dextram et sinistram, illa pars quae semel est dextera semper est dextera, qualitercumque corpus illud moveatur localiter : ergo si caelum habet dextram et sinistram, illa pars quae semel est in ipso dextera semper est dextera. Sed non est dare aliquam partem caeli, quae modo non sit in oriente, modo in occidente, modo in alio loco secundum regyrationem caeli : ergo dextra caeli aliquando esset oriens aliquando occidens ; quod nullo modo concedi potest.</p>
+            <div xml:id="bb-l2d14p1a2q2-Dd1e155">
+               <head xml:id="bb-l2d14p1a2q2-Hd1e157">In caelis mobilibus aliquo modo est dextra et sinistra</head>
+               <p xml:id="bb-l2d14p1a2q2-d1e160">Respondeo : Dicendum quod, quamvis dextrum et sinistrum dicant terminos latitudinis, et sursum et deorsum longitudinis, et ante et retro profunditatis, non tamen nominant terminos illos simpliciter, sed per comparationem ad motum. Unde in nullo corpore ponitur proprie dextra et sinistra, nisi quod diversimode suscipit motoris influentiam, ita quod primo in una parte quam in alia. Unde dextrum et sinistrum non ponitur esse nec in lapide nec in planta, nec etiam in statua ponuntur nisi similitudine, quia non habent moveri localiter a motore sufficiente. In eis vero corporibus quae moventur ad locum et magis in una parte suscipiunt motoris influentiam quam in alia, proprie ponitur dextra et sinistra, sicut in animalibus quae moventur motu progressivo et in quibus virtus cordis et motoris magis viget in parte dextera ; cuius signum est maior fortitudo animalium in parte illa, propter quod et illam partem primo movent, quando incipiunt ambulare.</p>
+
+               <p xml:id="bb-l2d14p1a2q2-d1e163">Secundum hoc intelligendum est, quod cum corpus caeleste quoddam habeat moveri ab oriente in occidentem vel e converso, sicut firmamentum et orbes planetarum, quoddam vero minime, sicut empyreum, quod dextra et sinistra caelis competant satis proprie non tamen universaliter ; conveniunt enim orbibus mobilibus sed non orbi immobili.</p>
+
+               <p xml:id="bb-l2d14p1a2q2-d1e166">Attendendum autem est, quod cum in animalibus et in caelo ponatur dextra et sinistra secundum rationem cuiusdam conformitatis, scilicet propter influentiam motoris, differenter tamen accipiuntur propter diversam comparationem mobilis ad motorem. Quia enim animalia moventur a motore sibi unito, ideo dextrum et sinistrum dicit distinctionem in partibus animalium, ita quod illa pars, quae modo est dextera, nunquam est sinistra, quia uniformiter comparatur ad ipsius motoris influentiam, pro eo quod ipsum habet sibi unitum et nunquam ab eo magis elongatur. Corpus vero caeleste motorem habet separatum, cum non sit corpus animatum, sicut postea videbitur ; et ideo motor secundum Dei dispositionem principaliter influit ex aliqua caeli parte ; et creditur probabiliter quod in ea parte ex qua motus corporum caelestium primo nobis apparent, utpote in oriente, cum omnia corpora facta sint propter hominem. Et quia motor semper ex illa parte influit uniformiter, quaecumque pars ibi veniat, immediatius et propinquius suscipit motoris influentiam. Et ideo semper est ibi dextra nec mutatur cum partibus mobilis, pro eo quod non est dispositio absoluta, sed relata ad motoris influentiam, quae semper manet fixa. Et per hunc modum locus cuiuslibet rei dicitur esse immobilis, propter hoc quod dicit silum relatum ad centrum et circumferentiam mundi, quae nunquam possunt moveri.
+   </p>
+               <p xml:id="bb-l2d14p1a2q2-d1e169">Ex praedictis patet quaestio proposita, patet etiam responsio ad obiecta. Concedendum est enim quod in caelo sit dextra et sinistra ; et rationes ad hoc inductae similiter concedendae sunt, quia verum concludunt, licet tertia ratio sumta a dimensionibus, procedat ab insufficienti.</p>
+ 
+               <p xml:id="bb-l2d14p1a2q2-d1e173">1. Ad illud vero quod obicitur in contrarium, quod planta non habet dextram et sinistram, quamvis sit organizata, dicendum quod dextram et sinistram non facit principaliter membrorum distinctio ; hoc enim accidit et frequenter contingit quod eiusdem dispositionis est animal in parte dextra et sinistra ; sed hoc facit influentiae motoris principalior et minus principalis susceptio, secundum quam attenditur inchoatio motus et terminatio ; et sicreperitur in caelo.</p>
+               <p xml:id="bb-l2d14p1a2q2-d1e176">2. Ad illud quod obicitur, quod dextrum et sinistrum in nobis est a qualitatibus activis et passivis, lam patet responsio ex praedictis, quia dextrum et sinistrum in animalibus concernunt partes determinatas, propter unionem motoris ad mobile, non solum per modum motoris sed etiam per modum perfectionis ; et ideo ad hoc quod una pars magis suscipiat motoris influentiam, requiritur dispositio alia et alia, quae quidem fit per qualitates activas et passivas. In caeIo autem non sicest, sicut ostensum est supra.</p>
+               <p xml:id="bb-l2d14p1a2q2-d1e179">3. Ad illud quod obicitur, quod dextrum et sinistrum praesupponunt sursum et deorsum, responderi potest quod vernm est prout sursum et deorsum dicunt terminos dimensionis, non autem est verum prout dicunt inchoationem et terminum alicuius transmutationis. Secundum enim sursum et deorsum proprie attenditur augmentum sive motus ad locum, sed secundum dextrum et sinistrum attenditur motus in loco. Ideo, etsi in caelo ponatur dextrum et sinistrum, non tamen oportet sic poni sursum et deorsum.
+Aliter tamen potest responderi magis secundum opinionem <name ref="#Aristotle">Philosophi</name>, quod in caelo est ponere sursum et deorsum, et ante et retro, sicut ponitur dextrum et sinistrum, non quia dicant terminos diversorum motuum, sed quia in eodem motu considerantur ultima trium dimensionum, licet magis proprie dextrum et sinistrum. Et hoc patet. Ad hoc enim quod caelum revolvatur, necesse est ponere duos polos, quorum unus habet rationem sursum et alter rationem deorsum. Est etiam ponere duo hemisphaeria, quorum unum habet rationem ante et alterum habet rationem retro. Necesse est etiam ponere quod in hemisphaerio una pars sit ex qua caelestia corpora primo apparere incipiant, altera vero pars, ex qua desinant. Et hoc totum de facili est imaginari, si quis imaginatur hominem, qui pedes habeat in polo arctico, et caput in polo antarctico, et habeat faciem versam ad nostrum hemisphaerium, statim imaginabitur differentias harum positionum.</p>
+
+               <p xml:id="bb-l2d14p1a2q2-d1e185">4. Ad illud quod obicitur, quod caelum habet extra se principium sui motus, et ita non habet dextrum et sinistrum, dicendum quod illud verum est, quando dextrum et sinistrum nominant partes determinatas ; sed quando nominant ordinem mobilis ad motoris influentiam non habet veritatem ; nihil enim facit ad hoc, utrum sit motor intra vel extra.</p>
+               <p xml:id="bb-l2d14p1a2q2-d1e188">5. Ad illud quod obicitur, quod una parte circuli mota, moventur omnes, dicendum quod verum est ; sed tamen ex hoc non sequitur quod aeque primo recipiant motoris influentiam ; quod patet, cum aqua movet rotam, primo movet illam partem quam contingit.</p>
+               <p xml:id="bb-l2d14p1a2q2-d1e191">6. Ad ultimum quod obicitur, quod pars dextera semper est dextera, iam patet responsio, quia hoc intelligitur de illo dextro et sinistro quod dicit dispositionem partium in comparatione ad motorem coniunctum, sicut est in animalibus ; hoc autem modo non ponitur in corporibus caelestibus, sicut prius tactum est.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

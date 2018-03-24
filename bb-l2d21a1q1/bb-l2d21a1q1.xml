@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21a1q1">
+            <head xml:id="bb-l2d21a1q1-Hd1e99">II, Distinctio 21, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d21a1q1-Hd1e102" type="question-title">Quid moverit principaliter diabolum ad tentandum hominem.</head>
+ 
+            <p xml:id="bb-l2d21a1q1-d1e105">Circa primum sic proceditur et quaeritur, quid moverit principaliter diabolum ad tentandum hominem.</p>
+            <div xml:id="bb-l2d21a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d21a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d21a1q1-d1e113">Et quod invidia, videtur: Primo, per illud quod dicitur Sapientiae 2, 24 : <quote xml:id="bb-l2d21a1q1-Qd1e115" ana="#sap2_24">Invidia diaboli mors introivit in orbem terrarum</quote> ; introitus autem mortis fuit per tentationem et seductionem hominis : ergo ad tentandum hominem invidia diabolum commovit.</p>
+               <p xml:id="bb-l2d21a1q1-d1e119">2. Item, Gregorius, in Moralibus : <quote xml:id="bb-l2d21a1q1-Qd1e121">In paradiso diabolus invidens homini superbiae vulnus inflixit</quote>. Ergo, cum vulnus inflixerit per tentationem, tentatio fuit ex invidia.</p>
+               <p xml:id="bb-l2d21a1q1-d1e125">3. Item, diabolus tentando hominem factus est homicida, secundum quod dicitur Ioannis 8, 44 : Ille homicida erat ab initio ; sed homicidium procedit ex odio, odium autem procedit ex invidia : ergo a primo, tentatio hominis, in qua diabolus fuit homicida, processit ex invidia.</p>
+               <p xml:id="bb-l2d21a1q1-d1e128">4. Item, qui desiderat casum alterius sine suo fructu, noli movetur ex amore commoditatis propriae, sed ex odio felicitatis alienae ; sed diabolus casum hominis desiderabat absque suo fructu, sicut constat : ergo movebatur odio felicitatis humanae ad tentandum hominem ; sed tale odium non est aliud quam invidia : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d21a1q1-d1e132">Sed contra :
+Omnis invidia est respectu paris vel superioris, secundum quod dicit Gregoius super illud Iob [5, 2] : <quote xml:id="bb-l2d21a1q1-Qd1e134" ana="#iob5_2">Parvulum occidit invidia</quote>, superioris, inquam, saltem secundum reputationem ; sed diabolus non reputabat hominem superiorem sibi : ergo videtur quod ei non invidebat : ergo, si ipsum tentabat, hoc non erat ex invidia.</p>
+               <p xml:id="bb-l2d21a1q1-d1e138">2. Item, invidia est respectu boni quod aliquo modo potest acquiri ; sed diabolus non poterat pervenire ad aeternam beatitudinem, quia lapsus erat irreparabiliter : ergo videtur quod propter illius acquisitionem non invidebat homini.</p>
+               <p xml:id="bb-l2d21a1q1-d1e141">3. Item, invidia est respectu boni quod desideratur : nullus enim invidet alicui de aliquo nisi cum illud amat et cupit ; sed diabolus non cupiebat mandatis Dei obedire nec ad supernam patriam ascendere nec amicus Dei esse propter sui desperationem : ergo videtur quod hoc in homine non invideret : ergo etc.</p>
+               <p xml:id="bb-l2d21a1q1-d1e144">4. Item, invidia non est nisi respectu eius quod est natum diminuere bonum proprium ; sed beatitudinis acquisitio nullius bonum potest diminuere : ergo non est aliquid quod ab aliquo invideri possit : ergo videtur quod, si diabolus aliquo appetitu hominem cadere fecit, ex invidia motus non fuit.</p>
+            </div>
+            <div xml:id="bb-l2d21a1q1-Dd1e148">
+               <head xml:id="bb-l2d21a1q1-Hd1e150">Conclusio</head>
+               <head xml:id="bb-l2d21a1q1-Hd1e153" type="question-title">Diabolus ex superbia quidem, sed immediate ex invidia motus est ad hominem tentandum</head>
+ 
+               <p xml:id="bb-l2d21a1q1-d1e156">Respondeo : Dicendum quod, sicut praetactum fuit, ista duo peccata sunt quae maxime possident mentem diaboli, superbia et invidia. Unde, sicut habitum fuit supra et <name ref="#Augustine">Augustinus</name> dicit, ex his duobus, qui prius erat Lucifer, diabolus factus est ; et sunt quasi haec duo inseparabilia, ita quod unum concomitatur ad alterum. Superbus enim amat excellentiam, et ita nullum vult habere parem, ac per hoc statim appetit excellentiam singulariter possidere ; et ideo statim vel actu vel habitu invidet, cum nolit bonum, consimile bono quod appetit, ab alio communicari.
+Mens igitur diaboli, ab his duobus vitiis possessa, videlicet superbia et invidia - videns hominem in statu in quo poterat cadere sub diabolica potestate et in quo poterat ascendere ad supernam felicitatem, ex qua ipse ceciderat - et ex superbia motus est et ex invidia ad ipsum tentandum. Ex superbia namque, ut ipsum sibi subiceret ; ex invidia vero, ut ipsum a superna felicitate impediret. Et superbia fuit sicut movens primum, invidia vero sicut movens proximum et immediatum.
+Esto enim quod non posset dominium super hominem acquirere, adhuc studuisset ipsum a paradisi gaudiis impedire ; et ideo Scriptura dicit et eius expositores diabolum ad tentandum hominem ex invidia motum esse.
+Et concedendae sunt rationes hoc ostendentes.
+</p>
+            </div>
+            <div xml:id="bb-l2d21a1q1-Dd1e164">
+               <head xml:id="bb-l2d21a1q1-Hd1e166">Ad rationes</head>
+               <p xml:id="bb-l2d21a1q1-d1e169">1. Ad illud ergo quod primo obicitur, quod invidia est respectu superioris vel paris, dicendum quod non solum est respectu superioris eius qui est superior, sed etiam eius qui potest esse. Quamvis autem diabolus in statu illo non reputaret hominem superiorem se, invidebat tamen ne merito obedientiae sublimaretur ad statum gloriae, in quo statu ipsum superiorem se non dubitaret. Potest etiam dici quod tunc reputabat ipsum superiorem se in hoc quod poterat pervenire ad illam gloriam, ad quam diabolus ascendere non poterat.
+</p>
+
+               <p xml:id="bb-l2d21a1q1-d1e172">2. Ad illud quod obicitur, quod invidia est respectu boni quod potest acquiri, respondendum est per interemptionem, quia non solum invidet aliquis illud quod potest obtinere, sed etiam illud quod natus est habere, quamvis non possit, sicut truncatus et caecus invidet aliis visum et progressum. Licet autem diabolus non posset ad beatitudinem pervenire, tamen habebat ad hoc naturalem aptitudinem.</p>
+               <p xml:id="bb-l2d21a1q1-d1e175">3. Ad illud quod obicitur, quod invidia est respectu boni desiderati, dicendum quod invidia non tantum venit ex desiderio alicuius boni privati, immo ex odio boni alieni.
+
+Quia tamen desiderium boni proprii videtur esse principium omnis peccati, ideo potest aliter dici quod invidia non solummodo est respectu eius boni quod desideratur, sed etiam respectu eius boni cuius obtentu minuitur bonum desideratum vel aestimatur minus. Et quoniam diabolus desiderat singulariter efferri, ideo ex exaltatione hominis aestimabat suum bonum impediri et ideo invidebat et ex invidia oppugnabat.</p>
+
+               <p xml:id="bb-l2d21a1q1-d1e178">4. Et per hoc patet responsio ad ultimum, quia, etsi hominis glorificatio et exaltatio secundum veritatem alicuius bonum non diminueret, tamen secundum aestimationem falsam credi potuit esse alicuius boni diminutivum, et ex illa aestimatione oriri invidia. Affectiones enim non tantum oriuntur ex iudiciis certis, sed etiam ex suspicionibus et aestimationibus falsis.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

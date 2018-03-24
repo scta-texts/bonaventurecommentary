@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 1, A. 2, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 1, A. 2, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p1a2q1">
+            <head xml:id="bb-l2d14p1a2q1-Hd1e99">II, Distinctio 14, P. 1, A. 2, Q. 1</head>
+            <head xml:id="bb-l2d14p1a2q1-Hd1e102" type="question-title">An caeli habeant figuram orbicularem.</head>
+            <p xml:id="bb-l2d14p1a2q1-d1e105">Quod autem habeant orbicularem figuram, videtur.</p>
+
+            <p xml:id="bb-l2d14p1a2q1-d1e108">1. Et primo experientia sensus. Nam in quamcumque partem terrae vel aquae quis eat, caelum semper videtur aequaliter distare a terra ; hoc autem non.esset, nisi haberet orbicularem figuram : ergo etc.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e111">2. Item, videmus sensibiliter caelum moveri circulariter ; sed motus circularis non competit nisi figurae circulari : ergo caelum est orbicularis figurae.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e115">3. Item, simplicissimo corpori simplicissima debetur figura ; sed caelum est simplicissimum inter corpora, cum sit subtilissimum : ergo simplicissimam debet habere figuram. Sed haec est figura circularis : ergo etc.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e118">4. Item, ei corpori, quod est maxime contentivum, debetur figura capacissima ; sed caelum est contentivum omnium, sicut dicit <name ref="#JohnDamascenus">Damascenus</name>, et figura orbicularis est capacissima, sicut manifeste convincit ratio et sensus : ergo etc.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e124">5. Item, corpori perfectissimo perfectissima debetur figura ; sed caelum est perfectissimum omnium, et figura orbicularis est perfectissima omnium figurarum, sicut probatur in alia scientia, maxime cum in ea reperiatur perfectio senarii - sexies enim tantum reperitur in circumferentia, quantum est a circumferentia ad centrum - ergo etc.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e127">6. Item, corpori velocissimo debetur figura maxime ad motum idonea ; sed caelum est velocissimum corpus, figura autem maxime apta ad motum est orbicularis : ergo etc.</p>
+
+ 
+            <p xml:id="bb-l2d14p1a2q1-d1e130">Ad oppositum arguitur : 1. Primo per illud Psalmi : <quote xml:id="bb-l2d14p1a2q1-Qd1e132" ana="#ps103_2">Extendens caelum sicut pellem</quote>, alia translatio, sicut cameram : ergo videtur quod caelum se habeat ad modum tentorii, et ita videtur esse figurae semicircularis.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e136">2. Item, ratione videtur, quia in universo nihil est superfluum, sed omnia facta sunt propter hominem : ergo nihil ponendum est quod non valeat ad hominis usum. Sed si caelum esset semicircularis figurae, sufficeret ad tegendam terram inhabitatam ab hominibus : ergo videtur quod superfluat alius semicirculus.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e140">3. Item, caeli sunt solidissimi firmati, sicut dicitur in Iob [37, 18] ; et hoc innuit ipsum nomen octavae sphaerae, quae dicitur firmamentum : ergo maxime competit eis figura, secundum quam maxime stabiliuntur ; haec autem magis est semicircularis quam circularis : ergo etc.</p>
+            <p xml:id="bb-l2d14p1a2q1-d1e143">4. Item, si caelum est figurae orbicularis, ergo aut aliqua pars caeli erit vacua, aut multo plus distabit corpus Christi ab aliquibus Beatis quam caelum a terra, cum ab una circumferentia caeli ad aliam terra in medio consistat. Ergo si non est congruum ponere quod aliqua pars empyrei vacua sit a continentia Beatorum, nec est ponere tantam distantiam inter Christum et alia corpora beata, videtur quod empyreum non sit orbicularis figurae ; et si hoc : ergo nec crystallinum, nec firmamentum.</p>
+            <div xml:id="bb-l2d14p1a2q1-Dd1e146">
+               <head xml:id="bb-l2d14p1a2q1-Hd1e148">CONCLUSIO</head>
+               <head xml:id="bb-l2d14p1a2q1-Hd1e151" type="question-title">Caelum videtur habere figuram orbicularem</head>
+               <p xml:id="bb-l2d14p1a2q1-d1e154">Respondeo : Dicendum quod ad istam quaestionem secundum philosophiam satis planum est respondere, quamvis expositores sacrae Scripturae videantur de ea loqui dubie. Hoc enim faciunt propter ipsius sacrae Scripturae reverentiam, non audentes explicare quod illa divina dispositione voluit subticere ; vel hoc faciunt ad reprimendum nostram curiositatem, volentes nos in his quae dicuntur in Lege et Prophetis contentos esse et nihil ultra haec inquirere. Quia tamen curiosorum instantia non desistit, necesse habent doctores sacrae Scripturae multa determinare, quae sine salutis dispendio possent de facili pertransire.</p>
+               <p xml:id="bb-l2d14p1a2q1-d1e157">Propter quod ad praedictam quaestionem respondent et iuxta rationis et sensus attestationem dicunt caelum habere figuram orbicularem, et hanc maxime sibi competere tum ratione simplicitatis, tum ratione capacitatis, tum ratione perfectionis, tum ratione mobilitatis, sicut patet pertractanti.</p>
+ 
+               <p xml:id="bb-l2d14p1a2q1-d1e160">1. Ad illud ergo quod obicitur in contrarium de sacra Scriptura, quae dicit caelum sicut pellem esse extensum, vel sicut cameram, dicandum quod Scriptura, condescendens parvitati simplicium, modo vulgari frequenter loquitur ; et ideo, cum loquitur de caelo, de ipso loquitur secundum quod apparet sensui nostro ; et dicit ad modum pellis vel camerae extensum quantum ad nostrum hemisphaerium.</p>
+               <p xml:id="bb-l2d14p1a2q1-d1e164">2. Ad illud quod obicitur, quod pars inferioris hemisphaerii non est utilis ad usum humanum, dicendum quod falsum est, immo est necessaria, si debet caelum super nos revolvi circulariter ; et una pars servit nobis de die, alia servit de nocte.</p>
+               <p xml:id="bb-l2d14p1a2q1-d1e167">3. Ad illud quod obicitur, quod caeli solidissimi sunt firmati, dicendum quod firmitas iila non excludit mobilitatem quamcumque, sed illam solum, qua aliquid movetur sursum et deorsum secundum motum rectum ; unde firmum dicitur caelum, quia non movetur ad locum. Nihilominus tamen est mobile, quia movetur circa locum vel in loco ; et tali dispositioni magis competit figura orbicularis quam aliqua alia.</p>
+               <p xml:id="bb-l2d14p1a2q1-d1e170">4. Ad illud quod quaeritur, quomodo empyreum, si circulare est, undique Sanctorum corporibus replebitur, dicendum quod, etsi non sit certum qualiter ibi Sancti et per quem modum locentur, tamen, quocumque modo dicatur sive quod sint in uno semicirculo empyrei sive quod in toto, nihil impedit utrumque poni. Si enim in toto sunt, virtutem visivam habebunt adeo potentem, quod Christum videre poterunt, ubicumque sit. Si vero sunt in media parte caeli, altera nec est vacua nec superflua, sicut magnum palatium non est vacuum, quando est unus magnus inhabitator, quamvis non impleat omnem partem. Magnitudo enim curiae et spatiositas, etsi non impleatur totaliter, facit tamen ad ostensionem regalis magnificentiae. Sed hoc melius sciemus quando videbimus.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

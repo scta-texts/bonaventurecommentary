@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 4, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 4, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d4dt">
+            <head xml:id="bb-l2d4dt-Hd1e99">II, Distinctio 4, Divisio Textus</head>
+   
+            <p xml:id="bb-l2d4dt-d1e102">Supra egit Magister de habitilnis naturalibus, 
+et de habitibus ad perfeclionem praep:irantibus '. In 
+hac parte agit de habitibus in statu perfecto consti- 
+tuentibus ; unde inquirit , utrum Angeli sint creati 
+sive fuerint beati et perfecti. Dividitur autein haec 
+pars in duas. In prima prosequitur quaestiones de 
+bealiludine; in secunda deper/ecftone, ibi: Ad hoc 
+autem, quod quaerebatur.</p> 
+
+            <p xml:id="bb-l2d4dt-d1e105">Prima pars habet tres. In prima determinat 
+quaestionem quantum ad illos qui ceciderunt, osten- 
+dens, quod nun(iuam fnerunt beati. In secunda 
+quantum ad eos qui remanserunt, et hoc ibi : Boni 
+vero qui perstiterunt etc. In tertia breviter resumit 
+praedeterminata de utrisque, ibi: Ex praedictis 
+consequilur etc.</p> 
+
+            <p xml:id="bb-l2d4dt-d1e108">Ad hoc autem , (juod quaerebatur etc. Haec 
+est secunda pars, in qua prosequitur, utrum An- 
+geli sint creati perfecti, el habet haec pars tres 
+parliculas. In prima innuit, quod per distinctionem 
+est respondendum. In secunda subiungit distiiictio- 
+nem . ibi: Dicitur namque perfectum etc. In tertia 
+vero resumit praedeterininata et ' breviter ostendens, 
+quaiis facta fuerit natura angelica , resumendo prae- 
+(iicla, ibi: Quales facli fuerunt Angeli in crea- 
+tione.</p> 
+         </div>
+      </body>
+   </text>
+</TEI>

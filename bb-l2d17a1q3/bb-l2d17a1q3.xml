@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 17, A. 1, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 17, A. 1, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d17a1q3">
+            <head xml:id="bb-l2d17a1q3-Hd1e99">II, Distinctio 17, A. 1, Q. 3</head>
+            <head xml:id="bb-l2d17a1q3-Hd1e102" type="question-title">Utrum anima Adae fuerit producta ante corpus vel postea.</head>
+ 
+            <p xml:id="bb-l2d17a1q3-d1e105">Tertio quaeritur, utrum anima Adae producta fuerit ante corpus vel postea.</p>
+            <div xml:id="bb-l2d17a1q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d17a1q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d17a1q3-d1e113">1. Et quod ante, videtur. Per textum Genesis 1, 26 : <quote xml:id="bb-l2d17a1q3-Qd1e115" ana="#gen1_26">Faciamus hominem ad imaginem</quote> etc. ; hoc dictum est sexta die ; sed post septimam subditur : Formavit Deas hominem de limo terrae : ergo si prima formatio refertur ad animam, secunda ad corpus, prius fuit facta anima quam corpus.</p>
+               <p xml:id="bb-l2d17a1q3-d1e119">2. Item, hoc videtur ratione. Sicut homo ex parte corporis communicat cum animalibus brutis, ita ex parte animae communicat cum angelis : ergo sicut corpus hominis productum est eodem die cum animalibus brutis, sic spiritus eius rationalis debuit produci eodem die cum angelis : ergo etc.</p>
+               <p xml:id="bb-l2d17a1q3-d1e122">3. Item, anima Adae se habet ad corpus sicut aeviternum ad temporale et sicut aevum ad tempus ; sed aevum est prius tempore et aeviternum prius temporali : ergo prius videtur debuisse produci anima Adae quam corpus, cui debebat uniri.</p>
+               <p xml:id="bb-l2d17a1q3-d1e125">4. Item, substantia spiritualis, a corpore non dependens quantum ad esse, non dependet quantum ad productionem ; sed spiritus rationalis Adae ab eius corpore non dependebat quantum ad esse : ergo nec quantum ad productionem. Corpus autem a spiritu dependebat, quia sine illo permanere non poterat : ergo si absolutum est ante dependens, prius debuit produci anima quam corpus.</p>
+               <p xml:id="bb-l2d17a1q3-d1e129">5. Item, maior est distantia inter spirituale et corporale quam sit inter corpora miscibilia ; sed corpora miscibilia prius producta sunt separatim quam sint ad invicem mixta ad constitutionem tertii : ergo anima prius debuit produci quam corpori uniri : ergo non est creata in corpore sed extra.</p>
+               <p xml:id="bb-l2d17a1q3-d1e132">6. Item, tanto aliquid prius debet produci quanto magis appropinquat primariae rerum origini ; sed anima plus appropinquat ad Deum, qui est principium omnium, quam corpus humanum, cum sit ei similior in simplicitate et spiritualitate : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d17a1q3-d1e135">Contra : 1. Genesis secundo : <quote xml:id="bb-l2d17a1q3-Qd1e137" ana="#gen2_7">Formavit Deus hominem de limo terrae, et inspiravit in faciem eius spiraculum vitae ; quod exponitur</quote>, id est, spiritum fecit ; sed spiraculum vitae spirare nihil aliud est quam animam hominis creare : ergo si prius creavit corpus quam spiraculum in spiraret, prius ergo produxit corpus quam animam.</p>
+               <p xml:id="bb-l2d17a1q3-d1e141">2. Item, anima naturaliter est forma corporis ; sed naturalis forma aut simul producitur cum materia aut sequitur materiam : ergo aut anima non est forma naturalis aut, si est forma naturalis, producta est post corpus vel simul cum corpore : non ergo ante.</p>
+               <p xml:id="bb-l2d17a1q3-d1e144">3. Item, quanto forma nobilior est tanto ultimior ; sed anima rationalis nobilissima est inter omnes formas naturales : ergo ultima : ergo produci debuit post vegetabilem et sensibilem.</p>
+               <p xml:id="bb-l2d17a1q3-d1e147">4. Item, ordinata productio procedit ab imperfecto ad perfectum : si ergo perfectio omnium operum facta est in homine et maxime quantum ad animam, videtur quod homo quantum ad animam produci debuit ultimo post omnia.</p>
+               <p xml:id="bb-l2d17a1q3-d1e151">5. Item, si anima producta esset ante corpus, cum haberet usum liberi arbitrii, nihil esset impediens nec retardans : ergo videtur quod ante unionem ad corpus meruisset vel demeruisset : ergo corpus non esset particeps omnis meriti ipsius animae, nec anima deberet remunerari in corpore ; quodsi hoc falsum est, planum est animam Adae ante corpus suum non fuisse productam.</p>
+               <p xml:id="bb-l2d17a1q3-d1e154">6. Item, si anima Adae ante corpus esset producta, aut appetivisset uniri corpori aut non. Si non : ergo unio eius ad corpus non esset naturalis nec unio eius ad corpus fieret per naturam ; si sic : appetebat ergo corpus quod non habebat. Si ergo corpus ei differebatur, ipsa in appetendo affligebatur : ergo poena erat ei ante culpam.</p>
+            </div>
+            <div xml:id="bb-l2d17a1q3-Dd1e158">
+               <head xml:id="bb-l2d17a1q3-Hd1e160">Conclusio</head>
+               <head xml:id="bb-l2d17a1q3-Hd1e163" type="question-title">Anima Adae producta fuit in corpore</head> 
+               <p xml:id="bb-l2d17a1q3-d1e166">Respondeo : Dicendum quod, quamvis circa istam quaestionem videatur dubitasse egregius doctor <name ref="#Augustine">Augustinus</name>, quia utraque pars videtur posse sustineri probabiliter et ordo congruus servari utrobique, tenendum est tamen tamquam verum et magis congruum quod anima Adae producta fuerit in corpore nec Deus eam produxerit ante corporis formationem.
+Licet enim videatur satis rationabiliter posse dici quod Deus animam ante corpus eius produxerit, ut ostenderetur eam a corpore non dependere sed per se posse subsistere ; ut etiam cum hoc pariter ostenderet conformitatem eius et naturae angelicae tam in rationis capacitate per quam est anima imago, quam in beatitudine ad quam anima et angelus habent ordinari : longe tamen rationabilius videtur ponere quod anima producta sit statim cum corpore, tum quia anima unitur corpori ut perfectio naturalis cui naturaliter appetit copulari, adeo ut sine illo poena sit ei esse et ab illo sequestrari ; tum etiam quia unitur sicut motor mobili, ita quod sine ipso non potest mereri nec demereri ; et ideo non debuit ante corpus produci ne ante culpam puniretur et ne absque corpore mereretur vel demereretur.
+Huic autem positioni non tantum concordat ratio, immo etiam Scripturae suffragatur auctoritas, quae dicit post productionem et formationem hominis Deum sibi vitae spiraculum inspirasse.
+Huic igitur parti tamquam probabiliori et securiori adhaerendo, concedere possumus rationes hanc partem astruentes.
+ 
+</p>
+            </div>
+            <div xml:id="bb-l2d17a1q3-Dd1e174">
+               <head xml:id="bb-l2d17a1q3-Hd1e176">Ad rationes</head>
+
+               <p xml:id="bb-l2d17a1q3-d1e179">1. Ad illud vero quod primo obicitur in contrarium de textu, dicendum quod alterum eorum est dictum per recapitulationem, vel primum est dictum per anticipationem. Melius tamen est dicere quod Scriptura illud recapitulat ut addat.</p>
+
+               <p xml:id="bb-l2d17a1q3-d1e182">2. Ad illud quod obicitur, quod corpus simul productum est cum brutis, ergo etc., dicendum quod non est simile. Productio enim corporis sic concordat productioni brutorum animalium ut productio rationalis spiritus non discordet, immo potius illorum imperfectionem sua dignitate consummet ; productio vero spiritus sic concordat productioni angelorum ut minime concordet productioni corpoporum humanorum, quae quidem spectant ad terrae ornatum, cuius ornatus productio spectat ad diem sextum.</p>
+               <p xml:id="bb-l2d17a1q3-d1e185">3. Ad illud quod obicitur de comparatione aeviterni ad temporale, dicendum quod, etsi substantia aeviterna ex parte post se plus extendat quam temporalis, utpote quia caret fine, non tamen oportet quod a parte ante, maxime si sit talis quae sui productione appetitum rei temporalis habeat terminare ; et sic fuit in anima Adae. Et praeterea, si illud possit esse verum de aeviterno quod pure habet rationem aeviterni non tamen habet veritatem de eo quod sic habet rationem aeviterni, quod etiam temporalis. Anima enim rationalis, etsi, in quantum spiritus et ens, per se habeat rationem aeviterni in quantum tale, tamen, in quantum animat corpus transmutabile, habet tempore mensurari.</p>
+               <p xml:id="bb-l2d17a1q3-d1e188">4. Ad illud quod obicitur, quod anima non dependet a corpore quantum ad esse, dicendum quod, etsi non dependeat a corpore tamquam indigens eo ad sui conservationem, dependet tamen per appetitus sui inclinationem, quam habet ad ipsum, sicut forma ad materiam propriam ; et ideo, sicut forma producitur in materia, sic anima Adae produci debuit in proprio corpore.</p>
+               <p xml:id="bb-l2d17a1q3-d1e192">5. Ad illud quod obicitur de corporibus miscibilibus, dicendum quod non est simile, quia elementa quae miscentur, non dependent ab invicem, et unum potest habere esse completum sine altero ; non sic autem est de anima et eius corpore, quorum utrumque ab altero dependet.</p>
+               <p xml:id="bb-l2d17a1q3-d1e195">6. Ad illud quod obicitur, quod anima origini primae magis approximat, dicendum quod, cum Deus sit alpha et omega, principium et finis, et rationalis creatura in utraque habitudine sit ei propinqua, proprie tamen loquendo, angelica natura plus ei appropinquat in ratione principii et humana plus in ratione finis. Ideo inter omnes creaturas prior omnium, creata est sapientia, sive creatura angelica, et dignitate et origine ; et post omnia producta est anima humana tamquam finis omnium et consummatio. Et ideo quamvis multum approximet Deo, in quantum tenet rationem originis, non minus tamen approximat Deo, in quantum habet rationem finis ; et ideo competentius fuit eam produci posterius quam prius. Haec dicta sunt de anima Adae ; nam de aliis animabus infra suo loco quaeretur.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

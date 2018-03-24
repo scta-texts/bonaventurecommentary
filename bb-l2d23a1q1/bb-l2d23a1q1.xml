@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 23, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 23, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d23a1q1">
+            <head xml:id="bb-l2d23a1q1-Hd1e99">II, Distinctio 23, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d23a1q1-Hd1e102" type="question-title">Utrum Deus debuerit facere hominem impeccabilem.</head>
+ 
+            <p xml:id="bb-l2d23a1q1-d1e105">Circa primum sic proceditur et ostenditur quod Deus debuit facere hominem impeccabilem sive inexpugnabilem, et hoc :</p>
+            <div xml:id="bb-l2d23a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d23a1q1-Hd1e110">Rationes principales</head>
+
+               <p xml:id="bb-l2d23a1q1-d1e113">Primo per divinam bonitatem, quia, ut dicit <name ref="#Dionysius">Dionysius</name>, optimi est optima adducere ; sed melior est natura rationalis, quae non potest peccare, quam quae potest : ergo videtur quod decuerit Deum optimum facere hominem ad peccandum impossibilem, et ita inexpugnabilem.</p>
+               <p xml:id="bb-l2d23a1q1-d1e119">Item, hoc ipsum videtur per divinam liberalitatem. Ad excellentiam enim liberalitatis non solum facit dare multa et magna, sed etiam dare velociter ; sed donum gratiae confirmantis et beatificantis hoc maius est quam donum cuiuslibet gratiae gratum facientis : ergo, si hoc Deus dare homini disposuerat, et homo ex prima sui conditione ad hoc idoneus erat, videtur quod statim, cum eum fecit, debuit ei hoc donum dare ; sed, si hoc haberet, esset inexpugnabilis : ergo etc.</p>
+               <p xml:id="bb-l2d23a1q1-d1e122">Item, hoc ipsum ostenditur tertio ex parte sapientiae. Maioris enim sapientiae est scire mala praecavere quam, postquam facta sunt, remedium adhibere. Ergo, si divina sapientia maxime manifestanda erat in hominis conditione, videtur quod talem debuit eum facere et tantam sibi cautelam adhibere quod non posset in malum incidere.</p>
+               <p xml:id="bb-l2d23a1q1-d1e125">Item, hoc ipsum ostenditur ex parte divinae potentiae. Quanto enim potentia maior est, tanto velocius operatur ; magis igitur divina potentia manifestatur in operatione subita quam in operatione successiva. Si igitur hominis gratificatio et confirmatio et glorificatio est immediate a Deo, videtur quod Deus subito et in eodem instanti, in quo hominem fecit, debuit eum gratificare et in gratia confirmare, ac per hoc inexpugnabilem facere.</p>
+
+ 
+               <p xml:id="bb-l2d23a1q1-d1e129">Sed contra : Gloria est bonum laudabile ; sed nullus est laudandus in eo quod habet nisi habeat illud per merita : ergo, si Deus fecit hominem ad hoc ut perveniret ad statum gloriae et praemii, videtur quod debuit etiam facere hominem in statu meriti. Sed status meriti et praemii debent esse distincti sicut status viae et patriae, secundum legem communem : ergo et dona viae et patriae. Si igitur habere impossibilitatem ad peccandum, hoc spectat ad securitatem beatitudinis, videtur quod a principio non debuit homini dari : ergo debuit homo expugnabilis fieri.</p>
+               <p xml:id="bb-l2d23a1q1-d1e132">Item, ad plenam perfectionem universi decuit fieri omnem creaturam quae a ratione recta potuit excogitari, sicut dicit <name ref="#Augustine">Augustinus</name>, in III De libero arbitrio ; sed rationabiliter cogitari potest ad perfectionem universi spectare creaturam quae haberet libertatem arbitrii et relicta esset in manu consilii sui : hanc igitur decuit fieri et in statu vertibilitatis constitui ; sed hoc nulli creaturae magis competit quam homini : ergo etc.</p>
+               <p xml:id="bb-l2d23a1q1-d1e138">Item, universum ex oppositione mali ad bonum decoratur <quote xml:id="bb-l2d23a1q1-Qd1e140">quasi quibusdam antithetis</quote>, sicut dicit <name ref="#Augustine">Augustinus</name>, et Ecclesiasticus innuit 33, 15 : <quote xml:id="bb-l2d23a1q1-Qd1e146" ana="#sir33_15">Contra malum bonum</quote> Si ergo Deus universum venustare debuit et decorare, videtur quod hunc decorem universo non debuit auferre ; sed, si fecisset hominem inexpugnabilem, iam hic decor non esset : ergo etc.</p>
+               <p xml:id="bb-l2d23a1q1-d1e150">Item, hoc videtur quarto, quia Deus universum facit ad sui ipsius manifestationem ; et sicut Deus est summe potens et sapiens, sic est summe iustus et misericors : ergo tale debuit facere universum, in quo manifestaretur eius summa iustitia et summa misericordia. Sed summa iustitia non, manifestatur nisi in severitate punitionis malorum ; summa misericordia non manifestatur perfecte nisi in liberatione miserorum et remissione delictorum ; haec autem non possent esse nisi rationalis creatura facta esset in statu in quo posset peccare et expugnari : ergo divina iustitia et misericordia exigebat hominem vertibilem et expugnabilem fieri.</p>
+            </div>
+            <div xml:id="bb-l2d23a1q1-Dd1e154">
+               <head xml:id="bb-l2d23a1q1-Hd1e156">Conclusio</head>
+               <head xml:id="bb-l2d23a1q1-Hd1e159" type="question-title">Ad manifestandam Dei potentiam, sapientiam, 
+      misericordiam et iustitiam congruum fuit, 
+      hominem peccabilem creari</head>
+               <p xml:id="bb-l2d23a1q1-d1e162">Respondeo : Ad praedictorum intelligentiam est notandum quod, etsi ipsa divina operatio non indigeat approbatione, pro eo quod quidquid Deus facit, bene facit et recte facit, verumtamen ad excitandam devotionem in mente fideliam et compescendam rabiem in ore blasphemantium et Deum in suis operibus inculpantium, quadruplex potest ratio assignari quare Deus talem fecit hominem ut posset ab adversario expugnari.</p>
+               <p xml:id="bb-l2d23a1q1-d1e165">Et prima est manifestatio divinae potentiae. Voluit enim Deus ostendere homini, quia, sicut sine eo factus non fuerat, ita nec sine ipso persistere poterat. Ut igitur homo nosset quod divinum posse non solummodo est omnis potentiae causativum, sed etiam omnis potentiae conservativum et quod ipsum solum est quod non potest deficere nec expugnari, ideo placuit sibi creaturam rationalem facere vertibilem et expugnabilem, nec ipsam confirmare, quousque experimento disceret quod ipse solus est in quo non cadit non-posse.</p>
+               <p xml:id="bb-l2d23a1q1-d1e168">Secunda ratio est manifestatio divinae sapientiae. Maioris enim sapientiae ostensivum est scire ordinare bona cum malis et elicere bona ex malis quam ordinare solum bona cum bonis ; et ideo, cum non deceret Deum mala facere, debuit talem facere creaturam quae posset in operando deficere et malum committere, ut Deus mala illa ordinando suam sapientiam declararet.</p>
+               <p xml:id="bb-l2d23a1q1-d1e172">Tertia ratio sumitur ex manifestatione divinae misericordiae, quae potissime manifestata est, cum unigenitum Filium suum tradidit ad liberationem servi.</p>
+               <p xml:id="bb-l2d23a1q1-d1e175">Quarta ratio sumitur ex manifestatione divinae iustitiae, quae potissime manifestatur in hoc quod Deus retribuit unicuique secundum opera sua, praecipue in aeterna punitione malorum. Haec autem retributio et punitio et etiam praefata misericordiae liberatio non esset nisi Deus creaturam rationalem, et praecipue hominem, in statu vertibilitatis fecisset, et ita potentem impugnari et expugnari.
+Et ideo congruum fuit Deum hominem in tali statu facere ; et concedendae sunt rationes ad hoc inductae.
+</p>
+            </div>
+            <div xml:id="bb-l2d23a1q1-Dd1e180">
+               <head xml:id="bb-l2d23a1q1-Hd1e182">Ad rationes</head>
+               <p xml:id="bb-l2d23a1q1-d1e185">Ad illud quod primo obicitur, quod Deus debuit facere hominem optimum, dicendum quod est optimum simpliciter et est optimum in ordine. Cum autem dicit <name ref="#Dionysius">Dionysius</name> quod optimi est optima adducere, non inteliigit absolute, sed in ordine ; et ideo ex hoc non sequitur quod homo debuerit fieri in optimo statu simpliciter, sed in statu in quo optime salvaretur universitatis ordo et pulcritudo. Et sic factus est, cum productus fuit in statu vertibilitatis, ut ordinato processu perveniret a merito ad praemium, ab imperfecto ad perfectum, ab inferiori ad supremum.</p>
+               <p xml:id="bb-l2d23a1q1-d1e191">Ad illud quod obicitur de summa liberalitate, dicendum quod, etsi Deus sit liberalissimus, tamen liberalitas non praecludit viam iustitiae et sapientiae. Ideo sic dona sua distribuit largiter ut tamen non excludatur sapientiae recta ordinatio et iustitiae iusta retributio. Ideo non statim debuit beatificare et confirmare, sed merita hominis exspectare.</p>
+               <p xml:id="bb-l2d23a1q1-d1e194">Ad illud quod obicitur, quod maioris sapientiae est praecavere malum etc., dicendum quod falsum est ; immo multo maioris sapientiae est morbum bene curare quam naturam a morbo praeservare. Unde <name ref="#Augustine">Augustinus</name>, in Enchiridio : Melius iudicavit Deus de malis bona facere quam mala nulla permittere. Et maiori etiam sapientiae attestatur, ut praedictum est, sic res ordinare ut ex supervenienti etiam deordinatione non deturpentur, sed earum ordinatio decoretur.</p>
+               <p xml:id="bb-l2d23a1q1-d1e200">Ad illud quod obicitur de potentia, dicendum quod, si in omnibus operibus divinis manifestetur divina potentia, ea tamen quae spectant ad hominis gratificationem et glorificationem plus sunt ad manifestationem divinae misericordiae et iustitiae quam potentiae. Ideo maior est congruentia in proposito quam in opposito. Nihilominus tamen quantum ad aliquem modum ex ipsa humana infirmitate et indigentia plus innotescit homini divina potentia quam si homo nunquam conspexisset vertibilitatem in rationali creatura.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

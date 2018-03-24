@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 18, A. 2, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 18, A. 2, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d18a2q3">
+            <head xml:id="bb-l2d18a2q3-Hd1e99">II, Distinctio 18, A. 2, Q. 3</head>
+            <head xml:id="bb-l2d18a2q3-Hd1e102" type="question-title">Utrum anima rationalis sit ex traduce.</head>
+ 
+            <p xml:id="bb-l2d18a2q3-d1e105">Tertio quaeritur, supposito quod animae producantur successive, utrum anima rationalis sit ex traduce.</p>
+            <div xml:id="bb-l2d18a2q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d18a2q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d18a2q3-d1e113">Et quod sic, videtur. Genesis 46, 26-27 : <quote xml:id="bb-l2d18a2q3-Qd1e115" ana="#gen46_26 #gen46_27">Omnes animae, quae egressae sunt de femore Iacob, sunt septuaginta duo. Si tu dicas</quote> quod anima non stat ibi pro substantia rationali, sed pro vita carnali sive homine exteriori, obicitur de Genesis 2, 22 : in formatione mulieris nunquam dicitur quod Deus inspiraverit in eam spiraculum vitae : ergo videtur quod tota mulier de Adam producta fuerit quantum ad animam et quantum ad corpus.</p>
+               <p xml:id="bb-l2d18a2q3-d1e119">2. Item, ad Ephesios 2, 3 : <quote xml:id="bb-l2d18a2q3-Qd1e121" ana="#eph2_3">Nascimur omnes natura filii irae</quote> ; sed non sumus filii irae ex parte carnis, sed ex parte animae, nec sumus filii irae nisi quia sumus filii Adae : ergo anima nostra procedit ex anima Adae.</p>
+               <p xml:id="bb-l2d18a2q3-d1e125">3. Item, hoc ipsum videtur ratione. Actus generandi est entis completi : tunc enim unumquodque completum est, cum potest generare tale quale ipsum est ; sed anima humana inter omnes formas naturales est perfectissima : ergo si alia forma naturalis habet potentiam multiplicandi se in diversis materiis, sicut una flamma in diversis candelis, multo fortius hoc videtur esse in anima rationali.</p>
+               <p xml:id="bb-l2d18a2q3-d1e128">4. Item, vis generativa principaliter residet penes animam : ergo si homo generat hominem, cum generatio consistat in productione similis, principalius producit animam quam carnem : ergo si caro est ex carne, multo fortius anima est ex traduce.</p>
+               <p xml:id="bb-l2d18a2q3-d1e132">5. Item, aeque magna vel maior congruentia est hominis ad hominem quam sit bruti ab brutum ; et perfectior est vis generativa in homine quam sit in aliquo bruto animali. Si ergo brutum totaliter potest producere brutum, et quantum ad animam et quantum ad corpus, et non est necesse animam brutorum creari : multo fortius videtur quod anima rationalis possit traduci et per coitum seminari.</p>
+               <p xml:id="bb-l2d18a2q3-d1e135">6. Item, hoc videtur per deductionem ad inconveniens : aut enim anima rationalis est per propagationem aut per creationem. Si per propagationem, habeo propositum, scilicet quod sit ex traduce. Si per creationem, cum Deus, cuius est creare, nihil possit vel debeat in ordinate facere, videtur quod sicut adultero non dat gratiam, quae immediate procedit ab ipso, sic etiam corpori per adulterium generato non debeat infundere animam. Quodsi infundat, videtur esse reprehensibilis et acceptare coitum adulterii.</p>
+
+               <p xml:id="bb-l2d18a2q3-d1e138">Contra : 1. Isaiae 57, 16 : <quote xml:id="bb-l2d18a2q3-Qd1e140" ana="#is57_16">Omnem flatum ego feci</quote> ; constat quod de flatu corporali non intelligit : ergo de flatu spirituali, qui est anima rationalis : ergo sicut solus Deus insufflavit in faciem Adae spiraculum vitae, ita creat animam cuiuslibet hominis.</p>
+               <p xml:id="bb-l2d18a2q3-d1e144">2. Item, <name ref="#Aristotle">Philosophus</name>, in XVI De animalibus : <quote xml:id="bb-l2d18a2q3-Qd1e149">Solus intellectus intrat ab extrinseco</quote> ; sed si traduceretur, non Intraret ab extrinseco : ergo anima rationalis non est ex traduce.</p>
+               <p xml:id="bb-l2d18a2q3-d1e153">3. Item, ratione videtur. Omne quod est per naturam propagabile, est per naturam corruptibile ; sed anima rationalis, secundum philosophos et secundum etiam omnes leges et sectas, est incorruptibilis : ergo, non est per naturam propagabilis : ergo non est ex traduce.</p>
+               <p xml:id="bb-l2d18a2q3-d1e156">4. Item, si anima est ex traduce, aut ergo anima est ex carne aut anima ex anima. Ex carne esse non potest, quoniam impossibile est ex corpore fieri non-corpus ; anima autem est non-corpus, sicut multipliciter probat <name ref="#Aristotle">Philosophus</name> et <name ref="#Augustine">Augustinus</name>. Si ex anima, aut ergo ex toto aut ex parte. Ex parte non, quia anima est simplex ; si ex toto : ergo cum aliquis generat aliquem, cum det ei totam animam suam, desinit habere animam, et sic desinit vivere. Quodsi hoc est manifeste falsum, patet etc.</p>
+               <p xml:id="bb-l2d18a2q3-d1e166">5. Item, anima rationalis, cum sit substantia per se existens et incorruptibilis, habet materiam et formam, sicut probatum est supra. Cum ergo producitur, aut producitur ex materia praeiacente aut simul cum ipsa producitur sua materia. Si simul cum ipso producitur sua materia, ergo necesse est quod producatur ex nihilo : ergo a solo Deo. Si producitur ex materia praeiacente, quaero de illa materia : aut est corporalis aut spiritualis. Si corporalis, ex ea non potest fieri anima. Si spiritualis, aut habet formam aut non. Si non : quomodo potest esse in rerum natura sine forma, cum omne esse sit a forma ? Si habet : ergo vel erit angelus vel anima. Non angelus, constat : ergo anima ; sed ex eodem non fit idem numero : ergo ex ea non potest fieri anima.</p>
+               <p xml:id="bb-l2d18a2q3-d1e169">6. Item, si anima rationalis esset ex traduce, necessario oporteret tunc discindi, quando deciditur semen ; sed multa semina sunt quae nunquam perveniunt ad organizationem, immo plura effunduntur quam ad formam producantur : ergo vel essent animae rationales sine corporibus vel periret tam nobilis forma ; quorum utrumque absurdum est dicere et impium.</p>
+            </div>
+            <div xml:id="bb-l2d18a2q3-Dd1e173">
+               <head xml:id="bb-l2d18a2q3-Hd1e175">Conclusio</head>
+               <head xml:id="bb-l2d18a2q3-Hd1e178" type="question-title">Animae rationales non sunt ex traduce, sed per creationem</head>
+ 
+               <p xml:id="bb-l2d18a2q3-d1e181">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc est triplex modus dicendi.</p>
+               <p xml:id="bb-l2d18a2q3-d1e184">Quidam namque dixerunt quod animarum productio est mediante intelligentia, ut, sicut corpus caeleste ad productionem facit corporis humani, sic etiam intelligentia ad productionem animae ; et hoc plures senserunt philosophi et sensisse videtur auctor in libro De Causis.
+Ratio autem, quae movit eos ad hoc ponendum, fuit et divina unitas, quae non patiebatur ut Deus immediate produceret multa, et divina immutabilitas quae non patiebatur ut Deus produceret nova.
+Sed haec tamquam haeretica abicienda sunt et ostensa sunt esse falsa, supra distinctione prima. Unde verbum illud De causis tamquam haereticum est respuendum, nisi quis intelligat quod anima dicitur creari ab intelligentia in hoc quod aliquam illuminationem suscipit mediante illa. Intelligentia enim, secundum <name ref="#Aristotle">Philosophum</name>, excedit animam in claritate cognitionis ; et ideo dicit quidam philosophus quod anima rationalis creatur in umbra intelligentiae, et sensibilis in umbra rationalis. Hoc autem dictum est, quia una deficit a perfectione alterius, non quia una producatur ab altera.</p>
+ 
+               <p xml:id="bb-l2d18a2q3-d1e190">Est et alius modus dicendi, quod animarum productio est per traductionem, ut anima traducatur ex anima, sicut caro ex carne, et sicut ab una candela accenduntur multae, sic ab una anima per sui multiplicationem absque diminutione vivificentur multa corpora. Et de hoc aliquando dubitaverunt catholici tractatores, et <name ref="#Augustine">Augustinus</name> maxime, sicut patet, in libro Super Genesim ad litteram et in libro De libero arbitrio, et in libro Retractationum, ubi etiam dicit quod non potuit pervenire ad certitudinem istius quaestionis. Ratio autem, quae potissime fecit eum dubitare, fuit transfusio originalis peccati.
+Verumtamen ipse <name ref="#Augustine">Augustinus</name> hanc positionem expresse reprehendit, in libro De ecclesiasticis dogmatibus, cuius auctoritatem Magister ponit in littera, et ipse istum eumdem modum improbat, Super Genesim ad litteram : quoniam, si propter originale peccatum anima transfunditur ex anima, aut anima Christi non esset de genere aliarum animarum aut habuisset originale peccatum, quorum utrumque falsum est et impium.</p>
+ 
+               <p xml:id="bb-l2d18a2q3-d1e200">Et ideo est tertius modus dicendi catholicus et verus quod animae non seminantur, sed, formatis corporibus, a Deo creantur et creando infunduntur et infundendo producuntur.
+Animarum enim creationem Deus sibi soli debuit reservare, tum propter earum dignitatem, tum propter earum immortalitatem. Propter animarum dignitatem, quia cum anima sit imago Dei et nata immediate ferri in Deum et beatificari in ipso diligendo eum ex toto corde, totum suum esse immediate debuit ab ipso habere, ut ipsum ex toto corde teneretur diligere.
+Decuit etiam hoc propter animarum immortalitatem. Cum enim solus Deus sit qui habeat vitam in semetipso et vitam indeficientem, solus est qui potest producere principium vitae perpetuum. Cum igitur res incorruptibilis substantificari non possit in materia transmutabili, et operatio creaturae sit super materiam transmutabilem, impossibile est aliquam creaturam animam rationalem producere ; et ideo eius productionem Deus sibi soli debuit reservare.</p>
+               <p xml:id="bb-l2d18a2q3-d1e203">Concedendae sunt ergo rationes probantes quod animae rationales non sint ex traduce, sed a creatione.</p>
+            </div>
+            <div xml:id="bb-l2d18a2q3-Dd1e208">
+               <head xml:id="bb-l2d18a2q3-Hd1e210">Ad rationes</head>
+               <p xml:id="bb-l2d18a2q3-d1e213">1. Ad illud vero quod obicitur in contrarium de textu Genesis, dicendum quod anima ibi accipitur pro homine, et homo dicitur egressus de corpore ratione partis corporalis.
+Nec valet illud quod contra hoc obicit, quod non dicitur in productione animae Evae : <quote xml:id="bb-l2d18a2q3-Qd1e215">Inspiravit in faciem eius</quote> etc., quia cum idem modus producendi esset animam Evae et animam Adae, non oportuit iterari.</p>
+
+               <p xml:id="bb-l2d18a2q3-d1e219">2. Ad illud quod obicitur, quod omnes nascimur natura filii irae, dicendum quod hoc est, quia anima, cum unitur carni infectae, statim inficitur et contrahit culpam originalem ; non quia ipsa traducatur, sed quia traducitur caro cui unitur. Quomodo autem hoc fieri possit, infra determinabitur, cum agetur de peccato originali.</p>
+               <p xml:id="bb-l2d18a2q3-d1e222">3. Ad illud quod obicitur, quod actus generandi est entis completi, dicendum quod non est cuiuslibet entis completi, sed eius rei quae habet materiam transmutabilem, ex qua potest produci. Et quia anima non habet talem materiam, non potest aliam similem producere, quamvis sit forma completa.</p>
+               <p xml:id="bb-l2d18a2q3-d1e225">4. Ad illud quod obicitur, quod vis generativa principaliter residet penes animam, dicendum quod, etsi principaliter respiciat animam per modum moventis et agentis, principaliter tamen respicit corpus tamquam illud ex quo producit. Et quoniam decisio potest fieri a corpore, non ab anima, hinc est quod ordinatur ad productionem corporis humani, non ad productionem animae rationalis.</p>
+               <p xml:id="bb-l2d18a2q3-d1e229">5. Ad illud quod obicitur, quod brutum potest producere brutum, dicendum quod non est simile, quia anima bruii, cum sit forma tantum et forma corruptibilis, potest de potentia materiae educi ; anima vero rationalis, cum sit hoc aliquid et incorruptibilis nec educatur de materia praeiacente, necesse est eam ex nihilo educi et ita creari. Quod autem non possit produci ex materia praeiacenti, multipliciter ostendit <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, libro VII, quod illa materia praeexistens nec possit esse corporalis nec spiritualis.</p>
+               <p xml:id="bb-l2d18a2q3-d1e235">6. Ad illud quod obicitur de generato per adulterium, dicendum quod in hoc ostenditur potius laus divinae bonitatis quam reprehensio, quia beneficium, quod disposuit servare sive continuare, propter peccata hominum non immutat vel interrumpit ; unde cum animam infundit, non considerat vilium, sed considerat naturam. Nec est simile de gratia, quae non respicit naturam, secundum quod natura est, sed magis secundum quod ad Deum conversa est. Et per hoc patet responsio ad oblecta. Patent etiam ea quae dicuntur in littera.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

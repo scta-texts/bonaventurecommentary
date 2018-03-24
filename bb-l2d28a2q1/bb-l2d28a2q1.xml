@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d28a2q1">
+            <head xml:id="bb-l2d28a2q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d28a2q1-Hd1e102" type="question-title">Utrum liberum arbitrium, destitutum gratia gratis data, possit ad gratiam gratum facientem sufficienter se disponere.</head>
+ 
+            <p xml:id="bb-l2d28a2q1-d1e105">Circa primum sic proceditur et quaeritur, utrum liberum arbitrium, destitutum gratia gratis data, possit ad gratiam gratum facientem se sufficienter disponere.</p>
+            <div xml:id="bb-l2d28a2q1-Dd1e108" type="rationes-principales"> 
+               <head xml:id="bb-l2d28a2q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d28a2q1-d1e113">Et quod sic, videtur. Zachariae 1, 3 : <quote xml:id="bb-l2d28a2q1-Qd1e115" ana="#zac1_3">Convertimini ad me, et ego convertar ad vos, dicit Dominus</quote>. Si igitur Deum converti ad nos non est aliud quam gratiam impartiri, antequam aliqua gratia conferatur, liberum arbitrium potest ad eum converti ; sed se convertendo ad Deum disponit se ad gratiam : ergo etc.</p>
+               <p xml:id="bb-l2d28a2q1-d1e119">Item, <name ref="#Boethius">Boethius</name> : <quote xml:id="bb-l2d28a2q1-Qd1e124">Naturaliter est inserta nobis veri boni cupiditas</quote> . Omni igitur gratia gratis data circumscripta, salva animae rationalis natura, potest liberum arbitrium verum bonum desiderare ; sed desiderando verum bonum disponitur ad donum gratuitum : ergo etc.</p>
+               <p xml:id="bb-l2d28a2q1-d1e128">Item, omnis potentia naturalis naturaliter appetit suam perfectionem, eo ipso quo illa indiget et ab ea nata est compleri. Si igitur liberum arbitrium aptum natum est compleri per donum gratiae et gloriae, omni gratia privatum perfectionem gratiae desiderabit et quaeret. Si igitur hoc est ad gratiam gratum facientem se disponere, videtur etc.</p>
+               <p xml:id="bb-l2d28a2q1-d1e131">Item, sufficienter se ad gratiam disponit qui facit quod in se est ; facere autem quod in se est dicitur homo, quando facit illud quod est in sua potestate. Sed liberum arbitrium, omni gratia destitutum, potest facere quod in se est : nullus enim dubitat, quin possit facere quod potest ; ergo absque omni gratia potest se disponere ad gratiam gratum facientem.</p>
+               <p xml:id="bb-l2d28a2q1-d1e135">Item, liberum arbitrium, destitutum gratia gratis data, aut potest aliquid aut nihil. Si nihil potest, ergo nemo esset inculpandus ex hoc quod non se praeparat ad gratiam. Si aliquid potest, vocetur illud quod potest A, tunc verum est dicere quod liberum arbitrium potest in A ; sed faciendo A toto suo posse se praeparat ad gratiam ; et quicumque sic se praeparat, sufficienter se disponit : ergo etc.</p>
+               <p xml:id="bb-l2d28a2q1-d1e138">Item, omne peccatum non tantum est expulsivum gratiae, sed etiam nocivum naturae ; sed omnis natura refugit sibi contrarium et nocivum : ergo liberum arbitrium, omni gratia destitutum et sibi relictum, per naturam habet detestari peccatum et refugere ; sed detestando et refugiendo culpam se disponit homo ad gratiam : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d28a2q1-d1e141">Sed contra : <name ref="#Augustine">Augustinus</name>, in libro De ecclesiasticis dogmatibus : <quote xml:id="bb-l2d28a2q1-Qd1e146">Manet ad quaerendam salutem libertas arbitrii, sed admonente prius Deo et invitante ad salutem, ut vel eligat aut sequatur aut agat occasione salutis, hoc est inspirationis Dei</quote>. Ergo videtur quod nunquam liberum arbitrium nostrum potest se ad viam salutis praeparare nisi adiuvetur per aliquam gratiam gratis datam.</p>
+               <p xml:id="bb-l2d28a2q1-d1e150">Item, timor servilis est illud quo mediante declinatur a malo, sicut dicitur Proverbiorum 15, 27 : <quote xml:id="bb-l2d28a2q1-Qd1e152" ana="#prov15_27">In timore declinat omnis a malo</quote> ; sed timere serviliter est dotium Dei, et nullus potest se disponere ad gratiam nisi declinet a malo : ergo nullus potest ad gratiam se disponere sine aliquo dono gratiae.</p>
+               <p xml:id="bb-l2d28a2q1-d1e156">Item, dispositio est eiusdem generis cum eo ad quod disponit : ergo ad bonum gratuitum non potest quis se disponere nisi per aliquid gratis datum : ergo impossibile est quod ad illud se disponat liberum arbitrium, omni gratia destitutum.</p>
+               <p xml:id="bb-l2d28a2q1-d1e159">Item, dispositio praevenit illud ad quod disponit : si ergo liberum arbitrium posset se ad gratiam gratum facientem per se ipsum disponere, ergo posset gratiam praevenire. Si igitur hoc est contra naturam gratiae praevenientis, videtur igitur etc.</p>
+            </div>
+            <div xml:id="bb-l2d28a2q1-Dd1e163">
+               <head xml:id="bb-l2d28a2q1-Hd1e165">Conclusio</head>
+               <head xml:id="bb-l2d28a2q1-Hd1e168" type="question-title">Liberum arbitrium, omni dono gratiae gratis 
+      datae destitutum, non potest se ad gratiam gratum facientem de congruo disponere.</head>
+
+ 
+               <p xml:id="bb-l2d28a2q1-d1e171">Respondeo : Ad praedictorum intelligentiam est notandum quod vix aut nunquam liberum arbitrium destituitur omni gratia gratis data, quoniam nomine gratiae gratis datae non solummodo intelligimus illa quae enumerat Apostolus I ad Corinthios 12, 8 : <quote xml:id="bb-l2d28a2q1-Qd1e173" ana="#Icor12_8">Alii datur per Spiritum</quote> etc., sed etiam vocatur hic gratia gratis data, quidquid illud sit, quod superadditum est naturalibus, adiuvans aliquo modo et praeparans voluntatem ae habitum vel usum gratiae, sive illud gratis datum sit habitus, sicut timor servilis vel pietas aliquorum visceribus inserta ab infantia, sive sit etiam aliquis actus, sicut aliqua vocatio vel locutio, qua Deus excitat animam hominis ut se requirat.</p>
+               <p xml:id="bb-l2d28a2q1-d1e177">Sine hac quidem gratia gratis data vix aut nunquam aliquis habens usum liberi arbitrii reperitur ; et sine hac concedendum est liberum arbitrium nunquam sufficienter disponi nec posse se disponere ad gratiam gratum facientem, sicut dicit <name ref="#Bernard">Bernardus</name> expresse, in libro De libero arbitrio, capitulo 13 : <quote xml:id="bb-l2d28a2q1-Qd1e182">Conatus liberi arbitrii ad bonum cassi sunt, si a gratia non adiuvantur, et nulli, si non excitantur</quote>. Et post dicit quod <quote xml:id="bb-l2d28a2q1-Qd1e185">gratia excitat liberum arbitrium, dum seminat cogitatum</quote> . Si igitur prima dispositio, quae fit ad gratiam gratum facientem, est cogitatio, et haec non est absque dono gratiae gratis datae, impossibile est quod liberum arbitrium, omni gratia destitutum, ad gratiam gratum facientem disponat se ipsum.</p>
+    
+               <p xml:id="bb-l2d28a2q1-d1e189">Ratio autem huius est haec : non quia gratia gratum faciens necessario praeexigat dispositionem gratiae gratis datae, sed quia ipsa est quid divinum et res existens supra liberum arbitrium et etiam supra naturale iudicatorium. Ideo liberum arbitrium nunquam assurgit nec ad cognoscendam gratiam nec ad petendam, nisi aliquo modo a sursum excitetur et per aliquod donum gratiae gratis datae, quod tenet quasi medium inter donum gratiae gratum facientis et naturalem libertatem voluntatis. Tenendum est igitur quod liberum arbitrium, si excitetur per aliquod donum gratiae gratis datae, potest ad gratiam gratum facientem se de congruo disponere ; si autem omni tali munere contingat ipsum destitui, nunquam posset ad illam disponi.
+Unde rationes hoc ostendentes concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d28a2q1-Dd1e194">
+               <head xml:id="bb-l2d28a2q1-Hd1e196">Ad rationes</head>
+               <p xml:id="bb-l2d28a2q1-d1e199">Ad illud autem quod primo obicitur in contrarium, quod liberi arbitrii est converti ad Deum, dicendum quod liberum arbitrium lapsum nunquam ad Deum converteretur nisi aliquo munere gratiae excitaretur ; quod quia praesto est, ideo dicit Dominus : Convertimini ad me. Hoc enim ipso quod invitat et vocat, exhibet homini aliquod donum gratuitum, per quod excitetur, et excitatus aliqualiter ad ipsum convertatur, et conversus per gratiam gratum facientem a Deo acceptetur ; et ex hoc dicitur Deus converti ad ipsum. Unde, si quis velit attendere ordinem liberi arbitrii et gratiae divinae, expresse insinuat <name ref="#Augustine">Augustinus</name>, in libro De ecclesiasticis dogmatibus, ponens quatuor gradus, inter quos gratia praevenit liberum arbitrium. Ait enim sic : <quote xml:id="bb-l2d28a2q1-Qd1e204">Initium salutis nostrae Deo miserante habemus ut acquiescamus salutari inspirationi, nostrae potestatis est ; ut adipiscamur quod acquirendum admonitione cognovimus, divini est muneris ; ut non labamur, iam adepto salutis munere, sollicitudinis nostrae est et caelestis pariter adiutorii</quote>. In hoc ergo verbo, si quis diligenter inspiciat, insinuatur valde clare quantum possit liberum arbitrium respectu gratiae. Nam, cum sint in salutis opere ista quatuor, videlicet invitare, acquiescere, adiuvare et permanere, primum est inspirationis Dei, se eundum libertatis arbitrii, tertium muneris divini, quartum sollicitudinis nostrae et divini pariter adiutorii. Et per hoc satis aperitur via ad dissolvendum rationes sequentes.</p>
+  
+               <p xml:id="bb-l2d28a2q1-d1e208">Ad illud vero quod obicitur, quod inserta est nobis veri boni cupiditas, dicendum quod verum est in generali ; ut autem cognoscatur in speciali, quid sit illud bonum et desideretur et requiratur, hoc non est absque Dei dono. Illa autem generalis cupiditas non sufficit ad disponendum ad gratiam, sicut patet in philosophis, qui beatitudlnem multum desideraverunt, nunquam tamen gratiam Dei adepti sunt.</p>
+               <p xml:id="bb-l2d28a2q1-d1e211">Ad illud quod obicitur, quod natura appetit suam perfectionem etc., dicendum quod verum est de perfectione illa quae est infra terminos naturae ; non autem oportet de illa quae supra naturam est aut, si de illa intelligatur, eo modo appetit quo cognoscit. Per se autem non cognoscit in speciali, sed in generali tantum. Sic autem cognoscendo et appetendo non se disponit sufficienter ad donum gratiae, sicut prius ostensum est.</p>
+               <p xml:id="bb-l2d28a2q1-d1e214">Ad illud quod obicitur, quod sufficienter se disponit qui facit quod in se est, dicendum quod facere quod in se est, hoc potest dupliciter intelligi : uno modo positive, quia facit aliquid ordinatum ad gratiam, et tantum facit quantum potest ; et hoc modo veritatem habet sermo praedictus. Alio modo potest intelligi privative, ut dicatur facere quod in se est, quia facit quod potest, quamvis illud non sit ordinatum ad gratiae susceptionem ; et hoc modo liberum arbitrium, gratia destitutum, potest facere quod in se est ; et sic praedictus sermo non habet veritatem.</p>
+               <p xml:id="bb-l2d28a2q1-d1e218">Et per hoc patet responsio ad sequens. Quod enim quaeritur : aut potest aliquid aut nihil, dicendum quod aliquid potest ; sed illud aliquid nihil est respectu gratiae suscipiendae, sicut posse comedere aliquod posse est, nihil tamen facit ad hoc quod aliquis suscipiat donum gratiae.</p>
+               <p xml:id="bb-l2d28a2q1-d1e221">Ad illud quod obicitur, quod liberum arbitrium potest detestari culpam virtute propriae naturae, dicendum quod dupliciter contingit detestari culpam : aut quia est offensiva maiestatis et aequitatis divinae aut quia est laesiva propriae naturae. Primus modus detestandi disponit ad gratiam gratum facientem, nec unquam est absque dono gratiae gratis datae in statu naturae lapsae : cognoscere enim quod per culpam offendatur Deus, donum Dei est. Alio modo est detestari peccafum, in quantum est laesivum naturae, sicut aliquis detestatur fornicationem, quia per ipsam amisit visum vel incufrlt alium morbum ; et talis detestatio potest esse a virtute naturae, sed haec non disponit ad gratiam gratum facientem.</p>
+
+               <p xml:id="bb-l2d28a2q1-d1e224">Et sic patent quaesita. Patet etiam qualiter erraverit Pelagius, qui liberum arbitrium non solum dixit habere potentiam disponendi se ad gratiam gratum facientem, sed etiam merendi eam propria virtute. Dupliciter enim mendax fuit : et in hoc quod dixit primam gratiam sub merito cadere, et in hoc quod dixit etiam liberum arbitrium propriis viribus ad gratiam posse se disponere.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

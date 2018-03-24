@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 2, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 2, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p2a2q2">
+            <head xml:id="bb-l2d14p2a2q2-Hd1e99">II, Distinctio 14, P. 2, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d14p2a2q2-Hd1e102" type="question-title">Utrum diversa luminaria diversas habeant impressiones super corporalia.</head>
+ 
+            <p xml:id="bb-l2d14p2a2q2-d1e105">Secundo quaeritur, utrum diversa luminaria habeant diversas impressiones super corporalia.
+Et quod sic, videtur.</p>
+
+            <p xml:id="bb-l2d14p2a2q2-d1e108">1. Primo auctoritate <name ref="#Augustine">Augustini</name>, in V De civitate Dei : <quote xml:id="bb-l2d14p2a2q2-Qd1e113" source="http://scta.info/resource/adcd-l5">Non usquequaque absurde potest dici ad corporum differentias afflatus valere sidereos, sicut in solaribus accessibus et recessibus videmus ipsius anni tempora variari, et lunaribus incrementis et decrementis augeri et minui quaedam genera rerum, sicut mirabiles aestus oceani</quote>.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e117">2. Item, astronomi dicunt quod quaedam stellae calefaciunt, quaedam infrigidant, quaedam humectant, et quaedam desiccant ; et hoc ostendunt per sensus experientiam : ergo videtur quod corpora caelestia impressiones diversas habeant super corpora.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e121">3. Item, ad diversitatem formarum sequitur diversitas virtutum, et ad diversitatem virtutum sequitur diversitas impressionum : ergo luminaria caelestia, differentia specie et natura, diversas efficiunt impressiones super haec inferiora.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e124">Item, si diversas impressiones et virtutes non haberent, videtur quod diversitas in eis frustra esset ; sed non est frustra : ergo etc.</p>
+
+            <p xml:id="bb-l2d14p2a2q2-d1e127">Contra : Obicitur per Scripturam. Dicitur enim Genesis 1, 14, quod <quote xml:id="bb-l2d14p2a2q2-Qd1e129" ana="#gen1_14">sint in signa et tempora</quote> etc. ; sed aliud est signum et aliud causa : si igitur luminaria nihil possunt, nisi secundum quod Deus instituit, videtur quod nihil habeant in his inferioribus efficere sed solum signare.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e133">2. Item, <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-l2d14p2a2q2-Qd1e138" source="http://scta.info/resource/jddfo-l2c7">Nos autem dicimus, quod ipsa non sunt causa alicuius eorum quae fiunt, neque corruptionis alicuius eorum quae corrumpuntur</quote> : ergo videtur quod non habeant in his inferioribus efficere aliquam impressionem.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e142">3. Item, quod non habeant diversam impressionem, videtur, quia aut imprimunt formam quam habent, aut formam quam non habent. Formam quam non habent, non possunt imprimere, quia agens debet esse in actu respectu passi. Si imprimunt formam quam habent, aut ergo formam in qua communicant, aut formas in quibus differunt. Si formas in quibus differunt : ergo videtur quod luna generet lunam, et sol solem, et hoc est falsum. Si formam in qua conveniunt : ergo videtur quod omnia luminaria eamdem habeant impressionem in his inferioribus.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e145">4. Item, sol calefacit propter suum motum et emissionem radiorum, et ita mediante lumine ; sed omnia luminaria caelestia communicant in luce et in radiorum emissione et in motu : ergo videtur quod omnia habeant calefacere : ergo nihil est illud dicere quod quaedam calefaciunt, quaedam non.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e149">5. Item, sol habet virtutem illuminandi et calefaciendi haec inferiora ; si ergo sol plus communicat de virtute sua lunae quam alicui inferiori corpori, videtur quod luna eamdem habeat impressionem, licet minus intensam.</p>
+            <p xml:id="bb-l2d14p2a2q2-d1e152">6. Item, ignis inter omnia elementa maxime accedit ad naturam caelestem : ergo omnia luminaria caelestia plus communicant cum igne quam cum aliquo elementorum : ergo videtur quod maxime habeant effectum supra ignem et eius qualitatem : ergo videtur quod omnia in sui actione et dominio qualitatem ignis intendant et fortificent ; et ita videtur quod omnia desiccent et calefaciant, et nulla infrigident.</p>
+            <div xml:id="bb-l2d14p2a2q2-Dd1e155">
+               <head xml:id="bb-l2d14p2a2q2-Hd1e157">Conclusio</head>
+               <head xml:id="bb-l2d14p2a2q2-Hd1e160" type="question-title">Luminaria aeli multimodam habent impressionem super elementa et corpora elementaria.</head>
+ 
+               <p xml:id="bb-l2d14p2a2q2-d1e163">Respondeo : Dicendum quod luminaria caelestia impressionem habent super elementa et elementaria corpora, impressionem, inquam, non unicam tantum sed multimodam.</p>
+               <p xml:id="bb-l2d14p2a2q2-d1e166">Ratio autem, quare superiora in haec inferiora agunt et imprimunt et rerum qualitates intendunt, est, quia sunt corpora nobiliora et praecellentia in virtute, sicut praecellunt in situ ; et ideo, cum ordo universitatis sit, ut potentiora et superiora influant in inferiora et minus potentia, ordini universitatis competit ut luminaria caelestia influant in elementa et corpora elementaria. Status etiam ordinis hoc requirit, quia, sicut in motu locali venitur ad unum movens immobile, ita in motu alterationis secundum qualitatem necesse est venire ad unum alterans non alterabile secundum easdem qualitates. Et ideo cum elementa et ex elementis commixta sint secundum primas qualitates alterantia et alterabilia, recte disposuit divina Sapientia corpora caelestia, utpote luminaria, quae inferiora alterarent sua influentia secundum qualitates primas, ita quod ipsa tam qualitatibus quam alterationibus illarum essent carentia.</p>
+ 
+               <p xml:id="bb-l2d14p2a2q2-d1e169">Ratio vero, quare diversa imprimunt, a quibusdam sumitur propter diversitatem qualitatum, sicut scribitur in libro De substantia orbis. Ibi enim dicitur secundum quorumdam opinionem, quod luminaria caeli qualitates habent primas ; sed non habent eas omnino univoce cum qualitatibus elementaribus, pro eo quod secundum illas agere possunt in haec inferiora, sed ad invicem pati non possunt.
+Sed ista ratio non videtur conveniens ; si enim essent aequivoce, tunc effectus eorum non concordaret qualitatibus elementaribus.</p>
+ 
+               <p xml:id="bb-l2d14p2a2q2-d1e173">Et ideo melior sumitur ratio ex parte diversitatis virtutum. Quia enim Conditor mundi corpora caelestia incorruptibilia posuit ad regulandum et regendum corruptibilia, quae sunt diversa et multiformia, dedit eis virtutes consequentes suas species, secundum quas diversa luminaria aspectum haberent ad diversa elementa et ad diversa corpora mineralia. Unde quia luna ex virlute sibi indita cum adiutorio luminis aspectum habet super humorem, ideo per suam influentiam humidum augmentat, et ad eius praesentiam excrescunt maria et quasi exaestuant et effluunt, ad absentiam vero in sinum suum colliguntur et refluunt. Sic etiam intelligendum est et in aliis luminaribus.</p>
+               <p xml:id="bb-l2d14p2a2q2-d1e176">Concedendae sunt igitur rationes ostendentes quod luminaria in his inferioribus habent diversas impressiones.</p>
+ 
+               <p xml:id="bb-l2d14p2a2q2-d1e179">1-2. Ad illud vero quod obicitur, quod nullam habent impressionem, quia sunt signa tantum, dicendum quod Scriptura non dicit quod sint tantum in significationem, quia et sunt in significationem et sunt in efficaciam. Magis tamen exprimit quod sint signa quam quod sint causae, pro eo quod nec causant sufficienter nec causant necessario ; et ideo magis attribuit eis rationem signorum.
+Et per hoc patet responsio ad illud <name ref="#JohnDamascenus">Damasceni</name>, cum dicit quod non sunt causa in his inferioribus. Non vult enim negare quin habeant influentiam, sed hoc vult dicere quod nec sunt principia inferiorum sufficientia nec sunt necessaria. Operantur enim ut causae universales, quae per particulares indigent adiuvari et possunt impediri.</p>
+
+               <p xml:id="bb-l2d14p2a2q2-d1e185">3. Ad illud quod obicitur tertio : aut imprimunt quod habent aut quod non habent, dicendum quod primo influunt virtutem suam quam habent, et per illam generant et augmentant formam et speciem quam non habent. Et cum dicitur quod nihil dat formam quam non habet, dicendum quod habere dicitur duobus modis : vel virtualiter vel formaliter ; et ad hoc, quod impartiatur aliquid alicui, sufficit quod habeat virtualiter, non oportet quod habeat formaliter, sicut movens immobile dat motum quamvis ipsum non moveatur ; sic intelligendum est in proposito. Praeterea, cum ponuntur corpora caelestia imprimere in haec inferiora et diversas qualitates aggenerare, hoc non est intelligendum quod eis dent ex se, sed quod educunt illud quod est in potentia in actum. Praeterea, non est intelligendum quod dent per se solum, sed adiuvando virtutem naturae inferioris. Hoc autem faciunt tum per virtutem lucis in qua communicant, tum etiam per virtutes proprias secundum quas agunt in haec inferiora, non ut producant sibi similia, sed ut influendo conservent, regant et intendant rerum inferiorum qualitates et naturas.</p>
+               <p xml:id="bb-l2d14p2a2q2-d1e188">4. Ad illud quod obicitur, quod omnium sit calefacere, responderi potest quod motus et lumen non est sufficiens causa caloris, sed motus cum velocitate et lumen cum radiorum multiplicatione. Et quia haec non concurrunt in omnibus luminaribus, ideo non possunt omnia calefacere. Posset etiam ad hoc reddi alia ratio, quia hoc non tantum facit motus et luminositas, sed etiam ad hoc facit virtus propria, secundum quam stella vel planeta calefaciens aspectum habet super naturam igneam principaliter.</p>
+
+               <p xml:id="bb-l2d14p2a2q2-d1e191">5. Ad illud quod obicitur, quod sol magis communicat virtutem suam lunae quam alicui inferiori, dicendum quod, sicut dicit <name ref="#Aristotle">Philosophus</name>, actus activorum est in patiente et disposito ; et <name ref="#Boethius">Boethius</name> : Omne quod recipitur est in recipiente per modum recipientis, non recepti. Quoniam igitur haec inferiora sunt susceptibilia luminis pariter et caloris, hinc est quod sol non tantum ea illuminat, sed etiam inflammat. Quia vero luna nata est illuminari sed non est nata calefieri, hinc est quod a sole lumen recipit et refundit, calorem vero non recipit nec refundit.</p>
+               <p xml:id="bb-l2d14p2a2q2-d1e201">6. Ad illud quod obicitur, quod natura ignis plus convenit cum natura caelesti, dicendum quod de luminaribus caelestibus est loqui dupliciter, scilicet quantum ad naturam in qua conveniunt, videlicet quantum ad naturam lucis ; et quantum ad hanc verum est dicere quod universaliter magis conformantur igni quam elemento alii. Est etiam nihilominus loqui quantum ad virtutes sibi specialiter datas, secundum quod deputantur ad regimen inferiorum ; et quia non tantummodo habent regere ignem sed etiam alia corpora, hinc est quod ex sua institutione primaria aliqua ex eis magis quam ignem aspiciunt elementa alia. Et quia omnis actio attenditur secundum aspectum virtutis agentis ad patiens, sicut dicunt medici et astronomi, hinc est quod quaedam luminaria magis cum igne in effectu communicant, quaedam vero discordant, dum principaliter aspiciunt elementa alia. Aspectus autem ipsorum determinare alterius est scientiae.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

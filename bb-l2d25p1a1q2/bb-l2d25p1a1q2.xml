@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p1a1q2">
+            <head xml:id="bb-l2d25p1a1q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d25p1a1q2-Hd1e102" type="question-title">Utrum liberum arbitrium sit potentia distincta a ratione et voluntate.</head>
+ 
+            <p xml:id="bb-l2d25p1a1q2-d1e105">Secundo quaeritur, utrum liberum arbitrium sit potentia distincta contra rationem et voluntatem.</p>
+            <div xml:id="bb-l2d25p1a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p1a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p1a1q2-d1e113">Et quod sic, videtur. <name ref="#Bernard">Bernardus</name>, De libero arbitrio, loquens de potentia liberi arbitrii : <quote xml:id="bb-l2d25p1a1q2-Qd1e118">Quid similius aeternitati quod non sit aeternitas ?</quote> Si ergo aeternitas nec respicit rationem nec voluntatem, videtur quod liberum arbitrium sit aliqua potentia praeter has.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e122">Item, ratio respondet Filio, voluntas Spiritui sancto : ergo si in nobis est ponere aliquam potentiam reformandam correspondentem Patri, est in nobis ponere aliquam potentiam praeter rationem et voluntatem, quae spectat ad reformationem ; talis autem non est nisi liberum arbitrium : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e125">Item, ad productionem operis ista tria sunt necessaria, videlicet posse et scire et velle. Ergo si scimus per rationem, volumus per voluntatem, videtur quod in nobis sit ponere tertiam potentiam, per quam simus potentes ; hanc autem dicimus liberi arbitrii facultatem : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e128">Item, cum lapis movetur deorsum, ista tria reperiuntur : intentio, appetitus et virtus. Dicimus enim quod lapis intendit deorsum moveri, cum natura sit operans per intentionem ; appetit etiam deorsum moveri ; habet nihilominus virtutem, per quam deorsum movetur. Ergo videtur quod ista tria sit reperire in anima rationali. Si igitur rationis est intendere, voluntatis appetere, erit ponere tertiam potentiam, cuius sit virtualiter agere ; hanc autem dicimus arbitrii facultatem : ergo etc,</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e132">Item, iudicans praeeminet indicando et movens praeeminet mobili ; sed liberum arbitrium est liberum de voluntate iudicium : ergo liberi arbitrii est iudicare de voluntate. Similiter liberi arbitrii est movere omnes vires animae et rationi imperare ut discernat, et voluntati ut appetat : ergo videtur quod sit tertia potentia ab istis distincta.</p>
+
+               <p xml:id="bb-l2d25p1a1q2-d1e135">Sed contra :Potentiae animae rationalis sufficienter dividuntur per cognitivas et affectivas : ergo, si ratio comprehendit virtutes cognitivas et voluntas affectivas, non videtur quod sit conveniens ponere tertiam potentiam ab his differentem.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e138">Item, actus liberi arbitrii est iudicare ; sed de omni eo quod iudicamus, per rationem iudicamus : ergo non videtur quod liberum arbitrium sit potentia a ratione et voluntate distincta.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e141">Item, alia potentia circumscripta, remanente sola voluntate et ratione, possumus consentire, quia potest praecedere deliberatio per actum rationis et subsequi praeoptatio per actum voluntatis. Si ergo consentire est actus liberi arbitrii, videtur quod liberum arbitrium non sit alia potentia a ratione et voluntate.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e144">Item, liberi arbitrii est movere : aut ergo movet voluntatem aut non. Si non, ergo non videtur esse plene liberum. Si movet voluntatem, et est alia potentia, ergo voluntas movetur ab alia potentia. Si movetur ab alia potentia, ergo non est libera : ergo, si voluntas in nobis est maxime libera, videtur etc.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e147">Item, eadem est potentia cognitiva, qua intelligo aliquid et intelligo me intelligere : ergo eadem virtus est, et non alia, qua volo aliquid et volo me velle illud ; sed potentia, qua volo me velle, est liberum arbitrium, potentia, qua volo, est voluntas : ergo liberum arbitrium non est alia potentia a voluntate.</p>
+
+            </div>
+            <div xml:id="bb-l2d25p1a1q2-Dd1e151">
+               <head xml:id="bb-l2d25p1a1q2-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d25p1a1q2-Hd1e156" type="question-title">
+      Liberum arbitrium non dicit potentiam secundum rem 
+      distinctam a ratione et voluntate, tamen 
+      importat aliquam ab his potentiis distinctionem secundum rationem
+    </head>
+               <p xml:id="bb-l2d25p1a1q2-d1e159">Respondeo : Ad praedictae quaestionis intelligentiam notandum est quod super hac quaestione diversae fuerunt doctorum positiones.</p>
+               <p xml:id="bb-l2d25p1a1q2-d1e162">Quidam enim dicere voluerunt quod sicut mens dupliciter accipitur : aliquando communiter, et sic comprehendit memoriam, intelligentiam et voluntatem ; aliquando proprie, et sic distinguitur contra intelligentiam et voluntatem : sic liberum arbitrium dupliciter accipitur, videlicet communiter, et sic non distinguitur contra rationem et voluntatem ; et proprie, et sic contra rationem et voluntatem habet distingui et est virtus imperans rationi et voluntati et utramque regens et movens, cuius actus primus non est discernere et velle, sed actus reflexus super haec duo et haec duo movens et regens, ille videlicet quo dicitur quis velle discernere vel velle se velle. Et iste actus praeambulus est ad rationem et voluntatem, et ista potentia correspondet Patri, pro eo quod actus eius maxime potens est et primus est, cum non moveatur, sed moveat. Et ideo a Sanctis dicitur facultas sive potestas voluntatis et rationis, id est potestas faciliter movens voluntatem et rationem ; et consistit in istis tribus quaedam ratio imaginis ex parte motivae, quae principaliter per gratiam in via et per dotes in patria habet reformari.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q2-d1e165">Aliis autem aliter videtur quod, cum rationis et voluntatis sic reflectere se super se, et istae duae potentiae sufficiant ad omnes actus animae perficiendos, videlicet ad iudicandum et fugiendum et eligendum, quod frustra poneretur in anima aliqua potentia differens ab istis. Si igitur natura nihil facit frustra, potentiae, animae rationalis sufficienter dividuntur per cognitivas et affectivas sive per rationem et voluntatem ; et ideo dicunt quod liberum arbitrium non est potentia ab his duabus potentiis distincta.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q2-d1e169">Quaelibet autem harum positionum multum habet probabilitatis ; et si velimus utramque earum intelligere diligenter et pie, inveniemus eas ab invicem non discordare, sed ad unius veritatis maiorem expressionem concurrere. Cum enim dicimus aliquam potentiam distingui ab aliis, hoc est dupliciter : aut secundum rem aut secundum rationem. Secundum rem, sicut distinguitur intellectus et affectus ; secundum rationem, sicut distinguitur ratio ut est cognitiva et motiva, id est dictans moveri vel disponens ad motum.
+Loquendo igitur de distinctione secundum rationem, dici potest liberum arbitrium quodam modo distingui a ratione et voluntate, in hoc scilicet quod liberum arbitrium nominat in ratione moventis, voluntas vero et ratio in ratione moti ; hoc in ratione imperantis, istae duae in ratione exsequentis.
+Et ex ista parte per quamdam rationem appropriationis invenitur in anima quaedam ratio imaginis ; et per hunc modum intelligitur prima positio, et rationes currunt quae ad primam partem inducuntur. Non enim concludunt distinctionem liberi arbitrii a ratione et voluntate secundum rem, sed solum secundum rationem et appropriationem, sicut patet discurrenti per singulas.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q2-d1e172">Loquendo autem de distinctione potentiarum secundum rem, sic liberum arbitrium non dicit potentiam diversam vel distinctam a ratione et voluntate, pro eo quod potentiae animae rationalis sufficienter dividuntur per cognitivam et motivam, et omnes actus animae per has potentias, quae sunt cognitiva et affectiva sive ratio et voluntas, exerceri possunt, sicut rationes quae ad hoc inducuntur ostendunt. Cum enim tam ratio quam voluntas sit nata super se reflecti, cum nomino voluntatem ut volentem aliquid et voluntatem ut volentem se velle, non dico potentiam aliam et aliam secundum rem. Movens enim et motum in spiritualibus non oportet differre secundum substantiam, quia, sicut dicit <name ref="#Anselm">Anselmus</name>, <quote xml:id="bb-l2d25p1a1q2-Qd1e177">voluntas est instrumentum se ipsum movens</quote>, et ratio etiam est virtus se ipsam cognoscens, pari ratione ; et ideo, si aliqua est ibi distinctio, haec est solum secundum rationem.
+Et sic patet responsio ad quaestionem et ad rationes ad utramque partem. Concedo enim quod liberum arbitrium secundum rem non dicit potentiam distinctam a ratione et voluntate ; concedo tamen nihilominus quod aliquam distinctionem habet secundum rationem, ratione cuius dicitur facultas utriusque. Quanta autem sit distinctio, melius patebit infra. Ad praesens autem tantum dixisse sufficiat quod non est tanta distinctio quod faciat ipsum esse aliam potentiam in genere potentiae, a ratione et voluntate realiter distinctam.</p>
+            </div>
+            <div xml:id="bb-l2d25p1a1q2-Dd1e183">
+               <head xml:id="bb-l2d25p1a1q2-Hd1e185">Ad rationes</head>
+               <p xml:id="bb-l2d25p1a1q2-d1e188">1-3. Et quod obicit, quod est similius aeternitati et appropriatur Patri, et est Virtus a qua est posse, totum illud non ponit nisi solummodo distinctionem quamdam secundum quamdam appropriationem et quamdam rationem. Et hoc patet, quia ipsa ratio includit in se intelligentiam et memoriam, et ita aliquid per quod assimilatur Patri, et aliquid per quod assimilatur Filio. Ipsa voluntas includit in se irascibilem et concupiscibilem, et ita potentiam per quam appetit et potentiam per quam potest. Et ideo non oportet liberum arbitrium esse aliquam aliam potentiam praeter has.</p>
+
+               <p xml:id="bb-l2d25p1a1q2-d1e191">5. Ad illud quod ultimo obicitur, quod iudicans praeeminet iudicato et movens moto, dicendum quod non oportet in spiritualibus, loquendo de praeeminentia, quae faciat diversitatem secundum essentiam. Sicut enim saepe dictum est, eadem est vis quae vult aliquid et quae vult se velle et quae iudicat et quae iudicat se iudicare ; alioquin esset in infinitum abire. Nihilominus tamen sortitur quasi dignius officium dum est in ratione iudicantis quam cum est in ratione iudicati et cum est in ratione moventis quam cum est in ratione moti.</p>
+  
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

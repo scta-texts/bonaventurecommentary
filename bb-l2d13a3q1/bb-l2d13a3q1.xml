@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 13, A. 3, Q. 1 Circa primum sic proceditur et ostenditur primo, quod lumen, quod exit a corpore luminoso, sit corpus.</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 13, A. 3, Q. 1 Circa primum sic proceditur et ostenditur primo, quod lumen, quod exit a corpore luminoso, sit corpus.</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d13a3q1">
+            <head xml:id="bb-l2d13a3q1-Hd1e99">II, Distinctio 13, A. 3, Q. 1</head>
+            <head xml:id="bb-l2d13a3q1-Hd1e102" type="question-title">Utrum lumen, quod exit a corpore luminoso, sit corpus.</head>
+ 
+            <head xml:id="bb-l2d13a3q1-Hd1e105">Circa primum sic proceditur et ostenditur primo, quod lumen, quod exit a corpore luminoso, sit corpus.</head>
+
+            <p xml:id="bb-l2d13a3q1-d1e108">1. Omne quod per se movetur localiter et dimensive, est corpus ; sed radius sive lumen egrediens a sole, movetur localiter, utpote ab oriente in occidentem : ergo tam radius quam lumen est corpus.</p>
+
+            <p xml:id="bb-l2d13a3q1-d1e111">2. Item, nihil repercutitur et repellitur a corpore nisi corpus ; impossibile enim est non-corpus corpore moveri ; sed luminis et radiorum fit repercussio ad corpus opacum : ergo tam lumen quam radius est corpus.</p>
+            <p xml:id="bb-l2d13a3q1-d1e115">3. Item, impossibile est esse confractionem et intersecationem nisi corporum ; sed ex repercussione luminis ad speculum concavum fit radiorum intersecatio et confractio : ergo videtur quod tam lumen quam radius sit corpus.</p>
+            <p xml:id="bb-l2d13a3q1-d1e118">
+               <pb ed="#Q02" n="324"/>
+  4. Item, omne quod habet trinam dimensionem est corpus ; sed lumen in medio habet trinam dimensionem, quia diffunditur secundum omnem positionem, nec tantum, est in superficie, immo etiam penetrat aerem usque ad profundum : ergo videtur quod lumen in medio sit corpus.</p>
+            <p xml:id="bb-l2d13a3q1-d1e123">5. Item, esto quod sol esset et circa ipsum esset spatium vacuum, cum sol potens sit ex virtute lucis absque adiutorio extrinseco lumen suum diffundere, nisi habeat resistens, et in illo spatio vacuo nullam habeat resistentiam, ibidem lumen suum diffunderet ; sed lumen illud non esset in alio corpore sustinente : ergo videtur quod esset substantia per se ens ; et non spiritualis, hoc constat : ergo corporalis.</p>
+            <p xml:id="bb-l2d13a3q1-d1e126">6. Item, quod potest generare corpus est corpus ; sed lumen in medio diffusum potest generare corpus, scilicet ignem, per, sui multiplicationem : ergo lumen in medio est corpus.
+ </p>
+            <p xml:id="bb-l2d13a3q1-d1e129">Ad oppositum : <name ref="#Aristotle">Philosophus</name>, II De anima : <quote xml:id="bb-l2d13a3q1-Qd1e134" source="http://scta.info/resource/aristda-l2">Lumen nec est corpus nec defluxus corporis</quote>.</p>
+            <p xml:id="bb-l2d13a3q1-d1e138">2. Item, hoc ratione videtur per suum oppositum. Lumini enim opponitur tenebra privative ; si ergo privatio non est corporis sed formae, lumen non est corpus sed forma.</p>
+            <p xml:id="bb-l2d13a3q1-d1e142">3. Item, hoc videtur per motum. Nullum enim corpus movetur subito secundum locum ; sed lux subito alterat, quia in instanti ab oriente venit in occidens : ergo lumen non est corpus. Si tu dicas, quod non movetur subito sed repente ; hoc non potest stare secundum <name ref="#Aristotle">Philosophum</name>, quia si repente moveretur, id est imperceptibiliter in aliquo spatio, in maiori spatio posset sentiri successio, sicut patet in sono : ergo etc.</p>
+            <p xml:id="bb-l2d13a3q1-d1e148">4. Item, nullum corpus velocius movetur quam corpus mobilis primi, pro eo quod ille motus est perfectissimus omnium motuum, et ideo velocissimus ; sed lumen ab oriente in occidens multo citius movetur quam moveatur orbis primus, quia lux in instanti, et illud saltem in duodecim horis : ergo lumen non est corpus.</p>
+            <p xml:id="bb-l2d13a3q1-d1e151">5. Item, nullum corpus simul et semel movetur ad partes oppositas ; sed lumen simul et semel movetur ad partes oppositas, quia diffunditur sursum et deorsum, ante et retro, a dextris et a sinistris : ergo non potest esse corpus.</p>
+            <p xml:id="bb-l2d13a3q1-d1e154">6. Item, impossibile est duo corpora impermixta et non sese augmentantia esse simul ; sed lumen cum aere est impermixtum et ipsum aerem non augmentat, et tamen est simul : ergo non est corpus. Quod autem impossibile sit duo corpora esse simul, et <name ref="#Aristotle">Philosophus</name> dicit, et ad hoc sunt rationes, quae possunt omitti ad praesens, quia inducuntur in quarto, ubi agitur de penetrabilitate corporis gloriosi.</p>
+            <p xml:id="bb-l2d13a3q1-d1e160">7. Item, nullum corpus habet suum esse in fieri continue ; sed lumen in aere habet suum esse in fieri, quia continue egreditur a sole, sicut dicit <name ref="#Augustine">Augustinus</name> : ergo impossibile est corpus esse.</p>
+            <p xml:id="bb-l2d13a3q1-d1e166">8. Item, si lumen est corpus, aut est ex aliquo aut est ex nihilo. Si ex nihilo : ergo est a creatione, ergo lumen est a solo Deo, cum ipsius sit creare. Si ex aliquo, quaero ex quo ? aut ex corpore a quo causatur, aut ex corpore in quod suscipitur. Constat quod non ex corpore in quod suscipitur, quia lumen non producitur ex aere ; tunc enim ibi posset manere, recedente sole. Si ex corpore a quo causatur : ergo videtur quod corpus luminosum in emissione luminis aliquid perdit de sua substantia et materia, et ita videtur quod iam sol deberet esse consumtus.</p>
+            <div xml:id="bb-l2d13a3q1-Dd1e170">
+               <head xml:id="bb-l2d13a3q1-Hd1e172">CONCLUSIO</head>
+               <head xml:id="bb-l2d13a3q1-Hd1e175" type="question-title">Lumen et radius, prout proprie accipitur, non est corpus</head>
+ 
+               <p xml:id="bb-l2d13a3q1-d1e178">Respondeo : Ad praedictorum intelligentlam est notandum quod circa hoc quatuor fuerunt opiniones.</p>
+ 
+               <p xml:id="bb-l2d13a3q1-d1e181">Quidam enim voluerunt dicere quod tam lumen quam radius in medio corpus est, et egressus ipsorum. radiorum ab ipso sole est sicut egressus rivulorum a fonte. Sicut enim a fonte procedunt rivuli, qui sunt corpora et eiusdem naturae cum fonte, sic dicunt esse in radiis et sole. Et si tu obicias eis, quod videtur quod substantia solis et aliorum luminarium iam esset pene consumta ; respondent quod sicut non consumitur substantia fontis, pro eo quod, sicut fit emissio, ita fit etiam restauratio ; sic dicunt quod non consumitur substantia solis, pro eo quod, sicut exterius emittit lumen suum inferius, sic virtute radiorum vapores ad se trahit superius, ex quibus restauratur, sicut corpus alimento, adeo ut nec deficiat nec decrescat. Et hoc videtur sensisse Seneca.
+Positio tamen ista est contra philosophiam, quae dicit corpora caelestia omnino esse incorruptibilia.</p>
+ 
+               <p xml:id="bb-l2d13a3q1-d1e184">Secunda vero positio est, quod lumen est corpus et similiter radii, et processus ipsorum radiorum a sole est sicut ramorum a radice, maxime si ita esset, quod statim radix posset ex se producere arborem, adiuia divina virtute, sicut forte fuit in prima rerum conditione ; et sicut radix non diminueretur, si ita produceret arborem, tamen dicerentur semper rami ab illa radice exire, non quia de novo egrediantur, sed quia cum sua origine continuantur : sic dicunt et in solis radiis se habere. Cum enim Deus solem tamquam originem et principium luminis fecit, simul cum hoc ramificationem radiorum sibi dedit ; et sol continue dicitur illos radios emittere, quia illi radii nunquam separantur a sua origine ; sed sicut sol movetur, sic radii circumferuntur, non novi generantur : eosdem enim radios, quos emisit a principio super terram, emittit etiam et nunc.
+Sed esto, quod sol obscuraretur, sicut in passione Christi creditur esse factum ; tunc videtur quod oporteret ex tunc radios renovari, et ita de novo creari, si corpora essent.</p>
+ 
+               <p xml:id="bb-l2d13a3q1-d1e188">Tertia positio est, quod tam lumen quam radius in medio corpus est ; et productio eius quantum ad formam est a sole, quantum vero ad materiam est a Creatore. Dicunt enim quod hoc spectat ad perfectionem universitatis, ut, sicut est aliqua creatura quae quantum ad materiam et formam immediate est a Deo, ut angelus, quaedam quae quantum ad formam est a Deo immediate et quantum ad materiam est a natura, ut homo, sic etiam tertium genus est, quod quantum ad formam est a creatura et quantum ad materiam a Deo.
+Sed illud non videtur probabile, cum Deus nunquam creet materiam praeter formam aliquam.</p>
+ 
+               <p xml:id="bb-l2d13a3q1-d1e191">Licet autem quaelibet harum trium positionum specialiter dicat aliquid improbabile circa originem luminis ex lumine, omnes tamen communiter improbantur per hoc, quod dicunt lumen in medio esse corpus, tum propter ipsius diffusionem quae subita est, tum etiam propter eoexisientiam cum aere quae impermixta est, tum etiam propter ipsius productionem quae nec est ex materia nec unquam separatur ab eius existentia, immo sicut continue est, ita continue generatur, ut dicit <name ref="#Augustine">Augustinus</name>, quod lumen habet permanentiam per continuam solis influentiam.</p>
+               <p xml:id="bb-l2d13a3q1-d1e197">Et ideo est quarta positio concors rationi et philosophiae, quod lumen et radius, si nominet illud praecise, quod a luce habet ortum, nec est corpus nec corporis defluxus, sicut rationes ad hoc inductae ostendunt. Si autem dicatur radius aer illuminatus secundum diametrum, et lumen aer illuminatus secundum profundum, sic isto modo radius et lumen poterit dici corpus. Prout tamen proprie accipitur lumen et radius in medio, corpus non est.</p>
+ 
+               <p xml:id="bb-l2d13a3q1-d1e200">1. Ad illud ergo quod primo obicitur, quod movetur localiter, dicendum quod sicut videmus in specie generata a colore, quod dupliciter movetur, et unus motus est per diffusionem procedendo a corpore obiecto usque ad speculum, alius autem motus, secundum quod videtur moveri in speculo ad motum corporis obiecti - et primus non est motus localis, sed generationis, secundo vero motu non movetur per se, sed per accidens -sic intelllgendum est in proposito, quod motus luminis, qui est per egressum ipsius a corpore lucido, non est proprie loci mutatio, sed magis luminis generatio et diffusio ; et hoc patet ex hoc, quod fit subito in spatio quantumcumque magno. Motus vero alius, qui est per delationem ipsorum radiorum super terram cum ipso sole, iste est solum per accidens, sicut mo,vetur virtus ipsa ad motum sui principii influentis ; et tamen virtus corpus non est. Sic intelligendum est de lumine quod se habet ad corpus luminosum per modum virtutis influxae. Unde <name ref="#JohnDamascenus">Damascenus</name> : 
+  <quote xml:id="bb-l2d13a3q1-Qd1e205" source="http://scta.info/resource/jddfo-l1c8">Dicimus propter lumen, quod ex ipso provenit, lucere ignem, et non ponimus ministeriale organum ignis esse, quod ex ipso est lumen, virtutem vero magis naturalem</quote>.</p>
+
+               <p xml:id="bb-l2d13a3q1-d1e209">2. Ad illud quod obicitur, quod radii repercutiuntur a corpore, dicendum quod repercussio alicuius ab aliquo potest esse dupliciter : quaedam ex collisione duorum sibi invicem obviantium, sicut pila repercutitur a pariete ; quaedam ex ineptitudine patientis ad suscipiendam virtutem agentis, et sic repercutitur radius a corpore opaco. Sol enim, sive quodcumque aliud corpus luminosum, habet virtutem diffundendi lumen usque ad aliquod spatium determinatum, cum sit virtutis finitae ; et quamdiu se protendit illa virtus, multiplicatur lumen, si susceptibile sit idoneum ; cum vero ante terminationem illius virtutis obviat aliquod corpus, quod non est idoneum ad eius susceptionem, hoc ipso quod lumen non poterat se multiplicare in anterius, multiplicat se retrorsum, non ex virtute corporis resistentis, sed ex virtute primi moventis. Unde cum fit repercussio radii in aqua, mota aqua movetur radius, non quia aqua sit principium movens, sed prima virtus radium producens, quae, occasione accepta ab aqua, poterat radium reflectere, et occasione accepta ab eadem, potest reflexionem variare et ita radium movere.</p>
+
+               <p xml:id="bb-l2d13a3q1-d1e212">Quod enim dicitur : impossibile est non-corpus a corpore repelli, dicendum quod si est aliquid ita non-corpus quod sit spiritus, hoc verum est. Si autem est ita non-corpus, quod quidem indiget corpore deferente, sic absque dubio repelli potest, sicut praedictum est in lumine, et manifestum est in imagine, quae relucet in speculo propter appositionem plumbi cum vitro, quod est corpus opacum. Si enim esset solummodo vitrum per se, quod est corpus pervium transiret species et non rediret ad oculum, sicut patet per sensibile experimentum.</p>
+
+               <p xml:id="bb-l2d13a3q1-d1e216">3. Ad illud quod obicitur, quod fit intersecatio et confractio radiorum, dicendum quod hoc dicitur ratione aeris coniuncti, qui ex virtute radiorum ibi concurrentium habet subtiliari et moveri ; et ratione illius dicuntur etiam radii confringi, dum ex multiplicatione secundum oppositas vias, per progressum et regressum, fit quaedam multiplicatio et aggregatio luminis et subtiliatio aeris circa corpus tersum ; ex qua contingit effectum calorem radii intendi et ignem ibidem per caloris intensionem ex aere sic subtiliato generari.</p>
+               <p xml:id="bb-l2d13a3q1-d1e219">4. Ad illud quod obicitur, quod lumen habet trinam dimensionem in medio, dicendum, quod dimensionem potest aliquid habere dupliciter : vel ex se vel ex ratione eius in quo est. Si ex se, sic est corpus ; si aliunde, non oportet. Sic enim habet trinam dimensionem albedo in cerussa et nive, quae sunt albae intra et extra.</p>
+               <p xml:id="bb-l2d13a3q1-d1e222">5. Ad illud quod obicitur, quod si circa solem esset vacuum, quod illuminaret, dicendum quod licet aliqui hoc dixerint, tamen non videtur verum nec probabile. <name ref="#Aristotle">Philosophus</name> enim contrarium sentit, in II De anima cum dicit quod <quote xml:id="bb-l2d13a3q1-Qd1e227" source="http://scta.info/resource/aristda-l2">per vacuum non est videre</quote> ; et <name ref="#Augustine">Augustinus</name> similiter, in XII Confessionum, in principio dicens sic : <quote xml:id="bb-l2d13a3q1-Qd1e233">Ubi lux esset, si esset, nisi superesset eminendo et illustrando </quote>? 
+  Ratio etiam est contra hoc, quia, cum lumen sit forma corporalis, indiget medio deferente. Et si tu quaeras, quid impediat ; dico quod hoc non est propter praesentiam impedimenti, sed propter absentiam adiutorii ; sicut si aliquis habens magnam famem et carens cibo non potest comedere, non quia impediatur sed quia non adiuvatur.</p>
+
+               <p xml:id="bb-l2d13a3q1-d1e237">Ad illud quod obicitur, quod lumen generat corpus, dicendum quod lumen non agit propria virtute sed virtute corporis luminosi ; corpus autem luminosum non educit corpus quantum ad materiam, sed solummodo quantum ad formam : et ideo cum lumen sit illud per quod agit, non oportet lumen esse corpus, sed sufficit quod sit forma corporalis.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

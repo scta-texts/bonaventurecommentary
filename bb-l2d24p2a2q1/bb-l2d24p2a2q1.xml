@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2a2q1">
+            <head xml:id="bb-l2d24p2a2q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d24p2a2q1-Hd1e102" type="question-title">Utrum aliquod peccatum habeat esse in inferiori parte rationis absque sensualitate.</head>
+ 
+            <p xml:id="bb-l2d24p2a2q1-d1e105">Circa primum sic proceditur et ostenditur quod nullum peccatum possit esse in inferiori parte rationis absque sensualitate :</p>
+            <div xml:id="bb-l2d24p2a2q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p2a2q1-Hd1e110">Rationes pricipales</head>
+
+               <p xml:id="bb-l2d24p2a2q1-d1e113">Primo, per auctoritatem <name ref="#Augustine">Augustini</name>, Contra Manichaeos, ubi ait sic : <quote xml:id="bb-l2d24p2a2q1-Qd1e118">In unoquoque nostrum nihil aliud agitur nunc cum ad peccatum quisque dilabitur, quam tunc actum est in illis tribus : serpente, muliere et viro</quote>. Ergo, si peccatum illud incepit a serpente, et sensualitas est serpens, ut ipse dicit, omne peccatum incipit a sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e122">Item, sicut omnem consensum praecedit delectatio, ita omnem delectationem praecedit aliqua suggestio : sed nullum peccatum rationis est absque aliqua delectatione : ergo nec delectatio sine suggestione ; suggestio autem non est nisi partis sensibilis vel serpentis : ergo nullum peccatum est in inferiori parte rationis, quod non incipiat a sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e125">Item, inferior ratio non peccat nisi quia appetit bonum ut nunc ; sed vis, quae appetit bonum ut nunc, est sensualitas : ergo non peccat nisi praevia sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e128">Item, nihil est in intellectu quod prius non fuerit in sensu : ergo pari ratione nihil est in ratione quod prius non fuerit in sensualitate : ergo, si ratio deordinatur, necesse fuit sensualitatem prius deordinari.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e132">Item, omnia peccata actualia ortum habent a peccato originali et potissime a concupiscentia, quae ex originali peccato nobis inolevit ; sed tam originale peccatum quam concupiscentia inest animae ex coniunctione sui ad carnem ; vis autem, secundum quam anima coniungitur carni, est ipsa sensualitas : ergo omne peccatum animae incipit a sensualitate : ergo absque ea in inferiori parte rationis peccatum non potest fieri.</p>
+
+ 
+               <p xml:id="bb-l2d24p2a2q1-d1e135">Sed contra : Magis est coniuncta superior portio inferiori quam ipsa inferior portio sensualitati, cum ratio superior et inferior spectent ad eamdem potentiam et naturam. Si ergo peccatum potest fieri in superiori parte rationis absque inferiori, sicut supra probatum est, videtur multo fortius quod possit fieri in inferiori absque sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e138">Item, possibile est inferiorem partem rationis peccare peccato spirituali appetendo aliquod spirituale bonum ; sed sensualitas non appetit nisi bonum sensuale : ergo potest peccare inferior portio absque sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e141">Item, quidquid potest virtus inferior, potest virtus superior : ergo, si sensualitas potest de se moveri inordinate ad aliquod appetibile sine viribus superioribus, multo fortius superior potentia, utpote rationis pars inferior, inordinate moveri potest absque sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e144">Item, in diabolo non est sensualitas, cum non habeat coniungi cum carne ; sed constat quod ipse habet peccare non solum in Deum, sed etiam in hominem. Si ergo peccatum in creaturam attenditur secundum aspectum rationis, quem vocamus inferiorem partem rationis, videtur quod absque sensualitate contingat illam portionem peccare.</p>
+
+               <p xml:id="bb-l2d24p2a2q1-d1e147">Item, quaeritur iuxta hoc : quid est inferiorem portionem rationis comedere ? Et quando delectatio transit a sensualitate in rationem ? Si tu dicas quod hoc est quando ratio advertit et percipit se delectari, tunc duplex est inconveniens : unum, quia frequenter homo consummat peccatum et nihil cogitat nisi de appetibili nec advertit se delectari vel tristari ; et ita videtur quod aliquis possit peccare mortaliter, ita quod inferior portio non comedat. Aliud etiam inconveniens concluditur, quia, cum percipere delectationem non sit malum nec peccati augmentativum, iam videtur quod perceptio rationis post suggestionem sensualitatis culpam non aggravaret ; quod plane et manifeste falsum nemo esse dubitat.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a2q1-Dd1e151">
+               <head xml:id="bb-l2d24p2a2q1-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d24p2a2q1-Hd1e156" type="question-title">
+        Inferior rationis portio aliquo genere peccati peccare 
+      potest absque suggestione sensualitatis; tamen in genere 
+      peccati carnalis vix, aut nunquam peccat sine sensualitatis motu
+      </head>
+ 
+               <p xml:id="bb-l2d24p2a2q1-d1e159">Respondeo : Ad praedictorum intelligentiam est notandum quod, sicut innuit Magister in fine huius distinctionis, sensualitas dupliciter potest accipi. Aliquando accipitur pro vi quae appetit bonum ut nunc ; et haec non solummodo est in parte sensibili, immo etiam in rationali. Et sine motu sensualitatis hoc modo dictae nunquam contingit esse peccatum in inferiori parte rationis ; semper enim, cum quis peccat, bonum ut nunc exoptat.
+Alio modo dicitur sensualitas vis animae sensibilis, qua intenditur in corporis sensus, sicut habitum est supra. Et sine hac contingit esse peccatum in inferiori parte quantum ad peccata spiritualia ; quantum autem ad carnalia vix aut nunquam. In carnalibus enim corruptio venit ex foeditate carnis et concupiscentia partis sensibilis ; et ita in eis peccatum incipit a serpente sive a sensualitate et pervenit ad mulierem.</p>
+ 
+               <p xml:id="bb-l2d24p2a2q1-d1e162">Tunc autem dicitur esse in sensualitate, quando quis ex apprehensione delectabilis oblectatur et inclinatur ante adversionem et perceptionem suae delectationis ; hoc enim ex surreptione est, nec dicitur ratio aliquo modo propter illam delectationem de vetito cibo gustasse. Sed tunc ratio comedit et peccatum in ea esse incipit, quando post delectationis adversionem et perceptionem sensualitati delectanti condelectatur et in delectatione persistit. Ex tunc enim, scilicet post delectationis adversionem, ratio comedere dicitur et peccatum transire a sensualitate in ipsam ; quoniam, etsi iudicare de delectabili et in eo delectari, hoc sit partis sensibilis, percipere tamen ipsam delectationem interiorem, hoc est partis rationalis. Et ideo ratio comedere dicitur, si post talem perceptionem parti sensibili condelectetur.</p>
+ 
+               <p xml:id="bb-l2d24p2a2q1-d1e165">Sic igitur concedo quod aliquo genere peccati peccare potest inferior rationis portio absque suggestione sensualitatis, sicut rationes ad secundam partem inductae ostendunt. Aliquo vero genere peccati vix aut nunquam peccat, utpote carnalis, nisi motus sensualitatis praecedat et trahat. Et quantum ad hoc peccati genus loquitur <name ref="#Augustine">Augustinus</name>, Contra Manichaeos.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a2q1-Dd1e173">
+               <head xml:id="bb-l2d24p2a2q1-Hd1e175">Ad rationes</head>
+               <p xml:id="bb-l2d24p2a2q1-d1e178">Et per hoc patet responsio ad primum quod obicitur in contrarium.</p>
+
+               <p xml:id="bb-l2d24p2a2q1-d1e181">2-3. Ad illud quod obicitur, quod omnem delectationem praecedit suggestio, dicendum, quodsi suggestio large accipitur ad omnem apprehensionem boni ut nunc sub ratione appetibilis, sic verum est quod praecedit omnem delectationem ; si vero accipiatur stricte pro illo motu serpentino partis sensibilis, sic non habet veritatem in omnibus peccatis, sed solum in peccatis carnis.
+Et per hoc patet responsio ad sequens, quo dicitur quod sensualitas est vis appetitiva boni ut nunc : ibi enim accipitur sensualitas large ; et sic, ut praeostensum est, absque ea non potest esse peccatum in inferiori portione rationis, quamvis esse possit absque sensualitate dicta proprie, saltem peccatum spirituale.</p>
+
+               <p xml:id="bb-l2d24p2a2q1-d1e184">Ad illud quod obicitur, quod nihil est in intellectu quod prius non fuerit in sensu, dicendum quod verum est vel in se vel in suo simili. Multa tamen fingit homo quae nunquam vidit ; multa etiam, postquam vidit, cogitat, ita quod illa cogitatio non excitatur a potentia sensitiva movente. Ita etiam intelligi potest de ratione et sensualitate.</p>
+               <p xml:id="bb-l2d24p2a2q1-d1e187">Ad illud quod obicitur, quod omnia peccata habent ortum ab originali concupiscentia, dicendum quod, etsi omne peccatum quodam modo ex originali ortum habeat et originale ex carne, non tamen oportet omne peccatum tamquam ex proximo movente ortum habere ex carne vel sensualitate, pro eo quod originale peccatum non tantum inficit partem sensibilem, immo inficit partem rationalem et corrumpit. Unde concupiscentia respersa est in omnibus viribus animae ; et ideo, sive sensualitas sit praeambula sive non, omnia mala nostra dicuntur provenire ex concupiscentia.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

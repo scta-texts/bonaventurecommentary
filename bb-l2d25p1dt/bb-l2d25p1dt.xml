@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p1dt">
+            <head xml:id="bb-l2d25p1dt-Hd1e99">Divisio textus</head>
+            <!--https://archive.org/stream/doctorisseraphic02bona#page/588/mode/2up-->
+
+            <p xml:id="bb-l2d25p1dt-d1e104">Supra egit Magister de libero arbitrio in comparatione ad alias potentias, hic vero agit de libero arbitrio secundum se. Dividitur autem pars ista in duas partes.
+In prima determinat quid sit liberum arbitrium in se sive in generali.
+In secunda vero determinat de libertate arbitrii secundum differentes eius status in speciali, ibi : Ex praedictis perspicuum est etc.
+ 
+Prima pars habet duas particulas.
+In quarum prima Magister ponit liberi arbitrii assignationem.
+In secunda ad praedictae assignationis explanationem quamdam removet dubitationem, ibi : Et quidem secundum praedictam assignationem etc.
+ 
+Prima pars habet duas.
+In prima determinat quid sit liberum arbitrium.
+In secunda vero ex illa definitione elicit quod liberum arbitrium non est praesentium nec praeteritorum, sed futurorum, et horum non quorumlibet, sed futurorum contingentium, ibi : Hoc autem sciendum est quod liberum arbitrium etc.
+Similiter secunda pars habet duas, in quarum prima movet dubitationem, in secunda vero determinat, ibi : Sed aliter accipitur liberum arbitrium etc.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

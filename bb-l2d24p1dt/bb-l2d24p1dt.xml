@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divisio textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Divisio textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p1dt">
+            <head xml:id="bb-l2d24p1dt-Hd1e99">Divisio textus</head>
+            <!--https://archive.org/stream/doctorisseraphic02bona#page/552/mode/2up-->
+            <p xml:id="bb-l2d24p1dt-d1e104">Supra determinavit Magister de culpa per quam homo cecidit. In hac parte determinat de auxilio per quod stare potuit. Et quoniam hoc auxilium est liberum arbitrium, et liberum arbitrium habet tripliciter considerari, videlicet in comparatione ad alias potentias animae et in se et in comparatione ad perfectionem gratiae, ideo pars ista habet tres partes.
+In prima determinat de libero arbitrio in comparatione ad alias potentias,
+In secunda vero determinat de ipso secundum se, infra, distinctione vigesima quinta : Iam ad propositum redeamus.
+In tertia vero determinat de ipso per comparationem ad gratiam, infra, distinctione vigesima sexta : Haec est gratia operans et cooperans.</p>
+ 
+            <p xml:id="bb-l2d24p1dt-d1e107">Et quoniam secundum comparationem liberi arbitrii ad potentias animae attenditur progressus et consummatio peccati, ideo prima pars habet duas.
+In prima determinat de libero arbitrio, in quantum ad alias animae potentias comparatur.
+In secunda vero determinat qualiter in homine tentationis ordo et progressio consummatur, ibi : Illud quoque praetermittendum non est etc.
+ 
+Prima pars tres habet particulas.
+In prima determinat ad quid datum fuerit illud auxilium homini.
+In secunda vero, quod sit illud adiutorium, ibi : Hic considerandum est quod fuit illud adiutorium etc.
+In tertia vero, ad maiorem explanationem, subiungit distinctionem praedictarum, ibi : Est enim sensualitas quaedam vis etc.
+ 
+Quaelibet autem harum partium dividi potest in duas.
+In prima determinat veritatem.
+In secunda removet dubitationem, ibi : Sed quomodo rectam et bonam voluntatem etc.
+Similiter secunda pars, in qua determinat quod fuit adiutorium, duas habet partes.
+In prima explicat quod fuit illud adiutorium nominando ;
+in secunda definiendo, ibi : Liberum arbitrium est facultas etc.
+Similiter tertia pars, in qua divisionem ponit potentiarum, duas habet partes.
+In prima assignat differentiata sensualitatis ad rationem ;
+in secunda vero ostendit viam per quam cognosci potest et discerni illa differentia, ibi : Quidquid ergo in anima nostra etc.
+Sic totalis huius particulae sententia circa duo versatur, videlicet circa adiutorium quod fuit homini collatum et circa distinctionem potentiarum.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 15, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 15, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d15a1q2">
+            <head xml:id="bb-l2d15a1q2-Hd1e99">II, Distinctio 15, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d15a1q2-Hd1e102" type="question-title">Utrum corpora animalium sint composita ex quatuor dementis.</head>
+ 
+            <p xml:id="bb-l2d15a1q2-d1e105">Secundo quaeritur, utrum corpora animalium sint composita ex quatuor elementis an ex uno.
+Et quod ex uno, videtur.</p>
+
+            <p xml:id="bb-l2d15a1q2-d1e108">1. Primo per Scripturam, quae dicit : <quote xml:id="bb-l2d15a1q2-Qd1e110" ana="#gen1_20">Producant aquae reptile</quote> ; et similiter : Producat terra animam viventem. Si ergo Scriptura sufficienter animalium exprimit materiam, cum non exprimat nisi simplicia elementa, patet etc.</p>
+            <p xml:id="bb-l2d15a1q2-d1e114">2. Item, forma debet proportionari materiae, ergo et corpus animae ; sed forma animalium est simplex : ergo et corpora debent esse simplicia : ergo non sunt ex quatuor elementis : ergo etc.</p>
+            <p xml:id="bb-l2d15a1q2-d1e118">3. Item, quanto aliquid ad naturam compositionis magis accedit tanto minus est perfectum ; quod enim simplicius est potentius est et perfectius. Si igitur anima sensibilis est forma valde potens et nobilis : ergo debet esse perfectio corporis simplicis, non mixti ex quatuor elementis.</p>
+            <p xml:id="bb-l2d15a1q2-d1e121">4. Item, corpora ad ornatum caeli spectantia non sunt facta de alia natura quam caelum quod ornant : ergo pari ratione, si quaedam animalia ornant terram et quaedam aquas, quaedam surtt ex sola terra et quaedam ex sola aqua.</p>
+            <p xml:id="bb-l2d15a1q2-d1e124">5. Item, si corpora animalium constant ex quatuor elementis, tunc videtur quod, cum elementa habeant sphaeras distinctas, quod elementa constituentia corpus animalis sint in unum iuncta per violentiam : si ergo violentia est contra naturam, constitutio corporis cuiuslibet animalis est contra naturam ; quod est inconveniens.</p>
+            <p xml:id="bb-l2d15a1q2-d1e127">6. Item, ex eisdem animalia sunt producta tunc ex quibus producuntur nunc ; sed nunc non possunt elementa virtute naturae coadunari : ergo non possunt corpora animalium ex quatuor elementis produci. Maior proposito per se manifesta est ; minor probatur, quia non est in potestate naturae ignem facere descendere ; si enim descenderet, cum medium interstitium aeris sit frigidissimum, necessario haberet ibi extingui, et alia plura sequerentur inconvenientia : ergo etc.</p>
+
+            <p xml:id="bb-l2d15a1q2-d1e130">Ad oppositum arguitur sic.</p>
+
+            <p xml:id="bb-l2d15a1q2-d1e133">1. Sensus est operatio animae in corpore secundum conformitatem organi ad obiectum ; sed quodlibet animal habet tactum, qui est perceptibilis quatuor qualitatum, quae radicantur in quatuor elementis : ergo quodlibet animal constat ex quatuor elementis.</p>
+            <p xml:id="bb-l2d15a1q2-d1e137">2. Item, omne animal aliquo motu est mobile, ut progressionis vel constrictionis vel dilatationis ; sed nullum elementum de se est sic mobile : ergo necesse est animal constare ex pluribus elementis.</p>
+            <p xml:id="bb-l2d15a1q2-d1e140">3. Item, quanto forma est spiritualior tanto est plurium operationum principium ; sed anima sensii bilis est forma valde spiritualis : ergo est principium multiplicis operationis. Sed corpus datum est ad subministrandum ei : ergo necesse est quod corpus sit aptum et idoneum ad diversas operationes ; sed non est aptum ad diversas operationes nisi per diversas virtutes, nec ad diversas virtutes nisi per diversas naturas, nec habet diver| sas naturas nisi quia ex diversis ; compositum : ergo etc.</p>
+            <p xml:id="bb-l2d15a1q2-d1e143">4. Item, quanto forma posterior et ulterior tanto nobilior, pro eo quod anteriora sunt materialia respectu posteriorum : ergo nobilior est forma mixti quam forma elementi. Si ergo anima sensibilis, cum sit forma nobilis, debet habere corpus nobile, ergo corpus animalis non tantum non est corpus simplex, sed constans ex diversis elementis.</p>
+            <div xml:id="bb-l2d15a1q2-Dd1e146">
+               <head xml:id="bb-l2d15a1q2-Hd1e148">Corpora animalium habent in se naturam quatuor elementorum</head>
+ 
+               <p xml:id="bb-l2d15a1q2-d1e151">Respondeo : Dicendum quod absque dubio corpora animalium habent in se naturam quatuor elementorum, sicut ostensum est per quatuor rationes, tum propter hoc ut sint idonea ad sensum ; tum propter hoc ut sint idonea ad motum ; tum propter hoc ut sint idonea ad multiplicitatem operationis ; tum propter hoc ut in se habeant dignitatem completionis, quae omnia competunt illi corpori quod perficitur anima sensibili. Et propter hoc debet habere aliquem gradum perfectum mixtionis, ubi non tantum fit mixtio sed etiam complexio ; perfecta autem mixtio non est, quousque concurrant quatuor elementa. Aqua enim, cum sit subtilior terra in decupla proportione, penetrat partes terrae ; sed non perfecte pro eo quod aliquam habeat grossitiem. aer vero, qui est subtilior in centupla proportione, adhuc, intimius se profundat. Sed ignis, qui fest subtilior et rarior in millesima proportione, sua subtilitate penetrat usque ad intima, et sic fit alteratio plena usque ad minima et mixtio perfecta, quia miscibilia sunt perfecte alterata. Et sic patet quod taliter debent componi corpora perficienda ab anima sensibili.</p>
+ 
+               <p xml:id="bb-l2d15a1q2-d1e154">1. Ad illud vero quod obicitur de auctoritate Genesis, dicendum quod illud dictum est per quamdam praedominantiam sive appropriationem, sicut melius patebit infra.</p>
+               <p xml:id="bb-l2d15a1q2-d1e157">2. Ad illud quod obicitur, quod forma debet proportionari materiae, dicendum quod verum est in conditionibus, quae magis competunt ipsi formae. Anima autem, cum sit simplex est in substantia, multiplex est in virfute ; et ideo non competit, ut corpus ei assimiletur in simplicitate, pro eo quod simplicitas corporalis repugnat multiplicitati virtutis.</p>
+               <p xml:id="bb-l2d15a1q2-d1e160">3. Et per hoc patet solutio ad illud quod tertio obicitur, quod quanto aliquid compositius tanto minus perfectum. Hoc enim, etsi habeat veritatem in spiritibus, quorum perfectio attenditur per accessum ad summe simplex, non tamen habet veritatem in corporibus, in quibus et magnificatur virtus ex partium magnitudine, sicut magis urit magnus ignis quam parvus, et plurificatur ex partium multiplicatione, sicut maioris virtutis est syrupus compositus quam liquor impermixtus. Et ideo homo, qui inter caetera animalia est perfectissimus, inter caetera est compositissimus, sicut planius videbitur inferius.</p>
+
+               <p xml:id="bb-l2d15a1q2-d1e164">4. Ad illud quod obicitur de corporibus ornantibus caelum, dicendum quod non est simile, quia illa nec propriis motibus moventur nec spiritualibus formis perficiuntur, quibus debeatur multiplicitas operationum vel diversitas partium componentium et organorum, sicut ponitur in animalibus.</p>
+               <p xml:id="bb-l2d15a1q2-d1e167">5. Ad illud quod obicitur, quod fit elementorum violentatio, dicendum quod non est intelligendum quod Dominus in primordio, cum corpora animalium composuit, elementa ex diversis sphaeris concurrere fecerit ; hoc enim non oportebat, tum quia tam aqua quam terra non sunt elementa pura, sed aliis permixta secundum eam partem ex qua facta sunt ex eis animalia ; tum etiam, quia, si essent pura et simplicia, in uno elemento sunt caetera in potentia et ex uno possunt fieri omnia, si adsit virtus alterans et activa, sine aliqua locali mutatione, ac per hoc sine aliqua violentatione.</p>
+               <p xml:id="bb-l2d15a1q2-d1e170">6. Et per hoc patet responsio ad ultimum, quia similiter, quando fit commixtio elementorum, natura non facit ignem, qui sursum est, descendere vel aerem ; sed eum ignem vel agrem, qui vel est in terra vei generatur per actionem alicuius agentis, facit venire ad constitutionem animalis. Et hoc quidem fit per naturam, non per violentiam. Quia enim natura, secundum quod dicit <name ref="#Aristotle">Philosophus</name>, semper desiderat quod melius est, materia, quae est sub forma elementari, appetit esse sub forma mixti, et quae est sub forma mixtionis appetit esse sub forma complexionis ; ideo cum ex diversis elementis fit mixtio in unum, appetitus naturae completur et violentia non infertur.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

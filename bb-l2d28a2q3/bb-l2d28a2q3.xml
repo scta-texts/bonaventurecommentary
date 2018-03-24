@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d28a2q3">
+            <head xml:id="bb-l2d28a2q3-Hd1e99">Quaestio 3</head>
+            <head xml:id="bb-l2d28a2q3-Hd1e102" type="question-title">Utrum liberum arbitrium, omni gratia destitutum, possit in aliquod bonum in genere.</head>
+ 
+            <p xml:id="bb-l2d28a2q3-d1e105">Tertio quaeritur, utrum liberum arbitrium, omni gratia destitutum, possit in aliquod bonum in genere.</p>
+            <div xml:id="bb-l2d28a2q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d28a2q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d28a2q3-d1e113">Et quod sic, videtur. Virtus consuetudinalis non dat novam potentiam voluntati, sed solum reddit eam facilem. Si igitur voluntas habens virtutem consuetudinalem potest in bonum in genere et bonum ex circumstantia, videtur quod in hoc possit carens illa virtute, licet cum difficultate.</p>
+               <p xml:id="bb-l2d28a2q3-d1e116">Item, brutum bruto per naturam potest compati : ergo et homo homini per naturam potest compati, circumscripto omni dono gratiae ; et si potest compati et misereri, potest et eleemosynam largiri ; et hoc est bonum in genere, dare eleemosynam indigenti : ergo etc.</p>
+               <p xml:id="bb-l2d28a2q3-d1e119">Item, vitium non fortificat naturam ; sed homo vane gloriosus potest praedicare Evangelium vel facere aliquod opus bonum in se : ergo, si hoc potest homo depravatus vitio inanis gloriae, multo fortius potest hoc ex potestate naturae.</p>
+               <p xml:id="bb-l2d28a2q3-d1e122">Item, difficilius est avaro dare omnia quae habet quam dare partem eorum quae habet ; sed avarus absque omni dono gratiae potest fieri prodigus et dissipare omnia bona sua : ergo multo fortius absque dono gratiae potest dare unam eleemosynam, cum istud sit multum facilius.</p>
+               <p xml:id="bb-l2d28a2q3-d1e126">Item, aut liberum arbitrium, ortini gratia destitutum, potest in aliquod bonum aut non. Si non, ergo nullius est potentiae. Si potest in aliquod, cum principium, quod est voluntas, distinguatur a principio, quod est natura, illud non tantum erit bonum naturale, sed etiam bonum morale ; sed minimum inter omnia bona moralia est bonum in genere : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d28a2q3-d1e129">Sed contra : Dominus, Ioannis 15, 5 ait : <quote xml:id="bb-l2d28a2q3-Qd1e131" ana="#io15_5">Sine me nihil potestis facere</quote>, Glossa : <quote xml:id="bb-l2d28a2q3-Qd1e134">Nec parum boni</quote>. Igitur absque auxilio gratiae Dei liberum arbitrium non potest perficere aliquid boni.</p>
+               <p xml:id="bb-l2d28a2q3-d1e138">Item, II ad Corinthios 3, 5 : <quote xml:id="bb-l2d28a2q3-Qd1e140" ana="#IIcor3_5">Non quod simus sufficientes cogitare aliquid, ex nobis, quasi ex nobis</quote>. Si igitur bonum, cogitare, hoc est initium omnis boni, et hoc non possumus per nos, ergo nullum bonum per se potest liberum arbitrium, divina gratia destitutum.</p>
+               <p xml:id="bb-l2d28a2q3-d1e144">Item, <name ref="#Augustine">Augustinus</name>, Ad Bonifacium Papam : <quote xml:id="bb-l2d28a2q3-Qd1e149">Non potest homo aliquid boni velle, nisi adiuvetur ab eo qui malum non potest velle</quote>.</p>
+               <p xml:id="bb-l2d28a2q3-d1e153">Item, Isidorus : <quote xml:id="bb-l2d28a2q3-Qd1e155">Sciant defensores liberi arbitrii nihil boni posse, nisi divinae gratiae iuvamine sustententur</quote> . Ergo redit quod prius.</p>
+               <p xml:id="bb-l2d28a2q3-d1e159">Item, <name ref="#Bernard">Bernardus</name>, Super Cantica, homilia : <quote xml:id="bb-l2d28a2q3-Qd1e164">Sciant, inquit, hostes gratiae nec ad bonum cogitandum sufficere cor humanum</quote> ; et expressius, in libro De libero arbitrio : <quote xml:id="bb-l2d28a2q3-Qd1e167">Tria in nobis Deus operatur : cogitare, velle et perficere. Primum sine nobis, secundum nobiscum, tertium per nos</quote> .</p>
+               <p xml:id="bb-l2d28a2q3-d1e172">Item, in eodem libro, capitulo 6 :<quote xml:id="bb-l2d28a2q3-Qd1e174"> Velle siquidem in nobis est ex libero arbitrio, non autem posse quod volumus : non dico velle bonum aut velle malum, sed velle tantum</quote>.
+Ex his omnibus auctoritatibus concluditur quod liberum arbitrium, gratia destitutum, non possit in aliquod bonum quantumcumque parvum.
+</p>
+            </div>
+            <div xml:id="bb-l2d28a2q3-Dd1e179">
+               <head xml:id="bb-l2d28a2q3-Hd1e181">Conclusio</head>
+               <head xml:id="bb-l2d28a2q3-Hd1e184" type="question-title">Liberum arbitrium sola Dei cooperatione generali, 
+      absque gratia gratum faciente et gratis data, 
+      potest, licet difficiliter, facere aliquod bonum 
+      morale, quod in finem ultimum est ordinabile, non autem ordinatum</head>
+      
+ 
+               <p xml:id="bb-l2d28a2q3-d1e187">Respondeo : Ad praedictorum intelligentiam estnotandum quod opus aliquod tripliciter potest dici bonum.
+ Uno modo dicitur aliquid bonum simpliciter, et hoc est bonum quod est ordinatum in finem ; et tale est bonum meritorium. Et in huiusmodi bonum non potest liberum arbitrium lapsum absque auxilio gratiae gratum facientis.
+</p>
+               <p xml:id="bb-l2d28a2q3-d1e190">
+Secundo modo aliquid dicitur bonum ex hoc quod aliquo modo de congruo disponit ad bonum ; et tale est bonum quod fit extra caritatem, nihilominus tamen cum recta intentione. Et in tale non potest liberum arbitrium absque munere gratiae gratis datae, per quod illuminetur et dirigatur et excitetur ut velit facere aliquid quod sit Deo placitum. Et quod ad hoc sit munus gratiae necessarium, expresse innuitur Sapientiae 8, 21, ubi dicitur : <quote xml:id="bb-l2d28a2q3-Qd1e192" ana="#sap8_21">Scivi, quoniam aliter non possum esse continens, nisi Deus det ; et hoc ipsum erat sapientia, scire cuius hoc donum esset</quote>. Unde non est parvum donum gratiae cognoscere ipsum munus gratiae et cognoscere quod sine gratia homo salvari non potest.</p>
+               <p xml:id="bb-l2d28a2q3-d1e196">Tertio modo dicitur aliquid bonum, quia in finem est ordinabile et habet aliquam ordinationem intra se, sive ex transitu super materiam debitam, sicut pascere esurientem, sive ex debita circumstantia superaddita, videlicet cum hoc facit cum exigit tempus et locus et opportunitas. Ad istud autem genus boni complendum, etsi gratia gratis data sit necessaria ad hoc quod fiat faciliter, circumscripto tamen omni munere gratiae et libero arbitrio relicto in puris naturalibus, per naturale iudicatorium et instinctum posset in tale bonum, Deo sibi eooperante, sicut cooperatur aliis creaturis. Nam sine primo agente nullum agens potest agere, sicut suo loco infra manifestabitur, cum agetur utrum omnis actio sit a Deo. Ad praesens autem tantum dixisse sufficiat quod liberum arbitrium sola Dei cooperatione, absque aliquo munere gratiae, licet difficiliter, potest exire in aliquod bonum morale. Per illud tamen nec disponitur ad gratiam nec ad gloriam, quia non est in finem ultimum ordinatum, sed tantum ordinabile.</p>
+
+               <p xml:id="bb-l2d28a2q3-d1e200">Et istud concludunt rationes ad primam partem inductae ; et ideo concedendae sunt. 
+        In bonum autem, quod ducit ad bonum perfectum, sive merito congrui sive merito condigni, non potest absque auxilio Dei, sicut expresse dicunt auctoritates Sanctorum ad contrarium adductae, et sic omnes intelligendae sunt.
+Et quod isto modo debeant intelligi, planum est. Nam, si liberum arbitrium in solis naturalibus suis relinquatur, adhuc remanebit ei rationis iudicium, per quod cognoscet parentes esse honorandos. Et constat quod, si habet hoc naturale iudicatorium, per illud per quod potest nosse parentes esse honorandos, per illud potest cogitare ; et cum habeat naturalem instinctum, potest etiam velle ; et cum habeat exteriora organa sibi subservientia, potest opere implere. Sed prout illud facit iudicium rationis rectae absque munere gratiae, non dirigit ad obtinendum finem, qui Deus est, et mercedem aeternae beatitudinis, quam nosse non potest nisi Deus revelet. Et propterea dicunt Sancti quod nec cogitare nec velle nec facere potest bonum absque iuvamine divinae gratiae, quia loquuntur de bono secundum quod est ordinatum ad assequendam beatitudinem.
+Si autem intelliganiur auctoritates de alio bono, tunc nomine gratiae non est intelligendus aliquis habitus superadditus naturalibus, sed intelligitur gratuita Dei influentia, per quam caetera conservat et adiuvat ut compleant operationes suas. Et sic intelligitur illud verbum Ioannis 15, 5 : Sine me nihil potestis facere ; et illud Isaiae 26, 12 : Omnia opera nostra in nobis operatus es, Domine, et consimilia. Sic etiam intelligendum est illud quod dicitur, in libro De Magistro, quod nullus potest aliquid addiscere nisi Deus doceat. Hoc enim non dicitur quia omnis cognitio sit infusa, sed quia lumen creatum non potest perficere operationem suam absque cooperatione luminis increati, per quod illuminatur omnis homo qui venit in hunc mundum. Et hoc modo intelligenda sunt verba <name ref="#Dionysius">Dionysii</name> et aliorum Sanctorum, qui dicunt quod omnis essentia est a prima essentia et omnis vita a prima vita et omnis intelligentia a prima intelligentia et omnis bonitas a prima bonitate. Haec enim dicta sunt, non quia Deus sit tota causa, sed quia sineipso non potest agere aliqua virtus creata.
+      </p>
+               <p xml:id="bb-l2d28a2q3-d1e206">
+Patet igitur ex praedictis quantum sit necessaria libero arbitrio gratia gratum faciens, quia sine ea non potest a peccato resurgere nec potest adversarium vincere nec potest mandata Dei implere. Patet nihilominus quantum sit necessaria gratia gratis daia, quia sine ea non potest liberum arbitrium ad gratiam gratum facientem se disponere ; non potest etiam omni tentationi resistere ; non potest etiam in aliquod bonum quantumcumque modicum, quod sit ordinatum ad salutem. Et licet possit in aliquod bonum morale, vix aut nunquam faceret nisi malum propter peccati originalis corruptionem.</p>
+               <p xml:id="bb-l2d28a2q3-d1e209">
+Et ex his manifeste convincitur error Pelagii et superbia, qua se contra divinam gratiam erigebat, et ingratus gratiae Dei, sibi quod erat gratiae usurpabat ; et dum hoc agebat, se ipsum a munere divinae gratiae elongabat ; et propterea error iste cavendus est non modicum. Unde <name ref="#Bernard">Bernardus</name>, in libro De libero arbitrio, capitulo 14 : <quote xml:id="bb-l2d28a2q3-Qd1e214">Cavendum est ne, cum hoc bonum propositum invisibiliter intra nos aut nobiscum excitari sentimus, aut voluntati nostrae attribuamus, quae infirma est, aut Dei necessitati, quae nulla est, sed soli gratiae, qua quis plenus est. Haec liberum arbitrium excitat, cum seminat cogitatum ; sanat, cum immutat affectum ; roborat, ut perducat ad actum ; servat, ne sentiat defectum. Sic autem cum libero arbitrio operafur ut illud in primo praeveniat, in caeteris comitetur : ad hoc itaque praeveniens, ut sibi deinceps cooperetur ; ita tamen quod a gratia coeptum pariter ab utroque perficitur, ut mixtim, non singillatim, simul, non vicissim, per singulos profectus operentur ; non partim gratia nec partim liberum arbitrium, sed totum singula opere individuo peragunt, totum quidem hoc et totum illa ; sed ut totum huic vel in hoc, sic totum est ex illa</quote>.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

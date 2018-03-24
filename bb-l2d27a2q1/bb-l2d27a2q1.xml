@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d27a2q1">
+            <head xml:id="bb-l2d27a2q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d27a2q1-Hd1e102" type="question-title">Utrum per gratiam contingat mereri ipsum gratiae donum iam habitum.</head>
+ 
+            <p xml:id="bb-l2d27a2q1-d1e105">Circa primum sic proceditur et quaeritur, utrum per gratiam contingat mereri ipsum gratiae donum iam habitum.</p>
+            <div xml:id="bb-l2d27a2q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d27a2q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d27a2q1-d1e113">Et quod sic, videtur :
+1. Primo, per simile in corporalibus. Bonus enim miles strenue militando meretur equum, a domino suo sibi gratis datum, per usum ipsius equi : ergo, si tantae est efficaciae usus rei spiritualis in merendo rem spiritualem sicut rei corporalis in merendo rem corporalem, videtur quod per gratiae bonum usum mereatur quis donum gratiae iam acceptum.</p>
+               <p xml:id="bb-l2d27a2q1-d1e116">2. Item, quod potest in maius potest in minus ; sed per usum gratiae contingit mereri gloriam habendam : ergo multo fortius contingit mereri gratiam iam habitam.</p>
+               <p xml:id="bb-l2d27a2q1-d1e119">3. Item, unusquisque magis est efficax ad merendum sibi quam alii ; sed viri iusti., in quibus est gratia, orando merentur aliis primam gratiam, sicut dicit <name ref="#Augustine">Augustinus</name>, De Praedestinatione sanctorum : ergo multo fortius homo bene utendo dono graliae efficitur dignus habitu gratiae quem accepit.
+Quod autem unusquisque magis sit efficax ad merendum sibi quam alii, probatur per id quod dicitur super illud Matthaei 9, 2 : <quote xml:id="bb-l2d27a2q1-Qd1e124" ana="#mt9_2">Videns Iesus fidem illorum</quote> ; ibi Glossa : <quote xml:id="bb-l2d27a2q1-Qd1e127">Quantum valet unicuique fides propria, si tantum profuit aliena</quote>, quasi dicat : multo plus.</p>
+               <p xml:id="bb-l2d27a2q1-d1e131">4. Item, quantum placet Deo petitio et oratio pro habendo, tantum placet ei gratiarum actio pro iam habito ; sed aliquis ex caritate orans meretur obtinere quod petit, si petit pie et pro se, perseveranter et ad salutem : ergo pari ratione, qui gratias agit pie et perseveranter, ex caritate, dignus efficitur eo quod iam accepit.</p>
+               <p xml:id="bb-l2d27a2q1-d1e135">5. Item, sicut se habet caritas ad amandum, sic se habet gratia ad merendum ; sed per caritatem non solummodo contingit amare alia, sed etiam ipsam caritatem, sicut vult <name ref="#Augustine">Augustinus</name>, et in primo libro habitum est : ergo pari ratione per gratiam contingit mereri ipsum gratiae donum.</p>
+               <p xml:id="bb-l2d27a2q1-d1e141">6. Item, tunc est perfectio in actibus et habitibus animae, quando agens reflectitur super se ipsum ; tunc enim quis perfecte intelligit, quando intelligit se intelligere : ergo non videtur esse perfectum meritum, nisi quis mereatur etiam illud per quod meretur.</p>
+ 
+               <p xml:id="bb-l2d27a2q1-d1e144">Sed contra: Meritum et praemium relative dicuntur sicut pater dicitur relative ad filium : ergo sicut idem non potest esse pater sui ipsius, sic unum et idem non potest esse meritum sui ipsius : ergo per gratiam non contingit mereri ipsius gratiae donum habitum.</p>
+               <p xml:id="bb-l2d27a2q1-d1e147">Item, meritum et praemium habent ordinem, sicut via et terminus, et sicut dispositio respectu eius ad quod disponit : ergo necesse est quod meritum praecedat praemium vel tempore vel natura : ergo impossibile est per gratiam mereri ipsum gratiae donum.</p>
+               <p xml:id="bb-l2d27a2q1-d1e150">Item, gratuitum et debitum opponuntur ; sed quanto aliquid magis cadit sub merito, tanto magis habet rationem debiti. Si igitur usus gratiae non aufert ipsi gratiae esse donum gratuitum, immo potius addit, videtur quod per ipsum usum gratiae nullo modo contingat mereri gratiae donum.</p>
+               <p xml:id="bb-l2d27a2q1-d1e153">Item, quantum unumquodque placet Deo, tantum est meritorium ; sed usus gratiae non placet Deo nisi propter ipsam gratiam : ergo non plus meretur usus gratiae cum gratia quam gratia per se ipsam. Sed donum gratiae, eo ipso quod habetur, non meretur se : ergo pari ratione nec usu gratiae contingit mereri iam habitum gratiae donum.</p>
+            </div>
+            <div xml:id="bb-l2d27a2q1-Dd1e157">
+               <head xml:id="bb-l2d27a2q1-Hd1e159">Conclusio</head>
+               <head xml:id="bb-l2d27a2q1-Hd1e162" type="question-title">Per usum gratiae consequentem non potest quis 
+      mereri habitum gratiae praecedentem, nec per meritum congrui nec per meritum condigni</head>
+ 
+               <p xml:id="bb-l2d27a2q1-d1e165">Respondeo : Dicendum quod per usum gratiae consequentem non contingit mereri habitum gratiae praecedentem, nec quantum ad meritum congrui nec quantum ad meritum condigni.
+Quantum ad meritum congrui non, pro eo quod usus gratiae ad ipsum habitum non comparatur sicut meritum ad praemium ; tum quia non ordinatur ad ipsum habitum promerendum, sed ad aliud ; tum etiam, quia non habet ordinari ad illud nisi sicut ad suum fundamentum et originem. Meritum autem omne, sive congrui sive condigni, ordinatur ad praemium tamquam quaedam via et dispositio praeambula.
+Multo minus nec quantum ad meritum condigni per usum gratiae contingit mereri ipsum donum gratiae, quod est ipsius usus principium ; tum quia ipsa gratia, quantum est de sua prima ratione et primaria infusione, sic habet rationem gratuiti ut nullo modo compatiatur rationem debiti : si enim esset ex meritis, iam non esset gratia ; tum etiam quia, si usus gratiae ipsam gratiam mereretur, quanto magis ipsa bene uteretur, tanto minus pro ipsa teneretur Deo esse gratus. Quodsi hoc repugnat perfectioni meriti, planum est quod gratiam non contingit mereri, nec merito condigni, quia tunc tolleretur perfectio gratiae et perfectio meriti ; nec merifo congrui, quia non salvatur ibi ordo qui inter meritum et praemium debet attendi.
+Unde rationes, quae hoc ostendunt, concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d27a2q1-Dd1e170">
+               <head xml:id="bb-l2d27a2q1-Hd1e172">Ad rationes</head>
+ 
+               <p xml:id="bb-l2d27a2q1-d1e175">1. Ad illud vero quod primo obicitur in contrarium de similitudine meriti in corporalibus, dicendum quod non est simile, quia equus, quantum est de sui ratione, non dicit rationem gratuiti ; ideo salva sua ratione potest quis eum iam habitum mereri. Primum autem gratiae donum, eo ipso quod tale est, dicit quid simpliciter gratuitum ; ideo, quidquid homo faciat, nunquam illud meretur, non solum quia sit iam habitum, sed quia gratuitum. Unde, etsi aliqui dixerint quod contingat mereri gloriam iam habitam, sicut in angelis, non tamen credo aliquos recte intelligentes sensisse quod contingat mereri gratiam iam habitam.</p>
+               <p xml:id="bb-l2d27a2q1-d1e178">2. Ad illud quod obicitur, quod si aliquid potest in maius, potest in minus, dicendum quod illud non habet veritatem nisi quando aliquid ordinatur ad maius et ad minus ordinatione consimili ; sic autem non est in proposito. Nam usus gratiae ordinatur ad merendum gloriam, non ad merendum gratiam, pro eo quod ipsam praesupponit tamquam fundamentum.</p>
+               <p xml:id="bb-l2d27a2q1-d1e181">3. Ad illud quod obicitur, quod aliquis meretur alii primam gratiam, dicendum quod non est simile. Primum, quia gratia in viro iusto praecessit gratiam infundendam viro peccatori, usus autem gratiae in eodem homine sequi habet ipsum donum gratuitum. Praeterea, cum quis meretur alii gratiam, donum gratiae non perdit ex hoc rationem gratuiti, quoniam ratio gratuiti attenditur in habitu gratiae in comparatione ad eum cui datur. Quantumcumque autem vir iustus oret pro peccatore, quod peccatori detur habitus gratum faciens, non potest esse sine gratuita liberalitate divinae misericordiae. Et ideo non sequitur quod, si unus alii potest mereri gratiam habendam, quod ipse possit sibi mereri gratiam iam habitam.
+Quod autem dicitur quod plus valet unicuique fides propria quam fides aliena, hoc intelligitur respectu meriti propriae gratiae.
+</p>
+               <p xml:id="bb-l2d27a2q1-d1e184">4. Ad illud quod obicitur, quod gratiarum actio ita est efficax pro habito sicut oratio pro habendo, dicendum quod, etsi gratiarum actio ita sit Deo acceptabilis pro praelerito sicut oratio pro futuro, ex hoc tamen non sequitur quod gratiarum actio sit ordinata ad merendum iam habitum, pro eo quod ipsa gratiarum actio et laus pro beneficiis acceptis plus tenet rationem praemii quam rationem meriti. Sed si tenet rationem meriti, ordinatur ex divina liberalitate potius ad donum promerendum quam ad promerendum iam habitum.</p>
+
+               <p xml:id="bb-l2d27a2q1-d1e188">5. Ad illud quod obicitur de comparatione caritatis ad amorem et gratiae ad meritum, dicendum quod non est simile. Meritum enim de sua ratione importat ordinem et relationem, amor vero importat actum potentiae non alligatae materiae : Et quia idem non habet ad se referri et ordinari, sed actus potentiae non alligatae materiae habet supra se reflecti, hinc est quod amorem contingit amari, sed meritum non contingit mereri.</p>
+               <p xml:id="bb-l2d27a2q1-d1e191">6. Et per hoc patet responsio ad illud quod ultimo obiciebatur. Illud enim veritatem in eis actibus non habet qui quidem important relationem et ordinem et simul cum hoc aliquam imperfectionem ; actus autem merendi respectu actus gloriosi imperfectionem aliquam dicit et ordinem et relationem, sicut prius ostensum est ; et ideo illud non valet.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

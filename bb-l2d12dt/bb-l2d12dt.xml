@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 12, Diviso Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 12, Diviso Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d12dt">
+            <head xml:id="bb-l2d12dt-Hd1e99">II, Distinctio 12, Diviso Textus</head>
+ 
+            <p xml:id="bb-l2d12dt-d1e102">Supra egit Magister de conditione naturae spi- 
+ritualis; in hac secunda parte agit de conditione 
+corporalis. Et quoniam creaturae corporalis duo sunt 
+principia, videlicet materiale et formale; ideo pars 
+ista duas habet. In prima agit de productione crea- 
+turae corporalis quantum ad principium materiale; 
+et haec productio dicitur creatio. In secunda agit 
+de productione ipsius quanlum ad principium for- 
+male; et haec productio dicitur distmctio , infra 
+distinctione decima tertia : Prima autem distinctio- 
+nis operalio fuil etc.</p> 
+
+            <p xml:id="bb-l2d12dt-d1e105">Prima pars continet praesentem distinctionem , 
+in qua intendit agere de materiae rerum corpora- 
+lium productione. Et quoniam circa productionem 
+materiae corporalis duae fuerunt solemnes opiniones, 
+ideo pars illa duas habet. In prima unam ex illis 
+eligit. In secunda iuxta illam opinionem de materia 
+illa tractat et inquirit, ibi : De qua re priusquam tra- 
+ctemus etc. — Prirna pars habet quatuor particulas.
+In prima dicta dicendis continuat. In secunda diver- 
+sas opiniones Sanctorimi circa productionem materiae 
+corporalium explieat, ibi: QuMam namque sancto- 
+rum etc. In tertia alteram ex illis opinionibus eli- 
+git et explanat, ibi: Secundum hanc itaque tradi- 
+tionem etc. In quarta et ultima quoddam dubium 
+deterniinat, ibi: Attende, quia hic dicit Augusti- 
+nus etc. 
+</p>
+            <p xml:id="bb-l2d12dt-d1e108">Similiter secunda pars principalis, in qua de 
+ipsa materia secundum opinionem prius ' electam in- 
+quirit , quatuor liabet partes. In prima determinat , 
+qualiter fuerit informis et confusa. In secunda de- 
+terminat , ubi fuerit locata , ibi : Nunc superest 
+quod secundo proponebatur. In tertia vero antici- 
+pando determinat, quibus diebus, vel in quot fue- 
+rit distincta , ibi : Nunc superest , ut dispositio- 
+nem etc. Quarto vero et ultimo auctoritate Alcuini 
+confirmat, ibi: Quatuor enini modis, ut dicil Al- 
+cuinus etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

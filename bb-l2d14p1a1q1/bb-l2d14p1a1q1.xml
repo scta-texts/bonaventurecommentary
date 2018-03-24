@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 14, P. 1, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 14, P. 1, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d14p1a1q1">
+            <head xml:id="bb-l2d14p1a1q1-Hd1e99">II, Distinctio 14, P. 1, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d14p1a1q1-Hd1e102" type="question-title">Utrum caelum crystallinum sit de natura aquae.</head>
+            <p xml:id="bb-l2d14p1a1q1-d1e105">Circa primum sic proceditur et quaeritur, utrum caelum crystallinum sit de natura aquae.
+Et quod sic, videtur.</p>
+
+            <p xml:id="bb-l2d14p1a1q1-d1e108">Per auctoritatem Scripturae. Genesis 1, 6 : <quote xml:id="bb-l2d14p1a1q1-Qd1e110" ana="#gen1_6">Fiat firmamentum in medio aquarum, et dividat aquas ab aquis</quote> ; quae autem sola divisione 
+  <pb ed="#Q02" n="336"/>
+  distinguuntur sunt eiusdem naturae : ergo aquae, quae sunt super firmamentum et quae sub firmamento, sunt eiusdem naturae. Si tu dicas, quod firmamentum ibi vocatur non caelum sidereum sed aer, obviat textus sequens ubi dicitur quod stellae positae sunt in firmamento. Obviat etiam illud quod scribitur Danielis 3, 60-62 : Benedicite aquae, quae super caelos sunt, Domino, et postea subditur : Benedicite sol et luna Domino : ergo aquae illae sunt super solem. Si tu dicas aquas illas esse spirituales, obviat illud quod dicitur in Psalmo [103, 2-3] : Extendens caelum sicut pellem, qui tegis aquis superiora eius ; sed caelum extensum est corporale : ergo aquae quae tegunt sunt corporales.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e119">2. Item, hoc videtur auctoritate Doctorum. <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, loquens de aquis : Qualitercumque sint, ibi eas esse non dubitamus ; maior est enim huius Scripturae auctoritas quam omnis humani ingenii perspicacitas. Si tu dicas, quod sunt ibi aquae sed tamen non materiales, sed spirituales, contra hoc dicit Basilius : Aquam illam intelligimus aquam esse veram : ergo videtur, quod vere aquae illae habent speciem et naturam aquae. Quod si tu dicas, quod formam habent aquae sed tamen non proprietates, contra hoc est verbum Bedae, quod adducit Magister in littera : Qui infra caelum ligat aquas ad tempus vaporibus nubium retentas, potest etiam supra caeli sphaeram non vaporali tenuitate, sed glaciali soliditate aquas suspendere, ne labantur.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e129">3. Item, ratione videtur. Ordo partium in microcosmo sive in minori mundo respondet ordini partium in maiori mundo ; sed sic videmus in natura corporis humani, quod supra cor, quod est calidum et naturae igneae, ponitur cerebrum, quod est frigidum et naturae aqueae : ergo et in maiori mundo supra solem et alia corpora calefacentia erit ponere naturam aqueam.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e132">4. Item, aqua de sui natura est perspicua et per hoc apta ad susceptionem luminis : ergo conformis est naturae caelesti, ergo apta est, ut de ea possit aliquod caelum fieri : ergo si aliquod caelum habet fieri ex aqua, cum nullum sit infra firmamentum caelum aqueum, videtur quod sit supra firmamentum.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e135">5. Item, quod illud sit possibile, videtur per rationem, quam facit <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram : Aqua per sui subtiliationem potest elevari, ut sit supra aerem : ergo maiori subtiliatione poterit amplius elevari : ergo si omne corpus divisibile est in infinitum, si adsit potentia dividentis, poterit aqua tantum dividi et subtiliari, quod supra firmamentum naturaliter poterit consistere ; et si hoc, ergo aliquod caelum aqueum esse.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e141">6. Item, illud est unicuique naturale, quod Creator ei indidit a prima constitutione : ergo si in prima divisione aquarum quaedam positae sunt supra firmamentum, quaedam sub firmamento, ita naturale est illis esse supra firmamentum, sicut istis esse infra firmamentum : ergo sicut nobis entibus supra firmamentum stultum esset dubitare, utrum aquae possent esse infra firmamentum, sic nobis entibus infra firmamentum stultum est credere esse inconveniens supra firmamentum esse caelum aqueum.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e144">Ad oppositum arguitur sic.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e147">1. Primo auctoritate <name ref="#Augustine">Augustini</name>, XIII Confessionum : <quote xml:id="bb-l2d14p1a1q1-Qd1e152">Sunt aliae aquae, quae supra firmamentum sunt, immortales et ab omni corruptione secretae</quote> : ergo videtur quod caelum aqueum non sit de natura istius aquae.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e157">2. Item, corpus, habens speciem aquae, per naturam est ponderosum : ergo si aliquod caelum est aqueae naturae, illud est ponderosum ; sed ponderosum non debet collocari nisi deorsum per naturam : ergo videtur quod inordinatum sit ponere, quod aliquod sit caelum aqueum, quod sit sursum.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e160">3. Item, corpora mundi ordinantur secundum maiorem nobilitatem et minorem ; et corpus, quod nobilius est, superius locatur : ergo si aqua minus nobilis est quam firmamentum, ergo nunquam locanda est supra firmamentum.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e163">4. Item, corpora mundi ordinantur sub et supra secundum maiorem subtilitatem et minorem, et secundum maiorem raritatem et minorem ; sed aer universaliter subtilior est quam aqua et rarior, et similiter ignis : ergo nunquam aqua adeo poterit rarefieri, ut sit subtilior aere et igne : ergo nunquam videtur quod possit convenienter supra ignem et aerem collocari.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e166">5. Item, habentium eamdem naturam idem est locus ; quia enim eadem est natura glebae et totius terrae, idem est locus glebae et totius terrae ; ergo idem est locus huius aquae et totius aquae : ergo si aliqua aqua naturaliter est iuxta terram, ergo et omnis aqua : ergo videtur quod nullum sit caelum aqueum. Si tu dicas, quod non est quaerenda hic ratio naturae, quia hoc fit virtute divinae potentiae, hanc responsionem refutat <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, inquiens : Nec quisquam dicat haec omnipotentia Dei fieri ; qualiter enim Deus naturas fecerit, quaeritur, non quid de his per miraculum suae potentiae operetur.</p>
+            <p xml:id="bb-l2d14p1a1q1-d1e172">6. Item, quaero ad quid positae sunt ibi aquae ? Si ad refrigerandum calorem igneum - quod quidem videtur propter hoc, quod Saturnus, qui supremus est inter planetas et velocissime movetur, et ita ex motu deberet esse calidior, tamen frigidissimus est, et hoc non nisi propter aquas illas, ut videtur - obicitur contra hoc, quia, si aquae illae possunt infrigidare calorem solis et aliorum corporum, ergo eadem ratione possunt ab eis calefieri, ergo et consumi, et ita aliquando totaliter corrumperentur, quod est inconveniens.</p>
+
+            <p xml:id="bb-l2d14p1a1q1-d1e175">Quaeritur igitur, culus naturae sunt illae aquae, et pro quanto caelum illud dicatur esse aqueum ? Si enim propter naturam perspicuitatis, tunc omne caelum debet dici aqueum.</p>
+ 
+            <div xml:id="bb-l2d14p1a1q1-Dd1e179">
+               <head xml:id="bb-l2d14p1a1q1-Hd1e181">Conclusio</head>
+               <head xml:id="bb-l2d14p1a1q1-Hd1e184" type="question-title">Supra firmamentum probabiliter sunt verae aquae, quae tamen multum differunt ab aquis elementaribus</head>
+               <p xml:id="bb-l2d14p1a1q1-d1e187">Respondeo : Ad praedictorum intelligentiam est notandum quod in hac quaestione propter diversitatem positionum et debilitatem rationum vix potest aliquid certum dici ; sed ex quadam proprietate et coniectura ex diversis positionibus potest elici una quaedam sobria, quae inter fidem et rationem incedat quasi quadam media via.
+     </p>
+               <p xml:id="bb-l2d14p1a1q1-d1e190">Propter quod notandum est, quod aliqui, sequentes viam rationis et mundanae philosophiae, dixerunt quod supra firmamentum, quod est caelum sidereum, nullae sunt aquae corporales, et Scriptura sacra intelligi debet de aquis spiritualibus. Quodsi alicubi in Scriptura legatur de istis aquis materialibus, quod sint supra firmamentum elevatae, tunc nomine firmamenti intelligitur aer. Et utrumque horum dictorum eliciunt ex verbis <name ref="#Augustine">Augustini</name>. Primum ex hoc quod dicit, XIII Confessionum, quod illae aquae sint Immortales. Secundum vero ex hoc quod dicit, Super Genesim ad litteram quod hoc potest intelligi de aquis quae suspenduntur in nubibus.</p>
+               <p xml:id="bb-l2d14p1a1q1-d1e196">Sed istam positionem improbat Basilius, in Hexaemeron ; reprobat etiam ipse textus, qui dicit stellas positas esse in firmamento, per quod firmamentum dixerat supra aquas ab aquis esse divisas : si ergo firmamentum illud est caelum sidereum, et aquae illae sunt materiales, positio praedicta nullo modo videtur stare posse.</p>
+ 
+               <p xml:id="bb-l2d14p1a1q1-d1e200">Et ideo alii, innitentes textui sacrae Scripturae, secundum quod videtur sonare, dixerunt quod aliquod caelum sursum est, quod est aqueae naturae, quod divina dispositio sursum posuit ad refrigerandum ardorem aetheris. Et ad omnes rationes ad oppositum respondent per hoc, quod Deus in ordinatione mundi plus considerat finis utilitatem quam formae qualitatem ; et ideo, sicut in minori mundo posuit cerebrum sursum ad calorem cordis mitigandum, sic supra caelum sidereum posuit caelum aqueum ; et ibidem aquae illae quiescunt et sustentatur vel sua soliditate, sicut videtur Beda dicere, vel sua subtilitate, vel etiam Dei virtute quae sic ordinavit.</p>
+
+               <p xml:id="bb-l2d14p1a1q1-d1e203">Sed quia credendum est, Opificem summum corpora mundi optimo ordine ordinasse, non solum videtur quod in ordinando consideraverit finis utilitatem, sed etiam perfectionis dignitatem ; ideo non videtur verum elementum aquae super firmamentum collocasse, cum per naturam sit minus nobile.</p>
+ 
+               <p xml:id="bb-l2d14p1a1q1-d1e206">Et ideo est tertius modus dicendi, quod supra firmamentum, sicut dicit Scriptura, sunt aquae, quae tamen non habent naturam et speciem aquae elementi, censentur tamen aquae nomine propter convenientiam in aliqua proprietate.
+Unde notandum est, quod aqua ista tres habet proprietates : habet enim perspicuitatem, habet frigiditatem, habet nihilominus gravitatem. Quantum ad naturam perspicuitatis hae aquae et illae conveniunt, eo quod habent naturam receptivam luminis et quodam modo retentivam, sicut experimento patet in ailquibus lapidibus, qui de nocte non videntur per se, nisi ponantur in aqua. Quantum autem ad naturam gravitatis simpliciter differunt ; illae enim aquae nullo modo sunt graves nec appetunt esse deorsum. Quantum vero ad naturam frigiditatis partim conveniunt, partim differunt. Conveniunt enim in hoc quod utraeque sunt frigidae effective ; differunt autem in hoc quod istae sunt frigidae formaliter, illae vero minime.</p>
+ 
+               <p xml:id="bb-l2d14p1a1q1-d1e209">Et secundum hoc patet, quod nomen aquae tripliciter accipitur in primaria rerum distinctione : aliquando pro informi materia, ut ibi : Spiritus Domini ferebatur super aquas ; aliquando pro natura transparenti et luminis retentiva, ut ibi : Fiat firmamentum in medio aquarum ; aliquando pro ipso elemento aqueo, ut ibi : Congregentur aquae in locum unum.
+Et sic patet quod supra firmamentum verae sunt aquae, sicut dicit Scriptura et auctoritates Sanctorum, quia illud intendunt persuadere. Patet etiam quod non sunt ibi aquae elementares sive eius naturae cuius sunt istae aquae, nec quantum ad corruptibilitatem nec quantum ad gravitatem nec quantum ad ignobilitatem nec quantum ad grossitiem nec quantum ad transfundendi possibilitatem, sicut ostendunt rationes ad oppositum adductae.</p>
+
+               <p xml:id="bb-l2d14p1a1q1-d1e212">Hanc autem viam tertiam satis sustinere possumus probabiliter, cum nihil videatur sibi obviare. Hoc autem praecipue attendendum est, ne in incerta materia aliquid certitudinaliter asseratur ; melius est enim pie dubitare quam aliquid temerarie definire.</p>
+ 
+               <p xml:id="bb-l2d14p1a1q1-d1e215">Ad illud vero quod ultimo quaeritur, scilicet quare nomine aquarum censeatur caelum illud, cum tamen non sit de natura aquae, iam patet responsio. Hoc enim dictum est propter convenientiam non solum in perspicuitate, sed etiam in frigiditate, sed in perspicuitate formaliter, in frigiditate effective. Et si tu obicias, quod firmamentum convenit similiter in perspicuitate, arguis ab insufficienti. Praeterea, non convenit eo modo firmamentum cum aqua in perspicuitate, secundum quem modum caelum aqueum creditur convenire. Aquae enim habent perspicuitatem, quae non tantummodo est luminis susceptiva, sicut perspicuum aeris, sed etiam quodammodo retentiva, sicut per experientiam ostenditur. Cum metallum aliquod ponitur in fundo vasis in tenebris superfusa aqua liquida, videbitur sub luce retenta ab aqua. Sic etiam dicuntur probari rubini, qui per se non lucent de nocte.
+Convenit etiam cum aqua in frigiditate, sed effective, sicut dicit Basilius ; nec tamen ex hoc sequitur quod possit calefieri vel consumi, sicut nec sol, quamvis calefaciat, habet formaliter infrigidari, sed solummodo per frigiditatem ei oppositam potest effectus eius reprimi. 
+Et sic patent omnia quaesita circa illius caeli aquei naturam.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

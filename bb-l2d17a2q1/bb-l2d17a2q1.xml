@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 17, A. 2, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 17, A. 2, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d17a2q1">
+            <head xml:id="bb-l2d17a2q1-Hd1e99">II, Distinctio 17, A. 2, Q. 1</head>
+            <head xml:id="bb-l2d17a2q1-Hd1e102" type="question-title">Utrum corpus Adae debuerit produci de natura pure caelesti.</head>
+ 
+            <p xml:id="bb-l2d17a2q1-d1e105">Circa primum sic proceditur et ostenditur quod corpus Adae produci debuerit pure de natura caelesti, sic :</p>
+            <div xml:id="bb-l2d17a2q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d17a2q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d17a2q1-d1e113">Nobilissimae formae debet dari nobilissima materia ; sed nobilissima inter formas est anima rationalis innocens et absque peccato, qualis fuit anima Adae ; sed nobilissima inter naturas corporales est natura caelestis : ergo etc.</p>
+               <p xml:id="bb-l2d17a2q1-d1e116">Item, motoris ad mobile debet esse proportio ; sed anima rationalis est motor incorruptibilis : ergo debuit ei dari corpus impassibile.</p>
+               <p xml:id="bb-l2d17a2q1-d1e119">Item, finis imponit necessitatem his quae sunt ad finem ; sed totus Adam factus est ad perceptionem beatitudinis, locus autem beatitudinis spiritualis est ipse Deus, corporalis est caelum : ergo sicut spiritus Adae non quiescit nisi in Deo, sic debuit et dari corpus quod noti quiescit nisi in caelo ; hoc autem est corpus de natura caelesti : ergo etc.</p>
+               <p xml:id="bb-l2d17a2q1-d1e122">Item, spiritus rationalis, prout absque culpa conditus fuit, maxime erat potens et idoneus ad agendum, perfectus erat cognitionis lumine et idoneus ad cognoscendum, liber erat voluntate et rectitudine, et ideo facilis ad tendendum in sui optimum : ergo debuit ei dari corpus, cui maxime competit agere et ad cognitionem disponere et quod minime habet retardationem ; hoc autem est lux et natura caeleslis : ergo corpus Adae pure produci debuit de.caelesti corpore.</p>
+
+               <p xml:id="bb-l2d17a2q1-d1e126">Sed contra: <quote xml:id="bb-l2d17a2q1-Qd1e128">Anima rationalis quodam modo est omnia</quote>. Si igitur corpus debet proportionari animae, corpus eius debet habere cum omnibus convenientiam ; sed hoc non haberet, si esset pure de natura caelesti et non communicaret elementis : ergo etc.</p>
+               <p xml:id="bb-l2d17a2q1-d1e132">Item, anima rationalis, quamvis sit simplex in essentia, tamen est multiplex in effectu : ergo, si corpus ei debet correspondere, necesse est quod corpus eius habeat varietatem in partium compositione et organizatione ; sed hoc non haberet, si esset corpus pure caeleste : ergo etc.</p>
+               <p xml:id="bb-l2d17a2q1-d1e135">Item, vegetabilis et sensibilis disponunt ad rationalem et magis ad ipsam appropinquant quam natura alicuius corporis, nec alicui corpori unitur rationalis potentia absque vegetabili et sensibili : nullum ergo corpus est habile ad actum vitae rationalis nisi prius fuerit habile ad actum vitae vegetabilis ; tale autem est corpus cibabile, et huiusmodi non potest esse corpus pure caeleste : ergo etc.</p>
+               <p xml:id="bb-l2d17a2q1-d1e138">Item, corpori simplici debetur unus motus tantum, sive illud corpus sit caeleste sive elementare ; corpori autem, quod movetur ab anima, debetur motus in omnem differentiam, cum anima sit motor sufficiens : ergo corpus Adae non potuit esse omnino de natura corporis simplicis : ergo nec pure de natura caelesti.</p>
+
+            </div>
+            <div xml:id="bb-l2d17a2q1-Dd1e142">
+               <head xml:id="bb-l2d17a2q1-Hd1e144">Conclusio</head>
+               <head xml:id="bb-l2d17a2q1-Hd1e147" type="question-title">Corpus Adae non fuit formatum nec debuit formair de natura pure caelesti</head>
+               <p xml:id="bb-l2d17a2q1-d1e150">Respondeo : Dicendum quod corpus Adae non fuit pure formatum de natura caelesti, sicut innuit textus Genesis, qui dicit eum formatum de limo terrae. Nec debuit pure de natura caelesti formari, immo de natura elementari, hoc exigente ordinis congruentia, quam in omnibus suis operibus semper servat Sapientia divina. Requirebat enim hoc ordo hominis, sive in se sive ad creaturam inferiorem sive ad creaturam parem sive ad Deum finem.</p>
+               <p xml:id="bb-l2d17a2q1-d1e153">Ordo ipsius hominis in se ipso hoc requirebat. Quia enim homo conditus fuit ut natus multa cognoscere, non solum cognitione intellectiva sed etiam sensitiva, ideo debuit ei dari corpus multiforme, ut diversa organa diversitati sensuum deservirent ad diversa obiecta cognoscenda. Quia etiam conditus fuit in vertibilitate liberi arbitrii ut potens vivere in iustitia et mori per culpam, dari debuit etiam corpus quod non tantum esset habile ad vivendum, sed etiam quod posset fieri habile ad corrumpendum sive moriendum. Et ita ordo hominis ipsius in se requirebat ut corpus daretur homini multiforme et ad corruptionem possibile, et ideo hon caeleste sed elementare.</p>
+               <p xml:id="bb-l2d17a2q1-d1e156">Ordo etiam hominis ad creaturam inferiorem requirebat. Quia enim corporales naturae inferiores factae sunt ut deservirent creaturae rationali, sicut supra ostensum fuit ; factae sunt etiam ut mediante illa quodam modo perducantur in finem : hinc est quod debuit fieri rationalis creatura taliter composita quod obsequium inferiorum creaturarum esset ei utile et quod, mediante illa creatura, naturae inferiores quodam modo perducerentur ad beatitudinem. Et ideo ut naturae inferiores possent homini deservire et in homine quodam modo glorificari, debuit homo non tam ex natura superiorum corporum quam ex natura elementorum constitui.</p>
+               <p xml:id="bb-l2d17a2q1-d1e160">Ordo etiam ad creaturam parem, id est ad angelum, hoc requirebat. Sicut enim facta est una rationalis creatura prope Deum et in loco supremo, ut in empyreo, sic debuit fieri alia rationalis creatura in loco infimo, scilicet terra. Et ideo corpus eius constitui debuit ex natura tali habitationi convenienti, et ideo magis ex natura elementari quam caelesti.</p>
+               <p xml:id="bb-l2d17a2q1-d1e163">Ordo etiam ad finem hoc requirebat. Debebat enim homo subici, ut per humilitatem subiectionis ascenderet unde angelus ceciderat per sublimitatem elationis ; et ideo debuit sibi dari corpuis constitutum de natura inferiori, ut, se ipsum pulverem reputans, Deo per omnia subiaceret. Unde et Scriptura maluit eum dicere de limo terrae productum, ut ex hoc homo proficeret et ascenderet per humilitatis meritum.
+Et ideo concedendae sunt rationes quae ad hoc sunt inductae.</p>
+            </div>
+            <div xml:id="bb-l2d17a2q1-Dd1e168">
+               <head xml:id="bb-l2d17a2q1-Hd1e170">Ad rationes</head>
+
+               <p xml:id="bb-l2d17a2q1-d1e173">Ad illud vero quod obicitur in contrarium de nobilitate formae, dicendum quod nobilitas materiae venit ex ordinatione ad formam. Quoniam igitur corpus magis erat ordinabile ad animam quod erat constitutum ex varietate naturae, quam corpus quod esset pure caeleste, hinc est quod si illud sit nobilius in se, tamen in relatione ad formam corpus ex diversis elementis compositum magis est nobile.</p>
+               <p xml:id="bb-l2d17a2q1-d1e176">Ad illud quod obicitur, quod motoris ad mobile debet esse proportio, dicendum quod quamvis anima sit immortalis morte naturae, quando tamen creata fuit mori potuit morte culpae. Et quia corpus datum est ei non solum ad vivificandum sed etiam ad merendum, ideo non solum debuit dari corpus aptum eius immortalitati sed etiam aptum eius vertibilitati, et ideo non solum necessarium ad perpetuitatem sed etiam possibile ad mortalitatem.</p>
+               <p xml:id="bb-l2d17a2q1-d1e179">Ad illud quod obicitur, quod homo factus est propter beatitudinis perceptionem, dicendum quod, etsi factus est propter beatitudinem, ita tamen ut illuc perveniret per merita et bona opera, et ita prius esset viator quam comprehensor, et quia prius oportuit eum transire per viam quam perveniret ad patriam, ideo in primaria sui conditione debuit ei dari corpus conveniens secundum statum viae. Et quia locus sibi deputatus ad merendum erat locus inferior, scilicet paradisus terrestris, inde est quod competebat corpus suum de natura terrestri assumi, non principaliter de caelesti. Cum autem assumetur in gloria, tunc corporis eius dispositio erit variata, sicut patet in quarto, ubi agitur de dotibus corporum glorificatorum.</p>
+               <p xml:id="bb-l2d17a2q1-d1e182">Ad illud quod obicitur, quod anima illa erat potens ad agendum et cognoscendum et tendendum in Deum, dicendum quod, etsi erat potens ad actionem, non tamen ita perfecte potens erat quin esset possibilis ad defectionem. Et ideo non sequitur quod deberet sibi ad haec complenda dari corpus caeleste, quod est incorruptibile, sed magis elementare, quod ex bona dispositione et complexione aequali esset idoneum ad agendum, et nihilominus, si homo peccaret, esset possibile ad patiendum.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 15, A. 1, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 15, A. 1, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d15a1q3">
+            <head xml:id="bb-l2d15a1q3-Hd1e99">II, Distinctio 15, A. 1, Q. 3</head>
+            <head xml:id="bb-l2d15a1q3-Hd1e102" type="question-title">Utrum corpora animalium magis constent ex elementis passivis quam activis.</head>
+
+            <p xml:id="bb-l2d15a1q3-d1e105">Tertio quaeritur, utrum corpora animalium magis constent ex elementis passivis quam activis, vel e converso. Et quod magis ex elementis passivis, videtur.</p>
+
+            <p xml:id="bb-l2d15a1q3-d1e108">1. Per Scripturam, quae dicit ea facta ex terra et aqua ; hoc autem non est dictum, quod quodlibet illorum elementorum sit animalium sensibilium tota materia : ergo dictum est per praedominantiam.</p>
+            <p xml:id="bb-l2d15a1q3-d1e111">2. Item, sicut vult <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d15a1q3-Qd1e116">ex eisdem constant animalia, ex quibus nutriuntur</quote> ; sed animalia maxime nutriuntur ex aqua et terra per cibum et potum : ergo etc.</p>
+            <p xml:id="bb-l2d15a1q3-d1e121">3. Item, ex eis maxime constituuntur corpora in quibus magis requiescunt, quia quies attenditur penes appetitum, et appetitus Intentio penes quantitatem praedominantis : st ergo omnia animalia maxime requiescunt in aqua vel in terra, videtur quod ex eis sint maxime constituta.</p>
+            <p xml:id="bb-l2d15a1q3-d1e124">4. Item, in compositione corporis animalis membra officialia fiunt ex consimilibus, et consimilia ex humoribus ; sed in humoribus maxime dominatur natura aquea, et in membris solidis maxime dominatur terrea : ergo si elementa non veniunt ad constitutionem corporis animalis nisi per humores et membra, videtur quod omnia animalia ex his duobus elementis maxime sint constituta.</p>
+            <p xml:id="bb-l2d15a1q3-d1e127">Ad oppositum arguitur sic.</p>
+            <p xml:id="bb-l2d15a1q3-d1e130">1. Sicut vult <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d15a1q3-Qd1e135">vita maxime est per calidum et humidum</quote> : ergo si omnia animalia vivunt, in eis abundat et praedominatur calidum et humidum, ergo et illud elementum, cui haec principaliter insunt ; hoc autem elementum est activum, scilicet aer : ergo etc.</p>
+            <p xml:id="bb-l2d15a1q3-d1e139">2. Item, sicut vult <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, libro III, et De anima et spiritus, lux est illud quo mediante corpus unitur animae, et anima regit corpus : ergo si lux praecipue reperitur in igne, videtur quod in corpore cuiuslibet animalis natura ignis debeat praedominari.</p>
+            <p xml:id="bb-l2d15a1q3-d1e145">3. Item, anima sensitiva, sicut est principium sensus, ita est principium motus : ergo animalium corpora non tantum ad sensum sed etiam ad motum debent esse habilia ; sed elementa gravia sunt minime ad motum habilia, et haec sunt elementa passiva : ergo videtur quod animalium corpora magis constent ex activis quam passivis.</p>
+            <p xml:id="bb-l2d15a1q3-d1e149">4. Item, nobili perfectioni debet respondere nobile perfectibile ; sed anima sensibilis est perfectio valde nobilis : ergo corpus illius ex his elementis maxime debet constitui quae sunt nobiliora inter corpora simplicia ; haec autem sunt elementa activa non passiva : ergo etc. Situ dicas ad hoc quod animalium corpora plus constituuntur ex elementis activis quam passivis secundum quantitatem virtutis, non molis, obicitur contra hoc, quia motus sequilur naturam praedominantis secundum quantitatem ; sed aves moventur sursum : ergo videtur quod in eis secundum quantitatem praedominentur elementa, quae sunt nata ferri sursum. Haec autem sunt activa et non passiva, ut ignis et aer : ergo etc.</p>
+            <p xml:id="bb-l2d15a1q3-d1e152">5. Item, volatilia sunt ad ornatum aris ; sed ornatus proprie et debite collocatur in eo quod ornatur, nullum autem corpus proprie et debite ordinatur in aere nisi in quo dominantur elemenla activa : ergo si avium corpora ibi ordinantur ut ipsum ornantia, videtur quod in eis praedominentur elementa activa. Quodsi non proprie ibi locantur, quia ibi non requiescunt sed magis in terra, videtur quod potius debeant dici volatilia ad ornatum terrae quam aeris, cui Scriptura contradicit.</p>
+            <div xml:id="bb-l2d15a1q3-Dd1e155">
+               <head xml:id="bb-l2d15a1q3-Hd1e157">Conclusio</head>
+               <head xml:id="bb-l2d15a1q3-Hd1e160" type="question-title">In animalium corporibus elementa passiva praedominantur quoad quantitatem molis, activa autem quoad quantitatem virtutis</head>
+               <p xml:id="bb-l2d15a1q3-d1e163">Respondeo : Dicendum quod secundum quod duplex est quantitas, videlicet molis et virtutis, secundum hoc dupliciter potest attendi elementorum praedominantia, videlicet quantum ad molem et quantum ad virtutem. Si enim loquamur de praedominantia quantum ad molem, sic in corporibus animalium praedominantur elementa passiva, et ideo ex eis maxime dicuntur esse facta. Si autem loquamur quantum ad quantitatem virtutis, cum corpus complexionatum sit natum regi ab anima mediantibus elementis activis, sic praedominantur in eis elementa activa.</p>
+               <p xml:id="bb-l2d15a1q3-d1e166">Ratio autem huius, quare elementa activa et passiva secundum hanc duplicem quantitatem virtutis et molis vicissim praedominantur, sumitur ex parte finis. Finis enim imponit necessitatem his quae sunt ad finem ; finis autem corporis complexlonati anima est, in quantum dat ei vitam et sensum et motum.
+Ad vitam autem corpus illud non esset habile, si praedominarentur ibi elementa passiva quantum ad quantitatem et virtutem, propter sui giossitiem et soliditatem, sicut sunt corpora mineralia. Similiter nec esset habile, si praedominarentur ei elementa activa quantum ad virtutem et quantitatem, quia statim consumerentur elementa passiva, nec esset quod posset vegetari ab anim1. Et ita oportuit quod ex quadam mutua praedominantia consurgeret quaedam mutua concordia et proportio, ex qua corpus illud esset aptum ad vitam suscipiendam et animam, quae est quasi quaedam harmonia.</p>
+               <p xml:id="bb-l2d15a1q3-d1e169">Ad sensum similiter idoneum non esset nisi praedominaretur natura passivi elementi quantum ad molem, quia tactus est primus inter omnes sensus animalis, in quo sensu praedominatur terra ; et ita, si non praedominaretur terra in corpore, non esset idoneum ad tactum : ergo nec ad aliquem sensum. Similiter oportet ad hoc quod sit idoneum ad sensum, quod praedominetur in eo ignis quantum ad virtutem sive calorem. Calor enim et spiritus sunt instrumenta virtutis sensitivae, et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, libro : Tactus, qui est quintus in sensibus, terreno elemento magis congruit ; proinde per totum corpus animantis, quod maxime ex terra est, tacta sentiuntur. Et post : Anima, cui sentiendi vis est, cum corporea non sit, per subtilius corpus agitat vigorem sentiendi ; inchoat namque motum in omnibus sensibus per subtilitatem ignis. Et ita ex hoc patet quod ad hoc quod corpus sit idoneum ad sensum, necesse est elementorum activorum et passivorum esse mutuum praedominium.</p>
+               <p xml:id="bb-l2d15a1q3-d1e176">Similiter ad hoc quod sit idoneum ad motum, necesse est quod elementa activa virtualiter praedominentur, mediantibus quibus animae vis motiya ad membra pertingat ; necesse est etiam quod dominentur passiva secundum quantitatem molis, ex quibus constituantur membra solida ad movendum idonea. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, III Super Genesim ad litteram : Ignis omnia penetrat, ut motum in eis faciat. Et post : Ideo autem caloris privatione, cum corpus nimie frigescit, obtunditur sensus, quia motus pigrescit, qui ex calore inest corpori. Sic igitur propter motum necesse est esse mutuam activorum et passivorum elementorum in corpore animalis praedominantiam, ut membra sint mobilia, ita quod vigorem et agilitatem habeant ex aere et igne, soliditatem vero habeant ex praedomlnio aquae et terrae secundum quantitatem.</p>
+               <p xml:id="bb-l2d15a1q3-d1e182">Aqua igitur et terra in omnibus animalibus secundum quantitatem molis praedominantur. Sicut enim aliquis artifex, miscendo terram cum aqua, facit lutum et ex illo componit statuam, sic, dum liquor aqueus terrae miscetur, fit humor ; etdum ille coagulatur per naturam, fit corpus organicum.
+Dupliciter autem potest intelligi haec commixtio : aut ita quod aquae praeexistenti fluxibili immisceatur terra ; aut econtra ut terra primum sit quasi arida et ad suarum partium continuationem commisceatur aqua. Et his duobus modis producta sunt animalium corpora, et ideo quaedam dicuntur esse ex aquis, quaedam ex terra facta. Hoc autem non est dictum, quia illa quae facta sunt ex aquis, plus habeant de aqua quantum ad substantiam, quam de terra - cum omne corpus animantis ad sui constitutionem plus recipiat de terra quantum ad substantiam, tum propter hoc, quod ipsa est, quae praebet aliis soliditatem et stabilitatem, tum etiam quia ipsa habet parum de specie et multum de materia - sed quod dictum est aliqua ex aqua esse facta, hoc est, quia magis in eis quam in aliis dominatur natura aquae. Hoc autem dico non quantum ad praedominium qualitatis activae vel passivae, sed quantum ad aliquam conformitatem naturae, per quam illa quae ex aquis producta sunt, in aquis magis delectantur esse.
+</p>
+               <p xml:id="bb-l2d15a1q3-d1e185">Et quoniam humor aqueus est in duplici differentia, videlicet in ratione humoris fluitantis et in ratione vaporis exhalantis, ifleo aqua est principium duplicis generis animalium, scilicet natatilium et volatilium : natatilium secundum rationem humoris, et ideo illa remanserunt in aquis ; volatilium ratione vaporis, et ideo, cum ille vapor sit commixtus aSri et feratur sursum, volatilia in aera sublevantur et eousque possunt ascendere quousque inveniant aerem humidis exhalationibus pinguescentem. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, III Super Genesim ad litteram : Iste inferior aer, qui excipit exhalationes humidas maris et terrae et ad sustinendas aves quodam modo crassatur, non nisi ex aquis accipit animalia. Quod enim eius humidum est, hoc portat alitum corpora, quae ita utuntur pennis volantes, quemadmodum pisces quibusdam suis alis natantes ; proinde scienter Spiritus Dei ex aquis dicit esse producta volatilia. Aquarum enim natura bipartitum locum sortita est, inferiorem scilicet in unda labili, superiorem vero in aura stabili, illum deputatem natantibus, istum volantibus ; sicut huic elemento congruos etiam duos sensus animalibus datos videmus, olfactum explorandis vaporibus ; gustum explorandis liquoribus.</p>
+               <p xml:id="bb-l2d15a1q3-d1e191">Ex praedictis igitur patet responsio ad quaestionem propositam ; patet etiam responsio ad obiecta, quia in corporibus animalium praedominantur elementa passiva quantum ad quantitatem molis, sicut ostendunt rationes ad primam partem inductae ; praedominantur nihilominus et activa quantum ad quantitatem virtutis, sicut ostendunt quatuor rationes in contrarium adductae.</p>
+ 
+               <p xml:id="bb-l2d15a1q3-d1e194">4. Ad illud vero quod obicitur quarto quod in volatilibus praedominetur aer secundum quantitatem, quia aer movetur sursum, dicendum quod cum dicitur quod motus sequitur naturam praedominantis, hoc verum est de motu naturali qui debetur corpori ratione sui ponderis, non est verum de motu animali qui est a virtute ipsius animae. Corpora autem avium, naturae suae relicta, nunquam ascendunt in aera, sed descendunt ad terram ; quod autem ascendant, hoc est per vim animae, suffragantibus sibi pennis et spiritibus interioribus et vaporibus in aera elevatis.</p>
+
+               <p xml:id="bb-l2d15a1q3-d1e197">5. Ad illud quod obicitur, quod aves ornant aera, dicendum quod non dicuntur ornare aera, quia ibi magis quiescant quam in terra - hoc enim est falsum ; in terra enim quiescunt et ab ea recipiunt alimentum - sed ratio huius est, quia avium actus est motus maxime in volatu ; et quia illum exercent in aere. Ideo dicuntur aera decorare et ornare : potissimum enim actum suum ibi exercent.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

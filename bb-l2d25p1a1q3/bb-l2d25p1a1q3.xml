@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p1a1q3">
+            <head xml:id="bb-l2d25p1a1q3-Hd1e99">Quaestio 3</head>
+            <head xml:id="bb-l2d25p1a1q3-Hd1e102" type="question-title">Utrum liberum arbitrium complectatur rationem et voluntatem.</head>
+ 
+            <p xml:id="bb-l2d25p1a1q3-d1e105">Tertio quaeritur, utrum liberum arbitrium complectatur simul rationem et voluntatem.</p>
+            <div xml:id="bb-l2d25p1a1q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p1a1q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p1a1q3-d1e113">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name>, De quinque responsionibus : <quote xml:id="bb-l2d25p1a1q3-Qd1e118">Cum de libero arbitrio loquimur, non de parte animae loquimur, sed de tota</quote>. Ergo non tantummodo comprehendit cognitivam, immo etiam affectivam.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e122">Item, <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-l2d25p1a1q3-Qd1e127" source="http://scta.info/resource/jddfo-l2c22">Anima libero arbitrio appetit, libere iudicat, libere impetum facit, libere disponit, libere vult, libere eligit</quote>. Sed hic concernuntur actus rationis et voluntatis : ergo etc. Si tu dicas hoc esse dictum per obiectum, hoc nihil est, quia ipse idem dicit quod in eo coniugatae sunt virtutes cognitivae et vitales. Complectitur ergo liberum arbitrium et vim motivam et vim cognitivam.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e131">Item, hoc ipsum videtur per definitionem liberi arbitrii quam ponit <name ref="#Bernard">Bernardus</name>, in libro De libero arbitrio, quod definiens dicit quod liberum arbitrium est consensus ob voluntatis inamissibilem libertatem et rationis indeclinabile iudicium. Ergo simul complectitur rationem et voluntatem.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e137">Item, per aliam definitionem <name ref="#Augustine">Augustini</name>, quam Magister posuit distinctione praecedenti, quae talis est : Liberum arbitrium est facultas voluntatis et rationis. Sed facultas voluntatis surgit ex ipsa voluntate, facultas rationis ex ipsa ratione : ergo facultas voluntatis et rationis comprehendit utramque potentiam ; sed liberum arbitrium est talis facultas : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e144">Item, hoc ipsum videtur ratione, quia peccatum et culpa est in solo libero arbitrio ; sed aliquod peccatum est in ratione, ut peccatum infidelitatis, aliquod in voluntate : ergo liberum arbitrium comprehendit in se rationem et voluntatem.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e147">Item, gratia et virtus est in solo libero arbitrio ; sed tres virtutes theologicae dicuntur esse in rationali, concupiscibili et irascibili : ergo liberum arbitrium omnes illas potentias habet circumplecti.</p>
+
+               <p xml:id="bb-l2d25p1a1q3-d1e150">Sed contra : Liberum arbitrium non potest cogi, ratio autem potest cogi : ergo liberum arbitrium rationem ipsam non comprehendit. Quod autem ratio aliquando cogatur, planum est ; quod liberum arbitrium non possit cogi, hoc indicat ipsum nomen : si enim posset cogi, non esset liberum.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e153">Item, ratio est eorum quae sunt a nobis et quae non sunt a nobis ; sed liberum arbitrium solum est respectu eorum quae sunt a nobis : ergo in plus est ratio quam liberum arbitrium : ergo liberum arbitrium non comprehendit in se rationem.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e156">Item, quod non comprehendat voluntatem, videtur. Voluntas nostra respectu aliquorum est impermutabilis ; sed quidquid liberum arbitrium nostrum appetit, permutabiliter appetit : ergo etc.</p>
+
+               <p xml:id="bb-l2d25p1a1q3-d1e159">Item, voluntas est possibilium et impossibilium ; sed liberum arbitrium est possibilium tantum : ergo ad plura se extendit voluntas quam liberum arbitrium : ergo liberum arbitrium non comprehendit in se rationem et voluntatem.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e163">Item, ratio et voluntas sunt diversae potentiae ; sed liberum arbitrium est una potentia, cum habeat actum unum, videlicet eligere sive consentire : ergo Impossibile est liberum arbitrium comprehendere in se rationem et voluntatem.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e166">Item, si liberum arbitrium comprehendit in se rationem et voluntatem, aut ergo sicut partes subiectivas aut sicut partes integrantes. Si sicut partes subiectivas, ergo tota ratio liberi arbitrii salvatur in ratione et tota ratio in voluntate. Cum igitur alia potentia sit ratio et alia voluntas, et, numerato inferiori, numeratur superius, videtur ergo quod in quolibet homine sint duo libera arbitria ; quod manifeste falsum est. Si autem sicut partes integrantes, sed contra : ex duabus potentiis nunquam fit una tertia potentia maxime cum illae potentiae manent distinctae et actus earum sunt ad invicem ordinati, ita quod unus est ante alterum. Si ergo ratio et voluntas sunt potentiae distinctae et actus earum sunt ordinati ad invicem secundum prius et posterius, videtur quod liberum arbitrium ex his integrari non possit tamquam ex principiis constitutivis ; et ita videtur quod liberum arbitrium voluntatem et rationem non possii comprehendere.</p>
+
+            </div>
+            <div xml:id="bb-l2d25p1a1q3-Dd1e170">
+               <head xml:id="bb-l2d25p1a1q3-Hd1e172">Conclusio</head>
+               <head xml:id="bb-l2d25p1a1q3-Hd1e175" type="question-title">Liberum arbitrium comprehedit simul rationem atque voluntatem</head>
+               <p xml:id="bb-l2d25p1a1q3-d1e178">Respondeo : Ad praedictorum intelligentiam est notandum quod liberum arbitrium simul comprehendit et rationem et voluntatem ; et hoc manifestat ipsa nominatio, ipsa etiam notificatio, manifestat etiam suae proprietatis inquisitio.
+Nominatio manifestat. Dicitur enim liberum et dicitur arbitrium ; et arbitrium est ipsius rationis, libertas vero ipsius voluntatis, ad cuius nutum et imperium moveri habent caetera quae sunt in nobis. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, De quinque responsionibus : <quote xml:id="bb-l2d25p1a1q3-Qd1e183">Liberum arbitrium dicitur ab arbitrando, quia a rationali parte quid eligat quidve recuset nomen accepit</quote>.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q3-d1e187">Hoc etiam patet per eius notificationem. Dicitur enim esse facultas voluntatis et rationis sive consensus rationis et voluntatis.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q3-d1e190">Postremo illud amplius manifestatur per suae proprietatis inquisitionem. Liberum enim arbitrium, sive nominet potentiam sive habitum, nominat ipsam potentiam ut dominam vel dominium illius potentiae ; et hoc planum est ex ipso nomine libertatis.
+Attendendum autem quod dominium alicuius potentiae potest esse dupliciter : aut respectu obiecti aut respectu actus. Dominium potentiae respectu obiecti attenditur in hoc quod possit in illud et in amplius, sicut equus, qui potest ferre decem modios, dominium habet super tres modios ad portandum, quia praevalet et cum facilitate portat. Dominium autem potentiae respectu actus attenditur in hoc quod potentia potest esse in actu et cessare ab actu secundum suum imperium et secundum proprium motum. Ad hoc autem quod aliqua potentia hoc dominium habeat, necesse est quod ipsa possit movere se ipsam et quod possit se super actum suum reflectere. Nisi enim posset se super actum suum reflectere, nunquam posset illum refrenare, nisi posset se ipsam movere, nec posset in illum exire, quando vellet. Reflectere autem se super se hoc est virtutis cognitivae, sublimatae a materia, quae quidem est ratio. Movere autem se hoc est virtutis appetitivae, rationem consequentis.</p>
+ 
+               <p xml:id="bb-l2d25p1a1q3-d1e194">Ad hoc igitur ut illud dominium sit in anima, necesse est quod habeat et rationem et voluntatem. Nam si rationem tantum haberet et non voluntatem per quam moveret, posset se super actum suum reflectere, sed non posset movere vel imperare. Si vero appetitum solum haberet et non rationem, posset utique movere et in actum exire, sed, quia non posset se super actum suum reflectere, non posset utique refrenare, et ita dominium non haberet.
+Sicut igitur ex concursu virtutis duorum hominum resultat quaedam facultas ad portandum unum lapidem, quem non posset ferre alter eorum ; et sicut ex concursu patris familias et matris familias ad disponendum regimen domus resultat una potestas, ita quod altera non sufficeret ; et sicut ex concursu virtutis manus et oculi resultat potestas scribendi, ad quod altera earum non sufficeret : sic ex concursu rationis et voluntatis resultat quaedam libertas sive quoddam dominium ad aliquid faciendum et disponendum.
+</p>
+ 
+               <p xml:id="bb-l2d25p1a1q3-d1e197">Et sic patet quod liberum arbitrium rationem complectitur et voluntatem. Patet etiam quod, cum liberum arbitrium sit quaedam potestas sive quoddam dominium resultans ex coniunctione istarum duarum potentiarum, scilicet rationis et voluntatis, quod optime nominatur per hoc quod dicitur liberum arbitrium, non uno nomine, sed composito, ut unum nomen respondeat rationi et alterum voluntati.
+Optime etiam definitur, cum dicitur esse facultas rationis et voluntatis. Facultas enim non tantum nominat potentiam, immo facilitatem potentiae, ex qua non tantum potens est, sed etiam praepotens est ad exeundum in actum ; et ideo facultas dicit potestatem sive dominium, quod quidem dicitur esse rationis simul et voluntatis, quia non est unius nisi concomitante altera.
+Concedendae sunt igitur rationes probantes quod liberum arbitrium rationem comprehendit et voluntatem.</p>
+ 
+            </div>
+            <div xml:id="bb-l2d25p1a1q3-Dd1e202">
+               <head xml:id="bb-l2d25p1a1q3-Hd1e204">Ad rationes</head>
+               <p xml:id="bb-l2d25p1a1q3-d1e207">1-4. Ad rationes vero ad oppositum faciie est respondere. Quod enim obicitur, quod non comprehendit totam rationem nec totam voluntatem, dicendum quod verum est ; sed comprehendit solum ipsam potentiam cognitivam in quantum iuncta est affectivae, et affectivam in quantum iuncta est cognitivae ; unde dicit allectum deliberativum vel deliberationem voluntariam. Et propterea, quia ratio nominat ipsam potentiam cognitivam ut ordinatam ad affectivam, et voluntas ipsam affectivam ut regulatam et ratiocinatam a cognitiva, hinc est quod liberum arbitrium potius dicitur facultas voluntatis et rationis quam intellectus et affectus. Non enim comprehendit totam cognitivam, sicut duae primae rationes ostendunt, nec totam affectivam, sicut ostendunt duae sequentes, sed aliquid huius et aliquid illius, sicut ostendunt rationes ad primam partem inductae.</p>
+
+               <p xml:id="bb-l2d25p1a1q3-d1e210">Ad illud quod obicitur, quod liberum arbitrium est potentia una, cum habeat actum unum, dicendum quod, quamvis actus liberi arbitrii, utpote eligere et consentire, unus esse videatur, nihilominus tamen implicat in se actus diversos. Consensus enim dicit concordiam aliquorum duorum, et ita concursum actuum rationis et voluntatis in unum. Eligere etiam includit in se rationis iudicium et volunlatis appetitum ; et ita, quemadmodum consentire et eligere, etsi unus actus esse videatur, tamen diversos actus in se includit, sic liberum arbitrium, etsi videatur una potentia, tamen diversas in se potentias complectitur, ita quod ex concursu illarum se invicem adiuvantium resultat in nobis regimen potestatis perfectae.</p>
+               <p xml:id="bb-l2d25p1a1q3-d1e213">Ad illud quod ultimo obicitur, utrum complectatur eas sicut partes integrales aut subiectivas, dicendum quod non complectitur eas omnino sicut totum integrale nec omnino sicut totum universale, sed sicut totum potentiale, quod partim habet naturam totius integri, partim naturam totius universalis : naturam totius integri in hoc quod in una potentiarum non potest salvari absque altera ; naturam vero totius universalis habet, quia ex earum concursu ad invicem quamlibet earum denominat. Unde sicut duo homines facultatem habent ferendi lapidem, quam neuter per se habet, et illa facultate potentia cuiuslibet eorum dicitur esse facilis, nec tamen est una sine altera, sic intelligendum est in proposito. Et rursus, sicut similitudo est in duobus similibus, ita quod non est in uno sine altero, et tamen quilibet eorum denominatur similis nec dicuntur esse duae similitudines, sed una, sic libertas dicitur esse in ratione et voluntate, ita quod utraque illarum potentiarum est libera ex coniunctione sui cum alia ; nec tamen sunt in eis duae libertates, sed una. Et sic patent obiecta.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

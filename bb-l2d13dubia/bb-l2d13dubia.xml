@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 13, Dubia</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 13, Dubia</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d13dubia">
+            <head xml:id="bb-l2d13dubia-Hd1e99">II, Distinctio 13, Dubia</head>
+            <div xml:id="bb-l2d13dubia-Dd1e102">
+               <head xml:id="bb-l2d13dubia-Hd1e104">Dub. I.</head>
+               <p xml:id="bb-l2d13dubia-d1e107">In parte ista sunt dubitationes circa litteram, et primo dubitatur de hoc quod dicit quod in mysterio factum est, quod dies computatur a vespera in vesperam. Contra hoc enim videtur quod ad ieiunii observantiam oportet ieiunare diem praecedentem cum nocte sequenti.
+Item, videtur quod non congrue significetur mysterium redemptionis computando diem a vespera in vesperam, immo potius in prima computatione dierum, quia Christus a tenebris nos produxit ad lucem.
+</p>
+               <p xml:id="bb-l2d13dubia-d1e110">Respondeo : Dicendum quod duplicem modum computandi diem accipimus in Scriptura. Primus, in quo dies praecedens copulatur nocti sequenti, et hoc quidem fuit in prima dierum enumeratione, in quo, ut dicit Magister, praefigurabatur lapsus hominis futurus a luce gratiae in tenebras culpae. Alius modus computandi dies attenditur in solemnitatum custoditione, in quo nox praecedens connumeratur diei sequenti ; et hoc vult dicere a vespera in vesperam ut praecedat nox et sequatur dies, quia eramus aliquando tenebrae, nunc autem lux in Domino.
+Et quod obicitur de observantia ieiuniorum, dicendum quod tempus ieiunii competit tempori miseriae ; et ideo computatio diei in observatione ieiunii debet fieri secundum conformitatem ad distinctionem temporis primi, in quo erat praefiguratio lapsus humani.
+Et quod obicitur, quod non debet terminari a vespera in vesperam, dicendum quod prima vespera ponitur ibi in quantum est principium noctis, et secunda in quantum est finis diei ; et ita pro nocte et die.
+</p>
+               <p xml:id="bb-l2d13dubia-d1e113">Licet autem hae duae distinctiones in Scriptura maxime exprimantur, quatuor tamen modis secundum diversorum computationes dies consueverunt distingui. Graeci enim computant diem a mane in mane, quia tunc primo apparet sol ; Hebraei vero a vespera in vesperam, quia tunc incipiunt solemnizare ; astronomi vero a meridie in meridiem, quia tunc est sol in maiori virtute ; sancta Ecclesia a media nocte usque ad medium noctem, quia tunc natus est Christus. Unde versus :
+<quote xml:id="bb-l2d13dubia-Qd1e115">Mane diem Graeca gens incipit ; astra sequentes
+In medio iucis ; Iudaei vespere ; sancta
+Inchoat Ecclesia medio sub tempore noctis</quote>.</p>
+            </div>
+            <div xml:id="bb-l2d13dubia-Dd1e120">
+               <head xml:id="bb-l2d13dubia-Hd1e122">Dub. II.</head>
+               <p xml:id="bb-l2d13dubia-d1e125">Item quaeritur de hoc quod dicit de illa luce : Aut de ea corpus solis formatum, aut in ea parte caeli esse, in qua sol est. Nam primum videtur esse falsum, quia non est ordo de perfecto ad imperfectum ; sed lux illa perfectissima erat, sicut dicit <name ref="#JohnDamascenus">Damascenus</name> quod opera primae diei perfectiora sunt.
+Item, textus videtur esse contrarius ; dicitur enim ibi : Vidit Deus lucem, quod esset bona ; et <name ref="#Augustine">Augustinus</name> explanat : Vidit, id est placuit voluntati Dei, ut pro modo sui generis maneret quod placuit, ut fieret : ergo adhuc manet in se ipsa lux illa.
+Item, si sol factus est de illa luce, unde facta sunt alia luminaria ? Si tu dicas, quod de illa luce ; tunc videtur quod una pars illius lucis corporalis cessit in corpora luminosa quae sunt supra solem, et in corpora luminosa quae sunt infra solem : ergo, si nullum corpus habet moveri oppositis motibus, pullum etiam est corpus caeleste, quod per naturam habeat moveri motu recto, sed orbiculari, videtur quod prima luminarium productio fuerit per violentiam et praeter naturam.
+Item, quod non possit esse in ea parte in qua est sol, videtur, primo quia duo corpora non pussunt esse simul, secundo vero quia sol sufficienter illuminat : ergo videtur quod lux illa sit ibi frustra.
+</p>
+               <p xml:id="bb-l2d13dubia-d1e134">Respondeo : Dicendum quod, cum quaeritur quid de illa luce factum sit, quatuor modis ad hoc consuevit responderi, quorum duos Magister tangit in littera.</p>
+               <p xml:id="bb-l2d13dubia-d1e137">Primus est, quod luminaribus caeli factis, lux illa rediit in praeiacentem materiam, quia non erat facta nisi ad faciendam quamdam distinctionem dierum semiplenam, qua perfecta inde rediit unde sumta est. Sed haec positio est contra rationem et contra litteram, quod Deus destrueret opera sex dierum principalia vel quod sineret perire.</p>
+               <p xml:id="bb-l2d13dubia-d1e140">Secundus modus dicendi est, quod ilia lux simpliciter manet in forma sua non mutata, nec discernitur quantum ad sensum propter coniunctionem sui ad solem, nec tamen est frustra, quia ipsius solis auget affectum.
+</p>
+               <p xml:id="bb-l2d13dubia-d1e144">Sed quia difficile est assignare, quem effectum habeat cum sole, ideo est tertius modus dicendi, quod ex ipsa factus sit sol, et in eo salvatur tamquam in re eiusdem generis.</p>
+               <p xml:id="bb-l2d13dubia-d1e147">Sed quoniam non videtur Scriptura exprimere quod Deus post primum diem produxerit novam lucem, sed solummodo luminaria distinxit, ideo est quarta opinio, quod ex illa luce facta sunt corpora luminosa, inter quae principatum tenet sol. Nec fuit ibi aliqua violentia, quia unaquaeque creatura eum locum accipiebat, quem sibi Dominus per naturam deputabat.
+Et sic patent obiecta, quia nec fuit illius lucis corruptio, nec etiam violentia, sed quaedam maior et perfectior distinctio. Quod autem dicit <name ref="#JohnDamascenus">Damascenus</name>, opus primae diei fuisse perfectissimum, hoc dicit per comparationem ad alia corpora quae a iuce habent recipere influentiam, non per comparationem ad luminaria quae ex ipsa luce sunt formata.</p>
+            </div>
+            <div xml:id="bb-l2d13dubia-Dd1e154">
+               <head xml:id="bb-l2d13dubia-Hd1e156">Dub. III.</head>
+               <p xml:id="bb-l2d13dubia-d1e159">Item quaeritur de hoc quod dicit : Dixit Deus : Fiat etc., non temporaliter nec sono vocis, sed in Verbo sibi coaeterno. Videtur enim hoc esse falsum ; statim enim cum dixit Deus, res factae sunt, sicut dicitur in Psalmo [148, 5] : Dixit, et facta sunt : ergo cum productio rerum sit temporalis, dictio non fuit aeterna.</p>
+               <p xml:id="bb-l2d13dubia-d1e162">Item, in dictione aeterna non dicit Deus nisi semel, sicut dicitur in Psalmo [61, 12] : Semel loculus est Deus ; sed cum produxit opera sex dierum, in productione cuiuslibet operis dixit : ergo illud <mentioned> dicere </mentioned> non est aeternum, sive generare Filium. Si tu dicas, quod illud <mentioned> dicere </mentioned> non fuit nisi unum solum, iteratur tamen propter multos effectus ; tunc videtur quod si ad <mentioned> dicere </mentioned> sequitur <mentioned> facere </mentioned> et <mentioned> simul dixit </mentioned>, ergo simul omnia fecit ; sed non simul fecit, sicut dicit Scriptura, ut supra probatum est : ergo non simul dixit.</p>
+               <p xml:id="bb-l2d13dubia-d1e180">Propter hoc quaeritur, utrum <mentioned> dicere </mentioned> accipiatur hic temporaliter, vel aeternaliter ; et si aeternaliter, quomodo dictum possit esse temporale ? et si temporaliter, quomodo <mentioned> dicere </mentioned> temporale potuit omnem creaturam praecedere ? Item, quaestio est, utrum accipiatur notionaliter vel essentialiter. Si enim accipiatur notionaliter, quomodo poneret effectum ? aut quomodo effectus creationis, quem Deus dicendo produxit, competat toti Trinitati ? Si vero essentialiter, quomodo poterit dici illud referri ad naturam Verbi, per quod facta sunt omnia ? cum Verbum dicatur personaliter, sicut in primo libro ostensum est.</p>
+               <p xml:id="bb-l2d13dubia-d1e189">Respondeo : Dicendum quod dicere uno modo connotat effectum in actu, alio modo connotat effectum in habitu, tertio modo nec in habitu nec in actu. Dicit enim uno modo quasi actum ad exterius, et sic dicere est aliquem effectum efficere in quo dicens exprimit se ; et hoc modo dicitur Deus dicere sive creaturam producendo in qua se declarat, sive aliquid animae inspirando inquo voluntatem suam demonstrat ; et sic pluries accipitur in Scriptura et connotat effectum actualiter. 
+  Alio modo dicere dicit actum quasi interius, nihilominus tamen relatum ; et hoc modo dicit comparationem ad Verbum conceptum, per quod dicens se et omnia loquitur. Per quem modum accipitur in Psalmo [61, 12] : Semel locatus est Deus, Glossa : id est, Filium genuit, in quo omnia disposuit ; et sic dicere connotat effectum in habitu, quia dicere importat dispositionem, et ad dispositionem sequitur opus.
+Tertio modo dicere dicit actum intrinsecum et absolutum ; et hoc modo dicit <name ref="#Anselm">Anselmus</name>, quod <mentioned> dicere </mentioned> non est aliud quam videndo intueri, et sic quaelibet persona dicit se et alia ; et huic dicere non respondet verbum conceptum, quia secundum hunc modum idem potest esse dicens et dictum et quo dicitur. Quaelibet enim persona se ipsam videtet intuetur se ipsam ; et sic non connotat effectum, nec actu nec habitu.</p>
+               <p xml:id="bb-l2d13dubia-d1e199">Si ergo quaeritur, quomodo accipiatur <mentioned> dicere </mentioned> in rerum productione, dicendum quod potest accipi primo modo, scilicet prout connotat effectum in actu : et tunc <mentioned> dicere </mentioned> idem est quod producere, nec est ibi nugatio, cum dicitur : Dixit Deus : Fiat, quia non tantum importat ipsam actionem in se, sed etiam prout est ad ipsius manifestationem ; et praemittit Scriptura verbum dicendi verbo faciendi, ut in hoc ostendat quod Deus maxima facilitate producit singula, non quia aliqua vox creata rerum productionem antecedat. Et sic <mentioned> dicere </mentioned> in diversis diebus potest plurificari non ratione principalis significati, sed connotati ; sicut patet, quia plurium productorum plures sunt productiones passivae, et ratione connotati activa dici potest plurificari.</p>
+ 
+               <p xml:id="bb-l2d13dubia-d1e211">Potest etiam nihilominus accipi secundo modo, et sic est sensus : Dixit, id est Filium genuit, in quo omnia disposuit et per quem omnia produxit ; et sic exponit beatus <name ref="#Augustine">Augustinus</name>, cum dicit quod vox Dei ad naturam Verbi, per quod omnia facta sunt, refertur. Et ad illud dicere sequitur creaturam fieri, sicut ad dispositionem sequitur opus, non immediate, ut tunc sit quando quis primo disponit, sed pro loco et tempore, scilicet sicut dicentis dispositio ordinavit ; et sic est in proposito. Nam Deus produxit non tunc cum Filium genuit, in quo disposuit ; sed sicut generando Filium ab aeterno disposuit.se producturum in tempore, sic produxit in tempore. In ipsa enim dispositione Dei aeterna non solum erat quod res producerentur, sed etiamquando producerentur. Et hoc modo <mentioned> dicere </mentioned> in diversis diebus dictum eamdem importat dispositionem et aeternam, in qua simul disponuntur aeternaliter, quae successive producuntur ex tempore.</p>
+               <p xml:id="bb-l2d13dubia-d1e220">Sic igitur primo et secundo modo potest hic accipi dicere, sed secundo modo magis proprie. Tertio autem modo non videtur hic accipi, quia non connotatur ibi aliquis effectus, nec actu nec habitu. Nec videtur etiam illo tertio modo proprie accipi actus dicendi. Nam, sicut dictum fuit in primo libro, distinctione vigesima septima <mentioned> dicere </mentioned> proprie non est sine verbo, sicut nec proprie ibi dicitur esse locutio, ubi nullus est sermo. Nihilominus tamen tertius modus accipiendi dicere non videtur esse omnino improbandus, pro eo quod satis rationabiliter videtur posse concedi quod quaelibet persona loquatur se alteri. Si enim iste actus, qui est dicereconvenit cuilibet personae creatae, potest convenire cuilibet personae increatae vel vere vel modo transumtivo. Iste tamen modus accipiendi non competit proposito. Et per hoc patent quae obiecta sunt.</p>
+            </div>
+            <div xml:id="bb-l2d13dubia-Dd1e227">
+ 
+               <head xml:id="bb-l2d13dubia-Hd1e229">Dub. IV.</head>
+               <p xml:id="bb-l2d13dubia-d1e232">Item quaeritur de hoc quod dicit : In principio, id est in Filio, creavit Deus caelum et terram. Si enim creatio mutatio est, et in Filio nihil mutatur : ergo in Filio nihil creatur.
+Item quaeritur, quare ista accipitur : Pater est in Filio et creat in Filio, ita quod haec praepositio <mentioned> in </mentioned> refertur et ad verbum essendi et ad verbum operandi ; haec autem non recipitur : Pater est per Filium, quamvis ista recipiatur : Pater operatur per Filium.
+Quaeritur etiam quam habitudinem importat haec praepositio <mentioned> per </mentioned>, cum dicitur : Deus Pater creat per Filium.
+</p>
+               <p xml:id="bb-l2d13dubia-d1e241">Respondeo : Dicendum quod haec praepositio <mentioned> in </mentioned> potest importare causalitatem et potest importare, identitatem ; causalitatem, ut cum dicitur : Omnia sunt in Deo ; identitatem, ut cum dicitur : Pater est in Filio. Haec autem praepositio <mentioned> per </mentioned> quantum est de se, importat causalitatem.
+Dico igitur quod convenienter dicitur Deus operari in Filio, et ratione identitatis, quia Pater operans est in Filio ; et ratione causalitatis, quia Filius est causa effectus producti a Patre. Et ideo haec praepositio <mentioned> in </mentioned> cum suo causali accipitur in divinis cum verbis absolutis et cum transitivis ratione duplicis habitudinis, scilicet causalitatis et identitatis. Haec autem praepositio <mentioned> per </mentioned>, quoniam importat habitudinem causae et principii, non recipitur nisi in illis verbis quae important aliquem effectum, respectu cuius Filius habet causalitatem. Et ideo recipitur quod Pater operatur per Filium, sed tamen non recipitur quod Pater sit per Filium. Sed haec planius dicta sunt in primo libro, distinctione trigesima secunda, et ideo ad praesens sufficiant haec.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

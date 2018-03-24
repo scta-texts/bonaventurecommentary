@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2a3q1">
+            <head xml:id="bb-l2d24p2a3q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d24p2a3q1-Hd1e102" type="question-title">Utrum in sensualitate possit esse veniale peccatum.</head>
+ 
+            <p xml:id="bb-l2d24p2a3q1-d1e105">Circa primum sic proceditur et ostenditur quod in sensualitate possit esse veniale peccatum.</p>
+            <div xml:id="bb-l2d24p2a3q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p2a3q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p2a3q1-d1e113">Primo, per illud <name ref="#Augustine">Augustini</name>, XII De Trinitate, quod recitat Magister in littera : <quote xml:id="bb-l2d24p2a3q1-Qd1e118" source="http://scta.info/resource/adt-l12">Si in motu sensuali tantum peccati illecebra teneatur, veniale est</quote>.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e122">Item, super illud Proverbiorum 24, 16 : <quote xml:id="bb-l2d24p2a3q1-Qd1e124" ana="#prov24_16">Septies in die</quote> Glossa : <quote xml:id="bb-l2d24p2a3q1-Qd1e127">Per necessitatem et fragilitatem carnis singulis diebus vel inviti vel volentes peccamus</quote>. Si ergo peccamus inviti voluntate rationali, illud peccatum non est in voluntate, sed solum in sensualitate.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e131">Item, ratione videtur. Motus ad illicitum est inordinatus, et ita reprehensibilis et malus ; sed primi motus sunt huiusmodi : ergo primi motus sunt peccata ; sed primi motus sunt in sensualitate : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e134">Item, omne quod est ordinabile secundum regulam iustitiae, quando deordinatur, habet in se culpam ; sed sensualitas ordinabilis est secundum regulam iustitiae et contingit eam deordinari in motibus suis : videtur ergo quod ipsa efficiatur culpabilis.</p>
+
+ 
+               <p xml:id="bb-l2d24p2a3q1-d1e138">Contra : <name ref="#Augustine">Augustinus</name>, V De civitate Dei, distinguit triplex genus causae : quaedam est quae tantum facit, et haec est Deus ; quaedam quae tantum fit, ut natura ; quaedam quae facit et fit, ut arbitrii libertas sive voluntas. Et in prima causa non potest esse peccatum propter sui dignitatem ; in secunda non potest esse peccatum propter sui arctationem : cum ergo sensualitatis sit potius moveri quam movere, agi quam agere, videtur quod in ea peccatum non possit esse.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e144">Item, in culpis differimus a brutis : ergo impossibile est in nobis esse peccatum secundum id secundum quod communicamus cum brutis ; hoc autem est sensualitas : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e147">Item, stulti et furiosi habent usum sensualitatis et tamen in nullo suo actu peccant. Ergo peccatum nunquam est in nobis ex deordinatione sensualitatis : ergo nullum peccatum in sensualitate ponendum est.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e150">Item, in ea sola potentia nata est esse culpa secundum quam homo capax est laudis et vituperii ; sed quantum ad partem sensibilem homo nec est dignus laude nec vituperio : ergo secundum illam non potest inesse culpa.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a3q1-Dd1e154">
+               <head xml:id="bb-l2d24p2a3q1-Hd1e156">Conclusio</head>
+               <head xml:id="bb-l2d24p2a3q1-Hd1e159" type="question-title">Veniale peccatum, quatenus habet ratione culpae, 
+      est in libero arbitrio; quatenus habet rationem vitii, 
+      ponitur esse in sensualitate</head>
+      
+               <p xml:id="bb-l2d24p2a3q1-d1e162">Respondeo : Ad huius intelligentiam notandum est quod cum quaeritur, utrum peccatum veniale possit esse in sensualitate, respondetur communiter quod sensualitas dupliciter potest considerari : aut in se aut prout est ordinabilis a ratione et sub ratione. Si in se consideretur, hoc modo habet usum in furiosis, et hoc modo dicit <name ref="#Augustine">Augustinus</name> quod in ea communicamus cum brutis. Et sic non potest in ea esse peccatum, sicut rationes ad secundam partem ostendunt.</p>
+               <p xml:id="bb-l2d24p2a3q1-d1e168">Alio modo est loqui de sensualitate secundum quod ipsa ordinabilis est ad rationem et sub ratione ; et hoc modo habet regulari secundum legem iustitiae. Et sic, quando movetur ad illicitum, ipsa eius deordinatio habet esse peccatum ; et sic communiter tenetur quod, etsi in sensualitate secundum se considerata peccatum esse non possit, potest tamen in ea esse peccatum, ut est ad rationem ordinata. Et per hoc declarari possunt argumenta ad utramque partem inducta.</p>
+ 
+               <p xml:id="bb-l2d24p2a3q1-d1e171">Verumtamen adhuc restat quaestio qualiter in sensualitate possit esse peccatum et culpa, cum nullo modo ponatur in ea esse virtus vel gratia ; et propterea perscrutari volentibus hanc quaestionem interius duplex apparebit modus dicendi.</p>
+ 
+               <p xml:id="bb-l2d24p2a3q1-d1e175">Fuerunt namque aliqui, qui dixerunt quod etiam in sensualitate ordinata ad rationem non omnino ponendum est esse peccatum, sed aliquo modo secundum quid. Peccatum enim duo dicit, videlicet actum et deordinationem circa actum. Et licet peccatum dicatur esse in sensualitate ratione actus substrati et ratione motus, tamen ipsa deordinatio est in ratione, quae minus cauta et sollicita fuit praevidere ne talis motus inordinatus in sensualitate insurgeret vel etiam minus diligens est reprimere. Ideo illa deordinatio peccatorum venialium ponitur in ipsa ratione, quae sensualitatem neglexit regere. Imputatur autem ei in veniale, non in mortale, propter hoc quod non tenebatur ipsam compescere ex lege coniugii, sicut tenetur ratio superior respectu inferioris.
+Sed iste modus dicendi minus sufficiens esse videtur : primo, quia secundum hoc omnia peccata venialia potius essent ex omissione quam ex inordinata inclinatione. Secundo, quia quaedam sunt venialia quae ratio vitare non potest, sicut dicit <name ref="#Augustine">Augustinus</name> et ostenditur infra. Tertio vero, quia ibi est deordinatio, ubi est et actus qui deordinatur ; et ita, si motus et actus peccati in sensualitate ponitur, in ea debet poni et inordinatio.</p>
+ 
+               <p xml:id="bb-l2d24p2a3q1-d1e181">Propterea est alius modus dicendi quod est loqui de peccato in quantum habet rationem culpae et in quantum habet rationem vitii. In quantum habet rationem culpae, sic opponitur gratiae et facit illum in quo est esse dignum vituperio : et hoc modo omne peccatum est in libero arbitrio. Alio modo est considerare peccatum in quantum tenet rationem vitii : et sic dicit inordinationem alicuius potentiae respectu actus sibi debiti secundum suam naturalem institutionem. Et quia talis deordinatio habet esse in sensualitate, ita quod illa deordinatio est via ad opus vituperio dignum, sic ponitur in sensualitate esse peccatum.
+Per hanc autem distinctionem manifesta est quaestionis intentio et omnium obiectionum praecedentium dissolutio. Hoc autem melius denudabitur infra, quando agetur de subiecto virtutis et gratiae et de oppositione virtutis et culpae.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

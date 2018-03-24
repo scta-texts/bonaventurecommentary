@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d28a1q3">
+            <head xml:id="bb-l2d28a1q3-Hd1e99">Quaestio 3</head>
+            <head xml:id="bb-l2d28a1q3-Hd1e102" type="question-title">Utrum liberum arbitrium absque gratia gratum faciente possit omnia mandata implere.</head>
+ 
+            <p xml:id="bb-l2d28a1q3-d1e105">Tertio quaeritur, utrum absque gratia gratum faciente liberum arbitrium possit omnia mandata implere.</p> 
+            <div xml:id="bb-l2d28a1q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d28a1q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d28a1q3-d1e113">
+      Et quod sic, videtur. 1. Deuteronomii 30, 11-14 : <quote xml:id="bb-l2d28a1q3-Qd1e115">Mandatum, quod ego praecipio tibi hodie, non est supra te neque procul positum</quote> etc. Et post : <quote xml:id="bb-l2d28a1q3-Qd1e118">Sed iuxta te est sermo valde in ore tuo et in corde tuo, ut facias illud</quote>. Hoc autem non esset, si observantia mandatorum esset supra posse liberi arbitrii : ergo videtur quod absque gratia gratum faciente, quae est supra liberi arbitrii posse, contingat mandata Dei servari et impleri.</p>
+               <p xml:id="bb-l2d28a1q3-d1e122">2. Item, hoc videtur auctoritate Novi Testamenti, Matthaei 11, 30 : <quote xml:id="bb-l2d28a1q3-Qd1e124" ana="#mt11_30">Iugum meum suave est, et onus meum leve</quote>. Hoc autem non esset, si mandata Dei essent supra posse liberi arbitrii : ergo etc.</p>
+               <p xml:id="bb-l2d28a1q3-d1e128">3. Item, hoc videtur ratione. Multo benignior est Deus servis suis quam sit homo ; sed homo potest mandata hominis servare absque gratia gratum faciente, quae sunt gravia et multa : ergo videtur quod multo fortius servare possit mandata divina.</p>
+               <p xml:id="bb-l2d28a1q3-d1e131">4. Item, in mandatis Dei aut praecipiuntur ipsa genera operum aut praecipiuntur opera formata. Si praecipiuntur opera formata, ergo qui honorat patrem pietate naturali, non faciens illud ex caritate, videtur illud mandatum omittere quo praecipitur : Honora patrem et matrem, et peccare mortaliter ; quod absurdum est dicere. Si ergo ipsa genera operum sunt in praecepto, et hoc constans est quod possumus facere absque gratia gratum faciente, videtur quod divina mandata absque dono gratiae gratum facientis contingat implere.</p>
+               <p xml:id="bb-l2d28a1q3-d1e135">5. Item, nihil difficilius est quam animam suam ponere pro alio : <quote xml:id="bb-l2d28a1q3-Qd1e137" ana="#io15_13">Maiorem enim caritatem nemo habet</quote> etc., sicut dicitur Ioannis 15, 13 ; sed absque gratia gratum faciente potest quis mortem pro alio subire : ergo multo fortius omnia genera aliorum mandatorum.</p>
+
+               <p xml:id="bb-l2d28a1q3-d1e141">Ad oppositum, arguitur sic.
+1. Ieremiae 10, 23 : <quote xml:id="bb-l2d28a1q3-Qd1e143" ana="#ier10_23">Scio, Domine, quia non est hominis via eius, neque viri ut ambulet et dirigat gressus suos</quote>. Sed quicumque implet divina mandata dirigit gressus suos : ergo non est in potestate hominis divina mandata implere.</p>
+               <p xml:id="bb-l2d28a1q3-d1e147">2. Item, Actuum 15, 11 : <quote xml:id="bb-l2d28a1q3-Qd1e149" ana="#act15_11">Hoc est iugum, quod neque nos neque patres nostri portare potuerunt ; sed per gratiam Domini nostri Iesu Christi credimus salvari</quote> ; et loquitur ibi de mandatis Legis. Ergo divina mandata observare non contingit absque divina gratia.</p>
+               <p xml:id="bb-l2d28a1q3-d1e153">3. Item, observatio mandatorum Dei facit hominem Dei amicum, unde Ioannis 15, 14 : Vos amici mei estis ; sed nullus potest effici Dei amicus absque dono caritatis et gratiae gratum facientis : ergo impossibile est absque huiusmodi dono mandata Dei servari.</p>
+               <p xml:id="bb-l2d28a1q3-d1e156">4. Item, observatio mandatorum Dei facit hominem dignum vita aeterna ; unde Matthaei 19, 17 : <quote xml:id="bb-l2d28a1q3-Qd1e158" ana="#mt19_17">Si vis ad vitam ingredi, serva mandata</quote>. Sed nullus potest mereri vitam aeternam absque dono gratiae Dei, ut dicitur ad Romanos 6, 23 : <quote xml:id="bb-l2d28a1q3-Qd1e161" ana="#rom6_23">Gratia Dei vita aeterna</quote> : ergo absque illa nemo potest divina observare mandata.</p>
+               <p xml:id="bb-l2d28a1q3-d1e165">5. Item, sicut fundamentum Legis Veteris est timor, ita fundamentum Evangelii est amor, sicut insinuat Apostolus ad Romanos 8, 15, et expresse dicit <name ref="#Augustine">Augustinus</name>. Ergo sicut mandata Legis Veteris observari non poterant absque Dei timore, sic mandata evangelica impleri non possunt absque caritatis amore ; sed donum amoris non est absque dono gratiae gratum facientis : ergo absque huiusmodi dono non contingit divina mandata impleri.</p>
+            </div>
+            <div xml:id="bb-l2d28a1q3-Dd1e172">
+               <head xml:id="bb-l2d28a1q3-Hd1e174">Conclusio</head>
+               <head xml:id="bb-l2d28a1q3-Hd1e177" type="question-title">Homo per liberum arbitrium sine gratia gratum faciente, 
+    sed cum gratiis gratis datis, praecepta 
+    Dei potest implere quoad substantiam operis, 
+    non tamen quoad intentionem mandantis.</head>
+    
+               <p xml:id="bb-l2d28a1q3-d1e180">Respondeo : Dicendum quod mandata Dei dupliciter contingit impleri : uno modo quantum ad genus operis, alio modo quantum ad intentionem mandantis. Si loquamur de impletione mandatorum quantum ad genus operis, sic per gratias gratis datas contingit ea impleri, sicut per fidem mandatum de adoratione, et per quamdam naturalem pietatem et devotionem mandatum de parentum honoratione, et sic de aliis.
+Alio modo est loqui de impletione mandatorum quantum ad intentionem mandantis ; et sic - quia Deus praecipit mandata ad hoc quod voluntas nostra conformetur voluntati suae, et hoc non potest esse absque caritate, et caritas esse non potest absque dono gratiae gratum facientis - mandata Dei secundum intentionem mandantis absque huiusmodi dono non possunt observari. Et hoc est quod dicit Apostolus ad Romanos 13, 8-10 :<quote xml:id="bb-l2d28a1q3-Qd1e182"> Qui diligit proximum legem implevit</quote> ; et iterum : <quote xml:id="bb-l2d28a1q3-Qd1e185">Plenitudo legis est dilectio</quote> ; et I ad Timotheum 1, 5 : <quote xml:id="bb-l2d28a1q3-Qd1e188" ana="#Itim1_5">Finis praecepti est caritas de corde puro</quote> etc. Hoc ipsum etiam insinuatur Deuteronomii 6, 5, ubi post enumerationem mandatorum decalogi subditur mandatum caritatis, quo dicitur : <quote xml:id="bb-l2d28a1q3-Qd1e191">Diliges Dominum Deum tuum ex toto corde tuo</quote> etc.
+Patet igitur ex praedictis quanta sit necessitas gratiae gratum facientis, quia non solum est necessaria ad remissionem peccatorum, verum etiam ad victoriam tentationum et ad observantiam mandatorum divinorum. Multipliciter igitur erravit Pelagius, qui dixit liberi arbitrii donum posse habere ut non indigeret gratia gratum faciente. Hac igitur positione tamquam haeretica repudiata, imploranda est gratia Dei, per quam deleantur peccata et vincantur diabolica tentamenta et impleantur divina mandata, non solum secundum genus operis, sed etiam secundum intentionem mandantis, non solum ad vitationem poenae, verum etiam ad meritum gloriae. Nam, etsi primus modus observandi potest esse per gratiam gratis datam, secundus modus non potest esse absque gratia gratum faciente, sicut prius ostensum est.
+Et secundum hanc viam procedunt rationes, quae ostendunt absque gratia gratum faciente mandata divina impleri non posse ; unde et concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d28a1q3-Dd1e197">
+               <head xml:id="bb-l2d28a1q3-Hd1e199">Ad rationes</head>
+
+               <p xml:id="bb-l2d28a1q3-d1e202">Ad illud quod obicitur de Deuteronomio, quod mandatum non est supra hominem, sed prope, dicendum quod hoc intelligitur de observantia quantum ad genus operis. Si autem intelligatur de observantia quantum ad intentionem mandantis, tunc dicitur esse prope, non quia liberum arbitrium possit in illud per se sine dono gratiae, sed quia gratia Dei praesto est unicuique ; nec aliquis caret gratia, quia gratia desit sibi, sed quia ipse deest gratiae.</p>
+               <p xml:id="bb-l2d28a1q3-d1e205">Ad illud quod obicitur, quod mandata Dei levia sunt et suavia, dicendum quod hoc intelligitur in respectu habentis caritatem ; homini enim habenti caritatem est facile diligere inimicum, sed non habenti est valde difficile et quasi impossibile. Et est exemplum in avibus, quae leves sunt ad volandum quando habent pennarum abundantiam ; quando vero pennis privantur, graves sunt et volare non possunt. Ideo Dominus dicit mandata sua esse levia, quoniam volentibus illa servare et converti ad se dat caritatem et pennas virtutum, per quas possunt volare et se super se ipsos faciliter elevare.</p>
+               <p xml:id="bb-l2d28a1q3-d1e208">Ad illud quod obicitur, quod homo potest implere mandata hominis etc., dicendum quod non est simile, quia homo indiget obsequio hominis et plus considerat actum exteriorem quam intentionem interiorem. Deus autem, qui bonorum nostrorum non indiget, et magis intuetur corda quam facies, opus hominis non acceptat nisi prius acceptabilis sit ei hominis voluntas, per quam fiunt illa opera.</p>
+
+               <p xml:id="bb-l2d28a1q3-d1e211">4-5. Ad quartum et ultimum argumentum satis plana est responsio ex praedictis. Probant enim quod mandata Dei servari possunt absque gratia gratum faciente quantum ad, genus operis. Et hoc quidem verum est. Nam potest homo mandatum illud : Honora patrem tuum etc., absque gratia implere, ut sic vitet poenam. Posset etiam facere et alia mandata, adiutus aliqua gratia gratis data, et non solum facere aliqua quae videntur ardua, sed etiam pati terribilia. In his tamen omnibus non implerentur mandata secundum intentionem et acceptationem divinam, secundum quod expresse dicit Apostolus I ad Corinthios 13, 3, enumerans multiplex genus operis, post quod subiungit : <quote xml:id="bb-l2d28a1q3-Qd1e213" ana="#Icor13_3">Si caritatem non habuero, nihil mihi prodest</quote>. Et hoc fuit quod Pelagius non consideravit, propter quod in errorem cecidit et credidit aliquem ex simplici mandatorum observantia quantum ad exteriora opera dignum esse vita aeterna ; quod est contra fidem piam et sanam, sicut Apostolus explicat in auctoritate praemissa.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

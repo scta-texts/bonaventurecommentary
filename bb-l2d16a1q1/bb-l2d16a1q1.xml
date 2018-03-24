@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 16, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 16, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d16a1q1">
+            <head xml:id="bb-l2d16a1q1-Hd1e99">II, Distinctio 16, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d16a1q1-Hd1e102" type="question-title">Utrum homo sit vere imago Dei.</head>
+ 
+            <p xml:id="bb-l2d16a1q1-d1e105">Circa primum sic proceditur et ostenditur quod homo sit imago Dei vere.</p>
+            <div xml:id="bb-l2d16a1q1-Dd1e108" type="rationes-principales">
+               <p xml:id="bb-l2d16a1q1-d1e110">1. Genesis 1, 26 : <quote xml:id="bb-l2d16a1q1-Qd1e112" ana="#gen1_26">Faciamus hominem ad imaginem</quote> ; hoc non est nisi verbum Trinitatis : ergo etc.</p>
+               <p xml:id="bb-l2d16a1q1-d1e116">2. Item, Ecclesiastici 17, 1 : <quote xml:id="bb-l2d16a1q1-Qd1e118" ana="#sir17_1">Deus de terra creavit hominem, et secundum imaginem suam fecit illum</quote> ; si igitur homo factus est secundum imaginem Dei, homo est imago Dei.</p>
+               <p xml:id="bb-l2d16a1q1-d1e122">3. Item, quod est maxime natum uniri alteri, maxime natum est ei configurari et conformari - amor enim, quia unit, transformare dicitur amantem in amatum, sicut dicit Hugo - sed creatura rationalis, ut homo, maxime nata est uniri Deo et in ipsum tendere per amorem : ergo maxime natus est ei configurari et assimilari. Si igitur imago dicit similitudinem expressam, patet etc.</p>
+               <p xml:id="bb-l2d16a1q1-d1e125">4. Item, quod vere repraesentat aliquid secundum eius nobilem actum et secundum distinctionem et ordinem, vere est eius imago ; sed homo vere repraesentat Deum secundum eius nobilissimum actum, qui est intelligere - non solum enim repraesentat Deum, in quantum est ens et vivens sed etiam in quantum est intelligens - et iterum, repraesentat distinctionem et ordinem, qui est in personis, quantum ad memoriam, intelligentiam et voluntam : ergo homo vere est Dei imago.</p>
+
+               <p xml:id="bb-l2d16a1q1-d1e128">Contra: 1. Nihil est illud ad quod fit, quia nihil fit ad se ipsum ; sed homo factus est ad imaginem Dei, sicut dicitur Genesis 1, 26 : ergo homo non est imago.</p>
+               <p xml:id="bb-l2d16a1q1-d1e132">2. Item, ubicumque est imago ibi est similitudo ; ubicumque est similitudo ibi est identitas aliqua ; ubicumque autem est identitas ibi est convenientia in aliquo tertio : si igitur Deus et creatura in aliquo tertio non conveniunt, creatura non potest esse similitudo Dei, et ita nec imago.</p>
+               <p xml:id="bb-l2d16a1q1-d1e135">3. Item, non quaecumque similitudo est imago, sed similitudo expressa ; sed nulla est similitudo expressa alicuius quae plus est disconveniens quam conveniens : cum ergo omnis creatura plus sit Deo dissimilis quam consimilis, sicut dicit <name ref="#Augustine">Augustinus</name>, XV De Trinitate, ergo nulla potest esse expressa Dei similitudo : ergo nulla potest esse imago.</p>
+               <p xml:id="bb-l2d16a1q1-d1e141">4. Item, ubicumque est imago ibi est configuratio : imago enim attenditur in figura ; sed divina essentia nullo modo est figurabilis : ergo nullo modo est per aliquam imaginem repraesentabilis : ergo nulla creatura est imago Dei.</p>
+               <p xml:id="bb-l2d16a1q1-d1e144">5. Item, differt imago a vestigio, quia vestigium repraesentat secundum partem, imago aulem secundum totum ; sed nullum finitum potest repraesentare infinitum secundum totum : cum igitur Deus sit infinitus et quaelibet creatura finita, nulla creatura potest esse imago Dei.</p>
+               <p xml:id="bb-l2d16a1q1-d1e147">6. Item, quaelibet creatura distat a Deo in infinitum ; Deus enim quamlibet in infinitum excellit : ergo si infinita distantia non est maior, una creatura non distat magis quam alia ; similiter nec una magis appropinquat quam alia : ergo vel omnis creatura est imago vel nulla. Sed non omnis est imago : ergo nulla.</p>
+            </div>
+            <div xml:id="bb-l2d16a1q1-Dd1e151">
+               <head xml:id="bb-l2d16a1q1-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d16a1q1-Hd1e156" type="question-title">Homo est vere imago Dei, quia est eius expressa similitudo</head>
+               <p xml:id="bb-l2d16a1q1-d1e159">Respondeo : Ad praedictorum intelligentiam est notandum quod imago dicit expressam similitudinem. Necesse est autem omnem creaturam quoquo modo assimilari Deo ; necesse est etiam aliquam ad complementum universi expresse assimilari Deo : et ideo omnis creatura habet rationem vestigii, sed aliqua habet rationem imaginis, illa videlicet quae assimiiatur expresse. Haec autem est rationalis creatura, ut homo ; et ideo concedendum est quod homo est imago Dei, quia est eius expressa similitudo.</p>
+ 
+               <p xml:id="bb-l2d16a1q1-d1e162">Ad quod intelligendum notandum est quod quaedam est similitudo per convenientiam omnimodam in natura, et sic una persona in Trinitate est alteri similis ; quaedam per participationem alicuius naturae universalis, siciit homo et asinus assimilantur in animali ; quaedam vero secundum proportionalitatem, sicut nauta et auriga conveniunt secundum comparationem ad illa quae regunt ; quaedam est similitudo per convenientiam ordinis, sicut exemplatum assimiiatur exemplari.
+Primis duobus modis nulla creatura potest Deo assimilari, secundis duobus modis omnis creatura assimiiatur ; sed illa quae assimiiatur magis de longinquo habet rationem vestigii, illa vero quae de proximo habet rationem imaginis ; talis autem est creatura rationalis, utpote homo.</p>
+ 
+               <p xml:id="bb-l2d16a1q1-d1e165">Et hoc patet sic. Primo de convenientia ordinis. Deus enim universa propter semetipsum operatus est, ita quod, cum sit summa potestas et maiestas fecit omnia ad sui laudem, cum sit summa lux fecit omnia ad sui manifestationem, cum sit summa bonitas fecit omnia ad sui communicationem. Non est autem perfecta laus nisi adsit qui approbet, nec est perfecta manifestatio nisi adsit qui intelligat, nec perfecta communicatio bonorum nisi adsit qui eis uti valeat. Et quoniam laudem approbare, veritatem scire, dona in usum assumere non est nisi solummodo rationalis creaturae, ideo non habent ipsae creaturae irrationales immediate ad Deum ordinari, sed mediante creatura rationali. Ipsa autem creatura rationalis, quia de se nata est et laudare et nosse et res alias in facultatem voluntatis assumere, nata est ordinari in Deum immediate. Et quoniam quanto aliquid immediatius ordinatur ad aliquid, tanto magis convenit cum eo convenientia ordinis ; et anima rationalis et quaelibet rationalis creatura, eo quod capax Del est et particeps esse potest, immediate ordinatur in ipsum ; maxime convenit cum eo convenientia ordinis. Et quia, quanto maior est convenientia tanto expressior est similitudo, hinc est quod quantum ad hoc genus similitudinis rationalis creatura est similitudo expressa, et ideo imago est.
+Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, De Trinitate XIV, quod <quote xml:id="bb-l2d16a1q1-Qd1e170" source="http://scta.info/resource/adt-l14">eo est anima imago Dei quo capax eius est et particeps esse potest</quote>. Quia enim ei immediate ordinatur, ideo capax eius est vel e converso ; et quia capax est, nata est ei configurari ; et propter hoc fert in se a sua origine lumen vultus divini. Et ideo quantum ad similitudinem, quae attenditur ad convenientiam ordinis, perfecte dicitur imago Dei, quia in hoc ei assimiiatur expresse.</p>
+ 
+               <p xml:id="bb-l2d16a1q1-d1e175">Similiter in similitudine, quae attenditur in convenientia proportionalitatis vel proportionis, expresse assimilatur Deo creatura rationalis, et ideo secundum eam recte dicitur imago. Quod patet sic. Convenientia enim proportionis attenditur secundum similiter se habere. Similiter autem se habere, hoc potest esse dupliciter : vel in comparatione ad extrinseca vel in comparatione ad intrinseca. Tunc autem est similitudo expressa, quando non tantum est similis modus se habendi in comparatione ad extrinseca, sed in comparatione ad intrinseca. Contingit autem comparare divinam essentiam ad creaturam, contingit etiam comparare personam ad personam. Omnis autem creatura aliquam comparationem habet, secundum quam aliquo modo conformatur Deo secundum quod est causa creaturae, sicut est comparatio ilia quae est ad effectum productum. Sicut enim Deus producit suum effectum, sic et agens creatum, licet non omnino. Creatura vero rationalis non solum sic convenit, sed etiam quantum ad intrinsecarum suarum potentiarum originem, ordinem et distinctionem, in quibus assimilatur illi distinctioni et ordini quae est in divinis personis intrinseca divinae naturae.
+Et in hoc ostendit <name ref="#Augustine">Augustinus</name>, in libro De Trinitate, hominem esse imaginem Dei ; et hoc explanatum fuit in primo libro ubi ostensum est, quod in anima rationali est unitas essentiae cum trinitate potentiarum ad invicem ordinatarum et quasi consimili modo se habentium, sicut se habent personae in divinis. Et ideo est ibi expressa similitudo proportionis ; et propter hoc rationalis creatura, quae est homo, est imago Dei.</p>
+ 
+               <p xml:id="bb-l2d16a1q1-d1e181">His visis, patet responsio ad quaestionem propositam et etiam ad obiecta. Concedendum est enim quod homo vere est imago Dei, sicut ostendunt rationes ad hoc inductae.</p>
+            </div>
+            <div xml:id="bb-l2d16a1q1-Dd1e186">
+               <head xml:id="bb-l2d16a1q1-Hd1e188">Ad rationes</head>
+
+               <p xml:id="bb-l2d16a1q1-d1e191">1. Ad illud quod obicitur, quod homo est ad imaginem ; ergo etc., dicendum quod non sequitur, quia, cum dicitur factus ad imaginem, imago accipitur abstractive ; cum dicitur imago Dei, imago accipitur concretive, quia est imagine Dei insignitus ; sicut tabula in qua depicta est imago, et imago potest dici et ad imaginem. Sic et in proposito.</p>
+               <p xml:id="bb-l2d16a1q1-d1e194">2. Ad illud quod obicitur, quod non est aliqua identitas Dei ad creaturam, ergo nec similitudo, dicendum quod similitudo, quae est in imagine, non attenditur per identitatem aut eiusdem naturae participationem sed per convenientiam in ordine et proportione ; quae similitudo non exigit communicantiam in tertio, quia in convenientia ordinis unum est similitudo alterius ; in convenientia proportionis non est similitudo in uno, sed in duabus comparationibus.</p>
+               <p xml:id="bb-l2d16a1q1-d1e197">3. Ad illud quod obicitur, quod imago est similitudo expressa, iam patet responsio, quia, si magna sit dissimilitudo in proprieiatibus absolutis, multum tamen magna est similitudo in immediatione ordinis et comparatione proportionis, ex quibus et in quibus duobus expressio similitudinis consistit, quae imaginem facit.</p>
+               <p xml:id="bb-l2d16a1q1-d1e200">4. Ad illud quod obicitur de configuratione, dicendum quod imago corporalis exigit configurationem corporalem, imago vero spiritualis configuratione et effigie spirituali contenta est. Haec autem consistit non in quantitate molis sed in quantitate virtutis, scilicet in potentiis, ita quod, sicut figura triangularis habet tres terminos et tres lineas, sic etiam in imagine spirituali potentiae sint ad modum teirminorum, et egressio unius ab altera quantum ad actum se habeat ad modum lineae coniungentis.</p>
+               <p xml:id="bb-l2d16a1q1-d1e204">5. Ad illud quod obicitur, quod imago repraesentat secundum totum, dicendum quod illud est verum de illa imagine quae habet omnimodam perfectionem ; et sic solus Filius Dei est imago Patris. De alia non est verum quod repraesentet secundum totum simpliciter, repraesentat autem quantum ad aliquam totalitatem. Quia enim rationalis creatura et intellectus quodam modo est omnia, et omnia sunt nata ibi scribi, et imprimi omnium similitudines et depingi, ideo, sicut totum universum repraesentat Deum in quadam totalitate sensibili, sic creatura rationalis eum repraesentat in quadam totalitate spirituali ; quaelibet autem alia creatura irrationalis repraesentat eum solum in parte, quia secundum se tantum, cum non sit nata alia iri se spiritualiter continere, ita quod nihil sit quod non sit nata cognoscere. Hoc dico propter animam sensibilem, quae, si cognoscat aliqua, non tamen nata est cognoscere omnia.</p>
+               <p xml:id="bb-l2d16a1q1-d1e207">6. Ad illud quod obicitur, quod quaelibet creatura distat in infinitum, dicendum quod verum est de ilia distantia quae opponitur participationi et adaequationi. Cum enim Deus sit infinitus, nihil potest ei adaequari ; cum sit simplex, non potest aliquam naturam tertiam cum aliqua creatura participare. Et penes has similitudines nullo modo attenditur ratio imaginis in homine, sed penes aliam duplicem, scilicet ordinis et consimilis habitudinis, secundum quam rationalis creatura non distat in infinitum a Creatore, sed valde appropinquat ei, sicut ostensum est supra.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p1a1q6">
+            <head xml:id="bb-l2d25p1a1q6-Hd1e99">Quaestio 6</head>
+            <head xml:id="bb-l2d25p1a1q6-Hd1e102" type="question-title">Utrum liberi arbitrii facultas insit principalius rationi an voluntati.</head>
+ 
+            <p xml:id="bb-l2d25p1a1q6-d1e105">Sexto et ultimo est quaestio, cum liberum arbitrium sit habitus sive facultas residens penes rationem et voluntatem coniunctim, penes quam istarum potentiarum principalius nobis insit.</p>
+            <div xml:id="bb-l2d25p1a1q6-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p1a1q6-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p1a1q6-d1e113">Et quod principalius insit penes rationem, videtur :Primo per ipsam nominationem, qua dicitur esse liberum arbitrium. Si enim adiectivum ponit rem suam circa suum substantivum, et principalius dicitur aliquid de aliquo quod dicitur secundum abstractionem quam quod dicitur secundum concretionem ; et habitus ille nominatur arbitrium liberum, non libertas arbitraria, arbitrium vero se tenet ex parte rationis : videtur ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e116">Item, <name ref="#Aristotle">Philosophus</name> dicit quod <quote xml:id="bb-l2d25p1a1q6-Qd1e121">ratio nata est regere irascibilem et concupiscibilem</quote> ; sed voluntas consistit in illis duabus viribus, scilicet concupiscibili et irascibili : ergo ratio nata est regere voluntatem ; sed liberum arbitrium est magis regens quam rectum : ergo magis se tenet ex parte rationis quam voluntatis. Si tu dicas quod <name ref="#Aristotle">Philosophus</name> intelligit de irascibili et concupiscibili brutali, non de illa in qua consistit voluntas, contra hoc est ipsa littera : dicitur enim quod liberum arbitrium est liberum de voluntate iudicium. Si ergo iudicantis est regere iudicatum, patet etc.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e128">Item, facto ultimo iudicio rationis, semper voluntas movetur secundum illud : ergo, si hoc praeit tamquam iudicans ei illud sequitur tamquam iudicatum, cum libertas magis resideat penes illud quod praeit et imperat quam penes illud quod sequitur et obedit, videtur quod liberum arbitrium plus se tenet ex parte rationis quam voluntatis.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e131">Item, liberum arbitrium eo ipso liberum est quo potest se ipsum restringere et reprimere ; sed repressio actus voliti non est nisi per iudicium rationis, quia, nisi examen rationis interveniat, semper voluntas sequitur impetum affectionis : ergo libertas magis est penes rationem quam voluntatem.</p>
+
+               <p xml:id="bb-l2d25p1a1q6-d1e135">Sed contra : Liberum arbitrium eo ipso dicitur liberum, quia immune est a coactione : ergo penes illud maxime est liberum arbitrium quod magis elongatur a natura coactionis ; et talis potentia est ipsa voluntas, non ratio ; in multis enim contingit rationem cogi, non sic voluntatem : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e138">Item, liberum arbitrium est illud quod est in nobis maxime imperativum ; sed magis est imperativa in nobis voluntas quam ratio : quidquid enim ratio dictet, semper illud fiet quod voluntas praeoptat : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e141">Item, liberum arbitrium est illud ex quo principaliter consistit in nobis meritum vel demeritum ; sed meritum vel demeritum principaliter consistit penes voluntatem : ergo etc.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e144">Item, liberum arbitrium est in nobis potentissimum, sicut dicit <name ref="#Bernard">Bernardus</name>, et plures auctoritates hoc sonant ; sed nihil adeo est in potestate nostra sicut est voluntas et actus volendi : ergo videtur quod maxime penes voluntatem residet in nobis libertas.</p>
+            </div>
+            <div xml:id="bb-l2d25p1a1q6-Dd1e151">
+               <head xml:id="bb-l2d25p1a1q6-Hd1e153">Conclusio</head>
+               <head xml:id="bb-l2d25p1a1q6-Hd1e156" type="question-title">Liberum arbitrium inchoatur in ratione et consummatur 
+        in voluntate; ideo libertus arbitrii principaliter consistit in voluntate</head>
+ 
+               <p xml:id="bb-l2d25p1a1q6-d1e159">Respondeo : Dicendum quod, cum liberum arbitrium sit facultas sive dominium, ex qua dicitur potentia facilis, non solum ad movendum alia, sed etiam ad movendum se ipsam ; sicut ratio movendi se inchoatur in ratione et consummatur in voluntate, sic et arbitrii libertas residet penes rationem et voluntatem, ita quod in una illarum potentiarum inchoatur et in alia consummatur.
+Ideo autem dico motum inchoari in ratione, quia non movetur appetitus nisi praeambulo cogitatu : nequaquam enim amare possumus quod non cognoscimus ; et ideo ad hoc quod motus fiat, praeit cognitio disponens et subsequitur voluntas perficiens. Quantumcumque enim praecedat cogitatus, nunquam motus sequitur nisi ipsum imperet voluntatis affectio.
+Et sicut voluntas non habet moveri ad obiectum, amplectendo vel refugiendo illud, nisi praeambulo cogitatu, sic etiam non habet approbare vel respuere sive elicere et refrenare actum proprium nisi rationis actus praecedat, qui dictet ipsum esse bonum vel malum, perficiendum vel refrenandum. Ex tali enim actu praeambulo voluntas in actu suo incipit complacere vel displicere.
+Et sic patet quod libertas arbitrii sive facultas quae dicitur liberum arbitrium in ratione inchoatur et in voluntate consummatur. Et quoniam penes illud principaliter residet penes quod consummatur, ideo principaliter libertas arbitrii et dominium in voluntate consistit.
+Et iterum, quia illud in quo res inchoatur se habet per modum materialis ; illud in quo consummatur se habet per modum formalis ; et adiectivum respectu substantivi se habet per modum informantis : ideo in nominatione illius potestatis nomen respondens rationi significatur substantive, nomen vero respondens voluntati significatur adiective ; et propterea magis vocatur ista facultas liberum arbitrium quam arbitraria libertas.</p>
+            </div>
+            <div xml:id="bb-l2d25p1a1q6-Dd1e164">
+               <head xml:id="bb-l2d25p1a1q6-Hd1e166">Ad rationes</head>
+               <p xml:id="bb-l2d25p1a1q6-d1e169">Et per hoc patet responsio ad primum obiectum in contrarium.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e172">Ad illud vero quod obicitur secundo, quod ratio regit irascibilem et concupiscibilem, dicendum quod, sive vis irascibilis et concupiscibilis intelligatur de appetitu brutali sive de potentia appetitiva rationali, utramque habet regere ratio per modum disponentis et consulentis, quantum est de se. Quod autem regat per modum imperantis, hoc non est nisi mediante voluntate, quae dat ei auctoritatem. Voluntas autem non dicit aliam potentiam per essentiam a concupiscibilis et irascibili, sed nominat ipsum appetitum ut ratiocinatum sive rationi coniunctum, et sic eius regere est et imperare. Concupiscibilis autem et irascibilis eamdem potentiam affectivam nominant, in quantum tamen habet regi ; et ita dicuntur inferiores, non quantum ad naturam potentiae, sed quantum ad officium. Et hinc est quod liberum arbitrium secundum rem comprehendit istas tres potentias, videlicet rationalem, irascibilem et concupiscibilem, sicut dicit <name ref="#Augustine">Augustinus</name>, De quinque responsionibus : Cum de libero arbitrio loquimur, non de parte animae loquimur, sed de tota. Hinc est etiam quod, cum caeterae virtutes non indocte ponantur in libero arbitrio, non huic obviat illud quod consuevit dici quod tres virtutes theologicae sunt in rationali et concupiscibili et irascibili. Voluntas enim, ut iam dictum est, non nominat aliam potentiam secundum essentiam et naturam ab irascibili et concupiscibili, licet alio modo nominet.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e178">Ad illud quod obicitur, quod ratio iudicat, et voluntas sequitur, dicendum quod duplex est iudicium rationis : quoddam est in solo dictamine, et hoc est rationis secundum se ; aliud est iudicium definitivum ut fiat vel non fiat, et illud nunquam est sine voluntate. Quantumcumque enim ratio deliberet, in eam partem terminatur definitivum iudicium quam praeoptat voluntas. Et ideo, cum dicitur quod voluntas sequitur iudicium, si intelligatur de iudicio quod consistit in solo dictamine, non est semper verum quod ad illud sequatur voluntas necessario. Si autem intelligatur de iudicio definitivo, ex hoc non sequitur quod voluntas sequatur principaliter actum alienum, immo potius actum alienum trahit ad proprium.</p>
+               <p xml:id="bb-l2d25p1a1q6-d1e181">Ad illud quod ultimo obicitur, quod refrenatio est mediante actu rationis, dicendum quod verum est quod actus rationis requiritur, sed nunquam ab illo principaliter est refrenatio. Quantumcumque enim ratio dictet actum voluntatis esse malum, nunquam voluntas se retrahit nisi velit ; et ideo, sicut possibilitas scribendi principalius dicitur esse in manu quam in oculo, licet ad eam concurrat et vis oculi et vis manus, sic intelligendum est in proposito.</p>
+
+               <p xml:id="bb-l2d25p1a1q6-d1e185">Ex praedictis igitur patet quid sit liberum arbitrium secundum rem et qualiter se habeat ad rationem et voluntatem. Si enim omnia quae praedeterminata sunt insimul conferantur in unum, puto satis posse quietari intellectum. Si quis autem in aliquo praedictorum quiescere velit, reliqua non pertractans, non ita evidenter innotescet ei quae sit liberi arbitrii quidditas et essentia.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

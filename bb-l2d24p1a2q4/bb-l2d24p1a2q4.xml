@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p1a2q4">
+            <head xml:id="bb-l2d24p1a2q4-Hd1e99">Quaestio 4</head>
+            <head xml:id="bb-l2d24p1a2q4-Hd1e102" type="question-title">Utrum intellectus agens et possibilis sint una potentia an diversae.</head>
+            <p xml:id="bb-l2d24p1a2q4-d1e105">Quarto et ultimo ad maiorem evidentiam praecedentium quaeritur de divisione potentiarum animae per agentem et possibilem, secundum quas differentias intellectus noster dividi consuevit. Est igitur quaestio, utrum agens intellectus et possibilis sint una potentia vel diversae.</p>
+            <div xml:id="bb-l2d24p1a2q4-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p1a2q4-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p1a2q4-d1e113">Et quod diversae, videtur. <quote xml:id="bb-l2d24p1a2q4-Qd1e115" source="http://scta.info/resource/aristda-l3">Materialis causa nunquam simul incidit in idem cum aliis causis</quote>, sicut vult <name ref="#Aristotle">Philosophus</name> ; sed sicut se habet materia ad formam vel efficientem, ita se habet intellectus possibilis ad agentem, sicut <name ref="#Aristotle">Philosophus</name> dicit. Ergo intellectus possibilis et agens sunt potentiae diversae.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e125">Item, prima divisio potentiae est per activam et passivam, sicut innuit <name ref="#Aristotle">Philosophus</name>, in libro IX Primae <name ref="#Aristotle">Philosophi</name>ae ; sed inter haec membra primo dividentia est maxima differentia quae sit in illo genere : ergo inter potentiam activam et passivam est maxima potentiarum differentia : ergo impossibile est unam potentiam esse possibilem et agentem.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e134">Item, impossibile est idem secundum idem esse in actu et in potentia simul et semel ; sed anima secundum intellectum agentem est continue in suo actu, secundum possibilem autem non : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e137">Item, impossibile est idem secundum essentiam esse illuminans et illuminatum ; sed Intellectus agens se habet sicut lux, intellectus possibilis sicut illuminatum a luce : ergo etc.</p>
+
+               <p xml:id="bb-l2d24p1a2q4-d1e141">Sed contra : <quote xml:id="bb-l2d24p1a2q4-Qd1e143">In perpetuis non differt esse et posse</quote>, sicut vult <name ref="#Aristotle">Philosophus</name> : ergo nec actus et potentia, multo minus nec potentia activa et passiva ; sed anima est perpetua et eius intellectus : ergo non est differentia potentiae possibilis ad agentem.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e150">Item, in imaginatione, quae est multo magis materialis virtus quam intellectus, non sunt duae potentiae imaginativae, quarum una sit activa, altera passiva. Ergo, si multopotentior est virtus intellectiva quam imaginativa, videtur quod per agentem et possibilem diversificari non habeat.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e153">Item, potentia receptiva et abstactiva in corporalibus possunt concurrere in unitatem organi, sicut patet in oculo cati, qui potest speciem suscipere et eam in se de nocte facere. Ergo pari ratione, immo multo fortiori, videtur quod intellectus agens et possibilis reperiantur in una potentia spirituali.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e156">Item, intelligere est actus unus per se : ergo est a potentia una simplici ; sed ad nostrum intelligere concurrunt intellectus possibilis et intellectus agens : ergo non sunt diversae potentiae.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e159">Item, intellectus possibilis aut intelligit aut non. Si non, ergo non debet dici intellectus nec potentia intellectiva. Si intelligit, ergo aliquo modo est potentia activa : ergo non videtur quod intellectus possibilis sit alia potentia ab agente.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e162">Item, intellectus agens aut intelligit aut non. Si non, ergo non debet dici intellectus nec potentia intellectiva. Si sic, cum intellectus non possit intelligere aliud a se nisi speciem illius habeat in se et penes se, et omne illud quod est susceptibile speciei sit aliquo modo possibile, ergo intellectus agens est aliquo modo possibilis : ergo non dividitur per essentiam a possibili.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a2q4-Dd1e166">
+               <head xml:id="bb-l2d24p1a2q4-Hd1e168">Conclusio</head>
+               <head xml:id="bb-l2d24p1a2q4-Hd1e171" type="question-title">
+      Intellectus agens et possibilis sunt duae ipsius potentiae 
+      intellectivae differentiae, quae in unam operationem completam intelligendi inseparabiliter concurrunt
+    </head>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e174">Respondeo : Ad praedictorum inteiligentiam est praenotandum quod variis modis tentaverunt praedecessores nostri assignare differentiam intellectus possibilis ad agentem. Quidam enim dixerunt quod differunt sicut duae substantiae ; alii dixerunt quod differunt sicut duae potentiae ; tertio modo dixerunt alii quod differunt sicut habitus et potentia ; quarto modo dixerunt alii quod differunt sicut potentia absoluta et comparata.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e177">Primus autem modus dicendi, quo dicitur quod differunt secundum substantiam, dupliciter habet intelligi.
+Quidam namque dicere voluerunt quod intellectus agens sit intelligentia separata, intellectus autem possibilis sit anima corpori coniuncta. Et modus iste ponendi et dicendi fundatus est super multa verba philosophorum, qui posuerunt animam rationalem illustrari a decima intelligentia et perfici ex coniunctione sui ad illam.
+Sed iste modus dicendi falsus est et erroneus, sicut supra improbatum fuit distinctione octava. Nulla enim substantia creata potentiam habet illuminandi et perficiendi animam, proprie intelligendo ; immo secundum mentem immediate habet a Deo illuminari, sicut in multis locis <name ref="#Augustine">Augustinus</name> ostendit.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e183">Alius modus intelligendi est quod intellectus agens esset ipse Deus, intellectus vero possibilis esset noster animus. Et iste modus dicendi super verba <name ref="#Augustine">Augustini</name> est fundatus, qui in pluribus locis dicit et ostendit quod lux, quae nos illuminat, magister, qui nos docet, veritas, quae nos dirigit, Deus est, iuxta illud Ioannis [1, 9] : <quote xml:id="bb-l2d24p1a2q4-Qd1e188" ana="#io1_9">Erat lux vera, quae illuminat omnem hominem</quote> etc.
+Iste autem modus dicendi, etsi verum ponat et fidei catholicae consonum, nihil tamen est ad propositum, quia, cum animae nostrae data sit potentia ad intelligendum, sicut aliis creaturis data est potentia ad alios actus, sic Deus, quamvis sit principalis operans in operatione cuiuslibet creaturae, dedit tamen cuilibet vim activam per quam exiret in operationem propriam. Sic credendum est indubitanter quod animae humanae non tantummodo dederit intellectum possibilem, sed etiam agentem, ita quod uterque est aliquid ipsius animae.
+Et ideo primus modus assignandi differentiam tamquam ad propositum impertinens omittendus est, quo scilicet dicitur quod intellectus agens et possibilis differunt sicut duae substantiae.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e193">Secundus autem modus dicendi, quo scilicet dicitur quod differunt sicut duae potentiae, dupliciter potest intelligi, et uno modo false, alio modo vere.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e196">Unus modus intelligendi et dicendi est quod intellectus possibilis sit potentia pure materialis, quae inest animae ex parte suae materiae ; intellectus vero agens sit potentia pure formalis quae inest animae ex parte suae formae. Et hic modus dicendi videtur fundari super verba <name ref="#Aristotle">Philosophi</name>, qui dicit quod <quote xml:id="bb-l2d24p1a2q4-Qd1e201" source="http://scta.info/resource/aristda-l3">intellectus possibilis est quo est omnia fieri ; intellectus agens, quo est omnia facere</quote>, sicut contingit in forma et materia reperire.
+Sed hic modus dicendi non consonat veritati. Si enim intellectus possibilis esset potentia pure passiva et se teneret ex parte materiae, in omnibus posset poni in quibus est reperire materiale principium. Praeterea, sicut oculus non dicitur visus, sic talis potentia non deberet dici intellectus.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e205">Alius vero modus intelligendi est, ut dicatur quod intellectus agens et possibilis sint duae intellectus differentiae, datae uni substantiae, quae respiciunt totum compositum. Appropriatur autem intellectus agens formae et possibilis materiae, quia intellectus possibilis ordinatur ad suscipiendum, intellectus agens ordinatur ad abstrahendum. Nec intellectus possibilis est pure passivus : habet enim supra speciem existentem in phantasmate se convertere et convertendo per auxilium intellectus agentis illam suscipere et de ea iudicare. Similiter nec intellectus agens est omnino in actu : non enim potest intelligere aliud a se nisi adiuvetur a specie, quae abstracta a phantasmate intellectui habet uniri. Unde nec possibilis intelligit sine agente nec agens sine possibili.
+Et iste modus dicendi verus est et super verba <name ref="#Aristotle">Philosophi</name> fundatus. Dicit enim agentem et possibilem esse duas differentias intellectus ; unde sicut duo intelligimus necessario in medio, ad hoc quod abstrahatur species ab obiecto, videlicet lucem et diaphaneitatem, ita quod per unum abstrahit et per aliud defert et suscipit, sic et in proposito conformiter potest intelligi ita ad unum actum haec duo concurrere ut hoc sine illo non habeat operationem suam complete.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e211">Tertius modus assignandi differentiam, quo dicitur quod differunt sicut potentia et habitus, dupliciter habet intelligi.
+Uno modo, ut intellectus agens dicatur habitus quidam constitutus ex omnibus intelligibllibus, intellectus vero possibilis intelligatur idem ipse, prout est in potentia ad acquirendam cognitionem per phantasmata. Et hic modus ponendi fundari videtur super verba <name ref="#Boethius">Boethii</name>, qui dicit quod summam retinens, singula perdit. Quod voluerunt aliqui intelligi sic, quod intellectus noster dicatur habere apud se cognitionem universalium innatam, alioquin non posset per virtutem suam, abstrahendo etiam a sensibus et phantasmatibus, facere intellectum possibilem actu intelligentem ; omne enim quod educit alterum de potentia in actum, est ens in actu.
+Sed iste modus dicendi verbis <name ref="#Aristotle">Philosophi</name> non consonat, qui dicit animam esse creatam sicut tabulam rasam, nec habere cognitionem habituum sibi innatam, sed acquirere mediante sensu et experientia.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e220">Alius modus dicendi est, ut dicatur intellectus agens differre a possibili sicut habitus a potentia, non quia agens sit pure habitus, sed quia est potentia habitualis.
+Et iste modus dicendi probabilis est et verus et super verba philosophica et catholica fundatus. Verum enim est, secundum <name ref="#Dionysius">Dionysium</name>, quod substantiae intellectuales, eo ipso quod intellectuales substantiae, lumina sunt. Ergo perfectio et complementum substantiae intellectualis lux est spiritualis : ergo illa potentia, quae consequitur animam ex parte intellectus sui, quoddam lumen est in ipsa, de quo lumine potest intelligi illud Psalmi [4, 7] : Signatum est super nos lumen vultus tui, Domine. Et hoc lumen videtur <name ref="#Aristotle">Philosophus</name> intellexisse esse intellectum agentem. Dicit enim quod ille intellectus, quo est omnia facere, est sicut habitus quidam, ut in lumine : quodam enim modo et lumen facit colores potentia actu colores, sicut habetur III De anima. Huius autem simile potest poni in oculo cati, qui non solum habet potentiam suscipiendi per naturam perspicui sicut alii oculi, sed etiam potentiam faciendi in se speciem per naturam luminis sibi inditi.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e229">Quartus autem modus assignandi differentiam inter possibilem et agentem, quo scilicet differunt sicut potentia absoluta et comparata, dupliciter habet intelligi.
+Uno modo, ut intelligatur quod una omnino et eadem est potentia intellectus agens et possibilis, differens comparatione sola : ut agens sit prout est in se considerata, possibilis vero prout unitur corpori et phantasmatibus. Et hic modus dicendi videtur fundari super verba <name ref="#Aristotle">Philosophi</name>, qui vult quod intellectus agens semper est in suo actu, possibilis vero aliquando sic, aliquando non. Quod enim anima lassetur et perturbetur in actu intelligendi, hoc est ex coniunctione sui ad corpus.
+Sed hic modus ponendi deficit a veritate, quoniam anima separata habet intellectum quo est omnia facere, habet etiam intellectum quo est omnia fieri : ergo habet agentem et possibilem, etiam cum separata est : ergo intellectus possibilis non inerat ei solum ex coniunctione sui cum corpore.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e236">Alius modus intelligendi praedictam differentiam est, ut dicatur intellectus agens differre a possibili sicut potentia absoluta a comparata ; non quia sit omnino eadem potentia comparatione differens, sed quia, cum sit alia et alia intellectus differentia, una est, per quam ordinatur anima ad suscipiendum, altera vero, per quam ordinatur ad abstrahendum ; et ita una de se quodam modo completa et habilitata, alia vero indigens habilitatione et complemento ; et cum sit nata ad illud complementum venire mediante auxilio corporis et corporalium sensuum, inest ipsi animae, secundum quod habet inclinari ad corpus. Et ex hoc contrahit duplicem possibilitatem : unam respectu actus, quia non est semper in actu suo propter impedimentum a parte corporis ; alteram respectu phantasmatum, a quibus excitari habet ; et hanc possibilitatem non habet nisi ex coniunctione sui cum corpore, quamvis sit potentia de natura sua, qua est omnia fieri, quae non solum est in anima coniuncta, sed etiam in anima separata.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q4-d1e239">Sic igitur patet quomodo ex multis modis dicendi elicitur quidam intellectus differentiae inter intellectum agentem et possibilem. Cum enim sint quatuor principales modi assignandi differentiam inter hos intellectus, et quilibet subdividatur in duos, sicut in prosequendo monstratum est, solummodo tres modi digni sunt approbari, quorum unus ab altero non discordat, sed unus ortum habet ex altero. Quia enim diversae sunt differentiae intellectus, quae etsi respiciant totum compositum, una tamen magis respicit animae complementum, alia vero materiale principium ; hinc est quod una non solum tenet rationem potentiae, immo etiam potentiae habitualis, altera vero tenet pure rationem potentiae. Et hinc est quod una dicitur convenire animae secundum se, altera vero in comparatione ad corpus, et una semper esse in actu, altera vero non ; non quia semper anima actu inteiligat per intellectum agentem, sed quia, sicut lumen corporale semper lucet et de se promptum est ad illuminandum, res autem illuminabilis non semper illuminatur propter aliquod impedimentum, sic et in proposito intelligendum est.
+Concedendae sunt igitur rationes ostendentes intellectum agentem et possibilem duas differentias esse intellectivae potentiae, licet aliquae ex eis non sint multum cogentes.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a2q4-Dd1e244">
+               <head xml:id="bb-l2d24p1a2q4-Hd1e246">Ad principales</head>
+               <p xml:id="bb-l2d24p1a2q4-d1e249">Ad illud autem quod obicitur, quod non differt posse et esse in perpetuis, dicendum quod hoc intelligitur de esse substantiali et de differentia non secundum naturam, sed de distantia secundum tempus, quia in eis materia tempore non praecedit actum ; et ideo nihil facit ad propositum, quia intellectus possibilis non dicitur possibilis respectu esse primi, sed actus secundi.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e252">Ad illud quod obicitur de imaginatione, quod non differt potentia activa et passiva, dici potest quod magis differt quam in intellectu, quia organum corporale, in quo recipiuntur phantasmata, est ei loco potentiae passivae ; ipsa vero vis imaginaria est loco potentiae activae.
+Aliter potest dici quod non est simile, quia, cum species defertur a sensu usque ad imaginationem, non exit genus abstractionis, quae quidem fuit in sensu particulari ; sed cum species pervenit ad intellectum, novum genus abstractionis ibi exigitur et aliud genus luminis. Ideo magis indiget potentia activa, distincta a possibili, ipse intellectus quam imaginatio vel sensus.</p>
+
+               <p xml:id="bb-l2d24p1a2q4-d1e255">Ad illud quod obicitur de oculo cati, dicendum quod, etsi potentia receptiva et abstractiva possint concurrere ad unius organi completionem, nunquam tamen concurrunt in eamdem unius organi dispositionem. Alia enim est dispositio in oculo cati per quam recipit, scilicet perspicuitas, et alia per quam abstrahit, scilicet luminositas, et alterius et alterius naturae. Sic et in potentia intellectiva, etsi concurrant ad complementum et perfectionem potentiae intellectivae potentia per quam recipit, et potentia per quam abstrahit, non sunt tamen eiusdem naturae nec per eamdem naturam insunt animae ; et ideo non sunt una differentia potentiae, sed diversae.</p>
+               <p xml:id="bb-l2d24p1a2q4-d1e258">Ad illud quod obicitur, quod intelligere est actus unus et simplex, dicendum quod, etsi intelligere possit quodam genere simplicitatis dici actus simplex, nihilominus tamen ad nostrum intelligere concurrit recipere et iudicare sive abstrahere et suscipere ; et hi sunt plures actus ad invicem ordinati, ex quibus resultat unus actus perfectus. Sic et in potentiis intelligendum est se habere quod sic sunt diversae differentiae intellectus ut tamen in suis actionibus ad invicem ordinatae sint et coniunctae ad actum intelligendi perficiendum, sicut materiale et formale principium ad unum esse compositi constituendum.</p>
+
+               <p xml:id="bb-l2d24p1a2q4-d1e262">5-6. Ad illud quod obicitur, quod intellectus possibilis intelligit et intellectus agens similiter recipit, dicendum quod intellectus possibilis non est pure passivus, sicut supra ostensum est : habet enim potentiam se convertendi ; nec tamen est adeo activus sicut agens, quia non potest sua conversione nec speciem abstrahere nec de specie iudicare nisi adiutorio ipsius agentis. Similiter nec ipse intellectus agens operationem intelligendi potest perficere nisi formetur acies intellectus possibilis ab ipso intelligibili, ex qua formatione est in pleniori actualitate respectu eius quod debet cognoscere quam erat prius, cum carebat specie.
+Et ita, cum cogitamus de intellectu agente et possibili, non debemus cogitare quasi de duabus substantiis vel quasi de duabus potentiis ita separatis quod una sine alia habeat operationem suam perficere, et aliquid intelligat intellectus agens sine possibili, et aliquid cognoscat intellectus agens, quod tamen homo, cuius est ille intellectus, ignoret. Haec enim vana sunt et frivola, ut aliquid sciat intellectus meus quod ego nesciam ; sed sic cogitandae sunt esse illae duae differentiae, quod in unam operationem completam intelligendi veniant inseparabiliter, sicut lumen et diaphanum veniunt in abstractionem coloris.
+Nec sunt hic sequenda communiter verba philosophorum, quia pro magna parte decepti sunt in influentia intelligentiae super, animam, quam non admittit fides catholica.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

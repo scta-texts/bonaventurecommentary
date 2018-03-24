@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 17, A. 1, Q. 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 17, A. 1, Q. 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d17a1q1">
+            <head xml:id="bb-l2d17a1q1-Hd1e99">II, Distinctio 17, A. 1, Q. 1</head>
+            <head xml:id="bb-l2d17a1q1-Hd1e102" type="question-title">Utrum anima humana sit ex Dei substantia.</head>
+ 
+            <p xml:id="bb-l2d17a1q1-d1e105">Circa primum sic proceditur et ostenditur quod anima humana sit ex Dei substantia.</p>
+            <div xml:id="bb-l2d17a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d17a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d17a1q1-d1e113">1. Primo auctoritate, Genesis 2, 7 : <quote xml:id="bb-l2d17a1q1-Qd1e115" ana="#gen2_7">Inspiravit in faciem eius spiraculum vitae</quote> ; sed inspiratio est per egressum alicuius ab intrinseco : ergo sicut Spiritus sanctus, qui est eiusdem naturae cum spirante, sic humanus spiritus, qui fuit inspiratus a Deo, est de natura divina. Si tu dicas quod insufflatio vel inspiratio potest esse rei diversae per naturam, obicitur, quia Glossa dicit super illud Ioannis : <quote xml:id="bb-l2d17a1q1-Qd1e118" ana="#io20_22">Insufflavit eos et dixit eis</quote> : Accipite etc. : <name ref="#Augustine">Augustinus</name> dicit ibi quod in hoc ostendit ex se procedere Spiritum sanctum : si ergo Deus insufflavit in faciem hominis spiraculum vitae, videtur quod spiritum hominis produxit ex se.</p>
+
+               <p xml:id="bb-l2d17a1q1-d1e125">2. Item, Ecclesiastis ultimo, 7 : <quote xml:id="bb-l2d17a1q1-Qd1e127" ana="#quoh12_7">Donec pulvis revertatur in terram, unde erat, et spiritus redeat ad Deum, qui dedit illum</quote> : si igitur spiritus redit ad Deum, sicut pulvis redit ad terram, sicut homo quantum ad carnem est de terra, ita videtur quod quantum ad spiritum est de Dei substantia.</p>
+               <p xml:id="bb-l2d17a1q1-d1e131">3. Item, Actuum decimo septimo : <quote xml:id="bb-l2d17a1q1-Qd1e133" ana="act17_28">Genus enim Dei sumus, sicut quidam poetarum vestrorum dixerunt</quote> ; sed quae sunt eiusdem generis sunt eiusdem naturae : ergo nos et Deus sumus eiusdem naturae ; sed non quantum ad corpus ; ergo quantum ad animam : ergo anima est de Dei substantia.</p>
+               <p xml:id="bb-l2d17a1q1-d1e137">4. Item, ratione videtur. Omnia corporalia producuntur ex aliqua materia, quae est in omnibus corporalibus una : ergo pari ratione spiritualia producuntur ex aliqua spirituali natura, quae in omnibus spiritibus sit una ; sed spiritualis substantia in omnibus reperta per identitatem non est nisi divina : ergo anima facta est ex Dei substantia.</p>
+               <p xml:id="bb-l2d17a1q1-d1e141">5. Item, solus Deus est immortalis per naturam ergo nulli convenit immortalitas per naturam nisi quod est vel Deus vel ex Deo ; nulli aut,em convenit esse imaginem Dei nisi cui convenit esse immortalem per naturam : <quote xml:id="bb-l2d17a1q1-Qd1e143">non enim esset imago, sicut dicit <name ref="#Augustine">Augustinus</name>, si mortis termino clauderetur</quote> si igitur anima rationalis naturaliter est imago, ergo naturaliter est immortalis : ergo de Dei substantia producta fuit.</p>
+               <p xml:id="bb-l2d17a1q1-d1e150">6. Item, Deus est lux spiritualis quae est fons omnis illuminationis spiritualis, sicut sol est fons illuminationis corporalis ; sed corpora luminosa sunt eiusdem naturae cum luce et cum sole : ergo pari ratione spiritus naturaliter luminosi sunt eiusdem naturae cum fonte lucis spiritualis. Sed quidquid est eiusdem naturae cum Deo, vel est Deus vel de Deo : ergo etc.</p>
+
+ 
+               <p xml:id="bb-l2d17a1q1-d1e153">Contra : 1. Genesis 1, 26 : <quote xml:id="bb-l2d17a1q1-Qd1e155" ana="#gen1_26">Faciamus hominem ad imaginem et similitudinem nostram</quote> ; hoc non est dictum secundum corpus, ergo secundum animam : ergo anima hominis est facta ; et circa divinam naturam non cadit factio vel mutatio : ergo non est ex Dei natura sive substantia.</p>
+               <p xml:id="bb-l2d17a1q1-d1e159">2. Item, si anima est ex Dei natura, cum anima sit pars hominis, Dei natura venit ad constitutionem hominis ; sed pars est minus nobilis quam totum : ergo Deus est minus nobilis quam homo ; sed hoc est falsum et impium : ergo etc.</p>
+               <p xml:id="bb-l2d17a1q1-d1e162">3. Item, si anima est ex divina natura, aut ergo habet aliquam formam superinductam illi naturae ex qua est aut nullam. Si nullam : ergo non videtur esse nec facta nec a Deo diversa. Si aliquam : ergo divina natura est ipsius animae materia. Sed quod est materiale principium alicuius est minus completum et imperfectum : ergo Deus est incompletus et imperfectus per naturam ; quod est blasphemia.</p>
+               <p xml:id="bb-l2d17a1q1-d1e165">4. Item, si anima est ex Dei substantia, et anima depravatur : ergo contingit divinam substantiam depravari ; et si contingit Dei substantiam depravari, Deus non est summe bonus. Cum igitur rationalis spiritus peccare possit, sicut patet, rationalis spiritus non est ex Deo.</p>
+               <p xml:id="bb-l2d17a1q1-d1e169">5. Item, si anima est ex Deo, aut igitur per generationem aut per spirationem. Si primo modo, tunc anima nihil aliud est quam Verbum ; si secundo, tunc anima non est aliud quam Spiritus sanctus : ergo omnis homo esset Deus.</p>
+               <p xml:id="bb-l2d17a1q1-d1e172">6. Item, si anima hominis esset ex Deo, aut de toto Deo aut de parte. Si de parte : ergo Deus est compositus et habet partem et partem ; quod est omnino falsum. Si de toto : sed Deus est immensus et infinitus : ergo cuiuslibet hominis anima est Immensa et infinita. Et si hoc, quilibet homo est omnipotens ; quod nullus dubitat esse falsum.</p>
+            </div>
+            <div xml:id="bb-l2d17a1q1-Dd1e176">
+               <head xml:id="bb-l2d17a1q1-Hd1e178">Conclusio</head>
+               <head xml:id="bb-l2d17a1q1-Hd1e181" type="question-title">Anima humana non est producta ex Dei substantia</head>
+ 
+               <p xml:id="bb-l2d17a1q1-d1e184">Respondeo : Dicendum quod aliquorum positio fuit quod intellectus humanus non erat aliud quam intellectus divinus ; sed divinus intellectus dicebatur prout considerabatur in se, humanus vero prout, perficiebat corpus aliquod.
+Sed cum Deus nullius sit pars constitutiva propter suam summam perfectionem et absolutionem, positio haec fuit stulta et erronea.</p>
+ 
+               <p xml:id="bb-l2d17a1q1-d1e187">Est et alia positio non minus stulta et impia, Manichaeorum videlicet, quod spiritus rationalis sit de Dei substantia et natura. Dicunt enim quod in homine est duplex anima, sicut recitat <name ref="#Augustine">Augustinus</name>, in libro De duabus animabus, quarum una inclinat ad bona et alia inclinat ad mala ; et illa quae facit bona nunquam potest facere mala, et illa quae facit mala nunquam potest facere bona, et illa quae inclinat ad faciendum bonum est de Dei natura.
+Sed haec positio multipliciter a veritate est aliena. Primum, quia ponit Deum eiusdem naturae esse cum creatura et alicuius creaturae esse materiam, cum ponit creaturam fieri ex Dei substantia. Et ad hanc positionem sequuntur innumerabilia inconvenientia, et hoc praecipuum est, quia implicat in se duo opposita, dum ponit animam a Deo esse factam et eam esse de substantia divina.
+Deviat etiam a veritate in hoc quod ponit in nobis duas animas ; sed huius improbatio melius tangetur infra.
+</p>
+ 
+               <p xml:id="bb-l2d17a1q1-d1e193">Et ideo tertia positio est vera et catholica, quod anima non est producta de Dei substantia. Deus enim ad creaturas se habet in ratione efficientis et formalis et fiuis, sed nullo modo potest se habere in ratione materialis, quantumcumque creatura sit nobilis. Et ideo rationes hoc probantes concedendae sunt.</p>
+            </div>
+            <div xml:id="bb-l2d17a1q1-Dd1e198">
+               <head xml:id="bb-l2d17a1q1-Hd1e200">Ad rationes</head>
+               <p xml:id="bb-l2d17a1q1-d1e203">1. Ad illud vero quod obicitur in contrarium, quod inspiravit in faciem eius etc., dicendum quod inspirare idem est ibi quod spiritum facere et factum corpori infundere ; similiter et insufflare est flatum hominis facere et factum corpori infundere. Unde sicut, quando Deus res produxit dicendo, non fuit ibi vox materialis, sic quando insufflavit, non fuit mediantibus faucibus et instrumentis corporalibus. Et ideo non valet illud simile de Ioannis 20, 22, ubi ad litteram : sufflavit, et illa insufflatio erat processionis Spiritus sancti signatio et ostensio.</p>
+               <p xml:id="bb-l2d17a1q1-d1e206">2. Ad illud quod obicitur de Ecclesiaste : Et spiritus redeat ad Deum etc., dicendum quod sicut corporis resolutio stat, cum perventum est ad terram, sic mutabilitas animae tunc demum stat, quando coniungitur ei secundum quem facta est. In solo enim Deo invenit perfectam quietem. Et ideo non vult Sapiens dicere quod spiritus redeat ; ad Deum per corruptionem, sicut corpus in terram, sed similitudo est quantum ad quletationem.</p>
+               <p xml:id="bb-l2d17a1q1-d1e209">3. Ad illud quod obicitur, quod genus Dei sumus, dicendum quod genus dupliciter accipi potest : uno modo proprie, et sic dicuntur aliqua convenire in genere, quae conveniunt in aliqua forma et natura communi. Alio modo accipitur large, et sic dicuntur aliqua convenire in genere, in quibus est aliqua convenientia specialis secundum habitudinem analogiae. Et sic dicit <name ref="#Augustine">Augustinus</name>, XII De Trinitate quod anima <quote xml:id="bb-l2d17a1q1-Qd1e214" source="http://scta.info/resource/adt-12">cognoscit in quadam luce sui generis</quote> ; et vocat illam lucem lucem increatam, quam dicit esse sui generis propter hoc quod est spiritualis, sicut anima. Et sic intelligitur verbum Apostoli.</p>
+               <p xml:id="bb-l2d17a1q1-d1e218">4. Ad illud quod obicitur, quod corporalia sunt ex aliquo uno, respondendum est quod hoc non concludit quod spiritus rationales fiant ex Deo ; illud enim unum ex quo fiunt corporalia, est ens in potentia respectu illorum ; Deus autem respectu nullius potest esse in potentia ; et ideo ex hoc non sequitur quod spirituales substantiae producantur de divina natura.</p>
+               <p xml:id="bb-l2d17a1q1-d1e222">5. Ad illud quod obicitur, quod solus Deus est immortalis per naturam, dicendum, quantum sufficit ad praesens - quia infra habebitur de immortalitate - quod immortalitas per naturam, dicta de Deo, intelligitur per privationem omnis gratiae, sive gratia dicat aliquid superadditum naturae sive dicat gratuitam influentiam, per quam conservatur natura, quia Deus se ipso permanet, anima autem, etsi de sui natura sit ad permanendum idonea, tamen nunquam permaneret nisi conservaretur per gratuitam Dei influentiam.</p>
+               <p xml:id="bb-l2d17a1q1-d1e225">6. Ad illud quod obicitur, quod Deus est lux spiritualis etc., dicendum quod non est simile de luce spirituali et corporali omnino. Lux enim spiritualis, quae Deus est, cum sit simplicissima, non potest esse perfectio rerum diversarum naturarum. Cum autem sit omnipotentissima, potest producere et facere lucem creatam aliquo modo sibi conformem ; quae tamen sibi non sufficit, etiam postquam producta est nisi adsit ei summae lucis influentia. Et sic intelligendum est in anima humana quod ipsa habet lucem propriam, scilicet creatam, per quam completur, quae a luce aeterna et producitur et conservatur. Lux autem corporalis in diversis corporibus potest reperiri ut perfectio, cum non sit forma omnino simplex, sed sit nata coniungi materiae.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

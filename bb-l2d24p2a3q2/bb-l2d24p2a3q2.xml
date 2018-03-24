@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2a3q2">
+            <head xml:id="bb-l2d24p2a3q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d24p2a3q2-Hd1e102" type="question-title">Utrum in sensualitate possit esse mortale peccatum.</head>
+ 
+            <p xml:id="bb-l2d24p2a3q2-d1e105">Secundo quaeritur, utrum in sensualitate possit esse peccatum mortale.</p>
+            <div xml:id="bb-l2d24p2a3q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d24p2a3q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p2a3q2-d1e113">Et quod sic, videtur.
+Sicut primus motus habet esse in parte sensibili, ita etiam et actus in quo est consummatio peccati : ergo sicut ponitur in sensualitate esse peccatum veniale propter primum motum, ita ponendum est esse mortale propter actum consummatum.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e116">Item, in eodem in quo est dispositio natus est esse habitus ; sed veniale disponit ad mortale : ergo, cum veniale possit esse in sensualitate, ut ostensum est, videtur etc.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e119">Item, iustitiae originali opponitur culpa mortalis ; sed illa originalis iustitia non tantum fuit in Adam secundum rationem, sed etiam secundum partem sensibilem, quia totus ordinatus erat : ergo videtur quod mortalis culpa in sensualitate esse possit, cum opposita nata sint fieri circa idem.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e122">Item, sicut superior portio rationis se habet ad bonum, ita sensualitas declinat ad malum ; sed in superiori portione rationis potest esse veniale peccatum ex surreptione, sicut supra ostensum est ; ergo econtra ex pleno consensu et peccati perpetratione mortale peccatum descendere poterit usque ad sensualitatem, ut sicut sensualitas communicat veniale peccatum superiori, ita superior pars communicet mortale peccatum sensualitati.</p>
+
+ 
+               <p xml:id="bb-l2d24p2a3q2-d1e126">Sed contra : Completivum mortalis peccati, in quantum huiusmodi, est aversio a Deo ; sed solius rationis est a Deo averti, cum eius solius sit ad Deum converti : ergo ex sola ratione potest peccatum esse peccatum mortale.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e129">Item, solus consensus facit mortale peccatum ; sed consensus est solius partis rationalis : ergo etc.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e132">Item, culpa mortalis et gratia mutuo se expellunt : ergo habent esse circa idem ; sed gratia gratum faciens, cum in ea attendatur imago similitudinis, non habet esse nisi in ratione : ergo nec culpa mortalis.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e135">Item, si culpa mortalis esset in sensualitate, hoc non esset nisi quia per ipsam perpetratur : ergo quando aliquis perpetrat homicidium per gladium et manum, peccatum homicidii erit in gladio et manu ; quod si falsum est dicere, absurdum est etiam dicere peccatum mortale esse in sensualitate.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a3q2-Dd1e139">
+               <head xml:id="bb-l2d24p2a3q2-Hd1e141">Conclusio</head>
+               <head xml:id="bb-l2d24p2a3q2-Hd1e144" type="question-title">Peccatum mortale, nec quatenus dicit culpam, nec 
+    quatenus dicit vitium, ponendum est in sensualitate</head>
+
+               <p xml:id="bb-l2d24p2a3q2-d1e147">Respondeo : Dicendum quod mortale peccatum, nec in quantum culpa nec in quantum vitium, ponendum est esse in sensualitate.
+Et ratio huius est, quia aliter vitiat peccatum mortale quam peccatum veniale. Peccatum enim mortale vitiat et deordinat deordinatione perfecta, ut ita dicam, quae quidem consistit in aversione a Deo et eius contemptu et deliberationis consensu. Haec autem solius rationis sunt ; et ideo mortale peccatum in sola ratione consistit. Deordinatio autem venialis non est deordinatio consummata, sed inchoata ; et quia deordinatio inchoari habet in potentia inferiori et consummari in superiori, hinc est quod veniale peccatum, in quantum vitium est, in sensualitate reperitur. Non enim directe opponitur habitui virtutis, sicut vitium mortalis peccati, sed solum ex quadam inclinatione et comparatione ad terminum ad quem disponit. Vitiositas autem et deordinatio mortalis simpliciter excludit habitum virtutis ; et propterea omne peccatum mortale in ratione ponitur et nullum in sensualitate.
+Et concedendae sunt rationes hoc ostendentes.</p>
+            </div>
+            <div xml:id="bb-l2d24p2a3q2-Dd1e152">
+               <head xml:id="bb-l2d24p2a3q2-Hd1e154">Ad rationes principales</head>
+               <p xml:id="bb-l2d24p2a3q2-d1e157">Ad illud quod obicitur primo, quod actus mortalis peccati est in sensualitate sicut primus motus, dicendum quod, etsi contingat utrumque in sensualitate reperiri, aliter tamen et aliter. Nam primus motus in sensualitate reperitur, ita quod ibi sumit originem, et potius est sensualitatis rationem excitantis quam a ratione excitatae et motae. Actus autem mortalis peccati sic reperitur in sensualitate quod originem sumit ab imperio rationis, et est sensualitatis potius motae quam moventis. Et quoniam deordinatio et vitiositas ibi ponitur esse peccatum ubi sumit originem et ubi est in ratione actionis, non in ratione passionis, hinc est quod ex primo motu existente in sensualitate ponitur ibi esse peccatum veniale ; ex actu vero peccati per sensualitatem perpetrato non ponitur in ea esse peccatum mortale.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e160">Ad illud quod obicitur, quod dispositio et habitus in eadem potentia habent fieri, dicendum est quod verum est de illa dispositione quae est eiusdem naturae cum habitu et de qua transitur in habitum, sicut scientia-dispositio fit scientia-habitus. De illa autem dispositione quae est alterius generis et disponit solum per quamdam ordinationem veritatem non habet. Actus enim unius potentiae potest esse dispositio ad eliciendum actum alterius potentiae, sicut cognitio ad affectionem. Et sic in proposito habet esse ; ideo non valet.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e163">Ad illud quod obicitur de iustitia originali, dicendum quod de originali iustitia dupliciter contingit loqui : aut in quantum dicit habitum quemdam regulantem naturam in statu innocentiae aut in quantum dicit omnium virium rectificationem plenariam. Primo modo originalis iustitia habet esse in sola ratione ; et sic opponitur ei culpa. Secundo modo non solum habet esse in ratione, sed etiam in viribus inferioribus ; et sic non solum habet auferri per culpam, sed etiam per poenam, sive per aliquid quod aliquo modo habet rationem poenae, aliquo modo rationem culpae ; et tale est veniale peccatum.</p>
+               <p xml:id="bb-l2d24p2a3q2-d1e166">Ad illud quod obicitur, quod sicut se habet sensualitas ad illicitum, sic se habet ratio ad bonum, dicendum quod illa comparatio non valet, propterea quod plus potest virtus superior quam inferior ; ideo, etsi superior potentia possit induere actum et dispositionem inferioris et negotiari circa eius obiectum, non tamen sequitur quod possit esse e converso.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

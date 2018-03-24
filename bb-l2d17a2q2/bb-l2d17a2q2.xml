@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 17, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 17, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d17a2q2">
+            <head xml:id="bb-l2d17a2q2-Hd1e99">II, Distinctio 17, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d17a2q2-Hd1e102" type="question-title">Utrum corpus Adae constitutum fuerit ex natura pure elementari.</head>
+ 
+            <p xml:id="bb-l2d17a2q2-d1e105">Secundo quaeritur, utrum corpus Adae sive corpus primi hominis constitutum fuerit de natura pure elementari, an simul cum natura elementari ad eius constitutionem concurrerit natura caelestis.
+Et quod simul cum elementari concurrat natura caelestis ad corporis humani constitutionem, videtur.</p>
+            <div xml:id="bb-l2d17a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d17a2q2-Hd1e110">Rationes principales</head>
+
+               <p xml:id="bb-l2d17a2q2-d1e113">Primo per <name ref="#Augustine">Augustinum</name>, Super Genesim ad litteram, qui dicit quod anima mediante luce corpus vivificat et administrat ; et eadem est sententia Avicennae. Si ergo corpus humanum sic conditum est, ut natum esset ab anima vivificari, videtur quod ad eius constitutionem concurrerit natura lucis ; et haec est natura caelestis : ergo etc.</p>
+               <p xml:id="bb-l2d17a2q2-d1e119">Item, <name ref="#Aristotle">Philosophus</name>, in XVI De animalibus, dicit quod in nobis est <quote xml:id="bb-l2d17a2q2-Qd1e124">calor igneus et calor caelestis, qui quidem est calor vitalis</quote> ; sed non est accidens sine substantia : ergo de constitutione corporis nostri est caelestis natura.</p>
+               <p xml:id="bb-l2d17a2q2-d1e128">Item, impossibile est contraria venire ad conformitatem et unitatem nisi per unum quod sit elevatum a contrarietate, quia si illud haberet contrarietatem, potius discordiam faceret quam conciliaret. Si igitur natura corporalis, a contrarietate elevata, non est nisi natura caelestis, et in corpore vivificabili necesse est contraria elementa conciliari maxime, videtur ergo quod de constitutione primi hominis fuerit natura caelestis.</p>
+               <p xml:id="bb-l2d17a2q2-d1e131">Item, omne corpus mediante anima rationali quodam modo habet beatificari ; sed non pertingunt ad beatitudinem mediante anima nisi quae ei uniuntur ; nulla tamen corpora ei coniunguntur nisi quae sunt de constitutione sui corporis : videtur ergo quod corpus primi hominis non tantum constitutum sit de natura elementari, verum etiam de natura caelesti.</p>
+               <p xml:id="bb-l2d17a2q2-d1e135">Item, in quolibet organo cuiuslibet sensus dominatur aliquod corpus simplicium, sicut ostendit <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram : cum igitur quinque sensus sint in homine, videtur quod quinque corpora sint de eius constitutione : ergo non solum natura elementaris, sed etiam caelestis.</p>
+               <p xml:id="bb-l2d17a2q2-d1e141">Item, ordo est in ascendendo et in descendendo, ita quod ab infimo pervenitur ad supremum per media et e converso ; sed substantia spiritualis maxima distantia distat a natura corporea et opaca et minus a natura perspicua et adhuc minus a natura luminosa quae est natura caelestis : ergo videtur quod nec corpus animae nec anima corpori uniri debeat nisi natura lucis interveniente ; videtur ergo quod corpus primi hominis non tantum de elementari, sed etiam de caelesti natura constitutum fuerit.</p>
+
+               <p xml:id="bb-l2d17a2q2-d1e144">Contra : Ex nullis corporibus constituitur corpus mixtum nisi quae possunt ad invicem agere et pati ; haec autem sola sunt habentia contrarietatem : cum igitur natura quinti corporis talis sit ut non habeat contrarietatem, non videtur quod veniat ad constitutionem corporis mixti : ergo nec ad constitutionem corporis primi hominis.</p>
+               <p xml:id="bb-l2d17a2q2-d1e147">Item, nihil venit ad constitutionem mixti nisi corpus quod est miscibile ; miscibile autem non est nisi corpus rarefactibile et condensabile, et omne tale est corruptibile, natura autem quinti corporis est incorruptibilis : ergo non potuit venire ad constitutionem humani corporis.</p>
+               <p xml:id="bb-l2d17a2q2-d1e150">Item, corpus humanum secundum se totum est propagabile : ergo secundum se totum est generabile et corruptibile per naturam ; sed natura quinti corporis non recipit generationem per corruptionem : ergo non videtur esse de constitutione humani corporis.</p>
+               <p xml:id="bb-l2d17a2q2-d1e153">Item, si est de constitutione, quaero unde sumta sit illa natura ; aut enim de caelo aut de terra. Si de caelo : ergo videtur quod ab ipso caelo fiat aliquarum partium sequestratio, cum generatur homo. Si de terra, sed contra : Nihil est de terra quod non sit natum ex ipsa produci ; sed natura quinti corporis non est nata produci de natura alicuius elementi : ergo nec de caelo nec de terra potest sumi illa natura : ergo non est de constitutione corporis humani. Si tu dicas quod de caelo venit per radiorum immissionem, hoc non videtur conveniens, quia impossibile est per radium separari a sua origine ; impossibile est etiam venire ad alterius constitutionem, cum lumen in medio sit per modum speciei et idoli, quae nullo modo veniunt ad constitutionem alicuius rei naturalis.</p>
+               <p xml:id="bb-l2d17a2q2-d1e157">Item, si natura quinti corporis venit ad constitutionem corporis hominis, quaero quid fiat de ea quando corpus humanum resolvitur. Aut enim tendit sursum aut in propria natura manet deorsum aut corrumpitur in aliquod elementum. Sed in aliquod elementum non potest cedere, cum sit per naturam incorruptibilis. Deorsum in propria natura non convenit sibi manere, cum eius locus proprius sit esse in circumferentia, non in centro. Si sursum tendit : ergo videtur spatium orbium caelestium aliquando ampliari aut condensari. Quod si tu dicas quod cedit in constitutionem alterius corporis nec habet corrumpi, cum ergo ex corpore hominis generentur vermes et bufones et serpentes, poneretur natura quinti corporis esse de constitutione vermium, sicut de constitutione hominum.</p>
+               <p xml:id="bb-l2d17a2q2-d1e160">Item, quaero propter quid natura quinti corporis veniat ad constitutionem humani corporis ; aut enim propter mixtionem aut propter animationem aut propter sensum aut propter intellectum. Si propter mixtionem : ergo tunc esset de compositione cuiuslibet mixti. Si propter animationem : tunc esset de natura cuiuslibet plantae. Si propter sensificationem : tunc esset de natura cuiuslibet animalis bruti. Si ergo venit, hoc est propter intellectum solum. Sed contra : Intellectus nullius partis corporis est actus : ergo, quantum est de se, non magis exigit corpus suum componi de natura caelesti quam de elementari.</p>
+            </div>
+            <div xml:id="bb-l2d17a2q2-Dd1e164">
+               <head xml:id="bb-l2d17a2q2-Hd1e166">Conclusio</head>
+               <head xml:id="bb-l2d17a2q2-Hd1e169" type="question-title">Natura quinti corporis non venti ad constitutionem corporis humani secundum substatiam, sed secundum virtutem et per quandam conformitatem.</head>
+ 
+               <p xml:id="bb-l2d17a2q2-d1e172">Respondeo : Ad praedictorum intelligenliam est notandum quod circa hoc est triplex modus dicendi.</p>
+               <p xml:id="bb-l2d17a2q2-d1e175">Quidam enim dicere voluernnt quod natura caelestis venit ad constitutionem humani corporis sicut elementum, pro eo quod natura caelestis non est alia quam natura ignis ; et ideo, cum constet ignem ad constitutionem humani corporis venire, dicunt corpus humanum ex natura caelesti constitutum esse.
+Haec autem natura ignis, etsi, prout aliis permiscetur, habeat agere et pati et corrumpi et generari, et hoc prout est hic inferius ; prout tamen est in sphaera sua, tranquillitatem et quietem habet nec suscipit corruptiones nec peregrinas impressiones. Et istam suam positionem per verba <name ref="#Augustine">Augustini</name> muniunt, qui negat esse quintum corpus praeter quatuor corpora mundi.
+Sed haec positio viae philosophicae et communi aperte repugnat, quae praefer quatuor corpora mundi ponit essentiam quintam supra omnem contrarietatem elevatam ; quod valde rationabile est, sicut ostensum fuit supra, distinctione decima quarta . Nec huic repugnat sententia <name ref="#Augustine">Augustini</name>, si recte intelligatur, sicut ibidem expositum est.</p>
+ 
+               <p xml:id="bb-l2d17a2q2-d1e184">Ideo aliter alii voluerunt dicere quod natura caelestis venit ad constitutionem humani corporis, non sicut unum ex elementis sed sicut medium ligans omnia elementa et illa concilians. Et hoc dicunt exigere dignitatem complexionis humanae, per quam corpus humanum in sua prima constitutione habuit elementa in optima conciliatione ; habuit etiam idoneitatem ad hoc ut post meriti consummationem inhabitaret in caelesti mansione. Et sic debuit habere naturam caelestem et elementarem de sui constitutione : elementarem, propter statum viae, in quo competebat ipsum habere corpus passibile ; caelestem, propter statum patriae, in quo competebat ipsum habere corpus clarum et impassibile. Et quemadmodum in statu viae natura elementaris praedominatur, sic in statu patriae erit e contrario.
+Hoc autem, etsi videatur satis probabile esse dictum, tamen non modicam habet calumniam, qualiter illa natura quinti corporis, cum sit incorruptibilis et carens contrarietate, veniat ad commixtionem cum aliis elementis. Et iterum, si venit, unde venit et in quid cedit, difficile est assignare.</p>
+ 
+               <p xml:id="bb-l2d17a2q2-d1e188">Et ideo est tertius modus dicendi, quod dupliciter est loqui de natura caelesti : aut per proprietatem aut per conformitateni.
+Per proprietatem natura caelestis dicitur esse natura quinti corporis, quae sic perfecta est sua forma ut nullo modo habeat appetitum ad aliam formationem, sic est activa quod nullo modo potest pati et corrumpi ; et sic est natura orbium et stellarum, et firmamenti. Haec autem non venit ad constitutionem humani corporis secundum substantiam et veritatem, sed solum venit secundum virtutem, quia virtus stellarum et orbium influendo facit elementorum concilialionem, quae veniunt ad humani corporis constitutionem secundum rem, dum actio elementorum regimen et directionem habet ab influentia corporum superiorum.
+Alio modo dicitur natura caelestis per conformitatem ; et sic large accipitur et vocatur natura caelestis illud quod est conforme caelo in subtilitate et in claritate et in quadam sublevatione a contrarietate. Et per hunc modum spiritus, qui sunt de constitutione corporis viventis, et maxime hominis, dicuntur esse naturae caelestis propter subtilitatem et luminositatem, et propter hoc etiam quod sublevationem habent a natura contrarietatis, dum consurgunt ex commixtione elementorum in quadam harmonia et consonantia. Et quoniam in corpore humano, sicut infra palebit, maior est harmonia quam in aliquo corpore mixto, hinc est quod eius calor et spiritus et complexio magis conformantur naturae caelesti. Et hoc modo, accipiendo naturam lucis sive naturam caelestem large sive per conformitatem, intrat constitutionem humani corporis secundum virtutem magis quam constitutionem alicuius alterius mixti propter humanae complexionis aequalitatem et dignitatem. Secundum veritatem tamen, tam spiritus quam calor, qui dicuntur naturae caelestis, sunt de natura elementari, quia deperduntur et restaurantur secundum quod expresse physici dicunt.</p>
+ 
+               <p xml:id="bb-l2d17a2q2-d1e191">Iuxta hanc tertiam viam, quae probabilior est et planior, patet responsio ad quaestionem propositam, patet etiam responsio ad obiecta. Nam rationes ostendentes quod natura quinti corporis non venit ad constitutionem corporis humani, loquuntur de natura caelesti proprie dicta, quae est incorruptibilis et inalterabilis et immiscibills ; et ideo non est miscibilis ad constitutionem tertii. Rationes vero ad oppositum inductae procedunt vel de natura caelesti dicta per conformitatem, sicut duae primae auctoritates ; vel, si concludunt de natura quinti corporis proprie dicta, non ostendunt quod veniat ad constitutionem corporis humani secundum substantiam sed secundum virtutem. Aliter non concludunt, sicut patet discurrendo per singulas.</p>
+            </div>
+            <div xml:id="bb-l2d17a2q2-Dd1e196">
+               <head xml:id="bb-l2d17a2q2-Hd1e198">Ad rationes</head>
+               <p xml:id="bb-l2d17a2q2-d1e201">1. Nam ad illud quod primo obicitur de luce, dicendum quod est lux quinti corporis et lux ignea et lux ex aequalitate complexionis generata sive consurgens ; et haec est illa lux quae facit corpus esse susceptibile vitae, aliae vero minime.</p>
+               <p xml:id="bb-l2d17a2q2-d1e204">2. Ad illud quod obicitur de calore, dicendum quod calor caelestis non dicitur, quia sit in natura caelesti sicut in subiecto, quia illa neque calida est neque frigida, sed quia est a natura caelesti secundum debitam proportionem, ita quod facit ad conservationem ; et talis calor in corpore humano est. Sed ex hoc non sequitur quod natura caelestis veniat ad constitutionem corporis humani secundum substantiam, sed solum quod influat.</p>
+               <p xml:id="bb-l2d17a2q2-d1e207">3. Ad illud quod obicitur de conciliatione, iam patet responsio, quia non conciliat veniens intra, sed sufficit ad conciliandum, influens extra,</p>
+               <p xml:id="bb-l2d17a2q2-d1e210">4. Ad illud quod obicitur de beatificatione, dicendum quod corpora beatificari dicuntur in homine non per veritatem sed per conformitatem ; et ideo ex hoc non sequitur quod de constitutione humani corporis sit natura caelestis secundum veritatem, sed sufficit quod sit secundum conformitatem, ita quod aliquid ei conforme respondeat in humano corpore.</p>
+               <p xml:id="bb-l2d17a2q2-d1e214">5. Ad illud quod obicitur de quinque sensibus, dicendum quod, sicut idem <name ref="#Augustine">Augustinus</name> dicit, unum elementum dominatur in duobus, sicut aqua sub ratione vaporis dominatur in olfactu, sub ratione humoris dominatur in gustu, sicut ipse dicit, III Super Genesim.</p>
+               <p xml:id="bb-l2d17a2q2-d1e220">Ad illud quod obicitur de ordine, dicendum quod, etsi natura caelestis sit excelsior inter corpora simplicia secundum se considerata, non tamen excellit in gradu in comparatione ad ulteriorem formam suscipiendam ; sed is est ordo quod forma elementaris unitur animae medianie forma mixtionis, et forma mixtionis disponit ad formam complexionis. Et quia haec, cum est in aequalitate et harmonia, conformatur naturae caelesti, ideo habilis est ad susceptionem nobilissimae influentiae, scilicet vitae. Et sic in unione animae ad corpus rectus servatur ordo. Magna etiam est dignitas humani corporis propter magnam harmoniam et proportionalem coniunctionem suarum partium, ob quam in statu viatoris conformis fit naturae caelesti ; in statu autem comprehensoris perficietur a Deo, non tantum ut sit conformis, sed etiam ut supra naturam caelestem sit exaltata et sublimata, ut ei congruat potissime habitatio caeli empyrei.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

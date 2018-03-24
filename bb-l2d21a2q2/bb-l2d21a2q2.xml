@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, A. 2, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, A. 2, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21a2q2">
+            <head xml:id="bb-l2d21a2q2-Hd1e99">II, Distinctio 21, A. 2, Q. 2</head>
+            <head xml:id="bb-l2d21a2q2-Hd1e102" type="question-title">Utrum tentatio carnis a tentatione diaboli possit separari</head>
+ 
+            <p xml:id="bb-l2d21a2q2-d1e105">Secundo quaeritur, utrum contingat tentationem carnis a tentatione diaboli separari.</p>
+            <div xml:id="bb-l2d21a2q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d21a2q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d21a2q2-d1e113">Et quod sic, videtur. 1. Quaecumque dividuntur ex opposito, unum potest esse sine altero sive separari potest ab altero ; sed tentatio carnis dividitur contra tentationem hostis : ergo etc.</p>
+               <p xml:id="bb-l2d21a2q2-d1e116">2. Item, diabolus tentavit hominem primum et tentavit Christum ; sed nec caro Christi nec caro hominis primi ad malum impellebat : ergo neuter a carne tentabatur. Igitur, cum tentarentur a diabolo, tentatio, quae est a diabolo, separatur a tentatione quae est a carne.</p>
+               <p xml:id="bb-l2d21a2q2-d1e119">3. Item, esto quod diabolus nunquam nobis mala suggereret, nihilominus sensus nostri ad matum ab adolescentia proni essent : ergo, omni tentatione diaboli circumscripta, adhuc homo tentaretur a carne propria.</p>
+               <p xml:id="bb-l2d21a2q2-d1e122">4. Item, aliud est inquinamentum carnis et aliud inquinamentum spiritus ; sed diabolus impellit ad peccata spiritualia, caro vero ad peccata carnalia : ergo, cum peccatum spirituale possit esse sine carnali et e converso, videtur quod tentatio carnis sequestrari habeat a tentatione diaboli.</p>
+               <p xml:id="bb-l2d21a2q2-d1e126">5. Item, quaecumque duo sic se habent quod in uno contingit mereri et in alio demereri, illa contingit ab invicem separari ; sed tentatio hostis est materia exercendae virtutis, tentatio vero carnis semper est a culpa vel cum culpa, sicut dicit Magister : ergo una istarum sequestrari habet ab altera.</p>
+               <p xml:id="bb-l2d21a2q2-d1e129">6. Item, tentatio carnis et hostis differunt, sicut dicit Magister in littera, sicut tentatio exterior et interior ; sed quod est exterius sequestrari habet ab eo quod est interius : ergo et tentatio carnis ab ea quae est a diabolo. Quodsi tu dicas quod tentatio, quae est ab hoste, est ita interior sicut tentatio quae est a carne, per hoc non effugitur, quia, cum Deus fidelis non permittat hominem tentari supra id quod possit, et alter istorum modorum ad exercitandum sufficiat, nec homo simul possit esse intentus circa diversa, videtur quod alio et alio tempore fiat circa nos tentatio carnis et tentatio diabolica.</p>
+
+ 
+               <p xml:id="bb-l2d21a2q2-d1e132">Sed contra :
+Quod tentatio carnis non habeat esse sine tentatione hostis, videtur. Super illud Psalmi [33, 15] : <quote xml:id="bb-l2d21a2q2-Qd1e134" ana="#ps33_15">Diverte a malo et fac bonum</quote>, Glossa Hieronymi : Mala omnia ab instinctu diaboli procedunt sicut bona ab instinctu Dei. Ergo nullum peccatum fit in quo diabolus non interponat partes suas ; si ergo tentatio carnis via est ad peccatum, videtur quod non possit esse sine tentatione diaboli.</p>
+               <p xml:id="bb-l2d21a2q2-d1e138">2. Item, motus instrumenti non est sine motu principalis motoris ; sed caro est sicut instrumentum in tentando respectu diaboli, sicut dicitur super illud Iob 9, 24 : <quote xml:id="bb-l2d21a2q2-Qd1e140" ana="#iob9_24">Terra data est in manus impii</quote>, id est, caro in manus diaboli : ergo titillatio carnis non est absque impulsione diaboli. Si igitur haec est tentatio, patet etc.</p>
+               <p xml:id="bb-l2d21a2q2-d1e144">3. Item, etsi non sit ponere primum malum, quod non sit ab alio, est tamen ponere malum, quod est initium omnis mali, sicut dicitur Ecclesiastici 10, 15 : <quote xml:id="bb-l2d21a2q2-Qd1e146" ana="#sir10_15">Initium omnis peccati superbia</quote>. Si igitur diabolus rex est super omnes filios superbiae et pater omnis mendacii, videtur quod nullum sit peccatum, quod aliquo modo non procedat ab ipso, et ita ad nullum malum impellit caro absque diabolo : ergo tentatio carnis non separatur a tentatione hostis.</p>
+               <p xml:id="bb-l2d21a2q2-d1e150">4. Item, quod tentatio hostis non separetur a tentatione carnis, similiter ostenditur. Ad Galatas 5, 19-21 : <quote xml:id="bb-l2d21a2q2-Qd1e152" ana="#gal5_19 #gal5_20 #gal5_21">Manifesta sunt opera carnis, quae sunt fornicatio, adulterium, contentiones, aemulationes, irae, rixae, invidiae</quote> etc. ; ibi enumerantur peccata carnalia et spiritualia : ergo videtur quod omnia peccata procedant a carne. Igitur ad nullum malum inclinat tentatio hostis absque tentatione carnis.</p>
+               <p xml:id="bb-l2d21a2q2-d1e157">5. Item, generatio transfertur a corporalibus ad spiritualia ; sed in corporalibus impossibile est generari aliquid a patre absque matre : ergo nec in spiritualibus ; sed pater omnis peccati dicitur esse diabolus, mater vero caro sive concupiscentia : ergo etc. Prima per se patet. Secunda manifestatur per illud quod dicitur Ezechielis 16, 45 : <quote xml:id="bb-l2d21a2q2-Qd1e159" ana="#ez16_45">Pater tuus Amorrhaeus, et mater tua Cethea</quote>. Per Amorrhaeum enim intelligitur diabolus, per Cetheam vero concupiscentia. Et expressius dicit Gregorius, super Leviticum, 19 : Concupiscentia est mater omnis peccati et diabolus pater. Ergo etc.</p>
+               <p xml:id="bb-l2d21a2q2-d1e163">6. Item, diabolus non potest tentare bonum angelum nec malum nec spiritum separatum, sed solum spiritum carni coniunctum : ergo videtur quod aditum non habeat ad mentem nisi per carnem : ergo absque carne non tentat. Ergo non contingit tentationem diaboli a tentatione carnis separari.</p>
+            </div>
+            <div xml:id="bb-l2d21a2q2-Dd1e167">
+               <head xml:id="bb-l2d21a2q2-Hd1e169">Conclusio</head>
+               <head xml:id="bb-l2d21a2q2-Hd1e172" type="question-title">Si consideratur tentatio, ut est a movente primo, 
+      tentatio carnis nunquam potest esse absque tentatione hostis, tentatio vero hostis interdum 
+      est absque tentatione carnis. Si autem tentatio 
+      consideratur ut a movente proximo, utraque ab altera et formaliter et temporaliter separari potest.</head>
+ 
+               <p xml:id="bb-l2d21a2q2-d1e175">Respondeo : Dicendum quod, cum dicimus tentationem esse a carne vel ab hoste, hoc dupliciter potest intelligi : aut sicut a movente primo aut sicut a movente proximo et immediato. Si sicut a movente primo, sic tentatio carnis nunquam potest esse absque tentatione hostis, quia omnis tentatio carnis est ex eius corruptione, quae ortum habuit a prima hostis tentatione. Tentatio tamen hostis potest esse absque tentatione carnis tunc potissime quando is tentafur in quo non est carnis corruptio, sicut fuit in Adam et in Christo, vel quando ex illa tentatione nulla oritur incurvatio. Quando vero tentatio hostis ad peccatum pertrahit, cum nullum peccatum sit in nobis quod non habeat ortum ex concupiscentia aliqua, sic tentatio diaboli a tentatione carnis non potest separari.
+Sic igitur iudicandum est secundum quod tentatio dicitur esse a carne vel ab hoste tamquam a movente primo.</p>
+               <p xml:id="bb-l2d21a2q2-d1e178">Si autem sic dicatur esse sicut a movente proximo et proprio, sicut accipit Magister in littera, sic sequestrantur et distantia formali et distantia temporali. Distantia formali, quia alio modo tentat caro et alio modo diabolus ; et ad aliud vitium impellit haec et ad aliud ille, et primum movens est aliud et aliud. Sequestrantur etiam distantia temporali, quia aliquo tempore vexat diabolus et instigat ad aliquod vitium, ad quod non inclinat caro ; et aliquando potest esse e converso.
+Et sic isto ultimo modo accipiendo proprie tentationem carnis et tentationem hostis, ut accipit Magister in littera, concedendum est eas ab invicem separari, ut non solum inter unam et alteram sit differentia, sed etiam una possit esse sine altera.
+Unde concedendae sunt rationes quae hoc probant.</p>
+            </div>
+            <div xml:id="bb-l2d21a2q2-Dd1e183">
+               <head xml:id="bb-l2d21a2q2-Hd1e185">Ad rationes</head>
+               <p xml:id="bb-l2d21a2q2-d1e188">1. Ad illud quod primo obicitur in contrarium, quod omne malum est ab instinctu diaboli, intelligendum est sicut a movente primo, non sicut a motore proximo. Nam absente diabolo, peccatum potest esse a libero arbitrio vel voluntate propria vel a trahente carnis concupiscentia.</p>
+               <p xml:id="bb-l2d21a2q2-d1e191">2. Ad illud quod obicitur, quod caro movet sicut instrumentum, dicendum quod hoc verum est quando diabolus vexat carnem et vexando carnem vexat spiritum ; et tunc tentatio carnis et diaboli non ponunt in numerum. Contingit tamen carnem mediante sensualitate sibi coniuncta spiritum nostrum ad malum inclinare, etiam diabolo non movente ; et tunc non movet sicut instrumentum, sed sicut movens primum : et hoc modo habet sequestrari a tentatione diaboli.</p>
+               <p xml:id="bb-l2d21a2q2-d1e194">3. Ad illud quod obicitur, quod peccatum diaboli est initium omnis mali, dicendum quod hoc non est inteiligendum quod sit principium immediatum respectu cuiuslibet peccati, sed quia ante peccatum eius non fuit aliud, et ipsum fuit initium illius peccati originalis, ex quo est inclinatio ad omne malum.</p>
+               <p xml:id="bb-l2d21a2q2-d1e197">4. Ad illud quod obicitur, quod omnia peccata sunt a carne, dicendum quod caro ibi sumitur large pro omni concupiscentia, quae inhaesit animae ex coniunctione sui ad carnem ; et sic nomine carnis intelligitur concupiscentia, quae est mater omnium malorum, et sine hac diabolus non generat in nobis aliquod peccatum.</p>
+               <p xml:id="bb-l2d21a2q2-d1e201">5. Et per hoc patet responsio ad sequens obiectum de generatione spirituali. Accipitur enim ibi caro et concupiscentia large, sicut ostensum est. Ex illo tamen non sequitur quod teniatio diaboli non possit esse absque tentatione carnis ; non enim omnis tentatio diaboli est peccati generatio : frequenter enim tentat ita quod nulla sequitur culpa.</p>
+               <p xml:id="bb-l2d21a2q2-d1e204">6. Ad illud quod obicitur, quod non tentat nisi hominem carnalem, dicendum quod hoc non est quia tentatio diaboli pendeata tentatione carnis, sed quia non potest aliquem tentare nisi quando habet vertibllitatem liberi arbitrii et est in statu merendi vel demerendi et in quo potest seduci. Et hoc solum est quando spiritus rationalis est coniunctus carni mortali : Ex illa tamen ratione non concluditur quod caro in tentatione diaboli sit causa praecipua, sed solum causa sine qua</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

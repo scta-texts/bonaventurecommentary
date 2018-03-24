@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p1a2q3">
+            <head xml:id="bb-l2d24p1a2q3-Hd1e99">Quaestio 3</head>
+            <head xml:id="bb-l2d24p1a2q3-Hd1e102" type="question-title">Utrum divisio voluntatis per naturalem et deliberativam sit per diversas potentias.</head>
+ 
+            <p xml:id="bb-l2d24p1a2q3-d1e105">Tertio quaeritur de illa divisione potentiarum animae, quae quidem est per naturale et deliberativum ; et quaeritur, utrum divisio voluntatis per naturalem et deliberativam sit per diversas potentias.</p>
+            <div xml:id="bb-l2d24p1a2q3-Dd1e108">
+               <head xml:id="bb-l2d24p1a2q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d24p1a2q3-d1e113">Et quod sic, videtur. <name ref="#JohnDamascenus">Damascenus</name>, cum dividit potentias animae, primo dividit in thelesin et bulesin, id est in naturalem et deliberativam, et postea subdividit per alias potentias. Ergo, si maior differentia est inter prima membra, videtur quod naturalis voluntas et deliberativa sit potentia alia et alia.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e119">Item, divisio substantiae per rationale et non-rationale variat ipsam per essentiam : ergo divisio potentiae per huiusmodi differentias facit potentias essentialiter differre ; sed talis est divisio potentiarum animae per naturalem et deliberativam : ergo etc. Minor probatur per hoc quod, sicut dicit <name ref="#Aristotle">Philosophus</name>, rationales potentiae sunt ad opposita ; sed quando aliqua potentia naturaliter movetur ad aliquid, non movetur ad oppositum : ergo potentia, ut est naturalis, non est rationalis.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e125">Item, cum dividimus creaturam per corruptibilem et incorruptibilem, diversificanius eam essentialiter. Ergo pari ratione, cum dividimus potentiam per mutabilem et immutabilem, eam essentialiter variamus ; sed potentia, quae movetur naturaliter ad suum obiectum, movetur uniformiter, deliberativa vero vertibiliter : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e128">Item, potentia in qua communicamus cum brutis non potest esse eadem cum potentia in qua differimus ; sed in naturali appetitu cum brutis convenimus et in rationali differimus : ergo etc. Sicut enim bruta naturaliter appetunt sui esse conservationem, sic et nos appetimus.</p>
+    
+               <p xml:id="bb-l2d24p1a2q3-d1e132">Sed contra : Potentiae quae habent idem obiectum et sub eadem ratione non habent diversitatem ; sed naturalis voluntas et deliberativa idem habent pro obiecto, videlicet bonum : naturaliter enim bonum appetimus et ex deliberatione etiam, cum bene ordinati sumus : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e135">Item, potentia quae ordinat in finem et in id quod est ad finem non est alia et alia ; sed voluntas nostra, ut est in finem, est naturalis, quia naturaliter unusquisque appetit beatitudinem ; ut est in rem ordinatam ad finem, est deliberativa : ergo etc.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e138">Item, eadem potentia cognitiva est qua cognoscimus aliquid naturaliter et per acquisitionem. Ergo pari ratione eadem est voluntas qua aliquid appetimus per naturalem instinctum et per deliberationis arbitrium.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e141">Item, omne quod est aliqua natura habet operationem naturalem ; sed voluntas deliberativa est aliqua natura : ergo habet operationem naturalem. Sed voluntatis actus est velle : ergo voluntas deliberativa aliquid vult naturaliter ; sed voluntas quae vult aliquid naturaliter est naturalis : ergo voluntas deliberativa est voluntas naturalis.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a2q3-Dd1e145">
+               <head xml:id="bb-l2d24p1a2q3-Hd1e147">Conclusio</head>
+               <head xml:id="bb-l2d24p1a2q3-Hd1e150" type="question-title">
+        Voluntas naturalis et deliberativa, quatenus differunt 
+        in modo appetendi, non sunt diversae potentiae, sed una, diversimode tamen movens
+      </head>
+               <p xml:id="bb-l2d24p1a2q3-d1e153">Respondeo : Dicendum quod, cum dividimus appetitum in naturalem et deliberativum, sive quamcumque aliam potentiam, hoc dupliciter potest intelligi : aut ita quod appetitus naturalis et deliberativus diversitatem habeant in obiectis, utpote cum unum est appetibile solum a substantia rationali, aliud autem est appetibile a brutali. Et hoc modo bene contingit naturalem potentiam et deliberativam esse diversas potentias.
+        Alio modo potest dividi appetitus sive potentia in naturalem et deliberativam, ita tamen quod non sit differentia in obiectis, sed in modo appetendi, ut cum appellamus synderesim esse voluntatem naturalem, quae quidem naturaliter inclinat et instigat ad bonum honestum et murmurat contra malum ; et voluntatem deliberativam appetitum quo post deliberationem aliquando adhaeremus bono, aliquando malo. Et sic divisio potentiae per naturalem et deliberativam non variat eam secundum essentiam potentiae, sed secundum modum movendi. Et hoc modo dividit <name ref="#JohnDamascenus">Damascenus</name>, non quia naturalis et deliberativa sint diversae potentiae, sed quia una est potentia, diversimode tamen movens ; et hoc sufficit ad divisionem potentiarum.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q3-d1e159">Unde notandum est quod multis modis consueverunt auctores divisionem potentiarum animae accipere.
+Aliquando secundum naturam ipsarum potentiarum, ut cum dividuntur potentiae animae in vegetabilem, sensibilem et rationalem, vel ipsa rationalis in Intellectivam et affectivam.
+Aliquando vero secundum officia, ut cum dividitur ratio in superiorem et inferiorem.
+Aliquando secundum status, ut cum dividitur intellectus in speculativum et practicum ; intellectus enim speculativus secundum alium statum efficitur practicus, videlicet dum coniungitur voluntati et operi in dictando et regendo.
+Aliquando vero fit divisio potentiarum secundum aspectus, sicut dividitur potentia cognitiva in rationem, intellectum et intelligentiam, secundum quod aspicit ad inferius, ad par et ad superius.
+Aliquando vero secundum actus, sicut fit divisio in inventivam et iudicativam ; invenire enim et ludicare sunt actus potentiae cognitivae ad Invicem ordinati.
+Aliquando vero fit divisio potentiarum animae secundum modos movendi ; et sic est illa quae est per naturalem et deliberativam.</p>
+ 
+               <p xml:id="bb-l2d24p1a2q3-d1e162">Omnibus his modis diversitatis utuntur auctores in divisione potentiarum animae, et in solo primo modo dividendi attenditur proprie potentiarum diversificatio.
+Concedendum est igitur quod naturalis voluntas et deliberativa potest esse eadem potentia, quae quidem secundum alium et alium modum movendi sic et sic appellatur. Eadem enim est potentia qua appeto beatitudinem et qua appeto virtutem, sive facere hoc bonum vel illud ad beatitudinem ordinatum ; quae, ut appetit beatitudinem, dicitur naturalis, quia immutabiliter appetitus eius ad beatitudinem inclinatur ; ut vero appetit hoc vel illud bonum facere, deliberativa dicitur et secundum indicium rationis potest ad contrarium inclinari.</p>
+            </div>
+            <div xml:id="bb-l2d24p1a2q3-Dd1e167">
+               <head xml:id="bb-l2d24p1a2q3-Hd1e169">Ad rationes</head>
+               <p xml:id="bb-l2d24p1a2q3-d1e172">Ad illud ergo quod primo obicitur de divisione potentiarum facta a <name ref="#JohnDamascenus">Damasceno</name>, iam patet responsio. Ipse enim, ut ibidem patet in sua exemplificatione, potius in hac divisione diversitatem modorum movendi attendit quam diversitatem potentiarum moventium.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e178">Ad illud quod obicitur, quod voluntas naturalis est irrationalis, quia non est ad opposita, dicendum quod, cum dicitur quod potestates rationales sunt ad opposita, hoc non intelligitur de omnibus oppositis, sed de aliquibus. Rationalis enim voluntas ita ordinatur ad aliquid quod nullo modo appetit suum oppositum, ut patet in ordine voluntatis nostrae ad beatitudinem et felicitatem. Licet autem determinate inclinetur ad beatitudinem, ad multa tamen genera appetibilium illa et eadem voluntatis potentia est indeterminata, ita quod nata est moveri in opposita ; et propterea sic est naturalis ut tamen non desinat esse rationalis et deliberativa. Si autem sic esset determinata ad unum quod nullo modo posset in opposita, sicut est potentia calefaciendi et illuminandi in igne, tunc esset pure naturalis, et non esset deliberativa sive rationalis.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e181">Ad illud quod obicitur de incorruptibilitate, dicendum quod non est simile de incorruptibilitate substantiae et immutabilitate potentiae. Incorruptibilitas enim in substantia dicitur absolute, et ideo esse corruptibile et incorruptibile directe opponuntur et sunt incompossibilia circa idem. Mutabile vero et immutabile in potentia accipi possunt respectu diversorum obiectorum, ut patet, cum aliqua voluntas est immutabilis respectu finis et mutabilis respectu eius quod est ad finem ; et ideo non oportet potentias per haec membra essentialiter diversificari.</p>
+               <p xml:id="bb-l2d24p1a2q3-d1e184">Ad illud quod obicitur de naturali appetitu in brutis, iam patet responsio, quia, cum dicitur nos communicare cum brutis in potentia naturali et appetitu, ibi distinguitur naturalis potentia a rationali, non solum quantum ad modum appetendi, sed etiam quantum ad appetibile ; et penes hoc contingit diversas differentias potentiarum accipere.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

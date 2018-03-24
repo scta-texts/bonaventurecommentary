@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 21, A. 3, Q. 3</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 21, A. 3, Q. 3</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d21a3q3">
+            <head xml:id="bb-l2d21a3q3-Hd1e99">II, Distinctio 21, A. 3, Q. 3</head>
+            <head xml:id="bb-l2d21a3q3-Hd1e102" type="question-title">Utrum primum peccatum fuerit gravissimum omnium peccatorum.</head>
+            <p xml:id="bb-l2d21a3q3-d1e105">Tertio quaeritur, utrum peccatum, quod ex illa tentatione subsecutum est, fuerit gravissimum omnium peccatorum.</p>
+            <div xml:id="bb-l2d21a3q3-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d21a3q3-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d21a3q3-d1e113">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name>, XIV De civitate Dei : <quote xml:id="bb-l2d21a3q3-Qd1e118" source="http://scta.info/resource/adcd-l14">Magna fuit in peccando iniquitas, ubi tanta fuit in non peccando facilitas</quote>. Ex quo verbo elicitur tale argumentum : Ubi maior est facilitas ad obediendum, ibi maior est culpa in contemnendo ; sed primo homini obedire fuit facillimum : ergo in transgressione illa fuit peccatum maximum.</p>
+               <p xml:id="bb-l2d21a3q3-d1e122">Item, <name ref="#Augustine">Augustinus</name>, ibidem : <quote xml:id="bb-l2d21a3q3-Qd1e127" source="http://scta.info/resource/adcd-l14">Obedientia secundi hominis eo est praedicabilior quo <quote xml:id="bb-l2d21a3q3-Qd1e129" ana="#phil2_8">factus est obediens usque ad mortem</quote>
+                  </quote>. Ex quo verbo potest elici tale argumentum : Sicut qui est obediens usque ad mortem habet maximum meritum in obediendo et est maxime laudabilis, sicut fuit Filius Dei, sic qui sic est inobediens ut etiam non desistat propter timorem mortis, maxime est culpabilis et vituperabilis ; sed talis fuit inobedientia primorum parentum, qui comminatione mortis non timuerunt transgredi divinum mandatum : ergo videtur quod illud peccatum fuerit maximum.</p>
+               <p xml:id="bb-l2d21a3q3-d1e134">Item, tanto gravius est peccatum quanto magis corrumpit, quia peccatum est corruptio modi, speciei et ordinis ; sed peccatum primorum parentum fuit maxime corruptivum, quia non solum ipsos corrupit, sed etiam totum genus humanum : ergo fuit omnium pectorum maximum.</p>
+               <p xml:id="bb-l2d21a3q3-d1e137">Item, tanto gravius est peccatum quanto maiori poena punitur per iustum Dei iudicium ; sed peccatum primorum parentum punitum fuit poena mortis et exhaeredationis in se et in suis posteris, et haec est maxima omnium poenarum : ergo illud peccatum fuit maximum.</p>
+
+ 
+               <p xml:id="bb-l2d21a3q3-d1e141">Sed contra :Minus est peccatum remissibile quam irremissibile ; sed peccatum illud fuit remissibile, ut supra probatum est ; multa autem peccata sunt irremissibilia : ergo etc.</p>
+               <p xml:id="bb-l2d21a3q3-d1e144">Item, gravius est peccatum quod nullo modo est excusabile quam quod aliquam habet excusationem ; sed peccatum primorum parentum aliquam habet excusationem in hoc quod factum est ad alienam instigationem ; peccalum autem in Spiritum sanctum colorem excusationis non habet : ergo peccatum illud non fuit peccatum gravissimum.</p>
+               <p xml:id="bb-l2d21a3q3-d1e147">Item, tanto gravius est peccatum quanto ex maiori libidine procedit ; sed in primis parentibus minime regnavit libido et voluntatis improbitas, cum eorum natura esset munda et sana : ergo videtur quod illa transgressio ex inobedientia non fuerit maxima.</p>
+               <p xml:id="bb-l2d21a3q3-d1e150">Item, gravius est peccatum quod est contra rationem et naturam et institutionem divinam quam quod solum est contra divinum mandatum ; sed peccatum primorum parentum, quod ex illa tentatione secutum est, nec fuit omnino contra naturam nec contra rationem, sed solum contra divinam institutionem : nam nec natura nec ratio per se dictabat de illo ligno non esse edendum ; multa autem sunt peccata quae sunt contra naturam et rationem et institutionem divinam, quae nos appellamus peccata contra naturam : ergo non videtur quod illa primorum parentum transgressio omnium peccatorum fuerit maxima.</p>
+
+            </div>
+            <div xml:id="bb-l2d21a3q3-Dd1e154">
+               <head xml:id="bb-l2d21a3q3-Hd1e156">Conclusio</head>
+               <head xml:id="bb-l2d21a3q3-Hd1e159" type="question-title">Peccatum Adae non fuit gravissimum propter maiorem libidinem vel ingratitudinem, 
+    fuit tamen aliqualiter, sive sub duplici respectu, gravissimum omnium humanorum peccatorum.</head>
+               <p xml:id="bb-l2d21a3q3-d1e162">Respondeo : Dicendum quod, cum multis modis possit dici peccatum unum gravius et maius altero, ad praesens tamen attendendum est quod tribus modis dicitur unum peccatum esse gravius altero : aut propter maiorem libidinem aut propter maiorem ingratitudinem aut propter maiorem corruptionem.
+Si primo modo loquamur, sic peccatum illud nec fuit maximum simpliciter nec maximum omnium peccatorum hu manorum ; ex maiori enim libidine diabolus peccavit et etiam multi filii Adae ex maiori libidine peccant quam peccaverit primus parens.
+Si vero secundo modo dicatur peccatum maius, scilicet quantum ad ingratitudinem, sic peccatum Adae non fuit maximum simpliciter, maximum tamen fuit omnium humanorum. Maximum namque simpliciter non fuit, quia diabolus ex maiori ingratitudine peccavit, cum plura bona in sua creatione perceperit et de sublimiori statu lapsus fuerit. Fuit tamen maximum omnium humanorum, quia in nobiliori statu et altiori erat quam aliquis posterorum suorum qui lapsus fuerit in peccatum ; et ideo maxime iudicatur fuisse ingratus.
+Si autem dicatur tertio modo peccatum maius altero ratione maioris laesionis, sic quodam modo fuit maximum omnium et quodam modo non. Maior enim laesio dupliciter potest intelligi et esse, scilicet intensive et extensive. Intensive loquendo, peccatum Adae non fuit maximae laesionis, quia non adeo depravavit voluntatem suam sicut multa peccata depravant. Extensive vero loquendo, peccatum illud maximae laesionis fuit, quia nullum peccatum est quod tot personis nocuerit et in tot pertranseat sicut illud peccatum quod perpetratum fuit ex tentatione primaria ; et ita quodam modo fuit gravissimum, quodam modo non.</p>
+            </div>
+            <div xml:id="bb-l2d21a3q3-Dd1e167">
+               <head xml:id="bb-l2d21a3q3-Hd1e169">Ad rationes</head>
+               <p xml:id="bb-l2d21a3q3-d1e172">Et ex hoc patet responsio ad rationes ad utramque partem adductas : utraeque enim secundum diversas vias verum concludunt, sicut aspicienti satis est planum.</p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

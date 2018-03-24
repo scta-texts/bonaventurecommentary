@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio I, Pars 1, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio I, Pars 1, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+              <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+           <pb ed="#H" n="7-v"/><cb ed="#H" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="bb-l2d1p1dt">
+            <head xml:id="bb-l2d1p1dt-Hd1e99">II, Distinctio I, Pars 1, Divisio Textus</head>
+
+
+           <p xml:id="bb-l2d1p1dt-d1e102">Unde liber iste secundus, qui incipit : Creationem rerum etc., dividitur in duas partes.
+             In prima agit de hominis conditione ;
+             in secunda de lapsu eius et tentatione, infra distinctione vigesima prima : Videns igitur diabolus etc.
+             Prima pars habet duas ; quia enim homo communicat cum omnibus creaturis, et caetera facta sunt propter hominem, ideo primo agit de conditione rerum in generali, secundo vero in speciali, infra distinctione secunda : De angelica vero natura etc.
+</p>
+    
+
+           <p xml:id="bb-l2d1p1dt-d1e105">Prima pars habet duas.
+             In prima determinat de conditione rerum quantum ad principium efficiens,
+             in secunda vero quantum ad finem, ibi : Et quia non valet eius beatitudinis etc.
+             
+             Prima pars habet tres particulas.
+             In prima proponit veritatem, quae exprimitur in Scripturae sacrae auctoritate.
+             In secunda vero auctoritatem explanat, ibi : Creare est de nihilo etc.
+             In tertia vero, quia per illam auctoritatem positiones erroneae eliduntur, concludit ultimo earum evacuationem, ibi : Horum ergo et similium errorum etc.
+             
+             Et quaelibet harum partium habet duas.
+             In prima namque parte proponit auctoritatem veritatis ;
+             in secunda errorem Platonis, ibi : Plato namque etc.
+             
+             Similiter et secunda duas habet.
+             In prima explanat auctoritatem et verba auctoritatis.
+             In secunda ponit errorem Aristotelis, ibi : Aristoteles vero duo etc.
+             
+             Eodem modo tertia habet duas.
+             Primo enim concludit errorum improbationem,
+             secundo vero fidei confirmationem, ibi : Credamus igitur etc.</p> 
+         </div>
+      </body>
+   </text>
+</TEI>

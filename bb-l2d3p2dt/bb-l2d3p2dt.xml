@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 3, Pars 2, Divisio Textus</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 3, Pars 2, Divisio Textus</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d3p2dt">
+            <head xml:id="bb-l2d3p2dt-Hd1e99">II, Distinctio 3, Pars 2, Divisio Textus</head>
+            <p xml:id="bb-l2d3p2dt-d1e102">Supra egit Magister de naturaliiras attributis 
+ipsis Angelis. In hac parte agit de habitibus su- 
+peradditis, et hoc per naturam. Dividitur autem haec 
+pars in tres. In prima agit de naturali bonitate. In 
+secunda de naturali cognitione, ibi : Hic quaeri so- 
+let, quam sapientiam. In tertia de naturali dile- 
+ctione, ibi: Solet etiam quaeri etc.</p> 
+
+            <p xml:id="bb-l2d3p2dt-d1e105">Prima pars habet tres. In prima opinionem 
+falsam ponit cum conPirmatione sua. In secunda vero 
+ponit opinionem veram, similiter cum sua confirma- 
+tione, ibi: Aliis autem videtur etc. In tertia opi- 
+nionem falsam exterminat et rationes eius et aucto- 
+ritates explanat, ibi: Ideoque <name ref="#Augustine">Augustinus</name> extermi- 
+nans etc. Et sic in grosso - tria determinat : primo, 
+quales creati sunt Angeli quantum ad bonitatem et 
+malitiam; secundo, quantum ad cognitionem; tertio, 
+quantum ad dilectionem.</p> 
+         </div>
+      </body>
+   </text>
+</TEI>

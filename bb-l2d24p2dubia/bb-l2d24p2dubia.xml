@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubia</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubia</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d24p2dubia">
+            <head xml:id="bb-l2d24p2dubia-Hd1e99">Dubia</head>
+            <div xml:id="bb-l2d24p2dubia-Dd1e102">
+               <head xml:id="bb-l2d24p2dubia-Hd1e104">Dub. I.</head>
+               <p xml:id="bb-l2d24p2dubia-d1e107">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de hoc quod dicit : Si peccatum non diu teneatur in delectatione, veniale est ; si vero diu in delectatione cogitationis teneatur, etsi voluntas perficiendi desit, mortale est. Ex hoc enim videtur quod sola mora de veniali faciat mortale. Sed contra : Circumstantia non mutat genus peccati : ergo, si mora temporis est circumstantia, nunquam faciet de eo quod erat veniale esse mortale.
+Item, mortale excedit veniale in infinitum ; sed circumstantia non aggravat in infinitum : ergo, si mora temporis circumstantia est, videtur etc.</p>
+               <p xml:id="bb-l2d24p2dubia-d1e110">Iuxta hoc quaeritur, quanta mora temporis faciat quod erat veniale esse mortale ; et utrum hoc sit in aliis generibus peccatorum sicut in peccato carnis ; et iterum, quando quis dubitat utrum mortaliter vel venialiter peccaverit, qualiter sit ei consulendum.
+Respondeo : Dicendum quod mora temporis, quantum est de se, non facit ut quod prius erat veniale fiat mortale, sed solum occasionaliter, videlicet quia inducit consensum verum vel interpretativum. Tunc autem inducit consensum verum, quando ex diuturnitate delectationis crescit libido adeo ut homo velit omnino in interiori delectatione persistere et morari. Tunc vero inducit consensum interpretativum, quando homo, advertens periculum delectationis retentae, negligit eam reprimere ; hoc enim non est absque contemptu salutis propriae, pro eo quod discrimini se exponit. Illa enim delectatio subintrat sicut serpens et venena diffundit, per quae rationalis spiritus interit morte culpae. Sicut igitur salutem suam corporalem negligeret qui serpentem iuxta se scienter collocaret, sic in tali delectatione advertens periculum vel debens advertere, voluntarie versatur et exponit se discrimini, quando negligit repellere ; et pro tanto dicit Magister ipsum peccare mortaliter.
+Et patet responsio ad obiecta, quia hoc non facit mora de se, sed ratione consensus vel contemptus.</p>
+ 
+               <p xml:id="bb-l2d24p2dubia-d1e113">Ad illud vero, quod quaeritur, quanta mora hoc faciat, dicendum quod in generali determinatur quod tanta mora hoc facit in qua adeo crescit delectatio et libido quod supervenit consensus, vel adeo est repellendi negligentia et propriae salutis incuria quod supervenit contemptus et consensus interpretativus.
+Si autem in speciali quaeratur quanta sit ista mora, utrum sit unius horae vel dimidiae vel amplioris spatii, non potest una responsio dari, quia aliquando est maioris, aliquando minoris secundum diversos status et conditiones personarum ; unde hoc non determinat scientia vel lectio, sed potius conscientia recta el unctio. Bene antem advertit conscientia recta se non modicum laedi, quando ex morosa delectatione consensus supervenit vel contemptus.
+ Quod si non advertat aliquando propter tenebras et involutiones affectionum nostrarum, securiorem partem debet eligere et confiteri pure, sic etiam dolere quasi peccaret mortaliter.</p>
+ 
+               <p xml:id="bb-l2d24p2dubia-d1e116">Ad illud quod quaeritur, utrum ita sit in omnibus generibus peccatorum, respondendum est quod in omnibus peccatis delectatio morosa vigilanter et strenue vitanda est. Tamen verbum <name ref="#Augustine">Augustini</name> praecipue videtur intelligi in peccato carnis, quod habet ex carnis incentivo delectationem magis sibi coniunctam et ad quam homo facilius incurvatur ; et ideo cum magna diligentia est vitanda, non solum autem hoc, sed etiam omne peccatum. Multa enim frequenter creduntur esse venialia quae sunt mortalia, et difficillimum est in talibus discernere ; et ideo quasi a facie colubri necesse habet homo, qui vult salvari, peccatum fugere.</p>
+            </div>
+            <div xml:id="bb-l2d24p2dubia-Dd1e123">
+               <head xml:id="bb-l2d24p2dubia-Hd1e125">Dub. II.</head>
+               <p xml:id="bb-l2d24p2dubia-d1e128">Item quaeritur de hoc quod dicit quod quaedam sunt quae, si tantum semel fiunt, damnant ; quaedam vero non, nisi saepius fiant. Sed contra : Multiplicatio actuum non mutat genus : ergo, si primum peccatum est veniale, et secundum et tertium ; ergo nunquamfaciuntunum mortale.
+Praeterea, quodlibet veniale stat cum gratia : ergo, si nullum aufert gratiam, nullum aufert vitam : ergo nunquam damnant venialia, quantumcumque multiplicentur.</p>
+               <p xml:id="bb-l2d24p2dubia-d1e131">Ad hoc breviter respondendum est ad praesens quod ista quaestio determinatur in libro quarto, distinctione decima sexta ; ideo ad praesens tantum dixisse sufficiat quod plura venialia non damnant nec faciunt mortale quantum est de se, sed solum dispositive ; ex frequenti enim iteratione venialium augetur libido et frequenter intervenit contemptus ; et pro tanto intelligendum est verbum Magistri esse dictum.</p>
+            </div>
+            <div xml:id="bb-l2d24p2dubia-Dd1e135">
+               <head xml:id="bb-l2d24p2dubia-Hd1e137">Dub. III.</head>
+    
+               <p xml:id="bb-l2d24p2dubia-d1e140">Item quaeritur de hoc quod dicit ultimo capitulo : Saepe in Scriptura nomine sensualitatis inferior portio rationis intelligitur Hoc enim non videtur rationabiliter dictum, quia, cum rationalis portio dividatur contra sensibilem, nullo modo videtur quod ratio sensualitatis nomine debeat censeri.
+Item, quaeritur de hoc quod dicit quod saepe in Scriptura hoc reperitur. Cum enim philosophi de viribus animae sufficienter tractaverint et nullam mentionem faciant de sensualitate, unde est hoc quod sacra Scriptura et doctores sacrae Scripturae hoc nomine utuntur ?
+</p>
+               <p xml:id="bb-l2d24p2dubia-d1e143">Iuxta hoc est quaestio utrum nomine sensualitatis intelligatur una vis vel plures et utrum intelligatur vis cognitiva aut motiva. Quod enim intelligatur vis cognitiva, videtur per hoc quod dicitur a sensu ; sensus enim vis cognitiva est. Quod autem dicatur motiva, videtur per hoc quod in ea habet esse peccatum et ad malum habet inclinare.</p>
+ 
+               <p xml:id="bb-l2d24p2dubia-d1e146">Respondeo : Dicendum quod Scriptura distinguit hominem interiorem et exteriorem, sicut habetur II ad Corinthios 4, 16 : <quote xml:id="bb-l2d24p2dubia-Qd1e148" ana="#IIcor4_16">Etsi is, qui exterior est, noster homo corrumpitur, interior tamen renovatur de die in diem</quote>. Exteriorem autem hominem vocat non ipsum corpus tantum, sed corpus cum viribus animae, per quas habet his sensibus intendere et eis inhaerere. Interiorem autem hominem vocat ipsum spiritum rationalem, secundum quod habet circa caelestia se ipsum occupare. Secundum hoc intelligendum est quod homo habet potentias animae per quas convertitur ad spiritualia ; et habet potentias per quas convertitur ad sensibilia. Et illae virtutes, per quas convertitur ad spiritualia, insimul collectae unum posse perfectum animae integrant ; et quaedam potestas resultat interioris hominis regitiva, quae quidem vocatur arbitrii libertas, in qua consistit principaliter meritum et laus et vituperium. Secundum autem quod homo habet converti ad haec sensibilia, similiter habet et suas potentias, quae similiter in unum concurrentes integrant quasi unum perfectum posse, per quod intenditur circa ista sensibilia ; et hoc nomine sensualitatis censetur in Scriptura, quae simul comprehendit sensibiles cognitivas et motivas, sicut et arbitrii libertas, ut videbitur infra. Et hoc est quod habitum est supra, eadem distinctione, quod sensualitas est quaedam vis animae inferior, ex qua est motus, qui intenditur in corporis exterioris sensus atque appetitus rerum ad corpus pertinentium ; et ita comprehendit de sua propria acceptione sensitivam et motivam brutalem. Et quoniam inrior portio rationis per peccatum multum trahitur a sensualitate, et homo comparatas est tumentis insipientibus et similis factus est illis, ideo inferior portio rationis aliquando in Scriptura nomine sensualitatis censetur propter nimiam conversionem sui ad sensibilia. Et per hoc patet responsio ad omnia obiecta.</p>
+ 
+               <p xml:id="bb-l2d24p2dubia-d1e152">Ad illud tamen quod quaeritur, quare philosophi non hoc nomine utuntur, dicendum quod sensualitas non tantum nominat ipsam potentiam sensibilem quantum ad propriam naturam, sed etiam in quantum respectu rationalis habet quamdam rebellionem, quae ex peccato originali in homine traducitur. Et quoniam non pervenerunt ad cognitionem originalis peccati nec lapsus hominis, ideo non utuntur hoc nomine sicut sacra Scriptura.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

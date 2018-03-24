@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>II, Distinctio 20, A. 1, Q. 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>II, Distinctio 20, A. 1, Q. 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d20a1q2">
+            <head xml:id="bb-l2d20a1q2-Hd1e99">II, Distinctio 20, A. 1, Q. 2</head>
+            <head xml:id="bb-l2d20a1q2-Hd1e102" type="question-title">Utrum in statu innocentiae in commixtione fuisset seminum decisio.</head>
+ 
+            <p xml:id="bb-l2d20a1q2-d1e105">Secundo quaeritur, utrum in illa commixtione esset seminum decisio.</p>
+            <div xml:id="bb-l2d20a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d20a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d20a1q2-d1e113">
+Et quod sic, videtur. <quote xml:id="bb-l2d20a1q2-Qd1e115">Generare est de substantia sua aliquem producere</quote> ; sed nemo producit aliquem de substantia sua nisi det ei partem substantiae suae, cum totam dare non possit nisi solus Deus ; partem autem substantiae non dat nisi decidendo a se : ergo etc.</p>
+               <p xml:id="bb-l2d20a1q2-d1e119">2. Item, filius a patre et matre generatur non tantum effective, sed etiam materialiter ; sed quandocumque aliqua duo sunt materia unius, necesse est ad invicem uniri et commisceri secundum se tota vel secundum aliquid sui ; illud autem, in quo uniuntur, non solum habet rationem materialis, sed etiam effectivi, et tale vocamus semen : ergo, si homo stetisset, generatio nihilominus esset per commixtionem seminum.</p>
+               <p xml:id="bb-l2d20a1q2-d1e122">3. Item, vir ex suo coitu mulierem fecundaret, sed hoc non esset nisi aliquid impartiretur mulieri ; sed constat quod non impartiretur necessarium, quia natura illud sibi reservat : ergo impartiretur alimenti superfluum, et hoc est semen : ergo fieret seminum commixtio.</p>
+               <p xml:id="bb-l2d20a1q2-d1e125">4. Item, a primaria conditione habuerunt vir et mulier vasa susceptibilia et idonea ad humoris seminarii generationem et decisionem et commixtionem ; et. illa sunt quae sunt organa virtutis generativae : ergo in generatione prolis naturale est semen decidere : ergo si homo generaret tunc, secundum quod competebat naturae, in statu innocentiae fuisset commixtio seminum.</p>
+
+ 
+               <p xml:id="bb-l2d20a1q2-d1e129">1. Sed contra :
+Semen est superfluum nutrimenti ; ubicumque autem est superfluitas, ibi est vitiositas ; sed in natura instituta non erat vitiositas ; ergo nec superfluitas : ergo nec humor seminarius.</p>
+               <p xml:id="bb-l2d20a1q2-d1e132">2. Item, semen est superfluitas tertiae digestionis ; sed si homo stetisset, non esset in eo superfluitas secundae digestionis, utpote stercus et urina : ergo nec superfluitas tertiae. Prima patet per <name ref="#Aristotle">Philosophum</name> ; secunda manifesta est, quia illae superfluitates nunquam sunt sine foeditate et ignominia : ergo si foeditas et ignominia non sunt in homine nisi per culpam, nullo modo esset in eis talis superfluitas.</p>
+               <p xml:id="bb-l2d20a1q2-d1e138">3. Item, si esset in eis semen, aut esset conveniens propriae complexioni aut non. Si non, ergo non videtur quod de eo deberet vel posset proles generari. Si sic, sed natura naturaliter tenet quod est sibi conveniens, et si expellit, hoc non est per naturam, sed per violentiam : si igitur in statu innocentiae homo hominem generaret non violenter, sed naturaliter, videtur quod in generatione semen non emitteret.</p>
+               <p xml:id="bb-l2d20a1q2-d1e141">4. Item, actualis decisio partis a parte est via ad corruptionem ; sed homo in statu innocentiae ad corruptionem non tendebat : ergo generando semen non decidebat.</p>
+
+            </div>
+            <div xml:id="bb-l2d20a1q2-Dd1e145">
+               <head xml:id="bb-l2d20a1q2-Hd1e147">Conclusio</head>
+               <head xml:id="bb-l2d20a1q2-Hd1e150" type="question-title">In statu innocentiae et vir et mulier per seminis decisionem generassent.</head>
+               <p xml:id="bb-l2d20a1q2-d1e153">Respondeo : Dicendum quod, cum generatio prolis, quantum est de ordine et potestate naturae, habeat fieri per coniunctionem et commixtionem duorum sexuum in hominibus, qui respectu prolis se habent per modum materialis et efficientis, ita quod ratio materialis plus residet penes mulierem, et efficientis sive activi plus residet penes virum ; necesse est ad generationem aliquas particulas tam a muliere quam a viro decidi, in quibus esset virtus et ratio seminalis respectu corporis propagandi. Quia igitur hic est ordo naturae, non solummodo lapsae, sed etiam institutae, ideo dicendum est quod in statu innocentiae et vir et mulier per decisionem seminum generassent.
+</p>
+               <p xml:id="bb-l2d20a1q2-d1e156">
+  Ad illud ergo quod obicitur in contrarium de seminis superfluitate, dicendum quod est superfluitas residuitatis et est superfluitas impuritatis. Superfluitas residuitatis est in semine, et haec superfluitas necessitatem non excludit, immo idem ipsum quod est necessarium est superfluum, sed necessarium speciei, superfluum individuo, necessarium virtuti generativae, sed superfluum nutritivae ; et haec superfluitas non repugnat bonitati et completioni naturae, quia non sonat in vitium, sed in complementum. Est et alia superfluitas impuritatis, sicut stercus et urina, defluxus rheumatis et emissio sudoris et consimilia ; et haec est in duplici differentia. Quaedam venit ex debilitate virtutis contentivae et conversivae, sicut rheuma et sudor : et talis non fuisset in Adam, propterea quia virtutes naturales in ipso erant in suis operationibus efficaces. Alia vero est quae venit ex nutrimenti qualitate et nutriti puritate ; et haec fuisset in Adam, qualis est superfluitas egestionis et urinae, quae sunt propter separationem puri ab impuro, ut illud quod purum et idoneum est assumatur in alimentum, illud vero quod est minus idoneum, abiciatur exterius, licet non cum tanto foetore et foeditate sicut nunc. Et hoc satis indicant vasa et intestina et foramina, quae sunt homini a sua prima conditione naturaliter deputata.</p>
+            </div>
+            <div xml:id="bb-l2d20a1q2-Dd1e161">
+               <head xml:id="bb-l2d20a1q2-Hd1e163">Ad obiecta</head>
+
+               <p xml:id="bb-l2d20a1q2-d1e166">Et per hoc patet responsio quasi ad omnia obiecta. Nam primum quod obicit, quod ubi est superfluitas, ibi est vitiositas, non valet, quia non habet veritatem de superfluitate residuitatis, qualis est superfluitas seminis.</p>
+               <p xml:id="bb-l2d20a1q2-d1e169">Secundum autem quod obicit, quod superfluitas secundae digestionis est cum foeditate, et ita cum poenalitate, similiter non valet ; quia, quamvis illa separatio puri ab impuro sit in nobis cum foeditate, In istis esset sine aliqua foetoris corruptione, in attestationem virtutis potentiae conversivae et puritatis nutritivae.</p>
+               <p xml:id="bb-l2d20a1q2-d1e172">Similiter tertium non multum cogit, quia semen, cum sit superfluum nutritivae, est necessarium generativae, non convenit cum natura, ut salvans ipsam in se, sed ut salvans eam in altero. Et ideo natura non appetit sibi illud retinere, sed in alterum transfundere ; et quamvis non conveniat naturae generantis in se, ut sic est, convenit tamen naturae generati.</p>
+               <p xml:id="bb-l2d20a1q2-d1e175">Similiter ultimum non cogit, quod dicit quod decisio est via ad corruptionem. Hoc enim locum habet ubi est decisio partis necessariae cum quadam violentia et ubi est decisio sine restauratione. Hoc autem non est in seminis decisione, sicut ostensum est.
+Et ita omnia obiecta possunt solvi per distinctionem prius factam et alia etiam plura media, quae ad hoc possunt adduci.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

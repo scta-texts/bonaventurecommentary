@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d28a1q2">
+            <head xml:id="bb-l2d28a1q2-Hd1e99">Quaestio 2</head>
+            <head xml:id="bb-l2d28a1q2-Hd1e102" type="question-title">Utrum liberum arbitrium absque gratia gratam faciente possit adversarium suum vincere.</head>
+ 
+            <p xml:id="bb-l2d28a1q2-d1e105">Secundo quaeritur, utrum liberum arbitrium absque gratia gratum faciente possit adversarium suum vincere.</p> 
+            <div xml:id="bb-l2d28a1q2-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d28a1q2-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d28a1q2-d1e113">Et quod sic, videtur. Genesis 4, 7 dictum est Cain : <quote xml:id="bb-l2d28a1q2-Qd1e115" ana="#gen4_7">Subter te erit appetitus tuus, et tu dominaberis illius</quote> ; sed constat quod Cain lam erat in mortali peccato : ergo in statu illo dominari poterat appetitui proprio ; sed nullam victoriam habet in nobis adversarius nisi per nostrum appetitum. Si igitur absque gratia gratum faciente Cain superare poterat proprium appetitum, videtur quod posset etiam vincere adversarium.</p>
+               <p xml:id="bb-l2d28a1q2-d1e119">Item, <name ref="#Bernard">Bernardus</name>, in libro De libero arbitrio : Liberum arbitrium est potentissimum sub Deo. Et ibidem dicit quod liberum arbitrium <quote xml:id="bb-l2d28a1q2-Qd1e124">sui omnino defectum non patitur, quare potissime in ipso aeternae et incommutabilis imago deitatis videtur. Nam si habet initium, nescit tamen occasum ; nec de iustitia vel de gratia accipit augmentum nec de peccati miseria detrimentum</quote>. Ergo, si liberum arbitrium, adiutum gratia et iustitia, possit superare adversarium, pari ratione videtur quod possit etiam per se ipsum.</p>
+               <p xml:id="bb-l2d28a1q2-d1e128">Item, spiritus luxuriae deicitur vel vincitur per continentiam et spiritus iracundiae per patientiam et sic de aliis ; sed continentia et patientia possunt haberi absque gratia gratum faciente per gratiam gratis datam : ergo videtur etc.</p>
+               <p xml:id="bb-l2d28a1q2-d1e131">Item, difficilius est vincere se ipsum quam vincere diabolum ; sicut enim habitum fuit, et Magister dicit supra, distinctione vigesima prima : <quote xml:id="bb-l2d28a1q2-Qd1e133">Fortior est tentatio carnis quam tentatio hostis</quote> ; sed homo absque gratia gratum faciente potest se ipsum vincere et morti exponere, sicut patet in haereticis : ergo multo fortius videtur quod absque gratia gratum faciente possit de diabolo triumphare.</p>
+               <p xml:id="bb-l2d28a1q2-d1e138">Item, adversarius noster, in quo nulla est gratia gratum faciens, frequenter potest nos devincere et sibi subiugare. Si ergo non est peioris conditionis homo quam sit diabolus, videtur quod absque aliquo dono gratiae possit quis adversarium suum vincere.</p>
+
+ 
+               <p xml:id="bb-l2d28a1q2-d1e141">Sed contra :
+I ad Corinthios 15, 57 : <quote xml:id="bb-l2d28a1q2-Qd1e143" ana="#Icor15_57">Deo gratias, qui dedit nobis victoriam per Iesum Christum Dominum nostrum</quote>. Igitur sine auxilio Christi nemo potest de inimico habere victoriam ; si ergo Christus auxiliatur nobis per gratiam suam, per quam nos iustificat, videtur etc.</p>
+               <p xml:id="bb-l2d28a1q2-d1e147">Item, ad Romanos 7, 24-25 : <quote xml:id="bb-l2d28a1q2-Qd1e149" ana="#rom7_24">Infelix ego homo, quis me liberabit de corpore mortis huius ?</quote> Et respondet : <quote xml:id="bb-l2d28a1q2-Qd1e152" ana="#rom7_25">Gratia Dei per Iesum Christum Dominum nostrum</quote>. Si ergo nullus vincit adversarium nisi qui liberatur a lege peccati et mortis, videtur quod absque gratia Dei per Iesum Christum, quae quidem est gratia gratum faciens, non possit adversarium vincere.</p>
+               <p xml:id="bb-l2d28a1q2-d1e156">Item, super illud Psalmi [106, 12] : <quote xml:id="bb-l2d28a1q2-Qd1e158" ana="#ps106_12">Infirmati sunt</quote> etc., Glossa : Non potentes resistere vitiis per se. Deo enim desistente ab auxilio, laborare potest homo, sed non vincere. Ergo videtur quod absque auxilio gratiae gratum facientis non contingit vincere tentatorem. Quodsi tu dicas hoc intelligendum esse de gratia gratis data, non gratum faciente solum, obicitur per aliam Glossam super illud Psalmi [77, 49] : <quote xml:id="bb-l2d28a1q2-Qd1e161" ana="#ps77_49">Immissiones per angelos malos</quote> etc., ibi Glossa : <quote xml:id="bb-l2d28a1q2-Qd1e164">Diabolus potestatem habet in peccatore sicut in proprio pecore</quote>. Ergo, cum non possit a peccato erui nisi per gratiam gratum facientem, non potest nisi per illam erui a potestate diaboli : ergo sine illa non potest ipsum devincere.</p>
+               <p xml:id="bb-l2d28a1q2-d1e168">Item, vincenti debetur corona, secundum quod dicitur Apocalypsis 2, 7-10 et 3, 12-21 ; sed nulli pugnanti contra adversarium debetur corona gloriae nisi ei qui habet gratiam gratum facientem : ergo nullus absque illa potest diabolum devincere.</p>
+               <p xml:id="bb-l2d28a1q2-d1e171">Item, quidquid homo faciat et quidquid etiam caveat, quamdiu est sine gratia gratum faciente manet in culpa, sicut prius ostensum est ; sed, cum manet in culpa, servus est diaboli, servus est etiam peccati ; et qui servus est diaboli, victus est a diabolo, secundum quod dicitur II Petri 2, 19 : igitur absque gratia gratum faciente impossibile est de diabolo triumphare.</p>
+            </div>
+            <div xml:id="bb-l2d28a1q2-Dd1e175">
+               <head xml:id="bb-l2d28a1q2-Hd1e177">Conclusio</head>
+               <head xml:id="bb-l2d28a1q2-Hd1e180" type="question-title">Sine gratia gratum faciente homo non potest adversarium 
+    ita vincere, ut proficiat in merito condigni</head>
+ 
+               <p xml:id="bb-l2d28a1q2-d1e183">Respondeo : Ad praedictorum intelligentiam est notandum quod differt dicere aliquem resistere adversario et aliquem vincere adversarium : plus enim importat victoria quam resistentia. Resistentia namque consistit in hoc quod quis non consentiat suggestioni diabolicae ; sed victoria consistit in assequendo oppositum eius quod diabolus intendebat. Intendebat autem diabolus hominem reddere inimicum Deo et facere dignum aeterno supplicio. Tunc igitur homo vincit adversarium, quando sic resistit tentationi ut efficiatur maior Dei amicus et mereatur regnum aeternum.
+Et quoniam hoc absque gratia gratum faciente esse non potest, ideo concedendum est quod, etsi quis per gratiam gratis datam possit diabolo resistere, ut ei non consentiat suggerenti, tamen absque dono, quod reddat hominem acceptum Deo, ipsum vincere non potest, ut contra eius intentionem proficiat dignitate meriti vel in merito condigni.
+Et concedendae sunt rationes quae hoc ostendunt.
+</p>
+            </div>
+            <div xml:id="bb-l2d28a1q2-Dd1e188">
+               <head xml:id="bb-l2d28a1q2-Hd1e190">Ad rationes</head>
+
+               <p xml:id="bb-l2d28a1q2-d1e193">Ad illud vero quod obicitur de eo quod dictum est Cain : Subter te erit appetitus tuus etc., dicendum quod, etsi in potestate eius esset appetitum refrenare ut in actum peccati non procederet, etiam absque gratia gratum faciente, non tamen ex hoc sequitur quod posset adversarium devincere ; quia, etsi sine gratia hoc faceret, esset ibi resistentia per quam vitaret poenam, non tamen esset ibi victoria per quam mereretur palmam.</p>
+               <p xml:id="bb-l2d28a1q2-d1e196">Ad illud quod obicitur, quod <mentioned> liberum arbitrium dicitur esse potentissimum sub Deo, et quod non augetur nec minuitur </mentioned>, dicendum quod, quemadmodum fuit supra expositum, hoc intelligitur quantum ad privationem coactionis, non quantum ad potentiam servandae rectitudinis.</p>
+               <p xml:id="bb-l2d28a1q2-d1e202">Ad illud quod obicitur, quod spiritus luxuriae vincitur per continentiam, dicendum quod, etsi per continentiam, quae est absque gratia gratum faciente, possit quis resistere spiritui luxuriae, ilia tamen resistentia triumphus dici non potest, pro eo quod nullam ex hoc assequitur palmam.</p>
+               <p xml:id="bb-l2d28a1q2-d1e205">Ad illud quod obicitur, quod potest quis vincere se ipsum sine gratia gratum faciente, dicendum quod falsum est. Quamvis enim haereticus, qui exponit se morti, videatur se ipsum vincere, non tamen est ibi victoria, sed deiectio. Superatur enim ab erroris improbitate et conscientiae perversitate et obstinationis profunditate ; et propter hoc magis meretur confusionem et ignominiam ex illa mortis perpessione quam gloriam.</p>
+               <p xml:id="bb-l2d28a1q2-d1e209">Ad illud quod obicitur, quod diabolus potest vincere hominem absque gratia, dicendum quod victoria diaboli consistit in subiugando sibi hominem per peccatum, victoria vero hominis consistit in promerendo illud quod diabolus amisit ; et ideo, sicut facilius est peccare quam in bonum proficere, sic facilius est diabolum superare hominem, quam hominem adversarium vincere. Praeterea, diabolus non vincit hominem nisi volentem et consentientem, diabolus autem nunquam vincitur volens ; et ideo non sequitur, quodsi diabolus potest reportare victoriam de homine absque gratia, quod similiter possit esse e converso, immo non est simile, sicut ostensum est.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

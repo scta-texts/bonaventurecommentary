@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Bonaventure">Bonaventure</author>
+            <respStmt>
+               <name xml:id="JW">Jeffrey C. Witt</name>
+               <resp>TEI encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2018-03-24">March 24, 2018</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA and GRPL</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Qb" n="Quaracchi1882">Quaracchi 1882, Volume 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+              guidelines for a critical edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2018-03-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="bb-l2d25p2a1q1">
+            <head xml:id="bb-l2d25p2a1q1-Hd1e99">Quaestio 1</head>
+            <head xml:id="bb-l2d25p2a1q1-Hd1e102" type="question-title">Utrum liberum arbitrium sit aeque in omnibus in quibus repentur</head>
+ 
+            <p xml:id="bb-l2d25p2a1q1-d1e105">Circa primum sic proceditur et quaeritur de libero arbitrio per comparationem ad subiectum, utrum in omnibus in quibus est sit aequaliter aut secundum magis et minus.</p>
+            <div xml:id="bb-l2d25p2a1q1-Dd1e108" type="rationes-principales">
+               <head xml:id="bb-l2d25p2a1q1-Hd1e110">Rationes principales</head>
+               <p xml:id="bb-l2d25p2a1q1-d1e113">Et quod sit in omnibus aequaliter, videtur :
+1. Primo per <name ref="#Bernard">
+                     <name ref="#Bernard">Bernardum</name>
+                  </name>, in libro De libero arbitrio : <quote xml:id="bb-l2d25p2a1q1-Qd1e121">Manet libertas voluntatis tam plena in bonis quam in malis, sed in bonis ordinatior, tam. integra quoque suo modo in creatura quam in Creatore.</quote>
+               </p>
+               <p xml:id="bb-l2d25p2a1q1-d1e125">2. Item, in eodem : <quote xml:id="bb-l2d25p2a1q1-Qd1e127">Libertas arbitrii cunctis pariter ratione utentibus competit nec magis est in bonis quam in malis. Et iterum subiungit quod nec augetur gratia nec minuitur culpa</quote>.</p>
+               <p xml:id="bb-l2d25p2a1q1-d1e131">3. Item, liberum arbitrium eo ipso dicitur liberum quo est a coactione immune ; sed omne liberum arbitrium est ab omni coactione immune : ergo, si libertas arbitrii in quolibet universaliter privat coactionem, et in omnimoda privatione non est magis et minus reperire, arbitrii libertas in omnibus in quibus est, est aequaliter.</p>
+               <p xml:id="bb-l2d25p2a1q1-d1e134">4. Item, magis et minus est per permixtionem unius ad aliud ; sed libertas arbitrii nullo modo potest permisceri in aliquo servituti sibi contrariae, quae quidem est servitus coactionis : ergo non videtur quod possit secundum magis et minus participari : ergo aequaliter est in omnibus in quibus invenitur.</p>
+      
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e138">Sed contra : Liberum arbitrium <quote xml:id="bb-l2d25p2a1q1-Qd1e140">est potestas servandi rectitudinem</quote>, sicut dicit <name ref="#Anselm">Anselmus</name> ; sed maior est potestas servandi rectitudinem in bonis quam in malis, in confirmatis quam in non confirmatis : ergo liberum arbitrium contingit secundum magis et minus participari.</p>
+               <p xml:id="bb-l2d25p2a1q1-d1e147">Item, libertas arbitrii est quaedam nobilis dignitas in anima rationali ; sed in nulla proprietate dignitatis creatura potest aequari Creatori : ergo impossibile est libertatem arbitrii in Creatore et creatura aequaliter reperiri.</p>
+               <p xml:id="bb-l2d25p2a1q1-d1e150">Item, libertas arbitrii est facultas, quae fundatur super rationem et voluntatem ; sed vis cognitiva multo perfectius reperitur in Deo quam in creatura, et in una creatura plus quam in alia, similiter et vis appetitiva : ergo pari ratione et illa facultas ex qua potentia rationis et potentia voluntatis liberae esse dicuntur.</p>
+               <p xml:id="bb-l2d25p2a1q1-d1e153">Item, liberius est illud in quo nullum cadit genus servitutis quam in quo potest aliquod genus servitutis cadere. Cum igitur aliqua sint quae nullo modo possunt subici nec peccato nec miseriae, quaedam vero quae eis subiecta sunt et serviunt, videtur ergo quod ab his et illis liberum arbitrium non participetur aequaliter.</p>
+            </div>
+            <div xml:id="bb-l2d25p2a1q1-Dd1e157">
+               <head xml:id="bb-l2d25p2a1q1-Hd1e159">Conclusio</head>
+               <head xml:id="bb-l2d25p2a1q1-Hd1e162" type="question-title">Liberum arbitrium quoad immunitatem a coactione aequaliter 
+      est in omnibus, in quibus reperitur: quod excellentiae dignitatem praestantius 
+      est in Creatore, sed aequaliter in creaturis relatis ad invicem; quoad facultatem 
+      iustitiae servandae etiam in creaturis est inaequaliter</head>
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e165">Respondeo : Ad praedictorum intelligentiam est notandum quod cum quaeritur, utrum liberum arbitrium sit aequaliter in omnibus, non est quaestio de ipso secundum quod dicitur liberum ea libertate quae est a miseria vel a culpa : hoc enim modo planum est quod liberius est in uno quam in alio ; sed est quaestio de libero arbitrio secundum quod dicitur libertas a coactione : sic enim videntur auctoritates Sanctorum sibi invicem repugnare.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e168">Et propterea ad contrarietatem, quae videtur, de medio dirimendam, intelligendum est quod liberum arbitrium sive libertas arbitrii et dicit comparationem ad illud a quo et ad illud ad quod. Per comparationem ad illud a quo dicitur privative sive negative : dicitur enim liberum a coactione, pro eo quod est ab omni coactione immune. Per comparationem ad illud ad quod dicitur positive, quoniam libertas arbitrii est quaedam facultas sive potestas servandi rectitudinem. Haec autem facultas, prout privationi coactionis coniuncta est, habet quamdam dignitatem : dignitatis enim est et potestatis non posse cogi. Et sic in liberi arbitrii intellectu tria clauduntur, videlicet a coactione immunitas, excellentiae dignitas et potestas sive facultas.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e171">Quantum ad primum, liberum arbitrium in omnibus in quibus est aequaliter se habet, sicut dicunt auctoritates Bernardi et ostendunt rationes ad hoc inductae, pro eo quod in omni in quo ponitur simpliciter et universaliter omnem excludit coactionem. Propterea dicit <name ref="#Bernard">Bernardus</name> quod ita plena est arbitrii libertas in creatura suo modo sicut in Creatore ; quod, etsi non possit intelligi veraciter esse dictum de aliquo quod dicitur per positionem, potest tamen intelligi de eo quod dicitur per omnimodam privationem.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e178">Quantum autem ad secundum, videlicet quantum ad excellentiae dignitatem, est inaequaliter in comparatione creaturarum ad Creatorem, sed aequaliter in comparatione creaturarum ad invicem. Dignitas enim liberi arbitrii increati superexcellit dignitatem omnis liberi arbitrii creati, quia illa est dignitas summa et omnis dignitas creata est dignitas infra illam et propter illam ; et sic inaequalitas est in libertate arbitrii quantum ad dignitatem, prout consideratur in creaturis et Creatore.
+Prout autem consideratur in creaturis relatis ad invicem, sic habet in eis reperiri aequaliter, pro eo quo omne liberum arbitrium immediate est sub Deo constitutum et quodlibet est suarum operationum post Deum primum principium. Attenditur enim secundum rationalis creaturae supremum, quo solus Deus superior est, sicut vult <name ref="#Augustine">Augustinus</name>.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e184">Quantum autem ad tertium, videlicet quantum ad facultatem aut ad servandae iustitiae potestatem, sic inaequalitas reperitur, non solum in creaturis et Creatore, sed etiam in creaturis comparatis ad invicem. Una enim creatura multo potentior est altera in rectitudine servanda, sicut beata quam misera ; et hoc est quod dicit <name ref="#Anselm">Anselmus</name>, in libro De libero arbitrio : Libertas arbitrii alia est a se, quae nec est facta nec ab alio accepta, quae est solius Dei. Alia est a Deo facta et accepta, quae est angelorum et hominum. Facta autem sive accepta, alia est habens rectitudinem quam servet, alia carens ; habens, alia tenet separabiliter, alia inseparabiliter ; carens autem, alia caret recuperabiliter, alia irrecuperabiliter. Ex hac divisione <name ref="#Anselm">Anselmi</name> apparent gradus libertatis, non solum in creaturis respectu Creatoris, sed etiam in creaturis ad invicem relatis. Sumitur enim haec divisio libertatis secundum id quod est in ea positionis ; et hoc modo contingit eam secundum plus et minus in habentibus liberum arbitrium reperiri. Et sic procedunt rationes prius adductae.</p>
+ 
+               <p xml:id="bb-l2d25p2a1q1-d1e193">Patet igitur ex praedictis responsio ad quaestionem propositam. Patet nihilominus responsio ad oblecta, quia rationes, quae probant aequalitatem, arguunt de libero arbitrio penes id quod dicit privationem ; rationes vero ad oppositum penes id quod dicit positionem ; et ideo utraeque concedendae sunt, quia diversis viis verum concludunt.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
