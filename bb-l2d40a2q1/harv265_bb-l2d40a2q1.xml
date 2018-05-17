@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d40a2q1">
+        <head xml:id="bb-l2d40a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d40a2q1-Hd1e111" type="question-title">Utrum opera exteriora aliquid addant supra bonam intentionem.</head>
+ 
+        <p xml:id="bb-l2d40a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum opera exteriora aliquid addant supra bonam intentionem ratione suae excellentiae et dignitatis, sicut sunt opera privilegiata.</p> 
+        <div xml:id="bb-l2d40a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d40a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d40a2q1-d1e122">Et quod sic, videtur : Super illud ad Ephesios 1, 19 : <quote xml:id="bb-l2d40a2q1-Qd1e124" ana="#eph1_19">Quae sit supereminens magnitudo</quote>, Glossa : <quote xml:id="bb-l2d40a2q1-Qd1e127" source="http://scta.info/resource/gom-eph1">Quoddam incrementum gloriae habebunt summi doctores ultra id quod communiter habebunt alii</quote>. Hoc autem non est nisi ratione doctrinae, quam aliis communicant : ergo etc.</p>
+          <p xml:id="bb-l2d40a2q1-d1e131">Item, communiter in Ecclesia magis solemnizantur Martyres quam Confessores : sed constans est quod Ecclesia Sanctis exhibuit honorem secundum meritorum suorum exigentiam : ergo maiori gloria digni sunt qui mortem pro Christo perferunt quam illi qui pati solum volunt.</p>
+          <p xml:id="bb-l2d40a2q1-d1e134">Item, Christus nobis aliquid meruit per passionem, quod ante non meruerat nobis, utpote apertionem ianuae et multorum charismatum diffusionem. Si ergo caritas Christi fuit eminentissima ab instanti conceptionis et maioris fuit efficaciae cum passione quam sine, videtur ergo quod in quolibet alio excellentia operis exterioris addat ad meritum bonae voluntatis sive intentionis.</p>
+          <p xml:id="bb-l2d40a2q1-d1e137">Item, bonum additum bono facit magis bonum ; sed opus privilegiatum est bonum : ergo additum intentioni facit eam magis bonam ; sed quod addit ad bonitatem addit ad meritum : ergo etc.</p>
+          <p xml:id="bb-l2d40a2q1-d1e141">Item, si opera privilegiata nihil adderent supra bonitatem intentionis, ergo qui ea faceret frustra laboraret. Si ergo impium est dicere quod qui facit opera excellentia frustra laborat, videtur quod opus excellens addat super intentionis bonitatem.</p>
+
+ 
+          <p xml:id="bb-l2d40a2q1-d1e144">Sed. contra : De beato Martino cantat Ecclesia : <quote xml:id="bb-l2d40a2q1-Qd1e146">O beata anima, quam etsi gladius persecutoris non abstulit, palmam tamen martyrii non amisit</quote>. Ergo ita videtur quod beatus Martinus habuit palmam martyrii per bonitatem intentionis sicut si sustinuisset acerbitatem passionis : ergo non videtur quod opus excellens aliquid addat supra bonitatem intentionis.</p>
+          <p xml:id="bb-l2d40a2q1-d1e150">Item, operans non placet propter operationem, sed magis operatio propter operantem, quantumcumque operatio illa sit nobilis : ergo quantumcumque Deus approbat operantem, tantum approbat operationem. Ergo non videtur quod hoino maioris praemii efficiatur apud Deum dignus propter operationem exeellentem, superadditam bonitati voluntatis.</p>
+          <p xml:id="bb-l2d40a2q1-d1e153">Item, si aliquis sustineret mortem pro mundo, potius demereretur apud Deum quam aliquid mereretur : ergo sustinentia mortis pro Christo, si quo modo placet Deo ; hoc non est ob aliud nisi quia ordinatur ad Christum ; sed illa ordinatio est mediante intentione : ergo tota bonitas operationis, quantumcumque excellentis, ex intentione habet ortum et propter illam Deo placet. Sed ubi unum propter alterum, utrobique tantum unum : igitur tantumdem placet intentio perfecta et bona cum opere, quantum placet Sirie opefe.</p>
+          <p xml:id="bb-l2d40a2q1-d1e156">Item, si aliqua opera faciunt ad meritum, illa sunt maxime opera humilitatis et vilitatis : haec enim opera Deus maxime commendat ; sed opera privilegiata sunt opera cuiusdam excellentiae et dignitatis : ergo videtur quod minime inter omnia genera operum addant ad bonae intentionis meritum.</p>
+          <p xml:id="bb-l2d40a2q1-d1e159">Item, ubi facultas deest, voluntas reputatur pro facto, sicut determinatum est supra ; et hoc non est ob aliud nisi quia alias non esset plena et perfecta voluntas. Si igitur voluntas per se sola pro opere reputatur, videtur quod in tali casu opus privilegiatum nihil addat super intentionis bonitatem et meritum.</p>
+        </div>
+        <div xml:id="bb-l2d40a2q1-Dd1e163">
+          <head xml:id="bb-l2d40a2q1-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d40a2q1-Hd1e168" type="question-title">Opus exterius privelgiatum ratione dignitatis suae 
+    aliquid addit supra bonitatem intentionis, licet 
+    non addat omni modo additionis.</head>
+          <p xml:id="bb-l2d40a2q1-d1e171">Respondeo : Dicendum quod maius bonum potest aliquid dici dupliciter : aut intensive, utpote quia plus Deo placet, aut extensive, utpote quia pluribus prodest. Et secundum hoc dupliciter potest intelligi quod opus privilegiatum addat ad bonitatem intentionis : aut quantum ad proximorum aedificationem aut quantum ad Dei approbationem. Et primo modo attenditur augmentum quantum ad exemplum, secundo modo quantum ad meritum.</p>
+          <p xml:id="bb-l2d40a2q1-d1e174">Si igitur loquamur de additione quantum ad exemplum, sic absque dubio opus privilegiatum addit ad bonitatem intentionis, quia bonitas intentionis non lucet exterius nisi per ostensionem bonorum operum, et maxime privilegiatorum.
+Si autem loquamur secundo modo, scilicet quantum ad additionem, quae attenditur quantum ad meritum, sic distinguendum est quod est loqui de merito respectu praemii substantialis et respectu praemii accidentalis. Respectu praemii accidentalis opus privilegiatum addit supra bonam intentionem et voluntatem, quia praemium accidentale, quod est aureola, non debetur voluntati secundum se, sed voluntati in opere. Si autem loquamur de merito respectu praemii substantialis, adhuc oportet subdistinguere, quia est meritum congrui et est meritum condigni. Quantum ad meritum congrui, absque dubio opus privilegiatum addit supra bonitatem intentionis, pro eo quod voluntas in illo opere praeparatur et disponitur ad susceptionem maioris gratiae, per quam digna est maiori retributione. Si autem loquamur de merito condigni, sic absque dubio non addit ; pro eo quod quantitas meriti condigni pensatur ex quantitate radicis, et tantum placet Deo quis qui habet voluntatem plenam et non potest habere opus, quantum ille qui habet voluntatem et opus, quantum ad essentialis praemii retributionem, si sunt in aequali caritate.
+Et sic patet quod opus privilegiatum ratione dignitatis suae aliquid addit supra bonitatem intentionis, licet non addat omni modo additionis. Ideo concedendae sunt rationes quae ad primam partem in ducuntur.
+</p>
+        </div>
+        <div xml:id="bb-l2d40a2q1-Dd1e179">
+          <head xml:id="bb-l2d40a2q1-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-l2d40a2q1-d1e184">Ad illud vero quod obicitur de beato Martino ; quod palmam martyrii non amisit, dicendum quod ibi palma martyrii non accipitur pro praemio accidentali, quod est aureola, sed pro praemio substantiali, quod est aurea. Utrumque enim est martyrii palma, sed unum, scilicet aurea, respondet martyrio, quia sustinetur ex caritate ; alterum vero, scilicet aureola, respondet ei, quia est specialis privilegii et praerogativae.</p>
+          <p xml:id="bb-l2d40a2q1-d1e187">Ad illud quod obicitur, quod operatio placet propter operantem, dicendum quod verum est ; attamen, dum operans bene utitur dono, per quod placet Deo, hoc ipso disponit se ad maius et aliquo dignus est, quo quidem non esset, si non ita bene uteretur. Et ideo non sequitur quod, si operatio placet Deo propter operantem, quod non magis placeat operans propter operationem quam sine ; nihil enim impedit de duobus bonis, quorum unum habet bonitatem ab altero, quin ambo melius valeant quam valeat alterum illorum per se.</p>
+          <p xml:id="bb-l2d40a2q1-d1e190">Ad illud quod obicitur, quod mori pro mundo displicet Deo, dicendum quod verum est, sed tamen ex hoc non sequitur quod tota bonitas operis privilegiati veniat ex intentione, sed quod non potest esse opus perfecte bonum absque intentione. Nihilominus tamen opera privilegiata aliquam bonitatem de natura sui habent, quae, iuncta cum bonitate intentionis, aliquam excellentiam tribuunt bene operanti, quam non tribuerent alia genera operum. Et ideo illud verbum, quo dicitur quod, ubi unum propter alterum, utrobique tantum unum, non habet hic locum. Hoc enim intelligitur, quando illud, propter quod alterum participat aliquam proprietatem, est tota ratio illius participationis. Non sic autem est in proposito, ut visum est.</p>
+          <p xml:id="bb-l2d40a2q1-d1e193">Ad illud quod obicitur, quod opera privilegiata sunt opera excellentia, et ideo minus debent facere ad meritum, dicendum quod opus excellens dupliciter potest dici : aut secundum vanam aestimationem, sicut aliquis reputat excellentiam vindicare se de adversariis et praedominari aliis ; aut secundum veritatis dictamen ; et sic sustinere ignominiosissimum genus mortis pro Christo est opus magnae excellentiae ; et tale opus excellentiae non condividitur contra opus humilitatis, immo simul cum illa stat et necessario eam requirit tamquam sociam ; et dum habeat in se difficultatem et dignitatem et caritatem praeambulam et humilitatem annexam, non, est mirum si disponit ad maiorem gloriam.</p>
+          <p xml:id="bb-l2d40a2q1-d1e197">Ad illud quod obicitur, quod voluntas reputatur pro facto, ubi facultas deest, dicendum quod illud est verum quantum ad sufficientiam ad salutem et quantum ad praemium substantiale, quia nemo amittit regnum caelorum ex hoc quod non facit quod facere non potest ; non autem est verum quantum ad praemii excellentiam sive quantum ad praemium accidentale. Et hoc modo praedictum est quod opus privilegiatum addit supra intentionis bonitatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

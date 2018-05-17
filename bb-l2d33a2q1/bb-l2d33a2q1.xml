@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d33a2q1">
+        <head xml:id="bb-l2d33a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d33a2q1-Hd1e111" type="question-title">Utrum originale peccatum reperiatur in omnibus aequaliter.</head>
+ 
+        <p xml:id="bb-l2d33a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum originale in omnibus reperiatur aequaliter.</p> 
+        <div xml:id="bb-l2d33a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d33a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d33a2q1-d1e122">Et quod sic, videtur : Anselmus, De originali peccato, capitulo 27: <quote xml:id="bb-l2d33a2q1-Qd1e124">Originale peccatum in omnibus aestimo esse aequale.</quote>
+          </p>
+          <p xml:id="bb-l2d33a2q1-d1e128">Item, hoc ipsum videtur ratione. Originale peccatum est carentia debitae iustitlae, sicut saepe dictum est ; sed quilibet illa iustitia originali est simpliciter nudatus et privatus : ergo, si aequaliter omnes sunt privati, aequaliter originali macula sunt infecti : ergo in quibuscumque reperitur originale peccatum, aequaliter reperitur.</p>
+          <p xml:id="bb-l2d33a2q1-d1e131">Item, hoc ipsum ostenditur per causam. Originale peccatum est in nobis propter Adae inobedientiam ; sed inobedientia Adae una fuit et aequaliter omnes posteros respiciebat : ergo videtur quod omnes aequaliter culpabiles faciebat.</p>
+          <p xml:id="bb-l2d33a2q1-d1e134">Item, hoc ipsum videtur per poenam. Omnes enim habentes culpam originalem aequaliter puniuntur, videlicet omnimoda carentia visionis Dei. Si igitur quantitas poenae respondet quantitati culpae, videtur, quodsi est aequalitas in carentia visionis, quod sit aequalitas in corruptione originalis.</p>
+          <p xml:id="bb-l2d33a2q1-d1e138">Item, hoc ipsum probatur per concupiscentiam annexam. Originale enim peccatum ad omne malum reddit pronum per concupiscentiam ; unde, dum lex prohibet concupiscentiam, prohibere dicitur omne malum : ergo originale peccatum unumquemque corrumpit universaliter. Sed universalem corruptionem non contingit reperire secundum maius et minus, immo in omnibus, in quibus reperitur, in termino reperitur : ergo videtur quod originalis culpa non possit esse maior in una persona quam in alia.</p>
+          <p xml:id="bb-l2d33a2q1-d1e141">Item, si maius est originale in uno quam in alio, aut hoc est ex actu parentis aut ex actu prolis. Ex actu parentis esse non potest ; nam, sicut probatum est supra, peccatum parentis in prolem non transit. Ex actu vero prolis esse non potest, sicut planum est. Ergo videtur quod nullo modo originale in uno quam in alio reperiatur intensius.</p>
+
+ 
+          <p xml:id="bb-l2d33a2q1-d1e144">Sed contra : Anselmus, De conceptu virginali : <quote xml:id="bb-l2d33a2q1-Qd1e146">Sicut propter naturam nascitur corrupta persona, ita natura per personam efficitur magis peccatrix</quote>. Sed peccatum, quod inficit naturam, est peccatum originale : ergo videtur quod originale peccatum in aliquo possit fieri maius et intensius.</p>
+          <p xml:id="bb-l2d33a2q1-d1e150">Item, hoc videtur ratione. Nullum malum est in summo, quia nihil est summe malum ; sed originale peccatum malum est : ergo non est in summo. Sed quod est citra summum intendi potest et augeri : ergo originale peccatum intensibile est. Igitur potest maius in uno quam in altero reperiri.</p>
+          <p xml:id="bb-l2d33a2q1-d1e153">Item, originale peccatum est concupiscentia ; sed concupiscentia potest intendi sicut et potest remitti et aliquando intenditur, sicut patet per experimentum : ergo videtur quod peccatum originale intendi valeat ut sit maius in uno quam in alio vel etiam intensius in eodem secundum status diversos.</p>
+          <p xml:id="bb-l2d33a2q1-d1e156">Item, foeditas carnis est ratio quare anima contrahit originale ; sed caro non est infecta in summo, et quod non est infectum in summo, dum transit per viam infectionis, potest magis et magis infici : si igitur caro nostra transit per viam infectionis, diim propagatur, videtur quod magis et magis inficitur, ac per hoc quotidie originale peccatum augmentatur.</p>
+          <p xml:id="bb-l2d33a2q1-d1e160">Item, omnis proprietas, quanto magis appropinquat suae causae, est intensior et fortior, et quanto magis elongatur, debilior ; sed corruptio originalis ab Adam producitur tamquam a fontali principio et radice : ergo videtur quod quanto aliquis est Adae proximior, quod tanto originalis culpa sit in eo intensior.</p>
+          <p xml:id="bb-l2d33a2q1-d1e163">Item, una anima meliora habet naturalia quam alia, sicut in praecedenti distinctione habitum est ; sed tanto corruptio peior est, quanto est in meliori natura, sicut <name ref="#Augustine">Augustinus</name> dicit et expresse ratio manifestat, propter dignitatem eius quod corrumpitur : ergo originalis corruptio peior est in una anima quam in altera ; et si hoc, videtur quod culpa sit intensior.</p>
+        </div>
+        <div xml:id="bb-l2d33a2q1-Dd1e170">
+          <head xml:id="bb-l2d33a2q1-Hd1e172">Conclusio</head>
+          <head xml:id="bb-l2d33a2q1-Hd1e175" type="question-title">Originale peccatum in omnibus reperitur aequaliter</head>
+ 
+          <p xml:id="bb-l2d33a2q1-rdqies">Respondeo : Dicendum quod sicut, si Adam stetisset, omnes aequaliter essent innocentes, ita nunc, cum Adam peccavit, omnes facti sunt aequaliter peccatores ; et ita culpa originalis in omnibus reperitur aequaliter, ita quod non est maior in uno quam in altero nec etiam intendi habet in eodem subiecto.</p>
+ 
+          <p xml:id="bb-l2d33a2q1-d1e181">Ad cuius intelligentiam notandum est quod ista tria concurrunt ad originale peccatum, scilicet debitae iustitiae carentia et concupiscentia et carnis foeditas ; et primum est ipsi originali essentiale, secundum vero materiale et tertium causale, sicut supra explanatum fuit . Si igitur originale deberet augeri, ex aliquo istorum oporteret ipsum intendi ; cum autem per nullum horum intendi habeat, in omnibus aequaliter habet reperiri.
+Quantum ad carentiam namque debitae iustitiae non potest intendi. Ista enim carentia non potest esse maior in uno quam in alio nisi triplici de causa : aut quia sit obligatio fortior aut quia sit ibi privatio maior aut quia modus privandi sit detestabilior. Nullo istorum modorum maior habet esse carentia in uno homine quam in alio. Non est enim obligatio fortior, quia omnes aequaliter obligantur in Adam ; nec privatio maior, quia eodem dono, scilicet originalis iustitiae, omnes per originalem culpam nudantur ; nec modus privandi detestabilior, quia omnes privati sunt per unam inobedientiam Adae ; et sic originale ratione carentiae debitae iustitiae non recipit magis et minus, sed in omnibus est aequaliter.
+</p>
+ 
+          <p xml:id="bb-l2d33a2q1-d1e184">Similiter nec quantum ad concupiscentiam intendi habet. Si enim intenditur appetitus vel concupiscentia respectu alicuius delectabilis in aliquo, hoc potest esse tripliciter : aut ex complexione aut ex assuefactione aut ex vinculi refrenantis confractione. Primo modo absque dubio concupiscentia augeri potest, sicut patet de concupiscentia carnis, quae magis fervet in cholericis et sanguineis quam in melancholicis ; sed talis intensio nihil facit ad culpam : non enim est culpabilis, sed naturalis vel poenalis. Similiter et secundo modo concupiscentia intendi potest in eodem homine, sicut palet in eo qui assuefactus est luxuriari et bona cibaria comedere, quod magis est pronus et ardentius concupiscit quam is qui talia non gustavit. Sed haec intensio non facit ad originale peccatum, sed potius ad actuale, quia non dicitur originale peccatum concupiscentia quocumque modo, sed solum prout ab origine est contracta.
+Tertio modo non potest intendi, sed in omnibus habet aequaliter reperiri, pro eo quod illud retinaculum originalis iustitiae merito culpae Adae in omnibus est confractum. Et quoniam secundum istum tertium modum attenditur quantitas originalis ex parte concupiscentiae, hinc est quod, quantum ad concupiscentiam, originalis culpa in omnibus, in quibus est, reperitur aequaliter.</p>
+ 
+          <p xml:id="bb-l2d33a2q1-d1e188">Similiter quantum ad foeditatem, quae est in carnei non potest esse maius et minus originale. Et hoc patet. Nam quod aliqua proprietas intendatur, requiritur idoneitas ad intensionem tam ex parte susceptibilis quam ex parte proprietatis, quae intenditur, quam etiam ex parte agentis ; et si aliquod horum defuerit, proprietas illa non habet intendi, sicut patet consideranti. Omnia autem haec deficiunt in proposito. Defectus enim est ex parte susceptibilis. Nam sicut speculum novum inficitur a muliere menstruata, sed postquam inveteratum est, ex aliquo aspectu non recipit novam infectionem, sic humana natura, in sui primordio quasi nova existens, infici habuit a corruptione personae ; postmodum vero quasi inveterata, ex nova corruptione non recipit novam infectionem.
+Defectus etiam est ex parte agentis, quia nullus est post primum hominem, cuius transgressio respiciat obligationem naturae, sed obligationem personae. Hinc est, quod talis culpa non habet inficere carnem coniunctam.
+Defectus etiam est ex parte -proprietatis intensibilis. Illa enim, quorum impositio est in termino, non habent recipere maius et minus, sicut vult <name ref="#Aristotle">Philosophus</name>. Foeditas autem carnis, secundum quod est principium contractionis originalis, ortum habet ex carentia originalis iustitiae ; et quia carentia illa nuditas quaedam est, et nudo non est reperlre magis nudum, sicut originalis iustitiae nuditas non recipit magis et minus, sic nec carnis foeditas.</p>
+ 
+          <p xml:id="bb-l2d33a2q1-d1e194">Et sic patet quod ex parte foeditatis carnis originale non habet intendi vel augmentari in eodem vel in diversis, nec ex parte concupiscentiae vel carentia debitae iustitiae, sicut ostensum est ; nec sunt plura concurrentia ad originale. Manifestum est igitur quod originale peccatum in omnibus, in quibus reperitur, habet esse aequaliter ; et concedendae sunt rationes hoc ostendentes.</p>
+        </div>
+        <div xml:id="bb-l2d33a2q1-Dd1e199">
+          <head xml:id="bb-l2d33a2q1-Hd1e201">Ad rationes</head>
+          <p xml:id="bb-l2d33a2q1-d1e204">Ad illud ergo quod primo obicitur de Anselmo, quod natura per personam efficitur magis peccatrix, dicendum quod natura dupliciter accipitur. Uno modo natura dicitur : vis insita rebus, ex similibus similia procreans ; alio modo dicitur natura ipsum commune. His duobus modis distinguitur natura contra personam. Et cum dicitur quod natura corrumpit personam, accipitur natura pro vi propagativa et corruptio personae dicitur illa quae respicit voluntatem rationalem. Cum autem dicit Anselmus quod natura efficitur per personam magis peccatrix, accipit naturam pro communi, prout consideratur in supposito - et hoc patet per exemplum suum, quod dicit : sicut, Adam peccante, peccat homo, sic, Adam magis peccante, magis peccat homo - et hoc modo natura non habet corrumpi solum per peccatum originale, sed etiam per peccatum actuale. Ex hoc igitur non sequitur quod originale habeat esse maius et intensius.</p>
+          <p xml:id="bb-l2d33a2q1-d1e207">Ad illud quod obicitur, quod nullum malum est in summo, dicendum quod est summum simpliciter et summum in genere ; et quamvis non contingat reperiri summum malum simpliciter, est tamen reperlre malum quod est summum in proprio genere, sicut videmus aliquem ita privatum visu quod non potest esse magis. Sic et in proposito potest intelligi quod originale simpliciter privat iustitiam originalem ; et ideo eius infectio est in termino.
+Posset tamen dici quod, etsi non esset in summo, non tamen sequitur quod possit intendi, quia potest esse defectus ex parte susceptibilis vel ex parte agentis ; et utrumque hic deficit, sicut supra ostensum est.
+</p>
+
+          <p xml:id="bb-l2d33a2q1-d1e210">Ad illud quod obicitur, quod concupiscentia potest crescere, dicendum quod verum est intensive, sed non extensive. Illud tamen crementum nihil facit ad originale peccatum, cum non sit nisi vel ex complexione vel ex assuefactione, sicut ostensum est.</p>
+          <p xml:id="bb-l2d33a2q1-d1e213">Ad illud quod obicitur, quod foeditas carnis potest esse maior, dicendum quod, etsi foeditas carnis, prout est corruptio poenalis, intendatur et crescat, sicut patet in leprosis et seminifluis et aliis foedis infirmitatibus oppressis, prout tamen ipsa est principium originalis, aequaliter habet reperiri in singulis, quia ab uno solo et primo fonte procedit.</p>
+          <p xml:id="bb-l2d33a2q1-d1e217">Ad illud vero quod obicitur, quod proprietas intensior est, cum appropinquat suae origini, dicendum quod illud verum est de proprietate, quae quidem dicit naturam et positionem, et de illa quae habet continuari cum sua origine, sicut est in virtute movente et luminis effusione ; aliter non habet veritatem, sicut patet : nam candela inflammata ab alia ita bene inflammabit sicut inflammabat illa. Utrumque enim deficit in proposito, tum quia illa carnis foeditas plus dicit rationem privationis quam positionis ; tum etiam quia illius foeditatis transfusio est per generationem, in qua generatum primum et secundum habent eamdem vim quam habebat generans primum.</p>
+          <p xml:id="bb-l2d33a2q1-d1e220">Ad illud quod obicitur, quod una anima habet meliora naturalia quam alia, dicendum quod etsi hoc verum sit et concedendum, tamen, quantum pertinet ad puritatem innocentiae, omnes animae aequales essent ; et quia illius privationem directe respicit originale, hinc est quod, licet alia naturalia sint excellentiora, non tamen propter hoc intenditur corruptio originalis culpae. Quando enim dicitur quod tanto peior est corruptio, quanto melior est natura, hoc intelligitur secundum illud secundum quod natura per vitium corrumpitur ; aliter enim non habet veritatem, quia frequenter ille qui habet meliora naturalia, non habet ita gravia peccata, sicut ille qui habet minus bona, et in eodem genere peccati.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

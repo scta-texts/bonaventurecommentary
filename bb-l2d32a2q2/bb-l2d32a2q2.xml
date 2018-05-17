@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d32a2q2">
+        <head xml:id="bb-l2d32a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d32a2q2-Hd1e111" type="question-title">Utrum concupiscentia sit a Deo.</head>
+        <p xml:id="bb-l2d32a2q2-d1e114">Secundo quaeritur circa hoc, a quo sit ipsa concupiscentia tamquam a principio. Et est quaestio, utrum sit a Deo.</p>
+        <div xml:id="bb-l2d32a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d32a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d32a2q2-d1e122">
+    Et quod non, videtur. Ad Romanos 6, 6 : <quote xml:id="bb-l2d32a2q2-Qd1e124" ana="#rom6_6">Vetus homo noster crucifixus est</quote>, Glossa : <quote xml:id="bb-l2d32a2q2-Qd1e127">Vetas homo est fomes</quote>, qui ex nobis est, non ex Deo .</p>
+          <p xml:id="bb-l2d32a2q2-d1e131">Item, <name ref="#Augustine">Augustinus</name>, in libro Quinque responsionum : <quote xml:id="bb-l2d32a2q2-Qd1e136">Credite malum ex diabolo, non bonum ex Deo esse libidinem</quote>. Sed libido et concupiscentia idem sunt : ergo etc.</p>
+          <p xml:id="bb-l2d32a2q2-d1e140">Item, <quote xml:id="bb-l2d32a2q2-Qd1e142">Dei Filius assumsit omne quod in nostra natura plantavit</quote> ; sed concupiscentiam non assumsit : ergo concupiscentia non est in nobis a Deo.</p>
+          <p xml:id="bb-l2d32a2q2-d1e146">Item, omne quod est a Deo, est bonum et de se ad bonum ordinatum ; sed concupiscentia malum est et ad malum ordinata, cum eius usus, scilicet actus concupiscendi, sit malus : ergo videtur quod concupiscentia non sit a Deo.</p>
+          <p xml:id="bb-l2d32a2q2-d1e150">Item, fomes, in quantum huiusmodi, est causa originalis in prole, et ita est causa originalis necessaria et determinata quod non attenditur ibi libertas voluntatis ; sed quod est causa alicuius rei, necessario et determinate ordinatae ad malum, est causa mali. Si ergo fomes esset a Deo, tunc sequeretur quod peccatum originale esset a Deo. Quodsi hoc est falsum, restat quod et primum.</p>
+
+ 
+          <p xml:id="bb-l2d32a2q2-d1e153">Sed contra : <name ref="#Augustine">Augustinus</name>, De libero arbitrio : <quote xml:id="bb-l2d32a2q2-Qd1e158">Omnis poena peccati iusta est et supplicium nominatur</quote>. Sed concupiscentia, quae remanet post baptismum, poena est : ergo iusta est ; sed omne quod iustum est, a Deo est : ergo etc.</p>
+          <p xml:id="bb-l2d32a2q2-d1e162">Item, omnis poena aut est acta aut inflicta aut contracta ; sed fomes non est poena acta, quia est in parvulis, qui nihil boni vel mali egerunt. Non est poena contracta, quia fuit in Adam, qui non processit ex alio parente. Restat igitur quod est poena inflicta. Sed omnis talis poena est a divina iustitia : ergo etc.</p>
+          <p xml:id="bb-l2d32a2q2-d1e165">Item, concupiscentia dicit amoris intensionem, amoris autem intensio dicit positionem ; sed omne quod dicit aliquam positionem, est ab illo a quo procedit omne ens : ergo etc.</p>
+          <p xml:id="bb-l2d32a2q2-d1e168">Item, eius est auferre dominium cuius est et dare. Si ergo Deus dedit dominium homini vel spiritui rationali super vires inferiores, videtur quod illius solius fuit auferre. Sed auferre dominium non est aliud quam infligere deordinationem concupiscentiae in sensualitate, ob quam caro concupiscit adversus spiritum et spiritus adversus carnem. Si ergo illud dominium ad Deo est ablatum, videtur quod concupiscentiae vitium ab ipso sit inflictum.</p>
+          <p xml:id="bb-l2d32a2q2-d1e171">Item, quod bestiae homini non obtemperent, hoc est ex divina dispositione, secundum quam sapienter omnia reguntur : ergo pari ratione quod vires inferiores non obediant superiori, hoc est ex ultione divina. Et quod istud verum sit, multae auctoritates Sanctorum videntur dicere, quae innuunt quod ideo rebellio est homini inflicta, quia homo fuit rebellis Deo ; haec autem rebellio nihil aliud est quam concupiscentiae vitium.</p>
+        </div>
+        <div xml:id="bb-l2d32a2q2-Dd1e175">
+          <head xml:id="bb-l2d32a2q2-Hd1e177">Conlusio</head>
+          <head xml:id="bb-l2d32a2q2-Hd1e180" type="question-title">Concupiscentia, prout dicit poenam ad culpam ordinatam 
+    et appetitum substratum, est a Deo, 
+    non vero, prout est proprie concupiscentia sive prout dicit appetitus excessum</head>
+
+ 
+          <p xml:id="bb-l2d32a2q2-d1e183">Respondeo : Dicendum quod dupliciter est loqui de ipsa concupiscentia : aut secundum quod est poena aut secundum id quod est concupiscentia. Si loquamur de ipsa secundum quod est poena, sic dicit ordinem ad culpam ; et hoc modo habet causam promerentem et causam ordinantem. Meretur enim homo habere talem rebellionem ex sua culpa et inobedientia ; Deus vero hoc malum ad aliud praeexistens ordinat ex sua iustitia.
+Alio modo est loqui de concupiscentia secundum id quod est ; et sic concupiscentia duo dicit. Dicit enim appetitum, dicit nihilominus in actu appetitus excessum. Appetitus, inquam, ille substratus bonus est et a Deo est. Excessus autem ille in appetendo, etsi videatur esse positio, plus tamen est privatio, nec habet causam efficientem, sed deficientem. Et ideo, quia Deus nullius est causa deficiens, hoc modo non ponitur esse a Deo, sed potius a libero arbitrio per culpam deficientem et a diabolo instigante.</p>
+ 
+          <p xml:id="bb-l2d32a2q2-d1e186">Quod autem concupiscentia ratione excessus privationem dicat, quamvis videatur dicere positionem, hoc planum est. Hoc enim est concupiscentia respectu virtutis appetitivae quod est paralysis respectu motivae. Et quemadmodum membrum paralyticum tremulat et movetur velocissime, et hoc non venit ex virtutis augmento, sed potius ex virtutis decremento, nec ex virtutis fortificatione, sed potius ex dissolutione : sic et in concupiscentia inteliigendum est quod appetitus in amore rei temporalis exardescit nec potest se ipsum continere, immo in continuo motu et concupiscentiae iteratione consistit : hoc, inquam, inteliigendum est provenire ex defectu retinaculi, sicut moventur ferae, ruptis vinculis, et naves, destructis gubernaculis.
+Concedendae sunt igitur rationes ostendentes quod concupiscentia non sit a Deo, prout concludunt de concupiscentia secundum id quod est.</p>
+        </div>
+        <div xml:id="bb-l2d32a2q2-Dd1e191">
+          <head xml:id="bb-l2d32a2q2-Hd1e193">Ad rationes</head>
+
+          <p xml:id="bb-l2d32a2q2-d1e196">Ad illud vero <name ref="#Augustine">Augustini</name>, qui dicit quod omnis poena iusta est, dicendum quod intelligit de poena sub ratione poenae ; sic enim iusta est ratione iustae ordinationis ad praecedentem culpam. Posset tamen dici quod intelligit de poena quae pure poena est, hoc est, quae ita poena est quod nec est culpa nec de se ordinata ad culpam. Concupiscientia vero aut culpa est aut ordinata ad culpam ; et ideo non habet locum hic auctoritas illa.</p>
+
+          <p xml:id="bb-l2d32a2q2-d1e202">Ad illud quod obicitur, quod omnis poena aut est acta aut inflicta aut contracta, dicendum quod concupiscentia in Adam fuit acta, pro eo quod peccando se ipsum privavit originali iustitia et induxit in se concupiscentiam. In npbis vero est poena contracta, pro eo quod a parentibus contrahimus carnem infectam, quae facit concupiscentiam esse in anima sibi unita.</p>
+          <p xml:id="bb-l2d32a2q2-d1e205">Ad illud quod obicitur, quod omnis positio a Deo est, et concupiscentia dicit positionem etc., dicendum quod sicut claudicatio et tremulatio positionem dicit quamdam, quia ponit actum et virtutem progressivam, dicit etiam nihilominus defectum et privationem - claudicatio enim defectum in crure ponit, tremulatio vero defectum in virtute movente sive ineptitudinem circa mobile - sic et in proposito intelligendum est esse, ut prius explanatum est. Et ratione eius quod est ibi positionis absque dubio a Deo est ; ratione vero eius quod.est ibi defectus et privationis non est quaerenda causa efficiens, sed deficiens.</p>
+          <p xml:id="bb-l2d32a2q2-d1e208">Ad illud quod obicitur, quod Dei est auferre dominium cuius est dare, dicendum quod ipse, cui datum est dominium, ex mala custodia potest amittere. Et sic intelligendum est hominem perdidisse dominium illud quod habebat ratio super vires inferiores ; et hoc, non quia sit ei ablatum violenter, sed quia, cum esset in sua potestate tale dominium in se conservare, ex propria incuria et negligentia noluit et amisit ; sicut homo, dum peccat, a semetipso fugat gratiam divinam, et Deus dicitur auferre, quia iusto suo iudicio. ultra non apponit, dum homo reddit se ipsum indignum ad donum Dei percipiendum.</p>
+          <p xml:id="bb-l2d32a2q2-d1e212">Et per hoc etiam posset responderi ad sequens obiectum de amissione dominii bestiarum.
+Potest tamen et aliter dici quod non est simile, quia quod bestia non obtemperat homini, hoc non ponit culpam nec in bestia, quae non subiacet, nec in homine, qui non praesidet ; secus tamen est in sensualitate et ratione. Cum enim sensualitas, rationi repugnet movendo et ; inclinando ab illicitum, ipsa talis repugnantia est ei culpa ; et ideo proprie non debet dici talis rebellio esse a Deo nec Deum inflixisse concupiscentiam. Et si aliquae tales auctoritates inveniantur, intelligendae sunt et exponendae ut loquantur de concupiscentia, secundum quod est poena. Et sic patent obiecta.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

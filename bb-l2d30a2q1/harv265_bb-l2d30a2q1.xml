@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d30a2q1">
+        <head xml:id="bb-l2d30a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d30a2q1-Hd1e111" type="question-title">Utrum peccatum originale sit concupiscentia.</head>
+ 
+        <p xml:id="bb-l2d30a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum originale peccatum sit concupiscentia.</p>
+        <div xml:id="bb-l2d30a2q1-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-l2d30a2q1-d1e119">Et quod sic videtur.
+   Ad Romanos 6, 12 : <quote xml:id="bb-l2d30a2q1-Qd1e121" ana="#rom6_12">Non regnet peccatum in vestro mortali corpore</quote>, ibi Glossa : Peccatum, id est fomes peccati ; sed fomes peccati non est aliud quam concupiscentia ; si igitur fomes peccati est peccatum, et non est peccatum actuale, restat quod sit originale.</p>
+          <p xml:id="bb-l2d30a2q1-d1e125">Item, ad Romanos 7, 7 : <quote xml:id="bb-l2d30a2q1-Qd1e127" ana="#rom7_7">Concupiscentiam nesciebam esse peccatum</quote> etc., Glossa : <quote xml:id="bb-l2d30a2q1-Qd1e130">Concupiscentia. est unde omnia mala proveniunt</quote>. Si igitur -illud quod est origo omnium malorum, est originale peccatum, videtur quod originale peccatum nihil aliud sit quam concupiscentia.</p>
+          <p xml:id="bb-l2d30a2q1-d1e134">Item, hoc ipsum videtur ratione. Quales sunt actus, tales sunt habitus ; sed concupiscere est peccatum : ergo necessitas concupiscendi mala est et peccatum. Sed necessitatem concupiscendi a natura contrahimus : si igitur peccatum quod a natura contrahitur est peccatum originale, videtur etc.</p>
+          <p xml:id="bb-l2d30a2q1-d1e137">Item, in omni peccato est conversio aliqua ad commutabile bonum vel in actu vel in habitu. Si igitur peccatum originale est peccatum, ergo est ibi aliqua conversio inordinata ad bonum commutabile ; sed conversio inordinata ad bonum commutabile nihil est aliud quam concupiscentia : ergo necesse est peccatum originale esse concupiscentiam.</p>
+
+ 
+          <p xml:id="bb-l2d30a2q1-d1e140">Sed contra :
+Ad Romanos 7, 8 : <quote xml:id="bb-l2d30a2q1-Qd1e142" ana="#rom7_8">Peccatum, occasione accepta, per mandatum operatum est in me omnem concupiscentiam</quote> ; hoc autem non potest intelligi de peccato actuali : intelligitur ergo de originali. Si igitur operans non est operatum, ergo concupiscentia non est originale peccatum nec e converso.</p>
+          <p xml:id="bb-l2d30a2q1-d1e147">Item, Beda dicit quod quatuor sunt nobis 
+  <pb ed="#Qb" n="722"/> inflicta propter primum peccatum, videlicet ignorantia, infirmitas, malitia et quartum ex his conflata concupiscentia ; sed quod est inflictum pro peccato non est ipsum peccatum : ergo, si haec merito originalis peccati sunt nobis inflicta, secundum quod dicit Beda, ergo etc.</p>
+          <p xml:id="bb-l2d30a2q1-d1e152">Item, concupiscentia manet cum gratia ; originale peccatum non potest manere cum gratia : ergo originale peccatum non est concupiscentia. Si tu dicas quod concupiscentia manet cum gratia, in quantum est remissa, et sic est poena ; in quantum autem est intensa, non manet, et sic est culpa, contra : Magis et minus non diversificant speciem : ergo, si concupiscentia remissa non est culpa, sed poena, pari ratione videtur quod nec concupiscentia intensa.</p>
+
+          <p xml:id="bb-l2d30a2q1-d1e155">Item, concupiscentia, postquam remissa est, intendi potest et in pristinum dominium revocari, sicut experimento patet. Si igitur originale peccatum esset iterabile, tunc et baptismus ; quod est contra institutionem Ecclesiae.
+ 
+Est igitur quaestio, quid sit originale peccatum per essentiam. Et cum a <name ref="#Lombard">Magistro</name> dicatur et ab <name ref="#Augustine">Augustino</name> esse concupiscentia, sicut patet in littera, ab Anselmo autem, in libro De conceptu virginali, dicatur esse debitae iustitiae carentia, quaestio est quomodo ista duo verba possint esse simul vera et in quo horum verborum magis explicatur quid sit originalis culpa.</p>
+        </div>
+        <div xml:id="bb-l2d30a2q1-Dd1e165">
+          <head xml:id="bb-l2d30a2q1-Hd1e167">Conclusio</head>
+          <head xml:id="bb-l2d30a2q1-Hd1e170" type="question-title">Peccatum originale est concupiscentia, prout in se claudit 
+    debitae iustitiae carentiam</head>
+    
+          <p xml:id="bb-l2d30a2q1-d1e173">Respondeo : Dicendum quod sicut actuale peccatum non dicit omnimodam privationem, eo quod non tantum dicit aversionem, immo etiam quamdam conversionem ; non etiam dicit omnimodam boni privationem, immo relinquit aptitudinem et aliquem actum, privando circumstantiam erga ipsum : sic etiam in originali suo modo intelligendum est. Unde sicut non dicitur peccatum actuale esse in aliquo ex hoc solo quod careat iustitia, quia tunc lapis diceretur peccatum habere, sed ex hoc quod aliquam inclinationem habet ad aliquid, in qua, cum deberet esse iustitia, non reperitur : sic etiam originale peccatum dicitur esse in aliquo non solum quia caret iustitia originali, sed etiam quia curvitatem habet et necessitatem concupiscendi. Unde quemadmodum videmus in aegritudine corporali, utpote in paralysi, quod talis morbus inest ex quadam dissolutione virtutis, ita tamen quod non omnino privatur virtus motiva, sicut in mortuo, sed aliquo modo manet, non potens membrum regere, et ita sequitur partim ex positione, partim ex defectu manus tremulatio : sic intelligendum est tam in actuali quam in originali peccato. Quemadmodum igitur, si quis quaereret quid esset peccatum carnis, dupliciter posset ei notificari, videlicet ratione inclinationis deordinatae, ut dicatur esse immoderatus appetitus rei tractabilis secundum carnem ; et ratione privationis boni, ut dicatur esse privatio castitatis et continentiae : et utroque modo respondetur satis convenienter : sic, cum quaeritur quid sit originale peccatum, recte respondetur quod sit concupiscentia immoderata ; recte etiam respondetur quod sit debitae iustitiae carentia ; et in una istarum responsionum clauditur altera, licet una notificet ipsum originale ratione eius quod est in ipso habens modum conversionis ; altera vero, ratione privationis.</p>
+ 
+          <p xml:id="bb-l2d30a2q1-d1e176">Concedendum est igitur, sicut rationes ostendunt et <name ref="#Lombard">Magister</name> dicit in littera, quod originale peccatum est concupiscentia, et haec non quaecumque, sed concupiscientia prout claudit in se debitae iustitiae carentiam. Haec autem est concupiscentia immoderata et intensa, adeo ut sit carnis ad spiritum praedominantia, et talis semper est iuncta carentiae debitae iustitiae, et secundum quod inest nobis ab origine, dicitur peccatum originale. Et hoc est quod dicit Glossa super illud : <quote xml:id="bb-l2d30a2q1-Qd1e181" ana="#ps31_1">Beati, quorum remissae sunt iniquitates</quote>, Glossa : <quote xml:id="bb-l2d30a2q1-Qd1e184">Iniquitatem dicit fomitem, qui ante baptismum non tantum poena est, sed culpa ; post baptismum vero poena tantum est, et non culpa. Cum enim deletur originale, non deletur ut omnino non sit, sed ut non sit peccatum</quote>.
+Concedendae sunt igitur rationes quae hoc ostendunt. Ad rationes autem ad oppositum satis planum est respondere per ea quae dicta sunt.</p>
+        </div>
+        <div xml:id="bb-l2d30a2q1-Dd1e190">
+          <head xml:id="bb-l2d30a2q1-Hd1e192">Ad rationes</head>
+          <p xml:id="bb-l2d30a2q1-d1e195">Ad illud enim quod primo obicitur, quod peccatum operatur concupiscentiam, dicendum quod illud intelligitur de concupiscentia quantum ac actum, quam dicitur operari mandatum, quia occasiona<pb ed="#Qb" n="723"/>liter excitat in nobis ipsam concupiscentiam, quae se habet per modum habitus.</p>
+
+          <p xml:id="bb-l2d30a2q1-d1e200">2-3. Ad illud vero quod obicitur, quod concupiscentia est nobis inflicta per peccatum, dicendum quod intelligitur de concupiscentia prout est remissa, et sic sortitur rationem poenae ; et hoc modo non est originalis culpa, sed ipsius sequela. Et per hoc patet responsio ad sequens quod obicitur, quod manet simul cum gratia. Non enim manet, prout dictum est in opponendo, prout intensa est, quia sic dicit animae perversionem, ac per hoc originalis iustitiae privationem ; prout autem est remissa per gratiae praesentiam, hoc non dicit. Et si obicias, quod magis et minus non variant speciem, dicendum quod, etsi istud locum habeat in naturalibus, non tamen habet veritatem in moralibus, quoniam virtutes et vitia in moribus attenduntur penes medietatem et eius extrema, quae sunt superfluum et diminutum. Et hoc non solum verum est apud moralem philosophum, sed etiam apud theologum, qui dicit quod amor creaturae citra Deum vel sub Deo non est peccatum mortale ; si vero supra Deum intendatur, mortale peccatum efficitur.</p>
+ 
+          <p xml:id="bb-l2d30a2q1-d1e203">Ad illud vero quod obicitur, quod concupiscentia remissa iterum potest intendi, dicendum quod, etsi intendi possit et intendatur, hoc est per peccatum actuale ; concupiscentia vero intensa non dicebatur esse peccatum originale, nisi prout sic contrahebatur a prima origine ; et quia hoc non potest esse nisi semel, quantumcumque et quotiescumque concupiscentia intendatur, originale peccatum non iteratur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d39a2q2">
+        <head xml:id="bb-l2d39a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d39a2q2-Hd1e111" type="question-title">Utrum synderesis per peccatum exstingui possit.</head>
+ 
+        <p xml:id="bb-l2d39a2q2-d1e114">Secundo quaeritur, utrum synderesis possit per peccatum exstingui.</p>
+        <div xml:id="bb-l2d39a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d39a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d39a2q2-d1e122">Et quod sic, videtur. Super illud Psalmi [13, 2] : <quote xml:id="bb-l2d39a2q2-Qd1e124" ana="#ps13_2">Corrupti sunt et abominabiles facti sunt</quote>, Glossa : <quote xml:id="bb-l2d39a2q2-Qd1e127">Omni vi rationali privati</quote>. Sed synderesis est potentia rationalis : ergo per magnitudinem peccati potest synderesis privari saltem quantum ad actum.</p>
+          <p xml:id="bb-l2d39a2q2-d1e131">Item, super illud Psalmi [55, 4] : <quote xml:id="bb-l2d39a2q2-Qd1e133" ana="#ps55_4">Ab altitudine diei timebo</quote>, Glossa : <quote xml:id="bb-l2d39a2q2-Qd1e136">Stupor est, qui non sentit</quote> ; et post subiungitur : <quote xml:id="bb-l2d39a2q2-Qd1e139">Stulta arrogantia similis est stupori, quando quis, de se praesumens, nec timet nec cavet</quote>. Ergo sicut per stuporem contingit corpus fieri insensibile respectu morbi corporalis, ita et animam contingit fieri insensibilem respectu morbi spiritualis. Si ergo synderesis remurmurat morbo spirituali, videtur quod synderesim contingat aliquando exstingui.</p>
+          <p xml:id="bb-l2d39a2q2-d1e143">Item, haeretici pro errore suo sustinent mortem sine aliquo remorsu conscientiae. Si ergo synderesis est remurmurare malo, et in eis non remurmurat aliquo modo, videtur quod in eis sit exstincta omnino.</p>
+          <p xml:id="bb-l2d39a2q2-d1e146">Item, fomes se habet per oppositum ad synderesim ; sed fomitem contingit totaliter exstingui, sicut patet in beata Virgine : ergo videtur quod similiter synderesim contingat exstingui per peccatorum multitudinem.</p>
+
+ 
+          <p xml:id="bb-l2d39a2q2-d1e150">Sed contra : In Glossa praehabita super 1, 10 Ezechielis : <quote xml:id="bb-l2d39a2q2-Qd1e152" ana="#ez1_10">Facies aquilae</quote> etc., Glossa : <quote xml:id="bb-l2d39a2q2-Qd1e155">Scintilla conscientiae in Cain non exstinguitor</quote>. Si ergo Cain fuit magnus peccator, videtur quod per peccatum exstingui non habeat.</p>
+          <p xml:id="bb-l2d39a2q2-d1e159">Item, <name ref="#Augustine">Augustinus</name>, in II De Civitate Dei: <quote xml:id="bb-l2d39a2q2-Qd1e164" source="http://scta.info/resource/adcd-l2">Tanta est vis probitatis et castitatis, ut omnis vel pene omnis eius laude moveatur humana natura, nec usque adeo sit turpitudine vitiosa, ut totum amittat sensum honestatis</quote>. Ergo, si iste sensus honestatis est synderesis, videtur quod non possit per peccatum exstingui.</p>
+          <p xml:id="bb-l2d39a2q2-d1e168">item, quae naturaliter insunt sunt inseparabilia ; sed synderesis inest nobis naturaliter : ergo videtur quod actum eius non possumus omnino per peccatum amittere, cum vitium, sicut dicit <name ref="#Augustine">Augustinus</name>, non deleat extrema naturae vestigia .</p>
+          <p xml:id="bb-l2d39a2q2-d1e174">Item, si in aliquibus deberet exstingui, maxime esset exstincta in damnatis ; sed in damnatis synderesis non exstinguitur, quia remorsus conscientiae est ex actu synderesis ; et hic remorsus maxime in eis viget, quia nec ignis eorum exstinguetur nec vermis morietur . Ergo etc.</p>
+
+        </div>
+        <div xml:id="bb-l2d39a2q2-Dd1e178">
+          <head xml:id="bb-l2d39a2q2-Hd1e180">Conclusio</head>
+          <head xml:id="bb-l2d39a2q2-Hd1e183" type="question-title">Syderesis quoad actum ad tempus impediri potest, 
+    sed exstingui non potest, scilicet quoad 
+    omnem actum et omne tempus.</head>
+ 
+          <p xml:id="bb-l2d39a2q2-d1e186">Respondeo : Dicendum quod synderesis quantum ad actum impediri potest, sed exstingui non potest. Ideo autem non potest exstingui, quia, cum dicat quid naturale, non potest a nobis omnino auferri. Unde et Glossa dicit super illud Lucae 10, 30 : Abierunt, semivivo relicto : Immortalilatem exuere, sed rationis sensum omnino abolere non possunt quin homo possit sapere et Deum cognoscere, nec unquam vitium delet extrema naturae vestigia.</p>
+ 
+          <p xml:id="bb-l2d39a2q2-d1e189">Quamvis autem actus eius omnino auferri vel exstingui non possit, potest tamen ad tempus impediri, sive propter tenebram obcaecationis sive propter lasciviam delectationis sive propter duritiam obstinationis.
+Propter tenebram obcaecationis impeditur synderesis, ne malo remurmuret, pro eo quod malum creditur esse bonum ; sicut est in haereticis, qui morientes pro impietate erroris, credunt se mori pro pietate fidei ; et ideo remorsum non sentiunt, sed magis quoddam gaudium fictum et vanum.
+Propter lasciviam delectationis similiter impeditur ; aliquando enim in peccatis carnalibus ita absorbetur homo ab actu carnis ut remorsus locum non habeat, quia carnales homines tanto impetu delectationis feruntur ut ratio tunc non habeat locum.
+Propter duritiam obstinationis impeditur etiam synderesis, ne ad bonum stimulet, sicut in damnatis, qui adeo sunt in malo confirmati ut nunquam possint ad bonum inclinari. Et ideo synderesis, quam tum ad instigationem ad bonum, sempiternum habet impedimentum ; et propterea, quantum ad istum actum, potest dici exstincta ; non tamen est exstincta simpliciter, quia habet alium usum, videlicet remurmurationis. Secundum enim illum usum, secundum quem synderesis habet pungere et remurmurare contra malum, maxime vigebit in damnatis ; et hoc dico, prout remurmurabo contra malum tenet rationem poenae, non prout tenet rationem iustitiae, quia illa remurmuratio erit ad commendandam divinam iustitiam, sed non erit ad eliciendam fructuosam poenitentiam. Unde remurmurabit synderesis in damnatis contra culpam, in relatione tamen ad poenam.</p>
+ 
+          <p xml:id="bb-l2d39a2q2-d1e192">Et sic patet quod synderesis quantum ad actum impediri potest, nunquam tamen exstingui potest universaliter quantum ad omnem actum et quantum ad omne tempus, sicut rationes probant quae ad secundam partem inducuntur ; et ideo concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d39a2q2-Dd1e197">
+          <head xml:id="bb-l2d39a2q2-Hd1e199">Ad rationes</head>
+
+          <p xml:id="bb-l2d39a2q2-d1e202">Ad illud vero quod obicitur de Glossa, quod per malum contingit privari omni vi rationis, dicendum quod ratio sumitur ibi pro potentia deliberativa et movente per modum deliberationis, quae in aliquibus omnino est ad malum conversa. Synderesis autem, ut prius ostensum est, non dicit vim animae rationalis ut moventem per modum deliberationis, sed ut moventem per modum naturae ; et ideo Glossa illa non facit ad propositum. Nec est intelligendum quod Glossa illa velit dicere quod per peccatum fiat privatio quantum ad potentiam, sed quantum ad rectitudinem potentiae.</p>
+          <p xml:id="bb-l2d39a2q2-d1e205">Ad illud quod obicitur, quod homo efficitur stupidus per peccatum, dicendum quod similitudo illa attenditur quantum est ex parte potentiae deliberativae, secundum quam habet in nobis esse stulta arrogantia.
+Posset tamen dici quod stupor non aufert simpliciter sensum, sed aufert solummodo ad tempus ; et bene potest esse quod ad tempus anima adeo incurvatur ad peccatum, ut nullum sentiat omnino remorsum, sive propter delectationis intensionem sive propter excaecationem, cum credit malum esse bonum.</p>
+
+          <p xml:id="bb-l2d39a2q2-d1e208">Ad illud quod obicitur de haereticis, iam patet responsio. Concedo enim quod non habet usum suum ut remurmuret malo erroris in quod ceciderunt ; tamen non est exstincta, pro eo quod remurmurat contra alia mala et contra illa quae haeretici credunt esse mala.</p>
+          <p xml:id="bb-l2d39a2q2-d1e211">Ad illud quod obicitur de fomite, dicendum quod non est simile, quia fomes est vitiositas praeter naturam, et ideo totaliter tolli potest, etiam salva natura. Non sic autem est de synderesi : inest enim secundum primam naturae institgtionem ; et ideo, natura salvata, non omnino auferri potest.
+Alia est etiam ratio, quia aliqua est gratia sive donum gratiae gratis datum, quod directe repugnat fomiti et quod amovet carnis corruptionem. Vitium autem et peccatum non habet esse circa actum synderesis ; et ideo, quantumcumque homo peccaverit, remansit tamen in eo tam conscientia quam synderesis.
+</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d33a1q1">
+        <head xml:id="bb-l2d33a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d33a1q1-Hd1e111" type="question-title">Utrum peccata proximorum parentum filiis imputentur vel ad eos transmittantur.</head>
+ 
+        <p xml:id="bb-l2d33a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum peccata parentum proximorum filiis imputentur vel ad eos transmittantur.</p> 
+   
+        <div xml:id="bb-l2d33a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d33a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d33a1q1-d1e122">Et quod sic, videtur : Primo auctoritate, Exodi 20, 5 : <quote xml:id="bb-l2d33a1q1-Qd1e124" ana="#ex20_5">Ego sum Deus zelotes, vindicans peccata patrum in filios</quote> etc: si ergo Deus non vindicat nisi pro culpa, et vindicta Dei transit a patre in filium, pari ratione videtur quod culpa.</p>
+          <p xml:id="bb-l2d33a1q1-d1e128">Item, hoc videtur exemplo, III Regum 14, 10 : <quote xml:id="bb-l2d33a1q1-Qd1e130">Ego inducam malum super Ieroboam et super universam domum eius</quote> ; et ibi habetur quomodo tota posteritas propter peccatum patris fuit consumta : ergo videtur quod peccata proximorum parentum filiis imputentur.</p>
+          <p xml:id="bb-l2d33a1q1-d1e134">Item, hoc videtur ratione. In habentibus symbolum facilior est transitus ; sed maius est symbolum et convenientia parentis proximi ad prolem quam parentis remoti : si igitur parens remotus potuit culpam transmittere in posteros, multo fortius videtur de parentibus propinquis.</p>
+          <p xml:id="bb-l2d33a1q1-d1e137">Item, parens proximus transmittit peccatum in filium quod aliunde suscepit ; sed magis unusquisque potest communicare quod habet a se quam quod habet ab alio : ergo videtur quod multo fortius ad prolem possit transmittere peccatum quod commisit, si transmittere potest peccatum quod aliunde contraxit.</p>
+          <p xml:id="bb-l2d33a1q1-d1e141">Item, ideo peccatum Adae transit ad posteros, quia in Adam fuimus, cum ipse peccavit : ergo pari ratione ; si parens proxinius peccavit, quando proles eius erat in lumbis eius, videtur similiter quod peccatum parentis proximi in prolem transfundatur.</p>
+          <p xml:id="bb-l2d33a1q1-d1e144">Item, ratio, quare peccatum originale transfunditur, est, quia est infectio virtutis generativae circa actum generandi : ergo, si aliquod peccatum consistit circa actum generationis, videtur quod tale debeat in prolem transfundi. Sed tale est peccatum adulterii : ergo videtur quod saltem illud peccati genus debeat in posterum redundare, ac per hoc peccatum originale intendere et multiplicare.</p>
+
+ 
+          <p xml:id="bb-l2d33a1q1-d1e147">Sed contra : Ezechielis 18, 20 : <quote xml:id="bb-l2d33a1q1-Qd1e149" ana="#ez18_20">Filius non portabit iniquitatem patris</quote>. Ergo, si hoc non est verum de parente remoto, ut de Adam, saltem veritatem habet circa propinquos.</p>
+          <p xml:id="bb-l2d33a1q1-d1e153">Item, ad Galatas 6, 5 : <quote xml:id="bb-l2d33a1q1-Qd1e155" ana="#gal6_5">Unusquisque onus suum portabit</quote> ; sed si peccata parentum redundarent in prolem, non portaret unusquisque onus suum, intmo etiam onus alterius : ergo etc. Et iterum alibi : Unusquisque pro se rationem reddet Deo.</p>
+          <p xml:id="bb-l2d33a1q1-d1e159">Item, Anselmus, De Conceptu virginali, capitulo 24 : <quote xml:id="bb-l2d33a1q1-Qd1e161">Parentum proximorum peccata ad originale peccatum non aestimo pertinere</quote>. Sed si transfunderentur a parente in prolem, pertinerent ad originale peccatum : ergo etc.</p>
+          <p xml:id="bb-l2d33a1q1-d1e165">Item, non est maior ratio quare transfundit iniustitiam quam iustitiam ; sed pater sanctus non generat filium sanctum, et baptizatus non generat baptizatum, sicut ostensum fuit supra : ergo pari ratione parens proximus peccatum suum non transmittit ad prolem.</p>
+          <p xml:id="bb-l2d33a1q1-d1e169">Item, nullum peccatum transmittitur a parente in prolem nisi mediante carne ; sed peccata actualia, quae committuntur, carnem non immutant nec nova infectione inficiunt : ergo videtur quod ad prolem transmitti non possint.</p>
+          <p xml:id="bb-l2d33a1q1-d1e172">Item, si peccata actualia tramsmitterentur a parente in prolem, ergo filius semper esset peior patre et dignus maiori punitione. Si ergo est magnae crudelitatis et impietatis dicere quod parvulus natus peior sit iniquo parente, patet etc.</p>
+        </div>
+        <div xml:id="bb-l2d33a1q1-Dd1e176">
+          <head xml:id="bb-l2d33a1q1-Hd1e178">Conclusio</head>
+          <head xml:id="bb-l2d33a1q1-Hd1e181" type="question-title">Peccata actualia proximorum parentum ad originale 
+    non pertinent nec cum originali transfunduntur</head>
+ 
+          <p xml:id="bb-l2d33a1q1-d1e184">Respondeo : Dicendum quod peccatum parentum transire ad prolem potest intelligi tripliciter : aut punitione aut imitatione aut transfusione.
+Si punitione, ut proles puniatur pro peccato parentis, sic attendendum est quod duplex est punitio : una aeterna et alia temporalis. Quantum ad punitionem aeternam nullo modo transit, videlicet quod aliquis damnetur pro solo peccato parentis. Unde Anselmus, De conceptu virginali, dicit quod parvuli non damnantur pro culpa Adae tantum, sed pro culpa propria quam habent, licet non habeant eam agendo, sed contrahendo. Si autem loquamur de temporali punitione, sic, quia pater punitur in filio, sicut ad litteram videmus et Scriptura ostendit, bene transit peccatum parentis in prolem, sive prole volente sive nolente, et hoc est de severitate divinae iustitiae.
+Alio modo dicitur peccatum transire a parente in prolem per imitationem. Et sic peccatum diaboli quodam modo transivit in genus humanum et peccatum Adae in posteros et peccata proximorum parentum in filios frequenter pertranseunt, iuxta illud Sapientiae 2, 24 : <quote xml:id="bb-l2d33a1q1-Qd1e186" ana="#sap2_24">Invidia diaboli mors introivit</quote> etc. ; non tamen transit in omnes, sed in eos qui imitari volunt.
+Tertio modo dicitur peccatum transire a parente in prolem, et hoc transfusione, sicut infectio nova causari habet ab alia infectione ; et hoc modo peccatum transfundi habet in prolem a solo primo parente.
+</p>
+ 
+          <p xml:id="bb-l2d33a1q1-d1e190">Ratio autem huius est, quia duo sunt in peccato, videlicet privatio debiti et conversio indebita ; et secundum hoc duo ponuntur in peccato : deformitas et macula. Macula namque ponitur ex conversione, sed deformitas ex debiti privatione, manente obligatione. Ad hoc igitur quod aliquis possit peccatum ex patre contrahere, necesse est quod in illo possit ad aliquid obligari, et possit eo bono, ad quod obligatur, in ipso privari et quod possit etiam maculari ; hoc autem solum fuit in primo parente. Ad aliquid enim tota humana natura et omnes eius posteri in illo obligati fuerunt, videlicet ad habendam rectitudinem iustitiae sive non concupiscendum ; et in illo per eius aversionem illa rectitudine privati sumus. Et quia illa obligatio carnem suam infecit infectione foeditatis et passione mortalitatis et caro nostra habet propagari ex illa, hinc est quod in illo habemus infici et ab ipso traducimus singulariter peccatum secundum plenam rationem. In nullo autem posterorum nova obligatione obligantur filii in parente nec etiam caro transfundenda inficitur nova infectione ex alicuius culpae actualis perpetratione. Et hinc est quod nullus parens proximus potest in prolem suam culpam actualem transfundere.</p>
+          <p xml:id="bb-l2d33a1q1-d1e193">Et hoc est quod dicit Anselmus, in libro De conceptu virginali, capitulo 24 : <quote xml:id="bb-l2d33a1q1-Qd1e195">Parentum proximorum peccata ad originale peccatum non aestimo pertinere. Quippe si Adam nequisset ad eos, quos generaturus erat, iustitiam suam traducere, nequaquam posset iniustitiam suam eis transmittere</quote>.
+Hoc autem intelligit quantum est de transfusione culpae, ad quam consequitur aeterna damnatio ; sed de transitu quantum ad punitionem temporalis poenae subiungit in fine capituli : Non nego, propter merita bona parentum filiis multa et magna beneficia corporis et animae impendi, et propter peccata parentum filios et nepotes usque in tertiam et quartam generationem, et forsitan ultra, diversis in hac vita tribulationibus flagellari et ea perdere bona in corpore et in anima, quae forsitan consequerentur, si iusti fuissent ; quorum exemplum longum est hic inserere.</p>
+ 
+          <p xml:id="bb-l2d33a1q1-d1e200">Ex his igitur patet responsio ad quaestionem propositam. Concedendum est enim quod peccata actualia proximorum parentum ad originale non pertinent nec cum originali transfunduntur, sicut rationes ad secundam partem inductae ostendunt.</p>
+        </div>
+        <div xml:id="bb-l2d33a1q1-Dd1e205">
+          <head xml:id="bb-l2d33a1q1-Hd1e207">Ad rationes</head>
+          <p xml:id="bb-l2d33a1q1-d1e210">1-2. Nihilominus tamen aliquo modo transeunt quantum ad vindictam et punitionem temporalem, sicut primo probatur auctoritate Exodi et deinde exemplo.</p>
+
+          <p xml:id="bb-l2d33a1q1-d1e213">Ad illud veroquod obicitur per rationem, quod facilior est transitus in habentibus symbolum, dicendum quod illud verum est quando utrobique aequaliter salvatur ratio principii agentis. Peccans autem actualiter non habet potestatem vitiandi prolem, nisi ille solus in quo habuimus obligari et in quo tota massa generis humani potuit vitiari, sicut ostensum est ; et ideo illud non cogit.</p>
+          <p xml:id="bb-l2d33a1q1-d1e216">Ad illud quod obicitur : transmittit quod aliunde suscepit, dicendum quod ex hoc non sequitur quod transmittat illud quod est a se. Peccatum enim, quod aliunde suscepit, est peccatum naturale ; sed peccatum, quod ipse facit, est peccatum personale ; communicatio autem alicuius proprietatis per viam generationis plus respicit virtutem naturae quam actum personae, sicut supra ostensum est.</p>
+          <p xml:id="bb-l2d33a1q1-d1e219">Ad illud quod obicitur, quod ideo peccavimus in Adam, quia fuimus in ipso, dum peccavit, dicendum quod ista non est tota causa, sed simul cum hoc exigitur quod in primo parente omnes posteri possent obligari et caro omnium posterorum posset infici et foedari ; hoc autem in alio quam in Adam non habet reperiri : ideo patet etc.</p>
+          <p xml:id="bb-l2d33a1q1-d1e223">Ad illud quod obicitur, quod pecfcatum adulterii attenditur circa actum generativae, dicendum quod, etsi circa actum generativae attendatur, non tamen dicit corruptionem quae sit in ipsa virtute generativa secundum se, sed quae consistit circa voluntatem rationalem, et ita circa personam ; et propter hoc culpa adulterii, secundum quod culpa, in prolem transfundi non habet. Nihilominus tamen, quia circa actum generativae consistit, plus imputatur proli quam alia peccata parentum ; unde vilis et abiectus reputatur ille qui natus est de adulterio et etiam secundum leges humanas hereditate paterna reputatur indignus. Unde illud peccatum plus redundat in prolem quam alia actualia, non tamen sic redundat ut primi parentis culpa, quae posteritatem suam non tantum obligavit ad ignorantiam et poenam, sed etiam foedavit peccati originalis macula, ob quam quilibet, cum nascitur, dignus est ira et indignus visione Dei.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

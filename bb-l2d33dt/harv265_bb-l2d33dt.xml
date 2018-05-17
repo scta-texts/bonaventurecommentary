@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio Textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d33dt">
+        <head xml:id="bb-l2d33dt-Hd1e108">Divisio Textus</head>
+        <p xml:id="bb-l2d33dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> qualiter peccatum originale per baptismum deleatur. In hac parte intendit inquirere utrum originale peccatum per peccata proximorum parentum multiplicetur et intendatur.
+Dividitur autem pars ista in partes tres.
+In quarum prima <name ref="#Lombard">Magister</name> movet quaestionem et determinat secundum aliorum opinionem.
+In secunda determinat secundum veritatem, ibi : Alioquin sibi ipsi contradicere ostenderetur ; vel parum ante : Ecce perspicuum fit lectori.
+In tertia vero parte dissolvit quamdam apparentem Scripturae auctoritatem, ibi : Et licet peccatis parentum etc.</p>
+ 
+        <p xml:id="bb-l2d33dt-d1e120">Prima pars habet tres partes.
+In prima <name ref="#Lombard">Magister</name> movet quaestionem.
+In secunda determinat secundum aliorum opinionem, ibi : De hoc <name ref="#Augustine">Augustinus</name> in Enchiridio ambigue disserit etc.
+In tertia vero, quia illa opinio videbatur super verba <name ref="#Augustine">Augustini</name> esse fundata, subiungit modum per quem <name ref="#Augustine">Augustinus</name> illam quaestionem dissolvit, ibi : Quod vero in actuali peccato Adae plura etc., ubi apparet quod <name ref="#Augustine">Augustinus</name> illam quaestionem pertractat ambigue et quasi insolutam illam dimittit.
+Similiter secunda pars principalis habet tres partes.
+In prima ostendit <name ref="#Lombard">Magister</name> quod peccatum originale nec multiplicatur nec intenditur propter peccata proximorum parentum, et hoc ratione sumta ex parte poenae.
+Secundo vero, quia originale peccatum ortum habet a peccato primi parentis, determinat de gravitate peccati Adae, ibi : Hic quaeri solet, utrum peccatum Adae etc.
+In tertia autem determinat de illius peccati remissione, ibi : Si vero quaeritur, an illud peccatum etc.</p>
+        <p xml:id="bb-l2d33dt-d1e142">Similiter tertia pars principalis habet tres partes.
+In prima parte <name ref="#Lombard">Magister</name> movet dubitationem, quae consurgit ex apparenti contrarietate.
+In secunda parte determinat illam apparentem contrarietatem, exponendo auctoritates quantum ad intellectum litteralem, ibi : Sed, ut ait Hieronymus, ne Lex et Prophetae etc.
+In tertia vero explanando quantum ad intellectum mysticum sive moralem, ibi : Quod etiam mystice intelligendum esse ostenditur.
+Et sic tria praecipue <name ref="#Lombard">Magister</name> determinat in littera, videlicet qualiter peccata parentum habeant imputari posteris ; et iterum, cuius quantitatis et intensionis sit culpa originalis ; et postremo, simul cum hoc determinat qualiter habeat puniri.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d42dt">
+        <head xml:id="bb-l2d42dt-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-l2d42dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> qualiter peccatum ortum habeat a voluntate in generali ; in hac vero parte descendit <name ref="#Lombard">Magister</name> ad differentias peccati. Dividitur autem pars ista in partes duas.
+In quarum prima descendit <name ref="#Lombard">Magister</name> ad differentias peccati communes.
+In secunda vero descendit ad unum peccatum speciale, quod est inter cetera peccatorum genera magis grave et abominabile, ibi : Est praeterea unum genus peccat etc.</p>
+        <p xml:id="bb-l2d42dt-d1e123">Prima pars, quae spectat ad praesentem distinctionem, tres habet partes, quoniam differentia peccati ad peccatum potest attendi tripliciter : aut quantum ad actum aut quantum ad reatum aut quantum ad peccandi modum.
+In prima ergo inquirit <name ref="#Lombard">Magister</name> differentiam inter peccata operis et voluntatis.
+In secunda inquirit diferentiam a parte reatus, quae est inter genus peccati originalis et actualis, venialis et mortalis, ibi : Praeterea, quaeri solet etc.
+In tertia vero subiungit modos diversos peccandi sive diversa genera peccatorum per modum narrationis, ibi : Modi autem peccatorum varias etc.
+</p>
+        <p xml:id="bb-l2d42dt-d1e129">Prima pars dividitur in duas.
+In quarum prima <name ref="#Lombard">Magister</name> movet quaestionem et determinat secundum duplicem opinionem.
+In secunda vero respondet obiectionibus, quae impugnare videntur opinionem magis probabilem, ibi : Quibus alii respondent, haec duo diversa etc.</p>
+ 
+        <p xml:id="bb-l2d42dt-d1e135">Similiter secunda pars, in qua inquirit differentias peccatorum quantum ad reatum, duas habet.
+In prima quaerit qualiter reatus possit manere, peccato abeunte ; in qua accipitur differentia actualis peccati et originalis quia actuale transit actu et remanet reatu, originale autem e converso.
+In secunda vero ostendit quod reatus multipliciter accipitur in Scriptura, videlicet pro obligatione poenae aeternae et poenae temporalis, ex quo accipitur differentia mortalis peccati et venialis, ibi : Reatus in Scriptura multipliciter accipitur.</p>
+ 
+        <p xml:id="bb-l2d42dt-d1e139">Similiter tertia pars duas habet partes.
+In quarum prima tangit <name ref="#Lombard">Magister</name> quinque modos dividendi peccata consuetos in Scriptura.
+In secunda vero removet dubitationem, quae ortum habet ex una illarum divisionum, ibi : Ex superbia tamen omnia mala oriuntur etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

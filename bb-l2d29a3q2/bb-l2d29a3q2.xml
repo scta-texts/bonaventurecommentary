@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d29a3q2">
+        <head xml:id="bb-l2d29a3q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d29a3q2-Hd1e111" type="question-title">Utram dona gratuita aeque efficaciter ad merendum in homine fuerint ante et post lapsum.</head>
+ 
+        <p xml:id="bb-l2d29a3q2-d1e114">Utrum dona gratuita fuerint aeque magnae efficaciae ad merendum ante lapsum sicut sunt post lapsum.</p> 
+        <div xml:id="bb-l2d29a3q2-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-l2d29a3q2-d1e119">Et quod fuerint maioris efficaciae tunc quam nunc, videtur. Quanto perfectior est cognitio, tanto perfectior est dilectio ; et quanto maior est dilectio, tanto opus nostrum est Deo acceptabilius. Prima propositio patet per illud quod quantum cognoscis tantum diligis. Si ergo in Adam secundum statum innocentiae clarior fuit cognitio, videtur quod caritas ad merendum fuerit efficacior.</p>
+          <p xml:id="bb-l2d29a3q2-d1e122">Item, <quote xml:id="bb-l2d29a3q2-Qd1e124">albius est quod est nigro impermixtius</quote> : ergo magis est meritorium quod minus habet in se de demerito ; sed omnia merita nostra quodam modo permixta sunt culpae, secundum illud Isaiae 64, 6 : Omnes iustitiae vestrae sicut pannus menstruatae. Si ergo in Adam secundum statum innocentiae merita omnino fuissent impermixta culpae, videtur quod secundum statum illum dona gratuita erant multo maioris efficaciae.</p>
+          <p xml:id="bb-l2d29a3q2-d1e128">Item, meritum est a gratia simul et libero arbitrio : quanto igitur liberum arbitrium magis gratiae obedit, tanto gratia efficacius in actum suum exit ; sed tunc natura magis erat obediens gratiae quam nunc, cum est corrupta ; ergo tunc dona gratuita erant ad merendum efficaciora.</p>
+          <p xml:id="bb-l2d29a3q2-d1e131">Item, amor visibilium et sollicitatio circa terrena impedit hominem ne iungatur Deo perfecte. Si igitur in statu primo nulla vigebat in homine concupiscentia, videtur quod Deo perfectius et diuturnius adhaerebat, et ita magis ad merendum dispositus erat.</p>
+          <p xml:id="bb-l2d29a3q2-d1e134">
+  Sed contra : II ad Timotheum 2, 5 : <quote xml:id="bb-l2d29a3q2-Qd1e136" ana="#IItim2_5">Non coronabitur nisi qui legitime certaverit</quote> ; sed magis impugnatur homo secundum statum naturae lapsae quam secundum statum naturae institutae : ergo, si has pugnas vincit, gloriosius triumphat ; et si gloriosius triumphat, maiorem meretur coronam : ergo etc.</p>
+          <p xml:id="bb-l2d29a3q2-d1e141">Item, <name ref="#Aristotle">Philosophus</name> dicit quod <quote xml:id="bb-l2d29a3q2-Qd1e146" source="http://scta.info/resource/aristneth-l2">ars et virtus est circa difficilia</quote>. Ergo, si hoc per se verum est, quanto actus virtutis est difficilior, tanto virtuosior ; et quanto virtuosior, tanto ad merendum efficacior : si ergo maior est difficultas in perficiendis divinis mandatis nunc quam esset in statu naturae institutae, videtur quod maior sit merendi efficacia.</p>
+          <p xml:id="bb-l2d29a3q2-d1e150">Item, si homo stetisset, aut Christus non esset incarnatus aut, si esset incarnatus, nunquam esset passus ; sed Christus sua passione non sibi meruit, sed nobis, et tam merita nostra quam sacramenta efficaciam habent a passione et eius fide. Si igitur inter omnia, quaecumque Deo placere possunt, hoc fuit Deo acceptissimum quod Christus se obtulit hostiam Deo et Patri, et inde sumunt efficaciam merita nostra, et illam efficaciam non habuissent merita in statu naturae institutae, ergo videtur quod non essent efficaciora.</p>
+          <p xml:id="bb-l2d29a3q2-d1e153">Item, <quote xml:id="bb-l2d29a3q2-Qd1e155" source="http://scta.info/resource/aristda-l3">natura non deficit in necessariis</quote>, ut dicit <name ref="#Aristotle">Philosophus</name> ; si hoc est verum in natura creata, multo magis verum est in natura increata ; et si divina providentia non deficit bobus, de quibus minus cura est ei, multo minus nee deficit hominibus. Sed natura humana magis indiget adiuvari quam indigeret ante lapsum : ergo videtur quod nunc Deus det homini fortius et efficacius adiutorium. Si ergo efficacia meritorum attenditur secundum magnitudinem caritatis et gratiae, videtur quod nunc dona gratuita in merendo sint maioris efficaciae.</p>
+        </div>
+        <div xml:id="bb-l2d29a3q2-Dd1e163">
+          <head xml:id="bb-l2d29a3q2-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d29a3q2-Hd1e168" type="question-title">Rationabiliter colligitur, 
+    quod nunc ratione maioris 
+    difficultatis et ratione gratiae sint efficaciora 
+    dona gratuita ad merendum, quam in 
+    statu innocentiae, non autem ratione promptitudinis 
+    voluntatis</head>
+ 
+          <p xml:id="bb-l2d29a3q2-d1e171">Respondeo : Dicendum quod efficacia meriti principaliter ex tribus venit, videlicet ex difficultate operis, ex promptitudine voluntatis et ex magnitudine caritatis.
+Difficultas operis multum facit ad meritum, et adeo facit ut homo, qui est multo minoris caritatis quam angelus, possit mereri ut perveniat ad sublimitatem angelicam, secundum quod colligitur ex illo quod dicitur Matthaei 11, 11 de Ioanne Baptista : Qui minor est in regno caelorum maior est eo. Non enim est dubitandum quin Ioannes sit exaltatus ad ordines excellentium angelorum ; et tamen secundum statum viae minoris caritatis erat quam aliquis eorum.
+Promptitudo etiam voluntatis plurimum facit. Si voluntas prompta est secundum id quod habet, accepta est ad meritum. Quantacumque enim sit in homine gratia, nisi sit voluntas gratiae consentanea, nunquam eliciet opera meritoria ; et quanto magis voluntas gratiae subiacet et conformatur, tanto magis homo in operibus meritoriis exercetur.
+Magnitudo caritatis principaliter inter omnia est quae facit ad meritum, quia secundum illius quantitatem attenditur remuneratio praemii substantialis. Pondus enim amoris est quod dat valorem operibus meritoriis.</p>
+ 
+          <p xml:id="bb-l2d29a3q2-d1e174">Si igitur fiat comparatio efficaciae merendi in donis gratuitis secundum statum post lapsum et secundum statum ante lapsum, responderi potest quod quantum ad primam conditionem, videlicet quantum ad difficultatem, efficaciores sunt virtutes nunc quam tunc fuerunt. Nunc enim magis impugnatur et impugnando probatur et examinatur virtus quam tunc, sicut patet in sanctis Martyribus.
+Et sic procedunt rationes ostendentes dona gratuita ad merendum esse nunc efficaciora.</p>
+          <p xml:id="bb-l2d29a3q2-d1e177">Quantum autem ad secundam conditionem, scilicet quantum ad promptitudinem voluntatis, efficaciores fuissent virtutes in merendo tunc quam nunc, pro eo quod voluntas tunc quasi continue fuisset in bonis operibus Deo placentibus sine retardatione ; nunc autem, sive ex lassitudine sive ex surreptione, frequenter cessat a bonis operibus et intendit aliquando rebus nocivis, aliquando inutilibus, tum propter difficultatem ad bonum, tum propter pronitatem ad malum. Et quantum ad hanc conditionem procedunt rationes probantes quod dona gratuita in statu naturae institutae fuissent ad merendum efficaciora.
+Et per hoc patet responsio ad utramque partem ; procedunt enim secundum diversas vias, secundum quas se habent dona gratuita in merendo sicut excedentia et excessa ; et reperitur in eis secundum diversas conditiones maior et minor efficacia. Et sic nulla est inter rationes illas repugnantia ; utraeque enim verum concludunt secundum diversam viam.</p>
+ 
+          <p xml:id="bb-l2d29a3q2-d1e181">Si autem quaeratur ulterius de maioritate efficaciae quantum ad tertiam conditionem, tunc respondendum est quod aut fit comparatio particularis personae ad particularem personam aut status ad statum. Si primo modo, dicendum est quod se haberent sicut excedentia et excessa. Satis enim probabiliter credi potest quod aliqui sunt qui habent maiorem gratiam aliquibus qui fuissent in statu innocentiae, si Adam stetisset ; alii vero minorem aliquibus, sicut dici consuevit, cum comparatur status Legis scriptae ad statum Legis evangelicae.
+Si autem comparetur generaliter status ad statum, tunc non videtur usquequaque certum in quo statu Dominus homini maius munus caritatis et gratiae tribuisset, pro eo quod secundum diversas conditiones reperitur maior et minor idoneitas in homine suscipiente ; et, quod plus est, magnitudo gratiae distributae plus attenditur secundum discretionem distribuentis, quae cognitionem nostram latet. Haec autem pars probabilior videtur et magis auctoritatibus consona, ut dicamus quod Deus maiora munera gratiae elargitus est homini lapso quam dedisset homini, si in statu innocentiae permansisset, tum quia homo maiori adiutorio gratiae indiget, tum etiam quia decet Deum de malo maius bonum elicere quam sit illud bonum quod adimendo malum nocet, tum etiam quia Mediator et Intercessor pro nobis interpellat, quem decet exaudiri in omnibus pro sua reverentia. Unde cum appareat vultui Dei semper ad interpellandum pro nobis, et pro nobis in cruce oblatus fuerit et quotidie offeratur, valde probabile videtur quod maius munus gratiae tribuatur nobis quam si ipse non fuisset incarnatus vel pro nobis oblatus. Et hoc expresse videtur innui Ioannis 7, 39, cum dicitur quod Spiritus nondum erat datus, quia Iesus nondum erat glorificatus ; unde, cum ascendit in altum, tunc dedit dona hominibus. Ex hac igitur triplici ratione, quarum una est in commendatione misericordiae et secunda in commendatione sapientiae et tertia in commendatione divinae iustitiae, satis rationabiliter colligitur quod nunc magis sint efficacia dona gratuita ad merendum quam in statu innocentiae, non solum ratione difficultatis, verum etiam ratione gratiae et caritatis, quamvis non absurde dici possit quod maior efficacia in merendo erat tunc quam nunc ratione promptitudinis voluntatis.
+Et hac via procedunt rationes quae ad primam partem inducuntur, sicut patet intuenti ; aliter enim non cogunt.</p>
+        </div>
+        <div xml:id="bb-l2d29a3q2-Dd1e186">
+          <head xml:id="bb-l2d29a3q2-Hd1e188">Ad ratione</head>
+          <p xml:id="bb-l2d29a3q2-d1e191">1. Nam ad illud quod primo obicitur, quod maior erat tunc dilectio, quia maior cognitio, dicendum quod verum est de dilectione secundum quod se tenet ex parte potentiae concupiscibilis ; sed non est verum de dilectione secundum quod se tenet ex parte gratiae animam elevantis. Et si obiciat, quod utraque commensuratur cognitioni, dicendum quod illud non est verum de omni cognitione, sed de cognitione experimentali ; haec autem non magis viguit in primo parente quam in viris sanctis, qui fuerunt et sunt in in statu naturae lapsae.</p>
+          <p xml:id="bb-l2d29a3q2-d1e194">2-4. Ad illud vero quod obicitur, quod meritum magis erat impermixtum demerito in statu innocentiae, dicendum quod hoc venit ex hoc quod voluntas non est ita prompta propter gravitatem carnis coniunctae et pronifatem concupiscentiae contractae ; et ratio illa procedit ex parte promptitudinis voluntatis ; similiter et duae rationes sequentes.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d29a3q1">
+        <head xml:id="bb-l2d29a3q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d29a3q1-Hd1e111" type="question-title">Utrum homo habuerit tot virtutes ante lapsum quot habuit post lapsum.</head>
+ 
+        <p xml:id="bb-l2d29a3q1-d1e114">Circa primum sic proceditur et quaeritur, utrum homo habuerit tot virtutes ante lapsum quot habuit post lapsum.</p>
+        <div xml:id="bb-l2d29a3q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d29a3q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d29a3q1-d1e122">Et quod sic, videtur : Primo, per <name ref="#JohnDamascenus">Damascenum</name>dicentem quod Deus fecit <quote xml:id="bb-l2d29a3q1-Qd1e127" source="http://scta.info/resource/jddfo-l2c12">hominem omni virtute circumdatum et omnibus bonis ornatum</quote>. Ergo non videtur quod aliquis habitus virtutis, qui sit in nobis, deesset eidem.</p>
+          <p xml:id="bb-l2d29a3q1-d1e131">Item, ex parte cognitionis non cognoscimus plura quam Adam cognovit nec plures habemus in nobis scientias. Ergo pari ratione ex parte affectionis non videtur quod plures in nobis habeamus habitus virtutum quam habuit primus homo.</p>
+          <p xml:id="bb-l2d29a3q1-d1e134">Item, connexio est in virtutibus, sicut Sancti dicunt, et suo loco ostendetur in tertio. Ergo, si Adam habuit aliquam virtutem, necesse fuit quod omnes habuerit : ergo tot habuit quot nos habemus.</p>
+          <p xml:id="bb-l2d29a3q1-d1e137">Item, aut aliquam virtutem habemus, quam non habuit Adam, aut non. Si non, ergo tot virtutes habuit quot nos habemus. Si sic, aut ergo illius virtutis fuit Adam capax aut non. Si non, ergo videtur quod per peccatum creverit in nobis boni capacitas ; quod absurdum est dicere. Si sic, cum Deus daret gratiam Adae secundum capacitatem suam, videtur quod omnem virtutem, quam nobis confert post lapsum, et ipsi Adae contulerit ante lapsum.</p>
+
+ 
+          <p xml:id="bb-l2d29a3q1-d1e141">Sed contra : Virtus fortitudinis consistit in perpessione terribilium ; sed in Adam in statu innocentiae non poterat esse talis perpessio : ergo nec fortitudo.</p>
+          <p xml:id="bb-l2d29a3q1-d1e144">Item, temperantia consistit in coercendis pravis carnis passionibus ; sed tales non poterant reperiri in natura instituta : ergo nec temperantia.</p>
+          <p xml:id="bb-l2d29a3q1-d1e147">Item, poenitentia consistit in detestatione malorum perpetratorum ; sed nullo modo contingebat in statu innocentiae de malis commissis dolere : ergo tunc non poterat esse in homine virtus poenitentiae.</p>
+          <p xml:id="bb-l2d29a3q1-d1e150">Item, qui habet donum perseverantiae, non cadit a iustitia ; sed Adam a iustitia cecidit : ergo perseverantiam non habuit. Hanc autem multi habent in statu naturae lapsae : ergo non omnis virtus, quae nunc est, fuit in statu innocentiae.</p>
+   
+        </div>
+        <div xml:id="bb-l2d29a3q1-Dd1e154">
+          <head xml:id="bb-l2d29a3q1-Hd1e156">Conclusio</head>
+          <head xml:id="bb-l2d29a3q1-Hd1e159" type="question-title">Dona gratiae gratis datae in homine ante et post 
+    lapsum se habent sicut excedentia et excessa; 
+    dona vero gratiae gratum facientis in aequali multitudine 
+    fuerunt in utroque statu.</head>
+ 
+          <p xml:id="bb-l2d29a3q1-d1e162">Respondeo : Dicendum quod, cum fit comparatio multitudinis donorum gratiae ad statum naturae lapsae et statum naturae institutae, hoc potest intelligi vel de donis gratiae gratis datae vel de donis gratiae gratum facientis.
+Si intelligatur de donis gratiae gratis datae, sic se habent sicut excedentia et excessa, pro eo quod aliqua dona gratiae gratis datae habuit Adam in statu illo, utpote immortalitatem et impassibilitatem, quae non habuit aliquis posterorum eius ; et aliqua dona gratiae gratis datae habent posteri sui, quae ipse non habuit, sicut est gratia sanitatum et operatio virtutum et genera linguarum et consimilia.
+Ratio autem huius diversitatis venit ex hoc quod alia dona expediebant illi tempori et alia competunt isti.
+</p>
+          <p xml:id="bb-l2d29a3q1-d1e165">Si autem loquamur de donis gratiae gratum facientis, sic, quia illa dona connexionem habent quantum ad habitus et quantum ad actus, qui perfectionis sunt, sic concedendum est quod in aequali multitudine fuerunt in primo homine in qua reperiuntur in eius posteritate. Hoc dico quantum ad habitus et quantum ad actus qui perfectionis sunt, sicut rationes ad primam partem inductae ostendunt. Quantum vero ad actus qui habent imperfectionem annexam, non contingebat virtutes secundum statum illum in Adam ponere.</p>
+ 
+        </div>
+        <div xml:id="bb-l2d29a3q1-Dd1e170">
+          <head xml:id="bb-l2d29a3q1-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-l2d29a3q1-d1e175">1-3. Et per hoc patet responsio ad tria obiecta, quorum unum est de fortitudine, alterum de temperantia et tertium de poenitentia, quae omnia procedunt secundum actus habentes imperfectionem aliquam annexam ; quae quidem imperfectio non competit illis virtutibus secundum omnem statum, sed solum secundum statum praesentis miseriae.</p>
+          <p xml:id="bb-l2d29a3q1-d1e178">4. Ad illud autem quod obicitur de perseverantia, dicendum quod perseverantia uno modo dicitur propositum perseverandi in bono ; et hoc modo est virtus vel dispositio consequens virtutes inseparabiliter. Alio modo perseverantia est continuatio in bono usque in finem ; et sic non dicit habitum, sed potius dicit statum, et hunc primus homo non habuit. Ex hoc tamen non sequitur quod aliqua virtute caruerit pro eo tempore quo in gratia permansit.</p>
+          <p xml:id="bb-l2d29a3q1-d1e181">Si quis autem quaerat, cuiusmodi actus habuerunt virtutes in primo homine ; quae imperfectionem habent annexam in actibus suis secundum statum naturae lapsae, dicendum quod actus illi in statu innocentiae plurimum conformes erant actibus quos in patria virtutes sunt habiturae ; cuiusmodi autem sint illi, determinat <name ref="#Lombard">Magister</name> in tertio libro, distinctione trigesima tertia, et ibi suo loco determinabitur, dante Deo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

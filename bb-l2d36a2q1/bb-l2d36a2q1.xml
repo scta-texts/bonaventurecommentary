@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d36a2q1">
+        <head xml:id="bb-l2d36a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d36a2q1-Hd1e111" type="question-title">Utrum in aliquo contingat ponere culpam sine poena subsequente.</head>
+ 
+        <p xml:id="bb-l2d36a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum contingat in aliquo ponere culpam sine poena subsequente.</p> 
+        <div xml:id="bb-l2d36a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d36a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d36a2q1-d1e122">Et quod sic, videtur. Ecclesiastici 5, 4 : <quote xml:id="bb-l2d36a2q1-Qd1e124" ana="#sir5_4">Altissimus est patiens redditor</quote> ; sed patiens non statim vindicat iram suam, sed usque in tempus exspectat : ergo videtur quod Deus peccatorem non statim puniat : ergo contingit in aliquo esse culpam sine poena.</p>
+          <p xml:id="bb-l2d36a2q1-d1e128">Item, pronior est Deus ad miserendum quam ad condemnandum ; sed meritum non habet statim conjunctum praemium : ergo videtur similiter quod culpa non statim habeat iunctam poenam : ergo etc.</p>
+          <p xml:id="bb-l2d36a2q1-d1e131">Item, <quote xml:id="bb-l2d36a2q1-Qd1e133">poena est, ut dicit <name ref="#Augustine">Augustinus</name>, labor involuntarius</quote> ; sed impiis et peccatoribus in nae vita multa prospera proveniunt, et plures sunt, qui adeo in malo laetantur, quod dolorem non sentiunt : ergo videtur quod ponere sit peccatum absque poena, saltem ad tempus.</p>
+          <p xml:id="bb-l2d36a2q1-d1e140">Item, si statim peccator, cum peccat, punitur, aut punitur sufficienter aut non sufficienter. Si sufficienter, ergo non deberet amplius in inferno puniri. Si non sufficienter, ergo aliquid de culpa ad tempus remanet impunitum. Sed qua ratione aliquid remanet impunitum, eadem ratione et totum : ergo videtur quod peccatum possit saltem ad tempus separari a poena</p>
+          <p xml:id="bb-l2d36a2q1-d1e144">Item, multo misericordior et benignior est Deus quam sit aliquis homo ; sed ad laudem benignitatis humanae spectat ut in nullo vindicet iniuriam sibi factam : ergo multo fortius hoc decet facere Deum : ergo videtur quod saltem ad tempus debeat relinquere peccatum impunitum.</p>
+
+ 
+          <p xml:id="bb-l2d36a2q1-d1e147">Sed contra : <name ref="#Augustine">Augustinus</name>, I Confessionum : <quote xml:id="bb-l2d36a2q1-Qd1e152" source="http://scta.info/resource/aconf-l1">Iussisti, Domine, et sic est, ut poena sua sit sibi omnis inordinatus animus</quote>. Si ergo ad culpam necessario sequitur animi inordinatio, necessario igitur ad culpam sequitur aliqua punitio.</p>
+          <p xml:id="bb-l2d36a2q1-d1e156">Item, ubicumque est peccatum, ibi est privatio modi, speciei et ordinis ; ubicumque autem hoc est, ibi est damnificatio ; ubicumque autem damnificatio est merito culpae, ibi est iusta punitio : ergo impossibile est culpam esse in aliquo absque poena.</p>
+          <p xml:id="bb-l2d36a2q1-d1e159">Item, quicumque inordinate convertitur ad bonum ut nunc, avertitur a bono simpliciter ; et quicumque acquirit carnalem delectationem, perdit spiritualem consolationem ; sed perdere spiritualem consolationem, ad quam anima nata est, et amittere Deum, qui est omne bonum animae, hoc est maximum damnum et poenam incurrere : ergo videtur quod nunquam peccatum committitur absque poena.</p>
+          <p xml:id="bb-l2d36a2q1-d1e162">Item, universum ideo dicitur esse valde bonum, quia optime ordinatum ; sed in eo quod est optime ordinatum non potest esse ordinis corruptio, nec simpliciter nec ad tempus ; sed peccatum absque poena est inordinatum : ergo impossibile est ad momentum peccatum esse impunitum.</p>
+          <p xml:id="bb-l2d36a2q1-d1e165">Item, ad iustitiae perfectionem spectat superare iniustitiam, sicut ad sapientiae perfectionem spectat vincere malitiam, ut dicitur Sapientiae 7, 30 : <quote xml:id="bb-l2d36a2q1-Qd1e167" ana="#sap7:30">Sapientia vincit malitiam</quote> ; sed quia sapientia vincit malitiam, impossibile est aliquod malum esse, quod divina sapientia non statim ordinet et exinde bonum aliquod eliciat : ergo, cum iustitia Dei similiter omnem superet iniustitiam, impossibile est aliquam culpam committi quin statim ad eam non sequatur aliqua poena.</p>
+        </div>
+        <div xml:id="bb-l2d36a2q1-Dd1e172">
+          <head xml:id="bb-l2d36a2q1-Hd1e174">Conclusio</head>
+          <head xml:id="bb-l2d36a2q1-Hd1e177" type="question-title">Impossibile est, culpam in aliquo esse, quin ad ipsam sequatur poena inseparabiliter</head>
+          <p xml:id="bb-l2d36a2q1-d1e180">Respondeo : Dicendum quod impossibile est culpqm in aliquo esse quin ad ipsam sequatur poena inseparabiliter.
+Et ratio huius potest sumi ex perfectione divinae aequitatis et ex pulcritudine universitatis et ex inordinatione culpae et ex conditione peccantis naturae.</p>
+ 
+          <p xml:id="bb-l2d36a2q1-d1e183">Ex perfectione divinae aequitatis ratio sumitur. Tantae enim aequitatis est Deus, qui est iudex omnium, ut non patiatur dedecus peccati ad modicum esse sine decore iustitiae ; omni enim modo debet iustitia iniustitiam superare.
+ Ex pulcritudine universitatis ratio sumitur. Universum enim ex ordine pulcritudinem habet, et talis est ista pulcritudo qualem decuit fieri ad ostensionem summae sapientiae ; et ideo nullo modo foedari potest, ac per hoc nec ad momentum esse in ea aliquid inordinatum, et ita nec peccatum a poena separatum.
+ Ex corruptione culpae ratio sumitur. Nunquam enim culpa committitur quin modus, species et ordo circa actionem voluntatis privetur ; et dum voluntas se voluntarie in actu suo deordinat, semetipsam incurvat ; et dum incurvatur, modo, specie et ordine privatur quantum ad habilitatem ad bonum. Talis autem privatio magna est in ipsa anima damnificatio et laesio. Et ideo dicit <name ref="#Augustine">Augustinus</name>, in quodam sermone De Innocentibus : <quote xml:id="bb-l2d36a2q1-Qd1e188">Nemo habet iniustum lucrum sine iusto damno ; ubi lucrum, ibi damnum ; lucrum in arca et damnum in conscientia ; tulit vestem et perdidit fidem ; acquirit pecuniam et perdit iustitiam</quote>.
+ Ex conditione peccantis naturae ratio sumitur. Quia voluntas rationalis, quae est causa peccati, quasi media est inter sensualitatem et synderesim, media est etiam inter Deum et alias creaturas ; et cum se convertit ad haec inferiora, ab eo recedit qui sursum est ; et dum acquirit parvum bonum, amittit magnum bonum, quia, dum acquirit bonum ut nunc, amittit bonum simpliciter ; et quae erat media facit se ipsam infimam. Similiter, cum peccando concordat cum sensualitate, discordat cum synderesi ; et dum cum synderesi discordat, incurrit ex illa repugnantia remorsum, quemdam et afflictionem internam. Et ita, dum peccat, perdit magnum bonum, perdit honorem proprium, perdit solatium et incurrit remorsum.
+ Et sic patet quod ad culpam inseparabiliter sequitur poena, sive dicatur poena quaedam damnificatio sive dicatur poena afflictio sive involuntaria passio. Sed poena, quae est damnificatio, semper sequitur et actu et habitu, quia nunquam est homo in culpa quin semper sit in damno. Afflictio vero sive remorsio sequitur saltem in habitu, quamvis propter delectationem intensam vel inconsiderationem sive distractionem animi non sentiatur.
+</p>
+ 
+          <p xml:id="bb-l2d36a2q1-d1e192">Et ex hoc patet qualiter peccatum claudit in se poenam et qualiter peccatum potest dici poena peccati et etiam poena sui ipsius. Secundum enim diversam comparationem voluntatis peccantis ad synderesim et sensualitatem idem ipsum et habet rationem peccati et habet rationem poenae, sicut ostensum est.
+Concedendae sunt igitur rationes probantes quod poena consequitur culpam inseparabiliter.</p>
+        </div>
+        <div xml:id="bb-l2d36a2q1-Dd1e197">
+          <head xml:id="bb-l2d36a2q1-Hd1e199">Ad rationes</head>
+   
+          <p xml:id="bb-l2d36a2q1-d1e202">Ad illud ergo quod primo obicitur in contrarium, quod Altissimus est patiens redditor, dicendum quod dupliciter est loqui de poena, scilicet quantum statum inchoationis et quantum ad statum consummationis. Et primo modo punitur homo remediabiliter, secundo irremediabiliter. Poenam igitur secundum statum inchoationis et remediabilitatis statim infert Deus, quia hoc decet suam iustitiam. Secundum statum vero consummationis et irremediabilitatis differt ; hoc enim decet suam benignitatem et patientiam, secundum cuius divitias nos exspectat ad poenitentiam.</p>
+          <p xml:id="bb-l2d36a2q1-d1e205">Ad illud quod obicitur, quod Deus non statim remunerat, dicendum quod sicut in poena magnitudo afflictionis diflertur et interior afflictio et remorsio peccatum concomitatur, sic et in bene factis multitudo dulcedinis absconditur bene facientibus ; nihilominus tamen aliquae primitiae spiritus degustantur et in omni bono opere quaedam iucunditas conscientiae et tranquillitas bene operanti conceditur, quae est sicut fructus et remuneratio operis illius. Et hoc est quod dicit Apostolus : <quote xml:id="bb-l2d36a2q1-Qd1e207" ana="#IItim2_6">Laborantem agricolam oportet primo de fructibus edere</quote>.</p>
+          <p xml:id="bb-l2d36a2q1-d1e211">Ad illud quod obicitur, quod poena est passio involuntaria et afflictiva, iam patet responsio ex his quae dicta sunt. Nam ibi est et damnificatio et afflictio, quamvis non semper</p>
+          <p xml:id="bb-l2d36a2q1-d1e214">Ad illud quod obicitur, quod Deus punit sufficienter aut non, dicendum quod punire sufffcienter hoc est dupliciter : aut simpliciter aut secundum quod competit statui. In praesenti igitur punitur culpa sufficienter, sed hoc hon simpliciter, sed prout competit statui praesenti, Et ideo in tali punitione salvatur debitus ordo ; et nihilominus post egressumanimae a corpore debet fieri poenae accumulatio ; nec remanet in praesenti nec in futuro aliquid impunitum, sed totum punitur, licet etiam plus et minus, secundum quod exigit tempus et locus.</p>
+          <p xml:id="bb-l2d36a2q1-d1e218">Ad illud quod obicitur, quod homo benignus totum condonat, dicendum quod non est simile, pro eo quod, cum Deus sit ipsa iustitia, si propriam offensam dimitteret impunitam, iniuriam faceret ipsi iustitiae ; non sic autem est de homine. Praeterea, cum ipse sit ultimus index, ei reservantur omnia punienda ; unde quod ipse dimittit impunitum, alium punire non potest. Non sic autem est de homine, qui habet alium superiorem iudicem et quod ipse non punit quasi ad Deum remittit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

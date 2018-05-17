@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37a2q3">
+        <head xml:id="bb-l2d37a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d37a2q3-Hd1e111" type="question-title">Utrum enuntiatio falsa, secundum quod falsa, sit a Deo.</head>
+ 
+        <p xml:id="bb-l2d37a2q3-d1e114">Tertio quaeritur, utrum enuntiatio falsa, secundum quod huius modi, sit a Deo.</p> 
+        <div xml:id="bb-l2d37a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d37a2q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d37a2q3-d1e122">Et quod sic, videtur : Quandocumque aliqua duo fundantur super idem secundum rem, si unum est a Deo, et reliquum ; sed falsitas alicuius propositionis et veritas suae oppositae fundantur super idem ; hoc enim ipso quod haec est vera : homo est animal, haec est falsa : homo non est animal. Ergo, cum omnis propositionis veritas sit a Deo, videtur quod omnis propositionis falsitas sit a Deo.</p>
+          <p xml:id="bb-l2d37a2q3-d1e125">Item, <quote xml:id="bb-l2d37a2q3-Qd1e127">veritas est adaequatio rei et intellectus</quote> et falsitas est inadaequatio rei et intellectus, per oppositum ; sed sicut se habet aequalitas et inaequalitas in rebus, ita se habet aequalitas et inaequalitas in propositionibus ; sed aequalitas et inaequalitas in rebus sunt ab ipso Deo : sicut enim a Deo est quod aliqua duo sint aequalia, sic a Deo est quod aliqua duo sic se habeant quod unum excedat reliquum ; unde <name ref="#Augustine">Augustinus</name> dicit quod si essent aequalia, non essent Ergo pari ratione adaequatio et inadaequatio signi ad signatum est ab eodem principio.</p>
+          <p xml:id="bb-l2d37a2q3-d1e134">Item, ab eo est falsitas propositionis qui solus potest facere propositionem ipsam,esse falsam ; sed, demonstrato aliquo peccatore, ista est vera : iste non est iustus ; et nullus potest facere hanc esse falsam nisi solus Deus, qui potest ei dare iustitiam : ergo etc.</p>
+          <p xml:id="bb-l2d37a2q3-d1e137">Item, maioris dignitatis et potestatis est falsificare hanc propositionem : iste est peccator, quam verificare eam ; qui enim peccat, hoc ipso quod peccat, verificat eam, et hoc indignitatis est. Ergo, si omnis propositionis veritas a Deo est, videtur multo fortius quod talis propositionis falsitas sit a Deo.</p>
+    
+          <p xml:id="bb-l2d37a2q3-d1e141">Sed contra : Omne quod Deus potest facere, habet exemplar in Deo ; sed enuntiatio falsa, secundum quod falsa, non habet exemplar in Deo, cum ipsa veritas sit ratio exemplandi : ergo e nuntia io falsa, secundum quod falsa, non est a Deo.</p>
+          <p xml:id="bb-l2d37a2q3-d1e144">Item, sicut se habet bonitas ad malitiam, sic se habet veritas ad falsitatem ; sed a summa bonitate nullo modo potest esse malitia : ergo a summa veritate nullo modo potest esse falsitas.</p>
+          <p xml:id="bb-l2d37a2q3-d1e147">Item, verum et ens convertuntur ; sed a Deo non potest aliquid esse quod non sit aliquo modo ens - si enim pure nihil esset, a Deo non esset - ergo a Deo non potest esse nisi verum. Sed enuntiatio falsa, in quantum huiusmodi, dicit privationem veri : ergo videtur quod a Deo non debeat causari secundum quod huiusmodi.</p>
+          <p xml:id="bb-l2d37a2q3-d1e150">Item, omne quod Deus potest facere, potest dicere ; sed falsum non potest dicere : ergo non potest facere. Probatio minoris : si dicit falsum, aut ergo scienter aut ignoranter. Ignoranter non : hoc constat. Si scienter, sed quicumque dicit falsum scienter, mentitur : ergo Deus mentiretur ; quod profanum et impium est dicere.</p>
+        </div>
+        <div xml:id="bb-l2d37a2q3-Dd1e154">
+          <head xml:id="bb-l2d37a2q3-Hd1e156">Conclusio</head>
+          <head xml:id="bb-l2d37a2q3-Hd1e159" type="question-title">Enuntiatio falsa sub ratione falsitatis non est a Deo,
+    facit tamen Deus aliquid, quo facto aliqua oratio est falsa necessario</head>
+ 
+          <p xml:id="bb-l2d37a2q3-d1e162">Respondeo : Dicendum quod falsitas nihil aliud est quam defectus veritatis in re, quae nata est verificari ; sicut malitia dicit privationem bonitatis et rectitudinis circa actionem, quae nata est rectificari ; et ideo, sicut actio mala, in quantum actio, est a Deo, in quantum vero mala et iniusta, a Deo non est : sic et enuntiatio falsa, in quantum enuntiatio, a Deo est, in quantum vero falsa, non est a Deo.
+Unde, quemadmodum in actione duplex consideratur bonitas : una naturae et altera moris, et una est essentialis et altera accidentalis, et ideo una privatur, altera relinquitur, et ratione illius bonitatis, quae relinquitur, actio illa est a Deo : sic in omni enuntiatione duplex est veritas : una essentialis, et haec est veritas, qua propositio repraesentat illud ad quod repraesentandum instituta est ; et haec nunquam privatur ab enuntiatione : omnis enim enuntiatio significat illud ad quod instituta est, sive sit vera sive falsa. Alia vero est veritas accidentalis, quae attenditur in propositione, in hoc quod repraesentat rem secundum quod est - tunc enim dicitur adaequari signum signato ; et veritas enuntiationis non est aliud quam quaedam adaequatio - et haec veritas privatur per falsitatem. Tunc enim est propositio vel enuntiatio falsa, quando signum non repraesentat rem sicut est, vel res non est sicut repraesentatur per signum. Et hoc est quod dicit <name ref="#Aristotle">Philosophus</name> : Ab eo quod res est vel non est, dicitur oratio vera vel falsa ; hoc est dicere, ab eo quod res est sicut repraesentatur, dicitur oratio vera ; ab eo quod res non est sicut repraesentatur, dicitur oratio falsa. Sicut igitur iniustitia est privatio rectitudinis, sic falsitas est defectus adaequationis ; et ideo, sicut Deo ut auctori non attribuitur iniustitia actionis, sic non debet ei attribui falsitas orationis. Utroque enim modo defectus est, et nullus defectus Deo attribuendus est.</p>
+ 
+          <p xml:id="bb-l2d37a2q3-d1e168">Notandum est tamen quod, etsi nullus defectus sit a Deo, magis tamen aliquis defectus elongatur a causalitate Dei quam alius, secundum quod sunt diversi modi deficiendi. Est enim quidam defectus, qui dicit privationem alicuius positionis et ordinis, sicut est defectus culpabilis ; et iste est defectus vituperabilis et vituperabilem reddit actorem ; et talem defectum Deus non facit nec etiam facit aliquid, quo facto, creatura tali defectu deficiat necessario. Unde Deus nec facit peccatum nec facit aliquem peccare nec facit aliquid, quo facto, necessario sequatur peccatum ratione illius quod Deus facit. Hoc dico propter animae infusionem, in qua necessario contrahitur culpa originalis ; sed hoc non est ex actu Dei, sed ex praevaricatione primi parentis.
+Est et alius defectus, qui est privatio alicuius positionis, non tamen est privatio ordinis ; contingit enim aliquos defectus ordinari. Et talis defectus, licet non possit Deo attribui secundum quod defectus, potest tamen ei attribui secundum quod ordinatus ; et de tali defectu, licet non possit dici quod Deus eum faciat, quia defectum facere est deficere, potest tamen dici quod facit aliquid, quo facto, necessario consequitur ille defectus ; et talis defectus est falsitas et ignorantia et caecitas et consimiles. Unde, quamvis non possit concedi quod Deus faciat falsitatem orationis sive orationem falsam, secundum quod falsa est, potest tamen concedi quod Deus faciat aliquid, quo facto, aliqua oratio est falsa necessario ; sicut, cum iustificat impium, facit aliquid, quo facto, haec enuntiatio est falsa : iste est impius.
+Concedendae sunt igitur rationes ostendentes quod enuntiatio falsa, secundum quod falsa, non sit a Deo.</p>
+        </div>
+        <div xml:id="bb-l2d37a2q3-Dd1e173">
+          <head xml:id="bb-l2d37a2q3-Hd1e175">Ad rationes</head>
+
+          <p xml:id="bb-l2d37a2q3-d1e178">Ad illud ergo quod obicitur, quod veritas et falsitas fundantur super idem, dicendum quod verum est ; sed tamen aliter et aliter, quia veritas fundatur per modum positionis et falsitas per modum privationis ; et ideo non sequitur quod sint ab eodem. Cum autem dicitur quod quae super idem fundantur ab eodem sunt, hoc intelligitur quando super illud idem fundantur et eodem modo.</p>
+          <p xml:id="bb-l2d37a2q3-d1e181">Ad illud quod obicitur, quod aequalitas et inaequalitas in rebus sunt ab eodem principio, respondendum est quod non est simile, quia in rebus uno modo inaequalitas dicit privationem aequalitatis ubi debet esse ; et tunc non est a Deo, cura sit defectus. Alio modo inaequalitas dicit gradum et ordinem qui debet esse inter res ; et hoc modo, etsi videatur dicere privationem, quia tamen dicit positionem, a Deo est. Sed inadaequatio signi ad signatum semper dicit defectum, pro eo quod signum institutum est ut repraesentet signatum secundum quod est ; et ideo inadaequatio signi ad signatum est falsitas ; inadaequatio vero in rebus non est falsitas. Et propterea non sequitur, quodsi inadaequatio rei ad rem est a Deo, quod inadaequatio signi ad signatum sit a Deo.
+Posset tamen dici quod inadaequatio, in quantum huiusmodi, cum dicat defectum aequalitatis, a Deo non est, quamvis illud quod subest a Deo est.</p>
+
+          <p xml:id="bb-l2d37a2q3-d1e184">Ad illud quod obicitur, quod Deus potest falsificare enuntiationem, dicendum quod haec est vera et propria : Deus facit aliquid, quo facto, aliqua propositio est falsa ; haec autem minus propria : Deus facit aliquam propositionem falsam ; sed haec est simpliciter impropria : Deus facit falsitatem in propositione ; et hoc, quia falsitas nominat ipsum defectum praecise. Et ideo in illa ratione est sophisma secundum accidens, qua sic arguit : facit aliquid, quo facto, propositio est falsa : ergo facit propositionem falsam sive falsitatem in propositione.</p>
+          <p xml:id="bb-l2d37a2q3-d1e187">Ad illud quod obicitur, quod maioris dignitatis est falsificare aliquam propositionem quam verificare, dicendum quod veritatem ad falsitatem contingit comparari dupliciter : aut loquendo formaliter aut causaliter sive ratione eius quod subest. Si loquendo formaliter, sic, cum veritas dicat adaequationem et falsitas inadaequationem, et ita falsitas privationem, veritas positionem, dignius est omnino aliquid verificare quam falsificare, quidquid illud sit, cum dignior sit veritas quam falsitas, si tamen contingat dicere dignius respectu eius in quo nulla est dignitas. Si autem comparamus veritatem ad falsitatem ratione eius quod respondet ex parte rei, sic dico de plano quod aliquando dignius est illud quod ex parte rei reddit illam propositionem falsam quam illud quod reddit propositionem veram, sicut patet ; dignius est enim est enim quod reddit istam propositionem falsam : iste non est bonus, quam quod reddit eam veram.
+Et ratio huius est ista, quia, quamvis veritas de se dicat positionem, quia dicit adaequationem, illa adaequatio ex parte alterius extremi ita bene potest respicere privationem sicut positionem et defectum sicut effectum. Sicut enim defectus est ordinabilis, et tamen defectus est, sic est cognoscibilis, et sic est significabilis. Ideo, cum quaeritur, super quid fundetur veritas enuntiationis, non oportet quod ex parte rei respondeat aliqua veritas. Sicut enim verum ens contingit vere significare ipsum esse, sic etiam de illo quod nullo modo est, contingit vere significare quod ipsum non est.-Sicut enim significatio dicit relationem, quae non requirit significatum esse in actu, sic etiam veritas signi, quae quidem dicit conditionem illius relationis, non exigit fundari super aliquam rem actualiter existentem. Nihilominus tamen, cum omnis relatio et ordo a Deo sit, talis significatio et talis veritas a Deo est ; nec sequitur ad hoc quod significatum sit a Deo, immo est ibi sophisma secundum accidens, sicut si argueretur : ordinatio culpae et poenae est a Deo, ergo culpa est a Deo. Sic non sequitur in proposito : vera significatio furti est a Deo, ergo furtum est a Deo.
+Et sic patet, quod, etsi veritati non semper correspondeat ex parte significati aliquid excellentius quam falsitati, tamen veritas nobilior est quam falsitas ; et ideo non sequitur quodsi verificatio propositionis sit a Deo, quod ab eodem sit propositionis falsificatio sive falsa enuntiatio, secundum quod falsa.
+Et sic patent quaesita.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

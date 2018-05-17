@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio Textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d32dt">
+        <head xml:id="bb-l2d32dt-Hd1e108">Divisio Textus</head>
+        <p xml:id="bb-l2d32dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> qualiter peccatum originale traducitur. In hac parte intendit ostendere qualiter curatur. Dividitur autem pars ista in partes duas.
+In quarum prima determinat <name ref="#Lombard">Magister</name> quomodo originale peccatum habeat deleri in baptismate ; quod quidem est opus divinae misericordiae.
+Secundo vero determinat qualiter in ipsius animae infusione et punitione salvetur rectitudo divinae iustitiae, ibi : Solet etiam quaeri, qua iustitia teneatur etc. Hoc autem facit, quia universae viae Domini misericordia et veritas ; et ideo iuxta benignitatem misericordiae manifestari etiam oportebat aequitatem iustitiae.</p>
+ 
+        <p xml:id="bb-l2d32dt-d1e120">Prima pars dividitur in tres partes.
+In prima ostendit qualiter in baptismo deletur peccatum originale ex parte animae.
+Secundo vero qualiter curari habeat ex parte carnis, ibi : Solet autem quaeri, utrum et ipsa caro etc.
+Tertio vero determinat de poena quae remanet in utroque, videlicet de concupiscentia, a quo sit tamquam ab auctore, ibi : Praeterea quaeri solet, utrum concupiscentia etc.</p>
+        <p xml:id="bb-l2d32dt-d1e123">Similiter secunda pars principalis tres habet partes.
+In prima parte determinat utrum Deus ex iustitia debeat culpam originalem animae imputare.
+Secundo vero quaerit cur Deus vult animam illam corpori maculato coniungere, ibi : Sivero quaeritur, cur Deus, qui fecit ipsam animam etc.
+In tertia vero determinat qualis creetur anima a suo Auctore, ibi : Hic a quibusdam quaeri solet, utrum anima talis etc.
+Et sic in universo <name ref="#Lombard">Magister</name> in praesenti distinctione duo principaliter determinat, quorum unum est qualiter originale deleatur per opus divinae misericordiae ; alterum vero est qualiter contrahatur, salva aequitate divinae iustitiae. Et omnia quae determinantur in parte ista possunt reduci ad tria ; quorum primum est qualiter deleatur originalis culpa ; secundum est a quo sit ipsa concupiscentia ; tertium vero est qualiter in infusione animae et originalis culpae imputatione salvetur divina iustitia.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

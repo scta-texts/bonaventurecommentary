@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35a2q1">
+        <head xml:id="bb-l2d35a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d35a2q1-Hd1e111" type="question-title">Utrum modus, species et ordo per quodlibet malum corrumpantur simul et inseparabiliter.</head>
+ 
+        <p xml:id="bb-l2d35a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum per quodlibet malum habeant ista tria, scilicet modus, species et ordo, corrumpi simul et inseparabiliter.</p> 
+        <div xml:id="bb-l2d35a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d35a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d35a2q1-d1e122">Et quod sic, videtur : Primo per definitionem mali, quam ponit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d35a2q1-Qd1e127">Malum est privatio modi, speciei et ordinis</quote>. Si enim haec ratio recta est, ergo debet convenire cuilibet malo : ergo quodlibet malum est privativum istorum trium.</p>
+          <p xml:id="bb-l2d35a2q1-d1e131">Item, impossibile est esse modum sine specie et ordine et e converso ; sed quae necessario se concomitantur in esse, necessario se concomitantur in privatione ; si ergo malum est privatio alicuius horum, necesse est quod simul illa tria habeat corrumpere.</p>
+          <p xml:id="bb-l2d35a2q1-d1e134">Item, maior est connexio in his tribus, videlicet modo, specie et ordine, quam sit in habitibus virtutum, qui sunt diversi formaliter secundum speciem ; sed propter connexionem habituum, cum amittitur unus habitus, necessario et omnes perduntur : ergo multo fortius, cum per malum privatur ordo, privatur simul species et modus.</p>
+          <p xml:id="bb-l2d35a2q1-d1e137">Item, per donum gratiae melioratur anima et eius habilitas quantum ad haec tria, scilicet modum, speciem et ordinem ; nam gratia reddit animam meliorem et pulcriorem et rectiorem. Ergo, cum culpa directe opponatur gratiae et tollat ipsam gratiam, videtur quod haec tria simul et inseparabiliter corrumpat et minuat.</p>
+
+ 
+          <p xml:id="bb-l2d35a2q1-d1e141">Sed contra : Modus attenditur in creatura per comparationem ad Deum sub ratione efficientis et species sub ratione exemplaris et ordo sub ratione finis ; sed quamvis creatura deordinetur a Deo secundum comparationem sub ratione finis, nihilominus tamen salvatur comparatio ipsius ad Deum sub ratione efficientis, et exemplaris : ergo ad corruptionem ordinis non sequitur necessario corruptio modi et speciei.</p>
+          <p xml:id="bb-l2d35a2q1-d1e144">Item, in corporibus videmus modum auferri sine specie et speciem etiam auferri posse sine ordine per aliquod malum quod nocet bono naturae : nam aliquis habens indebitam quantitatem habet pulcritudinem formae et e converso, et similiter est in ordine. Sed sic se habet malum culpae ad modum, speciem et ordinem in spiritualibus, sicut malum, quod nocet naturae, ad modum, speciem et ordinem in corporalibus : si ergo in corporalibus non privantur ilia tria simul et inseparabiliter, videtur quod nec in spiritualibus.</p>
+          <p xml:id="bb-l2d35a2q1-d1e147">Item, nos videmus quod alia bona naturalia sic se habent quod unum potest auferri sine altero, sicut fortitudo sine, eloquentia et e converso. Ergo, si modus, species et ordo dicunt bona naturalia ipsius animae, videtur quod unum sine altero privari habeat per malum culpae.</p>
+          <p xml:id="bb-l2d35a2q1-d1e150">Item, tantum unum uni opponitur : ergo unum malum opponitur uni bono ; aut igitur quodlibet peccatum claudit in se tria peccata sive mala, aut si unicum est peccatum sive malum, videtur quod non tollat simul et semel ista tria. Si tu dicas quod ista tria simul concurrant in unum bonum, quaero qualiter possit intelligi, cum videantur differre formaliter.
+Et iterum, cum in omnibus habeant reperiri, qualiter dicuntur per malum culpae privari, quod non reperitur nisi in sola creatura rationali ?
+</p>
+        </div>
+        <div xml:id="bb-l2d35a2q1-Dd1e154">
+          <head xml:id="bb-l2d35a2q1-Hd1e156">Conclusio</head>
+          <head xml:id="bb-l2d35a2q1-Hd1e159" type="question-title">Omne peccatum corrumpit circa voluntatem haec 
+    tria, modum, speciem et ordinem, simul et 
+    inseparabiliter</head>
+ 
+          <p xml:id="bb-l2d35a2q1-d1e162">Respondeo : Ad praedictorum intelligentiam est notandum quod triplex fuit modus distinguendi et assignandi modum, speciem et ordinem in rebus.</p>
+ 
+          <p xml:id="bb-l2d35a2q1-d1e165">Nam aliqui acceperunt ista tria secundum diversas proprietates in eadem re consideratas, ita quod modus dicat aliquid pertinens ad genus quantitatis et species aliquid pertinens ad genus qualitatis et ordo aliquid pertinens ad genus relationis.
+  Sed iste modus assignandi non consonat verbis <name ref="#Augustine">Augustini</name>. Nam ipse vult quod in quolibet quantumcumque parvo bono, non solum substantia, sed etiam proprietate substantiae sit reperire ista tria ; unde haec tria se extendunt ad omnia entium et praedicamentorum genera.</p>
+ 
+          <p xml:id="bb-l2d35a2q1-d1e171">Alius vero modus assignandi et distinguendi ista tria fuit per comparationem ad diversa. Quaelibet enim res tripliciter habet considerari, videlicet in se et per comparationem ad alias res universi et in comparatione ad finem. Ut autem in se consideratur, sic attenditur in ea modus : nam unaquaeque res ih se ipsa finita est et modificata. Ut autem comparatur ad res alias, sic attenditur in ea species, sicut attenditur pulcritudo partium secundum situm quem habent in toto. Ut autem comparatur in relatione ad finem, sic attenditur in ea ordo : unaequaeque enim res ordinata est, dum directe tendit ad finem ad quem est.
+Iste autem modus dicendi, etsi videatur elici ex verbis <name ref="#Augustine">Augustini</name>, adhuc tamen perfecte veritatem non attingit. Omnibus enim aliis rebus circumscriptis, remanente una sola anima, adhuc potest peccare, et adhuc potest attendi in ea modus, species et ordo.</p>
+ 
+          <p xml:id="bb-l2d35a2q1-d1e178">Et ideo est tertius modus dicendi praedictis rationabilior, quod modus, species et ordo considerantur in eadem re secundum diversas comparationes sive relationes ad idem. Attenduntur enim in unaquaque creatura, secundum quod ipsa est vestigium Creatoris ; quod quidem vestigium consistit in comparatione creaturae ad Creatorem secundum triplex genus causae, sicut in primo libro dictum fuit ita quod modus attenditur secundum comparationem creaturae ad Creatorem in ratione causae efficientis, species in ratione causae exemplaris et ordo in ratione causae finalis. Et quia quodlibet ens, quantumcumque modicum, habet istam comparationem ad Deum, in quolibet ente creato reperiuntur haec tria.</p>
+ 
+          <p xml:id="bb-l2d35a2q1-d1e181">Iuxta hunc igitur modum attendendum est quod creatura rationalis et est natura quaedam et est ulterius praeter alias creaturas operans per voluntatem. Et utroque modo habet comparari ad Deum et utroque modo habet reperiri in ea modus, species et ordo ; utroque etiam modo habet reperiri circa eam malum, quod est istorum trium corruptivum. Sed malum culpae proprie habet consistere circa ipsam, secundum quod est voluntarie operans ; et ideo privare habet modum, speciem et ordinem, secundum quod consistunt circa ipsam voluntatem, ut est voluntarie operans. Voluntas autem, cum habet modum, speciem et ordinem, sicut debet, bona est. Tunc autem voluntas nostra bona est, quando in movendo sive operando continuatur divinae virtuti ut principio moventi et conformatur ei ut regulae dirigenti et unitur ei ut fini quietanti ; et in primo attenditur modus, in secundo species ; in tertio ordo secundum comparationem in triplici genere causae. Quandocumque vero aliquis peccat, necessario discontinuatun a Deo tamquam a principio movente, quia Deus nunquam movet ad peccatum ; discordat a Deo tamquam a regula dirigente ; et elongat se et deordinat tamquam a fine quietante, ponens creaturam finem. Et in omni peccato necesse est ista tria concurrere.
+Et sic patet quod omne peccatum corrumpit circa voluntatem haec tria, scilicet modum, speciem et ordinem, simul et inseparabiliter.
+Et concedendae sunt rationes hoc ostendentes. Ad rationes vero in oppositum adductas facile est respondere.</p>
+        </div>
+        <div xml:id="bb-l2d35a2q1-Dd1e186">
+          <head xml:id="bb-l2d35a2q1-Hd1e188">Ad rationes</head>
+          <p xml:id="bb-l2d35a2q1-d1e191">Ad primum enim quod obicitur, quod semper manet salva comparatio ad efficiens et exemplar, dicendum quod voluntas, ut natura quaedam est, habet ad Deum comparari illo triplici genere causae ; et secundum hoc habet quemdam modum, speciem et ordinem, in quibus communicat cum omni genere creaturae ; et malum culpae non habet hoc modo illa privare. Alio modo, sicut praedictum est, habet comparari ad Deum ut moventem et dirigentem et quietantem ; et hoc modo non manet salva comparatio ad Deum sub ratione exemplaris sive regulae dirigentis nec etiam sub ratione moventis, sicut non manet sub ratione finis.</p>
+          <p xml:id="bb-l2d35a2q1-d1e194">Ad illud quod obicitur, quod in corporibus unum potest adimi sine altero, dicendum quod haec in corporibus dupliciter possunt accipi. Uno modo, prout accipiuntur penes dispositiones diversas ; et hoc modo unum potest adimi sine altero, sed hoc modo non attenditur in eis ratio vestigii. Alio modo, prout attenduntur penes idem secundum comparationes, videlicet prout eadem forma substantialis dat modum, speciem et ordinem secundum diversas comparationes in triplici genere causae : et hoc dico quantum ad primum esse ; vel prout eadem forma accidentalis dat quantum ad bene esse : et hoc modo nunquam fallit quin, si fiat corruptio in modo, per consequens etiam fiat in specie et ordine, et e converso.</p>
+          <p xml:id="bb-l2d35a2q1-d1e197">Ad illud quod obicitur, quod in aliis bonis naturalibus non est ita, dicendum quod non est simile, quia alia bona naturalia essentialiter differunt, et ideo unum potest corrumpi et tolli sine altero. Non sic autem est in modo, specie et ordine, immo circa idem fundantur, sicut ostensum est.</p>
+          <p xml:id="bb-l2d35a2q1-d1e200">Et per hoc patet responsio ad ultimum. Nam, etsi modus, species et ordo videantur esse tria bona, non tamen sunt diversa per essentiam, sed dicunt tres comparationes eiusdem boni. 
+  Patet etiam illud quod ultimo quaerebatur, quare scilicet culpa non est in omnibus in quibus reperitur modus, species et ordo, quia non est privatio illorum trium, secundum quod in eis consistit generalis ratio vestigii, et consistunt circa omnem creaturam, sed prout consistunt circa voluntatem deliberativam.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

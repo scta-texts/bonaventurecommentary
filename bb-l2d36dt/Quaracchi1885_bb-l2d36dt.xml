@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d36dt">
+        <head xml:id="bb-l2d36dt-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-l2d36dt-d1e111">Supra determinavit <name ref="#Lombard">Magister</name> quid sit peccatum secundum rem et definitionem ; in hac parte inquirit, utrum peccatum sit poena peccati. Dividitur autem pars ista in partes duas.
+In quarum prima <name ref="#Lombard">Magister</name> movet quaestionem illam et determinat secundum opinionem aliorum.
+In secunda vero secundum opinionem propriam, ibi : In nullo tamen praeiudicium fieri veritati etc.</p>
+ 
+        <p xml:id="bb-l2d36dt-d1e120">Prima pars habet tres partes.
+In prima adducit <name ref="#Lombard">Magister</name> auctoritates, in quibus ostendit quod unum peccatum sit alterius peccati poena.
+In secunda vero movet quaestionem et determinat iuxta aliorum opinionem, ibi : Et ideo merito quaeri potest.
+In tertia vero subiungit illius opinionis maiorem explanationem, ibi : Et licet ex hoc sensu omne peccatum mortale possit dici etc.</p>
+ 
+        <p xml:id="bb-l2d36dt-d1e126">Similiter secunda pars principalis, in qua istam quaestionem determinat secundum propriam opinionem, dividitur in partes tres.
+In quarum prima determinat propositam quaestionem secundum propriam opinionem, confirmans eam auctoritate Sanctorum.
+In secunda vero determinat quoddam dubium, in praedictis auctoritatibus propositum, ibi : Illud autem diligenter est notandum, quod supra positis etc.
+In tertia vero breviter epilogat ea quae praedicta sunt, ibi : Satis diligenter eorum posuimus etc.
+Et sic in hac totali parte agitur principaliter de comparatione culpae ad poenam, utrum videlicet culpa sit poena causaliter tantum an causaliter simul et essentialiter. Et quamvis, secundum aliquorum opinionem, peccatum sit poena tantum causaliter, secundum tamen opinionem <name ref="#Lombard">Magistri</name>, quam in littera innuit, non tantum causaliter, sed etiam essentialiter poena est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

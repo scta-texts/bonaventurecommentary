@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37dt">
+        <head xml:id="bb-l2d37dt-Hd1e108">Divisio textus</head>
+   
+        <p xml:id="bb-l2d37dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> quomodo peccatum sit peccati poena, ad declarandum qualiter peccatum est privatio. In hac parte intendit <name ref="#Lombard">Magister</name> inquirere, utrum actio, in qua peccatum committitur, sit a Deo, propter hoc quod supra dictum fuit, quod peccatum est actus. Et quoniam supra prosecutus fuit opinionem illorum qui dicunt actionem substratam malitiae esse a Deo, hic secundo prosequitur aliam opinionem, qua quidam ponebant nec malitiam nec actionem malam esse a Deo. Dividitur autem pars ista in partes duas.
+In quarum prima ponit praedictam opinionem.
+In secunda vero oppinit contra opinionem partis adversae, ibi : ln hoc autem verbo superiorum sententiae etc.</p>
+ 
+        <p xml:id="bb-l2d37dt-d1e120">Prima pars habet tres partes.
+In prima explicat <name ref="#Lombard">Magister</name> illam opinionem.
+In secunda vero subiungit eius defensionem, ibi : Illa quoque <name ref="#Augustine">Augustini</name> verba, quibus dicit etc.
+In tertia vero ex praedictis elicit quamdam conclusionem, ibi : Ex quo colligitur, res aliquas etc.</p>
+ 
+        <p xml:id="bb-l2d37dt-d1e129">Similiter secunda pars principalis habet tres partes.
+In prima parte opponit contra adversam opinionem.
+In secunda vero loco determinationis ponit quamdam commonitionem ad auditoris eruditionem, ibi : Intendant diligenter his verbis etc.
+In tertia vero removet quamdam dubitationem, ibi : Cum igitur omnes in hoc consentiant catholici tractatores etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

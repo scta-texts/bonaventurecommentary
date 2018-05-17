@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d38a1q1">
+        <head xml:id="bb-l2d38a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d38a1q1-Hd1e111" type="question-title">Utrum voluntas sit bona et commendabilis ratione boni finis.</head>
+ 
+        <p xml:id="bb-l2d38a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum voluntas sit bona et commendabilis ratione boni finis.</p>
+        <div xml:id="bb-l2d38a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d38a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d38a1q1-d1e122">Et quod sic, videtur : Matthaei 6, 22 : <quote xml:id="bb-l2d38a1q1-Qd1e124" ana="#mt6_22">Si oculus tuus fuerit simplex, totum corpus tuum luminosum erit</quote>. Si ergo oculus est intentio, per quam voluntas ordinatur in finem, secundum quod ibi exponitur, et corpus est congeries operum, videtur quodsi finis bonus sit, quod omnis operatio voluntatis sit bona et commendabilis.</p>
+          <p xml:id="bb-l2d38a1q1-d1e128">Item, <name ref="#Augustine">Augustinus</name> dicit in XI De Trinitate : <quote xml:id="bb-l2d38a1q1-Qd1e133" source="http://scta.info/resource/adt-l11">Rectae sunt omnes voluntates, si bona est ilia ad quam cunctae ordinantur</quote>. Sed illa, ad quam cunctae ordinantur, est voluntas finis : si ergo finis bonus est, restat quod voluntas finis et omnis voluntas ad eam ordinata sit bona et recta.</p>
+          <p xml:id="bb-l2d38a1q1-d1e137">Item, maxima est <name ref="#Aristotle">Philosophi</name> : <quote xml:id="bb-l2d38a1q1-Qd1e142">Cuius finis bonus est, ipsum quoque bonum est</quote>. Ergo, si actus voluntatis finis bonus est, ergo et ipsa bona est.</p>
+          <p xml:id="bb-l2d38a1q1-d1e146">Item, in actione naturali, in qua forma est finis, bonitas generationis et operationis attenditur penes finem et formam : ergo, cum intentio finis aeque sit essentialis morali actui ut naturali, et bonitas actus voluntatis pertineat ad mores, videtur quod bonitas voluntatis et rectificatio penes bonitatem finis habeat attendi et cognosci.</p>
+
+          <p xml:id="bb-l2d38a1q1-d1e150">Sed contra : <quote xml:id="bb-l2d38a1q1-Qd1e152" source="http://scta.info/resource/pl-l2d38c1-d1e111">Finis bonorum est beatitudo</quote>, sicut <name ref="#Lombard">Magister</name> dicit in littera ; sed <quote xml:id="bb-l2d38a1q1-Qd1e158">omnes appetunt beatitudinem</quote>, sicut dicit <name ref="#Augustine">Augustinus</name>, et <quote xml:id="bb-l2d38a1q1-Qd1e164">omnes eam finaliter intendunt</quote>, sicut dicit Boethius, in libro De consolatione, quamvis diverso tramite ad eam currant. Ergo, si omnes voluntates communicant in illo fine, ergo omnes erunt bonae, et nulla mala.</p>
+          <p xml:id="bb-l2d38a1q1-d1e168">Item, <name ref="#Dionysius">Dionysius</name> dicit quod <quote xml:id="bb-l2d38a1q1-Qd1e173">nemo operatur ad malum aspiciens</quote>, ergo omnis operans finaliter aspicit ad aliquod bonum ; unde <name ref="#Aristotle">Philosophus</name> etiam dicit quod bonum et finis est idem. Ergo, si omnis voluntas intendit aliquod bonum, videtur quod aut omnis voluntas est bona, aut quod bonitas non inest voluntati ex fine.</p>
+          <p xml:id="bb-l2d38a1q1-d1e180">Item, quantumcumque aliquis finaliter appetit bonum, tamen nunquam operatio eius erit meritoria, nisi sit caritate informata et anima sit Deo grata et accepta : ergo videtur quod bonitas voluntatis in actu potius veniat ex principio quam ex fine.</p>
+          <p xml:id="bb-l2d38a1q1-d1e183">Item, si bonitas voluntatis venit ex fine, cum finis omnis bonae voluntatis sit Deus et sit aequaliter bonus, videtur quod omnes bonae voluntates sint aequaliter bonae. Si igitur omnes voluntates non sunt aequaliter bonae, videtur quod bonitas voluntatis non sit eis ex fine.</p>
+          <p xml:id="bb-l2d38a1q1-d1e186">Item, manducare bonum est : ergo, si quis finaliter praedicat ut manducet, cum operatio ista habeat bonum finem, videtur quod sic praedicare sit bonum et laudabile. Si igitur talis actio iudicatur esse mala, videtur quod voluntas non sit bona ex voluntate finis.</p>
+          <p xml:id="bb-l2d38a1q1-d1e189">Item, si aliquis mentitur propter salutem proximi, cum salvare proximum sit bonum, mendacium illud esset bonum et meritorium, si opus voluntatis bonitatem haberet ex fine ; sed constat quod <quote xml:id="bb-l2d38a1q1-Qd1e191">mendacium nunquam est bonum</quote>, sicut dicit <name ref="#Augustine">Augustinus</name> : ergo videtur quod bonitas finis non sufficiat ad bonitatem voluntatis.
+  Quaeritur ergo, unde causetur rectitudo et bonitas in voluntate, utrum ex fine, sicut videtur dicere <name ref="#Lombard">Magister</name>, an aliunde.
+</p>
+        </div>
+        <div xml:id="bb-l2d38a1q1-Dd1e202">
+          <head xml:id="bb-l2d38a1q1-Hd1e204">Conclusio</head>
+          <head xml:id="bb-l2d38a1q1-Hd1e207" type="question-title">Voluntas est bona ex fine, si adsunt duae conditiones 
+    ex parte finis, et duae ex parte ordinationis</head>
+ 
+          <p xml:id="bb-l2d38a1q1-d1e210">Respondeo : Dicendum quod, cum dicitur voluntas esse bona ex bonitate finis, hoc est dicere quod voluntas est bona ex ordinatione ad bonum finem.
+Ad hoc autem quod sit recta ordinatio ad bonum finem, requiritur quod finis sit bonus duobus modis, videlicet secundum id quod est et sub ratione finiendi. Aliquid enim est bonum in se, quod tamen non recte ordinatur ad alterum in ratione finis ; sicut minus bonum, quamvis sit bonum, non tamen est bonus finis maioris boni, pro eo quod finis melior debet esse his quae sunt ad finem.
+Similiter ex parte ordinationis duo requiruntur, videlicet idoneitas ex parte ordinabilis et actualis conversio ex parte voluntatis ordinantis.
+Et cum ista concurrunt, tunc absque dubio voluntas bona ex fine bono iudicatur. Cum autem horum aliquid deficit, bonitas finis non sufficit ad bonitatem voluntatis, utpote si sit finis bonus in se, non tamen sufficit ad finiendum vel ad complendum illud quod fit propter ipsum ; sicut manducatio, quamvis sit bonum in se, non tamen habet completam rationem finiendi respectu praedicationis. Similiter mendacium non est ordinabile ad bonum, cum sit secundum se malum ; et ideo quantumcumque quis mentiatur propter aliquod bonum, mendacium non est bonum, quia deficit ibi rectitudo ordinationis propter defectum idoneitatis ex parte actus, quem voluntas refert ad illum finem.
+Et sic patet responsio ad veritatem quaestionis, quoniam concedendum est, sicut <name ref="#Lombard">Magister</name> dicit, voluntatem esse bonam et rectam ex fine ; hoc enim intelligitur sub praedictis conditionibus. Et secundum hunc modum rationes ad primam partem concedendae sunt.</p>
+ 
+          <p xml:id="bb-l2d38a1q1-d1e216">Et per hoc etiam patet responsio ad illa duo quae ultimo opponuntur, videlicet de praedicatione et mendacio.</p>
+        </div>
+        <div xml:id="bb-l2d38a1q1-Dd1e221">
+          <head xml:id="bb-l2d38a1q1-Hd1e223">Ad rationes</head>
+
+          <p xml:id="bb-l2d38a1q1-d1e226">Ad illud vero quod primo obicitur, quod beatitudo est finis bonarum voluntatum et etiam omnium, dicendum quod aliter est finis bonarum voluntatum et aliter malarum. Nam beatitudo, quae est finis bonarum voluntatum, est beatitudo vera ; beatitudo vero, quae est finis malarum, non est beatitudo vera, sed simulata. Avarus enim aestimat beatitudinem esse in divitiis, et superbus in honoribus, et sic in aliis vitiis ; unde sicut finis malarum voluntatum quamdam habet imaginem finis vere boni, utpote beatitudinis, sic etiam malae voluntates praetendunt speciem virtutis. Quando ergo dicitur quod omnis voluntas tendit ad beatitudinem, hoc intelligitur de beatitudine in sua generalitate considerata, in cuius appetitu omnes, ut dicit <name ref="#Augustine">Augustinus</name> communicant ; sed prout beatitudo determinate accipitur pro illa quae consistit in visione Dei, nec ab omnibus appetitur nec omnes in illam tendunt.</p>
+          <p xml:id="bb-l2d38a1q1-d1e232">Ad illud quod obicitur, quod nemo operatur ad malum aspiciens, dicendum quod illud quod movet, aliquando est bonum secundum veritatem, aliquando est bonum secundum aestimationem ; et ad hoc quod affectus moveatur sufficit sola aestimatio bonitatis ; et sine hac aestimatione non movetur voluntas ad aliquid appetendum, ad minus deliberativo appetitu. Et ideo dicit <name ref="#Dionysius">Dionysius</name> quod nemo operatur ad malum aspiciens, quia nulla est voluntatis operatio quam non praecedat boni aestimatio. Sed quia illud quod aestimatur esse bonum frequenter est malum, ideo frequenter male operatur, etsi nunquam aspiciat ad malum sub ratione mali. Cum ergo dicitur quod voluntas est bona ex intentione boni finis, hoc non intelligitur de fine, qui est bonus tantum in aestimatione appetentis, sed etiam de bonitate reali.</p>
+          <p xml:id="bb-l2d38a1q1-d1e238">Ad illud quod obicitur, quod non est actus voluntatis bonus nisi qui est ex caritate, dicendum quod caritas non reddit opus bonum nisi ex hoc quod ipsum bonum refert in summum bonum. Nec sufficiens relatio alicuius effectus vel operis ad summum bonum est nec esse potest nisi ex adiutorio caritatis, quae facit finem illum omnibus aliis praeponderare et prae ceteris carius reputari et in eo quiescere tamquam in fine ultimo. Et hinc est quod bonitas omnis voluntatis attribuitur caritati. Nihilominus etiam attribuitur bonitati finis, quia ubi unum propter alterum, ibi unum tantum ; unde qui tenet equum per frenum non dicitur tenere nisi unum. Et sic in proposito intelligendum est.</p>
+          <p xml:id="bb-l2d38a1q1-d1e241">Ad illud quod obicitur, quod finis est aequaliter bonus, dicendum quod, etsi finis aequaliter sit bonus, non tamen omnes voluntates aequaliter ordinantur et approximant illi fini, quia bonitas finis non redundat in voluntatem nisi ratiqne ordinationis voluntatis ad illum finem. Et ideo, licet finis sit aequaliter bonus, tamen propter gradus repertos in approximatione et ordinatione voluntatum ad illum finem, voluntates non sunt aequaliter bonae.</p>
+
+          <p xml:id="bb-l2d38a1q1-d1e245">5-6. Ad duo ultima iam patet responsio ex praedictis.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

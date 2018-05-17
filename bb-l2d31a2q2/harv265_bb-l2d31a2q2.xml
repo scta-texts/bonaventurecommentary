@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31a2q2">
+        <head xml:id="bb-l2d31a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d31a2q2-Hd1e111" type="question-title">Utrum peccatum originale contrahatur in anima ex carne ex aliquo appetitu et voluntate animae.</head>
+ 
+        <p xml:id="bb-l2d31a2q2-d1e114">Secundo quaeritur, utrum originale contrahatur in anima ex carne ex aliquo appetitu et voluntate animae.</p>
+        <div xml:id="bb-l2d31a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d31a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d31a2q2-d1e122">Et quod sic, videtur : Primo, per rationem <name ref="#Augustine">Augustini</name>, quam facit in libro 83 Quaestionum, ostendens quod nullus potest ab alio fieri deterior, sed, si fit deterior, hoc erit a se ipso. Ait enim sic : Si fit deterior, aut ergo a superiori aut a pari aut ab inferiori. Ab inferiori non potest ; a pari non, quia ei non praevalet ; a superiori non, quia ille aut esset bonus aut malus. Si bonus, ergo nunquam faceret ipsum deteriorem. Si malus, ergo iam inferior est et deterior. Similiter arguitur in proposito ; et ex hoc sequitur quod anima non possit fieri mala nisi cooperante voluntate propria.</p>
+          <p xml:id="bb-l2d31a2q2-d1e128">Item, omne peccatum ab aliqua voluntate est ; sola enim voluntas est peccati principium : ergo originale peccatum, quod est in parvulo, aut est a voluntate propria aut a voluntate aliena. Sic voluntate aliena, utpote Adae, cum in Adam non fuerimus nisi secundum quid, non esset originale peccatum in homine nisi secundum quid : ergo propter ipsum non deberemus aeternaliter visione Dei privari. Quodsi hoc falsum est, non ergo solum fuit a voluntate aliena. Restat igitur quod contrahatur a voluntate propria.</p>
+          <p xml:id="bb-l2d31a2q2-d1e131">Item, superius non patitur ab inferiori nisi merito culpae vel nisi ei se subiciat mera voluntate ; sed anima, cum unitur carni, ante unionem non habet culpam : ergo, si inficitur a carne, hoc non est absque voluntaria sublectione ipsius animae.</p>
+          <p xml:id="bb-l2d31a2q2-d1e134">Item, si angelus intraret corpus infectum, non diceretur ex hoc contrahere originale : si igitur anima contrahit, hoc non est nisi propter aliquem appetitum quem habet ad carnem.</p>
+          <p xml:id="bb-l2d31a2q2-d1e138">Item, si anima innocens poneretur in igne infernali, nunquam arderet : ergo, si non est magis activa caro quam ignis, si inficitur a carne, hoc non est nisi propter affectionem ipsius animae ad carnem : et si hoc verum est, originalis culpa contrahitur mediante appetitu animae et voluntate.</p>
+          <p xml:id="bb-l2d31a2q2-d1e141">Sed contra : Peccatum, quod contrahitur a voluntate animae, est peccatum actuale : ergo peccatum, quod parvuli contrahunt, non deberet dici peccatum originale, sed peccatum actuale.</p>
+          <p xml:id="bb-l2d31a2q2-d1e144">Item, si peccatum originale esset a voluntate ipsius animae, ergo puniendum esset poena actuali. Si ergo non punitur poena actuali, sed poena damni, sicut infra videbitur ergo non videtur quod a voluntate animae causetur.</p>
+          <p xml:id="bb-l2d31a2q2-d1e147">Item, natura et voluntas sunt principia disparata, ita quod effectus, qui sunt a natura et qui sunt a proposito, sunt alii et alii. Si ergo originale peccatum eo ipso dicitur originale quia est a natura, ergo non est a voluntate propria.</p>
+          <p xml:id="bb-l2d31a2q2-d1e150">Item, peccatum, quod est a propria voluntate, est per proprium actum commissum ; nullum autem peccatum per proprium actum commissum sine proprio actu dimittitur : ergo, si originale contraheretur ex animae voluntate, nunquam in parvulis per baptismum deleretur. Quodsi hoc est contra fidem, restat quod peccatum originale non contrahitur per animae voluntatem.</p>
+          <p xml:id="bb-l2d31a2q2-d1e153">Item, si contrahitur per voluntatem, aut per naturalem aut per deliberativam. Non per deliberativam, quia in ipso instanti creationis unitur anima carni. Non per naturalem, quia naturalis volunlas semper est recta et sic movetur secundum quod eam instituit auctor Deus. Ergo nullo modo potest esse peccati principium : redit igitur idem quod prius.</p>
+        </div>
+        <div xml:id="bb-l2d31a2q2-Dd1e157">
+          <head xml:id="bb-l2d31a2q2-Hd1e159">Conclusio</head>
+          <head xml:id="bb-l2d31a2q2-Hd1e162" type="question-title">Peccatum originale non contrahitur ab anima mediante appetitu deliberativo, 
+    sed mediante appetitu naturali, quem habet anima ad corpus, 
+    non quidem ut causa efficiente, sed ut causa 
+    sine qua non</head>
+ 
+          <p xml:id="bb-l2d31a2q2-d1e165">Respondeo : Dicendum quod, cum quaeritur, utrum originale contrahatur ex voluntate vel appetitu animae, hoc tripliciter potest intelligi. Contingit enim hoc taliter intelligere quod spectat ad haeresis perversitatem ; et taliter ut spectet ad rationis probabilitatem ; et tertio etiam modo ut spectet ad fidei veritatem.</p>
+ 
+          <p xml:id="bb-l2d31a2q2-d1e168">Cum enim duplex sit in anima appetitus, videlicet naturalis et deliberativus, si sic intelligatur quod anima prius deliberet de carnis infectione et ei conlungatur voluntarie et ex deliberatione et ex hoc contrahat culpam originalem, sic intelligere haereticum est, pro eo quod doctores catholici dicunt quod anima creando infunditur et infundendo creatur. Et Apostolus ad Romanos 9, 11 de Iacob et Esau loquens dicit : <quote xml:id="bb-l2d31a2q2-Qd1e170" ana="#rom9_11">Antequam aliquid boni vel mali egissent</quote> etc.</p>
+ 
+          <p xml:id="bb-l2d31a2q2-d1e174">Est et alius in anima appetitus naturalis, et per hunc appetitum dupliciter potest intelligi contrahi originale. Uno modo, ut sic intelligatur contrahi ex carnis corruptione et appetitu animae, quod corruptio carnis est sicut materialis ; sed naturalis appetitus animae ad corpus, qui est ad ipsam unionem et unionem antecedit natura, quamvis non antecedat tempore, se habeat in ratione efficientis eo modo quo est dicere peccatum habere causam effidentem ; et sic dicatur contrahi originale peccatum a carne infecta mediante appetitu, per quem anima carni alligatur et quodam modo ei condescendit, ac per hoc ei se subicit et subiciendo pervertitur. Nec tamen ex hoc dicetur culpa illa esse acta, sed contracta, nec personalis, sed naturalis, quia ille appetitus est apppetitus naturalis ; non tamen causat peccatum per se, sed cum corruptione carnis adiuncta, quae a primo parente propagatur.
+Hoc, etsi probabiliter esse dictum videatur, videtur tamen in hoc a veritate deviare quod principalem causam contractionis originalis ponit ex parte animae, cum Sancti et doctores dicant originale peccatum principaliter traduci a primo parente, a quo non propagamur nisi secundum carnem.</p>
+ 
+          <p xml:id="bb-l2d31a2q2-d1e178">Alio modo potest intelligi peccatum originale contrahi ab anima per naturalem appetitum ipsius animae ad carnem, ita ut principalis ratio ponatur ex parte carnis et appetitus ille naturalis sit causa sine qua non ; et hoc quidem habet veritatem et necesse est ponere. Nunquam enim caro posset animam inficere, nisi anima haberet naturalem colligandam ad ipsam. Naturalis autem colligantia non est nisi per appetitum ipsius animae ad corpus, per quem anima adeo alligatur carni, ut, sicut dictum fuit supra, nisi virtutem habeat per quam carnem regat, necesse habet deorsum ferri cum carne, ac per hoc captivari in servitute peccati.
+Et propter hoc simpliciter concedendum est peccatum originale esse contractum, et nullo modo debet dici actum. Et hoc ipsum nomen indicat, quod dicitur peccatum originale, non actuale, dicitur naturale, non voluntarium.
+Unde concedendae sunt ratione quae ad secundam partem inducuntur.</p>
+        </div>
+        <div xml:id="bb-l2d31a2q2-Dd1e183">
+          <head xml:id="bb-l2d31a2q2-Hd1e185">Ad rationes</head>
+    
+          <p xml:id="bb-l2d31a2q2-d1e188">Ad illud vero quod obicitur, quod non potest homo fieri malus ab alio, dicendum quod <name ref="#Augustine">Augustinus</name> ibi loquitur de alio agente, quod quidem est ita aliud quod non est naturaliter alligatum ei quod debet fieri deterius. Sic autem non est in proposito ; nam caro naturalem habet colligandam cum spiritu per naturalem appetitum unius ad alterum.</p>
+          <p xml:id="bb-l2d31a2q2-d1e194">Ad illud quod obicitur, quod peccatum originale aut est a voluntate propria aut a voluntate aliena, dicendum quod a voluntate aliena. Ad illud vero quod subiungit, quod non fuimus nisi secundum quid in ipso Adam, dicendum quod verum est, quia fuimus in potentia causali ; sed quemadmodum secundum quid reductum est ad simpliciter per operationem naturae - nam cum prius essemus in potentia, nunc sumus entes in actu - sic et originale peccatum prolis, quod erat secundum quid ante ipsius prolis generationem, in ipsa prolis propagatione ex unione animae ad corpus incipit esse peccatum simpliciter ; nec requiritur ibi actualis vel nova deliberatio, sed sufficit ipsa propagatio et animae ad carnem coniunctio.</p>
+
+          <p xml:id="bb-l2d31a2q2-d1e197">Ad illud quod obicitur, quod superius non patitur ab inferiori etc., dicendum quod illud habet veritatem in his inter quae non est naturalis colligantia. ; et ideo non habet locum in proposito, cum naturalis colligantia sit animae ad carnem, sicut dictum est supra.
+Posset tamen dici quod Adam aliquo modo meruit ; sed hoc melius patebit, cum agetur qualiter salvatur divina iustitia in unione animae ad carnem.
+</p>
+   
+          <p xml:id="bb-l2d31a2q2-d1e200">4-5. Ad duas ultimas rationes iam patet responsio per ea quae dicta sunt. Nam si angelus poneretur in carne infecta, et anima innocens poneretur in flamma, nec ille inficeretur nec ista pateretur. Sed hoc non esset propter defectum appetitus deliberativi, sed propter hoc quod non esset ibi appetitus nec colligantia naturalis, et sine hac non potest anima a carne infici, sicut prius dictum est, quamvis haec non sit causa principalis. Consimilis enim appetitus naturalis salvaretur in anima ad carnem, si homo stetisset ; et tamen anima nullam culpam contraheret.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d32a3q1">
+        <head xml:id="bb-l2d32a3q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d32a3q1-Hd1e111" type="question-title">Utrum illam maculam, quam anima contrahit ex carne, debeat Deus ipsi imputare.</head>
+ 
+        <p xml:id="bb-l2d32a3q1-d1e114">Circa primum sic proceditur et quaeritur, utrum illam maculam, quam anima contrahit ex carne, debeat Deus sibi imputare.</p>
+        <div xml:id="bb-l2d32a3q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d32a3q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d32a3q1-d1e122">Et quod non, videtur. <name ref="#Augustine">Augustinus</name>, in libro De duabus animabus contra Manichaeos : <quote xml:id="bb-l2d32a3q1-Qd1e127">Reum teneri quemquam, quia non facit quod facere non potest, summae iniquitatis et insaniae est</quote>. Si igitur anima parvuli in suo ortu habere non potest iustitiam, videtur quod nullo modo sit ei originalis macula imputanda.</p>
+          <p xml:id="bb-l2d32a3q1-d1e131">Item, sicut gloria respicit meritum, sic etiam poena respicit demeritum ; sed meritum proprie consistit circa actum, ergo et demeritum : ergo nihil imputandum est alicui pro demerito, quod non sit ex actu proprio.</p>
+          <p xml:id="bb-l2d32a3q1-d1e134">Item, in eo quod inest alicui naturaliter nec est laudandus quis nec vituperandus ; sed talis culpa inest parvulo ex naturali coniunctione animae et carnis : igitur pro illa nec est parvulus laudandus nec vituperandus. Igitur macula illa, quam contrahit, non debet sibi imputari ad poenam.</p>
+          <p xml:id="bb-l2d32a3q1-d1e137">Item, pronior est Deus ad miserendum quam sit homo ; sed homo alium habet excusatum ex impossibilitate nec punit eum qui non est rationis capax : si ergo talis conditio reperitur in parvulo, videtur quod nihil quod sit in ipso debeat ei imputari a Domino.</p>
+          <p xml:id="bb-l2d32a3q1-d1e141">Sed contra : Actuale peccatum reddit hominem indignum, propter hoc quod est ibi privatio alicuius boni quod deberet inesse ; sed originale peccatum in hoc communicat cum actuali, quia in eo est privatio alicuius boni quod deberet inesse, utpote originalis iustitiae : ergo originale peccatum facit eum in quo est dignum esse poena. Sed omne tale est a iusto iudice imputandum : ergo etc.</p>
+          <p xml:id="bb-l2d32a3q1-d1e144">Item, originale, sicut prius probatum est, malum culpae est ; sed culpa deordinat universum nisi subsequatur poena, in qua ordinetur, secundum quod vult <name ref="#Augustine">Augustinus</name> : ergo, si divina iustitia non debet dimittere aliquid inordinatum in universo, debet igitur punire originale peccatum in quocumque reperlatur, sive in parvulo sive in adulto.</p>
+          <p xml:id="bb-l2d32a3q1-d1e150">Item, iustum est quod Deus ab omni anima exigat honorem sibi debitum. Cum igitur pulcritudo imaginis in creatura rationali spectet ad honorem Dei, Deus a quacumque creatura rationali exigit illam pulcritudinem ; sed qui iuste exigit aliquid ab aliquo, si caret illo, recte imputat ei ad poenam : si ergo quicumque habet originale peccatum, caret illa pulcritudine, quam anima deberet habere, ergo omni tali debet imputari ad poenam a summa iustitia.</p>
+          <p xml:id="bb-l2d32a3q1-d1e153">Item, sicut secundus Adam fuit exemplum obediendi, sic primus Adam fuit exemplum praevaricandi, sicut Apostolus innuit. Ergo sicut habens imaginem secundi Adae est dignus gloria, sic habens imaginem primi est dignus poena ; sed omnis qui regeneratur in baptismo Christi, hoc ipso quod habet imaginem Christi, videlicet gratiam baptismalem, reputatur a Deo dignus gloria aeterna, quamvis nihil boni vel mali fecerit : ergo per oppositum, omnis qui generatur ab Adam, cum hoc ipso gerat imaginem eius, debet a divina iustitia reputari indignus gloria et reus poena.</p>
+        </div>
+        <div xml:id="bb-l2d32a3q1-Dd1e157">
+          <head xml:id="bb-l2d32a3q1-Hd1e159">Conclusio</head>
+          <head xml:id="bb-l2d32a3q1-Hd1e162" type="question-title">Divinam sapientiam, potentiam et iustitiam decet 
+    imputare animae culpam, quam contraxit ex carne</head>
+ 
+          <p xml:id="bb-l2d32a3q1-d1e165">Respondeo : Dicendum quod absque dubio Deus imputat originale peccatum ipsis parvulis in demeritum, quia in reatum poenae, saltem poenae damni. Hoc autem exigit divinae potentiae altitudo et sapientiae pulcritudo et iustitiae rectitudo.</p>
+ 
+          <p xml:id="bb-l2d32a3q1-d1e168">Altitudo divinae potentiae hoc exigit, ob quam Deus semper debet quaerere gloriam suam et honorem ; et ideo, si anima rationalis honorem Deo non reddit, cum in se non habeat decus imaginis divinae, per quod Deus honorari habet, necesse est quod Deus dedecus culpae recompenset in decorem iustitiae.
+Pulcritudo etiam sapientiae hoc requirit, quia non patitur aliquid turpe vel inordinatum reperiri intra universum. Et quoniam omne peccatum, sive sit actuale sive contractum, est privatio modi, speciei et ordinis, necesse est quod inordinationem naturae recompenset Deus per ordinem poenae, ut sic pulcritudo universi ex nulla parte remaneat deturpata.
+Rectitudo etiam divinae iustitiae hoc requirit, quia Deus id a creatura exigit quod ei dedit. Quoniam igitur Deus humanam naturam in primo homine iustam fecerat, voluntatis iustitiam non solum a primo parente, sed etiam ab omnibus posteris, in quibus, natura illa reperitur, debet exigere. In quocumque igitur est illius iustitiae carentia, merito sibi imputatur a divina iustitia. Et hoc est quod dicit Anselmus, in libro De conceptu virginali, capitulo 28 : Dicendum est quod aliter Deus erga infantes debeat agere et aliter homo. Nam homo non debet exigere a natura quod sibi non dedit et quod sibi non debetur ; nec iuste redarguit homo hominem cum culpa nasci, sine qua ipse non exstitit, et de qua non nisi per alium sanatur. Deus vero recte exigit a natura quod ipse dedit et quod sibi iuste debetur. Sic ergo patet quod decet Deum culpam imputare animae, quam contraxit ex carne.
+Hoc enim exigit tam potentia quam sapientia, quam etiam iustitia. Ideo concedendae sunt rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-l2d32a3q1-Dd1e173">
+          <head xml:id="bb-l2d32a3q1-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-l2d32a3q1-d1e178">Ad illud ergo quod primo obicitur in contrarium de verbis <name ref="#Augustine">Augustini</name>, in libro De duabus animabus, dicendum est quod ratio ista dupliciter deficit.
+Primo quidem, quia ex malo intellectu auctoritatis procedit. <name ref="#Augustine">Augustinus</name> enim loquitur de impossibilitate quae inest simpliciter homini ex natura, non de ea in quam homo intrusus est per voluntatem et culpam, sicut supra, distinctione vigesima octava, positum fuit exemplum de servo eunte ad nundinas. Haec autem impossibilitas servandi rectitudinem iustitiae non fuit indita homini ex conditione naturae, sed potius intrusa fuit ex voluntaria transgressione Adae.
+Secundo etiam deficit in assumtione, pro eo quod Deus non imputat parvulo peccatum originale ex hoc quod non facit quod facere non potest, sed ex hoc quod non habet quod habere debet. Et hoc bene imputatur homini, secundum illud Lucae [19, 26] : <quote xml:id="bb-l2d32a3q1-Qd1e186" ana="#lc19_26">Omni habenti dabitur, et abundabit ; non habenti vero</quote> etc. ; et Apostolus dicit quod ignorans ignorabitur. Et electus fuit homo a nuptiis, non solum propter enormitatem actualis praevaricationis, sed etiam propter carentiam vestis nuptialis, qua quia caret homo in originali conceptus, nisi vestiatur in baptismate, non permittitur aulam superni regis intrare, exigente hoc illius supernae aulae dignitate.</p>
+
+          <p xml:id="bb-l2d32a3q1-d1e190">Ad illud vero quod obicitur, quod demeritum respicit actum, dicendum quod sicut parvuli habentes gratiam digni sunt vita aeterna, pro eo quod illam gratiam habent per sacramenta Christi, qui eis vitam aeternam sua gratia et passione promeruit, ita quod alia est gratia in parvulis quam in Christo : sic et in proposito intelligendum est quod maculam peccati contrahit anima ex sua generatione in ipsa propagatione, et hoc ab ipso Adam, qui ex actu suo naturam humanam foedavit. Et ideo in ipso dicimur peccasse et demeruisse, et per eius inobedientiam peccatores constituti esse. Alia tamen est in nobis culpa quam fuerit in ipso ; habet tamen haec rationem demeriti ab illa ex qua processit. Et hoc est quod dicit Anselmus, De conceptu virginali, capitulo 27 : <quote xml:id="bb-l2d32a3q1-Qd1e192">Originale peccatum aliud intelligere nequeo in parvulis, nisi ipsam factam per inobedientiam Adae iustitiae debitae nuditatem, per quam omnes sunt filii irae, quoniam et naturam accusat spontanea quam fecit iustitiae desertio ; nec personas excusat impotentia recuperandi, quam comitatur beatitudinis nuditas, ut, sicut sunt sine omni iustitiae rectitudine, ita sint absque omni beatitudine</quote>.</p>
+          <p xml:id="bb-l2d32a3q1-d1e196">Ad illud vero quod obicitur, quod, non est aliquis laudandus vel vituperandus pro eo quod el naturaliter inest, dicendum quod, si intelligatur de natura instituta, nec est laudandus nec vituperandus nec apud Deum nec apud homines, quia ipse Deus naturam instituit nec debet culpare quod fecit. Si vero intelligatur de eo quod naturaliter inest secundum statum naturae lapsae, sic dico quod non est homo apud homines vituperandus, sicut dicit Anselmus, et habitum est in responsione, quia homines quantum ad talia pares sunt ; nec debet homo quod non dedit ab homine exigere. Apud vero Deum, qui aliter naturam instituit, vituperandus est, quia in se non habet quod Deus iuste ab ipso exigit. Illud igitur verbum <name ref="#Aristotle">Philosophi</name>, quod dicit quod pro naturalibus nec laudamur nec vituperamur, aut est intelligendum de naturalibus quantum ad naturae institutionem aut, si de aliis intelligatur, hoc intelligitur quantum ad iudicium humanum, non quantum ad iudicium divinum.</p>
+          <p xml:id="bb-l2d32a3q1-d1e202">Ad illud quod ultimo obicitur, quod pronior est Deus ad miserendum quam homo, dicendum quod verum est pro eo quod plenam misericordiam praestat ei cui sibi placuerit misereri ; nihilominus tamen districtissime iudicat, sicut ex illo verbo colligitur in Matthaei 12, 36 : <quote xml:id="bb-l2d32a3q1-Qd1e204" ana="#mt12_36">De omni verbo otioso reddent homines rationem in die iudicii</quote>. Unde multa sunt peccata quae apud homines tolerantur et non puniuntur, utpote sunt spiritualia et interiora, de quibus oportebit in die iudicii nos reddere rationem. Misericordia enim viam iustitiae non praecludit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

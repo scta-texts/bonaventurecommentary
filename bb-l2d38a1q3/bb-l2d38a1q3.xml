@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d38a1q3">
+        <head xml:id="bb-l2d38a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d38a1q3-Hd1e111" type="question-title">Utrum bonae voluntatis sit unus solus finis an possint esse plures.</head>
+ 
+        <p xml:id="bb-l2d38a1q3-d1e114">Tertio quaeritur, utrum bonae voluntatis sit unus solus finis an possint esse plures.</p> 
+        <div xml:id="bb-l2d38a1q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d38a1q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d38a1q3-d1e122">Et quod unus solus, videtur : Deuteronomii 6, 5 : <quote xml:id="bb-l2d38a1q3-Qd1e124" ana="#deut6_5">Diliges Dominum Deum tuum</quote>, Glossa : <quote xml:id="bb-l2d38a1q3-Qd1e127">Non vult Deus suum amorem partiri, ut simul cum ipso aliud diligamus</quote>. Ergo quicumque sibi diversos constituit fines, non facit quod Deus vult ; et si non facit quod Deus vult, non habet bonam voluntatem.</p>
+          <p xml:id="bb-l2d38a1q3-d1e131">Item, super illud ad Philippenses 1, 18 : <quote xml:id="bb-l2d38a1q3-Qd1e133" ana="#phil1_18">Sive per occasionem sive per bonam voluntatem</quote>, Glossa : <quote xml:id="bb-l2d38a1q3-Qd1e136">Quisquis a Deo aliud quam Deum quaerit, non caste diligit</quote>. Sed nulla voluntas est bona nisi illa quae eum caste diligit : ergo nulla voluntas est bona quae aliud quam Deum quaerit.</p>
+          <p xml:id="bb-l2d38a1q3-d1e140">Item, sicut status est in primo principio, ita in fine ultimo ; sed primum principium, in quo est status, non est nisi unicum : ergo, si finis debet respondere principio, videtur quod bonae voluntatis non debet statui nisi finis unus : ergo, si voluntas statuit sibi fines plures, non facit quod debet : ergo non est bona.</p>
+          <p xml:id="bb-l2d38a1q3-d1e143">Item, quicumque diversos fines intendit, habet cor suum divisum ; sed qui cor suum dividit non diligit Deum ex toto corde nec in toto corde quaerit Deum ; et quicumque talis est, Deo non placet, qui praecipit se ex toto corde amari et vult totum cor possidere : ergo non videtur quod bona voluntas possit esse quae sibi statuit diversos fines.</p>
+
+ 
+          <p xml:id="bb-l2d38a1q3-d1e147">Sed contra : Super illud I ad Corinthios 9, 10 : <quote xml:id="bb-l2d38a1q3-Qd1e149" ana="#Icor9_10">Quoniam debet in spe qui arat</quote> etc., Glossa : <quote xml:id="bb-l2d38a1q3-Qd1e152">Praedicator, qui corda aperit ad fidem, debet arare in spe stipendiorum temporalium</quote>. Ergo videtur quod bona voluntas non tantum possit ponere sibi finem spiritualem, sed etiam temporalem : ergo videtur quod diversos fines possit habere.</p>
+          <p xml:id="bb-l2d38a1q3-d1e156">Item, Lucae 15, 17 : <quote xml:id="bb-l2d38a1q3-Qd1e158" ana="#lc15_17">Quanti mercenarii in domo patris mei</quote> ; ibi dicit <name ref="#Ambrose">Ambrosius</name>, quod <quote xml:id="bb-l2d38a1q3-Qd1e164">multi sunt mercenarii, qui abundant spe, fide et caritate</quote>. Sed mercenarius statuit sibi finem creatum, videlicet aliquam mercedem, quae est beatitudo creata ; si enim solum finem increatum sibi statueret, iam non esset mercenarius, sed filius : ergo, si contingit esse bonos mercenarios, contingit bonam voluntatem habere fines diversos.</p>
+          <p xml:id="bb-l2d38a1q3-d1e168">Item, bonum additum bono facit maius bonum : ergo, si unus bonus finis facit voluntatem bonam, ergo multo fortius multi boni fines : ergo videtur quod tanto voluntas melior sit, quanto plures statuit sibi bonos fines : ergo non est necesse quod bona voluntas habeat unum solum finem.</p>
+          <p xml:id="bb-l2d38a1q3-d1e171">Item, sicut concupiscibilis appetit dulcedinem, ita irascibilis appetit celsitudinem et rationalis appetit pulcritudinem. Si ergo pulcritudo non tantum est finis rationalis, sed etiam perfectio, et sic de aliis, et plurium perfectibilium plures sunt perfectiones, cum sint in nobis tres vires diversae, quibus sursum convertimur, videlicet rationalis, concupiscibilis et irascibilis, videtur quod in omni bona actione et voluntate sit assignare diversos fines.</p>
+        </div>
+        <div xml:id="bb-l2d38a1q3-Dd1e175">
+          <head xml:id="bb-l2d38a1q3-Hd1e177">Conclusio</head>
+          <head xml:id="bb-l2d38a1q3-Hd1e180" type="question-title">Bonae voluntatis unus solus est finis principalis, 
+    sub quo possunt esse alii fines non principales</head>
+ 
+          <p xml:id="bb-l2d38a1q3-d1e183">Respondeo : Dicendum quod bonae voluntatis unus solus est finis principalis.</p> 
+    
+          <p xml:id="bb-l2d38a1q3-d1e186">Propter quod intelligendum quod plures fines statuere hoc potest esse tripliciter. Uno modo ita quod finis sit sub fine et propter finem ; alio modo ita quod unus sit finis principalis, alter non principalis, ita tamen quod finis non principalis non referatur ad principalem actualiter ; tertio modo ita quod uterque sit finis principalis.
+Exemplum autem huius assignari potest in eo quod frequenter accidit, videlicet cum quis vadit ad ecclesiam ad percipiendas distributiones. Hoc enim potest facere tripliciter : aut ita quod principaliter intendit honorem et gloriam Dei, cum vadit ibi decantare laudes, et simul cum hoc intendit obtinere pecuniam, ut pauperibus distribuat vel in alios usus licitos ad honorem Dei convertat. Alio modo potest aliquis ire ad ecclesiam, intendens Deo placere et simul cum hoc pecuniam acquirere, ita tamen quod eius acquisitionem ad Deum non refert, nec tamen ipsam pecuniam statuit finem principalem, pro eo quod ipsam non diligit propter se. Tertio modo vadit quis ad ecclesiam duplicata intentione, ita quod vult Deo placere et vult obtinere pecuniam, quam sicut avarus appetit acquirere, ut possit thesaurum suum ampliare et in ea delectari propter se.
+Primo modo statuere diversos fines est bonum et meritorium et pertinet ad bonam voluntatem. Secundo modo statuere diversos fines non est bonae voluntatis, loquendo formaliter ; attamen non sic repugnat quin possit cum ea stare : est enim ibi peccatum veniale, non mortale. Et hoc vult dicere <name ref="#Augustine">Augustinus</name>, in libro Confessionum, cum ait : Minus te amat qui tecum aliquid amat quod non propter te amat. Tertio vero modo statuere diversos fines non est bonae voluntatis, immo contra bonam voluntatem ; talis enim vult duobus dominis servire ; et hoc est impossibile, sicut Matthaei 6, 24 dicitur. Quando enim sic principaliter duos intendit fines, verificatur illud propheticum : Coangustatum est stratum, ita ut alter decidat, et pallium breve utrumque operire non potest. Et talis est voluntas hypocritarum, quibus vae damnationis aeternae comminatur Scriptura, pro eo quod terram ingrediuntur duabus viis. Et ideo dicitur Ecclesiastici 1, 36 : <quote xml:id="bb-l2d38a1q3-Qd1e191" ana="#sir1_36">Ne accesseris ad ipsum duplici corde</quote> ; qui eriim accedit in corde et corde, hypocrita est ; et quia gaudium hypocritae ad instar puncti est, ideo dicitur Oseae 11, 2 : <quote xml:id="bb-l2d38a1q3-Qd1e194" ana="#os11_2">Divisum, est cor eorum, nunc interibunt</quote>.</p>
+ 
+          <quote xml:id="bb-l2d38a1q3-Qd1e198">Sic igitur ex dictis colligitur quod bonae voluntatis plures possunt esse fines, ita quod unus sit finis principalis et alter non principalis sive finis sub fine. Plures autem constituere fines principales bonae voluntati repugnat, sicut ostendunt rationes quae ad primam partem inducuntur. Cum enim unum solum sit summum et verum bonum, quod quietat humanum desiderium, necesse est quod voluntas bona, ad hoc quod recta sit, statuat sibi finem unicum.</quote>
+        </div>
+        <div xml:id="bb-l2d38a1q3-Dd1e203">
+          <head xml:id="bb-l2d38a1q3-Hd1e205">Ad rationes</head>
+          <p xml:id="bb-l2d38a1q3-d1e208">Ad illud ergo quod primo obicitur in contrarium, quod qui arat debet in spe arare, dicendum quod ipsa Glossa illam obiectionem dissolvit, dum se ipsam manifestat in sequentibus ; facit enim vim in hoc quod dicitur <mentioned> in spe </mentioned> non <mentioned> propter spem </mentioned>. Nam propter dicit finem principalem, in vero non tantummodo dicit finem principalem, immo finem qui continetur infra finem. Et ideo ex illo verbo non sequitur quod aliquis possit sibi plures fines principales statuere, immo, si recte intelligatur, potius sequitur oppositum.</p>
+          <p xml:id="bb-l2d38a1q3-d1e217">Ad illud quod obicitur, quod mercenarius statuit sibi finem creatum, dicendum quod est borius mercenarius et malus ; et malus mercenarius in duobus differt a bono. Primo quidem, quia malus mercenarius statuit sibi finem creatum, quo habito non necessario habetur Deus ; bonus vero mercenarius statuit sibi finem creatum, quem .habere non est aliud quam habere Deum, sicut ipsam fruitionem Dei. Secundo vero differt in hoc quod malus mercenarius statuit sibi finem creatum tamquam principalem : bonus vero mercenarius statuit sibi finem creaium tamquam finem sub fine : non enim amat Deum propter fruitionem, sed fruitionem propter Deum. Et ideo ex hoc non habetur quod finis bonae voluntatis plurificetur.</p>
+          <p xml:id="bb-l2d38a1q3-d1e220">Ad illud quod obicitur, quod bonum additum bono facit maius bonumi dicendum quod illud verum est, quando additio boni ad bonum fit salvo ordine. Cum enim bonitas necessario ponat ordinem, si additio boni ad bonum tollat ordinem, bonum non auget, sed potius perimit. Quia ergo pluralitas finium principalium ordinem non servat, quia secundum rectum ordinem status debet esse in uno et unicum debet esse ultimum, hinc est quod pluralitas finium principalium bonitatem voluntatis non augmentat, sed potius ipsam voluntatem depravat, quia, dum vult placere uni, displicet alteri, et dum vult assequi unum, perdit reliquum.</p>
+          <p xml:id="bb-l2d38a1q3-d1e223">Ad illud quod obicitur, quod rationalis appetit suam pulcritudinem et concupiscibilis dulcedinem etc., dicendum quod pulcritudo et dulcedo potest dupliciter accipi : aut prout est perfectiva et informativa virtutis animae aut prout est ipsius animae motiva. Primo modo tenet rationem finis sub fine, et sic plurificari potest secundum diversitatem dotum animae ; secundo modo, prout scilicet tenet rationem obiecti et motivi, sic unitatem habet. Nam in Deo idem est pulcritudo, celsitudo et dulcedo ; et sic tenet rationem finis principalis.
+Et sic patet quod, quamvis plures fines non principales contingat constituere, tamen ad hoc quod voluntas sit bona, necesse est unum solum finem esse principalem. Nam aliter non diligitur Deus ex toto corde.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d40dubia">
+        <head xml:id="bb-l2d40dubia-Hd1e108">Dubia</head>
+        <div xml:id="bb-l2d40dubia-Dd1e111">
+          <head xml:id="bb-l2d40dubia-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-l2d40dubia-d1e116">In parte ista sunt quaestiones circa litteram. Et primo quaeritur de hoc quod dicit <name ref="#Ambrose">Ambrosius</name>, quod affectus tuus operi tuo nomen imponit. Ergo si aliquis committit adulterium, intendens facere simplicem fornicationem, videtur quod illud peccatum debeat dici fornicatio, non adulterium.
+Item, ex eodem affectu potest quis moveri ad credendum in Deum et ad amandum ipsum : ergo, si opus trahit nomen ab affectu, videtur quod credere et amare sint opus eiusdem speciei et eiusdem virtutis et eodem nomine debeant nominari.</p>
+ 
+          <p xml:id="bb-l2d40dubia-d1e122">Respondeo : Dicendum quod aliquid nominari contingit dupliciter, videlicet in generali et in speciali. Nomina generalia in moribus sunt bonum et malum ; specialia vero sunt nomina specialium differentiarum, ut specialium virtutum et vitiorum. Cum ergo dicitur quod affectus operi nomen imponit, hoc intelligitur de nomine generali ; ipse vero obicit de nomine speciali.</p>
+        </div>
+        <div xml:id="bb-l2d40dubia-Dd1e126">
+          <head xml:id="bb-l2d40dubia-Hd1e128">Dub. II.</head>
+          <p xml:id="bb-l2d40dubia-d1e131">Item quaeritur de hoc quod dicit : Iustitia merito punit eum qui dicit se subtraxisse superflua diviti, ut praeberet pauperi. Videtur enim quod talem iustitia iniuste punit. Habere enim superflua vitium est : ergo resecare superflua est virtutis. Similiter dare pauperi unde alatur, hoc virtutis est : si ergo iniustum est aliquem puniri pro opere virtutis, iniuste facit iustitia quae talem punit.
+Item, idem Deus, qui praecepit filiis Israel quod furarentur vasa Aegyptiorum, Exodi 12, 35, idem praecepit eleemosynam dari pauperibus ; sed illi qui furati sunt vasa, volentes implere mandatum divinum, non peccaverunt : ergo pari ratione ille qui furatur, ut de pauperi, furando non peccat.
+Item, in omni peccato est conversio inordinata ad bonum commutabile ; sed iste qui furatur, ut det pauperi, nihil amat inordinate nec aliquid amat ex cupiditate : ergo videtur quod non peccat aliquo modo.</p>
+ 
+          <p xml:id="bb-l2d40dubia-d1e134">Respondeo : Dicendum quod talis absque dubio peccat, quia facit contra divinum mandatum ; facit etiam contra proximum, quia rem eius, ipso invito, contractat ; et ideo iuste punitur non solum a Deo, verum etiam, a proximo.
+ Ad illud vero quod obicitur, quod iuste facit, dum resecat superflua, dicendum quod ad unumquemque spectat resecare superflua propria ; superflua autem aliena resecare non spectat, quando non est constitutus super eum nec dominus nec iudex ; et ideo, cum aliena superflua resecat, quod non suum est usurpat ; et propter hoc punitur de iniustitia.</p>
+          <p xml:id="bb-l2d40dubia-d1e137">Ad illud quod obicitur de filiis Israel, dicendum quod non est simile, quia Dominus dispensavit cum eis, quando praecepit eis quod furarentur ; immo quod plus est, res alienas in dominium eorum transtulit ; et hoc bene poterat, quia ipse est Dominys omnium. Hoc autem Domini praeceptum, quo Dominus praecepit facere eleemosynam, non se extendit ad bona aliena, sed ad propria ; unde nullo modo illi mandato repugnat, quo praecipitur non furari ; immo illud supponit et illud cum illo concordat, secundum quod dicitur Proverbiorum 3, 9 : Honora Dominum de tua substantia.</p>
+          <p xml:id="bb-l2d40dubia-d1e140">Ad illud quod obicitur, quod nihil amat inordinate, dicendum quod inordinatio amoris dupliciter potest esse : aut quia amatur res quae non debet aut quia amatur res amplius quam debeat. Et dum quis facit contrarium eius quod Deus praecipit, sive moveatur magna affectione sive parva, peccat ; et est eius affectio inordinata, non ex magnitudine dilectionis, sed ex contemptu divinae prohibitionis.</p>
+        </div>
+        <div xml:id="bb-l2d40dubia-Dd1e144">
+          <head xml:id="bb-l2d40dubia-Hd1e146">Dub. III.</head>
+          <p xml:id="bb-l2d40dubia-d1e149">Item quaeritur de hoc quod dicit, quod Iudaei crucifigendo Christum arbitrabantur se obsequium praestare Deo. Hoc enim videtur esse falsum, quia, sicut dicitur Sapientiae 2, 20, ex malitia et invidia Christum, condemnaverunt morte turpissima ; et Matthaei 27, 18 dicitur : Sciebat enim quod per invidiam tradidissent eum. Si ergo sciebant se male facere, non arbitrabantur obsequium se praestare Deo.</p>
+ 
+          <p xml:id="bb-l2d40dubia-d1e152">Respondeo : Dicendum quod hoc non dicitur quantum ad omnes Iudaeos, sed quantum ad simplices, qui per maiores decepti sunt. Maiores enim Iudaei, sicut principes sacerdotum et scribae, moti sunt ex invidia et malitia, quia bene cognoscebant eius sanctitatem et innocentiam, quamvis lateret eos divinitas ; simplices vero et populares moti sunt ex ignorantia. Audientes enim a maioribus quod blasphemasset, putabant se, occidendo Christum, blasphemum interficere et sic obsequium Deo praestare. Ista tamen ignorantia non excusat, pro eo quod opera, quae Christus fecit, non solum magnis, sed etiam parvis notitiam sanctitatis eius praestare poterant.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

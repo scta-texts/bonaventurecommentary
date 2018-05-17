@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d39a1q1">
+        <head xml:id="bb-l2d39a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d39a1q1-Hd1e111" type="question-title">Utrum conscientia teneat se ex parte intellectus an ex parte affectus.</head>
+ 
+        <p xml:id="bb-l2d39a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum conscientia teneat se ex parte intellectus an ex parte affectus.</p>
+        <div xml:id="bb-l2d39a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d39a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d39a1q1-d1e122">Et quod ex parte intellectus, videtur : 1. Primo, per illud Ecclesiastis 7, 23 : <quote xml:id="bb-l2d39a1q1-Qd1e124" ana="#quoh7_23">Scit conscientia tua, quia et tu crebro maledixisti aliis</quote> ; sed scire est actus proprius potentiae cognitivae : si ergo conscientiae est scire, conscientia se tenet ex parte cognitivae.</p>
+          <p xml:id="bb-l2d39a1q1-d1e128">2. Item, <name ref="#JohnDamascenus">Damascenus</name>dicit quod <quote xml:id="bb-l2d39a1q1-Qd1e133">conscientia est lex intellectus nostri</quote> ; sed lex intellectus non dicitur nisi Scriptura, quae directe respicit intellectum ; ergo conscientia tenet se ex parte potentiae intellectivae.</p>
+          <p xml:id="bb-l2d39a1q1-d1e137">3. Item, omnis scientia est ex parte intellectus ; oninis conscientia est scientia : ergo omnis conscientia est ex parte intellectus. Maior propositio per se manifesta est ; minor probatur, quia omnis conscius alicuius rei est sciens illam rem : ergo, a coniugatis, omnis conscientia est scientia.</p>
+          <p xml:id="bb-l2d39a1q1-d1e140">4. Item, conscientia dividitur per rectam et erroneam ; sed erroneum respicit habitum vel actum intellectivum : si ergo divisum et dividentia spectant ad eamdem potentiam animae, videtur quod conscientia teneat se ex parte potentiae cognitivae.</p>
+          <p xml:id="bb-l2d39a1q1-d1e144">5. Item, hoc ipsum ostenditur per actum. Legere enim et iudicare et dirigere et testificari et arguere, omnes sunt actus spectantes ad cognitionem ; sed omnes hi actus attribuuntur conscientiae : nam conscientia est liber in quo legimus, conscientia etiam interius iudicat, conscientia testificatur, conscientia arguit, conscientia etiam regit et dirigit. Ergo videtur quod conscientia totaliter se teneat ex parte cognitivae, cum actus et habitus sint eiusdem potentiae.</p>
+ 
+          <p xml:id="bb-l2d39a1q1-d1e147">Sed contra :
+1. Si conscientia tenet se ex parte cognitivae, aut ergo sicut potentia aut sicut passio aut sicut habitus. Non sicut passio, quia passiones maxime respiciunt affectivam ; non sicut habitus, quia conscientia modo est munda, modo immunda, et nullus habitus transmutatur a munditia in immunditiam et e converso. Restat igitur quod, si conscientia tenet se ex parte cognitivae, non erit aliud quam potentia cognitiva. Ergo si potentia cognitiva est de omnibus, non solum de operabilibus, sed etiam de speculabilibus, videtur quod conscientia non tantum attendatur circa ea quae sunt morum, sed etiam circa ea quae sunt disciplinarum ; quod manifeste falsum est.</p>
+          <p xml:id="bb-l2d39a1q1-d1e150">2. Item, sicut intellectus se habet ad verum, ita affectus se habet ad bonum : ergo, si quid est cuius perfectio consistit in bonitate, illud magis spectat ad bonum affectum quam ad intellectum ; sed conscientia est huiusmodi - dicit enim Apostolus I ad Timotheum 1, 5 : <quote xml:id="bb-l2d39a1q1-Qd1e152" ana="#Itim1_5">Caritas est de corde puro et conscientia bona</quote> ; et iterum in eadem Epistola : <quote xml:id="bb-l2d39a1q1-Qd1e155">Milites in illis bonam militiam, hebens fidem et bonam conscientiam</quote>. Ergo etc.</p>
+          <p xml:id="bb-l2d39a1q1-d1e159">3. Item, <quote xml:id="bb-l2d39a1q1-Qd1e161">lex carnis repugnat legi mentis</quote>, secundum quod <name ref="#JohnDamascenus">Damascenus</name>dicit ; sed lex carnis se tenet ex parte motivae : ergo et lex mentis tenet se ex eadem parte. Sed <quote xml:id="bb-l2d39a1q1-Qd1e167">conscientia est lex mentis</quote>, sicut supra dixit <name ref="#JohnDamascenus">Damascenus</name>: ergo conscientia tenet se ex parte affectivae.</p>
+          <p xml:id="bb-l2d39a1q1-d1e174">4. Item, remorsus est actio potentiae affectivae : ubicumque enim est remorsio, ibi est quidam dolor et passio ; sed conscientiae est remordere, sicut dicitur super illud I ad Corinthios 4, 4 : <quote xml:id="bb-l2d39a1q1-Qd1e176" ana="#Icor4_4">Nihil mihi conscius sum</quote>, Glossa : <quote xml:id="bb-l2d39a1q1-Qd1e179" source="http://scta.info/resource/go-Icor4-d1e154">In nullo me remordet conscientia mea</quote>. Ergo videtur quod conscientia ex parte affectivae se teneat.</p>
+          <p xml:id="bb-l2d39a1q1-d1e183">5. Item, delectabile et poenale se tenet ex parte potentiae affectivae ; sed in nobis est poena et laetitia ex parte conscientiae : unde vermis conscientiae erit magnb poena in damnatis. Ergo videtur quod conscientia teneat se ex parte potentiae affectivae, non ex parte cognitivae.</p>
+        </div>
+        <div xml:id="bb-l2d39a1q1-Dd1e187">
+          <head xml:id="bb-l2d39a1q1-Hd1e189">Conclusio</head>
+          <head xml:id="bb-l2d39a1q1-Hd1e192" type="question-title">Conscientia est habitus potentiae cognitivae, prout 
+    est practica, non prout est speculativa.</head>
+ 
+          <p xml:id="bb-l2d39a1q1-d1e195">Respondeo : Ad praedictorum intelligentiam notandum est quod sicut nomen intellectus aliquando accipitur pro potentia intelligendi, aliquando pro habitu, aliquando pro ipso principio intellecto, sic nomen conscientiae tripliciter consuevit accipi a doctoribus sacrae Scripturae. Aliquando enim accipitur conscientia pro ipso conscito ; et sic dicit Ioannes <name ref="#JohnDamascenus">Damascenus</name>quod conscientia est lex intellectus nostri : lex enim est illud quod per conscientiam novimus. Aliquando vero accipitur conscientia pro eo quo conscii sumus, scilicet pro habitu, sicut scientia accipitur pro habitu, scilicet cognoscentis. Aliquando autem accipitur conscientia pro ipsa potentia consciente, ut ita dicam, secundum quod dicitur quod lex naturalis scripta est in conscientiis nostris. Cum igitur tribus modis accipi soleat conscientiae nomen, usitatiori tamen modo nomen conscientiae pro habitu accipitur, sicut et nomen scientiae, a quo componitur.</p>
+ 
+          <p xml:id="bb-l2d39a1q1-d1e201">Si ergo quaeratur, cuius potentiae sit habitus, dicendum quod est habitus potentiae cognitivae, aliler tamen quam sit ipsa speculativa scientia, quia scientia speculativa est perfectio intellectus nostri, in quantum est speculativus ; conscientia vero est habitus perficiciens intellectum nostrum, in quantum est practicus sive in quantum dirigit in opere. Et sic intellectus habet quodam modo rationem motivi, non quia efficiat motum, sed quia dictat et inclinat ad motum.
+Et propterea talis habitus non simpliciter nominatur scientia, sed conscientia, ut in hoc significetur quod habitus iste non perficit ipsam potentiam speculativam in se, sed prout est quodam modo iuncta affectioni et operationi. Propter quod nos non dicimus quod dictamen conscientiae sit ad hoc principium : omne totum est maius sua parte, et ad consimilia ; sed bene dicimus quod conscientia dictat Deum esse honorandum et consimilia principia, quae sunt sicut regulae agendorum. Concedendum est igitur, sicut rationes ostendunt, quod conscientia se tenet ex parte potentiae cognitivae, licet non se teneat secundum quod est speculativa, sed secundum quod est practica. Intellectus enim speculativus et praclicus eamdem potentiam dicunt, sola extensione differentem, sicut dicit <name ref="#Aristotle">Philosophus</name> ; nec est aliquo modo intelligendum quod intellectus practicus sit appetitus vel voluntas ; hoc enim negat ipse <name ref="#Aristotle">Philosophus</name>.</p>
+        </div>
+        <div xml:id="bb-l2d39a1q1-Dd1e212">
+          <head xml:id="bb-l2d39a1q1-Hd1e214">Ad rationes</head>
+
+          <p xml:id="bb-l2d39a1q1-d1e217">Ad illud ergo quod obicitur in contrarium, quod conscientia non potest esse potentia nec passio nec habitus ex parte cognitivae, dicendum quod immo nominare potest et potentiam et habitum. Et cum nominat potentiam, non nominat universaliter potentiam cognitivam, sed prout se extendit ad cognoscenda ea quae sunt moris sive ad moralia. Cum autem nominat habitum, non solum nominat habitum naturalem, immo etiam potest nominare habitum acquisitum. Et quia habitus acquisitus potest purificare et foedare animam, hinc est quod conscientia dicitur munda et immunda, recta et non recta. Verumtamen istae differentiae plus respiciunt conscientiam secundum quod stat pro nomine potentiae quam secundum quod stat pro nomine habitus.</p>
+          <p xml:id="bb-l2d39a1q1-d1e220">Ad illud quod obicitur, quod conscientia dicitur esse bona et mala, dicendum quod bonitas et malitia non tantummodo respiciunt affectum, immo etiam intellectum practicum et eius habitum, pro eo quod intellectus practicus non tantum consistit in vero, sed etiam se extendit ad bonum. Et propterea iudicatorium illud, quod quidem est conscientia, bonum est, quando bonum dictat et ad bonum inclinat et a malo retrahit et ipsum refugit ; et ideo non sequitur quod conscientia sit in potentia affectiva. Ad hoc enim quod dicatur bona non oportet quod sit affectio per essentiam, sed sufficit quod cum ipsa voluntate et affectione habeat quamdam concomitantiam.</p>
+          <p xml:id="bb-l2d39a1q1-d1e223">Ad illud quod obicitur, quod lex carnis opponitur legi mentis, dicendum quod, sicut dicit magister Hugo de Sandto Victore, in sensualitate sive in homine exteriori non tantum est corruptio quantum ad potentiam motivam et inclinativam, sed etiam quantum ad sensitivam ; et ideo, quamvis lex carnis principaliter consistat in concupiscentia ad malum inclinante, nihilominus tamen praesupponit phantasticam et cognitivam sibi carnalia inordinate repraesentantem. Et similiter in lege mentis est ista duo considerare. Conscientia autem, quantum, est de se, magis directe opponitur legi carnis ratione cognitionis praeambulae quam ratione concupiscentiae.</p>
+          <p xml:id="bb-l2d39a1q1-d1e226">Ad illud quod obicitur de remorsu, dicendum quod conscienda dicitur remordere, propter hoc quod, dum ipsa monstrat aliquod malum ipsi affectui habenti rectitudinem, superinducit remorsum, pro eo quod ille affectus recalcitrat. Unde remorsus non est a conscientia principaliter movente, sed sicut a dictante ; a scintilla autem conscientiae, quae quidem est synderesis, est sicut a movente, ut melius iam patebit.</p>
+          <p xml:id="bb-l2d39a1q1-d1e230">Ad illud quod obicitur, quod poenale et delectabile est ex parte conscientiae, dicendum quod non est a conscientia nec in conscientia nisi sicut in disponente et dictante ; gaudere enim et dolere proprie affectionis est. Sed cum conscientia, quae est rectus testis, testificatur de bono facto quod est bonum, et de malo facto quod est malum, generat ex hoc dolorem vel gaudium in affectu. Unde et Apostolus dicit : <quote xml:id="bb-l2d39a1q1-Qd1e232" ana="#IIcor1_12">Gloria nostra haec est, testimonium conscientiae nostrae</quote> ; non attribuendo ipsi conscientiae principaliter passionem laetandi, sed actum testificandi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

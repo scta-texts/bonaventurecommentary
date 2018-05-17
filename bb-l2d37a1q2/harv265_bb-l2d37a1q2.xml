@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37a1q2">
+        <head xml:id="bb-l2d37a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d37a1q2-Hd1e111" type="question-title">Utrum omnis rei conservatio sit a Deo.</head>
+ 
+        <p xml:id="bb-l2d37a1q2-d1e114">Secundo quaeritur, utrum omnis rei conservatio sit a Deo.</p> 
+        <div xml:id="bb-l2d37a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d37a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d37a1q2-d1e122">Et quod sic, videtur: Primo, per Gregorium : <quote xml:id="bb-l2d37a1q2-Qd1e124">Cuncta in nihilum cederent, nisi manus Conditoris ea contineret</quote> ergo omnia quae conservantur, a Deo conservantur.</p>
+          <p xml:id="bb-l2d37a1q2-d1e128">Item, esse est actus entis et vivere viventis ; sed nullus actus est qui non sit a Deo immediate : ergo nullum esse et nullum vivere. Si ergo creatura continue est et continuatio in esse non est aiiud quam duratio, cum esse eius non possit esse nisi a Deo, omnis rei conservatio est a Deo.</p>
+          <p xml:id="bb-l2d37a1q2-d1e131">Item, nihil mutabile subsistit nec salvatur in esse nisi per immutabile et fixum ; sed omne esse creatum mutabile est et variabile, saltem a praeterito in futurum ; sicut enim dicit Hieronymus : Solus enim Deus est, qui non novit praeteritum vel futurum. Ergo nihil potest subsistere nisi Deo conservante.</p>
+          <p xml:id="bb-l2d37a1q2-d1e134">Item, quanto effectus magis percipit a causa, tanto magis pendet ab Ipsa, et quanto magis pendet ab ipsa, tanto minus potest durare vel subsistere sine ipsa ; sed omne creatum totum quod est et quod habet a Deo habet : ergo impossibile est aliquid nec ad momentum conservari in esse nisi Deo conservante.</p>
+          <p xml:id="bb-l2d37a1q2-d1e138">Item, sicut se habet essentia ad primam essentiam et sapientia ad primam sapientiam, ita se habet duratio ad primam durationem ; sed omnis essentia a prima essentia et omnis sapientia a prima sapientia est : ergo omnis duratio a prima duratione producitur sicut a principio : ergo nihil in esse conservatur nisi per Deum.</p>
+   
+ 
+          <p xml:id="bb-l2d37a1q2-d1e141">Sed contra : <name ref="#Augustine">Augustinus</name>, in libro De natura boni, tractans illud quod dicitur Ecclesiastis 8, 4 : <quote xml:id="bb-l2d37a1q2-Qd1e146" ana="#sir8_4">Sermo eius potestate plenus est</quote>, dicit quod suum dicere est suum facere. Sed statim, quando Deus fecit creaturam, simul cum hoc disposuit quantum creatura durare debuit : ergo videtur quod statim dederit ei virtutem continuandi se in esse : ergo non videtur quod amplius Deus immediate, eam conservet. Quodsi tu dicas quod virtus creaturae data indiget adhuc virtute divina simul cooperante, contra : si suum dicere est suum facere, et dicere non potest esse successivum, ergo nec facere ; sed conservatio creaturae est cum successione : ergo non videtur quod illa conservatio sit a Deo sicut a conservante.</p>
+          <p xml:id="bb-l2d37a1q2-d1e150">Item, ad nobilitatem agentis creati pertinet quod potest facere opus per se stabile, non indigens ipso artifice continue sustentante ; sed Deus est artifex multo nobilior et multo potentior : ergo videtur quod operibus suis det tale esse quod non indigeant ipso conservante continue : igitur conservatio rerum non videtur immediate esse a Deo.</p>
+          <p xml:id="bb-l2d37a1q2-d1e153">Item, idem est principium essendi et conservandi ; sed forma sufficienter dat unicuique rei esse : ergo videtur quod ad conservationem uniuscuiusque rei sufficit virtus propriae formae. Quodsi tu dicas quod forma non potest conservare suam materiam, planum est hoc esse falsum in anima, quae habet vim vegetativam et regitivam corporis.</p>
+          <p xml:id="bb-l2d37a1q2-d1e156">Item, si omnis res conservatur a Deo immediate, cum divina virtus non possit a se deficere nec possit ab alio superari, videtur quod nulla operatio creaturae, nec per defectum sui ipsius nec per actionem contrarii, possit aliquando terminari ; nunquam enim deficit duratio sine defectu virtutis conservantis. Et planum est istud, quod multorum actio terminatur : ergo videtur quod talium conservatio non sit a Deo tamquam a principio immediato.</p>
+          <p xml:id="bb-l2d37a1q2-d1e159">Item, esto quod creatura sibi ipsi relinquatur, aut conservatur in esse aut corrumpitur. Si conservatur in esse, habeo propositum, videlicet, quod non omnis conservatio est a Deo. Si corrumpitur, aut hoc est aliena actione aut propria inclinatione. Aliena actione non, qui nulla creatura potest aliam in nihilum redigere. Propria inclinatione non, quia natura semper desiderat quod melius est et forma appetit uniri materiae et materia formae. Ergo, si motus sequitur inclinationem et appetitum, semper durabit et nunquam deficiet : ergo redit idem quod prius, videlicet, quod non omnis conservatio est a Deo.</p>
+        </div>
+        <div xml:id="bb-l2d37a1q2-Dd1e163">
+          <head xml:id="bb-l2d37a1q2-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d37a1q2-Hd1e168" type="question-title">Omnis rei conservatio est a Deo sicut ab immediato principio, 
+   non tamen ut a tota causa</head>
+ 
+          <p xml:id="bb-l2d37a1q2-d1e171">Respondeo : Dicendum quod non solum omnem actionem, verum etiam omnem conservationem necesse est a Deo esse.</p>
+          <p xml:id="bb-l2d37a1q2-d1e174">Et ratio huius est necessitas et indigentia ex parte creaturae. Creatura enim omnis ex nihilo est et aliunde habet esse. Quia ex nihilo est, ideo quodam modo vana est et vanitati subiecta est ; quia vero aliunde habet esse, ideo esse est sibi quodam modo accidentale. Contrario modo est in Deo ; unde Hilarius, in VII De Trinitate : <quote xml:id="bb-l2d37a1q2-Qd1e176">Esse non est accidens Deo, sed subsistens veritas et manens causa et naturalis generis proprietas</quote>. Sicut igitur vanum non potest fulciri nisi per verum et stabile et accidens non potest fulciri nisi per subiectum, sic esse creaturae non potest conservari absque munificentia creatricis essentiae. Unde sicut creatura habet essentiam et actionem, ita etiam habet et durationem ; et propter hoc, quamvis creatura non possit esse actu infinita, nihilominus tamen ponitur duratione infinita. Infinitas enim durationis non ponit in creatura aliquam actualem infinitatem.
+Et ratio huius est, quia potentia, per quam durat creatura, non tantum est ipsius creaturae, immo etiam creatricis essentiae. Verum est enim quod in creatura est aliqua potentia ad durandum, sed illa non est omnino in actu, immo est in potentia quodam modo respectu illius virtutis quae est in actu infinita. Et hoc est quod vult dicere <name ref="#Aristotle">Philosophus</name>, in libro De causis, quod omnes virtutes infinitae pendentes sunt per unum infinitum primum, quod est virtus virtutum.
+Concedendae sunt igitur rationes ostendentes quod omnis rei conservatio est a Deo tamquam ab immediato principio, non tamen est ab ipso sicut a tota causa. Sicut enim in creatura est aliqua virtus operativa creata, sic etiam aliqua virtus conservativa.</p>
+        </div>
+        <div xml:id="bb-l2d37a1q2-Dd1e185">
+          <head xml:id="bb-l2d37a1q2-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-l2d37a1q2-d1e190">Ad illud ergo quod primo obicitur, quod suum dicere est suum facere, dicendum quod hoc non dicitur immediate, propter hoc quod ad dicere sequatur facere, quoniam Deus dixit ab aeterno et fecit in tempore ; sed hoc dictum est, quia non est nova operatio ex parte Dei ipsum facere superadditum ad dicere, sicut contingit in operatione creaturae. 
+    Nec valet quod obicitur quod dicere non est successivum. Dicendum enim quod nec dicere Dei nec facere est successivum secundum id quod est, quia dicere et facere Dei Deus est et aeternum quid est. Verumtamen, sicut ab aeterno potest procedere temporale, sic a divino dicere, in quo nulla est successio, potest procedere successiva duratio, quae quidem successiva est, non ratione exigentiae ex parte Dei conservantis, sed ex parte rei conservatae.</p>
+
+          <p xml:id="bb-l2d37a1q2-d1e193">Ad illud quod obicitur, quod artifex creatus potest facere opus per se stabile, dicendum quod non est simile, pro eo quod artifex creatus sic facit rem quod non facit eius principia intrinseca : non enim potest in totam rei substantiam. Et propterea res facta conservari potest in propriis principiis, quae non dependent a potestate artificis. Non sic autem est in opere Dei. Omne enim opus, quod Deus facit, secundum totum sui facit ; et ideo totaliter ab ipso dependet et sine eius adiutorio conservari non potest.</p>
+          <p xml:id="bb-l2d37a1q2-d1e196">Ad illud quod obicitur, quod idem est principium essendi et conservandi, dicendum quod verum est in genere causae formalis et similiter verum est in genere causae efficientis. Quamvis igitur esse in creatura sit a forma creata tamquam ab informante, nihilominus tamen a Deo est tamquam ab efficiente. Ideo, sicut ad conservationem rei necessaria est virtus formae complentis, sic etiam necessarium est adiutorium primi et immediati efficientis.</p>
+          <p xml:id="bb-l2d37a1q2-d1e199">Ad illud quod obicitur, quod si Deus conservaret res, nihil corrumperetur, dicendum quod illud argumentum deficit dupliciter. Primum quidem, quia Deus conservat voluntarie ; et ideo tantum conservat quantum placet sibi et secundum dispositionem sapientiae suae.
+Praeterea, conservatio rei non est a Deo tamquam a tota causa, sed requiritur ex parte creaturae idoneitas ad conservationem et virtus quodam modo conservativa, ad cuius defectum velociorem vel tardiorem sequitur diuturnior vel minus diuturna duratio creaturae ; et cum est idoneitas creaturae ad durandum in perpetuum, utpote simplicitas, Deus esse eius aeternaliter continuat.
+</p>
+          <p xml:id="bb-l2d37a1q2-d1e203">5. Ad illud quod quaeritur, utrum si creatura sibi relinqueretur, corrumperetur, dico quod sic.
+Et si quaerat, utrum aliquo agente vel non, dico quod nullo agente, sed propter defectum in se ipsa. Talis enim corruptio, quae est annihilatio, dicit purum defectum ; et ideo non requjrit causam efficientem, sed deficientem ; haec autem in creatura est ex hoc quod ex nihilo est.
+Et si obiciat quod naturalis inclinatio cuiuslibet rei est ad durandum in esse et quod motus sequitur inclinationem, dicendum quod verum est de inclinatione motus dicente positionem ; verum est etiam de principiis rei salvatis in esse, super quae fundatur illa inclinatio. Si autem creatura sibi relinqueretur, principia rei in esse non servarentur, immo in se ipsis deficerent ; et ideo inclinatio ad esse periret.
+Posset etiam dici quod, cum ponitur quod creatura sibi relinquatur, ponitur quod divina virtus se subtrahat ; et cum ponitur quod divina virtus se subtrahat, per consequens ponitur creaturae annihilatio. Sicut enim per operationem virtutis infinitae potest fieri eductio de nihilo in esse, ita etiam per subtractionem potest fieri annihilatio ; et pro tanto dicit Hugo quod soli divinae virtuti possibilis est annihilatio creaturae. Verumtamen illud verbum inteliigendum est sane, quia multum est calumniabile.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d38a1q4">
+        <head xml:id="bb-l2d38a1q4-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-l2d38a1q4-Hd1e111" type="question-title">Utrum malae voluntates habeant unicum finem.</head>
+ 
+        <p xml:id="bb-l2d38a1q4-d1e114">Quarto quaeritur, utrum malae voluntates habeant unicum finem.</p> 
+        <div xml:id="bb-l2d38a1q4-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d38a1q4-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d38a1q4-d1e122">Et quod sic, videtur : <name ref="#Augustine">Augustinus</name>, super illum locum Psalmi [7, 10] : <quote xml:id="bb-l2d38a1q4-Qd1e127" ana="#ps7_10">Scrutans corda</quote> : Finis curae et cogitationis humanae est delectatio, ad quam quisque nititur pervenire. Si ergo omnes voluntates malae finaliter quaerunt delectationem, videtur quod omnium voluntatum malarum sit unum finem assignare.</p>
+          <p xml:id="bb-l2d38a1q4-d1e131">Item, malarum voluntatum est unus malus exitus sive terminus, sicut dicitur ad Romanos 6, 21 : <quote xml:id="bb-l2d38a1q4-Qd1e133" ana="#rom6_21">Quorum finis mors est</quote>. Ergo, si earum contingat esse unum terminum, pari ratione videtur quod contingat esse unum finem ultimum.</p>
+          <p xml:id="bb-l2d38a1q4-d1e137">Item, quae conveniunt in principio conveniunt et in fine ultimo ; sed omnes malae voluntates conveniunt in principio, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro De vera religione : <quote xml:id="bb-l2d38a1q4-Qd1e142">Planum est, inquit, in toto malefaciendi genere nihil aliud quam libidinem dominari</quote>. Si ergo conveniunt in uno principio, utpote in libidine, videtur pari ratione quod conveniant in uno fine.</p>
+          <p xml:id="bb-l2d38a1q4-d1e146">Item, vitium imitatur virtutem secundum apparentiam ; unde sicut virtus nunquam quiescit citra beatitudinem veram, ita vitium inquirit beatitudinem simulatpm : ergo sicut omnes virtutes faciunt tendere, voluntatem ad unum finem, scilicet beatitudinem, sic videtur quod omnia vitia faciant tendere voluntatem ad unum finem, scilicet qui habeat similitudinem cum vero fine.</p>
+          <p xml:id="bb-l2d38a1q4-d1e150">Sed contra : Contrariarum voluntatum contrariae sunt delectationes, ubi autem,sunt delectationes contrariae, ibi sunt fines diversi ; sed voluptates faciunt voluntates sibi invicem repugnare : ergo faciunt diversos fines habere.</p>
+          <p xml:id="bb-l2d38a1q4-d1e153">Item, mala voluntas ponit finem in creatura ; sed impossibile est quod in una creatura inveniat nostra voluntas sufficientiam, cum nihil sufficiat voluntati humanae nisi sola Trinitas : si ergo voluntas non quiescit nisi in eo fine quo ponit sufficientiam, videtur necessario quod voluntas mala diversos sibi fines constituat.</p>
+          <p xml:id="bb-l2d38a1q4-d1e156">Item, malae voluntatis appetitus ortum et radicem habet ex libidine ; sed libido est quo quis amat bonum proprium : si ergo bonum proprium necessario diversificatur in diversis, necesse est diversarum voluntatum diversos fines reperiri.</p>
+          <p xml:id="bb-l2d38a1q4-d1e159">Item, unitas et conformitas voluntatum bonarum venit ex unitate amoris, in quo uniuntur et colligantur. Si ergo amor, in quo diversi colligantur et uniuntur, unicam debet habere radicem, in pluribus repertam, cum hoc non conveniat amori libidinis, sed solum amori caritatis, qui est amor Spiritus Sancti, videtur quod malarum voluntatum non sit finis unicus, sed diversi.</p>
+        </div>
+        <div xml:id="bb-l2d38a1q4-Dd1e163">
+          <head xml:id="bb-l2d38a1q4-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d38a1q4-Hd1e168" type="question-title">Voluntates malae differentes non unum, 
+    sed diversos fines sibi constituunt</head>
+ 
+          <p xml:id="bb-l2d38a1q4-d1e171">Respondeo : Dicendum quod e contrario est in bonis voluntatibus et in malis. Nam bonarum voluntatum unicus est finis, sive bonae voluntates sint diversae diversitate numerali sive diversitate formali. Diversitatem autem numeralem voco, quando plures homines in eodem genere affectionis afficiuntur circa aliquid ; diversitatem autem formalem voco,.quando idem homo diversis habitibus virtutum afficitur circa diversa. Sive enim sic sive sic, licet contingat plures fines proximos et proprios assignare, tamen finem ultimum et principalem necesse est esse unicum, videlicet ipsum Deum.</p>
+ 
+          <p xml:id="bb-l2d38a1q4-d1e174">Et ratio huius est et perfectio amoris moventis et perfectio appetibilis quietantis. Quia enim amor caritatis liberalis est et non quaerit quod suum est, sed bonum commune, hinc est quod plures homines, ex caritate moti, idem bonum appetunt finaliter. Rursus, quia appetibile illud completissimum est, in quo non solum contingit reperire bonum perfectum, sed etiam omne bonum, hinc est quod omnes voluntates, quantumcumque diversae, inveniunt finem suum in quo quietantur.
+Econtra est in malis voluntatibus propter imperfectionem amoris et appetibilis. Propter imperfectionem namque amoris libidinosi voluntates solo numero differentes diversos habent fines, propterea quod amor libidinosus semper quaerit quod suum est ; et quia semper quaerit bonum proprium, ideo, etsi multi ex amore libidinoso conveniant in actum unum, tamen unusquisque quaerit finem suum proprium, ut patet in adultero et meretrice, quia iste quaerit delectationem et illa quaerit nummum.
+Propter imperfectionem etiam appetibilis necesse est diversas voluntates formaliter differentes habere diversos fines. Quia enim luxuria appetit iucunditatem et laetitiam et avaritia sufficientiam et superbia excellentiam, et haec omnia non contingit reperire circa eamdem rem creatam, sed circa diversas, hinc est quod voluntates malae differentes formaliter non unum, sed diversos fines sibi constituunt.
+Unde concedendae sunt rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-l2d38a1q4-Dd1e179">
+          <p xml:id="bb-l2d38a1q4-d1e181">Ad illud quod primo obicitur, quod delectatio est finis curae et cogitationis, dicendum quod in ratione illa est figura dictionis, pro eo quod non eadem delectatio est finis curae et cogitationis humanae, sed diversae. Unde stat ibi delectatio in sua generalitate et magis habet ibi suppositionem simplicem quam personalem ; et ideo, cum per delectationem descendit ad finis unitatem, fit sophisticatio secundum figuram dictionis ex commutatione suppositionis.</p>
+          <p xml:id="bb-l2d38a1q4-d1e184">Ad illud quod obicitur, quod malarum voluntatum est unus malus exitus, ergo unus malus finis, dicendum quod non est simile. Nam malae voluntates differunt in conversione, sed conveniunt in aversione ; et malus exitus principalius respicit aversionem quam conversionem, finis vero movens principalius respicit conversionem quam aversionem. Ideo non sequitur quod, quamvis sit unus exitus quoad mortem damnationis, quod propter hoc sit unus finis mofivus quantum ad quietem delectationis.</p>
+          <p xml:id="bb-l2d38a1q4-d1e187">Ad illud quod obicitur, quod malae voluntates conveniunt in principio, videlicet in libidine, dicendum quod in principio non conveniunt nisi per quamdam conformitatem. Nam alia est libido in uno et alia in alio ; et ideo non sequitur ex hoc quod conveniant in finem unicum. Attamen, etsi in principio convenirent, non propter hoc necesse esset quod convenirent in termino. Nam malum semper procedit in dispersionem, bonum vero semper redit ad unitatem. Quanto enim aliquid magis colligitur, tanto magis vigoratur et est perfectius ; quanto vero magis dispergitur, tanto magis recedit a perfectione et complemento. Et ideo dicit <name ref="#Aristotle">Philosophus</name> quod malum est multifariam et bonum uno modo .</p>
+          <p xml:id="bb-l2d38a1q4-d1e193">Ad illud quod obicitur, quod vitium imitatur virtutem, dicendum quod sic imitatur quod plus habet de dissimilitudine quam de similitudine ; magis enim virtuti contrariatur, quam ei conformetur. Et ideo potius inferri potest quod malae voluntates habeant fines diversos, si bonae habent unicum, quam e converso. Quia enim in hoc consistit perfectio virtutis, vitium magis in hoc, a virtute deficit, quam eam imitari possit. Et sic patet quod malarum voluntatum non est unus finis, sed diversi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

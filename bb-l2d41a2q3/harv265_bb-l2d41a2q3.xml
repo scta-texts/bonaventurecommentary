@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41a2q3">
+        <head xml:id="bb-l2d41a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d41a2q3-Hd1e111" type="question-title">Utrum sicut peccare sic etiam puniri sit voluntatis proprium.</head>
+ 
+        <p xml:id="bb-l2d41a2q3-d1e114">Tertio quaeritur, utrum sicut peccare sic etiam puniri sit voluntatis proprium.</p>
+        <div xml:id="bb-l2d41a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d41a2q3-Hd1e119" type="question-title">Rationes principales</head>
+          <p xml:id="bb-l2d41a2q3-d1e122">Et quod sic, videtur : Anselmus, De originali peccato : <quote xml:id="bb-l2d41a2q3-Qd1e124">Miratur, inquit, forte aliquis, cur pro culpa voluntatis membra puniuntur et sensus. Verum non est ita : non enim punitur nisi voluntas. Nam nihil est alicui poena nisi quod contra voluntatem est, et nulla res poenam sentit nisi quae voluntatem habet ; membra autem et sensus per se nihil volunt. Sicut igitur voluntas membris et sensibus operatur, ita in ipsis ipsa aut torquetur aut delectatur</quote>. Ex hac auctoritate habetur, quae claudit in se ratiocinationem, quod proprium sit voluntatis puniri.</p>
+          <p xml:id="bb-l2d41a2q3-d1e128">Item, <name ref="#Augustine">Augustinus</name>, in libro Sex Quaestionum : <quote xml:id="bb-l2d41a2q3-Qd1e133">Voluntas quippe ipsa punitur sive animi supplicio sive corporis, ut, quae delectatur in peccatis, ipsa plectatur in poenis</quote>.</p>
+          <p xml:id="bb-l2d41a2q3-d1e137">Item, ratione : <quote xml:id="bb-l2d41a2q3-Qd1e139">Opposita sunt nata fieri circa idem</quote> ; sed voluntarium et involuntarium sunt opposita ; sed poena est affectio involuntaria, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro De libero arbitrio : ergo sicut culpa, quae est affectio voluntaria, respicit voluntatem tamquam illud a quo est, sic videtur quod poena respiciat voluntatem tamquam illud contra quod est.</p>
+          <p xml:id="bb-l2d41a2q3-d1e146">Item, culpa est meritum poenae ; sed meritum respectu praemii et habet rationem ordinis et habet rationem dispositionis ; si ergo dispositio et illud ad quod disponit sunt in eodem, et culpa, ut in ratione culpae est, potius respicit voluntatem, ergo et poena.</p>
+
+ 
+          <p xml:id="bb-l2d41a2q3-d1e150">Sed contra : Quatuor, ut dicit Beda, inflicta sunt nobis pro peccato, scilicet <quote xml:id="bb-l2d41a2q3-Qd1e152">ignorantia, malitia, infirmitas, concupiscentia</quote> ; sed quod infligitur pro peccato est poena : ergo ignorantia est poena ; sed constat quod ignorantia non respicit voluntatem, sed rationem : ergo etc.</p>
+          <p xml:id="bb-l2d41a2q3-d1e156">Item, duplex est poena in futuro, videlicet poena damni et poena sensus ; sed poena damni, quae est in carentia visionis Dei, non tantum respicit voluntatem, immo multo magis respicit rationem ; poena vero sensus, quae est in concrematione ignis, multo magis respicit partem sensibilem et coniunctum quam respiciat voluntatem rationalem, cum sentire sit passio coniuncti : ergo videtur quod poena principalis respiciat alias potentias animae quam voluntatem.</p>
+          <p xml:id="bb-l2d41a2q3-d1e159">Item, si poena respicit voluntatem, aut hoc est quia est secundum voluntatem aut quia est contra voluntatem. Si quia secundum voluntatem, ergo nemo puniretur nisi qui vellet ; quod plane falsum est. Si quia contra voluntatem, ergo, cum vir iustus voluntarie sustineat omnes poenas, et maxime Christus, nulli viro iusto nec etiam Christo poenalis esset aliqua passio ; quod manifeste falsum est.</p>
+          <p xml:id="bb-l2d41a2q3-d1e162">Item, si poena respiceret voluntatem tamquam subiectum proprium, ergo sicut nemo potest peccare nisi qui habet usum voluntatis, sic nemo posset puniri nisi qui voluntatis usum haberet ; sed hoc plane falsum est : nam parvuli puniuntur pro peccatis parentum et multa etiam tormenta patiuntur, non solum in habitu, verum etiam in actu. Ergo etc.</p>
+        </div>
+        <div xml:id="bb-l2d41a2q3-Dd1e166">
+          <head xml:id="bb-l2d41a2q3-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d41a2q3-Hd1e171" type="question-title">Poena, ut est ultio, et etiam ut est passio laedens, 
+    affligens et displicens, directe respicit ipsam 
+    voluntatem, ut tantum laedens et affligens potest respicere et alias potentias
+    </head>
+ 
+          <p xml:id="bb-l2d41a2q3-d1e174">Respondeo : Dicendum quod poena ratione poenae duo nominat, videlicet nocumentum naturae et instrumentum divinae iustitiae : unum tamquam materiale, reliquum tamquam formale ; unde poena et est ultio et etiam est passio. Cum ergo poena comparatur ad aliquid, hoc potest esse aut in quantum ultio aut in quantum passio.
+Si in quantum ultio, sic proprie habet comparari ad ipsam voluntatem. Deus enim non ulciscitur se de manu vel pede vel aliqua potentia sensitiva, sed de voluntate deliberativa, de qua ulciscitur Deus non solum affligendo ipsam in se, sed etiam affligendo eam in ceteris membris corporis, in quibus ipsa cupiebat delectari.</p>
+ 
+          <p xml:id="bb-l2d41a2q3-d1e177">Si autem comparetur poena ad aliquid, in quantum est passio, sic dicendum est quod, cum non quaecumque passio poena sit secundum completam rationem poenae, sed passio laedens, passio affligens, passio displicens, sic adhuc poena, secundum quod plene tenet rationem poenae, scilicet poena quae facit hominem recte miserum, adhuc respicit voluntatem ratione sui completivi. Nemo enim plene miser est, sicut dicit <name ref="#Augustine">Augustinus</name>, ex hoc quod patitur solum, sed ex hoc quod patitur et scit se pati et non vult se pati.
+Secundum autem quod passio tenet semiplenam rationem poenae, prout dicitur passio laedens vel affligens in eo in quo non est nata esse quantum est de prima conditione naturae, sic non tantum respicit voluntatem, sed etiam omnes potentias animae et omnia membra corporis ; non tamen respicit illa sine voluntate, quia in nullo potest esse poena, nisi in quo est rationalis voluntas. Unde bruta, quamvis patiantur, non tamen puniuntur.
+</p>
+ 
+          <p xml:id="bb-l2d41a2q3-d1e183">Sic igitur patet quod poena, et in quantum est ultio et in quantum est passio, plene tenens rationem poenae, directe respicit ipsam voluntatem, ita quod proprium est ipsius voluntatis puniri. Unde concedendae sunt rationes quae hoc ostendunt, in quantum tamen estpassio laedens vel affligens, habet respicere alias potentias et etiam corporis organa. Et secundum hoc patet responsio ad rationes quae ad oppositum inducuntur.</p>
+        </div>
+        <div xml:id="bb-l2d41a2q3-Dd1e188">
+          <head xml:id="bb-l2d41a2q3-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-l2d41a2q3-d1e193">1-2. Ad illud enim quod obicitur de ignorantia et de poena damni et sensus, patet responsio. Nam, etsi ignorantia dicat privationem alicuius boni quod respiciat cognitivam et similiter poena damni et similiter poena sensus privationem delectationis et quietis partis sensitivae, totum tamen hoc Deus ordinat ad vindicandum et ulciscendum se de voluntate. Ipsa enim est quae directe adversatur divinae iustitiae, dum perpetrat iniustitiam ; et ideo ordo divinae iustitiae punientis directe respicit illius deordinationis remotionem. Ipsa etiam sola fuit quae sibi se principium posuit et Deum derelinquendo contempsit dum peccavit ; et ideo debet per poenarum multitudinem in servitutem Dei redigi, ut quae dehonoravit Deum voluntarie contemnendo, honoret ipsum involuntarie supplicia patiendo.</p>
+          <p xml:id="bb-l2d41a2q3-d1e196">3-4. Ad illud quod obiicitur, quod in viris iustis et in Christo non fuit poena involuntaria, dicendum quod ibi non tenet poena rationem ultionis, nisi relata ad voluntatem Adae peccatricem, respectu cuius voluntatis omnis poena est involuntaria, quia voluntas peccatrix quaerit oblectationem et quaerendo oblectationem refugit passionem.
+Ad illud quod obiicitur de parvulo, qui patitur poenas, responderi potest sicut ad hoc.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

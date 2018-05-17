@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diviso Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Diviso Textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d30dt">
+        <head xml:id="bb-l2d30dt-Hd1e108">Diviso Textus</head>
+
+        <p xml:id="bb-l2d30dt-d1e111">Pars ista, in qua <name ref="#Lombard">Magister</name> determinat de hominis lapsu, divisa fuit in tres partes secundum triplicem differentiam corruptionis peccati,
+in quarum una persona corrumpit naturam,
+in altera vero natura personam,
+in tertia vero persona corrumpit se ipsam.
+Et prima quidem consistit in peccato primi parentis, secunda in peccato originali et tertia in peccato actuali. Prima igitur parte determinata, aggreditur hic <name ref="#Lombard">Magister</name> partem secundam.</p>
+        <p xml:id="bb-l2d30dt-d1e120">Dividitur autem pars ista in partes quatuor.
+In quarum prima determinat quid sit originale peccatum.
+In secunda vero qualiter traducatur, infra, distinctione trigesima prima : Nunc superest investigare etc.
+In tertia vero qualiter deleatur, infra, distinctione trigesima secunda : Quoniam supra dictum est, peccatum originale esse vitium etc.
+In quarta vero determinat utrum peccatum originale multiplicetur et intendatur per peccata proximorum parentum, infra, distinctione trigesima tertia : Praedictis adiciendum est etc.</p>
+ 
+        <p xml:id="bb-l2d30dt-d1e123">Prima pars, quae continet praesentem distinctionem, dividitur in partes tres.
+In prima ponit partem prooemialem.
+In secunda determinat propositum principale, ibi : Hic primo videndum est etc.
+In tertia determinat quamdam incidentem dubitationem de veritate humanae naturae, ibi : Ad hoc autem, quod diximus, in Adam fuisse etc.
+Prima et tertia parte remanente indivisa, media pars dividitur in tres.
+In prima inquirit utrum originale peccatum sit.
+In secunda, dato quod sit, inquirit utrum sit poena vel culpa, ibi : Quod diligenter investigandum est, quid sit etc.
+In tertia inquirit utrum sit concupiscentia vel alia culpa, ibi : Nunc superest videre quid sit illud peccatum etc. Harum autem partium subdivisiones in littera planae sunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

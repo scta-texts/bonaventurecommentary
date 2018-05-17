@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d30a1q1">
+        <head xml:id="bb-l2d30a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d30a1q1-Hd1e111" type="question-title">Utrum, corruptio, quae est in humana natura, insit ei a suae conditionis primordio an ex peccati merito</head>
+ 
+        <p xml:id="bb-l2d30a1q1-d1e114">
+          <pb ed="#Qb" n="714"/>Circa primum sic proceditur et quaeritur, utrum corruptio, quam videmus in humana natura, insit ei ex suae conditionis primordio an ex peccati merito. Et quod non insit ex suae conditionis primordio, sed ex peccati merito, videtur tam ex ordine divinae iustitiae, quam ex ordine sapientiae, quam etiam ex ordine bonitatis. Differt enim triplex ordo in creaturis, quia per iustitiam fit ordinatio remunerationum et meritorum ; per sapientiam vero ordinatio partium ad se invicem ; per boniiatem vero ordinatio rerum in suum finem.
+</p>
+        <div xml:id="bb-l2d30a1q1-Dd1e119" type="rationes-principales">
+          <head xml:id="bb-l2d30a1q1-Hd1e121">Rationes principales</head>
+
+          <p xml:id="bb-l2d30a1q1-d1e124">Ex parte divinae iustitiae arguitur sic : Nulli iuste infligitur poena nisi praecedat culpa ; sed nihil aliud est poena quam passio involuntaria in rationali creatura : ergo nullo modo talis passio fuit in homine, antequam praecesserit in eo culpa : igitur talis corruptio non fuit in humatio genere a primordio suae conditionis, sed ex merito transgressionis.</p>
+          <p xml:id="bb-l2d30a1q1-d1e127">Item, a summa iustitiae aequitate nulla procedit curvitas et obliquitas ; sed humana natura non solum corrupta est corruptione poenalitatls, verum etiam corruptione curvitatis, quia videmus homines ex corruptione sibi indita inclinari ad malum : ergo nunquam a divina iustitia processit quod humana natura sit corrupta in sui primordio : ergo, si corrupta est, hoc est solum peccati merito.</p>
+          <p xml:id="bb-l2d30a1q1-d1e130">Ex ordine autem sapientiae arguitur sic : Ubicumque est summa sapientia, ibi est summa pulcritudo, sicut exponit <name ref="#Augustine">Augustinus</name>, in libro De Trinitate VI : Quare species appropriatur Filio ; sed a summa pulcritudine nihil procedit foedum, nihil turpe, nihil quod rationalem offendat aspectum ; sed In homine ratione utente sunt aliquae passiones connaturales, de quibus rationabiliter erubescit : ergo talis passio nunquam fuit in homine a sua prima origine ; et fuit sic vel merito transgressionis : ergo etc.</p>
+          <p xml:id="bb-l2d30a1q1-d1e136">Item, ubicumque intelligitur summa sapientia, intelligitur summa veritas et summa aequalitas ; sed a summa aequalitate nulla debet procedere improportionabilitas ; sed duralio et conservatio corporis secundum statum praesentis miseriae est improportionabiiis animae, quae est eius forma, quia hoc est temporale, illud perpetuum : ergo nunquam humana natura sic producta fuit in sui primordio a summa sapientia : videtur ergo quod in hoc ceciderit ex propria culpa.</p>
+          <p xml:id="bb-l2d30a1q1-d1e140">Ex ordine divinae bonitatis arguitur sic : A summa bonitate nihil procedit quod sit magis propinquum ad malum quam ad bonum, cum universa propter semetipsam summa bonitas operetur ; sed sensus et cogitationes hominum prona sunt in malum ab adolescentia sua, secundum quod dicit sacra Scriptura : ergo in illa corruptione, in qua est, non fuit humana natura a summa bonitate producta.</p>
+          <p xml:id="bb-l2d30a1q1-d1e143">Item, nihil quod procedit a summa bonitate, est dignum maledictione ; sed multae sunt in nobis passiones maledictione dignae, propter quas tam Iob quam leremias maledixit diei suae in qua natus est, et in Lege maledicebantur steriles mulieres ; ergo non videtur quod humana natura in ea corruptione, in qua nunc est, creata sit a summa bonitate.
+Videtur igitur quod in hanc corruptionem et statum devenerit merito culpae, cum hoc sit contra ordinem bonitatis, sapientiae et iustitiae, contra quem ordinem inconveniens est Deum aliquid facere.
+</p>
+   
+   
+ 
+          <p xml:id="bb-l2d30a1q1-d1e146">Sed contra :
+1. Primo ostenditur quod hoc non repugnet ordini divinae iustitiae, quia non est maioris innocentiae homo quam sit ovis vel agnus ; sed ovis mortalis et passibilis producta fuit a Deo ita quod in nullo ex hoc derogatur divinae iustitiae : ergo pari ratione videtur quod, si talem produxisset hominem qualis nunc est, non videretur in aliquo derogari eidem.</p>
+          <p xml:id="bb-l2d30a1q1-d1e149">2. Item, quod non repugnet ordini sapientiae, videtur. Secundum idem exemplar, secundum quod Deus produxit hominem de terra, produxit etiam alia animantia et corpora mixta ; sed hoc non repugnat pulcritudini divini exemplaris quod ex quatuor elementis composita sint corruptibilia, immo hoc facit ad ordinem universi, sicut in pluribus locis ostendit <name ref="#Augustine">Augustinus</name> : ergo non videtur esse contra ordinem sapientiae, si Deus easdem proprietates et passibilitates a natura indidit hominibus, quas etiam dedit aliis animalibus.</p>
+          <p xml:id="bb-l2d30a1q1-d1e155">3. Item, quod non sit contra ordinem bonitatis divinae, videtur. Ad summam enim bonitatem spectat dare unicuique inclinationem competentem suae naturae. Sed sicut anima rationalis delectari habet in bono simpliciter, ita et sensibilis in bono ut nunc, et sicut terra habet quiescere deorsum, ita et ignis sursum. Si igitur Deus omnibus dedit proprias inclinationes, igitur a primaria hominis constitutione erat diversitas appetituum in sensibili et rationali, erat nihilominus appetitus diversus in elementis corpus constituentibus. Si igitur diversitas primae inclinationis facit rebellionem et diversitas secundae inclinationis inducit corruptionem, videtur quod, si homo hoc modo conditus esset, in nullo derogaretur ordini bonitatis divinae.</p>
+          <p xml:id="bb-l2d30a1q1-d1e158">4. Item, quod talis fuerit homo conditus, videtur posse persuaderi ex ratione sumta secundum principia naturalis philosophiae. Cum enim homo sit minor mundus, propter quem omnia facta sunt, debet habere naturalem conformitatem ad mundum maiorem, qui propter ipsum factus est a sua primaria conditione. Sed ita videmus in maiori mundo quod inferiores orbes contrario motu moventur orbi superiori, secundum quod dicunt philosophi naturales : ergo pari ratione videtur quod in homine per naturam portio sensitiva movetur contra iudicium rationis. Sed haec, est corruptio, quae in nobis est maxime inordinata : si igitur haec est a prima conditione, videtur quod et omnis alia,</p>
+          <p xml:id="bb-l2d30a1q1-d1e162">5. Item, hoc videtur alia ratione sumta per principia moralis philosophiae. Dicit enim moralis philosophus quod virtus est difficillimorum operativa, nec est aliqua virtutis laus ubi nulla est difficultas. Si ergo homo fuit conditus ad virtutem dispositus, videtur quod a sua prima conditione habuerit difficultatem faciendi bonum et vitandi malum, et in tali fuisset dispositus quod omnis virtus habere posset in eo suum usum : ergo videtur creatus fuisse cum huiusmodi corruptionibus.</p>
+          <p xml:id="bb-l2d30a1q1-d1e165">6. Item, hoc videtur ratione sumta secundum principia theologiae. Dicit enim per Scripturam Spiritus sanctus quod via perveniendi ad gloriam et sublimitatem est per ignominiam et humilitatem ; via perveniendi ad coronam est per tentationem et pugnam ; via perveniendi ad quietem et tranquillitatem est per labores et tribulationes. Si ergo homo debuit sic fieri quod esset dispositus pervenire ad gloriam et victoriam et pacem perfectam, videtur quod humana natura in poenalitatibus et corruptionibus, in quibus nunc est, a suae conditionis primordio fuerit constituta.</p>
+        </div>
+        <div xml:id="bb-l2d30a1q1-Dd1e169">
+          <head xml:id="bb-l2d30a1q1-Hd1e171">Conclusio</head>
+          <head xml:id="bb-l2d30a1q1-Hd1e174" type="question-title">Humana natura in has corruptiones deiecta est 
+    merito primae praevaricationis, non instituta a primordio suae conditionis</head>
+          <p xml:id="bb-l2d30a1q1-d1e177">Respondeo : Dicendum quod absque dubio natura humana in has corruptiones deiecta est merito primae praevaricationis, non instituta a primordio suae conditionis. Hoc enim fidei veritas praedicat, sacrae Scripturae auctoritas confirmat, rationis probabilitas manifestat. Fides hoc clamat et dicit, Filium Dei passum esse ut nos a morte eriperet, in quam nos induxerat primus parens. Sacrae Scripturae auctoritas confirmat, quae dicit Genesis 2, 17, qualiter homo per culpam inobedientiae poenam mortalitatis incurrerit. Ratio autem hoc manifestat, sicut prius in opponendo monstratum est, tam ex ordine qui respicit divinam iustitiam, quam ex ordine qui respicit sapientiam, quam etiam ex ordine qui respicit bonitatem summam.</p>
+ 
+          <p xml:id="bb-l2d30a1q1-d1e180">Attendendum est tamen quod ratio in inquirendo dupliciter potest procedere : aut prout est adiuta radio fidei, et sic procedit aspiciendo ad causas superiores ; aut prout iudicio proprio relicta est, et sic procedit inspiciendo ad naturas et causas inferiores ; acquirit enim scientiam per viam sensus et experientiae. Primo modo ratiocinantur doctores catholici et fideles circa ea quae sunt fidei, et secundum hunc modum ratiocinandi multum est hoc consonum rationi quod Deus in tanta miseria et calamitate, in qua nunc est, hominem a principio non fecerit ; iramo dicere contrariummagnae impietatis videtur esse piae et sanae menti. Secundo modo ratiocinando processerunt philosophi, qui non aspexerunt in hominis conditione suum principalem Auctorem, sed aspexerunt principia componentia et operationes quas habet per virtutem naturae ; et secundum hunc modum ratio potius discordat veritati catholicae quam concordet. Et haec est ratio quare philosophi, qui fuerunt tantae veritatis indagatores, non pervenerunt ad lapsus humani cognitionem, quia eis videbatur esse valde rationabile hominem sic fuisse conditum, cum tamen catholicis docloribus non solum fide, sed etiam rationum evidentia certitudinaliter eius contrarium appareat esse verum.
+Unde et rationes, quae hoc ostendunt, sunt concedendae.</p>
+        </div>
+        <div xml:id="bb-l2d30a1q1-Dd1e185">
+          <head xml:id="bb-l2d30a1q1-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-l2d30a1q1-d1e190">1. Ad illud ergo quod primo obicitur, quod Deus fecit ovem passibilem, quae tamen non peccavit, dicendum quod non est simile de homine et de ove. Homo enim, qui rationis particeps est, capax est beatltiidinis et iustitiae, et per oppositum culpae et miseriae. Unde sicut in homine obliquari culpa est, sic et pati poena est ; in ove autem neutrum contingit reperire. Ideo passibilitas ovis nihil facit ad ordinem nec contra ordinem divinae iustitiae, cuius est considerare meritorum exigentiam ; non sic autem est de passione in natura humana.</p>
+          <p xml:id="bb-l2d30a1q1-d1e193">2. Ad illud quod obicitur, quod secundum idem exemplar alia genera animalium facta sunt corruptibilia, dicendum quod non est simile, pro eo quod alia animalia ab homine non habent formam completivam incorruptibilem. In solo autem homine anima est immortalis per naturam, sicut ostensum fuit supra ; et ideo mortalitas in aliis animalibus non ponit aliquam improportionem perfectibilis ad suam perfectionem sicut ponit in homine ; ac per hoc nec ita repugnat mortalitas in aliis animalibus ordini, quem sapientia Dei servat in rerum conditione, sicut mortalitas reperta in homine.</p>
+          <p xml:id="bb-l2d30a1q1-d1e196">3. Ad illud quod obicitur, quod summae bonitatis est dare unicuique suam inclinationem, dicendum quod hoc verum est, salvo ordine qui attenditur inter res secundum quod comparantur ad invicem. Quoniam bonitas non praeiudicat sapientiae et quia secundum ordinem naturae corpus debet esse sublectum animae et sensibilitas subiecta debet esse rationi, sic debuit Deus dare inclinationem tam corpori hominis quam sensualitati carnis quod in nullo praeiudicaretur rectitudini rationis. Et hinc est quod, etsi sensualitas bonum ut nunc appeteret, nulla tamen erat rebellio in primo homine, quia tantum appetebat sicut ratio dictabat. Nunc autem est rebellio, quia praeter iudicium rationis frequenter appetit ; et propter hoc brutales effecti sumus et iumentis insipientibus comparati, cum tamen homo in primordio conditus fuerit in honore et dignitate rationis.</p>
+          <p xml:id="bb-l2d30a1q1-d1e199">4. Et per hoc manifesta est responsio ad sequens obiectum, quod obicit de diversitate motuum orbium caelestium. Etsi enim videatur ibi esse contrarietas, non tamen est ibi contrarietas, immo ordinatio recta, pro eo quod sphaera superior semper movet inferiorem et nunquam inferior superiorem. Nunc autem in nobis non est sic, pro eo quod videmus aliam legem in membris nostris, repugnantem legi mentis nostrae et captivantem nos in servitutem peccati.</p>
+          <p xml:id="bb-l2d30a1q1-d1e203">5. Ad illud quod obicitur, quod virtus est difficillimorum operativa, dicendum quod quaedam est difficultas quae venit ex genere operis, quaedam vero quae venit ex defectu operantis. Prima difficultas est de essentia virtutis. Virtus enim, in quantum virtus, circa magna consistit et ardua ; haec autem difficultas in primo homine fuit sic. Homo enim ita perfecte Deo obedivisset et ita perfecte Deo adhaesisset, sicut perfectio virtutis obedientiae et amicitiae hoc requirit ; et sic de aliis virtutibus.
+Est et alia difficultas, quae venit ex defectu operantis ; et ista quidem non est de essentia virtutis, immo accidit virtuti secundum quod virtus est ; et ideo ad hoc quod homo esset virtuosus non oportuit hanc difficultatem reperire in homine in primordio. Et quod illud sit verum, hoc planum est. Quanto enim aliquis magis proficit in virtute, tanto magis operatur cum minori difficultate ex parte sua ; si igitur haec difficultas esset de virtutis essentia, secunduim quod homo proficeret, minueretur in eo virtutis excellentia ; quod falsum esse nemo dubitat.
+</p>
+
+          <p xml:id="bb-l2d30a1q1-d1e206">Ad illud autem quod obicitur de via perveniendi ad salutem secundum sacrae Scripturae instructionem, dicendum quod Scriptura sacra tradita est homini lapso et documenta tradit per quae perducatur ad patriam secundum quod competit statui praesenti. Ideo ex his non potest argui quod talis debuerit homo fieri ut per hanc viam deveniret ; tales enim viae sunt valde asperae. Si autem homo non peccasset, non cum asperitate, sed cum omni lenitate pervenisset ad suum finem. Et est simile, quia sanitas conservatur per bona cibaria et suavia, sed non recuperatur nisi per potiones amaras.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

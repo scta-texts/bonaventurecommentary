@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d30a3q2">
+        <head xml:id="bb-l2d30a3q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d30a3q2-Hd1e111" type="question-title">Utrum aliquid transeat in veritatem humanae naturae opere nutritivae.</head>
+ 
+        <p xml:id="bb-l2d30a3q2-d1e114">Secundo quaeritur circa hoc, utrum aliquid transeat in veritatem humanae naturae mediante opere nutritivae.</p> 
+        <div xml:id="bb-l2d30a3q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d30a3q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d30a3q2-d1e122">Et quod non, videtur : Primo, per <name ref="#Augustine">Augustinum</name>, qui, XXII De civitate Dei, dicit quod parvuli resurgent in perfectione corporali et in aetate virili, quam habituri erant, pro eo quod iam totum in ratione habebant, quamvis non haberent In mole. Haec est verborum sententia. Ergo, si tam magni suscitabuntur parvuli sicut illi qui multum comederunt, videtur quod sumtio alimentorum veritatem humanae naturae non augeat, ac per hoc nihil de illis in humani corporis veritatem pertranseat.</p>
+          <p xml:id="bb-l2d30a3q2-d1e128">Item, ibidem dicit <name ref="#Augustine">Augustinus</name> quod, si aliquis nutriatur de carnibus humanis, caro illa non resurget in eo qui nutritur, sed in eo in quo primo fuit caro. Sed nihil est de veritate alicuius nisi quod resurget in eo : si ergo caro, quae est per alimentum generata, non resurget in eo in quo est, videtur quod nihil extrinsecum transeat in veritatem alicuius mediante opere nutritivae.</p>
+          <p xml:id="bb-l2d30a3q2-d1e134">Item, solum illud dicitur esse verum, quod habet actum sibi per naturam convenientem ; ergo illud solum est de veritate carnis humanae, quod habet actum convenientem tali carni. Sed caro habens actum sibi convenientem potest aliam carnemin se convertere et dicitur caro secundum speciem : ergo illud solum transit in veritatem carnis humanae, quod transit inveritatem secundum speciem. Sed mediante opere nutritivae nihil transit in carnem secundum speciem, sicut vult <name ref="#Aristotle">Philosophus</name>, alioquin esset augmentum in infinitum : ergo mediante illa virtute nihil transit in veritatem humanae naturae.</p>
+          <p xml:id="bb-l2d30a3q2-d1e140">Item, illud est solum de veritate alicuius, in quo rei substanta salvatur ; sed sola humiditas radicalis est illa quae manet, quam continuari oportet usque in finem : ergo illud solum transit in veritatem humanae naturae, quod transit in humiditatem radicalem. Sed nihil potest transire in humiditatem radicaiem mediante nutritiva, sicut dicunt medici, alioquin posset homo iuvenescere et vitam perpetuare : ergo mediante hac virtute nihil transit in veritatem humanae naturae.</p>
+          <p xml:id="bb-l2d30a3q2-d1e144">Item, quod per naturam generatur, potest etiam per naturam corrumpi : ergo quod mediante opere nutritivae proficit et crescit, potest etiam minui et decrescere. Si ergo mediante vi nutritiva aliquid in veritatem humanae naturae transiret, illud posset deperdi, et sic continue novum restaurari : contingeret igitur aliquando quod homo aliud corpus haberet, sicut videmus in aqua, quae exit de fonte.</p>
+
+ 
+          <p xml:id="bb-l2d30a3q2-d1e147">Sed contra : <name ref="#Augustine">Augustinus</name>, De vera religione : <quote xml:id="bb-l2d30a3q2-Qd1e152">In huiusmodi visibilis corporis structuram alimenta, quae apta sunt, assumuntur ; non apta vero per congruos meatus eiciuntur</quote>. Si ergo quod est de corporis huius structura et integritate, est de humanae naturae veritate, videtur etc.</p>
+          <p xml:id="bb-l2d30a3q2-d1e156">Item, omne quod resurget est de veritate humanae naturae ; sed illud in quod transit alimentum mediante opere nutritivae, resurget, utpote capilli, Lucae 21, 18 : <quote xml:id="bb-l2d30a3q2-Qd1e158" ana="#lc21_18">Capillus de capite vestro non peribit</quote> : ergo etc.</p>
+          <p xml:id="bb-l2d30a3q2-d1e162">Item, veritas carnis non est aliud quam vera caro ; sed vera caro est cui debetur operatio carnis ; potissima autem carnis operatio est vivere per animam ; sed in hanc carnem transit alimentum mediante vi nutritiva, quia tota caro hominis vivit : ergo etc.</p>
+          <p xml:id="bb-l2d30a3q2-d1e165">Item, ubicumque est nutritio, ibi est conversio et assimilatio et unio ; sed ubi est assimilatio et unio, eiusdem naturae fit illud cui unitur et illud quod unitur : ergo, si hoc facit virtus nutritiva convertendo alimentum, videtur quod per ipsam aliquid de alimento in veritatem humanae naturae transit.</p>
+          <p xml:id="bb-l2d30a3q2-d1e168">Item, sicut se habet generativa ad productionem prolis sive generati, sic se habet nutritiva et augmentativa ad perfectionem et conservationem nutriti et augmentati : ergo, si aliquid transit in veritatem humanae naturae generati mediante generativa, similiter et aliquid transibit in veritatem humanae naturae nutriti mediante nutritiva et augmentativa.</p>
+
+          <p xml:id="bb-l2d30a3q2-d1e172">Est igitur quaestio, quid sit veritas humanae naturae et quae differentia sit inter veritatem humanae naturae et carnem secundum speciem. Et rursus, quae sit differentia inter carnem secundum speciem et carnem secundum materiam ; et quare magis dicatur veritas humanae naturae quam veritas naturae asininae. Haec omnia valent ad intelligenda ea quae dicuntur in quarto, in quaestione de resurrectione.</p>
+        </div>
+        <div xml:id="bb-l2d30a3q2-Dd1e176">
+          <head xml:id="bb-l2d30a3q2-Hd1e178">Conclusio</head>
+          <head xml:id="bb-l2d30a3q2-Hd1e181" type="question-title">Aliquis extrinsecum non transit in veritatem humanae 
+    naturae mediante opere nutritivae, nisi 
+    prout veritas dicitur large</head>
+          <p xml:id="bb-l2d30a3q2-d1e184">Respondeo : Dicendum quod praeter generalem intentionem, qua verum dividitur contra falsum - secundum quam intentionem res vera dicitur quae habet materiam et formam et actum sibi convenientem - est et alia intentio veri duplex, qua scilicet verum dividitur contra permixtum, altera vero, qua verum dividitur contra vanum. Et primo horum modorum dicitur verum, quod est purum et impermixtum ; altero modo dicitur verum, quod est permans et fixum.
+Cum ergo loquuntur auctores de humana natura, loquuntur sub vocabulo veritatis, vocantes eam veram. Non est enim aliud dicere veritatem humanae naturae quam humanam naturam veram. Sic autem vocant eam, loquentes de natura humana ex parte corporis, pro eo quod corpus humanum praeter hoc quod habet formam et operationem sibi convenientem sicut et alia corpora naturalia, habet ordinationem ad immortalitatem, et ita quamdam impermixtionem in hoc quod non potest tantum transmutari quin tandem reddatur animae quae ipsum vivificavit ; habet nihilominus quamdam fixionem sive incorruptionem, pro eo quod necesse est ipsum aliquando fieri immortale. Ratione igitur ordinationis ad incorruptionem, ex qua inest corpori humano, non tantum debita operatio, sed etiam Impermixtio et quaedam Incorruptio, dicitur corpus humanum verum. Illud ergo praecise et proprie est de veritate humanae naturae, quod est ordinatum ad incorruptionem et resurrectionem.</p>
+ 
+          <p xml:id="bb-l2d30a3q2-d1e187">Aliquid autem ordinatur ad resurrectionem dupliciter : vel de necessitate vel de congruo. Illud autem ordinatur in nobis ad resurrectionem de necessitate, in quo consistit fundamentum et fabrica corporis nostri, et hoc est illud cui primo anima unitur. Et tale tractum est a generantibus, et in tale nihil potest transire opere nutritivae, secundum quod nutritiva operatur post animae unionem.
+Illud vero ordinatur in nobis ad resurrectionem de congruo, in quo consistit fabricae nostri corporis complementum ; et hoc est quod facit ad quantitatem corporis perfecti. Et sic aliquid de alimento potest converti in veritatem humanae naturae mediante vi nutritiva et augmentativa, quae ordinantur ad complendam corporis fabricam, quae inchoata fuit mediante vi generativa, cui competit operari quousque anima infundatur ; et ex tunc sequitur operatio nutritivae et augmentativae ad conservandum et complendum corpus.</p>
+ 
+          <p xml:id="bb-l2d30a3q2-d1e190">Huic autem modo dicendi concordant tam naturales philosophi quam medici. Naturalis enim philosophus distinguit in homine duplicem carnem : carnem secundum speciem et carnem secundum materiam. Et vocat carnem secundum speciem illam quae habet vim activam et potentiam convertendi alimentum in carnis naturam ; carnem vero secundum materiam vocat illam quae sic est caro ut tamen non possit aliud in carnem convertere propria virtute. Dicit etiam quod virtus nutritiva et augmentativa non convertit alimentum in carnem secundum speciem, sed secundum materiam, quia, si aliter esset, tunc nunquam staret augmentum ; cum augmento enim carnis cresceret et virtus augmentandi. Hoc autem non sic est, et ita caro secundum speciem solum est.a generantibus sive mediante generativa, quamvis caro secundum materiam, scilicet quae fluit et refluit, possit esse mediante nutritiva.
+Et est exemplum de vino generato in vite, quod habet potentiam convertendi aquam, sed illa aqua non habet potentiam convertendi aliam aquam ; quia si hoc, tunc semper posset quis apponere aquam et maneret vinum ; hoc autem non sic est, quia tantum potest poni de aqua quod vinum amittit virtutem suam. Sic et in proposito intelligendum est 
+<pb ed="#Qb" n="736"/>
+quod virtus corporis fabricativa potest dare primae carni potentiam convertendi, et illa convertit, quousque tantum adveniat de carne secundum materiam, quanta erat ibi potentia convertendi - sicut videmus in vino - tum ex parte caloris, tum ex parte extensibilitatis ipsius carnis secundum speciem. Et hinc est quod unus homo magis augmentatur quam alter ; et aliquando stat augmentum, quia caro superadveniens in fine quasi aquosum facit, sicut dicit <name ref="#Aristotle">Philosophus</name>, quemadmodum aqua superinfusa vino.
+</p>
+          <p xml:id="bb-l2d30a3q2-d1e199">Secundum hanc distinctionem carnis distingui potest in theologia veritas humanae naturae dupliciter, sicut praedictum est.
+ Similiter medicus distinguit in homine duplicem humiditatem, videlicet radicalem et nutrimentalem, et dicit quod humiditas radicalis est illa in qua calor substantificatur ; nutrimentalis vero est illa quae praebet ipsi calori fomentum. Dicunt igitur quod humiditas radicalis est solum a generantibus et mediante opere generativae ; nam nutritiva in hanc humiditatem non potest. Si enim posset, tunc homo iuvenesceret et vitam etiam suam in perpetuum continuaret, si illud humidum renovari posset. Quod cum constet esse falsum, dicunt quod alimentum mediante nutritiva non transit in illud humidum. Et hinc est quod illi qui laborant tertia specie hecticae, in qua est illius humidi consumtio, liberari non possunt, ut dicunt. In humiditatem autem nutrimentalem, quae calori pabulum praebet, possibile est alimentum converti mediante opere nutritivae.
+Et est exemplum in lampade ardente, in qua est humiditas olei et humiditas licinii ; et humiditas licinii assimilatur humido radicali, quoniam, ex quo consumitur, restaurari non potest, et in illo licinio flamma substantificatur ; humiditas vero olei assimilatur humiditati nutrimentali, quae pabulum praebet igni et impedit ne cito licinium consumatur ; et illa humiditas aliquando augetur, aliquando minuitur, aliquando consumitur, aliquando restauratur.
+Et iuxta hanc duplicem humiditatem distinguunt theologi dupliciter humanae naturae veritatem, sicut prius dictum est.</p>
+ 
+          <p xml:id="bb-l2d30a3q2-d1e202">Et per hoc patet responsio ad quaestionem propositam ; patet etiam responsio ad obiecta. Nam rationes, quae ad primam partem inducuntur, videlicet quod nihil transit in veritatem humanae naturae mediante opere nutriti vae, procedunt secundum quod de veritate humanae naturae dicitur esse aliquid quod est de necessitate ordi-, natum ad incorruptionem ; et hoc modo bene concedendum est quod nihil transit in veritatem nutriti.
+Rationes vero ad oppositum procedunt de veritate humanae naturae, secundum quod illud dicitur esse de veritate quod est ordinatum ad resurrectionem de congruo. Tale autem est non solum quod trahitur a generante, sed etiam tota illa caro, quae reperitur in homine in eius morte, maxime si non faciat ad corporis deformitatem.</p>
+ 
+          <p xml:id="bb-l2d30a3q2-d1e205">Nec hoc impedit quod Dominus parvulos suscitabit in perfecta quantitate. Dicit enim <name ref="#Augustine">Augustinus</name> quod supplebit virtus divina, ubi deficit natura ; ubi vero natura sufficientem paravit materiam, Deus non agit supplendo, sed reformando. Nec valet illa ratio, quodsi Deus supplet in resurrectione sine additamento, quod nunc similiter fiat sine additamento, quia illa erit operatio mirabilis et supra naturam ; hominis vero generatio et augmentatio, quae nunc est, naturaliter fit. Et ideo illa ratio, quam <name ref="#Lombard">Magister</name> adducit in littera, non cogit, immo sicut apparet aspicienti, arguit a maiori affirmando.
+Illa vero, quae ultimo quaerebantur, iam plana sunt per ea quae dicta sunt.</p>
+ 
+          <p xml:id="bb-l2d30a3q2-d1e214">Ut igitur sit ad unum dicere, concedendum est, sicut ex praecedentibus apparet, quod aliquid extrinsecum transit in veritatem humanae naturae ; sed mediante opere generativae transit in veritatem, prout veritas dicitur proprie, secundum quod dicit necessariam ordinationem ad incorruptionem, mediante vero opere nutritivae transit aliquid in veritatem humanae naturae, prout veritas dicitur large, videlicet secundum quod dicit ordinationem ad resurrectionem de congruo ; et sic quod est de veritate unius potest resurgere in alio, secundum quod manifestatur in quarto. His visis, satis plana sunt ea quae dicuntur in littera.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

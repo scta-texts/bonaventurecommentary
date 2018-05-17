@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d42a1q1">
+        <head xml:id="bb-l2d42a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d42a1q1-Hd1e111" type="question-title">Utrum peccatum voluntatis et operis sint duo peccata vel unum.</head>
+ 
+        <p xml:id="bb-l2d42a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum peccatum voluntatis et operis sint duo peccata vel unum.</p> 
+        <div xml:id="bb-l2d42a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d42a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d42a1q1-d1e122">Et quod sint plura, videtur : Super illud ad Romanos 1, 29 : <quote xml:id="bb-l2d42a1q1-Qd1e124">Repletos homicidiis</quote>, Glossa : <quote xml:id="bb-l2d42a1q1-Qd1e127">Pluraliter dicit homicidiis, quia aliud est homicidium voluntatis et aliud homicidium operis</quote>. Si sic est in homicidio, ergo pari ratione et in aliis peccatis.</p>
+          <p xml:id="bb-l2d42a1q1-d1e131">Item, multiplicato inferiori, multiplicatur superius ; sed fornicatio exterior peccatum est speciale, voluntas etiam fornicandi peccatum est speciale ; sed voluntas fornicandi est aliud quam ipse actus fornicationis : ergo, si ista sunt diversa et sunt peccata, loquendo formaliter, ergo sunt diversa peccata.</p>
+          <p xml:id="bb-l2d42a1q1-d1e134">Item, multiplicato subiecto, multiplicatur accidens, quod consistit per illud subiectum ; sed deformitas comparatur ad actionem tamquam accidens ad subiectum : ergo ubi sunt multae actiones deformes, ibi multae deformitates, et ubi multae deformitates, ibi multa peccata ; et actio interior et exterior sunt diversae : ergo sunt in eis diversae deformitates ; ergo et diversa peccata.</p>
+          <p xml:id="bb-l2d42a1q1-d1e137">Item, multiplicato uno oppositorum, multiplicatur et reliquum, quia tantum unum uni opponitur. Sed peccatum repugnat praecepto : cum igitur aliud sit praeceptum, quo prohibetur actus interior, et aliud, quo prohibetur actus exterior, quia aliud mandatum est : Non concupisces, et aliud : Non moechaberis, ergo videtur quod sicut illa duo sunt praecepta, ita actio inferior et exterior sunt duo peccata.</p>
+          <p xml:id="bb-l2d42a1q1-d1e141">Item, magis convenit voluntas interior cum voluntate interiori quam voluntas interior cum actu exteriori ; sed voluntas interior cum alia voluntate facit duo peccata diversa : ergo multo fortius voluntas interior cum actu exteriori sunt diversa peccata.</p>
+
+          <p xml:id="bb-l2d42a1q1-d1e144">Sed contra : <mentioned> Per se </mentioned> et <mentioned> per accidens </mentioned> non ponunt in numerum, sicut cum diligo vinum quia dulce, non dicor diligere duo, sed unum ; sed actio exterior non est peccatum nisi propter voluntatem interiorem : igitur voluntas interior cum actu exteriori non ponit in numerum. Ergo non sunt duo peccata, sed unum.</p>
+          <p xml:id="bb-l2d42a1q1-d1e153">Item, actio inchoata non ponit in numerum cum se ipsa consummata ; sed peccatum inchoatur in voluntate et consummatur in opere, secundum quod dicitur Iacobi 1, 15 : Concupiscentia, cum conceperit, parit peccatum ; peccatum vero, cum consummatum fuerit, generat mortem. Ergo etc.</p>
+          <p xml:id="bb-l2d42a1q1-d1e156">Item, bonum opus non ponit in numerum cum bona voluntate in ratione meriti ; unde, cum aliquis voluntarie bene operatur, non est ibi duplex meritum, sed unum. Ergo pari ratione nec voluntas interior cum opere exteriori ponet in numerum in ratione demeriti sive peccati.</p>
+          <p xml:id="bb-l2d42a1q1-d1e159">Item, formale in peccato, secundum quod peccatum, est libido vel potius contemptus Dei sive aversio ; sed, cum quis voluntarie opus nefarium perpetrat, non sunt duo contemptus, sed unus, nec duae aversiones, sed una : ergo voluntas interior et actus exterior non sunt duo peccata, sed unum.</p>
+          <p xml:id="bb-l2d42a1q1-d1e162">Item, multis peccatis multiplex debet infligi poena, sive remuneratoria sive satisfactoria ; sed pro peccato exterius consummato non debetur alicui poena multiplex nec diversae imponuntur satisfactiones, sed una : ergo voluntas interior et actio exterior non sunt diversa peccata.</p>
+        </div>
+        <div xml:id="bb-l2d42a1q1-Dd1e166">
+          <head xml:id="bb-l2d42a1q1-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d42a1q1-Hd1e171" type="question-title">Voluntas peccandi et actus exterior, 
+    si ordinata sint ad invicem, unum sunt peccatum</head>
+          <p xml:id="bb-l2d42a1q1-d1e174">Respondeo : Dicendum quod dupliciter contingit comparari peccatum operis exterioris et voluntatis interioris : uno modo prout ista duo coniuncta sunt et ordinata, ita quod unum est ex altero ; et sic voluntas interior cum actu exteriori non facit diversa peccata, pro eo quod unus est ibi contemptus et una aversio e una est conversio. Voluntas enim est quae contemnendo avertitur, dum ad bonum commutabile convertitur, non solum quantum ad actum proprium, sed etiam quantum ad actum inferioris potentiae, quae ei subicitur. Quia ergo peccatum, secundum quod huiusmodi, dicit deordinationem per contemptum et aversionem a Deo et conversionem ad creaturam, hinc est quod, cum ibi sit una deordinatio prima, quod peccatum voluntatis et operis unum est, loquendo formaliter, prout illa coniuncta sunt. Licet autem ibi sit una ratio deordinandi, plura tamen sunt ibi deordinala ; et ideo, quamvis peccatum illud unum sit formaliter, plura tamen sunt materialiter.</p>
+ 
+          <p xml:id="bb-l2d42a1q1-d1e177">Si autem comparemus voluntatem interiorem ad opus exterius, prout sunt separata, ita quod unus peccet voluntate tantum, alius peccet voluntate et opere, sic peccatum voluntatis et operis sunt diversa peccata, non solum materialiter, verum etiam formaliter ; pro eo quod actus voluntatis, in quo consistit prima ratio deordinandi, numeratur et est alius et alius.
+Hoc autem modo non quaerit <name ref="#Lombard">Magister</name> in littera, utrum voluntas interior et actio exterior sint diversa peccata - hoc enim non est dubium quod diversis peccatis peccat quis, si una vice tantum velit malum, alia vice velit et perficiat - sed de hoc quaerit, utrum voluntas interior et actio exterior sint diversa peccata, secundum quod unum ab altero procedit et unum alteri coniungitur. Et ad hoc respondendum quod, quamvis sint plura opera culpabilia et plura deordinata, quia tamen una est ratio deordinandi et unus est ibi actus voluntatis, nec alter est culpabilis nisi propter illum, unum est ibi peccatum. Et huic modo dicendi magis concordat <name ref="#Lombard">Magister</name> in littera, respondens obiectionibus quae fiunt pro parte altera, quae dicebant illa esse diversa peccata. Et recte facit in hoc quod, quamvis aliquid possit dici numerari, ex quadam improprietate, solum ex parte principii materialis, tamen, proprie loquendo, non numeratur aliquid ex parte principii materialis, nisi quia cum numeratione ex parte principii materialis concurrit numeratio ex parte formalis, sicut albedo numeratur in duobus hominibus albis.
+Non sic autem est in proposito ; et ideo rationes, quae hoc ostendunt, scilicet voluntatem interiorem et actionem exteriorem esse peccatum unum, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d42a1q1-Dd1e188">
+          <head xml:id="bb-l2d42a1q1-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-l2d42a1q1-d1e193">Ad illud quod obicitur de Glossa, dicendum quod Glossa aut loquitur materialiter aut loquitur de homicidio interiori et exteriori, prout disiuncta sunt, ita quod unum alteri non continuatur.</p>
+          <p xml:id="bb-l2d42a1q1-d1e196">Ad illud quod obicitur, quod multiplicato inferiori, multiplicatur suum superius, dicendum quod illud verum est de illo inferiori cui suum superius est essentiale vel ad quod suum superius comparatur essentialiter. Non sic autem est in proposito, quia peccatum, etsi dicatur de voluntate et actione, non dicitur praedicatione essentiali, sed magis accidentali.</p>
+          <p xml:id="bb-l2d42a1q1-d1e199">Ad illud quod obicitur, quod multiplicato subiecto, multiplicatur accidens, dicendum quod illud verum est, si subiectum per se multiplicetur et illud in quo primo est accidens. Deformitas autem peccandi non attenditur primo et principaliter circa exteriorem actionem nec est ibi tamquam circa subiectum per se, sed est ibi ratione voluntatis interioris coniunctae. Quod patet, quia, si actio illa procederet ab alio principio quam a voluntate, iam non esset culpabilis.
+Aliter etiam potest dici quod illud intelligitur, quando subiectum plurificatur et secundum rem et secundum illam rationem qua dicitur subiectum, ita quod non solum sunt plures res, sed etiam plura subiecta. Quamvis autem actio interior et exterior sint diversae res, non tamen sunt diversa subiecta deformitatis, sed unum, pro eo quod, sicut ordo potest esse in pluribus, quorum unum est ab altero, tamquam in uno subiecto, sic etiam et deordinatio. Quoniam igitur deformitas peccati dicit deordinationem a fine, hinc est quod circa actionem interiorem et exteriorem consistit tamquam circa unjim subiectum, quamvis sint diversae actiones et res.
+Posset etiam instari contra illud verbum, quod hoc intelligitur de accidente absoluto, non de accidente relato. Tale enim unum potest esse in pluribus, dum tamen illa sint ad invicem relata et ordinata ; et per hunc modum se habent actio interior et exterior, quia una procedit ab altera.</p>
+
+          <p xml:id="bb-l2d42a1q1-d1e202">Ad illud quod obicitur, quod multiplicato uno oppositorum, multiplicatur et reliquum, dicendum quod verum est secundum quod ei opponitur. Praeceptum autem, quo prohibetur actus exterior et voluntas interior, non est aliud et aliud nisi ex hoc quod in uno prohibetur voluntas cum opere, in altero prohibetur voluntas etiam absque opere ; et hoc modo bene concedo quod voluntas interior et actio exterior, prout sunt disiuncta, sunt plura peccata. Sed hoc modo non procedit inquisitio praesens nec inquisitio <name ref="#Lombard">Magistri</name>.</p>
+          <p xml:id="bb-l2d42a1q1-d1e209">Ad illud quod obicitur, quod magis communicat voluntas interior cum voluntate quam cum actu exteriori, dicendum quod est convenientia formalis et convenientia ordinis. Cum ergo dicitur quod voluntas interior magis convenit cum voluntate quam cum actione exteriori, dicendum quod verum est de convenientia formali, sed non de convenienda ordinis, quia non sic est voluntas a voluntate sicut est exterior operatio ab interiori voluntate ; et ideo, cum sint duae voluntates, duae sunt principales deordinationes et propter hoc sunt duo peccata. Cum vero opus exterius iunctum est voluntati interiori a qua procedit, una est ibi deordinatio et unum actuale principium deordinationis ; et ideo unum peccatum est ex ista parte, et ex illa parte plura.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

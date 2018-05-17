@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d34a2q3">
+        <head xml:id="bb-l2d34a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d34a2q3-Hd1e111" type="question-title">Utrum malum sit in bono tamquam aliquis habitus an sit pura privatio.</head>
+ 
+        <p xml:id="bb-l2d34a2q3-d1e114">Utrum malum sit in bono tamquam aliquis habitus an sit pura privatio.</p> 
+        <div xml:id="bb-l2d34a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d34a2q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d34a2q3-d1e122">Et quod non sit ibi tamquam habitus et potentia aliqua, sed ut pura privatio, videtur :
+1. Primo per illud Ioannis 1, 3 : <quote xml:id="bb-l2d34a2q3-Qd1e124" ana="#io1_3">Sine ipso factum est nihil</quote>, Glossa : <quote xml:id="bb-l2d34a2q3-Qd1e127">Nihil, id est peccatum</quote>. Ergo peccatum nihil est.</p>
+          <p xml:id="bb-l2d34a2q3-d1e131">2. Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d34a2q3-Qd1e136" source="http://scta.info/resource/adcd-l11">Malum non est natura aliqua, sed defectus circa naturam mali nomen accepit</quote>. Ergo malum non est aliqua potentia, sed defectus et privatio.</p>
+          <p xml:id="bb-l2d34a2q3-d1e140">3. Item, Anselmus, De conceptu virginali, capitulo 5 : <quote xml:id="bb-l2d34a2q3-Qd1e142">Iniustitia omnino nihil est, sicut caecitas. Non enim aliud est caecitas quam absentia visus, ubi debet esse, quae non magis est quid in oculo, ubi debet esse visus, quam in ligno, ubi non debet esse</quote> .</p>
+          <p xml:id="bb-l2d34a2q3-d1e146">4. Item, hoc ipsum videtur ratione : Bonum et ens convertuntur : ergo de quocumque praedicatur ens, praedicatur et bonum. Si igitur peccatum vel malitia esset ens, malitia, secundum quod huiusmodi, haberet aliquid de bonitate : si ergo non habet aliquid de bonitate, non habet igitur aliquid de entitate.</p>
+          <p xml:id="bb-l2d34a2q3-d1e150">5. Item, omne ens a summo ente procedit, nec est aliqua essentia quae non sit in Dei potentia ut illam producat ; sed Deus non potest peccare nec facere culpam : ergo peccatum, in quantum huiusmodi, non habet aliquid de entitate : ergo nihil est et privatio pura.</p>
+          <p xml:id="bb-l2d34a2q3-d1e153">6. Item, omne quod est ens habet aliquam formam ; omne autem quod habet aliquam formam, habet pulcritudinem ; sed peccatum non habet pulcritudinem, cum sit deformitas animae : ergo nihil habet de entitate : ergo puram dicit privationem.</p>
+          <p xml:id="bb-l2d34a2q3-d1e156">Sed contra :  <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d34a2q3-Qd1e161">Peccatum est dictum vel factum vel concupitum contra legem Dei</quote>. Sed omne dictum vel factum est aliquid : ergo peccatum sive malum est aliquid, non ergo privatio pura.</p>
+          <p xml:id="bb-l2d34a2q3-d1e165">Item, virtus et vitium sunt contraria ; sed contraria sunt in eodem genere ; et quaecumque sub eodem genere sunt, utrumque eorum est aliquid et non privatio pura : ergo vitium aliquid est : igitur malum sive peccatum non est omnino nihil.</p>
+          <p xml:id="bb-l2d34a2q3-d1e168">Item, sive accipiatur concrete, sive abstracte, verum est dicere quod peccatum est in aliquo ; et omne quod est in aliquo, est ens, sicut omne quod legit est legens, et omne quod amat est amans ; et omne quod est ens, est aliquid et non est privatio pura : ergo peccatum sive malum, sive accipiatur concrete sive abstracte, non est omnino nihil.</p>
+          <p xml:id="bb-l2d34a2q3-d1e171">Item, nihil quod est pura privatio intenditur et remittitur ; sed malum vel peccatum intenditur et remittitur, quia unum peccatum est maius alio et una malitia est maior altera : ergo peccatum sive malitia non est privatio pura.</p>
+          <p xml:id="bb-l2d34a2q3-d1e175">Item, omne ordinatum praesupponit esse ; sed malum culpae, secundum quod malum, ordinatur ad malum poenae : si igitur, secundum quod malum, est ordinatum in poena, videtur quod, secundum quod malum, habeat aliquod esse.</p>
+          <p xml:id="bb-l2d34a2q3-d1e178">Item, aut peccatum est aliquid secundum quod peccatum aut nihil. Si aliquid, habeo propositum ; si nihil, et Deus punit hominem pro peccato, ergo Deus punit hominem pro nihilo ; sed qui punit alium pro nihilo iniuste punit : ergo, si Deus punit hominem pro culpa, videtur quod in puniendo iniuste faciat.</p>
+        </div>
+        <div xml:id="bb-l2d34a2q3-Dd1e182">
+          <head xml:id="bb-l2d34a2q3-Hd1e184">Conclusio</head>
+          <head xml:id="bb-l2d34a2q3-Hd1e187" type="question-title">Malum, licet in concreto sit alicuius ut oppositi 
+    et ut subiecti, tamen in abstracto non est nisi 
+    boni privatio.</head>
+ 
+          <p xml:id="bb-l2d34a2q3-d1e190">Respondeo : Dicendum quod malum sive peccatum dupliciter potest accipi : uno modo abstractive, alio modo concretive.
+Secundum autem quod malum dicitur concretive, sic concernit illud quod deformat, vel aliquam actionem vel aliquam substantiam ; et sic dicitur malum res mala, utpote actio mala vel anima mala. Et hoc modo malum aliquid est et habet esse naturae. Si autem aliquando dicatur ipsa res mala sive peccator nihil esse, hoc dicitur quantum ad bene esse, quod quidem est esse ordinatum. Unde, cum dicuntur homines nihil fieri, cum peccant, hoc non dicitur quia omni esse priventur, sed quia privantur esse ordinato, quod quidem est esse completum et de quo dicit Boethius quod esse est quod ordinem retinet servatque naturam.</p>
+ 
+          <p xml:id="bb-l2d34a2q3-d1e193">Contingit iterum loqui de malo sive de peccato abstractive ; et hoc modo malum sive peccatum in recto sive praedicatione formali non est aliquid, sed nihil, quia non est ens nec bonum, sed privatio boni. Quamvis autem malitia vel peccatum nihil sit in recto, in obliquo tamen alicuius est : et alicuius ut oppositi et alicuius ut subiecti.
+Alicuius ut oppositi, utpote boni : malum enim est privatio boni ; et quia sic est privatio boni, ut tamen non sit omnimoda boni annihilatio, sic privat bonum quod relinquit bonum. Unde sic privat bonum gratiae quod relinquit bonum naturae ; sic privat actum ut relinquat aptitudinem ; sic privat bonum quantum ad effectum, ut tamen in subiecto relinquat debitum ; et ideo malum, abstractive sumtum, formaliter loquendo, privatio est ; et ideo nihil est.
+Est etiam alicuius entis ut subiecti, quia est in aliquo ente ; non enim est omnimoda privatio sive annihilatio.
+Et quia secundum hanc viam auctoritates et rationes ad primam partem induciae ostendunt malum sive peccatum nihil esse, ideo concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d34a2q3-Dd1e198">
+          <head xml:id="bb-l2d34a2q3-Hd1e200">Ad rationes</head>
+          <p xml:id="bb-l2d34a2q3-d1e203">Ad illud vero quod primo obicitur in contrarium, quod peccatum est dictum vel factum etc., dicendum quod ibi accipitur peccatum sive malum concretive, prout concernit actionem substratam ; et hoc modo aliquid est, nec hoc repugnat, sed consonat eis quae dicta sunt.</p>
+          <p xml:id="bb-l2d34a2q3-d1e206">Ad illud quod obicitur, quod virtus et vitium sunt contraria, dicendum quod vitium, secundum quod contrariatur virtuti, utpote luxuria castitati, non tantum dicit privationem, sed etiam dicit aliquem habitum substratum, quo quis redditur facilis ad perpetrandum illud peccati genus ; et hoc modo accipiendo vitium, vitium non omnino nihil est. Alio modo accipiendo vitium, prout est privatio boni tantum, sic non contrariatur virtuti secundum rem, immo opponitur sicut privatio et habitus.
+Si autem dicatur alicubi hoc modo vitium contrariari virtuti, accipitur largo modo contrarium pro qualibet oppositione et repugnantia. Vel hoc dicitur, quia, etsi secundum veritatem vitium opponatur virtuti ut privatio, habent tamen virtus et vitium quodam modo legem contrariorum in hoc quod mutuo se expellunt et ab uno fit regressus ad alterum ; in qua conditione opposita, ut privatio et habitus, ab his quae opponuntur sicut contraria, distinguuntur. Et pro tanto dicit <name ref="#Augustine">Augustinus</name>, in Enchiridio, quod in hoc fallit regula dialecticorum, vocans bonum et malum contraria ; et hoc ex causa praedicta. Nihilominus tamen dicendum est quod malum est in eodem genere cum bono, sed hoc non proprie et secundum rectam ordinationem, sed hoc est per quamdam reductionem. Et ex hoc non sequitur quod malum sit aliquid. Nam privationes ad idem genus cum suis habitibus reducuntur, et tamen ipsae, formaliter loquendo, nihil sunt.</p>
+
+          <p xml:id="bb-l2d34a2q3-d1e212">Ad illud quod obicitur, quod malum est in aliquo, ergo est, dicendum quod illud non sequitur. Nam, sicut dicit <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d34a2q3-Qd1e217" source="http://scta.info/resource/aristmet-l7">quaedam sunt entia, quaedam sunt entium</quote> ; et quamvis privationes possint dici entium, hon tamen dicuntur entia. Cum autem dico malitiam esse in aliquo, dico eam esse entis ; sed cum dico malitiam esse ens, attribuo ei entitatem in se ; et primum esse est esse secundum quid, secundum est esse simpliciter ; et ideo est ibi sophisma secundum quid et simpliciter.</p>
+
+          <p xml:id="bb-l2d34a2q3-d1e221">Si vero quaeratur de hac : malitia est, utrum sit concedenda vel non, dicendum quod hoc verbum est sicut vult <name ref="#Aristotle">Philosophus</name>, dupliciter potest praedicari. Aliquando accipitur ut compositio media inter duo extrema, et sic dicitur tertium adiacens, ut cum dicitur : homo est albus. Aliquando vero sic praedicatur ut res importata per ipsum sit attributum sive alterum extremorum. Quando ergo sic dicitur : malitia est, si hoc verbum est accipiatur ut praedicatum, sicut accipiuntur alia verba, ut legit et huiusmodi, tunc locutio est falsa. Est enim sensus : malitia est, id est, malitia est ens, id est essentia aliqua ; hoc enim verbum est significat essentiam velsubstantiam uniuscuiusque. Alio modo potest intelligi praedicari vel accipi in huiusmodi locutione sicut copula et est oratio quodam modo defectiva ; et tunc est sensus : malitia est, id est, malitia alicui inest, ita quod ipsa malitia potius intelligitur ut alteri inhaerens quam alteri substans, sicut cum dicitur malum, et intelligitur aliquid esse malum. Et hoc modo accipiendo non valet : malitia est : ergo est ens.</p>
+
+          <p xml:id="bb-l2d34a2q3-d1e228">Ad illud quod obicitur, quod pura privatio non intenditur nec remittitur, dicendum quod, si dicatur pura privatio, hoc est privatio nihil ponens nec in recto nec in obliquo, hoc modo verum est dicere quod non recipit magis et minus, sicut chimaera nihil est et hircocervus nihil est, nec est unum magis nihil quam reliquum. Alio modo dicitur pura privatio, quia nihil ponit in recto, ponit tamen in obliquo ; et hoc modo malitia posset dici pura privatio ; sed de hac non est verum quod non recipiat magis et minus. Potest enim magis et minus recipere ratione eius entis, quod respicit quasi in obliquo. Unde dicitur maior privatio, in qua est maioris boni corruptio et in qua minus de bono relinquitur ; minor vero, in qua minus de bono corrumpitur et plus relinquitur. Et sic patet quod ex hoc non sequitur quod peccatum, abstractive loquendo, sit aliqua positio.</p>
+          <p xml:id="bb-l2d34a2q3-d1e231">Ad illud quod obicitur, quod esse ordinatum praesupponit esse, dicendum quod verum est quod in his quae per se ordinantur, ordinatum praesupponit esse ; in his autem quae ordinantur per accidens non praesupponit.esse in se, sed ratione illius in quo vel per quod ordinantur. Et hoc modo malum dicitur ordinari, non quia sit in se ordinatum, cum sit privatio modi, speciei et ordinis, sed quia ordinabilitatem habet in poena ratione ipsius punibilis. Hoc autem melius determinatum est in libro primo, distinctione quadragesima sexta.</p>
+          <p xml:id="bb-l2d34a2q3-d1e234">Ad illud quod obicitur, quodsi peccatum nihil est, quod Deus punit hominem pro nihilo, dicendum quod, sicut praetactum est, etsi peccatum nihil sit in recto, nihilominus tamen in obliquo est alicuius entis ut oppositi et alicuius ut subiecti, circa quod relinquit debitum respectu boni privati. Dico igitur quod peccatum est meritum poenae, non solum ratione privationis, sed ratione debiti relicti et boni privati ; unde non est homo dignus puniri solum, quia bono caret, sed quia caret et debet habere. Et licet carentia ilia nihil sit, debitum tamen habendi aliquid est ; et ideo ex hoc non sequitur quod Deus puniat hominem pro nihilo, quamvis peccatum nihil sit. Hoc autem apertum est, si quis consideret in sensibili exemplo, scilicet cum rex incarcerat servum, quia non reddidit tributum, vel cum aliquis creditor incarcerat aliquem, quia non solvit sibi pecuniam mutuatam ; privatio enim non per se, sed cum debito est in causa.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37a2q1">
+        <head xml:id="bb-l2d37a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d37a2q1-Hd1e111" type="question-title">Utrum actio iniusta, secundum quod iniusta, sit a Deo.</head>
+ 
+        <p xml:id="bb-l2d37a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum actio iniusta, secundum quod huiusmodi, sit a Deo.</p> 
+        <div xml:id="bb-l2d37a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d37a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d37a2q1-d1e122">Et quod sic, videtur : III Regum ultimo, 22 : <quote xml:id="bb-l2d37a2q1-Qd1e124">Quis decipiet <name>Achab</name>, regem Israel?</quote> et post subiungitur quod Dominus dixit spiritui mendaci : <quote xml:id="bb-l2d37a2q1-Qd1e130">Egredere et fac</quote> ; sed quod fit Deo praecipiente, fit a Deo volente et auctore. Si ergo spiritus ille malignus mentitus est et Achab decepit, Deo mandante sibi mentiri et decipere, videtur quod tam mendacium quam deceptio, secundum quod huiusmodi, sit a Deo. Et si hoc verum est, ergo actio iniusta, secundum quod iniusta, a Deo est.</p>
+          <p xml:id="bb-l2d37a2q1-d1e134">Item, sicut vult <name ref="#Aristotle">Philosophus</name> : <quote xml:id="bb-l2d37a2q1-Qd1e139">Si aliquid per sui praesentiam est causa alicuius, per sui absentiam est causa oppositi</quote>. Sed Deus per sui praesentiam est causa operationis iustae, secundum quod iusta est ; ergo, ab oppositis, per sui absentiam causa erit iniustitiae in actione.</p>
+          <p xml:id="bb-l2d37a2q1-d1e143">Item, qui adiuvat aliquem scienter ad actionem furti, sive velit ipsum iuvare ad furtum sive non, nihilominus dicitur currere cum fure et culpa furis ei attribuitur. Si ergo Deus adiuvat hominem ad actionem substratam malitiae et iniustitiae, videtur quod talis deformitas tamquam auctori attribuenda sit Deo.</p>
+          <p xml:id="bb-l2d37a2q1-d1e146">Item, dare eleemosynam propter vanam gloriam est peccatum ; et hoc ipso est peccatum et iniustitia quo actio ista refertur ad talem finem ; sed sicut datio eleemosynae nonnihil est, sic relatio ad talem finem nonnihil,est ; si ergo talis relatio fuit ratio quare illa actio est mala, et talis relatio est a Deo, cum non sit omnino nihil, videtur quod talis actio sit a Deo.</p>
+          <p xml:id="bb-l2d37a2q1-d1e150">Item, iste qui peccat in amando creaturam, hoc ipso peccat quo quiescit in creatura ; sed quiescere in creatura non omnino nihil est, immo hoc ipso quod quiescere est, aliquid est : ergo, cum omne quod est aliquid, sit a Deo, talis quies est a Deo ; et talis erat ratio ciilpae : ergo etc.</p>
+          <p xml:id="bb-l2d37a2q1-d1e153">Item, nobilior est potentia voluntatis, ut est deliberativa, quam ut est natura quaedem ; sed omne quod est a voluntate, ut est natura, est a Deo : ergo omne quod est a voluntate deliberativa, est a Deo. Sed actio iniusta, secundum quod huiusmodi, est a voluntate deliberativa : ergo etc.</p>
+          <p xml:id="bb-l2d37a2q1-d1e156">Sed contra : Ioannis 1, 3 : <quote xml:id="bb-l2d37a2q1-Qd1e158" ana="#io1_3">Sine ipso factum est nihil</quote>, Glossa : Id est peccatum. Ergo videtur quod peccatum non sit a Deo.</p>
+          <p xml:id="bb-l2d37a2q1-d1e162">Item, ad Romanos 1, 24 : <quote xml:id="bb-l2d37a2q1-Qd1e164" ana="#rom1_24">Tradidit eos, ut contumeliis afficiant corpora sua in semetipsis</quote>, Glossa : <quote xml:id="bb-l2d37a2q1-Qd1e167">Immundas actiones et contumeliosas, quibus afficiunt et inficiunt corpora sua, habent in semetipsis, mali scilicet, id est non aliunde, sed a semetipsis ; non enim habet homo hoc a Deo</quote>. Sed hoc non potest dici de actionibus, secundum quod actiones sunt : ergo dicitur de actionibus, secundum quod iniustae sunt.</p>
+          <p xml:id="bb-l2d37a2q1-d1e171">Item, quicumque facit iniustitiam iniustus est ; sed Deus non potest esse iniustus : ergo non potest facere injustitiam : ergo iniustitia actionis vel actio, secundum quod iniusta, non est a Deo.</p>
+          <p xml:id="bb-l2d37a2q1-d1e174">Item, quicumque facit iniustitiam offendit Deum, qui est summa iustitia ; sed Deus non potest se ipsum offendere neque <quote xml:id="bb-l2d37a2q1-Qd1e176" ana="#IItim2_13">se ipsum negare</quote>, sicut dicit Apostolus : ergo Deus non potest iniustitiam facere : ergo nec actionem iniustam, in quantum huiusmodi.</p>
+          <p xml:id="bb-l2d37a2q1-d1e181">Item, iniustitia defectus est ; ergo facere iniustitiam est deficere ; sed divinum posse non potest deficere, ergo nec iniustitiam facere : ergo actio, secundum quod iniusta est, non est a Deo.</p>
+          <p xml:id="bb-l2d37a2q1-d1e184">Item, quidquid est a Deo, laudat Deum ; sed iniustitia nullo modo laudat Deum nec operatio Iniusta, secundum quod huiusmodi : nullo igitur modo actio, secundum quod iniusta vel mala, est Deo attribuenda.</p>
+        </div>
+        <div xml:id="bb-l2d37a2q1-Dd1e188">
+          <head xml:id="bb-l2d37a2q1-Hd1e190">Conclusio</head>
+          <head xml:id="bb-l2d37a2q1-Hd1e193" type="question-title">Actio mala et iniusta, secundum quod huiusmodi, non est a Deo</head>
+ 
+          <p xml:id="bb-l2d37a2q1-d1e196">Respondeo : Dicendum quod, cum iniustitia sive malitia circa actionem dicat defectum et privationem, et defectum deordinatum de se et defectum carentem debilo fine, facere actionem iniustam, hoc repugnat potentiae, sapientiae et bonitati. Est enim ibi privatio utilitatis et ordinis et entitatis ; et quia nihil est attribuendum Deo, nisi quod decet suam potentiam, sapientiam et bonitatem, ideo actionem malam Deo tribuere non solum est falsitatis, sed etiam blasphemiae et impietatis.
+Concedendum est igitur quod actio mala et iniusta, secundum quod huiusmodi, non est a Deo. Et ideo rationes, quae hoc ostendunt, concedendae sunt.</p>
+ 
+        </div>
+        <div xml:id="bb-l2d37a2q1-Dd1e201">
+          <head xml:id="bb-l2d37a2q1-Hd1e203">Ad rationes</head>
+   
+          <p xml:id="bb-l2d37a2q1-d1e206">Ad illud ergo quod obicitur de III Regum ultimo, dicendum quod egredere et fac non intelligitur ibi imperative, sed intelligitur ibi permissive. Unde verbum imperativi modi multipliciter accipitur in Scriptura : aliquando praeceptorie, aliquando consultorie, aliquando insinuatorie et aliquando permissive, quorum exempla sumi possunt ex diversis locis Scripturae.</p>
+          <p xml:id="bb-l2d37a2q1-d1e209">Ad illud quod obicitur de eadem causa, quod per sui praesentiam et absentiam est causa oppositorum, dicendum quod illud habet veritatem de causa quae voluntarie se absentat, ita quod eius absentatio principaliter est ab ipsa. Hoc autem non est in proposito ; Deus enim nemini se absentat, immo paratus est omnes adiuvare et omnibus dare gratiam.</p>
+          <p xml:id="bb-l2d37a2q1-d1e212">Ad illud quod obicitur, quod ille qui iuvat furem in actione, dicitur currere cum fure, si scienter hoc facit, dicendum quod hoc non est simile, quia decens et conveviens est quod homo proximum non iuvet in ea actione in qua quis ambulat non . recte, immo potius debet impedire, cum ipse nec sciat nec possit inde bonum elicere nec ad illud adiutorium aliqua lege astringatur, sed potius prohibeatur. Non sic autem est in proposito, tum quia decet divinam liberalitatem, ut solem suum oriri faciat super bonos et malos ; nec debet influentiam virtutis suae subtrahere nec bonis nec malis, maxime secundum illam influentiam quae respicit primum esse. Secundo vero, quia decet divinam providentiam sic res, quas condidit, administrare, ut eas agere proprios motus sinat . Tertio vero, quia ipse novit et scit inde bonum elicere ; et ideo, cum cooperatur peccatori in actione, facit laudabiliter ; et ideo nullo modo malitia, quae reddit suum actorem culpabilem, est ei attribuenda.</p>
+          <p xml:id="bb-l2d37a2q1-d1e215">Ad illud quod obicitur, quod relatio actionis ad inanem gloriam tamquam ad finem a Deo est, dicendum quod relatio duo dicit, videlicet actum voluntatis et rationis protendentis se ad illum finem mediante illa actione ; et hoc quidem bonum est et a Deo est. Praeter hoc importat deordinationem. Tali enim actioni coniuncta est inordinatio, quia talis finis tali operi non congruit ; et quantum ad hoc, est ibi malitia ; et ideo iniustia est ibi ratione defectus, quid est in tali relatione. Propter hoc non oportet quod sit a Deo. Et est simile in claudicatione, in qua est ambulatio cum defectu ; sic et in proposito intelligendum est.</p>
+          <p xml:id="bb-l2d37a2q1-d1e219">Ad illud quod obicitur de quiete, similiter respondendum est quod quies dicit positionem aliquam in hoc quod dicit dilectionem creaturae ; et dicit privationem rectitudinis in hoc quod dicit privationem finis ultimi. In hoc enim quod ibi quiescit et ultra non tendit, cum deberet ultra tendere, non tantum est positio, sed etiam privatio, quae quidem non est a Deo.</p>
+          <p xml:id="bb-l2d37a2q1-d1e222">Ad illud quod obicitur, quod quidquid est a voluntate naturali, est a Deo, dicendum quod verum est, secundum quod est voluntas naturalis : et similiter illud quod est a voluntate deliberativa praecise, concedendum est esse a Deo. Sed malitia non est a voluntate proprie ut est deliberativa, sed potius ut est defectiva, quamvis defectus ille non incidat nisi circa actum deliberativum ; et ideo, quamvis sit a voluntate deliberativa, non sequitur quod sit a Deo, quia non est secundum quod deliberativa, sed secundum quod defectiva. Et propterea, sicut dictum fuit supra, si fiat tale argumentum : voluntas deliberativa est a Deo ; et malitia est a voluntate deliberativa : ergo est a Deo, peccat secundum accidens, quia peccat contra illam regulam : Quidquid est causa causae, est causa causati. Ita enim potest esse sophisma secundum accidens in causando sicut in inhaerendo.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

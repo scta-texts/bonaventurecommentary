@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41a1q1">
+        <head xml:id="bb-l2d41a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d41a1q1-Hd1e111" type="question-title">Utrum actio deliberativa dividatur per differentias oppositas.</head>
+ 
+        <p xml:id="bb-l2d41a1q1-d1e114">Circa primum sic proceditur et quaeritur, cum actio deliberativa dividatur in bonam et malam, utrum dividatur per differentias oppositas.</p>
+        <div xml:id="bb-l2d41a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d41a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d41a1q1-d1e122">Et quod sic, videtur : Prima contrarietas in moribus est inter bonum et malum : unde <name ref="#Aristotle">Philosophus</name> dicit quod <quote xml:id="bb-l2d41a1q1-Qd1e127">bonum et malum non sunt in genere, sed sunt genera aliorum</quote> ; sed prima contraria maxime sunt opposita : ergo bonum et malum circa actionem directam habent oppositionem et repugnantiam.</p>
+          <p xml:id="bb-l2d41a1q1-d1e131">Item, malum dicit privationem boni ; sed privatio et habitus directe sunt opposita : ergo etc.</p>
+          <p xml:id="bb-l2d41a1q1-d1e134">Item, quae habent oppositos effectus directe opponuntur ; sed bona actio et mala oppositos habent effectus in anima, quia bona actio ornat et mala deformat, bona ordinat et mala deordinat : ergo etc.</p>
+          <p xml:id="bb-l2d41a1q1-d1e137">Item, quae habent oppositas retributiones directe habent oppositionem ; sed bona actio et mala habent oppositas retributiones, quia uni retribuitur aeternum gaudium et alii aeternum supplicium : ergo etc.</p>
+          <p xml:id="bb-l2d41a1q1-d1e141">Item, omnis recta divisio est per opposita. Si ergo actio moralis recte dividitur per bonam et malam, ergo membra huius divisionis sunt per opposita.</p>
+
+ 
+          <p xml:id="bb-l2d41a1q1-d1e144">Sed contra : <quote xml:id="bb-l2d41a1q1-Qd1e146">Opposita sunt nata fieri circa idem</quote> ; sed impossibile est bonitatem et malitiam vel e converso circa eamdem actionem succedere : ergo bonum et malum circa actionem non habent oppositionem.</p>
+          <p xml:id="bb-l2d41a1q1-d1e150">Item, omne quod Deus facit, est valde bonum ; item omne quod fit contra Del prohibitionem, est malum ; sed eadem actio fit a Deo et contra Dei prohibitionem : ergo eadem actio est bona et mala. Sed opposita circa idem sunt incomposbilia : ergo bonum et malum circa actionem non sunt opposita.</p>
+          <p xml:id="bb-l2d41a1q1-d1e153">Item, cum dominus praecipit servo dare eleemosynam, et dominus praecipit ex caritate, et servus facit cum murmure, eadem actio est meritoria domino et demeritoria servo. Sed omne meritorium est bonum et omne demeritorium est malum ; ergo eadem actio est bona et mala : ergo bonum et malum circa actionem non sunt opposita.</p>
+          <p xml:id="bb-l2d41a1q1-d1e156">Item, aliquis incipit aliquam actionem ex caritate et terminat eam ex vanitate, secundum quod dicit Gregorius : Saepe quod caritas incipit, culpa peragit. Ergo una et eadem actio potest esse meritoria et demeritoria ; et si hoc, redit idem quod prius, quod bonum et malum circa actionem non sunt opposita.</p>
+          <p xml:id="bb-l2d41a1q1-d1e159">Item, bonum et ens convertuntur ; sed ens est in plus quam actio, ergo et bonum : ergo si inferius non dividitur per suum superius, actio deliberativa non potest dividi per bonam et malam tamquam per differentias oppositas.</p>
+        </div>
+        <div xml:id="bb-l2d41a1q1-Dd1e163">
+          <head xml:id="bb-l2d41a1q1-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d41a1q1-Hd1e168" type="question-title">Actio procedens a voluntate deliberativa dividitur 
+    per actionem bonam et malam, tanquam per 
+    differentias non solum disparatas, sed etiam 
+    directe oppositas.</head>
+
+ 
+          <p xml:id="bb-l2d41a1q1-d1e171">Respondeo : Ad praedictorum intelligentiam est notandum quod actio deliberativa nata est habere duplicem bonitatem : et bonitatem naturae, in quantum est actio procedens ab aliqua virtute, et bonitatem moris, in quantum est procedens a libero arbitrio sive a voluntate. Cum ergo quaeritur, utrum bonitas et malitia circa actionem habeant repugnantiam, ita quod ipsam dividant tamquam membra opposita, dicendum quod hoc non est verum de bono, prout dicitur a bonitate essentiali vel naturali : sic enim bonum non est differentia actionis, immo convertilur cum ente et reperitur in omni actione.
+Prout autem bonum dicitur a bonitate moris, sic est divisiva differentia actionis, pro eo quod bonum moris in triplici differentia est. Quoddam enim est bonum in genere, quoddam ex circumstantia, quoddam vero bonum perfectum sive principale sive bonum secundum se. Et quaelibet harum differentiarum habet differentiam mali sibi ex opposito respondentem.
+</p>
+ 
+          <p xml:id="bb-l2d41a1q1-d1e174">Nam bono in genere opponitur malum in genere, et bono ex circumstantia opponitur malum ex circumstantia, et bono simpliciter sive secundum se opponitur malum secundum se sive demeritorium. Horum autem omnium exempla sunt manifesta.
+Sic igitur actio, procedens a voluntate deliberativa, dividi habet per actionem bonam et malam, non solum tamquam per differentias disparatas, sed etiam directe oppositas. Unde rationes, quae hoc ostendunt, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d41a1q1-Dd1e179">
+          <head xml:id="bb-l2d41a1q1-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-l2d41a1q1-d1e184">Ad illud ergo quod primo obicitur, quod opposita nata sunt fieri circa idem, dicendum quodsi intelligatur de eodem numero, non habet veritatem nisi in subiecto, quod est substantia, proprie loquendo. Ipsius enim substantiae proprium est, cum sit una et eadem numero, quod sit susceptibilis contrariorum. Circa actionem autem, cum sit accidens, non oportet illud habere veritatem quod bonum et malum sint circa eamdem actionem numero, sed sufficit quantum ad legem oppositionis quod habeant fieri circa eamdem actionem in specie.
+Alia est etiam ratio quare bonum et malum non possunt sibi succedere in eadem actione secundum eamdem partem actionis, propter hoc quod esse actionis consistit in successione. Et hoc melius iam patebit.
+</p>
+
+          <p xml:id="bb-l2d41a1q1-d1e187">Ad illud quod obicitur, quod omne quod Deus facit est valde bonum, dicendum quod illud intelligitur quoad bonum naturae ; ilii autem bonitati non repugnat malitia moris, immo eam praesupponit ; et ideo eadem actio potest a Deo fieri et nihilominus esse prohibita. Ex hoc tamen non sequitur quod non sit contrarietas inter bonitatem moris et malitiam. Unde impossibile est quod eadem actio sit simul et semel in prohibitione et in praecepto.</p>
+          <p xml:id="bb-l2d41a1q1-d1e190">Ad illud quod obicitur, quod eadem actio est meritoria et demeritoria, dicendum quod bonum et malum meriti et demeriti circa actionem non dicunt qualitates absolutas, sed comparationes diversas. Unde actio bona non est aliud quam actio ordinata in finem ; refertur autem actio in finem per intentionem. Quoniam igitur una et eadem actio potest esse a duplici intendente et a duplici intentione, ita quod ab uno sicut a principali motore, ab altero vero sicut ab instrumento ; et una illarum intentionum potest esse recta et altera illarum obliqua : hinc est quod una et eadem actio potest esse bona et mala per comparationem ad diversa principia, loquendo de bonitate et malitia meriti et demeriti. Ex hoc tamen non sequitur quod bonum et malum non sint opposita circa actionem. Nam, etsi compatiantur se circa eamdem actionem in comparatione ad diversas intentiones, non tamen compatiuntur se, secundum quod comparantur ad eamdem intentionem. Opposita autem respectiva secundum hoc legem habent oppositionis, secundum quod ad idem comparantur.</p>
+
+          <p xml:id="bb-l2d41a1q1-d1e193">Unde nota quod aliter dicitur bonum de voluntate, aliter de actione exteriori. Nam circa voluntatem dicit qualitatem aliquam superadditam ; et ideo impossibile est quod una et eadem voluntas sit simul et semel bona et mala, nec absolute nec in comparatione ad diversa. Circa actionem vero bonum dicit comparationem ad debitum principium et ad finem. Unde aliquae duae actiones per omnia consimiles tam in genere actionum quam in genere circumstantiarum moralium frequenter differunt in hoc quod una est meritoria, altera vero non, quia una fit ab habente caritatem, altera a non habente. Et haec dicta sunt de bono et malo, secundum quod tantum valent quantum meritorium et demeritorium, quia secundum hoc currebat obiectio.</p>
+
+          <p xml:id="bb-l2d41a1q1-d1e197">Ad illud quod obicitur, quod actio inchoata ex caritate potest terminari ex vanitate, dicendum quod verum est ; sed licet illa actio una sit in genere naturae, non est tamen una in genere moris, pro eo quod, etsi una sit voluntas, quae est principium illius actionis, tamen aliter et aliter est disposita, dispositione, inquam, quae variat in genere moris, sicut est intentio recta et obliqua.</p>
+          <p xml:id="bb-l2d41a1q1-d1e200">Ad illud quod obicitur, quod bonum est in plus, iam patet responsio ; obicit enim de bono naturae, et hoc modo non est differentia divi siva actionis deliberativae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

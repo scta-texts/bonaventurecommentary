@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d38a2q2">
+        <head xml:id="bb-l2d38a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d38a2q2-Hd1e111" type="question-title">Utrum intentio in rationalibus se teneat ex parte intellectus vel ex parte affectus.</head>
+ 
+        <p xml:id="bb-l2d38a2q2-d1e114">Secundo quaeritur de intentione, secundum quod reperitur in rationalibus : utrum se teneat ex parte intellectus vel ex parte affectus.</p> 
+        <div xml:id="bb-l2d38a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d38a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d38a2q2-d1e122">Et quod ex parte affectus, videtur. <name ref="#Bernard">Bernardus</name>, Ad Eugenium : <quote xml:id="bb-l2d38a2q2-Qd1e127">Ut oculus sit simplex, duo sunt necessaria, videlicet caritas in intentione et veritas in electione</quote>. Sed caritas non est nisi in voluntate : ergo, si caritas est in intentione, intentio se tenet ex parte voluntatis.</p>
+          <p xml:id="bb-l2d38a2q2-d1e131">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera : <quote xml:id="bb-l2d38a2q2-Qd1e136">Intentio est, qua sic ad finem pervenire volo</quote>. Sed nemo vult pervenire ad finem nisi per voluntatem : ergo intentio est ex parte voluntatis.</p>
+          <p xml:id="bb-l2d38a2q2-d1e140">Item, intentio iungit cum ipso fine ; sed <quote xml:id="bb-l2d38a2q2-Qd1e142" source="http://scta.info/resource/aristneth-l3">voluntas non tantummodo dicit appetitum eorum quae sunt ad finem, immo etiam ipsius finis</quote>, sicut vult <name ref="#Aristotle">Philosophus</name>. Si ergo illud quod principaliter iungit cum fine, est intentio, et hoc ipsum est voluntas, videtur quod intentio sit voluntas.</p>
+          <p xml:id="bb-l2d38a2q2-d1e149">Item, meritum principaliter residet penes intentionem ; sed illud, penes quod principaliter residet meritum et demeritum, est ipsa voluntas : ergo videtur quod intentio se teneat ex parte voluntatis sive affectionis.</p>
+
+ 
+          <p xml:id="bb-l2d38a2q2-d1e153">Sed contra : Matthaei 6, 22 : <quote xml:id="bb-l2d38a2q2-Qd1e155" ana="#mt6_22">Si oculus tuus fuerit simplex</quote>, ibi Glossa exponit, ut per oculum intelligatur intentio. Si ergo oculus animae non est affectus, sed intellectus, videtur quod intentio non se teneat ex parte affectus, sed magis ex parte intellectus.</p>
+          <p xml:id="bb-l2d38a2q2-d1e159">Item, super illud Lucae 11, 35 : <quote xml:id="bb-l2d38a2q2-Qd1e161" ana="#lc11_35">Vide, ne lumen, quod in te est</quote>, Glossa : <quote xml:id="bb-l2d38a2q2-Qd1e164">Intentio, qua bonum quodcumque facimus, lumen est</quote>. Sed lumen se tenet ex parte cognitivae : ergo etc.</p>
+          <p xml:id="bb-l2d38a2q2-d1e168">Item, intentionis est referre opus sive voluntatem in finem ; sed eius est referre cuius est conferre ; et conferre est proprie ipsius rationis : ergo et intentio.</p>
+          <p xml:id="bb-l2d38a2q2-d1e171">Item, sicut voluntas nunquam vult aliquod volitum nisi illud praecognoscatur a ratione, sic nunquam appetit finem nisi ratio vel affectus rationis eam praecurrat, quae finem illum ostendat. Si igitur intentio est illa quae finem monstrat, videtur quod intentio ex parte rationis se teneat.</p>
+          <p xml:id="bb-l2d38a2q2-d1e174">Si forte tu dicas quod se tenet ex parte rationis et voluntatis simul :</p>
+ 
+          <p xml:id="bb-l2d38a2q2-d1e177">Contra : 1. Intendere est actus unus : ergo est unius potentiae : ergo non potest esse voluntatis et rationis simul et semel.</p>
+          <p xml:id="bb-l2d38a2q2-d1e181">2. Item, si intentio se tenet ex parte rationis et voluntatis, aut ergo sicut potentia aut sicut passio aut sicut habitus. Sicut potentia, non videtur, quia, cum voluntas et ratio non sint una potentia, et in uno homine respectu unius finis sit una intentio, nomine intentionis non potest intelligi potentia. Pari ratione nec habitus, quia non est unus habitus in duabus potentiis. Quod nec passio, constat, quia passionibus non meremur nec demeremur ; circa intentionem autem est meritum et demeritum. Nullo ergo modo videtur quod intentio simul spectet ad rationem et voluntatem.</p>
+          <p xml:id="bb-l2d38a2q2-d1e184">3. Item, si simul spectat ad rationem et voluntatem, quaero : ad quam principaliter ? Et principalius videtur se tenere ex parte rationis, per hoc quod Glossae dicunt quod intentio est lumen et oculus, quod quidem est solius rationis proprie. Quod autem principalius se teneat ex parte voluntatis, videtur per hoc quod intentio principaliter respicit finem ; et potentia in nobis, quae principaliter respicit finem, voluntas est, cum bonum et finis sint idem. Ergo, si non potest principaliter esse ex parte utriusque, videtur quod non consistat in utraque potentia, scilicet in ratione et voluntate.</p>
+          <p xml:id="bb-l2d38a2q2-d1e187">4. Item, inferius non se extendit ad plus quam suum superius ; sed intelligentia est universalior quam intentio ; unde <name ref="#JohnDamascenus">Damascenus</name>: Intelligentia est primus motus ; quae vero circa aliquid est intelligentia, intentio dicitur Si ergo intelligentia non se extendit ad rationem simul et voluntatem, sed tantum consistit in ratione, pari ratione videtur quod similiter nec intentio.</p>
+        </div>
+        <div xml:id="bb-l2d38a2q2-Dd1e194">
+          <head xml:id="bb-l2d38a2q2-Hd1e196">Conclusio</head>
+          <head xml:id="bb-l2d38a2q2-Hd1e199" type="question-title">In nomine intentionis clauditur simul actus rationis et voluntatis.</head>
+          <p xml:id="bb-l2d38a2q2-d1e202">Respondeo : Ad praedictorum intelligentiam est notandum quod frequenter ad cognitionem rei perducimur per considerationem vocabulorum. Qui enim prima vocabula imposuerunt proprietates rerum potissime consideraverunt et iuxta illas vocabula imposuerunt. Si igitur velimus attendere, hoc verbum Intendere compositum est ab in et tendere. Haec autem praepositio in duplicem potest importare habitudinem, cum componitur huic verbo tendere : aut sicut ad obiectum aut sicut ad terminum ultimum. Et primo modo hoc quod est intendere significat solam conversionem potentiae respectu obiecti ; secundo vero modo non tantum modo significat conversionem, immo significat cum hoc quamdam collationem qt coniunctam quietationem. Et secundum istam duplicem acceptionem hoc verbum intendere diversam habet constructionem. Differt enim dicere intendo in hoc et intendo hoc. Cum enim dico intendo in hoc, intendere dicit conversionem potentiae ad aliquid tamquam ad obiectum. Cum vero dico intendo hoc, intendere dicit conversionem potentiae ad aliquid tamquam ad finem ultimum, quem intendit assequi et cui vult copulari. Et ideo in prima acceptione huius verbi intendere inter ipsum et suum casuale cadit praeposito media, ut per hoc significetur directio et conversio potentiae ad illud tamquam ad obiectum supra quod. In altera vero significatione non cadit praepositio media, pro eo quod hoc verbum tendere de se dicebat inclinationem et ordinationem ad aliquid ; et haec praepositio. in sibi iuncta super hoc addit quietationem ; unde sensus est : intendo beatitudinem, id est, tendo in beatitudinem ; et propterea non oportet exterius addi praepositionem.
+Et secundum istum ultimum modum accipiendi est hic sermo de intentione. Et quoniam istud vocabulum duo importat, videlicet quamdam collationem, et praeter hoc quamdam conversionem cum collatione et quamdam tendendam cum quietatione, et unum istorum est rationis et alterum voluntatis, hinc est quod in nomine intentionis clauditur simul actus rationis et voluntatis. Quamvis enim sit unum vocabulum ; tamen, secundum quod compositum est, sic implicat duarum potentiarum actus coniunctos ad unum perficiendum, quod non posset facere actus unius sine actu alterius.
+Et est simile de verbo <mentioned> consentiendi </mentioned>, quod, quamvis videatur importare unicum actum, tamen necessario duos includit. Nam consensus non est aliud quam concordia voluntatis simul et rationis ad unum aliquid faciendum : unius ut arbitrantis et iudicantis, alterius autem ut praeoptantis. Et propterea sic recte nominatur et respicit ipsum liberum arbitrium, quod quidem simul consistit circa voluntatem et rationem, sicut supra fuit ostensum.</p>
+          <p xml:id="bb-l2d38a2q2-d1e208">Unde sicut tota dispositio familiae pendet ex consensu patrisfamilias et matrisfamilias, sic tota dispositio agendorum in domo animae pendet ex consensu voluntatis et rationis. Et sicut pendet dispositio et regimen ex consensu, sic pendet directio et obliquatio ex intentione. Sicut enim ad rectum motum progressivum concurrit simul operatio visus ostendentis viam et operatio pedis incedentis, sic in actu intendendi, clauditur simul actus rationis et voluntatis : unius ut aspicientis, alterius ut tendentis. Et quia isti actus coniuncti sunt, ideo per unum vocabulum compositum importantur.
+Ex his patet responsio ad quaestionem propositam et ad rationes ad utramque partem. Concedendum est enim quod intentio : nominat aliquid ex parte voluntatis, sicut rationes ad primam partem concludunt, Verum est etiam quod intentio, nominat aliquid ex parte rationis, ratione cuius dicitur et oculus et lumen, sicut ostendunt aliae rationes ; et quantum ad haec duo intentio dirigi habet fide et caritate : fide clarificante oculum intellectus et caritate rectificante pedem affectus.</p>
+        </div>
+        <div xml:id="bb-l2d38a2q2-Dd1e213">
+          <head xml:id="bb-l2d38a2q2-Hd1e215">Ad rationes</head>
+          <p xml:id="bb-l2d38a2q2-d1e218">Ad illud ergo quod obicitur contra hoc, quod non possit esse simul in ratione et voluntate, quia intendere dicit unicum actum, dicendum quod falsum est ; immo importat plures actus sicut et consentire, ut ostensum est.</p>
+          <p xml:id="bb-l2d38a2q2-d1e221">Ad illud vero quod quaeritur, utrum sit sicut potentia vel sicut passio vel sicut habitus, dicendum quod, etsi intentio aliquando dicatur ipsa potentia intendens, aliquando dicatur ipse habitus, secundum quem intendit, aliquando dicatur actus intendendi, aliquando ipsum intentum, principalius tamen nomen intentionis impositum est ipsi actui ; nihilominus tamen in aliis acceptionibus contingit aliquando. reperiri. Nam cum dicitur quod intentio est oculus, accipitur intentio pro potentia ; cum dicitur intentio est lumen, accipitur intentio pro habitu dirigente ; cum vero dicitur quod intentio est ipse finis, sicut dicit <name ref="#Lombard">Magister</name> in littera, accipitur intentio pro intento ; cum vero dicitur quod intentio quaedam est recta, quaedam est obliqua, accipitur intentio pro actu.
+Cum ergo dicit <name ref="#Aristotle">Philosophus</name> quod omne quod est in anima est potentia vel passio vel habitus, dicendum quod <name ref="#Aristotle">Philosophus</name> sub habitibus comprehendit actus vel loquitur de his quae sunt in anima per modum quietis, non per modum fieri. Talia enim potius dicuntur esse ab anima quam in anima.
+Et sic patet quod intentio potest esse actus, potest etiam esse habitus et potentia ; et sicut non nominat unum actum simplicem, sed plures, sic non nominat unicum habitum nec unam potentiam tantum. Nec valet ratio illa : est una intentio, ergo una potentia vel unus habitus, quia hoc est unum nomen impositum pluribus, sicut supra dictum fuit de libertate arbitrii ; et sic est in hoc nomine concordia et consensus.
+</p>
+
+          <p xml:id="bb-l2d38a2q2-d1e233">Ad illud quod quaeritur, in quo sit principalius, dicendum quod secundum diversa et principalius est in cognitiva et principalius in motiva. Nam quantum ad directionem principalius se tenet ex parte cognitivae, quantum vero ad tendentiam principalius se tenet ex parte affectivae ; et hoc non est inconveniens.</p>
+          <p xml:id="bb-l2d38a2q2-d1e236">Ad illud quod obicitur, quod intentio est inferius ad intelligentiam, dicendum quod <name ref="#JohnDamascenus">Damascenus</name>loquitur de intentione secundum aliam acceptionem, scilicet secundum quod dicit conversionem ipsius virtutis intellectivae ad aliquod obiectum determinatum, per quem modum dicitur in alterum intendere qui illum aspicit vel considerat ; et talis modus accipiendi frequenter habetur in Scriptura. Unde Actuum 3, 5 dicitur quod claudus, qui stabat ad portam templi, <quote xml:id="bb-l2d38a2q2-Qd1e241" ana="#act3_5">intendebat in eos</quote>, id est in Petrum et Ioannem ; et in Psalmo [69, 1] : <quote xml:id="bb-l2d38a2q2-Qd1e244" ana="#ps69_1">Deus, in adiutoriam meum intende</quote>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d43a2q2">
+        <head xml:id="bb-l2d43a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d43a2q2-Hd1e111" type="question-title">Utrum peccatum in Spiritum Sanctum sit irremissibile.</head>
+        <p xml:id="bb-l2d43a2q2-d1e114">Secundo quaeritur de istius peccati irremissibilitate.</p> 
+        <div xml:id="bb-l2d43a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d43a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d43a2q2-d1e122">Et quod istud peccatum sit irremissibile, ostenditur : Matthaei 12, 31 : <quote xml:id="bb-l2d43a2q2-Qd1e124">Spiritus blasphemiae non remittetur</quote> ; et post : <quote xml:id="bb-l2d43a2q2-Qd1e127" ana="#mt12_32">Qui dixerit verbum contra Spiritum Sanctum, non remittetur nec in hoc saeculo nec in futuro</quote>. Sed Christus nullo modo potest mentiri : ergo illud peccatum nullo modo potest remitti.</p>
+
+          <p xml:id="bb-l2d43a2q2-d1e131">2. Item, Glossa super dictum locum : <quote xml:id="bb-l2d43a2q2-Qd1e133">Blasphemia remittetur ; spiritus autem blasphemiae non remittetur, nec in hoc saeculo nec in futuro</quote>.</p>
+          <p xml:id="bb-l2d43a2q2-d1e137">3. Item, Ieremiae 18, 12 : <quote xml:id="bb-l2d43a2q2-Qd1e139" ana="#ier18_12">Desperavimus, post cogitationes nostras ibimus</quote> ; et post subiungitur : Tu autem noli orare pro populo isto, quia non exaudiam te. SI ergo pro peccato remissibili Dominus vult exorari, et nolebat exorari propter peccatum desperationis, ergo videtur quod peccatum desperationis sit irremissibile. Pari ratione concluditur de qualibet huius peccati specie.</p>
+          <p xml:id="bb-l2d43a2q2-d1e143">4. Item, nullum peccatum remitti potest nisi de quo quis potest subire poenitentiam et postulare veniam ; sed peccatum in Spiritum Sanctum non est huiusmodi : ergo etc. Maior manifesta est ; minor probatur per illud <name ref="#Augustine">Augustini</name>, qui dicit, in libro De sermone Domini in monte : Tanta est labes huius peccati, ut deprecandi humilitatem subire non possit.</p>
+          <p xml:id="bb-l2d43a2q2-d1e150">5. Item, impoenitentia est species huius peccati et annexa aliis speciebus. Si ergo impoenitentia directe opponitur ipsi veniae et poenitentiae, ergo videtur quod simpliciter privet veniam et remissionem : videtur ergo quod hoc peccatum sit irremissibile.</p>
+ 
+          <p xml:id="bb-l2d43a2q2-d1e153">Sed contra : Super illud Psalmi [67, 23] : <quote xml:id="bb-l2d43a2q2-Qd1e155" ana="#ps67_23">Convertam in profundum maris</quote>, Glossa : <quote xml:id="bb-l2d43a2q2-Qd1e158">Id est, eos qui erant desperatissimi</quote>. Ergo, si hoc est peccatum quod maxime elogant a venia, et illud omnino remittitur, videtur quod et omnia alia.</p>
+          <p xml:id="bb-l2d43a2q2-d1e162">Item, <name ref="#Augustine">Augustinus</name>, De verbis Domini : <quote xml:id="bb-l2d43a2q2-Qd1e167">Ista impoenitentia vel cor impoenitens, quamdiu quis in hac carne vivit, non potest iudicari ; de nullo enim desperandum est, quamdiu patentia Dei eum ad poenitentiam adducit</quote>. Sed de eo qui peccat peccato irremissibili desperandum est : ergo videtur quod peccans peccato in Spiritum Sanctum non peccat irremissibiliter.</p>
+          <p xml:id="bb-l2d43a2q2-d1e171">Item, peccatum in Spiritum Sanctum non aufert homini statum viatoris ; sed quamdiu homo est in statu viatoris, habet vertibilitatem liberi arbitrii ; et quamdiu hoc habet, potest Deo reconciliari et a peccato liberari : ergo videtur quod peccatum in Spiritum Sanctum possibile sit remitti.</p>
+          <p xml:id="bb-l2d43a2q2-d1e174">Item, potentior est gratia et virtus in bonum quam sit peccatum in malum ; sed nulla virtus reddit hominem ex suo actu impossibilem ad peccandum, nec poenitentia nec alia : ergo videtur quod nulla culpa reddit hominem impossibilem ad resurgendum. Sed non resurgit homo a peccato nisi remittatur peccatum : ergo non solum istud peccati genus, sed etiam quodlibet aliud est remissibile.</p>
+          <p xml:id="bb-l2d43a2q2-d1e177">Item, si peccatum in Spiritum Sanctum dicitur irremissibile, aut hoc est per privationem actus remissionis aut per privationem dispositionis aut per privationem possibilitatis. Si per privationem actus, ergo quodlibet peccatum, quod non remittitur, debet dici irremissibile : ergo quodlibet peccati genus isto modo irremissibile dicetur. Si per privationem dispositionis, ergo, cum omne peccatum mortale reddat hominem ineptum ad remissionem propter Dei offensam et comtemptum, videtur ergo quod omne debeat dici irremissibile. Si propter privationem possibilitatis, contra : aut hoc est quia Deus non potest infundere gratiam aut hoc est quia iste non potest gratiam recipere. Sed primum est plane falsum, similiter et secundum, quia iste habet arbitrii libertatem : non igitur videtur quod aliquo modo illud peccatum debeat dici irremissibile.</p>
+
+          <p xml:id="bb-l2d43a2q2-d1e181">Est igitur quaestio, si dicitur irremissibile, quomodo dicatur et qualiter.</p>
+        </div>
+        <div xml:id="bb-l2d43a2q2-Dd1e185">
+          <head xml:id="bb-l2d43a2q2-Hd1e187">Conclusio</head>
+          <head xml:id="bb-l2d43a2q2-Hd1e190" type="question-title">Peccatum in Spiritum sanctum, 
+    communiter acceptum, dicitur irremissibile, quia non tantum 
+    repugnat gratiae, sed etiam dispositioni ad 
+    gratiam et veniam suscipiendam, quin tamen 
+    potentiam se salvandi privet, sicut impoenitentia finalis</head>
+ 
+          <p xml:id="bb-l2d43a2q2-d1e193">Respondeo : Dicendum quod, sicut <name ref="#Lombard">Magister</name> in littera innuit, quorumdam opinio fuit quod peccatum in Spiritum Sanctum diceretur irremissibile, <quote xml:id="bb-l2d43a2q2-Qd1e198">quia vix et raro et difficulter dimittitur</quote>. Alii vero dixerunt quod illud peccatum dicitur irremissibile, <quote xml:id="bb-l2d43a2q2-Qd1e201">quia nullo modo remitti habet, pro eo quod tali peccato peccans digne poenitere non potest</quote>. Uterque autem istorum modorum dicendi conveniens est et verus, nec unus repugnat alteri, si recte inteliigantur. Sicut enim remissibile dicitur dupliciter : uno modo remissibile dicit aptitudinem, alio modo remissibile dicit consuetudinem ; sic et irremissibile dupliciter potest dici : uno modo, ut dicatur irremissibile, id est ineptum sive impossibile ad remittendum ; alio modo, ut dicatur irremissibile, quod est inconsuetum remitti.</p>
+ 
+          <p xml:id="bb-l2d43a2q2-d1e205">Utroque horum modorum pecca ? tum in Spiritum Sanctum potest dici irremissibile : nam omne peccatum in Spiritum Sanctun vel est impoenitentia vel habet impoenitentiam annexam. Impoenitentia autem dicitur duobus modis sicut et perseverantia. Uno modo dicitur perseverantia propositum perseverandi ; alio modo dicitur perseverantia continua permanentia in bono usque in finem. Et primo modo perseverantia est in qualibet virtute ; secundo modo perseverantia includit gratiam finalem. Sic et impoenitentia dicitur dupliciter : uno modo dicitur impoenitentia propositum non poenitendi ; alio modo dicitur impoenitentia continua permanentia in malo usque ad diem extremum inclusive.
+Et secundum istum modum peccatum in Spiritum Sanctum, quod claudit in se impoenitentiam, dupliciter potest dici : uno modo, prout claudit in se impoenitentiam, quae quidem est finalis persistentia in malo ; et sic dicitur irremissibile, quia non potest remitti, sicut finalis gratia non potest perdi. Sed hoc modo peccare peccato in Spiritum Sanctum nemini attribuendum est usque ad illud instans in quo possit dici de isto quod finaliter sit impoenitens. Et secundum hunc modum currit una praedictarum opinionum, et ita valde stricte accipit peccatum in Spiritum Sanctum.
+Alio modo dicitur peccatum in Spiritum Sanctum, prout claudit in se impoenitentiam, id est propositum non poenitendi ; hoc modo dicitur irremissibile, id est inconsuetum remitti. Quamvis enim non sit impossibile ad remissionem, quia tale propositum mutari potest, raro tamen et vix remittitur, quia tale propositum claudit viam ad gratiam et impedit Spiritus Sancti ingressum. Illud enim quod gratiam introducit et quod ad gratiam disponit de congruo est voluntas recedendi a peccato ; et ideo, cum voluntas faciem suam obfirmavit ad oppositum, nisi fiat ei specialis vocationis donum et adiutorium, non pervenitur ad remissionis beneficium. Quoniam igitur alia peccatorum genera, etsi privent bonam voluntatem et iustitiam, non tamen reddunt voluntatem rebellem et repugnantem contra vocationem divinam, hinc est quod, si nunquam remittantur propter negligentiam peccatoris vel propter praeoccupationem mortis, non dicuntur esse irremissibilia.</p>
+ 
+          <p xml:id="bb-l2d43a2q2-d1e208">Patet igitur quare peccatum illud dicitur irremissibile magis quam alia peccatorum genera, scilicet pro eo quod non tantum repugnat gratiae, sed etiam dispositioni ad veniam et gratiam suscipiendam. Patet etiam quomodo dicatur irremissibile, quia, communiter loquendo, non privat potentiam, sed dispositionem ; stricte autem accipiendo, potentiam privat ; sed hoc modo non dicitur peccare aliquis in Spiritum Sanctum, quamdiu vivit in hac vita.</p>
+ 
+          <p xml:id="bb-l2d43a2q2-d1e212">Et per hoc patet responsio ad rationes quae inducuntur ad utramque partem, ad eas potissime, quae inducuntur ad secundum partem, quae videlicet ostendunt quod peccatum illud non dicitur irremissibile, eo quod reddat hominem impossibilem ad veniam, quamdiu est in vita ista ; et quia verum concludunt, ideo concedendae sunt.</p>
+ 
+
+          <p xml:id="bb-l2d43a2q2-d1e215">Ultima tamen ratio videtur ostendere, quod nullo modo debeat dici irremissibile ; sed iam manifesta est per ea quae dicta sunt, quia in aliis peccatis mortalibus non sic est privatio ad remissionem sicut in hoc peccato. Quamvis enim alia peccata tollant iustitiam, non tamen auferunt propositum redeundi ad iustitiam. Fere enim omnes qui peccant emendare proponunt. Hoc autem peccati genus, in quantum peccatum eat, tollit iustitiam ; in quantum vero tale peccatum est quod habet annexam impoenitentiam, aufert homini propositum redeundi ad gratiam ; et ideo irremissibile dicitur, quia privat dispositionem ad bonum.</p>
+        </div>
+        <div xml:id="bb-l2d43a2q2-Dd1e220">
+          <head xml:id="bb-l2d43a2q2-Hd1e222">Ad rationes</head>
+          <p xml:id="bb-l2d43a2q2-d1e225">1-2. Ad illud autem quod primo obicitur in contrarium de auctoritate Domini, in Matthaeo et etiam de Glossa, dicendum quod tam textus quam Glossa intelligi habet quantum ad privationem remissionis secundum consuetudinem, non secundum possibilitatem et aptitudinem. Unde quod Dominus comminatur quod illud peccatum non remittetur, hoc intelligendum est, non quia remitti non possit, sed quia Deus paucis consuevit remittere.
+Vel dicendum, sicut dicit <name ref="#Augustine">Augustinus</name>, quod intelligitur de peccato in Spiritum Sanctum secundum quod includit impoenitentiam finalem, hoc est, in quo quis perseverat usque ad mortem.</p>
+
+          <p xml:id="bb-l2d43a2q2-d1e231">Ad illud quod tertio obicitur de verbo Ieremiae, quod Deus nolebat orari pro desperatis, dicendum quod hoc non erat quia nullo modo possent ad bonum converti vel redire : hoc enim potuissent, si Deus vellet eos specialiter visitare ; sed quia ipsi non merebantur et Deus occulto suo iudicio nolebat eis manum misericordiae ampliare. Hinc est quod praevidens et suum iudicium et eorum impoenitentiam, hoc Prophetae praedicebat ; et ita ex hoc non habetur quod illud peccatum non posset remitti, sed quia illud illis nolebat Deus remittere et quod illi finaliter in impoenitentia remansuri erant, quamvis possent ab ea discedere.</p>
+          <p xml:id="bb-l2d43a2q2-d1e234">Ad illud quod obicitur, quod tanta est huius peccati labes quod poenitere non possit, dicendum quod <name ref="#Augustine">Augustinus</name> illud verbum retractat et explanat hoc non esse dictum per privationem omnimodae possibilitatis, cum Deus convertat desperatissimos, sed per privationem facilitatis ; unde non solummodo consuevit aliquid dici impossibile quod nullo modo potest fieri, sed etiam quod difficulter fit.</p>
+          <p xml:id="bb-l2d43a2q2-d1e240">Ad illud quod obicitur, quod impoenitentia est species huius peccati, iam patet responsio, quia dupliciter dicitur impoenitentia, sicut dictum est ; et prout impoenitentia dicitur propositum non poenitendi, non reddit hominem impossibilem ad veniam, quia potest ab isto proposito desistere ; et illo proposito desistente, potest aliud propositum illi succedere et per illud ad veniam pervenire.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

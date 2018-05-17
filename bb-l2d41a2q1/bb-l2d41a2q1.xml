@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41a2q1">
+        <head xml:id="bb-l2d41a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d41a2q1-Hd1e111" type="question-title">Utrum omne peccatum actuale sit voluntarium.</head>
+ 
+        <p xml:id="bb-l2d41a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum omne peccatum actuale sit voluntarium ; et cum certum sit de mortali quod sic, quaeritur de veniali.</p> 
+        <div xml:id="bb-l2d41a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d41a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d41a2q1-d1e122">Et quod omne peccatum veniale sit voluntarium, videtur : Sicut dicit <name ref="#Augustine">Augustinus</name>, et habetur in littera : <quote xml:id="bb-l2d41a2q1-Qd1e127">Usque adeo peccatum est voluntarium, ut nullo modo sit peccatum, nisi sit voluntarium</quote>. Ergo, si peccatum veniale peccatum est, ergo necesse est ipsum esse voluntarium. Si tu dicas quod omne peccatum est voluntarium aut voluntate propria aut voluntate Adae, et veniale est peccatum, quia voluntarium voluntate Adae, obicltur contra hoc : quia, si ad rationem peccati venialis sufficit quod sit voluntarium voluntate Adae, cum illud peccatum, quod Adam transfudit in nobis sit peccatum originale, veniale peccatum esset originale. Quodsi hoc est falsum, restat quod et primum.</p>
+          <p xml:id="bb-l2d41a2q1-d1e131">Item, motus inordinati et ad illicita, qui dicuntur esse in nobis peccata, non sunt peccata nec in parvulis nec in furiosis ; hoc autem non est nisi quia non moventur usu rationis et voluntatis : ergo videtur quod huiusmodi peccata sint in nobis voluntaria voluntate propria.</p>
+          <p xml:id="bb-l2d41a2q1-d1e134">Item, quando stomachus exinanitus ante horam comestionis appetit comedere, nulla est ibi culpa, quamvis sit ille appetitus immoderatus et ad illud quod non licet tali tempore ; hoc autem non est nisi quia motus ille inest de necessitate : ergo videtur quod ad hoc quod aliquis motus ad illicitum sit veniale peccatum, necesse sit ipsum esse voluntarium.</p>
+          <p xml:id="bb-l2d41a2q1-d1e137">Item, omne quod quis facit, aut facit naturaliter aut facit voluntarie aut violenter. Si igitur venialia committimus, aut ergo per violentiam aut per naturam aut per voluntatem. Si per violentiam : ergo nulla est ibi culpa. Si per naturam : similiter, quia in his quae naturaliter fiunt non est culpa. Ergo, si peccatum veniale culpa est, necesse est quod sit a voluntate.</p>
+          <p xml:id="bb-l2d41a2q1-d1e141">Item, demonstrato aliquo veniali, ant potest aliquis vitare hoc peccatum aut non potest. Si non potest, et nullus peccat in eo quod vitare non potest, ergo committendo hoc peccatum, non peccat. Si potest vitare, et quod committimus, potentes vitare, committimus voluntarie, ergo etc.</p>
+
+ 
+          <p xml:id="bb-l2d41a2q1-d1e144">Sed contra : Proverbiorum 24, 16 : <quote xml:id="bb-l2d41a2q1-Qd1e146" ana="#prov24_16">Septies in die</quote> etc., Glossa : <quote xml:id="bb-l2d41a2q1-Qd1e149">Singulis diebus per necessitatem vel fragilitatem carnis vel volentes vel inviti peccamus</quote>. Si ergo peccamus venialiter, velimus nolimus, videtur quod non omne peccatum veniale voluntarium sit.</p>
+          <p xml:id="bb-l2d41a2q1-d1e153">Item, <name ref="#Augustine">Augustinus</name>, in libro Retractationum : <quote xml:id="bb-l2d41a2q1-Qd1e158">Sunt, inquit, quaedam necessitate facta improbanda, ut qui vult recte facere et non potest. Unde est illud Apostoli : Non quod volo, hoc facio bonum, sed quod odi malum</quote>. Sed talia sunt peccata venialia : ergo aliqua venialia sunt de necessitate, non ergo a voluntate.</p>
+          <p xml:id="bb-l2d41a2q1-d1e162">Item, <name ref="#Augustine">Augustinus</name> XIX De civitate Dei : <quote xml:id="bb-l2d41a2q1-Qd1e167" source="http://scta.info/resource/adcd-l19">Nonnullum vitium est, cum caro concupiscit adversus spiritum</quote>. Sed caro concupiscit adversus spiritum frequenter, ipso nolente, sicut in littera habetur : ergo, velit nolit, homo peccat venialiter : non ergo omne peccatum veniale est voluntarium. Minor probatur in littera : Ille qui, concupiscente adversus spiritum carne, non ea quae vult facit, concupiscit quidem nolens, et in eo facit quod non vult.</p>
+          <p xml:id="bb-l2d41a2q1-d1e171">Item, peccata venialia sunt in nobis ex repugnantia sensualitatis ad rationem et etiam ex surreptione, sicut sunt primi motus ; sed, velimus nolimus, est in nobis repugnantia sensualitatis et multi etiam motus inordinati ex surreptione surgunt. Si igitur voluntas non potest sensualitatem domare, et quod est ex surreptione praevenit voluntatem, videtur quod peccata venialia, quae sunt primi motus, non sunt voluntaria.</p>
+          <p xml:id="bb-l2d41a2q1-d1e174">Item, aut aliquod peccatum veniale est involuntarium aut non. Si sic, habeo propositum ; si non, igitur omne peccatum veniale est voluntarium. Sed omne voluntarium per voluntatem vitari potest : ergo per voluntatem potest quis vitare omne veniale peccatum : igitur potest quis cavere ut nunquam peccet venialiter. Si igitur hoc est impossibile, quod aliquis diu vivat in hac carne quin committat aliquod veniale, videtur quod necessarium sit ponere aliquod veniale peccatum non esse voluntarium.</p>
+        </div>
+        <div xml:id="bb-l2d41a2q1-Dd1e178">
+          <head xml:id="bb-l2d41a2q1-Hd1e180">Conclusio</head>
+          <head xml:id="bb-l2d41a2q1-Hd1e183" type="question-title">Omne peccatum actuale est voluntarium vel simpliciter, 
+    vel secundum quid, ut aliqua venialia</head>
+ 
+          <p xml:id="bb-l2d41a2q1-d1e186">Respondeo : Dicendum quod voluntarium potest aliquid dici tripliciter : aut voluntate aliena aut voluntate propria aut partim voluntate aliena, partim voluntate propria. Et secundum hunc triplicem modum dicendi voluntarium, triplex est differentia peccati.</p>
+ 
+          <p xml:id="bb-l2d41a2q1-d1e189">Peccatum namque originale voluntarium est, sed non voluntate eius in quo est, sed voluntate eius a quo, scilicet Adae. Adam enim voluntaria transgressione corrupit se et totam posteritatem.
+Voluntarium autem voluntate propria est peccatum actuale mortale : hoc quidem genere peccati nullus peccat nisi consentiens.
+Voluntarium autem medio modo, scilicet partim voluntate propria, partim voluntate aliena, est veniale peccatum, illud maxime quod consurgit ex repugnantia carnis ad spiritum vel ex corruptione virium animae. Hoc, inquam, peccatum, quia partim est a voluntate aliena, partim a voluntate propria, ideo quodam modo, secundum <name ref="#Augustine">Augustinum</name>, tenet rationem poenae, quodam modo rationem culpae. Propterea dicit <name ref="#Augustine">Augustinus</name> : Quia homo non voluit vitare peccatum, dum valuit, inflictum est ut non possit, dum velit. Voluntarium, inquam, dicitur per comparationem ad voluntatem Adae, quia Adam deliberative voluit ; unde et corruptio subsecuta est, ex qua oriuntur in nobis motus inordinati, qui dicuntur esse peccata venialia. Voluntarium autem voluntate propria sive peccantis non est omne -peccatum veniale simpliciter, sed secundum quid. Illud enim est voluntarium simpliciter, quod est a voluntate praeambula et movente. Illud autem quod oritur voluntate concomitante et non prohibente vel praecavente, dum possit prohibere vel praecavere, dicitur voluntarium quodam modo sive interpretative, pro eo quod talis deordinatio voluntati imputatur. Et hoc modo saltem omne peccatum veniale dicitur voluntarium, quia nemo peccat venialiter nisi, cum habet voluntatis usum ; nemo etiam venialiter peccat in eo quod nullo modo potest prohibere nec etiam potuit praecavere. Venialia enim peccata, etsi omnia non possint praecaveri nec prohiberi, nullum tamen est singulare peccatum, quod non possit prohiberi vel quod saltem non potuerit praecaveri. Licet enim aliquis sit status in quo necesse est aliquem cadere in aliquod peccatum determinatum, illum tamen statum, potuit quis praecavere ; et ideo, si non praecavit, voluntati eius imputatur, quamvis tunc illud prohibere non possit.
+Concedendae sunt igitur rationes ostendentes quod omne peccatum actuale est voluntarium. Nam mortale est voluntarium simpliciter ; veniale autem vel est voluntarium simpliciter, sicut illud quod fit ex deliberatione, ut mendacium iocosum ; vel secundum quid sive quodam modo, sicut illud quod fit ex surreptione, sicut sunt primi motus.</p>
+        </div>
+        <div xml:id="bb-l2d41a2q1-Dd1e200">
+          <head xml:id="bb-l2d41a2q1-Hd1e202">Ad rationes</head>
+
+          <p xml:id="bb-l2d41a2q1-d1e205">Ad illud ergo quod obicitur in contrarium, quod singulis diebus inviti peccamus, dicendum quod in Glossa illa dicitur aliquis invitus peccare non per privationem voluntatis omnimodam, sed per privationem voluntatis plenae sive complacentiae. Et hoc quidem verum est quod frequenter inviti peccamus et nobis displicet quod sic inordinate movemur ; si tamen bene praecavissemus, in hunc actum vel illum non incidissemus, licet non sic possimus praecavere quin in aliquod cadamus ; sicut exemplum ponitur in nauta, qui potest praecavere et custodire ne aqua per aliquod foramen determinatum ingrediatur, non tamen potest facere quod per nullum habeat ingressum.</p>
+          <p xml:id="bb-l2d41a2q1-d1e208">Ad illud quod obicitur, quod quaedam necessitate facta sunt improbanda, dicendum quod <name ref="#Augustine">Augustinus</name> loquitur de necessitate venialium, non quantnm ad hoc veniale vel illud determinate, sed generaliter quantum ad peccata venialia vel etiam quantum ad aliquod genus venialis peccati ; sicut videmus in iuvene et forti quod nunquam potest omnino vitare motus carnis, licet possit hac hora vel illa vel hunc motum vel illum vitare. Et quia nihil impedit quod sit necessitas quaedam in universali et voluntas quodam modo in particulari, ideo auctoritas illa non obviat his quae dicta sunt.</p>
+          <p xml:id="bb-l2d41a2q1-d1e214">Ad illud quod obicitur, quod nonnullum vitium est, cum caro concupiscit adversus spiritum, dicendum quod verum est.
+Sed quod subiungit, quod necessarium est concupiscere, dicendum quod verum est de concupiscentia, loquendo generaliter ; de concupiscentia vero huius vel illius, hoc tempore vel illo, non est verum. Et quod dicit <name ref="#Augustine">Augustinus</name> quod concupiscit nolens, et Apostolus : Quod nolo matum, hoc ago, non privat omnimode voluntatem, sed hoc privat quod voluntas non est ibi movens principale.
+</p>
+
+          <p xml:id="bb-l2d41a2q1-d1e220">Ad illud quod obicitur, quod primi motus sunt ex surreptione et ex rebellione, iam patet responsio per ea quae dicta sunt. Verum est enim quod prohiberi vel praecaveri non possunt generaliter, ita quod nullus insurgat ; quilibet tamen per se praecaveri potest. Unde et huius signum est, quia nos non ponimus peccatum esse circa primos motus nutritivae sicut generativae ; actus enim nutritivae necessarius est ad salutem nutriti, non autem actus generativae ; licet et alia ratio possit assignari : quia nutritiva est corrupta tantum, generativa corrupta et infecta. Prima tamen ratio melius valet. Nam, sicut vult <name ref="#Augustine">Augustinus</name>, in I De civitate Dei, si aliqua mulier, corrumpatur violenter, si omnino repugnat, absque omni culpa est ; et tamen a delectatione omnino immunis non est. Ait enim sic : Si illa concupiscentialis inobedientia, quae adhuc in membris habitat, praeter voluntatis legem quasi lege sua movetur, et absque culpa est in corpore non consentientis. Ex hoc patet quod, si venialia rationem culpae habent, hoc est quia a voluntate in particulari et divisim vitari et praecaveri possunt.</p>
+          <p xml:id="bb-l2d41a2q1-d1e227">Ad illud quod obicitur, quod, si potest vitari hoc, et illud, et sic de singulis, ergo omne, dicendum quod haec est duplex : iste potest vitare omne peccatum veniale, sicut haec : iste potest vincere omnem hominem : aut quia potentia vitandi vel vincendi comparatur ad obiectum coniunctim vel divisim. Si divisim, sic vera est ista : iste potest vitare vel praecavere omne veniale peccatumquia non est dare aliquod quod non posset vitari. Si autem coniunctim, tunc est falsa ; est enim sensus, quod possit facere ut omnino sit absque veniali peccato ; et in hoc sensu dicitur quod non possumus omnia peccata venialia vitare.
+Nec valet ratio illa : possum vitare hoc et illud et illud, ergo omnia simul ; immo est ibi figura dictionis, sive ex diversa suppositione huius quod dico veniale, sive potius, quia proceditur a pluribus determinatis suppositionibus huius verbi potest ad unam ; sicut si argueretur : iste potest ferre hunc lapidem et illum et illum et sic usque ad decem lapides : ergo potest ferre hos decem lapides ; et sicut si diceretur : homo est Socrates, homo est Plato : ergo homo est Socrates et Plato. Praemissae sunt verae et conclusio falsa et proceditur a pluribus suppositionibus determinatis ad unam. Suppositio autem determinata dicitur quando terminus non confunditur sed debet reddere locutionem veram pro uno, sicut est cum dicitur : homo currit. Sic et in proposito intelligendum est, quia hoc verbum potest, prout accipitur respectu omnis venialis coniunctim, respicit omne veniale tamquam obiectum unum et dicit unam perfectam potentiam excedentem et vincentem omnem impulsum ad veniale peccatum ; sicut si diceretur : iste potest vincere decem homines vel ferre decem lapides.
+Et sic patet quod ille processus non tenet, quia non servatur ibi lex illationis rectae.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

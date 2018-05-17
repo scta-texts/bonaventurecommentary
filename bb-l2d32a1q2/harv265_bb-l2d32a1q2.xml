@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d32a1q2">
+        <head xml:id="bb-l2d32a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d32a1q2-Hd1e111" type="question-title">Utrum originale peccatum per baptismum deleatur quantum ad causam.</head>
+        <p xml:id="bb-l2d32a1q2-d1e114">Secundo quaeritur, utrum originale peccatum per baptismum deleri habeat quantum ad causam.</p>
+        <div xml:id="bb-l2d32a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d32a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d32a1q2-d1e122">Et quod sic, videtur : Per verbum Damasceni, qui dicit quod duo sunt in baptismo correspondentia duobus quae sunt in homine. Ait enim sic : <quote xml:id="bb-l2d32a1q2-Qd1e124" source="http://scta.info/resource/jddfo-l4c9">Quoniam duplex est homo ex anima et corpore, duplicem dedit purgationem, per aquam et Spiritum ; Spiritu quod secundum imaginem et similitudinem est renovante, aqua etiam per Spiritus gratiam corpus a peccato purgante et a corruptione liberante</quote> . Si igitur haec corruptio est causa originalis peccati transfundendi, videtur quod originale peccatum non solum deleatur quantum ad culpam, sed etiam quantum ad causam.</p>
+          <p xml:id="bb-l2d32a1q2-d1e128">Item, potentior, est Christus in satisfaciendo quam fuerit Adam in corrumpendo, sicut dicitur ad Romanos 5, 15 : <quote xml:id="bb-l2d32a1q2-Qd1e130" ana="#rom5_15">Non sicut delictum ita et donum</quote> ; ex quo innuit quod multo maius fuit donum quam delictum. Ergo, si delictum Adae non tantum potuit inficere hominem in se, sed prout est principium alterius, videtur quod baptismi sacramentum non tantum curet hominem in se, sed etiam prout est alterius principium.</p>
+          <p xml:id="bb-l2d32a1q2-d1e134">Item, non removetur effectus, persistente causa. Ergo, si baptismus removet ipsum originale peccatum ab homine, necesse est quod et causam originalis peccati excludat ab ipso ; et si hoc, videtur tunc quod baptizatus non transfundat in alterum originale peccatum.</p>
+          <p xml:id="bb-l2d32a1q2-d1e137">Item, non sufficienter curat morbum qui relinquit radicem morbi : ergo aut Christus non est perfectus medicus, aut, si perfectus medicus est, per medicinam sacramenti baptismi non solum expiatur originale quantum ad culpam, sed etiam quantum ad causam ; et si hoc, ergo baptizatus etc.</p>
+          <p xml:id="bb-l2d32a1q2-d1e141">Item, tales sunt fructus qualis est arbor, et tales sunt rami qualis et radix. Unde et Dominus in Matthaei 7, 18 : <quote xml:id="bb-l2d32a1q2-Qd1e143" ana="#mt7_18">Non potest arbor bona fructus matos facere</quote> ; et Apostolus ad Romanos 11, 16 :<quote xml:id="bb-l2d32a1q2-Qd1e146" ana="#rom11_16">Si radix sancta, et rami sancti</quote>. Ergo, si originale deletum est in parente et parens est purificatus, videtur similiter quod purificetur et proles. Et si hoc, aut originale non deletur per baptismum aut, si deletur quantum ad culpam, deletur similiter quantum ad causam. Si tu dicas quod baptismus non purificat hominem ab originali in quantum est corruptio naturalis, sed in quantum est corruptio personalis, contra : <quote xml:id="bb-l2d32a1q2-Qd1e149">si oppositum est causa oppositi, et propositum est causa propositi</quote> ; sed persona corrupta corrumpit naturam : ergo pari ratione, persona sanata, sanatur et natura.</p>
+          <p xml:id="bb-l2d32a1q2-d1e153">Item, si aliquis curet aliquem a lepra, quia lepra est morbus hereditarius, hoc ipso quod a lepra curat, dat ei potentiam generandi filium sanum. Ergo pari ratione, si originale morbus est hereditarius, videtur quod non deleatur quin auferatur illa corruptio per quam originale in alterum transfunditur.</p>
+          <p xml:id="bb-l2d32a1q2-d1e156">Sed contra : Baptizatus etiam post baptismum sentit in se motus concupiscentiae ; sed concupiscentia ortum habet ex carnis foeditate, et illa est causa originalis peccati in prole : ergo baptismus non curat morbum originalis peccati quantum ad radicem.</p>
+          <p xml:id="bb-l2d32a1q2-d1e159">Item, causa originalis peccati residet penes carnem ; sed gratia Spiritus Sancti respicit proprie ipsam mentem : ergo, si causa originalis peccati non opponitur ipsi gratiae, videtur quod per gratiam baptismalem non habeat removeri.</p>
+          <p xml:id="bb-l2d32a1q2-d1e162">Item, si baptismus curaret originale non tantum in quantum est morbus personalis, sed etiam in quantum est morbus naturalis, igitur, parente baptizato, non oporteret prolem baptizari. Si igitur unumquemque in propria persona necesse est baptizari, videtur quod in baptismate non fiat deletio originalis quantum ad causam et radicem morbi.</p>
+          <p xml:id="bb-l2d32a1q2-d1e165">Item, propter peccatum originale habemus ignorantiam in mente et concupiscentiam in carne ; sed baptismus non tollit homini ignorantiam, quae se tenet ex parte mentis : ergo multo minus nec illam corruptionem quae se tenet exparte carnis ; sed illa est causa originalis : ergo etc.</p>
+        </div>
+        <div xml:id="bb-l2d32a1q2-Dd1e169">
+          <head xml:id="bb-l2d32a1q2-Hd1e171">Conclusio</head>
+          <head xml:id="bb-l2d32a1q2-Hd1e174" type="question-title">Per baptismum originale peccatum deletur quantum ad culpam, 
+    non tamen removetur causa transfudendi originale in personam alteram</head>
+ 
+          <p xml:id="bb-l2d32a1q2-d1e177">Respondeo : Dicendum quod dupliciter est loqui de causa originalis : aut secundum considerationem unius hominis in se aut per comparationem ipsius ad alterum ex ipso propagandum.
+Si primo modo loquamur, sic semper, cum deletur originale peccatum, deletur etiam causa originalis peccati quantum ad hoc ut non possit deinceps peccatum originale causare in anima baptizati. Remittitur enim quodam modo foeditas carnis et per consequens improbitas suae tyrannidis, ratione cuius habebat spiritum in servitutem peccati redigere : quod quidem non potest facere post baptismum propter auxilium gratiae, quod ibi datur spiritui, per quod praesidet carni : et ita effectus illius gratiae quodam modo redundat in carnem.</p>
+ 
+          <p xml:id="bb-l2d32a1q2-d1e180">Si autem loquamur de causa originalis respectu alterius propagandi, sic per baptismum non deletur originale quantum ad causam sive radicem.
+Et ratio huius potissima, ut credo, est, quia corruptio, quae est causa originalis peccati propagandi, est corruptio naturae sive consistens penes, vim generativam, quae habet radicari in carne. Unde originale, prout est vitium personae, respicit voluntatem ; prout autem est vitium naturae, respicit generativam virtutem et carnem. Gratia autem sacramentalis proprie respicit corruptionem personae ; contra vero corruptionem naturae non habet ordinari directe. Et hinc est quod, cum infunditur gratia baptismalis, deletur originalis culpa secundum quod erat peccatum ipsius animae ; remanet tamen aliquis languor in carne, qui est causa originalis in prole.</p>
+ 
+          <p xml:id="bb-l2d32a1q2-d1e183">Si autem quaeratur, quare remedium gratiae sacramentalis ordinatur directe contra originale, ut corrumpit personam, et non prout corrumpit naturam, dicendum quod summus Medicus hoc instituit, ratione congrua exigente, tum ex parte Medici, tum ex parte aegroti, tum ex parte medicamenti.
+Ex parte, inquam, Medici, quia sic Dominus debuit nos curare ut salutem nostram unusquisque ab ipso immediate recognosceret, et ideo unumquemque voluit curari in suo baptismate immediate et in se. Et propterea baptismus delet originale in homine secundum quod est individuum, non secundum quod est alterius principium, ut ex hoc unusquisque reddat obsequium Deo debitum et magis recognoscat salvationis suae beneficium.</p>
+          <p xml:id="bb-l2d32a1q2-d1e187">Ex parte etiam aegroti congruentia erat. Deus enim neminem vult salvare nisi salva arbitrii sui libertate ; et ideo talem efficaciam medicamento dedit ut salva esset libertas et meritum liberi arbitrii. Ideo etiam, ut fides habeat locum, occultat Dominus sacramenti sui effectum. Et ideo non curatur naturae morbus.</p>
+          <p xml:id="bb-l2d32a1q2-d1e190">Ex parte etiam medicamenti ratio est, quia virtus regenerativa in sacramento est ipsa fides : unde a fide passionis dicuntur sacramenta habere efficaciam. Quoniam igitur haec virtus regenerativa principaliter respicit voluntatem et mentem, virtus autem generativa decisionem carnis a carne, hinc est quod baptismus sanat sive curat originale secundum quod est morbus personae, dum in eo datur gratia, per quam redificatur personalis voluntas, remanente nihilominus corruptione in carne et in vi generativa, quae causa est transfundendi originalem culpam.</p>
+ 
+          <p xml:id="bb-l2d32a1q2-d1e193">Et sic patet quod per baptismum deletur originale peccatum quantum ad culpam ; non tamen removetur causa transfundendi originale in personam alteram, sicut rationes ostendunt quae ad secundam partem inducuntur, et ideo concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d32a1q2-Dd1e198">
+          <head xml:id="bb-l2d32a1q2-Hd1e200">Ad rationes</head>
+
+          <p xml:id="bb-l2d32a1q2-d1e203">Ad illud ergo quod primo obicitur de Damasceno, quod caro et spiritus purgantur in baptismo, dicendum quod <name ref="#JohnDamascenus">Damascenus</name>intelligit carnem purgari, quia foeditas carnis aliquo modo remittitur, non quia omnino tollatur. Et illam remissionem sive diminutionem foeditatis purgationem vocat propter hoc quod non est amplius causa culpae in eo in quo est ; non tamen per baptismum omnino foeditas deletur, cum non tantum pruritus coitus sit in paganis, verum etiam in Christianis. Probabile tamen est quod aliquo modo illa foeditas per baptismum remittatur ; vulgo enim dicitur quod parvuli baptizati non ita foetent aliis sicut non baptizati.</p>
+          <p xml:id="bb-l2d32a1q2-d1e209">Ad illud quod obicitur, quod Christus magis fuit sufficiens ad satisfaciendum quam Adam ad corrumpendum, dicendum quod verum est. Verumtamen, quia non dedit omnem virtutem sacramento quam dare poterat, sed quam dare congruebat ; ideo, etsi sufficientior esset, non tamen dedit virtutem sacramento curandi omnem corruptionem, sed solum corruptionem personae. Sic enim congruebat, ut prius ostensum est.</p>
+          <p xml:id="bb-l2d32a1q2-d1e212">Ad illud quod obicitur, quod non removetur effectus, permanente causa, dicendum quod verum est de causa efficiente et conservante, non de efficente tantum ; verum est etiam de existentia causae in ea dispositione in qua prdducit effectum. Neutro autem istorum modorum remanet causa originalis, sive quia foeditas ipsa non est causa conservativa originalis, cum originale sit in anima separata ; sive quia non remanet in ea dispositione et intensione, secundum quam anima ex ipsa contrahit originale.</p>
+          <p xml:id="bb-l2d32a1q2-d1e218">Ad illud quod obicitur, quod non sufficienter curat morbum qui relinquit radicem, dicendum quod hoc verum est quando radix morbi relinquitur, quae potest causare vulnus in eo qui curatur. Non sic autem relinquitur radix originalis peccati, quae quidem possit iterare morbum illum circa eum qui baptizatur.
+Posset tamen et aliter dici quod utile est relinquere radicem alicuius aegritudinis, quia una aegritudo frequenter curat alteram. Huiusmodi autem corruptio, quae remanet in carne, occasio est vitandi multa mala et per consequens faciendi multa bona, sicut ostenditur in quarto, in tractatu de effectu baptismi.
+</p>
+
+          <p xml:id="bb-l2d32a1q2-d1e222">Ad illud quod obicitur, quod si radix est sancta, et rami, dicendum quod illud intelligitur per se loquendo, ut si radix sancta sit secundum quod radix ; baptismus autem, etsi sanctificet hominem, non tamen sanctificat eum secundum quod est principium alterius, quia remedium illud curat morbum personae, non naturae, sicut ostensum est.</p>
+          <p xml:id="bb-l2d32a1q2-d1e225">Ad illud quod obicitur, quod curato leproso, datur ei virtus generandi sanum, dicendum quod non est simile. Lepra enim sic est morbus hereditarius quod non est alius morbus, ut corrumpit personam et ut corrumpit naturam, eo quod totum hominem inficit ex parte carnis, non solum quantum ad nutritivam, sed etiam quantum ad generativam ; et ideo leprosus generat leprosum, quia ita corruptus est in eo humor generativus sicut nutritivus ; et quando homo a lepra curatur, uterque humor simul in ipso sanatur. Sed,in originali peccato est corruptio personae et naturae, ita quod istae corruptiones sunt diversae. Corruptio enim personae respicit liberam voluntatem ; corruptio vero naturae, secundum quod ab illa causatur, respicit generativam virtutem. Est enim natura vis insita rebus, ex similibus similia procreans : et ideo, quamvis una istarum corruptionum per baptismum curetur, non oportet quod curetur alia ; et hinc est quod mundificatus per baptismum generat immundum. Qualitas enim prolis genitae plus conformatur dispositioni virtutis generativae quam dispositioni voluntatis liberae. Et ideo exemplificat <name ref="#Augustine">Augustinus</name>, quod sicut circumcisus generat praeputiatum et ex grano mundo generatur granum cum paleis, et hoc, quia omnia ista erant in vi propagativa et ratione seminali, secundum quam haec propagantur, similiter intelligendum, est in hominibus quod, quia corruptio remanet in vi generativa, quamvis voluntas curetur per gratiam, homo generat secundum id in quo assimilatur Adae non secundum quod assimilatur Christo ; et ideo producit filium similem Adae praevaricatori magis quam suo Redemptori.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

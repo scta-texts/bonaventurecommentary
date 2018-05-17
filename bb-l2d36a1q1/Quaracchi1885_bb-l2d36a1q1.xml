@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d36a1q1">
+        <head xml:id="bb-l2d36a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d36a1q1-Hd1e111" type="question-title">Utrum peccatum sit poena peccati.</head>
+        <p xml:id="bb-l2d36a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum peccatum sit poena peccati.</p>
+        <div xml:id="bb-l2d36a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d36a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d36a1q1-d1e122">Et quod sic, videtur. 
+    Apocalypsis ultimo, 11 : <quote xml:id="bb-l2d36a1q1-Qd1e124" ana="#ap22_11">Qui in sordibus est sordescat adhuc</quote>, Glossa : <quote xml:id="bb-l2d36a1q1-Qd1e127">Iustum est</quote>. Sed esse in sordibus non est aliud quam esse in peccatis, et sordescere non est aliud quam peccare : ergo peccatum est meritum alterius peccati : Igitur, a relativis, peccatum sequens est retributio praecedentis ; sed retributio peccati non est nisi poena : ergo etc.</p>
+          <p xml:id="bb-l2d36a1q1-d1e131">Item, Gregorius expressius dicit, et habetur in littera : <quote xml:id="bb-l2d36a1q1-Qd1e133">Inter primum peccatum apostasiae et ultimam poenam ignis aeterni media quae sunt, et peccata sunt et poena peccati</quote>.</p>
+          <p xml:id="bb-l2d36a1q1-d1e137">Item, Isidorus : <quote xml:id="bb-l2d36a1q1-Qd1e139">Deus occultam superbiam clericorum vindicat per manifestam luxuriam</quote>. Sed vindicta peccati est poena : ergo manifesta luxuria est poena superbiae.</p>
+          <p xml:id="bb-l2d36a1q1-d1e143">Item, ex hoc quod homo peccat, meretur a Deo relinqui ; sed ex hoc quod relinquitur, cadit consequenter in aliud peccatum : ergo, si hoc iustum est, qui unum peccatum commisit meretur per consequens dimitti cadere in aliud ; ergo, si dimissus cadit in aliud peccatum, illud quod secundo perpetratur, ordinem habet ad primum sicut ad meritum. Sed omne tale est poena peccati : ergo etc.</p>
+          <p xml:id="bb-l2d36a1q1-d1e147">Item, omne illud est peccati poena in quo homo damnificatur et laeditur et in quod per illud peccatum inducitur ; sed superbus hoc ipso quod vult alium excellere, necessario cadit in invidiam, quando videt alium superare. Sicut enim dicit <name ref="#Augustine">Augustinus</name>, in libro De vera religione, necesse habet alii invidere qui non vult ab alio superari. Ergo videtur quod invidia sit poena superbiae ; et invidia absque dubio est peccatum : ergo peccatum est poena peccati.</p>
+
+          <p xml:id="bb-l2d36a1q1-d1e153">Sed contra : Omnis poena peccati est laudabilis ; nulla culpa est laudabilis : ergo nulla culpa est poena peccati. Maior probatur, quia omne quod iustum est, laudabile est ; <quote xml:id="bb-l2d36a1q1-Qd1e155">sed omnis poena peccati iusta est</quote>, sicut dicit <name ref="#Augustine">Augustinus</name>, et habetur in littera. Minor vero per se patet.</p>
+          <p xml:id="bb-l2d36a1q1-d1e162">Item, omnis poena est ordinativa culpae, et per hoc faciens ad universi decorem. Sed culpa subsequens non ordinat culpam praecedentem nec decorat, immo magis deturpat : ergo culpa non est peccati poena.</p>
+          <p xml:id="bb-l2d36a1q1-d1e165">Item, si culpa subsequens est poena praecedentis, ergo, a relativis, culpa praecedens est meritum sequentis ; pari ratione, illa culpa, quae est subsequens, est meritum alterius, et sic deinceps. Si ergo nullum peccatum debet remanere impunitum, videtur quod homo debeat peccare in aeternum. Si ergo hoc est inconveniens et indignum, patet quod peccatum non est peccati meritum : ergo nec unum peccatum est alterius punitivum.</p>
+          <p xml:id="bb-l2d36a1q1-d1e168">Item, si sequens peccatum punit praecedens, ergo, cum Deus non puniat bis in id ipsum, culpa sequenti perpetrata, culpa praecedens non debet puniri aut, si punitur, non debet tantum puniri. Quodsi hoc esset verum, reportaret quis commodum de malitia ; quodsi hoc est inconveniens, patet etc.</p>
+          <p xml:id="bb-l2d36a1q1-d1e171">Item, si peccatum est poena peccati et Deus non punit supra condignum, nunquam peccatum sequens esset maius peccatum praecedenti. Quodsi hoc de plano est falsum, quia de minori peccato devenitur ad maius, planum est quod peccatum non est poena peccati.</p>
+        </div>
+        <div xml:id="bb-l2d36a1q1-Dd1e175">
+          <head xml:id="bb-l2d36a1q1-Hd1e177">Conclusio</head>
+          <head xml:id="bb-l2d36a1q1-Hd1e180" type="question-title">Peccatum sequens non tantum causaliter, 
+   sed etiam essentialiter est poena praecedentis peccati</head>
+          <p xml:id="bb-l2d36a1q1-d1e183">Respondeo : Dicendum quod absque dubio, sicut auctoritates Sanctorum expresse dicunt, tenendum est quod peccatum est poena peccati.</p>
+ 
+          <p xml:id="bb-l2d36a1q1-d1e186">Sed attendendum est quod circa hoc est duplex modus intelligendl, secundum quod <name ref="#Lombard">Magister</name> in littera innuit. Quidam enim dicere voluerunt quod peccatum est poena peccati ; non tamen essentialiter, sive secundum id quod est, sed ratione eius quod concomitatur vel ratione eius quod consequitur ; sicut patet quod peccatum manifestum, ex quo consurgit infamia, dicitur esse vindicta peccati occulti, non ratione ipsius transgressionis, sed ratione infamiae consequentis ; vel pecca tum, in quo est manifesta ignominia, est poena peccati superbiae, sicut peccatum contra naturam et alia huiusmodi, quae vocat Apostolus passiones ignominiae, poena est ratione ignominiae, non ratione culpae. Et breviter quodlibet peccatum potest dici poena peccati praecedentis ratione laesionis quam infert ; et sic idem dicitur peccatum et poena peccati, ita tamen quod peccatum dicitur essentialiter et poena peccati causaliter.</p>
+ 
+          <p xml:id="bb-l2d36a1q1-d1e192">Sed quoniam secundum istum modum non tantum unum peccatum posset dici poena alterius, sed etiam unum peccatum posset dici poena sui, causaliter loquendo, quia peccans se ipsum laedit. Et iterum, sicut ostensum fuit in praecedentibus, non tantum actio inordinata est culpa, verum etiam ipsa deformitas, quae remanet in anima, et ipsa animae deformatio non modica est ei poena. Et rursus, sicut rationes primae ostendunt, quaedam ordinatio meriti et retributionis est inter culpam praecedentem et sequentem, etiam quantum ad id quod culpae sunt : ideo est alia opinio, cui magis videtur consentire <name ref="#Lombard">Magister</name>, quod peccatum sequens non tantum causaliter, sed etiam essentialiter, ut sic loquamur, est poena peccati praecedentis. Et hoc dicendo, sicut <name ref="#Lombard">Magister</name> dicit, in nullo fit praeiudicium veritati, immo hoc est satis planum. Nam poena duo dicit : et dicit malum sive damnum et dicit ordinem ad praecedens meritum ; et haec duo contingit reperire circa sequens peccatum. Damnificatio enim et nocumentum est in ipso secundum quod peccatum : eo enim est peccatum, quo nocet ; et magnum malum incurrit quis, cum incidit in peccatum, etiam si nihil aliud deberet habere posterius. Ordinationem vero habet in eo quod sequens ; hoc ipso enim quod homo est in peccato, dignus est dimitti cadere in aliud, iuxta illud Apocalypsis ultimo, 11, sicut dicitur in Glossa : <quote xml:id="bb-l2d36a1q1-Qd1e200">Iustum est</quote>, ut qui in sordibus est sordescat adhuc.
+Concedendum est igitur simpliciter quod peccatum potest esse poena peccati, ut expresse dicunt auctoritates Sanctorum.</p>
+ 
+        </div>
+        <div xml:id="bb-l2d36a1q1-Dd1e206">
+          <head xml:id="bb-l2d36a1q1-Hd1e208">Ad rationes</head>
+
+          <p xml:id="bb-l2d36a1q1-d1e211">Ad illud vero quod primo obicitur, quod omnis poena est laudabilis, dicendum quod illa propositio dupliciter potest intelligi : aut quod laus attribuatur poenae secundum id quod est aut in quantum poena. Si attribuatur poenae secundum id quod est, sic est falsa ; multae enim sunt poenae, quae sunt passiones ignominiae et non sunt laudabiles, sed vituperabiles, Si autem attribuatur poenae sub ratione poenae, hoc est, in quantum est praecedentis peccati punitiva, sic omnis poena est laudabilis, propter hoc quod est ordinata. Et per eumdem modum intelligenda est haec propositio : omnis poena est iusta. Cum ergo infertur quod peccatum sit iustum vel quod sit laudabile, est ibi sophisma secundum accidens, quia proceditur a laudabilitate ordinis ad laudem rei ordinabilis. Hoc autem non sequitur, quia frequenter laus ordinis extranea est ordinabili, maxime cum illud quod est vituperabile ordinatur convenienter et laudabiliter.</p>
+          <p xml:id="bb-l2d36a1q1-d1e214">Ad illud quod obicitur, quod omnis poena est ordinativa culpae, dicendum quod verum est quod eo modo ordinat quo modo punit ; et illa quae simpliciter est poena et simpliciter punit, est simpliciter ordinativa ; et illa, quae sufficienter punit, sufficienter ordinat ; quae vero est poena secundum quid et non punit sufficienter ; ordinat solum secundum quid. Et verum est illud, quod sicut quidam ordo laudabilis est, licet magis manifestus, poenae infernalis ad culpam, ita quidam ordo est laudabilis, licet minus manifestus, peccati subsequentis ad peccatum praecedens ; et in hoc ordine laudatur divina iustitia, quae committentem unum peccatum insto iudicio permisit labi in aliud.</p>
+          <p xml:id="bb-l2d36a1q1-d1e217">Ad illud quod obicitur, quod culpa praecedens non est meritum sequentis, dicendum quod est meritum congrui et est meritum condigni. Et cum dicitur culpa praecedens esse meritum sequentis, hoc non est quantum ad meritum condigni, sed congrui, quae quidem congruitas in alia congruitate de facili potest recompensari. Sicut enim est congruum quod Deus peccatorem permittat labi in aliud peccatum, sic etiam congruum est ut, quia male usus est vita, eam sibi auferat et in infernum demergat. Sicut etiam congruum est ut dimittat eum cadere in aliud peccatum, sic etiam congruum est ut, si velit abstinere, det ei auxilium ut in aliam culpam non corruat.</p>
+          <p xml:id="bb-l2d36a1q1-d1e220">Ad illud quod obicitur, quod Deus non punit bis in id ipsum, dicendum quod peccatum sequens non erat poena, in qua fieret retributio de condigno, sed solum de congruo. Et sicut retributio eius quod meretur quis quantum ad meritum congrui, non praeiudicat ei quod meretur quantum ad meritum condigni - dat enim Deus iustis bona in praesenti, non propter hoc dat minora in futuro - sic intelligendum est se habere in proposito.</p>
+          <p xml:id="bb-l2d36a1q1-d1e224">Ad illud quod ultimo obicitur, quod Deus non punit supra condignum etc., iam patet responsio. Hoc enim intelligitur de poena quae a Deo infligitur proprie et de ea quae circa peccatum praecedens respicit meritum condigni ; utrumque autem horum deficit in proposito. Nam culpa sequens, secundum id quod est, non est a Deo ; culpa etiam sequens non ordinatur ad praecedens peccatum secundum rationem condigni, sed secundum rationem congrui. Congruit enim hoc ordini divinae iustitiae, sicut ostensum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

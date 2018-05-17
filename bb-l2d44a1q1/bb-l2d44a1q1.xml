@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d44a1q1">
+        <head xml:id="bb-l2d44a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d44a1q1-Hd1e111" type="question-title">Utrum potentia peccandi sit in nobis a Deo.</head>
+        <p xml:id="bb-l2d44a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum potentia peccandi sit in nobis a Deo.</p> 
+        <div xml:id="bb-l2d44a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d44a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d44a1q1-d1e122">Et quod sic, videtur : Primo, auctoritate. <name ref="#Augustine">Augustini</name> super Psalmum, et <name ref="#Lombard">Magister</name> adducit in littera : <quote xml:id="bb-l2d44a1q1-Qd1e130">Nocendi voluntas potest esse ab hominis animo, potestas autem nonnisi a Deo</quote>. Sed voluntas nocendi, quae est hominis a se ipso, non est nisi respectu nocumenti quo quis peccat : ergo, si respectu illius eiusdem est a Deo potestas, videtur quod potestas peccandi sit a Deo in ipso.</p>
+          <p xml:id="bb-l2d44a1q1-d1e134">Item, <name ref="#Aristotle">Philosophus</name>, in Topicis: <quote xml:id="bb-l2d44a1q1-Qd1e139">Potest Deus et studiosus prava agere</quote>. Sed omne illud, in quo communicat homo cum Deo, habet ab ipso tamquam a causa et principio : si ergo in potentia peccandi homo cum Deo communicat, videtur quod potentiam peccandi a Deo accipiat.</p>
+          <p xml:id="bb-l2d44a1q1-d1e143">Item, omne illud, quod attestatur nobilitati naturae, est a Deo ; sed potestas peccandi in eo in quo est attestatur nobilitati naturae : non enim reperiri potest nisi in creatura rationali, quae est nobilissima omnium creaturarum. Ergo videtur quod potentia peccandi sit in homine a Deo.</p>
+          <p xml:id="bb-l2d44a1q1-d1e146">Item, omne illud, quod facit ad amplificationem laudis, a Deo est, cuius est omnis honor et laus ; sed posse peccare facit ad laudem viri iusti, secundum quod dicitur Ecclesiastici 31, 10 : Qui potuit transgredi et non est transgressus, et facere malum, et non fecit. Ergo videtur quod posse peccare sit in homine a Deo.</p>
+          <p xml:id="bb-l2d44a1q1-d1e150">Item, potentia peccandi aut est in creatura rationali secundum quod est a Deo aut secundum quod est ex nihilo. Si secundum quod est a Deo, habeo propositum, scilicet quod talem potentiam homo a Deo accipiat. Si secundum quod est ex nihilo, ergo, cum omnis creatura sit ex nihilo, omnis creatura habet potentiam peccandi. Si igitur hoc est falsum, restat etc.</p>
+
+          <p xml:id="bb-l2d44a1q1-d1e153">Sed contra : Peccare est deficere ; sed posse deficere est nonposse et privatio potentiae : si igitur privatio et defectus potentiae non est a Deo, videtur quod potentia peccandi non sit in homine a Deo, sed potius a se ipso.</p>
+          <p xml:id="bb-l2d44a1q1-d1e156">Item, ab eodem principio sunt actus et potentia : ergo, si peccatum non est a Deo aliquo modo, ergo nec potentia peccandi in homine est ab ipso.</p>
+          <p xml:id="bb-l2d44a1q1-d1e159">Item, gloria est perfectiva et salvativa naturae ; sed per gloriam aufertur potentia peccandi : si ergo gloria non aufert quod Deus dedit, videtur igitur quod potentiam peccandi homo a Deo non acceperit.</p>
+
+          <p xml:id="bb-l2d44a1q1-d1e162">4. Item, potentia peccandi est potentia faciendi contra Deum : ergo potentia peccandi, in quantum huiusmodi, adversatur divinae potentiae : si igitur divina potentia nihil contra se facit, videtur igitur quod ab ipso non sit potentia peccandi.</p>
+          <p xml:id="bb-l2d44a1q1-d1e165">5. Item, omne quod est in homine a Deo, habet exemplar in Deo ; sed potentia peccandi, in quantum huiusmodi, non habet exemplar in Deo ; impossibile est enim quod Deus peccet, sicut in locis pluribus <name ref="#Augustine">Augustinus</name> ostendit ; et impossibile est etiam defectus habere exemplar in Deo. Si igitur homo secundum potentiam peccandi Deo non assimilatur, immo potius assimilatur diabolo, et omne illud, quod homo habet a Deo, habet in ipso exemplaritatem et similitudinem, videtur quod potentia peccandi in homine non habeat a Deo causam et originem.</p>
+        </div>
+        <div xml:id="bb-l2d44a1q1-Dd1e172">
+          <head xml:id="bb-l2d44a1q1-Hd1e174">Conclusio</head>
+          <head xml:id="bb-l2d44a1q1-Hd1e177" type="question-title">Potentia peccandi uno modo accepta est a Deo, alio autem modo minime</head>
+          <p xml:id="bb-l2d44a1q1-d1e180">Respondeo : Dicendum quod, cum dico potentiam peccandi, duo dico : et dico aliquam potentiam et dico potentiam ad talem actum ordinabilem.
+Si igitur loquamur de potentia peccandi, secundum quod potentia est, cum illa potentia sit liberum arbitrium, sic absque dubio a Deo est.
+Si autem loquamur de ordinabilitate illius potentiae ad peccatum, tunc dicendum est quod sicut peccatum aliquando accipitur abstracte, aliquando concrete - aliquando enim nominat actionem deformem, aliquando ipsam deformitatem - sic dupliciter est loqui de illa ordinabilitate ad peccandum : aut respectu deformitatis aut respectu actionis substratae. Si respectu actionis substratae, sic talis ordinabilitas a Deo est, sicut et actio substrata peccato. Si autem loquamur de ordinabilitate illa respectu deformitatis, sic, cum illa deformitas nihil aliud sit quam privatio et defectus, talis ordinabilitas nihil aliud est quam defectibilitas ; et ideo, sicut defectus deformitatis non est a Deo, sic nec talis defectibilitas est a Deo, sed est in ipsa creatura rationali, quia ex nihilo. Sic igitur potentia peccandi uno modo conceditur esse a Deo, alio modo minime.
+Et secundum hoc currunt rationes ad oppositas partes, et etiam diversae fuerunt opiniones.</p>
+ 
+          <p xml:id="bb-l2d44a1q1-d1e183">Nam, sicut <name ref="#Lombard">Magister</name> dicit in littera quidam dixerunt quod potentia peccandi non est a Deo ; alii vero dixerunt quod potentia peccandi a Deo est ; quod nititur probare <name ref="#Lombard">Magister</name> multis auctoritatibus. Illae autem auctoritates non valent ad hoc concludendum, nisi accipiatur potentia peccandi secundum illud quod est, sive respectu actionis ad quam est, quia hoc modo continetur sub genere potentiae. Secundum autem quod potentia peccandi consideratur in comparatione ad ipsam deformitatem, sic non est in genere potentiae, immo potius impotentiae ; sic enim non nominat potentiam, sed defectum. Et sicut non sequitur : Deus potest omnia facere, ergo potest peccare ; sic non sequitur isto modo : omnis potestas a Deo est, ergo potestas peccandi a Deo est. Et isto modo loquendo dicit Anselmus quod potestas peccandi non est libertas nec pars libertatis.
+Et hoc modo procedunt rationes ostendentes quod potestas peccandi non sit in homine a Deo ; et ideo concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d44a1q1-Dd1e194">
+          <head xml:id="bb-l2d44a1q1-Hd1e196">Ad rationes</head>
+          <p xml:id="bb-l2d44a1q1-d1e199">Ad illam vero quae obicitur de potentia nocendi, quod est a Deo, quamvis voluntas non sit ab ipso, dicendum quod <name ref="#Augustine">Augustinus</name> vim facit in verbo illo inter ipsam potentiam qua peccatur et actualem ordinationem illius potentiae qua peccatur ; et vult dicere quod ipsa potentia a Deo est, quamvis ipsa ordinatio ad peccatum ab ipso non sit, quia potius est deordinatio quam ordinatio. Et ideo ex hoc non habetur nisi quod potentia peccandi, secundum id quod est, a Deo sit ; secundum autem quod est ad peccandum, non potest elici ex illa auctoritate quod sit a Deo, immo potius oppositum, quia potentia peccandi non pervenit in peccatum nisi mediante voluntaria deordinatione, quam a Deo esse negat <name ref="#Augustine">Augustinus</name> in praedicta auctoritate.</p>
+          <p xml:id="bb-l2d44a1q1-d1e208">Ad illud verbum <name ref="#Aristotle">Philosophi</name>, quo dicit quod Deus et studiosus potest prava facere, exponunt quidam quod <name ref="#Aristotle">Philosophus</name>, intellexit de malo poenae. Sed hoc plane repugnat eius textui ; et ideo, cum Sacra Scriptura dicat et omnes expositores concordant quod nullo modo potest peccare sicut nec mentiri nec etiam se ipsum negare, dicendum est quod illud verbum <name ref="#Aristotle">Philosophi</name> non habet veritatem. Nec credo ipsum constituisse magnam vim in verbo illo, pro eo quod dixit hoc solum exemplificando et pertranseundo ; et exemplum suum satis sufficiebat ad propositum pro parte in qua habet veritatem, pro hac videlicet quod studiosus potest mala agere, licet hoc non sit unde studiosus, sed unde potest a virtute deficere.</p>
+          <p xml:id="bb-l2d44a1q1-d1e220">Ad illud quod obicitur, quod potentia peccandi attestatur nobilitati naturae, dicendum quod hoc non est verum, in quantum dicit ordinem ad defectum, sed in quantum dicit ordinationem ad actum substratum ; nam nullus actus est deformabilis per culpam, nisi qui procedit a potentia deliberativa, quae nobilis est, quia sola illa informabilis est per iustitiam.
+Vel dicendum quod attestari nobilitati est dupliciter : aut per se aut per accidens. Potentia autem peccandi et peccatum attestatur nobilitati naturae per accidens, sicut dicit <name ref="#Augustine">Augustinus</name> quod dolor boni amissi testis est naturae bonae.
+</p>
+
+          <p xml:id="bb-l2d44a1q1-d1e226">Ad illud quod obicitur, quod facit ad amplificationem laudis, dicendum quod sicut virtus commendabilior redditur ex peccatis, sic potentia bene faciendi commendabilior redditur ex potentia male faciendi ; non quia vitium aliquid addat bonitati virtutis nec potentia deficiendi aliquid addat potentiae bene faciendi, sed quia ex praesentia oppositi magis in sua bonitate clarescit. Sic magis apparet virtuositas hominis, quando potest mala facere et non vult, quam si non posset nec vellet ; et ideo laudatur vir iustus in hoc quod potuit mala facere et non fecit, hoc est, laudatur in hoc quod fecit bonum et non fecit malum, cum posset ; ita quod laus essentialiter respicit hoc quod est facere bonum, hoc autem quod est posse peccare non respicit nisi per accidens ; unde, circumscripta potentia faciendi malum, si bonum faceret voluntarie, adhuc laudaretur.</p>
+          <p xml:id="bb-l2d44a1q1-d1e230">Ad illud quod quaeritur, utrum potentia peccandi insit creaturae a Deo vel ex nihilo, dicendum quod ratione actus substrati, qui est actus deliberativus, Inest ei a Deo ; ratione vero defectus inest ei ex nihilo. Et hinc est quod potentia peccandi non reperitur in omni creatura, quia ratione imperfectionis non reperitur in creatura irrationali, pro eo quod non potest in ea esse actus deliberationis ; ratione vero omnimodae perfectionis non reperitur in creatura beata, quia non potest in ea esse defectus, adeo suo Creatori est coniuncta. Et sic potentia peccandi quodam modo tollitur per gloriam, quodam modo relinquitur ; quodam modo est ipsa libertas, quodam modo minuit libertatem ; quodam modo est potentia et quodam modo impotentia, quia quodam modo dicit positionem et quodam modo privationem. Et ideo, cum quaeritur, utrum sit a Deo, non est respondendum simpliciter, sed secundum praedictam distinctionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

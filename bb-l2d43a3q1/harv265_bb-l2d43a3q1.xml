@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d43a3q1">
+        <head xml:id="bb-l2d43a3q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d43a3q1-Hd1e111" type="question-title">De numero et sufficientia specierum huius peccati.</head>
+        <p xml:id="bb-l2d43a3q1-d1e114">Circa primum sic proceditur et quaeritur de numero et sufficientia specierum huius peccati. Et communiter consueverunt huius peccati sex species assignari, videlicet desperatio, praesumtio, obstinatio, invidentia fraternae gratiae, impugnatio veritatis agnitae et finalis impoenitentia.</p>
+        <div xml:id="bb-l2d43a3q1-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-l2d43a3q1-d1e119">Sed quod multo plures debeant esse, videtur : Quia, cum sint tres virtutes theologicae, videlicet fides, spes, caritas, quarum quaelibet ita est ad salutem necessaria sicut alia, videtur quod sicut est unum peccatum in Spiritum Sanctum quod est contra spem, videlicet desperatio, similiter debeat esse unum contra fidem et aliud contra caritatem.</p>
+          <p xml:id="bb-l2d43a3q1-d1e122">Item, virtutes cardinales multae sunt praeter poenitentiam, quae sunt necessariae ad salutem : ergo sicut accipitur species peccati in Spiritum Sanctum per oppositionem ad poenitentiam, ita deberet accipi per oppositionem ad alias virtutes cardinales.</p>
+          <p xml:id="bb-l2d43a3q1-d1e125">Item, in Deo non tantum considerantur istae conditiones, videlicet misericordia et iustitia, sed etiam plures aliae, utpote bonitas et maiestas : ergo sicut sunt duae species huius peccati, quarum una est contra iustitiam, ut praesumtio, alia contra misericordiam, ut desperatio, ita videtur quod duae aliae species deberent esse contra conditiones alias.</p>
+          <p xml:id="bb-l2d43a3q1-d1e128">Item, septem sunt peccata capitalia, inter quae sunt aliqua ita magna sicut est invidia : ergo sicut invidentia fraternae gratiae ponitur una species huius peccati, ita deberet poni superbia et ira.</p>
+          <p xml:id="bb-l2d43a3q1-d1e131">Item, aeque magnum peccatum est impugnare bonitatem sicut impugnare veritatem. Ergo sicut est una species huius peccati penes impugnationem veritatis agnitae, ita deberet esse alia species penes impugnationem bonitatis.</p>
+          <p xml:id="bb-l2d43a3q1-d1e135">Item, <quote xml:id="bb-l2d43a3q1-Qd1e137" ana="mt12_31">spiritus blasphemiae</quote> est peccatum in Spiritum Sanctum, secundum quod dicitur in Glossa et in textu Matthaei 12, 31 ; nec est aliquod praedictorum : ergo videtur quod plures sint species peccati in Spiritum Sanctum quam praedictae.</p>
+          <p xml:id="bb-l2d43a3q1-d1e141">Item, quaero, unde accipiatur distinctio istarum specierum. Aut enim accipitur ex parte eius cui opponitur hoc peccatum aut ex parte actuum substratorum aut ex parte motivorum. Si ex parte eius cui opponitur, cum illa sit gratia poenitentialis, et gratia poenitentialis sit una, videtur quod una sola deberet esse species huius peccati. Si ex parte actuum substratorum, aut illi actus sunt principales potentiarum interiorum aut non principales. Si principales, tunc non deberent esse nisi tres secundum numerum potentiarum. Si penes actus non principales, ergo deberent esse multo plures quam sex. Si ex parte motivorum, similiter obicitur, quia, cum plura sint motiva quam sex, plures erunt huius peccati species.</p>
+
+          <p xml:id="bb-l2d43a3q1-d1e144">Iuxta hoc quaeritur, cum <name ref="#Lombard">Magister</name> non tangat in littera nisi de quatuor speciebus peccati in Spiritum Sanctum et alii ponant quinque species, alii sex, unde veniat ista diversitas. Quaeritur ergo penes quid distinguantur istae species et qui sit earum numerus et sufficientia.</p>
+        </div>
+        <div xml:id="bb-l2d43a3q1-Dd1e151">
+          <head xml:id="bb-l2d43a3q1-Hd1e153">Conclusio</head>
+          <head xml:id="bb-l2d43a3q1-Hd1e156" type="question-title">Sex species peccati in Spiritum sanctum convenientius assignantur quam quatuor aut quinque</head>
+          <p xml:id="bb-l2d43a3q1-d1e159">Respondeo : Dicendum quod peccatum in Spiritum Sanctum directe est contra effectum Spiritus Sancti, qui quidem dicitur gratia poenitentialis. Haec autem poenitentialis gratia, secundum quod in Sacramento consideratur, tria respicit, videlicet medicum et aegrotum et ministrum.
+Ex parte medici concurrunt ista duo : misericordia et iustitia : misericordia, per quam remittit offensam ; et iustitia, per quam exigit emendam. Contra misericordiam est desperatio ; contra iustitiam est praesumtio.
+Similiter ex parte aegroti duo concurrunt, videlicet detestatio peccati praeteriti et propositum non peccandi ; nisi enim haec duo in se habeat, non est idoneus ad hoc quod gratia Spiritus Sancti habeat in ipsum efficaciam. Contra detestationem peccati est obstinatio ; contra vero propositum non peccandi est finalis impoenitentia.
+Similiter ex parte ministri duo concurrunt, videlicet veritas doctrinae, per quam peccatorem instruat, et sanctitas gratiae, per quam ipsum adiuvet et sublevet. Contra veritatem doctrinae est impugnatio veritatis agnitae ; contra sanctitatem gratiae est invidentia fraternae gratiae.
+Et sic patet numerus et sufficientia, quare scilicet tot sunt species peccati nec plures nec pauciores.</p>
+ 
+          <p xml:id="bb-l2d43a3q1-d1e162">Aliter potest accipi sufficientia dictarum specierum, quia, cum peccatum illud sit contra gratiam poenitentialem, in quantum per ipsam fit remissio peccatorum in unitate Ecclesiae, aut illud peccatum est contra poenitentiam aut contra unitatem ecclesiasticam.
+Contra poenitentiam autem potest esse dupliciter : aut per recessum a bono, et sic est desperatio ; aut per obfirmationem in malo, et sic est obstinatio.
+Si contra unitatem ecclesiasticam, sic est aut ratione veritatis aut ratione bonitatis. Si ratione veritatis, sic est impugnatio veritatis agnitae ; si ratione bonitatis, sic est evidentia fraternae gratiae. Et hoc modo sumuntur quatuor species.</p>
+ 
+          <p xml:id="bb-l2d43a3q1-d1e165">Nec iste modus assignandi repugnat ei qui dictus est, quia sub obstinatione, quae est obfirmatio in malo, clauditur praesumtio et finalis impoenitentia. Hoc enim ipso quod obfirmatus est aliquis in malo, nec timet poenam nec proponit dimittere culpam.</p>
+ 
+          <p xml:id="bb-l2d43a3q1-d1e169">Aliter sumitur numerus istarum specierum, quia, cum peccatum in Spiritum Sanctum sit contra poenitentialem gratiam, aut est contra ipsam ratione sui aut ratione antecedentium aut ratione subsequentium.
+Si ratione sui, sic est obstinatio. Si ratione antecedentium, cum ad poenitentiam antecedant timor et spes tamquam duae molae, contra timorem est praesumtio, contra spem est desperatio. Si ratione consequentium, cum ad poenitentiam consequatur emenda, quae consistit in duobus, videlicet in vera confessione et bona satisfactione, sic sumuntur duae species, quarum una est impugnatio veri, altera est detestatio boni ; et secundum istam assignationem obstinatio comprehendit obstinationem proprie dictam et finalem impoenitentiam.</p>
+ 
+          <p xml:id="bb-l2d43a3q1-d1e172">Et sic patet numerus et sufficientia specierum, et qua ratione quidam assignant quatuor, quidam quinque, quidam sex. Ille autem modus, quo assignantur sex species, convenientior est et communius tenetur, pro eo quod illud quod alii dicunt implicite, ille dicit explicite.
+Iuxta hunc modum concedendum est species peccati in Spiritum Sanctum numero esse sex et non plures.</p>
+        </div>
+        <div xml:id="bb-l2d43a3q1-Dd1e177">
+          <head xml:id="bb-l2d43a3q1-Hd1e179">Ad conclusiones</head>
+          <p xml:id="bb-l2d43a3q1-d1e182">Ad illud ergo quod obicitur, quod deberet esse peccatum in Spiritum Sanctum contra fidem et contra caritatem, dicendum quod illa ratio non cogit, quia non dicitur desperatio peccatum in Spiritum Sanctum quia est contra spem, sed quia directe repugnat dispositioni gratiae poenitentialis. Qui enim desperat de venia, nunquam ad gratiam se praeparat, sicut Iudas, qui facilius desperans cucurrit ad laqueum, sicut dicit <name ref="#Augustine">Augustinus</name> quam ad petendum misericordiae beneficium.</p>
+          <p xml:id="bb-l2d43a3q1-d1e188">Ad illud quod obicitur, quod sunt aliae virtutes cardinales praeter poenitentiam, dicendum quod, etsi aliae virtutes sint, tamen poenitentia proprie virtus est, per quam resurgit homo in gratia et per quam remittitur culpa ; et ideo peccatum, quod maxime est impugnativum gratiae, magis directe habet opponi poenitentiae quam alii virtuti cardinali. Praeterea, poenitentia non tantum est virtus, sed etiam Sacramentum, et utroque modo ei opponitur peccatum in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a3q1-d1e191">Ad illud quod obicitur, quod aliae sunt conditiones Dei quam misericordia et iustitia, dicendum quod, etsi aliae sint, istae tamen sunt praecipuae quae considerantur in opere iustificationis et quas oportet attendere peccatores, utpossint redire ad gratiam ; et ideo magis contra istas assignantur species peccati ih Spiritum Sanctum quam contra conditiones alias.</p>
+          <p xml:id="bb-l2d43a3q1-d1e194">Ad illud quod obicitur, quod septem sunt capitalia peccata ita magna sicut invidia, dicendum quod invidentia fraternae gratiae non ponitur esse peccatum in Spiritum Sanctum ratione eius quod est capitale peccatum, sed ratione eius quod est impugnatio boni, quae directam habet oppositionem ad bonum poenitentiae.</p>
+          <p xml:id="bb-l2d43a3q1-d1e198">Ad illud quod obicitur, quod contingit impugnare bonitatem sicut veritatem et maiestatem, dicendum quod in impugnatione veritatis agnitae clauditur impugnatio maiestatis et etiam bonitatis, quoniam veritas non tantummodo praedicat se, sed etiam praedicat et manifestat bonitatem et etiam maiestatem Dei ; et dum aliquis scienter dicit contra veritatem, in qua praedicatur Dei maiestas et bonitas, per consequens maiestatem et bonitatem impugnat.</p>
+          <p xml:id="bb-l2d43a3q1-d1e201">Ad illud quod obicitur de spiritu blasphemiae, dicendum quod comprehenditur sub impugnatione veritatis agnilae. Qui enim verbis falsis veritati Dei resistit et blasphemare dicitur et veritatem agnitam impugnare.</p>
+          <p xml:id="bb-l2d43a3q1-d1e204">Ad illud quod quaeritur, penes quid accipiatur numerus et sufficientia specierum huius peccati, dicendum quod sumitur ex parte oppositi. Opponitur autem poenitentiae hoc peccati genus, non solum ratione habitus poenitentiae, sed etiam ratione eorum quae concurrunt ad poenitentiae effectum. Et quia ista sunt sex, sicut ostensum fuit, duo ex parte medici et duo ex parte aegroti et duo ex parte ministri, propter hoc sex sunt species huius peccati.</p>
+          <p xml:id="bb-l2d43a3q1-d1e207">Ad illud vero quod ultimo quaerebatur, iam patet responsio per ea quae dicta sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

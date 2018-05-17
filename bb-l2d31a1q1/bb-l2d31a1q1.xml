@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31a1q1">
+        <head xml:id="bb-l2d31a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d31a1q1-Hd1e111" type="question-title">Utrum anima sensibilis in hominibus sit a generante.</head>
+        <p xml:id="bb-l2d31a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum anima sensibilis in hominibus sit a generante.</p>
+        <div xml:id="bb-l2d31a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d31a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d31a1q1-d1e122">Et quod sit a generante, videtur : Primo, per verbum <name ref="#Aristotle">Philosophi</name>, in II De anima, ubi dicit quod <quote xml:id="bb-l2d31a1q1-Qd1e127" source="http://scta.info/resource/aristda-l2">sensitivi prima mutatio est a generante</quote>. Sed prima mutatio sensitivi est illa quae est ad esse : ergo videtur quod pars sensitiva in nobis educatur in esse a generante.</p>
+          <p xml:id="bb-l2d31a1q1-d1e131">Item, XVI Animalium : <quote xml:id="bb-l2d31a1q1-Qd1e133">Solus intellectus intrat ab extrinseco</quote> : ergo solus intellectus intrat per creationem : ergo videtur quod anima sensitiva in nobis educatur de principiis materiae et per generationem.</p>
+          <p xml:id="bb-l2d31a1q1-d1e137">Item, sicut operatio animae sensitivae in brutis pendet a corpore, ita et in hominibus : unde sicut brutum Impeditur ab operatione videndi laeso organo, sic etiam homo ; sed quod similiter se habet ad operationem, similiter se habet ad generationem ; ergo, si in brutis est anima sensibilis non per creationem, sed per generationem, sicut communiter tenetur et supra ostensum est, distinctione decima quinta, videtur quod in homine similiter sit per generationem.</p>
+          <p xml:id="bb-l2d31a1q1-d1e140">Item, sicut in generatione brutorum <quote xml:id="bb-l2d31a1q1-Qd1e142">prius est animal quam equus</quote>, sic et in generatione hominis prius est animal quam homo : ergo prius habet operationem et perfectionem partis sensitivae quam habeat perfectionem intellectivae ; et huius signum est, quia embryo prius nutritur et sentit quamperficiatur anima rationali. Ergo videtur quod ante productionem rationalis educatur in nobis sensibilis ; sed hoc non est per creationem : ergo per generationem.</p>
+          <p xml:id="bb-l2d31a1q1-d1e147">Item, anima sensitiva est in potentia materiae, alioquin nunquam ab agente naturali in his quae per putrefactionem generantur posset produci in esse. Si ergo aeque potens vel magis potens est vis generativa in homine quam sit in bruto, et brutum potest per vim generativam animam sensitivam ad esse producere, multo fortius ergo hoc videtur in homine.</p>
+          <p xml:id="bb-l2d31a1q1-d1e150">Item, si in nobis est sensitiva per creationem, in brutis per generationem, ergo non videtur quod sit in nobis vel in ipsis univoce ; et si hoc, animal dicetur aequlvoce de asino et de homine. Quod si hoc est inconveniens, restat quodsi in brutis est per generationem, quod similiter in homine.</p>
+
+ 
+          <p xml:id="bb-l2d31a1q1-d1e153">Sed contra : <name ref="#Augustine">Augustinus</name>, in libro De spiritu et anima : <quote xml:id="bb-l2d31a1q1-Qd1e158">Cum recedit anima a corpore, secum trahit sensum et imaginationem et rationem et intellectum</quote>. Sed nihil quod separatur a corpore est per generationem ; sensibilis autem in homine est huiusmodi : ergo etc.</p>
+          <p xml:id="bb-l2d31a1q1-d1e162">Item, in libro De ecclesiasticis dogmatibus : <quote xml:id="bb-l2d31a1q1-Qd1e164">Animae animalium non sunt substantiae, sed cum carne ipsa carnis vivacitate nascuntur et cum carnis morte finiuntur</quote>, <quote xml:id="bb-l2d31a1q1-Qd1e167">anima vero humana non cum carne moritur, quia nec cum carne seminatur</quote> .</p>
+          <p xml:id="bb-l2d31a1q1-d1e171">Item, <name ref="#Aristotle">Philosophus</name>, in II De anima, dicit quod <quote xml:id="bb-l2d31a1q1-Qd1e176" source="http://scta.info/resource/aristda-l2">sensitivum est in intellectivo sicut tetragonus in pentagono, et vegetativum in sensitivo sicut trigonus in tetragono</quote>. Si ergo ab eodem principio est tetragonus a quo et pentagonus, ab eodem erit anima sensitiva et intellectiva ; sed intellectiva non est a generante, ut monstratum fuit supra ; ergo nec sensitiva.</p>
+          <p xml:id="bb-l2d31a1q1-d1e180">Item, quaecumque sunt idem in substantia ab eodem principio educuntur in esse ; sed anima sensitiva et intellectiva in eodem homine sunt idem in substantia, quia unius perfectibilis una est perfectio : ergo, si rationalis non est per generationem, videtur quod nec sensibilis.</p>
+          <p xml:id="bb-l2d31a1q1-d1e184">Hem, quae simul corrumpuntur simul etiam producuntur : ergo pari ratione, quae simul separantur simul et infunduntur. Sed, recedente anima rationali, nullo modo remanet potentia sentiendi in corpore : ergo sicut amittitur potentia sentiendi in recessu animae, ita infunditur in adventu ; non est igitur a generatione, sed a creatione.</p>
+          <p xml:id="bb-l2d31a1q1-d1e187">Item, cum intenditur operatio sensus, minuitur operatio intellectus et e converso, sicut patet per experientiam : ergo necesse est sensum et intellectum vel esse unam potentiam vel esse potentias eiusdem substantiae. Sed quodcumque eorum sit, eodem modo habent educi in esse : cum igitur rationalis non sit ex traduce, videtur quod nec portio sensibilis in homine.
+Quodsi tu dicas quod una retrahit alteram propter ordinem et unionem in uno perfectibili, non in una substantia animae, obicitur contra hoc : quia anima rationalis aut potest sentire aut non. Si non potest, ergo videtur quod non possit corpus vivificare. Quodsi potest sentire, restat quod istae potentiae fundantur in eadem substantia.
+Si tu dicas ad hoc quod duplex est in nobis sensitiva : una a generante, et haec corrumpitur ; alia a creante, et haec cum anima separatur ; obicitur contra hoc : quia natura non facit per plura quod potest facere per pauciora. Si ergo sensitiva illa, quae est a generante, sufficit in brutis ad sentiendum, multo fortius illa, quae est a creante, sufficit homini : ergo non est aliam ponere sensitivam, quae sit a generante.
+Quodsi tu dicas quod est ibi non ad sentiendum, sed ad disponendum corpus ad susceptionem rationalis, hoc non videtur sufficere, quia, si talis anima est substantia aeque completa in homine sicut in brutis, et in brutis non caret operatione sensitiva, videtur ergo quod nec in homine. Aut igitur erit in nobis ponere duplicem actum sentiendi simul et semel aut est ponere quod quod sensitiva sit in nobis a creatione. Sed primum manifeste est falsum : restat igitur quod ultimum sit verum.
+</p>
+        </div>
+        <div xml:id="bb-l2d31a1q1-Dd1e191">
+          <head xml:id="bb-l2d31a1q1-Hd1e193">Conclusio</head>
+          <head xml:id="bb-l2d31a1q1-Hd1e196" type="question-title">Anima sensitiva in homine non habet esse per generationem, sed per creationem</head>
+    
+          <p xml:id="bb-l2d31a1q1-d1e199">Respondeo : Dicendum quod circa hoc triplex est modus dicendi. Aliter enim hic senserunt quidam haeretici, aliter videntur sensisse philosophi, aliter sentiunt doctores catholici.</p>
+ 
+          <p xml:id="bb-l2d31a1q1-d1e202">Quidam enim haeretici senserunt esse in nobis animas diversas, ita quod una sit a Deo bono et altera a deo malo ; et ex hoc dixerunt quod venit in nobis controversia et rebellio appetituum, ita quod caro concupiscit adversus spiritum, et spiritus adversus carnem, quia una illarum animarum, scilicet quae est a bono Deo, non potest facere malum, altera vero, scilicet illa quae est a deo malo, non potest facere bonum.
+Hunc modum dicendi tamquam haereticum reprobat <name ref="#Augustine">Augustinus</name>, in libro De duabus animabus ostendens quod ista positio implicat in se duo contradictoria, dum ponit talem rebellionem esse in homine et ponit simul cum hoc hominem peccare et hominem poenitere posse. Hanc etiam positionem facile esset improbare secundum viam philosophiae, quoniam in uno perfectibili necedse est unam esse perfectionem ; et cum homo sit unum quid per essentiam, impossibile est ab omnino diversis principiis in esse produci. Si ergo anima rationalis est a Deo bono, sensibilis nostra non potest esse a deo malo.</p>
+ 
+          <p xml:id="bb-l2d31a1q1-d1e208">Quidam autem dixerunt quod rationalis et sensibilis sunt in nobis duae substantiae, non tamen sunt duae animae, pro eo quod anima nomen est officii ; et illae duae substantiae ordinatae sunt ad unius corporis perfectionem, ita quod una disponit ad alteram. Una tamen illarum est per generationem, scilicet sensibilis ; et huius signum est, quia dependet a corpore et est perfectio alicuius partis corporis ; rationalis vero, quae nullius partis corporis est actus, est per creationem.
+Sed hunc modum dicendi respuit <name ref="#Augustine">Augustinus</name>, in libro De ecclesiasticis dogmatibus, dicens : <quote xml:id="bb-l2d31a1q1-Qd1e213">Non duas animas in homine uno esse dicimus, sicut Iacobus et alii Syrorum scribunt, unam animalem, qua animetur corpus et mixta sit sanguini, et alteram spiritualem, quae rationem administret</quote>. Et si tu dicas quod negat duas esse animas, non negat duas esse substantias, per litteram sequentem apparet quod negat duas substantias esse. Ait enim sic ; <quote xml:id="bb-l2d31a1q1-Qd1e216">Sed dicimus unam eamdemque animam in homine, quae corpus sua societate vivificet et semetipsam sua ratione disponat</quote>. Et expressius, in libro De spiritu et anima dicit quod una et eadem anima dicitur sensus, dum sentit, et ratio, dum discernit. Et iterum dicit quod anima cum recedit, trahit secum potentias sensitivas.</p>
+ 
+          <p xml:id="bb-l2d31a1q1-d1e221">Doctores autem theologici dicunt quod sensibilis et rationalis in homine eiusdem sunt substantiae et ab eodem principio habent educi in esse, videlicet a Creatore, pro eo quod in nobis non nominant diversas substantias, sed diversas potentias eiusdem substantiae, sicut <name ref="#Augustine">Augustinus</name>, ubi de hac materia loquitur, insinuat expresse. Et hoc idem valde est rationabile ponere in homine unam substantiam perficientem, quae det ei vitam et sensum et intellectum. Nec repugnat illud verbis <name ref="#Aristotle">Philosophi</name>, si recte intelligantur.</p>
+ 
+          <p xml:id="bb-l2d31a1q1-d1e230">Propter quod notandum quod sensualitas tribus modis accipitur. Uno modo sensualitas dicit dispositionem ex parte carnis ad actum virtutis sensitivae ; et hoc modo accipitur in libro De spiritu et anima, 14 capitulo, ubi dicitur : Anima, quae vere spiritus est, et caro, quae vere corpus est, in suis extremitatibus facile iunguntur, id est in phantastico animae, quod corpus non est, sed simile corpori, et sensualitate carnis, quae fere spiritus est.
+Alio modo sensualitas dicit dispositionem ex parte carnis ad sentiendum cum virtute spirituali movente, nondum anima carnem perficiente ; et talis sensualitas est in embryone ante ipsius completam animationem. Ibi enim non potest esse substantia animae perficiens, cum sit perfectio corporis physici, organici ; nec possit actualiter existere nisi corpore existente in debita complexione et organizatione. Potest tamen ibi esse virtus animae patris, quae quidem est in semine sicut in subiecto deferente, sicut virtus motoris defertur simul cum lapide proiecto ; et ideo haec cessat quando operatio eius consummatur ; quod fit quando corpori organizato inducitur anima sensitiva perficiens, sive educatur de potentia materiae subito sive cum rationali infundatur ab extrinseco.
+Tertia vero sensualitas est, quae non tantum dicit dispositionem cum virtute movente, sed etiam habilitatem, quae inest ex anima perficiente.
+Primo et secundo modo accipiendo sensualitatem, sic est in nobis a generante, quia cum semine deciduntur calores et spiritus, per quos caro disponitur ad sentiendum. Transfunditur etiam simul cum hoc aliqua virtus animae, quae movet et regit et operatur usqud ad formae inductionem. Tertio modo sensualitas est in homine ab anima perficiente, quae quidem non habet esse per generationem, sed per creationem.
+His visis, patet responsio ad quaestionem. Concedendum est enim quod anima sensibilis non est in nobis ex traduce, sicut ostendunt rationes ad secundam partem obiectae. Ad rationes vero, quae adducuntur in oppositum, facile est respondere.</p>
+        </div>
+        <div xml:id="bb-l2d31a1q1-Dd1e235">
+          <head xml:id="bb-l2d31a1q1-Hd1e237">Ad rationes</head>
+          <p xml:id="bb-l2d31a1q1-d1e240">Ad illud enim quod obicitur, quod sensitivi prima mutatio est a generante, dicendum quod loquitur de sensitivo secundum quod nominat substantiam, non secundum quod nominat potentiam substantiae incorruptibilis.
+Vel etiam hoc dicit ratione illius sensualitatis secundo modo dictae, quae quidem habet esse a generante.
+</p>
+
+          <p xml:id="bb-l2d31a1q1-d1e243">Ad illud quod obicitur, quod solus intellectus intrat ab extrinseco, dicendum quod ibi vocatur intellectus substantia intellectiva ; et quia eadem est substantia intellectiva et sensitiva hominis, ideo per hoc non excluditur sensitiva hominis, sed sensitiva brutalis.</p>
+          <p xml:id="bb-l2d31a1q1-d1e246">Ad illud quod obicitur, quod operatio sensitivae pendet ex corpore, dicendum quod ex hoc non sequitur quod substantia dependeat, quoniam in eadem substantia reperitur operatio quae ei potest competere praeter corpus. Haec autem non convenit ipsi animae nisi se eundum quod animat, et ita secundum quod corpori iuncta est, et propterea pendet ex corpore, nec anima utitur illa potentia postquam a corpore separatur ; nec sequitur quod sit otiosa, quia substantia illa aliam habet operationem. Hoc autem planius invenietur determinatum in quarto, in quaestione de cognitione animae separatae.</p>
+          <p xml:id="bb-l2d31a1q1-d1e249">Ad illud quod obicitur, quod prius est animal quam homo, dicendum quod hoc dicitur, quia prius reperitur in embryone operatio animalis quam operatio hominis ; prius enim movetur et sentit quam ratiocinetur. Sed hoc est a sensualitate secundo modo dicta, prout est a virtute movente, non prout est a virtute perficiente.</p>
+          <p xml:id="bb-l2d31a1q1-d1e253">Ad illud quod obicitur, quod anima sensibilis est in potentia materiae, dicendum quod verum est secundum quod anima sensibilis nominat substantiam generabilem et corruptibilem, sed non prout nominat potentiam substantiae incorruptibilis. Et quia anima sensitiva In brutis huiusmodi substantiam nominat, hinc est quod bruta suam animam sensitivam educunt de materia, sicut et in his potissime quae generantur per putrefactionem. Sensibilis vero in homine dicit potentiam rationalis substantiae ; et ideo ab eo solo producitur a quo substantia rationalis. Et ideo, quod sensibilis non possit propagari in homine sicut in brutis, hoc non est imperfectionis ex parte virtutis generantis, sed ratione perfectionis, quae consistit in sensitiva hominis.</p>
+          <p xml:id="bb-l2d31a1q1-d1e256">Ad illud quod obicitur, quod non est univoce in homine et in asino, dicendum quod aliquid produci per generationem et aliquid produci per creationem non tollit univocationem ; sicut, si Deus modo crearet unum hominem, eiusdem speciei esset cum aliis hominibus. Si igitur maior requiritur univocatio in specie quam in genere, planum est ex hoc quod diversus modus producendi animam sensibilem in homine et asino non facit hominem et asinum dici aequivoce.
+
+Et si tu obicias, quod sensibilis in homine nominat potentiam et in asino nominat substantiam, ergo aequivoce dicitur, dicendum quod in asino et potest nominare substantiam et potest nominare potentiam, principalius tamen nominat potentiam, quia nomen eius sumtum est ab actu sentiendi. In homine similiter nominare potest et substantiam et potentiam ; sed prout nominat substantiam, non dicitur aliquid diversum a rationaii : eadem enim est substantia, quae facit hominem et sentire et ratiocinari, quamvis alia et alia sit potentia. Et sic patet quod ex hoc non tollitur univocatio in genere animalis respectu rationajis et irrationalis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

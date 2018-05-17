@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41dt">
+        <head xml:id="bb-l2d41dt-Hd1e108">Divisio textus</head> 
+        <p xml:id="bb-l2d41dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> qualiter actus habeant rectificari ex rectitudine intentionis et voluntatis : in hac parte intendit determinare qualiter actus ex defectu intentionis et voluntatis habeant depravari. Dividitur autem pars ista in duas partes.
+In quarum prima comparat <name ref="#Lombard">Magister</name> opera ad intentionem deficientem.
+In secunda vero comparat malos actus sive mala opera ad voluntatem, ibi : Post haec investigari oportet etc.
+   </p>
+        <p xml:id="bb-l2d41dt-d1e120">Prima pars dividitur in partes tres,
+in quarum prima <name ref="#Lombard">Magister</name> movet quaestionem et determinat secundum quorumdam opinionem.
+In secunda vero obicit contra illam determinationem, adiungens illi quaestioni quamdam responsionem, ibi : His autem obicitur.
+In tertia <name ref="#Lombard">Magister</name> secundum aliorum opinionem subiungit aliam praecedentem determinationem ibi : Alii vero, qui trifariam distinctionem actuum faciunt ubi innuit quod actiones nostrae dividuntur per tres differentias, scilicet per bonam et malam et indifferentem, inter utramque mediam.</p>
+        <p xml:id="bb-l2d41dt-d1e129">Similiter secunda pars principalis dividitur in tres partes.
+In prima quaerit <name ref="#Lombard">Magister</name>, utrum omne peccatum exterius sit voluntarium sive a voluntate.
+In secunda quaerit, utrum omne peccatum sit in voluntate, ibi : Illius etiam intelligentia perquirenda est etc.
+In tertia vero concludit quod hoc non solum verum est de peccato exteriori, quod sit voluntarium, sed etiam verum est de peccato interiori, quod quidem, consistit circa voluntatis motum, ibi : Si autem omne peccatum mortale etc.
+Et sic duas quaestiones principaliter determinat <name ref="#Lombard">Magister</name>, in parte ista, quarum una est, utrum omnis actio mala sit, quae non procedit ex intentione recta ; secunda est, utrum omnis culpa sit voluntaria.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

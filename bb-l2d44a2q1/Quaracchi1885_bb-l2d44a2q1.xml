@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d44a2q1">
+        <head xml:id="bb-l2d44a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d44a2q1-Hd1e111" type="question-title">Utrum omnis potestas dominandi sit a Deo.</head>
+ 
+        <p xml:id="bb-l2d44a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum potestas dominandi sit a Deo.</p> 
+        <div xml:id="bb-l2d44a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d44a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d44a2q1-d1e122">Et quod sic, videtur : Ioannis 19, 11 : <quote xml:id="bb-l2d44a2q1-Qd1e124" ana="#io19_11">Non haberes in me potestatem, nisi tibi datum esset desuper</quote>, dixit Dominus Pilato. Ergo, si potestas Pilati super Christum erat a Deo, et tamen minime videbatur quod super ipsum deberet habere potestatem, ergo videtur quod multo fortius omnis potestas talis a Deo est.</p>
+          <p xml:id="bb-l2d44a2q1-d1e128">Item, expressius ad Romanos 13, 1 : <quote xml:id="bb-l2d44a2q1-Qd1e130" ana="#rom13_1">Non est potestas nisi a Deo</quote> ; et constat quod ibi loquitur de potestate praesidendi : ergo etc.
+Et istae duae auctoritates sufficiant, quia plures aliae adducuntur in littera.</p>
+
+          <p xml:id="bb-l2d44a2q1-d1e134">Item, hoc ipsum videtur ratione. Potestas praesidendi dicit potentiam in excellentia, et omne tale dicit positionem aliquam ; sed omne quod dicit positionem aliquam, a summa potentia est : ergo omnis potentia praesidendi a Deo est, qualitercumque quis praesit.</p>
+          <p xml:id="bb-l2d44a2q1-d1e137">Item, omnis poena a Deo est, quae habet simpliciter rationem poenae ; sed omnis servitus est poena : ergo a Deo est. Sed ab eodem a quo est servitus, ab eodem est dominandi potestas : igitur omnis potestas dominandi est a Deo.</p>
+
+          <p xml:id="bb-l2d44a2q1-d1e141">Sed contra :
+1. Oseae 8, 4 : <quote xml:id="bb-l2d44a2q1-Qd1e143" ana="#os8_4">Ipsi regnaverunt, et non ex me ; principes exstiterunt, et non cognovi</quote>. Ergo videtur quod talis praesidentia malorum non sit a Deo.
+</p>
+          <p xml:id="bb-l2d44a2q1-d1e147">Item, nihil iniustum est a Deo ; sed multi iniuste dominantur aliis : ergo videtur quod non omnis potestas sive dominium, quod est in hominibus, sit a Deo.
+</p>
+          <p xml:id="bb-l2d44a2q1-d1e150">3. Item, nihil inordinatum est a Deo ; sed, cum stultus praeficitur sapienti et malus bonis, hoc est inordinatum : ergo non videtur esse a Deo.</p>
+          <p xml:id="bb-l2d44a2q1-d1e153">4. Item, nihil quod est contra ius naturae, est a Deo ; sed potestas dominandi in homines est contra ius naturae : ergo non est a Deo. Maior manifesta est. Minor probatur per illud quod dicitur, in libro Institutionum : Bella exorta sunt et captivitates secutae et servitus, quae sunt iuri naturali contraria.</p>
+          <p xml:id="bb-l2d44a2q1-d1e156">5. Item, nihil auferendum est alicui quod est ei datum a Deo : ergo, si omnis potestas vel praelatio est a Deo, nulli auferenda est praelatio vel potestas : ergo nullus praelatus vel princeps esset deponendus, quantumcumque malus.</p>
+          <p xml:id="bb-l2d44a2q1-d1e159">6. Item, nihil quod habet quis per Dei donationem, habet per usurpationem ; ergo, si omnis potestas est a Deo collata, nulla est usurpata ; sed planum est quod multae potestates usurpantur : ergo non omnis potestas a Deo donatur.</p>
+        </div>
+        <div xml:id="bb-l2d44a2q1-Dd1e163">
+          <head xml:id="bb-l2d44a2q1-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d44a2q1-Hd1e168" type="question-title">Omnis potestas praesidendi, secundum id quod 
+    est, et etiam respectu illius super quem est, 
+    iusta est et a Deo est.</head>
+ 
+          <p xml:id="bb-l2d44a2q1-d1e171">Respondeo : Dicendum quod potestas praesidendi dicitur esse illud per quod quis praesidet et dominatur alteri. Illud autem, per quod praesidet, dupliciter potest dici : uno modo dicitur ipsa virtus, per quam quis praevalet alteri, et haec virtus absque dubio a Deo est ; alio modo illud, per quod praesidet, dicitur modus deveniendi vel permanendi ad hanc virtutis excellentiam ; et sic distinguendum est : Nam quidam praesunt aliis ex iustitia, quidam ex astutia et quidam ex violentia. Quando autem praeest aliquis aliis per iustitiam, tunc illa potestas dominandi, simpliciter loquendo, a Deo est et respectu praesidentis et respectu subiacentium. Quando autem praeest aliquis per astutiam vel per violentiam, tunc dicendum est quod talis potestas et habet comparari ad voluntatem praesidentis et habet comparari ad meritum subiacentis. In comparatione ad meritum subiacentis talis praesidentia iusta est, quia aut est ad bonorum probationem aut ad malorum punitionem. Si autem comparetur ad voluntatem praesidentis, sic iniusta est.
+Et primo quidem modo dicitur esse a Deo faciente et ordinante, secundum quod dicitur Iob 34, 30 : <quote xml:id="bb-l2d44a2q1-Qd1e173" ana="#iob34_30">Facit regnare hypocritam propter peccata populi</quote> ; et Oseae 13, 11 : <quote xml:id="bb-l2d44a2q1-Qd1e176" ana="#os13_11">Dabo eis regem in furore meo</quote>. Secundo autem modo, scilicet in comparatione ad voluntatem praesidentis, sic dicitur esse a Deo permissive, non autem approbatorie, propter quod dicitur : Ipsi regnaverunt, et non ex me, et principes exstiterunt, et non cognovi.</p>
+ 
+          <p xml:id="bb-l2d44a2q1-d1e180">Concedendum est igitur quod omnis potestas praesidendi, secundum id quod est et etiam respectu eius super quem est, iusta est et a Deo est ; et hoc ostendunt rationes et auctoritates quae ad primam partem inducuntur, et ideo concedendae sunt. Concedendum est nihilominus quod modus deveniendi ad hanc praesidentiam in comparatione ad voluntatem praesidentis potest esse iustus et iniustus ; et secundum quod iustus est, a Deo est ; secundum quod iniusius est, a Deo non est. Quia vero nunquam est ita iniustus ex una parte quin sit iustus ex altera, ideo de nulla potentia praesidendi dici potest quod non procedat a Deo.</p>
+        </div>
+        <div xml:id="bb-l2d44a2q1-Dd1e185">
+          <head xml:id="bb-l2d44a2q1-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-l2d44a2q1-d1e190">Ad illud ergo quod primo obicitur in contrarium, quod Dominus dicit quod regnaverunt, sed non ex ipso, dicendum quod non est ibi negatio cuiuscumque voluntatis, sed voluntatis antecedentis et voluntatis approbantis. Dominium enim malorum potius est a Deo vindicante quam sit a Deo acceptante. Unde in eis verificatur illud quod dicitur Ecclesiastis 8, 9 : Interdum dominatur homo homini in malum suum.</p>
+          <p xml:id="bb-l2d44a2q1-d1e193">Ad illud quod obicitur, quod nihil iniustum est a Deo, dicendum quod verum est, secundum quod iniustum. Quamvis autem potentia dominandi iniusta sit frequenter in comparatione ad voluntatem praesidentis, semper tamen iusta est in comparatione ad meritum subiacentis, quia est ad vindictam malefactorum, ad laudem vero bonorum, sicut dicitur I Petri 2, 14.</p>
+          <p xml:id="bb-l2d44a2q1-d1e196">Ad illud quod obicitur, quod aliqua potestas inordinata est, dicendum quod, etsi aliquo modo aliqua potestas possit ex inordinata voluntate procedere, potestas tamen ipsa semper ordinata est, sicut dicit Gregorius, in Moralibus, quod tumoris elatio, non potestatis ordo, in crimine est ; potentiam Deus dedit, elationem potentiae malitia nostrae mentis invenit.
+Et si obiciat quod inordinatum est quod stulti praesunt sapientibus et mali bonis et servi liberis, dicendum quod, etsi aliqua inordinatio appareat exterius, nihilominus latet pulcra ordinatio interius secundum divinum iudicium, quod frequenter est occultum, nunquam tamen iniustum. Propter quod dicitur Ecclesiastis 10, 5 : Vidi malum quasi per errorem egredieris a facie principis, stultum positum in dignitate sublimi etc. ; quasi dicat : quia, quamvis appareat ibi error, magna tamen est ibi ordinatio, dum ex hoc mali puniuntur et boni promoventur.
+</p>
+          <p xml:id="bb-l2d44a2q1-d1e199">
+  4. Ad illud quod obicitur, quod nulla potestas est a Deo, quae est contra ius naturae, dicendum quod esse contra ius naturae hoc est dupliciter : vel simpliciter vel secundum aliquem statum. Cum ergo dicitur quod potestas dominandi est contra ius naturae, hoc non intelligitur quantum ad universale dictamen naturae, sed quantum ad dictamen naturae alicuius status determinati, in quo quidem non esset subiectio servitutis nec praelatio potestatis.</p>
+          <p xml:id="bb-l2d44a2q1-d1e203">5. Ad illud quod obicitur, quod nihil quod est a Deo datum, est auferendum, dicendum quod illud verum est, si Deus simpliciter ei dedit ; si autem solum ad tempus datum est, sicut Dominus voluit dare, ita etiam voluit per ministerium humanum auferre. Hoc autem cognoscimus quod Deus velit, quando videmus ordinem iustitiae sic exigere. Deus enim dedit vitam latroni et tamen iudex iuste illam aufert ei, exigente hoc mandato iustitiae, quo dicitur : Maleficum non patieris vivere. Sic etiam intelligendum est se habere in potestate nostra et principum, quia secundum iuris rectitudinem tam dominium quam potestatis privilegium meretur amittere qui concessa sibi abutitur potestate.</p>
+          <p xml:id="bb-l2d44a2q1-d1e206">6. Ad illud quod obicitur, quod nulla potestas a Deo collata est usurpata, dicendum quod verum est, si totaliter detur a Deo. Sed Deus sic dat potestatem, quod frequenquenter homo cooperatur in illius potestatis adeptione ; et cum recte cooperatur ad illius potestatis adeptionem, tunc dicitur dominari ex iustitia ; quando vero iniuste, tunc dicitur illa potestas usurpata, in qua non praeest de iure, quamvis praesit de facto ; nihilominus tamen, quia talis potestas non caret omnino ordine iustitiae, conceditur esse a Deo. Et simul sunt haec duo vera secundum diversos respectus, videlicet quod eadem potestas sit usurpata et a Deo collata, absque aliqua repugnantia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

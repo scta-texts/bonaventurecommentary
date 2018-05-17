@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diviso textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Diviso textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d29dt">
+        <head xml:id="bb-l2d29dt-Hd1e108">Diviso textus</head>
+        <p xml:id="bb-l2d29dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> quantum liberum arbitrium indiget auxilio gratiae secundum statum naturae lapsae. In hac parte inquirit, utrum eguerit gratia operante et cooperante secundum statum naturae institutae. Dividitur autem pars ista in partes duas.
+In quarum prima determinat de auxilio gratiae, quod collatum fuit homini ante peccatum.
+In secunda per oppositum determinat de supplicio poenae, quod inflictum fuit homini post peccatum, ibi : In illius quoque peccati poenam etc.
+ 
+Prima pars habet duas.
+In prima inquirit <name ref="#Lombard">Magister</name>, utrum liberum arbitrium hominis ante lapsum gratia eguerit.
+Secundo vero, utrum in statu illo gratiam et virtutes habuerit, ibi : Praeterea, quaeri solet, utrum homo ante lapsum etc.
+ 
+Similiter secunda pars principalis duas habet.
+In prima determinat cuiusmodi poena homo fuerit punitus propter peccatum, videlicet poena expulsionis de paradiso, ubi etiam explanat verba Scripturae circa hanc materiam.
+In secunda removet dubitationem quae ex dictis habet originem, ibi : Potest autem quaeri, utrum de ligno vitae etc.
+ 
+Et sic terminatur iila totalis pars, in qua egit <name ref="#Lombard">Magister</name> de primi hominis lapsu, et quantum ad peccatum, per quod cecidit, et quantum ad adiutorium, per quod stare potuit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

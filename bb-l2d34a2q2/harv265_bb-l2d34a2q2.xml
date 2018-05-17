@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d34a2q2">
+        <head xml:id="bb-l2d34a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d34a2q2-Hd1e111" type="question-title">Utrum malum sit in bono sibi opposito.</head>
+ 
+        <p xml:id="bb-l2d34a2q2-d1e114">Secundo quaeritur, utrum malum sive malitia sit in bono sibi opposito.</p>
+        <div xml:id="bb-l2d34a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d34a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d34a2q2-d1e122">Et quod sic, videtur : <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-l2d34a2q2-Qd1e127">Cum mala et bona nullus ambigat esse contraria, non solum simul esse possunt, sed mala omnino sine bonis et nisi in bonis esse non possunt</quote>. Hic expresse habetur quod mala sunt in bonis sibi oppositis.</p>
+          <p xml:id="bb-l2d34a2q2-d1e131">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d34a2q2-Qd1e136">In his contrariis, quae bona et mala vocantur, deficit regula dialecticorum, qua dicunt nulli rei simul inesse contraria</quote>. Sed constat quod non deficeret, nisi mala essent in bonis sibi oppositis : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q2-d1e140">Item, malum dicitur quod corrumpit ; sed non corrumpit nisi illud in quo est et ei bono opponitur quod corrumpit : ergo videtur quod malum sit in bono sibi opposito.</p>
+          <p xml:id="bb-l2d34a2q2-d1e143">Item, servitus opponitur libertati ; sed peccatum, quod facit hominem servum, proprie inest homini secundum voluntatem et liberi arbitrii libertatem : ergo videtur quod malum substantificari habeat in bono sibi opposito.</p>
+
+ 
+          <p xml:id="bb-l2d34a2q2-d1e147">Contra: <name ref="#Dionysius">Dionysius</name>, in libro De divinis nominibus : <quote xml:id="bb-l2d34a2q2-Qd1e152">Malum non est existens neque in existentibus</quote>. Sed omne bonum est de genere existentium : ergo malum non est In bono : ergo nec in bono sibi opposito.</p>
+          <p xml:id="bb-l2d34a2q2-d1e156">Item, virtus et vitium opponuntur, et <quote xml:id="bb-l2d34a2q2-Qd1e158">tantum unum uni opponitur</quote>. Si ergo vitium non est in virtute, ergo nec est in bono sibi opposito nec etiam cum illo.</p>
+          <p xml:id="bb-l2d34a2q2-d1e162">Item, regula dialecticorum est vera et necessaria, ergo non fallit in aliqua materia ; nam si falleret in una sola materia, repudianda esset tamquam falsa. Si igitur ars dicit quod unum oppositum non est in altero nec cum altero circa idem, et bonum malo opponitur, ergo malum non est in bono sibi opposito.</p>
+          <p xml:id="bb-l2d34a2q2-d1e165">Item, si malum potest esse in bono sibi opposito, ergo ab ipso non expellitur ; et si non expellitur a suo opposito, videtur quod non expellatur ab aliquo ; et si a nullo expellitur, semper manet : ergo, si aliquis semel est malus, semper est Quodsi hoc est falsum, restat quod et primum.</p>
+        </div>
+        <div xml:id="bb-l2d34a2q2-Dd1e169">
+          <head xml:id="bb-l2d34a2q2-Hd1e171">Conclusio</head>
+          <head xml:id="bb-l2d34a2q2-Hd1e174" type="question-title">Malum substantificatur in bono, et non solum in 
+    bono, sed etiam in bono quodam modo sibi opposito, 
+    non tamen in eo quod directe et formaliter opponitur.</head>
+ 
+          <p xml:id="bb-l2d34a2q2-d1e177">Respondeo : Ad praedictorum intelligentiam est notandum quod bonum in creatura dicitur per ordinationem ad summum ; unde bonum dicitur quod est ordinatum in finem. Ordinatio autem tria respicit : aut ipsum ordinabile aut illud secundum quod est ordinabile aut illud per quod ordinatur. Et secundum hoc triplex reperitur in nobis bonum, scilicet bonum quod est ordinabile, et hoc est naturale ; et bonum per quod ordinatur, et hoc est virtus vel gratia ; et bonum secundum quod natura ordinabilis est a gratia, et hoc est habilitas media.</p>
+ 
+          <p xml:id="bb-l2d34a2q2-d1e180">Intelligendum est ergo quod malum culpae ei bono, quod est ipsa natura vel substantia, non opponitur, quia ipsam substantiam non corrumpit, ut dicit <name ref="#Dionysius">Dionysius</name> : Nihil existentium corrumpitur in eo quod est essentia vel natura. Ei autem bono, quod est virtus et gratia, simpliciter et directe opponitur ; unde mutuo se expellunt et simul esse non possunt. Ei autem bono, quod est habilitas media, quodam modo opponitur et quodam modo non. Nam illa habilitas media habet comparari ad naturam cuius est et ad gratiam ad quam est. Secundum quod comparatur ad naturam cuius est, sic non habet oppositionem ad malum, quoniam habilitas illa, ut erat talis naturae, indifferens erat ad bonum et ad malum ; et sic est subiectum mali. Ut autem comparatur ad gratiam sive virtutem vel etiam ad finem ad quem est, sic habet oppositionem ad malum. Nam malum tollit ei rectam ordinationem ad illud ad quod est el reddit minus et minus habilem. Quoniam igitur malum culpae primo et principaliter circa habilitatem consistit et habilitas potentiae opponitur ipsi malo, cum malum reddat ipsam potentiam inhabilem, hinc est quod <name ref="#Augustine">Augustinus</name> dicit quod malum habet esse in bono sibi opposito ; et quod in huiusmodi oppositis regula dialecticorum deficit, hoc est dicere quod ad talia opposita non se extendit. Unde ex hoc non sequitur quod regula dialecticorum falsificetur. Sed quoniam mos est <name ref="#Aristotle">Philosophi</name>, positis considerationibus, instantias subinferre, non quae falsificent ipsas, sed quae intellectum considerationum rectificent et manifestent, sic beatus <name ref="#Augustine">Augustinus</name>, tamquam vir prudens ingenio, in hac instantia manifestat illam maximam dialecticorum in his oppositis tenere quae opponuntur oppositione formali, sicut opponitur virtus et vitium, gratia et culpa. In aliis autem oppositis, quae non opponuntur ratione eius quod sunt, sed ratione eius ad quod sunt, non est intelligenda illa regula ; nam illa possunt simul stare, sicut stat gratia cum concupiscentia ; et iterum, unum potest esse in altero, sicut culpa in habilitate.</p>
+ 
+          <p xml:id="bb-l2d34a2q2-d1e195">Ex his, quae dicta sunt, manifesta est responsio ad quaestionem propositam. Dico enim quod malum substantificatur in bono, et non solum in bono, sed etiam in bono quodam modo sibi opposito, sicut ostendunt rationes quae ad primam partem inducuntur. In bono autem, quod directe et formaliter opponitur sibi, substantificari non habet, sicut duae ultimae rationes, quae ad secundam partem inducuntur, ostendunt.</p>
+        </div>
+        <div xml:id="bb-l2d34a2q2-Dd1e200">
+          <head xml:id="bb-l2d34a2q2-Hd1e202">Ad rationes</head>
+          <p xml:id="bb-l2d34a2q2-d1e205">Ad illud quod obicitur de verbo <name ref="#Dionysius">Dionysii</name>, quod malum non est in existentibus etc., dicendum quod ipse loquitur per se, quod scilicet non est in existentibus, secundum quod existentia, sed potius secundum quod deficientia, cum sit privatio et defectus, ut iam patebit melius.</p>
+
+          <p xml:id="bb-l2d34a2q2-d1e211">2-4. Ad illud quod obicitur, quod tantum unum uni opponitur, dicendum quod illud intelligendum est de uno genere oppositionis et intelligendo secundum idem et per se loquendo. Habilitas autem potentiae non opponitur ipsi, nisi ratione virtutis : virtus enim directe opponitur vitio ; et quia naturalis habilitas quodam modo inclinat ad virtutem, hinc est quod vitio opponitur quodam modo, licet non omnino ut virtus ; et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

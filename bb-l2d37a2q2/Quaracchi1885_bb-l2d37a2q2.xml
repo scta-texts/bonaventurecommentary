@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37a2q2">
+        <head xml:id="bb-l2d37a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d37a2q2-Hd1e111" type="question-title">Utrum operatio fortuita, secundum quod fortuita, sit a Deo.</head>
+ 
+        <p xml:id="bb-l2d37a2q2-d1e114">Secundo quaeritur, utrum operatio fortuita, secundum quod fortuita, sit a Deo.</p> 
+        <div xml:id="bb-l2d37a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d37a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d37a2q2-d1e122">Et quod sic, videtur : Quia tam fortuita quam casualis actio est ex causis confluentibus ob aliud inceptis ; unde Boethius, in V De consolatione : <quote xml:id="bb-l2d37a2q2-Qd1e124">Casus est inopinatus rei eventus ex causis concurrentibus ob aliud inceptis</quote>. Sed tam concursus causarum quam inchoatio propter aliud est a Deo : ergo, si nihil plus requiritur ad hoc quod aliquid sit fortuitum vel casuale, videtur quod tam fortuita quam casualia, secundum quod huiusmodl, sint a Deo.</p>
+          <p xml:id="bb-l2d37a2q2-d1e128">Item, sicut ens per se est a Deo, in quantum est per se, sic et accidens est a Deo, in quantum est accidens : ergo sicut operatio causae per se a Deo est, ita et operatio causae per accidens. Sed casuale et fortuitum, secundum quod huiusmodi, dicit operationem vel effectum causae per accidens, sed naturale et artificiale dicit effectum causae per se : ergo sicut omne naturale et artificiale est a Deo, in quantum huiusmodi, sic omne casuale et omne fortuitum, in quantum huiusmodi, est a Deo.</p>
+          <p xml:id="bb-l2d37a2q2-d1e131">Item, quandocumque aliqua diversa concurrunt ad unius effectus productionem, necesse est quod per unum aliquid coniungantur ; sed causae, a quibus oritur tam casuale quam fortuitum, et sunt diversae quantum ad rem et sunt diversae quantum ad intentionem : ergo, si uniuntur, coniunguntur per aliquid quod est supra eas. Sed nihil est supra agens naturale et agens a proposito nisi solus Deus : ergo talium causarum concursus a Deo est ; et huiusmodi causarum concursus facit effectum casualem vel fortuitum : ergo etc.</p>
+          <p xml:id="bb-l2d37a2q2-d1e134">Item, potentior est ad agendum causa per se quam causa per accidens ; sed causa per se nullum effectum producere potest quin adiuvetur a Deo : ergo nec causa per accidens. Sed causae per accidens sunt casus et fortuna, sicut vult <name ref="#Aristotle">Philosophus</name>, in II Physicorum : ergo, cum eorum effectus sint casuale et fortuitum, in quantum huiusmodi, videtur etc. Si tu dicas quod casuale, secundum id quod est, a Deo est, non tamen secundum quod casuale, quia dicit privationem intentionis, non positionem, contra hoc est : quia, sicut natura operatur per intentionem, ita operatur etiam uniformiter et modo consueto ; sed cum aliqua operatio fit praeter solitum cursum naturae, illa quidem operatio dicitur miraculum, et talis operatio ponitur a Deo, in quantum talis. Si ergo operatio quae fit praeter consuetudinem, in quantum huiusmodi, est a Deo, pari ratione et operatio quae fit praeter intentionem, In quantum huiusmodi, est a Deo.</p>
+          <p xml:id="bb-l2d37a2q2-d1e141">Item, fortuitum eo ipso dicitur fortuitum, quia est ab aliquo agente intendente aliud, sicut inventio thesauri est ab eo qui intendit arare terram ; sed quod ille aliud intendat, hoc bonum est et a Deo est ; similiter, quod thesaurum illum inveniat, hoc bonum est et a Deo est : ergo fortuitum, ut fortuitum est, a Deo videtur esse.</p>
+
+ 
+          <p xml:id="bb-l2d37a2q2-d1e144">Sed contra hoc arguit <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum, sic : <quote xml:id="bb-l2d37a2q2-Qd1e149" source="http://scta.info/resource/a83-q24">Quidquid casu fit, temere fit ; quidquid temere fit, non fit provideniia</quote> . Si igitur omne quod fit a Deo, fit per providentiam, quia Deus nihil agit sine providentia, videtur quod casuale et fortuitum, in quantum huiusmodi, non sit a Deo.</p>
+          <p xml:id="bb-l2d37a2q2-d1e153">Item, casus et fortuna accidit per defectum praecognitionis ; sed Deus nihil potest facere nisi praecognoscens et praesciens : ergo nihil casuale, in quantum huiusmodi, a Deo est.</p>
+          <p xml:id="bb-l2d37a2q2-d1e156">Item, sicut bonum repugnat malo, ita fortuna repugnat providentiae ; sed a Deo, qui summe bonus est, non potest egredi aliqua operatio iniusta : ergo pari ratione, cum sit summe prudens, non potest ab eo exire aliqua operatio fortuita.</p>
+          <p xml:id="bb-l2d37a2q2-d1e159">Item, fortuitum, secundum quod fortuitum, ortum habet a causa per accidens : ergo, si Deus esset causa fortuiti, secundum quod huiusmodi, Deus esset causa alicuius rei per accidens. Sed causa per accidens reduci habet ad causam nobiliorem : ergo aliqua causa esset nobilior Deo ; quod est absurdum.</p>
+          <p xml:id="bb-l2d37a2q2-d1e162">Item, sicut iniustitia se habet ad suam causam, sic casuale et fortuitum ad suam ; sed iniustitia non potest esse ab aliquo nisi operante iniuste : ergo casuale et fortuitum non potest esse nisi ab eo qui operatur casualiter et fortuite. Sed Deus nullo modo operatur causaliter nec fortuite : ergo casualis sive fortuita operatio, secundum quod huiusmodi, non est a Deo.</p>
+        </div>
+        <div xml:id="bb-l2d37a2q2-Dd1e166">
+          <head xml:id="bb-l2d37a2q2-Hd1e168">Conclusiones</head>
+          <head xml:id="bb-l2d37a2q2-Hd1e171" type="question-title">Causale et fortuitum, secundum quod huiusmodi, 
+    a Deo non est, etsi a Deo est, secundum id quod est</head>
+
+ 
+          <p xml:id="bb-l2d37a2q2-d1e174">Respondeo : Dicendum quod, etsi casuale vel fortuitum, secundum id quod est, sit a Deo, in quantum tamen casuale vel fortuitum, a Deo non est.</p>
+ 
+          <p xml:id="bb-l2d37a2q2-d1e177">Et ratio huius est, quia fortuitum et casuale aliquid ponunt, utpote effectum, qui est ex concursu causarum ob aliud inceptarum ; aliquid etiam privant : dicit enim casus et fortuna defectum intentionis et praecognitionis. Et quoniam operatio causarum et concursus ad producendum tales effectus aliquid est, ideo a Deo est ; quia vero privatio intentionis defectus est, ideo a Deo non est. Et quoniam casuale et forfuitum, ut sic nominantur, imposita sunt a tali defectd, hinc est quod non sunt concedenda a Deo esse. Et hoc vult dicere <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum, cum dicit : Quod casu fit, temere fit ; et ideo, sicut non concedimus quod temerarium, secundum quod huiusmodi, sit a Deo, sic non est concedendum quod casuale vel fortuitum, secundum quod huiusmodi, sit a Deo.
+Et quia tam casuale quam fortuitum, ut sic est, est nomen impositum a privatione intentionis ; secundum quod privatio intentionis dupliciter potest intelligi, secundum hoc casuale et fortuitum dicitur dupliciter. Uno enim modo potest intelligi privatio intentionis universaliter respectu cuiuscumque agentis, sive particularis sive universalis sive operantis, sive cooperantis sive ex sequentis sive gubernantis. Et hoc modo nihil est causale, et casus et fortuna hoc modo nihil sunt. Et hoc modo posuerunt aliqui philosophi casum, et improbat <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum, per hoc quod providentia totus mundus administratur ; et ita nihil fit quod non pertineat ad opus providentiae. Alio modo potest intelligi privatio intentionis respectu agentis particularis, utpote particularis naturae et intellectus creati ; et hoc modo aliquid est casuale et casus aliquid est, secundum quod dicit Boethius, in libro De consolatione definiens casum et ostendens qualiter quis potest operari casualiter, videlicet cum aliquid assequitur inopinate ; et ideo dicit : Casus est inopinatus rei eventus, ubi simul tangit privationem et positionem : positionem, per hoc quod dicit eventum ; privationem, in hoc quod dicit inopinatum ; et illa quidem privatio non est respectu Dei, quia Deus nihil potest facere inopinate sive improvise, nec etiam a Deo est, cum sit defectus, sed potius a defectibilitate creaturae.
+Concedendae sunt igitur rationes ostendentes quod nihil est a Deo casuale et quod casuale, secundum quod casuale, non est a Deo.
+</p>
+        </div>
+        <div xml:id="bb-l2d37a2q2-Dd1e188">
+          <head xml:id="bb-l2d37a2q2-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-l2d37a2q2-d1e193">Ad illud vero quod primo obicitur in contrarium, quod concursus causarum a Deo est, iam patet responsio. Arguit enim de casu secundum quod dicit positionem, non secundum quod dicit defectum.</p>
+          <p xml:id="bb-l2d37a2q2-d1e196">Ad illud quod obicitur, quod a Deo est causa per se et per accidens, dicendum quod aliter dicitur accidens de ente prout est differentia entis, aliter prout est differentia causae. Prout enim est differentia entis, dicit habitudinem ad subiectum, quae quidem est positio, non privatio. Prout autem est differentia causae, dicit privationem intentionis, per quam aliquid dicitur esse causa alicuius per se. Et ideo non sequitur quod, si modus essendi per accidens, in quantum huiusmodi, sit a Deo, quod et modus operandi per accidens, in quantum huiusmodi, sit a Deo.</p>
+          <p xml:id="bb-l2d37a2q2-d1e199">Ad illud quod obicitur, quod diversae causae indigent aliquo superiori coniungente ad hoc quod possint unum effectum producere, dicendum quod illud dupliciter potest intelligi : uno modo vere, alio modo false. Si enim ita intelligatur quod ad hoc quod aliquae duae causae concurrant, necessaria sit nova influentia causae superioris plus quam si non concurrerent, et quaelibet operaretur per se, sic non habet veritatem. Hoc enim ipso quod aliquis abscondit in terra thesaurum et aliquis fodit in eadem terra, sine nova influentia illae duae operationes causant thesauri inventionem. Si autem ita intelligatur quod omnes causae, quae concurrunt ad unum effectum, reducuntur ad aliquod unum principium, sic veritatem habet, pro eo quod illa, quae non possunt reduci ad unum principium, omnino sunt diversa ; et ideo nunquam possunt ad unum effectum concurrere. Si enim in uno principio non convenirent, iam omnino non haberent aliquid commune ; et ideo necesse est ponere quod tam causae concurrentes quam earum concursus sint ab uno principio primo. Sed tamen ex hoc non sequitur quod casuale, in quantum huiusmodi, sit a Deo, quamvis sit a Deo secundum id quod est, quia casus non tantum dicit eventum, sed etiam eventum inopinatum.</p>
+          <p xml:id="bb-l2d37a2q2-d1e202">Ad illud quod obicitur, quod causa per accidens indiget adlutorio sicut causa per se, dicendum quod verum est respectu eius quod efficit, sed non indiget adiutorio respectu eius in quo deficit ; per se enim potest deficere, sed non per se potest efficere. Et ideo non sequitur ex hoc quod casuale sit a Deo, nisi secundum id secundum quod aliquid ponit, non secundum quod dicit privationem intentionis. Et si obiciat quod miraculum, in quantum huiusmodi, est a Deo et tamen dicit privationem consuetudinis, quia fit praeter solitum cursum, dicendum quod aliter miraculum fit praeter solitum cursum et aliter fortuitum praeter intentionem. Miraculum enim fit sic praeter solitum cursum, ita quod supra cursum naturae, unde plus dicit positionis quam privationis ; casuale vero non ita fit praeter intentionem, quod fiat supra intentionem, sed deficit ab intentione.</p>
+          <p xml:id="bb-l2d37a2q2-d1e206">Ad illud quod obicitur, quod Deus potest quod aliquod agens unum assequatur et aliud intendat, ita quod utrumque sit a Deo, dicendum quod verum est ; sed assequi unum et intendere aliud, hoc non facit casus vel fortuna, in quantum quis aliud intendit ab eo quod assequitur, sed in quantum non praevidet nec intendit illud quod assequitur. Si enim illud et aliud intenderet, iam non operaretur casualiter sive fortuite. Licet autem intendere ad aliud sit a Deo, non tamen a Deo est non intendere illud quod assequitur, quia primum dicit positionem et secundum privationem ; et casuale sive fortuitum, in quantum huiusmodi, non denominatur a primo, sed a secundo ; et propterea, in quantum tale, non est a Deo, sed a defectu reperto in agente creato.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

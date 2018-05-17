@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d38dt">
+        <head xml:id="bb-l2d38dt-Hd1e108">Divisio textus</head>
+   
+
+        <p xml:id="bb-l2d38dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> quid sit malum sive peccatum in generali ; in hac parte determinat, qualiter peccatum per actum voluntatis habeat introduci. Dividitur autem pars ista in partes tres.
+In quarum prima determinat <name ref="#Lombard">Magister</name> qualiter peccatum a voluntate habeat ortum in generali.
+In secunda vero descendit ad specialas differentias peccati, infra, distinctione quadragesima secunda : Cum autem voluntas mala et operatio sint etc.
+In tertia vero inquirit unde ortum habeat in ipsa voluntate potestas peccandi, infra, distinctione quadragesima quarta : Post praedicta, consideratione dignum occurrit etc.</p>
+ 
+        <p xml:id="bb-l2d38dt-d1e120">Prima pars habet duas.
+In prima inquirit <name ref="#Lombard">Magister</name> qualiter ipsa voluntas habeat depravari.
+Secundo vero, qualiter ex pravitate voluntatis fiat depravatio in actu exteriori, infra, distinctione quadragesima : Post haec de actibus adiiciendum videtur.
+Prima pars habet duas.
+In prima determinat qualiter voluntas habeat depravari.
+In secunda vero inquirit quare magis depravetur voluntas quam alia potentia, infra, distinctione trigesima nona : Hic autem oritur quaestio satis necessaria.</p>
+ 
+        <p xml:id="bb-l2d38dt-d1e126">Prima pars, quae continet praesentem distinctionem, habet duas partes. Quoniam enim depravatio et rectificatio voluntatis attenditur penes finem et voluntas habet comparari ad finem mediante intentione, ideo pars ista duas partes habet.
+In quarum prima determinat <name ref="#Lombard">Magister</name> de rectificatione et depravatione voluntatis ex parte finis.
+Secundo vero inquirit differentiam voluntatis et intentionis, ibi : Solet etiam quaeri, quid distet, inter voluntatem et intentionem.
+Prima pars habet quatuor partes.
+Quia enim obliquatio cognosci habet per rectitudinem - nam rectum iudex est sui et obliqui - ideo in prima parte ostendit <name ref="#Lombard">Magister</name> quod ex parte finis venit rectitudo voluntatis.
+Secundo determinat quis sit ille finis, ibi : Qui ergo caritatem sibi ponit finem.
+In tertia vero determinat de unitate finis respectu bonarum voluntatum, ibi : Sed quaeritur, utrum omnes bonae voluntates etc.
+Quarto vero movet quoddam dubium et determinat, ibi : Verumtamen huic sententiae, qua dictum est etc.
+Secunda vero pars, in qua determinat de differentia voluntatis et intentionis, habet duas.
+In quarum prima quaerit differentiam secundum rationem, ibi : Solet etiam quaeri etc.
+Secundo de differentia secundum rem, ibi : Sed quaeritur, utrum intentio talis sit voluntas.
+Et secundum hoc duo determinantur in parte ista, scilicet de comparatione voluntatis ad finem et de differentia intentionis et voluntatis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

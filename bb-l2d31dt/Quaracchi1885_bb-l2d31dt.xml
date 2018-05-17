@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31dt">
+        <head xml:id="bb-l2d31dt-Hd1e108">Divisio textus</head> 
+<p xml:id="bb-l2d31dt-d1e111">Supra ostendit <name ref="#Lombard">Magister</name> quid sit peccatum originale ; in hac parte intendit manifestare, qualiter a parente traducitur in prolem. Dividitur autem pars ista in tres partes.
+In quarum prima <name ref="#Lombard">Magister</name> falsitatem improbat.
+In secunda veritatem explicat, ibi : Est enim peccatum originale, ut supra diximus, concupiscentia.
+In tertia vero veritatem epilogat, ut addat, ibi : Iam ostensum est, quid sit originale peccatum etc.</p>
+ 
+        <p xml:id="bb-l2d31dt-d1e120">Prima pars habet duas.
+In prima ponit falsam opinionem circa originalis traductionem.
+In secunda subiungit eius improbationem, ibi : Hoc autem fides catholica respuit ubi ostendit quod originale non potest traduci per traductionem animae.
+Similiter secunda pars principalis duas habet.
+In quarum prima veritatem determinat ostendens quod originale traducitur mediante carne.
+In secunda vero removet dubitationem, ibi : Hici quaeri solet, utrum causa originalis etc.
+Similiter tertia pars principalis duas habet.
+In quarum determinata epilogat et explanat. In secunda vero dubitationem movet et determinat, ibi : Sed ad hoc opponitur hoc modo.
+Et sic huius distinctionis intentio versatur principaliter circa duo.
+Quorum primum est, quod originale non potest traduci mediante anima ;
+secundum est, qualiter traducitur mediante carne.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

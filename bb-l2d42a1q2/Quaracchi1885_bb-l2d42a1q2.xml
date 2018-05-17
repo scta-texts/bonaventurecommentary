@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d42a1q2">
+        <head xml:id="bb-l2d42a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d42a1q2-Hd1e111" type="question-title">Utrum peccatum operis addat aliquid supra peccatum voluntatis.</head>
+ 
+        <p xml:id="bb-l2d42a1q2-d1e114">Secundo quaeritur, utrum peccatum operis addat supra peccatum voluntatis.</p> 
+        <div xml:id="bb-l2d42a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d42a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d42a1q2-d1e122">Et quod sic, videtur : Super illud Psalmi [68, 28] : <quote xml:id="bb-l2d42a1q2-Qd1e124" ana="#ps68_28">Appone iniquitatem super iniquitatem</quote>, Glossa : <quote xml:id="bb-l2d42a1q2-Qd1e127">Qui addit opus voluntati addit iniquitatem iniquitati</quote>. Sed qui hoc facit, aut facit novum peccatum aut maius ; sed non novum : ergo maius.</p>
+          <p xml:id="bb-l2d42a1q2-d1e131">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d42a1q2-Qd1e136">Unusquisque miser efficitur mala voluntate, sed miserior potestate, cum desiderium malae voluntatis impletur</quote>. Sed non efficitur homo miserior per peccatum nisi aggravetur peccatum : ergo peccatum voluntatis aggravatur per additionem operis.</p>
+          <p xml:id="bb-l2d42a1q2-d1e140">Item, ratione videtur. Apud humanam iustitiam gravius punitur qui peccat in opere quam qui peccat voluntate solum vel voluntate et verbo quam voluntate tantum : ergo, si humana iustitia derivatur ab aeterna iustitia et ei conformatur et in opere suo laudabilis est, videtur quod maiori sit dignus poena ille qui peccat voluntate et opere quam qui peccat voluntate tantum. Sed non est quis maiori dignus poena nisi propter maiorem culpam : ergo etc.</p>
+          <p xml:id="bb-l2d42a1q2-d1e143">Item, gravius peccat qui peccat in Deum et in proximum quam qui peccat in Deum tantum ; sed qui peccat voluntate interiori solum non peccat nisi in Deum ; qui vero peccat exterius in opere frequenter peccat in proximum, sicut patet in adulterio et homicidio : ergo etc,</p>
+          <p xml:id="bb-l2d42a1q2-d1e147">Item, quanto magis se homo glorificat et in deliciis esi, tanto magis dignus est poena ; sed qui peccat voluntate et opere magis se glorificavit et amplius delectatus est quam qui sola voluntate peccavit : ergo maiori dignus est poena ; et si hoc, maiorem perpetrat culpam.</p>
+
+          <p xml:id="bb-l2d42a1q2-d1e150">Sed contra : Super illud Psalmi [57, 3] : <quote xml:id="bb-l2d42a1q2-Qd1e152" ana="#ps57_3">Etenim in corde iniquitates operamini</quote>, Glossa : <quote xml:id="bb-l2d42a1q2-Qd1e155">Si vis et non potes, Deus factum reputat</quote>. Ergo, si voluntas reputatur pro facto, videtur quod factum, quantum ad rationem peccati, nihil addat supra voluntatem.</p>
+          <p xml:id="bb-l2d42a1q2-d1e159">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d42a1q2-Qd1e164">Si confingat aliquem non concumbere cum uxore aliena, planum autem est eum cupere, et, si potestas daretur, eum esse facturum, non minus reus est quam si in ipso facto deprehenderetur</quote>. Ergo, si non est minus reus, non magis peccat quando consummat in opere quam quando plene vult in voluntate.</p>
+          <p xml:id="bb-l2d42a1q2-d1e168">Item, gravitas et magnitudo peccati consistit in quantitate contemptus : sed quando vir omnino consentit, tunc plena est aversio et contemptus : ergo aequale est peccatum, sive opus adsit sive desit.</p>
+          <p xml:id="bb-l2d42a1q2-d1e171">Item, opus exterius non est culpabile nisi propter voluntatem interiorem : ergo, si tota ratio culpabilitatis ortum habeat ab ipsa voluntate, videtur quod, sola voluntate peccati existente, tantum est homo culpabilis quantum si peccaret in opere.</p>
+          <p xml:id="bb-l2d42a1q2-d1e174">Item, peccata spiritualia, quae sola voluntate consummantur, graviora sunt quam peccata carnalia, quorum consummatio fit in carne. Si ergo prima, quae in sola voluntate consistunt, graviora sunt quam secunda, quae consistunt in voluntate et opere, videtur quod opus non addat aliquid ad malitiam voluntatis.</p>
+        </div>
+        <div xml:id="bb-l2d42a1q2-Dd1e178">
+          <head xml:id="bb-l2d42a1q2-Hd1e180">Conclusio</head>
+          <head xml:id="bb-l2d42a1q2-Hd1e183" type="question-title">Si utrobique voluntas est plena, 
+    peccatum operis addit, non ratione maioris contemptus Dei, sed 
+    ratione delectationis, vel damnificationis.</head>
+ 
+          <p xml:id="bb-l2d42a1q2-d1e186">Respondeo : Ad praedictorum intelligentiam est notandum quod cum quaeritur, utrum opus addat aliquid ad malitiam voluntatis, hoc dupliciter potest intelligi : uno modo respectu voluntatis, quae potest in opus procedere, sed tamen non procedit, quia non omnino plene vult ; et respectu talis absque dubio malitia operis addit. Cum enim consummatur peccatum in opere, tunc est plenius consensus, et non solummodo dicitur manducare mulier, sed etiam vir ; et ideo peccatum tunc maius et gravius est ratione maioris conversionis et etiam aversionis.
+Alio modo potest intelligi respectu voluntatis, quae quidem in opus non procedit, non quia non velit, sed quia non potest. Et tunc movetur ista quaestio, cum utrobique sit plena voluntas, utrum gravius peccet qui vult et non potest an qui vult et facit, esto quod uterque moveatur ex aequali amore.
+Hoc igitur modo quaestione intellecta, respondendum est quod unum peccatum dicitur esse malus altero tripliciter : aut rationis maioris contemptus Dei aut ratione maioris libidinis sive delectationis aut ratione maioris damnificationis. Primo modo loquendo, opus non addit ad iniquitatem voluntatis, quia voluntas plena a Deo avertitur per se, sicut cum est operi coniuncta. Quantum vero ad delectationem sive libidinem addit et aggravat, maxime quantum ad genus peccati carnalis, quo, quidem peccat homo in se ipso ; similiter quantum ad damnificationem addit, et hoc maxime quantum ad genus peccati quo quis peccat in proximum. Quantumcumque enim aliquis velit fornicari, nunquam delectatur sicut quando voluntas coniungitur actui. Similiter, quantumcumque velit aliquis alterum occidere, non tantum facit damnum quantum si actu occideret. Et quoniam Deus iustus iudex in puniendo, non tantum considerat in peccato magnitudinem contemptus, sed etiam magnitudinem delectationis et magnitudinem damnificationis, hinc est quod aliquo modo opus addit ad nequitiam voluntatis.
+Unde et rationes, quae hoc ostendunt, concedendae sunt, quamvis non omnes cogant, maxime illa quae fit de similitudine divinae iustitiae et humanae. Non enim est simile, quia homines considerant quae exterius patent et iustitiam publicam ; Deus autem intuetur cor et non solum considerat iustitiam publicam, sed etiam privatam.
+</p>
+        </div>
+        <div xml:id="bb-l2d42a1q2-Dd1e191"> 
+          <head xml:id="bb-l2d42a1q2-Hd1e193">Ad rationes</head>
+
+          <p xml:id="bb-l2d42a1q2-d1e196">1-2. Ad illud vero quod obicitur in contrarium de Glossa illa et de auctoritate <name ref="#Augustine">Augustini</name>, quarum una dicit quod voluntas reputatur pro facto, et altera dicit quod non minus est reus qui vult et non facit quam qui vult et facit, dicendum quod ambae procedunt secundum quantitatem peccati, quae attenditur quantum ad plenitudinem consensus et quantum ad magnitudinem contemptus ; et sic bene conceditur quod opus ad talem voluntatem non addit.</p>
+          <p xml:id="bb-l2d42a1q2-d1e202">3. Ad illud quod obicit, quod quantitas peccati consideratur penes quantitatem contemptus, dicendum quod verum est, non tamen est verum praecise. Deus enim non tantum considerat contemptum sui, immo etiam damnum proximi et delectationem peccantis ; unde et proximo patienti iniuriam facit vindictam et maiorem patienti iniuriam facit maiorem vindictam ; sic et eum qui delectatus est, affligit et eum qui magis delectatus est, magis affligit. Et ideo illa ab insufficienti procedit.</p>
+          <p xml:id="bb-l2d42a1q2-d1e205">4. Ad illud quod obicitur, quod tota ratio peccati est a voluntate, dicendum quod non est verum, quia aliqua sunt peccata non solum ex improbitate voluntatis facientis, sed etiam ex genere operis, quia sunt contra prohibitionem Dei et contra dictamen iuris naturalis. Verum est tamen quod nihil, quod fit ex parte operis, per se sufficit ad faciendum peccatum, nisi adsit voluntarius motus ; et ideo ex hoc non sequitur quod, quamvis hoc non possit esse peccatum sine illo, quod hoc non addat ad illud. Et est simile, quia ferrum non urit absque igne ; ignis tamen cum ferro plus urit et plus penetrat quam faceret per se ipsum ; sic et in multis aliis invenitur.</p>
+          <p xml:id="bb-l2d42a1q2-d1e208">5. Ad illud quod obicitur de peccatis spiritualibus, dicendum quod non est simile, pro eo quod peccata spiritualia spiritualem habent delectationem, quae in suo genere maiorem habent adhaerendam et maiorem improbitatem quam etiam aliqua delectatio peccati carnalis. Peccata vero carnalia nunquam tantum delectant quando sunt in sola voluntate, quantum quando sunt in voluntate et opere, nec etiam tantum damnificant. Ideo non sequitur quod in talibus opus non addat ad malitiam voluntatis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

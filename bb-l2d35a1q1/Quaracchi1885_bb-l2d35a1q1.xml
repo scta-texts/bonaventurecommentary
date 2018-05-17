@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35a1q1">
+        <head xml:id="bb-l2d35a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d35a1q1-Hd1e111" type="question-title">Utrum peccatum sit boni corruptio.</head>
+ 
+        <p xml:id="bb-l2d35a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum peccatum aliquod bonum habeat corrumpere.</p>
+        <div xml:id="bb-l2d35a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d35a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d35a1q1-d1e122">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-l2d35a1q1-Qd1e127">Quid est aliud quod dicitur malum nisi privatio boni ? Bonum enim minui malum est</quote>. Cum ergo culpa committitur, necessario ibi aliquod bonum privatur ; sed non est dare quod privetur per aliud quam per culpam : ergo necesse est ponere quod peccatum habeat bonum privare et privando corrumpere. Et hoc <name ref="#Augustine">Augustinus</name> insinuat expressius paulo post, cum subiungit : ideo malum corruptio est naturae, quia eam qualicumque privat borio .</p>
+          <p xml:id="bb-l2d35a1q1-d1e134">Item, hoc ipsum ostendit <name ref="#Augustine">Augustinus</name> tali ratione : <quote xml:id="bb-l2d35a1q1-Qd1e139">Quod nullo bono privat non nocet</quote>. Ergo quod nocet aliquo bono privat ; sed malum nocet, hoc manifestum est : ergo aliquod bonum adimit et aliquo bono privat ; sed quod privat et adimit bonum, illud corrumpit : ergo etc.</p>
+          <p xml:id="bb-l2d35a1q1-d1e143">Item, sicut se habent vitia corporum ad corpora, sic vitia animarum ad animas ; sed vitia corporum laedunt et aliquo modo corrumpunt corpora : ergo vitia ahimarum aliquid corrumpunt circa ipsam animam ; talia autem vitia sunt peccata : ergo etc.</p>
+          <p xml:id="bb-l2d35a1q1-d1e146">Item, quando quis peccat, aut perdit aliquid boni aut nihil. Si nihil, ergo ita bonus est post sicut ante : ergo ita bonus est qui peccat sicut ille qui non peccat : ergo ita debet placere Deo unus sicut alter ; quod est manifeste falsum. Restat igitur quod aliquid boni perdit ; sed illud bonum, quod perditur, corrumpitur : ergo est alicuius boni corruptivum.</p> 
+          <p xml:id="bb-l2d35a1q1-d1e150">Sed contra hoc arguitur sic :
+1. Primo per auctoritatem <name ref="#Augustine">Augustini</name>s, qui dicit quod peccatum est corruptio modi, speciei et ordinis ; sed corruptionis non est corrumpere : nam, si corruptio corrumperet, pari ratione et alia corruptio, et sic in infinitum ; et iterum, actionis non est agere : ergo videtur, quodsi peccatum est corruptio, quod eius non sit corrumpere.</p>
+          <p xml:id="bb-l2d35a1q1-d1e156">2. Item, si peccatum corrumpit, aut ratione boni substrati aut ratione defectus. Ratione boni substrati non, quia, cum corrumpere bonum sit malum, bonum, in quantum bonum, esset causa mali ; quod est falsum. Si ratione defectus, sed contra : corrumpere est agere ; nullus defectus est principium actionis : ergo peccatum ratione defectus non corrumpit.</p>
+          <p xml:id="bb-l2d35a1q1-d1e159">3. Item, si corrumpit, aut ergo corrumpit peccantem aut alium. Alium non, constat, quia multa sunt peccata quae non fiunt in alium. Si corrumpit peccantem, sed contra : nihil corrumpit se ipsum ; et nihil secundum idem natum est esse agens et patiens ; et iterum, nullum malum poenae corrumpit punientem : ergo videtur quod malum culpae non corrumpit peccantem nec aliquem alium : ergo etc.</p>
+          <p xml:id="bb-l2d35a1q1-d1e162">4. Item, si corrumpit, aut ex parte carnis aut ex parte animae. Ex parte carnis non, quia multa sunt peccata quae conferunt ad regimen sanitatis corporalis et ad oblectationem carnis. Si ex parte animae, sed contra : anima est immortalis, ergo in ea nulla cadit corruptio ; nam si corruptio caderet, impossibile esset ipsam esse perpetuam.</p>
+          <p xml:id="bb-l2d35a1q1-d1e165">5. Item, si corrumpit, aut corrumpit quantum ad substantiam aut quantum ad potentias aut quantum ad actum. Quantum ad substantiam non ; hoc constat. Quantum ad potentias non, ut videtur, quia potentiae sunt incorruptibiles sicut et substantia ; praeterea, nec intenduntur nec remittuntur nec habet quis minorem potentiam voluntatis post culpam quam ante culpam. Quantum ad actum non, ut videtur, quia peccatum substernit sibi actum et supponit ; et nihil corrumpit illud sine quo esse non potest et per quod egreditur in esse. Ergo peccatum non corrumpit quantum ad actum nec quantum ad potentiam, ut visum est : ergo etc.</p>
+          <p xml:id="bb-l2d35a1q1-d1e168">6. Item, si peccatum corrumpit aliquod bonum, aut ergo corrumpit bonum naturae aut bonum gratiae. Non bonum naturae, quia ei non opponitur, et, ut vult <name ref="#Dionysius">Dionysius</name> nihil existentium corrumpitur in eo quod est essentia vel natura. Si igitur corrumpit bonum gratiae, ergo nullus potest peccare nisi habens gratiam, quia bonum non corrumpitur nisi in eo in quo est. Sed hoc est falsum, quia peccatores peccare possunt : ergo etc.
+Est igitur quaestio, quod bonum est illud quod habet in nobis peccatum corrumpere ?</p>
+        </div>
+        <div xml:id="bb-l2d35a1q1-Dd1e175">
+          <head xml:id="bb-l2d35a1q1-Hd1e177">Conclusio</head>
+          <head xml:id="bb-l2d35a1q1-Hd1e180" type="question-title">Malum culpae bonum corrumpit, non auferendo vel 
+    diminuendo potentiam, sed tollendo habitum rectitudinis et diminuendo habitatem mediam</head>
+ 
+          <p xml:id="bb-l2d35a1q1-d1e183">Respondeo : Dicendum quod absque dubio, sicut <name ref="#Augustine">Augustinus</name> in pluribus locis dicit peccatum corrumpit et aliquo bono privat. Cum enim per peccatum fiat animae deformatio et obscuratio, nec possit intelligi aliquid deformari vel obscurari sine amissione alicuius luminis et pulcritudinis, necesse est intelligi per peccatum aliquod in nobis bonum corrumpi.</p>
+ 
+          <p xml:id="bb-l2d35a1q1-d1e189">Ad quod intelligendum notandum est quod peccatum non est qualiscumque privatio nec cuiuscumque boni nec in quacumque creatura reperta, sed peccatum sive culpa privatio est iustitiae. Iustitia autem, ut dicit Anselmus, est rectitudo voluntatis. Voluntas autem est in sola rationali creatura, ac per hoc et iustitia ; et sicut iustitia est voluntatis rectitudo, sic culpa, quae est iniustitia, est voluntatis obliquatio. Sicut igitur per obliquationem fit declinatio a rectitudine et quaedam rectitudinis exterminatio, sic in culpae commissione fit in anima quaedam rectitudinis ademptio sive corruptio.
+Et est attendendum quod, cum ad rectitudinem voluntatis tria concurrant, videlicet ipsa potentia rectificabilis et ipse habitus rectitudinis et ipsa habilitas media, peccatum non corrumpit ipsam potentiam secundum quod potentia est, nec simpliciter nec secundum quid ; ipsum vero habitum rectitudinis simpliciter tollit ; ipsam vero habilitatem mediam quodam modo corrumpit et quodam modo relinquit. Ergo potentiam nec diminuit nec aufert, iustitiam simpliciter tollit, habilitatem vero mediam diminuit, dum homo per peccatum minus et minus redditur ad rectitudinem iustitiae habilis, secundum quod linea, quae magis et magis curvatur, minus est habilis ad dispositionem rectitudinis.
+Concedendum est igitur, sicut rationes ostendunt, quod malum culpae habet bonum corrumpere.
+</p>
+        </div>
+        <div xml:id="bb-l2d35a1q1-Dd1e194">
+          <head xml:id="bb-l2d35a1q1-Hd1e196">Ad rationes</head>
+
+          <p xml:id="bb-l2d35a1q1-d1e199">Ad illud vero quod obicitur, quod privationis non est privare, nec corruptionis corrumpere, dicendum quod, quamvis actus non habeat generare alium actum, tamen habitus habet generari ex actibus ; et ideo malum culpae, prout est corruptio et deordinatio existens in actu, potest esse causa deordinationis voluntatis secundum habitum. Et. ideo peccatum sive malum culpae dicitur corrumpere, quia actus inordinatus voluntatem reddit inhabilem ; nec significatur ex hoc quod actio sit ex actione, sed quod deordinatio in habitu sit ex deordinatione in actu.</p>
+          <p xml:id="bb-l2d35a1q1-d1e202">Ad illud quod quaeritur, utrum malum corrumpat ratione boni substrati vel ratione defectus, dicendum quod corrumpere duo dicit, videlicet agere et deficere : nam corruptio est actio cum defectu. Dico igitur quod malum culpae habet corrumpere ita quod ratione boni substrati est ratio agendi, ratione vero defectus est ratio deficiendi, Et istud patet : voluntas enim, dum peccat, corrumpit se, quia, dum se ipsam movet deordinate, reddit se inordinatam et ad bonum minus habilem ; nec potest se deordinare nisi volendo et se ipsam movendo. Et quod dico se movere, dico aliquod bonum substratum ; quod autem dico inordinatumdico defectum. Et huius satis congruum exemplum poniti <name ref="#Augustine">Augustinus</name>, et <name ref="#Lombard">Magister</name> recitat in littera, quod malitia corrumpit sicut corrumpit abstinentia. Ad corruptionem autem abstinentiae et concurrit vis naturalis consumtiva et defectus alimenti, et ita actio cum defectu. Similiter in proposito est intelligendum.</p>
+          <p xml:id="bb-l2d35a1q1-d1e211">Ad illud quod quaeritur : aut peccans corrumpit se aut alterum, dicendum quod corrumpit se. Quod vero subiungit quod nihil corrumpit se ipsum, dicendum quod verum est, si agat secundum operationem naturae suae debitam ; culpa autem non fit secundum ordinem naturae, sed praeter naturam. Et si obiciat quod nihil est agens et patiens secundum idem, dicendum quod istud falsum est in his potentiis quae possunt super se ipsas reflecti. Nam, sicut dicit Anselmus, voluntas est instrumentum se ipsum movens et cum deordinate se ipsam movet, se laedit et sibi ipsi nocumentum infert, pro eo quod vel recto ordine se privat vel a recto ordine se elongat.</p>
+          <p xml:id="bb-l2d35a1q1-d1e214">Ad illud quod quaeritur : aut peccatum corrumpit ratione carnis aut animae, dicendum quod principaliter ratione animae. Nam, etsi peccatum aliquod corrumpat ratione carnis, hoc accidit sicut superfluitas coitus vel cibi et potus nocet corpori. In anima autem peccatum semper aliquam corruptionem facit non secundum substantiam, secundum quam est immortalis et incorruptibilis, sed secundum rectitudinem et habilitatem ad ipsam, secundum quam anima est variabilis et vix in eodem statu permanet, sicut patet per experientiam, quamdiu sumus in hac miseria.</p>
+          <p xml:id="bb-l2d35a1q1-d1e218">Ad illud quod quaeritur, utrum corrumpat quantum ad substantiam aut quantum ad potentiam aut quantum ad actum, dicendum quod malum culpae corrumpit quantum ad actum, non simpliciter, sed in quantum actus ille est ordinabilis in finem ; non enim culpa privat ipsum actum, sed privat ordinem actus in finem. Et per hunc etiam modum dico quod non corrumpit potentiam, sed habilitatem sive ordlnabilitatem, per quam ordinatur ad suum complementum. Obiectio autem illa currit ac si diminueret potentias sub ratione potentiae, et actum sub ratione actus ; et ideo patet illud.</p>
+          <p xml:id="bb-l2d35a1q1-d1e221">Ad illud quod quaeritur, utrum corrumpat bonum gratiae vel naturae, dicendum quod, proprie loquendo et generaliter, malum culpae est privatio habilitatis mediae inter bonum naturae et bonum gratiae, quae quodam modo tenet medium inter bonum gratiae et bonum naturae. Et ratione eius quod ad bonum gratiae ordinat attenditur penes ipsam bonum et malum moris ; ratione vero eius quod naturalis est, non tantum habet esse in iustis, sed etiam in peccatoribus ; et ideo peccatum, sive fiat ab aliquo qui habet iustitiam, sive fiat a peccatore, semper invenit aliquid quod privet et corrumpat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

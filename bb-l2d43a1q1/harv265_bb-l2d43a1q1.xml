@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d43a1q1">
+        <head xml:id="bb-l2d43a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d43a1q1-Hd1e111" type="question-title">Utrum peccatum in Spiritum Sanctum dicat genus peccati distinctum ab aliis generibus peccatorum.</head>
+        <p xml:id="bb-l2d43a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum peccatum in Spiritum Sanctum dicat genus peccati distinctum ab aliis generibus peccatorum.</p>
+        <div xml:id="bb-l2d43a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d43a1q1-Hd1e119">Rationes principales</head>
+   
+          <p xml:id="bb-l2d43a1q1-d1e122">Et quod sic, videtur : Primo per verbum <name ref="#Lombard">Magistri</name> in littera : <quote xml:id="bb-l2d43a1q1-Qd1e127" source="http://scta.info/resource/pl-l2d43c1-d1e108">Est quoddam peccati genus ceteris gravius et abominabilius, quod dicitur peccatum in Spiritum Sanctum</quote> .</p>
+          <p xml:id="bb-l2d43a1q1-d1e131">Item, hoc videtur ratione, quia mortale et veniale faciunt diversa peccatorum genera ; ergo multo fortius remissibile et irremissibile ; sed peccatum in Spiritum Sanctum est peccatum irremissibile : ergo videtur quod peccatum in Spiritum Sanctum sit aliud genus ab aliis generibus peccatorum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e134">Item, peccatum in Spiritum Sanctum est peccatum procedens ex certa malitia. Si ergo peccatum ex certa malitia dividitur contra peccatum ex ignorantia et infirmitate, ergo videtur quod peccatum in Spiritum Sanctum sit genus peccati distinctum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e137">Item, quod habet species proprias, a speciebus aliorum peccatorum distinctas, est genus peccati distinctum ab aliis peccatorum generibus ; sed peccatum in Spiritum Sanctum est huiusmodi, quoniam eius species sunt desperatio et obstinatio et veritatis agnitae impugnatio, quae sunt propriae species huius peccati, ita quod non aliorum : ergo etc.</p>
+          <p xml:id="bb-l2d43a1q1-d1e141">Sed contra :
+1. Peccatum in Spiritum Sanctum, sicut dicit <name ref="#Lombard">Magister</name> in littera, est peccatum ad mortem ; sed omne peccatum mortale est peccatum ad mortem : ergo, cum peccatum ad mortem sit generale ad omnes peccatorum differentias, ergo et peccatum in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e147">2. Item, peccatum in Spiritum Sanctum aut sic nominatur quia est in personam Spiritus Sancti aut quia est contra illud quod est appropriatum Spiritui Sancto. Si quia contra personam Spiritus Sancti, sed una est maiestas Patris et Filii et Spiritus Sancti : ergo omne peccatum, quod est in Spiritum Sanctum, est in Patrem, et omne quod est in Patrem, est in Spiritum Sanctum : ergo hoc modo est generale ad omne peccatum. Sed, si quia contra effectum appropriatum Spiritui Sancto, utpote contra bonitatem et gratiam, sed omne peccatum est contra bonitatem et contra gratiam Spiritus Sancti : ergo omne peccatum est peccatum in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e150">3. Item, peccatum dividitur in peccatum ex infirmitate et ex ignorantia et ex malitia, ita quod peccatum ex malitia dicitur esse peccatum in Spiritum Sanctum ; sed peccatum ex ignorantia et peccatum ex infirmitate non dicit speciale genus peccati - omne enim genus peccati ex ignorantia potest esse et ex infirmitate - ergo non videtur similiter quod peccatum ex malitia dicat determinatum peccati genus.</p>
+          <p xml:id="bb-l2d43a1q1-d1e153">4. Item, omne quod quis facit ex ignorantia, potest facere ex certa scientia sive ex industria : ergo, si omne genus peccati potest fieri ex certa industria, videtur quod peccatum in Spiritum Sanctum circumeat omnia peccatorum genera. Non ergo videtur esse peccati genus ab aliis peccatorum generibus distinctum.</p>
+        </div>
+        <div xml:id="bb-l2d43a1q1-Dd1e157">
+          <head xml:id="bb-l2d43a1q1-Hd1e159">Conclusio</head>
+          <head xml:id="bb-l2d43a1q1-Hd1e162" type="question-title">Peccatum in Spiritum sanctum ratione sui principii, 
+    sui oppositi et actus substrati est genus peccati determinatum</head>
+ 
+          <p xml:id="bb-l2d43a1q1-d1e165">Respondeo : Dicendum quod peccatum in Spiritum Sanctum dicit genus peccati distinctum ab aliis generibus peccatorum ratione triplici, videlicet ratione principii et ratione sui oppositi et ratione actus substrati. Ratione principii, quia peccatum in Spiritum Sanctum dicitur esse illud quod est ex certa malitia sive industria, ex qua non procedit omne peccatum, sed illud solum quod homo facit scienter.
+Ratione oppositi similiter distinguitur, quia, eum triplex sit gratia, videlicet innocentiae, baptismalis et poenitentialis, peccatum in Spiritum Sanctum proprie habet opponi gratiae poenitentiali, et eam impugnat quantum ad sui initium et quantum ad sui terminum, sicut per originale perditur gratia innocentiae et per actualia alia impugnatur gratia baptismalis.
+Ratione vero actus substrati similiter distinguitur, quia, cum peccatum illud sit impugnativum gratiae, et malitia sit in ipso spiritu secundum se, peccatum in Spiritum Sanctum consistit circa actum ipsius spiritus, sicut patet in desperatione et obstinatione ; unde fornicatio et adulterium non potest aliquo modo dici peccatum in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e168">Ratione igitur sui principii et oppositi et actus substrati peccatum in Spiritum Sanctum est genus peccati determinatum. Et ratione horum trium sic nominatur, ut dicatur peccatum in Spiritum Sanctum, videlicet ratione malitiae, a,qua procedit, quae directe opponitur bonitati appropriatae Spiritui Sancto ; ratione poenitentialis sive finalis gratiae, quam privat, quae est effectus appropriatus Spiritui Sancto ; ratione etiam actus spiritualis, circa quem consistit ; unde directe dicitur peccatum in Spiritum Sanctum, quod est in spiritu et circa actum spiritus malignantis.
+Et sic patet quod peccatum in Spiritum Sanctum est genus peccati ab aliis generibus peccatorum distinctum. Et concedendae sunt rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-l2d43a1q1-Dd1e173">
+          <p xml:id="bb-l2d43a1q1-d1e175">Ad illud quod obicitur, quod est peccatum ad mortem, dicendum quod peccatum dicitur ad mortem secundum similitudinem ad mortem corporalem. In morte autem corporali tria concurrunt, quorum primum est amissio vitae, aliud est corruptio dispositionis ex parte corporis ad susceptionem animae, tertium est impossibilitas reparationis secundum cursum naturae. Quantum ad primam conditionem omne peccatum, in quo est aversio a Deo, dicitur esse peccatum mortale sive ad mortem. Quantum ad secundam peccatum in Spiritum Sanctum dicitur peccatum ad mortem, quia tollit dispositionem ad susceptionem vitae, quae quidem consistit in susceptione poenitentiae. Quantum vero ad tertiam conditionem peccatum illud dicitur ad mortem, in quo quis corporaliter moritur. Cum ergo dicitur quod omne peccatum mortale est ad mortem et quod peccatum in Spiritum Sanctum est peccatum ad mortem, differenti modo accipitur peccatum ad mortem.</p>
+          <p xml:id="bb-l2d43a1q1-d1e178">Ad illud quod obicitur, quod aut dicitur peccatum in Spiritum Sanctum, quia est contra personam etc., dicendum quod ideo dicitur peccatum in Spiritum Sanctum, non quia est contra personam, sed quia est contra appropriatum effectum ; nec quia contra omnem effectum appropriatum, sed quia contra effectum praecipuum inter appropriata Spiritui Sancto. Hic autem est donum gratiae finalis sive poenitentialis, et huiusmodi proprie quantum ad statum gratiae finalis, in qua consistit omnis gratiae efficacia ; et hoc modo non omne peccatum est contra effectum illum ; et per hoc non sequitur quod omne peccatum sit in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e181">Ad illud quod obicitur, quod omne peccatum potest esse peccatum ex ignorantia et infirmitate, dicendum quod non est simile, quoniam ignorantia non determinat sibi aliquem actum nec etiam infirmitas ; et ideo non dicit genus peccati determinatum, sed circuit omnia peccatorum genera. Similiter dicendum de peccato quod est ex infirmitate ; non sic autem est de peccato, secundum quod est ex malitia. Ad hoc enim quod sit peccatum in Spiritum Sanctum, non sufficit quod sit ex certa scientia et ex industria, sed requiritur determinatio generis quantum ad actum substratum.</p>
+          <p xml:id="bb-l2d43a1q1-d1e184">Ad illud quod obicitur, quod omne peccatum potest fieri ex malitia, dicendum quod, etsi malitia concurrere possit ad omne peccatum, non tamen semper facit peccatum in Spiritum Sanctum. Unde si aliquis senex, qui non habet appetitum fornicandi, excitaret carnem suam ut fornicaretur, non diceretur in illa fornicatione peccare peccato in Spiritum Sanctum, quamvis illud peccatum committeret ex industria et quadam malitia. Cum ergo dicitur quod peccatum ex malitia est peccatum in Spiritum Sanctum, hoc solum intelligitur de illis generibus peccatorum quae proprie ex malitia habent ortum, sicut invidentia fraternae gratiae et impugnatio veritatis agnitae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

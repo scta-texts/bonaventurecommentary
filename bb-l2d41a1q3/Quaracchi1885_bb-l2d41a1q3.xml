@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41a1q3">
+        <head xml:id="bb-l2d41a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d41a1q3-Hd1e111" type="question-title">Utrum divisio actionis per bonam et malam sit per differentias immediatas, an ponenda sit differentia tertia, videlicet actio indifferens.</head>
+ 
+        <p xml:id="bb-l2d41a1q3-d1e114">Tertio quaeritur, utrum divisio actionis per bonam et malam sit per differentias immediatas, an sit ponere per differentiam tertiam, videlicet actionem indifferentem.</p>
+        <div xml:id="bb-l2d41a1q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d41a1q3-Hd1e119">Rationes principales</head>
+   
+          <p xml:id="bb-l2d41a1q3-d1e122">Et quod sit per differentias immediatas, videtur : I ad Corinthios 10, 31 : <quote xml:id="bb-l2d41a1q3-Qd1e124" ana="#Icor10_31">Omnia in gloriam Dei facite</quote> ; et ad Colossenses 3, 17 : <quote xml:id="bb-l2d41a1q3-Qd1e127" ana="#col3_17">Omnia quaecumque facitis, sive in verbo, sive in opere, omnia in nomine Domini nostri Iesu Christi facite</quote>. Aut igitur actio nostra est in gloriam Dei aut non. Si sic, est bona ; si non, ergo omittitur illud quod mandat Apostolus. Sed omittere facere quod praecipitur semper est peccatum : ergo omnis actio vel est meritoria vel cum peccato : ergo nulla est indifferens. Si tu dicas quod est consilium, hoc non videtur, quia consilium nec datur omnibus nec absolute, sed sub conditione, nec peccat quis nolendo facere consilium. Horum tria opposita reperiuntur in proposito : ergo non tenet rationem consilii.</p>
+          <p xml:id="bb-l2d41a1q3-d1e131">Item, Matthaei 12, 36 : <quote xml:id="bb-l2d41a1q3-Qd1e133" ana="#mt12_36">De omni verbo otioso, quod locuti fuerint homines, reddent rationem in die indicii</quote>. Sed <quote xml:id="bb-l2d41a1q3-Qd1e136">otiosum est, ut dicit Gregorius, quod caret ratione iustae necessitatis et intentione piae utilitatis</quote> ; sed omne verbum aut habet iustam necessitatem et piam utilitatem aut caret illa : ergo omne verbum aut est bonum aut otiosum : pari ratione et omne factum. Sed de omni otioso reddemus rationem ; et non reddemus rationem nisi de malis : ergo omne verbum vel factum nostrum vel est : bonum vel malum.</p>
+          <p xml:id="bb-l2d41a1q3-d1e140">Item, <name ref="#Bernard">Bernardus</name> : <quote xml:id="bb-l2d41a1q3-Qd1e145">In via Dei stare retrocedere est</quote>. Sed qui facit actionem non meritoriam non procedit in via Dei in actione illa : ergo per illam actionem retrocedit. Et non retrocedit nisi per malam : ergo omnis actio vel est bona vel est mala et nulla indifferens.</p>
+          <p xml:id="bb-l2d41a1q3-d1e149">Item, voluntates per actiones perveniunt ad retributiones ; sed nihil est medium quin omnis voluntas aut sit bona aut mala ; nihil est medium inter retributiones quin etiam omnes salventur vel damnentur : ergo videtur quod nihil est medium inter bonitatem ad malitiam circa actiones nostras.</p>
+          <p xml:id="bb-l2d41a1q3-d1e153">Item, Deus est alpha et omega, principium et finis ; sed quod non est a Deo sicut a principio privatum est ratione boni : ergo similiter quod non est ad Deum sicut ad finem privatur ratione boni. Privatio autem boni nihil aliud est quam malitia : ergo quod non est ad Deum sicut ad finem est malum, et quod est ad Deum sicut ad finem est bonum ; hoc constat. Sed omnis actio nostra vel est ad Deum sicut ad finem vel non est ad Deum : ergo omnis actio nostra vel est bona vel mala.</p>
+          <p xml:id="bb-l2d41a1q3-d1e156">Item, cum voluntas nostra ex deliberatione facit aliquid, aut quiescit in creatura aut refert ad Creatorem. Si refert ad Creatorem, bene facit ; si quiescit in creatura, male agit et deordinatur, quia fruitur eo quo est utendum : ergo videtur quod voluntas in omni actione sua vel mereatur vel demereatur.</p>
+
+ 
+          <p xml:id="bb-l2d41a1q3-d1e159">Sed contra. Ad Romanos 7, 18 : <quote xml:id="bb-l2d41a1q3-Qd1e161">Velle adiacet mihi</quote>, Glossa : <quote xml:id="bb-l2d41a1q3-Qd1e164" source="http://scta.info/resource/gom-rom7"> <!-- margin on 7_15 -->Est velle gratiae et velle vitii et velle naturae</quote>. Sed actio respondet voluntati : ergo inter actionem meritoriam et vitiosam cadit aliqua actio media. Non ergo omnis actio voluntatis nostrae est mala vel bona, sed quaedam indifferens.</p>
+          <p xml:id="bb-l2d41a1q3-d1e170">Item, levare festucam de terra nec est bonum in genere nec malum nec etiam bonum ex circumstantia nec malum, similiter quantum est de se, nec est meritorium nec demeritorium. Si ergo bonum moris dividitur sufficienter per has tres divisiones, et nihil est in genere quod non sit In specie, videtur quod talis actio non sit bona vel mala, sed indifferens.</p>
+          <p xml:id="bb-l2d41a1q3-d1e173">Item, aliquis comedit ut satisfaciat appetitui naturali ; talis actio non est bona bonitate meriti, hoc constat, quia non fit propter Deum nec ad ipsum refertur ; nec est mala malitia culpae, quia peccatum non concordat naturae, sed discordat ; talis autem actio naturae est consona : ergo videtur quod aliqua actio nostra medium teneat inter bonitatem et malitiam.</p>
+          <p xml:id="bb-l2d41a1q3-d1e176">Item, si omnis actio nostra esset meritoria vel demeritoria, cum in eo qui caret caritate nulla sit meritoria, omnis eius actio esset mala : ergo peccaret in hoc quod vadit ad ecclesiam : ergo et in hoc quod facit omnia alia opera. Igitur nunquam se disponeret ad gratiam, immo disponendo magis se elongaret.</p>
+          <p xml:id="bb-l2d41a1q3-d1e180">Item, nulla est actio bona et meritoria nisi quae fit bona intentione et mediante illa refertur ad debitum finem. Ergo, si omnis actio nostra esset bona vel mala, meritoria vel demeritoria, in omni actione et cogitatione nostra, quam in Deum non referimus, peccaremus : ergo vix esset aliquis qui non peccaret millies in die, cum innumerabiles habeamus cogitationes et affectiones, in quibus nihil cogitamus de Deo : de illis maxime loquor qui magis intendunt actioni quam contemplationi.</p>
+          <p xml:id="bb-l2d41a1q3-d1e183">Item, sicut caritas est principium omnium bonorum, sic libido et concupiscentia est principium et causa omnium malorum ; sed multas actiones faciunt homines tota die, quas non faciunt nec ex libidine nec ex caritate, immo vel ex amore naturali vel sociali vel ex quadam urbanitate civili et consuetudine operandi : non ergo videtur quod omnis actio voluntaria sit immediate bona vel mala.</p>
+        </div>
+        <div xml:id="bb-l2d41a1q3-Dd1e187">
+          <head xml:id="bb-l2d41a1q3-Hd1e189">Conclusio</head>
+          <head xml:id="bb-l2d41a1q3-Hd1e192" type="question-title">Actionis divisio per bonam et malam non est per differentias 
+    immediatas, cum tertium genus reperiatur operis, quod non est neque bonum 
+    neque malum, tam respectu sui generis quam 
+    respectu operantis.</head>
+ 
+          <p xml:id="bb-l2d41a1q3-d1e195">Respondeo : Dicendum quod, cum quaeritur, utrum actio dividatur per bonum et malum tamquam per differentias immediatas, est quaestio de actione voluntatis deliberativae, secundum quod deliberativa est : illa enim est quae dividitur per bonam et malam. Et quoniam de actione voluntatis deliberativae dupliciter est loqui, scilicet quantum ad genus actionis et in comparatione ad operantem, dupliciter possunt istae differentiae ad actionem comparari : aut secundum genus operis aut respectu operantis.
+Si primo modo, sic planum est quod non est divisio per immediata, immo inter actionem bonam et malam actionem indifferentem contingit reperire mediam. Et hoc manifestum est, quia, cum triplex sit differentia boni moris - quia est bonum secundum se sive principale et bonum ex circumstantia et bonum in genere - et econtra, cum triplex sit malum, videlicet malum in genere et malum ex circumstantia et malum secundum se, inter haec omnia contingit reperire medium. Nam inter bonum et malum secundum se quasi media sunt illa quae nec sunt bona secundum se nec sunt mala secundum se, sicut sunt bona vel mala in genere vel ex circumstantia.
+Inter bonum ex circumstantia et malum ex circumstantia media sunt tam indifferentia quam bona et mala in genere : omnia enim illa indifferenter possunt fieri bona vel mala ex circumstantia.
+Inter bonum autem in genere et malum in genere cadit medium indifferens simpliciter, sicut velle comedere vel velle levare festucam de terra, quae non dicunt bonitatem moris vel malitiam.
+Et sic patet quod divisio actionis per bonam et malam, quantum ad, genus operis, non est per differentias immediatas, immo est reperire differentiam tertiam ; et in hoc communiter omnes concordant.
+</p>
+ 
+          <p xml:id="bb-l2d41a1q3-d1e198">Si autem loquamur de bonitate et malitia actionis in comparatione ad operantem, sic sunt diversae opiniones.
+Nam, quidam dicunt quod est divisio immediata ; nihil enim facit homo ex deliberatione, quod Deus non reputet ei ad praemium vel non imputet ei ad aliquod demeritum. Unde in die iudicii, ut dicunt, de omni actu deliberativo rationem reddemus. Et huic positioni videntur consonare verba Sanctorum, qui dicunt quod sicut non peribit capillus de capite, nec momentum de tempore, de quo rationem non reddamus, sicut dicit <name ref="#Bernard">Bernardus</name>. Et hoc idem videtur dicere Anselmus, quod exigetur a nobis omne tempus impensum, qualiter fuerit expensum. Et ipsa Veritas videtur huic consonare, cum dicit quod de omni verbo otioso rationem reddemus.
+Sed iste modus dicendi aut multum ampliat viam salutis aut multum coarctat. Nam ad hoc quod sit opus meritorium, aut dicent requiri actualem relationem illius operis ad Deum et in particulari aut dicent sufficere relationem in habitu et in universali. Si dicunt quod requiritur relatio in particulari, nimis est arcta via salutis, quia tunc in omni opere, quod homo non refert actualiter in Deum, demeretur et peccat ; quod valde severum est dicere. Si sufficeret intentio habitualis et in universali, tunc, quando aliquis proposuisset in corde suo servire Deo in principio anni vel mensis vel septimanae vel diei, omnia opera, quae postea faceret, etiam nihil de Deo cogitans, essent sibi meritoria. Sed si hoc dicatur, valde ampliatur et elargatur via salutis ; et in hoc auctoritatibus Sanctorum obviatur, qui dicunt eam esse valde arctam.</p>
+ 
+          <p xml:id="bb-l2d41a1q3-d1e204">Et ideo est alius modus dicendi, quodam modo magis temperatus quam sit iste, videlicet quod quaedam sunt actiones voluntatis deliberativae, quae respiciunt ipsam directe ; quaedam vero sunt quae respiciunt ipsam secundum quod regit potentias naturales. Prima operatio est locutio, quae quidem est rationalis secundum quod ratione utitur ; secunda vero est comestio vel ambulatio et consimiles. Dicunt ergo quod circa illas operationes quae respiciunt voluntatem rationalem, secundum quod rationalis est, non contingit reperire medium inter bonitatem et malitiam ; circa alias vero contingit. Unde bene concedunt quod non omnis actio deliberativa vel bona est vel mala. Locutio autem omnis vel bona est vel mala : aut enim est utilis, aut otiosa ; et si otiosa, tunc et mala ; si utilis, tunc est bona. Et propterea Dominus dixit de omni verbo reddere rationem, non de omni facto. Et beatus Iacobus in Canonica sua [3, 2] dicit quod qui in verbo non offendit, hic perfectus est vir. Et propterea dicit quidam quod verbum prius debet venire ad limam quam ad linguam.
+Sed tamen adhuc iste modus dicendi non videtur plene satisfacere. Nam velle cogitare de veritate est actus voluntatis, secundum quod movetur rationaliter ; et tamen frequenter homo cogitat de veritate, ita quod non refert ad Deum ; et tamen durum est dicere quod peccet. Ulterius, potest aliquis loqui alii ex naturali pietate vel ex civili urbanitate, sicut quando salutat hominem in via, et tunc valde durum est dicere quod peccet ; nec potest dici quod omnis talis locutio sit meritoria. Item, si plus est facere quam dicere, potius reddemus rationem de facto otioso quam de verbo. Unde Sancti concludunt hoc a minori ex verbo Evangelii.
+</p>
+ 
+          <p xml:id="bb-l2d41a1q3-d1e208">Et ideo est tertius modus dicendi, quod in operibus voluntatis deliberativae est ponere medium inter malitiam et bonitatem. Nam quaedam actio a voluntate deliberativa procedens est ordirtata in finem debitum, scilicet ad Deum ; et haec quidem est bona, et, si sit ex caritate, est meritoria vitae aeternae merito condigni ; si autem fiat extra caritatem, meritoria est merito congrui. Quaedam vero actio ex voluntate deliberativa procedens est non ordinata ; et haec est divisio per immediata. Sed non omnis actio non ordinata ad Deum tamquam ad finem est mala, quia quaedam non ordinatur propter inordinatam conversionem ad creaturam, quaedam vero non ordinatur propter operantis negligentiam, quaedam vero non ordinatur propter operantis infirmitatem et miseriam. Prima differentia actionis non ordinatae est mala malitia commissionis ; secunda est mala malitia omissionis ; tertia vero neutro modo est mala, sed est indifferens. Talis autem actio est quando quis facit aliquam operationem, ita quod circa creaturam non afficitur inordinate ; nec tamen illam operationem comparat ad Deum, sed facit propter aliquem finem qui respicit indigentiam naturae, ut cum aliquis ambulat ut recreetur vel comedit ut reficiatur. Talis actio indifferens iudicatur, quia Deus nec illam remunerat nec imputat in culpam ; et hoc, quia in tali actione non est malitia commissionis, quia non est inordinata delectatio ; nec etiam omissionis : non enim semper omittit homo quando actiones suas non refert in Deum. Indulgetur enim naturae fragili et infirmae ut multa possit talia facere ; nec Deus requirit ab homine in tali statu distractionis et miseriae, quod omnia, dum facit, referat ad se ; requirit tamen aliquando, quando est locus et tempus ; et tunc, si homo non referat, omittendo peccat.
+Concedendum est igitur, sicut rationes ostendunt, quod divisio actionis per bonam et malam non est per differentias immediatas, pro eo quod inter has differentias contingit reperire medium, sive actio consideretur secundum genus operis sive respectu operantis.
+</p>
+        </div>
+        <div xml:id="bb-l2d41a1q3-Dd1e213">
+          <head xml:id="bb-l2d41a1q3-Hd1e215">Ad rationes</head>
+          <p xml:id="bb-l2d41a1q3-d1e218">Ad illud ergo quod primo obicitur de illo verbo Apostoli : <quote xml:id="bb-l2d41a1q3-Qd1e220">Omnia in gloriam Dei facite</quote>, respondent aliqui quod est consilium, aliqui, quod est praeceptum, aliqui, quod est finis praecepti, sicut illud : Diliges Dominum Deum tuum Omnibus autem praedictis modis praedictus sermo potest intelligi. Potest enim accipi affirmative vel negative ; et affirmative dupliciter, quia hoc signum omnia potest ibi teneri collective vel distributive.</p>
+
+          <p xml:id="bb-l2d41a1q3-d1e224">Si accipiatur negative, sic est praeceptum, etiunc est sensus : ita faciatis opera vestra ut nihil faciatis contra gloriam Dei.
+Si autem intelligatur affirmative, et hoc signum omnia teneatur distributive et divisim, tunc est consilium et admonitio. Admonet enim Apostolus, secundum hunc sensum, quod quodlibet opus nostrum referamus in Deum ; et de quolibet divisim possumus facere, et utile est nobis et expediens, si faciamus. Nullum enim est opus deliberativum, quod a nobis fiat ; quod quidem non possimus facere propter Deum ; et si hoc faceremus, melius faceremus quam quando non referimus.
+Si autem praedictus sermo teneatur affirmative et hoc signum omnia teneatur collective, tunc nec est praeceptum nec consilium, sed finis praecepti et consilii. Ad hoc enim debemus tendere et hoc desiderare quod ad talem statum perveniamus quod omnes cogitationes nostras et affectus in Deum referamus ; hoc autem tunc obtinebimus quando Deum ex toto corde diligemus.</p>
+          <p xml:id="bb-l2d41a1q3-d1e227">Et sic patet quod ex illa auctoritate non concluditur quod aliquis peccet, cum non refert opus suum in Deum actualiter. Nec valet illud quod obicitur, quod non potest esse consilium ; non enim hic accipimus consilium proprie, prout proponitur viris perfectis, sed vocamus hic consilium quamcumque monitionem generalem, quae viam expedit ad perveniendum in salutem, sicut sunt admonitiones Salomonis in libro Proverbiorum et consimiles hortationes ad bonum.</p>
+
+          <p xml:id="bb-l2d41a1q3-d1e230">Ad illud quod obicitur, quod reddemus rationem de verbo otioso, dicendum quod otiosum non dicitur verbum, quia non sit ordinatum in finem solum, sed quia omni caret utilitate, dum tamen aliquam deberet habere ; et inter tale otiosum et meritorium sive bonum cadit medium, quando aliquis facit aliquid, quod non est omnimoda utilitate privatum nec tamen est ordinatum in Deum tamquam in finem ultimum ; unde non dicitur homo esse otiosus semper, quando non laborat, sed tunc dicitur esse otiosus, quando non laborat et deberet laborare. Frequenter tamen illa verba, quae videntur esse inutilia, utilia fiunt, dum ordinantur ad recreationem aliquam spiritus et exclusionem acidiae ; secundum quod refertur beatus <name ref="#Bernard">Bernardus</name> dixisse, cum quemdam fecit cespitare : Otiosum, inquit, fuit factum, sed non otiose factum ; fecerat enim hoc ad laetificandum illum quem viderat moestum.</p>
+          <p xml:id="bb-l2d41a1q3-d1e237">Ad illud quod obicitur, quod in via Dei stare retrocedere est, dicendum quod verum est, quando homo stat, cum deberet ambulare ; et quantum ad illud tempus dicit <name ref="#Bernard">Bernardus</name> quod non peribit momentum de tempore ; et Anselmus, quod exigetur a nobis ratio qualiter tempus fuerit expensum.
+Si autem quaeratur, quando ; hoc est difficile, immo impossibile est determinare, quia diversis personis diversimode se offert opportunitas exeundi in bonas operationes et in bonas affectiones et intentiones ; et ideo Sancti, ut reddant nos sollicitos, terrent nos, et Dominus ipse, cum dicit : Quod uni dico, omnibus dico : Vigilate.
+</p>
+
+          <p xml:id="bb-l2d41a1q3-d1e243">Ad illud quod obicitur, quod non est medium inter voluntates et retributiones, dicendum quod non est simile, pro eo quod omnis homo, qui nascitur, nascitur cum peccato, a quo non liberatur nisi per gratiam, et ilia gratia amittitur per culpam. Unde necesse est voluntatem esse gratam vel odiosam. Et quia retributiones respondent personis, hinc est quod omnes, qui non salvantur, damnantur, ita quod non est medium. Non sic autem est de actione, quia a voluntate, in qua est libido, potest aliqua actio exire etiam praeter libidinem morum. Unde sicut istud argumentum non valet : voluntas non potest esse sine libidine vel gratia, ergo non potest movere sine libidine vel gratia, sic nec argumentum prius dictum.</p>
+          <p xml:id="bb-l2d41a1q3-d1e246">Ad illud quod obicitur, quod omne quod non est a Deo, est privatum bono, ergo similiter omne quod non est ad Deum, dicendum quod non est simile, quia ordinatio actionis ad Deum tamquam ad causam efficientem vel ad principium attenditur non solum quantum ad esse moris, sed etiam quantum ad esse naturae, et ita respicit esse ; ordinatio vero quantum ad finem respicit bene esse. Quamvis tamen non sit medium inter ens et non-ens, est tamen medium inter bene esse et male esse moris, pro eo quod bonitas moralis non se extendit ad omnes actiones sicut bonitas naturalis.</p>
+          <p xml:id="bb-l2d41a1q3-d1e249">Ad illud quod obicitur, quod si voluntas aliquid facit, aut quiescit in creatura aut refert ad Deum, dicendum quod quiescere dicitur aliquid alicubi dupliciter : aut quia sistit ibi tamquam in ultimo fine ; et tunc est actio mala malitia mortalis peccati, quando scilicet voluntas ponit creaturam sibi pro fine ultimo et principali ; aut quia sic ibi sistit, non quia ibi ponit ultimum finem, sed quia non ulterius tendit. Et hoc potest esse tripliciter, sicut dictum est supra : aut ex aliqua inordinata affectione, qua illi rei alligatur ; aut ex negligentia et torpore, quo negligit referre, cum posset et deberet ; aut quia ex quadam imbecillitate et infirmitate aggravatur, ut difficile sit sibi omnes actiones suas in Deum convertere. Et primis duobus modis est peccatum, tertio vero non.</p>
+
+ 
+          <p xml:id="bb-l2d41a1q3-d1e252">Notandum est tamen quod ad hoc quod aliqua actio sit meritoria, non oportet quod semper quis eam referat actualiter in Deum, sed sufficit relatio habitualis. Habitualem autem relationem voco, non quia habeat caritatem, per quam sit habilis ad referendum, sed quia in primordio operationis illius vel alterius, ad quam illa consequenter se habet, intentionem habet ad Deum directam. Unde, si aliquis intendit dare pro Deo centum marcas et incipit dare et cogitat de Deo in prima marca, et in aliis non cogitat, nihilominus tamen omnes dationes illae sunt ei meritoriae et fructuosae. Si autem opus alterius generis inciperet, oporteret quod intentio renovaretur ad hoc quod hoc opus esset meritorium.
+Per hunc etiam modum intelligitur esse in viris religiosis, qui in principio ex caritate devoverunt portare religionis pondus. Quidquid enim faciunt, quod ad suae religionis observantiam spectat, ex prima intentione est eis meritorium ad salutem, nisi forte, quod absit, contraria intentio superveniat. In aliis autem, quae ad religionem non spectant, secus est, quia illa intententio non se extendit ad alia habitualiter. Et ideo non est parvae securitatis et utilitatis religionem introire.</p>
+ 
+          <p xml:id="bb-l2d41a1q3-d1e255">Fuerunt tamen qui dixerunt quod habitualis intentio solum sufficit ad meritum satisfactionis. Opus enim est satisfactorium, si fiat in caritate ; ad hoc autem quod opus sit meritorium vitae aeternae, dicunt necesse esse concurrere actualem intentionem, quia nullum opus est meritorium nisi fiat a caritate actualiter movente.
+Probabilius tamen est dicere, sicut dictum est, quod ad utrumque sufficit relatio habitualis. Rationem autem habitualem voco ; non qua quis in generali refert ad Deum omnia opera diei vel anni, sed qua quis refert aliquod opus ad Deum, ita quod opus sequens directam habet ad opus primum ordinationem et consequentiam, sicut est in illo qui dat centum marcas vel intendit ire ad sanctum Iacobum ; in aliis autem non habet locum.
+Habitualem etiam intentionem sive relationem voco, quando, non praecogitato in actu ut tunc fine ultimo sive Deo, ex sola boni operis consideratione, ipsa caritas prompta vel aliqua alia virtus caritate informata ad ipsum bonum opus inclinat ; sicut vir obediens meretur obediendo praelato sibi praecipienti, etiamsi nihil de Deo cogitet, sed solum consideret quod bonum est obedire.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

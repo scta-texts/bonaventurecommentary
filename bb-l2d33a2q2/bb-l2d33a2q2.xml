@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d33a2q2">
+        <head xml:id="bb-l2d33a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d33a2q2-Hd1e111" type="question-title">Utrum ponendum sit peccatum originale unum, vel plura.</head>
+ 
+        <p xml:id="bb-l2d33a2q2-d1e114">Secundo quaeritur, utrum sit ponere unum originale vel plura.</p>
+        <div xml:id="bb-l2d33a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d33a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d33a2q2-d1e122">Et quod unum solum, videtur : Primo, auctoritate <name ref="#Lombard">Magistri</name> in littera, capitulo Alioquin, ubi sic ait : <quote xml:id="bb-l2d33a2q2-Qd1e127" source="http://scta.info/resource/pl-l2d33c2-d1e126">Uno peccato, non pluribus parvuli obligati sunt</quote>.</p>
+          <p xml:id="bb-l2d33a2q2-d1e131">Item, hoc ipsum ostenditur ratione sumta a causa, quia peccatum originale contrahitur propter Adae inobedientiam : ergo, si una tantum culpa fuit eius inobedientia, videtur quod, in quocumque repedatur, sit unicum et nullo modo plura.</p>
+          <p xml:id="bb-l2d33a2q2-d1e134">Item, hoc ipsum ostenditur ratione sumta a poena. Originali enim debetur solum carentia visionis Dei et haec est una poena ; sed multis culpis multae debent respondere poenae : ergo etc.</p>
+          <p xml:id="bb-l2d33a2q2-d1e137">Item, hoc ipsum ostenditur in comparatione ad sequelam. Originale enim non solummodo est ab origine, sed etiam origo est et principium omnium malorum. Si ergo <quote xml:id="bb-l2d33a2q2-Qd1e139">quod per superabundantiam dicitur uni soli convenit</quote>, et status est per reductionem ad unum, videtur quod originale peccatum non sit nisi unum solum.</p>
+          <p xml:id="bb-l2d33a2q2-d1e144">Item, hoc ipsum videtur in comparatione ad subiectum. Originale enim est in anima ratione conjunctionis suae ad carnem. Si ergo una est caro, cui anima coniungilur, et unica unione unitur, et unitas est in anima, secundum quod carni ut perfectibili unitur, videtur ergo quod necessario peccatum originale sit unum.</p>
+          <p xml:id="bb-l2d33a2q2-d1e147">Item, hoc ipsum ostenditur per comparationem ad oppositum. Originale enim peccatum est carentia debitae iustitiae ; sed debita iustitia, cuius originale est privatio in homine, non erat nisi una, quia in uno innocente una est innocentia : ergo etc.</p>
+
+          <p xml:id="bb-l2d33a2q2-d1e150">Sed contra hoc arguitur :
+Primo, auctoritate. Super illud Psalmi [50, 7] : <quote xml:id="bb-l2d33a2q2-Qd1e152" ana="#ps50_7">Ecce enim in iniquitatibus conceptus sum</quote>, Glossa : Iniquitates sunt <quote xml:id="bb-l2d33a2q2-Qd1e155">originalia peccata</quote> ; et multae auctoritates sunt ad hoc in littera.</p>
+          <p xml:id="bb-l2d33a2q2-d1e159">Item, hoc ipsum videtur rationibus sumtis per eamdem viam per quam sumebantur ad oppositum. Et primo ratione sumta a causa. Originale enim peccatum est in nobis propter peccatum primorum parentum ; sed Adam et Eva plura commiserunt peccata : ergo videtur quod plura sint in nobis originalia, quia qua ratione redundat in nobis peccatum viri, eadem ratione peccatum mulieris.</p>
+          <p xml:id="bb-l2d33a2q2-d1e162">Item, hoc ipsum vivetur ratione sumta a poena, quia uni culpae unica debet respondere poena : sed multa genera poenalitatum ad originale peccatum consequuntur, ut fames, sitis, mors, infirmitas etc. ; et <quote xml:id="bb-l2d33a2q2-Qd1e164">quatuor, dicit Beda nobis per peccatum originale esse inflicta, scilicet infirmitatem, ignorantiam, concupiscentiam et malitiam</quote>. Videtur igitur quod secundum diversa genera poenalitatum sit diversitas originalium.</p>
+          <p xml:id="bb-l2d33a2q2-d1e168">Item, hoc ipsum videtur per comparationem ad capitalia subsequentia. Habitus enim diversificantur per actus, et actus per obiecta. Si ergo originale peccatum reddit hominem proclivem ad septem peccata capitalia, quae sunt diversorum generum, videtur quod in quolibet homine sit multitudo originalium.</p>
+          <p xml:id="bb-l2d33a2q2-d1e172">Item, hoc ipsum ostenditur per comparationem ad subiectum, quia omnes vires animaeinficiuntur per originale peccatum ; sed multiplicatis corruptibilibus, multiplicantur corruptiones, et in diversis potentiis diversi sunt habitus : ergo in unoquoque homine necesse est ponere multiplex originale.</p>
+          <p xml:id="bb-l2d33a2q2-d1e175">Item, hoc ipsum videtur per comparationem ad oppositum, quia per originale peccatum est privatio omnium virtutum, cum per ipsum fiat incurvatio animae ad vitia, omnibus virtutibus opposita. Ergo, si piures contingit in nobis reperire virtutes, piures in nobis contingit reperire culpas originales.</p>
+        </div>
+        <div xml:id="bb-l2d33a2q2-Dd1e179">
+          <head xml:id="bb-l2d33a2q2-Hd1e181">Conclusio</head>
+          <head xml:id="bb-l2d33a2q2-Hd1e184" type="question-title">Originale peccatum est unum secundum speciem 
+   et in uno homine unum etiam secundum numerum</head>
+ 
+          <p xml:id="bb-l2d33a2q2-d1e187">Respondeo : Dicendum quod, sicut vult magister Hugo, originale peccatum dupliciter dicitur. Uno modo dicitur originale peccatum, quod est origo omnium peccatorum, et sic peccatum Adae dicitur peccatum originale ; et hoc modo peccatum originale non tantum est unum specie, verum etiam unum numero. Alio modo dicitur originale peccatum, quod est in nobis ab origine et a quo etiam cetera vitia sumunt in nobis originem ; et hoc modo quaerimus hic de unitate originalis peccati.</p>
+ 
+          <p xml:id="bb-l2d33a2q2-d1e190">Ad huius igitur quaestionis dilucidationem intelligendum est quod, cum quaerimus de unitate alicuius, aut quaerimus de unitate secundum speciem et formam communem aut quaerimus de unitate secundum numerum et suppositum.
+Si primo modo loquamur de originali peccato, sic unitatem habet secundum speciem eo modo secundum quod peccatum dicitur habere speciem. Unitas autem ista in originali peccato venit principaliter ex parte boni quod privat et ex parte peccati Adae, per quod introductum est, hoc est ex parte oppositi et ex parte principii. Una enim est secundum speciem originalis iustitia et innocentia, cuius privatio est originale peccatum. Una etiam fuit inobedientia, ratione cuius totum genus humanum est corruptum ; et ideo secundum speciem originale peccatum est unum in nobis.</p>
+ 
+          <p xml:id="bb-l2d33a2q2-d1e193">Si autem loquamur de unitate originalis quantum ad numerum, sic dicendum quod in uno homine est unicum. Et ratio huius est, quia peccatum dupliciter numeratur : aut ratione subiecti in quo, sicut in diversis hominibus diversa sunt peccata ; aut ratione actus per quem homo culpabilis efficitur, sicut qui pluries luxuriatus est plura habet peccata. Neutro istorum modorum originale peccatum multiplicatur, sed remanet indivisum : nam in uno homine una est anima, quae per originale peccatum inficitur. Item, unius hominis una est generatio, in qua et per quam originale peccatum transfunditur ; et ideo originale peccatum in uno homine est unum solum quantum ad unitatem secundum speciem et quantum ad unitatem secundum numerum.
+Et concedendae sunt rationes quae hoc ostendunt.</p>
+ 
+        </div>
+        <div xml:id="bb-l2d33a2q2-Dd1e198">
+          <head xml:id="bb-l2d33a2q2-Hd1e200">Ad rationes</head>
+
+          <p xml:id="bb-l2d33a2q2-d1e203">Ad illud ergo quod primo obicitur in contrarium de Glossa, quae iniquitates dicit peccata originalia, dicendum quod, sicut dicit <name ref="#Lombard">Magister</name>, quod frequenter in Scriptura accipitur plurale pro singulari et e converso, sicut <name ref="#Lombard">Magister</name> exempllficat in littera. Ratio autem quare Scriptura origi-. nate, cum sit unum, pluraliter nominat, est propter multiplicitatem inclinationum ad malum, quae ex originali peccato nascuntur.</p>
+          <p xml:id="bb-l2d33a2q2-d1e212">Ad illud quod obicitur, quod quod originale peccatum ortum habet a peccato primorum parentum, dicendum est quod quemadmodum in generatione prolis pater et mater sunt quasi unum principium completum, ita quod neuter eorum per se sufficit, quamvis sint diversae personae et distinctae, sic et in originalis peccati transfusione intelligendum est. Etsi peccatum Adae et peccatum Evae fuerunt diversa, prout tamen in originali peccato inficiebatur in utroque vis generativa, unum peccatum originale in prole causabant, ita quod, sicut principaliter virtus generativa residet penes virum, ita etiam transfusio originalis principaliter attribuitur viro ; nihilominus tamen utrique attribuitur suo modo.
+Unde frivola est illa quaestio, qua quaeritur, utrum transfunderetur originale, si tantum vir vel tantum mulier peccasset, quia, cum ad genetionem duo concurrant tamquam unum principium, non pateretur Deus quod vir incorruptus mulieri corruptae commisceretur vel e converso. Debet enim, sive in statu naturae institutae sive in statu naturae institutae sive in statu naturae corruptae, servari proportio et conformitas viri agentis ad mulierem suscipientem, cum in actu illo efficiantur una caro.
+</p>
+
+          <p xml:id="bb-l2d33a2q2-d1e215">Ad illud quod obicitur de multiplicitate poenarum, dicendum quod uni culpae respondet una poena principalis ; plures autem possunt esse non principales. Principalem autem dico poenam aeternam, non principalem autem poenam temporalem, quae quodam modo est ad bonum ordinativa. Vel principalem voco illam quae primo pro culpa infligitur ; non principalem vero quae ad istam consequitur. Originale autem una poena aeterna punitur, videlicet carentia visionis Dei ; unica etiam poena temporali principaliter, videlicet mortalitate carnis ; sed ad mortalitatem multae consequuntur poenalitates.</p>
+
+          <p xml:id="bb-l2d33a2q2-d1e218">Ad illud quod obicitur de multiplicitate inclinationum, dicendum quod sicut, una chorda rupta qua multa colligantur, sequitur laxatio multorum et tamen una est ibi prima corruptio et laxatio, sic intelligendum est et in proposito quod, iustitia innocentiae per originale peccatum privata, omnes vires animae relaxantur ; una tamen est corruptio, loquendo essentialiter, plures autem intelligendo causaliter.</p>
+
+          <p xml:id="bb-l2d33a2q2-d1e222">Ad illud vero quod obicitur, quod est corruptio diversarum virium, dicendum quod verum est ; sed sicut gratia ponitur esse in viribus animae, prout tamen continuantur ad unitatem substantiae animae, et ideo una est gratia in omnibus viribus, sic et originale peccatum est corruptio plurium virium, prout tamen illae vires in unitate substantiae uni carni habent uniri.
+Et sic intelligendum est illud verbum, quod ab aliquibus consuevit dici, scilicet quod originale inest animae secundum suam essentiam. Hoc enim non est intelligendum quod ipsam substantiam animae originale prius respiciat quam potentias. Nam contrarium huius dicit Anselmus, in libro De conceptu virginali, quod tam iustitia quam iniustitia primo est in voluntate, et loquitur ibi expresse de peccato originali. Et sic intelligendo quod originale peccatum, ut culpa est, sit primo in voluntate, ut vitium, sit in pluribus potentiis ad unam substantiam continuatis, intelligitur habere unicum subiectum, sicut sanitas una ponitur esse in omnibus membris eiusdem corporis, sicut vult <name ref="#Augustine">Augustinus</name>. Non sic autem est de peccato actuali. Nam peccata actualia diversas potentias respiciunt, secundum quod ad diversos actus comparantur ; unde et per diversos actus introducuntur in esse et propterea secundum diversitatem potentiarum habent differre. Non sic est de originali peccato, quod contrahitur ex unione animae ad carnem.</p>
+
+          <p xml:id="bb-l2d33a2q2-d1e228">Ad illud quod ultimo obicitur de comparatione ad oppositum, iam patet responsio. Nam originale peccatum primo et principaliter virtutibus non opponitur, sed opponitur iustitiae originali, de qua saepe dictum est ; et illam privando, per consequens inclinat ad diversa vitia et sic inclinando cum omnibus virtutibus habet repugnantiam. Unde ratio illa non cogit, quia non arguit per illud quod opponitur directe, sed solum per Id quod opponitur ex consequenti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d44a3q1">
+        <head xml:id="bb-l2d44a3q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d44a3q1-Hd1e111" type="question-title">Utrum Christiani teneantur subesse tyrannis sive potestati saeculari in aliquibus.</head>
+        <p xml:id="bb-l2d44a3q1-d1e114">Circa primum sic proceditur et quaeritur, utrum Christiani teneantur subesse tyrannis sive potestati saeculari in aliquibus.</p> 
+        <div xml:id="bb-l2d44a3q1-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-l2d44a3q1-d1e119">Et quod sic, videtur : Petri 2, 18 : <quote xml:id="bb-l2d44a3q1-Qd1e121" ana="#Ipetr2_18">Servi, subditi estote in omni timore dominis, non tantum bonis et modestis, sed etiam discolis</quote>.</p>
+          <p xml:id="bb-l2d44a3q1-d1e125">Item, ad Romanos 13, 1 : <quote xml:id="bb-l2d44a3q1-Qd1e127" ana="#rom13_1">Omnis anima potestatibus sublimioribus subdita sit</quote> ; et post : <quote xml:id="bb-l2d44a3q1-Qd1e130" ana="#rom13_7">Reddite omnibus debita, cui tributum tributum, cui vectigal vectigal</quote>. Et si tu dicas quod haec est admonitio propter scandalum vitandum ; contra, paulo ante : Necessitate subditi estote, non solum propter iram, sed etiam propter conscientiam.</p>
+          <p xml:id="bb-l2d44a3q1-d1e134">Item, hoc ipsum ostenditur ratione, quam Apostolus facit ibidem. Non est, inquit, potestas nisi a Deo ; sed quae a Deo sunt, ordinata sunt ; ergo omnis potestas ordinata est ordinatione divina : itaque qui resistit potestati, Dei ordinationi resistit ; sed qui resistit ordinationi Dei damnationem sibi acquirit : ergo etc.</p>
+          <p xml:id="bb-l2d44a3q1-d1e137">Item, servire homini non est culpa nec malum, immo meritorium : ergo videtur quod ab illa servitute non absolvatur per baptismum : ergo sicut non-Christiani servi sunt aliorum, ita, etiamsi Christiani fiant, servire tenentur.</p>
+          <p xml:id="bb-l2d44a3q1-d1e140">Item, ad hoc ipsum sunt multae auctoritates, quae possunt sumi quasi ab omnibus Epistolis beati Pauli, in quibus monet servos subiacere dominis suis.</p>
+
+ 
+          <p xml:id="bb-l2d44a3q1-d1e144">Sed contra : Matthaei 17, 24 : <quote xml:id="bb-l2d44a3q1-Qd1e146" ana="#mt17_24">Reges terrae a quibus accipiunt censum? a filiis, an ab alienis ?</quote> et post, infra : <quote xml:id="bb-l2d44a3q1-Qd1e149" ana="#mt17_25">Ergo liberi sunt filii</quote> ; et Glossa ibi : <quote xml:id="bb-l2d44a3q1-Qd1e152">Liberi sunt filii regni in omni regno, multo magis liberi sunt filii illius regni, sub quo sunt omnia regna in quolibet regno terreno</quote>. Si ergo boni Christiani sunt filii regni illius, videtur quod sub nullius regis terreni potestate sint astricti : ergo non tenentur ei subesse in aliquo tributo.</p>
+          <p xml:id="bb-l2d44a3q1-d1e156">Item, Iacobi 1, 25 : <quote xml:id="bb-l2d44a3q1-Qd1e158" ana="#iac1_25">Qui autem prospexerit in lege perfectae libertatis</quote>, Glossa exponit, quod <quote xml:id="bb-l2d44a3q1-Qd1e161">lex perfectae libertatis est lex Evangelica</quote>. Ergo, si perfecta libertas liberat ab omni servitute, videtur quod omnis qui inhaeret legi Evangelii, absolutus sit ab omni servitute regis terreni.</p>
+          <p xml:id="bb-l2d44a3q1-d1e165">Item, caritas omnia membra Christi facit unum et omnia facit communia ; unde I ad Corinthios 3, 22 : <quote xml:id="bb-l2d44a3q1-Qd1e167" ana="#Icor3_22">Omnia vestra sunt, sive mors sive vita</quote> etc. Omnia facit unum, quia dicit Apostolus et ad Ephesios et ad Colossenses : <quote xml:id="bb-l2d44a3q1-Qd1e170">Omnes unum sumus in Christo, nec est distinctio servi et liberi</quote>. Ergo, si caritas reducit omnia membra ad aequalitatem et communitatem, videtur igitur quod in habentibus caritatem non sit aliqua obligatio servitutis.</p>
+          <p xml:id="bb-l2d44a3q1-d1e174">Item, maius est vinculum legis divinae quam sit vinculum constitutionis humanae ; sed lex Evangelica absolvit ab onere servitutis legalis, quae quidem a Deo per Moysen lata fuerat : ergo multo fortius absolvit ab onere humanae servitutis et legis civilis.</p>
+          <p xml:id="bb-l2d44a3q1-d1e177">Item, Anselmus, in libro Cur Deus homo, capitulo quinto: <quote xml:id="bb-l2d44a3q1-Qd1e179">Per se redimere voluit, ut in pristinam redigeret libertatem, et sibi homo subiectus esset, non homini</quote>. Si ergo empti sumus pretio magno, videlicet sanguine agni incontaminati et immaculati, videtur quod ipsius solius servi simus : ergo non videtur quod vir Christianus, qui renatus est in Christo, astrictus sit alicui servituti terreni imperii.</p>
+        </div>
+        <div xml:id="bb-l2d44a3q1-Dd1e184">
+          <head xml:id="bb-l2d44a3q1-Hd1e186">Conclusio</head>
+          <head xml:id="bb-l2d44a3q1-Hd1e189" type="question-title">Christiani terrenis dominis sunt obligati, 
+    non tamen in omnibus, sed solum in his quae non 
+    sunt contra Deum, et quae secundum rectam 
+    consuetudinem rationabiliter statuta sunt.</head>
+ 
+          <p xml:id="bb-l2d44a3q1-d1e192">Respondeo : Dicendum quod, cum servitus opponatur libertati, secundum quod triplex dicitur esse libertas, videlicet a coactione et a culpa et a miseria, sic servitus potest dici tripliciter, quae attenditur in libertatis arctatione. Secundum enim arctationem libertatis a culpa attenditur servitus peccati, de qua Ioannis 8, 34 : Qui facit peccatum servus est peccati ; et ad Romanos 6, 12 : Non regnet peccatum in vestro mortali corpore.
+Secundum vero arctationem libertatis a miseria attenditur servitus poenae et mortis, de qua dicitur ad Romanos 6, 9 : Christus resurgens a mortuis iam non moritur, mors illi ultra non dominabitur.
+Secundum autem arctationem libertatis a coactione attenditur servitus conditionis, de qua dicitur I ad Corinthios 7, 21 : Servus vocatus es ? non sit tibi curae ; sed et si potes liber fieri, magis utere. Haec autem servitus attenditur in coarctatione libertatis a coactione, non quantum ad interiorem motum voluntatis, quae cogi non potest, sed quantum ad exteriorem. Unde et servitus introducta fuit in hoc quod unus alterum vicit et servituti suae addixit, ut non liceat facere contrarium eius quod ipse mandaverit.</p>
+ 
+          <p xml:id="bb-l2d44a3q1-d1e195">Cum igitur triplex sit servitus, una habet ortum ab altera ; nam non esset servitus poenae, nisi praecessisset servitus culpae ; nec servitus conditionis subsequeretur, nisi Illa duplex praecederet. Cum ergo aliquis regeneratur in Christo et efficitur Christianus, liberatur a servitute peccati ; sed tamen non sic liberatur quin etiam possibilitatem et facilitatem et pronitatem habeat redeundi in idem genus servitutis ; et hinc est quod propter eius promotionem et humiliationem relinquit Dominus eidem servitutem mortis et conditionis. Unde ita moriuntur Christiani sicut et alii ; et propter pronitatem ad malum et concupiscentias militantes in membris, ex quibus consurgunt bella et lites, ita indigent regi terreno principe sicut et aliae gentes - et ideo non solum secundum humanam institutionem, sed etiam secundum divinam dispensationem inter Christianos sunt reges et principes, domini et servi - et secundum distinctionem potestatis ei subiciuntur et tenentur secundum plus et minus. Et hoc ipse Dominus dicit, Matthaei 22, 21 : Reddite quae sunt Caesaris Caesari, et quae sunt Dei Deo. Et Apostolus, I ad Timotheum ultimo, 3 hoc docet et contrarium praedicantes condemnat. Ait enim sic : Quicumque sunt sub iugo servitutis, dominos suos omni honore dignos arbitrentur, ne nomen Domini et doctrina blasphemetur. Si quis autem aliter docet et non acquiescit sanis sermonibus Domini nostri Iesu Christi, superbus est, nihil sciens etc. Et hoc ipsum probat ad Romanos, et in pluribus aliis locis docet et mandat.
+Et ideo concedendum est quod Christiani sunt terrenis dominis obligati, non tamen in omnibus, sed in his solum quae non sunt contra Deum ; nec in his omnibus, sed in his quae secundum rectam consuetudinem rationabiliter statuta sunt, sicut tributa et vectigalia et consimilia.
+Unde auctoritates et rationes, quae hoc probant, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d44a3q1-Dd1e200">
+          <head xml:id="bb-l2d44a3q1-Hd1e202">Ad rationes</head>
+          <p xml:id="bb-l2d44a3q1-d1e205">Ad illud ergo quod primo obicitur de textu et Glossa, 17, 24 Matthaei, dicendum quod textus intelligit de Christo, quod Christus non tenebatur reddere tributum, et de his qui sunt eius imitatores perfecti, utpote de Apostolis, pro eo quod naturaliter erant liberi et omnia bona temporalia dimiserant ; et ideo censum vel tributum ab eis reges terrae accipere non debebant. In aliis autem Christianis, vel qui sunt servilis conditionis vel qui abundant temporalibus bonis, illa auctoritas non habet intelligi.</p>
+          <p xml:id="bb-l2d44a3q1-d1e208">Ad illud quod obicitur, quod lex Evangelica est lex perfectae libertatis, dicendum quod ideo dicitur lex perfectae libertatis, quia liberat a servitute praevaricationis, sive etiam a servitute Legis, dum in ea datur spiritus caritatis, qui est spiritus libertatis, secundum id quod dicit Apostolus ad Romanos 8, 15 : Non accepistis spiritum servitutis iterum in timore, sed spiritum adoptionis filiorum. Et ideo ex hoc non sequitur quod homo, qui est sub lege Evangelii, sit liberatus a servitute terreni dominii.</p>
+          <p xml:id="bb-l2d44a3q1-d1e211">Ad illud quod obicitur, quod caritas omnia unit et communia facit, dicendum quod hoc verum est per quamdam participationem, sed non est verum per dominii auctoritatem. Omnes etiam unit, sed hoc est secundum affectionem, non secundum gradus et dignitatis indistinctionem ; nam in corpore Christi magna est membrorum distinctio, quamvis quantum ad conformitatem affectionum magna sit unio.</p>
+          <p xml:id="bb-l2d44a3q1-d1e214">Ad illud quod obicitur, quod absolvit lex Evangelica ab onere legis Moysaicae, ergo multo fortius a lege humana, dicendum quod non est simile, quia lex ista legem illam implet et evacuat tamquam veritas figuram. Non sic autem est de lege institutionis humanae, quae multum adiuvat ad observantiam legis divinae. Unde et Apostolus mandat rogari pro principibus, ad Timotheum 2, 2, ut quietam et tranquillam vitam sub eis agamus.</p>
+          <p xml:id="bb-l2d44a3q1-d1e218">Ad illud quod obicitur, quod Christus ideo per se redimere voluit, ut in pristinam libertatem redigeret, dicendum quod ibi notatur effectus plenus redemptionis factae per Christum. Sed tamen illum effectum non plene assequimur in praesenti, quousque creatura ingemiscit et parturit, donec liberatur a servitute corruptionis in libertatem gloriae filiorum Dei. Unde hic inchoatur libertas a culpa, sed ibi consummabitur libertas a miseria et ab omni potestate humana. Unde non sequitur quod, si sumus empti a Christo, quod propter hoc non simus servi alterius, quia dominium Christi bene compatitur secum dominium hominis, in his maxime qui nihil iubent contra Deum ; sed non compatitur secum dominium diaboli vel peccati, secundum illud Matthaei 6, 24 : Non potestis duobus dominis servire. Ideo, quamvis redemptione Christi eruamur a servitute mortalis peccati, non tamen eruimur a servitute conditionis vel mortis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

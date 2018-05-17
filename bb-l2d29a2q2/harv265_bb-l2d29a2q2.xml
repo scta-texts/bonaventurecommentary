@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d29a2q2">
+        <head xml:id="bb-l2d29a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d29a2q2-Hd1e111" type="question-title">Utrum homo simul tempore conditus fuerit in gratuitis et naturalibus.</head>
+ 
+        <p xml:id="bb-l2d29a2q2-d1e114">Secundo quaeritur, utrum homo simul tempore conditus fuerit in gratuitis et naturalibus.</p>
+        <div xml:id="bb-l2d29a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d29a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d29a2q2-d1e122">Et quod sic, videtur : Per textum Genesis 1, 26 : <quote xml:id="bb-l2d29a2q2-Qd1e124" ana="#gen1_26">Faciamus hominem ad imaginem et similitudinem nostram</quote>. Sed sicut exponit <name ref="#Augustine">Augustinus</name>, et habitum est supra, distinctione decima sexta, imago est in naturalibus et similitudo in gratuitis : ergo, si homo factus est ad imaginem et similitudinem, videtur quod conditus fuerit simul in naturalibus et gratuitis.</p>
+          <p xml:id="bb-l2d29a2q2-d1e134">Item, Ecclesiastici 17, 1-2 : <quote xml:id="bb-l2d29a2q2-Qd1e136" ana="#sir17_1">Deus de terra creavit hominem</quote>; et post : <quote xml:id="bb-l2d29a2q2-Qd1e139" ana="#sir17_2">Et secundum se vestivit illum virtute</quote>. Ergo homo a sui conditione primaria virtute fuit vestitus ; et si hoc, redit idem quod prius.</p>
+          <p xml:id="bb-l2d29a2q2-d1e143">Item, <name ref="#JohnDamascenus">Damascenus</name>: <quote xml:id="bb-l2d29a2q2-Qd1e148" source="http://scta.info/resource/jddfo-l2c12">Fecit Deus hominem innocentem, rectum, virtuosum, sine sollicitudine, sine tristitia, omni virtute decoratum, omnibus donis ornatum</quote>. Ergo videtur quod homo in gratuitis fuerit conditus.</p>
+          <p xml:id="bb-l2d29a2q2-d1e152">Item, hoc videtur ratione. Deus fecit hominem perfectum quantum ad aetatem et quantum ad cognitionem ab exordio suae conditionis. Ergo pari ratione videtur quod fecerit eum perfectum quantum ad voluntatis rectitudinem ; sed voluntatis rectiludo consistit in dono gratiae : ergo videfur quod donum gratiae habuerit in initio conditionis suae.</p>
+          <p xml:id="bb-l2d29a2q2-d1e156">Item, ad hoc quod alicui detur gratia, requiritur divina liberalitas et recipientis idoneitas ; sed Deus in primordio, cum Adam condidit, liberalissimus erat, et Adam a suae conditionis primordio ad suscipiendam gratiam idoneitatem habebat : ergo ab ipso conditionis primordio Deus ei gratiam conferebat.</p>
+
+ 
+          <p xml:id="bb-l2d29a2q2-d1e159">Sed contra : <name ref="#Augustine">Augustinus</name> dicit quod <quote xml:id="bb-l2d29a2q2-Qd1e164">homo in suae conditionis primordio habuit unde posset stare, sed non unde posset proficere</quote>.</p>
+          <p xml:id="bb-l2d29a2q2-d1e168">Item, <name ref="#Lombard">Magister</name>, supra, distinctione vigesima quarta : <quote xml:id="bb-l2d29a2q2-Qd1e173" source="http://scta.info/resource/pl-l2d24c1-d1e111">Poterat homo per auxilium gratiae creationis resistere malo, sed non perficere bonum</quote>. Sed, si habuisset gratiam gratum facientem ab exordio creationis, potuisset utrumque : ergo, si non potuit perficere bonum, patet etc.</p>
+          <p xml:id="bb-l2d29a2q2-d1e177">Item, magis convenit gratia cum gloria quam natura cum gratia ; sed in homine gratia praecedit gloriam : ergo pari ratione, immo multo fortiori, natura praecessit tempore donum gratiae.</p>
+          <p xml:id="bb-l2d29a2q2-d1e180">Item, per gratiam fit matrimonium inter Deum et animam ; sed lex matrimonii est ut non fiat absque mutuo consensu : ergo videtur quod nulli adulto gratia debeat dari nisi praecedat consensus. Si ergo Adam prius fuit quam consentire posset, ergo non habuit simul naturam et gratiam.</p>
+          <p xml:id="bb-l2d29a2q2-d1e183">Item, donum gratiae infructuosum est nisi recognoscatur esse a Deo ; nemo enim in se gratiam reservare potest nisi pro illa Deo gratus existat. Igitur, si magis tenet rationem gratuiti quod est naturalibus superadditum quam quod est naturaliter inditum, et donum gratiae est mere gratuitum, ergo videtur quod non ab ipsa creatione, sed post, donum gratiae fuerit homini collatum.</p>
+   
+        </div>
+        <div xml:id="bb-l2d29a2q2-Dd1e187">
+          <head xml:id="bb-l2d29a2q2-Hd1e189">Conclusio</head>
+          <head xml:id="bb-l2d29a2q2-Hd1e192" type="question-title">Probabilius est, quod Adam habuerit prius 
+   tempore naturalia quam gratuita</head>
+ 
+          <p xml:id="bb-l2d29a2q2-d1e195">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc duplex fuit opinio.</p>
+          <p xml:id="bb-l2d29a2q2-d1e198">Quidam namque dicere voluerunt quod homo fuerit creatus, non solum in naturalibus, verum etiam in gratuitis, tum propter Dei liberalitatem, tum etiam propter hominis idoneitatem.</p>
+          <p xml:id="bb-l2d29a2q2-d1e201">Sed quoniam Sanctorum auctoritates videntur sonare contrarium, ideo est alia opinio communior et probabilior, quod homo prius tempore habuit naturalia quam haberet gratuita. Unde secundum hanc opinionem in statu innocentiae distinguuntur duo tempora : quoddam enim fuit tempus, in quo habuit tantum naturalia ; quoddam vero, in quo habuit et naturalia et gratuita. Et secundum diversitatem huius duplicis temporis dissolvitur apparens contrarietas in auctoritatibus Sanctorum. Nam quaedam videntur dicere quod homo habuit gratiam, quaedam vero quod non, et utraeque verum dicunt pro diversis temporibus.</p>
+          <p xml:id="bb-l2d29a2q2-d1e205">Ratio autem quare Dominus voluit post naturam dare gratiam, cum posset dare simul, sumitur ex triplici ordine, videlicet ab ordine sapientiae, bonitatis et iustitiae.
+Ordo sapientiae hoc requirebat, ut, sicut esse gratuitum est alterius generis quam esse naturale, sic in diversis temporibus homini conferretur ; et sicut elementa mundi prius tempore sunt creata et distincta quam ornata propter ordinem sapientiae commendandum, sic etiam fieret circa hominem, qui est minor mundus.
+Ordini etiam bonitatis hoc competebat ; hoc enim ordine dicitur aliquid ordinari in suum finem. Tunc igitur gratia homini ordinate datur, quando datur ei secundum quod est utilior et fructuosior. Tanto autem gratia Dei est nobis utilior et fructuosior, quanto pro ea Deo gratiosiores existi mus ; et ideo sic debuit dari ut ex ipso ordine dandi cognosceretur donum illud esse gratuitum ; et propterea non fuit a creatione indita, sed naturae iam perfectae et constitutae fuit superinfusa.
+Ordo etiam iustitiae hoc requirebat. Deus enim secundum legem communem requirit aliquam praeparationem et dispositionem a parte nostra ad hoc quod infundat alicui gratiam sive in eo cui infundit, ut in adulto, sive in alio adiuvante, secundum quod contingit in parvulo. Et ideo gratia non fuit homini concreata, sed dilata fuit, quousque homo per actum et usum rationis quodam modo se disponeret ad illam suscipiendam, ut sic verificaretur illud <name ref="#Augustine">Augustini</name> in primo homine : <quote xml:id="bb-l2d29a2q2-Qd1e210">Qui creavit te sine te, non iustificat te sine te</quote>.</p>
+          <p xml:id="bb-l2d29a2q2-d1e214">Patet igitur quod multiplex ordo hoc exigebat, ut homo prius fieret in naturalibus, quam in donis gratuitis ornaretur ; et concedendae sunt rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-l2d29a2q2-Dd1e219">
+          <head xml:id="bb-l2d29a2q2-Hd1e221">Ad rationes</head>
+          <p xml:id="bb-l2d29a2q2-d1e224">Ad illud quod obicitur : <quote xml:id="bb-l2d29a2q2-Qd1e226">Faciamus hominem ad imaginem et similitudinem</quote> etc., dicendum quod similitudo attenditur ibi in gratuitis gratis datis.
+Vel dicendum quod Deus dicitur fecisse hominem ad suam imaginem et similitudinem, non quia statim, cum dedit imaginem, simul etiam dederit similitudinem, sed quia alterum dedit, scilicet imaginem, et ad alterum habilem fecit, videlicet ad similitudinem, quam postmodum pro loco et tempore ei dedit. Unde quantum est ex vi verbi, non potest concludi quod simul et semel fuerit in homine imago Dei et similitudo.
+</p>
+          <p xml:id="bb-l2d29a2q2-d1e230">2-3. Et per hoc patet responsio ad duas auctoritates sequentes, Ecclesiastici videlicet et Damasceni, quia sic intelliguntur : non quia Deus statim, ut hominem condidit, virtute vestiverit et ornaverit, sed quia tunc dispositum fecerit et non longo post tempore complevit.</p>
+          <p xml:id="bb-l2d29a2q2-d1e233">4. Ad illud quod obicitur de perfectione aetatis et cognitionis, dicendum quod non est simile, quia perfectio aetatis et cognitionis non tantum elongatur a perfectione naturae sicut perfectio gratiae. Unde homo per vim naturae sibi inditam potest pervenire ad perfectam aetatem et proficere ad cognitionem, sed nunquam potest per se homo in habitum gratiae, nisi Deus infundat mera sua benignitate.</p>
+          <p xml:id="bb-l2d29a2q2-d1e236">5. Ad illud quod obicitur, quod homo erat idoneus et Deus erat liberalissimus, dicendum quod Deus maiorem idoneitatem expectabat, quae quidem competeret ordini sapientiae et bonitatis et iustitiae, sicut prius ostensum est ; et ideo non statim gratiam dedit, sed distulit, pro eo quod Deus sic operatur liberaliter ut tamen sua liberalitas non excludat sapientiam nec iustitiam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

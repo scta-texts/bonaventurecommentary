@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d40a2q3">
+        <head xml:id="bb-l2d40a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d40a2q3-Hd1e111" type="question-title">Utrum bonitas operum addat ad bonae intentionis meritum quantum ad numerositatem.</head>
+ 
+        <p xml:id="bb-l2d40a2q3-d1e114">Tertio quaeritur, utrum bonitas operum addat ad bonae intentionis meritum quantum ad numerositatem. Et est quaestio, utrum bonum opus, additum operi, reddat operantem dignum maiori praemio essentiali.</p>
+        <div xml:id="bb-l2d40a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d40a2q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d40a2q3-d1e122">Et quod non, videtur : Primo per illud Zachariae 4, 7 : <quote xml:id="bb-l2d40a2q3-Qd1e124" ana="#zac4_7">Exaequabit gratiam gratiae</quote>. Ergo ubi est aequalitas gratiae, erit aequalitas gloriae : igitur, si aliqui duo ex aequali gratia inaequaliter operantur, nihilominus in mercede gloriae aequabuntur.</p>
+          <p xml:id="bb-l2d40a2q3-d1e128">Item, super illud Iudicum 2, 7 : <quote xml:id="bb-l2d40a2q3-Qd1e130" ana="#iudic2_7">Qui longo tempore post eum vixerunt</quote>, Glossa : <quote xml:id="bb-l2d40a2q3-Qd1e133">Solius Dei est nosse inter seniores quis eorum post se maiorem lucem emiserit, utrum Paulus an Petrus an Bartholomaeus</quote>. Sed certum est quod Paulus plus omnibus laboravit, sicut dicit I ad Corinthios 15, 10 : ergo magnitudo praemii non pensatur secundum multitudinem operum.</p>
+          <p xml:id="bb-l2d40a2q3-d1e137">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d40a2q3-Qd1e142">Non multitudo operum, non diuturnitas temporum auget meritum, sed sola caritas et melior voluntas</quote>. Sed nihil hoc expressius dici potest.</p>
+          <p xml:id="bb-l2d40a2q3-d1e146">Item, quantum homo diligit Deum, tantum diligitur a Deo, et quantum diligitur a Deo, tantum remuneratur a Deo : ergo, si est aequalitas in dilectione, aequalitas est in remuneratione. Sed multi sunt aequales in dilectione, qui tamen non sunt aequales in opere : ergo videtur quod multitudo operum non faciat ad meriti substantialis praemii incrementum.</p>
+
+          <p xml:id="bb-l2d40a2q3-d1e150">Sed contra : Ad Romanos 4, 4 : <quote xml:id="bb-l2d40a2q3-Qd1e152" ana="#rom4_4">Ei autem, qui operatur, merces non imputatur secundum gratiam, sed secundum meritum</quote>, Glossa : <quote xml:id="bb-l2d40a2q3-Qd1e155" source="http://scta.info/resource/gom-rom4">Merces non dabitur secundum gratiam fidei tantum, sed secundum meritum operationis suae</quote>. Ergo videtur quod pluribus operibus maiorem mercedem quis mereatur habere.</p>
+          <p xml:id="bb-l2d40a2q3-d1e159">Item, super illud ad Galatas 6, 9 : Bonum autem facientes, non deficiamus, Glossa : Quantum seminaverimus in operibus, tantum metemus in fructibus. Ergo etc.</p>
+          <p xml:id="bb-l2d40a2q3-d1e162">Item, per unum bonum opus homo meretur vitam aeternam ; ergo, si aliud sequens opus est ita bonum sicut prius, tantumdem merebitur sicut primum ; aut ergo meretur illud idem aut aliquid superadditum illi. Si aliquid superadditum illi, habeo propositum, quod multitudo operum prosit ad augmentum meriti. Si nihil, ergo videtur quod frustra operetur : ergo stultus est qui, facto uno bono, amplius facit aliud. Quodsi hoc est impium dicere, restat etc.</p>
+          <p xml:id="bb-l2d40a2q3-d1e165">Item, peccatum non est magis efficax ad merendum, poenam quam sit bonum opus ad merendum gloriam ; sed peccatum sequens, additum praecedenti, si sit aequale ei, meretur duplo maiorem poenam : ergo bonum opus, additum praecedenti, meretur duplo maiorem gloriam.</p>
+          <p xml:id="bb-l2d40a2q3-d1e168">Item, qui servit homini, quanto diutius ei servit, tanto maiorem assequitur mercedem. Si ergo Deus in retribuendo et est iustior et liberalior quam sit homo, videtur quod quanto aliquis, in pluribus ei servit et quanto plura opera pro Christo facit, tanto maiorem ab ipso recipiat retributionem.</p>
+          <p xml:id="bb-l2d40a2q3-d1e171">Item, iste qui multiplicat opera bona, seminat in terra bona ; ergo necessario oportet quod aliquem fructum praemii ex eo accipiat. Aut igitur praemium substantiale aut accidentale aut aureae aut aureolae. Sed non aureolae, cum illa debeatur operibus excellentibus : ergo recipiet maius praemium substantiale sive aureae.</p>
+
+          <p xml:id="bb-l2d40a2q3-d1e175">Est igitur quaestio, quantum prosint bona opera multiplicata et quem fructum afferunt.</p>
+        </div>
+        <div xml:id="bb-l2d40a2q3-Dd1e179">
+          <head xml:id="bb-l2d40a2q3-Hd1e181">Conclusio</head>
+          <head xml:id="bb-l2d40a2q3-Hd1e184" type="question-title">Multiplicatio bonorum operum non valet ad profectum 
+      in merito respectu praemii essentialis nisi disponendo et conservando, ad profectum 
+      vero in praemio accidentali potest valere tripliciter</head>
+ 
+          <p xml:id="bb-l2d40a2q3-d1e187">Respondeo : Ad praedictorum intelligentiam est notandum quod proficere in merito vel ad meritum potest esse duobus modis secundum duplicem differentiam praemii. Quoddam enim est praemium substantiale, quod quidem consistit in visione et fruitione Dei ; quod ideo dicitur praemium substantiale, quia fundamentum et substantia totius nostrae beatitudinis est Deus, et, illo perfecte habito, perfecta est in nobis beatitudo. Aliud vero est praemium accidentale, quod quidem consistit in gaudio, quod habetur de bono creato vel de liberatione ab aliquo malo.
+Accipiendo igitur meritum respectu praemii substantialis, contingit dicere quod aliquid valet ad profectum meriti tripliciter : aut quia per illud meretur homo maiorem gloriam, et hoc modo maior caritas vel melior voluntas facit ad profectum meriti ; aut quia disponit ad merendum maiorem gloriam, et talia sunt opera perfectionis, quae dicuntur facere ad meriti profectum ; aut quia conservat illud per quod meretur homo gloriam, et sic omnia bona opera proficiunt ad meritum, quia in ipsis caritas exercetur et conservatur et radicatur, ut homo finaliter perseveret in illa. Et hoc non est parvum, quia, quidquid homo faciat, non salvatur nisi finaliter perseveret.</p>
+ 
+          <p xml:id="bb-l2d40a2q3-d1e190">Et sic patet quod operum multiplicatio quodam modo valet ad profectum in merito respectu praemii substantialis ; et hoc dico disponendo et conservando, non autem merendo maiorem gloriam ex condigno.
+Similiter ad profectum maioris praemii accidentalis potest aliquid valere tripliciter : aut ratione adeptionis aureolae, et sic opera specialis excellentiae faciunt ad profectum meriti voluntatis bonae ; aut ratione adeptionis alicuius delectationis internae, et sic omnia opera, quae fiunt ex gratia, quodam modo valent ad profectum praemii accidentalis, quia, secundum quod homo plura bona opera facit, secundum hoc de pluribus iucundabitur in conscientia sua ; aut ratione diminutionis poenae, et sic opera difficilia et poenalia faciunt ad profectum meriti et addunt ad meritum bonae voluntatis, quia remissionem alicuius poenae meretur homo ex voluntate cum opere, quam non meretur ex sola voluntate.</p>
+ 
+          <p xml:id="bb-l2d40a2q3-d1e193">Haec autem distinctio non solum valet ad terminandum quod dictum est, sed etiam ad duo praecedentia. Generaliter enim verum est quod operum dignitas et dati quantitas et operum numerositas ad profectum meriti facit respectu praemii accidentalis, licet differenter. Verum est etiam generaliter quod ista omnia opera non faciunt ad profectum meriti respectu praemii substantialis nisi solum disponendo et conservando.
+Unde rationes illae, quae ostendunt quod non multiplicatur merces praemii substantialis secundum multiplicationem operum, concedendae sunt ; verum enim concludunt.</p>
+        </div>
+        <div xml:id="bb-l2d40a2q3-Dd1e198">
+          <head xml:id="bb-l2d40a2q3-Hd1e200">Ad rationes</head>
+
+          <p xml:id="bb-l2d40a2q3-d1e203">Ad illud vero quod primo obicitur in contrarium, quod ei qui operatur, merces imputatur secundum meritum, dicendum quod textus ille, secundum quod Glossa exponit, non vult dicere quod quantitas mercedis respondeat operi principaliter ; sed hoc vult dicere quod ubi est opportunitas operandi, non sufficit gratia fidei sine bona operatione ; ubi autem opportunitas vel facultas deest, sola gratia sufficit ; unde sensus est : ei qui operatur, id est, ei qui habet tempus operandi.</p>
+          <p xml:id="bb-l2d40a2q3-d1e206">Ad illud quod obicitur de Glossa, quod quantum seminaverimus in operibus, tantum metemus in fructibus, dicendum quod nomine fructuum intelligitur ibi gaudium, quod habebit quis de bonis operationibus ; non praemium substantiale, quod consistit in Deo. Si autem de illo, scilicet substantiali praemio, intelligatur, tunc tantum et quantum non dicunt commensuratlonem nec etiam dicunt dispositionem necessitatis, sed congruitatis.</p>
+          <p xml:id="bb-l2d40a2q3-d1e209">Ad illud quod obicitur, quod per sequens opus meretur homo tantumdem quantum per primum, dicendum quod verum est ; sed non meretur aliud, sed idem ipsum quod prius meruerat, loquendo quantum ad essentiale praemium ; Et non sequitur quod in vanum laboret, quia, etsi primum opus erat meritorium vitae aeternae, non tamen merebatur efficaciter nisi caritate perseverante ; et caritas non potest In homine vivere quin exeat in bonos actus, cum potest et debet. Ideo sequens opus frustra non fit, quia, quamvis non addat ad praemii excellentiam, addit tamen ad meriti efficaciam ; disponit etiam nihilominus ad profectum et facit ad incrementum meriti respectu accidentalis praemii, sicut prius ostensum est.</p>
+          <p xml:id="bb-l2d40a2q3-d1e212">Ad illud quod obicitur, quod peccatum additum peccato duplat meritum et supplicium, ergo et bonum additum bono, dicendum quod non est simile, propter hoc quod, quia mala facimus, mali sumus, sed non, quia bona facimus, boni sumus ; immo potius e converso bonitas operum ortum habet ex bonitate operantis. Et hinc est quod diversis peccatis meretur homo diversa supplicia, quamvis diversis bonis operibus mereatur homo unam gloriam, quia ratio merendi et acceptandi in pluribus bonis una est, ratio vero displicendi et demerendi est in pluribus peccatis diversa. :</p>
+          <p xml:id="bb-l2d40a2q3-d1e216">Ad illud quod obicitur, quod apud hominem maius praemium meretur homo ex pluribus operibus, dicendum quod non est simile, quia homo non reputat opus dignum retributione propter bonitatem operantis, sed potius operam tem propter bonitatem operis. Homo enim indiget alieno servitio ; Deus autem, qui bonorum nostrorum non indiget, non operantem propter opera, sed opera propter operantem acceptat et remunerat ; et ideo non est simile ex parte ista et ex illa.</p>
+          <p xml:id="bb-l2d40a2q3-d1e219">Ad illud quod ultimo obicitur, quod opera multiplicata non valent ad praemium accidentale, quia non assequuntur aureolam, dicendum quod accidentale praemium in plus est quam aureola. Nomine enim, aureolae non intelligimus quodcumque praemium accidentale, sed illud quod habet quamdam praerogativam et dignitatem, sicut et opus cui respondet. Nihilominus tamen gaudium de bonorum operum multiplicatione ad accidentale praemium spectat, cum sine ipso possit haberi vita aeterna : et ad hoc quidem faciunt bona opera multiplicata ; faciunt etiam ad essentiale praemium aliquo modo, sicut prius ostensum est. Ex his patet responsio ad illud quod ultimo quaerebatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

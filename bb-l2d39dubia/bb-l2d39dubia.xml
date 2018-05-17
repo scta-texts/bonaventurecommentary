@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d39dubia">
+        <head xml:id="bb-l2d39dubia-Hd1e108">Dubia</head>
+        <head xml:id="bb-l2d39dubia-Hd1e111" type="question-title">Dubia</head>
+        <div xml:id="bb-l2d39dubia-Dd1e114">
+          <head xml:id="bb-l2d39dubia-Hd1e116">Dub. I.</head>
+          <p xml:id="bb-l2d39dubia-d1e119">In parte ista sunt quaestiones circa litteram. Et primo quaeritur de hoc quod dicit, quod velle malum malum est, sed intelligere malum non est malum. Quaeritur, unde hoc sit. Et videtur quod similiter sit in actu intelligendi et in actu volendi. Actus enim recipit denominationem ab obiecto : ergo sicut velle malum est malum, ita et intelligere.
+Item intelligere dicit motum a rebus ad animam, et velle dicit motum ab anima ad res ; ergo videtur quod plus pendeat actus intelligendi a re intellecta quam actus volendi a re volita : ergo, si malitia est a volito et intellecto, potius debet depravari actus intelllgendi quam actus volendi.</p>
+          <p xml:id="bb-l2d39dubia-d1e122"> 
+Respondeo : Dicendum quod a malitia existente in obiecto magis depravatur actus volendi quam actus intelligendi.
+Et ratio huius dupliciter sumitur : tum ex parte virtutis, quia tanta est vis amoris ut transformet amantem in amatum ; unde qui diligit iusti tiam iustus fit, et qui diligit iniquitatem iniquus fit ; et propterea dicitur de malis, quod facti sunt abominabiles sicut ea quae dilexerunt. Non sic est de actu intelligendi ; nam etsi aliquo modo conformet, non tamen transformat. Hoc autem contingit propter maiorem vim unionis, quae consistit in ipso amore ; sicut enim dicit <name ref="#Dionysius">Dionysius</name> : Amorem dicimus vim unitivam ; propterea dicitur I ad Corinthios 6, 17 : <quote xml:id="bb-l2d39dubia-Qd1e127" ana="#Icor6_17">Qui adhaeret Deo unus spiritus fit.</quote>
+Alia est ratio,ex parte obiecti. Bonum enim, in quantum bonum, est obiectum affectus, non intellectus. Intelligentiae autem et memoriae obiectum est verum sub ratione veri vel bonum sub ratione veri ; et hinc est quod intellectus, quando intelligit falsum, est falsus ; non tamen, quando intelligit bonum, est bonus. Affectus vero non dicitur esse falsus, quia velit falsum, quamvis dicatur esse malus, quia velit malum, vel bonus, cum vult bonum ; virtus enim a proprio obiecto denominari habet.
+Et per hoc patet responsio ad utramque obiectionem. Istud autem melius infra patebit, distinctione quadragesima prima, ubi inquirit <name ref="#Lombard">Magister</name>, utrum peccatum omne habeat esse a voluntate.</p>
+   </div>
+        <div xml:id="bb-l2d39dubia-Dd1e135">
+          <head xml:id="bb-l2d39dubia-Hd1e137">Dub. II.</head>
+          <p xml:id="bb-l2d39dubia-d1e140">Item quaeritur de hoc quod dicit, quod superior scintilla rationis bonum vult et malum semper odit. Sed contra : impossibile est simul et semel voluntatem moveri motibus contrariis vel etiam disparatis ; sed homo aliquando vult malum : ergo non videtur quod illa hora velit bonum : falsum igitur dicit, cum ait quod illa scintilla semper vult bonum. Si tu dicas quod voluntas naturalis et deliberativa sunt diversae potentiae, et ita simul possunt moveri diversis motibus, contra : in littera praecedenti habetur et etiam consequenti quod illa voluntas, quae vult bonum, gratia adveniente liberatur et adiuvatur. Si ergo voluntas, quae a gratia liberatur et adiuvatur, haec est in qua habet consistere peccatum, videtur quod eadem sit potentia voluntatis, qua homo naturaliter vult bonum et qua aliquando vult malum.
+Si tu dicas quod eadem est voluntas, tamen disposita habitibus, et secundum illorum habituum diversitatem potest habere diversos motus, obicitur contra hoc quod illa potentia est unica et simplex : ergo, quando convertit se ad actum unius habitus, non potest se convertere simul et semel ad actum alterius habitus, et ita non movetur simul et semel bene et male. Non ergo semper vult bonum.
+Quodsi hoc concedatur, est ratio in contrarium, quod nulla virtus destituitur sua naturali et propria operatione, et maxime virtus naturalis, cuius est moveri uniformiter. Ergo videtur quod actus voluntatis naturalis, qui est appetere bonum, simul stet cum actu voluntatis deliberativae, qui est velle malum.
+</p>
+   
+ 
+          <p xml:id="bb-l2d39dubia-d1e143">Respondeo : Dicendum quod, sicut dicit <name ref="#Lombard">Magister</name> in littera, duo sunt hic modi dicendi.
+ 
+Quidam enim dicunt quod actus, quo voluntas naturaliter vult bonum, non est diversus vel distinctus ab eo quo voluntas vult deliberative malum ; sed sicut malo culpae in actu exteriori substernitur bonum naturae - unde unus et idem actus est bonus bonitate naturae et malus malitia moris - sic dicunt intelligi et in voluntate quod voluntas naturaliter vult bonum, in quantum vult actum substratum ; vult nihilominus malum, in quantum illum actum deformat.
+Sed illud non sufficit dicere, quoniam, cum <name ref="#Ambrose">Ambrosius</name> dicit quod homo vult naturaliter bonum, non intelligit de bono naturae tantum, quod quidem est actus voluntatis, sed etiam moris. Vult enim iustitiam et odit iniustitiam naturali voluntate.</p>
+ 
+          <p xml:id="bb-l2d39dubia-d1e152">Et propterea est alius modus dicendi, quem <name ref="#Lombard">Magister</name> primo ponit in littera, quod duo sunt motus : et alius est motus, quo voluntas appetit naturaliter bonum, et alius, quo voluntas deliberative vult malum.
+Utrum autem possint esse simul, hoc <name ref="#Lombard">Magister</name> non determinat. Et circa hoc duplex est opinio doctorum, Quidam enim dicunt quod possunt esse simul, pro eo quod actus deliberativus non excludit actum naturalem et unus istorum actuum est voluntatis, ut movetur naturaliter, et alter, ut movetur deliberative.
+Sed quoniam voluntas naturalis et deliberativa, secundum quod ostensum fuit, una est potentia, et eadem potentia, quando plene movetur in bonum vel in malum, non potest simul et semel moveri motu opposito et etiam disparato propter simplicitatem potentiae, ideo dixerunt alii quod motus voluntatis naturalis non est semper actualiter in bonum. Et quod dicit <name ref="#Lombard">Magister</name> in littera quod semper vult bonum, hoc intelligitur habitualiter ; impeditur autem et suffocatur per malitiam voluntatis deliberativae, ut non exeat in actum, sicut est in damnatis, in quibus synderesis non instigat ad aliquod bonum et iustum.
+Quidquid autem sit de hoc, utrum simul possit esse motus voluntatis ut est natura, cum motu voluntatis ut est deliberativa, hoc tamen verum est quod voluntas naturalis, quae bonum : appetit, non est semper in suo actu, quia non semper cogitat de bono ; et cum etiam cogitat, frequenter nullo, modo afficitur ; et ideo littera illa exponenda est quod hoc quod dico <mentioned> semper </mentioned> dicat continuitatem quantum ad habitum volendi, non quantum ad actum.
+Et quod obicit quod virtus non privatur propria operatione, dicendum, quod illud intelligitur de operatione, substantiali, quae respicit esse rei ; de operatione vero consequenti, quae est respectu alicuius extrinseci, non semper habet veritatem quod non privetur actione. Fere enim omnes virtutes videmus in suis actibus recipere interpolationem ; nec tamen ex hoc dicimus eas esse otiosas vel propria operatione privari, dum in actus proprios sunt natae exire pro loco et tempore.</p>
+        </div>
+        <div xml:id="bb-l2d39dubia-Dd1e168">
+          <head xml:id="bb-l2d39dubia-Hd1e170">Dub. III.</head>
+          <p xml:id="bb-l2d39dubia-d1e173">Item quaeritur de hoc quod dicit : Ante gratiam licet homo naturaliter velit bonum, non tamen oportet concedi habere bonam voluntatem. Et videtur quod immo, quia veriori modo inest alicui quod inest ei naturaliter quam quod inest accidentaliter : ergo sicut sequitur, si deliberative vult bonum, (quod habeat bonam voluntatem, ita sequitur, quodsi naturaliter vult bonum, quod habeat bonam voluntatem.
+Item, : quod, naturale est non assuescit in contrarium. Ergo, si homo naturaliter, vult bonum, nunquam assuescit velle malum : falsum ergo dicit, cum ait quod homo naturaliter velit bonum ; aut si dicit verum, videtur quod per hoc quod homo naturaliter vult bonum, quod sit simpliciter bonus.
+</p>
+    
+          <p xml:id="bb-l2d39dubia-d1e176">Respondeo : Dicendum quod bonitas voluntatis inchoatur in appetitu naturali et consummatur in virtute deliberativa ; nec est voluntas simpliciter bona et recta, nisi sit recta in quantum movetur deliberative et in quantum movetur naturaliter. Et ideo sicut illud argumentum non valet, immo est ibi quid et simpliciter : iste est castus naturaliter, ergo est castus, ita illud non sequitur : iste vult bonum naturaliter, ergo habet bonam voluntatem.</p>
+          <p xml:id="bb-l2d39dubia-d1e179">Ad illud quod obicitur, quod veriori modo inest quod inest naturaliter etc., dicendum quod ista comparatio veritatem habet quando illud quod inest accidentaliter non praesupponit illud quod inest naturaliter ; cum autem praesupponit, tunc non habet veritatem. Sicut enim melius est bene vivere quam vivere, et bene vivere praesupponit vivere, sic melior est voluntas, quae recte movetur et naturaliter et deliberative quam naturaliter tantum.</p>
+          <p xml:id="bb-l2d39dubia-d1e182">Ad illud quod obicitur, quod naturale non assuescit in contrarium, dicendum quod illud verum est de eo quod simpliciter est naturale, videlicet de eo quod a natura inchoatur et consummatur ; sed hoc non est verum in eo quod inchoatur a natura et consummatur ab assuetudine vel etiam a gratia ; et tale est velle bonum.
+Et per hoc patent quae dicuntur in littera in hac parte.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

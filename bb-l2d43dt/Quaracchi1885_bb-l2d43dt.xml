@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d43dt">
+        <head xml:id="bb-l2d43dt-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-l2d43dt-d1e111">Supra egit <name ref="#Lombard">Magister</name> de distinctione peccatorum in generali ; in hac parte descendit ad quoddam speciale genus peccati.
+Dividitur autem pars ista in partes duas.
+In quarum prima <name ref="#Lombard">Magister</name> determinat de peccato isto, comparando illud ad alia peccatorum genera.
+In secunda vero determinat de ipso quid sit secundum assignationem propriam, ibi : Sed quaeritur, quid sit illud peccatum.</p>
+ 
+        <p xml:id="bb-l2d43dt-d1e120">Prima pars remanet indivisa ; sed secunda dividitur in partes tres secundum triplicem assignationem peccati in Spiritum Sanctum,
+in quarum prima <name ref="#Lombard">Magister</name> ponit assignationem unam per eius differentias magis notas quae quidem sunt obstinatio et desperatio.
+In secunda vero ponit eius assignationem per eius differentias minus manifestas, ibi : Est et alia huius peccati assignatio.
+In tertia vero subiungit istius peccati assignationem communem et definitivam, ibi : De hoc quoque peccato in Spiritum Sanctum definitivam assignationem etc.
+Prima istarum partium dividitur in partes duas,
+in quarum prima determinat veritatem ;
+in secunda dissolvit dubitationem, ibi : Sed quaeritur, utrum omnis obstinatio.
+Similiter secunda dividitur in duas,
+in quarum prima ponit <name ref="#Lombard">Magister</name> huius peccati assignationem ;
+in secunda ponit eius assignationis explanationem, ibi : Illam tamen assignationem <name ref="#Augustine">Augustinus</name> etc.
+Similiter tertia pars habet duas,
+in quarum prima ponit peccati in Spiritum Sanctum, secundum <name ref="#Ambrose">Ambrosium</name>, definitivam assignationem.
+In secunda vero removet dubitationem, ibi : Non itaque distinctio illa verborum sic accipienda est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

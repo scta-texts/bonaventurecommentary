@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d36a2q2">
+        <head xml:id="bb-l2d36a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d36a2q2-Hd1e111" type="question-title">Utrum poena possit esse in aliquo sine culpa praecedente.</head>
+        <p xml:id="bb-l2d36a2q2-d1e114">Secundo quaeritur, utrum poena possit esse in aliquo sine culpa praecedente.</p> 
+        <div xml:id="bb-l2d36a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d36a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d36a2q2-d1e122">Et quod non, videtur : Primo, auctoritate Hieronymi ; ait enim sic : <quote xml:id="bb-l2d36a2q2-Qd1e124">Quidquid patimur, peccata nostra meruerunt</quote>.</p>
+   
+          <p xml:id="bb-l2d36a2q2-d1e128">Item, Gregorius, in quadam collecta : <quote xml:id="bb-l2d36a2q2-Qd1e130">Nulla eis nocebit adversitas, si nulla dominetur eis iniquitas</quote>. Ergo, si non praecessit dominium culpae, videtur quod nullo modo sequi possit supplicium poenae.</p>
+          <p xml:id="bb-l2d36a2q2-d1e134">Item, <name ref="#Augustine">Augustinus</name>, in I Retractationum : <quote xml:id="bb-l2d36a2q2-Qd1e139">Mors et vita a Domino Deo est ; sed vita ut a donante et mors ut a vindicante</quote>. Si igitur mors est a Deo ut a vindicante, pari ratione et omnis alia poena. Sed omnis vindicta respicit meritum culpae praecedentis : ergo videtur quod in nullo sit aliqua poena quin in ipso prius fuerit culpa illius poenae meritoria.</p>
+          <p xml:id="bb-l2d36a2q2-d1e143">Item, poena, quantum est de se, dicit aliquod malum ; dividitur enim malum in malum culpae et malum poenae. Ergo sicut maltfm culpae dicit privationem alicuius boni et alicuius ordinis, ita etiam et malum poenae : ergo sicut malum culpae indiget ordinari, ita et malum poenae. Sed sicut malum culpae ordinatur per sequens malum poenae, sic malum poenae per anterius malum culpae : ergo sicut culpa non potest esse sine poena, sic nec poena sine culpa.</p>
+          <p xml:id="bb-l2d36a2q2-d1e147">Item, omnis punitio, secundum quod huiusmodi, est effectus divinae iustitiae ; iustitia autem, secundum quod huiusmodi, considerat exigentiam meritorum ; nullum autem est meritum poenae nisi peccatum : ergo impossibile est aliquem puniri nisi in eo quod praecesserit macula peccati.</p>
+
+ 
+          <p xml:id="bb-l2d36a2q2-d1e150">Sed contra : Iob 17, 2 : <quote xml:id="bb-l2d36a2q2-Qd1e152" ana="#iob17_2">Non peccavi, et in amaritudinibus moratur oculus meus</quote>. Et similiter Iob 6, 2 : <quote xml:id="bb-l2d36a2q2-Qd1e155" ana="#iob6_2">Utinam appenderentur peccata mea, quibus iram merui, et calamitas, quam patior, in statera ; quasi arena maris haec gravior appareret</quote>. Ergo videtur quod poenae, quae fuerunt in Iob, non fuerunt merito praecedentium peccatorum.</p>
+          <p xml:id="bb-l2d36a2q2-d1e159">Item, Ioannis 9, 2 : <quote xml:id="bb-l2d36a2q2-Qd1e161" ana="#io9_2">Quis peccavit, hic aut parentes eius, ut caecus nasceretur ?</quote> ibi dicitur : Neque hic peccavit neque parentes eius ; et exponit <name ref="#Augustine">Augustinus</name> quod hoc non dicitur quia non peccaverunt, sed quia caecitas non erat poena peccati : ergo idem quod prius.</p>
+          <p xml:id="bb-l2d36a2q2-d1e168">Item, pro peccato originali non meretur quis nisi semel mori ; et Lazarus non tantum fuit mortuus semel, sed bis. Ergo videtur quod aut mors prima aut secunda fuerit ei absque merito peccati inflicta.</p>
+          <p xml:id="bb-l2d36a2q2-d1e171">Item, tota die videmus quod impius affligit iustum ; et de hoc etiam propheta conqueritur Habacuc 1, 13 : <quote xml:id="bb-l2d36a2q2-Qd1e173" ana="#hab1_13">Quare taces, conculcante impio iustiorem se ?</quote> Sed non esset iusta querela Prophetae, si iustus pro peccatis suis puniretur : ergo videtur quod multae poenae infligantur quae non infliguntur merito peccatorum.</p>
+          <p xml:id="bb-l2d36a2q2-d1e177">Item, Christus fuit a Iudaeis interfectus ; et planum est quod in ipso nullum fuit omnino peccatum ; et mors illa poena fuit, hoc constat : ergo videtur quod poena possit esse absque culpa praeambula.</p>
+        </div>
+        <div xml:id="bb-l2d36a2q2-Dd1e181">
+          <head xml:id="bb-l2d36a2q2-Hd1e183">Conclusio</head>
+          <head xml:id="bb-l2d36a2q2-Hd1e186" type="question-title">Poena potest esse in aliquo sine culpa propter ordinationem, 
+   quam habet ad bonum posterius, quod ex ea elici potest</head>
+          <p xml:id="bb-l2d36a2q2-d1e189">Respondeo : Dicendum quod malum poenae dupliciter potest ordinari : uno modo ad malum culpae, quod puniendo ordinat ; alio modo in comparatione ad bonum, quod Deus elicit ex illa poena. Dico igitur, quodsi aliqua poena infligatur, cuius ordinatio principaliter consistat in comparatione ad malum, quod necessario requirit malum culpae praecessisse, nec tantum praecessisse, sed etiam aliquo modo concomitari inseparabiliter. Poena enim aut est directe ordinata ad puniendum aut est ordinata principaliter ad malum excludendum. Primo modo est poena infernalis et secundo modo est poena purgatoria. Et primo modo requirit poena praesentiam culpae secundum deformitatem et maculam ; secundo modo requirit culpae praesentiam secundum reatum et sequelam.</p>
+ 
+          <p xml:id="bb-l2d36a2q2-d1e192">Si autem poena infligatur principaliter propter ordinem quem habet ad bonum quod inde elicitur, aut ergo propter bonum proprium aut propter bonum alienum. Si propter bonum proprium, sic requirit quod in subiecto illo aliquando fuerit culpa et quod possit esse de futuro. Si autem propter bonum alienum, sic sufficit poenae ut fuerit culpa in alio quam in eo qui punitur, in eo videlicet pro quo poena illa sustinetur ; per quem modum fuit in Christo, cuius mors et passio ordinata erat ad redimendum genus humanum et liberandum et reparandum a lapsu, in quem ceciderat ex peccato primi parentis.</p>
+ 
+          <p xml:id="bb-l2d36a2q2-d1e195">Et sic patet quod omnis poena aliquo modo respicit culpam : sed quaedam ut praesentem in se, utpote poena infernalis ; quaedam ut praeteritam in se, sed praesentem in reatu et sequela, sicut poena purgatoria ; quaedam vero solum ut praeteritam, et hoc in eo qui punitur : et sic est omnis poenaiustorum, Christo excepto ; quaedam vero respicit culpam, non in se, sed in alio, sicut patet in Christo.
+Cum ergo quaeritur, utrum omnis poena sit causata a culpa, dicendum est quod, si intelligatur de causa meritoria de condigno, sic non habet veritatem ; si autem intelligatur de causa sine qua non, sic aliquo modo veritatem habet. Nulla enim esset poena in homine nisi praecessisset culpa.
+Et per hoc patet responsio ad quaestionem propositam, qua scilicet quaeritur, utrum poena possit esse in aliquo sine culpa praecedente, sive qua quaeritur, utrum poena possit separari a culpa. Concedendum est enim quod sic, propter ordinationem quam habet ad bonum posterius, quod ex ea elicitur.</p>
+        </div>
+        <div xml:id="bb-l2d36a2q2-Dd1e200">
+          <head xml:id="bb-l2d36a2q2-Hd1e202">Ad rationes</head>
+          <p xml:id="bb-l2d36a2q2-d1e205">Ad illud ergo quod obicitur de Hieronymo, dicendum quod Hieronymus non accipit ibi mereri pro merito condigni, sed potius pro merito congrui, quod quidem est sicut dispositio praeambula. Et verum est, sicut dictum est, quod, nisi fuisset in nobis peccatum originale, in nobis non esset contracta poenalitas, unde esset aliqua afflictio poenae ; et quod in Christo fuit, hoc fuit solummodo voluntarie.</p>
+          <p xml:id="bb-l2d36a2q2-d1e208">Ad illud quod obicitur de Gregorio, dicendum quod facienda est vis in hoc quod dicit : nulla nocebit adversitas ; nam adversitas, quae non infligitur homini exigente merito praecedentis peccati, non est ad eius nocumentum, sed potius ad eius profectum, iuxta illud Apostoli : Diligentibus Deum omnia cooperantur in bonum.</p>
+          <p xml:id="bb-l2d36a2q2-d1e211">Ad illud quod obicitur, quod mors est a Deo vindicante, et ita aliae poenae, dicendum quod in opere Justitiae se multum immiscet opus misericordiae. Et ideo, quamvis prima dispositio ad poenam fuerit vindicta, multae tamen poenae consequuntur ad illam dispositionem, quae potius sunt beneficia divinae misericordiae et divinae visitationis quam sint instrumentum irae. Cum ergo dicitur quod mors est a Deo vindicante, hoc intelligitur de ipsa necessitate moriendi ; sed ex hoc non sequitur quod omnis alia poena sit a Dei vindicta, immo, sicut tactum eat, potest esse a Dei misericordia, quae erudit et flagellat omnem filium quem recipit. Sic enim competit praesenti statui.</p>
+          <p xml:id="bb-l2d36a2q2-d1e214">Ad illud quod obicitur, quod poena ordinatur ad culpam, sicut e converso, dicendum quod non est simile. Poena enim habet ordinari, sicut dictum est, dupliciter : non solum ad prius, sed etiam ad posterius. Peccatum autem, secundum quod huiusmodi, ordinari habet solum ad posterius, videlicet ad poenam ; et ideo culpa semper dicit inordinationem, nisi praesentialiter adsit poena ; poena vero, propter ordinationem ad posterius bonum, ordinata et utilis esse potest, etiam si nulla sit culpa in eo qui punitur, illius poenae meritoria. Illud enim malum recompensatur per maius bonum quod inde elicitur, sicut patet in caeco nato et in Iob et in Lazaro et in quolibet viro iusto. Quot autem bona inde eliciantur, invenietur determinatum ih quarto, distinctione decima quinta .</p>
+          <p xml:id="bb-l2d36a2q2-d1e218">Ad illud quod ultimo obicitur, iam patet responsio, quia, etsi punitio sit a divitia iustitia, nihilominus tamen plerumque est a divina misericordia. Sicut enim vult <name ref="#Augustine">Augustinus</name>, in quodam sermone quem facit de flagellatione Pharaonis : cum Deus immittebat Pharaoni flagella, impendebat misericordiae beneficia, quia cor eius ad conversionem excitabat ; cum vero subtrahebat, hoc erat ex rigore iustitiae, quae propter ipsius Pharaonis peccata, dum illa flagella subtrahebat, ipsum obdurari sinebat : et pro tanto Scriptura dicit quod cor eius indurabat.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

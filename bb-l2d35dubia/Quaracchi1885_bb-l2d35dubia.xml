@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35dubia">
+        <head xml:id="bb-l2d35dubia-Hd1e108">Dubia</head>
+        <div xml:id="bb-l2d35dubia-Dd1e111">
+          <head xml:id="bb-l2d35dubia-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-l2d35dubia-d1e116">In parte ista sunt quaestiones circa litteram. Et primo quaeritur de illa definitione, quam primo ponit : Peccatum est dictum, vel factum, vel concupitum contra legem Dei Videtur enim dicere falsum. Aut enim hoc intelligitur disiunctive aut subdisiunctive. Si subdisiunctive, ergo membra non possunt simul stare : ergo nullum idem peccatum est concupitum et factum ; sed hoc falsum est, quia omne peccatum factum est concupitum.
+Item, videtur quod non conveniat omni peccato, quia peccatum omissionis nec est factum nec concupitum nec dictum : ergo videtur quod male sit assignata, quia non convenit omni peccato mortali actuali.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e119">Respondeo : Dicendum quod praedicta definitio est peccati actualis et mortalis. Pro hoc quod est peccati actualis, dicitur quod est dictum vel factum vel concupitum, secundum triplicem actum, videlicet potentiae interpretatlvae et operativae et affectivae, quae omnes sunt potentiae quodam modo motivae. Secundum quod est mortale, dicitur quod est contra legem Dei ; et sic convenit omni et soli. Omni, quia omne peccatum actuale aut est concupitum tantum aut est concupitum et exterius consummatum, et hoc vel per verbum vel per opus. Soli vero convenit, quia non convenit veniali, cum non sit contra legem Dei ; nec originali, cum non sit dictum vel factum.</p>
+          <p xml:id="bb-l2d35dubia-d1e122">Ad illud quod quaeritur, utrum vel teneatur ibi disiunctive vel subdis iunctive, dicendum quod disiunctive ; sed ultimum membrum intelligendum est cum praecisione, reliqua vero minime. Unde sensus est quod omne peccatum aut est dictum et concupitum aut factum et concupitum aut concupitum tantum.
+Ad illud vero quod obicitur de peccato omissionis, dicendum quod omne peccatum, sicut vult <name ref="#Augustine">Augustinus</name>, radicem habet amorem malum ; et ideo, quamvis in peccato omissionis sit privatio alicuius actus principalis, quia tamen illa privatio ortum habet ex amore alicuius boni commutabilis - quod patet, quia aliquis non vult ad matutinas surgere, quia vult in lecto quiescere - ideo peccatum omissionis cadit sub hoc membro quod dicitur concupitum.</p>
+        </div>
+        <div xml:id="bb-l2d35dubia-Dd1e129">
+          <head xml:id="bb-l2d35dubia-Hd1e131">Dub. II.</head>
+          <p xml:id="bb-l2d35dubia-d1e134">Item quaeritur de hoc quod dicit : Peccatum est voluntas retinendi vel assequendi quod iustitia vetat. Aliquod enim est peccatum, in quo aliquis nec vult aliquid retinere nec aliquid assequi, immo potius intendit destruere, sicut est in ira et odio et invidia.
+Item, velle assequi quod iustitia vetat vel retinere, hoc est avaritiae vel rapinae ; ergo omne peccatum erit rapina.</p>
+          <p xml:id="bb-l2d35dubia-d1e137">Est igitur quaestio, cum peccata ita bene sint contra alias virtutes sicut contra iustitiam, quare magis definitur peccatum per oppositum ad iustitiam quam per oppositum ad virtutes alias ?</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e140">Respondeo : Dicendum quod <name ref="#Augustine">Augustinus</name> definit peccatum per illud quod est radix omnis mali ; hoc autem est amor libidinosus. Et quoniam omnis amor libidinosus vel est rei habitae vel habendae, et hoc praeter ordinem et regulam legis aeternae, ideo dicit quod peccatum est voluntas assequendi vel retinendi quod iustitia vetat, ita quod describit amorem inordinatum, qui est radix omnis peccati, et per id ad quod est et per id contra quod est.</p>
+          <p xml:id="bb-l2d35dubia-d1e146">Quod ergo obicitur de ira et odio, dicendum quod, etsi ibi sit detestatio consequens, est tamen ibi delectatio antecedens, et propterea continetur sub hac assignatione.</p>
+          <p xml:id="bb-l2d35dubia-d1e150">Ad illud quod obicitur, quod tunc omne peccatum erit rapina, dicendum quod assecutio ibi stat non solummodo pro cupiditate rerum terrenarum, immo etiam cuiuslibet appetibilis ; iustitia vero non tantum ibi stat prout est cardinalis virtus, sed prout est virtus generalis, quae omnes virtutes complectitur et cui omnia vitia opponuntur.</p>
+        </div>
+        <div xml:id="bb-l2d35dubia-Dd1e154">
+          <head xml:id="bb-l2d35dubia-Hd1e156">Dub. III.</head>
+          <p xml:id="bb-l2d35dubia-d1e159">Item quaeritur de hoc quod dicit : in utraque assignatione de actuali peccato agitur et mortali, non veniali. Videtur enim quod male fiat assignatio peccati. Si enim recta descriptio vel assignatio debeat convenire omni descripto, et praedictae definitiones non conveniant omni peccato, ergo non recte assignantur. Si tu dicas quod peccatum non dicitur de eis univoce, sed aequivoce, contra : quae conveniunt in causa et effectu habent univocationem. Sed omne genus peccati ortum habet ex peccalo Adae, tam originale quam actuale quam etiam vgniale ; omnia etiam genera peccatorum in hoc conveniunt quod animam reddunt dignam poena et privant ab ea aliquod bonum, quod est iustitia vel ad justitiam ordinatum : ergo videtur quod de eis univoce dicatur peccatum ; et si hoc, ergo videtur quod una ratio communis debeat assignari de peccato, prout dicitur de his omnibus generibus.</p>
+          <p xml:id="bb-l2d35dubia-d1e162">Est igitur quaestio, utrum contingat unam communem rationem assignare omni generi peccati, hoc est quaerere, utrum peccatum de eis dicatur univoce. Et si tu dicas quod sic, in contrarium est, quia quae univocantur in aliquo habent proportionem ; sed mortalis et venialis nulla est proportio : ergo nec univocatio.
+Item, videtur falsum dicere, cum dicit quod praedictae assignationes non conveniunt peccato veniali. Veniale enim peccatum est dictum vel factum vel concupitum et contra legem Dei, sicut dicitur ad Romanos 7, 7, super illud : <quote xml:id="bb-l2d35dubia-Qd1e164" ana="#rom7_7">Non concupisces</quote>, Glossa : <quote xml:id="bb-l2d35dubia-Qd1e167">Bona est lex, quae, dum concupiscentiam prohibet ; omnia mala prohibet</quote>. Ergo venialia prohibentur a lege Dei, sunt igitur contra legem Dei : ergo praedicta ratio convenit veniali.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e171">Respondeo : Dicendum quod peccatum, prout dicitur de originali, actuali mortali et veniali, nec dicitur omnino univoce nec dicitur omnino aequivoce, sed quasi medio modo, scilicet analogice. Ratio enim culpabilitatis primo et principaliter reperitur in peccato actuali mortali et consequenter in originali et postremo in veniali ; et ideo notificationes, quae dantur de peccato simpliciter, potissime referuntur ad peccatum actuale mortale, quod est peccatum simpliciter.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e174">Et per hoc patet responsio ad illa quae obiciuntur. Nam ex hoc quod illa tria genera peccatorum conveniunt in causa et in effectu, non concluditur quod peccatum dicatur de eis univoce, sed analogice, quia in his non communicant aequaliter, sed secundum prius et posterius.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e178">Et ideo cum quaeritur, utrum possit una communis ratio assignari, dicendum quod potest una assignari ratio, quae conveniat eis secundum prius et posterius, et ita secundum communitatem analogice, utpote si dicatur quod peccatum est meritum poenae vel privatio boni.
+Ad illud ergo quod obicitur, quod nulla est proportio, dicendum quod, etsi nulla est proportio quantum ad commensurationem quantitatis demeriti, est tamen proportio inter veniale et mortale secundum consimilem comparationem et ad originem et ad effectum consequentem.</p>
+        </div>
+        <div xml:id="bb-l2d35dubia-Dd1e182">
+          <head xml:id="bb-l2d35dubia-Hd1e184">Dub. IV.</head>
+          <p xml:id="bb-l2d35dubia-d1e187">Item quaeritur de alia definitione <name ref="#Ambrose">Ambrosii</name>, quam ponit : Peccatum est praevaricatio legis divinae et caelestium inobedlentia mandatorum Videtur enim quod haec ratio non conveniat omni peccato. Quaedam enim, ut dicit <name ref="#Augustine">Augustinus</name>, sunt mala, quia prohibita ; quaedam prohibita, quia mala. Ergo, si nulla esset lex nec aliqua praecepta data, adhuc essent peccata : non ergo omne peccatum est praevaricatio legis etc.
+Item, sicut obedientia distinguitur ab aliis virtutibus, ita inobedientia ab aliis vitiis : ergo male definitur omne peccatum per inobedientiam.
+Item, ita peccat qui non obedit praelato sicut qui non obedit Deo. Ergo non tantum est peccatum inobedientia caelestium praeceptorum, sed etiam terrenorum.
+</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e196">Respondeo : Dicendum quod lex aliquando accipitur stricte pro lege scripta vel data, aliquando large, prout comprehendit legem naturae et legem Scripturae et legem gratiae. Et in praedicta notificatione lex accipitur large.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e199">Ad illud quod obicitur de obedientia, dicendum quod obedientia dupliciter accipitur : uno modo, prout dicit observantiam mandatotorum Dei, et sic est communis omnibus virtutibus ; alio modo, prout specialiter considerat rationem praecepti, et sic est virtus divisa ab aliis, quia potissime habet usum suum in his quae ideo sunt bona quia praecepta. Et sic obedientia dupliciter accipitur, scilicet large et stricte, et in praedicta notificatione accipitur large.
+Ad illud quod obicitur de obedientia praelati, dicendum quod totum pendet ex mandato Dei, quia Deus mandat quod obediatur homini.</p>
+        </div>
+        <div xml:id="bb-l2d35dubia-Dd1e204">
+          <head xml:id="bb-l2d35dubia-Hd1e206">Dub. V.</head>
+          <p xml:id="bb-l2d35dubia-d1e209">Item quaeritur de hoc quod dicit : Non consistente peccato, virtus fortasse non esset. Videtur enim falsum dicere, quia, si non esset culpa, purior esset caritas : ergo virtus perfectior et verior. Si tu dicas quod hoc non asserit, sed sub dubitatione dicit, contra : ita falsum dicit qui certum proponit ut dubium sicut qui dubium asserit ut certum.</p>
+          <p xml:id="bb-l2d35dubia-d1e212">Et dicendum quod in illo verbo non ponitur nec significatur virtus non esse, non existenle malitia, sed hoc significatur, quod non ita appareret sicut nunc apparet ; et ideo dicit : fortassis non esset, id est, non cognosceretur ita esse.</p>
+        </div>
+        <div xml:id="bb-l2d35dubia-Dd1e216">
+          <head xml:id="bb-l2d35dubia-Hd1e218">Dub. VI.</head>
+          <p xml:id="bb-l2d35dubia-d1e221">Item quaeritur de hoc quod dicit in illo capitulo : Potest etiam quaeri, quod peccatum est privatio sive corruptio boni. Si enim privatio et positio opponuntur, et peccatum recte definitum est supra : peccatum est dictum vel factum etc., ergo male definitur per privationem.
+Iuxta hoc quaeritur, cum unius rei una sit definitio, unde est hoc quod peccatum ita multipliciter et varie definitur a Sanctis ? Quaeritur etiam penes quid illae definitiones distinguantur.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e224">Respondeo : Dicendum quod de peccato est loqui formaliter, et est loqui materialiter, scilicet ratione substrati. Et quia, formaliter loquendo, privatio est, materialiter vero loquendo substernit sibi actum, ideo aliquando definitur per privationem, aliquando per positionem, quia quaedam sunt formales definitiones, quaedam materiales, et utroque modo multipliciter.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e227">Si enim consideremus peccatum, secundum quod dicit privationem, hoc potest esse tripliciter : aut in quantum simpliciter dicit recessum a bono aut in quantum dicit recessum a rectitudine naturae aut in quantum dicit recessum ab omnis boni complemento et perfectione.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e230">Primo modo sumitur definitio triplex ab <name ref="#Augustine">Augustino</name>, quae omnes idem circumloquuntur diversis verbis, quarum prima sumitur in libro De civitate Dei ; et est haec : Peccatum est absentia boni, ubi debet esse.
+Secunda, de libro De vera religione : Peccatum non est appetitio naturarum malarum, sed desertio meliorum.
+Tertia, de libro De natura boni : Peccatum est corruptio modi, speciei et ordinis.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e237">Secundo modo, scilicet prout peccatum dicit recessum a rectitudine naturae, inveniuntur tres definitiones, quae idem circumloquuntur, quamvis aliter et aliter : quarum una est Damasceni, quae est : Peccatum est ab eo quod est secundum naturam in id quod est praeter naturam aversio.
+Alia est Anselmi : <quote xml:id="bb-l2d35dubia-Qd1e239">Peccatum est carentia debitae iustitiae</quote>.
+Tertia est <name ref="#Augustine">Augustini</name> : <quote xml:id="bb-l2d35dubia-Qd1e245">Peccatum est defectus quidam a luce veritatis, naturam non perimens, sed obscurans</quote>.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e249">Tertio vero modo, videlicet prout dicit recessum ab omnis boni complemento et perfectione, sic reperitur triplex definitio, quae differt solo dicendi modo, quarum prima sumitur ab <name ref="#Augustine">Augustino</name>, in libro De libero arbitrio : Malum est aversio a bono incommutabili.
+Altera vero ab eodem, in libro De vera religione : Peccatum est carere bonis incommutabilibus, quibus fruendum est.
+Tertia sumitur ab eodem <name ref="#Augustine">Augustino</name> : Peccatum est tenebra intelligibilis hoc enim dictum est in quantum privat a visione lucis aeternae.
+Hae omnes sunt notificationes peccati quasi formales.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e258">Sunt et aliae notificationes, quae concernunt actum substratum. Et istae variantur secundum triplicem considerationem peccati, quam habet sub hac ratione : aut videlicet ad Deum quem offendit aut ad virtutem quam excludit aut ad bonum ut nunc quod praetendit.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e261">Si in comparatione ad Deum quem offendit, sic est triplex, quarum una accipitur ab <name ref="#Augustine">Augustino</name>, in libro Contra Manichaeos : <quote xml:id="bb-l2d35dubia-Qd1e266">Peccatum est in veritatis praeceptis vel in ipsa veritate errare</quote>.
+Alia ab <name ref="#Ambrose">Ambrosio</name>, in libro De paradiso : <quote xml:id="bb-l2d35dubia-Qd1e272">Peccatum est praevaricatio legis divinae et caelestium inobedientia praeceptorum</quote>.
+Tertia ab eodem <name ref="#Augustine">Augustino</name>s, et habetur in littera : <quote xml:id="bb-l2d35dubia-Qd1e279">Peccatum est dictum vel factum vel concupitum contra legem Dei</quote>.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e283">Secundo modo, scilicet per comparationem ad virtutem quam excludit, sic reperitur triplex definitio, quarum una sumta est a Basilio : Peccatum est dispositio animae contrarie se habens ad virtutem.
+Secunda ab <name ref="#Augustine">Augustino</name>, in libro De duabus animabus : <quote xml:id="bb-l2d35dubia-Qd1e288">Peccatum est voluntas retinendi vel assequendi quod iustitia vetat</quote> ; accipitur enim ibi iustitia generaliter, prout omnem virtutem complectitur.
+Tertia ab eodem <name ref="#Augustine">Augustino</name>, in libro De vera religione : <quote xml:id="bb-l2d35dubia-Qd1e294">Peccatum est appetere quae Christus contempsit vel contemnere quae Christus appetiit</quote>. Nam Christus fuit omnis virtutis speculum et exemplar.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e298">Tertio modo, scilicet per comparationem ad bonum quod praetendit, similiter inveniter triplex assignatio re conveniens, licet differat modo dicendi, quarum una est ab <name ref="#Augustine">Augustino</name>, in libro De civitate Dei : <quote xml:id="bb-l2d35dubia-Qd1e303" source="http://scta.info/resource/adcd-l12">Peccatum est male uti bono</quote>.
+Secunda vero, in libro De Trinitate : <quote xml:id="bb-l2d35dubia-Qd1e306" source="http://scta.info/resource/adt-l10">Peccatum est uti fruendis et frui utendis</quote> ; et similiter in libro 83 Quaestionum.
+Tertia est eiusdem <name ref="#Augustine">Augustini</name>, in libro De libero arbitrio : <quote xml:id="bb-l2d35dubia-Qd1e312">Peccatum est, spreto incommutabili bono, rebus commutabilibus adhaerere</quote>.</p>
+ 
+          <p xml:id="bb-l2d35dubia-d1e317">Fortassis autem et aliae notificationes ab istis duodeviginti poterunt reperiri. Nam duae aliae sunt, quae videntur circumloqui peccatum secundum utramque acceptionem, ut est illa : Peccatum est actus incidens ex defectu boni. Et illa : Peccatum est meritum poenae aeternae.
+Et sic in universo sunt viginti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

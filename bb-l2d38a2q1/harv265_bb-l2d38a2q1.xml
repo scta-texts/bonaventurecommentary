@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d38a2q1">
+        <head xml:id="bb-l2d38a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d38a2q1-Hd1e111" type="question-title">Utrum intentio sit in his solis quae participant rationem.</head>
+ 
+        <p xml:id="bb-l2d38a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum intentio sit in his solis quae participant rationem.</p> 
+        <div xml:id="bb-l2d38a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d38a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d38a2q1-d1e122">Et quod sic, videtur : 1. Sicut dicit Glossa super illud Lucae 11, 35 : <quote xml:id="bb-l2d38a2q1-Qd1e124" ana="#lc11_35">Vide, ne lumen</quote>, Glossa : <quote xml:id="bb-l2d38a2q1-Qd1e127">Lumen animae est intentio</quote> ; sed constat quod intentio non est lumen corporale, sed spirituale: si igitur lumen spirituale est in solis substantiis spiritualibus, quae natae sunt illuminari a summa luce, et hae sunt solae creaturae rationales, videtur ergo quod intentio sit in solis rationalibus.</p>
+          <p xml:id="bb-l2d38a2q1-d1e131">Item, intentio est actus vis collativae : qui enim intendit ab uno in aliud tendit et unum comparat alteri. Si ergo vis collativa est in solis participantibus rationem, videtur quod in eis solis reperiatur intentio.</p>
+          <p xml:id="bb-l2d38a2q1-d1e134">Item, intentio est illud secundum quod anima immediatius iungitur ultimo fini : ergo in eis solum est reperiri intentio quae habent potentiam, mediante qua Deum possunt capere et ei uniri ; sed talia sunt sola rationalia, quoniam ipsa sola sunt ad imaginem Dei : ergo videtur quod in his solis contingat intentionem reperiri.</p>
+          <p xml:id="bb-l2d38a2q1-d1e137">Item, intentio est supremum in anima : unde ipsa dicitur esse caput nostrum et oculus noster ; sed illa, in quibus communicamus cum irrationalibus creaturis, sunt infima et citra rationem : ergo videtur quod in nulla alia creatura a rationali contingat intentionem reperiri.</p>
+
+          <p xml:id="bb-l2d38a2q1-d1e141">Sed contra : 1. In omni eo quod operatur per intentionem est reperire intentionem ; sed <quote xml:id="bb-l2d38a2q1-Qd1e143">natura, ut dicit <name ref="#Aristotle">Philosophus</name>, est operans per intentionem</quote>. Ergo videtur quod in re naturali est intentionem reperire et ponere.</p>
+<p xml:id="bb-l2d38a2q1-d1e149">2. Item, omne illud quod movetur ad aliquid et, eo obtento, quiescit, cum movebatur, illud intendebat : nisi enim illud intenderet, non moveretur ad eius absentiam nec quiesceret ad eius praesentiam. Si igitur res naturales sunt huiusmodi, ut patet, cum lapis movetur deorsum, videtur quod intentio non tantummodo sit in rationalibus, sed etiam in rebus naturalibus.</p>
+            <p xml:id="bb-l2d38a2q1-d1e152">3. Item, omne quod facit aliquod opus ordinatum ad finem ab illo diversum, operatur per intentionem ; sed naturae irrationales sunt huiusmodi, sicut patet in aranea, quae facit telam ad capiendas muscas : ergo videtur etc.</p>
+            <p xml:id="bb-l2d38a2q1-d1e155">4. Item, intentio est regula appetitus : ergo, si non est ponere aliquid in universo privatum regimine et ordine, videtur quod ubicumque est ponere appetitum, est ponere intentionem. Sed appetitus non solum est in substantiis rationalibus, sed etiam irrationalibus : ergo etc.</p>
+          
+        </div>
+        <div xml:id="bb-l2d38a2q1-Dd1e160">
+          <head xml:id="bb-l2d38a2q1-Hd1e162">Conclusio</head>
+          <head xml:id="bb-l2d38a2q1-Hd1e165" type="question-title">Intentio proprie est in solis rationalibus, 
+   in sensualibus minus proprie, in naturalibus improprie</head>
+          <p xml:id="bb-l2d38a2q1-d1e168">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hanc quaestionem duplex est modus dicendi, qui ad praesens occurrit. Unus est, ut distinguamus in modo operandi per intentionem penes proprium et alienum. Videtur enim satis rationabiliter posse dici quod quaedam sunt quae moventur per intentionem propriam, quaedam quae moventur per intentionem alienam. Per intentionem propriam moventur illa quae finem praecognoscunt et operationem suam ad finem conferunt et referunt. Per intentionem alienam moventur illa quae intra se non habent potentiam discernendi, reguntur tamen et diriguntur ab eo qui discernit, sicut sagitta ab arcu emissa moveri potest dici per intentionem, non, inquam, arcus vel sagittae, sed sagittantis.
+Per hunc quidem modum satis rationabiliter posset dici quod omnes res naturales per intentionem dicuntur moveri, pro eo quod moventur sicut Deus instituit et sicut gubernat et regit ; ipse enim in omni operatione est principalis, motor. Et secundum hunc modum dicendi intentio proprie reperitur in solis substantiis rationalibus, licet irrationalia secundum aliquem modum dicendi per intentionem operari dicantur.
+Sed, quamvis iste modus dicendi rationabilis sit et veritatem dicat, non tamen videtur sufficienter dicere, cum dicit quod natura ideo dicitur operari per intentionem, non ratione propriae intentionis, sed ratione intentionis alienae, quia non dicit sufficienter, dum naturae assignat intentionem alienam tantum. Secundum hoc enim casualia et fortuita, cum non fiant praeter divinam intentionem, non deberent dici facta praeter intentionem. Rursus, cum videamus quod naturalia appetitum habeant, mediante quo : tendunt ab uno in alterum, et unaquaeque res habeat vim suam regitivam, mediante qua ad finem proprium inclinatur videtur quod naturalia non tantum habeant moveri intentione extrinseca et aliena, sed etiam quod moveantur intentione propria et intrinseca.
+</p>
+ 
+          <p xml:id="bb-l2d38a2q1-d1e171">Et propterea est alius modus dicendi, quia, sicut triplex est appetitus, videlicet naturalis, sensualis sive animalis et rationalis, et quilibet istorum appetituum habet suum regimen, non absurde regimen cuiuslibet istorum trium appellatur intentio ; maxime tamen proprie intentio vocatur regimen appetitus rationalis.
+Et ratio huius est, quia ad regimen et directivum appetitus naturalis plus spectat dirigi quam dirigere ; ad directivum vero appetitus rationalis proprie spectat dirigere ; directivum vero appetitus brutalis quodam modo medium tenet. Et hinc est quod naturalia moventur quadam necessitate, rationalia vero mera libertate, bruta vero moventur quadam impetuositate, quae est infra libertatem et supra necessitatem ; non enim possunt se omnino reprimere et tamen possunt ad oppositas partes tendere. Sicut igitur regula directiva operationis reperitur in rationalibus proprie, in sensualibus minus proprie, in naturalibus improprie, sic et intentio.</p>
+ 
+          <p xml:id="bb-l2d38a2q1-d1e174">Et per hoc patet responsio ad quaestionem propositam et ad rationes ad utramque partem. Nam intentio proprie accepta, secundum quod dicit lumen, per quod est collatio et tendentia in Deum, attenditur circa animae supremum ; et ideo hoc modo in solis rationalibus reperitur, sicut illae rationes ostendunt. Intentio vero, prout dicit ordinationem et directionem appetitus ad aliquem terminum vel finem quletantem, non tantummodo est in rationalibus, immo etiam in brutis, sicut aliae rationes ad aliam partem ostendunt. Et sic patet quod utraeque diversis viis verum concludunt, et propterea concedendae sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

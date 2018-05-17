@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d34a1q2">
+        <head xml:id="bb-l2d34a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d34a1q2-Hd1e111" type="question-title">Utrum peccatum sit a voluntate ut efficiente vel deficiente.</head>
+ 
+        <p xml:id="bb-l2d34a1q2-d1e114">Secundo quaeritur, utrum malum sit a bona causa, utpote a voluntate ut efficiente vel deficiente.</p>
+        <div xml:id="bb-l2d34a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d34a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d34a1q2-d1e122">Et quod sic, videtur : Primo, per <name ref="#Augustine">Augustinum</name>, in Enchiridio, ubi ait sic : <quote xml:id="bb-l2d34a1q2-Qd1e127">Nemo quaerat causam malae voluntatis ; non enim habet causam efficientem, sed deficientem</quote>.</p>
+          <p xml:id="bb-l2d34a1q2-d1e131">Item, hoc videtur per illud quod dicitur a <name ref="#Dionysius">Dionysio</name>, De divinis nominibus : <quote xml:id="bb-l2d34a1q2-Qd1e136">Malum est praeter naturam et causam</quote>. Sed constat quod non vult dicere quod malum non sit ab aliquo : vult ergo dicere quod non est ab alio tamquam a vere causante et efficiente : ergo, si aliquo modo est, restat quod sit tamquam a deficiente.</p>
+          <p xml:id="bb-l2d34a1q2-d1e140">Item, ratione videtur. Sicut se habet effectus ad actum efficientem, ita defectus ad ipsum deficere ; sed verus effectus non potest educi in esse nisi a causa ut efficiente : ergo nec defectus nisi a deficiente ; sed <quote xml:id="bb-l2d34a1q2-Qd1e142">malum est defectus circa naturam</quote>, sicut dicit <name ref="#Augustine">Augustinus</name> : ergo etc.</p>
+          <p xml:id="bb-l2d34a1q2-d1e149">Item, omne perfectum est a causa perfecta, ergo omne deficiens a causa deficiente ; sed malum opus dicitur malum propter defectum alicuius debitae circumstantiae : ergo malum est a causa deficiente.</p>
+          <p xml:id="bb-l2d34a1q2-d1e153">Item, facere et deficere opponuntur, similiter construere et destruere opponuntur : ergo sicut construere est facere, ita destruere est deficere. Sed in malum exire est aliquod bonum corrumpere, quia non dicitur malum nisi quod nocet vel adimit aliquid de bono : igitur in malum exire est deficere.</p>
+          <p xml:id="bb-l2d34a1q2-d1e156">Item, omnis efficientia est a primo et summo efficiente ; sed malum nullo modo est a Deo : ergo nullo modo procedit ab aliquo ut principio effectivo.</p>
+
+          <p xml:id="bb-l2d34a1q2-d1e159">Contra : <name ref="#Dionysius">Dionysius</name>, De divinis nominibus : <quote xml:id="bb-l2d34a1q2-Qd1e164">Anima est causa mali, sicut ignis calefieri</quote> ; sed ignis est causa calefieri per modum efficientis : ergo etc.</p>
+          <p xml:id="bb-l2d34a1q2-d1e168">Item, omne illud quod prius potest esse quam sit, habet causam efficientem ; sed malum prius potest esse quam sit : ergo etc. Maior et minor manifestae sunt.</p>
+          <p xml:id="bb-l2d34a1q2-d1e171">Item, respectu illius res magis iudicatur causa efficiens respectu cuius est magis sufficiens ; sed voluntas nostra magis sufficit ad malum quam ad bonum : ergo magis debet dici causa efficiens mali quam boni. Si ergo bonum est a voluntate ut efficiente, malum consimiliter erit.</p>
+          <p xml:id="bb-l2d34a1q2-d1e174">Item, si voluntas est causa mali secundum quod deficiens, aut defectus ille est poena aut culpa. Si poena, ergo poena ante culpam. Si culpa - loquamur igitur de prima culpa - aut igitur est a voluntate secundum quod deficiens aut non. Si sic, ergo ante primam culpam est culpa. Si non, ergo, si primum malum non est a voluntate ut deficiente, videtur quod nullum malum.</p>
+          <p xml:id="bb-l2d34a1q2-d1e178">Item, si malum primum est a voluntate ut deficiente, aut ergo defectu naturali aut praeternaturali. Si defectu naturali, ergo naturaliter et semper est principium mali, cum semper habeat hunc defectum in se. Si defectu praeternaturali, aut est contractus aut inflictus aut voluntarie acquisitus. Nullo istorum modorum potest poni in voluntate Luciferi et hominis primi : ergo etc.</p>
+          <p xml:id="bb-l2d34a1q2-d1e181">Item, si malum est a voluntate deficiente, aut in quantum deficit a summo bono aut in quantum deficit a bono quod debet habere. Si in quantum deficit a summo bono, ergo, cum talis defectus est in omni creatura, in omni reperietur peccatum. Si in quantum deficit a bono quod debet habere, sed nullus a tali bono deficit, nisi privetur merito alicuius culpae : ergo nullo modo prima culpa a voluntate deficiente esse potest.</p>
+   
+          <p xml:id="bb-l2d34a1q2-d1e184">Est igitur quaestio : quae est ratio sive dispositio circa voluntatem, ratione cuius sit causa proxima et immediata ipsius mali ? Non enim videtur esse causa quia est ens : nam hoc convenit omni enti ; nec quia de nihilo, quia hoc convenit tam voluntati bonae quam malae ; nec etiam quia volens, per eamdem rationem ; nec quia volens malum, quoniam velle malum est primum peccatum et velle malum est primum malum. Si ergo idem non est ratio sui vel causa, voluntas non dicetur causa mali, quia volens malum.</p>
+        </div>
+        <div xml:id="bb-l2d34a1q2-Dd1e188">
+          <head xml:id="bb-l2d34a1q2-Hd1e190">Conclusio</head>
+          <head xml:id="bb-l2d34a1q2-Hd1e193" type="question-title">Malum esse a voluntate ut deficiente, tripliciter recte intelligi potest.</head>
+ 
+          <p xml:id="bb-l2d34a1q2-d1e196">Respondeo : Dicendum quod absque dubio malum sive peccatum est a voluntate ut deficiente, sicut expresse dicit <name ref="#Augustine">Augustinus</name>, et concordat <name ref="#Dionysius">Dionysius</name>.</p>
+ 
+          <p xml:id="bb-l2d34a1q2-d1e205">Ad cuius intelligentiam notandum est quod, cum aliquis effectus dicitur esse a causa aliqua sub dispositione vel conditione superadiecta, hoc potest intelligi tripliciter : aut ita quod illa dispositio dicit aliquid praeambuium ad illum effectum aut quia dicit aliquid annexum aut quia dicit illum eumdem effectum ut informans et denominans suum principium effectivum. Primo modo lumen dicitur esse a sole lucente : lucere enim est actus praeambulus ad illuminare. Secundo modo dicitur lumen esse a sole calefaciente : calor enim concomitatur lumen. Tertio modo dicitur lumen esse a sole illuminante : cum enim dico solem illuminare et lumen esse a sole, idem influxus dicitur, aliter tamen et aliter importatus secundum diversam comparationem.
+Per hunc modum intelligendum est in proposito, quod cum dicitur quod malum est a voluntate deficiente, hoc potest Intelligi tripliciter.
+</p>
+ 
+          <p xml:id="bb-l2d34a1q2-d1e208">Propter quod notandum quod triplex defectus reperitur circa voluntatem : unus quidem naturalis, alius culpabilis et tertius poenalis. Naturalem defectum voco ipsam defectibilitatem, quae inest voluntati hoc ipso quod ex nihilo : defectum culpabilem voco ipsum peccatum ; defectum poenalem, illud damnum sive nocumentum sive laesionem quae consequitur ad illud.</p>
+ 
+          <p xml:id="bb-l2d34a1q2-d1e212">De quolibet horum defectuum praedictus sermo veritatem habet. Nam malum culpae est a voluntate deficiente defectu naturali, ita quod ille defectus praeambulus est ad culpam ; nunquam enim voluntas posset in volendo bonum deficere, nisi vanitatem et defectibilitatem in se haberet. Similiter malum est a voluntate deficiente defectu poenali, ita quod ille defectus est culpae annexus ; nunquam enim est dedecus peccati sine decore justitiae. Verum est etiam quod malum culpae est a voluntate deficiente defectu culpabili, non tamen alia culpa, sed eadem diversimode comparata ; eadem enim est culpa, qua deformatur voluntas et eius interior actio. Unde sic conceditur malum esse a voluntate deficiente sicut actus a substantia agente.</p>
+ 
+          <p xml:id="bb-l2d34a1q2-d1e215">Cum igitur triplex sit defectus circa voluntatem, ratione cuius malum dici potest a voluntate deficiente, quorum unus, scilicet naturalis, est praeambulus ad defectum culpae, alter vero, id est poenalis, est consequens et annexus ; defectus poenalis inseparabiliter consequitur defectum culpabilem : impossibile enim est, esse dedecus peccati, sicut dicit <name ref="#Augustine">Augustinus</name> sine decore vindictae. Defectus autem culpabilis non sequitur necessario nec inseparabiliter ad defectum naturalem. Unde non necessario sequitur, si alicubi sit defectus naturalis, quod ibi sit culpa ; voluntas enim non hoc ipso peccat, quia ex nihilo, sed hoc ipso quod est ex nihilo, est potens deficere ; hoc ipso quod voluntas est, potens est servare rectitudinem iustitiae ; hoc ipso vero quod voluntas est ex nihilo, potens est, quantum est de se, illam deserere ; et ita defectus ille circa voluntatem reddit eam ad peccandum possibilem.</p>
+ 
+          <p xml:id="bb-l2d34a1q2-d1e221">Si autem tu quaeras, quid faciat ipsam voluntatem exire in peccatum et quae sit dispositio ipsius immediata respectu culpae, dicendum quod nulla superadditur dispositio ; sed ipsa voluntas, quae est domina sui actus et libera, potest se ipsam convertere ad illud ad quod vult et sicut vult ; et si indebite se convertat, tunc peccat, nulla superinducta nova dispositione a parte voluntatis, quae sit praearnbula ad ipsam culpam. Unde sicut ille qui stat rectus, posset statim, si vellet, sine nova dispositione adveniente dimittere se cadere, sic voluntas, recta consistens et in ordine ad ultimum finem, potest illum exire ; et exitus ille peccatum est.
+Ex dictis igitur patet qualiter malum est a voluntate deficiente ; et ex his manifesta est responsio ad omnia quae in contrarium obiecta sunt.</p>
+        </div>
+        <div xml:id="bb-l2d34a1q2-Dd1e226">
+          <head xml:id="bb-l2d34a1q2-Hd1e228">Ad rationes</head>
+
+          <p xml:id="bb-l2d34a1q2-d1e231">Ad illud quod primo obicitur, quod anima est causa mali, sicut ignis calefieri, dicendum quod non est similitudo quantum ad modum causandi specialem, sed generalem. In generali modo causandi est convenientia, quia utrumque se habet in ratione causae efficientis ; sed in speciali est differentia, quia ignis est causa per modum naturae et necessitatis, anima vero per modum libertatis ; ille per modum positionis et vere efficientis, ista per modum privationis et deficientis.</p>
+          <p xml:id="bb-l2d34a1q2-d1e234">Ad illud quod obicitur, quod malum potest prius esse quam sit etc., dicendum quod malum eo modo quo habet esse, eo modo habet et fieri ; et quoniam malum privatio est et defectus, sicut patebit inferius, hinc est quod, sicut malum esse non est aliquid vere esse, sic nec malum effici est vere ab aliquo fieri ut efficiente, sed ut deficiente.</p>
+          <p xml:id="bb-l2d34a1q2-d1e237">Ad illud quod obicitur, quod anima magis potest in malum, dicendum quod sufficientia in deficiendo non est sufficientia simpliciter, sed secundum quid sufficientia et simpliciter insufficientia ; et ideo ex tali sufficientia inferre veram efficientiam est paralogismus secundum quid et simpliciter. Prima enim propositio intelligitur de sufficientia simpliciter, sicut patet inspicienti.</p>
+
+          <p xml:id="bb-l2d34a1q2-d1e240">4, 5. 6. Ad illud quod quaeritur, utrum ille defectus sit culpa, vel poena et utrum sit naturalis vel praeternaturalis et iterum respectu cuius, iam patet responsio. Omnibus enim his modis, ut dictum est, potest accipi. Prout autem accipitur pro defectu naturali, qui inest creaturae ex hoc quod de nihilo, non notatur ibi conditio defectus tamquam causa proxima et immediata ipsius peccati, et prius dictum est. Prout autem accipitur pro culpa, non notatur quod antecedat, sed quod voluntatem denominat. Nunquam enim est deformis actus a voluntate quin voluntas deformetur. Prout accipitur pro poena, non notatur praecedere, sed concomitari.
+Et per hoc illa tria patent et alia, quae quaeruntur consequenter.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

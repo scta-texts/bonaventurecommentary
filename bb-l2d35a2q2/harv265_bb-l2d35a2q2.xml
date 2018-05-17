@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35a2q2">
+        <head xml:id="bb-l2d35a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d35a2q2-Hd1e111" type="question-title">Utrum modus, species et ordo corrumpantur per peccatum aequaliter.</head>
+        <p xml:id="bb-l2d35a2q2-d1e114">Secundo quaeritur, utrum haec tria per quodlibet peccatum corrumpantur aequaliter.</p>
+        <div xml:id="bb-l2d35a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d35a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d35a2q2-d1e122">Et quod sic, videtur : Primo per <name ref="#Augustine">Augustinum</name>, in libro De natura boni : <quote xml:id="bb-l2d35a2q2-Qd1e127">Ubi haec magna sunt, magnum est bonum ; ubi parva, parvum</quote> . Ergo secundum haec tria attenditur intensio et et diminutio in omni bono : ergo, si idem bonum non potest esse maius et minus se ipso, necesse est quod, cum ista tria privantur, quod aequaliter priventur.</p>
+          <p xml:id="bb-l2d35a2q2-d1e131">Item, ista tria sunt vestigium Trinitatis summae, ubi est perfecta aequalitas et consubstantialitas. Ergo sicut haec tria sunt consubstantialia quod unum sine altero esse non potest, sic etiam sunt aequalia : ergo quantum diminuitur de uno, necesse est tantum diminui de reliquo.</p>
+          <p xml:id="bb-l2d35a2q2-d1e134">Item, haec tria privari non est nisi bonum privari, sicut prius ostensum est ; sed in eodem et secundum idem non est magis et minus reperire : ergo, si per idem malum ista tria privantur, necesse est privari aequaliter.</p>
+          <p xml:id="bb-l2d35a2q2-d1e137">Item, quanto voluntas plus recipit a Deo, tanto est Deo similior, et quanto Deo similior est, tanto magis ad Deum tendit. Ergo necesse est quod quantum habet de modo, tantum habeat de specie et ordine ; et si hoc, necesse est illa tria bona per malum privari aequaliter.</p>
+          <p xml:id="bb-l2d35a2q2-d1e141">
+Sed contra : 
+1. Videtur quod malum principaliter privet ordinem, quoniam malitia in opere principaliter attenditur penes intentionis deordinationem. Ergo, si penes hanc principaliter consistit ordo, videtur quod malum plus habeat privare ordinem quam modum vel speciem.</p>
+          <p xml:id="bb-l2d35a2q2-d1e144">2. Item, modus, species et ordo correspondent illis tribus, videlicet unitati, veritati et bonitati ; sed malum principaliter et plus aufert de bonitate, quam auferat de unitate et veritate : ergo, si haec tria correspondent illis tribus, videtur quod non adimantur ista tria aequaliter.
+</p>
+          <p xml:id="bb-l2d35a2q2-d1e147">3. Item, his tribus in quibus attenditur ratio vestigii, videlicet modus, species et ordo, correspondent illa tria in quibus attenditur ratio imaginis, videlicet memoria, intelligentia et voluntas. Sed peccatum, cum deformat imaginem, non deformat omnes potentias aequaliter, immo principalius et magis deformat voluntatem : ergo pari ratione non corrumpit aequaliter modum, speciem et ordinem, sed principalius aufert ordinem quam modum vel speciem.</p>
+          <p xml:id="bb-l2d35a2q2-d1e150">4. Item, peccatum, loquendo essentialiter et proprie, deformitas est ; sed omnis deformitas principaliter dicit privationem formae sive pulcritudinis, ergo speciei : igitur culpa non privat haec tria aequaliter, sed principalius privat speciem.</p>
+          <p xml:id="bb-l2d35a2q2-d1e153">5. Item, malum aliquo modo bene potest ordinari, sicut dicit <name ref="#Augustine">Augustinus</name>, in Enchiridio ; sed nullo modo potest speciem habere, cum sit privatio : ergo videtur quod in malo magis fiat privatio speciei quam ordinis : non ergo fit privatio illorum trium aequaliter.</p>
+          <p xml:id="bb-l2d35a2q2-d1e159">6. Item, non fit privatio in aliquo respectivo nisi per privationem prius factam in aliquo absoluto : in ad aliquid enim per se et proprie nec est motus nec mutatio : ergo, si ordo dicit relationem ad alterum, non potest fieri corruptio in ordine nisi per corruptionem factam in specie ; videtur igitur quod corruptio facta per malum non respiciat illa tria aequaliter.</p>
+ 
+        </div>
+        <div xml:id="bb-l2d35a2q2-Dd1e163">
+          <head xml:id="bb-l2d35a2q2-Hd1e165">Conclusio</head>
+          <head xml:id="bb-l2d35a2q2-Hd1e168" type="question-title">Modus, species et ordo per quodlibet peccatum 
+    aequaliter corrumpuntur.</head>
+  
+          <p xml:id="bb-l2d35a2q2-d1e171">Respondeo : Dicendum quod, cum ista tria, videlicet modus, species et ordo, prout privantur per malum culpae, sint conditiones eiusdem bonae voluntatis, non solum ab invicem inseparabiles, verum etiam aequales, aequaliter privantur per quodcumque malum culpae.
+Quodlibet enim malum culpae in tantum deordinat, in quantum facit Deo dissimilem ; et in quantum facit Deo dissimilem, in tantum elongat a Deo, ita quod, quemadmbdum gratia aequaliter reddit animam ordinatam et speciosam et potentem in bonum tantum vel maius ; et quemadmodum in gloria similiter est adaequatio dotum : sic etiam in culpa aequaliter fit privatio horum trium. Et ideo, sicut dicitur visio in gloria esse tota merces, propter connexionem et aequalitem in dotibus gloriosis, sic etiam, ut dicit <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum, quod totum nomen mali de speciei privatione repertum est, non quia per malum solum species privetur vel principalius, sed quia in privatione speciei intelligitur privatio aliorum.
+Concedendae sunt igitur rationes quae ad primam partem inducuntur.</p>
+        </div>
+        <div xml:id="bb-l2d35a2q2-Dd1e179">
+          <head xml:id="bb-l2d35a2q2-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-l2d35a2q2-d1e184">Ad illud ergo quod obicitur, quod malitia principaliter consistit penes intentionem, dicendum quod verum est. Sed quod ipse obicit, quod ordo attenditur penes intentionem, dicendum quod illud intelligitur penes quamdam appropriationem. Nam circa ipsam intentionem consistit modus, species et ordo, ex quibus et bona est intentio et bona est actio, quae ex intentione procedit.</p>
+          <p xml:id="bb-l2d35a2q2-d1e187">Ad illud vero, quod obicitur, quod modo, speciei et ordini respondent unitas, veritas et bonitas, dicendum quod verum est, prout in illis tribus consideratur generalis ratio vestigii ; prout autem in ipsis attenditur corruptio mali culpae, quae consistit circa voluntatem, haec tria habent considerari in bono, secundum quod bonum est, sicut in praecedenti problemate patuit. Et ideo aequaliter per malum habent privari, quoniam directe opponitur illis.</p>
+          <p xml:id="bb-l2d35a2q2-d1e190">Ad illud quod obicitur, quod malum non aequaliter deformat omnes potentias imaginis, dicendum quod non est simile, quia illae potentiae sunt diversae et ad diversos actus ordinatae, ita quod aliqui illorum actuum respiciunt culpam et iustitiam secundum plus et minus. Non sic autem est in proposito ; nam haec tria sola comparatione differunt, et, cum habeant idem fundamentum, necesse est quod quantum diminuitur unum, diminuatur et alterum.</p>
+          <p xml:id="bb-l2d35a2q2-d1e193">Ad illud quod obicitur, quod malum culpae est deformitas, dicendum quod non tantum est deformitas opposita pulcritudini, sed etiam est curvitas opposita rectitudini. Ideo non sequitur quod magis privet speciem quam ordinem ; non enim dicitur deformitas per solius pulcritudinis privationem, Sed etiam in hoc intelligitur privatio aliorum ; magis tamen denominatur a privatione speciei et formae, propter hoc quod species est ratio cognoscendi.</p>
+          <p xml:id="bb-l2d35a2q2-d1e197">Ad illud quod obicitur, quod malum est ordinabile, dicendum quod duplex est ordo. Est enim ordo ante factum esse, qui est ex intentione facientis ; et est ordo post factum esse, qui quidem attenditur secundum iustitiam retribuentis. Primus ordo est ille qui privatur a malo per malum ; et hunc ordinem malum non potest habere sicut nec speciem. Secundus vero ordo non privatur per malum, inimo malum est ordinabile in poenis secundum illum ordinem.</p>
+          <p xml:id="bb-l2d35a2q2-d1e200">Ad illud quod obicitur, quod non fit privatio in respectivo nisi per aliquid absolutum, dicendum quod tam species quam ordo, ut hic accipitur, utrumque est respectivum ; ideo non magis privatur unum per alterum quam e converso. Nihilominus tamen haec tria tolluntur per mutationem factam circa aliquid absolutum ; tunc enim privantur, cum liberum arbitrium peccat inordinate movendo se ipsum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

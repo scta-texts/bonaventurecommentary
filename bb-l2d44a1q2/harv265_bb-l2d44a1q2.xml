@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d44a1q2">
+        <head xml:id="bb-l2d44a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d44a1q2-Hd1e111" type="question-title">Utrum potentia peccandi, secundum quod huiusmodi, sit mala.</head>
+ 
+        <p xml:id="bb-l2d44a1q2-d1e114">Secundo quaeritur, utrum potentia peccandi, secundum quod huiusmodi, sit mala.</p> 
+        <div xml:id="bb-l2d44a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d44a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d44a1q2-d1e122">Et quod sit mala, in quantum huiusmodi, videtur :
+1. Potentia peccandi non est aliud quam voluntas ; sed voluntas peccandi est mala : ergo potentia peccandi est mala, secundum quod huiusmodi.</p>
+          <p xml:id="bb-l2d44a1q2-d1e125">2. Item, cuius usus malus est, ipsum quoque malum est, sicut cuius usus bonus est, ipsum bonum. Sed usus potentiae peccandi est peccare, et peccare est malum : ergo et potentia peccandi est mala.</p>
+          <p xml:id="bb-l2d44a1q2-d1e128">3. Item, sicut se habet potentia bene faciendi respectu boni, ita se habet potentia male faciendi respectu mali ; sed omnis potentia bene faciendi, in quantum huiusmodi, est bona : ergo potentia male faciendi, in quantum huiusmodi, est mala.</p>
+          <p xml:id="bb-l2d44a1q2-d1e131">Item, unaquaeque potentia completior est quando est suo actui coniuncta ; sed potentia male faciendi, dum est coniuncta actui malefaciendi, mala est : ergo, si minus completa est quando est separata ab actu, ergo videtur quod etiam separata ab actu mala sit.</p>
+          <p xml:id="bb-l2d44a1q2-d1e135">5. Item, potentia male faciendi aut est bona aut est mala. Si est bona, et omne bonum est in Deo et a Deo : ergo videtur quod potentia male faciendi, in quantum huiusmodi, et a Deo sit et in Deo sit, quorum utrumque falsum est. Restat igitur quod potentia peccandi sit mala.</p>
+   
+          <p xml:id="bb-l2d44a1q2-d1e138">Sed contra : Si potentia peccandi est mala, ergo potens peccare est malus ; sed iustus et sanctus potest peccare : ergo iustus et sanctus est malus.</p>
+          <p xml:id="bb-l2d44a1q2-d1e141">Item, si potentia peccandi est mala, aut ergo malo poenae aut malo culpae. Malo poenae non, quia illud sequitur malum culpae. Malo culpae non, quia culpa consequitur peccandi potentiam tempore et natura ; prius enim et homo et angelus peccare potuit quam peccavit.</p>
+          <p xml:id="bb-l2d44a1q2-d1e144">Item, si potentia peccandi est mala, aut ergo malitia quam fecit aut malitia quae facta est in ipsa. Malitia quam fecit, non oportet, quia multi possunt male facere qui non faciunt nec fecerunt. Si malitia quae facta est in ipsa, sed contra : <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum, probat quod nullo alio auctore potest homo fieri malus nisi se ipso. Ergo non videtur quod potentia peccandi, quantum est de se, mala sit.</p>
+          <p xml:id="bb-l2d44a1q2-d1e150">Item, non sequitur : iste potest adulterari, ergo est adulter ; ergo non sequitur : iste potest malum facere, ergo est malus ; sed, si potentia male faciendi esset mala, necessario sequeretur ad ipsam esse malum : ergo etc.</p>
+
+          <p xml:id="bb-l2d44a1q2-d1e153">Iuxta hoc quaeritur : unde hoc est quod voluntas male faciendi est mala et potentia male faciendi non dicitur esse mala ?
+Quaeritur etiam : propter quid voluntas peccandi non dicitur involuntas sicut potentia peccandi dicitur impotentia ? Videtur enim quod magis. Si enim voluntas peccandi maiorem dicit approximationem ad peccati defectum quam potentia peccandi, magis videtur quod deberet cadere a propria ratione, ut voluntas peccandi diceretur involuntas quam potentia peccandi dicatur impotentia.</p>
+        </div>
+        <div xml:id="bb-l2d44a1q2-Dd1e157">
+          <head xml:id="bb-l2d44a1q2-Hd1e159">Conclusio</head>
+          <head xml:id="bb-l2d44a1q2-Hd1e162" type="question-title">Potentia peccandi, ut talis, non est mala.</head>
+          <p xml:id="bb-l2d44a1q2-d1e165">Respondeo : Dicendum quod sicut potentia respectu bonorum non dicit actualem ordinationem ad effectum, sed solum habitualem, voluntas vero dicit actualem ordinationem, sit et in malis intelligendum est quod potentia non dicit actualem ordinationem ad defectum, sed potius habitualem. Unde non dicitur aliquis habere potentiam male faciendi, quia actualiter tendat in mala, sed quia potest tendere in malum. Voluntas autem actualem ordinationem dicit ; non enim dicitur : iste vult malum, nisi quando actualiter tendit in malum. Sicut enim dictum fuit in primo libro, voluntas est approximativa ipsius potentiae ad agendum.
+Et ideo, quia esse malum dicit aliquem defectum praesentem in eo vel circa id de quo dicitur, hinc est quod voluntas peccandi mala est et velle peccare est malum ; potentia autem peccandi sive posse peccare non dicitur esse mala.
+Concedendae igitur sunt rationes ostendentes quod potentia peccandi, in quantum hiusmodi, non est mala.</p>
+        </div>
+        <div xml:id="bb-l2d44a1q2-Dd1e170">
+          <head xml:id="bb-l2d44a1q2-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-l2d44a1q2-d1e175">Ad illud vero quod primo obicitur in contrarium de voluntate, dicendum quod illud non valet, quia voluntas male faciendi plus ponit quam potentia male faciendi ; dicit enim actualem ordinationem ad malum vel, ut proprius dicam, actualem deordinationem. Unde sicut argumentum illud non valet : velle male facere est malum, ergo posse male facere est malum, ita nec illud valet quod obicit, quod potentia male faciendi non est aliud quam voluntas. Quamvis enim non sit aliud, alio tamen modo importatur per hoc nomen potentia et alio modo per hoc nomen voluntas, quia in uno importatur in maiori elongatione, in altero vero in maiori approximatione ; et ideo est ibi sophisma secundum accidens, sicut hic : eadem est voluntas quae distat a malo et quae approximatur malo : ergo, si mala est prout est approximata, ex comparatione ad malum similiter mala erit prout est distans ; assignatur enim hic aliquid similiter accidenti et rei subiectae inesse.</p>
+          <p xml:id="bb-l2d44a1q2-d1e178">Ad illud quod obicitur, quod usus potentiae peccandi, in quantum huiusmodi, est malus, dicendum quod illa maxima intelligitur de usu ad quem unaquaeque res directe et de proximo ordinatur ; sed potentia peccandi non ordinatur nec directe nec de proximo ad actum peccandi, pro eo quod illa eadem potentia est ad opposita et ad suum oppositum ordinatur per se, ad hoc autem ordinatur per accidens. Unde oppositum peccati est eius usus et peccatum est eius abusus ; et ideo non sequitur quod, si peccare sit malum, quod propter hoc potentia peccandi, in quantum huiusmodi, sit malum.</p>
+
+          <p xml:id="bb-l2d44a1q2-d1e181">3. Ad illud quod obicitur, quod in bonis potentia bene faciendi est bona, ergo etc., dicendum quod non est simile, quia in bonis bonitas actus est a bonitate potentiae ; unde consuevit dici quod non quia bona facimus, boni sumus, sed quia boni sumus, bona facimus. Non sic autem est in malis ; immo econtra : quia mala facimus, mali sumus. Et ratio huius est, quia, quamvis potentia non possit se per suum actum perficere, potest tamen se per suum actum deordinare et deficientem facere ; et propter hoc non tantum addit bonum opus super bonum opus quantum ad rationem merendi, sicut peccatum super peccatum quantum ad rationem demerendi.</p>
+          <p xml:id="bb-l2d44a1q2-d1e184">4. Ad illud quod obicitur, quod completior est potentia, cum est suo actui coniuncta, dicendum quod hoc verum est de actu ad quem ordinatur simpliciter ; sed non est verum de eo ad quem ordinatur per accidens, maxime cum actus ille plus tenet rationem defectus quam effectus. Tunc enim magis deordinat quam perficiat ; et sic est in potentia peccandi respectu actus peccandi ; et ideo magis recedit potentia a completione in hoc quod peccat quam in eo quod potuit peccare.</p>
+          <p xml:id="bb-l2d44a1q2-d1e188">5. Ad illud quod quaeritur, utrum potentia peccandi sit bona an mala, dicendum quod, si dicatur potentia peccandi potentia qua quis potest peccare, absque dubio bona est et a Deo est. Similiter, si dicatur potentia peccandi ordinata ad actum peccato substratum, similiter est a Deo. Si autem dicatur potentia peccandi ipsa potestas deficiendi, hoc modo non debet dici bona nec mala. Bona non debet dici, quia non dicit aliquod ens, et nihil habet rationem entis quod non habeat rationem boni. Mala non debet dici, propter hoc quod non dicit privationem alicuius boni nati inesse nec dicit actualem defectum, sed habitualem ; unde talis potentia non debet dici potentia mala vel deficiens, sed potentia defectiva ; nec est proprie potentia, sed impotentia. Unde sicut non posse videre in lapide nec est bonum nec est malum, quia nec dicit positionem nec dicit privationem alicuius boni nati inesse, sic intelligendum est de potentia peccandi in creatura rationali, secundum quod potentia peccandi dicit defectibilitatem, quae inest ei ex ratione creaturae, secundum quam ex nihilo habet esse.</p>
+ 
+          <p xml:id="bb-l2d44a1q2-d1e191">Ex his patet responsio ad illud quod ultimo quaerebatur, quare videlicet voluntas peccandi dicitur esse mala et non sic potestas. Hoc enim est ex hoc, quia voluntas est causa immediata et proxima respectu actuum, qui ex deliberatione procedunt.
+Magis autem peccandi potentia dicitur impotentia quam voluntas peccandi dicatur involuntas, pro eo quod nomen potentiae impositum est a positione et complemento ; et ideo peccare diminuit de ratione potentiae, cum dicat defectum, sicut mortuus diminuit de ratione hominis. Nomen autem voluntatis impositum est a libertate et complacentia. Et quia peccatum est placitum et committi habet per liberum arbitrium, hinc est quod, quamvis depravet potentiam voluntatis, tamen non diminuit de ratione voluntatis, quia non habet ad ipsam repugnantiam secundum quod sic nominatur ; et propterea velle peccare velle est, posse autem peccare non est posse ; et ideo dictum fuit in primo libro quod Deus est omnipotens et tamen non dicitur omnivolens.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

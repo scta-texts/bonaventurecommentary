@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d44a2q2">
+        <head xml:id="bb-l2d44a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d44a2q2-Hd1e111" type="question-title">Utrum potestas praesidendi sit in homine secundum institutionem naturae vel secundum punitionem culpae.</head>
+        <p xml:id="bb-l2d44a2q2-d1e114">Secundo quaeritur circa hoc, utrum potestas praesidendi sit in homine secundum institutionem naturae vel secundum punitionem culpae.</p> 
+        <div xml:id="bb-l2d44a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d44a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d44a2q2-d1e122">Et quod primo modo, videtur : Genesis 1, 26 : <quote xml:id="bb-l2d44a2q2-Qd1e124" ana="#gen1_26">Faciamus hominem ad imaginem et similitudinem nostram, et praesit</quote> etc. Si tu dicas, quod habuit praelationem respectu bestiarum sed non respectu hominum, per hoc non evadetur, quia I ad Corinthios 11, 3 : <quote xml:id="bb-l2d44a2q2-Qd1e127" ana="#Icor11_3">Caput mulieris vir</quote>. Si ergo caput praesidet corpori et debet regere corpus, ergo videtur quod secundum institutionem naturae sit potestas dominandi in humano genere.</p>
+          <p xml:id="bb-l2d44a2q2-d1e131">Item, in angelis qui sunt perfecti in natura et in gloria, non tantummodo est ordo et gradus secundum excellentiam naturalium, sed etiam secundum praesidendam officiorum : ergo videtur quod dominium non repugnet, sed consonet institutioni naturae humanae sicut et angelicae.</p>
+          <p xml:id="bb-l2d44a2q2-d1e134">Item, potestas dominandi est proprietas dignitatis et nobilitatis ; sed, si aliquid dignitatis competit naturae lapsae, multo magis competit naturae institutae : ergo videtur quod magis pertinebat ad statum naturae institutae potestas dominandi quam ad statum naturae lapsae.</p>
+          <p xml:id="bb-l2d44a2q2-d1e137">Item, omne illud, quod est ad conservationem ordinis naturalis, pertinet ad institutionem naturae ; sed potestas praesidendi pertinet ad conservationem ordinis naturalis : ergo potestas praesidendi inest homini a Deo secundum institutionem naturae. Maior manifesta est. Minor probatur per illud quod dicit <name ref="#Augustine">Augustinus</name>, XIX De civitate Dei : Poenalis servitus ea lege ordinatur, quae naturalem ordinem conservari iubet et perturbari vetat. Sed ad idem ordinatur potestas dominandi et poenalis servitus : ergo etc.</p>
+   
+          <p xml:id="bb-l2d44a2q2-d1e144">Sed contra : Gregorius : <quote xml:id="bb-l2d44a2q2-Qd1e146">Omnes homines natura aequales fecit, sed pro variis meritis alios aliis occulta Dei dispensatio, sed iusta praeponit</quote>. Ergo videtur quod subiectio et praelatio non sit in homine secundum institutionem naturae.</p>
+          <p xml:id="bb-l2d44a2q2-d1e150">Item, <name ref="#Augustine">Augustinus</name>, XIX De civitate Dei : <quote xml:id="bb-l2d44a2q2-Qd1e155" source="http://scta.info/resource/adcd-l15">Rationalem hominem, ad imaginem Dei factum, dominari noluit Deus nisi irrationalibus</quote>. Ergo, si potestas praesidendi et dominandi est in uno homine respectu alterius, videtur etc.</p>
+          <p xml:id="bb-l2d44a2q2-d1e159">Item, ratione hoc ipsum videtur. Libertas homini inest a natura ; sed potestas dominandi est libertatis impeditiva : ergo non videtur quod sit a natura. Quod autem libertas et a natura sit et a potestate praesidendi habeat impediri, manifestatur, quia libertas sic habet definiri : <quote xml:id="bb-l2d44a2q2-Qd1e161">Libertas est naturalis potestas, qua licet homini facere quod vult</quote>.</p>
+          <p xml:id="bb-l2d44a2q2-d1e165">Item, homo secundum suam primam conditionem factus est ad Dei imaginem ; sed, in quantum est imago Dei, natus est immediate ferri in Deum : ergo, si solus Deus eo maior est, ergo secundum naturam nihil est supra hominem nisi Deus. Ergo nullum dominium in homine est secundum naturae institutionem nisi solum dominium divinum.</p>
+          <p xml:id="bb-l2d44a2q2-d1e168">Item, non est dominus sine servo, ergo nec dominium sine servitute ; sed <quote xml:id="bb-l2d44a2q2-Qd1e170">servitus est introducta propter peccatum</quote>, sicut in pluribus locis dicit <name ref="#Augustine">Augustinus</name> : ergo videtur quod potestas dominandi in homine sit secundum conditionem culpae, non secundum institutionem naturae.</p>
+          <p xml:id="bb-l2d44a2q2-d1e177">Item, in glorificatione hominum <quote xml:id="bb-l2d44a2q2-Qd1e179" source="http://scta.info/resource/adcd-l22">vitia detrahentur et natura servabitur</quote>, secundum quod, in libro De civitate Dei, vult <name ref="#Augustine">Augustinus</name> ; sed in statu gloriae non manebit dominium praelationis et subiectio servitutis : ergo non videntur haec esse in natura humana, secundum quod instituta, sed solum secundum quod lapsa et vitiata.</p>
+        </div>
+        <div xml:id="bb-l2d44a2q2-Dd1e187">
+          <head xml:id="bb-l2d44a2q2-Hd1e189">Conclusio</head>
+          <head xml:id="bb-l2d44a2q2-Hd1e192" type="question-title">Potestas dominandi, 
+    quatenus dicit potestatem coercendi subditos, inest homini solum secundum 
+    statum naturae lapsae</head>
+ 
+          <p xml:id="bb-l2d44a2q2-d1e195">Respondeo : Dicendum quod potestas dominandi vel praesidendi dicitur tripliciter, scilicet largissime et communiter et proprie. Largissime dominandi potestas dicitur respectu omnis rei, qua homo potest ad libitum et votum suum uti ; et hoc modo dicitur homo esse dominus possessionum suarum, sive mobilium sive immobilium. Alio modo potestas dominandi sive praesidendi dicit excellentiam potestatis in imperando ei qui est capax rationis et praecepti. Tertio modo potestas dominandi dicitur potestas coercendi subditos ; et haec potestas dicit quamdam arctationem libertatis ; et talis potestas dominandi proprie dicitur dominium, cui respondet servitus.</p>
+ 
+          <p xml:id="bb-l2d44a2q2-d1e198">Primo modo potestas dominandi communis est omni statui, videlicet statui naturae institutae et naturae lapsae et naturae glorificatae ; et excellentiori modo fuit in statu naturae institutae quam sit in statu naturae lapsae.
+Secundo modo competit statui viae, sive pro statu naturae institutae sive pro statu naturae lapsae. Si enim homo stetisset, et vir posset imperare uxori et pater potuisset imperare filio. Et hoc reperitur etiam in angelis, quamdiu sunt administratorii spiriritus, quia ex illa parte aliquo modo sunt in statu viae. Haec tamen praesidentia non manebit in gloria, sicut in praecedentibus ostensum fuit.
+Tertio vero modo potestas dominandi in homine est solum secundum statum naturae lapsae ; inest enim ei secundum culpae punitionem, non secundum naturae institutionem, et hoc, quia servitus sibi correspondens, secundum quod dicunt Sancti, est poena peccati.
+Et quia isto modo loquimur hic de potestate dominandi, ideo concedendae sunt rationes ostendentes quod talis potestas non inest homini secundum primariam suam conditionem sive secundum statum naturae institutae.</p>
+        </div>
+        <div xml:id="bb-l2d44a2q2-Dd1e203">
+          <head xml:id="bb-l2d44a2q2-Hd1e205">Ad rationes</head>
+          <p xml:id="bb-l2d44a2q2-d1e208">Ad illud ergo quod obicitur in contrarium ex textu Genesis et ex Corinthiorum, iam patet responsio ; procedunt enim de potestate praesidendi accepta primo et secundo modo, non tertio. Nam, etsi mulier sit viro quodam modo inferior ratione infirmioris sexus, nihilominus, quia non est creata ut esset ei in adiutorlum ut famula, sed ut socia, hinc est quod, quamvis dicatur caput eius, non tamen dicitur dominus, quia ipsa non est ancilla ipsius. Et ideo supra dixit <name ref="#Lombard">Magister</name>, distinctione decima octava, quod mulier ad aequalitatem fuit condita ; ideo fuit formata de latere, non de pedibus vel de capite, ut viri videretur esse socia, non domina vel ancilla.</p>
+          <p xml:id="bb-l2d44a2q2-d1e214">Ad illud quod obicitur, quod praelatio est in angelis, iam patet responsio, quia, quamvis unus praesideat alteri et imperet alteri et auctoritatem habeat super alterum imperandi ei aliquid, quod pertinet ad officium ministerii, tamen unus angelus non dicitur servus alterius angeli ; et ideo ex hoc non concluditur quod potestas dominandi, secundum quod ei correspondet servitus, sit in homine secundum conditionem naturae.</p>
+          <p xml:id="bb-l2d44a2q2-d1e217">Ad illud quod obicitur, quod dominium est proprietas dignitatis, dicendum quod, etsi sit proprietas dignitatis in eo qui praesidet, indignitatem tamen dicit in eo qui subest ; et ideo naturaliter potest convenire homini respectu alterius creaturae inferioris, respectu tamen alterius hominis non convenit naturaliter, sed quodam modo praeternaturaliter, videlicet in punitionem peccati ; sicut enim dicit <name ref="#Ambrose">Ambrosius</name>, <quote xml:id="bb-l2d44a2q2-Qd1e222">servitus introducta fuit per peccatum ebrietatis</quote>.</p>
+          <p xml:id="bb-l2d44a2q2-d1e226">Ad illud quod obicitur, quod dominium et servitus facit ad conservationem ordinis naturalis, dicendum quod est ordo qui respicit naturam secundum omnem statum et est ordo qui respicit naturam secundum statum suae conditionis et est ordo qui respicit naturam secundum statum suae corruptionis. Et secundum hoc quaedam sunt de dictamine naturae simpliciter, quaedam de dictamine naturae secundum statum naturae institutae, quaedam de dictamine naturae secundum statum naturae lapsae. Deum esse honorandum dictat natura secundum omnem statum ; omnia esse communia dictat secundum statum naturae institutae ; aliquid esse proprium dictat secundum statum naturae lapsae ad removendas contentiones et lites. Sic omnes homines esse servos Dei dictat natura secundum omnem statum ; hominem vero adaequari homini dictat secundum statum suae primae conditionis ; hominem autem homini subici et hominem homini famulari dictat secundum statum corruptionis, ut mali compescantur et boni defendantur. Nisi enim essent huiusmodi dominia coercentia malos, propter corruptionem quae est in natura unus alterum opprimeret et communiter homines vivere non possent. Non sic autem esset, si homo permansisset in statu innocentiae ; quilibet enim in gradu et statu suo maneret. Et sic patet quod illa ratio non concludit quod servitus vel dominium respiciat naturam institutam, sed solum quod respicit naturam lapsam, ubi ordo habet perturbari et potest per dominium conservari.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

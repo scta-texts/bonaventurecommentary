@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d30a2q2">
+        <head xml:id="bb-l2d30a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d30a2q2-Hd1e111" type="question-title">Utrum peccatum originale sit ignorantia</head>
+        <p xml:id="bb-l2d30a2q2-d1e114">Secundo quaeritur circa hoc, utrum peccatum originale sit ignorantia.</p>
+        <div xml:id="bb-l2d30a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d30a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d30a2q2-d1e122">Et quod sic, videtur. Super illud Psalmi [24, 7] : <quote xml:id="bb-l2d30a2q2-Qd1e124" ana="#ps24_7">Delicta iuventutis et ignorantiae meae</quote> etc., Glossa : <quote xml:id="bb-l2d30a2q2-Qd1e127">Ignorantiae meae, id est originale peccatum, quod est in parvulis</quote>. Et paulo ante : <quote xml:id="bb-l2d30a2q2-Qd1e130">Delicta ignorantiae dicit ea quae sunt in parvulis, qui peccato originali tenentur</quote>.</p>
+          <p xml:id="bb-l2d30a2q2-d1e134">Item, Hugo, in libro De sacramentis, in septima parte : <quote xml:id="bb-l2d30a2q2-Qd1e136" source="http://scta.info/resource/hds-l1p7c28">Originale peccatum est vitium, quod nascendo contrahimus per ignorantiam in mente et concupiscentiam in carne</quote>. Ergo videtur quod originale peccatum sit ignorantia. Quodsi tu dicas hoc esse dictum per causam, obviat illud quod consequenter dicit Hugo, in eadem parte : <quote xml:id="bb-l2d30a2q2-Qd1e139" source="http://scta.info/resource/hds-l1p7c31">Ista quatuor mala in homine apparent : superbia, ignorantia, mortalitas et concupiscentia. Superbia mentis culpa est, mortalitas carnis poena tantum, ignorantia vero culpa et poena</quote>. Sed non est nisi culpa originalis : ergo etc.</p>
+          <p xml:id="bb-l2d30a2q2-d1e143">Item, originale peccatum maxime habet deleri per fidei Sacramentum : ergo directius opponitur ipsi fidei, quae est In cognitiva, quam virtuti alicui existenti in affectiva. Si ergo ignorantia dicit privationem virtutis dirigentis cognitivam, videtur quod peccatum originale sit proprie ignorantia.</p>
+          <p xml:id="bb-l2d30a2q2-d1e146">Item, poena respondet culpae ; sed originali peccato proprie debetur poena carentiae visionis Dei : ergo, si hoc dicit privationem ex parte cognitivae, videtur quod et ipsum originale ; quod si hoc verum est, redit idem quod prius.</p>
+          <p xml:id="bb-l2d30a2q2-d1e150">Item, sicut peccatum est in concupiscendo ea quae non sunt appetenda, sic peccatum est in discredendo ea quae sunt credenda : ergo sicut habere necessitatem ad concupiscendum est culpa, sic habere necessitatem ad discredendum est culpa. Sed parvulus utramque necessitatem habet ; et non habet nisi originale : ergo sicut ponitur originale peccatum in parvulo esse concupiscibilitas sive concupiscentia, sic debet etiam poni esse ignorantia.</p>
+
+ 
+          <p xml:id="bb-l2d30a2q2-d1e153">Sed contra : Beda dicit quod quatuor sunt nobis propter peccatum inflicta, scilicet ignorantia et infirmitas etc. : ergo, cum peccatum originale non dicatur infirmitas, pari ratione nec ignorantia, quae est poena pro ipso inflicta.</p>
+          <p xml:id="bb-l2d30a2q2-d1e156">Item, <name ref="#Augustine">Augustinus</name>, Ad Valentinum : <quote xml:id="bb-l2d30a2q2-Qd1e161">Ignorantia in his qui scire non potuerunt poena peccati est</quote>. Si ergo ignorantia in parvulis est invincibilis, videtur quod sit poena, et non culpa, maxime cum videamus parvulos propter ignorantiam excusari ab omni culpa.</p>
+          <p xml:id="bb-l2d30a2q2-d1e165">Item, originale peccatum deletur in baptismo : sed aeque bene est ignorans parvulus baptizatus sicut non baptizatus : ergo ignorantia esse non potest originale peccatum.</p>
+          <p xml:id="bb-l2d30a2q2-d1e168">Item, si aliquis ex aliquo actu suo cadat in furiam, illa furia non dicitur in eo esse culpa, sed poena : ergo pari ratione, si aliquis ex peccato primi parentis in ignorantiam cecidit, non debet dici culpa originalis, sed eius poena. Et potest hic esse locus a maiori, quia magis debet imputari ignorantia in culpam, in quam incidit ex actu proprio, quam ex actu alieno.</p>
+          <p xml:id="bb-l2d30a2q2-d1e171">Item, cum peccatum originale sit concupiscentia, ut probatum est supra, et <name ref="#Augustine">Augustinus</name> dicit, si esset ignorantia, cum concupiscentia et ignorantia sint diversorum generum, tunc in quolibet esset pluralitas originalium peccatorum ; quod ostendetur inferius esse falsum.</p>
+        </div>
+        <div xml:id="bb-l2d30a2q2-Dd1e178">
+          <head xml:id="bb-l2d30a2q2-Hd1e180">Conclusio</head>
+          <head xml:id="bb-l2d30a2q2-Hd1e183" type="question-title">Concedi potest, peccatum originale esse ignorantiam, 
+   prout nempe coniuncta est concupiscentiae</head>
+
+ 
+          <p xml:id="bb-l2d30a2q2-d1e186">Respondeo : Dicendum quod, sicut supra dictum fuit de ignorantia in adultis, ipsam videlicet peccatum non esse, nisi prout habet voluntatem concomitantem, sic econtra cognitio non, est virtus, nisi ei sit iuncta affectio : sic per hunc modum intelligendum est in proposito, quod ignorantia, si pure dicat nescientiam, sic tantum est poena ; si vero dicat nescientiam, ut est coniuncta concupiscentiae, sic, est culpa, pro eo quod talis ignorantia oppositionem habet cum virtute et gratia. Gratia enim, adveniens in animam, non solummodo rectificat affectionem per caritatem, sed etiam cognitivam per fidem. Non enim potest dirigi voluntas, nisi pariter dirigatur et ratio, et libertas arbitrii simul im ratiofie et voluntate consistit.
+Hoc igitur modo concedi potest peccatum originale esse ignorantiam ; et sic intelligit magister Hugo et Glossa, et procedunt rationes quae ad primam partem inducuntur.</p>
+ 
+          <p xml:id="bb-l2d30a2q2-d1e189">Ad illud tamen quod obicitur de carentia visionis Dei, dicendum quod ratio illa duplicitur deficit. Primum quidem, quia carentia visionis Dei non tantum debetur peccatis, quae respiciunt cognitivam, immo quae respiciunt affectivam, cum visio sit tota merces, quae redditur omnibus virtutibus et meritoriis operibus. Secundo vero, quia, cum dicimus parvulos puniri carentia visionis, in hoc intelligitur per consequens quod priventur et dote fruitionis et dote tensionis.</p>
+ 
+          <p xml:id="bb-l2d30a2q2-d1e192">Rationes autem quae ad oppositum inducuntur, procedunt de ipsa ignorantia secundum quod dicit puram nescientiam, et sic est poena, non culpa ; secundum autem quod habet iunctam concupiscentiam, culpa est.
+Nec tamen ex hoc sequitur quod in nobis sint plura peccata originalia, sicut concludit ratio ultima, pro eo quod ubi. ponitur unum propter alterum, ibi unum tantum.
+Cum ergo dicimus ignorantiam ratione concupiscentiae esse peccatum originale, non propter hoc ponimus in nobis plura originalia differentia per essentiam, sed hoc ponimus quod, cum originale sit unum, deordinat et vitiat totam animam, non solum secundum affectivam, sed etiam secundum cognitivam, ita tamen quod principalius affectivam. Unde magis proprie notificatur originale per concupiscentiam et debitae iustitiae carentiam quam per ignorantiam, quia tam concupiscentia quam debitae iustitiae carentia notificant ipsum originale, secundum quod est culpa, et ideo praedicantur de ipso praedicatione per essentiam. Ignorantia autem notificat magis secundum quod est vitium cognitivam deordinans : unde magis praedicatur de peccato originali, secundum quod ipsa ignorantia peccatum est, praedicatione per causam quam per essentiam. Et hoc insinuat ipsum verbum Hugonis, cum dicit ipsum originale esse vitium, quod contraximus per ignorantiam. Hoc etiam declarat ipse Anselmus, in libro De conceptu virginali ubi dicit quod omne peccatum est iniustitia, et omnis, iustilia et iniustitia in voluntate consistit.
+Et sic patet quid sit originale peccatum per essentiam, quoniam est concupiscentia et debitae iustitiae carentia ; patet etiam quomodo originale peccatum ab Hugone dicitur esse ignorantia et per consequens ea quae ad utramque partem sunt adducta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

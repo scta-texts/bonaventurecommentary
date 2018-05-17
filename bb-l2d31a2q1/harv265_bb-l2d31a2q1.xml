@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31a2q1">
+        <head xml:id="bb-l2d31a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d31a2q1-Hd1e111" type="question-title">Utrum anima possit infici a carne.</head>
+        <p xml:id="bb-l2d31a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum anima inficiatur a carite.</p> 
+        <div xml:id="bb-l2d31a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d31a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d31a2q1-d1e122">Et quod sic, videtur : Primo, per auctoritatem Apostoli ad Romanos 7, 18 : <quote xml:id="bb-l2d31a2q1-Qd1e124" ana="#rom7_18">Scio quod non habitat in me, hoc est in carne mea, bonam</quote>, ibi Glossa : Corruptio per conditionem offensionis manet in corpore, robur tenens divinae sententiae datae in Adam, cuius consortio anima maculatur peccato. Ex hoc expresse colligitur quod caro inficit spiritum.</p>
+          <p xml:id="bb-l2d31a2q1-d1e128">Item, <name ref="#Augustine">Augustinus</name>, De verbis Apostoli : <quote xml:id="bb-l2d31a2q1-Qd1e133">Vitium concupiscentiae est quod anima pertraxit ex carne</quote>.</p>
+          <p xml:id="bb-l2d31a2q1-d1e137">Item, hoc ipsum videtur ratione. Peccatum originale inest homini ex hoc quod traducitur ex primo parente, in quo omnes posteri dicuntur peccasse ; sed non dicitur filius nasci ex patre nisi solummodo ratione carnis, quam ex eo trahit : ergo, si anima efficitur peccatrix, hoc est a corruptione carnis.</p>
+          <p xml:id="bb-l2d31a2q1-d1e140">Item, nulla proprietas traducitur ab uno in alterum nisi mediante aliqua substantia deferente quae sit communis utrique ; sed nulla substantia est communis patri et proli nisi sola carnis substantia : ergo impossibile est peccatum patris in animam filii descendere nisi mediante carne.</p>
+          <p xml:id="bb-l2d31a2q1-d1e144">Item, mala dispositio, existens in corpore, potest inducere oblivionem in memoriam et dementiam in intelligentiam. Ergo pari ratione in voluntatem potest inducere concupiscentiam ; sed concupiscentia in anima est peccatum originale, sicut ostensum fuit supra ; ergo caro potest facere animam peccatricem.</p>
+          <p xml:id="bb-l2d31a2q1-d1e147">Item, anima iuncta carni passibili efficitur passibilis et dolens : ergo pari ratione coniuncta carni infectae et lascivae maculatur et efficitur concupiscens : si ergo concupiscentia peccatum est, patet etc.</p>
+
+          <p xml:id="bb-l2d31a2q1-d1e150">Sed contra : Anselmus, De conceptu virginali, capitulo 7 : <quote xml:id="bb-l2d31a2q1-Qd1e152">Non est magis culpa in semine quam sit in sputo vel sanguine, si quis mala voluntate expuit aut ex sanguine suo aliquid emittit</quote>. Ergo, si nihil potest dare alii quod non habet, videtur quod caro non possit animam inficere.</p>
+          <p xml:id="bb-l2d31a2q1-d1e156">Item, <name ref="#Augustine">Augustinus</name>, in VI Musicae : <quote xml:id="bb-l2d31a2q1-Qd1e161">Omne agens praestantius est patiente, et efficiens materia</quote>. Sed anima praestantior est carne : ergo nullo modo caro potest in animam agere, ergo nec ipsam inficere.</p>
+          <p xml:id="bb-l2d31a2q1-d1e165">Item, sicut vult <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-l2d31a2q1-Qd1e170">necesse est agens et patiens in materia communicare</quote>. Sed caro et anima non communicant in materia : ergo caro non potest agere in animam, ergo nec ipsam corrumpere.</p>
+          <p xml:id="bb-l2d31a2q1-d1e174">Item, multo spiritualior est anima quam radius ; sed radius ex coniunctione sui ad corpora immunda non habet infici : ergo nec anima ex coniunctione ad carnem infectam potest infici.</p>
+          <p xml:id="bb-l2d31a2q1-d1e178">Item, nulla corruptio maior est in effectu quam sit in causa ; corruptio, quae est in carne, non est corruptio culpabilis, <quote xml:id="bb-l2d31a2q1-Qd1e180">quia culpa, ut dicit Anselmus, est in sola voluntate</quote> : si ergo minima culpa peior est quam quantacumque poena et plus habet de ratione mali, sicut <name ref="#Augustine">Augustinus</name>, in Sermone de Innocentibus, dicit, igitur ex poenali infectione carnis impossibile est culpam in anima generari.</p>
+          <p xml:id="bb-l2d31a2q1-d1e187">Item, corruptio, quae est in carne, aut est poena aut culpa. Non culpa, hoc constat. Si poena, ergo iusta est ; sed nihil iustum est causa iniusti, secundum quod huiusmodi : ergo corruptio, quae est in carne, cum sit poena, non poterit esse principium inficiendi animam culpa.</p>
+        </div>
+        <div xml:id="bb-l2d31a2q1-Dd1e191">
+          <head xml:id="bb-l2d31a2q1-Hd1e193">Conclusio</head>
+          <head xml:id="bb-l2d31a2q1-Hd1e196" type="question-title">Anima contrahit peccatum originale mediante carne</head>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e199">Respondeo : Dicendum quod absque dubio, sicut dicunt Sancti et tenent doctores, quod anima contrahit peccatum originale mediante carne. Quomodo autem hoc possit intelligi, nituntur ad hoc diversi diversimode.</p>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e202">Quidam enim dicunt quod ex hoc ipso quod anima unitur carni mortali et passibili, quam non potest regere, efficitur concupiscens ; et sic contrahit maculam originalis culpae, quia ipsa concupiscentia sive necessitas concupiscentiae reddit animam perversam. Et quoniam caro mortalis habet propagari ex carne mortali et mortalitas fuit in carne primi parentis propter peccatum inobedientiae, hinc est quod originale peccatum dicitur in nos transire a primo parente. Et hoc ex ipsius Hugonis verbis extrahunt, qui dicit in septima parte, prima distinctione libri sui, ubi ait sic : <quote xml:id="bb-l2d31a2q1-Qd1e204">Quia caro mortalitate percussa est, ipsa sui languoris infirmitate dissoluta, extra mensuram primae dispositionis desideria sua extendit</quote>. <quote xml:id="bb-l2d31a2q1-Qd1e207">Quia ergo caro humana a parentibus cum mortalitate seminatur, in eo ipso quod seminata subiacet mortalitati, vivificata postmodum, carnalis concupiscentiae subiecta invenitur necessitati ; unde ipsa mortalitatis infirmitas causa est, quam sequitur concupiscens necessitas</quote>. Hucusque verba Hugonis, quae videntur illud dicere quod prius dictum est.
+Sed, quoniam in Christo fuit mortalitatis infirmitas nec tamen fuit in eo concupiscentia vel originalis culpa, non videtur istud plene satisfacere nec totam causam quare caro inficit animam assignare. Esto enim quod aliquod corpus a fomite purificaretur, remanente tamen mortalitate, sicut fuit in beata Virgine, si anima tali corpori iungeretur, non videtur quod contraheret originale, licet illud corpus sit passibile et mortale.</p>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e211">Et ideo alii aliter dicere voluerunt quod, cum peccatum originale non sit positio vel aliqua essentia, sed potius privatio et iustitiae carentia, non contrahit illud anima a carne, ita quod caro aliquid in animam agat vel influat, sed quia praebet ipsi animae obstaculum, ratione cuius anima debita iustitia privatur et privata illa iustitia impetu concupiscentiae deorsum fertur, cum non habeat retinaculum ; et ita concupiscentia sequitur ex debitae iustitiae carentia et sic debitae iustitiae carentia praecedit ipsam concupiscentiam per naturam. Praebet autem caro ipsi animae obstaculum vel offendiculum, ut non habeat illam iustitiam, ex hoc quod propagata est a primo parente. Unde ex coniunctione animae ad talem carnem ille qui nascitur dicitur esse filius Adae ; et quia Adam offendit Deum, non tantum pro se, sed etiam in tota sua posteritate, hinc est quod anima hoc ipso quod tali carni coniungitur et spectat ad genus Adae, indigna efficitur ut Deus sibi iustitiam apponat ; et cum illam debeat habere et non habeat, culpabilis est et rea, et per consequens efficitur concupiscens et vana, sicut manus paralytica ex dissolutione virtutis regitivae efficitur tremulosa. Et illud videtur trahi ex verbis Anselmi, De conceptu virginali, capitulo 5 ubi ait : <quote xml:id="bb-l2d31a2q1-Qd1e213">Non est iniustitia talis res qua inficiatur et corrumpatur anima velut corpus veneno, et quae faciat aliquid, sicut videtur quando malitiosus homo mala facit opera. Nam quemadmodum, cum indomita fera, ruptis vinculis, discurrendo saevit, et navis, si gubernator, dimisso gubernaculo, dimittit eam ventis et motibus maris, vagatur et invehitur in quaelibet pericula, dicimus quod hoc facit absentia catenae aut gubernaculi, non quod absentia horum aliquid sit : sic, cum malus saevit, clamamus, quia operatur iniustitia, non quod ipsa sit ulla essentia</quote>. Et iterum, infra, capitulo 23 : <quote xml:id="bb-l2d31a2q1-Qd1e216">Spoliavit persona naturam bono justitiae in Adam, et natura, egens facta, omnes personas, quas ipsa de se procreat, eadem egestate peccatrices et iniustas facit Hoc modo transit peccatum personale Adae in omnes qui de illo personaliter propagantur</quote>. Ex his verbis videtur colligi posse intellectus qui prius dictus est.
+Sed tamen adhuc illud non videtur plene intellectui satisfacere, quia, esto quod anima illa, quae creatur in corpore, extra corpus crearetur, et nihil ultra sibi daretur quam datur cum corpori infunditur, non diceretur habere originale peccatum, immo pura esset et innocens ; igitur oportet intelligere quod aliquo modo corruptio redundet in animam ex carne.</p>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e221">Et propter hoc est tertius modus intelllgendi, quod in carne Adae propter peccatum duplex fuit corruptio. Una scilicet purae poenalitatis ; et ex hac anima, cum coniungitur corpori, contrahit passibilitatem. Alia vero fuit corruptio vitiositatis sive foeditatis, per quam caro est spiritui rebellis ; et ex hac anima contrahit culpam originalem, quoniam talis vitiositas quasi medium tenet inter culpam et poenam. Et hoc est quod <name ref="#Lombard">Magister</name> dicit in littera et quod sonant sacrae Scripturae verba, quod ex fervore coitus parentum et concupiscentia libidinosa contrahit caro foeditatem quamdam, cum concipitur, quae est causa originalis peccati, et recte vitium sive corruptio carnis appellari potest.</p>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e227">Ad intelligendum autem quomodo anima possit infici corruptione culpabili ex tali foeditate, haec tria supponenda sunt tamquam manifesta : quorum unum est quod foeditas carnis potest facere carnem rebellem spiritui ; quod patuit in Adam, qui post peccatum sensit carnis suae rebellionem. Secundum est illud, quod anima, unita carni, propter coniunctionem ipsius ad carnem vel trahit eam sursum vel ab ipsa trahitur deorsum, propter vinculum quod est ipsius carnis ad animam. Tertium est illud, quod anima propria virtute non potest regere carnem rebellem nisi iuvetur per divinam gratiam, secundum quod Apostolus exclamat : Infelix ego homo etc.
+Ex his igitur tribus suppositionibus necessario sequitur, quodsi anima tali carni unitur, quod ab ipsa trahitur deorsum et per concupiscentiam incurvatur. Sed animam incurvari non est aliud quam eam perverti ; perversitas autem in substantia rationali, quae est capax iustitiae, non est aliud quam iniustitia et culpa. Ex hoc igitur clarum est quod foeditas, quae est in carne, potest animam sibi unitam facere peccatricem. Et quia ista foeditas a primo parente habet traduci in omnes posteros genitos secundum legem propagationis, hinc est quod mediante carne ad omnes transfundit originale.
+</p>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e230">Hoc autem melius explanatur per evidentiam exemplorum. Videmus enim quod caro de se non dolet nec est in ea passio doloris ante adventum animae, quamvis in ea possit esse incisio. Ponatur igitur animam uniri carni incisae et laesae, statim cum ei unitur, habet dolorem ; et dicimus dolorem aggenerari in anima, non incisionem. Si igitur carnis incisio potest facere animam dolentem, quare non similiter carnis quaedam foedatio et resolutio faciat animam lascivam et concupiscentem, quamdiu habitet in carne ?
+Item, esto quod aliquod coVpus ineptum esset ad rationis usum, sicut est corpus in ea dispositione quam habet phreneticus et furiosus, in tali corpore nec dicitur esse furia nec ignorantia, sed quaedam dispositio mala. Si tamen anima tali corpori infunderetur, statim efficeretur ignorans et furiosa, quamdiu esset in carne illa. Quare non similiter possumus intelligere et in concupiscentia ?
+Rursus, esto quod aliquod membrum formaretur ad motum et regimen animae ineptum et inhabile, utpote in ea complexione quam habet membrum paralyticum, statim cum virtus motiva uniretur illi membro, diceretur ibi esse morbus paralysis et esset virtutis dissolutio et per consequens tremulatio. Virtutis autem dissolutio non esset quantum ad corruptionem ipsius virtutis motivae in se, sed quantum ad ineptitudinem organi, quod debet regi ab illa virtute.
+Sic et in proposito intelligendum est quod in corpore ante adventum animae non est actualiter morbus culpae, sed iuncta anima, quae debet ipsum corpus regere, propter carnis ineptitudinem caret anima rectitudine virtutis regitivae, et illa carens, tremulosa efficitur per actum concupiscentiae.
+Et sic patet quod valde est verisimile quod originale possit contrahi in anima ex carne.</p>
+ 
+          <p xml:id="bb-l2d31a2q1-d1e233">Ad dissolutionem autem obiectorum praenotandum est quod tripliciter dicitur aliquid agere in alterum : uno modo per praedominantiam, sicut contrarium agit in suum contrarium ; alio modo per influentiam, sicut corpus superius agit in haec inferiora ; tertio modo per colligandam, sicut quando duo ita sunt unita quod unum trahit ad se alterum et communicat alteri proprietates suas. Cum ergo dicimus carnem inficere animam, hoc intelligitur quantum ad tertium modum agendi, scilicet propter colligandam quam habet ad animam, propter quam, dum deorsum tendit, eam secum trahit ; ut enim dicit Gregorius, quod <quote xml:id="bb-l2d31a2q1-Qd1e235">qui labenti innititur, necesse est ut cum labente labatur</quote>. His visis, patent ea quae obiecta sunt.</p>
+        </div>
+        <div xml:id="bb-l2d31a2q1-Dd1e241">
+          <head xml:id="bb-l2d31a2q1-Hd1e243">Ad rationes</head>
+          <p xml:id="bb-l2d31a2q1-d1e246">Ad illud enim quod dicit Anselmus, quod peccatum non est in semine, dicendum quod hoc dicit quantum ad existentiam actualem ipsius peccati, quod quidem est deformitas aspiciens ipsam voluntatem sicut subiectum proprium ; non autem vult negare quin ibi sit causa peccati, immo asserit, sicut patet ex verbis suis sequentibus.</p>
+          <p xml:id="bb-l2d31a2q1-d1e249">Ad illud <name ref="#Augustine">Augustini</name>, quod omne agens praestantius est patiente, dicendum quod intelligit de agente per influentiam ; per hunc autem modum in originalis contractione non dicimus carnem agere in animam, sicut praedictum est.</p>
+          <p xml:id="bb-l2d31a2q1-d1e255">Ad illud <name ref="#Aristotle">Philosophi</name>, quod agens et patiens debent communicare in materia, dicendum quod ipse intelligit de actione qua contrarium agit in contrarium per praedominantiam.</p>
+          <p xml:id="bb-l2d31a2q1-d1e261">Ad illud quod obicitur, quod multo spiritualior est anima quam radius, dicendum quod, etsi spiritualior, tamen magis est alligata carni quam radius aeri sive corpori illuminato ; ideo magis contrahit eius proprietates, sive passibilitatis sive foeditatis, quam radius contrahat proprietates illuminabilis.</p>
+          <p xml:id="bb-l2d31a2q1-d1e265">Ad illud quod obicitur, quod non est maior corruptio in effectu quam in causa, dicendum quod illud dupliciter fallit. Primo, quando aliquid non se habet in ratione perfectae causalitatis, sed solum ratione instrumenti et deferentis. Nam si velimus comparare corruptionem animae parvuli ad primam causam, videlicet animam Adae, reperiretur in Adam aeque magna vel maior.
+Deficit etiam ex hoc quod magnitudo corruptionis intenditur frequenter ex nobilitate et dignitate corruptibilis, quia tanto maius est vitium et corruptio peior, quanto natura praestantior, sicut <name ref="#Augustine">Augustinus</name> dicit ; et hinc est quod, quando anima corrumpitur a carne, maior est in ea corruptio quam in carne fuerit ; et hoc est ratione nobilitatis subiecti. .
+</p>
+
+          <p xml:id="bb-l2d31a2q1-d1e271">Ad illud quod, obicitur, quod poena non est causa culpae, dicendum quod verum est de illo quod est pure poena. Talis, autem corruptio vitiosa in Adam subsecuta est ex culpa, quia ex hoc quod peccavit, caro eius dissoluta est, non solum dissolutione ordinante ad mortem, sed etiam faciente rebellionem et faciente concupiscere quod non licet ; et ideo, quia talis vitiositas et a culpa est et ad culpam, potest quodam modo causare peccatum in anima. Hoc autem non facit aliquid ipsi animae impartiendo, sed potius rebellando, et ideo subtrahendo.</p>
+
+          <p xml:id="bb-l2d31a2q1-d1e274">Et hoc modo intellexit <name ref="#Lombard">Magister</name> animam infici a carne et traxit hoc ex verbis <name ref="#Augustine">Augustini</name> ; et his verbis consonant verba Anselmi. Non enim vult Anselmus dicere quod carentia debitae iustitiae praecedat necessitatem concupiscendi, cum e contrario sit ordine naturali ; eo enim ipso anima privatur illa iustitia quo necessitatem concupiscendi habet ex carne coniuncta ; sed hoc intelligit quantum ad actum concupiscendi. Similiter verba Hugonis non intelligenda sunt quod caro inficiat animam solum ratione passibilitatis, sed etiam ratione adiunctae foeditatis et vitiositatis, quam in semine esse manifestat ipsa corruptio, quae sentitur in actu generativae virtutis, et in membris illis residet principaliter, quamvis omnia alia ita sint passibilia sicut illa.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

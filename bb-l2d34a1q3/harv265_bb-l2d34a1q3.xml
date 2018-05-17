@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d34a1q3">
+        <head xml:id="bb-l2d34a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d34a1q3-Hd1e111" type="question-title">Utrum malum sit a bono secundum intentionem, vel praeter intentionem.</head>
+ 
+        <p xml:id="bb-l2d34a1q3-d1e114">Tertio quaeritur, utrum malum sit a bono secundum intentionem, vel praeter.</p> 
+        <div xml:id="bb-l2d34a1q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d34a1q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d34a1q3-d1e122">Et quod praeter intentionem, videtur : Primo per <name ref="#Dionysius">Dionysium</name>, in IV De divinis nominibus : <quote xml:id="bb-l2d34a1q3-Qd1e127">Malum est praeter intentionem, naturam et causam</quote>. Si praeter intentionem, habeo propositum.</p>
+          <p xml:id="bb-l2d34a1q3-d1e131">Item, <name ref="#Dionysius">Dionysius</name> : <quote xml:id="bb-l2d34a1q3-Qd1e136">Nemo operatur ad malum aspiciens</quote> ; sed qui operatur aliquid per intentionem, ad illud aspicit, quod intendit : nam intentio est quidam mentis intuitus. Si ergo nullus operans ad malum aspicit, videtur quod nullus malum intendit.</p>
+          <p xml:id="bb-l2d34a1q3-d1e140">Item, malum dicit deordinationem ad finem ; sed intentio dicit voluntatem ad finem directam : ergo malum non cadit sub intentione : ergo etc.</p>
+          <p xml:id="bb-l2d34a1q3-d1e143">Item, omne malum quod est in natura, est praeter intentionem naturae : ergo pari ratione omne malum quod est in moribus, est praeter intentionem voluntatis rationalis.</p>
+          <p xml:id="bb-l2d34a1q3-d1e147">Item, <quote xml:id="bb-l2d34a1q3-Qd1e149">bonum et finis idem</quote> ; sed intentio est respectu finis : ergo respectu boni : ergo non videtur quod sit respectu mali : ergo nullo modo malum ab operante per voluntatem intenditur ; redit igitur idem quod prius.</p>
+
+          <p xml:id="bb-l2d34a1q3-d1e153">Sed contra: Voluntas rationalis est agens per intentionem et deliberationem : ergo, si omne malum culpae actualis est voluntarium, omne est per intentionem factum.</p>
+          <p xml:id="bb-l2d34a1q3-d1e156">Item, nullus peccat nisi habens usum rationis ; et omnis talis est operans per intentionem : ergo peccatum, ut peccatum est, habet esse per intentionem.</p>
+          <p xml:id="bb-l2d34a1q3-d1e159">Item, quod fit ab agente voluntario praeter intentionem, fit a casu et fortuna ; sed malum culpae non est a casu et fortuna : ergo non est ab agente praeter intentionem.</p>
+          <p xml:id="bb-l2d34a1q3-d1e162">Item, nullus iudicatur malus a facto, sed ab intentione : haec enim est quae nomen imponit operi ; sed ab eo res proprie et principaliter procedit a quo recipit complementum et denominationem : ergo etc.</p>
+          <p xml:id="bb-l2d34a1q3-d1e165">Item, qui peccat ex malitia, peccat ex certa scientia, et nullus agens aliquid ex certa scientia et malitia agit illud praeter intentionem : ergo, si contingit sic malum facere, utpote cum peccatur peccato in Spiritum sanctum, videtur etc.</p>
+        </div>
+        <div xml:id="bb-l2d34a1q3-Dd1e169">
+          <head xml:id="bb-l2d34a1q3-Hd1e171">Conclusio</head>
+          <head xml:id="bb-l2d34a1q3-Hd1e174" type="question-title">Malum, sumtum pro eo quod est malum, 
+   potest intendi simpliciter; malum vero sub ratione mali non potest 
+   intendi, nisi quis id intendat 
+   saltem ut simul bonum sibi.</head>
+ 
+          <p xml:id="bb-l2d34a1q3-d1e177">Respondeo : Dicendum quod de malo est loqui dupliciter : aut de eo quod est malum aut de malo sub ratione mali.
+Cum ergo quaeritur, utrum fiat per intentionem vel praeter, dicendum quod, si intentio comparetur ad id quod est malum, sic bene contingit malum intendere et tamquam finem et tamquam id quod est ad finem : tamquam finem, sicut aliquis intendit finaliter luxuriari vel vane gloriari ; tamquam id quod est ad finem, sicut facere furtum intendit, ut inde possit vivere voluptuose, et intendit mentiri, ut possit falso laudari.</p>
+ 
+          <p xml:id="bb-l2d34a1q3-d1e180">Si vero intentio comparetur ad malum sub ratione mali, potest esse dupliciter : aut ita quod intendat hoc facere tamquam malum simpliciter et malum sibi ; et hoc modo nullus intendit, quia nihil appetitur a vuluntate nisi sub ratione boni simpliciter vel boni sibi. Aut ita quod intendat hoc tamquam malum simpliciter, verumtamen ut bonum sibi ; et sic malum potest fieri per intentionem et fit aliquando, licet non ab omnibus, sed a malitiosis, quibus propter corruptionem palati interioris male sapiunt ut bona.
+Quoniam igitur id quod est malum, cadit sub intentione, et aliqua sunt quae habent malitiam coniunctam inseparabiliter, et qui intendit aliquid, per consequens iudicatur intendere quod est illi unitum inseparabiliter, hinc est quod malum iudicatur et punitur ut factum per intentionem.</p>
+ 
+          <p xml:id="bb-l2d34a1q3-d1e183">Ex his patet responsio ad quaestionem, ad quam respondendum est non simpliciter, sed distinguendo. Patet etiam responsio ad rationes ad utramque partem adductas.
+
+Nam primae rationes procedunt de intentione et de malo sub ratione mali. Nam intentio, quidquid principaliter considerat, induit ipsum ratione boni et appetibilis.
+Illa tamen ratio de simili in natura non valet, quia natura est agens determinatum ; unde semper intendit quod melius est, operatur autem secundum leges sibi inditas a Deo. Unde, si quid fit ibi malum, hoc est praeter intentionem ; non sic autem est de voluntate deliberativa : ipsa enim non semper desiderat quod melius est.
+</p>
+        </div>
+        <div xml:id="bb-l2d34a1q3-Dd1e188">
+          <head xml:id="bb-l2d34a1q3-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-l2d34a1q3-eraoir">1-5. Ad rationes ad oppositum patet responsio. Loquuntur enim de malo secundum id quod est ; et sic bene intenditur ab agente per voluntatem, verumtamen vel in quantum consideratur ut habens intentionem boni simpliciter vel boni ut nun sive boni ipsi facienti, sicut est in illis qui lateantur, cum malefecerint. Et sic procedunt omnes illae rationes.</p>
+  </div>
+      </div>
+    </body>
+  </text>
+</TEI>

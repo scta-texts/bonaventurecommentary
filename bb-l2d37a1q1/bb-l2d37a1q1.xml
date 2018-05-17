@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37a1q1">
+        <head xml:id="bb-l2d37a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d37a1q1-Hd1e111" type="question-title">Utrum a Deo sit omnis actio, secundum quod actio</head>
+ 
+        <p xml:id="bb-l2d37a1q1-d1e114">Circa primum sic proceditur et quaeritur, ufrum omnis actio, secundum quod actio, sit a Deo.</p>
+        <div xml:id="bb-l2d37a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d37a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d37a1q1-d1e122">Et quod sic, videtur : Ioannis 15, 5 : <quote xml:id="bb-l2d37a1q1-Qd1e124" ana="#io15_5">Sine me nihil potestis facere</quote> ; sed omnis actio aliquo modo est ens, sive sit actio peccati sive alia : ergo etc. Si tu dicas quod illud intelligitur de actione bona, contra : Isaiae 10, 15 : <quote xml:id="bb-l2d37a1q1-Qd1e127" ana="#is10_15">Numquid elevabitur secaris contra eum qui secat in ea</quote>, Glossa : <quote xml:id="bb-l2d37a1q1-Qd1e130">Sicut instrumenta nihil sunt per se agentia, ita Sennacherib nihil per se operatus est</quote>, Si ergo actio Sennacherib mala erat et crudelis, et Sennacherib in illa actione erat instrumentum Dei, videtur ergo quod omnis mala actio sit ab ipso tamquam a primo principio.</p>
+          <p xml:id="bb-l2d37a1q1-d1e134">Item, quae sunt eiusdem generis, habent eadem principia prima ; sed dare eleemosynam propter Deum et dare eleemosynam propter vanam gloriam eiusdem generis actiones sunt in genere naturae. Si ergo actio ista, qua quis dat eleemosynam propter Deum, est a Deo, videtur quod et actio illa, qua quis dat eleemosynam causa inanis gloriae, sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q1-d1e137">Item, operatio miraculorum est a solo Deo ; sed aliquis in faciendo miracula peccat, quia facit propter vanam gloriam : ergo videtur quod aliqua actio, substrata deformitati culpae, sit a Deo : ergo pari ratione et omnis alia.</p>
+          <p xml:id="bb-l2d37a1q1-d1e140">Item, omnis scientia a Domino Deo est ; sed aliquis addiscit propter avaritiam : ergo, cum addiscere non possit nisi Deo coadiuvante et cooperante, et illud addiscere sit peccatum, actio substrata peccato comparatur ad Deum sicut ad principium.</p>
+          <p xml:id="bb-l2d37a1q1-d1e144">Item, aliquis adulterando generat prolem ; quaero igitur, utrum illa actio sive coitus ille sit a Deo vel non. Si est a Deo, habeo propositum. Si non est a Deo, ergo proles genita non est a Deo. Si igitur hoc est impossibile ponere, quod aliquis homo sit qui non sit a Deo, ergo et illud ex quo sequitur, videlicet quod actio substrata peccato non sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q1-d1e147">Item, actio, quae substernitur peccato, non omnino nihil est, sicut manifeste apparet. Si igitur aliquo modo est ens, quaero, a quo sit. Si est a potentia creaturae, necesse est quod sit ab ea secundum id quod habet de entitate : illud ergo, secundum quod actio est ab illa potentia, aut est a Deo aut non. Si est a Deo, cum omne illud, quod est causa causae sit causa causati, per se intelligendo - videlicet, si medium causatum est causa postremi, secundum id quod habet a primo - tunc sequitur necessario quod talis actio sit a Deo. Si vero non est a Deo, tunc quaero : aut est a se aut ab alio. Si ab alio, tunc quaero similiter de ilio alio : aut est a se aut ab alio : ergo vel erit abire in infinitum vel erit ponere quod creatura aliquid habeat a se ipsa vel quod habeat ab alio quam a Deo, quod sit primum principium, in quo sit status. Sed haec omnia sunt impossibilia, et sequuntur ex hoc quod ponitur aliqua actio non esse a Deo : ergo etc.</p>
+
+ 
+          <p xml:id="bb-l2d37a1q1-d1e150">Sed contra : Deus non facit contra suam prohibitionem, quia tunc sibi ipsi contrarius esset ; sed Deus prohibet aliquam actionem, secundum quod actio est, sicut prohibuit Adae non comedere de pomo : ergo videtur quod illa comestio Adae non fuerit a Deo. Quod autem illa actio prohibita fuerit secundum quod actio, apparet quia comedere de pomo illo de se erat bonum et nulla erat in eo deformitas nisi postquam fuit prohibitum.</p>
+          <p xml:id="bb-l2d37a1q1-d1e153">Item, omnis actio, quae est a bona voluntate, ut est operans per caritatem, est bona bonitate perfecta in genere moris ; sed omnis actio, quae egreditur a Deo, egreditur a voluntate optima, in qua est summa caritas : ergo omnis actio, cuius Deus principium est, est bona bonitate moris. Sed actio substrata peccato non est bona bonitate moris : ergo non est a Deo.</p>
+          <p xml:id="bb-l2d37a1q1-d1e156">Item, omnia quaecumque Deus facit, facit bono fine : universa enim operatur propter se, omne autem, quod fit bono fine, simpliciter bonum est ; actio autem substrata peccato non est simpliciter bona : ergo non potest esse a Deo tamquam a causa.</p>
+          <p xml:id="bb-l2d37a1q1-d1e159">Item, quandocumque operans continuatur regulae in operando, recte operatur et bene ; sed regula liberi arbitrii est ipsa rectitudo voluntatis divinae : ergo in omni operatione, in qua Deus cooperatur libero arbitrio, cum fit continuatio operantis ad regulam, est rectitudo. Si igitur in aliqua operatione per totum est obliquatio, videtur quod cooperatio eius non sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q1-d1e163">Item, si operatio, quae est subiecta peccato, est a Deo et a libero arbitrio, aut tota est a Deo et tota a libero arbitrio aut pars a Deo et pars a libero arbitrio. Si tota a Deo et tota a libero arbitrio, ergo videtur quod tota sit simul et bona et mala ; quod est omnino impossibile. Si pars a Deo et pars a libero arbitrio, sed qua ratione ponitur una pars esse a libero arbitrio, eadem ratione potest poni et altera : et sic videtur quod tota operatio ita sit a libero arbitrio quod non sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q1-d1e166">Item, si Deus cooperatur libero arbitrio in actione quae est substrata peccato, aut igitur liberum arbitrium movet principalius quam Deus aut e converso. Constat quod liberum arbitrium in nulla operatione neque principalius neque aeque principaliter potest movere sicut Deus, cum Deus tam in movendo quam in causando, cuiuscumque dicatur esse sive causa sive motor, principalissimus intelligatur. Si ergo Deus movet principalius, ergo, si motor principalis excitat et movet motorem non principalem, videtur quod in operatione culpabili liberum arbitrium excitetur a Deo : ergo, cum adulter luxuriatur et latro furatur, ad tales actiones a Deo excitantur ; quod omnino est absurdum.</p>
+        </div>
+        <div xml:id="bb-l2d37a1q1-Dd1e170">
+          <head xml:id="bb-l2d37a1q1-Hd1e172">Conclusio</head>
+          <head xml:id="bb-l2d37a1q1-Hd1e175" type="question-title">Omnis actio, sive substrata peccato sive non, quatenus est actio, est a Deo</head>
+ 
+          <p xml:id="bb-l2d37a1q1-d1e178">Respondeo : Dicendum quod, sicut <name ref="#Lombard">Magister</name> dicit in littera, circa istam quaestionem fuerunt diversae positiones adeo magnorum virorum et adeo rationabiles ut nec <name ref="#Lombard">Magister</name> ausus fuerit definire quae earum magis contineat veritatem. Attamen, quia per multam discussionem dubia ducuntur ad manifestationem, nunc communiter tenetur quod illa opinio verior sit quae dicit quod omnis actio, sive substrata peccato sive non, secundum id quod est actio, est a Deo.
+Nec immerito, quia istud oportet ponere, si pensetur eminentia divinae potentiae et indigentia potentiae creaturae.</p>
+ 
+          <p xml:id="bb-l2d37a1q1-d1e187">Quia enim Deus est causa primordialissima, ideo est influentiae maximae in causas secundas, et adeo magnae influentiae ut nec modicum seu quantumcumque parvum, dum tamen aliquo modo sit ens, procedat ab aliqua causa creata nisi cooperante divina omnipotentia.
+Omnis etiam potentia creata, quantum est de se, defectiva est nec est pure activa. Ergo quantumcumque faciat modicam operationem, necesse habet adiuvari ab ea potentia quae est actus purus propter omnimodam imperrnixtionem cum materia et quae sola sibi sufficit, nullo modo indigens iuvari a causa alia.</p>
+ 
+          <p xml:id="bb-l2d37a1q1-d1e190">Et ideo haec positio, quae dicit omnem actionem esse a Deo, secundum quod actio est, absque omni ambiguitate tenenda est. Unde Anselmus, in libro De concordia praedestinationis et praescientiae : <quote xml:id="bb-l2d37a1q1-Qd1e192">Omnis qualitas et omnis actio et quidquid habet aliquam essentiam a Deo est, a quod est omnis iustitia et nulla iniustitia. Facit igitur Deus omnia quae iusta vel inlusta voluntate fiunt, id est bona opera et mala. In bonis quidem facit quod sunt et quod bona sunt ; in malis vero facit quod sunt, sed non quod mala sunt</quote>. Et iterum ibidem : <quote xml:id="bb-l2d37a1q1-Qd1e195">Omnes actiones et omnes motus facit Deus, quia ipse facit res, a quibus et ex quibus et per quas et in quibus fiunt ; et nulla res habet ullam potentiam volendi aut faciendi nisi illo dante ; ipsum quoque velle, quod aliquando iustum est, aliquando iniustum, a Deo est</quote>. <quote xml:id="bb-l2d37a1q1-Qd1e198">Non esse vero rectum non est quid nec a Deo est</quote>.
+Concedendae sunt igitur rationes ad primam partem inductae.</p>
+        </div>
+        <div xml:id="bb-l2d37a1q1-Dd1e204">
+          <head xml:id="bb-l2d37a1q1-Hd1e206">Ad rationes</head>
+          <p xml:id="bb-l2d37a1q1-d1e209">Ad illud vero quod obicitur, quod Deus non facit contra suam prohibitionem, dicendum quod verum est. Sed Deus, cum prohibet aliquam actionem, non prohibet sibi, sed alii ; nec prohibet suam cooperationem, quam non subtrahit creaturae, sed ipsi creaturae prohibet operationem ; et ideo, diim cooperatur ei, non facit contra suam prohibitionem. Et si tu obicias mihi quod nihilominus actio prohibita a Deo est a Deo, dicendum quod in actione prohibita est duo considerare : et quod est actio et quod est prohibita ; ab eo autem fit secundum quod est actio, non autem secundum quod prohibita ; et ideo non sequitur quod contra se ipsum faciat.</p>
+          <p xml:id="bb-l2d37a1q1-d1e212">Ad illud quod obicitur, quod omnis actio, quae est a voluntate bona, est bona, dicendum quod illud veritatem habet in voluntate creata, sed non oportet quod veritatem habeat in voluntate increata, loquendo de bonitate moris. Et ratio huius est ista : quia, cum aliqua actio est a bona voluntate creata, cum voluntas increata, quae ei cooperatur, absque dubio bona sit, simpliciter actio illa bona est, quia tota eius causa est bona. Sed, cum voluntas increata est bona, quae cooperatur voluntati creatae, voluntas creata potest esse deordinata, et ratione illius potest venire defectus circa operationem illam. Unde sicut videmus quod in aliqua operatione, quae est a Deo et a virtute creata, ex defectu virtutis creatae totaliter deficit operatio illa, sic etiam ex deordinatione voluntatis creatae contingit depravari illam actionem.
+Aliter posset dici quod operatio dicitur dupliciter. Uno modo dicitur operatio opus operans, alio modo opus operatum. Et cum dicitur : si voluntas est bona, opus est bonum, hoc intelligendum est de opere operante, quod scilicet est actus ipsius voluntatis, ut velle ; et sic non habet instantiam in Deo, quia velle Dei Deus est et actio Dei Deus est, isto modo. Si autem dicatur operatio ipsum opus operatum, sic non sequitur quod tale opus sit bonum bonitate completa sive meritoria, sed sufficit quod sit bonum bonitate naturae, sicut patet. Opera, quae procedunt a voluntate Dei, bona sunt bonitate naturae, et hanc bonitatem habet actio quae substrata est malitiae.</p>
+
+          <p xml:id="bb-l2d37a1q1-d1e215">Ad illud vero quod obicitur, quod Deus facit omnia propter se, dicendum quod verum est ; et concedendum est etiam quod actionem malitiae substratam propter se facit : propter se enim cooperatur creaturae. Cum autem dicitur quod operatio, quae fit propter Deum, est bona bonitate moris, hoc intelligitur de operatione rationalis creaturae. Nam de Deo intelligi non potest, pro eo quod Deus non tantum cooperatur creaturae rationali, sed etiam irrationali ; illa tamen operatio non dicitur esse bona bonitate moris.</p>
+          <p xml:id="bb-l2d37a1q1-d1e218">Ad illud quod obicitur, quod quando agens creatum continuatur regulae dirigenti, non errat, dicendum quod verum est, si simpliciter continuetur ei. Tunc autem continuatur el simpliciter, quando continuatur et quantum ad operationem et quantum ad circumstantias. Cum vero exit in operationem circumstantiis debitis privatam, in hoc quod exit in operationem, ei continuatur, sed in hoc quod privat eam debitis circumstantiis, deficit et ab ea discontinuatur ; et ita dlscontinuatur, non agendo, sed deficiendo, et deficiendo est principium mali ; et in hoc quod deficit a Deo recedit, quia defectus ille a Deo non est. Quamvis enim Deus cooperetur operanti, non tamen deficit cum deficiente.</p>
+          <p xml:id="bb-l2d37a1q1-d1e222">Ad illud quod quaeritur : aut tota operatio est a Deo etc., dicendum quod tota est a Deo et tota a libero arbitrio. Non enim est intelligendum quod Deus cooperetur libero arbitrio, sicut cum duo ferunt lapidem, unus cooperatur alteri, sed quia Deus est intime agens in omni actione et intimus est ipsi potentiae operanti, ita quod potentia ipsa in nihil exit quod non sit ab ipso.
+Et si obiciat quod eadem actio erit tota bona et tota mala, dicendum quod Deus illi actioni non dat nisi bonitatem naturae; liberum autem arbitrium non privat eam bonitate naturae, sed bonitate moris. Et ista duo non habent oppositionem, videlicet, quod aliquid habeat bonitatem naturae et privatum sit bonitate moris.
+</p>
+
+          <p xml:id="bb-l2d37a1q1-d1e225">Ad illud quod obicitur, quod Deus est principale movens in tali actione, dicendum quod verum est ; attamen non sequitur ex hoc quod excitet liberum arbitrium ad faciendam illam operationem. Excitatio enim dicit aliquem effectum gratiae praevenientem ipsam voluntatem. Hoc autem requiritur in bonis meritoriis ; in aliis vero operibus indifferentibus vel etiam malis non est nisi sola cooperatio divinae virtutis, quae existens in creatura potentialiter, essentialiter et praesentialiter, sicut conservat eam in essendo, sic adiuvat in operando ; propter quod conceditur ibi esse cooperatio, non tamen praeventio vel subsecutio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

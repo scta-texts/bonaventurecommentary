@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31a1q2">
+        <head xml:id="bb-l2d31a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d31a1q2-Hd1e111" type="question-title">Ratione cuius partis primo insit animae peccatum originale.</head>
+ 
+        <p xml:id="bb-l2d31a1q2-d1e114">Secundo quaeritur, ratione cuius partis primo insit animae peccatum originale.</p> 
+        <div xml:id="bb-l2d31a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d31a1q2-Hd1e119" type="question-title">Rationes principales</head>
+          <!-- https://archive.org/stream/doctorisseraphic02bona#page/742/mode/2up -->
+          <p xml:id="bb-l2d31a1q2-d1e124">Et quod primo insit ratione potentiae vegetativae, videtur : Quia originale inest animae ex coniunctione sui ad carnem corruptam ; sed anima maxime unitur carni secundum potentiam vegetativam, quae est prima potentia in ipsa : ergo videtur quod primo insit ei ratione potentiae vegetabilis.</p>
+          <p xml:id="bb-l2d31a1q2-d1e127">Item, hoc videtur alia ratione. Potentia generativa est ipsius animae vegetabilis ; sed illa est mediante qua originale transfunditur et quae maxime per originale peccatum inficitur, sicut patebit inferius ; ergo videtur quod ratione vegetabilis primo et principaliter insit animae culpa originalis.</p>
+
+          <p xml:id="bb-l2d31a1q2-d1e130">Quod autem ratione partis sensibilis, videtur. Originale enim, sicut dicit <name ref="#Augustine">Augustinus</name>, est concupiscentia ; sed concupiscentia primo et principaliter in parte sensibili radicatur, quoniam concupiscentia dicit appetitum boni ut nunc, praevia cognitione, et hoc competit parti sensitivae : ergo videtur quod originale peccatum primo habeat fieri in anima secundum illam partem.</p>
+          <p xml:id="bb-l2d31a1q2-d1e137">Item, in actuali perpetratione peccati videmus quod peccatum pervenit ad rationem mediante sensualitate, pro eo quod perversio hominis incipit ab Inferiori et a conversione ad bonum commutabile. Ergo, si peccatum originale incipit ab inferiori, videlicet a carnis infectione, et animam ab inferiori habet inficere, videtur quod primo habeat animae inesse ratione potentiae sensitivae.</p>
+
+          <p xml:id="bb-l2d31a1q2-d1e140">Quod autem primo insit ratione partis rationalis, videtur. <quote xml:id="bb-l2d31a1q2-Qd1e142">Originale enim est carentia debitae iustitiae</quote> ; sed <quote xml:id="bb-l2d31a1q2-Qd1e145">iustitia habet esse in sola rationali voluntate primo et principaliter</quote>, sicut dicit Anselmus, in libro De conceptu virginali. Ergo originale peccatum primo et principaliter ratione partis rationalis habet animae inesse.</p>
+          <p xml:id="bb-l2d31a1q2-d1e149">Item, originale peccatum est peccatum mortale : ergo per ipsum anima est a Deo aversa ; sed averti est ipsius portionis rationalis primo et principaliter : ergo videtur quod originale peccatum primo habeat inesse animae ratione rationalis potentiae.</p>
+
+          <p xml:id="bb-l2d31a1q2-d1e152">Sed quod primo insit ipsi animae ratione suae substantiae vel essentiae, videtur : Quia originale contrahitur in anima ex unione ipsius ad carnem ; sed per prius per naturam unitur substantia animae ipsi corpori quam potentiae organis ; prius enim est vivere quam moveri : ergo prius per naturam inficitur animae substantia quam inficiantur potentiae.
+Ut si hoc verum est, originale primo inest animae ex parte suae substantiae.</p>
+
+          <p xml:id="bb-l2d31a1q2-d1e155">Item, originale, cum sit unum, inficit omnes potentias animae ; sed nihil unum est commune omnibus potentiis animae nisi eius substantia : ergo originale primo est in anima ratione suae substantiae.
+Est igitur quaestio, secundum quid originale primo insit animae : utrum scilicet ratione substantiae aut potentiae ; et si potentiae, utrum vegetativae aut sensitivae aut intellectivae.
+</p>
+        </div>
+        <div xml:id="bb-l2d31a1q2-Dd1e159">
+          <head xml:id="bb-l2d31a1q2-Hd1e161">Conclusio</head>
+          <head xml:id="bb-l2d31a1q2-Hd1e164" type="question-title">Originale peccatum, prout est vitium, 
+    inest animae primo ratione partis sensitivae, sed prout est 
+    culpa, est in sola parte rationali</head>
+ 
+          <p xml:id="bb-l2d31a1q2-d1e167">Respondeo : Ad praedictorum intelHgentiam est notandum quod aliqui dicere voluerunt originale peccatum sic traduci et contrahi ab anima ut primo insit animae ratione substantiae suae, quae primo carni coniungitur, et consequenter mediante substantia ab ipso potentiae inficiuntur, pro eo quod non uniuntur potentiae carni infectae nisi per unionem substantiae. Et sicut una est gratia, quae reformat animam et eius potentias, quae, inquam, dicitur una, quia primo respicit animae substantiam, ut dicunt, sic est imum originale, quod omnes potentias animae inficit et deordinat.
+Sed si istud quis ita intelligeret quod per originale peccatum primo haberet infici substantia quam potentiae, ita quod originale insit animae non ratione potentiae, sed ratione ipsius substantiae unitae, hoc non videlur intelligibile : tum quia originale est carentia debitae iustitiae, iustitia autem, cum sit rectitudo voluntatis, est primo in voluntate ; tum etiam quia originale est concupiscentia, concupiscere autem non est actus substantiae nisi ratione potentiae ; tum etiam quia in originali est deordinatio ipsius animae, deordinatio autem non est in anima nisi ratione potentiae, quia per ipsam potest ordinari et deordinari.</p>
+          <p xml:id="bb-l2d31a1q2-d1e170">Unde, sicut supra dictum fuit de gratia, quod ipsa respicit substantiam, non quia possit esse in animae substantia, circumscripta potentia, sed quia est in potentiis animae, secundum quod continuantur ad unam substantiam ; sic etiam in proposito intelligendum est, ut originale peccatum dicatur substantiam animae respicere, quia inest potentiis animae, non ex actibus propriis, sed prout continuari habent in unam substantiam animae, prout est unita carni infectae, ita tamen quod primo insit ipsa deordinatio potentiae quam substantiae. Non enim dicitur substantia ordinata vel deordinata nisi ratione potentiae.</p>
+ 
+          <p xml:id="bb-l2d31a1q2-d1e173">Hoc igitur supposito, quod originale insit animae primo ratione potentiae, intelligendum est quod dupliciter est loqui de originali peccato : aut prout est culpa reddens animam Deo odiosam aut prout est vitium deordinans ipsam potentiam. Primo modo accipiendo, proprie inest animae secundum liberum arbitrium, et maxime secundum voluntatem. Ipsum enim solum est secundum quod anima culpatur vel laudatur, cum est in actu, et secundum quod est culpabilis vel laudabilis a suo ortu. Secundo modo accipiendo, scilicet prout dicit vitium deordinans potentiam, sic, quia fomentum istius deordinationis ortum habet a carne et rationalis motiva curvari habet per appetitum sive concupiscentiam sensitivae, quae ad illicitum impellit et movet, sic dicendum est quod peccatum originale sive vitium, quod nascendo contrahimus, inest animae primo ratione partis sensitivae.
+Et sic patet responsio ad quaestionem propositam ; patet etiam in parte responsio ad obiecta. Concedo enim quod originale, prout est vitium in nobis, primo inchoat a parte sensitiva, quia modus corrumpendi e contrario est in nobis quam fuerit in Adam. Ibi enim persona corrupit naturam et ratio partem sensibilem et voluntas carnem ; et sic, cum e contrario sit in nobis, originalis corruptio ascendit ad partem rationalem mediante portione sensibili secundum quod est vitiositas, licet, secundum quod est culpa, habeat esse in sola parte rationali, in qua est libertas arbitrii. Unde quatuor rationes mediae verum concludunt et concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d31a1q2-Dd1e178">
+          <head xml:id="bb-l2d31a1q2-Hd1e180">Ad rationes</head>
+
+          <p xml:id="bb-l2d31a1q2-d1e183">Ad illud vero quod primo obicitur de parte animae vegetativa, dicendum quod unio ad corpus non est tota causa contrahendi originale, sed unio cum possibilitate ad deordinationem. Non enim corrumpitur per originale secundum quod est vitium, nisi quod est ad iustitiam aliquo modo ordinabile. Et quoniam vegetativa plus tenet modum agendi naturalem quam voluntarium, hinc est quod originale non sic respicit vegetativam sicut respicit sensitivam, in qua potest esse appetitus et delectatio coniuncta.</p>
+          <p xml:id="bb-l2d31a1q2-d1e186">Ad illud vero quod obicitur de vi generativa, iam patet responsio, quia in ea viget corruptio, non solum quia sit potentia animae vegetabilis, sed etiam quia ratione sensus adiuncti potest delectatione et concupiscentia deordinari.</p>
+          <p xml:id="bb-l2d31a1q2-d1e189">Ad illud vero quod ultimo obicitur, quod primo sit originale peccatum in animae substantia, et per unionem, dicendum quod, sicut tactum est, unio non est tota causa, sed requiritur ibi cum hoc possibilitas ad deordinationem peccati ; talis autem non est in substantia, sed in potentia, ut praedictum est supra .</p>
+          <p xml:id="bb-l2d31a1q2-d1e192">Ad illud vero quod obicitur de unitate originalis, dicendum quod hoc non concludit quod originale primo sit in substantia, sed quod sit in potentiis, secundum quod continuantur ad unam substantiam, sicut prius explanatum est de gratia. Hoc autem melius explanabitur infra, cum agetur de unitate originalis peccati.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

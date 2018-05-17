@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d42a3q2">
+        <head xml:id="bb-l2d42a3q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d42a3q2-Hd1e111" type="question-title">Utrum peccatum habeat dividi per aversionem et conversionem tamquam per diversas peccatorum differentias.</head>
+        <p xml:id="bb-l2d42a3q2-d1e114">Secundo quaeritur, utrum peccatum habeat dividi per aversionem et conversionem tamquam per diversas peccatorum differentias sive diversa peccata.</p> 
+        <div xml:id="bb-l2d42a3q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d42a3q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d42a3q2-d1e122">Et quod sic, videtur : Ieremiae 2, 13 : <quote xml:id="bb-l2d42a3q2-Qd1e124" ana="#ier2_13">Duo mala fecit populus meus : me dereliquerunt, fontem aquae vitae</quote> Ergo derelinquere Deum et adhaerere creaturae sunt duo mala, ergo sunt duo peccata.</p>
+          <p xml:id="bb-l2d42a3q2-d1e128">Item, aversio est per contemptum, conversio autem per cupiditatem. Si ergo cupiditas et contemptus sunt diversa peccatorum genera, videtur quod aversio et conversio faciat peccata diversa.</p>
+          <p xml:id="bb-l2d42a3q2-d1e131">Item, in bonis sic est quod alius est habitus quo quis declinat a malo et alius quo facit bonum ; similiter et alius actus, sicut patet in timore et amore. Ergo, si multo maior est diversificatio ex parte malorum quam ex parte bonorum, multo fortius videtur quod aliud sit peccatum quo quis avertitur a Deo et aliud quo convertitur ad commutabile bonum.</p>
+          <p xml:id="bb-l2d42a3q2-d1e134">Item, aliud est praeceptum quo praecipitur facere bonum et aliud quo praecipitur declinare a malo ; sed aversio est contra illud praeceptum quo quis praecipitur facere bonum, utpote Deo adhaerere et ad ipsum converti ; conversio vero est contra illud praeceptum quo praecipitur declinare a malo : ergo, si diversa sunt praecepta, quibus opponuntur conversio et aversio, ergo sunt diversa peccata.</p>
+          <p xml:id="bb-l2d42a3q2-d1e138">Item, plus convenit aversio cum alia aversione quam aversio cum conversione ; sed aversio cum alia aversione facit diversa peccata : ergo multo fortius conversio cum aversione diversa faciet peccata.</p>
+
+ 
+          <p xml:id="bb-l2d42a3q2-d1e141">Sed contra : Super illud Ecclesiastici 10, 15 : <quote xml:id="bb-l2d42a3q2-Qd1e143" ana="#sir10_15">Initium omnis peccati superbia</quote>, Glossa : <quote xml:id="bb-l2d42a3q2-Qd1e146">Caveamus superbiam et cupiditatem, non tamquam duo mala, sed unum, a quo omnia oriuntur</quote> . Ergo si superbia facit averti et cupiditas converti, videtur quod penes aversionem et conversionem non attendantur duo peccata, sed unum.</p>
+          <p xml:id="bb-l2d42a3q2-d1e150">Item, <name ref="#Augustine">Augustinus</name>, Contra Pelagium : Peccatum non est appetitus rerum malarum, sed desertio meliorum. Ergo nunquam conversio facit peccatum completum nisi adsit aversio : si ergo aversio concurrit ad omne peccatum, videtur quod penes illam non sumatur differentia peccati.</p>
+          <p xml:id="bb-l2d42a3q2-d1e156">Item, omne peccatum mortale est voluntarium ; sed non est voluntarium nisi ratione conversionis ad commutabile bonum : ergo conversio concurrit ad omne peccatum : ergo conversio non potest esse peccati differentia.</p>
+          <p xml:id="bb-l2d42a3q2-d1e159">Item, recessus a termino a quo et accessus ad terminum ad quem non facit diversos motus nec diversos actus ; sed aversio dicit recessum a termino a quo, conversio accessum ad terminum ad quem : ergo non faciunt diversum actum vel motum. Sed ab unitate actus est peccatum unum : ergo non faciunt diversa peccata.</p>
+          <p xml:id="bb-l2d42a3q2-d1e162">Item, in peccato aversio est formalis respectu conversionis ; sed formale non ponit in numerum cum suo materiali : ergo nec aversio ponit in numerum cum conversione : ergo conversio et aversio non faciunt diversa peccata.</p>
+        </div>
+        <div xml:id="bb-l2d42a3q2-Dd1e166">
+          <head xml:id="bb-l2d42a3q2-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d42a3q2-Hd1e171" type="question-title">Aversio et conversio non faciunt duo peccata, nisi 
+    prout aversio dicit actum distinctum a conversione</head>
+ 
+          <p xml:id="bb-l2d42a3q2-d1e174">Respondeo : Dicendum quod aversio dupliciter accipitur : uno modo, prout dicit deordinationem circa actum conversionis ; alio modo, prout dicit actum a conversione distinctum. Primo modo conversio non ponit in numerum cum aversione nec facit diversa peccata, immo illa duo essentialiter clauduntur in omni peccato mortali.
+Nam conversio non est culpa nisi quia inordinata ; non est autem inordinata nisi quia avertitur homo a Deo, cui deberet inhaerere tamquam fini ultimo ; et haec aversio est in peccato, in cuius perpetratione peccator nihil cogitat de Deo.
+Secundo modo, scilicet prout aversio dicit actum distinctum contra conversionem, sic constituit diversum peccati genus. Hoc enim modo averti est odio habere vel invidere, sicut supra dixit <name ref="#Lombard">Magister</name>, distinctione quinta ; et constat quod aliud genus peccati est odire Deum, et aliud amare commutabile bonum. Et quoniam ut plurimum aversio in peccato accipitur prout dicit deordinationem a Deo tamquam a fine quam prout dicit motum inordinatum contra Deum, hinc est quod conversio et aversio potius comparantur ad peccatum sicut differentiae constituentes quam sicut differentiae dividentes.
+Et ideo concedendum quod hoc modo aversio et conversio non faciunt diversa peccata ; et rationes, quae hoc ostendunt, concedendae sunt, quia ista via procedunt.
+</p>
+        </div>
+        <div xml:id="bb-l2d42a3q2-Dd1e182">
+          <head xml:id="bb-l2d42a3q2-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-l2d42a3q2-d1e187">Ad illud quod primo oblcitur de Ieremia : Duo mala fecit populus meus, responderi potest quod derelictio non tantum dicitur ibi pro deordinatione, quae est coniuncta conversioni, sed etiam pro omissione mandatorum Dei ; et tunc distinguuntur illa duo mala, non sicut aversio et conversio, sed sicut omissio et commissio.
+Vel dicendum quod duo mala dicuntur, non quia sint duo peccata, sed quia sunt duae diversae malae radices, concurrentes ad completionem unius peccati, sicut dicit Glossa praehabita super, Ecclesiastici.
+    </p>
+
+          <p xml:id="bb-l2d42a3q2-d1e190">Ad illud quod obicitur, quod aversio est per contemptum et conversio per cupiditatem, iam patet responsio ; loquitur enim de conversione et aversione pro diverso actu et motu. Quod si aliter intelligat, ut accipiatur contemptus et cupiditas large, prout concurrit ad unum peccatum, sic non sunt duo mala, sed unum.</p>
+          <p xml:id="bb-l2d42a3q2-d1e193">Ad illud quod obicitur, quod alius est habitus, quo quis declinat a malo et quo quis facit bonum, dicendum quod declinare a malo dicitur dupliciter, sicut dictum est de aversione. Prout enim declinare a malo dicit actum detestationis et fugae respectu mali, dicit diversum actum et motum ab eo quod est facere bonum. Prout autem dicit recessum a malo, sic non dicit diversum actum et habitum, quia eodem motu et habitu, quo quis accedit ad bonum, elongatur a malo.</p>
+          <p xml:id="bb-l2d42a3q2-d1e196">Ad illud quod obicitur, quod alii praecepto opponitur conversio et alii aversio, dicendum quod falsum est. Nam aversio et conversio non sunt contra diversa praecepta, sed concurrunt ad idem peccatum, quod est tam contra praeceptum affirmativum quam contra praeceptum negativum, nisi forte accipiatur aversio prout nominat actum vel motum contra Deum.</p>
+          <p xml:id="bb-l2d42a3q2-d1e200">Ad illud quod obicitur, quod plus convenit aversio cum aversione etc., dicendum quod verum est convenientia formali, quae est in hoc quod assignatur in aliquo tamquam in uno communi ; sed non est verum de convenientia ordinis, quae concurrit ad constitutionem unius tertii. Non enim unum peccatum constituitur ex pluribus aversionibus, sicut ex aversione et conversione simul concurrentibus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

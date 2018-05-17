@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d34dubia">
+        <head xml:id="bb-l2d34dubia-Hd1e108">Dubia</head>
+        <div xml:id="bb-l2d34dubia-Dd1e111">
+          <head xml:id="bb-l2d34dubia-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-l2d34dubia-d1e116">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de hoc quod dicit, quod mala voluntas angeli vel hominis causa est malorum subsequendum. Sed contra : <name ref="#Augustine">Augustinus</name>, in libro Quaestionum, dicit quod nullo alio auctore potest homo fieri deterior. Ergo mala voluntas angeli vel hominis non potest malas voluntates in aliis causare.
+Item, si omne malum debet imputari ei qui est causa prima, et mala voluntas angeli vel hominis est causa omnium malorum, ergo omnia mala sunt eis imputanda.</p>
+          <p xml:id="bb-l2d34dubia-d1e122">Respondeo : Dicendum quod est causa vere efficiens et producens et est causa quodam modo disponens et inducens. Cum ergo dicitur quod mala voluntas angeli vel hominis est causa malarum voluntatum subsequendum, dicitur per quamdam dispositionem et inductionem. Diabolus enim inducit et disponit suggerendo, homo vero corrumpendo naturam et malum exemplum praebendo. Cum autem dicit <name ref="#Augustine">Augustinus</name> quod nullo auctore fit homo deterior, hoc intelligitur tamquam auctore principali.
+Posset tamen dici quod littera ista intelligitur de malis subsequentibus primam malam voluntatem hominis et angeli, non respectu diversarum personarum, sed respectu eiusdem, ita quod prima mala voluntas eius est causa omnium malorum quae ipse facit.</p>
+        </div>
+        <div xml:id="bb-l2d34dubia-Dd1e129">
+          <head xml:id="bb-l2d34dubia-Hd1e131">Dub. II.</head>
+          <p xml:id="bb-l2d34dubia-d1e134">Item quaeritur de hoc quod dicit in eodem capitulo : Voluntas hominis causa est tam peccatorum quam poenarum : quia poena est passio involuntaria ; sed quod causatur a voluntate est voluntarium : ergo poena non causatur a voluntate.
+Item, si causatur a voluntate, aut a bona aut a mala. A bona non, hoc constat, quia nemo punitur pro bona voluntate. A mala non, quia mala voluntas non est causa iusti, in quantum huiusmodi ; sed omnis poena iusta est : ergo nulla poena est causata a voluntate.</p>
+          <p xml:id="bb-l2d34dubia-d1e137">Respondeo : Dicendum quod voluntas dupliciter dicitur esse causa alicuius : vel per modum merentis vel per modum efficientis. Cum ergo dicitur voluntas esse causa poenae, hoc non dicitur per modum efficientis, sed potius dicitur per modum merentis. Voluntas enim, causando culpam efficiendo sive deficiendo, meretur poenam, et ita dicitur esse causa poenarum et peccatorum, licet aliter et aliter. Et per hoc patet solutio obiectorum.</p>
+        </div>
+        <div xml:id="bb-l2d34dubia-Dd1e141">
+          <head xml:id="bb-l2d34dubia-Hd1e143">Dub. III.</head>
+          <p xml:id="bb-l2d34dubia-d1e146">Item quaeritur de hoc quod dicit : Bonum, omnino carens malo, integrum bonum est. Hoc enim videtur falsum, quia integrum bonum est illud cui nihil deest de bono, et hoc est bonum in quo est omne bonum : ergo solum illud est integrum bonum quod est summum bonum. Sed multa creata sunt carentia omni malo, ut beati angeli et animae beatae : ergo, si hoc verum esset quod dicit, multa essent summe bona.
+Propter hoc est quaestio, utrum aliquod creatum mereatur dici bonum integrum.</p>
+ 
+          <p xml:id="bb-l2d34dubia-d1e149">Respondeo : Dicendum quod sicut perfectum dicitur multipliciter, et quantum ad perfectionem sufficientiae et quantum ad perfectionem superabundantiae, sic etiam et integrum bonum potest dici multipliciter : et quantum ad integritatem sufficientiae, et sic dicitur integrum bonum, quod caret omni malo culpae et poenae ; et quantum ad integritatem superabundantiae, et sic dicitur integrum bonum, in quo est omne bonum. Et primo modo bonum integrum non dicitur esse summum bonum, sed bonum purum, quia nihil habet de malo admixtum. Secundo vero modo dicitur esse summum bonum, et est in solo Deo per essentiam, in creatura autem per participationem, quae bona dicitur in hoc quod participat summum bonum, ex cuius participatione habere dicitur omne bonum. Et si tu obicias quod summum dicitur per impermixtionem cum contrario, et ita bonum, quod omnino est impermixtum malo, est summum bonum, dicendum quod illud verum est in his contrariis quorum utrumque est natura aliqua ; in his autem quorum unum est natura et alterum privatio, sicut est in bono et malo, luce et tenebra, non habet veritatem. Unde sicut non dicitur magis luminosum, quia minus habeat de tenebra, sic non dicitur magis bonum, quia minus habeat de malo ; sed quemadmodum una stella dicitur maior altera, quia magis accedit ad perfectionem lucis, sic magis bonum dicitur quod magis accedit ad perfectionem bonitatis. Nihilominus tamen omnino carens malo non potest dici nisi solus Deus, ut fiat vis in hoc quod dico omnino, ut careat omni malo secundum actum et secundum potentiam et secundum aptitudinem sive secundum primam naturae possibilitatem .</p>
+        </div>
+        <div xml:id="bb-l2d34dubia-Dd1e153">
+          <head xml:id="bb-l2d34dubia-Hd1e155">Dub. IV.</head>
+          <p xml:id="bb-l2d34dubia-d1e158">Item quaeritur de verbo illo <name ref="#Augustine">Augustini</name>, quod dicit in expositione illius verbi : Vae his qui dicunt malum bonum etc. ; id quod dictum est in prophetia, infelligendum est de ipsis rebus, quibus homines mali sunt, non de hominibus. Hoc enim videtur falsum, quia, sibut peccat ille qui dicit adulterium esse bonum vel homicidium, ita peccat qui dicit impium esse iustum. Unde et maledicitur ille qui iustificat impium pro muneribus : ergo non tantum de rebus, sed etiam de hominibus habet intelligi.</p>
+          <p xml:id="bb-l2d34dubia-d1e164">Respondeo : Dicendum quod, cum dico hominem malum, et dico hominem et dico malitiam. Potest igitur attribui bonitas ei, aut bonitas naturae secundum quod homo aut bonitas moris ratione malitiae. Et primo quidem modo attribuere ei bonitatem veritatis est, non detestationis propheticae. Secundo modo meretur maledictionem ; sed hoc est, non quia laudat hominem secundum quod homo, sed quia laudat eum secundum quod malus. Et hoc non est aliud quam laudare malitiam. Cum enim dicit <name ref="#Augustine">Augustinus</name> quod hoc non intelligitur de hominibus, sed de rebus, non negat quin peccatum sit in commendando hominem malum, sed hoc vult dicere quod non est peccatum, si commendetur natura, sed peccatum est, si commendetur malitia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

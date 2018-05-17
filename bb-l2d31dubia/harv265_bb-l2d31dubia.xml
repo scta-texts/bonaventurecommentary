@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31dubia">
+        <head xml:id="bb-l2d31dubia-Hd1e108">Dubia</head>
+ 
+        <div xml:id="bb-l2d31dubia-Dd1e111">
+          <head xml:id="bb-l2d31dubia-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-l2d31dubia-d1e116">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de hoc quod <name ref="#Lombard">Magister</name> quaerit in littera, ibi : Hic quaeri solet, utrum causa peccati originalis in carne sit culpa vel poena Non enim videtur ipse respondere ad quaestionem propositam, quia in solvendo nec determinat quod sit culpa nec determinat quod sit poena ; et videtur quod neutrum sit. Culpa non est, constat. Poena non videtur esse, quia poena in ea sola natura nata est esse in qua et miseria nata est esse ; et miseria in ea sola in qua etiam beatitudo est nata esse ; haec autem est sola rationalis creatura : ergo ante adventum animae nec potest esse poena nec culpa.
+Item, omni poena aliquis punitur ; sed illa corruptione, quae est in semine ante adventum animae, nullus punitur : ergo non videtur esse poena.
+Sed in contrarium est, quia, cum sit corruptio consequens ex cuipa, et omnis talis sit poena, videtur talis corruptio esse poena.
+Item, cum omnis maledictio sit poenae vel culpae, et semen erat maledictum, secundum quod dicitur Sapientiae, et <name ref="#Augustine">Augustinus</name> exponit in libro Hypognosticon : ergo etc.</p>
+ 
+          <p xml:id="bb-l2d31dubia-d1e125">Respondeo : Dicendum est ad hoc breviter quod <name ref="#Lombard">Magister</name> ad istam quaestionem respondet valde caute et rationabiliter. Nec enim sustinet quod sit poena nec sustinet quod sit culpa nec tamen negat. Non enim actualiter est poena vel culpa corruptio illa sive foeditas, quoniam poena sub ratione poenae et culpa sub ratione culpae sunt circa subiectum rationale. Nec tamen negat quod sit poena vel ctilpa, quia ad utrumque ordinem habet et utriusque quodam modo est causa. Anima enim ex coniunctione sui ad carnem ratione illius foeditatis contrahit poenam et culpam, licet culpam prius contrahat per naturam quam meritum poenae, ideo <name ref="#Lombard">Magister</name>, ut utrumque comprehendat, vocat eam vitiositatem sive carnis foeditatem ; et per hoc patet responsio ad utramque partem, quia quodam modo dicendi est poena, quodam modo non.</p>
+        </div>
+        <div xml:id="bb-l2d31dubia-Dd1e135">
+          <head xml:id="bb-l2d31dubia-Hd1e137">Dub. II.</head>
+          <p xml:id="bb-l2d31dubia-d1e140">Item quaeritur de hoc quod dicit : Foeditas maior videtur esse in carne concuplscentialiter traducta quam in ea de qua traducitur. Si enim hoc verum est, cum originale contrahatur ex illa foeditate, videtur quod maius sit originale in uno quam in alio. Item, nulla proprietas est intensior in effectu quam in causa, quando est univoce in utroque : ergo, si foeditas in carne traducta causatur ab eo a quo traducitur, non videtur <name ref="#Lombard">Magister</name> dicere verum, cum dicit quod maior est hic quam ibi.</p>
+ 
+          <p xml:id="bb-l2d31dubia-d1e146">Respondeo : Dicendum quod, eum dicit <name ref="#Lombard">Magister</name> quod maior sit foeditas in carne quae traducitur quam in carne a qua traducitur, hoc intendit quantum ad carnem quae est in aliis membris ed deservit aliis membris quam membris generativae. Hoc autem dicit quia in illa potentia est quaedam fontalis infectio, propter quam semen, ibi genitum et per illam viam descendens, maiori infectione inficitur quam alii humores ; quod manifestat pruritus et fervor coitus, sicut ipse dicit in littera. Unde non vult dicere quod semen, ex quo generatur proles, sit magis infectum quam semen, ex quo generatus est paler. Nec tamen sequitur quod maius sit originale in prole quam fuerit in patre. Et ita patet responsio ad illud. Sed hoc planius explicabitur, cum agetur inferius de quantitate originalis.</p>
+        </div>
+        <div xml:id="bb-l2d31dubia-Dd1e153">
+          <head xml:id="bb-l2d31dubia-Hd1e155">Dub. III.</head>
+          <p xml:id="bb-l2d31dubia-d1e158">Item quaeritur de hoc quod dicit : Non quia ex carne tracta ab Adam concepti sumus, ideo peccatum traximus ; et est quaestio, utrum si aliquis homo fieret de carne Adae corrupta praeter legem generationis, utrum contraheret originale. Et quod non, videtur <name ref="#Lombard">Magister</name> dicere in littera, et hoc ipsum videtur <name ref="#Augustine">Augustinus</name> dicere contra Pelagianos, ubi dicit : Qualis terrenus, tales et terreni ; hoc quo modo, nisi per seminis sparsionem ? Et post : Semen ergo  vitiatum est, sicut scriptum est : Semen erat maledictum ab initio. Et post clarius : Vitium contrahi non potest protoplasti sine seminis effusione. Si ergo aliter formaretur quam per istam viam, non videtur quod contraheret originale.
+Sed contrarium huius videtur, quia si tota caro Adae corrupta fuit et foedata merito culpae, videtur pari ratione quod peccatum contraheretur, si fieret de alia parte sicut fit de semine. Praeterea, totum corpus prolis fabricatum est ex semine ; et constat quod foeditas illa non purgatur propter diversitatem organizationis : ergo, si anima originale contraxit, quae iuncta est primo illi corpori, pari ratione videtur quod contraheret illa anima quae iungeretur corpori ex illa carne formato, nisi in illa formatione esset purificatio.</p>
+ 
+          <p xml:id="bb-l2d31dubia-d1e167">Respondeo : Quidam tenent quod contraheret originale propter hoc quod non solum est corruptio et foedatio in parte, sed in tota carne. Alii vero tenent oppositum, dicentes quod, etsi sit in omnibus membris corruptio poenalitatis, corruptio tamen foeditatis, quae est principium originalis, in parte generativa consistit.
+Quodcumque horum dicatur, non est magna vis facienda, quia nullus est qui non generetur secundum legem propagationis ex semine infecto nisi solus Christus, de quo certum est quod non habuit originale peccatum. Verumtamen securius est adhaerere verbis <name ref="#Lombard">Magistri</name> propter hoc quod magis consonant verbis <name ref="#Augustine">Augustini</name>. Unde, si homo fieret ex alia parte vel etiam mulier facta fuisset ex costa viri postquam peccavit, poenalitatem aliquam habuisset, non tamen peccatum originale.
+Nec valet quod obicit de corruptione. Nam etsi in omnibus membris corruptio sit poenalitatis, corruptio tamen foeditatis est in solo semine ratione infectionis principalis, quae est in vi generativa. Quare autem vis illa sit magis infecta quam alia, determinatum est supra</p>
+        </div>
+        <div xml:id="bb-l2d31dubia-Dd1e177">
+          <head xml:id="bb-l2d31dubia-Hd1e179">Dub. IV.</head>
+          <p xml:id="bb-l2d31dubia-d1e182">Item quaeritur de hoc quod dicit : Ecce in iniquitatibus conceptus sum etc. Ex isto enim verbo videtur colligi quod actus matrimonialis nunquam absque peccato habeat fieri ; et hoc ipsum videtur per auctoritatem <name ref="#Augustine">Augustini</name>, XIV De civitate Dei : Genitales corporis partes ita libido suo iuri mancipavit ut moveri non valeant, si ipsa defuerit. Et, Ad Valerium : Honestas concubitus non est sine ardore libidinis.
+Sed contrarium huius est, quia omne mandatum Dei potest absque peccato impleri : ergo et prolem procreare absque peccato potest homo ad cultum Dei.</p>
+ 
+          <p xml:id="bb-l2d31dubia-d1e188">Ad hoc breviter dicendum est quod actus matrimonialis potest fieri absque omni peccato, maxime cum fit causa generandae prolis vel reddendi debiti ; et illud verbum Psalmi [50, 7] intelligitur de peccato originali in prole, non de peccato actuali in parente ; et similiter verbum <name ref="#Augustine">Augustini</name> intelligitur de libidine prout est pruritus carnis, non prout est improbitas voluntatis ; et hoc modo plus est poena quam culpa. Et de hoc planius determinatur in quarto, in tractatu de matrimonio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

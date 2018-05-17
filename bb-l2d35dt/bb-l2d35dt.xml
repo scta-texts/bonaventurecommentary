@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35dt">
+        <head xml:id="bb-l2d35dt-Hd1e108">Divisio textus</head>
+  
+        <p xml:id="bb-l2d35dt-d1e111">Supra egit <name ref="#Lombard">Magister</name> de peccati causalitate et origine ; hic agit de peccati quldditate et definitione. Dividitur autem pars ista in tres partes.
+In quarum prima inquirit <name ref="#Lombard">Magister</name> quid sit peccatum, utrum videlicet sit actus vel privatio pura.
+In secunda, dato quod aliquo modo sit actus et aliquo modo sit privatio, inquirit, utrum peccatum sit peccati poena, infra, distinctione trigesima sexta : Sciendum tamen, quaedam sic esse peccata.
+In tertia vero inquirit, utrum actio substrata sit a Deo tamquam a causa, infra, distinctione trigesima septima : Sunt tamen et alii etc.</p>
+ 
+        <p xml:id="bb-l2d35dt-d1e120">Prima pars, quae continet praesentem distinctionem, dividitur in partes tres.
+In prima ponit <name ref="#Lombard">Magister</name> peccati notificationes.
+In secunda vero ex ipsis notificationibus inquirendo elicit quid sit peccatum secundum rem.
+In tertia vero dissolvit rationes sive oppositiones, quae contrariae videntur veritati praedeterminatae.
+Primum facit ibi : Post haec videndum, quid sit peccatum etc. ;
+secundum ibi : Quocirca, diversitatis huius verborum etc. ;
+tertium ibi : Quibus opponitur : si omnia quae sunt etc.</p>
+ 
+        <p xml:id="bb-l2d35dt-d1e126">Prima pars dividi posset in partes tres secundum tres notificationes peccati, sed ratione suae brevitatis remanet indivisa.</p>
+        <p xml:id="bb-l2d35dt-d1e129">Secunda vero pars principalis dividitur in tres partes.
+In prima parte diversorum opiniones narrat.
+In secunda vero veritatem aperit et iuxta quorumdam opinionem explanat, ibi : Sane dici potest et libere etc.
+In tertia vera auctoritatibus Sanctorum confirmat, ibi : Quod autem voluntas omnis et actio etc.</p>
+        <p xml:id="bb-l2d35dt-d1e133">Similiter tertia pars principalis tres habet partes secundum tres dubitationes quas movet,
+quarum prima sumta est ex hoc quod dicebat illa positio quod omnia quae sunt, bona sunt ;
+secunda vero ex hoc quod peccatum est corruptio boni ;
+tertia vero sumta est ex hoc quod corruptio boni est poena.
+Primam ponit ibi : Quibus opponitur : si omnia, quae sunt etc. ;
+secundam ibi : Potest etiam quaeri ab eisdem etc. ;
+tertiam ibi : Quaeri autem solet, utrum etc. Et in qualibet istarum partium primo opponit et secundo solvit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41a2q2">
+        <head xml:id="bb-l2d41a2q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d41a2q2-Hd1e111" type="question-title">Utrum omne peccatum sit circa voluntatem sicut circa subiectum proprium.</head>
+ 
+        <p xml:id="bb-l2d41a2q2-d1e114">Secundo quaeritur, utrum omne peccatum sit circa voluntatem sicut circa subiectum proprium.</p> 
+        <div xml:id="bb-l2d41a2q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d41a2q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d41a2q2-d1e122">Et quod sic, videtur : Primo per Anselmum, in libro De originali peccato : <quote xml:id="bb-l2d41a2q2-Qd1e124">Nusquam nisi in voluntate peccatum est</quote>.</p>
+          <p xml:id="bb-l2d41a2q2-d1e128">Item, hoc ipsum probatur tali ratione : <quote xml:id="bb-l2d41a2q2-Qd1e130">Membra et opera et quidquid nos sumus subiecit Deus voluntati</quote> : quidquid igitur faciunt, totum imputandum est voluntati. Si ergo in eo est culpa, cui imputatur, et omnis culpa voluntati imputatur, ergo omnis culpa est in voluntate tamquam in subiecto proprio.</p>
+          <p xml:id="bb-l2d41a2q2-d1e134">Item, in ea sola potentia est culpa, in qua nata est esse iustitia, <quote xml:id="bb-l2d41a2q2-Qd1e136">quia opposita nata sunt fieri circa idem</quote> ; sed iustitia est in voluntate tamquam in subiecto, quia, ut dicit Anselmus, <quote xml:id="bb-l2d41a2q2-Qd1e139">iustitia nihil aliud est quam voluntatis rectitudo</quote> ; ergo in eadem potentia, scilicet in voluntate, est culpa tamquam in subiecto proprio.</p>
+          <p xml:id="bb-l2d41a2q2-d1e143">Item, in ea sola potentia est culpa quae cogi non potest : nam nullus peccat nisi in eo a quo libere potest abstinere ; sed sola potentia voluntatis est quae cogi non potest : ergo etc.</p>
+          <p xml:id="bb-l2d41a2q2-d1e147">Item, in ea sola potentia est culpa quae aliquando denominatur bona, aliquando mala ; sed nos non dicimur habere intelligentiam vel memoriam malam, sed solum voluntatem malam : si ergo accidens denominat subiectum, et culpa denominat solam voluntatem, ergo culpa est in sola voluntate tamquam in subiecto proprio.</p>
+          <p xml:id="bb-l2d41a2q2-d1e150">Item, in ea sola potentia est culpa tamquam in subiecto proprio, ad cuius actum comparatur sicut ad causam proximam et immediatam ; sed nulla potentia animae est causa proxima et immediata culpae nisi sola potentia rationalis ; nam memorari malum vel intelligere malum non est culpa, sed velle malum culpa est. Ergo etc.</p>
+
+ 
+          <p xml:id="bb-l2d41a2q2-d1e153">Sed contra : Nunquam peccatur mortaliter nisi per consensum ; sed consensus non tantummodo est voluntatis, sed etiam rationis : si ergo culpa est circa illam potentiam per cuius actum perpetratur, ergo non tantum est circa voluntatem, sed etiam circa rationem.</p>
+          <p xml:id="bb-l2d41a2q2-d1e156">Item, non tantum peccatur affectione, sed etiam peccatur oblivione, sicut dicitur Deuteronomii 6, 13 : Cave, obliviscaris Domini Dei tui, et frequenter in Scriptura reprehendit eos Dominus qui eius sunt obliti. Ergo, si oblivio est in memoria, videtur quod non tantum peccatum sit in voluntate, sed etiam in memoria.</p>
+          <p xml:id="bb-l2d41a2q2-d1e159">Item, non solum peccatur delectatione, verum etiam cogitatione, secundum quod homo confitetur quotidie ; sed cogitatio,est intellectus, non affectus : ergo non tantum in affectu, verum etiam in intellectu habet esse peccatum.</p>
+          <p xml:id="bb-l2d41a2q2-d1e162">Item, non tantum peccatur deliberatione, verum etiam suggestione, secundum quod vult Gregorius ; sed suggestio est in parte sensibili : ergo peccatum non tantum est in parte rationali, sed etiam in parte sensibili.</p>
+          <p xml:id="bb-l2d41a2q2-d1e166">Item, peccatum est deformitas, formaliter loquendo ; sed constat quod omni peccato imago deformatur : nam quodlibet peccatum, quantum est de se, gratiam expellit, quae est reformativa imaginis. Ergo, si imago non tantum respicit voluntatem, sed etiam alias potentias, videtur quod peccatum non solum in voluntate, sed etiam in aliis potentiis habeat esse.</p>
+          <p xml:id="bb-l2d41a2q2-d1e169">Item, nullus amat nisi quod iudicat esse amandum : ergo ante amorem inordinatum praecedit iudicium inordinatum. Si ergo primum iudicium inordinatum non potuit esse poena, quia poena non praecedit culpam, necesse est quod fuerit culpa : ergo prius est peccatum in ratione quam in voluntate. Potius igitur videtur quod subiectum peccati debeat assignari ratio quam voluntas.</p>
+        </div>
+        <div xml:id="bb-l2d41a2q2-Dd1e173">
+          <head xml:id="bb-l2d41a2q2-Hd1e175">Conclusio</head>
+          <head xml:id="bb-l2d41a2q2-Hd1e178" type="question-title">Peccatum, ut tenet rationem culpae, 
+    voluntatem respicit ut subiectum; ut vero tenet rationem 
+    vitii, causaliter loquendo, est in sola voluntate, 
+    ut principio et subiecto primo, 
+    materialiter loquendo, est etiam in actibus aliarum potentiarum</head>
+          <p xml:id="bb-l2d41a2q2-d1e181">Respondeo : Ad praedictorum intelligentiam est notandum quod peccatum de sua ratione duo dicit. Dicit enim deordinationem sive privationem ordinis circa actum alicuius potentiae ; dicit nihilominus illam deordinationem ut dignam vituperatione et punitione. Et quantum ad primum, peccatum tenet rationem vitii aliquo modo corrumpentis ; quantum ad secundum tenet rationem culpae et demeriti. Cum igitur comparamus peccatum ad subiectum proprium, aut loquimur de ipso in quantum est culpa aut loquimur de ipso in quantum est vitium.</p>
+ 
+          <p xml:id="bb-l2d41a2q2-d1e184">Si de ipso loquimur in quantum est culpa et demeritum, sic proprie et praecise respicit liberum arbitrium. Quoniam enim libero arbitrio commissum est regimen totius hominis, si aliqua deordinatio fiat in regno totius animae, ipsi libero arbitrio imputatur. Unde si omnia membra, per quae consummata est, et omnes potentiae, in quibus aliqua deordinatio facta est, traherentur in causam, omnia conquererentur de libero arbitrio, cui subiecta sunt, et ei Dominus totum imputaret quidquid in eis mali gestum fuit. Unde si tollatur liberum arbitrium, iam nullo modo erit peccatum. Et quia libertas arbitrii principaliter residet penes voluntatem, sicut in praecedentibus ostensum fuit hinc est quod culpa sub ratione culpae in voluntate tamquam in subiecto proprio dicitur esse.</p>
+ 
+          <p xml:id="bb-l2d41a2q2-d1e187">Si autem loquamur de culpa secundum quod est vitium, sic dupliciter adhuc contingit. Cum peccatum dicatur vitium, in quantum deordinat aliquem actum alicuius potentiae, secundum quod deordinatio illa dupliciter habet comparari, sic et peccatum ut est vitium. Comparatur autem deordinatio illa ad actum alicuius potentiae tamquam ad materiale circa quod et tamquam ad causale a quo.
+Si igitur loquamur de illa deordinatione materialiter, sic dico quod non solum circa actum voluntatis, sed etiam circa actus aliarum potentiarum animae consistit. Actus enim et memoriae et intelligentiae et aliarum potentiarum animae subiacentium voluntati deordinari habent per diversa peccata.
+Si autem loquamur de illa deordinatione causaliter, sic omnis talis deordinatio est a voluntate.</p>
+ 
+          <p xml:id="bb-l2d41a2q2-d1e191">Si autem quaeratur ratio huius, dicendum quod huius ratio est triplex : prima, quia penes voluntatem consistit regiminis dominium ; secunda, quia in ipsa reperitur rectitudinis principium ; tertia vero, quia ad ipsam pertinet regiminis complementum.
+In ipsa namque consistit regiminis dominium, pro eo quod ipsa aliis potentiis imperat et a nulla imperatur.
+In ipsa etiam attenditur rectitudinis principium : amor enim principium est rectitudinis et obliquitatis, sicut ostendit <name ref="#Augustine">Augustinus</name> ; unde bonus amor est fundamentum civitatis Dei et malus fundamentum civitatis diaboli. Et ratio huius est, quia amor est radix omnium affectionum et tantae adhaerendae ut transformet amantem in amatum.
+Penes ipsam etiam consistit rectitudinis et regiminis complementum, quoniam ipsius obiectum est bonum ; bonum autem et .finis est idem. Et quia in directione ad finem consistit bonitatis completio, in obliquatione vero consistit bonitatis amissio, hinc est quod ab ipsa voluntate oritur omne peccatum. Et propterea <name ref="#Augustine">Augustinus</name>, in libro De duabus animabus definiens peccatum, dicit quod peccatum est voluntas assequendi vel retinendi quod iustitia vetat et a quo liberum est abstinere. Per hoc autem quod dicit : voluntas assequendi etc., describit peccatum secundum quod est vitium et deordinatio, quae a voluntate habet ortum. Per hoc autem quod dicit : a quo liberum est abstinere, notificat peccatum secundum quod tenet rationem culpae, quia nemo culpatur in eo quod vitare non potest, sicut ipse dicit ibidem.</p>
+          <p xml:id="bb-l2d41a2q2-d1e200">Sic igitur patet quod peccatum, in quantum tenet rationem culpae, voluntatem respicit ut subiectum ; in quantum etiam tenet rationem vitii, respicit voluntatem ut principium et ut subiectum primum, licet aliquo modo respiciat actus aliarum potentiarum.
+Unde rationes, quae ad primam partem inducuntur, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d41a2q2-Dd1e205">
+          <head xml:id="bb-l2d41a2q2-Hd1e207">Ad rationes</head>
+
+          <p xml:id="bb-l2d41a2q2-d1e210">Ad illud ergo quod primo obicitur, quod non peccamus nisi consentiendo, dicendum quod, etsi consensus respiciat simul rationem et voluntatem, principalius tamen et completius voluntatem respicit, quia in ea consummatur. Quantumcumque enim ratio deliberet, nisi voluntas alterum praeoptet, nunquam eligit nec consentit ; et quod est ibi culpae et iniustitiae, hoc est ratione voluntatis adiunctae.</p>
+
+          <p xml:id="bb-l2d41a2q2-d1e213">2-4. Ad tria sequentia quae subiungit, quod peccatur oblivione, cogitatione et suggestione, patet responsio ex his quae dicta sunt ; nam talia non sunt peccata nisi quia voluntaria. Unde nunquam circa actum memoriae culpa consistit nec etiam circa actum inteiligentiae, nisi eis immisceat se voluntas vel antecedenter vel concomitanter vel consequenter. Similiter nec suggestio, si est omnino ab extrinseco, est culpa, sed illa quae est ab intrinseco, quae quodam modo voluntaria est, sive quia a voluntate Adae habuit ortum sive quia a voluntate peccantis non praecavetur.</p>
+
+          <p xml:id="bb-l2d41a2q2-d1e216">Ad illud quod obicitur, quod peccatum deformat totam imaginem, dicendum quod, etsi tota imago deformetur et vitietur, ilia tamen sola deformatio, quae est in voluntate, est illa quae est ratio inculpandi ; et ideo non sequitur quod, culpa respiciat alias potentias animae sub ratione culpae, quamvis circa actus earum consistat corruptio vitiosa.</p>
+          <p xml:id="bb-l2d41a2q2-d1e219">Ad illud quod obicitur, quod omnem malam voluntatem praecedit malum iudicium, dicendum quod verum est quantum ad actum voluntatis, qui quidem est consensus plenarius ; attamen nunquam in creatura rationali, secundum quod instituta fuit, iudicium erroneum interveniret, nisi voluntas se illi iudicio immisceret ; nunquam enim Adam praesumsisset vel de se praesumtuose iudicasset, nisi amore voluntatis nimium sibi adhaesisset. Unde amor mirabiliter pervertit iudicium. Licet igitur primus angelus sive Adam, quando peccavit, prius praesumserit quam ambierit, illius tamen praesumtionis perversitas a voluntate habuit ortum et ambitionis scelus in voluntate fuit consummatum : et ita peccatum respicit voluntatem principaliter, tum quia in ipsa primo inchoatur, tum quia in ipsa consummatur. Ideo recte dicitur sublectum primum peccati, quia et primum est origine, primum etiam complemento sive consummatione.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

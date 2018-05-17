@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d42a3q1">
+        <head xml:id="bb-l2d42a3q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d42a3q1-Hd1e111" type="question-title">Utrum peccatum habeat dividi per differentias materiales tantum an etiam per formales.</head>
+ 
+        <p xml:id="bb-l2d42a3q1-d1e114">Circa primum sic proceditur et quaeritur, utrum peccatum dividi habeat per differentias materiales tantum an etiam per formales.
+</p>
+        <div xml:id="bb-l2d42a3q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d42a3q1-Hd1e119">Rationes principales</head>
+  
+          <p xml:id="bb-l2d42a3q1-d1e122">Et quod non tantum per materiales, sed etiam per formales dividi habeat, ostenditur sic :Sicut se habet castitas ad virtutem, ita se habet luxuria ad vitium. Ergo sicut castitas est species virtutis, ita luxuria est species vitii ; sed una species distinguitur ab altera per differentias formales : ergo etc.</p>
+          <p xml:id="bb-l2d42a3q1-d1e125">Item, bonum opponitur malo non tantum materialiter, sed etiam formaliter, et diversis bonis diversa opponuntur mala ; sed bona, quibus mala opponuntur, formaliter distinguuntur : ergo pari ratione et mala, quae eis formaliter opposita sunt, formaliter differunt.</p>
+          <p xml:id="bb-l2d42a3q1-d1e128">Item, circa unum actum peccati assignantur diversae differentiae peccatorum, sicut patet in peccato Adae, in quo dicitur fuisse gula et superbia et inobedientia ; sed peccata, quae consistunt circa unum actum, non habent differentiam materialem : ergo, si aliquo modo differunt, necesse est quod habeant differentiam formalem.</p>
+          <p xml:id="bb-l2d42a3q1-d1e131">Item, multiplicatio secundum materiam est multiplicatio secundum numerum, et multiplicatio secundum numerum non habet statum. Ergo, si peccata solummodo distinguerentur per differentias materialiter differentes, nunquam peccatum posset dividi sufficienti divisione. Si igitur in Scriptura peccatum dividitur differentiis ipsum sufficienter dividentibus et omne peccatum complectentibus, videtur quod peccata ad invicem distinguantur non solum differentiis materialibus, verum etiam formalibus.</p>
+
+ 
+          <p xml:id="bb-l2d42a3q1-d1e135">Sed contra : Formale in genere peccati mortalis est aversio ; sed peccata a parte aversionis non distinguuntur, immo conveniunt : omnia enim dicunt aversionem a Deo. Si ergo distinguuntur, hoc est solum a parte conversionis, quae est in peccato materialis : ergo tantum dividitur peccatum per differentias materiales, non per formales.</p>
+          <p xml:id="bb-l2d42a3q1-d1e138">Item, peccatum, formaliter loquendo, nihil est ; sed quod nihil est non habet differentias dividentes : ergo, si peccatum dividitur, nullo modo dividitur in quantum formaliter consideratur : restat igitur quod solum dividatur per illud quod est materiale in ipso, et ita redit idem quod prius.</p>
+          <p xml:id="bb-l2d42a3q1-d1e141">Item, omne illud, quod habet differentias formales et specificas, aliquo modo, formaliter loquendo, habet speciem ; sed peccatum sive malum, formaliter loquendo, est privatio speciei ; et privatio speciei non habet speciem ; et quod caret specie caret differentia formali et specifica : ergo etc.</p>
+          <p xml:id="bb-l2d42a3q1-d1e144">Item, si peccatum haberet differentias ipsum formaliter dividentes, ergo haberet veras species ; sed omne tale habet ordinari in genere directe ; illud autem, quod est in genere, a Deo est : ergo peccatum, formaliter loquendo, a Deo esset ; quod est contra fidem.</p>
+          <p xml:id="bb-l2d42a3q1-d1e147">Item, prima divisio peccati est in originale et actuale ; sed originale et actuale peccatum non distinguuntur formaliter, quia quod est originale uni fuit alteri actuale, sicut patet, quia quod est originale nobis fuit actuale Adae. Si igitur prima membra maxime differunt, et originale et actuale non sunt differentiae peccati formaliter differentes, multo fortius nec aliae.</p>
+          <p xml:id="bb-l2d42a3q1-d1e150">Item, prima divisio actualis peccati est per mortale et veniale : sed mortale et veniale non dicunt diversas differentias secundum formam et speciem : ergo multo minus nec aliae differentiae secundum speciem et formam faciunt differre. Maior propositio manifesta est. Minor probatur per hoc quod veniale peccatum efficitur mortale sola intensione libidinis circa idem genus delectabilis. Ergo, si magis et minus non faciunt diversitatem secundum speciem et formam, videtur quod peccatum veniale et mortale non addant formalem differentiam : ergo nec alia.</p>
+        </div>
+        <div xml:id="bb-l2d42a3q1-Dd1e154">
+          <head xml:id="bb-l2d42a3q1-Hd1e156">Conclusio</head>
+          <head xml:id="bb-l2d42a3q1-Hd1e159" type="question-title">Peccatu abstracte sumtum habet differnetias formales 
+    tantum per accidens, concrete sumtum etiam per se</head>
+ 
+          <p xml:id="bb-l2d42a3q1-d1e162">Respondeo : Dicendum quod dupliciter contingit loqui de peccato : aut in concretione aut in abstractione. Si in abstractione, sic dicendum est quod quemadmodum peccatum, cum sit privatio, non habet ordinari per, accidens, scilicet per comparationem ad suum oppositum, sic etiam non habet formaliter distingui nisi ratione sui oppositi : privationes enim distinguuntur per habitus. Unde sicut castitas et fortitudo sunt virtutes formaliter differentes in genere virtutis, sic etiam luxuria et pusillanimitas, quae sunt opposita istarum duarum virtutum, formaliter dicuntur differre in genere vitiorum, non tamen secundum formam suam, sed secundum formam sui oppositi.
+Si autem loquamur de peccato in concretione, sic non tantum dicit privationem, sed etiam actum vel habitum substratum ; et quoniam actus vel habitus substratus peccato non tantummodo di versificatur materialiter, immo etiam formali differentia - alia est enlrti pronitas ad luxuriam, alia pronitas ad superbiam, et alius actus quo superbit aliquis, et alius quo luxuriatur, non tantummodo secundum materiam, sed etiam secundum formam propter formalem differentiam obiectorum - hinc est quod peccatum, secundum quod concretive accipitur, dividi habet per differentias, non tantum materiales, verum etiam formales, formales dico, non respectu deformitatis, sed respectu habitus vel actus substrati.</p>
+          <p xml:id="bb-l2d42a3q1-d1e165">Et sic patet quod, sive peccatum accipiatur abstracte sive concrete, differentias habet formales, sed uno modo per se, alio modo per accidens, quia uno modo dicit ens in genere secundum rectam coordinationem, alio modo dicit ens in genere solum per reductionem.
+Et quia hoc modo rationes ad primam partem procedunt, ideo concedendae sunt.
+</p>
+        </div>
+        <div xml:id="bb-l2d42a3q1-Dd1e170">
+          <head xml:id="bb-l2d42a3q1-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-l2d42a3q1-d1e175">Ad illud vero quod primo obicitur in contrarium, quod formale in peccato est aversio, dicendum quod verum est quod aversio est formale respectu conversionis ; proprie tamen loquendo, peccatum magis debet dici formaliter privatio boni sibi oppositi quam aversio a Deo aut saltem aeque proprie. Et quamvis peccatum ratione aversionis a Deo non multiplicetur, quia unum est a quo fit aversio, tamen ratione privationis boni, cui opponitur, multiplicari habet ; et ita ratione eius quod est in ipso formale habet diversas differentias. Praeterea, ad esse peccati non tantummodo concurrit aversio, sed etiam conversio ; et quoniam conversio respicit obiecta creata, quae non tantum distinguuntur materialiter, sed etiam formaliter differunt, hinc est quod ex illa parte peccatum habet plurificari per formales differentias. Item, nec dicitur conversio esse materiale in peccato, simpliciter loquendo, sed solum ratione aversionis ; nec omnino est materialis respectu aversionis : nam, etsi aversio dat conversioni quod sit peccatum, conversio tamen dat aversioni quod sit tale peccatum.</p>
+          <p xml:id="bb-l2d42a3q1-d1e178">Ad illud quod obicitur, quod peccatum, formaliter loquendo, nihil est, dicendum quod verum est. Quamvis autem nihil sit, tamen alicuius est, non solum ut subiecti, verum etiam ut oppositi ; et ea ratione qua alicuius est cui formaliter opponitur, formaliter habet distingui, non secundum formam quae est in ipso, sed secundum formam quae est in suo opposito.</p>
+          <p xml:id="bb-l2d42a3q1-d1e181">Ad illud quod obicitur, quod peccatum est privatio speciei, ergo non habet speciem, iam patet responsio. Verum est enim quod non habet speciem proprie secundum quod privatio ; nec dicitur habere differentias formales et specificas isto modo, scilicet quod in se diversas habeat species, sed quia opponitur diversis bonis secundum speciem, in quantum illa privat.</p>
+          <p xml:id="bb-l2d42a3q1-d1e184">Ad illud quod obicitur, quod si haberet species, esset in genere, dicendum quod verum est, si haberet species in se et per se ; peccatum autem, secundum quod accipitur abstracte et formaliter, sicut non est in genere per se nisi per reductionem, sic non habet dividi per differentias formales differentes per se, sed solum per accidens. Quamvis autem peccatum, secundum quod nihil est et accipitur abstracte, non sit in genere, tamen secundum quod accipitur concrete, scilicet ratione actus substrati et habitus, in genere est : actio enim peccato substrata a Deo est.</p>
+          <p xml:id="bb-l2d42a3q1-d1e188">Ad illud quod obicitur de originali et actuali, dicendum quod originale et actuale non solummodo differunt quod hoc sit ab actu et illud a natura, sed etiam differunt penes bonum quod privant ; unde et actuale privat iustitiam gratuitam sive personalem ; originale vero tollit iustitiam originalem, sive quae respicit hominem secundum quod est natura. Praeterea, aliter dicitur in nobis originale et aliter in Adam. In nobis dicitur originale, quia est ab origine tractum ; in Adam vero, quia fuit origo aliorum peccatorum.
+Et quamvis originale secundo modo dictum possit esse idem quod actuale, prout tamen primo modo dicitur non potest originale concurrere in idem peccati genus cum actuali ; et hoc modo ponitur differentia inter ea.
+</p>
+
+          <p xml:id="bb-l2d42a3q1-d1e191">Ad illud quod obicitur de veniali et mortali, quod non differunt formaliter, quia magis et minus non variant speciem, dicendum quod prima propositio falsa est.
+Ad hoc autem quod dicitur quod differentia secundum minus et magis non variat speciem, respondetur tripliciter. Primo, quod hoc est verum in genere naturae, sed non est verum in genere moris, sicut patet, quia vitia diversificantur formaliter secundum speciem penes superabundantiam et defectum, non solum a se invicem, sed etiam a virtute.
+Secundo modo respondetur quod hoc intelligitur de magis et minus accidentali ; delectari autem sub Deo est essentiale veniali et delectari supra Deum est essentiale mortali.
+Tertio modo respondetur quod hoc est verum de magis et minus citra terminum, sed non de magis et minus ultra terminum ; unde calidum in quarto gradu est alterius speciei quam calidum in tertio. Sic et in proposito intelligendum est quod amare aliquid citra Deum est terminus venialis peccati ; et quantumcumque intendatur amor, dum tamen citra Deum est, veniale peccatum est ; si autem praeponit aliquid Deo, tunc exit suum terminum ; et sic cadit in aliud peccati genus, scilicet in peccatum mortale.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

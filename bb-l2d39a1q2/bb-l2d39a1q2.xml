@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d39a1q2">
+        <head xml:id="bb-l2d39a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d39a1q2-Hd1e111" type="question-title">Utrum conscientia sit habitus innatus aut acquisitus.</head>
+ 
+        <p xml:id="bb-l2d39a1q2-d1e114">Secundo quaeritur, utrum conscientia sit habitus innatus aut acquisitus.</p> 
+        <div xml:id="bb-l2d39a1q2-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-l2d39a1q2-d1e119">Et quod sit habitus innatus videtur : Ad Romanos 2, 14-15 : <quote xml:id="bb-l2d39a1q2-Qd1e121" ana="#rom2_14 #rom2_15">Cum gentes, quae Legem non habent, naturaliter quae Legis sunt faciunt, ipsi sibi sunt Lex, quia ostendunt opus Legis scriptum in cordibus suis, testimonium illis reddente conscientia</quote>. Et Glossa ibidem : <quote xml:id="bb-l2d39a1q2-Qd1e124" source="http://scta.info/resource/gom-rom2-d1e275">Etsi gentes non habeant legem scriptam, habent tamen legem naturalem, qua sibi conscii sunt</quote>. Ergo ex textu et Glossa patet quod conscientia dicit habitum naturaliter cordi humano inscriptum.</p>
+          <p xml:id="bb-l2d39a1q2-d1e128">Item, <name ref="#Augustine">Augustinus</name>, in libro III De libero arbitrio :<quote xml:id="bb-l2d39a1q2-Qd1e133"> Ante omne meritum boni operis non est parum accepisse naturale iudicatorium, quo sapientiam quis praeponat errori, et quietem difficultati</quote>. Si ergo conscientia est huiusmodi iudicatorium, est igitur habitus homini innatus.</p>
+          <p xml:id="bb-l2d39a1q2-d1e137">Item, Isidorus : <quote xml:id="bb-l2d39a1q2-Qd1e139">Ius naturale est quod natura docuit animalia</quote>. Ergo, si natura docuit animalia illud quod est iuris naturalis, multo fortius ducuit hominem, qui excellit omnia animalia ; sed cognitio iuris naturalis non est aliud quam conscientia : ergo etc.</p>
+          <p xml:id="bb-l2d39a1q2-d1e143">Item, naturalem habemus instinctum ad appetendum beatitudinem et ad honorandum parentes ; sed hoc non potest esse sine aliqua praecognitione : ergo videtur quod ad huiusmodi facienda habeamus aliquam cognitionem naturaliter nobis impressam ; sed cognitio inclinans ad hoc est conscientia : ergo etc.</p>
+          <p xml:id="bb-l2d39a1q2-d1e146">Item, lex naturalis cognoscitur ab homine aliquo modo ; aut ergo per acquisitionem aut per naturam. Si per acquisitionem, ergo non debet dici naturalis, sed acquisita, sicut nec virtutes politicae. Si vero per naturam, et cognitio legis naturalis non est aliud quam conscientia, ergo etc.</p>
+          <p xml:id="bb-l2d39a1q2-d1e150">Item, ius naturale naturaliter ligat voluntatem ; sed ligamen voluntatis necessario praecedit actus cognitionis ; affectum enim praecedit intellectus : ergo, si voluntas naturaliter ad illud ius ligatur, videtur quod illud ius naturaliter ab anima cognoscatur. Si ergo illius iuris cognitio est conscientia, patet etc.</p>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e153">Sed contra :
+1. <name ref="#Aristotle">Philosophus</name>, in III De anima, dicit quod <quote xml:id="bb-l2d39a1q2-Qd1e158" source="http://scta.info/resource/aristda-l3">anima creata est sicut tabula rasa, in qua nihil depictum est</quote>. Ergo videtur quod anima a sua prima conditione nullam habeat innatam cognitionem ; si ergo habitus conscientiae dicit aliquam cognitionem, videtur quod non sit innatus, sed acquisitus.</p>
+          <p xml:id="bb-l2d39a1q2-d1e162">2. Item, <name ref="#Augustine">Augustinus</name>, in I libro Retractationum, retractat hoc quod dixerat, <quote xml:id="bb-l2d39a1q2-Qd1e167">animam creari scientem, sed mole corporis oppressam oblivisci eorum quae sciebat</quote>. Sed non retractaret nisi haberet hoc pro falso : ergo falsum est, secundum <name ref="#Augustine">Augustinum</name>, quod anima habeat naturaliter cognitionem agendorum ; si ergo conscientia est huiusmodi habitus cognitivus, videtur quod non sit innatus, sed acquisitus.</p>
+          <p xml:id="bb-l2d39a1q2-d1e174">3. Item, non habetur cognitio de complexo nisi habeatur de incomplexo : unde non cognoscit, principium qui non cognoscit terminos, propter quod dicit <name ref="#Aristotle">Philosophus</name> quod <quote xml:id="bb-l2d39a1q2-Qd1e179">principia cognoscimus in quantum terminos</quote>. Sed cognitionem incomplexorum non habemus nisi mediantibus sensibus : nemo enim cognoscit colorem nisi per visum, et propterea amittentes unum sensum necesse est unam scientiam amittere. Si ergo omnis scientia incomplexorum est mediante sensu, necesse est quod omnis cognitio complexorum sit acquisita et accepta a sensu ; sed conscientia dicit cognitionem complexi, utpote alicuius regulae iuris naturalis : ergo videtur quod conscientia non dicat habitum innatum, sed acquisitum.</p>
+          <p xml:id="bb-l2d39a1q2-d1e183">4. Item, aequalis difficultatis vel maioris est scire ea quae pertinent ad mores sicut ea quae pertinent ad simplicem speculationem ; sed scientia, quae est habitus cognitivus speculandorum, non est nobis innata, sed acquisita : ergo pari ratione et conscientia, quae est habitus dirigens in agendis, non est innata, sed acquisita.</p>
+          <p xml:id="bb-l2d39a1q2-d1e186">5. Item, omnis habitus naturalis semper est rectus ; conscientia autem aliquando est recta, aliquando erronea : ergo conscientia non est habitus naturalis, sed acquisitus.</p>
+          <p xml:id="bb-l2d39a1q2-d1e190">6. Item, habitus naturales omni insunt et semper, quia naturalia sunt illa quae sunt eadem apud omnes, et naturalia comitantur naturam inseparabiliter ; sed conscientiae non sunt eaedem apud omnes, immo frequenter sunt contrariae ; conscientia etiam non semper inest, quia frequenter homo incipit habere conscientiam, quam prius non habebat, sicut religiosus, ex quo intrat religionem, habet conscientiam quod non liceat ei facere contra consilia, et hanc prius non habebat : ergo etc.</p>
+        </div>
+        <div xml:id="bb-l2d39a1q2-Dd1e194">
+          <head xml:id="bb-l2d39a1q2-Hd1e196">Conclusio</head>
+          <head xml:id="bb-l2d39a1q2-Hd1e199" type="question-title">Conscientia dicit habitum innatum ratione tum luminis 
+   animae inditi, tum primorum principiorum moralium, dicit autem habitum acquisitum 
+   tum ratione specierum ipsius cognoscibilis, 
+   tum respectu specialium operationum</head>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e202">Respondeo : Ad praedictorum intelligentiam est notandum quod praeter illam positionem Platonicam, quae posuit omnes habitus cognoscendorum esse animae simpliciter innatos, sed oblivioni idari ad tempus propter corporis molem, quam improbat et reprobat tam <name ref="#Aristotle">Philosophus</name> quam <name ref="#Augustine">Augustinus</name>, tres fuerunt opiniones doctorum de origine habituum cognitivorum. Et omnes tres illae positiones in hoc concordant quod, sicut virtutes consuetudinales nec sunt omnino a natura nec omnino ab acquisitione, sed quodam modo sunt innatae, quodam modo acquisitae, sic etiam et habitus cognitivi nec sunt omnino innati nec omnino acquisiti, sed quodam modo innati et quodam modo acquisiti.
+In assignando autem modum, secundum quem isti habitus sunt innati, et secundum quem sunt acquisiti, dlversificantur diversi.</p>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e211">Quidam enim dicere voluerunt quod innati sunt intellectui agenti, sed acquisiti sunt quantum ad intellectum possibilem ; et quantum ad istum intellectum dicit <name ref="#Aristotle">Philosophus</name> animam creari sicut tabulam nudam, et ille intellectus est qui habet perfici mediantibus potentiis sensitivis.
+Sed istud non videtur esse consonum nec verbis <name ref="#Aristotle">Philosophi</name> nec veritati. Si enim intellectus agens haberet habitus cognoscendorum, quare non posset illos communicare possibili sine adiutorio sensuum inferiorum ? Rursus, si intellectus agens haberet habitus cognoscendorum, iam anima a sua conditione non esset ignorans, immo potius esset sciens. Difficile etiam est simul cum hoc intelligere quomodo species dicantur esse in intellectu agente, cum possibilis dicatur quo est omnia fieri, et agens quo est omnia facere.</p>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e220">Et ideo est secundus modus dicendi, quod habitus cognitivi quodam modo sunt innati, quodam modo acquisiti. Innati enim sunt quoad cognitionem in universali, acquisiti quoad cognitionem in particulari, sive innati quoad cognitionem principiorum, acquisiti quoad cognitionem conclusionum ; unde dignitas est illa quam quisque probat auditam.
+Sed nec iste modus dicendi consonat verbis <name ref="#Aristotle">Philosophi</name> et <name ref="#Augustine">Augustini</name>. Nam <name ref="#Aristotle">Philosophus</name>, in libro Posteriorum, probat quod cognitio principiorum non est nobis innata, deducens ad plura inconvenientia ; et ibidem ostendit quod cognitio principiorum acquiritur via sensus, memoriae et experientiae. <name ref="#Augustine">Augustinus</name> etiam, in XII libro De Trinitate, loquens de parvulo, qui respondebat de omnibus principiis geometriae, dicit ibi quod hoc non erat quia anima illius parvuli prius illa novisset, sed potius ista videbat in quadam luce sui generis incorporea ; quemadmodum oculus carnis videt quae in hac luce corporea contra adiacent, cuius lucis capax eique congruens est creatus.</p>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e236">Et propterea est tertius modus dicendi, quod habitus cognitivi quodam modo sunt nobis innati et quodam modo acquisiti, non tantum loquendo de cognitione in particulari et de cognitione conclusionum, sed etiam de cognitione principiorum. Cum enim ad cognitionem duo concurrant necessario, videlicet praesentia cognoscibilis et lumen, quo mediante de illo iudicamus, sicut videmus in visu, et in praecedenti auctoritate innuit <name ref="#Augustine">Augustinus</name>, habitus cognitivi sunt quodam modo nobis innati ratione luminis animae inditi, sunt etiam quodam modo acquisiti ratione speciei ; et hoc quidem verbis <name ref="#Aristotle">Philosophi</name> et <name ref="#Augustine">Augustini</name> concordat. Omnes enim in hoc concordant quod potentiae cognitivae sit lumen inditum, quod vocatur naturale iudicatorium ; species autem et similitudines rerum acquiruntur in nobis mediante sensu, sicut expresse dicit <name ref="#Aristotle">Philosophus</name> in multis locis, et hoc etiam experientia docet. Nemo enim unquam cognosceret totum aut partem aut patrem aut matrem, nisi sensu aliquo exteriori speciem eius acciperet ; et hinc est quod amittentes unum sensum necesse habemus unam scientiam amittere. Illud autem lumen sive naturale iudicatorium dirigit ipsam animam in iudicando tam de cognoscibilibus quam de operabilibus.</p>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e251">Sed hoc attendendum est praecipue, quia, sicut inter cognoscibilia quaedam sunt valde evidentia, sicut dignitates et prima principia, quaedam sunt minus evidentia, sicut conclusiones particulares, sic et in operabilibus quaedam sunt maxime evidentia, utpote illud : quod tibi non vis fieri, alii ne feceris, et quod Deo obtemperandum est et consimilia. Quemadmodum igitur cognitio primorum principiorum ratione illius luminis dicitur esse nobis innata, quia lumen illud sufficit ad illa cognoscenda, post receptionem specierum, sine aliqua persuasione superaddita propter sui evidentiam : sic et primorum principiorum moralium cognitio nobis innata est, pro eo quod iudicatorium illud sufficit ad illa cognoscenda. Rursus, quemadmodum cognitio particularium conclusionum scientiarum acquisita est, pro eo quod lumen nobis innatum non plene sufficit ad illa cognoscenda, sed indiget aliqua persuasione et habilitatione nova : sic etiam intelligendum est ex parte operabllium quod quaedam sunt agenda ad quae tenemur, quae non cognoscimus nisi per instructionem superadditam.
+Quoniam igitur conscientia nominat habitum directivum nostri iudicii respectu operabilium, hinc est quod quodam modo habitum nominat innatum et quodam modo nominat acquisitum. Habitum, inquam, innatum nominat respectu eorum quae sunt de primo dictamine naturae ; habitum vero acquisitum respectu eorum quae sunt institutionis superadditae. Habitum etiam innatum dicit respectu luminis directivi ; habitum nihilominus acquisitum respectu speciei ipsius cognoscibilis. Naturale enim habeo lumen, quod sufficit ad cognoscendum quod parentes sunt honorandi et quod proximi non sunt laedendi ; non tamen habeo naturaliter mihi impressam speciem patris vel speciem proximi.</p>
+ 
+          <p xml:id="bb-l2d39a1q2-d1e254">His visis, plana est responsio ad quaestionem propositam et etiam ad obiecta. Concedo enim quod conscientia dicit habitum quodam modo innatum, videlicet ratione illius luminis super nos signati, quod quidem ostendit nobis bona, et quod est seminarium aliorum habituum acquirendorum ; et sic currunt rationes ad primam partem inductae. Concedo nihilominus quod conscientia dicit quodam modo habitum acquisitum, videlicet ratione specierum ipsorum cognoscibilium, sicut ostendunt tres primae rationes ad secundam partem inductae. Concedo etiam quod dicit habitum quodam modo acquisitum respectu specialium operabllium, sicut tres aliae rationes ostendunt.
+Si qua autem sunt cognoscibilia, quae quidem cognoscantur per sui essentiam, non per speciem ; respectu talium poterit dici conscientia esse habitus simpliciter innatus, utpote respectu huius quod est Deum amare et Deum timere. Deus enim non cognoscitur per similitudinem a sensu acceptam, immo Dei notitia naturaliter est nobis inserta, sicut dicit <name ref="#Augustine">Augustinus</name>. Quid aptem sit amor et timor, non cognoscit homo per similitudinem exterius acceptam, sed per essentiam ; huiusmodi enim affectus essentialiter sunt in anima.
+</p>
+          <p xml:id="bb-l2d39a1q2-d1e260">
+    Ex his patet responsio ad illam quaestionem, qua quaeritur, utrum omnis cognitio sit a sensu. Dicendum est quod non. Necessario enim oportet ponere quod anima novit Deum et se ipsam et quae sunt in se ipsa sine adminiculo sensuum exteriorum. Unde, si aliquando dicat <name ref="#Aristotle">Philosophus</name>, quod <quote xml:id="bb-l2d39a1q2-Qd1e265">nihil est in intellectu, quod prius non fuerit in sensu</quote> et quod <quote xml:id="bb-l2d39a1q2-Qd1e268">omnis cognitio habet ortum a sensu</quote>, intelligendum est de illis quae quidem habent esse in anima per similitudinem abstractam ; et illa dicuntur esse in anima ad modum scripturae. Et propterea valde notabiliter dicit <name ref="#Aristotle">Philosophus</name> quod in anima nihil scriptum est, non quia nulla sit in ea notitia, sed quia nulla est in ea pictura vel similitudo abstracta. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, in libro De civitate Dei : <quote xml:id="bb-l2d39a1q2-Qd1e278" source="http://scta.info/resource/adcd-l11">Inseruit nobis Deus naturale iucatorium, ubi quid sit lucis, quid tenebrarum, cognoscitur in libro lucis, qui veritas est, quia veritas in corde hominum naturaliter est impressa</quote>.
+   </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35a2q3">
+        <head xml:id="bb-l2d35a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d35a2q3-Hd1e111" type="question-title">Utrum modus, species et ordo per malum possint totaliter corrumpi</head>
+ 
+        <p xml:id="bb-l2d35a2q3-d1e114">Tertio quaeritur, utrum per malum contingat haec tria corrumpi totaliter.</p> 
+        <div xml:id="bb-l2d35a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d35a2q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d35a2q3-d1e122">Et quod non, videtur : Per <name ref="#Augustine">Augustinum</name>, in Enchiridio : <quote xml:id="bb-l2d35a2q3-Qd1e127">Bonum minui malum est, quamvis, quantumcumque minuatur, aliquid remaneat</quote>. Ergo per culpam nunquam aufertur totum bonum, quod per malum corrumpitur ; sed tale bonum attenditur in modo, specie et ordine : ergo etc.</p>
+          <p xml:id="bb-l2d35a2q3-d1e131">Item, <name ref="#Augustine">Augustinus</name>, in libro De natura boni loquens de his tribus : <quote xml:id="bb-l2d35a2q3-Qd1e136">Ubi haec magna sunt, magnum bonum est ; ubi parva, parvum ; ubi nulla nullum</quote>. Ergo, si per culpam totaliter fieret horum trium ademptio, fieret peccantis annihilatio ; sed hoc est impossibile quod anima peccando annihiletur : ergo impossibile est quod ista tria totaliter corrumpantur.</p>
+          <p xml:id="bb-l2d35a2q3-d1e140">Item, malum, si malum est, aliquid adimit ; sed impossibile est quod aliquis tot mala faciat et tantum peccet quin adhuc possit peccare : ergo nunquam tantum peccat quin adhuc inveniat in eo culpa aliquod bonum quod possit adimere. Sed hoc bonum consistit in modo, specie et ordine ; ergo etc.</p>
+          <p xml:id="bb-l2d35a2q3-d1e143">Item, de nemine desperandum est, dum est in via : ergo, quantumcumque peccet, adhuc habilitatem habet bene faciendi ; sed quamdiu habet habilitatem bene faciendi, adhuc habet aliquod bonum, quod malum potest corrumpere ; et si hoc, habet modum, speciem et ordinem : ergo nunquam ista corrumpuntur totaliter per malum culpae.</p>
+          <p xml:id="bb-l2d35a2q3-d1e147">Item, demus quod in, aliquo corrumpantur totaliter, tunc quaeritur : aut ille desinit esse aut non. Si sic, ergo per peccatum contingit corrumpere substantiam immortalem et incorruptibilem, animam scilicet rationalem ; quod est impossibile. Si autem non desinit esse, aut ergo potest peccare aut non potest. Si potest peccare, ergo aliquod bonum potest perdere ; et si hoc, adhuc habet aliquid de habilitate et modo et specie et ordine, quae corrumpuntur per malum culpae. Si non potest, et substantia rationalis, quae non potest peccare, habens liberam voluntatem, melior est illa quae potest peccare, quia Deo similior est : ergo per multitudinem peccatorum perveniret homo ad statum meliorem. Sed hoc est falsum et impossibile : ergo et illud ex quo sequitur, videlicet quod modus, species et ordo totaliter adimantur per peccatum.</p>
+  
+          <p xml:id="bb-l2d35a2q3-d1e150">Sed contra : Omne illud a quo fit ademptio et ablatio, si non est infinitum, aliquando totaliter est ademptum ; sed omne bonum quod est in anima, sive sit habilitas sive potentia, finitum est : ergo si per malum culpae tollitur et adimitur, necesse est quod aliquando totaliter adimatur.</p>
+          <p xml:id="bb-l2d35a2q3-d1e153">Item, si tantum malum adimit tantum de bono, ergo maius malum malus adimit, et duplo malum duplo adimit ; sed nullum est peccatum ita magnum quin adhuc possit esse maius : ergo, si unum parvum peccatum adimit aliquid de bono, possibile est quod anima committat ita magnum peccatum quod totaliter amittat bonum, quod per peccatum privatur.</p>
+          <p xml:id="bb-l2d35a2q3-d1e156">Item, quantacumque corporali quantitate data, quantumcumque modicum inde auferatur, utpote si a mari auferatur gutta aquae, contingit inteliigere quod aliquando totum auferatur. Ergo pari ratione videtur in quantitate virtutis quod quantumcumque parum aufertur per malum, si homo peccet continue, aliquando totum erit consumtum.</p>
+          <p xml:id="bb-l2d35a2q3-d1e159">Item, sicut se habet gratia ad pronitatem, sic se habet culpa ad bonam habilitatem ; sed gratia adeo potest crescere quod omnino aufert pronitatem, sicut patet in Christo et beata Virgine, in quibus fuit tanta gratia, quod nulla fuit in eis ad malum pronitas : ergo pari ratione videtur quod adeo potest crescere culpa quod totaliter perdatur ad bonum habilitas.</p>
+          <p xml:id="bb-l2d35a2q3-d1e162">Item, sicut status gloriae confirmat in bono, ita status damnationis confirmat in malo : ergo sicut per gloriam redditur homo impossibilis ad malum, ita per damnationem aeternam redditur impossibilis ad bonum ; sed ubicumque est ad bonum impossibilitas, ibi nulla est ad bonum habilitas : si ergo habilitas ad bonum est illud quod adimitur per peccatum et cuius modus, species et ordo tollitur per culpam, videtur quod haec aliquando totaliter sint adempta.</p>
+        </div>
+        <div xml:id="bb-l2d35a2q3-Dd1e166">
+          <head xml:id="bb-l2d35a2q3-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d35a2q3-Hd1e171" type="question-title">Habilitas voluntatis ad bonum, et in ea modus, 
+    species et ordo per culpam semper minui, 
+    sed nunquam totaliter tolli possunt.</head>
+          <p xml:id="bb-l2d35a2q3-d1e174">Respondeo : Dicendum quod absque dubio per malum culpae non contingit omnino removere et privare habilitatem voluntatis ad bonum nec modum, speciem et ordinem, quae secundum illam attenduntur. Et hoc manifeste apparet, quia nunquam voluntas potest esse sine naturali habilitate et aptltudine ad bonum. Sicut ergo non potest voluntas peccando desinere esse, sic non potest totam habilitatem illam perdere et modum et speciem et ordinem, quae secundum illam attenduntur, totaliter amittere. Et hoc quidem dicit <name ref="#Augustine">Augustinus</name> expresse et communiter consentiunt in hoc omnes doctores.
+Sed qualiter per peccatum habilitas illa continue adimatur et nunquam finiatur sive consuriiatur, difficile est assignare ; et super hoc diversi senserunt diversimode.</p>
+ 
+          <p xml:id="bb-l2d35a2q3-d1e180">Quidam enim dicere voluerunt quod illa habilitas nunquam totaliter tollitur, pro eo quod, etsi sit finita in se, est tamen ordinabilis ad infinitum bonum et ad infinitos actus ; et ideo nunquam potest tolli nec per peccati magnitudinem nec per peccati multitudinem.
+Sed iste modus dicendi non satisfacit : Nam habilitas, quantumcumque diminuatur per peccatum, adhuc est ad infinitum bonum, adhuc etiam est ad infinitos actus : ergo ex illa parte ita magna est sicut prius erat : ergo in nullo est diminuta. Ergo ordinatio ad boni infinitatem vel ad actuum multitudinem nihil facit ad illius habilitatis diminutionem, immo potius ex hoc posset argui quod nullo modo minuitur, cum infinitum non sit minus infinito ex ea parte qua infinitum.</p>
+ 
+          <p xml:id="bb-l2d35a2q3-d1e183">Et propterea alii dixerunt aliter, quod illa habilitas, etsi semper diminuatur, nunquam totaliter tollitur, quia divisibilis est in infinitum. Sicut enim in corporalibus quantitas molis divisibilis est in infinitum et nunquam potest adeo per divisionem diminui quin adhuc possit minor effici, sic in spiritualibus habilitas potentiae, quae est quantitas virtutis, nunquam potest per peccatum adeo parva effici quin adhuc possit minor fieri ; et hoc nihil prohibet quod aliquid sit finitum actu et infinitum divisione et ita quod sit semper diminuibile et nunquam totaliter consumtibile.
+Sed nec iste modus dicendi satisfacit. Nam, quamvis continuum sit divisibile in infinitum, tamen nunquam est continuum aliquod ita magnum, quodsi diminuatur diminutione quantumcumque parva et postmodum consequenter fiat ablatio partis ita parvae sicut prius et sic consequenter procedendo, quin aliquando totum consumatur : sicut patet, si a monte auferretur ita modicum sicut est unus atomus. Ergo, si malum aliquid tollit de illa habilitate, cum non sint ibi infinita tanta, aliquando erit totaliter consumta. Si tu dicas quod hoc verum esset, si in sequenti culpa tantum adimeretur sicut in prima ; nunc autem non est sic, quia semper minus et minus adimitur, et ita nunquam finitur - si quis enim in diminuendo acciperet millesimam partem diminuibilis et posmodum millesimam partem residui et sic procedendo, nunquam totaliter tolleret - si, inquam, hoc modo dixeris, non satisfacis, pro eo quod maior culpa plus tollit de bono ; et minorem culpam praecedentem potest subsequi maior culpa, et sic consequenter procedendo. Ergo semper potest fieri maior et maior ademptio, et ita necessario aliquando poterit fieri illius totius boni consumtio.</p>
+ 
+          <p xml:id="bb-l2d35a2q3-d1e187">Et ideo dixerunt aliqui aliter, videlicet quia, quod illa habilitas semper minuitur et nunquam finitur, hoc venit ex hoc quod est durabilis et continuabilis in infinitum, quamvis sit actu finita. Unde sicut aqua, quae est in fonte scaturiente, actu finita est, nunquam tamen potest tantum exhauriri quin semper remaneat, propter hoc quod est ibi virtus continue influendi : sic et in proposito dicunt se habere, quod ipsa habilitas ad bonum ortum habet a libertate voluntatis ; et quantumcumque voluntas se actu dehabilitet, quia tamen semper remanet libera, semper potest se ad bonum habilitare. Et ideo, sicut si aliquis subtraheret radios soli illuminanti, sol posset continue radios suos restaurare, quamvis habeant actualiter finitatem, sic et in proposito dicunt se habere. Et ideo, cum peccatum non possit ipsam voluntatem, quae est radix et principium illius habilitatis, perimere, et voluntas semper possit illam habilitatem continuare, malum culpae nunquam potest eam totaliter consumere, quamvis aliquo modo possit diminuere.
+Sed nec iste modus dicendi satisfacit. Nam, si ideo habilitas non finiretur propter hoc quod continue restauratur, sic duo sequerentur inconvenientia, quorum unum esset quod nec habilitas minueretur nisi ad tempus, sicut nec aqua fontis ; aliud esset quod homo posset resurgere a peccato per se ipsum, si illam habilitatem posset voluntas sine gratia restaurare et restaurando continuare.</p>
+ 
+          <p xml:id="bb-l2d35a2q3-d1e190">Et propterea est quartus modus dicendi, videlicet quod habilitas semper potest minui et nunquam totaliter consumi, et hoc quia est elongabitis a rectitudine in infinitum. Sicut enim linea curva potest infinities elongari a rectitudine, id est, nunquam tantum elongari quin adhuc possit magis, sic, cum malum corrumpat habilitatem elongando ipsam a rectitudine, pro eo quod ipsum malum sive malitia est curvitas et intensio in malo est per recessum a bono, habilitas illa nunquam adeo diminuitur quin adhuc possit magis diminui, quia nunquam adeo elongatur quin magis possit elongari, et nunquam adeo curvatur quin possit magis curvari ; et ideo semper potest per malum diminui et nunquam totaliter tolli.
+Hic autem modus dicendi inter ceteros praedictos magis videtur esse rationabilis, pro eo quod fundatur super modum adimendi ipsius mali. Corrumpit enim, sicut dictum est, per elongationem a bono, sicut <name ref="#Augustine">Augustinus</name> dicit et <name ref="#Lombard">Magister</name> in fine distinctionis recitat in littera.</p>
+ 
+          <p xml:id="bb-l2d35a2q3-d1e199">Ad huius igitur modi intelligentiam ampliorem habendam notandum est quod culpa sic corrumpit et diminuit habilitatem illam sicut ei opponitur. Sed non opponitur illi habilitati secundum id quod est, ut praedictum est supra sive prout fundatur in natura, sed secundum id ad quod est, id est, prout ordinatur ad gratiam. Et ideo nunquam corrumpit eam nec minuit ita quod aliquam partem sui auferat secundum id quod est, sed quia deordinat ab eo ad quod est ; ac per hoc sic minuit, quod relinquit, et ideo sic corrumpit, quod nunquam totaliter tollit. Unde, sicut dicit <name ref="#Lombard">Magister</name> quod concupiscentia ex usu caritatis continue minuitur et nunquam finitur, quia caritas non opponitur ipsi concupiscentiae secundum radicem suam et secundum id in quo radicatur, sed secundum id ad quod inclinat, sic intelligendum est esse in proposito.
+Et illud melius manifestatur, si sumatur exemplum in terminis. Habilitas enim illa, quam dicimus diminui, non est aliud quam idoneitas animae ad suscipiendum gratiam et ad cooperandum gratiae iam susceptae. In hoc igitur dicitur culpa illam habilitatem minuere, quod reddit animam minus idoneam ad utrumque. Dum enim homo peccat, Deum offendit, et ex hoc efficitur indignus et ineptus ad suscipiendum gratiam Dei. In hoc etiam quod peccat, pronus ad malum redditur, et in hoc efficitur ineptus ad opera virtutum.
+Sed planum est illud, quod nunquam est aliquis adeo indignus gratia Dei quin adhuc possit esse indignior, quia nunquam tantum offendit quin adhuc possit offendere ; nunquam est adeo indignus quin, quamdiu est in statu viae, sit susceptibilis gratiae ; et ita nunquam ex illa parte efficitur inhabilis in summo ad susceptionem gratiae.
+Similiter ex parte pronitatis nullus est adeo pronus quin possit adhuc magis pronus effici, pro eo quod voluntas semper est libera ; et ideo nunquam pronitas in voluntate potest fieri necessitas. Et ita potest homo semper fieri magis ac magis pronus et magis ineptus ad cooperandum gratiae. Et per hoc ex neutra parte totaliter dehabilitatur. Et sic patet quod habilitas illa per culpam semper potest minui et nunquam totaliter tolli. Et ratio huius est, quia non minuitur alicuius partis ablatione, sed elongatione, non secundum id quod est, sed secundum id ad quod est. Hoc enim modo illi habilitati opponitur, et ideo per hunc modum ab ea deminuitur.
+Concedendae sunt igitur rationes quae hoc ostendunt. Ad rationes ad oppositum satis plana est responsio.</p>
+        </div>
+        <div xml:id="bb-l2d35a2q3-Dd1e207">
+          <head xml:id="bb-l2d35a2q3-Hd1e209">Ad rationes</head>
+          <p xml:id="bb-l2d35a2q3-d1e212">1-3. Nam quod obicit primo et secundo et tertio per hoc solvitur, quia illae tres rationes ex malo intellectu diminutionis procedunt. Arguunt enim ac si habilitas minueretur secundum id quod est et eius pars aliquota tolleretur ; hoc autem non est sic, sed per elongationem, ut dictum est. Et ideo nunquam potest tot peccatis dehabilitari quin adhuc possit magis pluribus, nec etiam tanto peccato quin adhuc maiori. Et ideo dicit <name ref="#Dionysius">Dionysius</name> quod malum est infinitum, non quia aliquod sit malum summum, quo nihil possit esse peius, sed quia non est aliquod ita malum quin adhuc possit esse peius. Et ideo per quuntumcumque malum nunquam adimitur habilitas secundum totum, Quamvis enim sit finita, modus tamen adimenti ipsam protendit se usque in infinitum, non infinitate actuali, sed potentiali, qua scilicet dicimus quod curvum a recto in infinitum potest recedere.</p>
+
+          <p xml:id="bb-l2d35a2q3-d1e218">Ad illud vero quod obicitur, quod gratia totaliter tollit concupiscentiam, dicendum quod quaedam est gratia, quae opponitur ipsi concupiscentiae secundum id quod est ; quaedam vero, quae opponitur ipsi solum secundum id ad quod est. Et prima est quaedam gratia gratis data et totaliter potest tollere concupiscentiam, dum sanat et reintegrat naturam vitiatam. Alia vero est gratia gratum faciens ; et de hac dicit <name ref="#Augustine">Augustinus</name> quod, quamvis diminuat concupiscentiam, nunquam tamen finit eam ; et huic gratiae assimilatur culpa respectu habilitatis, non alteri. Nam, sicut dictum est, nqn opponitur illi habilitati secundum se sive secundum id in quo est, sed secundum id ad quod est.</p>
+          <p xml:id="bb-l2d35a2q3-d1e224">Ad illud quod obicitur, quod gloria reddit impossibilem ad malum, dicendum quod etiam poena reddit impossibilem ad bonum ; sed tamen aliter et aliter, quia gloria reddit impossibilem ad malum in hoc quod in ea aufertur radix mali, scilicet ipsa concupiscentia, et datur plenitudo boni. Damnatio vero aeterna reddit impossibilem ad bonum, non quia ibi sit plenitudo omnis mali, nec etiam quia auferatur naturalis aptitudo ad bonum, sed quia aufertur merendi spatium et Deus amplius non offert gratiam iuvantem ad bonum. Et ideo illa impossibilitas non dicitur per privationem habilitatis omnimodam, sed potius propter bene faciendi impedimenta. Unde, si aliquis damnatus ad statum viae reduceretur, nulla sibi habilitate collata, de novo habilitatem haberet ad susceptionem gratiae. Et propterea, quamvis ordinatio habilitatis impediatur, tamen habilitas nunquam totaliter tollitur.
+Esto autem quod concederetur quod tolleretur in inferno, adhuc tamen non sequeretur quod totaliter, tolleretur per peccatum. Nulla : enim culpa ponit hominem extra statum viae ; et ideo nec aufert homini habilitatem ad susceptionem gratiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

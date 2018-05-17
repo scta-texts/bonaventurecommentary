@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d33a3q1">
+        <head xml:id="bb-l2d33a3q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d33a3q1-Hd1e111" type="question-title">Utrum parvuli decedentes in solo originali puniantur poena ignis materialis.</head>
+ 
+        <p xml:id="bb-l2d33a3q1-d1e114">Circa primum sic proceditur et quaeritur, utrum parvuli decedentes in solo originali puniantur poena ignis materialis.</p>
+        <div xml:id="bb-l2d33a3q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d33a3q1-Hd1e119">Rationes principales</head>
+   
+          <p xml:id="bb-l2d33a3q1-d1e122">Et quod sic, videtur : <name ref="#Augustine">Augustinus</name>, De fide ad Petrum : <quote xml:id="bb-l2d33a3q1-Qd1e127">Firmissime tene parvulos, qui sine Sacramento baptismatis de hoc saeculo transeunt, aeterni ignis supplicio sempiterno puniendos</quote>.</p>
+          <p xml:id="bb-l2d33a3q1-d1e131">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d33a3q1-Qd1e136">Quisquis ita vivere incipit, ut ante finiat vitam quam ab eius, scilicet originalis, obligatione solvatur, si unius diei vel unius horae spatio anima vixit in corpore, necesse est eum cum eodem corpore Interminabilia gehennae supplicia sustinere</quote>. Ex hoc expresse colligitur quod originali non tantum debetur carentia visionis Dei, sed etiam poena ignis.</p>
+          <p xml:id="bb-l2d33a3q1-d1e140">Item, hoc ipsum videtur ratione. Parvuli in hac vita multas sustinent afflictiones et poenalitates ; aut ergo iuste aut iniuste. Non iniuste, hoc constat, quia omnis poena iusta est. Si iuste, ergo meretur hoc originalis culpa. Si ergo culpa non debet remanere impunita et originale meretur poenam sensus, videtur quod parvuli poena sensibili crucientur.</p>
+          <p xml:id="bb-l2d33a3q1-d1e143">Item, illud est magis dignum puniri, in quo magis residet causa peccati : per quae enim quis peccat, per illa debet torqueri ; sed traductio et causa originalis peccati maxime residet penes carnem : ergo videtur quod illa potissime debet puniri. Si ergo anima merito illius culpae digna est Dei visione privari, multo fortius caro digna est aeternis suppliciis cruciari.</p>
+          <p xml:id="bb-l2d33a3q1-d1e147">Item, parvulis non restituentur corpora dotata : habebunt igitur corpora passibilia ; sed omne passibile necesse est aliquando pati vel ab extrinseco vel ab intrinseco, maxime cum approximatur agenti activo : ergo videtur quod parvulorum corpora aliquando patientur et affligentur.</p>
+
+ 
+          <p xml:id="bb-l2d33a3q1-d1e150">Sed contra : <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-l2d33a3q1-Qd1e155">Mitissima sane eorum erit poena, qui praeter peccatum, quod originaliter traxerunt, nullum insuper addiderunt</quote>. Sed, si parvuli carerent visione Dei et punirentur igne materiali, non haberent mitissimam poenam ; si igitur nemo dubitat eos visione Dei privandos, videtur nullo modo esse ponendum ipsos corporali supplicio puniendos.</p>
+          <p xml:id="bb-l2d33a3q1-d1e159">Item, <name ref="#Lombard">Magister</name> in littera, capitulo Alioquin : Pro originali peccato, quod a parentibus parvuli traxerunt, nullam aliam materialis ignis vel conscientiae vermis poenam sensuri sunt, nisi quod Dei visione carebunt in perpetuum.</p>
+          <p xml:id="bb-l2d33a3q1-d1e165">Item, hoc ipsum videtur ratione. Iniustum est plus exigere in poena quam commissum est in culpa. Si ergo parvulus nullo actu suo divinum contempsit imperium, videtur quod nullum debetur sibi aeternale tormentum.</p>
+          <p xml:id="bb-l2d33a3q1-d1e168">Item, acerbitas poenae respondet quantitati delectationis, iuxta illud Apocalypsis [18, 7] : Quantum glorificat se et in deliciis ; sed anima, quae coniuncta fuit corpori parvuli infirmanti et debili, nullam delectationem inordinatam in corpore sensit : ergo non videtur quod sibi debeatur acerbitas poenae sensibilis.</p>
+          <p xml:id="bb-l2d33a3q1-d1e171">Item, horribilius est continue et aeternaliter in tormentis esse quam omnino non esse. Si ergo Deus animam, quam creavit sine perpetratione alicuius peccati, aeternis suppliciis deputaret, nullum videretur sibi beneficium praestare nec misericordia simul cum iustitia curreret. Quodsi hoc est inconveniens dicere apud Patrem misericordiarum, videtur etc.</p>
+        </div>
+        <div xml:id="bb-l2d33a3q1-Dd1e175">
+          <head xml:id="bb-l2d33a3q1-Hd1e177">Conclusio</head>
+          <head xml:id="bb-l2d33a3q1-Hd1e180" type="question-title">Parvuli decedentes in peccato originali non sentiunt 
+    poenae ignis acerbitatem, privantur tamen Dei visione 
+    et ponuntur in loco vili.</head>
+    
+          <p xml:id="bb-l2d33a3q1-d1e183">Respondeo : Ad praedictorum intelligentiam est notandum, quod hic duplex est opinio.</p>
+ 
+          <p xml:id="bb-l2d33a3q1-d1e186">Quidam enim, attendentes rigorem divinae Iustitiae ac sententiae, qua Deus hominem pro uno modico mortali, in quo momentanea et quasi nulla fuit delectatio, cruciat aeternaliter, dicunt quod parvuli cremabuntur igne materiali, longe tamen minus quam illi qui peccaverunt peccato actuali. Et hoc dicunt sensisse <name ref="#Augustine">Augustinum</name>, cum dixit, in Enchiridio, <quote xml:id="bb-l2d33a3q1-Qd1e191">poenam parvulorum esse mitissimam</quote>, et in libro De fide ad Petrum : <quote xml:id="bb-l2d33a3q1-Qd1e194">Parvuli cruciabuntur aeterno supplicio</quote>. Mitissimam enim illam vocat poenam non absolute, sed respectu aliorum. Nec in hoc derogatur, ut dicunt, divinae misericordiae, quamvis plus manifestetur iustitiae quam misericordiae, pro eo quod minus malum est in tali poena esse quam omnino non esse, cpm non sit ibi tanta boni privatio, sicut manifestat <name ref="#Augustine">Augustinus</name>, in libro De libero arbitrio. Et hoc dicunt esse conveniens, ut, sicut in originali peccato erat carentia debitae iustitiae et concupiscentia, sic etiam in poena esset carentia visionis Dei et afflictio ignis aeterni.</p>
+ 
+          <p xml:id="bb-l2d33a3q1-d1e201">Sed, cum valde durum illud dicere videatur quod Deus tam dure et tam aspere agat cum parvulis sic decedentibus, qui omnino non potuerunt vitare nec mortem culpae nec mortem naturae, praesertim cum videamus Deum cum impiissimis et sceleratissimis peccatoribus in multis misericorditer agere : ideo est alia positio mitior, quae magis concordat pietati fidei et iudicio rationis, quod, quia parvuli dededentes cum originali carent iustitia et Spiritus sancti gratia, quae est pignus hereditatis aeternae, privantur in aeternum visione Dei ; quia vero in carne fuit foeditas, ideo ponuntur in loco vili, utpote infernali ; sed quia non habuerunt in se actualem delectationem peccati nec in spiritu nec in carne, ideo non sentiunt poenae ignis acerbitatem.
+Hunc modum dicendi magis approbant magistri communiter ; et ideo ipsum sustinendo secundum opinionem. <name ref="#Lombard">Magistri</name>, sicut patet in littera, rationes, quae ad hanc partem inducuntur, concedo.
+</p>
+        </div>
+        <div xml:id="bb-l2d33a3q1-Dd1e209">
+          <head xml:id="bb-l2d33a3q1-Hd1e211">Ad rationes</head>
+
+          <p xml:id="bb-l2d33a3q1-d1e214">1-2. Ad illud ergo quod primo obicitur in contrarium de verbis <name ref="#Augustine">Augustini</name>, dicendum quod <name ref="#Augustine">Augustinus</name> in verbis illis non intendit dicere quod parvuli sensibiliter crucientur ; sed intendit eorum poenam manifestare quantum ad carentlam visionis Dei et quantum etiam ad vilitatem loci. Et hoc valde abundanter exprimit, plus dicens et minus volens intelligi. Nec sine causa loquitur sic. Hoc enim facit ad exstirpandam illam haeresim, quae dicebat parvulos nulla poena puniri. Unde sicut in moribus documentum est quod qui vult ab uno extremorum pervenire ad medium, quasi debet declinare ad aliud extremum, sicut docet <name ref="#Aristotle">Philosophus</name>, sic etiam beatus <name ref="#Augustine">Augustinus</name>, ut illam haeresim exstirparet, quae dicebat parvulos ab omni poena immunes, et ad medium reduceret, videlicet ad poenam carentiae visionis Dei, simpliciter asseruit eos cum aliis peccatoribus aeternaliter damnari. Istum autem suum intellectum explanavit, in Enchiridio, ubi dixit poenam eorum esse mitissimam, sicut dicit <name ref="#Lombard">Magister</name> in littera.</p>
+
+          <p xml:id="bb-l2d33a3q1-d1e232">Ad illud quod obicitur, quod parvuli multas poenalltates sustinent in hac vita, dicendum quod, etsi temporaliter puniri pro peccato originali sit iustum, non tamen sequitur quod aeternaliter. Et ralio huius est, quia poenae temporales non tantum sunt punitivae, sed etiam promotivae ; unde Deus non tantum affligit inimicos suos, verum etiam amicos, sicut patet in Tobia et Iob ; et ideo in afflictione temporali severitati iustitiae coniuncta est benignitas misericordiae quae duo eleganter reperiri debent in omni Dei punitione et remuneratione. Sic autem non contingeret in poena aeterna reperire ; hoc enim pure esset de rigore iustitiae, si animas parvulorum ignis gehennalis supplicio cruciaret.</p>
+          <p xml:id="bb-l2d33a3q1-d1e235">Ad illud quod obicitur, quod in carne maxime residet causa peccati, dicendum quod, etsi causa peccati quoquo modo resideat in carne, hoc est per modum cuiusdam habitus, non per modum actus. Unde caro non facit animam parvuli concupiscentem, sed concupiscibilem ; et propter hoc nec ipsa nec anima in ipsa debet actuali combustione ignis torqueri ; sed sicut anima privatur visione Dei, sic etiam caro privatur stola sua et in loco vili et tenebroso ponitur, cum collocanda esset in caelo empyreo, si a talis foeditatis corruptione fuisset sanata per baptismi efficaciam.</p>
+          <p xml:id="bb-l2d33a3q1-d1e238">Ad illud quod obicitur, quod parvuli non habent corpora dotata, sed potius passibilia, dicendum, quod aliquid non pati ab aliquo dupliciter contingit : aut ex virtute quam habet in se aut ex ordine divinae iustitiae. Dico igitur, quia, quod corpora parvulorum sint passione carentia, hoc non est propter virtutem quam habeant resistendi in se, sed potius propter ordinem divinae iustitiae, secundum cuius regulam ignis infernalis agere habet, cum sit instrumentum divinae iustitiae. Unde sicut idem ignis magis cruciat maiorem peccatorem quam minorem, sic in eodem igne patiuntur corpora eorum qui peccaverunt peccato actuali. Parvulorum vero corpora, etiam si in ipsis ignibus infernalibus volutentur, passionem non sentiunt, et tamen non habent impassibilitatis dotem, quia non superant vim ignis per hoc quod habent a propria virtute. Et si tu obicias mihi quod debent pati passione veniente ab intrinseco, utpote fame et siti, cum non habeant corpora impassibilia et immortalia, dicendum quod sicut damnatorum corpora, cum sit passibilia et defectibilia, tamen divina virtute sustentante perpetuantur in vita, ut ab ignibus non consumantur, sic et parvulorum corpora eadem virtute divina in vita continuantur, ut non indigeant cibo nec potu ; nec tamen habent illam firmitatem et soliditatem, quam habebunt corpora gloriosa.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

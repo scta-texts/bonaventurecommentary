@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d36a1q2">
+        <head xml:id="bb-l2d36a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d36a1q2-Hd1e111" type="question-title">Utrum passiones animae poenae tantum sint, an poenae simul et peccata.</head>
+ 
+        <p xml:id="bb-l2d36a1q2-d1e114">Secundo quaeritur, utrum passiones animae sint poenae tantum an poenae simul et peccata.</p> 
+        <div xml:id="bb-l2d36a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d36a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d36a1q2-d1e122">Et quod sint poenae et peccata, videtur. Omne illud, pro quo quis meretur mortem aeternam, est peccatum ; sed pro passionibus animae meretur quis mortem aeternam, Matthaei 5, 22 : <quote xml:id="bb-l2d36a1q2-Qd1e124" ana="#mt5_22">Qui irascitur fratri suo reus erit gehennae ignis</quote> : ergo ira, quae est passio animae, est culpa ; pari ratione et aliae passiones animae.</p>
+          <p xml:id="bb-l2d36a1q2-d1e128">Item, omne illud, quod directe repugnat virtuti, est culpa ; sed ira et invidia et aliae passiones animae repugnant virtutibus : ergo etc.</p>
+          <p xml:id="bb-l2d36a1q2-d1e131">Item, omne illud, quod est contra rationem rectam, est culpa ; sed passio animae, <quote xml:id="bb-l2d36a1q2-Qd1e133">quae est dolor de alieno bono</quote> est contra rationem rectam, quae de illo iudicat esse gaudendum : ergo etc.</p>
+          <p xml:id="bb-l2d36a1q2-d1e137">Item, illud maxime tenet rationem culpae quod maxime est impugnativum gratiae ; sed invidentia gratiae fraternae maxime repugnat gratiae Spiritus Sancti : ergo, cum haec sit passio animae et poena, videtur quod passiones animae sint peccata.</p>
+          <p xml:id="bb-l2d36a1q2-d1e141">Item, ad hoc ipsum est ratio <name ref="#Augustine">Augustini</name>, in libro 83 Quaestionum. Arguit enim sic : <quote xml:id="bb-l2d36a1q2-Qd1e146" source="http://scta.info/resource/a83-q77">Omnis perturbatio est passio</quote> ; omnis cupiditas est perturbatio : ergo omnis cupiditas est passio. Sed planum est quod cupiditas est culpa : ergo peccatum est passio et e converso ; redit igitur idem quod prius.</p>
+
+ 
+          <p xml:id="bb-l2d36a1q2-d1e150">Sed contra : <quote xml:id="bb-l2d36a1q2-Qd1e152">In omni peccato, sicut vult <name ref="#Augustine">Augustinus</name>, in libro De libero arbitrio, regnat libido</quote> ; ubicumque autem regnat libido, ibi est improba delectatio : ergo omne peccatum, in quantum peccatum, delectat. Sed huiusmodi passiones animae eam puniunt et contristant : ergo videtur quod non sint peccata.</p>
+          <p xml:id="bb-l2d36a1q2-d1e159">Item, omnis culpa actualis est voluntaria ; sed istae passiones animae non sunt voluntariae : ergo non sunt culpa, sed tantum poena.</p>
+          <p xml:id="bb-l2d36a1q2-d1e162">Item, omni culpa vituperamur ; <quote xml:id="bb-l2d36a1q2-Qd1e164">passionibus autem animae non laudamur nec vituperamur</quote>, sicut vult <name ref="#Aristotle">Philosophus</name> : ergo passiones animae non sunt peccata.</p>
+          <p xml:id="bb-l2d36a1q2-d1e171">Item, <quote xml:id="bb-l2d36a1q2-Qd1e173">opposita sunt nata esse in eodem genere</quote> ; sed nulla virtus est passio, cum omnis virtus sit in genere habitus : ergo nullum vitium sive peccatum est passio.</p>
+          <p xml:id="bb-l2d36a1q2-d1e177">Item, in omni peccato est conversio ad commutabile bonum ; in huiusmodi autem passionibus animae, quae sunt invidia, ira, tristitia, potius est taedium boni et aversio quam conversio : ergo tales passione animae non sunt culpae.</p>
+        </div>
+        <div xml:id="bb-l2d36a1q2-Dd1e181">
+          <head xml:id="bb-l2d36a1q2-Hd1e183">Conclusio</head>
+          <head xml:id="bb-l2d36a1q2-Hd1e186" type="question-title">Passiones quaedam animae et poenae et peccata 
+      sunt, quatenus oriuntur vel ex corruptione concupiscentiae, vel ex inordinato amore voluntatis 
+      deliberativae</head>
+      
+          <p xml:id="bb-l2d36a1q2-d1e189">Respondeo : Dicendum quod, sicut expresse dicit <name ref="#Lombard">Magister</name> in littera et probat per auctoritatem <name ref="#Augustine">Augustini</name>, multae sunt passiones animae, quae sunt non solum poenales, verum etiam culpabiles, sicut ira et invidia. Licet autem huiusmodi passiones peccata sint, tamem peccata non sunt in quantum passiones, sicut idem <name ref="#Augustine">Augustinus</name> dicit et habetur in littera : Omnis autem passio, in quantum ipsa aliquis patitur, non est peccatum ; sed huiusmodi passiones peccata sunt ratione inordinationis voluntatis coniunctae vel antecedenter vel consequenter.</p>
+ 
+          <p xml:id="bb-l2d36a1q2-d1e201">Propter quod notandum est quod quaedam est passio illata ab extrinseco, et circa hanc non consistit meritum nec demeritum, nisi in quantum a voluntate respuitur vel acceptatur. Unde occidi pro Christo non est meritorium, nisi in quantum volitum est ab eo qui occiditur. Unde, proprie loquendo, in talibus passionibus passio non est meritoria, sed sufferentia passionis.</p>
+ 
+          <p xml:id="bb-l2d36a1q2-d1e204">Est et alia passio, quae ortum habet, ab intrinseco. Et haec dupliciter potest oriri, quia quaedam oritur ex corruptione naturae, quaedam vero ex conversione voluntatis liberae.
+Et illa quae oritur ex corruptione naturae, in duplici differentia est, quoniam natura corruptae est vitiosa corruptione per concupiscentiam et corrupta est corruptione poenali per mortalitatem inflictam. Illae igitur passiones quae oriuntur ex corruptione naturae, ut est corrupta poenali corruptione, tenent rationem poenae tantum, ut fames et sitis ; illae vero quae oriuntug ab ipsa, ut est corrupta corruptione vitiosa, non tantum habent rationem poenae, sed etiam culpae, sicut sunt inordinatae affectiones animae, quae consurgunt ex morbo concupiscentiae, et tales sunt passiones irae et invidiae et consimiles.</p>
+ 
+          <p xml:id="bb-l2d36a1q2-d1e208">Secundum autem quod huiusmodi passiones oriuntur ex conversione Voluntatis.ad aliquod bonum amabile, sic, secundum quod voluntas habet converti dupliciter, passiones huiusmodi sunt in duplici genere. Voluntas enim aliquando convertitur ad bonum simpliciter, et tunc detestatur et odit quod adversatur illi bono, utpote peccatum ; et hoc modo passiones inde consurgentes sunt iustae et meritoriae.
+Convertitur etiam voluntas aliquando ad bonum proprium et ad bonum ut nunc, et tunc passiones, quae inde consurgunt, culpabiles sunt et malae, sicut et voluntas a qua oriuntur ; sed non habent plenam rationem mali et culpae, nisi quando in voluntate consummantur, utpote cum aliquis vult irasci et invidere et etiam contristari.
+Et sic palet quod huiusmodi passiones animae peccata sunt, et in quantum oriuntur ex corruptione concupiscentiae et in quantum ortum habent ex inordinato amore voluntatis deliberativae.
+Concedendae sunt igitur rationes ostendentes aliquas . passiones animae esse peccata.</p>
+ 
+        </div>
+        <div xml:id="bb-l2d36a1q2-Dd1e213">
+          <head xml:id="bb-l2d36a1q2-Hd1e215">Ad rationes</head>
+
+          <p xml:id="bb-l2d36a1q2-d1e218">Ad illud vero quod obicitur primo in contrarium, quod libido regnat in omni peccato, dicendum quod verum est ; secundum quod libido dicitur improba voluntas, sed non oportet secundum quod libido dicitur immoderata delectatio.
+Nihilominus tamen potest dici quod et in istis peccatis reperitur libido respectu proprii motivi. Nam invidus delectatur in boni singularitate et iracundus delectatur in adeptione vindictae. Immo, quod plus est, sicut vir iustus ex rectitudine voluntatis delectatur dolendo de malo culpae, sic etiam, invidus quamdam refectionem invenit in dolendo de aliena prosperitate, ita quod delectatio est de uno et tristitia est de altero. Quemadmodum enim aliquis, dum amisit illud quod multum dilexit, vehementer tristatur et magna est illi consolatio posse tristari et ibi solum invenit quietem in fletu et dolore, sicut <name ref="#Augustine">Augustinus</name>, in IV Confessionum, dicit de se ; sic invidus in dolendo de bono alieno in illa passione invenit quamdam delectationem in eo quod placet sibi de bono alieno contabescere ; illa tamen delectatio multum est respersa amaritudine.</p>
+
+          <p xml:id="bb-l2d36a1q2-d1e224">Ad illud quod obicitur, quod passiones sunt involuntariae, dicendum quod involuntarium dicitur dupliciter sicut et voluntarium : uno modo dicitur voluntarium, cuius principium est voluntas ; alio modo dicitur voluntarium, quod concomitatur voluntas. Et secundum hunc duplicem modum dupliciter dicitur involuntarium : uno modo, ut dicatur involuntarium, quod non est a voluntate efficiente ; alio modo, ut dicatur involuntarium, quod non fit cum voluntate concomitante. Primo igitur modo accipiendo involuntarium, sic veritatem habet de passionibus quae fiunt ab extrinseco, quia earum principium est extra ; voluntarium autem est cuius principium est in ipso. Non autem habet veritatem in passionibus quae sunt ab intrinseco, sicut prius ostensum est, immo possunt esse voluntariae, non solum sicut a voluntate concomitante, immo sicut a voluntate causante, dum diligit aliquid inordinate.</p>
+          <p xml:id="bb-l2d36a1q2-d1e227">Ad illud quod obicitur, quod passionibus non laudamur nec vituperamur, dicendum quod hoc verum est, per se loquendo ; prout tamen radicem habent ex voluntate, et voluntas concomitatur eis, et laudari possumus et vituperari, sicut prius ostensum est. Ideo ratio illa non concludit quod huiusmodi passiones non sint peccata, sed quod peccata non sint in quantum eis patimur.</p>
+          <p xml:id="bb-l2d36a1q2-d1e230">Ad illud quod obicitur, quod nulla virtus est passio, iam patet responsio. Nam aliqua virtus potest circa passiones consistere ; sicut patientia et fortitudo, prout illae passiones efficiuntur voluntariae. Sic et in proposito intelligendum est esse. Nihilominus tamen potest dici quod, quamvis passio non sit virtus nisi ex actu voluntatis simul coexistentis, potest tamen aliqua passio, in quantum egreditur a natura vitiata et corrupta, esse peccatum. Nec valet illa ratio, cum plura exigantur ad complendum bonum quam ad committendum malum.</p>
+
+          <p xml:id="bb-l2d36a1q2-d1e234">Ad ultimum iam patet responsio. Nam istae passiones oriuntur ex conversione voluntatis ad commutabile bonum, et ideo peccata sunt ; nunquam enim quis invideret alicui, nisi nimis amaret proprium bonum ; et ut vult Damascenus, ira vindex est laesae concupiscentiae ; immo generaliter, sicut ostendit <name ref="#Augustine">Augustinus</name> in XIV De civitate Dei, omnes huiusmodi passiones ortum habent ex amore.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

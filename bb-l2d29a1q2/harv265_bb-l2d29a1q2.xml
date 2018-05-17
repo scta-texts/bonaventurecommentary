@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d29a1q2">
+        <head xml:id="bb-l2d29a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d29a1q2-Hd1e111" type="question-title">Utrum homo in stata naturae institutae potuerit mereri absque dono gratiae.</head>
+ 
+        <p xml:id="bb-l2d29a1q2-d1e114">Secundo quaeritur, utrum homo in statu naturae institutae posset in opus meritorium exire absque dono gratiae.</p> 
+        <div xml:id="bb-l2d29a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d29a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d29a1q2-d1e122">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name>, in libro De natura et gratia : <quote xml:id="bb-l2d29a1q2-Qd1e127">Quis nesciat ita factum hominem ut in eo liberum arbitrium ad iuste vivendum pro possibilitate et capacitate sua constitueretur</quote> ? Ergo videtur quod ex libertate arbitrii naturali posset iuste vivere, ergo et opera meritoria facere.</p>
+          <p xml:id="bb-l2d29a1q2-d1e131">Item, <name ref="#JohnDamascenus">Damascenus</name>: <quote xml:id="bb-l2d29a1q2-Qd1e136" source="http://scta.info/resource/jddfo-l2c30">Manentes in eo quod est secundum naturam, in virtute sumus</quote>. Sed opera virtuosa sunt meritoria : ergo liberum arbitrium, in integritate suae naturae manens, absque omni gratia poterat facere opera meritoria.</p>
+          <p xml:id="bb-l2d29a1q2-d1e140">Item, Dei perfecta sunt opera, et perfectum est aliquid, ut vult <name ref="#Aristotle">Philosophus</name>, cum attingit propriae virtuti. Ergo, si homo perfectus conditus est, poterat exire in operationem, propter quam factus est ; haec autem est operatio per quam pervenitur ad gloriam : ergo etc.</p>
+          <p xml:id="bb-l2d29a1q2-d1e146">Item, in omnibus creaturis, si distant a suo termino ad quem ordinantur, data est virtus, per quam possint ad illum finem pervenire, sicut patet in igne, qui, cum deorsum est, sua levitate potest sursum ferri. Ergo aut liberum arbitrium miserabilius fuit inter ceteras creaturas aut, si aliae creaturae per naturam habent potentiam perveniendi ad suum finem, videtur multo fortius quod et hoc homo posset per virtutem naturae ante statum miseriae.</p>
+          <p xml:id="bb-l2d29a1q2-d1e150">Item, natura nihil facit frustra nec deficit in necessariis ; sed nihil est magis necessarium homini quam illud sine quo non potest beatificari : ergo, cum potestas merendi huiusmodi sit, videtur quod haec inesset ei per naturam, omni gratia circumscripta.</p>
+          <p xml:id="bb-l2d29a1q2-d1e153">Item, circumscripta gratia, intelligamus hominem in statu naturae servare divina mandata ; aut igitur meretur aliquid aut nihil. Si nihil, ergo frustra operatur ; sed frustra operari non potest esse sine aliqua poena ; hoc autem non poterat esse in natura instituta. Si aliquid meretur, cum opus rectum sit ad beatitudinem ordinatum, videtur quod ex puris naturalibus mereri possit praemium aeternum.</p>
+
+ 
+          <p xml:id="bb-l2d29a1q2-d1e156">Contra : Ad Romanos 6, 23 : <quote xml:id="bb-l2d29a1q2-Qd1e158" ana="#rom6_23">Gratia Dei vita aeterna</quote>, et Glossa : <quote xml:id="bb-l2d29a1q2-Qd1e161">Nihil aliud in nobis Deus coronat quam munera sua</quote>. Tam ex textu quam ex Glossa colligitur quod vitam aeternam non contingit mereri absque gratia.</p>
+          <p xml:id="bb-l2d29a1q2-d1e165">Item, Deus nullo modo indiget bonis nostris : ergo, si acceptat bona nostra, hoc non est propter aliquam suam utilitatem, sed, si est, hoc est per meram benignitatem : igitur, nisi divina iustitia condescendat per gratiam, impossibile videtur quod reputet aliquem dignum gloria propter aliqua opera quae faciat.</p>
+          <p xml:id="bb-l2d29a1q2-d1e168">Item, meritum et praemium debent esse proportionabilia ; sed natura, quantum cum que eminens, improportionabilis est et alterius generis est quam sit beatitudo gloriae : igitur impossibile est mereri gloriam per pura naturalia.</p>
+          <p xml:id="bb-l2d29a1q2-d1e171">Item, nobilior est substantia quam operatio ; sed Deus nunquam acceptat hominem absque munere gratiae : ergo nec operationem hominis reputat meritoriam, nisi procedat a libero arbitrio et a gratia.</p>
+
+        </div>
+        <div xml:id="bb-l2d29a1q2-Dd1e175">
+          <head xml:id="bb-l2d29a1q2-Hd1e177">Conclusio</head>
+          <head xml:id="bb-l2d29a1q2-Hd1e180" type="question-title">Homo in statu naturae institutae sine gratia non 
+    poterat facere opus meritorium, protper conditionem tum retribuentis, tum retributionis.</head>
+          <p xml:id="bb-l2d29a1q2-d1e183">Respondeo : Dicendum quod non solummodo gratia necessaria est ad merendum secundum statum naturae lapsae, sed etiam secundum statum naturae institutae, licet secundum statum naturae lapsae magis indigeat liberum arbitrium dono gratiae.
+In statu namque naturae institutae necessaria erat gratia, tum propter conditionem retribuentis, tum etiam propter conditionem retributionis. Propter conditionem retribuentis, quoniam ipse Deus bonorum nostrorum non Indiget ; ideo nec acceptat hominem propter opera nec aliquod meritum obligare potest ipsum secundum rationem dati et accepti. Ideo ad hoc quod aliquod bonum opus creaturae suae ad remunerandum Deo complaceat, necesse est quod ipsius gratuitae bonitatis influentia in operante praecedat, per quam creatura ipsi Creatori grata existat.
+Similiter propter conditionem retributionis impossibile erat liberum arbitrium mereri sine auxilio gratiae gratum facientis, pro eo quod illud praemium, quod meremur, est beatitudo aeterna. Beatitudo aulem aeterna consistit in habendo eum qui est omne et summum bonum et qui est super omnem naturam exaltatus et lucem habitat inaccessibilem ; et ideo impossibile est quod homo merendo ad illud summum bonum ascendat et perveniat, nisi per aliquod adiutorium quod sit ultra naturam.
+Sic igitur homo in statu naturae institutae absque dono gratiae mereri non poterat, tum propter conditionem retribuentis, tum propter conditionem retributionis.
+</p>
+ 
+          <p xml:id="bb-l2d29a1q2-d1e186">In statu vero naturae lapsae non solummodo indiget gratia ad merendum propter has conditiones, sed etiam propter conditionem operantis et operationis meritoriae.
+Operans enim in statu naturae lapsae semper est in peccato et Dei adversarius et inimicus, nisi a peccato relevetur per gratiae donum ; et ideo, quidquid faciat, nisi voluntas eius praeveniatur a gratia, quae Deo reconciliet, nihil meretur merito condigni, pro eo quod Dei est adversarius et inimicus. Deus autem opera non acceptat nisi prius acceptet personam, sicut innuitur Genesis 4, 4 : Respexit Dominus ad Abel et ad munera eius ; prius dicit ad Abel, et postea dicit ad munera.
+Propter conditionem etiam operationis necessaria est gratia, quia nulla est operatio meritoria nisi recta ; et nulla est recta nisi fiat ex recta intentione ; et nulla potest esse recta intentio nisi quae bonum summum omni bono praeponit. Nulla autem intentio potest hoc facere in statu naturae lapsae sine dono gratiae. Et propterea, qualemcumque vel quantamcumque faciat homo operationem absque gratia, non meretur, quia non pensat Deus quantum, sed ex quanto hoc faciat.
+</p>
+          <p xml:id="bb-l2d29a1q2-d1e189">Patet igitur quod multiplex est necessitas gratiae ad merendum, scilicet propter conditiones retribuentis et retributionis, operantis et bonae operationis, ita quod haec quadruplex necessitas concurrit ad statum naturae lapsae et duplex ad statum institutae. Et hoc est quod dicit <name ref="#Lombard">Magister</name> in littera, quod homo indigebat gratia operante et cooperante secundum statum naturae institutae, licet non secundum om nem modum gratiae operantis.</p>
+        </div>
+        <div xml:id="bb-l2d29a1q2-Dd1e197">
+          <head xml:id="bb-l2d29a1q2-Hd1e199">Ad rationes</head>
+          <p xml:id="bb-l2d29a1q2-d1e202">1-2. Ad illud ergo quod obicitur in contrarium de auctoritate <name ref="#Augustine">Augustini</name> et Damasceni, dicendum quod illud dictum est, non quia potestas liberi arbitrii et naturae sit sufficiens in opus meritorium, sed quia natura bene ordinata concordat cum gratia et discordat a culpa.</p>
+          <p xml:id="bb-l2d29a1q2-d1e208">3. Ad illud quod obicitur, quod Dei perfecta sunt opera, dicendum quod est perfectio quantum ad esse primum et est perfectio quantum ad esse secundum. Et perfectio quantum ad esse secundum duplex est. Quaedam enim est quae habet ortum a perfectione secundum esse primum, sicut illa perfectio quae attenditur in accidentibus, quae oriuntur ex principiis subiecti. Est alia perfectio quantum ad esse secundum, quae non causatur a perfectione secundum esse primum, sed potius est supra illud, sicut est perfectio in esse gratuito vel glorioso, quae quidem est in nobis, non ex nobis, sed ex Deo. Cum ergo dicitur quod Dei perfecta sunt opera, hoc intelligitur quantum ad esse primum et quantum ad esse secundum, quod causatur ab illo. Quantum autem ad illud esse secundum quod non causatur a perfectione secundum esse primum, veritatem non habet. Non enim fecit Deus omnes beatos et gloriosos, sed illos solos beatificavit quos praedestinavit conformes fieri imaginis Filii sui ; hoc enim disponit dare per merita tamquam bonum laudabile. Et ratio huius assignata fuit supra, distinctione vigesima septima.</p>
+          <p xml:id="bb-l2d29a1q2-d1e211">4. Ad illud quod obicitur, quod aliae creaturae possunt pervenire in finem ad quem sunt, per virtutem naturae, dicendum quod non est simile, quia finis creaturae rationalis est summum bonum, quod est supra omnem naturam. Finis vero aliarum creaturarum est bonum creatum, quod est infra terminos naturae : ideo creatura rationalis magis indiget dono gratiae, ut possit pervenire in suum finem, quam aliae creaturae.</p>
+          <p xml:id="bb-l2d29a1q2-d1e214">5. Ad illud quod obicitur, quod natura non deficit in necessariis, iam patet responsio ex praedictis. Hoc enim intelligitur de necessariis, quae quidem attenduntur quantum ad esse primum vel quantum ad esse secundum, quod causatur ex principiis naturae. Quantum vero ad illud esse secundum quod est supra naturam, necesse est naturam deficere, et tale est esse gratuitum et gloriosum. Nullum tamen ex hoc fit naturae praeiudicium, quia Deus defectum naturae supplet et semper praesto est, cum se offert tempus et locus, complere et dare quod natura non poterat.</p>
+          <p xml:id="bb-l2d29a1q2-d1e218">6. Ad illud quod ultimo obicitur, utrum homo mereretur aliquid vel nihil, si faceret opera, dicendum quod non mereretur aliquid de condigno, sed de congruo ; et sic merendo disponeret se ad gratiam, et ideo non operaretur frustra.
+Ex praedictis patet quantum humana natura in statu innocentiae eguerit gratia.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

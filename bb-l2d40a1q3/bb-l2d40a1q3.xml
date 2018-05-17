@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d40a1q3">
+        <head xml:id="bb-l2d40a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d40a1q3-Hd1e111" type="question-title">Utram intentio absque bonis operibus sufficiat ad merendum vitam aeternam.</head>
+ 
+        <p xml:id="bb-l2d40a1q3-d1e114">Tertio quaeritur de bonitate operum quantum ad necessitatem, utrum videlicet intentio abque bonis operibus sufficiat ad merendum vitam aeternam.</p>
+        <div xml:id="bb-l2d40a1q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d40a1q3-Hd1e119">Rationes principales</head>
+   
+          <p xml:id="bb-l2d40a1q3-d1e122">Et quod sic, videtur :
+1. <name ref="#Bernard">Bernardus</name>, De libero arbitrio : <quote xml:id="bb-l2d40a1q3-Qd1e127">Intentio sufficit ad meritum, bona actio requiritur ad exemplum</quote>. Ergo videtur quod quantum ad meritum vitae aeternae non sit necessaria bonitas actionis exterioris.</p>
+          <p xml:id="bb-l2d40a1q3-d1e131">2. Item ; super illud Psalmi [31, 5] : <quote xml:id="bb-l2d40a1q3-Qd1e133" ana="#ps31_5">Dixi, confitebor</quote>, Glossa : <quote xml:id="bb-l2d40a1q3-Qd1e136">Votum pro operatione iudicatur</quote> Ergo tantum valet bene velle, quantum velle et operari : ergo etc.</p>
+          <p xml:id="bb-l2d40a1q3-d1e140">3. Item, Gregorius, in quadam Homilia : <quote xml:id="bb-l2d40a1q3-Qd1e142">Non est vacua manus a munere, cum arca cordis repleta fuerit bona voluntat</quote>e. Ergo plenitudo intentionis et voluntatis aequivalet plenitudini operationis : igitur sine illa potest sufficere ad salutem.</p>
+          <p xml:id="bb-l2d40a1q3-d1e146">4. Item, mereri vitam aeternam est in potestate nostra ; sed opera exteriora non sunt in potestate nostra : ergo videtur quod opera exteriora non sint necessaria ad merendum vitam aeternam : igitur ad meritum vitae aeternae videtur sufficere intentio sola.</p>
+          <p xml:id="bb-l2d40a1q3-d1e150">5. Item, intentio et voluntas non pendent ex opere : ergo, opere non existente, potest esse bonitas tam in voluntate quam in intentione ; sed qui habet bonam voluntatem et intentionem est iustus, et omnis talis habet quod sufficit ei ad vitam aeternam : igitur ad meritum vitae aeternae videtur intentio sufficere absque exteriori operatione.</p>
+ 
+          <p xml:id="bb-l2d40a1q3-d1e153">Sed contra : Matthaei 25, 42 : <quote xml:id="bb-l2d40a1q3-Qd1e155" ana="#mt25_42">Esurivi, et non dedistis mihi manducare</quote> ; ita Dominus dicet reprobis, et propter hoc feret sententiam damnationis contra eos. Si ergo propter defectum bonorum operum quis damnatur, exercitium bonorum operum est ad salutem necessarium: ergo intentio sine operibus non sufficit ad meritum.</p>
+          <p xml:id="bb-l2d40a1q3-d1e159">Item, in Canonicae Iacobi 2, 26 : <quote xml:id="bb-l2d40a1q3-Qd1e161" ana="#iac2_26">Fides sine operibus mortua est</quote> ; sed non est efficacior ad merendum intentio quam fides : ergo, si fides non sufficit ad meritum sine operibus, pari ratione nec intentio.</p>
+          <p xml:id="bb-l2d40a1q3-d1e165">Item, Gregorius, in quadam Homilia : <quote xml:id="bb-l2d40a1q3-Qd1e167">Amor Dei nunquam est otiosus ; operatur enim magna, si est ; si : autem operari negligit, amor non est</quote>. Ergo si opera non adsunt, non adest veritas amoris ; sed nihil est meritorium vitae aeternae absque vero amore caritatis : ergo, circumscriptis operibus, intentio non sufficit ad meritum.</p>
+          <p xml:id="bb-l2d40a1q3-d1e171">Item, <name ref="#Aristotle">Philosophus</name> dicit quod ad virtutem tria requiruntur, videlicet <quote xml:id="bb-l2d40a1q3-Qd1e176">scire et velle et impermutabiliter operari</quote>. Ergo, si non est operatio, non est salva virtutis ratio ; sed ubi non salvatur virtutis ratio, nec poterit salvari sufficientia meriti : ergo videtur quod absque operatione vitam aeternam non condigne sufficienter meremur.</p>
+          <p xml:id="bb-l2d40a1q3-d1e180">Item, si sola intentio vel voluntas interior sufficeret ad meritum, sed habenti gratiam facillimum est velle bonum, ergo facillimum esset mereri vitam aeternam ; cuius contrarium dicit Dominus, Matthaei 7, 14, cum dicit quod <quote xml:id="bb-l2d40a1q3-Qd1e182" ana="#7_14">arcta est via quae ducit ad vitam</quote>.</p>
+        </div>
+        <div xml:id="bb-l2d40a1q3-Dd1e187">
+          <head xml:id="bb-l2d40a1q3-Hd1e189">Conclusio</head>
+          <head xml:id="bb-l2d40a1q3-Hd1e192" type="question-title">Ad meritum vitae aeternae in eo qui habet 
+    facultatem bene operandi, non sufficit bonitas 
+    intentionis absque bonitate operis exterioris
+    </head>
+ 
+          <p xml:id="bb-l2d40a1q3-d1e195">Respondeo : Dicendum quod, cum quaeritur, utrum intentio et voluntas interior sufficit ad meritum absque opere exteriori, distinguendum est : aut enim ille qui habet intentionem, habet facultatem bene operandi aut non. Si non habet facultatem, cum nemo obligetur ad impossibile, si bonam habet voluntatem et directam intentionem, tunc sola plenitudo voluntatis internae sufficit ei ad meritum vitae aeternae absque exteriori operatione. Si autem adsit facultas et se offert opportunitas, intentio non potest ad meritum sufficere absque opere.</p>
+ 
+          <p xml:id="bb-l2d40a1q3-d1e198">Ratio autem huius est divini mandati obligatio et virtutis perfectio et voluntatis plenitudo. Divini mandati obligatio facit ut intentio sine operibus non sufficiat, cum se offert opportunitas et facultas. Mandata enim Dei non solum obligant ad volendum, sed etiam ad faciendum ; et ideo qui non implet divina mandata, cum possit, potius meretur iram quam mereatur gloriam.
+Virtutis etiam perfectio est ratio quare non sufficit sola intentio, quoniam <quote xml:id="bb-l2d40a1q3-Qd1e200">virtus est ultimum potentiae</quote>, et ideo elevat potentiam ad aliquod magnum et arduum. Potentiae autem animae non habent suam utilitatem sive perfectionem completam, nisi exeant in opera sibi debita, quando adest facultas et opportunitas. Et ideo illa intentio, qua quis vult et intendit bonum, et tamen non facit, cum possit, non est intentio virtuosa, ac per hoc nec meritoria.
+Voluntatis etiam plenitudo ratio est quare non sufficit sola intentio, quoniam plena voluntas ponit effectum, si adsit facultas ; alioquin non dicitur homo plene aliquid velle, si non facit, cum possit facere ; sed semiplene et pigre vult, sicut piger qui vult et non vult. Et propterea dicit Gregorius quod nemo debet sibi blandiri de bona voluntate, immo de dilectione Conditoris lingua, mens et manus debet requiri, et, sicut hortatur nos beatus Ioannes, I Canonicae 3, 18 diligere debemus non solum verbo et lingua, sed opere et veritate.
+Quoniam igitur, cum adest facultas et se offert opportunitas, absque operibus exterioribus nec est mandatorum Dei impletio nec virtutis perfectio nec voluntatis plenitudo, et absque his non est sufficientia meriti, hinc est quod ad meritum vitae aeternae non sufficit bonitas intentionis absque bonitate operis exterioris. Et rationes, quae hoc ostendunt, concedendae sunt.
+</p>
+        </div>
+        <div xml:id="bb-l2d40a1q3-Dd1e206">
+          <head xml:id="bb-l2d40a1q3-Hd1e208">Ad rationes</head>
+          <p xml:id="bb-l2d40a1q3-d1e211">Ad illud ergo quod primo obicitur in contrarium de <name ref="#Bernard">Bernardo</name>, quod bona intentio sufficit ad meritum, dicendum quod loquitur de intentione illorum operum quae non sunt in praecepto, non ratione aliorum quae in praecepto sunt. Vel dicendum quod loquitur in eo casu, quando scilicet non adest facultas bene operandi exterius.</p>
+          <p xml:id="bb-l2d40a1q3-d1e217">Ad illud quod obicitur, quod voluntas pro facto reputatur, dicendum quod verum est, quando non se offert bene operandi opportunitas et facultas.</p>
+          <p xml:id="bb-l2d40a1q3-d1e220">Ad illud vero Gregorii, quod non est vacua manus a munere etc., dicendum quod facienda est vis in hoc quod dicit : cum arca cordis repleta fuerit bona voluntate ; nunquam enim, sicut dictum est prius, plene bonam voluntatem habet qui potest facere bonum illud, cuius habet voluntatem, et ad fructum non pervenit.</p>
+          <p xml:id="bb-l2d40a1q3-d1e223">Ad illud quod, obicitur, quod opera non sunt in potestate nostra, dicendum quod hoc solum concludit quod in eo casu sufficit Intentio, quando deest facultas ad perficiendum operationem bonam.</p>
+          <p xml:id="bb-l2d40a1q3-d1e227">Ad illud quod obicitur, quod bona voluntas non pendet ex opere, dicendum quod verum est ; attamen, cum adest facultas, plena voluntas necessario ponit bonum opus, ita quod, si bonum opus non ponitur, aut nunquam voluntas fuit plena aut desinit esse plena. Quod ergo sine operibus non sufficiat, hoc non est quia plenitudo bonae voluntatis ex operibus pendeat, sed quia bona voluntas, si plena est, necessario in bona opera redundat, offerente se facultate et, opportunitate.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

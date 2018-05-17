@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41dubia">
+        <head xml:id="bb-l2d41dubia-Hd1e108">Dubia</head>
+        <div xml:id="bb-l2d41dubia-Dd1e111">
+          <head xml:id="bb-l2d41dubia-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-l2d41dubia-d1e116">In parte ista sunt quaestiones circa litteram. Et primo quaeritur de hoc quod dicit, quod fides intentionem dirigit. Multi enim habentes fidem habent malas intentiones : ergo videtur quod intentionis directio a fide non habeat esse. Si tu dicas quod loquitur de fide quae per dilectionem operatur, utpote de fide formata, tunc potius videtur quod directio intentionis debuit attribui caritati quam fidei.</p>
+          <p xml:id="bb-l2d41dubia-d1e119">Item, quaeritur iuxta hoc, cum directio intentionis aliquo modo attribuatur fidei, aliquo modo caritati, quare similiter non attribuitur spei, cum et ipsa sit virtus theologica et respiciat finem sicut fides et caritas ?</p>
+ 
+          <p xml:id="bb-l2d41dubia-d1e122">Respondeo : Dicendum quod, cum intentio duo respiciat, videlicet oculum intellectus et pedem affectus, duplici indiget directivo, quorum unum respiciat aspectum, et hoc est fides, alierum vero affectum, et hoc est caritas. Et ideo dicit <name ref="#Bernard">Bernardus</name> quod ad simplicitatem oculi concurrit caritas et veritas. Quando ergo <name ref="#Lombard">Magister</name> dicit quod fides dirigit intentionem, non de quacumque fide intelligit, sed de fide operante per dilectionem, sicut obiectum est. Magis tamen directionem attribuit fidei quam caritati, quia dirigere in via potius est luminis illustrantis quam virtutis adiuvantis, licet utrumque sit necessarium ad hoc quod homo recte ambulet : et quod lumen videat et quod pedem rectum habeat. Propter defectum primi non recte incedit caecus et propter defectum secundi non recte incedit claudus.</p>
+          <p xml:id="bb-l2d41dubia-d1e131">Ad illud quod quaeritur de spe, dicendum quod spei, proprie loquendo, non est dirigere, sed erigere, quia spes exspectat per modum futuri ; unde quasi dat quamdam securifatem ne in via deficiat. Fides autem et caritas praesentialiter potentias, in quibus sunt, in operibus dirigunt, quia ima illuminat et altera inflammat ; et ideo una dirigit respectu veritatis, altera vero respectu bonitatis ; quantum ad quae duo sufficienter attenditur rectificatio animae in sui operibus. Et ideo non oportet quod spei attribuatur directio, sed solum erectio, licet illa erectio quodam modo dici possit directio.</p>
+        </div>
+        <div xml:id="bb-l2d41dubia-Dd1e135">
+          <head xml:id="bb-l2d41dubia-Hd1e137">Dub. II.</head>
+          <p xml:id="bb-l2d41dubia-d1e140">Item quaeritur de hoc quod dicit : Omnis vita infidelium peccatum est. Sed contra : infideles habent opera virtutum politicarum ; sed virtutes politicae non sunt habitus mali, sed boni, quia non sunt vitia, sed Dei dona : ergo videtur quod opera illarum virtutum non sint peccatum.
+Item, infidelis homo potest dare eleemosynam ut Deus manifestet sibi viam veritatis ; et in hoc disponit se ut Deus det ei habitum fidei. Sed in hoc quod homo ad gratiam se disponit non peccat : ergo non videtur quod omnis vita infidelium sit culpa vive omnis actio.
+Oppositum autem huius est, quia arbor mala non potest fructus bonos facere. Ergo, si infideles malam voluntatem habent et indirectam intentionem et carent fide et caritate, ergo videtur quod omnia faciant male et nihil bene.</p>
+ 
+          <p xml:id="bb-l2d41dubia-d1e143">Respondeo : Dicendum quod infideles non peccant in omni sua actione ; nam quando eorum actio non repugnat fidei nec bonis moribus, non est ratio aliqua quare in ea debeat esse peccatum. Quod ergo dicitur in littera quod omnis vita infidelium est peccatum, dicendum quod hoc non dicitur propter. hoc quod omnis actio, quam faciunt in tota vita sua, sit culpabilis et demeritoria, sed hoc ideo dicitur, quia per nullam actionem quam agunt liberantur a culpa, quamdiu in infidelitate persistunt. Et ideo sensus est : omnis vita infidelium est peccatum, id est non sine peccato.
+Similiter intelligenda est sequens auctoritas et aliae consimiles, cum dicitur quod ubi deest agnitio veritatis, falsa est virtus, non quia illa virtus sit vitium, sed quia deficit a verae virtutis perfectione, quia virtus vera dicitur, quia veraciter perducit ad vitam.
+Ad illud ergo quod obicitur, quod arbor mala non potest fructus bonos facere, intelligenda est locutio per se, id est, si operetur voluntas mala in quantum mala, scilicet mala intentione. Si autem non per se intelligatur, non est sermo verus, nisi intelligatur de bono perfecto, quod quidem est bonum meritorium ; sed iunc non sequitur : non facit fructum bonum, ergo facit fructum malum, quia inter tale bonum et malum est medium, sicut supra fuit ostensum.
+</p>
+        </div>
+        <div xml:id="bb-l2d41dubia-Dd1e147">
+          <head xml:id="bb-l2d41dubia-Hd1e149">Dub. III.</head>
+          <p xml:id="bb-l2d41dubia-d1e152">Item quaeritur de hoc quod dicit quod peccata, quae a nescientibus vel coactis perpetrantur, non omnino possunt sine voluntate committi. Videtur enim falsum dicere, primum, quia voluntarium praesupponit cognitionem, sicut vult <name ref="#Aristotle">Philosophus</name> ; ergo quod fit per nescientiam vel ignorantiam estsimpliciter involuntarium : ergo committitur sine voluntate.
+Item, coactio inducit violentiam ; sed violentia excludit voluntatem : ergo quod fit a coacto non est voluntarium.</p>
+          <p xml:id="bb-l2d41dubia-d1e158">Quaeritur ergo : qualiter <name ref="#Augustine">Augustinus</name> intelligit, cum dicit quod quae fiunt per coactionem et ignorantiam non fiunt praeter voluntatem ?</p>
+ 
+          <p xml:id="bb-l2d41dubia-d1e164">Respondeo : Dicendum quod novem sunt gradus voluntarii, secundum quos peccata voluntarie dicuntur fieri secundum plus et minus.
+Primo enim et principaliter dicitur voluntarium quod est a voluntate nullo inclinante, nec exterius nec interius ; sic fuit peccatum Luciferi voluntarium.
+Secundo modo voluntarium dicitur quod est a voluntate, aliquo suggerente exterius, sed nullo inclinante interius ; et sic fuit peccatum primi hominis voluntarium.
+Tertio modo dicitur voluntarium quod est a voluntate, aliquo tamen inclinante exterius et interius ; et sic est peccatum mortale, quod, aliquis perpetrat ex deliberatione et intentione post lapsum naturae.
+Quarto modo aliquid est voluntarium, quod est a voluntate non movente ad illud directe, movente tajnen ad incompossibile, sicut est peccatum omissionis, quo quis omittit ad matutinum surgere, quia voluntarie se inebriavit.
+Quinto modo aliquid est voluntarium, quod est a voluntate non movente ad illud directe nec appetente, sed aliud refugiente, sicut est peccatum quod homo facit mortis timore.
+Sexto modo est aliquid voluntarium, quod est a voluntate non plene id quod agit cognoscente ; et sic peccatum ex ignorantia dicitur, voluntarium.
+Septimo modo dicitur aliquid voluntarium, quia consequitur ad aliquid quod voluntarie factum est ab illo eodem a quo illud fit ; et sic peccata, quae consequuntur ebrietatem, in quam homo se scienter induxit, dicuntur aliquo modo voluntaria.
+Octavo modo dicitur aliquid voluntarium, quia est ab aliquo potente prohibere et non prohibente ; et sic peccatum veniale, quod est primus motus, dicitur esse voluntarium.
+Nono modo dicitur aliquid voluntarium, quod introductum est a voluntate aliena sicut a causa prima ; et sic peccatum originale dicitur voluntarium.</p>
+ 
+          <p xml:id="bb-l2d41dubia-d1e167">In omnibus istis modis praedictis aliquo modo salvatur ratio voluntarii, proprie tamen et principaliter in duobus modis primis. Et propterea dicit <name ref="#Augustine">Augustinus</name> quod illud quod dixerat, scilicet omne peccatum voluntarium, de peccato primi parentis esse intelligendum, non quia illud solum sit voluntarium, sed quia illud inter cetera mere est voluntarium. Alia enim aliquo modo voluntaria sunt, licet non ita plene, sicut illud quod fit per nescientlam et per coactionem.</p>
+ 
+          <p xml:id="bb-l2d41dubia-d1e174">Ad illud vero quod obicitur, quod tam coactio quam ignorantia excludit rationem voluntarii, dicendum quod verum est ubi est omnimoda ignorantia et coactio sufficiens ; sed voluntas nunquam cogitur coactione sufficienti ; ideo coactio nunquam tollit rationem voluntarii. Ignorantia vero aliquando est per omnimodam privationem discretionis, et tunc tollit simpliciter rationem voluntarii ; aliquando vero dicit privationem alicuius cognitionis determinatae, utpote privationem alicuius circumstantiae, remanente nihilominus cognitione actus et aliarum circumstantiarum, sicut est de illo qui fornicatur nescibns fornicationem esse peccatum mortale, sciens tamen se cognoscere non suam ; et tunc minuit, non tollit rationem voluntarii ; et sic loquitur <name ref="#Lombard">Magister</name> in littera.
+Et per hoc patent illa duo obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

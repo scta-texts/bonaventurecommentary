@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d39a2q3">
+        <head xml:id="bb-l2d39a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d39a2q3-Hd1e111" type="question-title">Utrum synderesis possit depravari per peccatum.</head>
+ 
+        <p xml:id="bb-l2d39a2q3-d1e114">Tertio quaeritur de synderesi quantum ad abusum. Et est quaestio, utrum synderesis possit depravari per peccatum.</p> 
+        <div xml:id="bb-l2d39a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d39a2q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d39a2q3-d1e122">Et quod sic, videtur : Glossa super 1, 10 Ezechielis : <quote xml:id="bb-l2d39a2q3-Qd1e124" ana="#ez1_10">Facies aquilae a dextris ipsorum quatuor</quote>, ibi Glossa, loquens de conscientia et synderesi, dicit sic : <quote xml:id="bb-l2d39a2q3-Qd1e127">Hanc saepe praecipitari videmus et suum locum amittere, cum quidam sine pudore peccant, quibus merito dicitur : <quote xml:id="bb-l2d39a2q3-Qd1e129" ana="#ier3_3">Frons mulieris meretricis facta est tibi</quote>
+            </quote>. Si igitur praecipitium non est nisi per culpam, patet etc.</p>
+          <p xml:id="bb-l2d39a2q3-d1e134">Item, super illud Ieremiae 2, 16 : <quote xml:id="bb-l2d39a2q3-Qd1e136" ana="#ier2_16">Filii Mempheos</quote> etc., Glossa : <quote xml:id="bb-l2d39a2q3-Qd1e139">Malignus spiritus de membris inferioribus usque ad verticem pertingit, quando castam celsitudinem mentis diffidentiae morbus corrumpit</quote>. Sed casta celsitudo mentis est ipsa synderesis : ergo contingit per peccatum corrumpi.</p>
+          <p xml:id="bb-l2d39a2q3-d1e143">Item, hoc videtur ratione. Poena et culpa habent fieri circa idem ; sed secundum actum synderesis, qui est peccato remurmurare, contingit esse animae punitionem : ergo secundum illum actum contingit esse peccati perpetrationem.</p>
+          <p xml:id="bb-l2d39a2q3-d1e146">Item, synderesis consequitur conscientiam tamquam suum naturale iudicatorium ; sed conscientia potest esse recta et erronea : ergo videtur necessario quod synderesis aliquando moveatur recte, aliquando moveatur oblique. Si igitur inordinatio reperta in actu motlvae est culpa, videtur etc.</p>
+          <p xml:id="bb-l2d39a2q3-d1e150">Item, opposita sunt nata fieri circa idem ; sed donum sapientiae et beatitudo luctus consistit circa synderesim,,cum donum sapientiae consistat circa animae supremum et synderesis postulet pro nobis gemitibus inenarrabilibus. Si igitur dono sapientiae et beatitudini luctus culpa opponitur, videtur quod, culpa habeat esse circa illam potentiam.</p>
+          <p xml:id="bb-l2d39a2q3-d1e153">Item, synderesis aut est de bonis maximis aut de bonis mediis aut de bonis minimis. Si de maximis, ergo est gratia vel virtus ; quorum utrumque est falsum, cum synderesis simul maneat cum peccato. Si est de bonis mediis, sed his contingit male uti : ergo synderesi contingit male uti. Sed malus usus est culpa : ergo circa actum synderesis contingit esse culpam. De minimis non est dubium, quod non est,cum minima sint bona corporis.</p>
+
+ 
+          <p xml:id="bb-l2d39a2q3-d1e156">Sed contra : Glossa super Ezechielis 1, 10 : <quote xml:id="bb-l2d39a2q3-Qd1e158">Synderesim proprie aquilae deputant, non se miscentem tribus, sed ipsa errantia corrigentem</quote> . Si ergo non se commiscet tribus, sed potius corrigit, videtur quod secundum actum eius non consistat peccatum.</p>
+          <p xml:id="bb-l2d39a2q3-d1e162">Item, <name ref="#Ambrose">Ambrosius</name> dicit et <name ref="#Lombard">Magister</name> adducit in littera, super illud ad Romanos 7, 16 : <quote xml:id="bb-l2d39a2q3-Qd1e170" ana="#rom7_16">Quod nolo illud facio</quote> ; ibi dicit quod homo semper naturaliter, vult bonum : ergo eum illa voluntas non sit aliud quam synderesis, synderesis semper vult bonum ; et si semper vult bonum, ergo nunquam peccat.</p>
+          <p xml:id="bb-l2d39a2q3-d1e174">Item, vis illa, quae secundum motum suum directe repugnat peccato, non depravatur peccato ; sed actus synderesis semper contra culpam remurmurat, etiam in pessimis peccatoribus : ergo videtur quod non habeat depravari et deordinari per culpam.</p>
+          <p xml:id="bb-l2d39a2q3-d1e177">Item, quando tota natura per morbum corrumpitur, non est ulterius possibilitas ad sanitatem : ergo, si tota rectitudo animae auferretur per culpam, iam non esset ultra spes redeundi ad gratiam ; sed constat qnod spes est redeundi, quia de nemine desperandum est dum est in via : ergo videtur quod aliqua rectitudo remaneat. Sed rectitudo, quae maximae est adhaerendae, est rectitudo voluntatis per modum naturae, et haec est synderesis : ergo non videtur quod depravari possit per culpam.</p>
+        </div>
+        <div xml:id="bb-l2d39a2q3-Dd1e181">
+          <head xml:id="bb-l2d39a2q3-Hd1e183">Conclusio</head>
+          <head xml:id="bb-l2d39a2q3-Hd1e186" type="question-title">Synderis per peccatum non potest depravari in se, 
+   sed tantum praecipitari quoad dominium regendi</head>
+          <p xml:id="bb-l2d39a2q3-d1e189">Respondeo : Dicendum quod secundum illos qui dicunt synderesim non esse aliud quam superiorem portionem rationis, circa actum ipsius contingit esse peccatum. Dicunt enim quod ipsa superior portio rationis habet dupliciter moveri : aut secundum quod ad Deum convertitur et regitur et dirigitur secundum leges aeternas, et sic in ea peccatum non habet esse ; aut prout convertitur ad inferiores vires, et sic ab eis sumit occasionem deviandi et potest per peccatum depravari. Et ponunt exemplum in peccato Arii, qui erravit circa Trinitatem et Unitatem, et ita secundum superiorem portionem rationis vel secundum synderesim. Et hoc dicunt quod Glossa praedicta super 1, 10 Ezechielis vult dicere. Nam primo dicit quod aliis peccantibus non se immiscet ; postea dicit quod praecipitatur et locum suum perdit ; et utrumque dicunt habere veritatem secundum diversas comparationes superioris portionis sive ipsius synderesis.
+Sed quoniam, sicut dicunt Sancti et Glossae manifeste, synderesis, quantum est de se, semper habet ad bonum stimulare et peccato remurmurare, quamdiu sumus in statu viae, ideo dixerunt alii aliter, scilicet quod synderesis nominat ipsam voluntatem secundum quod habet naturaliter moveri. Et quoniam peccatum non habet esse circa actum voluntatis ut natura est vel ut movetur naturaliter, sed solum ut movetur deliberative, hinc est quod synderesis per peccatum non habet depravari. Quia tamen ipsa habet alias regere et dirigere et dominium regendi potest perdere, hinc est quod contingit eam per culpam praecipitari. Praesidentia enim dominii a duobus pendet, videlicet a rectitudine praesidentis et ab obtemperantia famulantis ; et quamvis synderesis, quantum est de se, semper sit recta, quia tamen ratio et voluntas frequenter ei obviant - ratio per erroris excaecationem et voluntas per impietatis obstinationem - hinc est quod synderesis praecipitari dicitur, pro eo quod effectus eius et praesidentia in vires alias deliberativas propter earum repugnantiam repellitur et cassatur. Et ponitur exemplum in milite, qui, quantum est de se, semper bene sedet super equum, equo tamen ruente, praecipitari dicitur. Sic et in proposito intelligendum est.
+   </p>
+ 
+          <p xml:id="bb-l2d39a2q3-d1e192">Hic autem modus dicendi tamquam rationabilior a pluribus sustinetur. Et ideo rationes, quae ad hanc partem inducuntur, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d39a2q3-Dd1e197">
+          <head xml:id="bb-l2d39a2q3-Hd1e199">Ad rationes</head>
+          <p xml:id="bb-l2d39a2q3-d1e202">Ad illud vero quod primo obicitur de Glossa, quod synderesim praecipitari videmus, iam patet responsio. Non enim sequitur, si praecipitatur ; quod propter hoc per peccatum depravetur, quia praecipitium eius non tantum attenditur circa actum proprium, sed etiam circa actum aliarum virtutum, quibus praesidere debet ipsa synderesis.</p>
+          <p xml:id="bb-l2d39a2q3-d1e205">Ad illud quod obicitur, quod morbus diffidentiae corrumpit mentis celsitudinem et quod anima constupratur usque ad verticem, dicendum quod vertex et celsitudo mentis non vocatur ibi synderesis, sed superior portio rationis. Superior autem portio rationis non nominat ipsam potentiam animae in quantum movetur naturaliter, sed in quantum movetur deliberative. Et hoc modo circa ipsam habet peccatum consistere, maxime illud quod attenditur secundum actum rationis, qui est sursum, sicut est peccatum infidelitatis et desperationis et alia peccata quae directe opponuntur virtutibus theologicis.</p>
+          <p xml:id="bb-l2d39a2q3-d1e208">Ad illud quod obicitur, quod poena et culpa habent fieri circa idem, dicendum quod illud non habet veritatem loquendo praecise, pro eo quod pro peccato voluntatis totum corpus habet puniri. Verum est tamen quod sicut voluntas est principium peccandi, ita et principaliter punitur ; unde et vermis conscientiae plus est afflictivus voluntatis prout est deliberativa quam prout est natura quaedam, propter mutuam repugnantiam.
+Utrum autem sola voluntas sit subiectum poenae vel aliquid aliud, hoc infra suo loco manifestabitur.
+</p>
+
+          <p xml:id="bb-l2d39a2q3-d1e211">Ad illud quod obicitur, quod conscientia, quae est iudicatorium praecedens synderesim, est recta et non recta, ergo et synderesis, dicendum quod non sequitur, pro eo quod ipsa conscientia non tantum consistit in universali, immo etiam descendit ad particulare ; non tantummodo movetur motu simplici, immo etiam collativo. Nec mirum, quia consistit in ratione, cuius quidem rationis est unum ab altero discernere et tinum ad alterum conferre. Et ideo, licet conscientia, prout stat in universali et movetur aspectu simplici, sit semper recta, prout autem descendit ad particularia et confert, potest fieri erronea, propter hoc quod intermiscet se actus rationis deliberativae.</p>
+  
+          <p xml:id="bb-l2d39a2q3-d1e215">Et hoc patet sic conscientia enim Iudaeorum ex ipso primo naturali dictamine dictabat quod Deo est obediendum ; et ipsi postmodum assumunt quod Deus praecipit nunc circumcisionem et ciborum discretionem ; et ex hoc formatur conscientia eorum in particulari, ut se circumcidant et a cibis abstineant. Error autem iste non venit ex primo principio, quod quidem verum fuit, sed venit ex assumtione, quae quidem non fuit conscientiae prout est naturale iudicatorium, sed potius rationis erroneae, quae quidem spectat ad liberum arbitrium. Synderesis autem, quantum est de se, movetur motu simplici in remurmurando contra malum et instigando ad bonum. Praeterea, movetur contra malum non hoc vel illud, sed in universali ; vel, si aliquo modo inclinetur synderesis ad detestandum hoc malum vel illud, hoc non est in quantum hoc, sed in quantum malum ; et hinc est quod synderesis non obliquatur sicut conscientia errat.</p>
+ 
+          <p xml:id="bb-l2d39a2q3-d1e218">Alia etiam posset reddi ratio, quia synderesis nominat ipsam potentiam naturalem, ut est naturaliter habilitata ; conscientia autem nominat habitum non tantum naturalem, sed etiam acquisitum ; et quia natura, quantum est de se, semper recte movetur, quod autem acquiritur, potest habere et rationem rectitudinis et obliquitatis : hinc est quod, synderesi semper existente recta, conscientia potest esse et recta et erronea.</p>
+
+          <p xml:id="bb-l2d39a2q3-d1e221">Ad illud quod obicitur, quod donum sapientiae est circa synderesim, dicendum quod falsum est ; omnia enim dona et omnes virtutes et beatitudines respiciunt voluntatem, secundum quod deliberativa est. Quod autem dicitur synderesis postulare pro nobis gemitibus inenarrabilibus, hoc intelligitur causaliter, quia nos instigat ad gemitum pro malis, quibus immersi sumus.</p>
+          <p xml:id="bb-l2d39a2q3-d1e224">Ad illud quod obicitur, quod bonis mediocribus contingit male uti, dicendum quod illud verum est de his quae moventur ad nutum liberi arbitrii secundum cuius actum proprie attenditur usus et abusus ; synderesis autem, cum sit potentia naturalis et naturaliter moveatur, non subest imperio liberi arbitrii : et ideo non sequitur quod liberum arbitrium possit ea abuti. Praeterea, esto quod posset illa abuti, adhuc non sequitur quod propter hoc in ipsa esset peccatum. Quamvis enim liberum arbitrium abutatur oculo, cum Intuetur ad concupiscendum, tamen peccatum non dicitur esse in oculo : peccatum enim non est in eo quo quis abutitur, sed potius in abutente.</p>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

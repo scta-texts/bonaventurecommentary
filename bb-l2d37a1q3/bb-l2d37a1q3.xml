@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d37a1q3">
+        <head xml:id="bb-l2d37a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d37a1q3-Hd1e111" type="question-title">Utrum omnis compositio sit a Deo.</head>
+ 
+        <p xml:id="bb-l2d37a1q3-d1e114">Tertio quaeritur, utrum omnis compositio sit a Deo.</p> 
+        <div xml:id="bb-l2d37a1q3-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-l2d37a1q3-d1e119">Et quod sic, videtur : 1. Ubicumque est aliqua compositio, ibi est aliqua componentis actio ; sed omnis actio est a Deo : ergo omnis compositio est a Deo.</p>
+          <p xml:id="bb-l2d37a1q3-d1e122">2. Item, sicut potentiae et virtutis est distinguere et separare, sic potentiae et virtutis est res unire et componere ; sed omne quod est potentiae est ab omnipotentia Creatoris : ergo etc.</p>
+          <p xml:id="bb-l2d37a1q3-d1e125">3. Item, ubicumque est compositio, ibi est aliqua unio, et ubicumque est unio, ibi est aliqua unitas ; sed omnis unitas est a prima unitate ; prima autem et summa unitas Deus est : ergo omnis compositio est a Deo.</p>
+          <p xml:id="bb-l2d37a1q3-d1e128">4. Item, <name ref="#Augustine">Augustinus</name>, De vera religione : <quote xml:id="bb-l2d37a1q3-Qd1e133">Omnis res habet haec tria, scilicet quod unum aliquid sit et specie propria discernatur et rerum ordinem non excedat</quote>. Sed, sicut dicit <name ref="#Augustine">Augustinus</name>, XI De civitate Dei, <quote xml:id="bb-l2d37a1q3-Qd1e139" source="http://scta.info/resource/adcd-l11">ab eo est omnis modus et omnis species et omnis ordo, sine quibus nihil esse nec cogitari potest</quote>. Ergo, si omne compositum et omnis compositio aliquo modo est, videtur igitur omnis compositio a Deo esse.</p>
+          <p xml:id="bb-l2d37a1q3-d1e143">
+Sed contra : Super illud I ad Corinthios 8, 4 : <quote xml:id="bb-l2d37a1q3-Qd1e145" ana="#Icor8_4">Scimus quia idolum nihil est</quote>, Glossa : <quote xml:id="bb-l2d37a1q3-Qd1e148">Materiam idoli Deus formavit, sed stultitia hominum formam dedit</quote>. Et post : <quote xml:id="bb-l2d37a1q3-Qd1e151">Quaecumque sunt in creaturis, facta sunt per Verbum ; sed forma hominis in idolo non est facta per Verbum, sicut peccatum non est factum per Verbum</quote> . Videtur ergo quod compositio talis formae cum tali materia non sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q3-d1e156">Item, quaedam sunt quae impossibilia sunt coniungi, non tantum a natura, sed etiam a Deo, utpote quod aliquid sit simul et semel album et nigrum, sed intellectus noster phantasticus frequenter componit talia ; nullorum autem compositio est a Deo, nisi eorum quae sunt a Deo componibilia : si ergo opposita non sunt a Deo componibilia et componuntur ab intellectu, videtur quod non omnis compositio sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q3-d1e159">Item, quaedam sunt quae non possunt coniungi in eodem sine monstruositate, sicut duo capita in eodem corpore ; et talis compositio non potest esse a natura nisi cum errore et praeter intentionem : si ergo Deus in nulla compositione errat nec facit errare, videtur quod talium compositio nullo modo sit a Deo.</p>
+          <p xml:id="bb-l2d37a1q3-d1e162">Item, aliqua sunt quae impossibile est coniungi sine deordinatione, utpote si homo commisceatur bruto vel e converso. Si ergo talis compositio non est aliud quam componibilium deordinatio - hoc ipso enim deordinantur, quod sic componuntur - et deordinatio non sit a Deo, videtur quod aliqua compositio non sit a Deo.</p>
+        </div>
+        <div xml:id="bb-l2d37a1q3-Dd1e166">
+          <head xml:id="bb-l2d37a1q3-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d37a1q3-Hd1e171" type="question-title">Omnis compositio, secundum quod compositio, est a Deo</head>
+ 
+          <p xml:id="bb-l2d37a1q3-d1e174">Respondeo : Dicendum quod, cum compositionis nomen tripliciter accipiatur, in qualibet suarum acceptionum aliquid dicit. Dicitur enim compositio componentis actio ; dicitur etiam compositio, componibilis passio ; dicitur tertio modo compositio rei compositae dispositio. Et quoniam tam actio quam passio quam etiam dispositio rei compositae, secundum quod composita est, aliquid dicit, et omne quod dicit aliquam positionem, a Deo est, concedendum est simpliciter quod omnis compositio sit a Deo, secundum quod compositio, sicut et omnis actio et conservatio.</p>
+ 
+          <p xml:id="bb-l2d37a1q3-d1e177">Attendendum est tamen quod quemadmodum quaedam actiones sunt, quae mox nominatae coniunctae sunt malo, sicut mendacium et adulterium, sic quaedam quarumdam rerum compositiones sunt, quas inseparabiliter concomitatur aliqua deformitas et inordinatio. Unde quemadmodum actio, quae coniuncta est defectui malitiae inseparabiliter, dicitur a Deo esse, ita tamen quod defectus malitiae non est a Deo, sed a defectu creaturae, utpote liberae voluntatis, sic compositio, cui iuncta est deformitas et inordinatio, sic est a Deo quod illa deformitas sive deordinatio, quae vere defectus est, est a defectu alicuius causae componentis creatae vel a defectu ipsorum componibilitim.
+Concedendae sunt igitur rationes ostendentes quod omnis compositio est a Deo.</p>
+        </div>
+        <div xml:id="bb-l2d37a1q3-Dd1e182">
+          <head xml:id="bb-l2d37a1q3-Hd1e184">Ad rationes</head>
+
+          <p xml:id="bb-l2d37a1q3-d1e187">Ad illud ergo quod primo obicitur de compositione, quae est in idolo, dicendum quod idolum, secundum quod huiusmodi, nominat aliquod artificiatum, continens in se aliquid numinis vel divinitati ; et secundum hoc dupliciter intelligitur ibi compositio, videlicet formae artis ad materiam, et divinitatis ad artificium ; et prima quidem compositio est ex parte rei, secunda vero est solummodo secundum aestimationem idololatrae. Quantum ad primam compositionem idolum aliquid est, quantum vero ad secundam nihil est in mundo in re, quamvis aliquid aestimetur.
+Concedo ergo quod coniunctio talis formae cum hac materia, cum sit realiter ens, quod a Deo est. Concedendum est nihilominus quod illa aestimatio, in quantum animae actus est, a Deo est ; sed compositio divinitatis ad illud artificium, quae aestimatur esse, omnino nihil est ; et haec a Deo non est, quia non est talis compositio secundum rem. Similiter ordinatio Illius formae artificialis ad continentiam divinitatis, illa quidem potius est deordinatio quam aliqua positio ; et haec quidem a Deo non est, sed a defectu cognitionis et fidei. Cum ergo dicitur quod forma idoli in tali materia non sit a Deo, non negatur compositio huius formae cum hac materia absolute esse a Deo, sed hoc negatur quod non est a Deo ad id propter quod homo illam effigiem efficit.
+Et sic patet pro quanto dicitur idolum nihil esse, scilicet pro eo quod est nomen impositum a fictione, cui subest falsitas. Patet etiam quod idolum quantum ad aliquid quod nominat, sit a Deo, et,quantum ad aliquid, non, quoniam quidquid est positionis ibi, a Deo est ; illud autem quod est privationis vel defectionis non est a Deo, sed a defectu nostro.</p>
+
+          <p xml:id="bb-l2d37a1q3-d1e190">Ad illud quod obicitur, quod intellectus componit aliqua, quae sunt incompossibilia componi, dicendum quod talia impossibilia sunt componi propter inseparabilitatem deordinationis. Nunquam enim potest nec esse nec intelligi aliquid simul et semel sub duobus oppositis quin intelligatur confusio et inordinatio. Et quoniam in actione Dei, quam Deus per se agit ut tota causa, non potest esse defectus ordinis, quia, si esset, iam potentia eius in operando deficeret, hinc est quod talia a Deo non possunt componi. Sed, cum Deus cooperatur intellectui potenti deficeret, sic potest esse quod illud quod est ibi positionis sit a virtute Dei ; quod vero est privationis, sit a defectu intellectus creati. Ideo ratio illa non valet, quodsi non potest Deus per se illam compositionem facere, quod non possit in faciendo alii cooperari.</p>
+          <p xml:id="bb-l2d37a1q3-d1e193">Ad illud quod obicitur de his quae non possunt componb sine monstruositate, iam patet responsio, quoniam, cum dico compositionem monstruosam, duo dico : et dico compositionem et dico ulterius annexam deformitatem. Et compositio quidem est est a Deo, deformitas autem monstruositatis est a defectu et errore naturae, quae venit ex improportione virtutis ad materiam, supra quam agit, sive pro eo quod materia superabundat sive pro eo quod deficit ; et utrobique est defectus debitae proportionis.</p>
+          <p xml:id="bb-l2d37a1q3-d1e196">Ad illud quod obicitur, quod quaedam est compositio, quae non potest esse nec intelligi praeter inordinationem, utpote si pes poneretur in pectore, si homo coiret cum iumento, dicendum est quod, etsi unum necessario consequatur ad aliud et intellectus unius inseparabiliter consequatur ex intellectu alterius, nihilominus tamen diversitatem habent, quia unum dicit privationem et aliud dicit positionem ; et ideo potest unum Deo attribui, quamvis alterum non attribuatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

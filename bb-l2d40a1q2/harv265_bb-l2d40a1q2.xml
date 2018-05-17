@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d40a1q2">
+        <head xml:id="bb-l2d40a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d40a1q2-Hd1e111" type="question-title">Utrum quantum quis intendit tantum faciat.</head>
+ 
+        <p xml:id="bb-l2d40a1q2-d1e114">Secundo quaeritur, utrum quantum quis intendat, tantum faciat, ut sicut opus ab intentione recipit aliquo modo qualitatem, ita etiam recipiat quantitatem.</p>
+        <div xml:id="bb-l2d40a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d40a1q2-Hd1e119">Rationes principales</head>
+
+          <p xml:id="bb-l2d40a1q2-d1e122">Et quod sic, videtur : Super illud Matthaei 12, 35 : <quote xml:id="bb-l2d40a1q2-Qd1e124" ana="#mt12_35">Bonus homo de bono thesauro</quote>, Glossa : <quote xml:id="bb-l2d40a1q2-Qd1e127" source="http://scta.info/resource/go-mt12">Quantum bonum intendis, tantum facis</quote>.</p>
+          <p xml:id="bb-l2d40a1q2-d1e131">Item, hoc videtur ratione. Omne agens per intentionem praefigit sibi finem, ad quem opus suum mensurat : ergo, si omne opus morale est ab agente per intentionem, omnis operis moralis mensurabo attenditur in comparatione eius ad finem. Sed comparatio ad finem est intentio : ergo quantitas omnis operis moralis penes intentionem attenditur.</p>
+          <p xml:id="bb-l2d40a1q2-d1e134">Item, secundum quantitatem caritatis attenditur meritum exterioris operis, et secundum magnitudinem libidinis attenditur magnitudo exterioris peccati. Si ergo caritas, ut dicit <name ref="#Bernard">Bernardus</name> respicit intentionem, et similiter libido, quae dicit quietationem in bono creato, ergo videtur quod quantitas omnis operis moralis secundum intentionem mensuretur.</p>
+          <p xml:id="bb-l2d40a1q2-d1e140">Item, si aliquod opus de natura sui generis est veniale peccatum, nihilominus ille qui facit illud, mortaliter peccat, si intendit peccare mortaliter ; hoc autem non esset, nisi opus reciperet quantitatem in genere moris ab intentione : ergo etc.</p>
+
+ 
+          <p xml:id="bb-l2d40a1q2-d1e144">Sed contra : Si <quote xml:id="bb-l2d40a1q2-Qd1e146" source="http://scta.info/resource/go-mt12">quantum quis intendit, tantum facit</quote>, ergo, si Linus sive aliquis alius parvus Sanctus intenderet mereri gloriam Petri, mereretur gloriam Petri, et si amplius intenderet, amplius mereretur : ergo habenti minorem caritatem redderetur maius praemium ; quod est plane falsum.</p>
+          <p xml:id="bb-l2d40a1q2-d1e150">Item, si <quote xml:id="bb-l2d40a1q2-Qd1e152" source="http://scta.info/resource/go-mt12">quantum quis intendit, tantum facit</quote>, ergo, si aliquis adulterans intendit peccare venialiter, peccat venialiter. Si igitur hoc est plane falsum, manifestum est quod quantitas operis non causatur ex quantitate intentionis.</p>
+          <p xml:id="bb-l2d40a1q2-d1e156">Item, quanto aliquis est humilior, tanto minus boni credit se facere ; sed intentio sequitur credulitatem, quia <quote xml:id="bb-l2d40a1q2-Qd1e158">fides dirigit intentionem</quote> : ergo quanto quis humilior est, tanto minus bonum intendit facere. Si ergo bonitas operis mensuraretur penes quantitatem intentionis, videtur quod quanto quis esset humilior, tanto opus eius esset minus bonum ; sed hoc est plane falsum : ergo etc.</p>
+          <p xml:id="bb-l2d40a1q2-d1e162">Item, unus simplex, cum facit parvum peccatum, credit esse gravissimum peccatum ; alius impius et iniquus, cum facit maximum peccatum, credit valde parum peccare. Si ergo opus mensuratur penes intentionem, videtur quod iniquus et malitiosus minus peccet in enormi genere peccati quam unus simplex in genere peccati quantumcumque levi. Si igitur hoc est plane falsum, ergo et illud ex quo sequitur, videlicet quod quantitas operis correspondeat quantitati intentionis.</p>
+        </div>
+        <div xml:id="bb-l2d40a1q2-Dd1e166">
+          <head xml:id="bb-l2d40a1q2-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d40a1q2-Hd1e171" type="question-title">Quantitas bonitatis et malitiae in opere correspondet 
+    quantitati bonitatis et malitiae in intentione, 
+    sed in bonis tunc solummodo, 
+    si quantitas intentionis attenditur respectu actus intendendi</head>
+ 
+          <p xml:id="bb-l2d40a1q2-d1e174">Respondeo : Dicendum quod, sicut in praecedenti problemate duplex distinguitur qualitas intentionis, sic et in hoc intelligendum est quod quantitas intentionis dupliciter potest intelligi, videlicet aut ratione actus intendendi, aut ratione ipsius intenti. Et secundum hoc distinguitur ista locutio dupliciter : <quote xml:id="bb-l2d40a1q2-Qd1e176" source="http://scta.info/resource/go-mt12"> quantum intendis, tantum facis </quote>, quia <mentioned> tantum </mentioned> et <mentioned> quantum </mentioned> possunt esse nomina vel adverbia. Si <mentioned> tantum </mentioned> et <mentioned> quantum </mentioned> sint adverbia, tunc dicunt quantitatem actus intendendi ; et tunc est locutio vera generaliter, sive respectu bonorum sive respectu malorum, quia quantum actus intendendi est intensus in bonitate et malitia, tantum operatio exterior est bona vel mala. Omne enim meritum et demeritum ad actum voluntatis reducitur, licet circumstantiae exteriores aliquo modo faciant ad maiorem voluntatis depravationem.
+Si autem tantum et quantum sint nomina, tunc dicunt quantitatem ex parte intenti ; et sic non est generaliter verus ille sermo, quia opus exterius factum non semper commensuratur ei quod intentio intendit. Frequenter enim intendit homo facere magnum bonum, et facit parvum, quia modicam habet caritatem. Habet tamen aliquo modo veritatem in malis, videlicet intendendo, licet non diminuendo, et prout tantum et quantum dicunt quamdam comparationem proportionalitatis, non commensurationem aequalitatis. Unde qui intendit multum peccare, multum peccat, qualecumque opus faciat ; non tamen qui intendit parum peccare, parum peccat, maxime si opus facit quod multum habet de deformitate.</p>
+        </div>
+        <div xml:id="bb-l2d40a1q2-Dd1e194">
+          <head xml:id="bb-l2d40a1q2-Hd1e196">Ad rationes</head>
+ 
+          <p xml:id="bb-l2d40a1q2-d1e199">Ex his patet responsio ad quaestionem propositam. Concedo enim quod quantitas bonitatis et malitiae in opere correspondet quantitati bonitatis et malitiae In intentione, secundum quod quantitas intentionis attenditur quantum ad actum intendendi, sicut rationes ad primam partem inductae ostendunt. Concedo etiam nihilominus quod quantitas operis non semper correspondet quantitati intentionis, secundum quod quantitas intentionis attenditur ex parte intenti, sicut ostendunt rationes quae ad secundam partem inducuntur.</p>
+          <p xml:id="bb-l2d40a1q2-d1e202">3-4. Ad alias tamen duas rationes, quae ultimo inducuntur, responderi potest quod non cogunt, pro eo quod non est idem dicere de aliquo quod credit facere magnum vel parvum bonum sive malum et quod intendit. Aliud enim est aestimatio, aliud est intentio ; et quamvis opus sequatur aestimationem, non tamen sequitur intentionem. Praeterea, illae duae rationes, sicut et aliae, procedunt de quantitate intentionis a parte intenti. Quamvis enim humilis homo parum intendat facere, nihilominus tamen magnae bonitatis est eius intentio, dum ex magna virtute movetur ad illud faciendum. Similiter, cum iniquus homo intendit modicum malum facere, tamen, quia ex magna libidine facit, multum seu valde prava est eius intentio, dum nimium adhaeret bono creato ; et ideo non sequitur quod minus peccet ille qui est magis malitiosus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

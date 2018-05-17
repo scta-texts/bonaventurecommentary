@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d32a1q1">
+        <head xml:id="bb-l2d32a1q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d32a1q1-Hd1e111" type="question-title">Utrum baptismus deleat originale quantum ad culpam.</head>
+        <p xml:id="bb-l2d32a1q1-d1e114">Circa primum sic proceditur et quaeritur, utrum baptismus deleat originale quantum ad culpam.</p> 
+        <div xml:id="bb-l2d32a1q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d32a1q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d32a1q1-d1e122">Et quod sic, videtur. Ioannis 3, 5 : <quote xml:id="bb-l2d32a1q1-Qd1e124" ana="#io3_5">Nisi quis renatus fuerit ex aqua et Spiritu Sancto, non intrabit in regnum caelorum</quote> ; hoc autem non est propter culpam actualem in parvulis : ergo, si hoc est, erit propter culpam originalem. Sed post baptismum non privatur parvulus regno caelorum : ergo necesse est quod in baptismo tollatur illud quod reddebat hominem indignum visione Dei : ergo etc.</p>
+<p xml:id="bb-l2d32a1q1-d1e127">Item, ad Romanos 6, 3 : <quote xml:id="bb-l2d32a1q1-Qd1e129" ana="#rom6_3">Quicumque baptizati sumus in Christo Iesu, in morte ipsius baptizati sumus</quote> ; et post : <quote xml:id="bb-l2d32a1q1-Qd1e132" ana="#rom6_3">Qui enim mortuus est peccato, iustificatus est a peccato</quote>, Glossa : <quote xml:id="bb-l2d32a1q1-Qd1e135">Ita per baptismum mortui sumus peccato sicut Christus semel mortuus est poenae</quote>.</p>
+            <p xml:id="bb-l2d32a1q1-d1e139">Item, hoc ipsum videtur ratione. Baptismus enim est sacramentum veritatis et etiam Novae Legis : ergo sicut in baptismate homo lavatur exterius, ita vere lavatur Interius. Si ergo in baptismo puer exterius lavatur, videtur quod interius a peccato originali mundetur.</p>
+            <p xml:id="bb-l2d32a1q1-d1e142">Item, in baptismo efficitur homo membrum Christi et regeneratur generatione spirituali. Si ergo membrum Christi quis esse non potest, quamdiu manet in peccato mortali, videtur quod per baptismum originale peccatum deleatur quantum ad culpam.</p>
+            <p xml:id="bb-l2d32a1q1-d1e145">Sed contra : Impossibile est deleri maculam peccati sive deformitatem amoveri quamdiu manet privatio boni, quae deberet inesse ; sed in homine post baptismum manet carentia illius originalis iustitiae, quae fuit in Adam in statu innocentiae : ergo per ipsum non deletur macula originalis culpae. Maior manifesta est per ipsam peccati definitionem. Minor manifesta est per ipsam experientiam, quia manifeste videmus quod post baptismum caro spiritui non ita subicitur sicut in Adam subiciebatur.</p>
+            <p xml:id="bb-l2d32a1q1-d1e149">Item, impossibile est maculam peccati deleri, quamdiu manet actus peccati, sicut est manifestum : nunquam enim alicui remittitur peccatum fornicationis quamdiu est in actu fornicandi ; sed post baptismum manet originale quantum ad actum, sicut dicit <name ref="#Lombard">Magister</name> : ergo impossibile est quod in baptismo deleatur quantum ad maculam et reatum.</p>
+            <p xml:id="bb-l2d32a1q1-d1e155">Item, concupiscere post baptismum culpa est ; sed quales sunt actus, tales sunt habitus : ergo concupiscentia, quae remanet post baptismum, est culpa. Sed non est culpa actualis : ergo est culpa originalis : igitur per baptismum originalis culpa non deletur quantum ad maculam.</p>
+            <p xml:id="bb-l2d32a1q1-d1e158">Item, culpa est meritum poenae : ergo, si omnino cessat culpa, omnino debet removeri poena. Si igitur post baptismum remanet poena debita originali, utpote mors et consimiles poenae, non videtur quod per baptismum fiat deletio originalis culpae quantum ad maculam. Quodsi tu dicas quod, macula peccati deleta, adhuc potest remanere aliquis reatus in anima et obligatio ad poenam pro culpa prius facta, videtur tunc quod originale remanet quantum ad reatum. Male igitur dicit <name ref="#Lombard">Magister</name>, cum ait quod originale transit reatu et remanet actu.</p>
+          
+        </div>
+        <div xml:id="bb-l2d32a1q1-Dd1e166">
+          <head xml:id="bb-l2d32a1q1-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d32a1q1-Hd1e171" type="question-title">Originale peccatum in baptismo remittitur quoad 
+   culpam, tum quia vitium concupiscentiae debilitatur, 
+   tum quia reatus ipsius solvitur</head>
+   
+          <p xml:id="bb-l2d32a1q1-d1e174">Respondeo : Dicendum quod, sicut <name ref="#Lombard">Magister</name> dicit in littera et accipit ex verbis <name ref="#Augustine">Augustini</name>, duplici ratione dicitur originale remitti in baptismo : quia per gratiam baptismi vitium concupiscentiae debilitatur atque extenuatur, ut iam non regnet ; et quia reatus ipsius solvitur.</p>
+ 
+          <p xml:id="bb-l2d32a1q1-d1e183">Ad huius autem verbi intelligentiam notandum quod istud verbum dupliciter potest intelligi et utroque modo satis bene et probabiliter. Uno modo sic : Sicut dicit <name ref="#Augustine">Augustinus</name>, in libro De baptismo parvulorum, <quote xml:id="bb-l2d32a1q1-Qd1e188">originale est concupiscentia sive vitium concupiscentiae</quote>, et hoc ipsum dicit <name ref="#Lombard">Magister</name> in littera. Haec autem concupiscentia, prout dicitur esse originale peccatum, nominat appetitum boni commutabilis intensum et inordinatum. Et ratio huius est ista, quoniam originale peccatum non tantum est culpa, sed etiam culpa mortalis. In quantum culpa est, dicit privationem ordinis debiti ; in quantum mortalis est, non tantum dicit boni debiti privationem, sed etiam dicit ordinis et iustitiae subversionem. Ad hoc igitur quod concupiscentia in aliquo dicat culpam originalem, necesse est quod dicat necessitatem concupiscendi sive appetitus immoderantiam cum debito non concupiscendi et cum dominio, ita quod carnalis appetitus praesit spiritui. Et quia utrumque horum est in homine ante baptismum - habet enim debitum non concupiscendi, quia ad hoc tota humana natura in Adam fuerat obligata, nec illa obligatio alicui fuerat relaxata ; habet etiam dominium, quia gratia destitutus vincitur lege membrorum - hinc est quod habet in se originale peccatum. Cum autem homo baptizatur, tunc gratia infunditur, et merito passionis Christi, cuius efficitur membrum, per baptismum ab illo debito absolvitur. Gratia vero erigit animam et dat ei potentiam, ut non vincatur a concupiscentia, et per hoc aufert ei dominium. Et hinc est quod, quia in baptismate tollitur concupiscentiae dominium et solvitur non concupiscendi debitum, quod omnino aufertur ratio culpae ab ipsa concupiscentia, licet aliquo modo remaneat.
+   Et hinc est quod <name ref="#Lombard">Magister</name> dicit quod originale in baptismo transit reatu et remanet actu, quia, etsi remaneat concupiscentia, non tamen remanet prout est culpa et obligatoria ad poenam. Hinc est etiam quod <name ref="#Lombard">Magister</name> dicit duplici ratione in baptismate peccatum originale deleri : et quia vitium concupiscentiae extenuatur et quia reatus solvitur.
+</p>
+          <p xml:id="bb-l2d32a1q1-d1e201">Aliter etiam potest intelligi verbum illud, ut intelligamus, sicut superius dictum fuit, in originali culpa reperiri conformitatem quamdam ad culpam actualem. Sicut enim videmus quod in culpa actuali et est conversio et est aversio in ipso actu peccandi, et in ipso habitu peccati est privatio habitus boni et quaedam habilitatio ad actum peccati, sic in originali intelligimus esse debitae iustitiae carentiam ut concupiscentiam. Et quemadmodum in actuali privatio habilitatis bonae est ipsum peccatum, formaliter loquendo, ipsa vero habilitatio sive pronitas ad actum peccati non est peccatum nisi materialiter loquendo, pro eo quod non est culpa nisi quamdiu manet ibi privatio : sic intelligendum est in proposito. Et quemadmodum in actualis peccati deletione, cum gratia infunditur, statim removetur culpa in quantum erat deformitas et privatio, nihilominus tamen simul cum hoc manet quaedam pronitas ad actum, licet remissa, in his potissime qui peccaverunt peccato consuetudinis : sic, quando gratia baptismatis infunditur animae, statim removetur originale peccatum eatenus qua erat carentia debitae iustitiae ; statim etiam, cum gratia est in anima, simul cum ea est et iustitia ; concupiscentia vero non omnino tollitur, sed minuitur, pro eo quod pronitas ad culpam simul potest stare cum gratia, quia, sicut dictum est, non erat ipsum peccatum loquendo formaliter, sed materialiter. Unde, cum excluditur carentia debitae iustitiae per gratiam baptismalem, remanet concupiscentia ratione poenae. Et hinc est quod dicit <name ref="#Lombard">Magister</name> quod transit reatu et remanet actu, quia iam non est culpa, per quam homo sit dignus poena, sed poena est ex praecedenti culpa relicta. Pro tanto etiam dicit quod originale peccatum duplici ratione dicitur remitti in baptismo : et quia concupiscentia extenuatur et quia debitum solvitur. Solvitur namque debitum, dum per iustltiam gratiae recompensatur iustitia originalis innocentiae ; concupiscentia vero remittitur, dum potestas datur spiritui per gratiam regendi et vincendi carnem.
+Concedendae sunt igitur rationes ostendentes peccatum originale quantum ad culpam deleri in baptismo.
+   </p>
+        </div>
+        <div xml:id="bb-l2d32a1q1-Dd1e209">
+          <head xml:id="bb-l2d32a1q1-Hd1e211">Ad rationes</head>
+          <p xml:id="bb-l2d32a1q1-d1e214">Ad illud ergo quod primo obicitur in contrarium, quod manet privatio originalis iustitiae, respondetur quod debitum solvitur merito passionis Christi et recompensatio fit gratia Spiritus Sancti, quam Deus dat animae et quam etiam plus acceptat quam iustitiam innocentiae.</p>
+          <p xml:id="bb-l2d32a1q1-d1e217">Ad illud quod obicitur quod manente actu non potest deleri ; culpa, dicendum quod verum est de actu in quo consistit plena ratio ; culpae, sicut in actu fornicationis consistit consummatio illius peccati. Actus autem originalis peccati vocatur hic concupiscentia sive necessitas concupiscendi ; sed haec non manet prout in ipsa est illius peccati consummatio : Sicut enim dictum est, nec manet quantum ad dominium nec manet quantum ad non concupiscendi debitum. Unde sicut in aliquo casto post deletionem et dimissionem peccati luxuriae manere potest aliqua pronitas carnalis concupiscentiae et etiam aliquando in actum concupiscendi exire, salva nihilominus castitate, sic et in proposito intelligendum est esse.</p>
+          <p xml:id="bb-l2d32a1q1-d1e220">Ad illud quod obicitur, quod concupiscere posl baptismum est peccatum, dicendum quod verum est ; sed ex hoc non sequitur quod illa concupiscentia, quae provocat ad concupiscendum, sit peccatum, sed sufficit quod sit peccatum vel ex peccato relicta. Quando ergo dicitur quod quales sunt actus, tales sunt habitus, hoc intelligitur de habitibus generatis ex actibus frequentatis, sicut de habitibus consuetudinalibus. Concupiscentia vero illa, quae post baptismum remanet, non est aggenerata ex frequenti concupiscere, sed ex carnis corruptione ; et ideo noti habet rationem culpae, sed poenae. Quia vero ad malum inclinat, potius vitiositas quam poenalitas appellari debet.</p>
+          <p xml:id="bb-l2d32a1q1-d1e223">Ad illud quod obicitur, quod remota culpa, debet per consequens removeri poena, dicendum quod illud verum est de poena aeterna et eius reatu ; de aliis vero poenis temporalibus hoc non oportet, sicut manifestum est in sacramento poenitentiae, in quo, etsi deleatur culpa In contritione, nihilominus tamen obligatur homo ad satisfactionem ; ; quamvis enim Deus remittat offensam, adhuc quaerit emendam. Et si tu obicias, quod in baptismo est plena remissio, unde delentur ibi actualia quantum ad poenam et culpam, et ita multo fortius originale, ad hoc satis planum est respondere. Sed huius quaestionis determinatio non spectat ad locum istum, sed ad quartum librum, in ea parte in qua agitur de baptismo quantum ad effectum ; et ibi determinatum invenietur quare homo in baptismo a quibusdam poenis absolvitur, a quibusdam vero minime. Et quia superfluitas vitanda est et singula suis locis tractanda sunt tum propler ordinem tum propter brevitatem, ad praesens omittendum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

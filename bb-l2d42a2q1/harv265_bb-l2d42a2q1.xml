@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d42a2q1">
+        <head xml:id="bb-l2d42a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d42a2q1-Hd1e111" type="question-title">Utrum peccatum veniale et mortale conveniant in aversione.</head>
+ 
+        <p xml:id="bb-l2d42a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum veniale et mortale conveniant in aversione.</p> 
+        <div xml:id="bb-l2d42a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d42a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d42a2q1-d1e122">
+            <name ref="#Augustine">Augustinus</name>, definiens peccatum, dicit quod peccatum non est appetitus rerum malarum, sed desertio meliorum. Si ergo veniale peccatum peccatum est, ergo in ipso est desertio summi boni ; sed ubi est desertio summi boni, ibi est aversio : ergo etc. Si tu dicas quod haec ratio conveniat mortali tantum, tunc ego quaero : in quo communicant veniale et mortale, ratione cuius utrumque dicatur peccatum ? Si tu dicas quod in conversione ad commutabile bonum, hoc non videtur, quia converti ad commutabile bonum non est peccatum nisi per illud recedat homo a bono incommutabili : peccatum enim est privatio, non positio. Si ergo veniale peccatum, in quantum peccatum est, communicat cum mortali, et illud, in quo communicat, non est conversio, ergo est aversio.</p>
+          <p xml:id="bb-l2d42a2q1-d1e128">Item, omne illud, quod est contra divinum praeceptum, avertit a Deo ; sed veniale est huiusmodi : ergo etc. Maior per se manifesta est ; minor probatur. Ad Romanos 7, 7 super illud : <quote xml:id="bb-l2d42a2q1-Qd1e130" ana="#rom7_7">Non concupisces</quote>, Glossa : <quote xml:id="bb-l2d42a2q1-Qd1e133">Bona est lex, quae, dum concupiscentiam prohibet, omnia mala prohibet</quote>. Ergo, si peccatum veniale est malum, ergo per illud praeceptum : Non concupisces, est prohibitum.</p>
+          <p xml:id="bb-l2d42a2q1-d1e137">Item, omne illud quod deformat imaginem, avertit a Deo ; peccatum veniale est huiusmodi : ergo etc. Minor probatur per illud quod dicitur, VI Musicae : <quote xml:id="bb-l2d42a2q1-Qd1e139">Amor inferioris pulcritudinis animam polluit</quote>. Sed peccatum veniale est amor inferioris pulcritudinis : ergo etc.</p>
+          <p xml:id="bb-l2d42a2q1-d1e143">Item, simplex, ad quod se convertit, totaliter se convertit ; sed tam intellectus quam affectus est simplex : ergo, cum se convertit ad aliquid, totaliter se convertit. Sed quod totaliter se convertit ad aliquid, avertitur ab eius opposito vel disparato : ergo, cum affectus noster se convertit ad creaturam sub ratione creaturae, necesse est ipsum averti a Deo. Sed hoc est in veniali peccato : ergo etc.</p>
+          <p xml:id="bb-l2d42a2q1-d1e147">Item, impossibile est quod aliquid moveatur ad terminum ad quem quin aliquo modo separetur a termino a quo ; sed conversio dicit motum animi respectu termini ad quem, aversio autem respectu termini a quo : ergo, si conversio est in veniali peccato, necesse est quod similiter sit aversio.</p>
+          <p xml:id="bb-l2d42a2q1-d1e150">Item, omnis amor creaturae vel est per modum usus vel per modum fruitionis, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro De doctrina Christiana ; sed in peccato veniali est amor creaturae : ergo vel per modum usus vel fruitionis. Non per modum usus, quia iam non esset culpa ; est ergo amor fruitionis. Sed frui creatura est ponere finem in creatura ; et hoc non est aliud quam averti a Deo : ergo omnis amor venialis peccati facit a Deo averti.</p>
+          <p xml:id="bb-l2d42a2q1-d1e156">Sed contra : Nullus aversus a Deo est iustus ; sed peccans venialiter remanet in iustitia : ergo peccans veniallter non avertitur a Deo. Maior manifesta est ; minor probatur per illud Proverbiorum 24, 16 : <quote xml:id="bb-l2d42a2q1-Qd1e158" ana="#prov24_16">Septies in die cadit iustus et resurget</quote>.</p>
+          <p xml:id="bb-l2d42a2q1-d1e162">Item, nullus separatur a Deo nisi volens ; sed omnis qui avertitur separatur a Deo : ergo nullus separatur a Deo nisi in actu quem facit mera voluntate. Sed multa venialia peccata committimus quadam necessitate, sicut dicitur ad Romanos 7, 15 : <quote xml:id="bb-l2d42a2q1-Qd1e164" ana="#rom7_15">Quod nolo malum, illud facio</quote> : ergo etc.</p>
+          <p xml:id="bb-l2d42a2q1-d1e168">Item, nullus avertitur a Deo sine ipsius Dei contemptu et offensa ; sed nullus contemnit et offendit Deum sine gravi culpa ; sed veniale inter levia peccata reponitur : ergo per veniale homo non avertitur a Deo.</p>
+          <p xml:id="bb-l2d42a2q1-d1e171">Item, nihil quod stat simul cum caritate avertit a Deo ; sed veniale stat simul cum caritate : ergo etc. Maior manifesta est ; minor probatur : quia, si veniale expelleret caritatem, ergo auferret homini vitam gratiae. Sed peccatum, quod aufert homini vitam gratiae, ponit mortem et dicitur mortale : ergo peccatum veniale esset mortale.</p>
+        </div>
+        <div xml:id="bb-l2d42a2q1-Dd1e175">
+          <head xml:id="bb-l2d42a2q1-Hd1e177">Conclusio</head>
+          <head xml:id="bb-l2d42a2q1-Hd1e180" type="question-title">Peccatum veniale non communicat cum 
+    mortali in aversione, secundum quod aversio dicitur proprie.</head>
+ 
+          <p xml:id="bb-l2d42a2q1-d1e183">Respondeo : Dicendum quod absque dubio peccatum veniale non communicat cum mortali in aversione, secundum quod aversio dicitur proprie. Importat enim Dei contemptum, et contemptus Dei iram meretur et mortem ; peccatum autem, quo quis meretur iram et mortem, non debet dici veniale, immo potius mortale. Et propterea communiter tenetur quod aversio, proprie loquendo, reperitur in peccato mortali, non in veniali.</p>
+ 
+          <p xml:id="bb-l2d42a2q1-d1e186">Et istud melius patet, si modum attendamus per quem homo dicitur averti a Deo et contemnere Deum, committendo aliquod peccatum, in quo nihil cogitat de Deo. Aut enim avertitur homo a Deo, quia facit contra divinum mandatum aut quia ponit sibi bonum creatum tamquam finem ultimum. In hoc namque quod facit contra divinum mandatum, recte a Deo avertitur, quia mandatum est via recte perveniendi ad Deum et tendendi in Deum. Qui igitur facit contra mandatum incedit directe via contraria ; ideo quasi faciem suam retrorsum convertens, tergum vertit ad illum in quem debebat per mandatum tendere.
+Similiter, cum statuit sibi creaturam tamquam finem ultimum, recte dicitur a Deo averti. Anima enim media est inter creaturam et Deum, in quantum est imago Dei. Dum ergo ad creaturam se tamquam ad finem convertit, faciem suam, quae debebat esse sursum versa, deorsum inclinat, et ideo se averi it a Deo.
+Et utroque dictorum modorum non est aversio sine contemptu. Nam qui mandatum Dei transgreditur contemnit mandantem. Similiter, qui creaturam sibi finem statuit principalem magis appretiat creaturam quam Deum ; et hoc non potest esse sine Dei contemptu.
+</p>
+ 
+          <p xml:id="bb-l2d42a2q1-d1e189">Veniale autem peccatum nec est directe contra Dei mandatum nec statuit creaturam tamquam finem ultimum ; et ideo non est in eo nec aversio nec contemptus. Sed quia veniale fit praeter Dei mandatum, in veniali etiam peccato creatura non refertur in Deum, hinc est quod per veniale quodam modo recedit homo a via mandati, quodam modo etiam morose adhaeret ei per quod deberet transire. Unde et in veniali est quaedam elongatio et quaedam retardatio.
+Unde conceditur quod veniale a Deo non avertit, sed elongat, a Deo non separat, sed retardat. Et si large nomen aversionis acciperetur, ut se extenderet ad elongationem et retardationem, in veniali esset aversio quaedam. Quia tamen nomen aversionis sonat in contemptum, ideo tenendum est quod avertere a Deo sit mortalis peccati proprie.
+Unde rationes, quae hoc ostendunt, concedendae sunt.
+</p>
+        </div>
+        <div xml:id="bb-l2d42a2q1-Dd1e194">
+          <head xml:id="bb-l2d42a2q1-Hd1e196">Ad rationes</head>
+
+          <p xml:id="bb-l2d42a2q1-d1e199">Ad illud ergo quod primo obicitur, quod peccatum est desertio, dicendum quod si ista definitio detur pro peccato mortali, desertio stat ibi pro aversione. Si autem detur pro quolibet peccato, desertio dicit quamdam elongationem et retardationem. Posset tamen dici quod non dicitur ibi peccatum desertio Dei, sed desertio cuiuscumque boni quod spectat ad rectitudinem. Quamvis ergo in veniali peccato non sit desertio Dei, est tamen desertio alicuius bonae circumstantiae circa actum, ex cuius defectu incidit veniale peccatum. Et in hoc communicant tam veniale quam mortale peccatum, quia utrumque privat aliquod bonum. Sed in hoc differunt, quod mortale privat aliquem actum vel circumstantiam necessariam ad salutem, veniale vero non.
+</p>
+
+          <p xml:id="bb-l2d42a2q1-d1e202">Ad illud quod obicitur, quod veniale est contra Dei prohibitionem, dicendum quod illud proprie dicitur esse contra Dei prohibitionem, ad cuius oppositum obligat prohibitio ; veniale autem non est huiusmodi, et ideo non est directe prohibitum. Est tamen ipsi prohibitioni annexum, et magis proprie debet dici cohibitum quam prohibitum. Et hoc patet quia, cum Deus prohibet concupiscentiam, dicens : Non concupisces, non prohibet primum motum concupiscentiae, sed concupiscentiae progressum, secundum illud Ecclesiastici 18, 30 : Fili, post concupiscentias tuas non eas ; sed dum prohibet hominem ire post motum concupiscentiae, hoc ipso manifestat quod concupiscentiae motus non est bonus nec Deo placitus.</p>
+          <p xml:id="bb-l2d42a2q1-d1e205">Ad illud quod obicitur, quod amor inferioris pulcritudinis polluit animam, dicendum quod anima dupliciter habet pollui : aut macula mortalis peccati, quae quidem expellit nitorem gratiae, aut macula venialis peccati, quae quodam modo retardat actum dilectionis gratuitae. Et prima pollutio est per mortale et facit ad deformationem imaginis, quia aufert ei formam, scilicet imaginem recreationis. Secunda vero est pollutio venialis, quae, etsi aliquo modo polluat, non tamen animam deformat, quia stat simul cum gratia, quae animam informat.</p>
+
+          <p xml:id="bb-l2d42a2q1-d1e208">Ad illud quod obicitur, quod simplex, ad quod se convertit, totaliter se convertit, dicendum quod hoc tripliciter potest intelligi : quia totaliter potest dicere totalitatem quantum ad actum convertendi vel quantum ad habitum vel quantum ad potentiam convertendi. Si intelligatur quantum ad actum, sic verum est, ad minus secundum statum viae, quia non intelligimus simul et semel nisi unum solum ; aut si multa simul intelligamus et velimus, hoc est in quantum sunt unum. Si autem dicat totalitatem habitus vel virtutis, sic falsus est sermo. Non enim oportet quod quando anima vel aliquod simplex convertit se ad aliquid, convertat se secundum totum suum habitum et secundum totam suam potentiam, quia potest converti intensius et remissius.
+Cum ergo dicitur quod quando affectus se convertit ad unum totaliter, avertitur ab eius opposito sive disparato, si primo modo intelligatur, falsum est, quia potest se convertere ad unum in actu et ad aliud in habitu ; si secundo modo vel tertio intelligatur, sic habet veritatem. Sed maior propositio fuit falsa, et propter hoc, quia totaliter converti aliter accipitur in maiori propositione et aliter in minori, ideo consequentia illa non tenet. Et si tu obicias quod non potest affici simul et semel erga Deum et erga creaturam, quam inordinate diligit, unde cum convertitur ad unum, avertitur ab altero, dicendum quod non sequitur, quia averti plus dicit quam non converti actualiter ; importat enim contrarium conversionis, videlicet quamdam aspernationem Dei sive contemptum.
+</p>
+
+          <p xml:id="bb-l2d42a2q1-d1e212">Ad illud quod obicitur, quod motus separat a termino a quo, dicendum quod verum est de illo motu proprie dicto qui concernit duos terminos, unum a quo incipit et alterum in quem tendit. Non sic est in actu venialis peccati. Anima enim, cum peccat venialiter, non movetur a Deo in creaturam, sed magis afficitur circa ipsam creaturam. Unde et veniale peccatum potius est animi affectus sive actus quam motus.</p>
+    
+          <p xml:id="bb-l2d42a2q1-d1e215">Ad illud quod obicitur, quod amor venialis peccati est amor fruitionis, dicendum quod falsum est, secundum quod frui accipitur proprie, videlicet quiescere in aliquo tamquam ad finem ultimum ; sic enim frui est per mortale, non per veniale.
+Si ergo quaerat, utrum sit usus vel fruitio, dicendum quod nec est usus nec fruitio, sed abusus, nisi forte usus dicatur large omnis amor quo quis amat aliquid, non quiescens in illo, sed refert ad aliud actu vel habitu, sive referat recte sive minus recte. Et quod illud oporteat dicere, manifestum est. Cum enim aliquis diligit aliquam creaturam, referens ad aliud, non tamen ad illud ad quod debet, amore illo peccat ; nec tamen illud est fruitio nec usus proprie dictus, sed magis proprie debet dici abusus. Unde <name ref="#Augustine">Augustinus</name>, cum dicit : Omnis qui amat aliquid, aut amat utens aut fruens, accipit large usum et fruitionem ; usum pro omni amore relato, sive directe sive indirecte ; fruitionem pro omni amore non relato, sive statuat ibi finem principalem sive non. Et sic in divisione illa comprehenditur amor venialis peccati, nisi forte quis velit dicere quod <name ref="#Augustine">Augustinus</name> loquitur ibi de amore ordinato. Et sic patent omnia.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

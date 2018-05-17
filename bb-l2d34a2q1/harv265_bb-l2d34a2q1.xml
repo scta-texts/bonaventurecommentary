@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d34a2q1">
+        <head xml:id="bb-l2d34a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d34a2q1-Hd1e111" type="question-title">Utrum aliquid sit ita malum quod nihil habeat de bono.</head>
+ 
+        <p xml:id="bb-l2d34a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum aliquod malum sit ab omni bono sequestratum, et hoc est quaerere, utrum aliquid sit ita malum quod nihii habeat de bono, sed sit malum in summo.</p> 
+        <div xml:id="bb-l2d34a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d34a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d34a2q1-d1e122">Et quod sic, videtur : <quote xml:id="bb-l2d34a2q1-Qd1e124">In his quae per se dicuntur, si simpliciter ad simpliciter, et magis ad magis, et maxime ad maxime</quote> per considerationem <name ref="#Aristotle">Philosophi</name> : sed haec est vera per se : bono opponitur malum ; ergo magis bono magis malum et maxime bono maxime malum. Si ergo contingit reperire summe bonum, ergo et summe malum : nam <quote xml:id="bb-l2d34a2q1-Qd1e130">si unum oppositorum ponitur in natura, per consequens ponitur et reliquum</quote>.</p>
+          <p xml:id="bb-l2d34a2q1-d1e134">Item, magis et minus dicitur per accessum ad terminum : ergo, ubi est reperire magis et minus, contingit reperire summum ; sed In malo contigit reperire magis et minus : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e137">Item, aut est status in malis aut non ; constat, quod necesse est statum ponere : nam ille ponitur in omni eo quod actu est ; sed status non est citra summum : ergo necesse est ponere summe malum. Sed hoc est quod nihil habet de bono : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e140">Item, <quote xml:id="bb-l2d34a2q1-Qd1e142">omne per accidens reducitur ad per se</quote>. Ergo, si est ponere malum per accidens, est ponere malum per se ; sed illud per se inest alicui, quod habet ortum ex propriis principiis illius : si ergo aliquid est malum per se, videtur quod eius principia sint mala ; et si principia eius sunt mala, totum est malum ; et si totum est malum, nihil est ibi de bono : ergo a primo, si est ponere malum per accidens, est ponere aliquid quod sit simpliciter et totaliter malum. Constat autem quod primum est ponere : ergo et alterum.</p>
+          <p xml:id="bb-l2d34a2q1-d1e147">Item, omne dictum per participationem reducibile est ad dictum per essentiam : cum ergo dicitur aliquid esse malum, aut dicitur per participationem aut per essentiam. Si per essentiam, sed bonum per essentiam est summe bonum, quod nihil habet de malo : ergo similiter erit aliquid ita malum quod nihil habebit de bono. Si dicitur per participationem, et omne tale reducitur ad dictum per essentiam, ergo redit necessario quod aliquid sit malum essentialiter : et ita idem quod prius.</p>
+          <p xml:id="bb-l2d34a2q1-d1e150">Item, <quote xml:id="bb-l2d34a2q1-Qd1e152" source="http://scta.info/resource/aristmet-l10">in quolibet genere est reperire unum primum, quo mensurantur omnia, quae sunt illius generis</quote>. Hoc planum est et patet per <name ref="#Aristotle">Philosophum</name>, qui hanc proponit in X Primae <name ref="#Aristotle">Philosophi</name>ae ; hoc etiam patet inducendo. Ergo in genere malorum est reperire aliquod unum, quod sit mensura omnium malorum ; sed illud non potest esse nisi summum inter omnia mala : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e162">
+ Contra :
+1. Si est ponere summum malum, quod nihil habeat de bono, et esse aliquod bonum est, tunc est ponere summe malum esse et tamen non habere esse ; sed haec sunt duo incompossibilla : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e165">2. Item, <quote xml:id="bb-l2d34a2q1-Qd1e167">omnis potentia, ut dicit <name ref="#Aristotle">Philosophus</name>, est de genere bonorum</quote>. Ergo, si aliquid est summe malum, illud omnino nihil potest ; sed summum in omni genere plus potest quam illud quod est citra summum : si ergo illud quod non est summe malum, aliquid potest, illud quod est summe malum.multa potest : ergo eo ipso quod est summum,multa potest et nihil potest. Sed haec duo sunt incompossibilla : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e174">3. Item, omnis scientia de genere bonorum est non tantum scientia boni, verum etiam scientia mali : scire enim malum bonum est. Si ergo aliquid est summe malum, caret notitia boni et mali : ergo nec scit facere malum nec laedere ; sed hoc ipso quod malum est, scit laedere bonum : ergo hoc ipso quod summe malum est, scit et nescit bona et mala. Sed ista sunt incompossibilia : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e177">4. Item, si aliquid est summe malum, est malum per essentiam et necessario ; sed, si malum est per essentiam et naturam, naturale est ei facere malum. Sed unumquodque, dum facit quod est sibi naturale, bene facit ; et quod bene facit est bonum : ergo, si aliquid est summe malum, ipsum est bonum, et dum male facit, bene facit. Sed hoc est impossibile : ergo etc.</p>
+          <p xml:id="bb-l2d34a2q1-d1e181">5. Item, si aliquid est summe malum, illud est vilissimum : quanto enim aliquid magis malum est, tanto vilius est ; et si vilissimum Inter mala, ergo inter illa est infirmum. Sed quod est infimum inter mala non est summum caput malorum : ergo quod est summe malum non est summe malum. Si dicas quod non sequitur : est vilissimum, ergo non est summe malum, quia hoc est esse summe malum quod infimum est respectu bonorum ; obicitur, quia si aliquid ponitur summe malum, non debet poni super alia, sed infra secundum rectum ordinem : ergo non est deus tenebrarum, sed servus ; quod est contra errorem istum.</p>
+          <p xml:id="bb-l2d34a2q1-d1e184">6. Item, si est summe malum, ergo illud erit ita omnipotens in malo sicut summe bonum in bono : ergo omne malum subiacet eius potentiae ; sed cuiuscumque boni corruptio est malum : ergo cuiuslibet boni corruptio subiacet potentiae summe mali : ergo, si summe malum est, potest corrumpere omne bonum. Sed bonum, quod potest corrumpi, non est summum : ergo, si est ponere summe malum, nihil est summe bonumet, si non est summe bonum, nihil est bonum. Ergo a primo, si est ponere summe malum, nihil est bonum ; quodsi hoc est omnino falsum et impium, patet etc.</p>
+        </div>
+        <div xml:id="bb-l2d34a2q1-Dd1e188">
+          <head xml:id="bb-l2d34a2q1-Hd1e190">Conclusio</head>
+          <head xml:id="bb-l2d34a2q1-Hd1e193" type="question-title">Et fides et ratio dictat, nihil esse ita malum, 
+    quin habeat aliquid de bono</head>
+          <p xml:id="bb-l2d34a2q1-d1e196">Respondeo : Dicendum quod ponere malum aliquod esse, quod nihil habeat de bono, non solum est perversitatis haereticae, sed etiam manifestae caecitatis et stultitiae. Sicut enim in opponendo monstratum est, ipsa positio implicat in se opposita. Implicat enim quod illud, scilicet summe malum, sit et non sit ; quod idem possit et non possit ; et quod idem sciat et nesciat. Et dum implicat in se opposita, destruit se ipsam. Nam in ponendo summe malum esse quod nihil de bono habeat, ponit quod illud non sit summum ; ponit quod non sit malum ; ponit etiam quod nullum bonum habeat oppositum. Et haec omnia in opponendo monstrata sunt, quae manifeste convincunt errorem istum esse fatuum et caecum ; et auctorem sive inventorem, suum ostendunt fuisse excaecatum et impium. Nunquam enim in tantam tenebrositatem detrusus esset impius Manichaeus, nisi longe ante fuisset servus dei tenebrarum, qui excaecavit mentem eius, ut non fulgeret in eo illuminatio veritatis, quae super omnem irradiat intellectum. Et usque hodie viget hic error pessimus, quamvis sit irrationabilissimus. Et huius ratio est potissima ipsa mater caecitatis superbia, quae regnat in quibusdam laicis quantum ad ea quae sunt fidei et morum. Cum enim sint idiotae, praesumunt sacram Scripturam exponere, quae est profundissima omnium scripturarum ; cum iterum habeant quamdam honestatem exteriorem, contemnunt vitam omnium aliorum ; et merito huius duplicis superbiae excaecantur, ut incidant in errorem istum pessimum, per quem excaecantur adeo ut nesciant discernere quid bonum et quid malum, dum multa genera bonorum ponunt esse a deo malo. Quos Isaias praemonstrat 5 capitulo, 20 : Vae, qui dicitis malum bonam, et bonum malum, ponentes lucem tenebras et tenebras lucem. Et propter nimiam excaecationem, in qua sunt, amisso quasi rationis usu, nullam habent in eis efficaciam argumenta ad persuadendum nec tormenta ati retrahendum nec orationum suffragia ad relevandum, nisi hoc fiat de gratia specialissima.
+Hanc positionem haereticam, immo stultissimam et blasphemam, repudiando dicamus, sicut dicit fides catholica et ratio recta, nihil esse ita malum quin habeat aliquid de bono.</p>
+ 
+          <p xml:id="bb-l2d34a2q1-d1e199">Ad intelligentiam autem obiectorum notandum quod summum in aliquo genere dupliciter potest dici. Uno modo dicitur summum, quo nihil potest esse maius ; et hoc modo non contingit reperire neque ponere summe malum : nihil enim est adeo malum quin posset esse peius, pro eo quod aliquid habet de bono, quo posset magis privari, et ita adhuc peius esset. Et pro tanto dicit <name ref="#Dionysius">Dionysius</name> quod malum est infinitum . Alio modo dicitur summum, quo nihil est maius secundum actum, sed ipsum excedit inter omnia alia ; et sic contingit reperire summum in malis. Nam Lucifer, qui est rex super omnes filios superbiae, pessimus est super omnes.
+His visis, facile est respondere ad obiecta.</p>
+        </div>
+        <div xml:id="bb-l2d34a2q1-Dd1e207">
+          <head xml:id="bb-l2d34a2q1-Hd1e209">Ad rationes</head>
+          <p xml:id="bb-l2d34a2q1-d1e212">Ad illud ergo quod primo obicitur de oppositione mali, dicendum quod consideratio intelligitur ita quod terminus eodem modo accipiatur, cum dicitur simpliciter et cum dicitur cum excessu ; non sic autem est in proposito. Nam cum dicitur quod bonum opponitur malo, accipitur hic bonum per participationem ; cum vero infertur de summo bono, accipitur ibi bonum pro bono per essentiam, quod solum est summe bonum et illi nihil opponitur.</p>
+          <p xml:id="bb-l2d34a2q1-d1e215">Ad illud quod obicitur, quod magis et minus accipitur secundum maiorem et minorem accessum ad terminum, dicendum quod verum est in his quae dicunt positionem ; non autem est verum in his quae dicunt privationem, immo accipiuntur per recessum. Unde magis malum dicitur quod magis recedit a bono ; et quia nunquam tantum recedit quin adhuc possit magis, hinc est quod nunquam est ibi ponere summum.</p>
+          <p xml:id="bb-l2d34a2q1-d1e218">Ad illud quod obicitur de statu, dicendum quod status est sesecundum actum ; sed non oportet quod sit status secundum potentiam, ut non possit esse ultra progressus. Nam, etsi in rebus creatis non contingat invenire actu infinitum, contingit tamen reperire infinitum in potentia, sicut patet in numero per appositionem et in continuo per divisionem. Sic et in proposito intelligendum ; et hoc infra manifestabitur, cum agetur de corruptione mali.</p>
+
+          <p xml:id="bb-l2d34a2q1-d1e221">4-6. Ad illud quod obicitur, quod per accidens reducitur ad per se, et similiter dictum per participationem ad dictum per essentiam, et similiter quod in quolibet genere est reperlre unum primum etc., dicendum quod haec habent locum in his quae dicunt positionem et naturam, quae possit causari ex principiis subiecti et quae possit essentialiter dici et secundum quam possint alia mensurari secundum eius participationem maiorem et minorem. Malum autem privationem dicit in quantum malum ; et ideo illae tres rationes non habent hic locum.
+Et hoc fuit quod decepit Manichaeum, ut dicit <name ref="#Augustine">Augustinus</name>, quia nescivit quid esset malum. Et quia voluit de malo disputare nesciens quid hoc esset, ideo se et multos praecipitavit in errorem. Superbia enim sua fecit ipsum ignorare modum addiscendi. In omni enim inquisitione prius oportet intelligere quid est quod per nomen dicitur, et hoc tamquam praecognitionem afferre secum ad rei proprietates posterius cognoscendas.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

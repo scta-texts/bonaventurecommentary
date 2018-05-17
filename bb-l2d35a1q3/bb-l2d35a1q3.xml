@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35a1q3">
+        <head xml:id="bb-l2d35a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d35a1q3-Hd1e111" type="question-title">Utrum peccatum, ex eo quod corrumpit bonum, contrarietur bono increato.</head>
+ 
+        <p xml:id="bb-l2d35a1q3-d1e114">Tertio quaeritur, utrum peccatum ex hoc quod corrumpit bonum contrarietur bono increato.</p> 
+        <div xml:id="bb-l2d35a1q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d35a1q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d35a1q3-d1e122">Et quod sic, videtur : Primo, per <name ref="#Augustine">Augustinum</name>, XII De civitate Dei : <quote xml:id="bb-l2d35a1q3-Qd1e127" source="http://scta.info/resource/adcd-l12">Vitium contrarium est Deo, tamquam malum bono ; naturae vero, quam vitiat, non tantum est contrarium, sed etiam noxium</quote>. Ergo videtur malum, in eo quod corrumpit naturam, contrariari summo bono.</p>
+          <p xml:id="bb-l2d35a1q3-d1e131">Item, quod facit hominem rebellem ei contrarium Deo, illud potissime Deo contrariatur ; sed peccatum facit hominem inimicum Dei et pugnare adversus Deum et resistere, sicut ex diversis locis Scripturae accipi potest : ergo etc,</p>
+          <p xml:id="bb-l2d35a1q3-d1e134">Item, contrarietas effectuum attestatur contrarietati causarum, maxime quando causa sic est in alterum contrariorum, quod non potest esse in reliquum ; sed summi boni est iustitiam facere, peccati vero est justitia privare, nec Deus potest privare iustitia nec malum potest facere iustitiam : ergo videtur quod malitia sit summo bono contraria in hoc quod privat iustitiam.</p>
+          <p xml:id="bb-l2d35a1q3-d1e137">Item, quod contrariatur praecepto alicuius, contrariatur ipsi praecipienti ; sed malum contrariatur verbis et mandatis Dei in hoc quod est corruptio et corrumpit illud quod mandata Dei praecipiunt servari : ergo etc.</p>
+          <p xml:id="bb-l2d35a1q3-d1e141">Item, caritas et cupiditas opponuntur, similiter gratia et culpa opponuntur ; sed caritas et gratia Deo uniunt et assimilant, et in hoc maximam habent cum summo bono convenientiam : ergo econtra cupiditas et culpa reddunt animam Deo deformem et ab eo separant ; et si hoc, ergo, habent cum Deo contrarietatem et repugnantiam.</p>
+
+ 
+          <p xml:id="bb-l2d35a1q3-d1e144">Sed contra : Malum nulli contrariatur nisi ei cui est malum, et nulli est malum, nisi ei cui nocet. Si ergo nullum malum summo bono potest nocere, quia iam non esset summum, videtur quod ratione privationis boni non contrarietur malum aliquod summo bono.</p>
+          <p xml:id="bb-l2d35a1q3-d1e147">Item, omnia <quote xml:id="bb-l2d35a1q3-Qd1e149">contraria nata sunt fieri circa idem</quote> ; sed malum nullo modo natum est fieri circa summum bonum : ergo nullo modo contrariatur summo bono.</p>
+          <p xml:id="bb-l2d35a1q3-d1e153">Item, omnium contrariorum aliqua est proportio ; sed mali ad bonum increatum nulla est proportio : ergo nulla contrarietas est istius mali ad illud summum bonum.</p>
+          <p xml:id="bb-l2d35a1q3-d1e156">Item, omne contrarium aliquo modo resistit et repugnat suo contrario ; sed divinae virtuti, cum sit omnipotentissima, nihil potest resistere : ergo impossibile est malum contrariari Deo nec in se nec in suo opere.</p>
+          <p xml:id="bb-l2d35a1q3-d1e159">Item, nihil quod facit ad pulcritudinem operis contrariatur sapientiae artificis ; sed mala quae perpetrantur faciunt ad decorem universitatis : ergo nullo modo contrariantur nec bonitati nec sapientiae Conditoris.</p>
+
+ 
+          <p xml:id="bb-l2d35a1q3-d1e163">Quaeritur ergo, pro quanto habeat illud intelligi quod malum facit hominem Deo inimicum et Deo adversarium, cum Dei voluntas impleatur ex omnibus et omnia subiaceant eius voluntati et nutui.</p>
+        </div>
+        <div xml:id="bb-l2d35a1q3-Dd1e167" type="rationes-principales">
+          <head xml:id="bb-l2d35a1q3-Hd1e169">Rationes principales</head>
+ 
+          <p xml:id="bb-l2d35a1q3-d1e172">Respondeo : Dicendum quod aliquod malum contrariari alicui bono dupliciter potest intelligi ; aut in se et secundum formam aut in suo effectu et in operatione. Primo modo malum non potest contrariari summo bono, cum illud sit bonum per essentiam, cui nihil omnino est contrarium. Secundo vero modo quodam modo potest contrariari et quodam modo non. Nam dupliciter potest aliquis repugnare alicui in suo effectu : aut quia repugnat ex parte virtutis ipsius agentis aut quia repugnat ex parte idoneitatis ipsius suscipientis.
+Primo modo nihil potest repugnare Deo in suo opere, quoniam virtus Dei omnipotentissima est, et ideo nullum potest invenire obstaculum. Secundo modo subdistinguendum est, quia nocumentum inferre effectui, hoc potest esse dupliciter : aut simpliciter et universaliter aut in parte.
+Primo modo nihil potest contrariari Deo in opere suo. Tantus enim est et talis ordo universitatis, quem ei Conditor dedit, ut a nullo possit malo perturbari, secundum quod in pluribus locis vult <name ref="#Augustine">Augustinus</name>. Ultimo vero modo aliquid potest repugnare Deo in effectu suo, quia per malum bene contingit aliquem Dei effectum reddi minus habilem ad susceptionem divinae influentiae ad obtentum perfectionis, et beatitudiriis, ad quam ordinatur ex sua primaria conditione.
+Et sic patet quod uno modo malum potest dici contrariari Deo in suo effectu, sicut rationes ad primam partem inductae ostendunt ; aliis vero modis non, sicut ostendunt rationes quae ad secundam partem inducuntur, ; et ita diversis viis verum concludunt et concedendae sunt.</p>
+ 
+          <p xml:id="bb-l2d35a1q3-d1e178">Per hunc etiam modum solvendum est ad illud quod ultimo quaerebatur, scilicet pro quanto quis dicatur Dei inimicus. Nam iuxta modum praedictum distinguenda est voluntas beneplaciti et voluntas signi. Voluntas beneplaciti est ipse Deus ; voluntas vero signi dicit aliquem effectum creatum. Cum ergo dicitur quod aliquis homo adversatur Deo, hoc non intelligitur quod adversetur et inimicetur voluntati beneplaciti, cui nullus potest resistere, immo semper impletur vel ab homine vel de homine ; sed hoc dicitur quantum ad voluntatem signi, quia, cum Deus praecipiat unum, homo malus facit contrarium et ita Deo adversatur ; et talem hominem, qui sic adversatur Deo, Deus odit, non affectu et repugnantia voluntatis, sed effectu punitionis ; sic enim hominem affligit, sicut quis affligeret suum adversarium, et sic eum affligendo, ordinat eum ad honorem suum et reddit eum sibi sublectum. Et sic voluntati beneplaciti ceterae voluntates subserviunt et militant, quamvis aliquae contrariae videantur ratione eius quod repugnat voluntati signi. Sic etiam omnia mala a Deo ordinantur, quamvis repugnare videantur divino ordini in aliquo effectu particulari. Et per haec quae dicta sunt, satis potest faciliter ad quaesita responderi.</p>
+ 
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

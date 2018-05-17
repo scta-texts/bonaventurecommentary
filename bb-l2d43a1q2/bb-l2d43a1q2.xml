@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d43a1q2">
+        <head xml:id="bb-l2d43a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d43a1q2-Hd1e111" type="question-title">Utrum peccatum in Spiritum Sanctum semper habeat aliud peccatum praeambulum.</head>
+ 
+        <p xml:id="bb-l2d43a1q2-d1e114">Secundo quaeritur, utrum peccatum in Spiritum Sanctum semper habeat aliud peccatum praeambulum.</p>
+        <div xml:id="bb-l2d43a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d43a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d43a1q2-d1e122">Et quod sic, videtur : <name ref="#Lombard">Magister</name> in littera dicit quod <quote xml:id="bb-l2d43a1q2-Qd1e127" ana="#http://scta.info/resource/pl-l2d43c1-d1e114">peccatum in Spiritum Sanctum est peccatum desperationis vel obstinationis</quote>. Sed nullus desperat nec obstinatur nisi propter aliquod praecedens peccatum : ergo videtur quod semper aliquod peccatum sit praeambulum ad peccatum in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q2-d1e131">Item, peccatum in Spiritum Sanctum vel est finalis impoenitentia vel habet semper annexam finalem impoenitentiam, quantum est de se ; sed impoenitentia non est nisi respectu peccati praecedentis, sicut nec poenitentia : ergo nunquam est peccatum in Spiritum Sanctum quin habeat aliud peccatum praembulum.</p>
+          <p xml:id="bb-l2d43a1q2-d1e134">Item, peccatum in Spiritum Sanctum est peccatum procedens ex certa malitia : ergo necesse est quod, antequam homo peccet peccato in Spiritum Sanclum, sit malitiosus ; sed non est malitiosus nisi per culpam : ergo ante peccatum in Spiritum Sanctum necesse est esse aliam culpam praeambulam.</p>
+          <p xml:id="bb-l2d43a1q2-d1e137">Item, in bonis nemo repente fit summus : ergo videtur quod et in malis nemo statim labatur in profundum ; sed per istud peccati genus labitur homo in profundum vitiorum : videtur ergo quod istud peccati genus habeat aliud praeambulum quod disponat ad ipsum.</p>
+          <p xml:id="bb-l2d43a1q2-d1e141">Sed contra : Quatuor sunt nobis inflicta, sicut dicit Beda, propter peccatum primi parentis, videlicet <quote xml:id="bb-l2d43a1q2-Qd1e143">infirmitas, ignorantia, malitia et concupiscentia</quote>. Sed possibile est quod homo primo peccato peccet peccato ex ignorantia et ex infirmitate : igitur similiter possibile est quod primo peccet peccato quod ex malitia procedit.</p>
+          <p xml:id="bb-l2d43a1q2-d1e147">Item, quotiescumque peccatorum genera sunt diversa, possibile est peccare peccato uno absque alio. Si ergo peccatum in Spiritum Sanctum est peccatum distinctum ab aliis generibus peccatorum, possibile est aliquem peccare illo genere peccati, etiam si non praecesserit aliud peccatum.</p>
+          <p xml:id="bb-l2d43a1q2-d1e150">Item, impugnatio veritatis agnitae est huius peccati species ; sed ita bene potest quis impugnare veritatem agnitam sicut etiam veritatem ignoratam : ergo videtur saltem quod, quantum ad illam speciem, absque alio peccati genere committi possit peccatum in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q2-d1e153">Item, peccatum in Spiritum Sanctum consistit circa actum spiritus ; sed magis pendet actus carnis ex actu spiritus quam e converso : ergo, si homo potest peccare peccato carnis, nullo alio peccato praecedente, pari ratione, immo multo fortiori, videtur hoc esse verum de peccato in Spiritum Sanctum.</p>
+        </div>
+        <div xml:id="bb-l2d43a1q2-Dd1e157">
+          <head xml:id="bb-l2d43a1q2-Hd1e159">Conclusio</head>
+          <head xml:id="bb-l2d43a1q2-Hd1e162" type="question-title">Quaedam sunt species peccati in Spiritum sanctum, 
+    quae nullo modo possunt esse absque 
+    peccato praeambulo; quaedam vero possunt 
+    esse absque peccato praeambulo, quod tamen 
+    vix aut nunquam accidit.</head>
+ 
+          <p xml:id="bb-l2d43a1q2-d1e165">Respondeo : Dicendum quod de peccato in Spiritum Sanctum differenter est loqui secundum eius species differentes. Quaedam enim sunt species peccati in Spiritum Sanctum, quae nullo modo possunt esse absque peccato praeambulo, sicut sunt obstinatio, desperatio et finalis impoenitentia. Talia enim respiciunt peccatum praeambulum quasi materiam circa quam et etiam sicut causam ; nemo enim desperat de venia, nisi qui commisit culpam ; nemo obstinatur in malo, nisi qui fecit malum ; nemo impoenitens est, nisi qui habet unde poeniteat.</p>
+ 
+          <p xml:id="bb-l2d43a1q2-d1e168">Sunt et aliae species peccati in Spiritum Sanctum, quae quidem possunt esse absque peccato praeambulo, pro eo quod actus ipsarum non respicit determinate peccatum, sicut est invidentia fraternae gratiae et impugnatio veritatis agnitae, sicut etiam est praesumtio de impunitate. Potest enim quis fraternae gratiae invidere et veritatem agnitam impugnare et de impunitate praesumere, etiam si nulla actualis culpa praecesserit ; et hoc propter libertatem voluntatis, quae in quodlibet horum peccatorum propria deordinatione potest se praecipitare.
+Attamen, quia ista sunt peccata valde gravia, vix aut nunquam contingit quod aliquis in haec cadat, nisi mens eius fuerit per alia peccata depravata.</p>
+ 
+          <p xml:id="bb-l2d43a1q2-d1e171">Concedendum est igitur quod peccatum in Spiritum Sanctum non solum est genus peccati distinctum ab aliis peccatorum generibus secundum formam, sed etiam separari potest secundum existentiam, ita quod committatur sine culpa praeambula, quamvis rarissime contingat.
+Unde et rationes, quae ad illam partem inducuntur, concedendae sunt.</p>
+
+          <p xml:id="bb-l2d43a1q2-d1e175">Illa tamen ratio, quam facit de eo, quod minus dependet actus spiritus ab actu carnis etc., dicendum quod illa ratio non cogit, quin peccatum in Spiritum Sanctum possit esse sine aliis peccatis, pro eo quod actus spirituales sive ad animam pertinentes non solum transeunt super materiam debitam, sed etiam super alios actus ; unde substernunt sibi alios actus quasi pro materia. Sic et peccata, quae habent circa actus illos consistere, ut plurimum alia peccata praesupponunt tamquam materialia, sicut desperatio et obstinatio. Non sic autem est de actibus corporalibus, qui quidem non transeunt in alios actus, sed in materiam extrinsecam ; et ideo illa peccata circa illos actus existentla non habent alia peccata tamquam materialia. Et huic consonat illud quod dicit grammaticus, quod verba prohaeretica sive ad animam pertinentia requirunt determinari per infinitivum sequentem. Non sic est de actibus pertinentibus ad.corpus ; et ideo ratio illa non cogit.</p>
+          <p xml:id="bb-l2d43a1q2-d1e178">Nec etiam alia, quae dicit quod est genus peccati distinctum ; esto enim quod non esset sine aliis, nihilominus posset distingui ab aliis, quia multa sunt inseparabilia secundum esse, quae tamen distinguuntur formaliter.</p>
+        </div>
+        <div xml:id="bb-l2d43a1q2-Dd1e183">
+          <head xml:id="bb-l2d43a1q2-Hd1e185">Ad rationes</head>
+
+          <p xml:id="bb-l2d43a1q2-d1e188">Ad illud autem quod obicitur in contrarium de obstinatione et desperatione, dicendum quod ratio illa procedit ab insufficienti. Quamvis enim illud sit verum in istis duobus generibus peccatorum, non tamen sequitur quod sit verum in aliis generibus peccati in Spiritum Sanctum.</p>
+          <p xml:id="bb-l2d43a1q2-d1e191">Ad illud quod obicitur, quod finalis impoenitentia est annexa omnibus speciebus illius peccati, dicendum similiter quod nec illud cogit, pro eo quod peccando in Spiritum Sanctum committit homo aliquod peccatum, respectu cuius potest habere propositum non poenitendi, sicut ille qui impugnat veritatem agnitam vel invidet fraternae gratiae, vel etiam sicut est de eo qui adeo praesumit de benignitate misericordiae, quod nullum relinquit effectum iustitiae, et ex hoc proponit mala facere et nunquam de eis poenitere. Et hoc totum potest esse sine alterius peccati genere.</p>
+          <p xml:id="bb-l2d43a1q2-d1e194">Ad illud quod obicitur, quod illud peccatum est ex malitia, dicendum quod malitia, secundum quod est huius peccati radix, potest dicere malitiam contractam ex peccato originali vel potest dicere malitiam actam, scilicet actualem perversitatem voluntatis. Et primo modo praecedit natura et tempore, secundo modo concomitatur. Non enim oportet quod ante fuerit malitiosus, sed volendo malignari, potest in Spiritum Sanctum peccare ; et ita non oportet quod praecedat aliqua malitia actualis peccati depravans voluntatem, sed sufficit quod praecedat tempore malitia, quae est poena originalis.</p>
+          <p xml:id="bb-l2d43a1q2-d1e197">Ad illud quod obicitur, quod nemo repente fit summus, dicendum quod non est simile, quia, quamvis non possit aliquis nisi ordinate ascendere, potest tamen inordinate descendere sive subito se praecipitare. Praeterea, non efficitur homo ita perfecte malus, committendo semel peccatum in Spiritum Sanctum, immo quanto pluries peccat, tanto magis labitur in profundum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

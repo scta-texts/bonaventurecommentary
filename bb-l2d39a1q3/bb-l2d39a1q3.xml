@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d39a1q3">
+        <head xml:id="bb-l2d39a1q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d39a1q3-Hd1e111" type="question-title">Utrum teneamur ad omne illud quod conscientia dictat necessarium esse ad salutem.</head>
+ 
+        <p xml:id="bb-l2d39a1q3-d1e114">Tertio quaeritur de conscientia quantum ad effectum ligationis. Et est quaestio, utrum teneamur ad omne illud quod conscientia dictat necessarium esse ad salutem.</p> 
+        <div xml:id="bb-l2d39a1q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d39a1q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d39a1q3-d1e122">Et quod sic, videtur : 1. Ad Romanos 14, 23 : <quote xml:id="bb-l2d39a1q3-Qd1e124" ana="#rom14_23">Omne quod non est ex fide, peccatum est</quote>, Glossa : <quote xml:id="bb-l2d39a1q3-Qd1e127">Quod non est ex fide, id est contra conscientiam, ut credamus malum esse, peccatum est</quote>. Sed hoc non esset nisi conscientia ligaret ad omne illud quod ipsa dictat : ergo tenemur omne illud facere quod est de conscientiae dictamine.</p>
+          <p xml:id="bb-l2d39a1q3-d1e131">2. Item, lex obligat ad faciendum illud quod ipsa dictat : lex enim dicitur a ligando ; sed <quote xml:id="bb-l2d39a1q3-Qd1e133">conscientia est lex intellectus nostri</quote> : ergo tenemur ad omne illud quod conscientia dictat ad salutem esse necessarium.</p>
+          <p xml:id="bb-l2d39a1q3-d1e137">3. Item, tenemur ad faciendum illud quod iudex mandat ; sed conscientia est iudex noster, secundum quod dicitur Ecclesiastis 7, 23, in Glossa ; ergo tenemur ad omne illud quod conscientia dictat.</p>
+          <p xml:id="bb-l2d39a1q3-d1e140">4. Item, regula est quod quotiescumque aliquis facit aliquid, credens esse mortale, peccat mortaliter, pro eo quod contemnit Deum : ergo, si non possumus non credere ea quae dictat conscientia, videtur quod, quidquid sit illud, si contra hoc faciamus, peccamus mortaliter : videtur ergo quod teneamur ad faciendum omne illud quod conscientia dictat esse ad salutem necessarium.</p>
+ 
+          <p xml:id="bb-l2d39a1q3-d1e144">Sed contra : Si obligamur ad omne illud quod conscientia dictat, sed conscientia aliquando dictat faciendum aliquid contra Deum : ergo tenemur facere contra Deum. Sed nullus peccat faciendo illud ad quod tenetur : ergo faciendo contra Deum non peccamus.</p>
+          <p xml:id="bb-l2d39a1q3-d1e147">Item, quaedam sunt ita mala secundum se quod Deus non potest facere ea nec illa praecipere quae nullo bono fine possunt fieri ; sed ad nihil potest obligare conscientia ad quod non potest obligare Deus, cum conscientia sit infra Deum : ergo, si conscientia dictet talia, videtur quod ad talia non possit obligare : ergo non obligamur ad faciendum ea.</p>
+          <p xml:id="bb-l2d39a1q3-d1e150">Item, quod ad nihil per se possit ligare, videtur, quia <quote xml:id="bb-l2d39a1q3-Qd1e152">peccatum omne est dictum vel factum vel concupitum contra legem Dei</quote>, sicut dicit <name ref="#Augustine">Augustinus</name>. Ergo, si conscientia dictat aliquid quod non sit de mandato legis divinae, facere contra illud non est peccatum, cum non sit facere contra legem Dei : ergo non tenetur quis ad illud faciendum : igitur ad nihil ligat conscientia, quantum est de virtute sua.</p>
+          <p xml:id="bb-l2d39a1q3-d1e159">Item, nullus potest ab aliquo ligamine absolvi per dictamen conscientiae, ergo nec per illud dictamen potest aliquod vinculum incurrere : ergo videtur quod conscientia de se et per se ad nihil possit ligare.</p>
+
+          <p xml:id="bb-l2d39a1q3-d1e162">Est igitur quaestio, ad quid conscientia liget : utrum liget ad omne quod dictat et utrum omnis conscientia liget et utrum homo sit perplexus, quando conscientia dictat unum et lex divina dictat contrarium : et cui magis sit obtemperandum, utrum dictamini conscientiae an praecepto praelati, cum obviant sibi ad invicem.</p>
+        </div>
+        <div xml:id="bb-l2d39a1q3-Dd1e166">
+          <head xml:id="bb-l2d39a1q3-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d39a1q3-Hd1e171" type="question-title">Omnis conscientia aut ligat ad faciendum quod 
+    dictat, aut ligat ad depenendum ipsam, si est erronea</head>
+          <p xml:id="bb-l2d39a1q3-d1e174">Respondeo : Dicendum quod conscientia aliquando dictat aliquid quod est secundum legem Dei, aliquando aliquid quod est praeter legem Dei, aliquando aliquid quod est contra legem Dei ; et loquimur hic de dictamine per modum praeceptionis vel prohibitionis, non per modum consilii sive persuasionis.
+In primis quidem conscientia simpliciter ligat et universaliter, pro eo quod homo ad illa ligatus est per legem divinam, et conscientia, quae illi concordat, ligatum ostendit. In secundis vero conscientia ligat quamdiu manet ; unde vel tenetur homo conscientiam deponere vel tenetur illud quod dictat conscientia, adimplere, utpote si dictat quod necessarium est ad salutem festucam de terra levare. In tertiis vero conscientia non ligat ad faciendum vel non faciendum, sed ligat ad se deponendum, pro eo quod, cum talis conscientia sit erronea errore repugnante legi divinae, necessario, quamdiu manet, ponit hominem extra statum salutis ; et ideo necesse est ipsam deponere, quia, sive homo faciat quod dicit sive eius oppositum, mortaliter peccat.
+Si enim faciat quod conscientia dictat, et illud est contra legem Dei, et facere contra legem Dei sit mortale peccatum, absque dubio mortaliter peccat. Si vero facit oppositum eius quod conscientia dictat, ipsa manente, adhuc peccat mortaliter, non ratione operis quod facit, sed quia malo modo facit. Facit enim in contemptum Dei, dum credit, dictante sibi conscientia, hoc Deo displicere, quamvis Deo placeat. Et hoc est quod dicit Glossa super illud ad Romanos 14, 23 : Omne quod non est ex fide, peccatum est, ibi Glossa : Omne quod ad conscientiam pertinet, si aliter fiat, dicit Apostolus esse peccatum. Quamvis enim fiat etiam quod bonum est, si non faciendum credatur, peccatum est. Et ratio huius est, quia non tantum attendit Deus quid homo faciat, sed quo animo faciat ; et iste qui facit quod Deus iubet, credens facere contra ipsius Dei voluntatem, non facit bono animo, sed malo ; et ideo peccat mortaliter.
+Sic igitur patet quod omnis conscientia aut ligat ad faciendum quod dictat aut ligat ad se deponendum. Non tamen omnis conscientia ligat ad faciendum quod dictat, sicut illa quae dictat non esse faciendum illud ad quod homo alias tenetur ; sed talis conscientia dicitur erronea.
+His visis, patet responsio ad quaestionem propositam et etiam ad obiecta pro parte.
+</p>
+        </div>
+        <div xml:id="bb-l2d39a1q3-Dd1e179">
+          <head xml:id="bb-l2d39a1q3-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-l2d39a1q3-d1e184">Ad illud enim quod primo obicitur, quod omne quod non est ex fide, id est contra conscientiam, iam patet responsio. Dico enim quod facere contra conscientiam semper est peccatum, quia semper est in Dei contemptum ; non tamen facere secundum conscientiam semper est bonum, utpote cum conscientia dictat aliquid quod est contra Deum : Unde haec habet duas causas veritatis : facere contra conscientiam est peccatum, aut quia conscientia ligat ad illud faciendum aut quia illud non potest bene fieri, tali conscientia manente ; et ideo est ibi sophisma secundum consequens, quia proceditur ex pluribus causis veritatis ad unam in ratione illa.</p>
+
+          <p xml:id="bb-l2d39a1q3-d1e187">2-3. Ad illud quod obicitur, quod conscientia est lex intellectus nostri, dicendum quod verum est quod lex est, sed non est lex suprema : supra ipsam enim est lex alia, scilicet lex. divina. Cum autem dicitur quod lex ligat ad faciendum omne illud quod dictat, dicendum quod verum est, quando lex inferior non dictat contrarium legi superiori ; hoc autem saepe facit conscientia.
+Et similiter respondendum est ad sequens quod opponit de iudice.</p>
+
+          <p xml:id="bb-l2d39a1q3-d1e190">4. Ad illud vero quod ultimo obicitur, quod quicumque credit peccare mortaliter, peccat mortaliter, dicendum quod hoc verum est. Illud enim generaliter verum est, quod dicitur : Qui facit contra conscientiam, aedificat ad gehennam. Sed tamen ex hoc non sequitur quod tenemur facere omne quod conscientia dictat faciendum, quia, sicut dictum est, illud habet duas causas veritatis.</p>
+
+          <p xml:id="bb-l2d39a1q3-d1e193">1-2. Ad illas autem rationes primas, quae in contrarium adducuntur, respondere non est opportunum, pro eo quod verum concludunt ; ostendunt enim, quod conscientia non ligat in omnibus.</p>
+
+          <p xml:id="bb-l2d39a1q3-d1e197">Ad illud vero quod obicitur, quod ad nihil ligat per se, quia non dicitur peccatum quod fit contra conscientiam, sed contra legem Dei, dicendum, quod facere contra legem Dei hoc potest esse dupliciter : vel vere vel interpretative, sive secundum veritatem sive, secundum reputationem ; et utroque modo est peccatum mortale : utroque enim modo contemnitur Deus. Et quamvis faciens contra conscientiam non faciat semper contra legem Dei secundum veritatem, facit tamen vel secundum veritatem vel secundum reputationem, quia conscientia est sicut praeco Dei et nuntius, et quod dicit, non mandat ex se, sed mandat quasi ex Deo, sicut praeco, cum divulgat edictum regis. Et hinc est quod conscientia habet virtutem ligandi in his quae possunt aliquo modo bene fieri.</p>
+          <p xml:id="bb-l2d39a1q3-d1e200">Ad illud quod obicitur, quod non potest ab aliquo absolvere, dicendum quod non est simile, quia conscientia non potest aliam legem infringere ; unde nec potest a praecepto Dei absolvere nec a praecepto praelati, cui homo se obligavit ex lege voti. Ex hoc tamen non sequitur quod non possit ligare finaliter, immo est argumentum a minori destruendo. Unde sicut istud argumentum non valet aliquid : conscientia non potest super superioriorem : ergo non potest super inferiorem, ita illud non valet : conscientia non potest absolvere hominem a mandato superioris : ergo non potest eum obligare. Bene tamen sequitur quod non potest obligare contra mandatum superioris. Ad aliquid tamen potest nos obligare, pro eo quod quodam modo supra nos est et media inter nos et Deum, sicut praeco medius est inter regem et populum.</p>
+
+          <p xml:id="bb-l2d39a1q3-d1e203">Ex his patent ea quae ultimo quaerebantur, videlicet quando conscientia liget et quando non liget.
+Patet etiam quod nemo ex conscientia perplexus est nisi ad tempus, videlicet quamdiu conscientia manet ; non tamen est perplexus simpliciter, pro eo quod debet illam conscientiam deponere ; et si nescit per se de illa iudicare, pro eo quod nescit legem Dei, debet sapientiores consulere vel per orationem se ad Deum convertere, si humanum consilium deest. Alioquin, si negligens est, verificatur in eo quo dicit Apostolus : Qui ignorat, ignorabitur.
+Patet etiam quod plus standum est praecepto praelati quam conscientiae, maxime quando praelatus praecipit quod potest et debet praecipere.</p>
+ 
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

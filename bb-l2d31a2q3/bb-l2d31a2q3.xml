@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d31a2q3">
+        <head xml:id="bb-l2d31a2q3-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-l2d31a2q3-Hd1e111" type="question-title">Utrum caro inficiatur ex propagatione tantum vel ex propagatione et libidine.</head>
+ 
+        <p xml:id="bb-l2d31a2q3-d1e114">Tertio quaeritur, utrum caro ipsa inficiatur ex propagatione tantum vel ex propagatione et libidine.</p> 
+        <div xml:id="bb-l2d31a2q3-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d31a2q3-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d31a2q3-d1e122">Et quod ex libidine, videtur : Primo, auctoritate <name ref="#Augustine">Augustini</name>, De fide ad Petrum : <quote xml:id="bb-l2d31a2q3-Qd1e127">Peccatum originale non transmittit ad parvulos propagatio, sed libido</quote>. Si ergo anima ex foeditate carnis contrahit originale, illa foeditas est in carne, non ex propagatione, sed ex libidine.</p>
+
+          <p xml:id="bb-l2d31a2q3-d1e131">2. Item, <name ref="#Lombard">Magister</name> in littera : <quote xml:id="bb-l2d31a2q3-Qd1e136" source="http://scta.info/resource/pl-l2d31c6-d1e118">Pollutio quaedam est in carne, quam ex fervore coitus parentum et concupiscentia libidinosa contrahit caro dum concipitur</quote>. Ex hoc apparet quod foeditas illa in carne non est ex propagatione, sed ex libidine.</p>
+          <p xml:id="bb-l2d31a2q3-d1e140">3. Item, Christus de beata Virgine conceptus est ex massa humani generis, et tamen nec habuit illam foeditatem in carne nec originale in anima : ergo talis foeditas in carne non est, quia caro ex carne educitur, sed quia cum libidine seminatur.</p>
+          <p xml:id="bb-l2d31a2q3-d1e143">4. Item, si nunquam natura lapsa esset, nihilominus esset propagatio carnis ex carne, nec esset in ea foeditas nec peccatum originale per consequens : ergo, si in propagatione hominis ex homine est traductio originalis, hoc non est ratione ipsius propagationis, sed ratione adiunctae libidinis.</p>
+          <p xml:id="bb-l2d31a2q3-d1e147">5. Item, si fieret propagatio absque libidine ; iam nulla esset inordinatio ex parte virtutis generativae ; si nulla esset inordinatio ex parte virtutis generativae, nulla esset foedatio in semine ; et si hoc, nec esset foeditas in carne nec in anima contraheretur originale. Si ergo caro inficitur et vitiatur, hoc non est ex propagatione tantum, sed etiam libidine.</p>
+ 
+          <p xml:id="bb-l2d31a2q3-d1e150">Sed contra : Originale peccatum contrahimus, quia in Adam peccavimus eo modo quo in ipso eramus ; in ipso autem eramus secundum propagationem, non secundum libidinem : ergo tam originale quam carnis foeditatem propagatione contrahimus, non libidine.</p>
+          <p xml:id="bb-l2d31a2q3-d1e153">Item, libido respicit parentes proximos ; sed originalis traductio respicit primos parentes : unde non dicimur contrahere originale a parente proximo, sed ab Adam : ergo videtur quod ipsa libido, quae est in coitu, nihil facit ad transfundendum peccatum originale.</p>
+          <p xml:id="bb-l2d31a2q3-d1e156">Item, possibile est coniuges sanctos ex caritate coire absque omni peccato ; sed ubicumque est libido, ibi est voluntatis improbitas et aliqua culpa : ergo possibile esset eos generare absque libidine ; igitur, si traductio foeditatis carnis vel originalis peccati esset ratione libidinis, proles sic genita non haberet culpam originalem.</p>
+          <p xml:id="bb-l2d31a2q3-d1e159">Item, si traductio originalis esset ratione libidinis, ergo ille qui cum maiori libidine nasceretur, maius contraheret originale ; sed natus ex adulterio cum maiori libidine generatur quam ille qui nascitur ex legitimo matrimonio : ergo videtur quod maior esset in eo originalis culpa. Si igitur corruptione originali peccati omnes corrumpuntur aequaliter, videtur quod talis corruptio non traducatur per libidinem.</p>
+          <p xml:id="bb-l2d31a2q3-d1e162">Item, ponatur quod semen descinderetur de lumbis viri et infunderetur vasculo mulieris, ita quod nec vir sentiret delectationem nec mulier ; esset ibi prolis conceptio absque libidine : ergo talis proles non haberet peccatum originale. Quodsi hoc est absurdum ponere et intelligere quod aliquis ex semine Adae generetur sine corruptione, nisi in eo solo qui conceptus est ex Virgine per virtutem supra naturam, non videtur foeditatem carnis vel originale peccatum transmittere ad posteros libido, sed propagatio.</p>
+        </div>
+        <div xml:id="bb-l2d31a2q3-Dd1e166">
+          <head xml:id="bb-l2d31a2q3-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d31a2q3-Hd1e171" type="question-title">Si libido intelligitur in sensu vitiosae corruptionis, tunc concurrit ad inficiendam in propagatione carnem</head>
+          <p xml:id="bb-l2d31a2q3-d1e174">Respondeo : Dicendum quod, sicut expresse dicit <name ref="#Augustine">Augustinus</name>, in libro De fide ad Petrum, et <name ref="#Lombard">Magister</name> dicit in littera, foeditas carnis et contractio originalis non tantum est ex lege propagationis, sed etiam ex foeditate libidinis. Unde <name ref="#Augustine">Augustinus</name> dicit : <quote xml:id="bb-l2d31a2q3-Qd1e185">Peccatum in parvulos non transmittit propagatio, sed libido, nec fecunditas naturae humanae facit homines nasci cum peccato, sed foeditas libidinis</quote>.</p>
+ 
+          <p xml:id="bb-l2d31a2q3-d1e189">Ad cuius verbi intelligentiam et etiam obiectorum notandum est quod libido tripliciter dicitur. Uno modo libido dicitur improba voluntas, secundum quem modum dicit <name ref="#Augustine">Augustinus</name>, in libro De libero arbitrio : <quote xml:id="bb-l2d31a2q3-Qd1e194">Nihil aliud videmus in toto malefaciendi genere nisi libidinem dominari</quote>, hoc est voluntatis improbitatem.
+Alio modo libido dicitur delectatio immoderata, secundum quod dicimus maiorem esse libidinem in opere virtutis generativae quam alterius potentiae.
+Tertio modo dicitur libido corruptio vitiosa, quam dicimus esse in semine et etiam in virtute generativa praeter actum generandi, secundum quam ipsa vis generativa dicitur esse corrupta et infecta.
+Omnibus his modis contingit libidinem esse circa actum generationis humanae, quoniam ibi et est corruptio vitiosa et delectactio immoderata et voluntas improba. Sine prima tamen libidine, hoc est improba voluntate, contingit generari frequenter ; sine secunda, hoc est immoderata delectatione, vix aut nunquam ; sine tertia nunquam, si sit generatio secundum legem naturae.
+</p>
+          <p xml:id="bb-l2d31a2q3-d1e198">Cum ergo dicitur quod peccatum transmittit ad posteros non propagatio, sed libido, hoc non intelligitur de libidine primo et secundo modo, sed tertio.
+Et per hoc patet responsio ad omnes rationes quae adducuntur ad utramque partem. Nam primae auctoritates et rationes, quae ostendunt originale transfundi propter libidinem, loquuntur de libidine in acceptione tertia.
+Rationes vero ad oppositum procedunt de libidine in acceptione prima et secunda, et hoc patet pertractanti omnes et singulas.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

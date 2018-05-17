@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d41a1q2">
+        <head xml:id="bb-l2d41a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d41a1q2-Hd1e111" type="question-title">Utrum haec divisio fiat per differentias essentiales an per accidentales.</head>
+ 
+        <p xml:id="bb-l2d41a1q2-d1e114">Secundo quaeritur, utrum haec divisio fiat per differentias essentiales an per accidentales.</p> 
+        <div xml:id="bb-l2d41a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d41a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d41a1q2-d1e122">Et quod per essentiales, videtur : Accidentia sunt transmutabilia circa sublectum ; sed bonitas et malitia nullo modo transmutantur circa actionem, ut illa actio, quae modo est bona, eadem numero postmodum sit mala vel e converso : ergo bonitas et malitia non sunt differentiae accidentales actionis ; etsunt accidentales vel essentiales : ergo etc.</p>
+          <p xml:id="bb-l2d41a1q2-d1e125">Item, quamvis quaedam accidentia sint inseparabilia secundum rem, tamen omnia sunt separabilia secundum intellectum ; sed quaedam actio est ita mala quod nunquam potest esse nec intelligi bona, utpote blasphemare et odire Deum : ergo videtur quod malitia non accidat tali actioni.</p>
+          <p xml:id="bb-l2d41a1q2-d1e128">Item, contingit aliquem habitum esse essentialiter bonum, utpote caritatem et gratiam, aliquem essentialiter malum, ut iniustitiam et lasciviam. Ergo pari ratione, cum actus sint quasi ex habitibus, videtur quod aliqui actus sint essentialiter boni et aliqui essentialiter mali, loquendo de bonitate et malitia moris.</p>
+          <p xml:id="bb-l2d41a1q2-d1e131">Item, generi respondet species ; ergo, cum sit bonum in genere et malum in genere, utrique respondebit bonum et malum speciale sive per modum speciei se habens ; sed genus est essentiale speciei et species etiam addit super genus differentiam essentialem : ergo necesse est aliquam actionem ponere quae sit essentialiter et bona in genere et bona ex circumstantia ; pari ratione et de actione mala. Videtur ergo quod divisio praedicta fiat per differentias essentiales et intrinsecas.</p>
+
+ 
+          <p xml:id="bb-l2d41a1q2-d1e135">Sed contra : <name ref="#Augustine">Augustinus</name>, in quarta Responsione contra Pelagianos : <quote xml:id="bb-l2d41a1q2-Qd1e140">Peccatum non est natura aliqua, sed actus incidens ex defectu boni</quote>. Sed omne quod inest alicui incidenter, inest ei accidentaliter : si ergo omnis malitia est incidens, nulla malitia est essentialis alicui actioni : ergo omnis est accidentalis.</p>
+          <p xml:id="bb-l2d41a1q2-d1e144">Item, differentiae essentiales sunt constitutivae eorum quorum sunt differentiae, et differentiae constitutivae ex eisdem principiis manant ex quibus manant ipsa constituta ; sed malitia non habet causam effectivam, sed defectivam, actio vero causam effectivam habet ; item actio est a Deo, malitia non ; ergo impossibile est quod malitia sit alicuius actionis differentia essentialis.</p>
+          <p xml:id="bb-l2d41a1q2-d1e147">Item, differentiae essentiales non alternantur circa individuum eiusdem speciei ; sed actiones, quae sunt eiusdem speciei, differunt per bonitatem et malitiam, quia una est bona et altera mala : ergo bonum et malum non sunt essentiales differentiae actionis.</p>
+          <p xml:id="bb-l2d41a1q2-d1e150">Item, differentia essentialis aliquid addit supra illud quod dividit ; sed malum non addit aliquid supra actionem, sed potius privat : ergo malum non est actionis differentia essentialis.</p>
+        </div>
+        <div xml:id="bb-l2d41a1q2-Dd1e154">
+          <head xml:id="bb-l2d41a1q2-Hd1e156">Conclusio</head>
+          <head xml:id="bb-l2d41a1q2-Hd1e159" type="question-title">Bonum et malum non sunt differentiae essentiales 
+   et intrinsecae actionis, ut est actio vel haec 
+   actio, sed tantum, ut est talis acctio, quodam 
+   modo essentiales dici possunt</head>
+ 
+          <p xml:id="bb-l2d41a1q2-d1e162">Respondeo : Ad praedictorum intelligentiam est notandum quod idem est quaerere, utrum haec divisio actionum, alia bona, alia mala, sit per differentias essentiales, quod quaerere, utrum bonitas et malitia sint proprietates vel conditiones essentiales actioni voluntariae. Et licet istud aliquo modo videatur posse concedi ei qui sustinet illam opinionem quod non omnis actio a Deo est, tamen, secundum illam opinionem, quae communiter sustinetur, quod omnis actio a Deo est, et secundum id quod naturaliter est, bona est, concedi non debet nec potest rationabiliter sustineri quod malitia essentialis sit actioni, cum potius dicat defectum circumstantiae alicuius quae accidebat actioni. Si enim non, accideret, non posset privari, actione manente.</p>
+ 
+          <p xml:id="bb-l2d41a1q2-d1e165">Attendendum est tamen quod malitiam contingit tripliciter comparare ad actionem : aut secundum quod est actio aut secundum quod est haec actio aut secundum quod est talis actio.
+Si comparetur malitia ad actionem secundum quod actio, sic tenet rationem accidentis separabilis et communis. Rationem accidentis separabilis tenet in hoc quod actio, quae consuevit fieri cum culpa, potest, causa aliqua interveniente, fieri absque culpa. Rationem vero accidentis communis tenet, quia circa actionem eiusdem speciei contingit malitiam in aliquibus inveniri, in aliquibus vero non : sicut aliquis praedicando fidem Christi ex vana gloria peccat, alius vere meretur. Licet autem malitia respectu actionis, consideratae in genere, habeat aliquo modo conformitatem ad accidens separabile et commune, non tamen proprie est accidens tale, quia non dicit ens, sed defectum entis.</p>
+ 
+          <p xml:id="bb-l2d41a1q2-d1e168">Si autem comparetur malitia ad actionem secundum quod est haec actio, sic tenet rationem accidentis inseparabilis et proprii. Rationem tenet accidentis inseparabilis in hoc quod illa actio eadem numero, quae est mala, non potest esse ulterius bona, propter hoc quod eadem numero resumi non potest. Rationem vero accidentis proprii tenet aliquando, licet non semper, in hoc quod illa malitia ortum habet ex proprietatibus agentis et patientis ; ex quarum comparatione necessario surgit inordinatio ; sicut patet, cum filius cognoscit matrem vel cum homo blasphemat Deum. Unde sicut inseparabiliter adhaeret propria passio subiecto, sic inseparabiliter adhaeret malitia huic actioni. Non est autem malitia propria passio huius actionis, tum quia non dicitur de ea convertibiliter, tum quia non dicit positionem, sed privationem.</p>
+ 
+          <p xml:id="bb-l2d41a1q2-d1e172">Si vero comparetur malitia ad actionem secundum quod talis actio est, sic potest habere rationem differentiae essentialis. Sicut enim albedo est essentialis homini albo secundum quod est albus, quamvis non sit essentialis secundum quod homo, sic malitia est essentialis actioni malae secundum quod mala.
+Quamvis autem aliquo modo dicatur essentialis, non tamen dicitur essentialis, quia dicat veram essentiam, sed quantum ad modum se habendi. Et quoniam quaedam sunt nomina quae imponuntur actionibus, non secundum quod sunt actiones tantum, sed secundum quod sunt deformes, hinc est quod talia mox nominata coniuncta sunt malo ; et sicut castitas ponitur in genere boni essentialiter, sic adulterium et mendacium ponitur in genere mali essentialiter. In hoc enim non significatur quod defectus sit essentialis actioni, sed quod defectus essentialis est actioni secundum quod defectiva. Quod autem dictum est de malitia moris, hoc ipsum intelllgendum est et de bonitate.
+His visis, plana est responsio ad quaestionem et etiam ad obiecta. Concedo enim quodhaec divisio actionis non est per differentias essentiales et intrinsecas. Et rationes, quae hoc ostendunt, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-l2d41a1q2-Dd1e177">
+          <head xml:id="bb-l2d41a1q2-Hd1e179">Ad rationes</head>
+
+          <p xml:id="bb-l2d41a1q2-d1e182">Ad illud quod obicitur, quod accidens potest transmutari circa subiectum, dicendum quod illud non habet veritatem in omni accidente nec respectu cuiuscumque subiecti, sed respectu subiecti permanentis et fixi. Quando enim accidens comparatur ad aliquod successivum, hoc ipso quod adhaeret ei, inseparabiliter adhaeret, quia illud statim transit in praeteritum et efficitur intransmutabile, et amplius idem numero resumi non potest. Actus enim numeratur subiecto et tempore et specie sive termino ; et ideo, sicut est alius actus, cuius est aliud principium et alius terminus, sic est alius actus, cuius est mensura aliud et aliud tempus, intercisione et renovatione facta in ipso actu : et ideo, quamvis motui accidat velox et tardum, tamen motus, qui est velox, secundum eam partem secundum quam est velox, nunquam potest esse tardus. Sic et in proposito est intelligendum.</p>
+          <p xml:id="bb-l2d41a1q2-d1e185">Ad illud quod obicitur, quod accidentia sunt saltem separabilia intellectu, dicendum quod nunquam malitia sic adhaeret alicui actioni quin essentia illius actionis possit praeter malitiam considerari. Cum enim dico actionem malam, et dico actionem et dico defectum ; et utrumque per se divisim possum considerare. Similiter, cum dico actionem huiusmodi et actionem hanc, duo dico, quia et monstro ipsam substantiam et etiam accidentia, sub quibus substantia ipsa oculis carnis vel mentis habet esse conspicua ; et unum potest praeter alterum considerari et intelligi. Malitia autem non adhaeret inseparabiliter actioni huius substantiae vel illius ratione substantiae substratae, sed potius ratione proprietatis vel qualitatis superadditae ; et sicut substantia illa poterat intelligi sine illa proprietate, sic et actio sine malitia.</p>
+          <p xml:id="bb-l2d41a1q2-d1e188">Ad illud quod obicitur, quod aliquis habitus est essentialiter bonus et aliquis est essentialiter malus, dicendum quod, etsi concedi possit aliquem habitum essentialiter esse bonum, non tamen concedi debet aliquem habitum essentialiter esse malum secundum quod est habitus : nam habitus, secundum quod habitus, dicit ens et bonum. Quod ergo ipse obicit de avaritia et lascivia, non valet, quia huiusmodi non sunt nomina habituum animae secundum quod sunt habitus, sed secundum quod sunt deformes et defectivi. Licet autem malitia non sit essentialis habitui secundum quod est habitus, potest tamen ei esse essentialis secundum quod defectivus. Ita etiam contingit reperire circa actum.</p>
+          <p xml:id="bb-l2d41a1q2-d1e191">Ad illud quod obicitur, quod bono in genere respondet bonum in specie et malo in genere similiter, dicendum quod malum in genere sive bonum non dicitur proprie quod sit genus, sed propter quamdam conformitatem, quam habet cum genere in hoc quod dicit quamdam potentiam indifferentem ad hoc quod fiat meritorie vel demeritorie ; et dum per circumstantias superadditas determinatur, quodam modo specificatur. Non tamen malum, secundum quod malum, habet species proprias, pro eo quod privationes non sunt in genere nisi per quamdam reductionem. Unde specificatio et distinctio malorum aut attenditur ratione boni, quod privatur per malum, aut ratione boni, ad quod quis convertitur in actu peccati. Et huius signum est quod peccata non distinguuntur penes aversionem, sed penes conversionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

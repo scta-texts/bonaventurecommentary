@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d43a2q1">
+        <head xml:id="bb-l2d43a2q1-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-l2d43a2q1-Hd1e111" type="question-title">Utrum peccatum in Spiritum Sanctum sit gravissimum.</head>
+        <p xml:id="bb-l2d43a2q1-d1e114">Circa primum sic proceditur et quaeritur, utrum illud peccati genus sit gravissimum.</p> 
+        <div xml:id="bb-l2d43a2q1-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d43a2q1-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d43a2q1-d1e122">Et quod sic, videtur : Primo, per auctoritatem <name ref="#Lombard">Magistri</name> in littera : <quote xml:id="bb-l2d43a2q1-Qd1e127" source="http://scta.info/resource/pl-l2d43c1-d1e108">Est praeterea quoddam peccati genus ceteris gravius et abominabilius.</quote>
+          </p>
+          <p xml:id="bb-l2d43a2q1-d1e131">Item, ratione videtur. Maius est peccatum, quod magis facit distare a venia ; sed tale est peccatum in Spiritum Sanctum : ergo etc.</p>
+          <p xml:id="bb-l2d43a2q1-d1e134">Item, maius est peccatum, quod minus habet de ratione excusationis ; sed peccatum in Spiritum Sanctum est huiusmodi, minus enim habet inter cetera peccatorum genera de colore excusationis : ergo etc.</p>
+          <p xml:id="bb-l2d43a2q1-d1e137">Item, maius est peccatum quod magis inhabilitat animam ad iustitiam ; sed peccatum in Spiritum Sanctum est huiusmodi, quia maxime voluntatem deordinat ; ergo etc.</p>
+          <p xml:id="bb-l2d43a2q1-d1e141">Item, sicut ignorantia excusat peccantem, sic scientia aggravat, quia servus sciens voluntatem Domini sui ; sed peccatum in Spiritum Sanctum est peccatum ex industria sive ex certa malitia : ergo etc.</p>
+
+          <p xml:id="bb-l2d43a2q1-d1e144">Sed contra : Super illud Psalmi [58, 15] : <quote xml:id="bb-l2d43a2q1-Qd1e146" ana="#ps58_15">Convertentur ad vesperam</quote>, Glossa : <quote xml:id="bb-l2d43a2q1-Qd1e149">Nemo insanabilior est eo qui sanus sibi videtur</quote>. Ergo minus elongat a sanitate peccatum in quo quis peccat scienter, quam in quo quis peccat ignoranter ; sed peccatum in Spiritum Sanctum est peccatum in quo quis peccat scienter : ergo videtur quod minus peccatum sit quam peccatum ignorantiae.</p>
+          <p xml:id="bb-l2d43a2q1-d1e153">Item, etsi una sit maiestas Trium, et aequaliter sint omnes honorandi, tamen maiestas appropriatur Patri et honor per appropriationem ei debetur. Ergo peccatum, quod est in Patrem, vel tantum vel plus Deum inhonorat quantum peccatum, quod est in Filium vel Spiritum Sanctum. Si ergo qualitas peccati pensatur secundum quantitatem contemptus, videtur quod non sit magis grave peccatum in Spiritum quam peccatum in Patrem et Filium.</p>
+          <p xml:id="bb-l2d43a2q1-d1e156">Item, malitia est poena inflicta pro peccato originali sicut ignorantia et infirmitas ; sed ignorantia et infirmitas, quia sunt poenae, aliquo modo excusant peccatum consequens : ergo pari ratione et malitia.</p>
+          <p xml:id="bb-l2d43a2q1-d1e159">Item, illud peccatum gravius est in quo magis regnat libido ; sed in peccato, quod est ex concupiscentia, magis regnat libido quam in peccato quod est ex malitia, sicut patet, quia maior est libido in fornicatione quam in desperatione. Ergo videtur quod maius sit peccatum quod est ex concupiscentia, quam illud quod est ex malitia : igitur peccatum in Spiritum Sanctum non est peccatum gravissimum.</p>
+          <p xml:id="bb-l2d43a2q1-d1e162">Item, gravius est peccatum in quo est maioris boni corruptio ; sed in peccato infidelitatis maior est corruptio quam in peccato in Spiritum Sanctum, in illo enim peccato receditur et a veritate et a bonitate : ergo videtur quod infidelitas vel haeresis gravior sit quam peccatum in Spiritum Sanctum.</p>
+        </div>
+        <div xml:id="bb-l2d43a2q1-Dd1e166">
+          <head xml:id="bb-l2d43a2q1-Hd1e168">Conclusio</head>
+          <head xml:id="bb-l2d43a2q1-Hd1e171" type="question-title">Peccatum in Spiritum sanctum est gravissimum, 
+   et quia naturam maxime laedit, et quia oculos Dei maxime offendit</head>
+ 
+          <p xml:id="bb-l2d43a2q1-d1e174">Respondeo : Dicendum quod peccatum in Spiritum Sanctum est peccatum gravissimum, et quia naturam maxime laedit et quia oculos Dei maxime offendit.
+Naturam, inquam, maxime laedit, dum non solum aufert ei sanitatem, sed etiam praecludit viam ad sanitatem ; unde sicut morbus periculosior est qui non tantum laedit naturam, sed etiam praecludit viam ad sumtionem cibi vel mendicamenti, sic intelligendum est de isto morbo spirituali. Oculos Dei maxime offendit, quia nullum habet colorem excusationis ; et ideo peccans hoc genere peccati meretur severius iudicari. Et propter haec duo dicit <name ref="#Lombard">Magister</name> quod hoc peccatum ceteris est gravius et abominabilius, ut gravius dicatur ratione maioris laesionis, abominabilius ratione defectus excusationis.</p>
+ 
+          <p xml:id="bb-l2d43a2q1-d1e180">Ratio autem huius est, quia peccatum in Spiritum Sanctum est ex malitia, et non solum ex malitia, sed ex malitia et industria. Tunc enim peccat quis peccato in Spiritum Sanctum, quando ad malum movetur ex nequitia spiritus, sciens se moveri ad malum ; unde peccatum in Spiritum Sanctum est ex malitia conflata ex concursu malitiae ex originali peccato contractae et malitiae actualis coni unctae industriae ; et ideo non tantum dicitur esse ex malitia, sed ex certa malitia. Prima autem malitia, scilicet ex originali relicta, hoc peccatum non excusat, quia talis malitia est in ipsa voluntate secundum se ; et ideo, cum voluntati sublaceat, non minuit rationem voluntarii, sicut facit infirmitas et ignorantia ; et quia non minuit rationem voluntarii, non diminuit de ratione peccati ; et propterea non excusat.
+Alia autem malitia non solum non excusat, sed etiam multum aggravat tum ratione improbitatis propriae, tum ratione cognitionis adiunctae ; utriusque enim est aggravare.
+Et sic patet quare peccatum in Spiritum Sanctum maxime oculos Dei offendit, videlicet quia est ex certa malitia.</p>
+ 
+          <p xml:id="bb-l2d43a2q1-d1e183">Ex hac etiam eadem causa naturam laedit. Laesio enim peccati principaliter consistit in deordinatione voluntatis ; et quanto voluntas magis improbe ad aliquid se inclinat, tanto magis se deordinat et depravat. Et quia ex certa malitia hoc peccatum procedit, ideo in hoc peccati genere scienter et prudenter, immo etiam imprudenter, peccator praeeligit maium ; et ideo voluntas eius magis in hoc peccato quam in aliis respuit bonum, quia amplius inficitur voluntatis gustus ; et hinc est etiam quod respuit medicamentum, quemadmodum gustus maxime infectus respuit bonum cibum.</p>
+          <p xml:id="bb-l2d43a2q1-d1e187">Quoniam igitur hoc peccatum ex certa malitia procedit, hinc est quod est ceteris aliis gravius et abominabilius, quantum est ex genere peccati. Hinc est etiam quod est maxime naturae laesivum et maxime oculorum divinae Maiestatis offensivum.
+Et ideo concedendae sunt rationes ostendentes istud pec^ catum esse gravissimum.</p>
+        </div>
+        <div xml:id="bb-l2d43a2q1-Dd1e192">
+          <head xml:id="bb-l2d43a2q1-Hd1e194">Ad rationes</head>
+
+          <p xml:id="bb-l2d43a2q1-d1e197">Ad illud quod primo obicitur, quod peccatum ex ignorantia magis a sanitate elongat, dicendum quod maior insanabilitas ex duplici causa potest venire : aut ex conditione morbi aut ex conditione infirmi. Cum ergo dicitur quod nemo est insanabilior eo qui sibi sanus videtur, hoc intelligitur quantum ad conditionem et statum infirmi, pro eo quod talis, non sentiens se infirmum, non quaerit medicum, et ita nunquam sanatur. Quantum autem ad conditionem morbi non habet veritatem. Si enim peccans ex ignorantia erudiatur, de facili recipit sanitatem ; peccans autem in Spiritum Sanctum rebellis est eruditioni ex ipsa natura talis morbi ; et ideo, quantum est de se, peccatum illud et gravius est et insanabilius.</p>
+          <p xml:id="bb-l2d43a2q1-d1e200">Ad illud quod obicitur, quod peccatum in Patrem est aeque grave vel magis quam peccatum in Spiritum Sanctum, quia Patri appropriatur maiestas, dicendum quod illud peccatum non dicitur esse gravius aliis pro eo quod in ipso contemnatur magis persona Spiritus Sancti quam persona Patris - nam in omni peccato contemnitur una maiestas trium personarum ; unde sicut hoc genus peccati non distinguitur a peccato in Patrem ex hoc quod hic contemnatur Spiritus Sanctus et ibi Pater, sic nec ex hoc gravius iudicatur - sed ex hoc gravius est quia in ipso amplius contemnitur trium personarum maiestas quam in aliis generibus peccatorum. Magis enim impugnat gratiam, quae est totius Trinitatis effectus, et ideo maius est peccati genus : et ideo ratio ilia procedit ex falso intellectu.</p>
+          <p xml:id="bb-l2d43a2q1-d1e203">Ad illud quod obicitur, quod malitia est poena inflicta, ergo debet excusare sicut aliae poenae, dicendum quod non est simile. Et ratio huius est quia malitia respicit ipsam voluntatem secundum se, sed ignorantia respicit intellectum et infirmitas respicit carnem, et illa non adeo sunt in voluntate sicut ipsa malitia ; et ideo magis diminuunt de ratione peccati quam malitia. Praeterea, peccatum in Spiritum Sanctum non tantum est ex malitia contracta, immo est ex malitia conflata ex malitia contracta et malitia propria, sicut supra dictum est.</p>
+          <p xml:id="bb-l2d43a2q1-d1e206">Ad illud quod obicitur, quod illud peccatum est gravius in quo magis regnat libido, dicendum quod libido maior dicitur dupliciter : aut ratione maioris voluptatis aut ratione maioris improbitatis. Libido enim nominat voluntatem voluptuosam et improbam. Cum igitur dicitur quod gravitas peccati attenditur secundum quantitatem libidinis, dicendum quod verum est, secundum quod quantitas libidinis pensatur secundum improbitatem voluntatis ; sed non est verum, secundum quod pensatur penes delectationem ; sicut patet, quia gravius peccat senex fornicator vel adulterator quam iuvenis ; ex improbiori enim voluntate movetur, quamvis iuvenis amplius delectetur. Licet ergo in aliis generibus peccatorum magis abundet libido quantum ad delectationem, quia tamen in hoc peccato magis abundat quantum ad improbitatem voluntatis, istud gravius est.</p>
+          <p xml:id="bb-l2d43a2q1-d1e210">Ad illud quod obicitur, quod maior est corruptio in peccato infidelitatis, dicendum quod maior corruptio potest esse dupliciter : aut intensive aut extensive. Extensive loquendo, plura bona privantur in peccato infidelitatis quam in peccato in Spiritum Sanctum, quia in illo peccati genere tollitur totius spiritualis aedificii fundamentum. Intensive autem magis fit privatio in peccato in Spiritum Sanctum, pro eo quod magis reddit inhabilem ad bonum et amplius firmat in malo ; unde illud peccatum recte dicitur gravius, in quo est maior boni privatio intensive. Et quia peccatum haeresis frequentissime habet coniunctum peccatum in Spiritum Sanctum, utpote obstinationem, hinc est quod illud peccatum est valde periculosum. Si enim solum ex ignorantia haeretici moverentur, facilius adhiberetur sibi remedium ; sed quia animo obstinato pertinaciter adhaerent errori suo, ideo franguntur potius quam incurventur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

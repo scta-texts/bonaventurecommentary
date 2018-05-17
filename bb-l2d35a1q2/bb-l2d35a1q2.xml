@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder, OCR correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2018-03-24">March 24, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA and GRPL</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="Quaracchi1885">Quaracchi 1885, Volume 2</witness><witness xml:id="H" n="harv265">Harvard, lat ms. 265</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-l2d35a1q2">
+        <head xml:id="bb-l2d35a1q2-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-l2d35a1q2-Hd1e111" type="question-title">Utrum peccatum sit ipsa corruptio-passio, essentialiter loquendo.</head>
+ 
+        <p xml:id="bb-l2d35a1q2-d1e114">Secundo quaeritur, utrum peccatum sit ipsa corruptio-passio, essentialiter loquendo.</p> 
+        <div xml:id="bb-l2d35a1q2-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-l2d35a1q2-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-l2d35a1q2-d1e122">Et quod sic, videtur. <quote xml:id="bb-l2d35a1q2-Qd1e124">Peccatum, sicut dicit Anselmus, non est aliud quam absentia vel carentia iustitlae, ubi debet esse</quote>. Sed privatio iustitiae passiva non est aliud quam carentia debitae iustitiae : ergo, essentialiter loquendo, culpa est corruptio prout est passio.</p>
+          <p xml:id="bb-l2d35a1q2-d1e128">Item, <name ref="#Augustine">Augustinus</name>, in libro I Confessionum : <quote xml:id="bb-l2d35a1q2-Qd1e133" source="http://scta.info/resource/aconf-l1">Iussisti, Domine, et sic est, ut omnis motus inordinatus poena sibi sit</quote>. Sed motus inordinatus est culpa ; poena autem motus inordinati non est nisi ipsa corruptio passiva, quam homo incurrit ex illa inordinatione : ergo peccatum est ipsa privatio-passio, formaliter loquendo.</p>
+
+          <p xml:id="bb-l2d35a1q2-d1e137">3. Item, <quote xml:id="bb-l2d35a1q2-Qd1e139" source="http://scta.info/resource/aristda-l1">omnes actiones animae passiones sunt</quote>, sicut vult <name ref="#Aristotle">Philosophus</name>. Ergo omnis inordinata actio animae est inordinata passio ; sed quod est inordinatum, est culpa ; ergo illa passio sive corruptio inordinata est culpa.</p>
+          <p xml:id="bb-l2d35a1q2-d1e146">4. Item, cum anima deformat se ipsam, ipsa deformitas, qua anima deformatur, remanet in ea et culpa similiter ; aut ergo illa deformitas est culpa aut aliquod aliud ; et constat quod culpa, quae remanet in anima, non est aliud quam ipsa deformitas, qua anima deformis facta est : ergo videtur quod peccatum sit ipsa corruptio-passio.</p>
+          <p xml:id="bb-l2d35a1q2-d1e150">5. Item, corruptio-passio, in qua est privatio modi, speciei et ordinis, aut est culpa aut est poena. Si poena, ergo videtur quod talis privatio sit a Deo : ergo Deus animam reddit deformem et iustitia privatam ; quod profanum est dicere. Restat ergo quod sit culpa.</p>
+ 
+          <p xml:id="bb-l2d35a1q2-d1e153">Sed contra :
+1. <name ref="#Augustine">Augustinus</name>, De libero arbitrio : <quote xml:id="bb-l2d35a1q2-Qd1e158">Culpa est malum, quod facimus, et poena malum, quod patimur. Si ergo corruptiopassio est malum quod patimur</quote>, videtur quod non sit culpa, sed poena.</p>
+          <p xml:id="bb-l2d35a1q2-d1e162">2. Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-l2d35a1q2-Qd1e167">Malum culpae est affectio voluntaria, malum vero poenae est affectio involuntaria</quote>. Sed corruptio-passio non est voluntaria, sed involuntaria, quia nemo vult corrumpi nec deformari : ergo non videtur quod sit culpa, sed poena.</p>
+          <p xml:id="bb-l2d35a1q2-d1e171">3. Item, <name ref="#Lombard">Magister</name> in littera : <quote xml:id="bb-l2d35a1q2-Qd1e176" source="http://scta.info/resource/pl-l2d35c3-d1e165">Peccatum dicitur privatio active, non passive ; nam ideo malum vel peccatum dicitur corruptio, quia naturam qualicumque privat bono</quote>.</p>
+          <p xml:id="bb-l2d35a1q2-d1e180">4. Item, hoc ipsum videtur ratione. Omnis poena est iusta et laudabilis ; sed omnis corruptio-passio est poena, cum damnificet et puniat eum qui corrumpitur : ergo omnis corruptio-passio est iusta et laudabilis. Sed nulla culpa est iusta et laudabilis : ergo nulla culpa est corruptio passive dicta.</p>
+          <p xml:id="bb-l2d35a1q2-d1e183">5. Item, causa et effectus essentialiter distinguuntur ; sed peccatum corrumpit et est principium corruptionis passivae, sicut prius ostensum est : ergo corruptio-passio et ipsa culpa distinguuntur essentialiter : non est igitur culpa corruptio boni passive dicta.</p>
+        </div>
+        <div xml:id="bb-l2d35a1q2-Dd1e187">
+          <head xml:id="bb-l2d35a1q2-Hd1e189">Conclusio</head>
+          <head xml:id="bb-l2d35a1q2-Hd1e192" type="question-title">Non tantum corruptio sive privatio boni active dicta, 
+    sed eadem etiam passive dicta habet rationem culpae</head>
+          <p xml:id="bb-l2d35a1q2-d1e195">Respondeo : Ad praedictorum intelligentiam est notandum, sicut praetactum est : peccatum est corruptio, consistens circa voluntatem et eius actum, cum sit obliquatio a rectitudine iustitiae. Voluntas autem in actu suo est instrumentum se ipsum movens ; unde, quando voluntas ad aliquid movetur libere, si moveatur vel afficiatur inordinate, illa inordinatio respicit voluntatem moventem et voluntatem motam, quia voluntas, dum inordinate afficitur, inordinate movet et inordinate movetur. Quoniam igitur culpa, prout consideratur in actu, nihil aliud est quam motus voluntatis inordinatus, et ad illum motum concurrit actio et passio, non tantum est corruptio-actio, immo etiam corruptio-passio. Nam et inordinatio, qua anima se deordinat, et inordinatio, qua anima deordinatur, utraque est culpa, differens comparatione, una tamen per essentiam.
+Et quia quales sunt actus, tales sunt habitus, maxime cum habitus generantur ex actibus, sicut est in genere malorum habituum, hinc est quod deformitas vel privatio in voluntate relicta et habet in se aliquid correspondens actioni et aliquid correspondens etiam passioni. Nam voluntas, dum peccat actualiter, efficitur inhabilis et in quantum habet rationem moventis et in quantum habet rationem moti. Et ita culpa, considerata ut in habitu et in quantum remanet in anima post actum peccati, et est corruptio sive privatio correspondens actioni et est corruptio sive privatio correspondens passioni. Et sic eadem culpa est corruptio sive privatio boni, non solum active, sed etiam passive dicta, secundum veritatem loquendo. Secundum appropriationem vero, corruptio illa, in quantum est active intellecta, tenet mere rationem culpae ; in quantum vero passive dicta, tenet rationem poenae, quia, in quantum est active dicta, tenet rationem voluntarii, in quantum vero passive, rationem involuntarii.
+Nec ista sunt incompossibilla circa eamdem actionem et motum. Nam expresse videmus quod in eadem actione corporali una et eadem actio et delectat et laedit, et per consequens contristat ; sicut, cum scabiosus scalpendo cutem suam dilaniat, et dilaniando delectatur et dilaniando etiam laeditur, et unum placet et reliquum displicet. Similiter et in eadem actione spirituali est aversio ab incommutabili bono et conversio ad commutabile bonum, et conversio placet et aversio displicet. Sic et in proposito intelligendum est quod eadem culpa potest dici active et passive ; prout tamen active dicitur, proprie tenet rationem culpae ; in quantum vero passive, tenet rationem poenae.
+Concedendae sunt igitur rationes ostendentes quod aliqua corruptio-passio, utpote illa quae est rectitudinis privatio, culpa est.</p>
+        </div>
+        <div xml:id="bb-l2d35a1q2-Dd1e200">
+          <head xml:id="bb-l2d35a1q2-Hd1e202">Ad rationes</head>
+          <p xml:id="bb-l2d35a1q2-d1e205">1-2. Ad illud ergo quod primo obicitur, quod culpa est malum, quod facimus etc., iam patet responsio ex his quae dicta sunt. Nam, cum idem motus possit esse actio et passio, in quo voluntas se ipsam movet, sic et eadem actio potest esse poenae et culpae, licet sub alia et alia ratione.
+Similiter respondendum est ad sequens quod obicitur de voluntario et involuntario.</p>
+
+          <p xml:id="bb-l2d35a1q2-d1e208">Ad illud quod obicitur tertio de verbo <name ref="#Lombard">Magistri</name>, dicendum quod illud dicitur per quamdam appropriationem ; magis enim proprie dicitur culpa corruptio-actio quam corruptio-passio. Verum est etiam quod aliquis, dum caret iustitia quam debet habere, culpabilis est. Ratio tamen principalis quare culpabilis est, est ex hoc quod ipse fecit sibi illam carentiam ; nam si involuntarie eam sustineret aliunde, tunc teneret potius rationem poenae quam culpae.</p>
+          <p xml:id="bb-l2d35a1q2-d1e214">Ad illud quod obicitur, quod omnis poena est iusta et laudabilis, dicendum quod est poena inflicta et poena acta et poena contracta. Et cum dicitur quod omnis poena est iusta et laudabilis, hoc intelligitur de poena inflicta ; de poena acta vel contracta non habet veritatem, nisi prout intelliguntur sub ratione poenae. Privatio autem boni passiva sive ipsius animae deformatio non est poena inflicta, sed est poena acta, quia anima hanc poenam in se facit, dum peccat.</p>
+          <p xml:id="bb-l2d35a1q2-d1e217">Ad illud quod obicitur, quod peccatum est causa corruptionis passivae, dicendum quod illud intelligitur de peccato quod est in actu, quod est causa corruptionis in voluntate per modum habitus ; et utrobique, sicut ostensum est prius, habet rationem actionis et passionis.
+Potest tamen dici quod, etsi peccatum dicatur corrumpere, non tamen est proprie causa corruptionis, sed potius ipse peccans. Et si dicatur peccatum esse causa corruptionis passivae, hoc dicitur ratione ipsius peccantis, sicut actio dicitur esse causa passionis ratione ipsius agentis ; fortassis enim idem potest esse actio et passio, sola comparatione differens.
+</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
