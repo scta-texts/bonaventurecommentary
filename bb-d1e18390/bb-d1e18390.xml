@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 20, A. 1, Q. 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 20, A. 1, Q. 6</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e18390">
+        <head xml:id="bb-d1e18390-Hd1e119">III, D. 20, A. 1, Q. 6</head>
+        <head xml:id="bb-d1e18390-Hd1e122" type="question-title">Utrum alio modo potuerit Deus genus humanum salvare.</head>
+        <p xml:id="bb-d1e18390-d1e125">Sexto et ultimo quaeritur, utrum alio modo potuerit Deus genus humanum salvare.</p>
+        <div xml:id="bb-d1e18401" type="rationes-principales">
+          <head xml:id="bb-d1e18390-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e18390-d1e133">Et quod sic, videtur. Primo per illud quod dicit Leo Papa in quodam sermone in Ramis
+      Palmarum : <quote xml:id="bb-d1e18390-Qd1e135">Omnipotentia Filii Dei, quae propter eamdem essentiam est aequalis Patri,
+       potuisset liberare genus humanum solo imperio voluntatis suae, nisi divinis operibus
+       maxime congruisset ut nequitiae hostilis adversitas eo quem vicerat,
+      vinceretur</quote>.</p>
+          <p xml:id="bb-d1e18390-d1e139">Item, hoc ipsum dicit <name ref="#Augustine">Augustinus</name>, De Trinitate, et habetur in littera : <quote xml:id="bb-d1e18390-Qd1e144">Dicimus
+       alium modum possibilem Deo fuisse, cuius potestati cuncta subiacent ; sed nostrae miseriae
+       sanandae convenientiorem ali uin non fuisse</quote>.</p>
+          <p xml:id="bb-d1e18390-d1e148">Item, hoc ipsum ostenditur expressius auctoritate Gregorii, XX, in Moralibus : <quote xml:id="bb-d1e18390-Qd1e150">Qui
+       nos fecit existere ex nihilo ; revocare etiam sine morte et passione sua
+      potuit</quote>.</p>
+          <p xml:id="bb-d1e18390-d1e154">Item, hoc ipsum ostenditur per deductionem ad inconveniens, quia, si non potuisset nos alio
+      modo liberare, ergo tunc fuisset divina potentia limitata. et persona Christi passioni
+      subiecta ; quod omnino est absurdum : ergo et illud ex quo sequitur.</p>
+          <p xml:id="bb-d1e18390-d1e158">Contra : Super illud ad Hebraeos 2, 10 : <quote xml:id="bb-d1e18390-Qd1e160">Decebat auctorem salutis eorum per
+       passionem consumnari</quote>, Glossa : <quote xml:id="bb-d1e18390-Qd1e163">Nisi Christus moreretur, homo non
+       redimeretur et non redemptus periret et frustra essent omnia facta</quote>. Si ergo hoc
+      est impossibile, restat quod primum est impossibile, scilicet Christum non mori pro salute
+      generis humani. Et si hoc, impossibile fuit alio modo genus humanum liberari quam per mortem
+      Christi.</p>
+          <p xml:id="bb-d1e18390-d1e167">Item, <name ref="#Anselm">Anselmus</name>, in libro Cur Deus homo : <quote xml:id="bb-d1e18390-Qd1e172">Non potuit transire calicem nisi biberet,
+       non quia non posset vitare mortem, si vellet, sed, sicut dictum est, impossibile fuit
+       aliter salvare mundum</quote>. Redit ergo idem quod prius.</p>
+          <p xml:id="bb-d1e18390-d1e176">Item, sicut dicit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e18390-Qd1e181">Nullus alius modus fuit isto congruentior</quote>. Si
+      ergo optimi <quote xml:id="bb-d1e18390-Qd1e184">est optima adducere</quote>, sicut boni est bona facere, videtur quod
+      necessarium fuit summam bonitatem istum modum eligere. Si ergo necessarium fuit eligere
+      istum modum, impossibile fuit alio modo salvari.</p>
+          <p xml:id="bb-d1e18390-d1e188">Item, Deus, cum sit summe iustus, negare se ipsum non potest : ergo, si debet reparare
+      genus humanum, necesse est quod reparet per viam iustitiae ; sed reparatio per viam
+      iustitiae non potest esse nisi per satisfactionem, sicut supra fuit ostensum ; satisfacere
+      autem pro toto genere humano non potest nisi Deus et homo ; modus satisfaciendi sufficiens
+      esse non potest, nisi ut solvatur anima pro anima et detur vita pro vita : ergo, a primo,
+      impossibile fuit quod Deus humanum genus repararet alia via.</p>
+        </div>
+        <div xml:id="bb-d1e18465">
+          <head xml:id="bb-d1e18390-Hd1e194">Conclusio</head>
+          <head xml:id="bb-d1e18390-Hd1e197" type="question-title">Genus humanum ex parte Dei reparantis et liberantis potuit alia
+      via quam per mortem Christi reparari; licet ex parle generis humani reparati non poluit
+      salvari nisi hac via a Deo determinala.</head>
+          <p xml:id="bb-d1e18390-d1e200">Respondeo : Dicendum quod, cum quaeritur, utrum alio modo genus humanum potuerit reparari
+      quam per mortem Christi, potest quaeri vel de potentia Dei reparantis vel ex parte generis
+      humani reparati. Si ex parte Dei reparantis, sic absque dubio aliter potuit genus numanum
+      liberare et reparare, sicut Sancti dicunt ; et magister Hugo de Sancto Victore alium modum
+      assignat, in libro De sacramentis, et <name ref="#Lombard">Magister</name> recitat in littera. Non enim est limitanda
+      divina potentia, immo etiam sicut solo nutu mentis et imperio voluntatis potuit. creare, ita
+      etiam potuit reparare. Si autem quaeratur de potentia ex parte generis humani reparati et
+      liberati, sic dicendum quod determinafum fuit sibi posse ad hanc viam ; et isto modo
+      intelligendo concedi potest quod genus humanum non potuit aliter reparari, sicut conceditur
+      quod nullus homo potest salvari nisi credat in Christum. Non enim patet nobis alia via
+      salutis, nec est aliud nomen sub caelo, in quo oporteat nos salvos fieri. Potuisset tamen
+      Deus, si voluisset, aliud nomen dare in quo salus nostra consisteret. Concedendae sunt
+      igitur rafiones ad primam partem, quoniam ostendunt alium modum nostrae salutis Deo fuisse
+      possibilem quantum est ex parte divinae potentiae.</p>
+        </div>
+        <div xml:id="bb-d1e18481">
+          <head xml:id="bb-d1e18390-Hd1e210">Ad Rationes</head>
+          <p xml:id="bb-d1e18390-d1e213">Ad illud vero quod obicitur in contrarium de Glossa et de <name ref="#Anselm">Anselmo</name>, dicendum quod
+      auctoritates illae intelliguntur quantum est ex parte nostra, praesupposita dispositione
+      divitia, qua nos sic et non alio modo liberare decrevit. Per hunc etiam modum intelligenda
+      est auctoritas <name ref="#Ambrose">Ambrosii</name>, quae posita fuit supra, distinctione decima octava, capitulo
+      ultimo. Tantum, inquit, fuit peccatum nostrum ut salvari non possemus, nisi unigenitus Dei
+      Filius moreretur pro nobis debitoribus mortis. Hoc, inquam, intelligendum est quia Deus nos
+      aliter non decrevit salvare. Per hunc etiam modum intelligendae sunt auctoritates
+      consimiles.</p>
+          <p xml:id="bb-d1e18390-d1e222">Ad illud quod obicitur, quod optimi est optima adducere, dicendum quod est optimum
+      simpliciter et optimum in genere. Et optimum in genere potest esse magis et minus bonum ; et
+      Deus adducit optima in genere, et ideo si facit optima ut etiam possit facere meliora et
+      minus bona. Ideo, quamvis iste modus esset nostrae miseriae convenientior, non tamen
+      oportuit quod ita eligeret istum modum quod non posset eligere alium modum.</p>
+          <p xml:id="bb-d1e18390-d1e225">Ad illud quod ultimo obicitur, quod Deus non potest facere contra suam iustitiam, et
+      iustitia non potest praeter satisfactionem culpam dimittere, responderi potest per
+      interemptionem duarum propositionum quas proponit, quarum prima est haec, quod non potuit
+      liberari genus humanum nisi per viam iustitiae : potuit enim liberare per viam misericordiae
+      ; nec in hoc fuisset factum praeiudicium iustitiae, si hoc facere voluisset. Potuisset enim
+      omnia demerita delere et hominem in priori statu constituere, nec remansisset aliquid
+      inordinatum in universo nec etiam impunitum. Peccatum enim fert secum poenam suam, per quam
+      ordinatur ; et ita si sine satisfactione genus humanum liberasset, non propter hoc contra
+      iustitiam fecisset. Potest etiam responderi per interemptionem illius quod nullo alio modo
+      potuit satisfacere nisi per mortem. Quamvis enim hoc esset magis congruum, fortassis modicum
+      supplicium in tam nobili persona suffecisset ad humani generis reparationem ; sed Dominus in
+      liberando supererogavit, propter quod dicitur : Copiosa apud eum redemptio. Esto tamen quod
+      non alio modo potuisset satisfieri pro genere humano, nec genus humanum aliter redimi, sicut
+      multi concedunt, tamen ex hoc non sequitur quod alio modo non potuerit liberari. De
+      liberatione enim firmiter credo quod alio modo potuit liberare ; de redemptione vero nec
+      nego nec audeo affirmare, quia temerarium est, cum de divina potentia agitur, terminum ei
+      praefigere. Amplius enim potest quam nos possumus cogitare.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

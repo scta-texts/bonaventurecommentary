@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 3, P. 2, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 3, P. 2, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e3212">
+        <head xml:id="bb-d1e3212-Hd1e119">III, D. 3, P. 2, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e3212-Hd1e122" type="question-title">Utrum Christus in Abraham fuerit decimatus.</head>
+        <p xml:id="bb-d1e3212-d1e125">Secundo quaeritur, utrum Christus in Abraham fuerit decimatus.</p>
+        <div xml:id="bb-d1e3223" type="rationes-principales">
+          <head xml:id="bb-d1e3212-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e3212-d1e133">Et quod sic, videtur. Auctoritate Apostoli ad Hebraeos 7, 9 : <quote xml:id="bb-d1e3212-Qd1e135" ana="#hebr7_9">Per
+       Abraham et Levi decimatus est ; adhuc in lumbis patris erat, quando obviavit ei
+       Melchisedech</quote>. Sed Christus fuit in lumbis Abrahae, quando decimas illas dedit :
+      ergo fuit decimatus sicut et Levi.</p>
+          <p xml:id="bb-d1e3212-d1e139">Item, sicut dicit Hugo de Sancto Victore, <quote xml:id="bb-d1e3212-Qd1e141">per decimas significatur ipse
+       Christus</quote>. Ergo videtur quod ipsa decimatio, in quantum est actus figuralis,
+      principalius respiciat Christum quam alios filios Abrahae : ergo magis videtur quod debeat
+      dici decimatus quam alii.</p>
+          <p xml:id="bb-d1e3212-d1e145">Item, nihil plus requiritur ad decimationem nisi quod illud realiter impleatur in prole
+      quod significatum fuit in decimatione Abrahae ; sed hoc fuit maxime impletum in Christo, qui
+      se ipsum obtulit hostiam Deo et Patri per oblationem corporis et sanguinis sui.</p>
+          <p xml:id="bb-d1e3212-d1e148">Item, tota caro Christi fuit in carne beatae Virginis ; sed caro Virginis habuit decimari
+      in Abraham : ergo et caro Christi.</p>
+          <p xml:id="bb-d1e3212-d1e152">Sed contra : <name ref="#Augustine">Augustinus</name>, X Super Genesim ad litteram : <quote xml:id="bb-d1e3212-Qd1e157">Ille non est decimatus, cuius
+       caro non fervorem vulneris, sed materiam medicaminis traxit</quote>; Christus autem fuit
+      huiusmodi : ergo etc.</p>
+          <p xml:id="bb-d1e3212-d1e161">Item, sicut se habet Adam peccans ad posteros, ita Abraham in dando decimas ; sed, quamvis
+      Christus esset in Adam peccante, non dicitur Christus peccasse in Adam : ergo pari ratione
+      in Abraham dante decimas non dicitur decimatus.</p>
+          <p xml:id="bb-d1e3212-d1e164">Item, decimatio vel erat curatio vel curationis praefiguratio ; sed Christus nec ibi
+      curabatur nec curari praefigurabatur : ergo videtur quod ibi decimatus non fuerit.</p>
+          <p xml:id="bb-d1e3212-d1e167">Item, si Christus decimatus fuit in lumbis Abrahae sicut et Levi, ergo nulla est
+      argumentatio Apostoli qua probat maius esse sacerdotium Melchisedech sacerdotio levitico per
+      hoc quod Levi decimatus fuit ; quodsi ratiocinatio Apostoli recta est, restat igitur quod
+      Christus non decimatus fuit in Abraham. </p>
+          <p xml:id="bb-d1e3212-d1e170">Est igitur quaestio iuxta hoc : unde tenet illa consequentia, qua probat Apostolus maius
+      esse sacerdotium Melchisedech sacerdotio levitico, pro eo quod Levi obtulit decimas
+      Melchisedech ? Videtur quod non cogat, quia secundum illam rationem posset argui quod maior
+      est dignitas unius sacerdotis pauperis quam Papae, esto quod pater Papae dederit decimas
+      simplici sacerdoti.</p>
+        </div>
+        <div xml:id="bb-d1e3269">
+          <head xml:id="bb-d1e3212-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e3212-Hd1e179" type="question-title">Christus in lumbis Abrahae non fuit decimatus</head>
+          <p xml:id="bb-d1e3212-d1e182">Respondeo : Dicendum quod, sicut determinat <name ref="#Lombard">Magister</name> in littera, immo <name ref="#Augustine">Augustinus</name>, Super
+      Genesim ad litteram X, Christus in lumbis Abrahae non fuit decimatus.</p>
+          <p xml:id="bb-d1e3212-d1e191">Et ratio huius est quia decimatio praefigurabat futuram curationem. Quoniam igitur Christus
+      in lumbis Abrahae non erat sicut curatione indigens, sed potius sicut medicina, hinc est
+      quod decimatio ad ipsum non pertinebat. Sicut enim in Adam illi soli peccaverunt qui
+      secundum carnalem generationem et concupiscentiain seminalem ab ipso procedunt, et ideo ab
+      illa generalitate excluditur Christus, qua dicitur : Omnes in Adam peccaverunt, quia non
+      processit ab ipso secundum libidinis ardorem, sed secundum Spiritus Sancti operationem : sic
+      in proposito intelligendum est de decimatione.</p>
+        </div>
+        <div xml:id="bb-d1e3291">
+          <head xml:id="bb-d1e3212-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d1e3212-d1e201">Et per hoc patet responsio ad illud quod primo obicitur in contrarium, quoniam Christus in
+      lumbis Abrahae fuit et Levi ; sed non eodem modo. Et propterea non sequitur quod sicut uni
+      competit decimari, ita conveniat alteri. Decimatio autem non tantum respicit esse in lumbis,
+      sed etiam modum essendi secundum traductionem originalis peccati.</p>
+          <p xml:id="bb-d1e3212-d1e204">Ad illud quod obicitur, quod Christus significatur per decimam oblatam, dicendum quod
+      decima oblata non decimabatur, sed decimatio potius respicit illud quod temanet in alio,
+      sicut dicit Hugo, quia remanet imperfectio ablata unitate, quae est perfectio denarii, per
+      quod significatur futura curatio. Unde sicut alii figurantur in illa decimatione curari, sic
+      Christus figuratur esse ratio medicamenti.</p>
+          <p xml:id="bb-d1e3212-d1e207">Ad illud quod obicitur, quod in illa decimatione significabatur oblatio Christi, dicendum
+      quod verum est, sed non significatur Christi oblatio tamquam pro quo fieret oblatio, sed
+      tamquam qui. offertur pro aliis. Et quoniam decimari dicitur me pro quo offertur oblatio
+      decimae, hinc est quod actus decimationis non debet Christo attribui ; aliter enim
+      praefigurabatur Christus, aliter alii.</p>
+          <p xml:id="bb-d1e3212-d1e210">Ad illud quod obicitur, quod caro Christi fuit in beata Virgine et caro Virginis in
+      Abraham, dicendum quod ibi est sophisma secundum accidens, quia variatur modus essendi hinc
+      inde. Alio enim modo fuit caro beatae Virginis in Abraham, aliter caro Christi in Matre sua,
+      quia beata Virgo processit secundum legem concupiscentiae, Christus vero minime.</p>
+          <p xml:id="bb-d1e3212-d1e214">Ad illud quod quaerebatur de auctoritate Apostoli et ratione, dici potest quod ratio
+      Apostoli bona est ad illos contra quos arguit, scilicet Iudaeos, qui supponebant Abraham
+      digniorem esse in suo genere. Si ergo Abraham benedictus fuit a Melchisedech et ei decimas
+      obtulit tamquam superiori, sequitur ex hoc quod non tantum maior fuit Melchisedech Abraham,
+      sed etiam maior omnibus qui processerunt secundum legem carnis ab eo ; et ideo dignior fuit
+      Levi et Aaron.</p>
+          <p xml:id="bb-d1e3212-d1e217">Sed quoniam illud non videtur esse verum quod excellentior fuerit Melchisedech quam Moyses
+      et David et beata Virgo, qui processerunt ex Abraham, et Apostolus non procedit ex falsis
+      suppositionibus, ideo oportet aliter dicere, videlicet quod Apostolus arguit ex veritate et
+      significatione illius figurae necessaria argumentatione. Decimatio pro illo tempore
+      significabat curationem. Cum ergo Abraham obtulit decimas Melchisedech et ab eo benedictus
+      est, significavit se indigere curatione et benedictione per illum sacerdotem qui
+      significabatur per Melchisedech. Sed ille qui curat et benedicit maior est absque ulla
+      contradictione. Cum ergo sacerdotium Christi fuerit illud quod praefigurabatur per illud
+      Melchisedech, sicut in Psalmo [109, 4] legitur : <quote xml:id="bb-d1e3212-Qd1e219" ana="#ps109_4">Tu es sacerdos in
+       aeternam secundum ordinem Melchisedech</quote> ; restat igitur quod maius fuit sacerdotium
+      Christi quam Levi. Et haec est ratio Apostoli, quam impossibile est dissolvi. Nec est simile
+      de sacerdote simplici et de patre Papae, quia ibi nulla est ratio figurae. Haec autem tota
+      ratio fundatur supra decimationem secundum quod est actus figuralis ; nam secundum quod est
+      actus moralis nihil facit ad propositum, quia nec Abraham nec eius posteri obligati fuerunt
+      ad dandas decimas Melchisedech, maxime illi qui fuerunt de stirpe Levi, ad nullas decimas
+      dandas fuerunt astricti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

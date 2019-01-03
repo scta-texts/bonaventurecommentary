@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 3, P. 2, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 3, P. 2, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e3456">
+        <head xml:id="bb-d1e3456-Hd1e119">III, D. 3, P. 2, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e3456-Hd1e122" type="question-title">Utrum Christi caro fuerit in parentibus aliter quam caro aliorum
+    hominum secundum legem propagationis.</head>
+        <p xml:id="bb-d1e3456-d1e125">Secundo quaeritur, utrum caro Christi fuerit in parentibus aliter quam caro aliorum hominum
+    secundum legem propagationis.</p>
+        <div xml:id="bb-d1e3467" type="rationes-principales">
+          <head xml:id="bb-d1e3456-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e3456-d1e133">Et quod aliter, illud videtur. Auctoritate <name ref="#Augustine">Augustini</name>, X Super Genesim ad litteram,
+      tractantis illud Apostoli ad Hebraeos 7, 25 : <quote xml:id="bb-d1e3456-Qd1e138" ana="#hebr7_25">Adhuc erat in
+        lumbis patris</quote>. Secundum aliquem modum erat ibi Christus, quo non erat ibi Levi.
+       Secundum rationem quippe seminaleni fuit ibi Levi, qua ratione non fuit ibi caro
+       Christi.</p>
+          <p xml:id="bb-d1e3456-d1e142">Item, hoc ipsum ostenditur ratione. Mediatum principium reducitur ad immediatum ; sed
+      Christus secundum alium modum propagandi exivit de utero Virginis quam alii filii de ventre
+      inatrum suarum, pro eo quod non de virili semine. Si ergo mediante beata Virgine dicitur
+      fuisse in parentibus praecedentibus, videtur quod alio modo fuerit caro eius in parentibus
+      secundum legem propagationis quam aliorum hominum.</p>
+          <p xml:id="bb-d1e3456-d1e145">Item, si eodem modo fuisset caro Christi in parentibus sicut reliqui homines, ita
+      peccasset, Adam peccante, sicut alii homines ; sed hoc falsum est : ergo etc.</p>
+          <p xml:id="bb-d1e3456-d1e148">Item, eo modo habet res educi in esse per quem modum habet in suo principio existere ; sed
+      Christus non fuit genitus vel conceptus secundum legem naturae, sed potius mirabiliter, alii
+      homines educuntur naturaliter : aliter igitur fuit caro eius quantum ad legem propagationis
+      in lumbis parentum quam aliorum hominum.</p>
+          <p xml:id="bb-d1e3456-d1e152">Sed contra : <name ref="#Lombard">Magister</name> dicit in littera : <quote xml:id="bb-d1e3456-Qd1e157" source="http://scta.info/resource/pl-l3d3c3-d1e117">Caro illa, antequam Verbo fuisset
+       unita, peccato fuit obnoxia in Maria, sicut reliqua Virginis caro</quote>. Sed caro, quae
+      consimilis est secundum traductionem originalis, consimilis est secundum legem propagationis
+      : ergo, si caro Christi in lumbis parentum fuit obnoxia peccato, ergo et eadem lege a primis
+      parentibus est traducta.</p>
+          <p xml:id="bb-d1e3456-d1e161">Item, omne quod descendit ab Adam in Seth, descendit secundum corpulentam substantiam et
+      secundum seminalem rationem. Ergo, si caro Christi descendit ab Adam in Seth et a Seth in
+      alios parentes, videtur quod secundum legem propagationis fuerit in lumbis parentum eodem
+      modo sicut caro aliorum hominum.</p>
+          <p xml:id="bb-d1e3456-d1e164">Item, semen, unde formatum est corpus Seth, in totis parentibus habebat rationem seminalem.
+      Ergo nihil inde futurum erat quod non esset ibi et secundum corpulentam substantiam et
+      rationem seminalem ; sed, si caro Christi exinde facta est, videtur quod ibi fuerit ad modum
+      alterius carnis humanae.</p>
+          <p xml:id="bb-d1e3456-d1e167">Item, tota caro Virginis fuit in lumbis parentum secundum legem propagationis, sicut caro
+      aliorum hominum ; sed caro Christi fuit ex aliqua parte carnis Virginis : ergo secundum
+      legem propagationis sic fuit in lumbis parentum sicut caro totius humani generris.</p>
+        </div>
+        <div xml:id="bb-d1e3510">
+          <head xml:id="bb-d1e3456-Hd1e173">Conclusio</head>
+          <head xml:id="bb-d1e3456-Hd1e176" type="question-title">Caro Christi secundum legem propagationis aliter fuit in
+      parentibus, quam caro aliorum hominum</head>
+          <p xml:id="bb-d1e3456-d1e179">Respondeo : Dicendum quod dupliciter est loqui de carne Christi : aut quantum ad materiam,
+      unde sumta est aut quantum ad formam, secundum quam animae Christi coniuncta est et a Verbo
+      in unitatem personae assumta. Si loquamur de carne Christi secundum materiam, hoc est de eo
+      unde facta est caro Christi, sic conceditur quod peccato fuerit obnoxia, quia ante
+      conceptionem Christi tota massa humani generis corrupta erat, sicut in praecedenti
+      problemate monstratum est. Si autem loquamur de carne Christi secundum formam, sic dicendum
+      est nunquam peccato fuisse obnoxiam, quia nunquam habuit illam formam quin esset munda et
+      immaculata.</p>
+          <p xml:id="bb-d1e3456-d1e182">Secundum autem quod caro dicitur dupliciter, sic et de propagatione dupliciter contingit
+      loqui : aut ratione sui materialis aut ratione formalis. Si ratione materialis, sic
+      propagata fuit ab Adam usque ad Virginem in tota illa genealogia, et tota illa propagatio
+      fuit secundum legem naturae et concupiscentiae. Si quantum ad esse actuale et formate, sic
+      concepta fuit a Virgine praeter legem communem naturae et concupiscentiae.</p>
+          <p xml:id="bb-d1e3456-d1e185">Et sic patet quod uno modo dicendi concedi potest quod caro Christi, materialiter loquendo,
+      sic fuit in lumbis parentum secundum propagationem sicut caro aliorum hominum. Sed quoniam
+      caro, quantum est de ratione sui nominis, non nominat materiam ipsam tantum, sed materiam
+      sub tali forma et propagatio et lex propagationis, additum ei quod est caro Christi,
+      respicit eius eductionem secundum esse actuale, hinc est quod haec est impropria <mentioned>
+       caro Christi fuit peccato obnoxia </mentioned> ; et haec <mentioned> caro Chrisi fuit ex
+       parentibus seminaliter traducta </mentioned> ; et haec similiter <mentioned> caro Christi
+       fuit in parentibus decimata </mentioned>, pro eo quod in omnibus, quantum est de vi
+      sermonis, praedicatum attribuitur subiecto, non ratione materiae tantum, sed ratione
+      materiae sub tati forma. Caro enim est terminus substantialis ; et ideo, quamvis supponat
+      pro verbo de praeterito, oportet ad idem tempus referri formam praedicati cum subiecto. Et
+      ideo omnes praedictae locutiones tamquam falsae et impropriae sunt negandae, nisi
+      proferantur cum determinatione, scilicet ratione materialis principii. Si autem alicubi
+      absolute proferantur, sunt exponendae. Nota tamen quod haec est impropria caro Christi fuit
+      peccato obnoxia ; sed haec magis impropria caro Christi fuit seminaliter traducta ; haec
+      autem adhuc magis impropria et falsa caro Christi fuit decimata secundum quod magis ac magis
+      in praedictis locutionibus caro accipitur ratione formae.</p>
+          <p xml:id="bb-d1e3456-d1e198">Concedendum est igitur quod aliter fuit caro Christi secundum legem propagationis in
+      parentibus quam aliorum hominum. Nam caro aliorum hominum ortum habuit a parentibus secundum
+      seminalem rationem et secundum legem concupiscentiae. lllud autem dicitur procedere secundum
+      rationem seminalem, quod quidem exit in esse secundum virtutem et operationem naturae, sicut
+      sunt illa in quorum productione natura non solum se habet per modum obedientis et
+      suscipientis, immo etiam per modum naturae agentis et dantis speciem, sive completionem ; et
+      hoc importat hoc quod dico seminalis ratio, proprie loquendo, sicut ostensum fuit in secundo
+      libro, quamvis contingat extensiori modo uti praedicto vocabulo. Illud autem intelligitur
+      traduci secundum legem concupiscentiae, in cuius procreatione concurrit foeditas
+      delectationis carnis ex parte viri generantis et mulieris concipientis. Neutrum horum fuit
+      in generatione Christi. Nam conceptio eius mirabilis fuit et supra virtutem naturae ; non
+      enim fuit ex virili semine, pro eo quod caro eius concepta fuit ex sola muliere. Fuit etiam
+      praeter legem concupiscentiae, quia non intervenit delectatio ex commixtione sexus ;
+      conceptus enim fuit ex castissimis Virginis visceribus. Ideo concedendae sunt rationes quae
+      ad hanc partem inducuntur.</p>
+        </div>
+        <div xml:id="bb-d1e3542">
+          <head xml:id="bb-d1e3456-Hd1e205">Ad rationes</head>
+          <p xml:id="bb-d1e3456-d1e208">Ad illud quod obicitur de auctoritate <name ref="#Lombard">Magistri</name>, dicendum quod locutio ista est impropria,
+      videlicet quod peccato fuerit obnoxia, et intelligendum est materialiter ; et hoc <name ref="#Lombard">Magister</name>
+      insinuat, cum dicit quod peccato fuerit obnoxia ; non simpliciter, sed in Maria, in qua
+      materialiter erat. Unde non est simpliciter concedenda, sed exponenda tamquam impropria ; et
+      ex impropriis secundum earum improprietatem acceptis non licet arguere, sicut manifestum est
+      ; et ideo ratio non valet.</p>
+          <p xml:id="bb-d1e3456-d1e217">Ad illud quod obicitur, quod quidquid descendit ab Adam in Seth, descendit secundum
+      seminalem rationem, dicendum quod seminalis ratio non dicit quid absolutum, sed quid
+      respectivum ; dicit enim respectum eius quod propagatur ad illud de quo producitur. Cum ergo
+      dicit quod quidquid descendit ab Adam in Seth, descendit secundum seminalem rationem
+      dicendum quod verum est per comparationem ad Seth et ad hos qui producendi erant secundum
+      propagationem naturae, respectu quorum omnium semen decisum a lumbis Adae habuit virtutem
+      sufficientem ad rationem seminalem. Respectu autem Christi non habet veritatem, pro eo quod
+      totum illud, quod secundum legem naturae ex illo semine producendum erat, respectu carnis
+      Christi se habebat in ratione possibilis et materialis, quia non poterat reduci ad actum
+      completum nisi per virtutem Spiritus Sancti. Cum ergo dicit quod quidquid fuit in Seth, fuit
+      secundum seminalem rationem, verum est, si comparetur ad Adam ; sed, si comparetur ad
+      Christum, non habet veritatem.</p>
+          <p xml:id="bb-d1e3456-d1e220">Ad illud quod obicitur, quod totum semen decisum ab Adam habuit seminalem rationem,
+      dicendum quod verum est respectu eorum qui producendi erant secundum legem naturae ;
+      respectu Christi non habet veritatem. Quamvis enim in aliquo semine sit ratio seminalis
+      secundum quamlibet eius partem, saltem formalem, ut ex eo aliquid possit fieri, tamen, si
+      Deus aliquid faciat ex illo semine, ad quod non habebat ordinationem secundum naturam,
+      dicitur fuisse in illo semine secundum corpulentam substantiam, non secundum rationem
+      seminalem, quia semen illud, respectu illius quod Deus educit, non habet vim sufficienter
+      activam, sed passivam, secundum quam submiiiistrat corporalem substantiam, esto etiam quod
+      illa seminalis ratio cooperaretur ad subministrationem materiae illius rei faciendae : ut si
+      plantaretur unum semen parvum, ita quod de illo produceretur arbor magna, cuius magnitude
+      materi esset ad productionem magni corporis alterius speciei. Sic et in proposito
+      intelligendum est, cum dicitur Christum fuisse in lumbis parentum secundum corpulentam
+      substantiam, non secundum seminalem rationem, non quia substantia Christi corporis ibi tota
+      fuerit, sed quia erat aliquanta materia, quae per vim seminalem poterat augmentari et
+      crescere, apposito sibi alimento, ita ut corpora omnium hominum inde possent fabricari ; et
+      per illam vim sunt corpora omnium hominum fabricata, excepto solo corpore Christi, quod
+      fabricatum fuit per virtutem supernam, sicut melius manifestabitur infra. Et sic patet pro
+      quanto Christus dicitur fuisse in Adam secundum corpulentam substantiam ; et quod non
+      sequitur, si fuit in semine Adae, quod fuerit in illo secundum seminalem rationem. Ad haec
+      autem intelligenda valent illa quae determinata sunt secundo libro, distinctione
+      trigesima.</p>
+          <p xml:id="bb-d1e3456-d1e223">Ad illud quod obicitur, quod tota caro beatae Virginis fuit ibi secundum seininalem
+      rationem sicut caro aliorum hominum, dicendum quod in illo argumento est sophisma seeundum
+      accidens, sicut dictum fuit supra de decimatione.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

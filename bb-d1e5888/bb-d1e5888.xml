@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 5, A. 2, Q. 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 5, A. 2, Q. 5</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e5888">
+        <head xml:id="bb-d1e5888-Hd1e119">III, D. 5, A. 2, Q. 5</head>
+        <head xml:id="bb-d1e5888-Hd1e122" type="question-title">Utrum concedenda sit haec Filius Dei assumsit humanitatem.</head>
+        <p xml:id="bb-d1e5888-d1e125">Quinto quaeritur, utrum concedenda sit haec Filius Dei assumsit humanitatem.</p>
+        <div xml:id="bb-d1e5899" type="rationes-principales">
+          <head xml:id="bb-d1e5888-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e5888-d1e133">Et quod sic, videtur. <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-d1e5888-Qd1e138" source="http://scta.info/resource/jddfo-l3c6">Omnia quae in nostra natura plantavit, assumsit Dei Verbum</quote>. Sed unicuique nostrum
+      dedit humanitatem : ergo videtur quod assumsit humanitatem.</p>
+          <p xml:id="bb-d1e5888-d1e142">Item, humanitas non est aliud quam hominis natura, secundum quod dicit <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-d1e5888-Qd1e147" source="http://scta.info/resource/jddfo-l3c4">Divinitatis et humanitatis nomina naturam
+       sunt repraesentativa</quote>. Sed haec simpliciter est concedenda Filius Dei assumsit
+      humanam naturam. Ergo et haec Filius Dei assumsit humanitatem.</p>
+          <p xml:id="bb-d1e5888-d1e151">Item, humanitas est forma hominis ; sed haec simpliciter conceditur Filius Dei assumsit
+      formam hominis, sicut dicitur ad Philippenses 2, 7 : Humiliavit semetipsum, formam servi
+      accipiens. Ergo et ista Filius Dei assumsit humanitatem.</p>
+          <p xml:id="bb-d1e5888-d1e154">Item, haec est simplicitet vera <mentioned> Filius Dei habet humanitatem </mentioned> ; et
+      eam non habuit ab aeterno, sed temporaliter : ergo videtur quod eam assumsit.</p>
+          <p xml:id="bb-d1e5888-d1e161">Sed contra : Humanitas consequitur unionem animae cum corpore ; sed anima et corpus non
+      fuerunt prius unita quam assumta : ergo, si assumtum secundum ordinem naturalem praecedit
+      ipsam assumtionem, videtur quod haec sit falsa <mentioned> Filius Dei assumsit
+       humanitatem</mentioned>.</p>
+          <p xml:id="bb-d1e5888-d1e167">Item, magis significat in abstractione hoc nomen <mentioned>humanitas</mentioned> quam hoc
+      nomen <mentioned>homo</mentioned>. Ergo, si Deus non assumsit humanam naturam in universali,
+      sed in atomo, ergo haec est magis impropria <mentioned>assumsit humanitatem</mentioned> quam
+       <mentioned>assumsit hominem</mentioned>. Ergo est falsa.</p>
+          <p xml:id="bb-d1e5888-d1e182">Item, si assumsit humanitatem et nunquam deposuit quod assumsit, semper habuit humanitatem
+      ; sed quod habet humanitatem semper est homo semper ; ergo in triduo fuit homo.</p>
+          <p xml:id="bb-d1e5888-d1e185">Iuxta hoc quaeritur, quid nomine humanitatis intelligitur, cum dicitur Dei Filium
+      assumsisse humanitatem ?</p>
+        </div>
+        <div xml:id="bb-d1e5960">
+          <head xml:id="bb-d1e5888-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e5888-Hd1e194" type="question-title">Concedendum est, quod Filius Dei assumsit humanitatem</head>
+          <p xml:id="bb-d1e5888-d1e197">Respondeo : Dicendum quod nomen <mentioned> humanitatis </mentioned> consuevit tripliciter
+      accipi : uno modo per humanitatem possunt intelligi principia constituentia hominem ; alio
+      modo per humanitatem potest intelligi forma consequens totum compositum ; tertio modo nomine
+      humanitatis potest intelligi proprietas consequens ipsum hominem, in quantum est homo. Et
+      iste triplex intellectus habetur ex verbis <name ref="#Lombard">Magistri</name>, distinctione secunda, ubi confirmat
+      <name ref="#Lombard">Magister</name> et ostendit auctoritate <name ref="#Jerome">Hieronymi</name>, nomine <mentioned> humanitatis </mentioned>
+      corpus et animam intelligi.</p>
+          <p xml:id="bb-d1e5888-d1e215">Omnibus autem his modis concedendum est Filium Dei assumsisse humanitatem. Si enim nomine
+      humanitatis intelligantur ipsa principia constituentia hominem, videlicet anima et caro,
+      absque dubio verum est quod Filius Dei assumsit humanitatem, id est animam et carnem. Item,
+      si nomine humanitatis intelligatur forma totius, adhuc veritatem habet Filius Dei assumsit
+      humanitatem, id est formam humanam, iuxta illud quod dicitur ad Philippenses 2, 7 :
+      Humiliavit semetipsum, formam servi accipiens. Postremo, si nomine humanitatis intelligatur
+      ipsa proprietas consequens, adhuc veritatem habet Filius Dei assumsit humanam naturam, quia
+      non solum nostram naturam humanam assumsit, sed proprietates consequentes, sicut dicit
+      <name ref="#JohnDamascenus">Damascenus</name>. Si quis autem hoc ultimo modo solum intelligat quod assumserit humanitatem, id
+      est hominis proprietatem, errat circa incarnationis veritatem. Oportet enim ponere quod hoc
+      triplici modo dicendi Filius Dei assumsit naturam humanam. Et concedendae sunt rationes ad
+      hanc partem inductae.</p>
+        </div>
+        <div xml:id="bb-d1e5994">
+          <head xml:id="bb-d1e5888-Hd1e225">Ad rationes</head>
+          <p xml:id="bb-d1e5888-d1e228">Ad illud quod obicitur, quod humanitas consequitur unionem, dicendum quod consequitur
+      unionem animae ad corpus secundum quod uniuntur in constitutionem naturae, non secundum quod
+      uniuntur in unitatem personae. Posset etiam dici quod quaedam sunt prius assumta et quaedam
+      coassumta. Et quamvis anima et corpus primo assumta sint a Verbo, tamen omnia quae ad ea
+      consequuntur dici possunt coassumta. Unde, quia anima et corpus habebant proprietatem
+      passibilitatis, Filius Dei assumsit passibilitatem. Et per hunc modum concedendum est quod
+      assumserit humanitatem, quemadmodum conceditur quod assumserit passibilitatem, quamvis non
+      concedatur quod assumserit se passibilem, sed quod assumendo passibilitatem fecerit se
+      passibilem. Sic conceditur quod assumserit humanitatem, licet non concedatur quod assumserit
+      se hominem. </p>
+          <p xml:id="bb-d1e5888-d1e231">Ad illud quod obicitur de abstractione, dicendum quod potius facit ad oppositum quam ad
+      propositum. Quia enim significat abstractive, ideo significat in quadam diversitate a
+      supposito ; et ideo salvari potest, ista : conditio assumtionis, quae quidem est distinctio
+      assumentis ad assumtum ; non sic autem est in hoc quod dicitur homo</p>
+          <p xml:id="bb-d1e5888-d1e234">Ad illud quod obicitur, quod nunquam deposuit quod assumit, dicendum quod hoc intelligitur
+      quantum ad principia naturae, quae prius fuerunt assumta, scilicet anima et caro ; quantum
+      vero ad coassumta veritatem non habet : deposuit enim passibilitatem. Sed, si hoc modo
+      accipiatur humanitas ratione principiorum constituentium hominem, sic nunquam deposuit
+      humanitatem. Sed ex hoc non sequitur in triduo habuit humanitatem, ergo fuit homo, quia
+      principia hominis non faciunt hominem nisi in quantum coniunguntur ad invicem et uniuntur in
+      unitatem personae ; et alter istorum modorum deficiebat in triduo. Quodsi nomine humanitatis
+      intelligatur ipsa forma consequens compositum vel ipsa proprietas, non oportet quod in
+      triduo Christus habuerit humanitatem, quia, sicut dictum est, talia non fuerunt primo
+      assumta, sed magis coassumta.</p>
+          <p xml:id="bb-d1e5888-d1e237">Ad illud quod ultimo quaerebatur, patet responsio ex his quae iam dicta sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

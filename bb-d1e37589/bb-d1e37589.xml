@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 40, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 40, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e37589">
+        <head xml:id="bb-d1e37589-Hd1e119">III, D. 40, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e37589-Hd1e122" type="question-title">De differentia utriusque Legis penes radicem.</head>
+        <p xml:id="bb-d1e37589-d1e125">Circa primum sic proceditur et quaeritur de differentia, quae assignatur penes radicem.
+    Assignatur autem haec differentia penes radicem, secundum <name ref="#Augustine">Augustinum</name>, quod Lex Vetus
+    radicabatur in timore, et Lex Nova in amore. Unde <name ref="#Augustine">Augustinus</name> dicit quod brevis est differentia
+    Legis et Evangelii : timor et amor. Et cum ex multis locis Scripturae possit ista differentia
+    trahi, maxime accipitur ex Epistola ad Romanos 8, 15, ubi dicit Apostolus : <quote xml:id="bb-d1e37589-Qd1e133" ana="#rom8_15">Non accepistis
+    spiritum servitutis iterum in timore, sed spiritum adoptionis</quote>.</p>
+        <div xml:id="bb-d1e37609" type="rationes-principales">
+          <head xml:id="bb-d1e37589-Hd1e139">Rationes Principales</head>
+          <p xml:id="bb-d1e37589-d1e142">Sed contra hoc obicitur multipliciter. Primo contra distinctionem ipsarum radicum. Omnis
+      enim timor, sicut dicit <name ref="#Augustine">Augustinus</name>, ex amore procedit. Ergo, si amor est radix timoris, unum
+      ad alterum habet reduci : ergo non habent ad invicem distingui.</p>
+          <p xml:id="bb-d1e37589-d1e148">Item, cum sint aliae affectiones animae, videlicet gaudium et dolor et spes, videtur,
+      quodsi penes has affectiones duplex Lex distinguitur, quod pari ratione penes alias
+      distingui deberet : ergo videtur quod, si penes alias non distinguitur, nec penes istas.</p>
+          <p xml:id="bb-d1e37589-d1e151">Item, si istae dua Leges distinguuntur penes istas duas radices, cum lex naturae sit ab
+      istis duabus distincta, videtur quod necessaria esset tertia radix praeter istas duas. Aut
+      si lex naturae non habet diversam radicem observantiae a Lege Moysi, videtur quod nec penes
+      hoc differat Lex Moysi a Lege Evangelii.</p>
+          <p xml:id="bb-d1e37589-d1e154">Item, Deuteronomii 6, 5 dicitur : <quote xml:id="bb-d1e37589-Qd1e156" ana="#deut6_5">Diliges Dominum Deum tuum ex toto corde tuo et ex
+       tota mente tua</quote> etc. ; et ad Philippenses 2, 12 dicitur in Lege Nova : <quote xml:id="bb-d1e37589-Qd1e159" ana="#phil2_12">Cum
+       metu et tremore salutem vestram operamini</quote>. Si ergo amor praecipitur in Veteri et
+      timor in Lege Nova, videtur quod secundum hoc non attendatur istarum Legum differentia.</p>
+          <p xml:id="bb-d1e37589-d1e164">Item, in utraque Lege fiunt promissiones et comminationes ; sed promissiones attrahunt ad
+      amorem, comminationes vero incutiunt timorem : igitur timor et amor conveniunt utrique. Ergo
+      penes haec non distinguuntur ab invicem.</p>
+          <p xml:id="bb-d1e37589-d1e167">Item, graviores comminationes fiunt in Lege Nova quam in Lege Veteri, quia ibi puniebatur
+      homo poena temporali, hic autem comminatur Deus poenam aeternam. Si ergo maior comminatio
+      est inductiva maioris timoris, videtur quod timor magis deberet Legi Novae quam Veteri
+      appropriari. Videtur igitur quod penes has duas radices non recte assignetur differentia
+      Legis Veteris et Novae, tum per comparationem ipsarum radicum ad invicem, tum per
+      comparationem ad ipsas Leges.</p>
+        </div>
+        <div xml:id="bb-d1e37643">
+          <head xml:id="bb-d1e37589-Hd1e173">Conclusio</head>
+          <head xml:id="bb-d1e37589-Hd1e176" type="question-title">Lex vetus recte dicitur lex timoris, et Lex nova lex
+      amoris.</head>
+          <p xml:id="bb-d1e37589-d1e179">Respondeo : Ad praedictorum intelligentiam est notandum quod, cum comparamus has Leges ad
+      invicem, hoc potest esse dupliciter : vel secundum statum communem vel habito respectu ad
+      statum specialis personae. Si habito respectu ad statum specialis personae, sic penes haec
+      duo non est differentia. Nam multi in Lege evangelica ducuntur spiritu timoris, multi etiam
+      in Lege Veteri ducebantur spiritu amoris. Si vero comparemus has Leges ad invicem, habito
+      respectu ad statum communem, sic, quia Lex moysaica respiciebat statum imperfectionis, quia
+      neminem ad perfectum adduxit Lex, secundum quod dicit Apostolus ad Hebraeos [7, 19] ;
+      Evangelium vero respicit statum perfectionis, secundum quod dicitur Matthaei 5, 48 :
+       <quote xml:id="bb-d1e37589-Qd1e181" ana="#mt5_48">Estote perfecti sicut Pater vester caelestis perfectus est</quote> ; et
+      imperfectorum est duci spiritu timoris, perfectorum vero spiritu amoris : hinc est quod
+      secundum statum communem penes haec duo habet harum duarum Legum differentia assignari.</p>
+          <p xml:id="bb-d1e37589-d1e185">Signum autem huius differentiae deprehenditur in modo ferendi hanc duplicem Legem, quia Lex
+      Vetus data fuit cum clamore magno et timore, secundum quod dicitur Exodi 19, 16, ita quod
+      populus non audebat appropinquare ; Lex autem Evangelii data est cum magna benignitate et
+      dulcedine, quoniam ipse Rex regum, in medio discipulorum sedens, docebat eos dicens : Beati
+      pauperes spiritu etc., secundum quod scribitur Matthaei 5, 3. Et hic diversus modus ferendi
+      Legem insinuat nobis diversitatem huius duplicis radicis in observando, quae his duabus
+      Legibus competebat propter diversam qualitatem personarum et status earum, ob quam oportebat
+      diversimode manuduci. Unde sicut videmus in disciplinalibus quod ad homines persuadibiles
+      utendum est syllogismo ostensivo, qui ducit directe ad verum ; ad homines vero contentiosos
+      utendum est syllogismo per impossibile, qui ducit ad manifeste falsum, ut per illud reducat
+      ad verum : sic, quia in tempore Legis Veteris erant homines durae cervicis et ad malum
+      proni, Dominus proposuit comminationes et taxavit etiam graves poenas, ut per hoc incuteret
+      eis timorem, per quem a malo revocarentur et ad bonum stimularentur. Sed postmodum,
+      apparente benignitate et humanitate Salvatoris nostri Dei, coeperunt homines esse
+      persuadibiles : et ideo proposuit eis Dominus magnas et multas promissiones, per quarum
+      amorem et desiderium alliceret eos ad faciendum bonum. Et propterea Lex Vetus dicitur lex
+      timoris, Lex Evangelii dicitur lex amoris, secundum testimonium Apostoli et beati
+      <name ref="#Augustine">Augustini</name>.</p>
+        </div>
+        <div xml:id="bb-d1e37665">
+          <head xml:id="bb-d1e37589-Hd1e195">Ad Rationes</head>
+          <p xml:id="bb-d1e37589-d1e198">Ad illud vero quod obicitur in contrarium, quod timor radicatur in amore, dicendum quod
+      duplex est amor, scilicet quo amatur Deus in quantum bonus et quo amatur in quantum
+      beneficus. Ex primo amore oritur timor filialis, qui timet patrem offendere propter hoc quod
+      eum diligit. Ex secundo oritur timor poenae, quo quis timet beneficia perdere et mala poenae
+      incurrere. Primus amor et timor convenit Legi evangelicae, secundus vero amor et timor
+      convenit Legi moysaicae. Et quoniam primus amor competit statui perfectionis, in quo regnat
+      amor, secundus vero statui imperfectionis, in quo regnat timor : hinc est quod, licet
+      utrobique sit amor et timor, Lex Evangelii dicitur movet magis ohservari ex amore quam ex
+      timore, Lex vero Moysi e contrario.</p>
+          <p xml:id="bb-d1e37589-d1e201">Ad illud quod obicitur, quod aliae sunt animae affectiones, dicendum quod, etsi aliae sint,
+      tamen istae duae sufficiunt, pro eo quod omnes aliae ad istas duas possunt reduci. Omnis
+      enim affectio aut est respectu boni aut respectu mali ; et si rspectu boni, reducitur ad
+      amorem ; si respectu mali, reducitur ad timorem. Unde istae duae affectiones dicuntur tenere
+      principatum inter alias, quia maxime habent rationem motivi, una inclinando ad bonum, altera
+      in retrahendo a malo ; et propterea magis competit eis ratio radicis quam affectionibus
+      aliis. Et si tu obicias, quod quod tunc non deberet esse nisi una radix, quia timor
+      reducitur ad amorem, dicendum quod duae dicuntur secundum immediatam comparationem ad suum
+      motivum et ad actus immediatos, qui ab eis habent ortum. Unde ubi est radix timoris, verum
+      est quod est radix amoris ; sed alicuius est radix immediata ipse timor, cuius non est amor
+      ita immediate.</p>
+          <p xml:id="bb-d1e37589-d1e204">Ad illud quod obicitur de lege naturae, quod deberet habere tertiam radicem, dicendum quod
+      lex naturae partim conveniebat cum lege gratiae, partim cum lege scripta : quantum ad
+      libertatem cum lege conveniebat, quantum vero ad imperfectionem et obscuritatem cum lege
+      scripta. Et ideo secundum diversas conditiones reduci habet ad ista duo motiva nec oportuit
+      quod habeat radicem tertiam.</p>
+          <p xml:id="bb-d1e37589-d1e207">Ad illud quod obicitur, quod in utraque Lege praecipitur timor et amor, dicendum quod verum
+      est ; sed tamen Lex Vetus principaliter habet oculum ad timorem, Lex vero Nova principaliter
+      ad amorem ; illud autem tenet in lege rationem radicis quod principaliter movet in mandatis
+      eius observandis.</p>
+          <p xml:id="bb-d1e37589-d1e211">Ad illud quod obicitur, quod utrobique fiebant comminationes et promissiones, dicendum quod
+      in Lege Veteri fiebant promissiones temporales, secimdum quod dicitur Isaiae 1, 19 : Si
+      volueritis et audieritis me, bona terrae comedetis ; in Lege autem Nova promissiones
+      aeternae, quibus Dominus promittit semetipsum nobis in praemium. Similiter et de
+      comminationibus intelligendum est. Et quoniam illae comminationes et promissiones primae
+      competebant statui imperfectionis, ido abundantius generabant affectum timoris quam amoris ;
+      sed econtra est de promissionibus et comminationibus Legis Novae. Ideo ratio illa non
+      valet.</p>
+          <p xml:id="bb-d1e37589-d1e214">Ad illud quod obicitur, quod maiores comminationes fiunt in Lege Nova, responderi potest
+      dupliciter. Primo, quia homo carnalis et sensualis magis exterretur, cum comminatur sibi
+      poena in praesenti quam in futuro. Sicut rnulti latrones magis timent furari propter
+      patibulum et suspendium quam propter infernale supplicium. Unde, etsi maior sit comminatio,
+      non tamen ita movet, quia non est adeo nota. Alio modo potest dici quod in Lege Nova non
+      tantum est magna comminatio poenae, sed etiam abundans collatio gratiae, quae quidem parit
+      amorem et confidentiam. In Lege vero Veteri comminatio poenae erat, nec erat tanta collation
+      gratiae ; ideo magis eos spiritus timoris agitabat, non propter comminationem maioris
+      supplicii solum, sed propter comminationem supplicii et defectum adiutorii, quod consistit
+      in desiderio boni et gratia Spiritus Sancti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

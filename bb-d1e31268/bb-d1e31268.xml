@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 34, P. 1, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 34, P. 1, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e31268">
+        <head xml:id="bb-d1e31268-Hd1e119">III, D. 34, P. 1, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e31268-Hd1e122" type="question-title">Utrum dona sint priora virtutibus an e converso.</head>
+        <p xml:id="bb-d1e31268-d1e125">Secundo quaeritur de comparatione donorum ad virtutes quantum ad ordinem, et est quaestio,
+    utrum dona sint priora virtutibus an e converso.</p>
+        <div xml:id="bb-d1e31279" type="rationes-principales">
+          <head xml:id="bb-d1e31268-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e31268-d1e133">Et quod dona praecedant, videtur. Matthaei 6, 9 super orationem dominicam dicitur in Glossa
+      : <quote xml:id="bb-d1e31268-Qd1e135">In precibus est ut impetremus dona ; in donis, ut operemur mandata ; de operatione
+       beatitudines sequuntur</quote>. Ergo videtur quod profectus hominis incipiat a donis ; sed
+      illi habitus gratuiti sunt priores in quibus inchoatur principium bene agendi : ergo dona
+      sunt priora virtutibus.</p>
+          <p xml:id="bb-d1e31268-d1e139">Item, prius est sanari quam bene operari ; sed per dona sanantur potentiae et per virtutes
+      habilitantur ad bene operandum : ergo dona priora sunt virtutibus.</p>
+          <p xml:id="bb-d1e31268-d1e142">Item, prius est declinare a malo quam facere bonum ; sed per primum inter dona declinamus a
+      malo, per virtutes ordinamur ad bene faciendum : ergo dona sunt priora virtutibus.</p>
+          <p xml:id="bb-d1e31268-d1e145">Item, prius est generans quam generatum ; sed per scientiam generatur fides, secundum quod
+      dicit <name ref="#Augustine">Augustinus</name>, XIV De Trinitate, dicens quod <quote xml:id="bb-d1e31268-Qd1e150" ana="#Augustine_deTrinitate_14_1_3_b">scientia est de his quibus fides
+       saluberrima gignitur, nutritur et roboratur</quote> : ergo donum scientiae prius est quam
+      fides. Sed fides est prima virtutum : ergo dona sunt priora virtutibus.</p>
+          <p xml:id="bb-d1e31268-d1e155">Item, intellectus est prior quam affectus, ergo habitus intellectivi priores sunt quam
+      habitus affectivi ; sed dona ex maiori sui parte sunt in rationali, virtutes ex maiori parte
+      sunt in affectiva : ergo priora sunt dona quam sint virtutes.</p>
+          <p xml:id="bb-d1e31268-d1e158">Sed contra : Super illud Iob 1, 19 : <quote xml:id="bb-d1e31268-Qd1e160">Ventus vehemens</quote> etc., ibi dicit
+      Gregorius : <quote xml:id="bb-d1e31268-Qd1e163">Spiritus ante omnia mentem septem virtutibus ornat</quote>. Ergo
+      naturaliter habitus virtutum prius sunt a gratia quam habitus donorum.</p>
+          <p xml:id="bb-d1e31268-d1e167">Item, Threnorum 2, 5 : <quote xml:id="bb-d1e31268-Qd1e169">Praecipitavit omnia moenia eius</quote>, ibi Glossa :
+       <quote xml:id="bb-d1e31268-Qd1e172">In his rectus ordo servatur, quia, cum peccatrix anima relinquitur, prius ab ea
+       dona virtutum, quae data sunt ad manifestationem Spiritus, auferuntur, deinde fundamenta
+       fidei, spei et caritatis evertuntur</quote> Si ergo is est ordo in destruendo, ut prius
+      destruatur illud quod ultimo fuit in componendo, et prius auferuntur dona quam fundamenta
+      virtutum, videtur quod prius sint virtutes quam habitus donorum.</p>
+          <p xml:id="bb-d1e31268-d1e176">Item, prius est recte agere quam expedite in eodem genere. Si ergo habitus virtutum sunt ad
+      rectificandum et habitus donorum ad expediendum, ergo dona non sunt priora virtutibus.</p>
+          <p xml:id="bb-d1e31268-d1e179">Item, timor est primum donorum sicut fides est prima virtutum ; sed fides prior est quam
+      sit timor, quia timor ortum habet a fide : ergo simpliciter videtur quod virtutes sint
+      priores donis, quia, <quote xml:id="bb-d1e31268-Qd1e181">si primum in uno genere est prius primo in altero genere, hoc
+       simpliciter est illo prius</quote>, secundum considerationem Philosophi.</p>
+          <p xml:id="bb-d1e31268-d1e185">Item, is est ordo habituum, scientiae prius est quam fides. Sed qui est ordo actuum : ideo
+      enim fides est prima virtutum : ergo dona fides dicitur esse prior spe, quia sunt priora
+      virtutibus. credere prius est quam sperare.</p>
+        </div>
+        <div xml:id="bb-d1e31340">
+          <head xml:id="bb-d1e31268-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e31268-Hd1e194" type="question-title">Virtutes non quoad originem, sed quoad usum praecedunt
+      dona.</head>
+          <p xml:id="bb-d1e31268-d1e197">Respondeo : Dicendum quod dupliciter est loqui de habitibus virtutum et donorum : aut
+      quantum ad ipsorum habituum originem aut quantum ad usum. Si quantum ad originem, cum omnes
+      habitus gratuiti ortum habeant a gratia, sic omnes sunt simul origine, quia omnes habitus
+      gratuiti simul infunduntur, infusa gratia, quae est ipsorum principium. Si vero loquamur de
+      ipsis habitibus donorum et virtutum in comparatione ad sequentes usus, sic concedendum est
+      quod virtutes praecedunt dona. Licet enim actus alicuius doni specialis praecedat actum
+      alicuius virtutis, sicut actus timoris actum spei, quia tamen actus primae virtutis,
+      videlicet fidei, praecedit actum primi doni, scilicet timoris, et generaliter actus
+      cuiuslibet virtutis praecedit actum doni sibi correspondentis, sicut actus primus praecedit
+      medium : hinc est quod generaliter concedi potest quod habitus virtutum per comparationem ad
+      actus et usus priores sunt respectu donorum ; et hoc dico respectu eiusdem. Unde concedendae
+      sunt rationes et auctoritates quae adducebantur ad partem istam.</p>
+        </div>
+        <div xml:id="bb-d1e31353">
+          <head xml:id="bb-d1e31268-Hd1e204">Ad Rationes</head>
+          <p xml:id="bb-d1e31268-d1e207">Ad illud ergo quod primo obicitur in contrarium, quod in donis est inchoatio bene agendi,
+      dici potest quod dona accipiuntur ibi large pro virtutibus ; aut si accipiuntur pro donis
+      proprie dictis, secundum quod videtur littera praecedens dicere, tunc operatio mandatorum
+      ibi stat, non pro quacumque, sed pro operatione expedita, in qua consistit noster profectus,
+      per cuius progressum beatitudines subsequuntur. Unde et preces illae impetrantes in
+      virtutibus radicantur ; alioquin non impetrarent nec efficaciter mererentur.</p>
+          <p xml:id="bb-d1e31268-d1e210">Ad illud quod obicitur, quod prius est sanari quam bene operari, dicendum quod illud verum
+      est de quadam sanitate et de quadam alia sanitate falsum. Est enim sanari a morbo et est
+      sanari a sequela morbi. Cum ergo dicitur quod prius est sanari quam bene operari, dicendum
+      quod hoc est verum de sanatione quae consistit in amotione morbi et culpae, non autem de ea
+      quae consistit in amotione symptomatis et sequelae. Cum autem dicitur quod dona sunt ad
+      sanandum, hoc non intelligitur de sanatione primo modo, sed secundo. Et sic patet quod ratio
+      non concludit.</p>
+          <p xml:id="bb-d1e31268-d1e213">Ad illud quod obicitur, quod prius est declinare a malo quam facere bonum, dicendum quod
+      hoc est verum ; sed declinare a malo non solummodo est donorum, sed etiam virtutum, sicut
+      patet de poenitentia et iustitia. Quod autem declinatio a malo attribuatur timori, hoc est
+      propter expeditionem, quia donum timoris facit a malo faciliter declinare.</p>
+          <p xml:id="bb-d1e31268-d1e216">Ad illud quod obicitur, quod generans est prius generato, dicendum quod illud est verum de
+      eo quod est generaliter principium generandi reliquum. Sed scientia non est sic principium
+      fidei : nam in eodem prius est fides quam sit scientia, quae est fidei generativa. Unde
+      verbum Angustini intelligitur solum particulariter et respectu diversorum, quia scientia in
+      praedicante via est ad generandum fidem in audiente.</p>
+          <p xml:id="bb-d1e31268-d1e220">Ad illud quod ultimo obicitur, quod intellectus praecedit affectum, dicendum quod verum est
+      quantum ad actus et habitus qui sunt eiusdem coordinationis - unde cognitio dirigens ad
+      affectionem est illi praeambula, propter quod prius est credere quam amare - sed de
+      habitibus et actibus qui non sunt eiusdem ordinationis non habet veritatem, quia non est
+      prius videre Deum quam amare Deum, immo e contrario. Et quoniam habitus donorum et actus non
+      sunt eiusdem coordinationis cum habitibus et actibus virtutum, quia actus virtutum sunt in
+      primo gradu, actus vero donorum in medio, hinc est quod non est necesse dona esse priora
+      virtutibus, quanvis habitus isti magis respiciant intellectum et illi magis respiciant
+      affectum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e19195">
+        <head xml:id="bb-d1e19195-Hd1e117" type="question-title">Utrum Christus in triduo fuerit homo.</head>
+        <p xml:id="bb-d1e19195-d1e120">Circa primum sic proceditur et quaeritur, utrum Christus fuerit homo in triduo.</p>
+        <div xml:id="bb-d1e19203" type="rationes-principales">
+          <head xml:id="bb-d1e19195-Hd1e125">Rationes Principales</head>
+          <p xml:id="bb-d1e19195-d1e128">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e19195-Qd1e133">Talis fuit illa susceptio, quae faceret Deum
+       hominem et hominem Deum</quote>. Sed susceptio non mutata mansit in triduo, sicut prius
+      ostensum est : ergo Christus in triduo fuit homo.</p>
+          <p xml:id="bb-d1e19195-d1e137">Item, magister Hugo de Sancto Victore : <quote xml:id="bb-d1e19195-Qd1e139">Quid stultius quam quod homo tunc esse
+       desinat quando vere esse incipit</quote>. Ex hoc arguit ita : Cum ergo homo sanctus
+      incipiat esse beatus, quod est esse verissimum, stultissimum est dicere quod tunc desinat
+      esse. Ergo de quolibet homine post mortem verum est dicere quod sit homo : ergo multo
+      fortius hoc debet concedi et dici de Christo.</p>
+          <p xml:id="bb-d1e19195-d1e143">Item, omne habens humanam naturam est homo ; sed Christus in triduo erat habens. humanam
+      naturam : ergo Christus in triduo erat homo. Maior et minor per se manifestae sunt.</p>
+          <p xml:id="bb-d1e19195-d1e146">Item, quotiescumque anima et corpus uniuntur in unam hypostasim, faciunt hominem ; sed in
+      triduo anima et corpus uniebantur in umam hypostasim in Christo : ergo Christus in triduo
+      erat homo</p>
+          <p xml:id="bb-d1e19195-d1e150">Item, haec est vera Christus in triduo iacebat in sepulcro ; aut ergo secundum quod Deus
+      aut secundum quod homo ; sed non secundum quod Deus : ergo secundum quod homo : ergo
+      Christus hi triduo erat homo.</p>
+          <p xml:id="bb-d1e19195-d1e153">Item, Christus in triduo non desiit esse sacerdos : ergo Christus in triduo non desiit esse
+      homo. Prima patet per hoc quod dicitur in Psalmo [109, 4] : <quote xml:id="bb-d1e19195-Qd1e155">Tu es sacerdos in
+       aeternum</quote> ; et ad Hebraeos 7, 24 : <quote xml:id="bb-d1e19195-Qd1e158">Christus habet sempiternum
+       sacerdotium</quote>. Necessitas illationis in hoc ostenditur quod sacerdos erat secundum
+      quod homo.</p>
+          <p xml:id="bb-d1e19195-d1e162">Item, Christus propter assumptionem animae rationalis, rationalis erat rationalitate creata
+      ; sed Christus in triduo habuit animam rationalem sibi unitam : ergo Christus in triduo erat
+      rationalis rationalitate creata : ergo erat angelus vel anima vel homo. Sed non erat angelus
+      vel anima : ergo erat homo.</p>
+          <p xml:id="bb-d1e19195-d1e165">Sed contra : <quote xml:id="bb-d1e19195-Qd1e167">Mortuus diminuit de ratione hominis</quote>. Ergo quicumque est homo
+      mortuus, est deficiens a completa ratione hominis ; sed completunt non praedicatur de
+      diminuto : ergo si Christus in triduo erat homo mortuus, haec est falsa Christus in triduo
+      erat homo.</p>
+          <p xml:id="bb-d1e19195-d1e171">Item, secundum naturalem.philosophum, homo est compositum ex anima rationali et carne ; sed
+      Christus in triduo non erat compositum ex anima rationali et carne : ergo Christus in triduo
+      non erat homo vere.</p>
+          <p xml:id="bb-d1e19195-d1e174">Item, nulla forma praedicatur de toto quia forma, sed quia est forma consequens totum
+      compositum. Si ergo bomo praedicatur de Christo, necesse est quod nominet formam
+      consequentem totum compositum ; sed in Christo soluta erat compositio in triduo : ergo in
+      triduo non poterat dici homo. Maior propositio manifesta est per inductionem et per
+      auctoritatem Avicennae, qui eam ponit, et per auctoritatem Boethii, qui dicit quod
+       <quote xml:id="bb-d1e19195-Qd1e176">species est totum esse individui</quote>.</p>
+          <p xml:id="bb-d1e19195-d1e181">Item, corrupto superiori essentiali, necesse est corrumpi inferius ; sed esse vivum
+      supe.rius est ad esse hominem et est ei essentiale, quia <quote xml:id="bb-d1e19195-Qd1e183">vivere est esse
+       viventis</quote> : ergo, si Christus in triduo desiit esse vivus, Christus in triduo
+      desiit esse homo : non ergo Christus in triduo erat homo.</p>
+          <p xml:id="bb-d1e19195-d1e187">Item, Christus in triduo nec videre poterat nec audire nec loqui. Ergo, si erat homo, erat
+      homo caecus, surdus et mutus ; sed hoc est absurdum dicere de Christo : ergo falsum est
+      dicere quod Christus in triduo fuerit homo.</p>
+          <p xml:id="bb-d1e19195-d1e190">Item, sicut unio divinae naturae et humanae facit Deum esse hominem, ita unio animae ad
+      carnem facit esse animtum. Ergo, cessante unione animae ad carnem, cessat esse animatum ; et
+      si cessat esse animatum, cessat esse animal ; et si cessat esse animal, necessario cessat
+      esse homo : ergo a primo, cum in Christo fuerit separatio animae a carne in triduo, Christus
+      desiit esse homo in triduo : non ergo fuit homo in triduo.</p>
+          <p xml:id="bb-d1e19195-d1e193">Item, ad hoc ipsum sunt rationes <name ref="#Lombard">Magistri</name> in littera, quae super hoc fundantur : omnis homo
+      aut est mortalis aut immortalis, omnis etiam homo est alicubi homo ; sed Christus in triduo
+      nec erat mortalis nec erat immortalis nec erat alicubi homo, quia non in sepulcro, cum non
+      esset ibi nisi corpus ; non in inferno, cum non esset ibi nisi anima : ergo Christus non
+      fuit homo in triduo.</p>
+        </div>
+        <div xml:id="bb-d1e19280">
+          <head xml:id="bb-d1e19195-Hd1e202">Conclusio</head>
+          <head xml:id="bb-d1e19195-Hd1e205" type="question-title">Christus in triduo non fuit homo, si loquamur de praedictione
+      simpliciter actuali</head>
+          <p xml:id="bb-d1e19195-d1e208">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc fuit triplex modus
+      dicendi. Primus est quod non solum vere Christus in triduo possit dici homo, sed etiam hoc
+      potest dici de quolibet homine mortuo. Secundus vero modus dicendi est quod hoc non debet
+      concedi de aliis, potest tamen concedi de Christo. Tertius vero modus dicendi est quod illud
+      non debet concedi de Christo nec de aliis hominibus. Et primum modum dicendi tenuit magister
+      Hugo de Sancti Victore ; secundum modum tenuit <name ref="#Lombard">Magister</name> Sententiarum ; tertium vero tenet
+      communis opinio doctorum Parisiensium.</p>
+          <p xml:id="bb-d1e19195-d1e214">Si quis autem velit diligenter considerate, quilibet modorum praedictorum habet aliquid de
+      veritate. Cum enim dicitur hoc de hoc, tripliciter potest dici : aut secundum esse actuale
+      aut secundum esse aptitudinal aut partim secundum esse actuale, partim secundum aptitudinale
+      : praedicatum enim aut dicit essentiam subiecti aut actum subiecti. Tunc est praedicatio
+      secundum esse actuale, quando subiectum est ens in actu et forma praedicati actu inhaeret
+      subiecto et est eius actus, sicut, homine existente, dicitur : homo est animal. Tunc autem
+      est praedicatio secundum esse aptitudinale, quando nec subiectum est actu nec forma
+      praedicati actu inhaeret subiecto, sed necessaria est ordinatio unius ad alterum, fundata
+      super principia naturae, sicut, nulla rosa existente, conceditur quod rosa sit flos. Tunc
+      autem est praedicatio partim secundum esse aptitudinale, partim secundum esse actuale,
+      quando suppositum est in actu, forma vero praedicati non inest ei secundum actum, sed
+      secundum necessariam ordinationem fundatam super principia naturae.</p>
+          <p xml:id="bb-d1e19195-d1e217">Cum ergo quaeritur, utrum Christus sit homo in triduo, si loquamur de praedicatione
+      secundum esse aptitudinale, non tantum est verum de ipso, sed etiam de omni homine mortuo,
+      quia secundum veritatem fidei nostrae et scientiam theologiae, quando homo moritur, remanent
+      principia eius, in quibus salva est ordinatio, non solum respectu formae hominis, sed etiam
+      huius hominis ; alioquin non esset vera resurrectio. Si autem loquamur de praedicatione
+      partim actuali, partim aptitudinali, sic potest concedi de Christo quod fuerit homo in
+      triduo, quia erat persona in actu, quamvis forma humanitatis servaretur in aptitudine
+      coniunctionis animae et carnis ; sed hoc non potest dici de aliquo alio homine. Si autem
+      loquamur de praedicatione simpliciter aetuali, nec de Christo nec de alio homine est verum
+      dicere quod sit homo, quamdiu est anima separata a carne. Nihil enim facit hominem esse actu
+      nisi actualis coniunctio animae cum carne.</p>
+          <p xml:id="bb-d1e19195-d1e221">Si igitur isti tres modi dicendi intelliguntur secundum tres praedictos modos praedicandi,
+      sic in omnibus reperitur veritas et nulla est inter eos contrarietas ; et verum sensit Hugo
+      de Sancto Victore et verum dixit <name ref="#Lombard">Magister</name>, si intellexerunt iuxta praeassignatos modos, et
+      verum tenet communis opinio. Et per hoc ad omnes rationes ad utramque partem adductas satis
+      potest patere responsio.</p>
+          <p xml:id="bb-d1e19195-d1e227">Verumtamen, si verba Hugonis velimus amplius considerare, invenimus eum sensisse Christum
+      fuisse hominem in triduo, et quemcumque alium hominem mortuum, non solum quantum ad esse
+      aptitudinale ; sed etiam quantum ad esse actuale. Posuit enim quod post mortem salvaretur
+      esse hominis et quod anima separata esset persona et quod iterum multo fortius deberet homo
+      dici anima quam corpus, si hoc admitteret usus. Unde arguit in hune modum : Cum homo ex
+      anima et corpore constet, tamen propter unam partem, quae est corpus, dicitur homo corpus,
+      multo ergo magis propter partem illam, quae est anima, debet dici anima. Et in hoc dicto
+      magister Hugo communiter non sustinetur. Nec enim anima separata est persona, sicut ostensum
+      fuit supra, nec homo est anima sua, nec verius est homo cum moritur quam cum vivit, quantum.
+      ad esse naturae, licet fortassis possit augeri in eo esse gratiae ; nec corpus, secundum
+      quod est pars integralis hominis, praedicatur de homine : et ideo non sine causa opinionem
+      magistri Hugonis communis opinio non approbat in parte ista</p>
+          <p xml:id="bb-d1e19195-d1e230">
+            <name ref="#Lombard">Magister</name> autem Sententiarum non solum voluit dicere quod Christus in triduo fuisset homo
+      praedicatione partim actuali, partim aptitudinali, immo vere et actualiter. Et volunt aliqui
+      hoc imponere ei quod hoc dixit, quia fuit de tertia opinione, quae dixit Christum hominem
+      secundum habitum. Unde volebat dicere quod actu esset homo, quia actu habebat naturam
+      humanam. Sed hoc non est imponendum <name ref="#Lombard">Magistro</name>, quia error est, sicut in praecedentibus
+      ostensum fuit ; nec ex verbis <name ref="#Lombard">Magistri</name> potest expresse haberi, sed alia de causa hoc dixit.
+      Intellexit enim in Christo duas fuisse uniones et vere, videlicet unionem animae ad carnem
+      et unionem divinae naturae et humanae. Et unio divinae naturae et humanae faciebat Christum
+      esse hominem, iuxta illud quod dicit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e19195-Qd1e244">Talis fuit illa susceptio ut
+       faceret Deum hominem</quote>. Unio vero animae ad earnem faciebat hominem illum vivere.
+      Quia ergo in triduo mansit unio Divinitatis ad humanitatem et soluta fuit unio animae ad
+      carnem, hinc est quod posuit <name ref="#Lombard">Magister</name> quod Christus in triduo non desiit esse homo, sed
+      desiit vivere ; ideo verum est secundum ipsum dicere de Christo quod fuit homo in triduo et
+      quod fuit homo mortuus, quamvis non possit dici de aliquo alio. Et in hoc etiam <name ref="#Lombard">Magister</name>
+      defecit, quia ad hoc quod aliquis sit homo, necessario praeexigitur et coexigitur unio
+      animae ad carnem, cum homo dicat formam totius sive consequentem totum compositum. Unde
+      nequaquam illa susceptio fecisset Deum hominem et hominem Deum, nisi Deus assumpsisset
+      corpus et animam ut coniuncta ad invicem. Et propter hoc positio <name ref="#Lombard">Magistri</name> communiter non
+      sustinetur in parte ista nec positio etiam magistri Hugonis, non quia omni modo sit falsa
+      locutio praedicta Christus in triduo fuit homo, sed quia falsitatem habet intelligendo de
+      praedicatione secundum esse actuale, secundum quam praedicationem versatur inquisitio circa
+      praedictam locutionem. Et isto modo videtur eam tractasse magister Hugo et <name ref="#Lombard">Magister</name>
+      Sententiarum et communis opinio magistrorum, et secundum istum modum currit praesens
+      inquisitio. Ideo rationes ostendentes locutionem praedictam esse falsam concedendae sunt ;
+      procedunt enim secundum hanc viam.</p>
+        </div>
+        <div xml:id="bb-d1e19341">
+          <head xml:id="bb-d1e19195-Hd1e264">Ad Rationes</head>
+          <p xml:id="bb-d1e19195-d1e267">Ad illud ergo quod obicitur in contrarium, quod talis fuit illa susceptio etc., dicendum
+      quod hoc fuit, non quia assumpsit corpus et animam tantum, sed etiam quia assumpsit corpus
+      et animam unita ; et ideo desiit esse homo, non quia sit mutata unio Divinitatis ad carnem,
+      sed quia soluta fuit unio animae et carnis ad invicem.</p>
+          <p xml:id="bb-d1e19195-d1e270">Ad illam auctoritatem Hugonis, qua dicitur quod nemo desinit esse quando verius esse
+      incipit, dicendum quod nihil prohibet quod veritas esse moralis augeatur cum diminutione
+      veritatis esse naturalis ; sicut videmus quod in debilitatione virtutis naturalis frequenter
+      fortificatur virtus moralis. Et ideo non oportet, quodsi homo incipit esse beatus secundum
+      animam, quod propter hoc non desinat esse homo.</p>
+          <p xml:id="bb-d1e19195-d1e273">Ad illud quod obicitur, quod habens humanam naturam est homo, dicendum quod nomine humanae
+      naturae aliquando intelliguntur principia constituentia hominem ; aliquando intelligitur
+      forma hominis completiva, quae dat ipsi supposito complementum et operationem debitam illi
+      speciei, secundum illud quod dicit Boethius : Natura est unamquamque rem informans specifica
+      differentia. Si ergo accipiatur natura primo modo, locutio est falsa ; si secundo modo,
+      locutio est vera ; sed isto modo non habuit Christus humanam naturam in triduo : et ideo non
+      sequitur quod fuerit homo.</p>
+          <p xml:id="bb-d1e19195-d1e276">Ad illud quod obicitur, quod, quando anima et corpus uniuntur in eamdem hypostasim, faciunt
+      hominem, dicendum quod uniri animam et corpus in eamdem hypostasim, hoc potest esse
+      dupliciter : aut ita quod illa hypostasis sit ex eis constituta, et sic talis hypostasis
+      quae sit hic et nunc ; et isto modo non possunt uniri in eamdem hypostasim quin uniantur ad
+      invicem, ac per hoc quin faciant hominem. Alio modo possunt uniri in eamdem hypostasim, ita
+      tamen quod illa hypostasis ex eis non constituitur, immo unitur eis etiam localiter
+      separatis ; et hoc modo uniri in eamdem hypostasim non necessario facit hominem, quia non
+      est ibi unio per constitutionem naturae tertiae, qualis est unio materiae et formae, qualis
+      : etiam requiritur ad hominis esse. Et quia isto modo unita erant anima et corpus in Christo
+      in triduo, non modo praemisso, ideo non sequitur quod Christus in triduo fuerit homo.</p>
+          <p xml:id="bb-d1e19195-d1e280">Ad illud quod obicitur, quod Christus in triduo iacebat in sepulcro, dicendum quod talis
+      locutio est vera per synecdochen. Dicitur enim Christus iacuisse in sepulcro, quia pars
+      humanitatis eius iacuit in sepulcro. Unde nec iacuit ibi secundum quod homo nec secundum
+      quod Deus, sed secundum aliquid hominis. Sicut ergo non sequitur : Petrus est in tumulo,
+      ergo Petrus est homo, sic etiam intelligendum est in proposito.</p>
+          <p xml:id="bb-d1e19195-d1e283">Ad illud quod obicitur, quod Christus in sempiternum fuit sacerdos, dicenelum quod
+      sacerdotium Christi dicitur fuisse sempiternum, non quia semper fuerit sacerdos in actu, sed
+      quia illi sacerdotio nullum aliud successit.</p>
+          <p xml:id="bb-d1e19195-d1e286">Ad illud quod obicitur, quod Christus in triduo habebat animam rationale sibi unitam, ergo
+      erat rationalis, dicendum quod hoc non sequitur, nisi intelligatur per synecdochen, pro eo
+      quod idiomata partium hominis non communicantur hypostasi Verbi nisi mediante toto
+      coniuncto, communicatione propria. Et quo.niam Chrlstus tunc non erat homo, ideo nec poterat
+      dici albus ratione corporis nec rationalis ratione animae nisi per synecdochen, videlicet
+      quod habebat corpus album et animam ratiocinantem. Quod ergo dicit : quod habet
+      animam.rationalem sibi unitam est rationale, dicendum quod hoc habet veritatem, si
+      intelligatur de unione quae est formae ad materiam ; hoc autem modo non uniebatur anima
+      Christi Christo in triduo. Unde non sequitur quod fuisset homo in triduo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

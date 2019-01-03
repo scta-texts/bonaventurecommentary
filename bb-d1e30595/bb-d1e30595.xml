@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 33, A. 1, Q. 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 33, A. 1, Q. 4</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e30595">
+        <head xml:id="bb-d1e30595-Hd1e119">III, D. 33, A. 1, Q. 4</head>
+        <head xml:id="bb-d1e30595-Hd1e122" type="question-title">Utrum virtutes cardinales debeant esse tantum quatuor an
+    plures.</head>
+        <p xml:id="bb-d1e30595-d1e125">Quarto quaeritur de virtutibus cardinalibus quantum ad numerum, et est quaestio, utrum tantum
+    debeant esse quatuor an plures vel pauciores.</p>
+        <div xml:id="bb-d1e30606" type="rationes-principales">
+          <head xml:id="bb-d1e30595-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e30595-d1e133">Et quod tantum sint quatuor, videtur. Per illud quod dicitur Sapientiae 8, 7, quod
+      sapientia <quote xml:id="bb-d1e30595-Qd1e135">docet sobrietatem prudentiam, iustitiam et fortitudinem</quote>. Si ergo
+      nomimit virtutes cardinales sufficienter, videtur quod sint quatuor, et non plures nec
+      pauciores.</p>
+          <p xml:id="bb-d1e30595-d1e139">Item, hoc ipstim probatur per Glossam, Genesis 2, 10, ubi dicitur quod <quote xml:id="bb-d1e30595-Qd1e141">fluvius, qui
+       egrediebatur de paradiso, dividebatur in quatuor capita</quote> ; ibi dicit Glossa quod
+      per illa quatuor capita intelliguntur quatuor virtutes cardinales.</p>
+          <p xml:id="bb-d1e30595-d1e145">Item, hoc ipsum ostenditur per <name ref="#Augustine">Augustinum</name>, qui, in libro De moribus Ecclesiae, dicit
+      affectum virtutis esse quadripartitum ; sed constat quod hoc non potest intelligi nisi de
+      cardinalibus : ergo etc.</p>
+          <p xml:id="bb-d1e30595-d1e151">Item, hoc ipsum ostenditur per <name ref="#Aristotle">Philosophum</name> et per alios tractatores qui de hac materia
+      loquuniur, qui omnes virtutes consuetudinales et politicas reducunt ad numerum
+      quaternarium.</p>
+          <p xml:id="bb-d1e30595-d1e158">Sed contra : Virtutes theologicae sunt tres propter trinitatem obiectorum et potentiarum ;
+      sed in eisdem potentiis sunt virtutes cardinales et theologicae, licet secundum aliam et
+      aliam comparationem : ergo videtur quod sint tantum tres.</p>
+          <p xml:id="bb-d1e30595-d1e161">Item, virtus quae ordinat ad alterum est tantum una, videlicet iustitia ad proximum. Ergo
+      videtur quod una sit tantum virtus per quam homo ordinatur ad se ipsum ; aut si tres sunt
+      virtutes per quas ordinatur in se, videtur quod tres sint per quas ordinetur homo ad
+      proximum, ita quod non tantum sint quatuor, sed etiam se extendant usque ad numerum
+      senarium.</p>
+          <p xml:id="bb-d1e30595-d1e164">Item, super illud Matthaei 15, 38 : <quote xml:id="bb-d1e30595-Qd1e166">Erant qui manducaverunt quasi quatuor millia
+       hominum</quote>, Glossa : <quote xml:id="bb-d1e30595-Qd1e169">Per prudentiam est cognitio rerum appetendarum et
+       vitandarum ; secunda est refrenatio cupiditatis ab his quae temporaliter delectant ;
+       tertia est firmitas contra molestias saeculi ; quarta vero, quae per. omnes diffunditur,
+       est dilectio Dei et proximi</quote>. Si ergo dilectio Dei et proximi ponitur una inter
+      cardinales virtutes, videtur quod sint plures quam quatuor.</p>
+          <p xml:id="bb-d1e30595-d1e173">Item, humilitas, patienti et obedientia sunt magnae virtutes nec tamen sunt aliqua
+      praedictarum nec videntur theologicae. Ergo videtur quod cardinalis virtus non sufficienter
+      dividatur per quatuor membra. Est ergo quaestio de praedictarum virtutum cardinalium numero
+      et sufficientia.</p>
+        </div>
+        <div xml:id="bb-d1e30655">
+          <head xml:id="bb-d1e30595-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e30595-Hd1e182" type="question-title">Numerus et sufficientia virtutum cardinalium consistit in
+      quaternario.</head>
+          <p xml:id="bb-d1e30595-d1e185">Respondeo : Dicendum quod absque dubio numerus et sufficientia virtutum cardinalium
+      consistit in quaternario. Huius autem numeri ratio et sufficientia assignatur multis modis,
+      qui, etsi per omnia non sint rationabiles, tamen conficiunt unum modum dicendi rationabilem
+      et sufficientem. Possunt autem hi modi dicendi ad quatuor reduci secundum quadruplicem
+      comparatioriem ipsius cardinalis virtutis, videlicet ad proprium subiectum, ad actum
+      intrinsecum, ad suum oppositum et ad proprium obiectum.</p>
+          <p xml:id="bb-d1e30595-d1e188">Primus igitur modus sumendi est penes diversitatem subiectorum. Subiecta enim proxima et
+      immediata ipsarum virtutum sunt potentiae animae sive vires, quae sunt tres, videlicet
+      rationalis, concupiscibilis et irascibilis, ita quod fortitudo est in irascibili,
+      temperantia est in concupiscibili, sed iustitia et prudentia sunt in rationali, secundum
+      quod dupliciter habet ad alias vires comparari : vel in ratione consiliantis, et sic est
+      prudentia ; vel in ratione sententiantis, et sic est iustitia ; sive secundum quod habet
+      considerari in se, et sic perficitur habitu prudentiae ; vel secundum quod habet alias
+      regere et ordinare, et sic perficitur habitu iustitiae.</p>
+          <p xml:id="bb-d1e30595-d1e191">Secundus autem modus sumendi sufficientiam virtutum attenditur se : cundum diversitatem
+      actuum intrinsecorum. Tres enim sunt actus qui necessario concurrunt ad virtutem, videlicet
+      scire, velle et impermutabiliter operari. Scire autem quid sit agendum est ipsius prudentiae
+      ; velle vero bonum est ipsius iustitiae ; impermutabiliter vero operari est temperantiae et
+      fortitudinis, sed temperantiae in prosperis, fortitudinis in adversis.</p>
+          <p xml:id="bb-d1e30595-d1e195">Tertius vero modus sumendi attenditur penes comparationem ad opposita, quae sunt quatuor
+      nobis per peccatum inflicta, videlicet ignorantia, concupiscentia, infirmitas et malitla. Et
+      contra ignorantiam est virtus prudentiae, contra concupiscentiam est virtus temperantiae,
+      contra infirmitatem est virtus fortitudinis, et contra malitiam est virtus iustitiae. Et hic
+      modus dicendi videtur satis rationabilis esse ; verumtamen a posteriori sumptus est, quia
+      non virtutes per vitia, sed vitia per virtutum merita distinguuntur.</p>
+          <p xml:id="bb-d1e30595-d1e198">Quartus autem modus sumendi est ex parte ipsorum obiectorum, et iste modus sumendi videtur
+      esse rationabilior, quia habitus per actus, et actus per obiecta diversificari habent. Et
+      hic modus sumendi habet quadruplicari. Uno modo sic : nam virtutes aut sunt circa passiones
+      aut circa actiones. Si circa passiones, aut illatas, et sic est fortitudo ; aut innatas, et
+      sic est temperantia. Si circa actiones, aut circa actiones intrinsecas, quae quidem
+      consistunt in eligendo, et sic est prudentia ; aut circa extrinsecas, quae quidem consistunt
+      in exsequendo, et sic est iustitia, ad quam spectat unicuique tribuere iura sua. Alio modo
+      potest sumi sic a parte obiecti, quia virtus aut negotiatur circa malum aut circa bonum. Si
+      circa malum, aut est innatum, et sic est temperantia ; aut illatum, et sic est fortitudo. Si
+      circa bonum, aut ratione utilis et expedientis, et sic est prudentia ; aut ratione honesti
+      et laudabilis, et sic est iustitia. Alio vero modo sumitur sic : quia virtus cardinalis aut
+      ordinat ad proximum aut ordinat ad se ipsum. Si ad se ipsum, aut in eligendis, et sic est
+      prudentia ; aut in respuendis, et sic est temperantia. Si vero ordinat ad proximum, aut hoc
+      est in reddendis, et sic est iustitia ; aut in sustinendis, et sic est fortitudo.</p>
+          <p xml:id="bb-d1e30595-d1e201">Omnes tamen hi modi dicendi aliquam videntur habere calumniam nec usquequaque attingere ad
+      rationem propriam. Et ideo adhuc restat alius modus dicendi, qui respectu praedictorum est
+      septimus et omnibus praedictis videtur esse magis idoneus. Cum enim virtus cardinalis
+      dicatur quia ordinat hominem circa ea quae sunt ad finem sive circa quid creatum, cum homo
+      habeat comparari ad se ipsum et ad alterum, virtus cardinalis aut est regulativa actuum
+      hominis respectu sui aut respectu proximi. Si respectu sui, hoc potest ese tripliciter
+      secundum actum principalem triplicis virtutis, videlicet rationalis, circa quam est
+      prudentia ; concupiscibilis, circa quam est temperantia ; et irascibilis, circa quam
+      fortitudo consistit. Si vero ordinet ad alterum, sic est una virtus, quae quidem dicitur
+      iustitia, quia una est ratio secundum quam ad alterum ordinat, videlicet ratio debiti. Et
+      quia haec ratio potest aftendi secundum actum cuiuslibet potentiae, hinc est quod iustitia
+      cardinalis circuire dicitur omnes vires et tamen una est propter unam rationem ordinandi ad
+      alterum. Et sic patet numerus et sufficientia praedictarum quatuor virtutum.</p>
+        </div>
+        <div xml:id="bb-d1e30684">
+          <head xml:id="bb-d1e30595-Hd1e208">Ad Rationes</head>
+          <p xml:id="bb-d1e30595-d1e211">Ad illud vero quod primo obicitur in contrarium, quod virtutes theologicae sunt tres
+      secundum trinitatem potentiarum etc., dicendum quod non est simile, quia virtutum
+      theologicarum est ordinare hominem ad Deum, qui solus est finis omnium bonorum ; cardinalium
+      vero est hominem ordinare ad se et ad proximum : et ideo necesse est plures virtutes
+      reperiri ex parte ista quam ex illa, propter unam comparationis differentiam superadditam,
+      ratione cuius attenditur iustitia.</p>
+          <p xml:id="bb-d1e30595-d1e214">Ad illud quod obicitur, quod iustitia, quae ordinat ad alterum, est tantum una : ergo
+      similiter et aliae virtutes cardinales, quae ordinant hominem ad se ipsum, dicedum quod non
+      est simile. Et ratio huius est, quia virtutes, quae respiciunt hominem in se, attenduntur
+      penes actus virium principales, qui quoniam diversi sunt, necesse est illas esse diversas ;
+      sed virtus, quae ordinat ad alterum, non sumit rationem distinctionis ab actibus
+      principalibus ipsarum virium, pro eo quod per eosdem actus, secundum quos, ordinatur homo in
+      se, ordinatur etiam ad proximum : et ideo distinctionem sumit ex ratione comparandi ad
+      alterum. Et quia ratio illa, ut dictum est, unica est, ideo virtus iustitiae, quae est ad
+      alterum ordinativa, habet unitatem ; nec ex hoc oportet de aliis similiter concludere, quia
+      non est simile bine et inde.</p>
+          <p xml:id="bb-d1e30595-d1e217">Ad illud quod obicitur, quod praeter has virtutes cardinales Glossa ponit dilectionem Dei
+      et proximi, dicendum quod ipsa dilectio proximi non ponitur ibi quia sit virtus cardinalis,
+      sed quia ipsa est quae maxime adiuvat iustitiam virtutem, ut affectum nostrum possit
+      respectu proximi recte regulare. Nisi enim quis proximum suum diligat, non est facile ut ius
+      debitum sibi reddat.</p>
+          <p xml:id="bb-d1e30595-d1e220">Ad illud quod obicitur de aliis virtutibus, utpote de humilitate, patientia et obedientia,
+      dicendum quod omnes illae virtutes pro magna parte reduci habent ad istas sicut ad radicalia
+      principia, in quibus residens est ratio movendi et dirigendi primaria ; propter quod etiam
+      cardinales, a cardine nuncupantur. Unde patientia ad fortitudinem reducitur et aliae plures,
+      quae sunt ipsius species materiales, secundum quod innuunt tractatores morales. Humilitas
+      vero et obedientia reduci habent ad ipsam iustitiam. Et si tu obicias, quod humilitas non
+      semper ordinat ad alterum ; et similiter patientia, responderi potest quod idem homo
+      sortitur rationem duplicis personae, sicut patet : homo cum accusat se ipsum, idem est
+      accusator et reus ; et cum iudicat se ipsum, idem est iudex et condemnatus. Sic
+      intelligendum est in humilitate et patientia et aliis etiam speialibus virtutibus, quae
+      reduci habent ad ipsam iustitiam, secundum quod est virtus cardinalis et specialis. Dicitur
+      tamen omnes vires circuire, quia aliqui habitus, qui ad ipsam reducuntur, spectant ad partem
+      rationalem, sicut veritas ; aliqui ad concupiscibilem, sicut largitas ; aliqui ad
+      irascibilem, sicut ira per zelum et poenitentia, secundum quod in quarto libro, distinctione
+      decima quarta dicitur. Et per hoc patet responsio ad obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

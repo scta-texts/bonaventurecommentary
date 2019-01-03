@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 24, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 24, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e21385">
+        <head xml:id="bb-d1e21385-Hd1e119">III, D. 24, Divisio Textus</head>
+        <p xml:id="bb-d1e21385-d1e122">Supra egit <name ref="#Lombard">Magister</name> de fide quantum ad eius essentiam. In hac parte agit de ea quantum ad
+    eius obiectum et materiam ; unde inquirit, utrum fides sit de his solum quae sunt supra
+    nostram cognitionem an de his quae sunt nostrae cognitioni subiecta. Et quoniam duplex est
+    cognitio nostra, videlicet sensitiva et intellectiva, ideo pars ista dividitur in duas partes.
+    In quarum prima inquirit <name ref="#Lombard">Magister</name>, utrum fides sit de his quae sensu percipiuntur. In secunda,
+    utrum sit de his quae intellectu cognoscuntur, ibi : Post haec quaeri solet, cum fides sit de
+    non apparentibus etc.</p>
+        <p xml:id="bb-d1e21385-d1e131">Prima pars dividitur in tres partes. In quarum prima movet principalem quaestionem subiungens
+    determinationem. In secunda vero epilogat ad removendum incidentem dubitationem, ibi : Ex his
+    aperte intelligitur etc. In tertia vero exemplificat in speciali ad maiorem explanationem, ibi
+    : Si vero quaeritur, utrum Petrus fidem passionis habuerit etc.</p>
+        <p xml:id="bb-d1e21385-d1e134">Secunda vero pars principalis potest dividi in tres partes. In quarum prima movet quaestionem
+    et determinat. In secunda auctoritate <name ref="#Augustine">Augustini</name> confirmat, ibi : Ut <name ref="#Augustine">Augustinus</name> tradit dicens.
+    In tertia vero elicit quamdam divisionem circa ipsa credibilia, ibi : Ex his apparet, aliqua
+    credi, quae non intelliguntur etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

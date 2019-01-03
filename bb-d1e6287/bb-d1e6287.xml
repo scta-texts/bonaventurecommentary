@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 6, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 6, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e6287">
+        <head xml:id="bb-d1e6287-Hd1e119">III, D. 6, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e6287-Hd1e122" type="question-title">Utrum persona Christi sit una unitate simplici an composita.</head>
+        <p xml:id="bb-d1e6287-d1e125">Secundo quaeritur, utrum persona Christi sit una unitate simplici aut composita, sicut
+    dicebat secunda opinio.</p>
+        <div xml:id="bb-d1e6298" type="rationes-principales">
+          <head xml:id="bb-d1e6287-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e6287-d1e133">Et quod habeat in se unitatem compositam, videtur. Primo, per illud quod dicitur in Symbolo
+      : Nam sicut anima rationalis et caro unus est homo, ita Deus et homo unus est Christus. Sed
+      homo est compositus ex anima et carne : ergo Christi persona est composita ex divinitate et
+      humanitate.</p>
+          <p xml:id="bb-d1e6287-d1e136">Item, <name ref="#JohnDamascenus">Damascenus</name>, in III libro : <quote xml:id="bb-d1e6287-Qd1e141" source="http://scta.info/resource/jddfo-l3c4">In
+       Domino Iesu Christo duas natura cognoscimus, unam hypostasim ex utrisque
+       compositam</quote>. Si ergo secundum ipsum idem est hypostasis et persona, ergo etc.</p>
+          <p xml:id="bb-d1e6287-d1e145">Item, intellectus personae praesupponit intellectum naturae ; sed, si est compositio in eo
+      quod praesupponitur, necessario est compositio in eo quod supponit : cum ergo natura humana
+      in Christo sit composita, necessario sequi videtur quod et persona composita dici
+      debeat.</p>
+          <p xml:id="bb-d1e6287-d1e148">Item, si Christus esset solum ex anima rationali et carne, haberet hypostasim compositam.
+      Ergo, cum habeat in se animam et carnem et divinitatem, per locum a minori, multo magis
+      videtur habere compositam hypostasim.</p>
+          <p xml:id="bb-d1e6287-d1e152">Item, Christus est homo aut simplex aut compositus. Constat quod non simplex, quia hoc est
+      contra naturam humanitatis : est ergo homo compositus. Sed homo non praedicatur de Christo
+      nisi ratione suppositi et hypostasis : ergo videtur quod persona in Christo debeat dici
+      composita.</p>
+          <p xml:id="bb-d1e6287-d1e155">Sed contra : Omne compositum compositione temporali est temporale. Si ergo persona Christi
+      est composita, et non nisi compositione temporali, ergo persona Christi est temporalis : non
+      ergo aeterna ; sed hoc est falsum : ergo etc.</p>
+          <p xml:id="bb-d1e6287-d1e158">Item, ubicumque est compositio de novo, ibi est mutatio. Si ergo in incarnatione persona
+      Christi fuit composita, necessario sequitur quod fuerit mutata ; sed personam Verbi mutari
+      est impossibile : ergo etc.</p>
+          <p xml:id="bb-d1e6287-d1e161">Item, ubicumque est compositio, ibi est imperfectio in utroque extremorum ; quoniam ex
+      duobus entibus in actu non fit unum, et componibilia possibilia sunt respectu compositi ;
+      sed nec in natura Verbi nec in persona potest esse aliqua imperfectio : ergo nec
+      compositio.</p>
+          <p xml:id="bb-d1e6287-d1e164">Item, ubi est compositio, compositum non praedicatur de aliquo extremorum, sicut patet,
+      quia homo nec est anima nec est caro. Ergo, si persona Christi composita est ex divinitate
+      et humanitate, ergo Christus nec est Deus nec est homo nec Creator nec creatura. Quodsi hoc
+      est falsum, restat quod persona Christi non est composita.</p>
+          <p xml:id="bb-d1e6287-d1e167">Item, ubi est compositio, unum extremorum non praedicatur de altero ; unde, cum homo
+      componatur ex anima et carne, nec anima est caro nec e converso. Ergo, si persona Christi
+      esset composita, nec homo esset Deus nec Deus homo ; quodsi hoc est falsum, restat etc.</p>
+        </div>
+        <div xml:id="bb-d1e6341">
+          <head xml:id="bb-d1e6287-Hd1e173">Conclusio</head>
+          <head xml:id="bb-d1e6287-Hd1e176" type="question-title">Persona Christi non est composita, proprie loquendo, sed tantum in
+      sensu largiore</head>
+          <p xml:id="bb-d1e6287-d1e179">Respondeo : Dicendum quod compositio dupliciter potest dici. Uno modo proprie dicitur
+      compositio unio aliquorum duorum habentium mutuam inclinationem ad constitutionem tertii. Et
+      hoc modo, sicut rationes ostendunt, persona Christi non potest dici composita. Multa enim
+      sequerentur inconvenientia, videlicet quod persona illa esset mutata et quod esset
+      imperfecta et quod esset temporaliter in esse producta et quod etiam non communicarentur
+      idiomata. Et ideo hoc modo dicere personam Christi esse compositam, non tantum esset falsum,
+      verum etiam esset haereticum.</p>
+          <p xml:id="bb-d1e6287-d1e182">Alio modo dicitur compositio large simul cum alio positio ; et sic personalis unio potest
+      dici compositio. Et per hunc modum dicebat secunda opinio personam Christi esse compositam,
+      non quia ipsa sit ex pluribus naturis constituta, sed quia persona illa ante ihcarnationem
+      suppositum erat in una natura simplici ; post incarnationem persona suppositum fuit divinae
+      naturae et humanae, et hoc absque ulla mutatione facta in ipsa, sed solum ex parte humanae
+      naturae, sicut ostensum fuit in prima distinctione huius libri. Et ideo opinio ista, quae
+      dicebat personanm Christi fuisse compositam, vera fuit et sanum habuit intellectum. Quia
+      tamen verbum calumniabile est, pro eo quod compositionis vocabulum consuevit accipi primo
+      modo, ideo doctores praesentis temporis sensum hui us opinionis retinent, declinantes
+      compositionis vocabulum. In persona enim Christi non est compositio proprie dicta. Unde
+      concedendae sunt rationes quae inductae sunt ad istam partem.</p>
+        </div>
+        <div xml:id="bb-d1e6357">
+          <head xml:id="bb-d1e6287-Hd1e189">Ad rationes</head>
+          <p xml:id="bb-d1e6287-d1e192">Ad illud vero quod obicitur in contrarium de auctoritate Symboli, dicendum quod non est
+      omnimoda similitudo inter animam et carnem et divinitatem et humanitatem. Non enim est
+      similitudo quantum ad extremorum compositionem, sed quantum ad hoc quod anima et caro
+      concurrunt ad unitatem personae ; sic etiam divinitas et humanitas in Christo in unitatem
+      personae concurrunt, quamvis hoc fiat alio et alio modo.</p>
+          <p xml:id="bb-d1e6287-d1e195">Ad illud quod obicitur de auctoritate <name ref="#JohnDamascenus">Damasceni</name>, dicendum quod <name ref="#JohnDamascenus">Damascenus</name> non accipit ibi
+      proprie compositionem, sed large. Unde et verbum suum oportet exponere, quia fortasse non
+      ita improprie sonat in lingua graeca sicut in latina. Unde dicitur hypostasis composita ex
+      duabus naturis, non quia ex illis duabus sit constituta, sed quia in sacramento
+      incarnationis factum est ut hypostasis, quae erat sub una tantum natura, in duabus et sub
+      duabus fieret. Unde magis proprie dicitur hypostasis esse in duabus naturis quam ex duabus
+      naturis.</p>
+          <p xml:id="bb-d1e6287-d1e204">Ad illud quod obicitur, quod intellectus personae praesupponit intellectum naturae,
+      dicendum quod verum est de natura quae dat primum esse personae, et talis est divina natura
+      respectu personae Christi. Et propterea, quamvis natura humana sit composita, non sequitur
+      quod propter hoc persona Christi compositionem habeat.</p>
+          <p xml:id="bb-d1e6287-d1e207">Ad illud quod obicitur, quod si Christus esset solum ex anima et carne, haberet hypostasim
+      compositam ; dicendum quod verum est, quia tunc haberet primum esse hypostasis eius ex
+      humana natura, quae quidem composita est. Nunc autem non est simile, quia persona Christi
+      suum esse primum habet ex divina natura, quae quidem est omnino simplicissima, Et ideo
+      humana natura superadveniens, sicut non dat personae esse personale, sic non facit eam esse
+      compositam.</p>
+          <p xml:id="bb-d1e6287-d1e211">Ad illud quod obicitur, quod Christus est homo compositus, dicendum quod verum est. Sed
+      quod subiungit quod homo praedicatur ratione hypostasis, dicendum quod, si ita intelligatur
+      quod homo in praedicato ratione hypostasis praedicetur, veritatem non habet, quia, secundum
+      regulam Philosophi, quamvis terminus subiciatur ratione suppositi, praedicatur ratione
+      formae ; et ideo hoc adiectivum compositus circa istum terminum <mentioned> homo
+      </mentioned> non nominat compositionem quantum ad suppositum, sed quantum ad formam. Et
+      propterea non potest ex hoc inferri quod persona Christi sit composita.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

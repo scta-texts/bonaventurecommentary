@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 26, A. 2, Q. 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 26, A. 2, Q. 4</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e24031">
+        <head xml:id="bb-d1e24031-Hd1e119">III, D. 26, A. 2, Q. 4</head>
+        <head xml:id="bb-d1e24031-Hd1e122" type="question-title">Utrum spes sit in bonum sub ratione boni.</head>
+        <p xml:id="bb-d1e24031-d1e125">Quarto quaeritur de ipsa spe per comparationem ad obiectum, et est quaestio, utrum spes sit
+    in bonum sub ratione boni.</p>
+        <div xml:id="bb-d1e24042" type="rationes-principales">
+          <head xml:id="bb-d1e24031-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e24031-d1e133">Et quod sic, videtur. Primo, per rationem virtutis in communi, quia sicut scientia est
+      respecta veri, sic virtus respecta boni ; sed omnis scientia est in verum sub ratione veri :
+      ergo omnis virtus est in bonum sub ratione boni : si ergo spes est virtus, ergo est in bonum
+      sub ratione boni.</p>
+          <p xml:id="bb-d1e24031-d1e136">Item, hoc ipsum videtur ratione magis propria, quae sumitur ex proprietate virtutis
+      theologicae. Virtus enim theologica idem habet pro obiecto et pro fine ; sed <quote xml:id="bb-d1e24031-Qd1e138">bonum et
+       finis eidem sunt</quote> : ergo cum spes sit virtus theologica, et bonum sub ratione boni
+      sit eius finis, ergo bonum sub ratione boni erit eius obiectum.</p>
+          <p xml:id="bb-d1e24031-d1e142">Item, hoc ipsum ostenditur adhuc ratione magis speciali per comparationem ad alia genera
+      affectionum, quia sicut se habet gaudium respecta praesentis, sic spes respectu futuri ; sed
+      gaudium est de bono praesenti sub ratione boni : ergo spes est de futuro bono sub ratione
+      boni.</p>
+          <p xml:id="bb-d1e24031-d1e145">Item, hoc ipsum ostenditur adhuc specialiori ratione pet comparationem ad aliam speciem
+      virtutis, quia, sicut dicit <name ref="#Augustine">Augustinus</name>, in hoc differt fides a spe, quia fides est respectu
+      boni et mali, spes est respectu boni tantum. Si enim fides simul poterat esse boni et mali,
+      pro eo quod non respiciebat bonum sub ratione boni, sed magis sub ratione veri, spes autem
+      determinat sibi bonum, ita quod nullo modo est in eius oppositum, videtur ergo quod ipsa
+      spes sit in bonum sub ratione boni.</p>
+          <p xml:id="bb-d1e24031-d1e152">Item, hoc ipsum ostenditur ratione magis propria per definitionem ipsius spei :
+       <quote xml:id="bb-d1e24031-Qd1e154">Spes, enim est exspecatio futurae beatitudinis</quote>. Si ergo beatitudo nominat
+      bonum sub ratione boni, videtur ergo quod bonum sub ratione boni sit obiectum ipsius
+      spei.</p>
+          <p xml:id="bb-d1e24031-d1e158">Sed contra : Virtutes theologicae distinguuntur per obiecta, secundum quod habent propriam
+      rationem ; sed caritas est in bonum sub ratione boni : ergo, si spes distinguitur a
+      caritate, bonum sub ratione boni non erit obiectum spei.</p>
+          <p xml:id="bb-d1e24031-d1e161">Item, circumscripta ratione boni et mali, adhuc contingit timere, sicut in patria Deum
+      timebimus, non quidem sub ratione mali nec sub ratione boni, quia sub illa ratione amabimus
+      : bonum enim sub ratione boni magis generat amorem quani timorem. Si ergo contingit timere,
+      circumscripta ratione boni et mali, igitur et contingit sperare : ergo obiectum spei non est
+      bonum sub ratione boni neque malum sub ratione mali.</p>
+          <p xml:id="bb-d1e24031-d1e164">Item, nullus timet malum quod est subiectum suae potestati, sed quicumque timet malum,
+      timet sub ratione excellentis. Si ergo spes sic est in bonum sicut timor in malum, videtur
+      quod spes non sit in bonum sub ratione boni, sed magis sub ratione ardui.</p>
+          <p xml:id="bb-d1e24031-d1e167">Item, sicut homo naturaliter appetit illuminari et delectari, ita etiam naturaliter appetit
+      gloriari, et hoc dico secundum ipsius animae suprem um. Ergo sicut in nobis est reperire
+      aliquas virtutes perficientes et dirigentes ipsam animam respectu veri illuminantis et
+      respectu boni delectantis, utpote fidem et caritatem, ita erit respectu ardui et excellentis
+      ; hanc autem non est dare nisi spem : ergo etc.</p>
+          <p xml:id="bb-d1e24031-d1e170">Item, licet omnes virtutes gratuitae quodam modo elevent mentem, et hoc maxime faciant
+      virtutes theologicae, elevatio tamen et erectio ipsius animi propriissime competit ipsi
+      spei. Ergo, si virtus spei maxime consistit in erigendo et elevando ipsum animum, cum animus
+      noster magnus sit nec sit natus erigere se nisi ad magna et ardua, videtur ergo quod
+      obiectum spei quantum ad efficaciam movendi, teneat rationem ardui : non ergo obiectum spei
+      est bonum sub ratione boni.</p>
+        </div>
+        <div xml:id="bb-d1e24088">
+          <head xml:id="bb-d1e24031-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e24031-Hd1e179" type="question-title">Obiectum speo est bonum sub ratione magni et ardui, vel etiam
+      bonum sub ratione gloriosi et aeterni.</head>
+          <p xml:id="bb-d1e24031-d1e182">Respondeo : Ad praedictorum intelligentiam est notandum quod quidam dicere voluerunt
+      obiectum spei esse bonum sub ratione futuri. Dixerunt enim quod omnes affectiones animae vel
+      sunt respectu boni vel sunt respectu mali ; et sicut gaudium est respectu boni praesentis,
+      dolor vero, qui est affectio sibi opposita, est respectu praesentis mali, sic spes est
+      respectu futuri boni, timor vero respectu futuri mali. Quod autem movit eos hoc ponere fuit,
+      quia posuerunt quod duplex sit tantum obiectum in quod tendit anima : unum, scilicet verum,
+      in quod tendit intellectus ; alterum, scilicet bonum, in quod tendit affectus ; et ideo, cum
+      spes non sit in verum sub ratione veri, voluerunt dicere quod sit in bonum sub ratione boni.
+      In hoc tamen differt a caritate, quia caritas est in bonum sub ratione boni simpliciter, non
+      considerando praesens nec futurum ; et quia bonum sub ratione boni est amandum, ideo actus
+      ipsius caritatis est amare. Spes autem est in bonum, non tantum sub ratione boni, sed etiam
+      sub ratione futuri ; et quia bonum futurum, in quantum futurum, est exspectandum, ideo actus
+      ipsius spei est exspectare ; et quia exspectare et amare sunt actus diversi, hinc est quod
+      spes et caritas diversae sunt virtutes, non principaliter ratione diversitatis obiectorum,
+      sed ratone diversitatis actuum propriorum.</p>
+          <p xml:id="bb-d1e24031-d1e185">Licet autem hic modus dicendi videatur aliquid probabilitatis habere, interius tamen
+      consideranti non satisfacit dubitationi nec consonat veritati. Nam quod dicitur quod non est
+      aliud obiectum motivum potentiarum animae nisi verum sub ratione veri et bonum sub ratio
+      boni, simpliciter non habet veritatem, pro eo quod, sicut in opponendo tactum est,
+      quemadmodum rationalis tendit in verum et concupiscibilis in bonum, sic etiam irascibilis
+      nostra tendit in arduum et magnum. Rursus, quod dicit bonum sub ratione boni futuri esse
+      motivum alterius affectionis quam bonum sub ratione boni, non habet veritatem, pro eo quod
+      bonum sub ratione futuri desideratur, et desiderium non est spes, sed magis quaedam
+      differentia amoris et ad ipsam caritatem pertinet desiderare. Amplius, quod dicit timorem
+      esse respectu mali sub ratione mali, non habet veritatem. Contingit enim timere, sicut in
+      opponendo ostensum est, abstracta ratione mali, sicut timebitur Deus in patria. Praeterea,
+      si quando malum timetur, non timetur nisi quia excellens : si ergo affectio, quae est timor,
+      in suo obiecto magis concernit excellentiam quam malitia sub ratione motivi, restat
+      similiter quod et affectio sibi correspondens, videlicet spes.</p>
+          <p xml:id="bb-d1e24031-d1e188">Est igitur obiectum spei bonum quidem, sed non sub ratione boni, sed magis sub ratione
+      ardui sive magni. Et hoc quidem sic habet manifestari. Spei enim duplex est actus, quorum
+      unus est principium et origo alterius : spes enim facit confidere et faciendo confidere
+      facit exspectare. Nullus autem recte confidens confidit et innititur nisi in eo qui nec
+      possit nec velit sibi deficere ; talis autem non est nisi ille qui est potentissimus in
+      virtute et munificentissimus in liberalitate ; et hoc non habet nisi habeat excellentiam
+      virtutis et largitatis. Cum autem quis totam fiduciam suam in eum posuit qui
+      excellentissimae virtutis est et liberalitatis, magna ab eo exspecat se assecuturum. Quoniam
+      ergo spes habet obiectum magnum et arduum in confidendo, hinc est quod habet pro obiecto
+      magnum et arduum in exspectando. Et hinc est quod ipse Dominus, in quo speramus, magna
+      promittit nobis in consolationem spei nostrae, iuxta quod dicit Abrahae, Genesis 15, 1 :
+      Noli timere, Abraham, ego protector tuus sum et merces tua magna nimis ; quasi dicat : Ego
+      protector, in quo debes confidere, et merces tua magna, quam debes exspectare.</p>
+          <p xml:id="bb-d1e24031-d1e192">Concedendum est igitur quod obiectum spei est bonum sub ratione magni vel ardui. Et quia
+      gloriosum nominat magnum sublimitate, aeternum nominat magnum diuturnitate, illud intensive,
+      istud extensive, ideo concedi potest etiam quod obiectum spei sit bonum sub ratione gloriosi
+      et sub ratione aeterni, hoc est sub ratione excellentis et indeficientis, quia haec duo
+      concurrunt ad perfectam rationem magnitudinis ipsius boni. Concedendae sunt ergo ratiories
+      quae sunt ad partem istam.</p>
+        </div>
+        <div xml:id="bb-d1e24031-Dd1e197">
+          <head xml:id="bb-d1e24031-Hd1e199">Ad rationes</head>
+        <p xml:id="bb-d1e24031-d1e202">Ad illud quod obicitur, quod sicut se habet scientia ad verum, ita virtus ad bonum, dicendum
+    quod hoc non est omnino simile, quia cognitiva non habet obiectum nisi unius rationis,
+    scilicet verum ; sed affectiva, cum duplicetur in duas vires, videlicet in concupiscibilem et
+    irascibilem, obiectum habet duplicis rationis, videlicet bonum quod concupiscit, et arduum ad
+    quod se erigit.</p>
+        <p xml:id="bb-d1e24031-d1e205">Ad illud quod obicitur, quod virtus theologica idem habet pro obiecto et pro fine, dicendum
+    quod, si hoc intelligatur de identitate quantum ad substantiam, sic verum est, quia ipse Deus
+    est finis et obiectum earum. Si autem loquamur quantum ad rationem movendi, sic non habet
+    veritatem nisi in sola virtute quae est caritas ; ipsa enim habet bonum sub ratione boni et
+    pro obiecto et pro fine ; ideo principatum tenet inter ceteras virtutes, sicut infra
+    manifestabitur. In fide autem et spe non habet veritatem ; et quoniam in illa ratione procedit
+    ab identitate secundum substantiam ad identitatem secundum rationem, ideo in processu illo est
+    peccatum secundum accidens.</p>
+        <p xml:id="bb-d1e24031-d1e208">Ad illud quod obicitur, quod sic se habet spes respectu futuri sicut gaudium respectu
+    praesentis, dicendum quod similitudo bona est quantum ad differentiam futuritionis et
+    praesentialitatis, sed quantum ad rationem boni motivi non est similitudo Bonum enim sub
+    ratione boni, quando praesens est, delectat et reficit ipsam concupiscibilem ; sed sub hac
+    ratione non habet elevare et erigere, immo potius sub ratione excellentis. Delectatio enim,
+    quae est in gaudio, respicit convenientiam ; sed erectio, quae est in spe, respicit
+    excellentiam.</p>
+        <p xml:id="bb-d1e24031-d1e211">Ad illud quod obicitur, quod spes est respectu boni tantum, ergo habet obiectum bonum sub
+    ratione boni, dicendum quod illud non sequitur, pro eo quod ista non est sola ratio propter
+    quam aliquid tendat solummodo in bonum, quia motivum eius est bonum sub ratione boni, sed
+    etiam propter hoc quod illud quod est motivum eius habet semper bonum sibi substratum. Et hoc
+    modo intelligendum est se habere in spe. lllud enim arduum et excellens, ad quod assequendum
+    erigitur anima, non potest esse nisi bonum.</p>
+        <p xml:id="bb-d1e24031-d1e215">Ad illud quod obicitur, quod spes est exspectatio futurae beatitudinis, dicendum quod spes
+    non exspectat beatitudinem nisi in quantum tenet rationem magni et ardui, hoc est rationem
+    excellentis et indeficientis. Et quia ista duo importat beatitudo de sua prima ratione, hinc
+    est quod spes magis habet definiri per beatitudinem quam alia virtus ; unde in ratione illa
+    est peccatum secundum accidens. Quamvis enim beatitudo habeat rationem boni, tamen non cadit
+    principaliter sub exspectatione spei sub illa ratione, sed in quantum habet rationem
+    ardui.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

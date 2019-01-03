@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 3, P. 2, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 3, P. 2, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e3110">
+        <head xml:id="bb-d1e3110-Hd1e119">III, D. 3, P. 2, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e3110-Hd1e122" type="question-title">Utrum aliquis possit decimari in parentibus</head>
+        <p xml:id="bb-d1e3110-d1e125">Circa primum sic proceditur et quaeritur, utrum aliquis decimari habeat in parentibus.</p>
+        <div xml:id="bb-d1e3121" type="rationes-principales">
+          <head xml:id="bb-d1e3110-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e3110-d1e133">Et quod sic, probatur. Per illud Apostoli ad Hebraeos 7, 9 : <quote xml:id="bb-d1e3110-Qd1e135" ana="#hebr7_9">Per
+       Abraham et Levi, qui decimas accepit, decimatus. est</quote>.</p>
+          <p xml:id="bb-d1e3110-d1e139">Item, hoc ipsum videtur per <name ref="#Augustine">Augustinum</name>, X Super Genesim ad litteram, et habetur in Glossa :
+       <quote xml:id="bb-d1e3110-Qd1e144">Sicut, Adam peccante, peccaverunt qui in lumbis eius erant, sic, Abraham dante
+       decimas, qui in lumbis eius erant decimati sunt</quote>. Sed constat quod proies potuit
+      peccare in Adam : ergo et decimari in Abraham.</p>
+          <p xml:id="bb-d1e3110-d1e148">Item, hoc ipsum videtur ratione, quia proles in parentibus potest liberari et in servitutem
+      redigi, quia servus natus est servilis conditionis. Ergo pari ratione videtur quod in
+      parentibus dantibus decimas filii habeant decimari.</p>
+          <p xml:id="bb-d1e3110-d1e151">Item, decimatio est actus figuralis ; sed figura non tantum est respectu praesentis, sed
+      praeteriti et futuri : ergo videtur quod non tantum possit decimari in propria persona
+      filius, sed etiam cum est in parente tamquam in causa et materia.</p>
+          <p xml:id="bb-d1e3110-d1e155">Sed contra : <name ref="#Augustine">Augustinus</name>, X Super Genesim ad litteram : <quote xml:id="bb-d1e3110-Qd1e160">In lumbis Abrahae illud
+       decimabatur quod curabatur</quote>. Sed filii Abrahae non sunt curati ab originali, immo
+      nati sunt cum peccato originali : ergo non videtur quod in Abraham fuerint decimati.</p>
+          <p xml:id="bb-d1e3110-d1e164">Item, cum datur decima de frumento, non propter hoc datur decima de illo fru.mento quod
+      debet nasci. Ergo pari ratione, cum datur decima pro homine, non videtur quod ille qui
+      nasciturus est ex eo decimetur in eo ; sicut enim homo est in homine seminaliter sic granum
+      in grano. Ergo ratio ista bona videtur.</p>
+          <p xml:id="bb-d1e3110-d1e167">Item, sicut circumcisio remedium est contra originale in Lege figurae et baptismus in Lege
+      gratiae, sic decimatio in Lege naturae, ut dicit Hugo de Sancto Victore ; sed nullus in
+      ventre matris potuit baptizari nec circumcidi : ergo nec decimari.</p>
+          <p xml:id="bb-d1e3110-d1e170">Item, aut decimari est per decimam curari aut decimari est ad decimam obligari aut decimari
+      est de aliquo decimam partem dare aut decimari est per decimam praefigurari ; sed nullo
+      istorum modorum fuit Levi in Abraham decimatus, quia nec per decimam curatus nec ad dandum
+      decimas obligatus, cum potius reciperet, nec decimam dedit nec per decimam significatus fuit
+      : ergo nullo modo videtur decimatus fuisse in Abraham ; et si ille non fuit decimatus, pari
+      ratione nec aliqui alii.</p>
+        </div>
+        <div xml:id="bb-d1e3167">
+          <head xml:id="bb-d1e3110-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e3110-Hd1e179" type="question-title">Proles aliquo modo potest in parentibus decimari, secundum eum
+      modum, quo decimatio nihil ponit in actu circa decimatos, sed est actus figuralis,
+      significans futuram curationem.</head>
+          <p xml:id="bb-d1e3110-d1e182">Respondeo : Ad praedictorum intelligentiam est notandum quod decimatio fuit actus moralis,
+      sacramentalis et figuralis. Secundum quod fuit actus moralis, sic decimatio dicitur alicuius
+      certae partis donatio ad sustentationem eorum qui serviunt Domino et deputati sunt cultui
+      divino ; et hoc modo decimatio aliquo modo perseverat usque modo. Secundum autem quod
+      decimatio est actus sacramentalis, sic decimatio est alicuius partis donatio ad curationem
+      morbi originalis. Secundum autem quod decimatio est actus figuralis, sic decimatio est
+      decimae partis donatio ad praefigurationem curationis universalis, quae futura erat per
+      oblationem Christi. </p>
+          <p xml:id="bb-d1e3110-d1e185">Duobus primis modis accepta decimatio respicit tantum praesens, quia non datur decima nisi
+      de hoc quod habetur, et non curatur nisi quod iam habet morbum. Tertio autem modo decimatio
+      accepta non tantum est praesentis, sed etiam futuri, pro eo quod figuratio est significatio,
+      et significatio non tantum extendit se ad praesentia, sed etiam ad futura ; et hoc modo
+      dicuntur filii Abrahae decimati in Abraham, quia per illam decimationem praefigurati surit
+      omnes filii Abraham curandi esse per eum qui significabatur per Melchisedech, id est per
+      verum sacerdotem Christum. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, X Super Genesim ad litteram :
+      Cum ipsa decimatio ad praefigurandam medicinam pertinuerit, ille in Abraham decimabatur qui
+      curabatur, non quando praefigurabatur, sed quando illius figurae veritas implebatur.
+      Concedendae sunt igitur rationes ostendentes quod aliquo modo potest decimari proles in
+      parente secundum eum modum quo decimatio nihil ponit in actit circa decimatos, sed solum
+      secundum significationem, quae non tantum est praesentium, sed etiam futurorum.</p>
+        </div>
+        <div xml:id="bb-d1e3186">
+          <head xml:id="bb-d1e3110-Hd1e195">Ad rationes</head>
+          <p xml:id="bb-d1e3110-d1e198">Ad illud quod obicitur primo de auctoritate <name ref="#Augustine">Augustini</name>, dicendum quod, sicut patet ex verbo
+      praecedenti decimabatur quod curabatur, non dicit concomitantiam secundum idem tempus ad hoc
+      quod est decimari, immo potius se extendit ad omne tempus, et pro illo tempore reddit
+      locutionem veram, in quo implebatur veritatis figura.</p>
+          <p xml:id="bb-d1e3110-d1e204">Ad illud quod obicitur, quod non datur decima de grano quod non est in re, sed solum in
+      ratione seminali, dicendum quod non est simile quia decimatio, prout est actus figuralis,
+      non se extendit ad significandum aliquid circa granum, sed ad significandum aliquid circa
+      genus humanum ; unde granum respicit ut materiam circa quam habet exerceri, non circa illud
+      quod per ipsum habet significari. Et quia exercitium requirit materiam praesentem,
+      significatio se extendit ad futura, ideo non est simile.</p>
+          <p xml:id="bb-d1e3110-d1e207">Ad illud quod obicitur de baptismo et circumcisione, dicendum quod non est simile nisi in
+      quantum decimatio est actus sacramentalis Legis naturae ad remedium originalis peccati ; hoc
+      modo non est nisi circa praesens, sicut circumcisio et baptismus. Secundum autem quod est
+      actus iiguralis, sic non est simile.</p>
+          <p xml:id="bb-d1e3110-d1e210">Si autem quaeratur, quare baptismus et circumcisio non potest esse actits figuralis sicut
+      et decimatio, dicendum quod ratio huius est quia circumcisio et baptismus est actus in
+      persona ; decimatio autem, cum sit decimae partis oblatio, est actus pro persona. Et quia
+      oblatio potest fieri pro eo quod est et quod futurum est, circumcidi et baptizari non nisi
+      quod iam est, hinc est quod actus decimandi potuit se extendere ad futuros, et non actus
+      circumcidendi vel baptizandi.</p>
+          <p xml:id="bb-d1e3110-d1e214">Ad illud quod quaeritur, quomodo proles dicitur decimari in parente, dicendum quod
+      decimatio idem est quod praefiguratio curationis. Unde nullo illorum modorum accipitur qui
+      in opponendo assignabantur : et ideo insufficienter procedebat illa obiectio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

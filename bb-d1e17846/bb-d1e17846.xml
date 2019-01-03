@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 20, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 20, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e17846">
+        <head xml:id="bb-d1e17846-Hd1e119">III, D. 20, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e17846-Hd1e122" type="question-title">Utrum congruum fuerit humanam naturam a Deo reparari.</head>
+        <p xml:id="bb-d1e17846-d1e125">Circa primum sic proceditur et quaeritur, utrum congruum fuerit humanam naturam a Deo
+    reparari. Et quod sic, videtur per quatuor suppositiones manifestas, quae elici possunt ex
+    dictis <name ref="#Anselm">Anselmi</name>, in II Cur Deus homo. Prima est haec : Nullatenus decet summam stabilitatem
+    permittere suum propositum infirmari. Secunda est haec : Nullatenus decet summam benignitatem
+    pro peccato unius hominis totam posteritatem eius sempiternaliter damnari. Tertia est haec :
+    Nullatenus decet summam sapientiam nobilissimam creaturam permittere universaliter fine suo
+    fraudari. Quarta est haec : Nullatenus decet summam virtutem permittere servum suum ab alio in
+    sempiternum iniuste detineri.</p>
+        <div xml:id="bb-d1e17860">
+          <head xml:id="bb-d1e17846-Hd1e133">Rationes Principales</head>
+          <p xml:id="bb-d1e17846-d1e136">Ex prima arguitur ita : Si non decet Dei propositum infirmari, et Deus proposuerat hominem
+      perducere ad beatitudinem, et perduci non habet quamdiu manet in statu ruinae, ergo indecens
+      est hominem in tali statu relinqui. Ergo, ab oppositis, decens est ipsum reparari et
+      relevari.</p>
+          <p xml:id="bb-d1e17846-d1e139">Ex secunda arguitur sic : Non decet totam posteritatem sempiternaliter damnari pro peccato
+      unius hominis ; sed tota sempiternaliter damnaretur, nisi reparatio interveniret : ergo
+      congruum fuit et decens ut Deus hominem repararet.</p>
+          <p xml:id="bb-d1e17846-d1e142">Ex tertia arguitur sic : Non decet summam sapientiam permittere universaliter nobilissimam
+      creaturam fine suo fraudari ; sed, ni si reparatio interveniret, omnes homines fine suo
+      essent fraudati, et ita vane omnes filii hominum essent constituti ; quod divinae sapientiae
+      non congruit, quae nihil incongruum facit : ergo restat quod valde congruum fuit genus
+      humanum reparari.</p>
+          <p xml:id="bb-d1e17846-d1e145">Ex quarta arguitur sic : Non decet summam virtutem permittere servos suos iniuste et
+      violenter ab adversario detineri ; sed, nisi reparatio intervenisset, multi servi Dei et
+      Sancti detinerentur in limbo : ergo congruum fuit et decens per reparationis beneficium
+      subveniri generi humano.</p>
+          <p xml:id="bb-d1e17846-d1e149">Sed contra hoc obicitur sic : Si indecens fuisset genus humanum non reparari et
+      inconveniens, et <quote xml:id="bb-d1e17846-Qd1e151">quodlibet minimum inconveniens, sicut dicit <name ref="#Anselm">Anselmus</name>, in I Cur Deus
+       homo, Deo est impossibile</quote>, ergo fuit impossibile Deum genus humanum non reparare.
+      Et ex hoc elicitur duplex inconveniens : unum, quod Deus non reparavit genus humanum propter
+      miserlcordiam, sed potius propter vitandam indecentiam ; aliud, quod non reparavit ex
+      liberalitate, sed ex necessitate. Quod si verum est, non tenemur ei ad tantas gratiarum
+      actiones ; quod impium et crudlissimum est dicere.</p>
+          <p xml:id="bb-d1e17846-d1e158">Item, nobilior creatura est angelus quam homo et propter beatitudinem est facta sicut homo
+      ; sed non decuit Deum relevare angelum a suo lapsu : ergo nec decuit reparare genus
+      humanum.</p>
+          <p xml:id="bb-d1e17846-d1e161">Item, sicut decet divinam sapientiam et bonitatem relevare cadentem, sic etiam decet
+      sustentare stantem ; sed non decuit Deum tenere genus humanum ne laberetur : ergo videtur
+      quod non decuit ipsum relevare post ipsum lapsum.</p>
+          <p xml:id="bb-d1e17846-d1e164">Item, non decet Deum facere contra suam iustitiam ; sed homo, cum peccavit, meruit a Deo in
+      aeternum separari : si ergo per reparationem Deo habet coniungi, videtur quod nunquam decuit
+      genus humanum reparari.</p>
+          <p xml:id="bb-d1e17846-d1e167">Item, sicut homo meruit per peccatum mortem carnis, ita etiam meruit mortem sempiternae
+      damnationis ; sed non decuit Deum sic reparare genus humanum ut non moreretur morte carnis :
+      ergo non decuit sic reparare ut non moreretur morte sempiternae damnationis.</p>
+          <p xml:id="bb-d1e17846-d1e170">Item, non decet Deum facere contra dispositionem suae sapientiae ; sed Deus taleni fecerat
+      hominem, ut, si vellet stare, staret, et si vellet cadere, caderet : ergo sicut non decet
+      Deum facere : de stante ut cadat, ita non decet ipsum facere de cadente ut resurgat : ergo
+      non decet eum reparare humanam naturam.</p>
+        </div>
+        <div xml:id="bb-d1e17903">
+          <head xml:id="bb-d1e17846-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e17846-Hd1e179" type="question-title">Genus humanum reparari, congruum et decens est tum ex parte Dei,
+      tum ex parte hominis.</head>
+          <p xml:id="bb-d1e17846-d1e182">Respondeo : Dicendum quod absque dubio congruum est et decens reparari genus humanum ;
+      congruum, inquam, est et decens non solum ex parte Dei, sed etiam ex parte hominis. Ex parte
+      Dei, quia decet Dei potentiam, sapientiam et misericordiam, sicut in opponendo monstratum
+      est supra. Ex parte vero hominis congruentia est similiter, si consideretur dignitas hominis
+      conditi et modus labendi et status lapsi. Dignitas namque hominis tanta erat ut propter
+      ipsum facta sunt universa. Si ergo homo careret suo fine, iam omnia essent suo fine
+      defraudata. Modus vero habendi fuit quod humana natura totaliter cecidit, alio peccante et
+      alio suggerente ; et ideo decens fuit ipsam per alium relevari, ut, sicut filii peccaverunt
+      in parente, et parens peccavit diabolo suggerente, sic etiam homo repararetur Domino
+      relevante. Status etiam hominis lapsi reparationi congruit, quia in illo statu simul fuit
+      poenitentia cum miseria ; et poenitentia quodam modo placabat divinam iustitiam, miseria
+      vero provocabat misericordiam.</p>
+          <p xml:id="bb-d1e17846-d1e185">Et sic patet quod per omnem modum congruum fuit reparari genus humanum, congruum, inquam,
+      ex parte opificis et congruum ex parte operis. Sed congruitas ex parte operis pura
+      congruentia est, ita quod non ponit necessitatem. Congruitas vero ex parte opificis ponit
+      necessitatem, necessitatem, inquam, non inevitabilitatis, quae dividitur in coactionem et
+      prohibitionem, sed necessitatem immutabilitatis, quae consurgit ex stabilitate et
+      immutabilitate divinae dispositionis. Haec autem non arctat divinam potentiam ad oppositum,
+      sed eam determinat ad tale propositum. Unde <name ref="#Anselm">Anselmus</name>, in II Cur Deus homo : <quote xml:id="bb-d1e17846-Qd1e190">Cum
+       dicimus Deum aliquid facere necessitate, intelligendum est quod hoc facit necessitate
+       servandi honestatem ; quae necessitas non est aliud quam immutabilitas
+      honestatis</quote>.</p>
+          <p xml:id="bb-d1e17846-d1e194">Ex his quae dicta sunt patet responsio ad propositam quaestionem. Si enim quaeratur, utrum
+      congruum sit reparari genus humanum, concedendum est simpliciter quod verum est. Si vero
+      quaeratur, utrum sit necessarium, non est simpliciter respondendum, sed distinguendum. Est
+      enim necessarium ex parte Dei, non ex parte nostri ; et ex parte Dei, non quacumque
+      necessitate, sed necessitate immutabilitatis, quae non opponitur libertati voluntatis, ac
+      pet hoc nec gratiae nec liberalitati.</p>
+        </div>
+        <div xml:id="bb-d1e17928">
+          <head xml:id="bb-d1e17846-Hd1e201">Ad Rationes</head>
+          <p xml:id="bb-d1e17846-d1e204">Et per hoc patet responsio ad primum obiectum. Non enim sequitur, si Deus reparat
+      necessitate suae immutabilitatis, quod propter hoc non reparet ex liberalitate suae
+      benignitatis ; haec enim simul possunt stare.</p>
+          <p xml:id="bb-d1e17846-d1e207">Ad illud quod obicitur, quod creatura angelica nobilior est etc., dicendum quod, quamvis
+      angelus nobilior sit creatura, non tamen est adeo ad reparationem idoneus sicut homo,
+      propter modum labendi et statum hominis lapsi. Homo enim poenituit, angelus vero obstinatus
+      fuit ; homo totaliter, angelus particulariter cecidit ; homo per alium, angelus per se ipsum
+      ; et haec sunt quae faciunt angelum ad reparationem minus idoneum.</p>
+          <p xml:id="bb-d1e17846-d1e210">Ad illud quod obicitur, quod non decuit Deum tenere hominem ne caderet, dicendum quod, si
+      homo voluisset stare, nunquam Deus dereliquisset eum ut caderet ; sed, quia stare noluit,
+      non debuit ipsum conservare invitum ; sed, quia homo post lapsum voluit resurgere, ideo
+      decuit Deum sibi manum porrigere, ita quod manus ista ad illos se extendit qui voluntarie
+      resurgunt, non ad eos qui nolunt resurgere.</p>
+          <p xml:id="bb-d1e17846-d1e213">Ad illud quod obicitur, quod non decet Deum facere contra suam iustitiam, dicendum quod
+      verum est. Decet tamen aliquid ipsum facere praeter rigorem iustitiae, quia reparatio humani
+      generis non repugnat divinae iustitiae. Concurrunt enim in illa simul misericordia et
+      veritas, sicut videbitur infra. Unde quod dicitur quod homo meruit per peccatum in aeternum
+      separari a Deo, hoc verum est quantum est de se ; possunt tamen alia merita intervenire,
+      quae infringent illam obligationem et in quibus servabitur ordo iustitiae divinae.</p>
+          <p xml:id="bb-d1e17846-d1e217">Ad illud quod obicitur, quod per peccatum meruit homo ita puniri poena sempiternae
+      damnationis sicut poena mortis, dicendum quod non est simile, quia de poena mortis statim
+      fuit sententia lata, de poena vero sempiternae dam nationis adhuc differtur sententia. Et
+      quia divina sententia est irrevocabilis, postquam lata est - licet mutari possit sententia
+      per prophetiam praedicata, sicut patet in Iona - antequam feratur, potest remedium inveniri
+      ; ideo reparari potuit genus humanum ut non incurreret poenam damnationis sempiternae in
+      aliqua eius parte, quamvis non fuerit liberatum ut non incurreret poenam mortis. Et si tu
+      quaeras, quare sententia ista fuit lata et illa dilata, cum homo meruisset utramque de se,
+      dicendum quod prima est via poenitentiae, secunda vero aufert locum poenitentiae ; ideo non
+      debebat secunda sententia inferri contra hominem, quamdiu erat in statu viae.</p>
+          <p xml:id="bb-d1e17846-d1e220">Ad illud quod obicitur, quod non decebat Deum facere contra ordinem suae sapientiae,
+      dicendum quod genus humanum reparando contra sapientiam suam non fecit, quia ex sapientia
+      sua fecerat ipsum reparabilem, praevidens eius lapsum. Nec valet illud quod obicit : nec
+      decuit facere de stante ut caderet : ergo nec decuit de labente ut resurgeret, quia, quamvis
+      nullo sapiente fiat homo deterior, aliquo tamen sapiente potest fieri melior. Et licet non
+      deceat Deum de bono facere viatum, decet tamen de malo facere bonum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

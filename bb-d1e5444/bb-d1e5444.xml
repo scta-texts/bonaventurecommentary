@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 5, A. 2, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 5, A. 2, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e5444">
+        <head xml:id="bb-d1e5444-Hd1e119">III, D. 5, A. 2, Q. 1</head>
+        <head xml:id="bb-d1e5444-Hd1e122" type="question-title">Utrum concedendum sit naturam humanam assumtam esse a Deo.</head>
+        <p xml:id="bb-d1e5444-d1e125">Circa primum sic proceditur et quaeritur, utrum sit concedendum quod humana natura sit
+    assumta a Deo.</p>
+        <div xml:id="bb-d1e5455" type="rationes-principales">
+          <head xml:id="bb-d1e5444-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e5444-d1e133">Et quod sic, videtur. Ad Philippenses 2, 7 : <quote xml:id="bb-d1e5444-Qd1e135" ana="#phil2_7">Semetipsum exinanivit,
+       formam servi accipiens</quote>. Sed veritas naturae attenditur quantum ad propriam formam
+      : ergo, si asumsit formam hominis, assumsit hominis naturam.</p>
+          <p xml:id="bb-d1e5444-d1e139">Item, <name ref="#Augustine">Augustinus</name>, De fide ad Petrum : <quote xml:id="bb-d1e5444-Qd1e144">Deus humanam naturam in unitatem personae
+       accepit</quote>.</p>
+          <p xml:id="bb-d1e5444-d1e148">Item, nullus est verus homo nisi vere habeat humanam naturam ; sed Dei Filius verus homo
+      est : ergo habet humanam naturam in se. Sed non habet eam per aeternam generationem : ergo
+      habet per assumtionem. Igitur assumsit humanam naturam.</p>
+          <p xml:id="bb-d1e5444-d1e151">Item, quicumque est alicuius filius naturalis, communicat cum eo in natura ; sed Dei filius
+      est Virginis filius naturalis : ergo communicat cum ea in natura. Aut igitur illam naturam
+      habuit ab aeterno vel ex tempore. Constat quod non ab aeterno, sed ex tempore. Si ex
+      tempore, aut ex propria virtute aut ex aliena. Constat quod ex virtute propria ; sed quod
+      accipit quis virtute propria dicitur assumere ; restat igitur quod humana natura sit a Deo
+      assumta.</p>
+          <p xml:id="bb-d1e5444-d1e155">Sed contra : Omne quod assumitur, est, antequam sit assumtum ; sed humana natura Christi
+      non fuit ante unionem ipsius cum Verbo : ergo non videtur quod fuerit assumta a Verbo.</p>
+          <p xml:id="bb-d1e5444-d1e158">Item, omne quod assumitur ab aliquo, fit aliquo modo unum cum eo a quo assumitur, quia
+      assumtio ordinatur ad unionem : ergo, si humaha natura assumitur a Deo, fit unum cum Deo.
+      Sed quae sunt eadem, unum potest praedicari de altero : ergo humana natura est Deus et e
+      converso ; sed hoc est falsum : ergo et illud ex quo sequitur, scilicet quod humana natura
+      sit a Deo assumta.</p>
+          <p xml:id="bb-d1e5444-d1e161">Item, omne quod assumitur ab aliquo ad unionem, acquirit proprietatem aliquam eius a quo
+      assumitur et cui unitur ; sed humana natura non acquirit aliquam proprietatem ipsius Verbi ;
+      nulla enim proprietas. Verbi dicitur de humana natura : ergo non videtur quod ipsa a Verbo
+      Dei fuerit assumta.</p>
+          <p xml:id="bb-d1e5444-d1e164">Item, Boethius, in libro De duabus naturis et una persona Christi, ponit quatuor
+      definitiones naturae, quarum nulla videtur competere assumtioni divinae. Ergo, si recte et
+      sufficienter definit naturam, non videtur esse concedendum quod humana natura sit assumta a
+      Deo. Quod patet discurrendo per singulas notificationes, quarum prima est : Natura est earum
+      rerum, quae, cum sint, quoquo modo intellectu capi possunt. Hoc modo non potest accipi, cum
+      dicitur humana natura est assumta, quia, si unam proprietatem hominis vel partem.
+      assumsisset, videtur assumsisse humanam naturam. Secunda definitio naturae est : Natura, est
+      vel quod agere vel quod pati potest. Et adhuc ista notificatio non competit sibi, quia
+      secundum istum modum sibi sufficeret assumsisse solum animam ad hoc quod diceretur
+      assumsisse humanam naturam. Tertia notificatio est : Natura est principium motus et quietis
+      per se et non secundum accidens. Adhuc nec ista competit, quia sufficeret, si solum corpus
+      assumsisset. Quarta notificatio est haec : Natura est unamquamque rem informans specifica
+      differentia. Sed nec etiam isto modo videtur assumtioni competere, quia, sicut dicit
+      <name ref="#JohnDamascenus">Damascenus</name>, III libro capitulo 11 : Verbum incarnatum non eam quae nuda contemplatione
+      consideratur assumsit naturam non enim incarnatio hoc esset, sed fictio et deceptio
+      incarnationis neque eam quaespecie consideratur, sed eam quae est in atomo. Ergo nullo modo
+      videtur esse concedendum quod Deus humanam naturam assumsit. </p>
+        </div>
+        <div xml:id="bb-d1e5498">
+          <head xml:id="bb-d1e5444-Hd1e173">Conclusio</head>
+          <head xml:id="bb-d1e5444-Hd1e176" type="question-title">Vere et proprie loquendo, concedi potest et debet, quod humana
+      natura est a Deo assumta</head>
+          <p xml:id="bb-d1e5444-d1e179">Respondeo : Dicendum quod vere et proprie loquendo, concedi potest et debet humanam naturam
+      a Deo assumtam esse, pro eo quod, sicut dicit <name ref="#Aristotle">Philosophus</name> 
+            <quote xml:id="bb-d1e5444-Qd1e184">natura accipitur et pro
+       vera materia et pro vera forma</quote>, et de his dicitur secundum quamdam analogiam.
+      Quoniam igitur Deus assumsit carnem et animam humanam, et caro est principium hominis
+      materiale, anima vero formate, hinc est quod vere, non solum humanam naturam, sed etiam
+      totam humanam naturam dicitur assurnsisse. Et concedendae sunt rationes ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d1e5517">
+          <head xml:id="bb-d1e5444-Hd1e192">Ad rationes</head>
+          <p xml:id="bb-d1e5444-d1e195">Ad illud quod obicitur, quod nihil assumitur nisi ens, dicendum quod hoc dupliciter potest
+      intelligi. Uno modo sic : nihil assumitur nisi ens in ipsa assumtione ; et hoc quidem verum
+      est nec habet instantiam in proposito, quia humana natura simul habuit esse et esse
+      assumtum. Alio modo potest intelligi, ut nihil assumatur nisi prius, sit quam assumatur ; et
+      si hoc intelligitur de esse in potentia, veritatem habet, quia assumta natura prius est in
+      potentia materiae vel efficientis quam uniatur ipsi assumenti. Si autem intelligatur quantum
+      ad esse in actu, sic non habet veritatem, in ea potentia maxime quae sirnul potest rem
+      fabricare et sibi unire. Unde, si quis posset vestimentum in dorso suo facere, simul esset
+      vestimenti compositio et vestimenti assumtio. Per hunc modum intelligendum est in
+      proposito.</p>
+          <p xml:id="bb-d1e5444-d1e198">Ad illud quod obicitur, quod assumtio unum facit etc., dicendum quod verum est ; non tamen
+      omnimode facit unum, sed secundum quod competit comparatione assumentis ad assumtum. Si
+      autem in aliqua assumtione reperitur unio, potissime reperitur in assumtione humanae naturae
+      a Verbo, quia non tantum est ibi unitas per adiacentiam, sed etiam est ibi unitas quae est
+      ipsius naturae ad hypostasim suam. Haec autem unitas aliquo modo admittit differentiam in
+      omni creata natura ; unde de nulla hypostasi, cuius sit natura creata, conceditur quod sit
+      sua essentia vel natura in abstractione, sed solum per modum concretionis ; unde non dicitur
+      quod Petrus sit humanitas, sed quod Petrus sit homo. Per hunc modum intelligendum est in
+      proposito, quia, quamvis Deus non sit humana natura, est tamen homo. Et propterea non cogit
+      illa ratio unum non praedicatur de altero in abstractione, ergo non habent identitatem sive
+      unitatem assumtioni competentem.</p>
+          <p xml:id="bb-d1e5444-d1e201">Ad illud quod obicitur, quod omne quod assumitur ab aliquo acquirit aliquam proprietatem,
+      dicendum quod verum est quod aliquam proprietatem acquirit ; sed hoc potest esse in recto
+      vel in obliquo vel ratione suppositi vel ratione formae. Et quamvis non videatur humanae
+      naturae acquiri proprietas ex ratione formae, acquiritur ratione suppositi ; quamvis etiam
+      non conveniat ei proprietas in recto, convenit in obliqua, secundum quod natura abstractive
+      sumitur.</p>
+          <p xml:id="bb-d1e5444-d1e204">Ad illud quod obicitur : secundum quam illarum notificationum accipitur ibi natura ? dico
+      quod secundum omnem potest accipi, maxime tamen secundum ultimam, quia completivam et
+      specificam habuit hominis differentiam. Nec valent illae instantiae, quia Christus dicitur
+      non solum assumsisse humanam naturam, sed totam humanam naturam ; nec dicitur assumsisse
+      specificam differentiam, secundum quod specifica differentia sumitur per abstrationem a
+      singularibus, sed assumsit specificam differentiam in particulari veraciter existentem ; et
+      hoc modo datur intelligi nomine naturae. In hoc enim differt essentia a natura, quia
+      essentia nominat rei formam in quadam abstractione, patura eam nominat entem in motu et
+      materia ut naturalium operationum principium. Et ideo doctores catholici magis isto verbo
+      uti voluerunt <mentioned> Deus assumsit humanam naturam </mentioned>, quam hoc <mentioned>
+       Deus assumsit humanam essentiam </mentioned>, quamvis utraque sit vera ; ista enim est
+      magis propria. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

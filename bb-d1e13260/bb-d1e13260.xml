@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 14, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 14, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e13260">
+        <head xml:id="bb-d1e13260-Hd1e119">III, D. 14, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e13260-Hd1e122" type="question-title">Utrum anima Christi actu cognoscat in Verbo omnia quae habita
+    cognoscit.</head>
+        <p xml:id="bb-d1e13260-d1e125">Secundo quaeritur, utrum anima Christi cognoscat in Verbo actu omnia quae cognoscit in
+    habitu.</p>
+        <div xml:id="bb-d1e13271" type="rationes-principales">
+          <head xml:id="bb-d1e13260-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e13260-d1e133">Et quod sic, videtur. Quia, secundum quod vult <name ref="#Augustine">Augustinus</name>, in libro XV De Trinitate,
+      <quote xml:id="bb-d1e13260-Qd1e138" source="http://scta.info/resource/adt-l15">in Beatis non erunt volubiles cogitationes</quote>. Si ergo anima Christi inter
+      ceteras animas beatas beatissima est, non ergo habet cogitationes volubiles : ergo, si
+      aliquid semel in actu cogitat vel cognoscit, semper illud cogitat vel cognoscit : ergo
+      quidquid cogitai in habitu, cognoscit in actu.</p>
+          <p xml:id="bb-d1e13260-d1e142">Item, gloria est habitus in actu : impossibile enim est hominem esse beatum et aliquando
+      cessare ab actu visionis divinae. Si ergo cognitio, qua cognoscit anima Christi res in
+      Verbo, est cognitio gloriosa, videtur quod cognitio illa semper habeat habitum coniunctum
+      actui : ergo quidquid cognoscit in habitu, cognoscit in actu.</p>
+          <p xml:id="bb-d1e13260-d1e145">Item, perfectior est habitus coniunctus actui quam separatus, pro eo quod actus est
+      complementum habitus ; sed anima Christi cognoscit res in Verbo cognitione perfectissima :
+      ergo quidquid cognoscit ibi in habitu, cognoscit in actu.</p>
+          <p xml:id="bb-d1e13260-d1e148">Item, una et eadem cognitione, qua cognoscit anima Christi ipsum Verbum, cognoscit alia a
+      Verbo ; sed nihil de ipso Verbo cognoscit in habitu quod non cognoscat in actu : ergo nihil
+      de aliis rebus cognoscit in habitu quod non cognoscat in actu.</p>
+          <p xml:id="bb-d1e13260-d1e152">Sed contra : Sicut vult <name ref="#Aristotle">Philosophus</name>, <quote xml:id="bb-d1e13260-Qd1e157">scimus plura, sed intelligimus unum
+       solum</quote> ; hoc autem ob aliud non est nisi quia <mentioned> scire </mentioned>
+      nominat cognitioriem in habitu, sed intelligere in actu : ergo ad plura se extendit habitus
+      quam actus per naturam ; et si hoc, non est necesse quod in Christo habitus parificetur
+      actui : igitur non est necesse quod quidquid anima Christi habitu cognoscit in Verbo, quod
+      cognoscat in actu.</p>
+          <p xml:id="bb-d1e13260-d1e164">Item, sicut perfecta est cognitio animae Christi, ita perfectum est eius gaudium ; sed
+      anima Christi non gaudet de omni eo in actu de quo gaudet in habitu - gaudet enim super uno
+      peccatore poenitentiam agente, licet non actualiter in eo laetaretur quando peccabat - ergo
+      pari ratione non est opportunum quod omne quod cognoscit in habitu, cognoscat in actu.</p>
+          <p xml:id="bb-d1e13260-d1e167">Item, actualis consideratio rerum cognitarum in Verbo in Christo subiacet voluntati. Ergo
+      potest modo considerare aliquid creatum quod non sit de essentia gloriae, modo etiam non
+      considerare : ergo, si habet illius rei habitum, non necesse est quod habitus semper sit
+      coniunctus actui respectu cuiuscumque cognoscibilis.</p>
+          <p xml:id="bb-d1e13260-d1e170">Item, aut anima Christi actu considerat omne quod Verbum aeternum natum est ei
+      repraesentare aut non. Si actu considerat omne quod Verbum aeternum natum est ei
+      repraesentare, cum illa sint infinita, videtur quod anima Christi in considerando actu
+      pertransit infinita, quod est impossibile virtuti finitae. Si non actu considerat omne quod
+      Verbum sibi unitum natum est ei repraesentare, ergo aliquam habet aptitudinem anima Christi
+      ad aliquid respectu cuius non semper est in actu ; sed omnis eius aptitudo est completa per
+      habitum gloriosum : igitur aliquid cognoscit in habitu quod non cognoscit in actu.</p>
+          <p xml:id="bb-d1e13260-d1e173">Item, quando aliquid se extendit ad infinita, impossibile est quod ipsum totaliter sit in
+      actu, si differat in eo actus a potentia ; sed habitus cognitionis in Christo se extendit ad
+      infinita : ergo impossibile. est ut omne quod cognoscit in habitu, cognoscat in actu. Maior
+      manifesta est, quia, cum continuum sit divisibile in infinitum, impossibile est ipsum
+      totaliter divisum esse in actu. Minor probatur per hoc quod Christus in Verbo aeterno scit
+      omnes species mimeri paris divisibiles esse in duo aequalia, et hoc novit in habitu de
+      qualibet eius specie : si ergo species numeri sunt infinitae, ergo novit habitu
+      infinita.</p>
+          <p xml:id="bb-d1e13260-d1e176">Item, nihil novit anima Christi in actu super quod non convertat se actualiter ; sed
+      intellectus eius et aspectus simplex est et finitus ; sed simplex et finitum ad quod se
+      convertit, totaliter se convertit : ergo, si actu se convertit ad unum, impossibile est quod
+      simul et semel actu se convertat ad illud quod sit ab illo disparatum : igitur anima Christi
+      non omnia cognoscit in actu quae cognoscit in habitu.</p>
+        </div>
+        <div xml:id="bb-d1e13323">
+          <head xml:id="bb-d1e13260-Hd1e182">Conclusio</head>
+          <head xml:id="bb-d1e13260-Hd1e185" type="question-title">Anima Christi quoad ea quae sunt essentialia gloriae, omnia quae
+      cognoscit in habito, cognoscit in actu, quod non est necesse quoad ea quae non sunt
+      essentialia gloriae.</head>
+          <p xml:id="bb-d1e13260-d1e188">Respondeo : Ad praedictorum intelligentiam est notandum quod anima Christi beata habet
+      cognitionem aliquorum quae sunt essentialia gloriae et aliquorum quae non sunt de essentia
+      gloriae. Si ergo loquamur de cognitione eorum quae sunt essentialia gloriae, dico quod anima
+      Christi omnia quae cognoscit in habitu cognoscit in actu, quia gloria est habitus in actu.
+      Unde sicut non potest anima eius non esse gloriosa, sic impossibile est actualem
+      considerationem eorum quae sunt de essentia gloriae in ipso interrumpi. Si autem loquamur de
+      cognitione eorum quae non sunt essentialia gloriae, sic non est necesse quod omnia quae
+      cognoscit in habitu cognoscat in actu. Et huius signum est quod Deus Beatis existentibus in
+      gloria, hoc est sanctis angelis, aliquid de novo revelat et ostendit in se quod prius tamen
+      non ostendebat. Et ideo statui gloriae non repugnat considerare aliquid nunc quod prius non
+      considerabatur. Nec repugnat etiam perfectioni creaturae, quoniam creaturam perfici, hoc est
+      eius capacitatem impleri ; creatura autem plurium est capax secundum cognitionem habitualem
+      quam secundum considerationem actualem, sicut in opponendo monstratum est. Et ideo non solum
+      in angelis, verum etiam in anima Christi hoc verum est quod plura cognoscit in habitu quam
+      consideret in actu ; et ideo concedendum est quod non omnia considerat in actu quae habet in
+      habitu, quantum ad ea quae non sunt de substantia gloriae. Et concedendae sunt rationes quae
+      sunt ad partem istam.</p>
+          <p xml:id="bb-d1e13260-d1e191">Ad ultimam tamen rationem potest responderi, ne det occasionem deviandi. Quod enim dicitur
+      quod intellectus simplex et finitus ad quod se convertit, totaliter se convertit, non cogit,
+      quia intellectus animae beatae et maxime animae Christi dilatatur per gratiam ; et, quod
+      plus est, in Verbo per unum et idem cognoscit distincte multa, et ideo intellectus
+      glorificatus cognoscendo multa in Verbo non dividitur, sed unitur, quia non applicatur ad
+      hoc vel ad illud primo et immediate, sed mediante Verbo aeterno, quod, cum sit unum, ducit
+      in multa cognoscenda. Aliae vero rationes, quae ad banc partem inductae sunt, concedi
+      possunt.</p>
+        </div>
+        <div xml:id="bb-d1e13339">
+          <head xml:id="bb-d1e13260-Hd1e198">Ad Rationes</head>
+          <p xml:id="bb-d1e13260-d1e201">Ad illud vero quod obicitur in contrarium, quod in Beatis non sunt cogitationes volubiles
+      nec considerationes, dicendum quod verbum illud intelligitur de his quae sunt de essentia
+      gloriae, quia illa semper erunt in actuali cognitione atque consideratione ; de his autem
+      quorum cognitio non est de essentia gloriae non oportet habere veritatem. Potest etiam
+      aliter dici quod volubilitas cogitationis duplex est : quaedam per inquisitionem et
+      intimationem sive decursum, quo quis venit in cognitionem rei incognitae ; et talis
+      volubilitas non erit in Beatis. Est etiam alia volubilitas per transitum considerationis
+      unius rei in considerationem alterius ; et talis volubilitas non auferetur a Beatis.
+      <name ref="#Augustine">Augustini</name> igitur auctoritas intelligitur de prima volubilitate, non de secunda ; et ideo
+      tali auctoritate non potest concludi quod anima beata quidquid cognoscit in habitu,
+      cognoscat in actu.</p>
+          <p xml:id="bb-d1e13260-d1e207">Ad illud quod obicitur, quod gloria est habitus in actu, dicendum quod verum est ; sed ex
+      hoc non sequitur quod omnis cognitio quae est in gloria sit in actu continuo, sed de illa
+      solum quae est de essentia gloriae ; et quoniam multa cognoscit anima Christi in Verbo, et
+      aliae animae, quae non sunt de essentia gloriae, hinc est quod .non oportet ipsam omnia
+      considerare in actu quae novit in habitu.</p>
+          <p xml:id="bb-d1e13260-d1e210">Ad illud quod obicitur, quod habitus in actu est perfectior quam habitus praeter actum,
+      dicendum quod verum est quando est in actu nobilissimo, qui debetur ipsi habitui ; actus
+      autem nobilissimus, qui debetur ipsi gloriae, est actualis consideratio summi veri, non
+      autem actualis consideratio cuiuscumque veri creabilis vel creati. Ideo ad hoc quod anima
+      Christi habeat habitum cognitionis perfectum, non oportet quod actualiter consideret omne
+      verum, sed sufficit quod actu consideret verum summum.</p>
+          <p xml:id="bb-d1e13260-d1e213">Ad illud quod obicitur, quod eadem cognitione qua cognoscit Verbum cognoscit alia a Verbo
+      etc., dicendum quod illud verum est de cognitione quantum ad habitum, sed non est opportunum
+      de cognitione quantum ad actum. Actualis enim cognitio et consideratio Verbi aeterni est
+      ipsi gloriae essentialis, non sic autem actualis cognitio aliorum a Verbo ; et ideo non
+      oportet quod sic alia consideret actualiter secundum quod actualiter consideret ipsum
+      Verbum, sed habitualiter. Habitus enim ille essentialiorem habet comparationem respectu
+      Verbi, quod est cognitum principale, quam respectu aliorum cognitorum in Verbo, quae sunt
+      cognita quasi ex consequenti et secundario.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

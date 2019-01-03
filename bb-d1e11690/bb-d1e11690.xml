@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 12, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 12, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e11690">
+        <head xml:id="bb-d1e11690-Hd1e119">III, D. 12, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e11690-Hd1e122" type="question-title">Utrum Christus potentiam peccandi habuerit vel assumserit</head>
+        <p xml:id="bb-d1e11690-d1e125">Secundo quaeritur, utrum Christus potentiam peccandi habuit vel assumpsit.</p>
+        <div xml:id="bb-d1e11701" type="rationes-principales">
+          <head xml:id="bb-d1e11690-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e11690-d1e133">Et quod sic, videtur. <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-d1e11690-Qd1e138">Omnia quae in natura nostra plantavit Deus,
+       assumpsit Dei Verbum</quote>, Si ergo potentiam, qua peccamus et bene facimus, Deus ab
+      initio in nobis plantavit, videtur quod eam ex tempore Dei Verbum assumpsit.</p>
+          <p xml:id="bb-d1e11690-d1e142">Item, idem <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-d1e11690-Qd1e147">Totum me assumpsit, ut me totum redimeret</quote>. Ergo
+      omnem nostram substantiam et omnis nostrae substantiae potentiam ; sed potentia peccandi est
+      potentia rationalis animae, quae non potest reperiri. nisi in creatura valde nobili : ergo
+      videtur quod Christus eam habuerit.</p>
+          <p xml:id="bb-d1e11690-d1e151">Item, potentia peccandi est potentia rationalis, et illa est ad opposita : ergo eadem est
+      potentia bene faciendi. Si ergo non est aliud quam liberum arbitrium, et Christus liberum
+      arbitrium assumpsit, ergo et potentiam peccandi.</p>
+          <p xml:id="bb-d1e11690-d1e154">Item, solum illud curatum est in nobis quod punitum et afflictum fuit in Christo ; sed in
+      nobis curari maxime indigebat potentia peccandi, quoniam illa est quae aegrotat per culpam :
+      ergo videtur quod in Christo passa fuerit et afflicta ; et si hoc, ergo a Christo fuit
+      habita et assumpta.</p>
+          <p xml:id="bb-d1e11690-d1e158">Sed contra : Christus secundum humanam naturam habuit plenam libertatem sicut et plenam
+      gratiam ; <quote xml:id="bb-d1e11690-Qd1e160">sed potentia peccandi, addita libertati, eam diminuit</quote>, sicut dicit
+      <name ref="#Anselm">Anselmus</name>, in libro De libero arbitrio : ergo potentia peccandi non fuit in Christo.</p>
+          <p xml:id="bb-d1e11690-d1e167">Item, omni potentia aliquis est potens : ergo, si in aliquo est potentia peccandi, illa
+      potest peccare ; sed Christus non potuit peccare, sicut prius ostensum est : ergo nec
+      peccandi potentiam habere.</p>
+          <p xml:id="bb-d1e11690-d1e170">Item, potentia peccandi est principium culpae ; sed in quocumque contingit reperire
+      principium, possibile est reperire illud quod ex illo principio causatur : ergo, si Christus
+      habuit potentiam peccandi, habere potuit peccatum : ergo potuit esse damnatus et Dei
+      inimicus. Quodsi hoc est impossibile, restat quod et primum.</p>
+          <p xml:id="bb-d1e11690-d1e173">Item, Christus secundum animam fuit Deo simillimus inter creaturas ceteras, quoniam maxime
+      fuit eius anima deiformis ; sed Deus non habet potentiam peccandi : ergo videtur quod eam
+      non habuerit nec assumpserit Christus.</p>
+        </div>
+        <div xml:id="bb-d1e11750">
+          <head xml:id="bb-d1e11690-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e11690-Hd1e182" type="question-title">Christus assumsit potentiam peccandi, id est potentiam, qua
+      peccatur, non tamen potentiam peccandi ordinatam ad actum peccandi</head>
+          <p xml:id="bb-d1e11690-d1e185">Respondeo : Dicendum quod potentia peccandi dicitur dupliciter. Uno modo dicitur potentia
+      peccandi, id est potentia qua peccatur ; et sic potentia peccandi nominat ipsum liberum
+      arbitrium creatum, quod quidem potest in bonum, adiutum gratia ; et quia per sui naturam est
+      defectivum, hinc est quod illa potentia sive facultas dici potest potentia bene faciendi et
+      potentia peccandi ; nullus enim peceat nisi per illam. Alio modo potentia peccandi dicitur
+      potentia ordinata ad peccandum, ut potentia nominet aliquid medium inter substantiam et
+      peccati actum, per quod substantia illa possit exire in peccati perpetrationem.</p>
+          <p xml:id="bb-d1e11690-d1e188">Si ergo primo modo dicatur potentia peccandi, sic absque dubio fuit in Christo. Et sic
+      procedunt rationes ad primam partem, quae ostendunt Christum habuisse potentiam peccandi,
+      quia assumsit integre nostram naturam et eius quamlibet potentiam. Et ideo rationes illae
+      concedi possunt, quia recta via procedunt et verum concludunt. Si vero potentia peccandi
+      dicatur potentia ut ordinata ad peccatum perpetrandum, sic non est concedendum quod Christus
+      habuit potentiam peccandi, pro eo quod peccare non potuit ; et talis ordinatio, immo
+      deordinatio, diminuit de plenitudine libertatis.</p>
+        </div>
+        <div xml:id="bb-d1e11766">
+          <head xml:id="bb-d1e11690-Hd1e195">Ad rationes</head>
+          <p xml:id="bb-d1e11690-d1e198">Et per hoc patet responsio ad primum obiectum in contrarium.</p>
+          <p xml:id="bb-d1e11690-d1e201">Ad illud quod obicitur, quod omni potentia est aliquis potens, dicendum quod verum est ; si
+      potentia dicat ordinationem ad actum ; sed, si dicat solum naturalem aptitudinem, non habet
+      veritatem, quia potest impediri per oppositum eius, sicut gressibilis habet naturalem
+      aptitudinem ad gradiendum et caecus ad videndum, non tamen gressibilis truncatus potest
+      gradi. Et sic damnati habent potentiam merendi, sed tamen mereri non possunt, quia
+      praepeditur in eis ordinatio illius potentiae sive exitus in talem actum. Sic et in
+      proposito intelligendum est, quia animam Christi exire in actum peccati est impossibile,
+      quamvis illam eamdem potentiam habeat quam habet peccator, et hoc propter perfectionem
+      gratiae non sustinentis talem egressum sive defectum.</p>
+          <p xml:id="bb-d1e11690-d1e204">Ad illud quod obicitur, quod potentia peccandi est principium culpae, dicendum quod verum
+      est ; sed hoc est in quantum deficiens sive in quantum sibi relinquitur. In Christo autem
+      non potest sibi relinqui propter inseparabilem unionem cum divinitate ; et ideo non potest
+      culpam perpetrare, quoniam non est in Christo sub ea ratione qua habet principiare. Et ideo
+      non sequitur quod culpa aliqua possit esse in Christo.</p>
+          <p xml:id="bb-d1e11690-d1e207">Ad illud quod obicitur, quod Christus secundum animam fuit Deo simillimus, dicendum quod,
+      etsi similior fuit anima Christi Deo ceteris creaturis, tamen improportionabiliter distat a
+      Deo, quoniam Deus, cum sit summe potens in se, per se et ex se, non potest deficere nec
+      habere potentiam deficiendi, nec quantum ad ordinationem nec quantum ad radicem. Sed anima
+      Christi est creatura sicut et aliae animae, et ex hoc ipso per naturam suam est vertibilis
+      et defectibilis et potentiam habet deficiendi : sed quod non deficiat, hoc habet beneficio
+      eius qui longe distat ab omni defectu. Et ideo non sequitur quod anima Christi caruerit omni
+      potentia peccandi, sed quod caruit ordinatione ad talem actum sive defectum per illud donum
+      quod faciebat Christum esse Deo simillimum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

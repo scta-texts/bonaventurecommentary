@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 10, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 10, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e10141">
+        <head xml:id="bb-d1e10141-Hd1e123">III, D. 10, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e10141-Hd1e126" type="question-title">Utrum filiatio adoptionis conveniat nobis per Christum.</head>
+        <p xml:id="bb-d1e10141-d1e129">Secundo quaeritur, utrum filiatio adoptionis conveniat nobis per Christum.</p>
+        <div xml:id="bb-d1e10152" type="rationes-principales">
+          <head xml:id="bb-d1e10141-Hd1e134">Rationes principales</head>
+          <p xml:id="bb-d1e10141-d1e137">Et quod sic, videtur. Ioannis 1, 12 : <quote xml:id="bb-d1e10141-Qd1e139" ana="#io1_12">Dedit eis potestatem filios Dei
+       fieri, his qui credunt in nomine eius</quote>. Constat quod illi in patrem ; sed constat
+      quod Evangelista loquitur de Verbo incarnato : ergo videtur quod per ipsum nos simus filii
+      Dei ; sed non alii filii quam adoptivi.</p>
+          <p xml:id="bb-d1e10141-d1e143">Item, ad. Galatas 4, 4 : <quote xml:id="bb-d1e10141-Qd1e145" ana="#gal4_4">Misit Deus Filium suum factum ex muliere, ut
+       adoptionem filiorum reciperemus</quote>. Ergo, si Filius ad hoc missus est in carnem,
+      videtur quod per Christum simus filii adoptivi.</p>
+          <p xml:id="bb-d1e10141-d1e149">Item, <quote xml:id="bb-d1e10141-Qd1e151">omne per accidens reducitur ad per se</quote> ; sed filii per adoptionem sunt
+      filii per accidens respectu filii naturalis, qui per se et proprie est filius : ergo, si
+      solus Christus est filius naturalis, videtur quod nullus adoptetur in filium nisi per
+      ipsum.</p>
+          <p xml:id="bb-d1e10141-d1e155">Item, per ipsum sumus filii Dei effecti per quem sumus Deo reconciliati ; sed Deo
+      reconciliati sumus per Christum, sicut dicitur II ad Corinthios 5, 18 : <quote xml:id="bb-d1e10141-Qd1e157" ana="#IIcor5_18">Deus nos sibi reconciliavit per Christum</quote> : ergo videtur quod
+      adoptati sumus per ipsum.</p>
+          <p xml:id="bb-d1e10141-d1e162">Sed contra : Ad Romanos 8, 15 :<quote xml:id="bb-d1e10141-Qd1e164" ana="#rom8_15">Non accepistis spiritum servitutis
+       iterum in timore, sed spiritum adoptionis filiorum</quote>. Ergo videtur quod nostrae
+      filiationis adoptio proptie attribuenda sit Spiritui Sancto, non Christo.</p>
+          <p xml:id="bb-d1e10141-d1e168">Item, Ioannis tertio: <quote xml:id="bb-d1e10141-Qd1e170" ana="#io3_5">Nisi quis renatus fuerit ex aqua et Spiritu
+       Sancto</quote> etc. ; et iterum : <quote xml:id="bb-d1e10141-Qd1e173" ana="#io3_8">Sic est omnis, qui natus est ex
+       spiritu</quote> ; sed cui attribuitur nativitas, eidem attribuenda est filiatio : si ergo
+      per Spiritum Sanctum renascimur spiritualiter, videtur quod per ipsum proprie, non per
+      Christum adoptemur in filios. Quodsi tu dicas hoc competere utrique, arguitur saltem quod
+      per appropriationem non competat Christo, sed Spiritui Sancto ; praedictae autem rationes
+      videbantur ostendere oppositum. </p>
+          <p xml:id="bb-d1e10141-d1e177">Item, ante Christi incarnationem Deus habuit homines filios, sicut ipse dicit de Salomone :
+      Ero illi in patrem ; sed constat quod nondum Filius Dei in carnem advenerat : ergo, si
+      Christus Filium Dei nominat incarnatum, videtur quod non simus filii Dei per Christum.</p>
+          <p xml:id="bb-d1e10141-d1e180">Item, quantumcumque sit Filius incarnatus, nullus tamen est Dei filius adoptivus, nisi qui
+      suscipit donum gratiae gratum facientis, qua suscepta, etiam ante incarnationem est filius.
+      Ergo, posita vel remota incarnatione Filii Dei, salva manet ratio adoptionis. Videtur igitur
+      quod nostrae adoptionis filiatio non fuerit facta per Christum. Iuxta hoc quaeritur, per
+      quod donum gratiae efficiamur filii adoptivi. Videtur enim quod per caritatem sicut dicit
+      <name ref="#Augustine">Augustinus</name> : Sola caritas est quae discernit inter filios regni et perditionis. Videtur
+      etiam quod per fidem, sicut Ioannis 1, 12 dicitur : <quote xml:id="bb-d1e10141-Qd1e185" ana="#io1_12">Dedit eis
+       potestatem filios Dei fieri, his qui credunt in nomine eius</quote>. Videtur nihilominus
+      quod per timorem, super ipsum illud ad Romanos 8, 15 : <quote xml:id="bb-d1e10141-Qd1e188" ana="#rom8_15">Non accepistis
+       iterum spiritum servitutis</quote> etc., Glossa : <quote xml:id="bb-d1e10141-Qd1e191">Timor castus, qui est bonus et
+       perficiens, generat nos filios</quote>. Videtur etiam quod per gratiam baptismalem, per
+      auctoritatem Domini, Ioannis 3, 5 : <quote xml:id="bb-d1e10141-Qd1e194" ana="#io3_5">Nisi quis Christo renatus fuerit ex
+       aqua et Spiritu Sancto</quote> ; sed hoc est per baptismum. Quaeritur ergo : cui istarum
+      gratiarum sive donorum attribuitur proprie filiatio adoptionis ? Et si omnibus quodam modo,
+      quaeritur, cui magis proprie ? </p>
+        </div>
+        <div xml:id="bb-d1e10219">
+          <head xml:id="bb-d1e10141-Hd1e201">Conclusio</head>
+          <head xml:id="bb-d1e10141-Hd1e204" type="question-title">Verum est per omnem modum, quod sumus filii adoptivi per
+      Christum</head>
+          <p xml:id="bb-d1e10141-d1e207">Respondeo : Dicendum quod, cum quaeritur, utrum simus filii adoptionis per Christum, hoc
+      potest dupliciter intelligi, quia praepositio illa <mentioned> per </mentioned> potest
+      importare causam per appropriationem non competat effectivam vel meritoriam sive
+      dispositivam. Et si causam meritoriam vel dispositivam importat ; absque dubio verum est
+      quod simus filii adoptionis per Christum. Ipse enim nobis meruit gratiam, per quam sumus
+      filii adoptivi, in quantum est caput Ecclesiae : Et hoc non solum respicit divinam naturam,
+      sed etiam naturam assumtam. Si vero importet causam effectivam, sic adhuc verum est ; Pater
+      enim nos adoptavit per Filium et Spiritum Sanctum. Et si per appropriationem loquamur, per
+      Filium adoptavit quoad inchoationem, per Spiritum Sanctum quoad consummationem. Ad nostram
+      enim adoptionem duo concurrunt, scilicet redemptio, quae facta est per Filii missionem, et
+      gratificatio, quae facta est per missionem Spiritus Sancti. Et hoc est quod dicitur, in
+      libro De anima et spiritu, capitulo 6 : A Patre per Filium et Spiritum Sanctum ad nos divina
+      descendunt. Pater siquidem tradidit Filium, quo redimeret nos ; misit Spiritum Sanctum, qui
+      servos adoptaret in filios ; Filium dedit in pretium redemptionis, Spiritum Sanctum in
+      privilegium adoptionis.</p>
+          <p xml:id="bb-d1e10141-d1e213">Et sic patet quod per omnem modum - sive <mentioned> per </mentioned> dicat rationem
+      dispositivam sive effectivam, et hoc sive per proprietatem sive per appropriationem - verum
+      est quod sumus filii adoptivi per Christum. Et concedendae sunt rationes quae hoc
+      ostendunt.</p>
+        </div>
+        <div xml:id="bb-d1e10241">
+          <head xml:id="bb-d1e10141-Hd1e223">Ad rationes</head>
+          <p xml:id="bb-d1e10141-d1e226">1-2. Ad illud ergo quod primo obicitur in contrarium de Spiritu Sancto, dicendum quod
+      filiatio adoptionis convenit Spiritui Sancto et appropriari potest ratione gratificationis ;
+      sed per hoc non excluditur quin conveniat Filio. Si enim per proprietatem loquamur,
+       <quote xml:id="bb-d1e10141-Qd1e228">indivisa sunt opera Trinitatis</quote> ; si vero per appropriationem, nihil impedit
+      quin aliquid diversis de causis possit pluribus personis appropriari. Et per hoc patet
+      sequens obiectum.</p>
+          <p xml:id="bb-d1e10141-d1e232">Ad illud quod obicitur, quod filii adoptivi fuerunt ante adventum Christi, dicendum quod,
+      etsi fuerunt ante adventum Christi secundum rem, non tamen ante fidem venturi fuerunt filii
+      adoptivi, quia, sicut dicit <name ref="#Augustine">Augustinus</name>, nullus salvari potuit sine fide Mediatoris.
+      Praeterea, ante Christi adventum non fuit plena ratio filiationis, quia nullus hereditatem
+      poterat assequi, quantumcumque iustus esset. Et si tu obicias de angelis, quod sunt filii,
+      dicendum quod, etsi non sint filii mediantibus meritis Christi.hominis, sunt tamen per
+      effectum et conformitatem filii Dei. Oportet enim, sicut dicit <name ref="#Augustine">Augustinus</name>, nos in filios
+      adoptari per eum qui est Filius per naturam.</p>
+          <p xml:id="bb-d1e10141-d1e241">Ad illud quod obicitur, quod, incarnatione posita, non ponitur filiatio nec remota
+      removetur, dicendum quod hoc non arguit nostrae adoptionis Christum non esse causam, sed
+      ostendit incarnationem non esse totam causam, quia completur filiatio in missione Spiritus
+      Sancti.</p>
+          <p xml:id="bb-d1e10141-d1e244">Ad illud vero quod ultimo quaeritur, per quod donum gratiae fiamus filii adoptivi, dicendum
+      quod filii Dei sumus in quantum sumus conformes imagini Filii naturalis, secundum illud ad
+      Romanos 8, 29 : <quote xml:id="bb-d1e10141-Qd1e246" ana="#rom8_29">Quos praedestinavit conformes fieri imagini Filii
+       eius</quote>. Hoc autem est dupliciter : aut per remotionem a. malo, et hoc est per
+      gratiam baptismalem, quae, in quantum est sacramentalis, medela est contra malum ; aut per
+      ordinationem ad bonum, et hoc potest esse dupliciter : aut ex parte intellectus, et sic
+      fides ; aut ex parte affectus, et sic caritas. Si autem dicatur timor vel humilitas facere
+      filios, hoc est dispositive. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

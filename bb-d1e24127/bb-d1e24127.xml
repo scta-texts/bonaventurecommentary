@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 26, A. 2, Q. 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 26, A. 2, Q. 5</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e24127">
+        <head xml:id="bb-d1e24127-Hd1e119">III, D. 26, A. 2, Q. 5</head>
+        <head xml:id="bb-d1e24127-Hd1e122" type="question-title">Utrum spes sit in parte animae cognitiva vel affectiva.</head>
+        <p xml:id="bb-d1e24127-d1e125">Quinto quaeritur de spe per comparationem ad subiectum, et est quaestio, utrum spes sit in
+    parte animae cognitiva vel affectiva.</p>
+        <div xml:id="bb-d1e24138" type="rationes-principales">
+          <head xml:id="bb-d1e24127-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e24127-d1e133">Et quod sit in cognitiva, videtur. Primo, per illud quod dicitur I ad Timotheum 1, 5 super
+      illud : <quote xml:id="bb-d1e24127-Qd1e135">Finis praecepti est caritas de corde puro et conscientia bona</quote>, Glossa
+      : de conscientia bona, id est de spe. Si ergo spes est conscientia et conscientia se tenet
+      ex parte cognitivae ; videtur quod et ipsa spes.</p>
+          <p xml:id="bb-d1e24127-d1e139">Item, <name ref="#Bernard">Bernardus</name>, in quadam homilia super Cantica : <quote xml:id="bb-d1e24127-Qd1e144">Deus futurus est rationi
+       plenitudo lucis, voluntati multitudo pacis et memoriae continuatio aeternitatis</quote>.
+      Sed continuatio aeternitatis est dos correspondens exspectationi ipsius spei : ergo, si illa
+      respicit ipsam memoriam, videtur quod ipsa exspectatio spei in via esse in memoria habeat ;
+      sed haec est potentia cognitiva : ergo etc.</p>
+          <p xml:id="bb-d1e24127-d1e148">Item, <name ref="#Augustine">Augustinus</name>, definiens spem, in libro De civitate Dei, dicit quod <quote xml:id="bb-d1e24127-Qd1e153">spes est
+       virtus, qua quis se ad illud quod credit, perventurum praesumit</quote>. Ex hac
+      definitione videtur quod nihil aliud sit sperare quam firmiter credere se perventurum ad
+      aliquod arduum et excellens ; sed tam credere quam firmiter credere est potentiae cognitivae
+      : igitur sperare spectat ad potentiam cognitivam. Sed <quote xml:id="bb-d1e24127-Qd1e156">cuius est actus, eius est et
+       habitus</quote> : ergo idem redit, qpod prius.</p>
+          <p xml:id="bb-d1e24127-d1e160">Item, imago creationis reformatur per imaginem recreationis, quae quidem consistit in
+      gratia et tribus virtutibus theologicis. Ergo, si virtutes reformantes sunt in potentiis
+      quas reformant, necesse est esse virtutes theologicas in illis potentiis in quibus
+      attenditur integritas imaginis. Si ergo illae potentiae sunt intelligentia, memoria et
+      voluntas, et caritas respicit voluntatem, fides intelligentiam, videtur ergo quod spes
+      respiciat memoriam : ergo est in potentia cognitiva.</p>
+          <p xml:id="bb-d1e24127-d1e164">Item, certitudo respicit potentiam cognitivam. Ergo, cum <quote xml:id="bb-d1e24127-Qd1e166">spes sit certa exspectatio
+       futurae beatitudinis</quote>, spes est in potentia cognitiva tamquam in subiecto.</p>
+          <p xml:id="bb-d1e24127-d1e170">Sed contra : Quatuor genera affectionum distinguuntur a Sanctis et a philosophis, videlicet
+      gaudium et dolor, spes et timor. Ergo, si omnis affectio et habitus regulativus affectionis
+      est in potentia affectiva, cum spes vel nominet affectionem vel habitum directivum
+      affectionis, videtur ergo generaliter quod spes sit in potentia affectiva.</p>
+          <p xml:id="bb-d1e24127-d1e173">Item, eiusdem potentiae est sperare cuius est et timere ; sed timre non. est nisi potentiae
+      affectivae : ergo nec sperare. Sed cuius est actus, eius est et habitus : ergo etc.</p>
+          <p xml:id="bb-d1e24127-d1e176">Item, <quote xml:id="bb-d1e24127-Qd1e178">opposita nata sunt fieri circa eamdem vim</quote> ; sed spes et desperatio
+      sunt opposita : si ergo desperatio est in potentia affectiva, videtur similiter quod et ipsa
+      spes.</p>
+          <p xml:id="bb-d1e24127-d1e182">Item, sicut contingit potentiam rationalem et concupiscibilem obliquari et dirigi, ita
+      etiam irascibilem. Ergo sicut est aliqua virtus theologica in rationali et aliqua in
+      concupiscibili, ita aliqua debet esse in irascibili ; sed haec non est nisi spes : ergo spes
+      est in irascibili : ergo spes est in potentia affectiva.</p>
+          <p xml:id="bb-d1e24127-d1e185">Item, obiectum spei est magnum et arduum, sictit supra fuit ostensum ; sed arduum est
+      obiectum potentiae irascibilis : ergo, si idem est obiectum habitus et potentiae substratae
+      in qua est habitus, spes est in potentia irascibili ; et haec est affectiva : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d1e24199">
+          <head xml:id="bb-d1e24127-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e24127-Hd1e194" type="question-title">Spes est in potentia animae affectiva, et quidem in parte
+      irascibili.</head>
+          <p xml:id="bb-d1e24127-d1e197">Respondeo : Dicendum quod absque dubio spes est in potentia affectiva : est enim in ipsa
+      irascibili, quae est pars potentiae affectivae. Potentiae enim irascibilis non tantum est
+      detestari mata culpae et perpeti mata poenae, sed etiam aggredi terribilia et erigi ad magna
+      et ardua. Et propterea non tantum ponimus in ipsa esse iram et patientiam, sed etiam
+      fortitudinem et spem : fortitudinem, inquam, in quantum negotiatur circa ea quae sunt ad
+      finem ; spem autem, secundum quod se erigit ad excellentiam ipsius finis.</p>
+          <p xml:id="bb-d1e24127-d1e200">Hoc autem satis potest aperte colligi tum ex parte affectionis substratae, tum ex parte
+      conditionis adiunctae, tum ex parte dotis subsecuturae. Ex parte affectionis substratae,
+      quia, cum quatuor sint affectiones, videlicet gaudium et dolor, spes et timor, sicut gaudium
+      et dolor sunt circa eamdem potentiam, ita etiam spes et timor. Cum igitur planum sit timorem
+      esse ipsius potentiae irascibilis, non est dubium quin affectio spei ad potentiam
+      irascibilem pertineat ac per hoc habitus virtutis spei dirigens affectionem illam. Ex parte
+      similiter conditionis et proprietatis annexae hoc ipsum potest satis aperte videri. Spei
+      enim est stabilire et quodam modo assecurare de assequenda futura beatitudine ; stabilitio
+      autem et confirmatio pertinet ad potentiam irascibilem. Sicut enim rationalis se habet ad
+      claritatem, et concupiscibilis ad voluptatem, sic etiam irascibilis ad securitatem. Quia
+      ergo assecuratio est conditio concomitans ipsam spem, indubitanter verum est virtutem spei
+      ad irascibilem pertinere. Ex parte dotis futurae hoc ipsum potest haberi. Sicut enim ad
+      fidem subsequitur visio, ita ad spem subsequitur perfecta tentio. Firmiter autem tenere hoc
+      est illius potentiae cuius est habitum defendere ; hanc autem non est dubium esse potentiam
+      irascibilem. Et ideo concedendum est habitum spei esse in irascibili potentia ac per hoc in
+      virtute animi affectiva, sicut rationes concludunt, quae sunt ad partem istam.</p>
+        </div>
+        <div xml:id="bb-d1e24215">
+          <head xml:id="bb-d1e24127-Hd1e207">Ad Rationes</head>
+          <p xml:id="bb-d1e24127-d1e210">Ad illud vero quod primo obicitur, quod spes dicitur conscientia, dicendum quod in processu
+      illo est peccaturn secundurn aequivocationem, quia conscientia potest nominare ipsam spem et
+      potest nominare lumen directivum ad bene agendum ; et hoc ultimo modo spectat ad potentiam
+      cognitivam, alio modo non : ideo non sequitur quod virtus spei sit in potentia animae
+      cognitiva. Praeterea, alius defectus est ibi, quia nomine conscientiae intelligitur spes,
+      non quia spes sit conscientia, sed quia spes est certa exspectatio, consurgens ex gratia et
+      meritis ; merita autem esse non possunt nisi ubi est conscientia bona.</p>
+          <p xml:id="bb-d1e24127-d1e213">Ad illud quod obicitur, quod Deus futurus est memoriae continuatio aeternitatis, dicendum
+      quod illud verbum <name ref="#Bernard">Bernardi</name> intelligitur mediate et non primo. Nam continuatio aeternitatis
+      respicit illam virtutem cuius est perpetuo tenere ; et hoc est potentiae irascibilis, cuius
+      est in praesenti exspectare : et ideo ex hoc non sequitur quod spes sit primo in potentia
+      memorativa, sed quod aliquo modo ipsam respiciat, vel principaliter vel ex consequenti.</p>
+          <p xml:id="bb-d1e24127-d1e219">Ad illud quod obicitur, quod sperare non est aliud quam firmiter credere se habiturum
+      aliquid, dicendum quod spes dicitur et large et proprie. Large accipiendo spem, sic dicit
+      credulitatem quodam modo firmatam respectu alicuius boni assequendi, sive a se sive ab alio
+      ; quemadmodum, cum quis videt alium bonae indolis, dicit quod sperat ipsum esse futurum
+      bonum hominem, ibi sperare idem est quod probabiliter credere ; et sic sumitur large et
+      improprie et bene potest pertinere ad virtutem cognitivam. Alio modo sperare, secundum quod
+      dicitur proprie, idem est quod confidere et ex illa confidentia cum quadam securitate
+      tendere ad habendum illud quod speratur ; et hoc modo pertinet ad virtutem affectivam. Et
+      haec duo, videlicet confidentiam illam et securam tendentiam, comprehendit <name ref="#Augustine">Augustinus</name> sub
+      verbo praesumendi, quod, quamvis sequatur credulitatem cognitionis, tenet tamen se ex parte
+      affectionis. Et ideo ex illa ratione non potest concludi quod potentia cognitiva sit
+      subiectum spei.</p>
+          <p xml:id="bb-d1e24127-d1e225">Ad illud quod obicitur, quod imago recreationis respondet imagini creationis, dicendum quod
+      verum est quod respondet ; nihilominus tamen imago creationis plus se tenet ex parte
+      cognitivae, imago vero recreationis plus se tenet ex parte affectivae, secundum quod dicit
+      <name ref="#Augustine">Augustinus</name> quod imago est in potentia cognoscendi, et similitudo in potentia diligendi. Et
+      quia imago recreationis plus se tenet ex parte affectivae, ideo duae virtutes sunt in parte
+      affectiva totaliter et principaliter, videlicet spes et caritas. Et virtus spei reformando
+      potentiam irascibilem, quae est potentia affectiva, per consequens reformat ipsam memoriam,
+      quae in actu communicat cum ea, videlicet in actu tenendi. Et ideo non oportet quod spes
+      reponatur in memoria sicut in proprio subiecto. Sed haec planius determinata sunt in libro
+      secundo, distinctione decima sexta.</p>
+          <p xml:id="bb-d1e24127-d1e232">Ad illud quod ultimo obicitur de certitudine, patet responsio ex his quae dicta sunt supra,
+      pro eo quod certitudo spei non est pertinens ad potentiam cognitivam, sed magis ad potentiam
+      affectivam, quae quidem certitudo est quaedam assecuratio tenens se ex parte potentiae
+      irascibilis. Patet igitur quid sit subiectum spei quantum ad animae potentiam.</p>
+          <p xml:id="bb-d1e24127-d1e235">Ulterius etiam posset esse hic inquisitio de subiecto spei quantum ad substantiam, et circa
+      hoc possent quaeri plura dubitabilia. Primo quaeritur, utnim spes sit in angelis bonis.
+      Secundo, utrum sit in animabus beatis. Tertio, utrum aliquo modo sit in angelis malis.
+      Quarto, utrum fuerit in his qui fuerunt in limbo. Quinto, utrum sit in his qui sunt in
+      purgatorio. Sexto et ultimo quaeritur, utrum fuerit in Christo. Sed quoniam omnes hae
+      quaestiones pro magna parte pendent ab illa quaestione qua dicitur de evacuatione spei, et,
+      illa visa, cetera sunt facilia, ideo quaestiones istae ad praesens omittuntur, quia quaedam
+      ex eis determinabuntur infra, quaedam ex eis tanguntur in littera, ut sic vitetur
+      superfluitas, quae est memoriae inimica.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

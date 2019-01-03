@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 4, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 4, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e3973">
+        <head xml:id="bb-d1e3973-Hd1e119">III, D. 4, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e3973-Hd1e122" type="question-title">Utrum Christus possit dici filius Spiritus Sancti.</head>
+        <p xml:id="bb-d1e3973-d1e125">Secundo quaeritur, utrum Christus possit dici filius Spiritus Sancti.</p>
+        <div xml:id="bb-d1e3984" type="rationes-principales">
+          <head xml:id="bb-d1e3973-Hd1e130">Rationes principales </head>
+          <!-- https://archive.org/stream/doctorisseraphic03bona#page/100 -->
+          <p xml:id="bb-d1e3973-d1e135">Et quod sic, videtur. Quia <name ref="#JohnDamascenus">Damascenus</name> dicit : <quote xml:id="bb-d1e3973-Qd1e140" source="http://scta.info/resource/jddfo-l3c2">Descendit in Virginem Verbum tanquam
+        <foreign xml:lang="gr">σπόρος</foreign>, id est semen</quote>. Sed quod operatur ad
+      alicuius generationem mediante semine habet rationem patris : si ergo hoc modo operatus est
+      Spiritus Sanctus, ut dicit <name ref="#JohnDamascenus">Damascenus</name>, ergo est pater eius.</p>
+          <p xml:id="bb-d1e3973-d1e150">Item, pater dicitur qui deducit rem ad esse : ergo, si magis deducit rem ad esse, magis
+      debet dici pater. Ergo, si Spiritus Sanctus magis est operatus ad hoc quod caro Christi
+      produceretur in esse quam aliquis pater respectu prolis procreandae, videtur quod Christus
+      sit filius Spiritus Sancti, loquendo proprie.</p>
+          <p xml:id="bb-d1e3973-d1e153">Item, Spiritus Sanctus cum Virgine operatus est Filii Christi conceptionem, nec minus
+      operatus est Spiritus Sanctus quam Virgo, sed multo amplius. Si ergo Christus dicitut filius
+      Virginis et Virgo dicitur eius mater, videtur quod multo fortius debeat Spiritus Sanctus
+      dici eius pater.</p>
+          <p xml:id="bb-d1e3973-d1e157">Item, omne quod est de aliquo per actum conceptionis, habens similitudinem substantiae cum
+      illo, dicitur eius filius ; sed Christus conceptus est de Spiritu Sancto et si. milis est in
+      substantia cum illo : ergo Christus est filius Spiritus Sancti.</p>
+          <p xml:id="bb-d1e3973-d1e160">Item, quicumque habet gratiam Spiritus Sancti, hoc ipso est filius eius ; sed Christus ab
+      instanti conceptionis habuit gratiam excellentissimam Spiritus Sancti : ergo videtur quod
+      filiatio conveniat Christo respectu Spiritus Sancti.</p>
+          <p xml:id="bb-d1e3973-d1e163">Sed contra: Christus nullius est filius nisi natura ; sed solius Patris vel Matris est
+      filius per naturam : non ergo Spiritus Santi.</p>
+          <p xml:id="bb-d1e3973-d1e166">Item, filiatio respicit hypostasim ; sed hypostasis Filii Dei nullo modo habet comparari ad
+      Spiritum Sanctum in habitudine filiationis, immo potius in habitudine principii : ergo
+      simpliciter falsum est dicere quod Christus sit filius Spiritus Sancti.</p>
+          <p xml:id="bb-d1e3973-d1e169">Item, si Christus est filius Spiritus Sancti, ergo Spiritus Sanctus est pater Christi ; et
+      Deus Pater est pater Christi : ergo duo patres in Trinitate.</p>
+          <p xml:id="bb-d1e3973-d1e172">Item, si Christus est filius Spiritus Sancti, quia operatus est eius conceptionem, ergo
+      pari ratione Christus est filius suus ; sed hoc nec ratio nec fides admittit quod eadem res
+      se ipsam gignat, quod idem sit pater. et filius sibi : ergo, si Christus non est filius
+      suus, pari ratione nec Spiritus Sanctus pater eius.</p>
+          <p xml:id="bb-d1e3973-d1e176">Item, ad hoc est auctoritas <name ref="#Augustine">Augustini</name>, quam <name ref="#Lombard">Magister</name> ponit in littera : <quote xml:id="bb-d1e3973-Qd1e184">Quis dicere
+       audebit Christum esse filium Spiritus Sancti, cum hoc ita sit absurdum, ut nullae fidelium
+       aures hoc valeant sustinere ?</quote> Videtur igitur tamquam haereticum dicere Spiritum
+      Sanctum esse patrem Christi.</p>
+        </div>
+        <div xml:id="bb-d1e4045">
+          <head xml:id="bb-d1e3973-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e3973-Hd1e194" type="question-title">Nullatenus admittitur locutio, quod Christus sit filius Spiritus
+      sancti</head>
+          <p xml:id="bb-d1e3973-d1e197">Respondeo : Dicendum quod absque dubio ista locutio non admittitur nec est admittenda, tum
+      propter vitandum errorem circa generationem temporalem, tum circa generationem aeternam. Ad
+      vitandum errorem circa generationem temporalem, quia, cum secundum illam dicitur Christus
+      conceptus de Virgine et Spiritu Sancto, si diceretur Spiritus Sanctus eius pater sicut Virgo
+      eius mater, iam videretur ex hoc Christus natus esse de Maria et Spiritu Sancto sicut
+      nascitur proies de muliere et viro. Quodsi hoc falsum est - quia proles partem accipit a
+      patre et partem accipit a matre, in qua assimilatur patri et matri in eadem forma et natura,
+      et hoc non est reperire in Christo quantum ad eius conceptionem, immo soli Matri assimilatur
+      in natura assumpta - non debet admitti Christum esse filium Spiritus Sancti, sed solius
+      Virginis Matris, ad manifestandam et servandam veritatem et proprietatem temporalis
+      generationis. Sumitur etiam ratio ex parte generationis aeternae quare catholici talem
+      sermonem non admittant, ne scilicet confusio fiat aeternarum relationum et proprietatum.
+      Unde, cum proprium sit personae Patris generare respectu personae Filii, nullatenus
+      admittitur Christum esse filium Spiritus Sartcti, in quo non est alia persona vel hypostasis
+      quam illa quam Pater ab aeterno genuit. Ideo propter vitandos errores, tam circa
+      generationem temporalem quam circa aeternam ; non recipiunt theologi praedictam locutionem.
+      Unde concedendae sunt rationes ad praedictam partem.</p>
+        </div>
+        <div xml:id="bb-d1e4058">
+          <head xml:id="bb-d1e3973-Hd1e204">Ad rationes</head>
+          <p xml:id="bb-d1e3973-d1e207">Ad illud quod primo obicitur de <name ref="#JohnDamascenus">Damasceno</name>, quod Verbum Dei descendit in Virginem ad modum
+      seminis, dicendum quod semen in se duplicem habet proprietatem : unam in hoc quod habet in
+      se vim activam ; alteram in hoc quod agit producendo similem in forma et natura. <name ref="#JohnDamascenus">Damascenus</name>
+      ergo assumit similitudinem seminis ad operationem Spiritus Sancti ratione primae
+      proprietatis, non secundae. Cum vero assumit quod operatio ad modum seminis facit
+      productivum principium habere habitudinem patris, hoc intelligitur ratione secundae
+      proprietatis.</p>
+          <p xml:id="bb-d1e3973-d1e216">Ad illud quod obicitur, quod Pater est qui producit rem ad esse, dicendum quod ista non est
+      tota ratio patris, quia necesse est quod conveniat in natura et forma ; sed Spiritus Sanctus
+      non convenit cum Christo in natura et forma secundum quam producit ipsum ad esse.</p>
+          <p xml:id="bb-d1e3973-d1e219">3-4. Ad duo obiecta sequentia iam patet responsio per iam dicta. Quod enim obicit, quod
+      Virgo dicitur mater et quod Spiritus Sanctus pater, dicendum quod non est simile, quia Virgo
+      conformatur Christo in natura, secundum quam conceptus est ex tempore ; Spiritus autem
+      Sanctus, quamvis Christo sit similis in natura, non tamen est eius principium secundum
+      illam, et ideo non cogit ratio tertia nec quarta.</p>
+          <p xml:id="bb-d1e3973-d1e222">Ad illud quod obicitur de gratia, dicendum quod, quamvis de aliis hominibus concedi possit
+      quod sint filii Spiritus Sancti propter gratiam, quam ipsi suscipiunt et mediante qua in
+      filiorum Dei adoptionem assumuntur, tamen circa Christum non habet locum propter unionem,
+      quae non tantum facit ilium hominem esse filium Dei per gratiam, sed filium Dei per naturam.
+      Et ideo non sic conceditur de ipso quod sit Spiritus Sancti filius sicut conceditur de aliis
+      hominibus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

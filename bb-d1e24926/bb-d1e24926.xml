@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 27, A. 1, Q. 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 27, A. 1, Q. 4</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e24926">
+        <head xml:id="bb-d1e24926-Hd1e119">III, D. 27, A. 1, Q. 4</head>
+        <head xml:id="bb-d1e24926-Hd1e122" type="question-title">Utrum habitus caritatis possit esse informis an semper sit
+    formatas.</head>
+        <p xml:id="bb-d1e24926-d1e125">Quarto quaeritur, utrum habitus caritatis possit esse informis an semper.sit formatus.</p>
+        <div xml:id="bb-d1e24937" type="rationes-principales">
+          <head xml:id="bb-d1e24926-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e24926-d1e133">Et quod semper sit formatus, videtur. Primo, per <name ref="#Augustine">Augustinum</name>, in libro De vera innocentia :
+       <quote xml:id="bb-d1e24926-Qd1e138">Dilectio Dei et proximi est propria et specialis virtus piorum atque Sanctorum, cum
+       ceterae virtutes bonis possint esse communes et malis</quote>. Sed aliae virtutes non sunt
+      comm unes bonis et malis, nisi quia possunt esse informes : si ergo caritas non potest isto
+      modo esse communis, videtur quod nullo modo possit esse informis.</p>
+          <p xml:id="bb-d1e24926-d1e142">Item, Hugo : <quote xml:id="bb-d1e24926-Qd1e144">Caritatem nullus malus habere potest</quote>. Sed si posset esse
+      informis, aliquis malus posset eam habere : impossibile est igitur habitum caritatis
+      informem esse.</p>
+          <p xml:id="bb-d1e24926-d1e148">Item, impossibile est formam fieri informem ; sed caritas est forma virtutum, secundum quod
+      dicitur super illud ad Romanos 1, 17 : Iustifia Dei etc., Glossa : <quote xml:id="bb-d1e24926-Qd1e150">Haec est informis
+       quantas mentis, quia sociam non habet caritatem, quae est forma omnium virtutum</quote>.
+      Ergo etc.</p>
+          <p xml:id="bb-d1e24926-d1e154">Item, virtutis caritatis est diligere Deum propter se et super omnia ; sed istum actum
+      nullus habere potest qui habet in se mortale peccatum, cum in omni mortali peccato aliquid
+      diligatur contra Deum : si ergo sola illa virtus potest esse informis cuius actus potest
+      reperiri in peccatore, sicut patet de fide, videtur quod caritas nullo modo possit esse
+      informis.</p>
+          <p xml:id="bb-d1e24926-d1e158">Item, sicut infidelitas repugnat fidei, sic libido et amor libidinosus repugnat caritati ;
+      sed impossibile est habitum fidei nec informem nec formatum simul stare cum errore et
+      infidelitate : ergo impossibile est habitum caritatis nec informem nec formatum simul stare
+      cum libidine. Sed omne peccatuin est libido vel ex libidine, secundum quod dicit <name ref="#Augustine">Augustinus</name>
+      : ergo impossibile est habitum caritatis nec informem nec formatum reperiri in peccatore :
+      ergo non reperitur nisi in viro iusto. Sed in illo non habet esse informis, sed semper
+      formatus : ergo etc.</p>
+          <p xml:id="bb-d1e24926-d1e164">Sed contra : Cum aliquis peccat qui in Deum credidit et amavit, sicut in eo remanet
+      credulitas, sic remanet in eo quaedam dilectio ; sed non est minus nobilis illa dilectio vel
+      amor quam sit illa credulitas : ergo, si credulitas illa sortitur nomen virtutis, pari
+      ratione videtur quod et illa dilectio. Sed non sortitur rationem et nomen alterius virtutis
+      quam caritatis : ergo caritas potest esse informis.</p>
+          <p xml:id="bb-d1e24926-d1e167">Item, aut potest aliquis diligere Deum informiter aut non. Si non, ergo, cum homo sciat se
+      Deum diligere, homo sciet se habere caritatem et esse in gratia, quod apud multos est
+      inconveniens. Si potest, sed quales sunt actus, tales sunt habitus : ergo, si actus
+      diligendi potest esse informis, videtur quod et habitus.</p>
+          <p xml:id="bb-d1e24926-d1e170">Item, ex fide formata oritur amor et timor, uterque formatus. Ergo, cum ex fide informi
+      possit oriri timor servilis, qui est timor informis, qui etiam habet rationem doni, videtur
+      quod ex ipsa possit oriri amor qui etiam habet rationem virtutis. Redit ergo idem quod
+      prius, videlicet quod amor caritatis informis possit esse.</p>
+          <p xml:id="bb-d1e24926-d1e173">Item, caritas est virtus gratuita ; constans est quod haec differentia gratuita addit supra
+      virtutem : ergo, si remanere potest prius sine posteriori, videtur quod, caritate desinente
+      esse gratuita, adhuc possit remanere virtus : ergo potest esse informis.</p>
+          <p xml:id="bb-d1e24926-d1e176">Item, homini cadenti in peccatum aliquid relinquitur in potentia rationali et irascibili
+      quo fit habilis ad resurgendum, ut fides et spes. Ergo pari ratione relinquitur aliquid in
+      potentia concupiscibili, immo multo fortiori, cum ipsa magis indigeat ; sed constat quod
+      illud non est minus nobile quam illud quod est in aliis potentiis, cum ipsa habeat nobiliori
+      virtute informari : si ergo aliae post lapsum in peccatum possident fidem et spem informem,
+      videtur quod et ipsa post peccatum habeat caritatem informem.</p>
+        </div>
+        <div xml:id="bb-d1e24989">
+          <head xml:id="bb-d1e24926-Hd1e182">Conclusio</head>
+          <head xml:id="bb-d1e24926-Hd1e185" type="question-title">Caritas numquam potest esse informis; in afferendis tamen
+      rationibus non consentiunt doctores.</head>
+          <p xml:id="bb-d1e24926-d1e188">Respondeo : Dicendum quod secundum communem opinionem habitus caritatis semper est formatus
+      et nunquam habet esse informis. Et hoc indicat ipsum nomen ipsius ; nominatur enim nomine
+      gratiae. Si ergo virtus informis dicitur esse illa virtus quae est privata gratia, dicere
+      caritatem informem nihil aliud est dicere quam gratuitum esse gratia privatum ; quod est
+      falsum et non intelligibile, quia est ibi implicatio oppositorum. Et ideo communiter dicitur
+      quod caritas non potest esse informis. Licet autem doctores communiter in hoc consentiant,
+      in ratione tamen quare hoc dicunt est inter eos differentia.</p>
+          <p xml:id="bb-d1e24926-d1e191">Nam quidam voluerunt dicere quod ideo caritas non potest esse informis, quia est ipsum
+      donum increatum, scilicet ipse Spiritus Sanctus. Et huius opinionis fuit <name ref="#Lombard">Magister</name>
+      Sententiarum. Haec autem opinio communiter non tenetur nec est tenenda, sicut in primo libro
+      fuit ostensum.</p>
+          <p xml:id="bb-d1e24926-d1e197">Alii vero dicere voluerunt quod caritas non potest esse informis, quia est habitus mere
+      gratuitus, nihil habens ultra gratiam gratum facientem nisi solam relationem et ordinem ad
+      actum et finem. Aliae vero virtutes, quae habitus substratos habent, informes esse possunt ;
+      sola vero caritas est quae nihil absolutum addit : et ideo ipsa sola est quae non potest
+      fieri informis. Sed, licet istud videatur satis probabile, est tamen non modicum
+      calumniabile. Difficile enim est sustinere ; pensatis auctoritatibus et rationibus, quod
+      caritas non addat ultra gratiam aliquem habitum, qui concupiscibilem potentiam habilitet ad
+      amandum, sicut in praecedenti problemate fuit ostensum.</p>
+          <p xml:id="bb-d1e24926-d1e201">Et ideo est adhuc tertius modus reddendi rationem quare caritas non potest esse informis,
+      sicut aliae virtutes. Hoc enim est quia caritas, non solum in quantum gratuita, sed etiam in
+      quantum affectio recta sive quantum ad habitum substratum, repugnat omni peccato, sicut
+      fides specialiter repugnat peccato sibi opposito. Unde sicut fides simpliciter tollitur per
+      errorem et infidelitatem et spes per desperationem, ita quod non remanet qualitas nec virtus
+      informis, sic habitus caritatis per omnem culpam habet tolli ; et ideo nunquam remanet
+      informis.</p>
+          <p xml:id="bb-d1e24926-d1e204">Quod autem omne peccatum oppositionem habeat cum caritate ratione. habitus substrati,
+      manifestum est sic. Sicut enim habitus ipsius fidei habilitat animam ad credendum omnia
+      credenda et ad assentiendum primae Veritati propter se et super omnia, sic et habilitat
+      habitus caritatis ad amandum omnia amanda et adhaerendum primae Bonitati propter se et super
+      omnia. Et ideo, sicut error circa quemcumque articulum oppositionem habet cum fidei habitu,
+      sic amor libidinosus circa ea quae amanda sunt oppositionem habet cum ipsa caritate ratione
+      habitus substrati. Quoniam ergo omne peccatum consistit in deordinata dilectione alicuius
+      boni creati et in quadam libidine quae oppositionem habet cum recto amore, sicut error cum
+      vera credulitate, hinc est quod omne peccatum simpliciter excludit caritatem Et ideo, sicut
+      fides informis non potest reperiri in infidelibus et haereticis, sic caritas informis non
+      potest reperiri in aliquibus viris peccatoribus et iniquis ; et in solis illis habet
+      reperiri virtus informis : hinc est quod caritas nullo modo potest esse informis, quia
+      secundum se totam opponitur culpae generaliter, quod non est reperire in aliqua alia
+      virtute. Et si tu quaeras rationem huius, <name ref="#Augustine">Augustinus</name> docet, in XIV libro De civitate Dei,
+      ubi dicit quod omnis affectio oritur ex amore. Ideo nihil potest obliquare aliquas
+      affectiones animae, quin aliquo modo vel principaliter vel ex consequenti opponatur ipsi
+      amori et habitui affectum ilium rectificanti. Concedendae sunt igitur rationes ostendentes
+      quod caritas non potest esse informis.</p>
+        </div>
+        <div xml:id="bb-d1e25021">
+          <head xml:id="bb-d1e24926-Hd1e214">Ad Rationes</head>
+          <p xml:id="bb-d1e24926-d1e217">Ad illud vero quod primo obicitur, quod in peccatore remanet credulitas et dilectio erga
+      Deum, dicendum quod, quamvis utraqtie remaneat, non tamen uniformiter, quia credulitas habet
+      rationem virtutis, dilectio vero non. Et ratio huius est, quia ad hoc quod aliquis habitus
+      sortiatur nomen et rationem virtutis, necesse est quod habeat aliquam perfectionem et
+      vigorem quemdam respectu actus et obiecti. Hoc autem habet credulitas in viro peccatore :
+      nam ipse peccator assentit primae Veritati propter se et super omnia et credit omnia
+      credenda secundum quod credenda sunt. Nullus autem peccator est qui diligat Deum propter se
+      et super omnia et diligat omnia diligenda secundum quod diligenda sunt ; et ideo dilectio
+      illa quae est in peccatore non ita habet rationem virtutis nec sortitur nomen caritatis
+      secundum quod credulitas habet rationem virtutis et nomen fidei sortitur.</p>
+          <p xml:id="bb-d1e24926-d1e220">Ad illud quod obicitur, quod contingit diligere informiter, dicendum quod verum est ; sed
+      sicut credere aliquem articulum informiter, quando alii articuli discreduntur, secundum quod
+      faciunt aliqui haeretici, non est actus virtutis informis, quia fides non est in eis virtus,
+      sic diligere Deum in peccatore non est actus virtutis. Deest enim ibi perfectio virtutis,
+      quia taIis non diligit omnia diligenda ; deest etiam et vigor, quia per ilium actum non
+      superat nec excludit amorem libidinosum sibi oppositum, sicut est de illo qui credit unum
+      articulum sine alio, qui per illam credulitatem nec perfecte credit, quia non omnia credit,
+      nec vigorose credit, quia errorem. non convincit.</p>
+          <p xml:id="bb-d1e24926-d1e223">Ad illud quod obicitur, quod ex fide informi debet generari amor informis sicut et timor,
+      dicendum quod non est simile, pro eo quod maioris perfectionis est amor quam timor et magis
+      rectificatur anima in recte amando quam in recte timendo ; et hoc quia amor est principium
+      omnium affectionum, sicut dictum est superius. Et ideo ex hoc non sequitur quod, quamvis
+      fides generet timorem informem, quod possit generare caritatis amorem.</p>
+          <p xml:id="bb-d1e24926-d1e226">Ad illud quod obicitur, quod caritas est virtus gratuita, et esse gratuitum coarctat hoc
+      quod est esse virtutem, dicendum quod, quamvis sit in minus esse gratuitum quam esse
+      virtutem, nihil tamen prohibet aliquam. differentiam ita adhaerere generi respectu speciei
+      quod, eadem sublata, aufertur per consequens quod ad essentiam generis spectat ; sicut patet
+      quod homo est animal rationale, et si desinat esse rationalis, desinit esse animal. Per hunc
+      modum potest intelligi et in caritate quod ita adhaeret hoc quod est gratuitum virtuti quod,
+      cum desinit esse gratuita, desinit esse virtus. Ratio autem quare magis adhaeret in caritate
+      quam in alia virtute, tacta est supra.</p>
+          <p xml:id="bb-d1e24926-d1e230">Ad illud quod obicitur, quod, homine cadente in peccatum, ita debet potentiae
+      concupiscibili adiutorium remanere, sicut aliis viribus animae, dicendum quod remanet sibi
+      adiutorium aliquod secundum cursum communem. Multi enim peccant qui habent affectionem
+      dilectionis et pietatis erga Deum et homines bonos ; verumtamen illud quod remanet eis non
+      sortitur nomen virtutis theologicae, secundum id quod remanet in aliis viribus. Et ratio
+      huius est, quia ipsa facilius corrumpitur et deordinatur quam aliae vires. Unde, quamdiu
+      peccatum est in anima, virtus rectificans eius affectiones non potest esse in ea. Quamvis
+      enim peccator, manens peccator, possit esse rectus in crederido, non tamen potest esse
+      rectus in diligendo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

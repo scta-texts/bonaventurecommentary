@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 12, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 12, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e11334">
+        <head xml:id="bb-d1e11334-Hd1e119">III, D. 12, Divisio Textus</head>
+        <p xml:id="bb-d1e11334-d1e122">In praecedentibus determinavit <name ref="#Lombard">Magister</name> de incarnatione Verbi in se. In hac vero parte
+    determinat de ipsa incarnatione prout ordinatur ad nostram redemptionem ; et durat haec pars a
+    principio huius distinctionis duodecimae usque ad vigesimam tertiam distinctionem et continet
+    undecim distinctiones, sicut et pars praecedens. Dividitur autem haec pars in duas. In quarum
+    prima agit de his secundum quae Christi incarnatio ordinatur ad nostram redemptionem. In
+    secunda vero agit de ipsa redemptione, quae facta est per passionem, infra, distinctione
+    decima nona : Nunc quaeramus, qualiter per mortem ipsius etc. Et quoniam ordinatio
+    incarnationis ad nostram redemptionem in quatuor consistit, scilicet in conformitate naturae,
+    in plenitudine gratiae, in defectu passibilitatis et in usu virtutis : ideo pars ista habet
+    quatuor partes. In quarum prima determinat <name ref="#Lombard">Magister</name> de genere naturae assumptae, utrum fuerit
+    de genere Adae. In secunda vero agit de plenitudine gratiae, infra, distinctione decima tertia
+    : Praeterea sciendum est, Christum secundum hominem etc. In tertia vero agit de defectu
+    passibilitatis, infra, distinctione decima quinta : Illud quoque praetermittendum non est etc.
+    In quarta vero agit de usu virtutis, infra, distinctione decima septima : Illud quoque
+    considerari oportet, utrum Christus etc.</p>
+        <p xml:id="bb-d1e11334-d1e131">Prima pars continet praesentem distinctionem et dividi habet in partes tres. In quarum prima
+    <name ref="#Lombard">Magister</name> determinat de conditione naturae assumptae quantum ad genus. In secunda de conditione
+    naturae assumptae quantum ad liberum arbitrium, ibi : Ideo non immerito quaeritur, utrum ille
+    etc. In tertia vero agit de conditione naturae assumtae quantum ad sexum, ibi : Solet etiam
+    quaeri, quamvis curiose etc.</p>
+        <p xml:id="bb-d1e11334-d1e137">Prima pars habet duas. In prima movet quaestionem et determinat. In secunda vero auctoritate
+    confirmat, ibi : Ut enim ait <name ref="#Augustine">Augustinus</name> etc.</p>
+        <p xml:id="bb-d1e11334-d1e143">Similiter secunda pars habet duas. In prima determinat veritatem. In secunda dissolvit
+    sophisticas rationes, ibi : Quidam tamen probare conantur etc.</p>
+        <p xml:id="bb-d1e11334-d1e147">Similiter tertia pars habet duas. In prima quaerit quaestionem et determinat. In secunda
+    confirmat, et hoc ibi : Unde <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum etc. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

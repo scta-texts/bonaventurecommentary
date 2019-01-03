@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 39, A. 3, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 39, A. 3, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e37138">
+        <head xml:id="bb-d1e37138-Hd1e119">III, D. 39, A. 3, Q. 1</head>
+        <head xml:id="bb-d1e37138-Hd1e122" type="question-title">Utrum obligatio contrahatur per iuramentum dolosum.</head>
+        <p xml:id="bb-d1e37138-d1e125">Circa primum sic proceditur et quaeritur, utrum obligatio contrahatur per iuramentum
+    dolosum.</p>
+        <div xml:id="bb-d1e37149" type="rationes-principales">
+          <head xml:id="bb-d1e37138-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e37138-d1e133">Et quod sic, videtur. Per auctoritatem Isidori, quam <name ref="#Lombard">Magister</name> adducit in littera. Ait enim
+      sic : <quote xml:id="bb-d1e37138-Qd1e138">Quacumque arte verborum quis iuret, Deus sic accipit sicut ille cui iuratur
+       intelligit</quote>. Sed ille cui iuratur intelligit simpliciter et credit quod alius se
+      velit per verbum obligare : ergo videtur quod Deus reputet ipsum obligatum : igitur secundum
+      veritatem obligatur quis per iuramentum dolosum.</p>
+          <p xml:id="bb-d1e37138-d1e142">Item, <quote xml:id="bb-d1e37138-Qd1e144">fraus et dolus nemini debet patrocinari</quote> ; sed, si ille qui dolose
+      iurat ab obligatione esset absolutus, patrocinaretur ei fraus et dolus proprius : si igitur
+      hoc est inconveniens dicere, videtur quod iuramentum dolosum obligationem introducat.</p>
+          <p xml:id="bb-d1e37138-d1e148">Item, verba sunt in quibus consistunt contractus. Ergo, si forma verborum est obligatoria,
+      necesse est intervenire contractum obligatorium : ergo, sive intendat sive non intendat, dum
+      tamen verba iuramenti obligationem praetendant, iurans obligatur : ergo ita obligatur homo
+      per iuramentum dolosum sicut per iuramentum simplex et verum.</p>
+          <p xml:id="bb-d1e37138-d1e151">Item, si solummodo verba fidelia et pura obligarent in iuramento, cum nemini constet de
+      fidelitate aliena, nemini constaret utrum aliquis esset obligatus per verba sua ; sed homo
+      redditur certus de obligatione per iuramentum exhibitum : videtur ergo quod, sive per verba
+      fidelia sive per fraudulenta iuramentum fiat, iurans aequaliter obligetur.</p>
+          <p xml:id="bb-d1e37138-d1e155">Sed contra : Gregorius : <quote xml:id="bb-d1e37138-Qd1e157">Verba diserviunt intentioni ; et Deus talia verba iudicat
+       qualia ex intimis proferuntur</quote>. Ergo, si homo se non intendit obligare,
+      quantumcumque exterius loquatur, videtur quod Deus non reputet eum obligatum.</p>
+          <p xml:id="bb-d1e37138-d1e161">Item, secundum illud quod dicitur I Regum 16, 7 : <quote xml:id="bb-d1e37138-Qd1e163">Homo iudicatea quae parent, Deus
+       autem intuetur cor</quote> ; unde quantumcumque sint opera exterius laudabilia, non sunt
+      tamen Deo placita, nisi procedant ex mera intentione et pura. Ergo Deus obligationem
+      iuramenti pensat secundum intentionem cordis : ergo, si homo non intendat se ipsum obligare,
+      quidquid exterius loquatur, apud Deum non erit obligatus : ergo iuramentum dolosum secundum
+      veritatem non est obligatorium.</p>
+          <p xml:id="bb-d1e37138-d1e167">Item, obligatio iuramenti non est a lege naturali tantum, sed etiam a lege naturali et actu
+      proprio ; sed nullus obligatur actu proprio nisi velit et intendat se ipsum obligare : si
+      ergo iurans iuramento doloso non intendat se ipsum obligare, sed alium deludere, non videtur
+      obligari secundum veritatem.</p>
+          <p xml:id="bb-d1e37138-d1e170">Item, iuramentum non est obligatorium nisi quando habet suos comites, videlicet iudicium et
+      iustitiam et veritatem ; sed dolosum iuramentum caret veritate : ergo non videtur quod
+      introducat obligationem.</p>
+          <p xml:id="bb-d1e37138-d1e173">Iuxta hoc quaeritur, quando verba iuramenti sunt duplicia et iurans intendit in uno sensu
+      et recipiens in alio, cuius intentioni sit standum. Et quod magis standum sit intentioni
+      recipientis, videtur per auctoritatem Isidori prius habitam ; quod vero magis intentioni
+      iurantis, videtur per auctoritatem Gregorii prius habitam, qua dicit quod verba illi
+      intentioni deserviunt, ex qua proferuntur.</p>
+        </div>
+        <div xml:id="bb-d1e37198">
+          <head xml:id="bb-d1e37138-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e37138-Hd1e182" type="question-title">Satisprobabile esse videtur, quod iuramentum dolosum in foro Dei
+      non sit simpliciter obligatorium, licet in foro Ecclesiae obliget, et simul commmitatur
+      crimen periurii.</head>
+          <p xml:id="bb-d1e37138-d1e185">Respondeo : Ad praedictorum intelligentiam est notandum quod hic est duplex modus dicendi.
+      Quidam namque dicere voluerunt quod iuramentum dolosum simpliciter obligat, quoniam, etsi
+      dolosus intendat alium decipere, intendit tamen dicere verba obligatoria ; et dum illa
+      voluntarie exterius profert, simpliciter se ipsum obligat. Nec aliquo modo excusatur per
+      cordis fraudulentiam, quia non solummodo recipiens, sed etiam ipsa Veritas accipit verba
+      secundum sensum quem faciunt, et ita non solummodo in conspectu hominum, immo etiam secundum
+      veritatem dicunt quod iuramentum dolosum est obligatorium.</p>
+          <p xml:id="bb-d1e37138-d1e188">Sed quoniam obligatio iuramenti est obligatoria sicut obligatio voti et matrimonii, ideo
+      videtur aliis dicendum quod sicut matrimonium non est verum nisi intersit interior
+      consensus, nec est votum obligatorium nisi sit intentio obligandi : sic etiam nec ipsum
+      iuramentum dolosum dicendum est esse simpliciter obligatorium, in quo quis sic iurat ut
+      tamen per illa verba se ipsum obligare non intendat. Et propterea secundum istos
+      distinguitur duplex forum, videlicet forum Ecclesiae et forum conscientiae. Secundum forum
+      Ecclesiae iuramentum tale est obligatorium. Ecclesia enim iudicat de his quae exterius
+      obligare possunt ; unde, cum verba illa obligationem exprimant, iudicat sic iurantem ad id
+      quod verba insinuant obligari. In foro autem Dei, qui iudicat secund um secreta conscientiae
+      et secundum veritatem, iste quidem non obligatur, quia non voluit obligare se ipsum. Quia
+      tamen dolose iuravit et nomen Dei in vanum assumpsit, statim in actu ipso commisit crimen
+      periurii. Nec reportat commodum de malitia, quia apud Deum ex illo iuramento iudicatur
+      dignus poena aeterna.</p>
+          <p xml:id="bb-d1e37138-d1e191">Et iste quidem modus dicendi satis probabilis esse videtur. Et secundum ipsum patet
+      responsio ad quaestionem propositam ; etiam pro magna parte patet responsio ad obiecta. Nam
+      rationes, quae probant illud iuramentum non esse obligatorium, ostendunt hoc non
+      simpliciter, sed in foro Dei, qui iudicat secundum intentionem, secundum quam dolose iurans
+      non intendebat se ipsum obligare : Rationes autem quae ad oppositum inducuntur procedunt
+      secundum forum ecclesiasticum, aliter non concludunt.</p>
+        </div>
+        <div xml:id="bb-d1e37217">
+          <head xml:id="bb-d1e37138-Hd1e198">Ad Rationes</head>
+          <p xml:id="bb-d1e37138-d1e201">Unde ad auctoritatem Isidori, qua dicit quod Deus accipit verba secundum intentionem
+      recipientis, dicendum quod hoc dicit, non quia ipse Deus ad hoc reputet hominem obligatum,
+      sed quia ex hoc quod ille non intendit iurare, sicut ille intendebat recipere, Deus, qui hoc
+      requirebat ex veritate et iustitia, reputat ipsum obligatunt ad poenam. Vel potest ille
+      sermo causaliter intelligi, ut dicatur quod Deus sic accipit, quia sic vult accipi ab ipsa
+      Ecclesia et sic vult etiam iudicari.</p>
+          <p xml:id="bb-d1e37138-d1e204">Ad illud quod obicitur, quod fraus et dolus nemini debent patrocinari, patet responsio per
+      iam dicta, quia fraus et dolus non patrocinantur isti in foro Ecclesiae, immo compellitur ab
+      ipsa Ecclesia iuramentum tenere ac si iurasset vere et fideliter ; non patrocinantur etiam
+      in foro Dei, quia ex hoc ipso obligatur et reus efficitur magna poena. Unde si veniat ad
+      poenitentiam, est ei gravis poenitentia imponenda ; et sanum consilium est et decens, ut
+      merito culpae sibi imponatur ut iuramentum compleat in quo proximum decipere intendebat,
+      licet non possit sibi probari in facie ipsius Ecclesiae.</p>
+          <p xml:id="bb-d1e37138-d1e207">3-4. Ad duo sequentia similiter patet responsio, quia verborum obligatio et certificatio
+      per iuramentum superadditum respiciunt forum ecclesiasticum ; et ideo obligationem
+      concludunt, non simpliciter, sed quantum ad illud forum. Et hoc quidem est concedendum.</p>
+          <p xml:id="bb-d1e37138-d1e210">Ad illud vero quod quaeritur, quando sunt verba duplicia ita quod dolus non intervenit,
+      cuius intentioni standum sit, dicendum quod verba illa multiplicia aut magis praetendunt
+      unum illorum sensuum secundum usum communem aut aequaliter praetendunt utrumque. Si magis
+      praetendunt unum sensum, illi intentioni standum est quae illum sensum intellexit. Si vero
+      indifferenter se habent ad utrumque, cum neutrum probari possit, standum est iudicio bonorum
+      virorum, qui, pensatis coniecturis et rationibus, condescendere debent saniori et puriori
+      intentioni. Illa tamen auctoritas Isidori non facit ad propositum, quia Isidorus vocat illum
+      arte iurare cuius iuratio est dolosa ; non oportet autem dolum vel artem intervenire semper,
+      quando verba sunt multiplicia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

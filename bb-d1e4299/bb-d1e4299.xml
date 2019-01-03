@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 4, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 4, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e4299">
+        <head xml:id="bb-d1e4299-Hd1e119">III, D. 4, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e4299-Hd1e122" type="question-title">Utrum beata Virgo Maria meruerit Christum concipere, an conceptio
+    illa fuerit solum ex munere gratiae divinae.</head>
+        <!-- https://archive.org/stream/doctorisseraphic03bona#page/106 -->
+        <p xml:id="bb-d1e4299-d1e127">Secundo quaeritur de conceptione Christi in comparatione ad meritum beatae Virginis Mariae,
+    et est quaestio, utrum meruerit beata Virgo Maria Christum concipere, an fuerit conceptio illa
+    solum ex munere divinae gratiae.</p>
+        <div xml:id="bb-d1e4312" type="rationes-principales">
+          <head xml:id="bb-d1e4299-Hd1e132">Rationes principales</head>
+          <p xml:id="bb-d1e4299-d1e135"> Et quod beata Virgo meruerit Christum concipere, ostenditur : Per illud quod dicitur
+      Lucae. 1, 45 : <quote xml:id="bb-d1e4299-Qd1e137" ana="#lc1_45">Beata, quae credidisti, quoniam perficientur in te quae
+       dicta sunt tibi a Domino</quote> ; sed annuntiata erat conceptio a Domino : ergo ideo
+      concepit, quia credidit. Sed constat quod fides sive credulitas non fuit causa efficiens
+      conceptionis : ergo fuit causa meritoria.</p>
+          <p xml:id="bb-d1e4299-d1e141">Item, in collecta, quae dicitur communiter ab Ecclesia : <quote xml:id="bb-d1e4299-Qd1e143">Omnipotens, sempiternae
+       Deus, qui gloriosae Virginis Mariae corpus et animam, ut dignum Filii tui habitaculum
+       effici mereretur, Spiritu Sancto cooperante praeparasti</quote> etc. Et ex hoc colligitur
+      quod beata Maria meruit et quod digna fuit : ergo meruit merito condigni concipere.</p>
+          <p xml:id="bb-d1e4299-d1e147">Item, <name ref="#Bernard">Bernardus</name>, V De consideratione ad Eugenium, tractans illud Matthaei 13, 33 : <quote xml:id="bb-d1e4299-Qd1e152" ana="#mt13_33">Simile est regnum caelorum fermenta</quote> etc., dicit quod mulier fuit
+      Sapientia, quae fermento fidei beata Virginis in incarnatione tria sata commiscuit, novum,
+      antiquum, aeternum : novum in animae creatione de nihilo ; antiquum in assumtione corporis
+      de natura Adam ; aeternum in unione divinitatis. Ergo fides beatae Virginis aliquo modo
+      cooperata est in ista commixtione ; sed non quantum ad principium solum effectivum : ergo
+      per modum meriti.</p>
+          <p xml:id="bb-d1e4299-d1e156">Item, beata Virgo aut habuit gratiam sufficientem, praeparantem ipsam ad conceptionem Filii
+      Dei, aut non. Si sic, sed gratia sufficienter praeparans facit mereri illud ad quod
+      praeparat, merito condigni : ergo videtur quod beata Virgo ex illa gratia meruit
+      conceptionem Filii Dei, cum ea bene usa fuerit. Si non, aut ergo caruit illa gratia
+      sufficienter praeparante, quia ipsam non potuit recipere aut quia eam noluit Deus vel non
+      potuit dare. Sed non quia non potuit Deus vel noluit dare, cum sit omnipotens et vellet sine
+      dubio sibi idoneum habitaculum praeparare. Si quia Virgo non potuit recipere, ergo multo
+      minus potuit Filium Dei concipere, ad cuius conceptionem gratia illa praeparabat. Quodsi
+      omnia ista sunt inconvenientia, relinquitur primum, videlicet quod beata Virgo meruit
+      conceptionem Christi per gratiam sibi datam.</p>
+          <p xml:id="bb-d1e4299-d1e160">Sed contra : <name ref="#Augustine">Augustinus</name>, in Enchiridio, et habetur in <ref xml:id="bb-d1e4299-Rd1e165" target="http://scta.info/resource/pl-l3d4c2-d1e130">littera</ref> : <quote xml:id="bb-d1e4299-Qd1e168" source="http://scta.info/resource/augen-d1e138">Modus quo natus est Christus de Maria
+       sicut filius et de Spiritu Sancto non sicut filius, insinuat nobis gratiam Dei, qua homo
+       nullis praecedentibus meritis in ipso exordio naturae suae, quo coepit esse, Verbo Dei
+       copularetur</quote>. Ergo videtur quod nulla merita praecesserunt conceptionem Christi vel
+      incarnationem.</p>
+          <p xml:id="bb-d1e4299-d1e172">Item, maius est meritum totius Ecclesiae quam singularis personae : ergo, si incarnatio non
+      cadit sub merito totius Ecclesiae, nec sub merito Virginis Mariae.</p>
+          <p xml:id="bb-d1e4299-d1e175">Item, quod cadit sub merito non tenet plene rationem gratuiti : <quote xml:id="bb-d1e4299-Qd1e177" ana="#rom11_6">nam,
+       si gratia est ex meritis, iam non est gratia</quote>, sicut dicit Apostolus ad Romanos
+      [11, 6] ; sed Filii Dei incarnatio ad maximam pertinuit gratiam, secundum quod dicit
+      <name ref="#Augustine">Augustinus</name> : ergo videtur quod eius conceptionem non meruit beata Virgo Maria.</p>
+          <p xml:id="bb-d1e4299-d1e184">Item, hoc est inaestimabilis dignationis quod Filius Dei aeterni efficiatur filius unius
+      pauperculae mulieris. Ergo non fuit ex aequitate vel iustitia retributionis ; igitur nec ex
+      merito Virginis.</p>
+        </div>
+        <div xml:id="bb-d1e4371">
+          <head xml:id="bb-d1e4299-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e4299-Hd1e194" type="question-title">Maria non merito condigni, sed tantum merito congrui et post
+      annuntiationem etiam dignitatis potuit mereri concipere Filium Dei.</head>
+          <p xml:id="bb-d1e4299-d1e197">Respondeo : Dicendum quod est loqui de merito secundum triplicem gradum et differentiam.
+      Est enim meritum congrui, in quo peccator dicitur gratiam sibi mereri, cum ad gratiam se
+      disponit ; et est meritum digni, quo scilicet vir iustus orat pro alio et mertur exaudiri ;
+      et est meritum condigni, quo quis ex tanta caritate meretur tantam gloriam.</p>
+          <p xml:id="bb-d1e4299-d1e200">Dico igitur quod beata Virgo Maria concipere Filium Dei ante incarnationem meruit merito
+      congrui, quoniam prae sua nimia puritate et humilitate et benignitate idonea erat ut
+      efficeretur Dei Mater. Post annuntiationem vero, postquam consensit et Spiritus Sanctus in
+      copiositate gratiae in eam descendit, non solum habuit congruitatem, sed dignitatem ; et ex
+      tunc meruit non solum merito congruitatis, sed dignitatis obumbrari et impraegnari virtute
+      Altissimi. Sed merito condigni non potuit mereri concipere Filium Dei, pro eo quod hoc
+      excedit omne meritum, et etiam quia erat ipsius meriti gloriosae Virginis fundamentum. Sive
+      enim dicamus Deum fieri hominem, sive dicamus mulierem fieri matrem Dei, utrumque est supra
+      statum qui debetur creaturae ; et ideo tam hoc quam illud fuit benignitatis et gratiae. Et
+      propterea, sicut dixi quod gratiam primam potest mereri iustus peccatori merito dignitatis,
+      non merito condigni, ne gratia perderet rationem gratiae, sic potest concedi quod beata
+      Virgo non tantum merito congrui, sed merito dignitatis meruit conceptionem, quia per
+      copiosam gratiam Spiritus Sancti ad conceptionem illam non solum congrua, sed etiam digna
+      fuit.</p>
+          <p xml:id="bb-d1e4299-d1e203">Ex his patere possunt rationes et auctoritates, quae ad utramque partem adducuntur. Nam
+      rationes, quae ad primam partem adducuntur, currunt de merito secundum primam vel secundam
+      acceptionem. Rationes, quae ad secundam partem adducuntur, currunt de merito tertio.</p>
+        </div>
+        <div xml:id="bb-d1e4389">
+          <head xml:id="bb-d1e4299-Hd1e209">Ad rationes</head>
+          <p xml:id="bb-d1e4299-d1e212">Ad illud tamen verbum quod dicitur de littera, dicendum quod non privantur simpliciter
+      merita, sed praecedentia merita, et hoc non in quocumque, sed in natura assumta, quia non
+      habuit merita ad unionem praecedentia, quia simul concepta et assumta fuit et formata, sicut
+      ostensum fuit supra.</p>
+          <p xml:id="bb-d1e4299-d1e215">Ad illud quod obicitur, quod maius est meritum totius Ecclesiae quam Virginis Mariae, dici
+      potest quod ratio illa non cogit, quia maius est meritum Patrum quam Virginis extensive, nec
+      tamen oportet quod intensive, quia beata Virgo, postquam, annuntiatione audita ab angelo,
+      sanctificata fuit a Spiritu Sancto, tanto munere gratiae est impleta, ut aliquid digne
+      posset mereri, quod non possent, si omnes alii Sancti essent congregati simul.</p>
+          <p xml:id="bb-d1e4299-d1e218">3-4. Ad alia duo non oportet respondere, quoniam procedunt secundum tertiam viam, sicut
+      apparet. Nam dignitas nihil aufert liberalitatis gratiae nec benignitatis misericordiae,
+      immo simul cum illis manet, sicut intuenti apparet.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

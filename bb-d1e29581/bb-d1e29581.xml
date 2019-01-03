@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 32, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 32, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e29581">
+        <head xml:id="bb-d1e29581-Hd1e119">III, D. 32, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e29581-Hd1e122" type="question-title">Utrum Deus dilexerit creaturas aeternaliter.</head>
+        <div xml:id="bb-d1e29589" type="rationes-principales">
+          <head xml:id="bb-d1e29581-Hd1e127">Rationes Principales</head>
+          <p xml:id="bb-d1e29581-d1e130">Et quod sic, videtur. Circa primum sic proceditur et quaeritur, utrum Deus dilexerit
+      creaturas aeternaliter.</p>
+          <p xml:id="bb-d1e29581-d1e133">Ad Ephesios 1, 4 : <quote xml:id="bb-d1e29581-Qd1e135">Elegit nos ante mundi constitutionem, ut essemus sancti et
+       immaculati in ipso</quote> ; sed nemo eligit nisi quod diligit : si ergo ab aeterno ante
+      mundi constitutionem nos elegit, videtur quod ab aeterno nos dilexerit.</p>
+          <p xml:id="bb-d1e29581-d1e139">Item, <name ref="#Augustine">Augustinus</name>, V De Trinitate : <quote xml:id="bb-d1e29581-Qd1e144" source="http://scta.info/resource/adt-l5">Absit ut Deus aliquid temporaliter
+       diligat</quote>. Si ergo quod diligit, diligit aut temporaliter aut aeternaliter ; et non
+      temporaliter, constat : ergo quod diligit, diligit aeternaliter.</p>
+          <p xml:id="bb-d1e29581-d1e148">Item, <name ref="#Lombard">Magister</name> dicit in littera quod <quote xml:id="bb-d1e29581-Qd1e153">dilectio est usia</quote> sive substantia. Si
+      ergo substantia Dei non potest non esse aeterna, videtur quod dilectio Dei similiter aeterna
+      sit : ergo quidquid diligit, aeternaliter diligit.</p>
+          <p xml:id="bb-d1e29581-d1e158">Item, aut dilectio Dei praecedit ipsas res aut sequitur. Si praecedit ergo ante fuit quam
+      res essent : ergo Deus dilexit res ante earum productionem, ergo non ex tempore, sed ab
+      aeterno. Si sequitur ergo videtur quod dilectio Dei causetur ab ipsis rebus. Quodsi hoc est
+      inconveniens, restat quod Deus ea quae diligit, diligit aeternaliter.</p>
+          <p xml:id="bb-d1e29581-d1e161">Item, si Deus de non-potente efficeretur potens et de non-sapiente sapiens, mutatus esset
+      et imperfectus. Ergo pari ratione, si de non amante fieret amans, cum amor respiciat quod
+      intra est, esset in eo mutatio et imperfectio ; quodsi hoc est impossibile, necesse est Deum
+      ea quae diligit, aeternaliter diligere.</p>
+          <p xml:id="bb-d1e29581-d1e164">Sed contra : Dilectio est amor boni ; sed <quote xml:id="bb-d1e29581-Qd1e166">bonum et ens convertuntur</quote>. Ergo
+      quod non : est ens non est amabile : ergo, si res, antequam producerentur, non fuerunt,
+      videtur quod, antequam producerentur, a Deo non diligerentur.</p>
+          <p xml:id="bb-d1e29581-d1e170">Item, amor est copula amantis et amati ; sed si copula est, necesse est esse extrema : ergo
+      impossibile est quod Deus creaturam diligat quousque creatura habet actualem existentiam.
+      Sed hoc est solum ex tempore : ergo videtur quod Deus non dilexerit creaturam aliquam
+      aeternaliter.</p>
+          <p xml:id="bb-d1e29581-d1e173">Item, Deus non dicitur aliquem diligere affectu : ergo, si diligit, hoc est quia diligit
+      effectu ; sed effectus divinae bonitatis est solum ex tempore : ergo Deus neminem diligit
+      nisi temporaliter.</p>
+          <p xml:id="bb-d1e29581-d1e176">Item, dilectio Dei est causa sufficiens et proxima et immediata boni creati ; sed, posita
+      causa efficiente proxima et immediata et sufficiente, ponitur effectus : ergo, si res
+      creatae solum sunt ex tempore, videtur quod Deus solum modo diligat eas temporaliter.</p>
+          <p xml:id="bb-d1e29581-d1e180">Item, si Deus diligit creaturas, aut diligit fruens aut utens ; sed constat quod non
+      diligit fruens, quoniam non est creatura fruendum, sicut in primo libro fuit ostensum, cum
+      illud quo fruendum est sit summum Bonum : restat ergo quod, si creaturam diligat, diligit ut
+      utens. Sed constat quod non contingit uti nisi eo quod est actu : ergo nunquam Deus diligit
+      creaturam nisi actu entem : non ergo diligit aliquam creaturam aeternaliter.</p>
+        </div>
+        <div xml:id="bb-d1e29648">
+          <head xml:id="bb-d1e29581-Hd1e186">Conclusio</head>
+          <head xml:id="bb-d1e29581-Hd1e189" type="question-title">Creaturae non solum temporaliter, sed etiam aeternaliter a Deo
+      diliguntur.</head>
+          <p xml:id="bb-d1e29581-d1e192">Respondeo : Dicendum quod quaedam verba dicuntur de Deo respectu creaturae, quae connotant
+      effectum in actu, sicut verbum creandi ; quaedam, quae connotant effectum in habitu, sicut
+      vocabulum praedestinandi ; quaedam, quae indifferenter utroque modo, sicut vocabulum
+      diligendi. Dicitur enim Deus aliquem diligere vel quia actu communicat ei bonum vel quia
+      proponit communicare. Et quoniam communicatio est effectus in tempore, propositum vero com
+      municandi est ab aeterno, hinc est quod diligere de Deo aliquando dicitur aeternaliter,
+      aliquando dicitur temporaliter. Unde bene concedi potest quod creaturae non solum
+      temporaliter, sed etiam aeternaliter a Deo diliguntur, sicut rationes ad primam partem
+      inductae ostendunt. Verumtamen illa ratio, quam adducit quasi per simile de potentia et
+      sapientia, non valet, quoniam non est simile. Posse enim et scire, quantum est de vi
+      vocabuli, non ita connotat effectum in actu secundum quod diligere. Nam verbum diligendi
+      impositum est ab ipsa liberalitate affectionis se ipsam alteri communicantis.</p>
+        </div>
+        <div xml:id="bb-d1e29660">
+          <head xml:id="bb-d1e29581-Hd1e198">Ad Rationes</head>
+          <p xml:id="bb-d1e29581-d1e201">Ad illud vero quod primo obicitur in contrarium, quod bonum et ens convertuntur, dicendum
+      quod verum est de bono in actu et ente in actu. Sed cum dicitur quod dilectio est solummodo
+      boni, dicendum quod non est verum solummodo de bono quod est in actu, sed etiam de bono quod
+      est in causa. Sicut enim ad cognitionem : sufficit veritas rei in sua causa, sic ad
+      diligendum sufficit bonitas secundum quod res habet esse in suo principio producente, etiam
+      antequam exterius producatur. Unde artifex non solummodo diligit bonum quod fecit, sed etiam
+      bonum quod proponit et disponit facere.</p>
+          <p xml:id="bb-d1e29581-d1e204">Ad illud quod obicitur, quod amor est copula amantis et amati, dicendum quod illud est
+      verum secundum quod amor est quaedam affectio et vinculum amicitiae quo aliqui ad invicem
+      colligantur ; sed hoc modo non accipitur in proposito, cum dicitur quod Deus diligit
+      creaturam ; dilectio enim Dei est eius usia , non est affectio aliqua unitiva, sicut dicit
+      <name ref="#Lombard">Magister</name> in littera : et ideo non cogit illa ratio.</p>
+          <p xml:id="bb-d1e29581-d1e210">Ad illud quod obicitur quod Deus non dicitur diligere affectu, sed effectu, dicendum quod
+      diligere effectu potest esse dupliciter, secundum quod effectus potest dupliciter connotari
+      : actu vel habitu. Et quia res est in habitu et in potentia, antequam sit in actu, hinc est
+      quod dilectio Dei, quae connotat effectum in habitu, potest esse ante productionem ipsarum
+      rerum. Et propterea ex hoc non habetur, si Deus dicitur diligere effectu, quod tunc solum
+      incipiat diligere quando effectus in esse producitur.</p>
+          <p xml:id="bb-d1e29581-d1e213">Ad illud quod obicitur, quod dilectio Dei est causa sufficiens, proxima et immediata boni
+      creati dicendum quod verum est ; sed quemadmodum voluntas divina dicitur causa immediata,
+      quia non intervenit alia causa, non tamen quod semper ponat effectum, sed solum pro tempore
+      pro quo vult sicut ab aeterno voluit ; sed statim fecit, cum venit tempus pro quo voluit :
+      sic et in ipsa dilectione Dei oportet intelligi.</p>
+          <p xml:id="bb-d1e29581-d1e217">Ad illud quod obicitur, quod si diligit, aut ut fruens aut ut utens, dicendum quod dilectio
+      Dei una est qua diligit se et qua diligit creaturam ; et haec quidem, relata ad ipsum Deum,
+      est fruitio, comparata vero ad creaturam est usus. Cum ergo dicit quod, non contingit uti
+      nisi eo quod est, dicendum quod, si usus accipiatur pro exteriori actione, verum est ; sed
+      si accipiatur pro interiori et habituali ordinatione in finem alicuius effectus producendi,
+      sic non habet veritatem, quia efficiens longe ante refert ad finem illud quod intendit
+      facere quam etiam producat in re.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 29, A. 1, Q. 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 29, A. 1, Q. 4</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e27092">
+        <head xml:id="bb-d1e27092-Hd1e119">III, D. 29, A. 1, Q. 4</head>
+        <head xml:id="bb-d1e27092-Hd1e122" type="question-title">Utrum magis diligendi sint parentes quam filii an e converso.</head>
+        <p xml:id="bb-d1e27092-d1e125">Quarto quaeritur de ordine caritatis per comparationem patris ad filium, et quaeritur, utrum
+    magis sint diligendi parentes quam filii an e converso.</p>
+        <div xml:id="bb-d1e27103" type="rationes-principales">
+          <head xml:id="bb-d1e27092-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e27092-d1e133">Et quod primo sint diligendi parentes, videtur. Primo, per mandatum Domini ; praecipit enim
+      honorare parentes, Exodi 20, 12 : <quote xml:id="bb-d1e27092-Qd1e135" ana="#ex20_12">Honora patrem tuum</quote> etc. Si ergo mandata Dei
+      tradita sunt secundum ordinem caritatis, videtur quod amor caritatis principalius ad
+      parentes quam ad filios habet ordinare.</p>
+          <p xml:id="bb-d1e27092-d1e139">Item, auctoritate <name ref="#Ambrose">Ambrosii</name>, quae habetur in littera, dicit enirit, quod <quote xml:id="bb-d1e27092-Qd1e144">primo
+       diligendus est Deus, secundo parentes, deinde filii</quote>.</p>
+          <p xml:id="bb-d1e27092-d1e148">Item, hoc ipsum videtur ratione, quoniam secundum legem caritatis grati debemus esse de
+      beneficiis acceptis ; sed plura beneficia accipimus a parentibus quam a filiis : ergo magis
+      debemus eis esse grati. Sed qui magis est gratus alii magis ipsum diligit : ergo parentes in
+      ordine caritatis sunt filiis praeponendi.</p>
+          <p xml:id="bb-d1e27092-d1e151">Item, principiatum plus pendet a principio quam e converso ; sed ubi est maior dependentia,
+      ibi est maior inclinatio ; et ubi maior inclinatio, ibi maior amoris conversio : cum ergo
+      habens patrem et filium ad patrem comparatur sicut principiatum ad principium, ad filium
+      vero sicut principium ad principiatum, videtur quod secundum regulam amoris magis debet
+      converti ad patrem quam ad filium.</p>
+          <p xml:id="bb-d1e27092-d1e155">Sed contra : II ad Corinthios 12, 14 : <quote xml:id="bb-d1e27092-Qd1e157" ana="#IIcor12_14">Non debent filii thesaurizare, sed parentes
+       filiis</quote> ; sed nemo debet thesaurizare nisi ei quem debet diligere : si ergo magis
+      debent thesaurizare parentes filiis quam e converso, magis debent secundum caritatis ordinem
+      parentes filios diligere quam filii parentes.</p>
+          <p xml:id="bb-d1e27092-d1e161">Item, secund uni ordinem naturae humor procedit a radice ad ramos, non e converso. Si ergo
+      conversio amoris in rationalibus similis est derivationi humoris in vegetabilibus, et pater
+      comparatur habet ad filios sicut radix ad ramos, videtur quod secundum rectum ordinem
+      amplius sint diligendi filii quam parentes.</p>
+          <p xml:id="bb-d1e27092-d1e164">Item, caritas respicit boni communicationem secundum convenientiam et conformitatem ; sed
+      plus boni communicant parentes filiis quam e converso : ergo videtur quod amor caritatis
+      secundum rectum ordinem prius et abundantius reddat habilem ad diligendum filios quam
+      parentes.</p>
+          <p xml:id="bb-d1e27092-d1e167">Item, gratia est perfectio naturae ; sed videmus quod naturaliter homines plus diligunt
+      filios homo quam parentes : ergo videtur quod consimilis ordo debeat esse in amore
+      gratuito.</p>
+        </div>
+        <div xml:id="bb-d1e27146">
+          <head xml:id="bb-d1e27092-Hd1e173">Conclusio</head>
+          <head xml:id="bb-d1e27092-Hd1e176" type="question-title">Secundum ordinem caritatis parentes plus diligendi sunt quam
+      filii, ceteris paribus</head>
+          <p xml:id="bb-d1e27092-d1e179">Respondeo : Dicendum quod, sicut dicit <name ref="#Ambrose">Ambrosius</name>, secundum ordinem caritatis parentes
+      praeponendi sunt filiis ; et hoc intelligendum est ceteris paribus, sicut infra
+      manifestabitur. Ratio enim huius est, quia amor gratuitus facit memorem esse perceptorum
+      beneficiorum : propter quod et sacra Scriptura praecipiendo et admonendo inducit nos ad
+      paterna beneficia recolenda ; et quia plura beneficia percepimus a parentibus quam a filiis,
+      ideo secundum ius divinum plus eis tenemur et magis eorum salutem diligere et procurare
+      debemus. Et concedendae sunt rationes quae hoc ostendunt.</p>
+          <p xml:id="bb-d1e27092-d1e185">Ad rationes autem, quae ad oppositum adducuntur, respondendum est quod illae rationes
+      currunt de dilectione naturali, secundum quam magis inclinatur affectus hominis ad filios
+      quam ad patrem. Et ratio huius parentes est, quia natura appetit conservari in suo simili et
+      magis diligit illud in quo habet principalius salvari ; et quoniam pater habet salvari in
+      filio secundum ordinem naturae, non e converso, hinc est quod secundum naturae ordinem
+      maiorem habet ad filium inclinationem, quia magis vult ipsum quam patrem habere superstitem.
+      Dilectio autem gratuita magis respicit beneficiorum collationem et supernorum civium
+      completionem, ad quam indifferenter parentes et filii comparantur.</p>
+        </div>
+        <div xml:id="bb-d1e27165">
+          <head xml:id="bb-d1e27092-Hd1e192">Ad Rationes</head>
+          <p xml:id="bb-d1e27092-d1e195">Et per hoc patet responsio ad illa tria quae primo obiciebantur.</p>
+          <p xml:id="bb-d1e27092-d1e198">Ad illud vero quod ultimo obicitur, quod gratia debet esse conformis naturae, dicendum quod
+      natura in quibusdam currit via consona cum gratia, in quibusdam currit via opposita, in
+      quibusdam currit via disparata. In hoc enim quod homo plus diligit se quam proximum, natura
+      gratiae concordat, sicut supra ostensum est ; in hoc quod diligit se plus quam Deum, ipsi
+      gratiae repugnat ; in hoc autem quod diligit filium plus quam patrem, quia intendit salvari
+      in illo, procedit quasi via diversa. Et ideo gratia superveniens ordinem in primo affectu
+      salvat et perficit, in secundo simpliciter mutat, in tertio vero novum ordinem dat, ita
+      tamen quod affectum illum non exterminat. Unde aestimo quod homo habens caritatem et habens
+      parentes et filios, dum movetur affectu gratuitae dilectionis, magis desiderat parentum
+      salutem ; dum movetur affectu naturae, magis desiderat filii sanitatem. Nec est hic
+      oppositio dilectionis naturalis ad gratuitam propter considerationem diversam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

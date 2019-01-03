@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 24, A. 1, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 24, A. 1, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e21618">
+        <head xml:id="bb-d1e21618-Hd1e119">III, D. 24, A. 1, Q. 3</head>
+        <head xml:id="bb-d1e21618-Hd1e122" type="question-title">Utrum fides sit circa complexum an circa incomplexum.</head>
+        <p xml:id="bb-d1e21618-d1e125">Tertio quaritur, utrum fides sit circa complexum an circa incomplexum.</p>
+        <div xml:id="bb-d1e21629" type="rationes-principales">
+          <head xml:id="bb-d1e21618-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e21618-d1e133">Et quod sit circa complexum, videtur. <quote xml:id="bb-d1e21618-Qd1e135">Credere enim, sicut dicit <name ref="#Augustine">Augustinus</name>, est
+       cogitare cum assensione</quote> ; sed assensus rationis non est supra incomplexum, sed
+      supra complexum : videtur ergo quod fides sit circa complexum sicut circa proprium
+      obiectum.</p>
+          <p xml:id="bb-d1e21618-d1e142">Item, fides credit aliquid, quia verum, et respuit, quia falsum ; sed verum et falsum sunt
+      circa complexionem : ergo videtur quod et habitus fidei ipsum complexum sive enuntiabile
+      respiciat ut obiectum.</p>
+          <p xml:id="bb-d1e21618-d1e145">Item, fides est media inter opinionem et scientiam, secundum quod vult Hugo ; sed tam
+      opinio quam scientia est circa complexum : ergo, cum medium suscipiat naturam extremorum,
+      videtur similiter quod et fides.</p>
+          <p xml:id="bb-d1e21618-d1e148">Item, fides est opposita errori ; sed nullus errat nisi ex hoc quod attribuit aliquid
+      alicui quod non est attribuendum vel removet quod non est removendum ; hoc autem non fit
+      nisi in complexione : ergo omnis error circa complexionem consistit. Si igitur
+       <quote xml:id="bb-d1e21618-Qd1e150">opposita nata sunt consistere circa idem</quote>, videtur similiter quod et fides
+      verum complexum habeat pro obiecto.</p>
+          <p xml:id="bb-d1e21618-d1e155">Item, si ipsum verum incomplexum est obiectum fidei, cum ergo Iudaei credulitatem habeant
+      de incarnatione, Iudaei fidem haberent incarnationis ; quod est manifeste falsum, immo
+      errant circa articulum illum. Similiter illi qui crederent resurrectionem iam factam,
+      haberent fidem de resurrectione, quos tamen circa resurrectionem constat errare. Restat
+      igitur quod aliquid incomplexum non habet esse ipsius fidei obiectum ; et est complexum vel
+      incomplexum : ergo complexum.</p>
+          <p xml:id="bb-d1e21618-d1e158">Sed contra : Super illud I ad Corinthios 10, 4 : <quote xml:id="bb-d1e21618-Qd1e160">Omnes eumdem potum spiritualem
+       biberunt</quote>, Glossa <name ref="#Augustine">Augustini</name> : <quote xml:id="bb-d1e21618-Qd1e166">Tempora sunt mutata, sed tamen non est fides
+       variata</quote>. Si igitur non est fides variata, nec obiectum fidei : cum ergo
+      enuntiabilia quae creduntur variata sunt, quia illi credebant Christum esse passurum, nos,
+      passum esse, illi, incarnandum, nos, incarnatum esse : restat igitur quod fides non est
+      circa enuntiabile sive circa complexum tamquam circa obiectum.</p>
+          <p xml:id="bb-d1e21618-d1e170">Item, obiectum fidei est Verum increatum, sicut prius fuit ostensum : unde Richardus de
+      Sancto Victore dicit quod <quote xml:id="bb-d1e21618-Qd1e172">articulus est veritas de Deo</quote>. Si ergo Deus est
+      simplicissimus, et in simplici nulla cadit complexio vel compositio, videtur quod obiectum
+      fidei non sit verum complexum, sed incomplexum.</p>
+          <p xml:id="bb-d1e21618-d1e176">Item, de eodem et circa idem est fides circa quod est visio futura ; sed visio est circa
+      verum incomplexum et per modum incomplexionis - erit enim visio simplex intuitus summae
+      lucis - ergo videtur quod fides similiter consistat circa verum incomplexum per modum
+      incomplexi.</p>
+          <p xml:id="bb-d1e21618-d1e179">Item, spes et caritas sunt circa res incomplexas et per modum incomplexionis, quia spes
+      expectat beatitudinem et caritas amat Deum. Ergo, cum virtutes theologicae idem habeant pro
+      obiecto secundum rem, videtur quod et ipsa fides circa verum incomplexum consistat.</p>
+          <p xml:id="bb-d1e21618-d1e182">Item, si fides consistat circa verum complexum, cum tempore passionis paucissimi scirent
+      Christum pati, et in tempore incarnationis paucissimi scirent Christum incarnari, paucissimi
+      habuissent fidem ; Cornelius etiam fidem non habuisset, qui nesciebat Christum esse
+      incarnatum nec passum, et tamen de illo legitur quod eleemosynae eius placuerunt Deo ; sine
+      fide autem, ut dicitur ad Hebraeos 11, 6, impossibile est placere Deo. Si igitur ista
+      inconvenientia essent, inconveniens est ponere quod fides consistat circa complexionem.</p>
+        </div>
+        <div xml:id="bb-d1e21687">
+          <head xml:id="bb-d1e21618-Hd1e188">Conclusio</head>
+          <head xml:id="bb-d1e21618-Hd1e191" type="question-title">Fides proprie consistit circa verum complexum.</head>
+          <p xml:id="bb-d1e21618-d1e194">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hanc quaestionem diversi
+      diversimode senserunt.</p>
+          <p xml:id="bb-d1e21618-d1e197">Quidam enim dicere voluerunt quod fides consistit circa incomplexum sicut circa proprium
+      obiectum ; et isti dixerunt quod articuli fidei non sunt enuntiabilia, sed res, utpote
+      incarnatio, passio et resurrectio ; et ista quidem omni tempore sunt eadem sicut et ipsa
+      fides. Quod autem actus fidei transit super ipsum credibile sicut super complexum, hoc est
+      propter defectum intellectus, qui non potest totum simplici aspectu intueri, sed primo hoc
+      intuetur et postea illud, componens unum alteri. Sed quoniam ipse assensus fidei est proprie
+      super complexionem, et ad perfectionem fidei non tantum oportet cogitare de incarnatione,
+      sed etiam oportet credere incarna tionem iam fuisse : ideo dixerunt alii quod articuli sunt
+      enuntiabilia et quod fides consistit circa complexum, maxime cum fides quantum ad aliquos
+      articulos simul respiciat increatum et creatum et de nullo creato possit esse nisi secundum
+      quod componitur ipsi increato, secundum quod prius habitum est. Si ergo intellectus illud
+      non capit nisi per modum complexionis, rationabilius videtur illud ponere et dicere quod
+      fides sit circa verum complexum sive sub ratione complexi. Et quoniam errans circa verum
+      complexum quantum ad differentiam temporis simpliciter iudicatur haereticus, sicut si
+      aliquis crederet resurrectionem iam factam vel incarnationem futuram, ideo non solum
+      dixerunt fidem esse circa verum complexum, sed etiam circa verum complexum sub determinata
+      differentia temporis. Et si tu obicias eis de mutatione fidei propter mutationem istorum
+      enuntiabilium, respondent, secundum Nominales, quod enuntiabilia non sunt mutata, quia te
+      esse cursurum, te currere, te cucurrisse, in diversis temporiribus prolata, idem significant
+      et unum est enuntiabile, quia una est res quam significant, et unum est tempus pro quo
+      proferuntur ; et ideo unum sunt secundum rem et veritatem, quamvis videantur vocaliter esse
+      diversa. Aliter etiam respondent. Esto quod ista enuntiabilia sint diversa, quia tamen una
+      est Veritas cui fides assentit principaliter et ratione cuius ista enuntiabilia credit, quae
+      quidem non mutatur secundum diversitatem temporis, licet ipsa enuntiabilia diversificentur,
+      non propter hoc fides mutatur et diversificatur, immo in diversis temporibus fides non
+      mutata consistit.</p>
+          <p xml:id="bb-d1e21618-d1e200">Sed quia positio illa Nominalium, quae dicebat enuntiabilia diversorum temporum esse unum,
+      communiter non approbatur, immo falsa est, sicut in primo libro fuit ostensum ; similiter
+      nec alius modus dicendi sufficit quod ad immutabilitatem fidei sufficiat immutabilitas
+      rationis credendi - si enim articuli sunt enuntiabilia et dicuntur immutabiles propter
+      rationem credendi immutabile, pari ratione omnes dicerentur unus articulus propter unicam
+      rationem credendi quae est in eis - ideo est tertius modus dicendi quod, cum fidei habitus
+      faciat mentem assentire credibili sive credito, et assensus animi non feratur supra
+      incomplexum, sed supra complexum, ponere oportet quod ipsum obiectum fidei, secundum quod
+      supra illud fertur fides, habet rationem complexi. Et quia dupliciter contingit fidem ferri
+      in obiectum suum, scilicet aut implicite aut explicite, ideo secundum duplicem modum dicitur
+      complexum esse obiectum fidei sive fides consistere circa complexum. Nam fides quantum ad
+      suam substantiam respicit complexum sive enuntiabile, non concernendo determinatam temporis
+      differentiam, immo aliquod dictum quod est commune et indifferens ad omne tempus, sicut
+      Christum fuisse passurum. Fides autem explicita respicit complexum sub differentia temporis
+      determinata, sicut nunc oportet credere incarnationem fuisse et resurrectionem futuram esse.
+      Sicut ergo explicatio accidit fidei nec mutat essentiam fidei, sic et variatio temporis
+      determinati non variat fidem, ut sit alia et alia secundum speciem. Et hic quidem modus
+      dicendi satis est probabilis. Hunc igitur sustinendo dicere possumus quod fides proprie
+      consistit circa verum complexum. Et concedendae sunt rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-d1e21706">
+          <head xml:id="bb-d1e21618-Hd1e207">Ad Rationes</head>
+          <p xml:id="bb-d1e21618-d1e210">Ad illud quod primo obicitur de enuntiabilium mutatione, iam patet responsio, quia
+      enuntiabile, quod non concernit determinatam temporis differentiam, in diversis temporibus
+      non mutatur, et hoc est circa quod babet fides consistere secundum quod fides ; sed illa
+      enuntiabilia solum variantur, quae concernunt determinatam temporis differentiam, et circa
+      hoc consistit fides secundum quod explicita. Et ex hoc non potest concludi quod fides sit
+      alia et alia, sed quod fidei explicatio sit variata in diversis temporibus.</p>
+          <p xml:id="bb-d1e21618-d1e213">Ad illud quod obicitur, quod fides est circa Verum increatum, circa quod nulla est
+      complexio, dicendum quod, sicut in primo libro dictum fuit, quamvis Deus sit simplicissimus,
+      tamen circa ipsum vere contingit enuntiare hoc de hoc per modum complexionis, pro eo quod
+      illam complexionem non ponit intellectus circa rem, sed circa se ipsum intelligentem ; nec
+      tamen errat, quia non potest simplicitatem divini esse nisi sub tali compositione et
+      collatione capere. Et per hunc modum intelligendum est in fide. Praeterea, fides non tantum
+      est de Vero increato in se, sed etiam prout comparatur ad veritatem creatam, sicut dictum
+      est supra ; et illa comparatio sub quadam complexione est, et propterea illa ratio non
+      cogit.</p>
+          <p xml:id="bb-d1e21618-d1e216">Ad illud quod obicitur, quod de eodem est fides in via et visio in patria, dicendum quod
+      unum et idem potest apprehendi per modum incomplexi et per modum complexi, sicut patet in
+      apprehensione sensus et intellectus. Sensus enim, dum apprehendit rem albam, apprehendit per
+      modum cuiusdam incomplexionis, quia non novit sensus exterior componere nec dividere ; sed
+      intellectus, dum illud idem apprehendit quod sensus apprehendebat, sub modo complexionis
+      accipit, praedicans hoc de hoc, componens hoc illi et dicens hoc esse album ; et ita
+      complexum et incomplexum non faciunt diversitatem a parte rei comprehensae, sed a parte modi
+      comprehendendi, quia unum et idem potest apprehendi sub modo complexionis et incomplexionis.
+      Et propterea non sequitur quod, si visio est de eodem de quo est fides, et visio non est sub
+      ratione complexionis, ergo et fides ; immo est ibi figura dictionis vel etiam accidens, quia
+      proceditur ab unitate rei ad unitatem modi. Et si tu quaeras quare fides non assentit
+      obiecto suo per modum incomplexi sicut visio, satis plana est responsio : quia visio patriae
+      uno et simplici aspectu faciet videri et cognosci multa propter perfectionem gloriae ; non
+      sic autem est de cognitione secundum statum viae, quem quidem statum respicit ipsa
+      fides.</p>
+          <p xml:id="bb-d1e21618-d1e219">Ad illud quod obicitur de spe et caritate, dicendum quod non est simile, quia proprie
+      intellectus est negotiari circa complexum, sed affectus est negotiari circa ipsam rem ; et
+      quia res in se ipsa habet rationem incomplexionis, sed prout est in intellectu, habet
+      rationem complexionis, hinc est quod, quamvis virtutes respicientes affectum sint circa
+      obiectum suum praeter rationem complexionis, non tamen propter hoc fides, quae est regula
+      intellectus. Nec valet quod, si idem est obiectum virtutum theologicarum, propter hoc, in
+      quantum est fidei, careat complexione sicut in quantum est aliarum. Complexum enim et
+      incomplexum non dicunt variationem a parte rei, sed solum a parte modi sicut prius visum est
+      ; et quamvis virtutes theologicae habeant idem obiectum secundum rem et substantiam, habent
+      tamen differens secundum rationem et modum.</p>
+          <p xml:id="bb-d1e21618-d1e223">Ad illud quod obicitur de Cornelio, iam patet responsio, quia Cornelius habebat fidem
+      implicitam, et ideo non credebat incarnationem vel passionem sub differentia temporis
+      determinata ; et propterea non errabat, sed explicatio fidei sibi deerat, ad quam faciendam
+      misit Dominus Ecclesiae architectum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

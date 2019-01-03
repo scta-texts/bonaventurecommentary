@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 9, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 9, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e9294">
+        <head xml:id="bb-d1e9294-Hd1e119">III, D. 9, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e9294-Hd1e122" type="question-title">Utrum latria sit virtus generalis vel specialis.</head>
+        <p xml:id="bb-d1e9294-d1e125">Secundo quaeritur, utrum latria sit virtus generalis vel specialis.</p>
+        <div xml:id="bb-d1e9305" type="rationes-principales">
+          <head xml:id="bb-d1e9294-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e9294-d1e133">Et quod sit specialis, videtur. Virtus quae habet obiectum speciale est virtus specialis ;
+      sed latria est huiusmodi : ergo est virtus specialis.</p>
+          <p xml:id="bb-d1e9294-d1e136">Item, circa actum specialem consistit virtus specialis ; sed adoratio est actus specialis :
+      ergo circa ipsum consistit virtus specialis ; haec autem est latria : ergo etc.</p>
+          <p xml:id="bb-d1e9294-d1e139">Item, sicut difficile est credere in summam veritatem, sic et honorare summam maiestatem.
+      Si ergo habemus virtutem specialem qua credimus in primam veritatem, scilicet fidem, sic et
+      qua honoramus summam maiestatem ; haec autem non est nisi latria : ergo latria est virtus
+      specialis.</p>
+          <p xml:id="bb-d1e9294-d1e142">Item, latria et idololatria sunt opposita ; sed idololatria est vitium speciale : ergo, ab
+      oppositis, latria est virtus specialis.</p>
+          <p xml:id="bb-d1e9294-d1e146">Sed contra : <name ref="#Augustine">Augustinus</name>, in Enchiridio : <quote xml:id="bb-d1e9294-Qd1e151" source="http://scta.info/resource/augen-d1e56">Si quaeritur : quo modo colitur Deus?
+       respondeo : fide et spe et caritate</quote>. Sed virtus, qua colitur Deus, est ipsa latria
+      : ergo latria comprehendit in se fidem et spem et caritatem: ergo latria non est virtus
+      specialis, sed generalis.</p>
+          <p xml:id="bb-d1e9294-d1e155">2 Item <name ref="#Augustine">Augustinus</name>, X De civitate Dei, 6 capitulo : <quote xml:id="bb-d1e9294-Qd1e160" source="http://scta.info/resource/adcd-l10">Verum sacrificium est omne opus, quod geritur
+       ut sancta societate iungamur Deo</quote>. Sed sacrificium est cultus soli Deo debitus,
+      sicut ibidem dicit <name ref="#Augustine">Augustinus</name> ; hoc autem est ipsius latriae offerre : ergo videtur quod
+      omne opus bonum sit latriae : ergo latria est virtus generalis.</p>
+          <p xml:id="bb-d1e9294-d1e167">Item, quicumque obedit Deo, servit Deo ; sed servitus soli Deo debita est latria : ergo
+      omnis actus quo Deo obedimus est actus latriae : igitur latria se extendit ad actum omnis
+      virtutis et praecepti : igitur non est virtus specialis, sed generalis.</p>
+          <p xml:id="bb-d1e9294-d1e170">Item, quaecumque facit quis ad gloriam Dei, facit ad cultum Dei ; sed omnia quaecumque bene
+      facimus, facimus ad gloriam Dei, ut dicit Apostolus, 1 ad Corinthios 10, 31 : <quote xml:id="bb-d1e9294-Qd1e172" ana="#Icor10_31">Omnia in gloriam Dei facite</quote> : ergo omne opus laudabile est opus
+      latriae : igitur latria videtur esse generalis habitus ad omnes virtutes.</p>
+        </div>
+        <div xml:id="bb-d1e9354">
+          <head xml:id="bb-d1e9294-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e9294-Hd1e182" type="question-title">Latria, quatenus respicit Deum solum sub ratione finis et obiecti,
+      sed etiam sub ratione honorabilis, est virtus specialis.</head>
+          <p xml:id="bb-d1e9294-d1e185">Respondeo : Dicendum quod latria nominat habitum, nominat etiam cultum Dei, ad quem ille
+      habitus ordinatur. Cultus autem Dei potest accipi tripliciter : generaliter et proprie et
+      magis proprie. Uno modo dicitur cultus actus directus in Deum sub ratione finis ; sic est
+      omnis virtutis. Alio modo dicitur cultus Dei actus in Deum directus, non solum ratione
+      finis, sed etiam obiecti ; sic est virtutum theologicarum. Tertio modo cultus. Dei dicitur
+      magis proprie actus directus in Deum, non solum sub ratione finis et obiecti, sed etiam sub
+      ratione honorabilis ; et talis actus est actus adorationis ; et sic est virtutis specialis,
+      et hoc modo est ipsius latriae. Sicut enim idololatria non dicitur quodcumque peccatum, sed
+      illud quo creatura adoratur, sic latria non dicitur quicumque habitus, sed ille secundum
+      quem cultus adorationis exhibetur. Et ideo concedendum est quod latria est specialis virtus,
+      propter hoc quod ad ipsam spectat cultus Dei, secundum quod dicitur magis proprie, videlicet
+      pro ipsa adoratione. Et concedendae sunt rationes ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d1e9367">
+          <head xml:id="bb-d1e9294-Hd1e192">Ad rationes</head>
+          <p xml:id="bb-d1e9294-d1e195">Ad illud quod obicitur in contrarium, quod sacrificium offertur Deo in quolibet bono opere,
+      dicendum quod sicut cultus Dei multipliciter dicitur, sic et sacrificium. Est enim
+      sacrificium bonae operationis et sacrificium devotae orationis et sacrificium immolationis.
+      Primum est virtutum omnium ; secundum virtutum theologicarum ; tertium spectat ad ipsam
+      latriam. Ipsius enim latriae est sacrificium offerre Deo ; et hoc sacrificium soli Deo
+      debetur, sicut dicit <name ref="#Augustine">Augustinus</name>, et latria dicit cultum soli Deo debitum.</p>
+          <p xml:id="bb-d1e9294-d1e201">Ad illud quod obicitur, quod Deus colitur fide, spe et caritate, dicendum quod cultus Dei
+      non accipitur ita stricte sicut in definitione latriae, ut praetactum est ; et ideo non
+      sequitur quod latria sit generalis virtus ad tres virtutes theologicas.</p>
+          <p xml:id="bb-d1e9294-d1e204">Ad illud quod obicitur, quod omnis qui obedit Deo, servit Deo, dicendum quod verum est. Ex
+      hoc tamen non sequitur quod omnis obedientia sit latria, quia obedientia non solum dicit
+      servitutem debitam ipsi Deo, sed etiam servitutem his qui sunt loco Dei, ut praelatis.
+      Latria autem dicit servitutem soli Deo debitam ; et ideo ratio illa non valet, sed peccat
+      secundum consequens.</p>
+          <p xml:id="bb-d1e9294-d1e207">Ad illud quod obicitur, quod omnia quaecumque fiunt ad gloriam Dei, fiunt ad cultum Dei,
+      patet responsio per iam dicta, quoniam cultus accipitur ibi generaliter pro actu ordinato in
+      Deum tamquam in finem ; in definitione autem latriae accipitur magis proprie, secundum quod
+      dictum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

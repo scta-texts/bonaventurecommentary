@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 39, A. 3, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 39, A. 3, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e37340">
+        <head xml:id="bb-d1e37340-Hd1e119">III, D. 39, A. 3, Q. 3</head>
+        <head xml:id="bb-d1e37340-Hd1e122" type="question-title">Utrum iuramentum incautum sit obligatorium.</head>
+        <p xml:id="bb-d1e37340-d1e125">Tertio quaeritur, utrum iuramentum incautum sit obligatorium. Iuramentum autem incautum dico
+    quod vergit in exitum malum vel in exitum minus bonum.</p>
+        <div xml:id="bb-d1e37351" type="rationes-principales">
+          <head xml:id="bb-d1e37340-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e37340-d1e133">Et quod iuramentum incautum, quod vergit in exitum malum, sit obligatorium, probatur.
+      Primo, per exemplum <quote xml:id="bb-d1e37340-Qd1e135">Iosue, de quo dicit <name ref="#Ambrose">Ambrosius</name>, in libro De officiis : Iosue
+       pacem, quam dederat, revocandam non censuit, quia firmata erat sacramenti religione, ne,
+       dum alienam perfidiam redargueret, suam fidem solveret</quote>. Tenebatur ergo Iosue
+      iuramentum, quod fecerat, observare ; sed illud iuramentum fuit incautum et vergebat in
+      exitum malum, quia contra Dei praeceptum, quo praeceperat Dominus ne cum gentibus illis
+      foedus iniret : ergo videtur quod tale iuramentum sit obligatorium.</p>
+          <p xml:id="bb-d1e37340-d1e142">Item, <name ref="#Augustine">Augustinus</name> dicit quod meretrix iurans se servaturam fidem suo leccatori, peior est,
+      si non servat fidem, quam si observaret ; sed iuramentum illud habet malum exitum, et tamen
+      obligat, alioquin non esset peior in non observando quam in observando : ergo iuramentum,
+      quod simpliciter vergit in exitum malum, est obligatorium.</p>
+          <p xml:id="bb-d1e37340-d1e148">Item, hoc ipsum, videtur de iuramento quod vergit in exitum minus bonum, utpote qui iurat
+      se non intraturum religionem, quia aliquis per matrimonii vinculum potest se obligare ut non
+      intret religionem, ita quod matrimonium illud vere est obligatorium. Ergo pari ratione
+      videtur quod et per ipsum iuramentum.</p>
+          <p xml:id="bb-d1e37340-d1e151">Item, licitum est alicui nolle intrare religionem, et quod licitum est nolle licitum est
+      confirmare, et quod licitum est confirmare licitum est iurare ; sed iuramentum licitum est
+      iuramentum obligatorium : videtur ergo quod, cum aliquis iuret se non intraturum religionem,
+      quod per illud iuramentum obligatur. Sed tale est iuramentum incautum quod vergit in exitum
+      minus bonum : ergo videtur quod iuramentum illud sit obligatorium.</p>
+          <p xml:id="bb-d1e37340-d1e155">Sed contra : Beda dicit, et <name ref="#Lombard">Magister</name> adducit in littera : <quote xml:id="bb-d1e37340-Qd1e160">Si quid nos incautius
+       iurare contigerit, quod observatum peiorem vergat in exitum, libere illud salubriori
+       consilio mutandum noverimus</quote>. Ergo secundum hoc iuramentum incautum, quod vergit in
+      exitum malum vel minus bonum, non est obligatorium.</p>
+          <p xml:id="bb-d1e37340-d1e164">Item, Isidorus : <quote xml:id="bb-d1e37340-Qd1e166">Non est observandum sacramentum, quo malum incaute
+       promittitur</quote>. Si tu dicas quod auctoritas ista intelligitur solum quando quis iurat
+      quod est malum et iniustum, sed non quando quis iurat se non facturum bonum perfectum ; ad
+      quod non tenetur, obicitur contra hoc, quia nullum iuramentum est iustum quod impugnat
+      iustitiae perfectionem ; sed iuramentum, quo quis iurat se non intraturum religionem nec
+      aggressurum perfectionem, est perfectae iustitiae impugnativum : ergo et iuramentum iniquum.
+      Sed nullum tale est obligatorium : ergo videtur quod nullus obligetur per iuramentum
+      incautum, quod vergit in exitum minus bonum.</p>
+          <p xml:id="bb-d1e37340-d1e170">Item, nullum iuramentum est discretum quod est contra Spiritus Sancti consilium ; sed, cum
+      quis iurat se non intraturum religionem, iuramentum illud est contra Spiritus Sancti
+      consilium ; sed nullum tale iuramentum habet in comitatu iudicium, et nullum tale est
+      obligatorium : ergo idem quod prius.</p>
+          <p xml:id="bb-d1e37340-d1e173">Iuxta hoc quaeritur, si quis iurat se nunquam recepturum praelationem, utrum per tale
+      iuramentum obligetur. Et quod sic, videtur, quia licitum est praelationem fugere : ergo
+      licitum est quod quis iuret eam non recipere. In contrarium est quod maioris perfectionis
+      est, ut communiter dicitur, status praelationis quam religionis, et bono privato praeferenda
+      est utilitas communis.</p>
+        </div>
+        <div xml:id="bb-d1e37400">
+          <head xml:id="bb-d1e37340-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e37340-Hd1e182" type="question-title">Iuramentum incautum, quod vergit in salutis detrimentum, vel
+      directe in perfectionis impedimentum.</head>
+          <p xml:id="bb-d1e37340-d1e185">Respondeo : Ad praedictorum intelligentiam est notandum quod multipliciter contingit
+      iuramentum esse incautum. Primo modo, quando iuratur aliquid quod simpliciter vergit in
+      salutis detrimentum, sicut cum aliquis iurat se facturum aliquid quod non potest sine
+      peccato mortali consummari. Secundo modo dicitur iuramentum esse incautum, cum quis iurat
+      aliquid quod vergit in salutis suae dispendium et perfectionis impedimentum, ut puta cum
+      iurat quis se nunquam intraturum religionem. Tertio modo dicitur iuramentum incautum, cum
+      quis iurat aliquid in omnem eventum, quod, uno casu contingente, vergit in salutis
+      dispendium, alio casu contingente, vergit in salutis profectum ; sicut cum iurat aliquis se
+      nunquam recepturum praelationem, quod quidem est in salutis dispendium, si utilis sit et
+      canonice eligatur et a maiori sibi iniungatur ; tunc autem vergit in salutis profectum, si
+      sit persona inutilis sibi et aliis ad statum illum promoveri.</p>
+          <p xml:id="bb-d1e37340-d1e188">Si ergo loquamur de iuramento primo modo, sic absque dubio non est licitum nec
+      obligatorium, immo qui ipsum observai committit peccatum. Si vero loquamur de iuramento
+      incauto secundo modo, sic nec est licitum nec obligatorium, licet ipsum observare non sit
+      peccatum, quia non est peccatum non intrare religionem ; grave tamen peccatum est iurare se
+      nunquam ascensurum ad gradum perfectionis, quia in hoc quodam modo impugnat ipsius iustitiae
+      perfectionem et Spiritus Sancti inspirationem. Si vero loquamur de iuramento tertio modo,
+      sic, uno casu contingente, est observandum, videlicet quando vergit in salutis profectum ;
+      alio vero casu contingente, est illicitum et non observandum, videlicet cum vergit in
+      salutis detrimentum. Et per hoc patet responsio ad quaestionem propositam. Concedendum est
+      enim quod iuramentum incautum, quod vergit in salutis detrimentum vel quod directe vergit in
+      perfectionis impedimentum, non est obligatorium, sicut rationes ad hanc partem inductae
+      ostendunt.</p>
+        </div>
+        <div xml:id="bb-d1e37416">
+          <head xml:id="bb-d1e37340-Hd1e195">Ad Rationes</head>
+          <p xml:id="bb-d1e37340-d1e198">Ad illudvero quod primo obicitur in contrarium de Iosue, dicendum quod iuramentum illud
+      observatum non vergebat in malum exitum, immo in bonum. Triplex enim ratio fuit quare
+      Gabaonitae fuerunt reservati et non interfecti. Una videlicet litteralis, quia melius erat
+      ut damnarentur perpetua servitute quam punirentur morte, maxime cum prompti essent servire
+      et mortem sustinere, sicut ex ipso textu apparet. Alia vero ratio est moralis, quia in hoc
+      significatur quod, quantumcumque Deus minetur alicui et indignetur in praesenti vita, si
+      tamen ad ipsum revertatur toto corde, non claudit misericordiae viscera. Tertia vero ratio
+      est figuralis, quia in hoc significatur quod semper in nobis duo sunt populi secundum quod
+      duo fuerunt in terra promissionis, videlicet Amorrhaeorum et filiorum Israel, hoc est motuum
+      rationalium et brutalium ; secundum quod dicit <name ref="#Bernard">Bernardus</name> : <quote xml:id="bb-d1e37340-Qd1e203">Quantumcumque labores,
+       necesse est ut intra fines tuos habitet lebusaeus</quote>. Unde multiplici ratione
+      observatio iuramenti illius non vergebat in exitum malum, sed potius in bonum. Et quod
+      obicitur de mandato Domini, quod Dominus praeceperat quod cum eis foedus non iniret,
+      dicendum quod hoc intelligendum est quantum ad eos qui erant incorrigibiles.</p>
+          <p xml:id="bb-d1e37340-d1e207">Ad illud quod obicitur de meretrice, quae iurat leccatori suo fideliter adhaerere, dicendum
+      quod in iuramento est duo considerare ; unum, quod meretrix iurat se consensuram in nefarium
+      actum cum suo leccatore ; aliud, quod iurat se alteri non daturam. Et primum quidem est
+      illicitum, et ad hoc non obligatur ; secundum quidem licitum, et quantum ad hoc obligatur.
+      Et ideo dicit <name ref="#Augustine">Augustinus</name> quod peior est non servando quam si iuramentum servaret. Per hunc
+      etiam modum intelligendum est, si aliquis latro iuraret alii se praedam cum illo divisurum
+      et postea retineret totum.</p>
+          <p xml:id="bb-d1e37340-d1e213">Ad illud quod obicitur de eo qui iurat se nunquam religionem intraturum, quod licite potest
+      iurare sicut licite potest contrahere matrimonium, dicendum quod non est simile hinc et
+      inde, duplici ex causa. Prima est, quia matrimonium non tantummodo dicit privationem boni,
+      quin potius dicat boni positionem ; sed iuramentum, quo quis iurat se nunquam religionem
+      intraturum, de sua principali intentione est boni perfecti privatorium et impeditivum ; ideo
+      non est iudicandum obligatorium, sed potius illicitum et iniquum. Alia etiam ratio est, quia
+      qui matrimonium contrahit, sive ex consensu uxoris sive ex morte, potest aliquando aggredi
+      perfectionem. Qui autem iurat se nunquam religionem intraturum, quantum est de se, reddit se
+      in sempiternum inhabilem.</p>
+          <p xml:id="bb-d1e37340-d1e216">Ad illud quod obicitur, quod licitum est nolle intrare religionem, ergo et iuramento
+      firmare, dicendum quod non sequitur, quia nolle intrare religionem est imperfectionis, sed
+      hoc iuramento firmare est cuiusdam obstinationis et impugnationis gratiae Spiritus Sancti,
+      quae de tepidis et negligentibus facit fervidos et perfectos. Et ideo, quamvis illud sit
+      licitum, istud tamen est illicitum. Ad illud quod quaeritur ulterius de eo qui iurat se non
+      recepturum praelationem, iam patet responsio per illud quod iam dictum est, quia iuramentum
+      illud in casu obligat, videlicet cum vergit in damnum proprium et alienum ; in casu vero
+      non, videlicet cum non tantum est persona sibi utilis, verum etiam aliis. Attamen, si
+      iuramentum praecesserit, non debet quis se auctoritate propria a vinculo eius absolvere, sed
+      superioris voluntatem, mandatum et auctoritatem super hoc requirere, cuius voluntati magis
+      quam propriae debet in hoc casu obedire.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

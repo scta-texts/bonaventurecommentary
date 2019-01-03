@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 9, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 9, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e8567">
+        <head xml:id="bb-d1e8567-Hd1e119">III, D. 9, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e8567-Hd1e122" type="question-title">Utrum cultus latriae sit exhibendus humanitati sive carni
+    Christi.</head>
+        <p xml:id="bb-d1e8567-d1e125">Circa primum sic proceditur et quaeritur, utrum cultus latriae sit exhibendus humanitati sive
+    carni Christi.</p>
+        <div xml:id="bb-d1e8578" type="rationes-principales">
+          <head xml:id="bb-d1e8567-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e8567-d1e133">Et quod sic, videtur. Primo, auctoritate <name ref="#JohnDamascenus">Damasceni</name> : <quote xml:id="bb-d1e8567-Qd1e138">Christus est perfectus Deus et
+       perfectus homo, quem adoramus una adoratione cum Patre et Spiritu et incontaminata carne
+       eius</quote>. Ergo, si persona Christi adoranda est latria, videtur quod similiter caro
+      eius.</p>
+          <p xml:id="bb-d1e8567-d1e142">Item, super illud Psalmi [98, 5] : <quote xml:id="bb-d1e8567-Qd1e144" ana="#ps98_5">Adorate scabellum pedum eius,
+       quoniam sanctum est</quote>, Glossa <name ref="#Augustine">Augustini</name> : In Christo terra, id est caro, sine
+      impietate adoratur a nobis, quia nemo carnem eius spiritualiter manducat, nisi prius
+      adoret.</p>
+          <p xml:id="bb-d1e8567-d1e151">Item, eodem timore timetur ignis et ferrum ignitum igne. Ergo, si magis unita est divinitas
+      carni quam ignis ferro, videtur quod eadem reverentia sit exhibenda eius humanitati quae
+      exhibetur divinitati.</p>
+          <p xml:id="bb-d1e8567-d1e154">Item, eadem adoratione adoratur caro animae unita qua adoratur ipsa anima. Ergo, si non
+      minus intime unitur Verbum ipsi carni qum anima, eadem ratione qua adoratur Verbum adoratur
+      caro assumta ; sed Verbum adoratur latria : ergo etc.</p>
+          <p xml:id="bb-d1e8567-d1e158">Sed contra : Lucae 4, 8 : <quote xml:id="bb-d1e8567-Qd1e160" ana="#lc4_8">Dominum Deum tuum adorabis, et illi soli
+       servies</quote> ; Glossa exponit de servitute cultus latriae. Ergo soli Deo est exhibenda,
+      non ergo carni Christi.</p>
+          <p xml:id="bb-d1e8567-d1e164">Item, <name ref="#Augustine">Augustinus</name>, X De civitate Dei, loquens de Christo : <quote xml:id="bb-d1e8567-Qd1e169" source="http://scta.info/resource/adcd-l10">Cum in forma Dei sacrificium cum Patre sumat,
+       cum quo et unus est Deus, tamen in forma servi maluit sacrificium esse quam
+      sumere</quote>. Et ibidem : <quote xml:id="bb-d1e8567-Qd1e172" source="http://scta.info/resource/adcd-l10">Quis
+       sacrificandum censuit nisi ei quem Deum aut scivit aut putavit aut finxit ?</quote> Igitur
+      humanitati illi non est sacrificandum sive carni Christi : ergo nec ille cultus est ei
+      offerendus qui offertur Deo.</p>
+          <p xml:id="bb-d1e8567-d1e176">Item, Glossa, super illud Psalmi [98, 5] : <quote xml:id="bb-d1e8567-Qd1e178" ana="#ps98_5">Adorate scabellum pedum
+       eius</quote> : <quote xml:id="bb-d1e8567-Qd1e181">Caro Christi non est adoranda illa adoratione latriae quae soli Deo
+       debetur, sed illa dulia quae dignior est</quote>. Ergo etc.</p>
+          <p xml:id="bb-d1e8567-d1e185">Item, humana natura in Christo, quantumcumque sit sublimata, non exit terminos creaturae.
+      Ergo nec reverentia exhibenda ei debet exire terminos creaturae. Si igitur latria est cultus
+      qui excedit omnes fines creaturae, videtur quod qui exhibet latriam carni Christi committit
+      idololatriam.</p>
+          <p xml:id="bb-d1e8567-d1e188">Item, minori minor reverentia est exhibenda et maiori maior secundum rectum ordinem ; sed
+      Christus, secundum quod homo, minor est Patre, humanitas minor deitate, quantumcumque sit
+      unita ; ergo minor reverentia est ei exhibenda. Si ergo latria est reverentia summa, videtur
+      quod humanitati Christi non sit exhibenda.</p>
+          <p xml:id="bb-d1e8567-d1e191">Item, nullius est adorari adoratione latriae cuius est adorare ; sed humanitatis est
+      adorate ipsam summam Trinitatem : ergo non debet adorari adoratione latriae. Maior probatur
+      per hoc quod nulli debetur latria, cuius est servire alteri. Minor probatur per hoc, quia
+      eius est adorare cuius est orare ; Christus autem oravit, sicut legitur in diversis
+      Evangeliis : ergo etc. </p>
+        </div>
+        <div xml:id="bb-d1e8645">
+          <head xml:id="bb-d1e8567-Hd1e197">Conclusio</head>
+          <p xml:id="bb-d1e8567-d1e200">Respondeo : Dicendum quod caro Christi multipliciter consideratur. Uno modo caro Christi
+      dicitur totus ille homo, iuxta illud quod dicitur Ioannis 1, 14 : <quote xml:id="bb-d1e8567-Qd1e202" ana="#io1_14">Verbum caro factum est</quote> ; et hoc modo, quia ille homo Deus est ratione unius
+      personae, adorandus est adoratione latriae. Alio modo caro consideratur prout nominat ipsam
+      partem humanitatis per se, non ut unitam ; et hoc modo carni consideratae non debetur
+      adoratio latriae, sed duliae. Tertio modo consideratur caro quasi medio modo, prout nominat
+      ipsam naturam creatam, prout divinitati unitam ; et hoc modo dixerunt quidam quod est
+      adoranda dulia digniori, quae quidem est hyperdulia. Et ratio huius est, quia solius Dei est
+      adorari latria ; et natura non communicat alteri naturae sua idiomata. Unde sicut non est
+      dicendum humanam naturam esse in Christo aeternam, quia est unita aeternae, sic hoc modo
+      dixerunt quod natura humana non est adoranda latria, quamvis sit unita maiestati summae.</p>
+          <p xml:id="bb-d1e8567-d1e206">Alii vero dixerunt aliter quod, si consideretur caro et anima prout unita illi personae,
+      adoranda est adoratione latriae, pro eo quod secus est de exhibitione honoris et
+      proprietatibus aliis. Honor enim non respicit hanc partem vel illam, sed respicit ipsam
+      personam. Unde, quamvis purpura et vestimentum non participet proprietates regis absolutas,
+      communicat tamen in honore et reverentia, sicut dicit <name ref="#Augustine">Augustinus</name> et <name ref="#Lombard">Magister</name> recitat in
+      littera. Et ideo, quia est una persona in Christo, cui debetur reverentia summa, una
+      adoratione adoranda est, scilicet latria, quantum ad utrarhque naturam, scilicet Deitatem et
+      humanitatem, sicut eadem adoratione adoratur in uno homine caput et pes.</p>
+          <p xml:id="bb-d1e8567-d1e215">Concedendum est ergo quod non solum Christus homo adorandus est latria, sed etiam humanitas
+      eius ; in quantum est Verbo unita ; quamvis, prout per se consideratur, nunquam ei debeatur
+      nisi dulia. Et quoniam caro Christi nunquam est separata a Verbo, ideo semper consideranda
+      est ut coniuncta et semper adoranda est latria, licet humanitati, ut per se consideratae,
+      non debeatur nisi dulia. Et ideo secunda opinio melior est quam prima et auctoritatibus
+      Sanctorum est magis consona. Et ideo concedendae sunt rationes quae sunt ad partem
+      istam.</p>
+        </div>
+        <div xml:id="bb-d1e8670">
+          <head xml:id="bb-d1e8567-Hd1e222">Ad rationes</head>
+          <p xml:id="bb-d1e8567-d1e225">Ad illud ergo quod primo obicitur in contrarium, quod latria est cultus soli Deo debitus,
+      dicendum quod propter hoc non excluditur humanitas Christi. Sicut enim cum dicitur solus
+      Petrus est hic intus, non excluditur manus vel pes eius, sic, cum dicitur solus Deus est
+      adorandus latria, non excluditur humanitas, quia humana natura et divina in unam concurrunt
+      personam. Unde et haec adoratio non ponit in numerum cum illa.</p>
+          <p xml:id="bb-d1e8567-d1e228">Ad illud quod obicitur, quod carni Christi non est sacrificandum, dicendum quod verum est
+      per se, sed non prout est divinitati coniuncta, quia toti Christo sacrificandum est. Et quod
+      dicit <name ref="#Augustine">Augustinus</name>, quod noluit Christus sacrificium sumere, sed offerre, dicendum quod hoc
+      non dicit quod non deberet in carne adorari et ei sacrificari, sed quia voluit vitate
+      occasionem erroris, ne alicui creaturae exhiberetur per se honor divini numinis.</p>
+          <p xml:id="bb-d1e8567-d1e234">Ad illud quod obicitur de Glossa, quod caro non est adoranda latria, dicendum quod verbum
+      illud intelligitur de carne Verbi prout in se nuda consideratione consideratur. Et hoc est
+      quad dicit <name ref="#Augustine">Augustinus</name> : Si hominem separaveris a Deo, illi nunquam credo nec servio ; hoc
+      autem non obviat, quin, secundum quod unita est, adoranda sit latria. Unde <name ref="#JohnDamascenus">Damascenus</name> : Non.
+      ut nudam carnem adoramus, sed ut unitain Deitati in unam hypostasim Dei Verbi.</p>
+          <p xml:id="bb-d1e8567-d1e243">Ad illud quod obicitur, quod creatura non exit terminas creaturae, dicendum quod verum est
+      ratione sui ; et ideo honor ratione sui terminas creaturae non exit ; sed quia unitur in una
+      hypostasi Dei Verbi, cui debetur unicus honor, in quacumque sit natura, hinc est quod
+      debetur ei latria.</p>
+          <p xml:id="bb-d1e8567-d1e247">Ad illud quod obicitur, quod minori minor debetur reverentia, dicendum quod verum est
+      quando minor et maior sic se habent quod sunt diversorum honorum susceptibiles ; hoc autem
+      est quando sunt diversae personae gradu dignitatis distantes. Hoc autem in proposito non est
+      reperire, quia, cum una in Christo sit personalitas, et illa attendatur secundum naturam
+      supremam, unica et summa debetur ei reverentia, qualiscumque sit natura, sicut honor unus
+      debetur regi, in qttalicumque sit indumento. Honor enim naturam respicit digniorem et per
+      consequens illud quod est annexum ei sicut caro viri sancti honorari debet secundum
+      dignitatem animae, non secundum ignobilitatem propriae naturae.</p>
+          <p xml:id="bb-d1e8567-d1e250">Ad illud vero quod obicitur, quod Christi est adorare, dicendum quod secundum quod oratio
+      est ascensus intellectus in Deum, sic proprie ad Christum non pertinet pro eo quod omnia
+      quaecumque voluit fecit ; etiam Verbum semper praesens habet, per omnia faciens quaecumque
+      vult anima eius. Exemplum tamen orandi et adorandi dedit secundum naturam inferiorem in sua
+      oratione ; et ideo non sequitur quod non debeat adorari. Sicut enim ipse baptizat interius
+      et tamen baptizatus fuit ut alios informaret, sic oravit et adoravit ut alios erudiret,
+      quia, sicut vult <name ref="#JohnDamascenus">Damascenus</name>, in Christo humana natura non tenet naturam ancillae. Ait enim
+      sic : Serva est caro, si hibendus non est unita Dei Verbo ; semel tamen unita secundum
+      hypostasim, qualiter erit ancilla ? Unum enim ens Christus, non potest esse servus sui
+      ipsius et dominus. Cuius ergo erit servus ? Patris non, quia quaecumque habet Pater sunt
+      Filii. Et ita qui dicunt ipsum esse servum, distare faciunt unum Christum in duo per modum
+      Nestorii. Et ita ad Christum non pertinet adorare, sed adorari, quia magis competit ei ratio
+      dominii quam servitutis. Aliter etiam posset dici quod, quamvis esset ipsius adorare, non
+      tamen sequeretur quod non deberet adhuc adorari adoratione latriae, quia nos, qui debemus
+      adorare, non debemus aspicere ad eius humanitatem, sed ad personae dignitatem. Et in hoc
+      ultimo consistit summa quaestionis praedictae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

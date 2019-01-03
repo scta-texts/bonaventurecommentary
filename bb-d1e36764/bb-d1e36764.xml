@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 39, A. 2, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 39, A. 2, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e36764">
+        <head xml:id="bb-d1e36764-Hd1e119">III, D. 39, A. 2, Q. 1</head>
+        <head xml:id="bb-d1e36764-Hd1e122" type="question-title">Utrum licitum sit iurare per Deum.</head>
+        <p xml:id="bb-d1e36764-d1e125">Circa primum sic proceditur et quaeritur, utrum licitum sit iurare per Deum.</p>
+        <div xml:id="bb-d1e36775" type="rationes-principales">
+          <head xml:id="bb-d1e36764-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e36764-d1e133">Et quod sit simpliciter illicitum, videtur. Omne illud quod est prohibitum est malum et
+      illicitum ; sed iurare per Deum est prohibitum, quia dicitur Matthaei 5, 34 : <quote xml:id="bb-d1e36764-Qd1e135" ana="#mt5_34">Nolite
+       iurare omnino</quote> ; similiter Iacobi 5, 12 : <quote xml:id="bb-d1e36764-Qd1e138" ana="#iac5_12">Ante omnia, fratres mei, nolite
+       iurare</quote> : ergo iurare per Deum est malum et illicitum.</p>
+          <p xml:id="bb-d1e36764-d1e142">Item, omnis actus, qui est perniciosus vel periculosus, est de se malus et illicitus ; sed
+      iuratio per Deum facta, secundum quod dicit <name ref="#Augustine">Augustinus</name>, in quodam Sermone, <quote xml:id="bb-d1e36764-Qd1e147">aut est
+       perniciosa aut periculosa et nulla secura</quote> : ergo etc.</p>
+          <p xml:id="bb-d1e36764-d1e151">Item, omne illud quod sibi relictum est malum, simpliciter loquendo, iudicandum est malum
+      et illicitum ; sed iurare per Deum sine causa est malum et illi.citum : ergo, simpliciter
+      loquendo, illicitum et maium est iurare per Deum.</p>
+          <p xml:id="bb-d1e36764-d1e154">Item, omnis actus, cuius consuetudo est mala, est de se malus et illicitus ; sed consuetudo
+      iurandi per Deum est mala et reprobanda : ergo iurare per Deum est malum et illicitum.</p>
+          <p xml:id="bb-d1e36764-d1e158">Sed contra : <name ref="#Augustine">Augustinus</name>, in Sermone De verbis Apostoli : <quote xml:id="bb-d1e36764-Qd1e163">Si peccatum esset iuratio,
+       non diceretur in Lege : Reddes Domino iuramenta tua</quote>. Sed Domino reddimus iuramenta
+      quando iuramus per Dominum : cum ergo hoc sit in Lege concessum, videtur quod iurare per
+      Deum non sit illicitum.</p>
+          <p xml:id="bb-d1e36764-d1e167">Item., nullus actus qui habet exemplar in Deo est malus et illicitus ; sed iuratio per Deum
+      ha,bet exemplar in ipso Deo, quoniam ipse Deus iurat per semetipsum, secundum quod dicit
+      Apostolus ad Hebraeos 6, 13 ; et in Psalmo 109, 4 : <quote xml:id="bb-d1e36764-Qd1e169" ana="#ps109_4">Iuravit Dominus</quote> etc., et
+      Genesis 22, 16 : <quote xml:id="bb-d1e36764-Qd1e172" ana="#gen22_16">Per memetipsum iuravi</quote> etc. Ergo iurare per Deum non est
+      illicitum,</p>
+          <p xml:id="bb-d1e36764-d1e176">Item, nullus actus, in quo exhibetur honor et reverentia ipsi Deo, est illicitus ; sed, cum
+      iuramus per Deum, exhibemus honorem et reverentiam ipsi. Deo : ergo etc. Minor probatur per
+      Glossam Matthaei 5, 33 : <quote xml:id="bb-d1e36764-Qd1e178">Hoc, per quod iurat, quilibet veneratur, hoc amat, hoc timet
+       : ideo praecipitur quod non iuretur nisi per Deum</quote>.</p>
+          <p xml:id="bb-d1e36764-d1e182">Item, omnis actus transiens super materiam debitam est bonus et licitus ; sed iurare per
+      Deum est actus transiens super materiam debitam, quia hoc est invocare divinam Veritatem in
+      testimonium : ergo iurare per Deum est bonum et licitum.</p>
+          <p xml:id="bb-d1e36764-d1e185">Item, omne illud, quod facit ad confirmationem veritatis et ad confutationem falsitatis et
+      dolositatis, est bonum et licitum ; sed iuratio per Deum est huiusmodi, quia per testes boni
+      expiantur et mali convincuntur et puniuntur : ergo iuratio per Deum est bona et licita.
+      Iuxta hoc quaeritur, utrum iuramentum bonum et licitum sit appetendum. Et quod sic, videtur,
+      quia potest esse meritorium. Et si sic, quaeritur : quare iuramentum fuit a Domino
+      prohibitum magis quam aliud bonum.</p>
+        </div>
+        <div xml:id="bb-d1e36836">
+          <head xml:id="bb-d1e36764-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e36764-Hd1e194" type="question-title">Iurare per Deum licitum est, non tamen appetendum.</head>
+          <p xml:id="bb-d1e36764-d1e197">Respondeo : Ad praedictorum intelligentiam est notandum quod aliqui dicere voluerunt omne
+      iuramentum esse illicitum, non solum per creaturam, sed etiam per ipsum Deum. Et haec fuit
+      et est positio haereticorum Manichaeorum, qui sui erroris occasionem sumpserunt ex verbo
+      Domini, Matthaei 5, 33, et ex eo quod dicitur Iacobi 5, 12. Quod quidem verbum male
+      intellexerunt dupliciter. Primo, quia crediderunt quod Dominus ipsum iuramentum prohiber et
+      tamquam de se malum. Secundo, quia intellexerunt per hoc quod dicitur : Non iurabis omnino,
+      quod Dominus omne iuramentum prohiberet. Et in primo erraverunt, quoniam, si Lex evangelica
+      non prohibet nisi quod malum est de se, iurare autem per Deum et adducere ipsam Veritatem in
+      testimonium nec est contra rationem rectam nec contra consuetudinem bonam nec contra legem
+      divinam - maxime cum lex divina dicat : Reddes Domino iuramenta tua, quam legem ipsi impii
+      Manichaei dicunt a malo Deo esse latam - in hoc quod intelligebant Dominum iuramentum
+      prohibere per se, errabant, quia credebant praecepta Evangelii repugnare praeceptis Legis
+      Veteris, repugnare etiam rationi rectae et moribus bonis. Unde et ipsorum errorem elidens
+      <name ref="#Augustine">Augustinus</name> dicit quod iuramentum non fuit prohibitum propter se, sed propter vitandum
+      periurium. Ait enim, Ad Publicolam, sic : <quote xml:id="bb-d1e36764-Qd1e202">Dictum est in Novo Testamento ne omnino
+       iuremus ; quod mihi propterea dictum videtur, non quod iurare sit peccatum, sed quia
+       peierare est immane peccatum, a quo nos longe esse voluit qui, ne omnino iuraremus,
+       commonuit</quote>.</p>
+          <p xml:id="bb-d1e36764-d1e206">In alio etiam errabant, quia credebant iurationem universaliter esse prohibitam. Et iste
+      error venit ex manifesta ignorantia, quia nescierunt intelligere quod alium sensum facit
+      negatio praeposita signo universali, alium sensum facit postposita. Praeposita enim facit
+      aequipollere particulari negativo, sed postposita facit aequipollere suo contrario. Unde
+      differt dicere : non omnis homo currit, et omnis homo non currit. Dominus autem non dixit :
+      omnino non iurabis, sed dixit : non iurabis omnino. Unde non prohibuit omnem iurationem, sed
+      prohibuit quod non esset omni modo et sine omni causa iurandum.</p>
+          <p xml:id="bb-d1e36764-d1e209">Et ideo, errore isto abiecto tamquam irralionabili et pernicioso, concedendum est quo
+      licitum est iurare per Deum ; et hoc communiter tenet universitas fidelium. Quia tamen non
+      sic est licitum quin aliquo modo possit esse illicitum, dubium est inter doctores utrum
+      iurare per Deum dicat actum bonum in genere aut actum indifferentem. Et aliquibus visum fuit
+      quod iurare per Deum est actus bonus in genere, ratione tamen pronitatis ipsius iurantis
+      malus est per occasionem. Dicunt enim illum actum esse bonum in genere, pro eo quod actus
+      transit super materiam debitam, quia invocare in testimonium recte transit super ipsam
+      Veritatem.</p>
+          <p xml:id="bb-d1e36764-d1e213">Aliis autem videtur quod iurare per Deum de se sit indifferens, quia divina Veritas potest
+      invocari per iuramentum in testimonium veritatis et in testimonium falsitatis ; et unum est
+      bonum et alterum est malum, quia in uno fit reverentia, in altero iniuria. Unde nota quod
+      quidam sunt actus qui pertinent ad divinum cultum, ut laudare Deum ; et isti sunt boni per
+      se et secundum se. Quidam vero sunt actus qui sunt ad oppositum ; et isti sunt per se mali,
+      ut blasphemare Deum. Quidam autem sunt medio modo ; sicut actus iurandi, qui, si fiat
+      reverenter, est ad cultum Dei ; si fiat irreverenter, est ad oppositum. Ideo dicunt quod
+      iurare per Deum licitum est sicut indifferens, quod potest fieri bene et male. Et quia
+      indifferens diversis ex causis potest esse occasio cadendi in malum et vitandi malum, hinc
+      est quod Dominus aliquando monet et inducit homines ad iurandum per Deum, aliquando
+      retrahit. In Veteri Lege inducebat ad iurandum per Deum, ut per hoc revocarentur a iuramento
+      idolorum, cum dicebat : Reddes Domino iuramenta tua. In Nova Lege retrahit, ut ostendat
+      periurium esse fugiendum. Et pro tanto iuxta hune modum dicendi satis rationabiliter videtur
+      quod iurare per Deum sit licitum tamquam indifferens. Sive autem sit indifferens sive bonum
+      in genere, quia utrumque potest dici satis probabiliter, hoc pro certo tenendum est quod
+      licitum est per Deum iurare ; et concedendae sunt rationes hoc ostendentes.</p>
+        </div>
+        <div xml:id="bb-d1e36865">
+          <head xml:id="bb-d1e36764-Hd1e220">Ad Rationes</head>
+          <p xml:id="bb-d1e36764-d1e223">Ad illud vero quod obicitur in contrarium, quod actus iste est prohibitus, dicendum quod
+      non prohibetur actus-iste quia malus est, sed quia occasio est mali ; nec etiam prohibetur
+      universaliter, sed prohibetur ut quis non iuret irreverenter. Et hoc importat ipsius verbi
+      sententia, secundum quod explanatum est supra.</p>
+          <p xml:id="bb-d1e36764-d1e226">Ad illud quod obicitur, quod iurare per Deum vel est perniciosum vel periculosum, dicendum
+      quod periculosum dicitur aliquid dupliciter : aut quia periculi causa aut quia periculi
+      occasion. Iurare autem per Deum dicitur esse periculosum non quia causa periculi : potest
+      enim esse meritorium et bonum ; sed quia occasio periculi in eo qui non diligenter observat
+      qualiter iurat.</p>
+          <p xml:id="bb-d1e36764-d1e229">Ad illud quod obicitur, quod omne illud, quod sibi relictum est malum de se, iudicandum est
+      malum et illicitum, dicendum quod dupliciter contingit intelligere actum iurandi per Deum
+      sibi relinqui : aut considerando ipsum iuramentum in se, et sic non est malum, sed vel est
+      indifferens vel bonum in genere ; aut secundum quod fit in opere praeter causam et
+      utilitatem, et sic malum est, pro eo quod est ibi privatio finis debiti et positio
+      irreverentiae ex hoc quod aliquis praeter causam et utilitatem et necessitatem divinam
+      Veritatem assumit in testem. Verumtamen ex hoc non potest concludi quod iurare per Deum
+      simpliciter sit malum. Sicut enim non sequitur : loqui sine causa et utilitate est malum,
+      ergo loqui est malum ; sic etiam non tenet illatio praedicta.</p>
+          <p xml:id="bb-d1e36764-d1e232">Ad illud quod obicitur, quod omnis actus, cuius consuetudo est mala, de se est malus,
+      dicendum quod hoc est falsum, quia multa sunt quae bona sunt pro loco et tempore, etsi
+      frequenter generent vitiositatem, sicut bonum est aliquando ridere et laetari, sed non est
+      bonum hoc frequentare, quia perducit in dissolutionem. Sic etiam et de iuramento
+      intelligendum est, quia assuetudo iurandi minuit reverentiam veritatis et quodam modo
+      disponit ad assertionem falsitatis.</p>
+          <p xml:id="bb-d1e36764-d1e236">Ad illud quod quaeritur, utrum iuramentum per Deum licite factum sit appetendum, dicendum
+      quod non ; et hoc est propter occasionem mali adiunctam. Et est simile : sicut affluentia
+      divitiarum, quia distrahit hominem ne cultui Dei intendat, non debet esse in appetitu, licet
+      possit licite et meritorie possideri, sic etiam intelligendum est circa ipsum iuramentum. Et
+      proptea beatus Iacobus dicit : Nolite iurare, non solum ostendens vitandum esse actum
+      iurationis sine causa, sed etiam affectum. Unde etiam monemur circa actum iurationis,
+      propter periculum periurii, vitare consuetudinem, vitare etiam actum praeter necessitatem et
+      vitare affectum ; et ad iuramentum non debet quis ire ultroneus, sed coactus. Et huius
+      simile potest reddi in praesidentia praelationis. Quamvis enim bonum sit et licitum aliis
+      praeesse, non tamen est appetendum, sed potius fugiendum ; et ad illud debet homo trahi
+      quasi invitus, quia, cum amatur praelatio frequenter est ratio superbiendi et quodam modo
+      apostatandi et recedendi a Deo. Similiter intelligendum est in proposito. Unde quamvis
+      iuramentum licitum sit et meritorium, non tamen est appetendum ; et hoc vult innuere textus
+      Evangelii et admonitio ipsius beati Iacobi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 26, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 26, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e23827">
+        <head xml:id="bb-d1e23827-Hd1e119">III, D. 26, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e23827-Hd1e122" type="question-title">Utrum spes ex bonis meritis habeat ortum.</head>
+        <p xml:id="bb-d1e23827-d1e125">Secundo quaeritur de spe per comparationem ad meriti usum, et est quaestio, utrum spes ex
+    bonis meritis habeat ortum.</p>
+        <div xml:id="bb-d1e23838" type="rationes-principales">
+          <head xml:id="bb-d1e23827-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e23827-d1e133">Et quod sic, videtur. Ad Romanos 5, 3 : <quote xml:id="bb-d1e23827-Qd1e135">Tribulatio patientiam operatur ; patientia
+       autem probationem</quote>, probatio vero spem. Ergo, si in ipsa probatione consistit
+      meritum, videtur quod spes ex meritis habeat ortum.</p>
+          <p xml:id="bb-d1e23827-d1e139">Item, hoc ipsum ostenditur per definitionem <name ref="#Lombard">Magistri</name>, quae ponitur in littera : <quote xml:id="bb-d1e23827-Qd1e144">Spes
+       est certa exspectatio futurae beatitudinis, proveniens ex gratia et meritis</quote>.</p>
+          <p xml:id="bb-d1e23827-d1e148">Item, nullus habet virtutem spei, nisi qui in sperando sequitur dictamen fidei ; sed fides
+      dicit nulIum adultum salvari posse absque meritis : ergo nullus recte sperat beatitudinem,
+      nisi cui suppetunt merita. Videtur ergo quod spes ex meritis procedat.</p>
+          <p xml:id="bb-d1e23827-d1e151">Item, sicut se habet desperatio ad demerita, sic se habet spes ad bona medta ; sed sic se
+      habet desperatio ad demerita quod nullus desperat nisi propter aliquam culpam commissam :
+      mata enim conscientia est illa quae inducit in desperationem : ergo videtur quod similiter
+      spes ex bonis meritis habeat ortum.</p>
+          <p xml:id="bb-d1e23827-d1e155">Sed contra : <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e23827-Qd1e160">Virtus est bona qualitas meritis, quam Deus in nobis sine
+       nobis operator</quote>. Ergo, si spes virtus est, sicut ostensum est in praecedentibus,
+      Deus eam in nobis operatur sine nobis : ergo non habet ortum ex meritis nostris.</p>
+          <p xml:id="bb-d1e23827-d1e164">Item, nihil quod est principium meritorum ortum habet ex meritis ; sed spes est principium
+      meritorum ; nullus enim potest mereri apud Deum nisi qui sperat : ergo spes ex meritis non
+      habet ortum.</p>
+          <p xml:id="bb-d1e23827-d1e167">Item, omnes virtutes simul infunduntur. Ergo, si aliqua virtus praecedat merita, necesse
+      est quod omnes praecedant, et si aliqua subsequitur, necesse est quod omnes, subsequantur.
+      Igitur aut spes non procedit ex meritis aut ceterae virtutes procedunt ex meritis ; sed
+      impossibile est ceteras virtutes ex meritis oriri : ergo impossibile est ipsam spem ex
+      meritis oriri.</p>
+          <p xml:id="bb-d1e23827-d1e170">Item, quanto quis perfectior est, tanto est humilior, et quanto humilior est, tanto minus
+      praesumit sive confidit de meritis propriis. Ergo, si spes perfecta iuncta est cum
+      humilitate perfecta, videtur quod nec spes nec eius usus oriatur ex intuitu meritorum.</p>
+        </div>
+        <div xml:id="bb-d1e23884">
+          <head xml:id="bb-d1e23827-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e23827-Hd1e179" type="question-title">Spes, quatenus est habitus, non oritur ex meritis; quatenus est
+      terminus sive obiectum ipsius, ortum habet ex meritis praecedentibus ; quatenus dicit actum
+      , vel statum , oritur ex intuitu meritorum.</head>
+          <p xml:id="bb-d1e23827-d1e182">Respondeo : Dicendum quod spes aliquando nominat habitum virtutis, aliquaqdo nominat actum,
+      aliquando nominat statum, aliquando terminum sive obiectum. Secundum autem quod spes nominat
+      habitum virtutis, sic non habet ortum ex meritis, sed potius merita habent ortum ex ea.
+      Secundum autem quod nominat actum, sic oriri habet ex meritorum intuitu ; nullus enim sperat
+      recte aeternam beatitudinem nisi qui Deo servivit vel proponit Deo servire. Secundum autem
+      quod nominat statum, sic ortum habet ex meritis praecedentibus et concomitantibus ; et hoc
+      modo accipitur ad Romanos 5, 3 : Tribulatio patientiam operatur, patientia probationem,
+      probatio spem, Glossa, id est certitudinem spei, ad quam scilicet certitudinem pervenitur
+      per bona merita et maxime per tolerantiam et sustinentiam tribulationum. Secundum autem quod
+      spes nominat ipsam rem speratam, sic ortum habet ex meritis praecedentibus.</p>
+          <p xml:id="bb-d1e23827-d1e185">Et sic patet quod spes secundum primam acceptionem simpliciter praecedit merita tamquam
+      meritorum principium ; secundum ultimam acceptionem simpliciter sequitur tamquam meritorum
+      praemium ; secundum duas medias medio modo se habet, quia quodam modo praecedit, quodam modo
+      sequitur. Nam spes, prout nominat motum spei, procedit ex meritorum intuitu et secundum
+      veritatem est principium meritorum sequentium. Prout autem spes dicitur quaedam certitudo et
+      status, sic secundum veritatem ex meritis habet ortum, et est nihilominus adminiculum ad
+      perfectius merendum. Illa enim certitudo spei consurgit ex perpessione tribulationum et
+      vehementer confirmat et confortat animam, ut a tribulationum sustinentia non recedat. Et ex
+      his patet responsio ad quaestionem propositam. Patet nihilominus responsio ad obiecta, quia
+      spes quodam modo accipiendi est ex meritis et quodam modo principium meritorum ; et secundum
+      hoc currunt rationes ad oppositas partes, et utraeque secundum diversas vias probant et
+      concludunt veritatem, exceptis duabus ultimis rationibus, adductis ad utramque partem.</p>
+        </div>
+        <div xml:id="bb-d1e23900">
+          <head xml:id="bb-d1e23827-Hd1e192">Ad Rationes</head>
+          <p xml:id="bb-d1e23827-d1e195">Ad illud enim quod obicitur de desperatione, potest responderi quod non est simile, pro eo
+      quod, cum desperatio dicat profunditatem peccati, nullus illic demergitur nisi per aliquam
+      culpam praecedentem disponatur. Non sic autem spes dicit meriti perfectionem secundum
+      generalem sui acceptionem. Ideo non oportet quod procedat ex meritis prout nominat ipsam
+      virtutem vel eius actum, sicut desperatio, quae est vitium demergens in profundum,
+      praeexigit aliud peccatum. Praeterea, alia de causa non est simile, quia nos et ea quae sunt
+      in nobis et a nobis sunt principia vitiorum nostrorum. Non sic autem est de bonis, quia omne
+      datum optimum et omne donum perfectum desursum est ; ideo non sic oportet spem ex nostro
+      oriri merito, sicut desperatio oritur ex vitio.</p>
+          <p xml:id="bb-d1e23827-d1e198">Ad illud similiter quod ultimo obicitur ex alia parte, quod vir humilis merita non
+      intuetur, dicendum quod merita intueri contingit dupliciter : vel attribuendo sibi vel
+      attribuendo gratiae divinae. Intueri autem merita attribuendo sibi, hoc est superbiae et
+      vanitatis ; et sic intuentur superbi, qui dicunt : Manus nostra excelsa, et non Dominus
+      fecit haec omnia. Contra quos dicitur Deuteronomii 9, 4 : Ne dicas in corde tua : Propter
+      iustitiam meam introduxit me Dominus, ut terram hanc possiderem. Intueri autem merita
+      referendo ad divinam gratiam, hoc est humilitatis et veritatis ; et hoc modo motus spei ex
+      intuitu meritorum habet oriri ; per quem modum intuebatur Paulus merita sua, I ad Corinthios
+      15, 10 : Abundantius omnibus lavoravi ; non autem ego, sed gratia Dei mecum. Alia vero quae
+      obiciuntur satis sunt manifesta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

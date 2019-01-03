@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 38, A. 1, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 38, A. 1, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e35841">
+        <head xml:id="bb-d1e35841-Hd1e119">III, D. 38, A. 1, Q. 3</head>
+        <head xml:id="bb-d1e35841-Hd1e122" type="question-title">Utrum mendacium sit peccatum mortale ratione sui generis.</head>
+        <p xml:id="bb-d1e35841-d1e125">Tertio quaeritur, utrum mendacium sit peccatum mortale ratione sui generis.</p>
+        <div xml:id="bb-d1e35852" type="rationes-principales">
+          <head xml:id="bb-d1e35841-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e35841-d1e133">Et quod sic, videtur. Primo, per illud quod dicitur in Psalmo [5, 7] : <quote xml:id="bb-d1e35841-Qd1e135" ana="#ps5_7">Perdes omnes
+       qui loquuntur mendacium</quote>, Glossa : <quote xml:id="bb-d1e35841-Qd1e138">Plus est perdere quam odire</quote>. Sed
+      Deus neminem odit nisi propter peccatum mortale : ergo omne mendacium est peccatum
+      mortale.</p>
+          <p xml:id="bb-d1e35841-d1e142">Item, Sapientiae 1, 11 : <quote xml:id="bb-d1e35841-Qd1e144" ana="#sap1_11">Os, quod mentitur, occidit animam</quote>. Quod verbum
+      tractans <name ref="#Augustine">Augustinus</name> dicit, in libro De conflictu vitiorum et virtutum : <quote xml:id="bb-d1e35841-Qd1e150">Nec officioso
+       mendacio nec simplici verbo oportet quemquam decipere, quia, quombdolibet mentiatur quis,
+       occidit animam</quote>. Sed non occiditur aliquis nisi per mortale peccatum : ergo,
+      quomodocumque mentiatur quis, peccat mortaliter.</p>
+          <p xml:id="bb-d1e35841-d1e154">Item, super illud : <quote xml:id="bb-d1e35841-Qd1e156">Perdes omnes qui loquuntur mendacium</quote> ; ibi Glossa :
+       <quote xml:id="bb-d1e35841-Qd1e159">Si quis non vult hominem ad mortem prodere, verum taceat, sed non falsum dicat, ne
+       pro corpore alterius animam suam occidat</quote>. Sed nullum mendacium est levius peccatum
+      quam mendacium officiosum ; ergo, si illud occidit animam, et omne aliud. Cum ergo anima non
+      occidatur nisi per mortale peccatum, videtur etc.</p>
+          <p xml:id="bb-d1e35841-d1e163">Item, hoc ipsum ostenditur ratione. Omne quod est contrarium veritati et eius peremptorium
+      est peccatum mortale ; sed omne mendacium repugnat veritati sicut fornicatio castitati :
+      ergo sicut fornicatio est peccatum mortale de ratione sui generis, ita et mendacium.</p>
+          <p xml:id="bb-d1e35841-d1e167">Item, <quote xml:id="bb-d1e35841-Qd1e169">omnis qui facit contra conscientiam aedificat ad gehennam</quote> ; sed omnis
+      mentiens contra conscientiam loquitur, quia dicit falsum cum intentione fallendi : ergo
+      proferens mendacium aedificat ad gehennam ; sed non dicitur homo aedificare ad gehennam nisi
+      per peccatum mortale : ergo etc.</p>
+          <p xml:id="bb-d1e35841-d1e173">Item, omne peccatum in quo est plenus consensus et quod fit ex certa scientia est peccatum
+      mortale, quia in peccato, in quo est plenus consensus, superior portio rationis manducat ;
+      peccatum autem quod est ex certa scientia est peccatum in Spiritum Sanctum, quod est
+      gravissimum ; cum ergo omne mendacium de ratione sui generis sit peccatum ex certa scientia
+      et in quo est plenus consensus, videtur quod omne mendacium sit peccatum mortale.</p>
+          <p xml:id="bb-d1e35841-d1e176">Sed contra : Glossa super 1, 19 Exodi : <quote xml:id="bb-d1e35841-Qd1e178">Infirmis mentiri conceditur</quote> ; sed
+      nullum mortale alicui conceditur : ergo mendacium non est mortale peccatum.</p>
+          <p xml:id="bb-d1e35841-d1e182">Item, Gregorius, loquens de mendacio obstetricum, dicit : <quote xml:id="bb-d1e35841-Qd1e184">Hoc peccati genus facile
+       credimus relaxari</quote>. Sed peccatum, quod facile relaxatur, est in genere venialis :
+      ergo, etc.</p>
+          <p xml:id="bb-d1e35841-d1e188">Item, nihil est peccatum mortale, nisi ubi libido intervenit vel contemptus ; sed mendacium
+      officiosum de sua ratione non dicit libidinem nec contemptum : ergo non videtur quod sit
+      mortale peccatum.</p>
+          <p xml:id="bb-d1e35841-d1e191">Item, cum quis iocat cum proximo suo dicendo ei fabulam, non facit contra aliquam
+      prohibitionem. Ergo non videtur quod peccet mortaliter ; sed mentitur mendacio iocoso : ergo
+      non omne mendacium est peccatum mortale.</p>
+        </div>
+        <div xml:id="bb-d1e35919">
+          <head xml:id="bb-d1e35841-Hd1e197">Conclusio</head>
+          <head xml:id="bb-d1e35841-Hd1e200" type="question-title">Non omne mendacium est peccatum mortale, sed de ratione sui
+      generis indifferens est et ad mortale et ad veniale.</head>
+          <p xml:id="bb-d1e35841-d1e203">Respondeo : Dicendum quod absque dubio non omne mendacium est peccatum mortale, immo,
+      quantum est de ratione sui generis, indifferens est et ad mortale et ad veniale. Et ratio
+      huius est, quia lingua posita est in lubrico et facilius est loqui quam tacere, ideo non
+      semper ponderatur actus linguae nec ponderari potest faciliter. Propter quod dicitur Iacobi
+      3, 2 : Qui non offendit in verbo, hic perfectus est vir ; propter quod etiam peccatum
+      mendacii non est generaliter mortale. Sed mortale fit ratione materiae circa quam et ratione
+      contemptus et ratione nocumenti et etiam ratione libidinis mentiendi, quae faciunt mendacium
+      esse perniciosum et mortale peccatum. Et quia haec non semper concurrunt ad esse mendacii,
+      ideo potest esse aliquando veniale, aliqundo mortale, sicut ostendunt rationes ad hanc
+      partem adductae.</p>
+        </div>
+        <div xml:id="bb-d1e35932">
+          <p xml:id="bb-d1e35841-d1e210">Ad illud vero quod obicitur de auctoritate Psalmi, quod omnes perduntur qui loquuntur
+      mendacium, dicendum quod, sicut Glossa exponit, non intelligitur hoc dictum de mendacio
+      generaliter, sed secundum differentiam mendacii perniciosi. Unde distributio illa non
+      refertur ad ipsum mendacium, sed ad personas mentientes illo genere mendacii. Ideo et in
+      processu illo est fallacia figurae dictionis propter commutationem suppositionis eius quod
+      dico mendacium, quia fit processus a determinata ad conf usam.</p>
+          <p xml:id="bb-d1e35841-d1e213">Ad illud quod obicitur de auctoritate Sapientiae, dici potest quod similiter auctoritas
+      illa non intelligitur de quolibet mendacio, sed de mendacio pernicioso. Et si obiciat, quod
+      <name ref="#Augustine">Augustinus</name> exponit quod, quocumque modo mentitur quis, occidit animam, dicendum quod nec ibi
+      intendit <name ref="#Augustine">Augustinus</name> distribuere pro omnibus differentiis mendacii ; sed, intelligens de
+      mendacio pernicioso, quod est in doctrina religionis, dicit quod nullo pacto, nullo fine
+      poest quis mentiri quin occidat animam. Et illud melius potest colligi ex littera
+      sequenti.</p>
+          <p xml:id="bb-d1e35841-d1e222">Ad illud quod obicitur, quod homo non debet mentiri pro salute alterius, ne animam suam
+      occidat, potest dici quod verbum illud solummodo ad perfectos se extendit, de quibus
+      loquitur <name ref="#Augustine">Augustinus</name> in originali, unde Glossa illa sumpta est. Posset etiam dici quod verbum
+      illud est dictum consultorie, quia homo non tenetur mentiri pro aliquo nec tenetur animam
+      suam laedere pro salute alterius corporali. Quoniam ergo quodlibet mendacium, etsi non
+      inducat mortem, quia tamen peccatum est, ad mortem disponit, ideo consulit ut non mentiatur
+      pro salute corporis alterius servanda. Et sic ex hoc non habetur quod omne mendacium sit
+      mortale peccatum vel praeparat.</p>
+          <p xml:id="bb-d1e35841-d1e228">Ad illud quod obicitur, quod omne mendacium est peremptorium virtutis veritatis, dicendum
+      quod virtus veritatis potius est voluntas dicendi verum, cum oportet et expedit, quam sit
+      continua enuntiatio veri. Quamvis autem prolatio ipsius mendacii repugnet actui dicendi
+      verum, non tamen repugnat ipsi veritati, qua quis refugit mendacium perniciosum. Nec est
+      simile de fornicatione respectu castitatis, quoniam actus ille universaliter est prohibitus
+      ; non sic autem omnis differentia mendacii, et hoc est propter lubricum ipsius linguae. Unde
+      quaedam sunt mendacia exteriora, quae non opponuntur ipsi virtuti-veritati, sicut peccata
+      venialia et sicut primi motus castitati. Quaedam vero opponuntur sicut peccata mortalia : et
+      ista prohibentur in quinto mandato, in quo dicit <name ref="#Lombard">Magister</name> mendacium et periurium
+      prohiberi.</p>
+          <p xml:id="bb-d1e35841-d1e234">Ad illud quod obicitur, quod qui facit contra conscientiam aedificat ad gehennam, dicendum
+      quod conscientia aliquid dictat refugiendum sicut contrarium iustitiae, aliquid sicut quod
+      facit aliquo modo a iustitia declinare. Qui primo modo facit contra dictamen conscientiae
+      peccat mortaliter propter contemptum intervenientem, et ille est qui aedificat ad gehennam.
+      Qui vero secundo modo, non aedificat ad gehennam nec proprie dicitur facere contra
+      conscientiam, sed praeter conscientiam. Et primo modo sunt contra conscientiam mendacia
+      perniciosa, secundo modo alia. Conscientia enim non dictat omnia mendacia aequaliter esse
+      vitanda, sed quaedam sicut mortalia, quaedam sicut venialia. Et si tu obicias, quod omnis
+      mentiens, quocumque genere mendacii mentiatur, semper dicit directe contrarium ei quod
+      conscientia dictat, dicendum quod conscientia dictat de aliquo quod sit verum et de aliquo
+      quod sit dicendum vel eius contrarium. Et cum quis profert falsum scienter, etsi directe
+      faciat contra conscientiam, quae dictat aliquid esse verum, non tamen facit contra
+      conscientiam illam quae dictat quid non esse dicendum. Et quantum ad secundum dictamen
+      conscientiae, quod dirigit in agendis, pensatur quantitas peccati, non quantum ad iudicium
+      conscientiae, quod regit in cognoscendis.</p>
+          <p xml:id="bb-d1e35841-d1e238">Ad illud quod obicitur, quod in omni mendacio superior pars rationis comedit et certa
+      scientia concurrit, dicendum quod, sicut in secundo libro fuit determinatum, manducatio
+      superioris portionis facit peccatum mortale solum in his quorum actus sunt simpliciter et
+      universaliter prohibiti, sicut in peccato carnis ; hoc autem locum non habet in peccato
+      mendacii. Similiter non omne peccatum quod fit ex certa scientia est peccatum in Spiritum
+      Sanctum, sed illud, in quo cum certa scientia concurrit ipsa malitia. Et si tu obicias, quod
+      omne mendacium impugnat veritatem agnitam, quae est una species peccati in Spiritum Sanctum,
+      dicendum quod non qualiscumque veritatis impugnatio nec qualiscumque impugnatio est peccatum
+      in Spiritum Sanctum, sed impugnatio veritatis secundum pietatem, et ulterius impugnatio quae
+      est cum quadam protervitate et mentis obfirmatione, quam non est in quolibet mendacio
+      reperire. Et ideo ex hoc non potest concludi quod omne mendacium sit peccatum in Spiritum
+      Sanctum nec etiam quod universaliter sit mortale peccatum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

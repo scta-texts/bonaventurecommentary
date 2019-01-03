@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 3, P. 1, A. 1, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 3, P. 1, A. 1, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e2459">
+        <head xml:id="bb-d1e2459-Hd1e119">III, D. 3, P. 1, A. 1, Q. 3</head>
+        <head xml:id="bb-d1e2459-Hd1e122" type="question-title">Utrum beata Virgo sanctificata fuerit ante nativitatem.</head>
+        <p xml:id="bb-d1e2459-d1e125">Tertio quaeritur, utrum beata Virgo sanctificata fuerit ante nativitatem.</p>
+        <div xml:id="bb-d1e2470" type="rationes-principales">
+          <head xml:id="bb-d1e2459-Hd1e130">Rationes-principales</head>
+          <p xml:id="bb-d1e2459-d1e133"> Et quod sic, videtur. <name ref="#Bernard">Bernardus</name>, Ad Lugdunenses : <quote xml:id="bb-d1e2459-Qd1e138">Fuit procul dubio Mater Dei ante
+       sancta quam nata</quote>.</p>
+          <p xml:id="bb-d1e2459-d1e142">Item, <name ref="#Bernard">Bernardus</name> : <quote xml:id="bb-d1e2459-Qd1e147">Quod paucis mortalium constat esse collatum, fas certe non est
+       credere tantae Virgini fuisse negatum</quote>. Sed Ioannes et Jeremias sanctificati
+      fuerunt in utero, secundum quod habetur Ieremiae 1, 5 : <quote xml:id="bb-d1e2459-Qd1e150" ana="#ier1_5">Antequam
+       exires</quote> etc. ; et Lucae 1, 15 : <quote xml:id="bb-d1e2459-Qd1e153" ana="#lc1_15">Spiritu Sancto replebitur
+       adhuc ex utero matris suae</quote> : ergo videtur multo fortius quod Virgo Maria fuerit in
+      utero sanctificata.</p>
+          <p xml:id="bb-d1e2459-d1e157">Item, Ecciesia celebrat et solemnizat Virginis nativitatem ; sed statui in peccato
+      solemnitas non debetur : ergo videtur quod in hora nativitatis fuerit sanctificata.</p>
+          <p xml:id="bb-d1e2459-d1e160">Item, si aliqua persona de plenitudine gratiae Filii beatae Virginis debuit participare,
+      Mater eius maxime particeps debuit fieri. Ergo sicut tunc maxime erat idonea, ut cum ipsa et
+      in ipsa gratia augmentaretur, cum eam gestabat inter viscera, videtur quod in ipso utero
+      Spiritus Sancti gratia fuisset repleta.</p>
+          <p xml:id="bb-d1e2459-d1e164">Sed contra : Ad Romanos 8, 29 : <quote xml:id="bb-d1e2459-Qd1e166" ana="#rom8_29">Ut sit ipse primogenitus</quote>,
+      Glossa : <quote xml:id="bb-d1e2459-Qd1e169">Quia primus sine peccato natus et primus impassibilis resurgens</quote>.
+      Ergo videtur quod Beata Virgo non fuerit nata sine peccato, cum nata fuerit ante quam
+      Christus : ergo non fuit sanctificata ante quam nata.</p>
+          <p xml:id="bb-d1e2459-d1e173">Item, <name ref="#Augustine">Augustinus</name>, Ad Dardanum : <quote xml:id="bb-d1e2459-Qd1e178">Illa gratia, qua efficimur templum Dei singuli, non
+       nisi renatorum est, quod non nisi nati homines esse possunt</quote>. Ergo, cum per
+      sanctificationem beata Virgo sit facta templum Dei, non fuit ante sancta quam nata.</p>
+          <p xml:id="bb-d1e2459-d1e182">Item, nulla proprietas perimitur quamdiu habet continuitatem cum sua causa ; sed anima
+      contrahit originale a parentibus : ergo, quamdiu proies iuncta est matri, non videtur quod
+      ab originali peccato possit mundari, ergo nec sanctificari.</p>
+          <p xml:id="bb-d1e2459-d1e185">Item, esse ordinatum praesupponit esse distinctum ; sed gratia sanctificationis
+      praesupponit esse distinctum : ergo nulli potest conferri nisi habenti esse discretum :
+      ergo, quamdiu proies coniuncta est matri, non videtur posse sanctificari.</p>
+          <p xml:id="bb-d1e2459-d1e188">Item, sanctificari in utero est effectus cognitus soli Deo : ergo de nullo Sancto
+      asserendum est esse sanctificatum in utero, nisi de eo de quo expresse legitur in Scriptura
+      tradita a Spiritu Sancto ; sed. hoc non legitur de Virgine : ergo etc.</p>
+          <p xml:id="bb-d1e2459-d1e191">Iuxta hoc quaeritur : quare potius exprimitur in Scriptura sanctificatio Ieremiae et
+      Ioannis Baptistae quam alterius Sancti ? Et si tu dicas quod illi fuerunt soli sanctificati,
+      tunc est quastio, unde hoc sit, cum multi fuerint. Sancti tam in Novo quam in Veteri
+      Testamento, et sanctitatis valde eminentis. </p>
+        </div>
+        <div xml:id="bb-d1e2537">
+          <head xml:id="bb-d1e2459-Hd1e197">Conclusio</head>
+          <head xml:id="bb-d1e2459-Hd1e200" type="question-title">Beata Virgo fuit in utero et ante nativitatem sanctificata.</head>
+          <p xml:id="bb-d1e2459-d1e203">Respondeo : Dicendum quod pro indubitanti habet hoc Ecclesia, videlicet quod beata Virgo
+      fuerit in utero sanctificata. Et illud patet ex hoc quod eius nativitatem tota Ecclesia
+      celebrat, quod non faceret nisi sanctificata esset.</p>
+          <p xml:id="bb-d1e2459-d1e206">Si autem quaeratur, qua die vel hora sanctificata fuerit, hoc ignoratur ; probabiliter
+      tamen creditur quod cito post infusionem animae fuerit facta infusio gratiae. Quidquid tamen
+      sit de hora, pro certo habendum est quod ante nativitatem sanctificata fuerit. Licet enim
+      hoc expresse non habeatur in Scriptura, haberi tamen potest ex his quae in Scriptura
+      leguntur. In Scriptura namque non legitur, quia, cum Evangelia inchoentur a Ioanne, qui fuit
+      consummatio Prophetarum et initium Legis novae, et beata Virgo nata et concepta fuit ante
+      Ioannem, ideo nihil habetur de eius nativitate vel sanctificatione in Evangeliis. Habetur
+      tamen in Novo sive in Veteri Testamento unde sanctificatio eius potest elici. In Novo
+      habetur de sanctificatione Ioannis, in Veteri de sanctlficatione Ieremiae, quorum uterque
+      legitur in utero fuisse sanctificatus. Et ex hoc quasi a minori colligitur hoc beatae
+      Virgini fuisse concessum, quia, sicut dicit <name ref="#Bernard">Bernardus</name>, quod aliis legitur fuisse collatum,
+      non est credendum Virgini fuisse negatum ; maxime cum sanctitas Virginis excedat Ieremiae et
+      Ioannis puritatem et virginitatem. In aliis fuit virginitas, in hac cum virginitate
+      fecunditas. Et si illi sanctificati fuerunt in utero, quia ad Sanctum Sanctorum secundum
+      expressionem prophetiae accesserunt magis, quanto magis illa in utero sanctificari debuit
+      quae Deum in utero portavit ? Ioannes namque inter ceteros de Domino prophetavit, quia in
+      matris utero ad adventum Domini exsultavit et postmodum suo digito ostendit. Ieremias etiam
+      prius Ioanne expressius prophetavit, cum dixit : Novum faciet Dominus super terram, mulier
+      circumdabit virum, 31, 22. In hoc namque quod dicit : Novum faciet Dominus super terram,
+      datur intelligi quod non ex virili semine, et quod ille quem circumdabit, non erat purus
+      homo, quia neutrum esset novum. Et in hoc totum comprehendit quod dicit Isaias [7, 14] :
+       <quote xml:id="bb-d1e2459-Qd1e211" ana="#is7_14">Ecce Virgo concipiet</quote> etc. In hoc autem quod subiungit : Et
+      circumdabit virum, dat intelligere Christum ab instanti conceptionis fuisse perfectum gratia
+      et sapientia. Prophetavit nihilominus facto ; quasi enim omnia gesta sua signa fuerunt
+      dominicae passionis. Et propterea de his duobus legitur specialiter quod fuerunt
+      sanctificati ; et per hos duos datur manifeste intelligi sanctificatio beatae Virginis.</p>
+          <p xml:id="bb-d1e2459-d1e215">Si quis autem velit dicere quod aliis Sanctis convenit sanctificatio ex utero, ut Iob, qui
+      dicit : <quote xml:id="bb-d1e2459-Qd1e217" ana="#iob31_18">Ab infantia crevit mecum miseratio et ex utero egressa est
+       mecum</quote>, et sicut volunt quidam dicere de Iacob et David, hoc nec certitudinem habet
+      nec auctoritatem apertam, nisi quis velit Scripturae facere violentiam. Et ideo eadem
+      facilitate contemnitur qua probatur ; et nec aliis videtur fuisse nisi virginibus haec
+      gratia sanctificationis concessa. Concedendum est igitur Reginam Virginum ex utero fuisse
+      sanctificatam. Et rationes, quae hoc ostendunt, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-d1e2565">
+          <head xml:id="bb-d1e2459-Hd1e225">Ad rationes</head>
+          <p xml:id="bb-d1e2459-d1e228">1-2. Ad illud quod obicitur in contrarium de Glossa et <name ref="#Augustine">Augustino</name>, dicendum quod est
+      nativitas duplex, scilicet nativitas in utero et nativitas ex utero. Nativitas in utero est
+      ex coniunctione animae cum carne ; nativitas ex utero est ex egressu prolis de ventre.
+      Verbum igitur de Glossa et auctoritate <name ref="#Augustine">Augustini</name> intelligitur de nativitate in utero, non de
+      nativitate ex utero. In illa enim nativitate in utero fit originalis contractio, et post
+      illam potest esse sanctificatio. Posset tamen dici quod illud verbum <name ref="#Augustine">Augustini</name> intelligitur
+      de gratia regenerante secundum legem communem. Et hoc melius patet in libro quarto,
+      distinctione sexta.</p>
+          <p xml:id="bb-d1e2459-d1e240">Ad illud quod obicitur, quod non perimitur proprietas, quamdiu coniuncta est cum sua
+      origine, dicendum quod verum est de illa proprietate quae habet conservari cum continua
+      influentia cum sua causa. Talis autem non habet esse in proposito ; et ideo non habet hic
+      locum.</p>
+          <p xml:id="bb-d1e2459-d1e243">Ad illud, quod esse ordinatum praesupponit esse distinctum, dicendum quod verum est ; sed
+      ex hoc non sequitur gratiam sanctificantem sequi nativitatem carnalem, pro eo quod ante
+      nativitatem carnalem proles distinguitur et quantum ad animam et quantum ad corpus, licet
+      illa distinctio ante nativitatem ex utero oculis corporeis non propaletur.</p>
+          <p xml:id="bb-d1e2459-d1e246">5-6. Ad illa duo ultima, quae obiciebantur, iam patet responsio per ea quae dicta sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

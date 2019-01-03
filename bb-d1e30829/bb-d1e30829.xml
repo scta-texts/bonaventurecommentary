@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 33, A. 1, Q. 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 33, A. 1, Q. 6</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e30829">
+        <head xml:id="bb-d1e30829-Hd1e119">III, D. 33, A. 1, Q. 6</head>
+        <head xml:id="bb-d1e30829-Hd1e122" type="question-title">Utrum virtutes cardinales in patria maneant an evacuentur.</head>
+        <p xml:id="bb-d1e30829-d1e125">Sexto et ultimo quaeritur de virtutibus cardinalibus quantum ad durationem, et est quaestio,
+    utrum in. patria maneant an evacuentur.</p>
+        <div xml:id="bb-d1e30840" type="rationes-principales">
+          <head xml:id="bb-d1e30829-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e30829-d1e133">Et quod maneant, videtur. Sapientiae 1, 15 : <quote xml:id="bb-d1e30829-Qd1e135">Iustitia est perpetua et
+       immortalis</quote> : si ergo iustitia manet, quae ordinat ad alterum, multo fortius manent
+      virtutes cardinales, quae ordinant ad se ipsum.</p>
+          <p xml:id="bb-d1e30829-d1e139">Item, hae virtutes cardinales plenissime fuerunt in Christo. Si ergo Christus habuit
+      caritatem comprehensoris, videtur quod huiusmodi virtutes in statu gloriae habeant
+      salvari.</p>
+          <p xml:id="bb-d1e30829-d1e142">Item, hoc ipsuin videtur auctoritate Bedae, quam <name ref="#Lombard">Magister</name> inducit in littera, quae dicit
+      quod <quote xml:id="bb-d1e30829-Qd1e147">potestates caeli quatuor eximiis virtutibus sunt praeclarae : fortitudine,
+       prudentia, temperantia, iustitia</quote>.</p>
+          <p xml:id="bb-d1e30829-d1e151">Item, secundum Macrobium, istae quatuor virtutes cardinales respiciunt quadrifariam
+      distinctionem, quia quaedam sunt exemplares, quaedam politicae, quaedam purgatoriae, quaedam
+      animi iam purgati . Si ergo virtutes exemplares sunt in Deo, et mens ad perfectionem
+      purgationis non habet perduci in statu miseriae praesentis, videtur quod istae virtutes
+      cardinales potissime in Beatis habent reperiri, cum et ipsi Beati per gloriam fuerunt
+      deiformes effecti.</p>
+          <p xml:id="bb-d1e30829-d1e155">Sed contra : <name ref="#Augustine">Augustinus</name> dicit, et habettir in littera, quod <quote xml:id="bb-d1e30829-Qd1e160">prudentia est in
+       praecavendis insidiis ; iustitia in subveniendo miseris, fortitudo in perferendis
+       molestiis, et temperantia in coercendis delectationibus pravis</quote>. Sed nullum istorum
+      in patria invenitur : ergo habitus virtutum cardinalium in patria non manebunt.</p>
+          <p xml:id="bb-d1e30829-d1e164">Item, virtutes cardinales minus nobiles sunt quam theologicae. Si ergo virtutes theologicae
+      evacuantur, utpote fides et spes, videtur quod et virtutes cardinales similiter.</p>
+          <p xml:id="bb-d1e30829-d1e167">Item, virtutes cardinales habent pro obiecto ea quae ordinant se ad finem et per quae
+      pervenitur ad finem ; sed, cum perventum est ad finem, iam non oportet versari in his quae
+      ad finem perducunt : ergo videtur quod iam amplius non maneant virtutes cardinales in suis
+      actibus. Sed habitus sine actu est incompletus ; in patria autem nihil est incompletum :
+      ergo necesse est ibi evacuari habitus virtutum cardinalium.</p>
+          <p xml:id="bb-d1e30829-d1e170">Item, secundum quod dicit Apostolus, <quote xml:id="bb-d1e30829-Qd1e172">scientia destruetur</quote>. Si ergo maioris
+      perfectionis est scientia quam prudentia, ergo in patria non stabit prudentia. Sed prudentia
+      est prima inter omnes virtutes cardinales : si ergo ipsa non manebit, nec aliae.</p>
+        </div>
+        <div xml:id="bb-d1e30889">
+          <head xml:id="bb-d1e30829-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e30829-Hd1e182" type="question-title">Virtutes cardinales excellentiori modo remanebunt in patria, quam
+      sunt modo in via.</head>
+          <p xml:id="bb-d1e30829-d1e185">Respondeo : Dicendum quod in patria aliqua virtus dicitur manere multipliciter. Quaedam
+      namque virtus manet in patria quantum ad praemium, ita quod ipsa sibi ipsi est praemium
+      secundum perfectiorem statum, sicut caritas, quae, prout erat imperfecta in via, meriti erat
+      principium ; sed, prout ipsa eadem est consummata in patria, est praemii complementum.
+      Quaedam autem virtus manet quantum ad praemium ; verumtamen nec ipsa sibi ipsi est praemium
+      nec cum praemio suo se ipsam compatitur, sicut fides et spes, quae in patria praemiantur et
+      ideo non pereunt ; non sunt tamen praemium propter suam imperfectionem nec secum praemium
+      compatiuntur propter quamdam oppositionem. Nam praemium ipsum est videre et tenere Deum ; et
+      primum repugnat fidei, quae est de non viso ; secundum repugnat spei, quae est de futuro et
+      non habito. Quaedam vero virtus manet medio modo, quia manet quantum ad praemium et cum
+      praemio ; ipsa tamen non est sibi praemium, sed dispositio ad praemium ; et sic manet virtus
+      cardinalis.</p>
+          <p xml:id="bb-d1e30829-d1e188">Nam praemium essentiale ipsarum virtutum est ipsum bonum summum, quod Deus est, secundum
+      quod videtur, diligitur et tenetur, ita quod penes istos tres actus tres dotes animae
+      accipiuntur. Nullus autem istorum actuum est actus virtutum cardinalium, quia cardinales
+      virtutes nunquam tantum elevantur quod Deum habeant pro obiecto, alioquin transirent in
+      theologicas virtutes et desinerent esse cardinales. Respectu tamen horum actuum gloriosorum
+      virtutes cardinales erunt sicut dispositiones ; ut sicut in via, licet per virtutes
+      cardinales non fruamur, tamen per eas disponimur ut fruamur ; sic et in patria. Unde omnes
+      actus nostri gloriosi erunt fortes et iusti, prudentes et casti, ita quod iustitia excludit
+      omnem obliquitatem, prudentia excludit omnem errorem, fortitudo omnem molestiam, temperantia
+      omnem libidinum repugnantiam, secundum quod dicit <name ref="#Augustine">Augustinus</name> et <name ref="#Lombard">Magister</name> tangit in littera.
+      Et sic patet quod virtutes cardinales excellentiori modo manebunt in patria quam sunt in
+      via. Unde et rationes concedendae sunt quae sunt ad partem istam</p>
+        </div>
+        <div xml:id="bb-d1e30911">
+          <head xml:id="bb-d1e30829-Hd1e201">Ad Rationes</head>
+          <p xml:id="bb-d1e30829-d1e204">Ad illud ergo quod primo obicitur in contrarium de actibus istarum quatuor virtutum,
+      dicendum quod illi actus non sunt actus earum generales, sed solum secundum statum viae ;
+      alios vero actus habebunt in patria multo excellentiores, quos etiam in via aliquo modo
+      habent, licet semiplene : et ideo virtutes istae non tollentur, sed perficientur.</p>
+          <p xml:id="bb-d1e30829-d1e207">Ad illud quod obicitur, quod virtutes theologicae perfectiores sunt cardinalibus, dicendum
+      quod illud verum est quantum est ex parte obiecti ; verumtamen quantum ad modum movendi et
+      habilitandi non habet veritatem generaliter, quia fides et spes de sua primaria ratione
+      important imperfectionem, quae repugnat statui gloriae, pro eo quod habilitant respectu
+      absentis et non respectu praesentis. Et hinc est quod magis evacuantur theologicae quam
+      cardinales, sicut satis apparet ex his quae dicta sunt distinctione trigesima prima.</p>
+          <p xml:id="bb-d1e30829-d1e210">Ad illud quod obicitur, quod virtutes cardinales ordinant in ea quae tendunt in finem,
+      dicendum quod verum est, quia ordinant ad se et ad proximum ; sed ista, ad quae ordinat
+      virtus cardinalis, non cessabunt in patria, imo manebunt multo melius ordinata. Ad hoc enim
+      quod homo recte ordinetur in Deum, necesse est quod etiam ad se ipsum et ad proximum
+      ordinetur ; et ideo, licet in patria perveniatur usque in finem, non tamen oportebit habitus
+      istarum virtutum non remanere.</p>
+          <p xml:id="bb-d1e30829-d1e213">Ad illud quod obicitur, quod scientia cessabit in patria, dicendum, sicut in praecedentibus
+      dictum fuit, quod non cessabit quantum ad habitum, sed quantum ad modum, qui attenditur per
+      collationem et decursum. Praeterea, scientia illa, de qua loquitur Apostolus, non est
+      nobilior quam sit habitus virtutum cardinalium. Et iterum, scientia, quantum est de ratione
+      sui nominis, in via imponitur a collatione praemissarum ad conclusionem secondum quod
+      dicitur quod scientia est conclusionum et intellectus est habitus principiorum ; nomen autem
+      virtutis cardinalis non sic imponitur : et ideo non sic dicuntur destrui in patria secundum
+      quod scientia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

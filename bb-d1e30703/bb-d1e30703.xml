@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e30703">
+        <head xml:id="bb-d1e30703-Hd1e117" type="question-title">Utrum virtutes cardinales sint a Dei dono vel ab assuetudine.</head>
+        <p xml:id="bb-d1e30703-d1e120">Quinto quaeritur de virtutibus cardinalibus quantum ad originem, et est quaestio, utrum
+    huiusmodi virtutes sint a Dei dono vel ab assuetudine.</p>
+        <div xml:id="bb-d1e30711" type="rationes-principales">
+          <head xml:id="bb-d1e30703-Hd1e125">Rationes Principales</head>
+          <p xml:id="bb-d1e30703-d1e128">Et quod sint ab assuetudine, videtur. Eadem est virtus cardinalis et consuetudinalis
+      secundum rem et essentiam ; sed virtus consuetudinalis completum esse habet ab
+      assuefactione, secunduni quod dicit <name ref="#Aristotle">Philosophus</name>, in principio Veteris Ethicae :
+       <quote xml:id="bb-d1e30703-Qd1e133">Innatis nobis a natura, perfectis vero ab assuefactione</quote> : ergo etc.</p>
+          <p xml:id="bb-d1e30703-d1e137">Item, secundum quod vult <name ref="#Aristotle">Philosophus</name> et ostendit, <quote xml:id="bb-d1e30703-Qd1e142">ex eisdem ipsis unaquaeque res
+       generatur per quae in esse salvatur et promovetur</quote>. Sed per bonorum operum
+      multiplicationem cardinales virtutes habent in nobis conservari et ad melius promoveri :
+      ergo per bona opera habent in nobis generari.</p>
+          <p xml:id="bb-d1e30703-d1e146">Item, hoc ipsum videtur experimento. Videmus enim quod malus homo, dum in bono exercetur et
+      assuescit, semper plus et plus ad bonum habet disponi et habilitari et facilior reddi ; sed
+      hoc non esset nisi per assuefactionem in bono acquireretur habitus, qui ad bonum habilitaret
+      : cum igitur tales sint virtutes cardinales, videtur quod originem trahant ex frequenti bene
+      agere.</p>
+          <p xml:id="bb-d1e30703-d1e149">Item, multi habent et habuerunt huiusmodi virtutes cardinales et consuetudinales qui
+      nunquam crediderunt in Christum nec sunt membra eius. Si ergo vera gratia per Christum habet
+      derivari in eius membra, videtur ergo quod cardinales virtutes acquiri possint per humanam
+      industriam.</p>
+          <p xml:id="bb-d1e30703-d1e153">Item, sicut intellectus perficitur et dirigitur et rectificatur per habitum scientiae, sic
+      et affectus per habitum virtutis ; sed quamvis intellectus noster propria virtute non possit
+      venire in cognitionem aeternorum, tamen per ea quae naturaliter habet potest venire in
+      cognitionem istorum inferiorum : ergo pari ratione, quamvis affectus non possit habere
+      virtutes quae elevent ipsum ad superna, videtur tamen quod possit habere virtutes dirigentes
+      ipsum et rectificantes circa ista inferiora. Sed cardinales virtutes sunt huiusmodi : ergo
+      etc. Si tu dicas quod non est simile, quia perfectio affectus multo nobilior est quam
+      perfectio intellectus, obicitur contra hoc quod talis perfectio non videtur esse
+      excellentior quam perfectio cognitionis. Videmus enim quasdam creaturas irrationales
+      huiusmodi virtutes quasi naturaliter possidere. Quoddam enim animal est quod viget in
+      liberalitate ; quoddam, quod in prudentia ; quoddam , quod in mansuetudine ; quoddam, quod
+      in virtutis strenuitate ; quoddam, quod in castitate, sicut per exempta patet. Ergo, si
+      natura hominis dignior est quam natura bestiarum, multo fortius videtur quod homo istas
+      virtutes cardinales aut habeat simpliciter sibi innatas aut .per illud quod est innatum cum
+      rationis industria possit acquirere.</p>
+          <p xml:id="bb-d1e30703-d1e156">Sed contra : Iacobi 1, 11 : <quote xml:id="bb-d1e30703-Qd1e158">Omne datum optimum et omme donum perfectum desursum
+       est</quote> ; sed dona virtutum sunt dona optima, secundum quod innuit ipsa Glossa : ergo
+      non videtur quod huiusmodi virtutes sint a nostra assuefactione, sed potius ex divino
+      munere.</p>
+          <p xml:id="bb-d1e30703-d1e162">Item, Sapientiae 8, 21 : <quote xml:id="bb-d1e30703-Qd1e164">Scio quod aliter non possum esse continens, nisi Deus
+       det</quote>. Ergo continentia non potest obtirteri nisi per divinum munus ; pari ratione
+      nec alia cardinalis virtus : redit ergo idem quod prius.</p>
+          <p xml:id="bb-d1e30703-d1e168">Item, hoc ipsum videtur ratione : <quote xml:id="bb-d1e30703-Qd1e170">agens nobilius est patiente, et prillcipium
+       effectu</quote> ; sed virtus interior animi nobilior est quam operatio exterior : ergo ex
+      frequenti bona operatione non videtur quod contingat acquirere aliquam virtutem
+      cardinalem.</p>
+          <p xml:id="bb-d1e30703-d1e174">Item, si virtus acquiritur per operationes, aut per unicam operationem aut per plures ;
+      constat quod per unicam non : ergo per plures. Sed contra : quando una illarum operationum
+      incipit esse, alia desinit : ergo, si nunquam operationes sunt simul, si una non potest
+      facere, ergo nec plures, cum, novis operationibus supervenientibus, aliae transeant in
+      praeteritum.</p>
+          <p xml:id="bb-d1e30703-d1e177">Item, si virtus cardinalis generari habet ex operibus, aut ergo ex operibus virtuosis aut
+      non virtuosis. Ex operibus virtuosis non, quia opera virtuosa sive stuqiosa a virtute habent
+      originem : ergo non sunt virtutis principium. Si ex operibus non virtuosis, sed contra :
+      quales sunt actus, tales sunt habitus : ergo, si opera illa non sunt virtuosa, non
+      generabunt habitum virtuosum : ergo videtur quod nulla virtus possit ex operibus
+      generari.</p>
+        </div>
+        <div xml:id="bb-d1e30769">
+          <head xml:id="bb-d1e30703-Hd1e183">Conclusio</head>
+          <head xml:id="bb-d1e30703-Hd1e186" type="question-title">Virtutes cardinales, prout sunt politicae, tum a natura tum ab
+      assuefactione ortum habent; sed prout sunt infusae et gratia informatae, sunt a divino
+      munere.</head>
+          <p xml:id="bb-d1e30703-d1e189">Respondeo : Ad praedictorum intelligentiam est notandum quod virtutes cardinales uno modo
+      dicuntur virtutes, quia habilitant ad opera moralia ; alio modo dicuntur virtutes non solum
+      quia habilitant ad huiusmodi opera, sed etiam quia elevant ad opera meritoria. Secundum
+      autem quod virtutes cardinales dicuntur virtutes, quia potentiam elevant, sic non habent
+      ortum ab assuefactione, sed a divino munere ; non a natura, sed a gratia. Quia enim elevant
+      potentiam supra se, sunt supra naturam et actum ipsius potentiae qui inest ei per se ; et
+      ideo necesse est quod ab aliquo superiori et potentia et actu ipsius potentiae trahant
+      originem. Et hoc modo cardinales virtutes sunt virtutes gratuitae.</p>
+          <p xml:id="bb-d1e30703-d1e192">Alio modo est loqui de cardinalibus virtutibus secundum quod habilitant ad opera moralia,
+      et sic huiusmodi virtutes cardinales sunt virtutes politicae et radicaliter sunt a natura,
+      sed completive sunt vel ab operum frequentia et perseverantia vel a gratiae influentia et
+      praesidentia vel ex utraque causa. A natura, inquam, sunt radicaliter, quia plantatam
+      habemus in nostra natura rectitudinem, per quam apti sumus, licet imperfecte, ad opera
+      virtutis et honestatis ; sed dum assuescimus, paulatim efficitur nobis facile quod prius
+      erat difficile, secundum quod dicit <name ref="#Bernard">Bernardus</name>, Ad Eugenium, quod nihil est adeo difficile
+      quod consuetudo non reddat facile. Nec solum ex assuefactione ducitur illa habilitas
+      semiplena ad complementum, sed etiam per gratiae adiutorium. Nam, cum ipsa gratia sit animae
+      rectificativa, rectitudo superveniens naturae rectitudinem qualeincumque prius existentem
+      amplificat et amplificando confirmat. Ex utraque etiam causa virtus politica potest
+      suscipere complementum, videlicet quando concurrit divinae gratiae adiutorium et bonae
+      consuetudinis exercitium, per quae duo virtus cardinalis radicata in natura ducitur ad
+      coniplemeritum perfectum. Et sic virtus cardinalis, in quantum est politica, ortum habens a
+      natura, ducitur ad quoddam complementum ex assuefactione subsequente, ad maius complementum
+      dicitur ex gratia superveniente, sed ad perfectum complementum ducitur ex utraque causa
+      concurrente, videlicet gratia et assuefactione.</p>
+          <p xml:id="bb-d1e30703-d1e198">Et potest huiusmodi exemplum inveniri satis manifestum. Videmus enim quod aliquis equus ex
+      sua naturali compositione aptitudinem habet ad bene portandum et ambulandum ; sed illa
+      aptitudo ad complementum potest reduci per ipsius equi assuefactionem vel per ipsius
+      sessoris industriam, qui scit freno equum circumducere, vel per utramque. Sic et in
+      proposito intelligendum est, quia, secundum <name ref="#Augustine">Augustinum</name>, liberum arbitrium assimilatur equo
+      et gratia assimilatur sessori et bona operatio rectae ambulationi.</p>
+          <p xml:id="bb-d1e30703-d1e205">Sic igitur patet quod loquendo de virtute cardinali secundum quod est politica et secundum
+      quod est intentionis philosophicae determinare de ipsa, concedi potest quod a natura et
+      assuefactione trahit originem, secundum quod ipse <name ref="#Aristotle">Philosophus</name> dicit et rationes ostendunt ad
+      primam partem inductae. Si autem loquamur de virtutibus cardinalibus secundum quod sunt
+      gratuitae et secundum quod de eis intendit theologus, sic sunt a divino munere. Sed contra
+      hoc non sunt rationes quae ad primam partem inducuntur, quia solilm procedunt de virtute
+      secundum quod dicit quemdam habitum facilitantem potentiam animae. Et ideo rationes illae
+      sunt concedendae.</p>
+        </div>
+        <div xml:id="bb-d1e30800">
+          <head xml:id="bb-d1e30703-Hd1e214">Ad Rationes</head>
+          <p xml:id="bb-d1e30703-d1e217">Ad illud vero quod obicitur in contrarium, quod omne datum optimum et omne donum perfectum
+      etc., et virtutes sunt dona optima, responderi potest dupliciter. Primo, quia Glossa
+      intelligit de virtutibus, non quibuscumque et per omnem modum, sed in quantum sunt gratuitae
+      et meritoriae, per qtiem modum dictum est cardinales virtutes esse a solo munere gratiae.
+      Aliter etiam potest dici quod per illam auctoritatem non probatur quod tales virtutes non
+      sint a nobis, quia tam naturalia quam gratuita dicuntur esse a Deo, sicut Glossa exponit
+      ibi. Et propterea ex hoc haberi non potest quod non snt ab operatione nostra. Opus enim
+      nostrum non excludit opus et munus divinum, immo praesupponit et necessario exigit, secundum
+      quod in secundo libro fuit ostensum, ubi quaesitum fuit utrum omnis actio sit a Deo.</p>
+          <p xml:id="bb-d1e30703-d1e220">Ad illud quod obicitur de auctoritate Sapientiae, iam patet responsio, quia vel
+      intelligitur de continentia secundum quod est Deo accepta et meritoria vel intelligitur de
+      actione Dei, qua Deus dicitur dare aliquid cooperando et adiuvando, non de illa speciali,
+      quia dicitur dare ipsum habitum infundendo. Philosophi enim continentes fuerunt, et hoc Deo
+      dante, non per ipsius continentiae infusionem, sed per liberalem et benevolam
+      cooperationem.</p>
+          <p xml:id="bb-d1e30703-d1e223">Ad illud quod obicitur, quod agens nobilius est patiente et principium effectu, dicendum
+      quod illud habet veritatem quando agens et movens substantialiter differt a patiente ; sed
+      quando sic est quod idem movet ipsum, non oportet quod veritatem habeat nisi secundum quid,
+      ut idem ipsum sit magis nobile et minus secundum diversas comparationes. Unde liberum
+      arbitrium, se ipsum assuefaciens ad bonum per actum suum, magis nobile est in quantum se
+      movet et assuefacit, et minus nobile in quantum assuescit. Et hoc modo respondendum est in
+      omnibus habitibus acquisitis. Et si ulterius insistat quod actus exterior non est nobilior
+      habitu interius generato, dicendum quod virtus politica non perducitur ad complementum per
+      sponit ad habitum virtutis. Et hoc actum exteriorem, sed per actum exteriorem ; sicut patet,
+      cum aliquis largitur eleemosynam, est ibi operatio manus exterius exsequentis, et ista non
+      est principium virtutis, sed signum : et est operatio voluntatis interioris moventis et
+      dirigentis, qua vult largiri alii, et ex ista operatione frequentata cum perseverantia ad
+      complementum habet duci virtus consuetudinalis sive politica.</p>
+          <p xml:id="bb-d1e30703-d1e226">Ad illud quod quaeritur, utrum una operatio an plures perducant ad virtutis completionem,
+      dicendum quod plures, quia non ex una operatione generatur habitus, sed ex multis. Et si
+      obiciat, quod, una superveniente, reliqua transit et nunquam erunt simul plures, dicendum
+      quod, etsi prima operatio transeat quantum ad actum, manet tamen quantum ad effectum, qui
+      quidem effectus per se ipsum non est tantus ut mereatur dici dispositio vel habitus ; sed,
+      prout ab actibus sequentibus adiuvatur et promovetur crescit in dispositionem et de
+      dispositione crescit in habitum ; sicut videmus quod una gutta non sufficit ad cavandum,
+      frequens tamen stillatio guttae facit foveam, secundum illud poeticum :</p>
+          <p xml:id="bb-d1e30703-d1e230">Gutta cavat lapidem non vi, sed saepe cadendo.</p>
+          <p xml:id="bb-d1e30703-d1e233">Sic etiam intelligendum est in proposito.</p>
+          <p xml:id="bb-d1e30703-d1e236">Ad illud quod obicitur, quod virtus cardinalis non potest generari ex operibus virtuosis,
+      dicendum quod generari habet ex operibus virtuosis. Sed opus virtuosum tum studiosum, ut
+      proprius loquamur, quoddam est virtuosum plene, quodam semiplene. lllud est virtuosum plene,
+      quod procedit ab habitu virtutis iam completo ; illud est virtuosum semiplene, quod disponit
+      ad habitum virtutis. Et hoc quidem opus non necesse est esse a virtute, sed potest esse ab
+      aliquo quod est virtuti consonum, utpote a voluntate deliberativa consonante naturali
+      rectitudini, videlicet iudicio conscientiae et inclinationi synderesis, quibus virtus
+      conformatur, sicut patet. Definitur enim virtus quod est habitus mentis in modum naturae
+      rationi consentiens. Et sic patet quod ratio illa non cogit, quia procedit ex suppositione
+      falsi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

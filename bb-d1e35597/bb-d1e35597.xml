@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 38, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 38, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e35597">
+        <head xml:id="bb-d1e35597-Hd1e119">III, D. 38, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e35597-Hd1e122" type="question-title">Utrum essentiale sit mendacio esse falsum.</head>
+        <p xml:id="bb-d1e35597-d1e125">Circa primum sic proceditur et quaeritur, utrum essentiale sit mendacio esse falsum.</p>
+        <div xml:id="bb-d1e35608" type="rationes-principales">
+          <head xml:id="bb-d1e35597-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e35597-d1e133">Et quod sic, videtur. Primo, per definitionem mendacii, quam ponit <name ref="#Augustine">Augustinus</name>, in libro De
+      mendacio : <quote xml:id="bb-d1e35597-Qd1e138">Mendacium, inquit, est falsa vocis. Significatio cum intentione
+       fallendi</quote>. Si ergo definitio et partes definitionis sunt essentiales definito, ergo
+      essentiale est mendacio esse falsum.</p>
+          <p xml:id="bb-d1e35597-d1e142">Item, hoc ipsum videtur per illud quod dicit <name ref="#Augustine">Augustinus</name>, Contra mendacium : Sicut lux
+      opponitur tenebris, ita veritas opponitur mendacio. Sed tenebra, essentialiter loquendo, est
+      privatio lucis : ergo mendacium est privatio veritatis. Sed veritatis privatio est falsitas
+      : ergo, a primo, essentiale est ipsi mendacio esse falsum.</p>
+          <p xml:id="bb-d1e35597-d1e148">Item, sicut se habent esse veracem et mendacem circa hominem, sic se habent circa orationem
+      : sed ista duo sunt incompossibilia circa eumdem hominem simul et semel, videlicet ipsum
+      esse veracem et mendacem : ergo similiter erunt incompossibilia circa sermonem ; ergo
+      impossibile est quod idem sermo sit simul verus et mendax. Si ergo mendacium non potest se
+      compati cum veritate, videtur quod inseparabiliter habeat sibi annexam falsitatem.</p>
+          <p xml:id="bb-d1e35597-d1e151">Item, omne verum, secundum quod huiusmodi, est a Veritate prima ; sed nullum mendacium est
+      a Veritate prima : ergo nullum mendacium est verum. Et est verum vel falsum : ergo
+      essentiale est ipsi mendacio esse falsum.</p>
+          <p xml:id="bb-d1e35597-d1e155">Sed contra : <name ref="#Augustine">Augustinus</name>, in libro De mendacio, dicit quod <quote xml:id="bb-d1e35597-Qd1e160">ille mentitur qui dicit
+       verum quod putat esse falsum</quote>. Sed qui mentitur mendacium dicit : ergo aliquis
+      dicendo verum facit mendacium : non ergo omne mendacium necessario est falsum.</p>
+          <p xml:id="bb-d1e35597-d1e164">Item, sicut verbuin discordat ab intentione, cum quis negat illud quod novit, sic etiam
+      discordat, quando affirmat illud quod ignorat et de quo dubitat ; sed possibile est aliquem
+      affirmare aliquod verum de quo dubitat ; ponatur ergo, cum sit possibile ; sed in tali
+      affirmatione discordat sermo ab intentione loquentis : ergo est ibi vitium et peccatum. Sed
+      non est nisi peccatum mendacii : ergo videtur quod aliquid simul possit esse verum, et tamen
+      nihilominus est mendacium.</p>
+          <p xml:id="bb-d1e35597-d1e167">Item, si intentio est recta, totum est rectum : ergo, si intentio est mendax, totum est
+      mendax ; sed aliquis potest dicere dictum verum intentione mentiendi : ergo possibile est
+      quod aliquis dicendo verum sit mendax. Sed non est mendax nisi in illo dicto : ergo
+      possibile est dictum verum esse mendacium.</p>
+          <p xml:id="bb-d1e35597-d1e170">Item, sicut se habet peccatum ad bonitatem, ita se habet mendacium ad veritatem ; sed qui
+      facit aliquod bonum opus mala intentione committit peccatum : ergo similiter qui dicit verum
+      fallendi intentione incurrit mendacium : ergo idem quod prius. Si dicas, secundum quod
+      <name ref="#Lombard">Magister</name> videtur dicere in littera, quod possibile est aliquem dicere verum et mentiri, sed
+      non est possibile aliquod dictum esse verum et mendacium simul, videtur esse oppositio in
+      adiecto, quia sicut se habet peccans ad peccatum, sic se habet mentiens ad mendacium ; sed
+      omnis peccans peccatum committit : ergo omnis mentiens mendacium dicit : ergo, si veritas
+      dicti non repugnat actui mentiendi, non repugnat rationi ipsius mendacii.</p>
+        </div>
+        <div xml:id="bb-d1e35657">
+          <head xml:id="bb-d1e35597-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e35597-Hd1e182" type="question-title">Licetsola intentio fallendi sufficiat ad hoc, ut quis dicatur
+      mentiri, ad completam tamen mendacii rationem requiritur duplex falsitas, scilicet respectu
+      intentionis et rei.</head>
+          <p xml:id="bb-d1e35597-d1e185">Respondeo : Ad praedictorum intelligentiam est notandum quod dictum exterius prolatum
+      comparatur ad intentionem dicentis et ad ipsam rem significatam ; et secundum hoc sortitur
+      dictum illud rationem duplicis falsitatis vel veritatis. Nam per comparationem ad rem
+      dicitur sermo verus, per comparationem autem ad intentionem dicentis dicitur verax. Sic
+      etiam falsitas duplex est circa sermonem. Nam per comparationem ad rem, videlicet cum non
+      est adaequatio rei et sermonis, dicitur sermo falsus ; per comparationem vero ad intentionem
+      dicentis, cum non est adaequatio scrmonis et intentionis, dicitur sermo fallax sive
+      mendax.</p>
+          <p xml:id="bb-d1e35597-d1e188">Quoniam igitur mendacium nominat ipsum dictum per comparationem ad rem et ad ipsum
+      dicentem, hinc est quod ad completam mendacii rationem duplex falsitas concurrit : una per
+      comparationem ad rem et altera per comparationem ad intentionem loquentis. Et hanc duplicem
+      falsitatem tangit <name ref="#Augustine">Augustinus</name> in definitione mendacii, cum dicit : Mendacium est falsa vocis
+      significatio cum intentione fallendi. Prima autem falsitas tenet in ipso mendacio rationem
+      materialis ; secunda vero rationem formalis, et ab illa secunda denominatur quis mendax.
+      Propter hanc ergo duplicem comparationem, quam importat ipsum mendacium de ratione sui
+      nominis, necesse est ad eius completam rationem concurrere praedictam duplicem differentiam
+      falsitatis. Mentiri autem dicit actum per comparationem ad ipsum loquentem. Unde ad hoc quod
+      aliquis dicatur mentiri, sufficit falsitas, quae concurrit ex discordia vocis et intentionis
+      ; et hoc patet ex ipsa definitione vocabuli, quia mentiri est contra mentem ire. Contra
+      mentem autem vadit, non solum ille qui dicit falsum scienter, sed etiam qui dicit verum quod
+      putat esse falsum. Unde minus importatur, cum dicimus aliquem mentiri, quam quando dicimus
+      aliquem dicere mendacium. Quamvis enim intentio fallendi sufficiat ad hoc ut aliquis dicatur
+      mentiri, non tamen sufficit ad plenam rationem mendacii, secundum quod <name ref="#Lombard">Magister</name> dicit in
+      littera et manifeste apparet ex ipsa notificatione <name ref="#Augustine">Augustini</name> et rationibus ad primam partem
+      addtictis.</p>
+        </div>
+        <div xml:id="bb-d1e35682">
+          <head xml:id="bb-d1e35597-Hd1e204">Ad Rationes</head>
+          <p xml:id="bb-d1e35597-d1e207">Ad illud vero quod obicitur in contrarium, quod ille mentitur qui dicit verum quod putat
+      esse falsum, iam patet responsio, quia plura requiruntur ad perfectam rationem mendacii quam
+      ad hoc quod aliquis dicatur mentiri.</p>
+          <p xml:id="bb-d1e35597-d1e210">Ad illud quod obicitur, quod sicut verbum discordat ab intentione in eo qui asserit falsum,
+      ita etiam in eo qui asserit dubium et incertum, dicendum quod, etsi sit ibi similitudo
+      quantum ad discordiam intentionis, dissimilitudo tamen est quantum ad discordiam sermonis et
+      rei, quia, cum asseritur falsum scienter, non tantummodo discordat sermo ab intentione, sed
+      etiam discordat a re ; et ideo non sequitur, quodsi in assertione falsi cogniti est
+      mendacium, quod sit propter hoc in assertione veri incerti, nisi secundum quid.</p>
+          <p xml:id="bb-d1e35597-d1e213">Ad illud quod obicitur, quod intentio recta totum rectificat et obliqua totum falsificat,
+      dicendum quod, etsi intentio obliqua totum dictum falsificet non tamen falsificat secundum
+      omnem respectum, sed secundum respectum quem habet ad dicentem ; et ille respectus non
+      sufficit ad mendacii rationem, sicut tactum est.</p>
+          <p xml:id="bb-d1e35597-d1e216">Ad illud quod obicitur, quod qui facit bonum mala intentione committit peccatum, ergo etc.,
+      dicendum quod bonum, mala intentione factum, non est simpliciter peccatum, sed peccatum illi
+      qui facit, sicut, cum quis dat eleemosynam ex vana gloria, dare eleemosynam non est
+      peccatum, sed illi qui mala intentione hoc facit. Sic etiam in proposito potest concedi. Et
+      propterea ex hoc non habetur quod veritas simul stet cum eo quod est mendacium simpliciter,
+      sed solum cum eo quod est mendacium secundum quid sive alicui. Aliter etiam posset dici quod
+      non est simile, quia peccatum dicit privationem bonitatis ; bonitas autem dicit ordinationem
+      in finem, quae quidem habet esse mediante recta intentione. Et ideo, recta intentione
+      sublata, cum simpliciter pereat ordinatio, simpliciter iudicabitur aliquid esse peccatum.
+      Mendacium autem dicit privationem veritatis, quae quidem non tantum consistit in
+      comparatione ipsius sermonis ad intentionem, sed etiam ad ipsam rem.</p>
+          <p xml:id="bb-d1e35597-d1e220">Et per hoc patet responsio ad illud quod obicit consequenter, quod quicumque peccat
+      peccatum committit : ergo qui mentitur similiter committit mendacium. Non enim est simile,
+      sicut iam visum est. Esto tamen quod ista conclusio concederetur quod iste mentiendo
+      committeret mendacium, non tamen sequeretur quod esset mendacium in se ; immo est ibi quid
+      et simpliciter, sicut prius explanatum est. Unde solum illud dictum, in quo est falsitas per
+      comparationem ad rem et intentionem, est mendacium simpliciter et complete. Illud vero, in
+      quo est falsitas solum per comparationem ad intentionem, est mendacium alicui et minus
+      complete. Illud autem, in quo est falsitas per comparationem ad rem tantum, est mendacium
+      secundum quid et minime complete. Unde fere omnes rationes praemissae et etiam consimiles in
+      processu suo peccant secundum quid et simpliciter.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

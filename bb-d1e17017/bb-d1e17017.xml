@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 19, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 19, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e17017">
+        <head xml:id="bb-d1e17017-Hd1e119">III, D. 19, Divisio Textus</head>
+        <p xml:id="bb-d1e17017-d1e122">Supra egit <name ref="#Lombard">Magister</name> de Christi incarnatione et de his secundum quae incarnatio habebat
+    ordinari ad nostram reparationem. In hac vero parte agit de redemptione nostra, quae facta est
+    per passionem. Dividitur autem ista pars in duas partes. In quarum prima agit de Christi
+    passione. In secunda de morte quae consecuta est passionem, distinctione vigesima prima : Post
+    praedicta considerandum est, utrum in morte etc. Prima pars dividitur in duas partes. In
+    quarum prima agitur de efficacia eius et utilitate. In secunda vero agitur de congruentia et
+    necessitate, infra, distinctione vigesima : Si vero quaeritur, utrum alio modo possit etc.</p>
+        <p xml:id="bb-d1e17017-d1e128">Prima pars, quae continet praesentem distinctionem, dividitur in duas partes : In quarum
+    prima agitur de efficacia passionis. In secunda vero agitur de persona redemptoris, ibi : Unde
+    ipse vere dicitur mundi redemptor. Prima pars dividitur in quatuor partes. In prima ostendit
+    efficaciam passionis in remissione peccatorum. In secunda vero in deletione chirographorum,
+    ibi : Itaque in Christi sanguine, qui solvit quae non rapuit etc. In tertia vero in
+    liberatione a potestate diaboli, ibi : Factus est igitur homo mortalis. In quarta in
+    absolutione peccati, ibi : A qua poena ? Temporali et aeterna.</p>
+        <p xml:id="bb-d1e17017-d1e131">Similiter secunda pars principalis quatuor habet partes. In quarum prima determinat <name ref="#Lombard">Magister</name>
+    quare dicitur redemptor. In secunda quare dicitur mediator, ibi : Qui solus dicitur mediator
+    etc. In tertia vero quare solus Filius dicitur mediator, ibi : Sed cum peccata deleat non
+    solus Filius etc. In quarta, secundum quam naturam dicitur mediator, ibi : Unde et mediator
+    dicitur secundum humanitatem. Subdivisiones autem partium in littera satis apparent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

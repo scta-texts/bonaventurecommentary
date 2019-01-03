@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 22, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 22, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e19161">
+        <head xml:id="bb-d1e19161-Hd1e119">III, D. 22, Divisio Textus</head>
+        <p xml:id="bb-d1e19161-d1e122">Supra egit <name ref="#Lombard">Magister</name> de separatione facta in morte Christi. In hac vero parte agit de
+    consequentibus ad separationem. Dividitur autem pars ista in tres partes. In quarum prima
+    inquirit <name ref="#Lombard">Magister</name>, utrum Christus fuerit homo in triduo. In secunda vero, ubi fuerit in illo
+    triduo, ibi : Hic quaeritur, si Christus in morte alicubi erat homo. In tertia vero ad maiorem
+    explanationem inquirit utrum concedendum sit illum hominem descendisse de caelo, ibi : Solet
+    etiam quaeri, si congruenter dici possit etc.</p>
+        <p xml:id="bb-d1e19161-d1e131">Prima pars, in qua inquirit utrum Christus in triduo fuerit homo, dividitur in duas partes.
+    In quarttm prima opponit. In secunda dissolvit, ibi : Quibus respondemus, quia, licet homo
+    mortuus fuerit etc.</p>
+        <p xml:id="bb-d1e19161-d1e134">Secunda vero pars principalis, in qua inquirit ubi fuerit homo, similiter habet duas. In
+    quarum prima inquirit ubi fuerit secundum humanitatem. In secunda vero inquirit ubi fuerit
+    secundum sui totalitatem, ibi : Et ideo totus eodem tempore erat etc :</p>
+        <p xml:id="bb-d1e19161-d1e137">Similiter tertia pars, in qua inquirit utrum filius hominis descenderit de caelo, habet duas
+    partes. In quarum prima quaestionem praedictam determinat. In secunda vero praedeterminata in
+    totali parte ista epilogat, ibi : Haec quidem de corrigia calceamenti etc. Quae quidem pars
+    dividi potuit contra totam partem praecedentem, sed sub aliis partibus diffusioribus
+    comprehensa fuit ad vitandam divisionis confusionem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

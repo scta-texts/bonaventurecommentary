@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 8, A. 2, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 8, A. 2, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e8180">
+        <head xml:id="bb-d1e8180-Hd1e119">III, D. 8, A. 2, Q. 1</head>
+        <head xml:id="bb-d1e8180-Hd1e122" type="question-title">Utrum concedendum sit Christum bis esse natum.</head>
+        <p xml:id="bb-d1e8180-d1e125">Circa primum sic proceditur et quaeritur, utrum concedendum sit Christum bis natum esse.</p>
+        <div xml:id="bb-d1e8191" type="rationes-principales">
+          <head xml:id="bb-d1e8180-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e8180-d1e133">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name>, De fide ad Petrum : <quote xml:id="bb-d1e8180-Qd1e138">Unigenitus Dei secundo natus est,
+       semel ex Patre, semel ex Matre</quote>. Sed primo et secundo nasci non est nisi bis nasci :
+      ergo videtur quod Filius Dei bis natus est.</p>
+          <p xml:id="bb-d1e8180-d1e142">Item, <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-d1e8180-Qd1e147">In Christo duas nativitates veneramur</quote>. Sed ubicumque est
+      duplex nativitas, ibi est duplex nasci, et ubicumque est duplex nasci, ibi est bis nasci :
+      ergo etc.</p>
+          <p xml:id="bb-d1e8180-d1e151">Item, Christus semel genitus est ex Patre, secundum illud Psalmi [61, 12] : <quote xml:id="bb-d1e8180-Qd1e153" ana="#ps61_12">Semel locutus est Deus</quote>, Glossa, id est, <quote xml:id="bb-d1e8180-Qd1e156">Filium
+       genuit</quote> ; et semel natus est ex Matre ; et constat, illud semel et illud non est
+      unum, sicut temporale et aeternum : ergo ponunt in numerum. Si ergo semel et semel faciunt
+      bis, Christus est bis natus.</p>
+          <p xml:id="bb-d1e8180-d1e160">Item, actio geminata geminat passionem. Igitur, si alia est generatio qua Pater et alia qua
+      Mater genuit, ergo alia et alia vice genitus est Christus a Patre et a Matre : ergo est
+      pluries natus ; sed non ter vel quater et sic de aliis : ergo bis natus.</p>
+          <p xml:id="bb-d1e8180-d1e164">Sed contra : <mentioned> Bis </mentioned> dicit consimilis actus geminationem : unde non
+      dicitur aliquis aliquid fecisse bis, eo quod legit et disputavit ; sed generatio aeterna et
+      temporalis non est idem actus nec consimilis : ergo ratione illius duplicis nativi tatis non
+      potest dici bis natus.</p>
+          <p xml:id="bb-d1e8180-d1e170">Item <mentioned> semel </mentioned> et <mentioned> bis </mentioned> dicunt vicissitudinem :
+      idem enim est aliquid bis fieri et quod duabus vicibus fieri ; sed apud Filium non cadit
+      transmutatio nec vicissitudinis obumbratio : ergo non debet dici bis natus.</p>
+          <p xml:id="bb-d1e8180-d1e179">Item, bis dicit actus interruptionem : unde convenienter dicitur aliquis bis fuisse
+      Parisius, sed non convenienter dicitur bis fuisse homo ; sed generatio quae est aeterna ex
+      Patre nullatenus fuit interruta : ergo videtur simpliciter esse falsum Christus bis natus
+      est.</p>
+          <p xml:id="bb-d1e8180-d1e182">Item, hoc adverbium <mentioned> bis </mentioned> importat actus terminationem, quia de actu
+      qui non terminatur non est dicere ipsum bis exerceri ; sed generatio aeterna non habet
+      terminum, quia Filius semper generatur a Patre : ergo etc.</p>
+          <p xml:id="bb-d1e8180-d1e188">Item, hoc adverbium <mentioned> bis </mentioned> importat successionis ordinem ; sed circa
+      Christi generationem aeternam respectu temporali nulla cadit successio : ergo sicut aliquis
+      non dicitur bis natus, qui simul generatur a patte et a mafre, ita non videtur quod Christus
+      dicatur bis natus, cum simul sit verum ipsum dicere generari a Patre et a Matre ; Pater enim
+      nunc generat Filium, et in tempore nativitatis suae sic Virgo Maria genuit.</p>
+          <p xml:id="bb-d1e8180-d1e194">Item, nunc temporis et nunc aeternitatis non ponunt in numerum, cum unum claudatur in
+      altero. Ergo, si Filius genitus est a Patre in nunc aeternitatis et a Matre in nunc
+      temporis, non videtur quod debeat dici bis natus vel genitus.</p>
+        </div>
+        <div xml:id="bb-d1e8261">
+          <head xml:id="bb-d1e8180-Hd1e200">Conclusio</head>
+          <head xml:id="bb-d1e8180-Hd1e203" type="question-title">Concedi potest et debet, Christum esse bis natum</head>
+          <p xml:id="bb-d1e8180-d1e206">Respondeo : Dicendum quod, sicut vult <name ref="#Aristotle">Philosophus</name>, actus tripliciter habet numerari,
+      videlicet subiecto et tempore et specie sive termino. Unde actus multiplicari dicitur aut
+      quia est in alio et alio subiecto aut quia in alio et alio termino aut quia in alio et alio
+      tempore sive mensura. Cum igitur adverbium numerandi dicat numerum actus aliquo istorum
+      modorum, necesse est ut importet ipsum numerari. Adverbium enim, cum sit adiectivum verbi,
+      sub rationi verbi importat illum numerum qui est ipsius actus secundum quod actus, hoc st ex
+      parte temporis sive durationis ; et iste est numerus qui est ex parte. mensurae. Et quod hoc
+      adverbium <mentioned> bis </mentioned> importet numerum actus ex parte mensurae, patet per
+      ipsum modum loquendi. Non enim dicor bis comedisse propter duas res quas comedi vel propter
+      plurificationem ex parte subiecti, sed propter. multiplicationem ex parte temporis sive
+      mensurae, quia comedi in alio et alio tempore. Quoniam igitur generatio sive Christi
+      nativitas aeterna mensuratur ipsa aeternitate et nativitas temporalis ipso tempore, ita quod
+      illa completionem habet in nunc aeternitatis, ista in nunc temporis, hinc est quod concedi
+      potest et debet Christum bis esse natum. Et concedendae sunt rationes et auctoritates ad hoc
+      inductae.</p>
+        </div>
+        <div xml:id="bb-d1e8280">
+          <head xml:id="bb-d1e8180-Hd1e219">Ad rationes</head>
+          <p xml:id="bb-d1e8180-d1e222">Ad illud ergo quod primo obicitur in contrarium, quod <mentioned>bis</mentioned> dicit
+      eiusdem actus geminationem, dicendum quod non oportet quod dicat geminationem eiusdem acttis
+      secundum unitatem univocationis, sed sufficit quod dicat secundum convenientiam analogiae.
+      Unde sicut potest concedi quod Deus et homo sint duo entia vel res, non quod dicantur duae
+      res vel duo entia aequivoce, sed analogice, ita concedi potest quod generatio Christi et
+      aeterna et temporalis sit duplex generatio. Et sic potest concedi quod sit bis generatus,
+      quia tantum se extendit numerus adverbiorum numeralium respectu verbi quantum numerus
+      numeralium nominum respectu nominum.</p>
+          <p xml:id="bb-d1e8180-d1e228">Ad illud quod obicitur, quod <mentioned> semel </mentioned> et <mentioned> bis </mentioned>
+      dicunt vicissitudinem, dicendum quod illud non est verum de significatione generali ; sed
+      semel dicit actus completionem. Quod autem dicit vicissitudinem, hoc solum est quia adiacet
+      actui temporali ; et ideo, quia generatio Christi aeterna non subiacet actui temporali, non
+      est necesse quod quantum ad illam dicant vicissitudinem.</p>
+          <p xml:id="bb-d1e8180-d1e237">Ad illud quod obicitur, quod bis dicit interruptionem, dicendum quod illud verum est in
+      illis actibus qui non numerantur sine interruptione, sicut legere vel morari Parisius vel
+      aliquid tale. In his autem actibus qui sine interruptione numerari possunt non habet
+      veritatem, sicut caelum dicitur bis esse revolutum et tamen motus eius non dicitur esse
+      discontinuatus vel interruptus. Numeratio enim revolutionum non venit ex motus
+      discontinuatione, sed secundum circulationis completionem, et secundum illam completionem
+      circulationis est numeratio dierum et temporum ; et talis numeratio. importatur per
+      adverbium. Et quoniam generatio Christi ex Patre et Matre modum habet unum numerandi, ut
+      praedictum est, ideo sane potest concedi Christum bis natum esse.</p>
+          <p xml:id="bb-d1e8180-d1e240">Ad illud quod obicitur, quod <mentioned> bis </mentioned> importat terminationem actus,
+      dicendum quod termiriatio actus dupliciter dicitur : uno modo ex completione, alio modo ex
+      desitione. Cum ergo dicitur quod bis importat terminationem, si intelligatur terminatio
+      communiter ad utrumque modum, dicendum quod verum est. Si autem dicatur terminatio per
+      desitionem, non habet veritatem ; hoc enim accidit numerationi alicuius actus quod non
+      possit esse sine actus desitione, sicut tactum est.</p>
+          <p xml:id="bb-d1e8180-d1e247">Ad illud quod obicitur, quod <mentioned> bis </mentioned> dicit successionis ordinem,
+      dicendum similiter quod hoc non est de necessitate, sed quando importat actus geminationem
+      et successionem et respectu eiusdem principii ; sic autem non est reperiri hic ; ei sic
+      patet illud.</p>
+          <p xml:id="bb-d1e8180-d1e253">Ad illud vero quod ultimo obicitur, quod nunc temporis et nunc aeternitatis non ponunt in
+      numerum, dicendum quod, si loquamur de numero proprie accepto, veritatem habet ; si autem
+      large, falsitatem habet. Aeternitas enim et tempus sunt diversae mensurae per essentiam ; et
+      productio quae mensuratur tempore est alia a productione quae mensuratur aeternitate et
+      posterior illa : et ideo illae duae productiones possunt dici et duae mensurae. Nec. valet
+      quod una clauditur in alia ; hoc enim non est per continentiam quae tollat numerum, sicut
+      continetur pars intra totum, sed per quamdam praesuppositionem, quae quidem relinquit
+      ordinem sive distinctionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

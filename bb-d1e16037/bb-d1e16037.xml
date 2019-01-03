@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 17, A. 2, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 17, A. 2, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e16037">
+        <head xml:id="bb-d1e16037-Hd1e119">III, D. 17, A. 2, Q. 3</head>
+        <head xml:id="bb-d1e16037-Hd1e122" type="question-title">Utrum oratio, qua Christus oravit in passione ut calix transferretur
+    a se, fuerit a ratione an a sensualitate.</head>
+        <p xml:id="bb-d1e16037-d1e125">Tertio quaeritur, utrum illa oratio, qua oravit in passione ut calix transferretur a se,
+    fuerit a ratione an a sensualitate.</p>
+        <div xml:id="bb-d1e16048" type="rationes-principales">
+          <head xml:id="bb-d1e16037-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e16037-d1e133">Et quod a sensualitate, videtur. Auctoritate <name ref="#Lombard">Magistri</name> in littera : <quote xml:id="bb-d1e16037-Qd1e138">Secundum affectum
+       sensualitatis Christus mori noluit, nec obtinuit quod secundum istum affectum
+       petiit</quote>. Ergo videtur quod petitio illa ex voluntate sensualitatis processerit.</p>
+          <p xml:id="bb-d1e16037-d1e142">Item, hoc ipsum ostenditur ex ordine verborum, cum dicit : <quote xml:id="bb-d1e16037-Qd1e144">Non sicut ego volo, sed
+       sicut tu</quote> ; aut hoc dicit ratione voluntatis sensualitatis aut rationis. Quantum ad
+      voluntatem rationis non dicit, quia illa erat per omnia divinae voluntati conformis : ergo
+      hoc dicit quantum ad voluntatem sensualitatis : ex illa ergo voluntate procedebat postulatio
+      orationis propositae.</p>
+          <p xml:id="bb-d1e16037-d1e148">Item, nullus sapiens petit vel orat cotitrarium eius quod vult ; sed ratio volebat mori :
+      ergo petitio de evasione mortis non erat petitio rationis ; et erat rationis vel
+      sensualitatis : ergo sensualitatis.</p>
+          <p xml:id="bb-d1e16037-d1e151">Item, peccatum est alicui petere quod est peccatum appetere ; sed appetere non mori
+      peccatum esset ipsi voluntati rationali : ergo, si illud petivisset, peccasset. Sed non
+      peccavit : ergo non petiit : ergo petitio illa fuit a voluntate sensuali.</p>
+          <p xml:id="bb-d1e16037-d1e155">Sed contra : Oratio sic definitur : <quote xml:id="bb-d1e16037-Qd1e157">Oratio est ascensus intellectus in Deum</quote>
+      ; sed sensualitatis non est ascendere in Deum : ergo sensualitatis non est orare : ergo
+      praedicta oratio non potuit esse sensualitatis.</p>
+          <p xml:id="bb-d1e16037-d1e161">Item, alio modo definitur oratio : <quote xml:id="bb-d1e16037-Qd1e163">Oratio est pius mentis affectus in Deum
+       directus</quote> ; sed sensualitas non habet ferri in Deum : ergo quantum ad actum
+      sensualitatis non consistit usus orationis.</p>
+          <p xml:id="bb-d1e16037-d1e167">Item, solius rationis est conferre ; sed praedicta oratio fuit cum collatione quadam, sicut
+      patet, cum dicitur : Non sicut ego volo, sed sicut tu : ergo non processit a sensualitate,
+      sed a ratione.</p>
+          <p xml:id="bb-d1e16037-d1e170">Item, solius rationis est futura praecognoscere ; sed oratio illa, qua petebatur calix
+      futurus transferri, erat ex futurorum praecognitione : ergo non erat sensualitatis, sed
+      rationis.</p>
+        </div>
+        <div xml:id="bb-d1e16094">
+          <head xml:id="bb-d1e16037-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e16037-Hd1e179" type="question-title">Christi oratio in horto ad Patrem quoad materiam fuit
+      sensualitatis , sed quoad formam fuit rationis.</head>
+          <p xml:id="bb-d1e16037-d1e182">Respondeo : Dicendum quod de praedicta oratione est loqui dupliciter : aut quantum ad
+      materiam aut quantum ad formam. Si loquamur de ipsa quantum ad materiam, apposita, cum
+      materia orationis respiciat desiderium petentis, talis petitio fuit petitio sensualitatis,
+      cuius desiderium erat ad non moriendum. Si autem loquamur de praedicta oratione quantum ad
+      formam, sic, cum forma petitionis respiciat discretionem proponentis, et talis modus
+      proponendi sit ad discretionem rationis, concedendum est quod talis oratio fuerit voluntatis
+      rationalis.</p>
+          <p xml:id="bb-d1e16037-d1e185">Et per hoc patet responsio ad quaestionem propositam et etiam ad obiecta; ad quaeslionem
+      propositam, quia non est simpliciter concedendum, quod talis oratio fuerit simpliciter
+      rationis vel simpliciter sensualitatis, sed quodam modo huius, quodam modo illius :
+      sensualitatis quantum ad materiam, sed rationis quantum ad formam ; item sensualitatis ut
+      moventis, sed rationis ut proponentis ; item, sensualitatis ut pro quo, sed rationis ut a
+      quo. Unde bene et recte consuevit dici quod ratio fuerit advocatus sensualitatis. Secundum
+      hoc dissolvi possunt rationes ad utramque partem, quoniam procedunt his duabus viis, sicut
+      patet aspicienti.</p>
+          <p xml:id="bb-d1e16037-d1e188">Sed tunc restat quaestio : cum ratio sciret sensualitatem in hac petitione nec exaudiendam
+      nec dignam exaudiri, utpote quia petebat contrarium divini propositi, quomodo hanc
+      petitionem proposuit et pro ea allegavit ? Et dicendum est ad hoc quod huius fuit ratio
+      triplex. Prima, ad manifestationem veritatis naturae assumptae, quae naturaliter refutabat
+      passionem : et in hoc erudivit nostram fidem. Secunda vero, ad confirmandam nostram
+      imbecillitatem, ut non diffidamus, si passionum pericula exhorremus : et in hoc erexit
+      nostram spem. Tertio, ut ostenderet voluntatem nostram divinae voluntati esse per omnia
+      subiciendam, quod ostendit in conditione apposita, non sicut ego volo, sed sicut tu : et in
+      hoc ordinavit in nobis caritatem, quae affectum nostrum divinae voluntati per omnia conatur
+      subicere. Unde magis oravit pro nobis in illa oratione quam oraret pro se. Et attendendum
+      est quod ratio in petitione illa servavit formam prudentis et fidelis advocati, qui
+      desiderium sensualitatis proponit, servata tamen forma iuris. Dictat enim ius divinum quod
+      omnis appetitus debet esse Deo subiectus. Et per hoc patet determinatio obiectorum, patet
+      etiam praedictae orationis finis et utilitas.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

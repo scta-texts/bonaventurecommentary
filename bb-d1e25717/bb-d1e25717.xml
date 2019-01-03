@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 27, Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 27, Dubia</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e25717">
+        <head xml:id="bb-d1e25717-Hd1e119">III, D. 27, Dubia</head>
+        <div xml:id="bb-d1e25722">
+          <head xml:id="bb-d1e25717-Hd1e124">Dub. I.</head>
+          <p xml:id="bb-d1e25717-d1e127">In parte ista sunt dubitationes circa litteram. Et primo quaeritur de illa definitione quam
+      ponit <name ref="#Lombard">Magister</name>, qua dicit : Caritas est dilectio qua diligitur Deus propter se et proximus
+      propter Deum ; et quaeritur iuxta hoc, cum multae inveniantur definitiones de caritate, cum
+       <quote xml:id="bb-d1e25717-Qd1e132">unius rei unica sit definitio</quote>, quomodo ab invicem distinguantur. Praeter
+      enim praedictam definitionem invenitur definiri ab <name ref="#Augustine">Augustino</name>, in libro De moribus Ecclesiae,
+      sic : <quote xml:id="bb-d1e25717-Qd1e138">Caritas est animi rectissima affectio ; coniungens nos cum Deo</quote>. Item,
+      <name ref="#Augustine">Augustinus</name>, in Soliloquiis : <quote xml:id="bb-d1e25717-Qd1e145">Caritas est virtus, qua Deum videre eoque perfrui
+       desideramus</quote>. Item, in libro De spiritu et anima : <quote xml:id="bb-d1e25717-Qd1e148">Caritas est vita copulans
+       amantem cum amato</quote>. Postremo, definitur ab Apostolo, I ad Timotheum 1, 5 :
+       <quote xml:id="bb-d1e25717-Qd1e151">Finis praecepti est caritas de corde puro, conscientia bona et fide non
+       ficta</quote>.</p>
+          <p xml:id="bb-d1e25717-d1e155">Contra primam definitionem sic obicitur : idem est dilectio et caritas. Ergo, cum <name ref="#Lombard">Magister</name>
+      definit caritatem per dilectionem, definit idem per se ipsum. Item, amori naturali in statu
+      innocentiae conveniebat ista definitio. Ergo non videtur esse convertibilis cum
+      caritate.</p>
+          <p xml:id="bb-d1e25717-d1e161">Contra secundam definitionem obicitur sic : affectio animi est ab ipsa anima ; caritas
+      autem non est ab ipsa anima, sed a Deo : ergo male dicitur caritas affectio animi. Item,
+      haec definitio potest competere spei. Ergo non recte assignatur de caritate.</p>
+          <p xml:id="bb-d1e25717-d1e164">Contra tertiam obicitur sic : quia visio respondet ipsi fidei, et frui commune est ad omnem
+      virtutem, ergo male definitur caritas per videre et frui. Item, desiderium est rei absentis
+      et quodam modo imperfectum. Cum ergo caritas sit perfectissima, male definitur per actum
+      desiderandi.</p>
+          <p xml:id="bb-d1e25717-d1e168">Contra quartam obicitur sic : Dionysius, in libro De divinis nominibus, definiens amorem
+      generaliter, dicit quod est <quote xml:id="bb-d1e25717-Qd1e170">virtus unitiva</quote>. Ergo copulare amantem cum amato
+      non est proprium caritatis, cum sit commune amori naturali et animali. Item, vita est
+      perfectio absoluta, copulatio amantis cum amato est qualitas respectiva. Ergo male dicitur
+      caritas esse vita copulans.</p>
+          <p xml:id="bb-d1e25717-d1e174">Contra ultimam obicitur sic : caritas est radix virtutum et principium merendi et pondus
+      quo quis inclinatur et tendit ad finem. Ergo non videtur quod caritas debeat dici finis.</p>
+          <p xml:id="bb-d1e25717-d1e177">Item, quaeritur de illis tribus membris quae adduntur, pro quibus stant et quomodo
+      distinguuntur ? Item, quaeritur quare cordi attribuitur puritas et conscientiae bonitas et
+      fidei stabilitas, cum puritas cordis sit ex fide, Actuum 15, 9 : Fide purificans corda
+      eorum. Et quare fides ponitur ultima, cum ipsa sint prima ?</p>
+          <p xml:id="bb-d1e25717-d1e180">Respondeo : Dicendum quod caritas secundum multiplicem sui comparationem habet
+      multipliciter definiri. Habet enim caritas comparari ad obiectum, et sic assignatur
+      definitio prima, posita a <name ref="#Lombard">Magistro</name>. Potest iterum considerari per comparationem ad finem
+      ultimum, et sic definitur ab <name ref="#Augustine">Augustino</name>, in Soliloquiis. Potest etiam comparari ad actum
+      proprium, qui est unire et adhaerere, et sic definitur ab <name ref="#Augustine">Augustino</name>, in libo De moribus
+      Ecclesiae et in libro De spiritu et anima, per actum uniendi et copulandi amantem cum amato,
+      videlicet affectum nostrum cum Deo. Potest iterum comparari ad habitum sibi adiunctum, qui
+      quodam modo est ipsius caritatis principium, et sic definitur ad Apostolo, cum dicitur :
+      Caritas est finis praecepti etc. Et hoc patet ex ipsius notificationis explanatione. Nam
+      caritas comparata ad habitus aliarum virtutum theologicarum, quia unit eas fini, principatum
+      tenet inter eas, et ideo movet et informat et terminat sive consummat ; et propterea dicitur
+      esse finis praecepti : et quia finis est aliarum, actus aliarum disponunt ad. actum
+      caritatis, et ipsa caritas immediate elicit. Et ideo tres ponuntur ibi conditiones, et per
+      primam, qua dicitur esse caritas de corde puro, tangitur conditio ipsius caritatis, cuius
+      est depurare affectum cordis ab omni terrenitate ; per secundam, scilicet de conscientia
+      bona, tangitur conditio spei ; per tertiam conditio fidei ; et secundum hoc ordinantur,
+      secundum quod principalius ad actum caritatis disponunt. Et sic patet distinctio et in
+      tellectus praepositarum definitionum.</p>
+          <p xml:id="bb-d1e25717-d1e192">Ad illud ergo quod primo obicitur contra definitionem <name ref="#Lombard">Magistri</name>, quod idem est dilectio, et
+      caritas, dicendum quod, etsi sint idem re, tamen aliqua differentia rationis est ; dilectio
+      enim in plus est quam caritas. Unde consuevit assignari differentia, quod amor est naturae,
+      dilectio est voluntatis deliberativae et caritas gratiae. Alia etiam est differentia, quia
+      caritas nominat habitum, sed dilectio nominat actum ; ei ita definitur caritas per
+      dilectionem, tamquam minus commune per magis commune et habitus per suum actum.</p>
+          <p xml:id="bb-d1e25717-d1e198">Ad illud quod obicitur, quod illa notificatio convenit dilectioni in statu innocentiae,
+      dicendum quod differentia est in modo diligendi Deum propter se, secundum quod dicitur de
+      dilectione naturali et ipsa caritate, sicut in secundo libro ostensum fuit. Et ideo ex hoc
+      non ostenditur illa ratio non esse bene assignata.</p>
+          <p xml:id="bb-d1e25717-d1e202">Ad illud quod obicitur de notificatione <name ref="#Augustine">Augustini</name>, De moribus Ecclesiae, quod caritas est
+      animi affectio, dicendum quod ibi est praedicatio materialis ; ideo in ratione illa est
+      sophisma secundum accidens. Ad hoc vero quod subiungit quod illa notificatio convenit spei,
+      dicendum quod spei, proprie loquendo, non convenit unire, sed magis erigere ; fidei enim est
+      dirigere et spei est erigere et caritatis adhaerere.</p>
+          <p xml:id="bb-d1e25717-d1e208">Ad illud quod obicitur de definitione <name ref="#Augustine">Augustini</name>, de Soliloquiis, quod caritas non debet
+      definiri per videre et frui, dicendum quod sicut fides cognoscit sibi et aliis virtutibus,
+      sic caritas desiderat sibi et aliis. Et quoniam perfectio mercedis consistit in visione et
+      fruitione Dei, hinc est quod caritas definitur per desiderium utriusque, non quia videre sit
+      eius proprium, sed quia desiderium habendi Deum est proprium caritatis.</p>
+          <p xml:id="bb-d1e25717-d1e214">Ad illud quod obicitur, quod desiderium est rei absentis et imperfectus motus, dicendum
+      quod definitur ibi caritas viae, quae habet secum annexam imperfectionem. Posset etiam
+      nihilominus dici quod desiderium, prout excludit fastidium, non solummodo est rei absentis,
+      immo est praesentis ; et hoc modo large accipitur in proposito.</p>
+          <p xml:id="bb-d1e25717-d1e217">Ad illud quod obicitur contra definitionem <name ref="#Augustine">Augustini</name>, De spiritu et anima, quod caritas est
+      vita copulans, dicendum quod, etsi copulare conveniat omni amori quodam modo, tamen hoc
+      totum, quod est vita copulans, est proprium ipsius caritatis, quia nullus est amor qui
+      animam proprie habeat vivificare nisi amor gratuitus, qui copulat cum Deo ipsam animam
+      vivificante.</p>
+          <p xml:id="bb-d1e25717-d1e223">Ad illud quod obicitur, quod non possunt illa duo simul stare, vita et copula, dicendum
+      quod, quamvis vita, prout est actus primus, sit perfectio absoluta, tamen, prout est actus
+      secundus, habet respectum ad obiectum extra, sicut patet, quia, secundum <name ref="#Aristotle">Philosophum</name>,
+      alimento uti et intelligere sunt differentiae ipsius quod est vivere ; et caritas est vita,
+      secundum quod vita dicitur actus secundus, ut in praecedentibus fuit ostensum.</p>
+          <p xml:id="bb-d1e25717-d1e229">Ad illud quod obicitur de notificatione Apostoli, quod non debet dici finis, cum sit
+      principium, dicendum quod, cum nihil prohibeat tres causas eoincidere in unum, sicut patet
+      in Deo respectu creaturae, nullum est inconveniens caritatem simul esse radicem, formam et
+      finem, secundum omparationem triplicis causae, cum nos perfecte faciat Deo conformes,
+      secundum quod superius habitum est.</p>
+          <p xml:id="bb-d1e25717-d1e233">Ad illud quod quaeritur de sufficientia et numero et ordine et appropriatione illarum
+      conditionum quae superadduntur, satis patet responsio ex explanatione ipsius definitionis et
+      ex his quae in secundo libro determinata sunt, distinctione trigesima octava, quae non
+      oportet ad praesens repetere. Et ideo de illa notificatione Apostoli et de aliis sufficiat
+      ad praesens tantum dixisse.</p>
+        </div>
+        <div xml:id="bb-d1e25837">
+          <head xml:id="bb-d1e25717-Hd1e239">Dub. II.</head>
+          <p xml:id="bb-d1e25717-d1e242">Item quaeritur de hoc quod dicit : Pro quo etiam duo sunt mandata. Videtur enim quod unum
+      solum debeat esse mandatum, quia unius operis secundum unam rationem unum debet esse
+      mandatum ; sed una est ratio diligendi in Deo et in proximo : ergo unum debet esse mandatum
+      in utroque. Item, si mandata numerantur secundum numerum diligibilium, cum quatuor sint
+      diligenda ex caritate, quatuor deerent esse mandata. Item, qui diligit proximum Legem
+      implevit, sicut dicitur ad Romanos 13, 8 ; et ibidem dicitur quod omne aliud mandatum in
+      illo verbo instauratur. Ergo videtur quod unum solum debeat esse mandatum.</p>
+          <p xml:id="bb-d1e25717-d1e245">Respondeo : Dicendum quod, cum mandata diversificari habeant secundum ordinem ad Deum et
+      proximum, sicut patet per dstinctionem primae tabulae a secunda, ideo, cum caritas habeat
+      ordinare respectu utriusque, oportuit praecepta distingui ; verumtamen, quia una est ratio
+      diligendi, unum potuit in altero implicari.</p>
+          <p xml:id="bb-d1e25717-d1e248">Ad illlld ergo quod obicitur, quod mandata distinguuntur penes rationem ipsius habitus,
+      dicendum quod falsum est, immo penes modum ordinandi ad alterum.</p>
+          <p xml:id="bb-d1e25717-d1e251">Ad illud quod obicitur, quod quatuor debent esse mandata, dicendum quod in mandato proximi
+      satis includitur dilectio sui ; et quia ad hoc est homo ordinatus per naturam, non oportuit
+      ad hoc induci per praeceptionem divinam.</p>
+          <p xml:id="bb-d1e25717-d1e255">Ad. illud quod obicitur : qui diligit proximum Legem implevit, patet responsio, quia
+      Apostolus loquitur ibi de impletione secundae tabulae. Praeterea, in mandata de dilectione
+      proximi includitur mandatum de dilectione Dei. Quamvis enim unum. in altero includatur, non
+      tamen potest inferri quod unum ab altero non distinguatur ; hoc enim est propter connexionem
+      et ordinem, quae non excludit distinctionem.</p>
+        </div>
+        <div xml:id="bb-d1e25859">
+          <head xml:id="bb-d1e25717-Hd1e261">Dub. III.</head>
+          <p xml:id="bb-d1e25717-d1e264">Item quaeritur de hoc quod dicit : Sic condita est mens humana, ut nunquam sui non
+      meminerit etc. Contra primum obicitur sic : memoria est rei absentis et praeteritae ; anima
+      nunquam est sibi absens et praeterita : ergo nunquam meminit sui. Item, contra illud quod
+      sequitur, quod nunquam se non intelligit, obicitur, quod anima intelligit alia a se ; et
+      impossibile est quod simul plura intelligat : ergo tune non intelligit se. Praeterea, multi
+      credunt se non habere animam, quae sit substantia spiritualis : ergo videtur quod in talibus
+      anima non intelligat se ipsam. Item, contra tertium quod dicit : Ut nunquam se non diligat,
+      obicitur sic, quod multi se ipsos interficiunt et vitam suam odiunt : ergo videtur totum
+      illud esse falsum. Praeterea, in auctoritate sequenti statim subditur contrarium : Qui
+      diligit iniquitatem odit animam suam.</p>
+          <p xml:id="bb-d1e25717-d1e267">Respondeo : Dicendum quod illa tria, quae tanguntur in littera, dupliciter possunt attribui
+      animae, videlicet actu vel habitu. Si. habitu, sic vere et semper attribuuntur ei, quoniam
+      anima per se ips.am nata est sui meminisse, se intelligere et se diligere. Si autem
+      intelligatur in actu, sic non semper sibi attribuuntur, quia non semper se cogitat nec
+      semper super se convertitur <name ref="#Augustine">Augustinus</name> ergo loquitur quantum ad habitum, non quantum ad
+      actum.</p>
+          <p xml:id="bb-d1e25717-d1e273">Ad illud quod obicitur, quod memoria est respectu praeteritorum, dicendum quod <name ref="#Augustine">Augustinus</name>
+      largius accipit memoriam quam <name ref="#Aristotle">Philosophus</name>, sicut in primo libro fuit ostensum.</p>
+          <p xml:id="bb-d1e25717-d1e282">Ad illud quod obicitur, quod non semper se cogitat, immo de aliis, iam patet responsio,
+      quia non, loquitur de intelligere secundum quod dicit actualem cogqitionem et conversionem
+      super se.</p>
+          <p xml:id="bb-d1e25717-d1e286">Ad illud quod obicitur de dilectione, dicendum quod diligere est dupliciter, affectu
+      scilicet et effectu. Affectu nullus est qui se ipsum odiat ; immo, si se ipsum interimit,
+      hoc est ut quietem maiorem inveniat ; si peccat, hoc est quia appetit delectationem suam. Si
+      autem loquamur de dilectione quantum ad effectum, sic multi se ipsos odiunt, quia inordinate
+      se diligendo faciunt sibi ipsis malum et inimicantur, sicut multi, qui volentes fugere
+      confusionem vel tribulationem, se ipsos interficiunt corporaliter ; et qui volunt
+      satisfacere desideriis carnis interficiunt se ipsos spiritualiter et inimicantur sibi valde
+      crudeliter.</p>
+        </div>
+        <div xml:id="bb-d1e25890">
+          <head xml:id="bb-d1e25717-Hd1e292">Dub. IV.</head>
+          <p xml:id="bb-d1e25717-d1e295">Item quaeritur de hoc quod dicit : Dilectionis modus insinuatur, cum dicitur : ex toto
+      corde, id est ex toto intellectu ; ex tota anima, id est ex tota voluntate ; ex tota mente,
+      id est ex tota memoria. Diligere enim pertinet ad affectum, non ad intellectum : ergo male
+      dicitur diligere ex intellectu et memoria. Item, <name ref="#Bernard">Bernardus</name>, De amore Dei : <quote xml:id="bb-d1e25717-Qd1e300">Quid est
+       amor nisi vehemens et bene ordinata voluntas</quote> ? Ergo videtur quod ex quo dixit ex
+      tota anima, superfluat addere alias conditiones. Item, beatus Ioannes non ponit nisi duas
+      conditiones, I Ioannis 3, 18 : <quote xml:id="bb-d1e25717-Qd1e303">Diligamus opere et veritate</quote>. Ergo videtur quod
+      in istis tribus conditionibus sit superfluitas. Item, videtur quod sit diminutio, quia
+      Deuteronomii 6, 5 ponitur ista conditio : Et ex tota fortitudine, quae non ponitur hic.
+      Item, Marci 12, 30 additur ista conditio praeter conditiones praedictas : Ex tota virtute
+      tua. Ergo videtur quod ibi sit diminutio vel hic superfluitas. Similiter Lucae 10, 27
+      additur ista conditio : Ex omnibus viribus tuis. Quaeritur ergo de illorum trium
+      distinctione et ordine, numero et sufficientia.</p>
+          <p xml:id="bb-d1e25717-d1e307">Respondeo : Dicendum quod, quamvis caritas immediate respiciat actum concupiscibilis, circa
+      quem primo consistit, nihilominus tamen actus aliarum virium respicit ut disponentes. Unde
+      omnes vires animae quodam modo ordinantur ad ipsam dilectionem sicut ad illud quod habet
+      rationem completionis respectu omnium virtutum. Et quoniam superiores vires animae tres
+      sunt, ideo tres apponuntur conditiones. Et rursus, quia ternarius virium animae dupliciter
+      habet distingui, ita quod unus illorum modorum non discordat ab alio, ideo conditiones circa
+      actum diligendi, respicientes vires animae, duplici modo apponi et distingui habent. Uno
+      enim modo distinguuntur vires animae, secundum quod in eis consistit imago, et dicuntur in
+      mente esse tres potentiae, videlicet memoria, intelligentia et voluntas. Et sic secundum
+      istas tres vires apponuntur tres conditiones, quarum una respicit intelligentiam, scilicet
+      ex toto corde ; altera voluntatem, scilicet ex tota anima ; tertia memoriam, videlicet ex
+      tota mente. Et sic assignantur istae tres conditiones in Matthaei 22, 37, et exponuntur ab
+      <name ref="#Augustine">Augustino</name> sic : ex toto corde, id est ex toto intellectu sine errore ; ex tota anima, id est
+      ex voluntate sine contradictione ; ex tota mente, id est ex tota memoria sine oblivione.</p>
+          <p xml:id="bb-d1e25717-d1e313">Alio modo distinguuntur vires animae sic : in rationalem, irascibilem et concupiscibilem ;
+      et secundum has tres apponuntur conditiones, quarum una respicit rationalem, videlicet ex
+      toto corde ; et alia concupiscibilem, videlicet ex tota anima ; et tertia irascibilem ,
+      videlicet ex tota fortitudine. Et sic assignantur in Deuteronomii 6, 5 et exponuntur a
+      <name ref="#Bernard">Bernardo</name> sic : ex toto corde, id est sapienter ; ex tota anima, id est dulciter ; ex tota
+      fortitudine, id est fortiter ; ut non seducamur fallaciis, non abducamur blanditiis, non
+      frangamur iniuriis. Et ad haec tria reduci possunt illa tria quae tanguntur ad Timotheum 1,
+      5 : Ex corde puro, conscientia bona et fide non ficta. Nec est in istis aliqua repugnantia,
+      pro eo quod potentia irascibilis et ipsa memoria conformantur in actu ; et ideo una virtus
+      est utriusque reformativa et una dos utriusque perfectiva, et unam respicit principaliter et
+      aliam ex consequenti. Et ideo, ubi in Deuteronomio [6, 5] dicitur ex tota fortitudine, in
+      Matthaeo [22, 37] dicitur ex tota mente. Et haec est ratio quare haec conditio ex tota mente
+      ultimo loco ponitur. Et sic patet sufficientia, numerus et distinctio illorum quae
+      assignantur circa modum dilectionis, et quod nihil est superfluum et nihil diminutum. Patet
+      etiam solutio obiectorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

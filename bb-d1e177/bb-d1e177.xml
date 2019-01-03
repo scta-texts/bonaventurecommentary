@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, Distinctio. 1, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, Distinctio. 1, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e177">
+        <head xml:id="bb-d1e177-Hd1e119">III, Distinctio. 1, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e177-Hd1e122" type="question-title">Utrum una persona possit humanae naturae sine altera.</head>
+        <p xml:id="bb-d1e177-d1e125">Secundo quaeritur, utrum una persona possit uniri sine altera. Et quod non, videtur.</p>
+        <p xml:id="bb-d1e177-d1e128">Primo per <name ref="#JohnDamascenus">Damascenum</name>, qui dicit quod in divinis omnia sunt unum praeter generationem,
+    ingenerationem et processionem. Sed incarnatio non est aliquid horum : ergo, si incarnari
+    convenit uni personae, necesse est quod conveniat alteri.</p>
+        <p xml:id="bb-d1e177-d1e134">Item, opera Trinitatis sunt indivisa : ergo opus quod convenit uni personae, necesse est quod
+    conveniat alteri : ergo, si incarnatio est opus Dei, impossibile est quod conveniat uni
+    personae sine alia.</p>
+        <p xml:id="bb-d1e177-d1e138">Item, incarnatio est opus recreationis, sicut hominis formatio fuit opus creationis ; sed
+    impossibile est hominem formari ab una persona quod non ab alia : ergo impossibile est hominem
+    reformari ab una persona quod non ab alia. Ergo una persona non potest incarnari sine
+    alia.</p>
+        <p xml:id="bb-d1e177-d1e141">Item, perfectiori modo est Deus in aliquo quando est per unionem quam cum est per gratiam in
+    habitantem ; sed impossibile est unam personam inhabitare in aliquo sine alia : ergo
+    impossibile est unam personam uniri carni quod non uniatur et alia.</p>
+        <p xml:id="bb-d1e177-d1e144">Item, impossibile est Filium venire in mentem quin simul cum eo veniat et Pater et Spiritus
+    Sanctus, sicut dicitur Ioannis 14, 23 : Ad eum veniemus etc. Ergo impossibile est Filium
+    venire in carnem quin simul veniat Pater et Spiritus Sanctus ; si ergo mitti in carnem est
+    incarnari videtur etc.</p>
+        <p xml:id="bb-d1e177-d1e147">Item, impossibile est aliquid absolutum convenire uni quod non conveniat alteri, pro eo quod
+    solum relationibus distinguuntur. Ergo, si esse incarnatum vel esse hominem est praedicatum
+    absolutum, ergo impossibile est quod conveniat uni quod non conveniat alteri. Ergo una persona
+    non potest sine altera incanari.</p>
+        <p xml:id="bb-d1e177-d1e150">Sed contra : Ioannis 1, 14: <quote xml:id="bb-d1e177-Qd1e152" ana="#io1_14">Verbum caro factum est</quote> ; sed Verbum,
+    sicut in primo habitum est, nominat proprietatem personae : ergo, si attribuitur ipsi Verbo
+    incarnatio, videtur quod alicui personae poterit convenire.</p>
+        <p xml:id="bb-d1e177-d1e156">Item, incarnari non est aliud quam incarnem mitti ; sed mitti potest convenire uni personae
+    sine alia, quia Filius mittitur et unquam Pater legitur esse minus : ergo et incarnari.</p>
+        <p xml:id="bb-d1e177-d1e160">Item, incarnatio est unio in persona : ergo, si alia est persona Patris, alia Filii, videtur
+    quod, si unio sit in persona una, non sit necesse fieri in alia ; et si unio potest fieri,
+    similiter et incarnatio.</p>
+        <p xml:id="bb-d1e177-d1e163">Item, quamvis una sit veritas Patris et Filii et Spiritus Sancti, tamen persona Patris
+    significari potest per aliud signum quam persona Filii vel Spiritus Sancti, sive loquamur de
+    signo vocali sive reali ; sed qua ratione signum potest copulari per uni personae sine aliis
+    significationem, eodem modo potest aliquod creatum copulari secundum unionem personalem :
+    ergo, si una persona potest sine altera significari, similiter potest una sine altera
+    incarnari.</p>
+        <div xml:id="bb-d1e226">
+          <head xml:id="bb-d1e177-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d1e177-Hd1e171" type="question-title">Una divina persona incarnari potest, ita quod non alia
+      incarnetur</head>
+          <p xml:id="bb-d1e177-d1e174">Respondeo : Dicendum quod sine nes hoc ostendentes concedendae dubio una persona incarnari
+      potest sunt, ita quod non alia incarnetur, sicut operis evidentia manifestat.</p>
+          <p xml:id="bb-d1e177-d1e177">Et ratio huius est ista, quia, cum contingat dupliciter comparari creaturam ad Creatorem,
+      videlicet secundum susceptionem alicuius completionis et secundum habitudinem relationis,
+      una comparatio necessario respicit tres personas indistincte et indivisim, pro eo quod in
+      eis est una perfectio essentialis ; comparatio vero secundum habitudinem relationis potest
+      esse respectu alicuius personae determinate et distincte, pro eo quod istae personae
+      relationibus distinguuntur.</p>
+          <p xml:id="bb-d1e177-d1e180">Similiter Deus dupliciter habet comparari ad creaturam, videlicet in ratione principii
+      causantis et in ratione suppositi substantificantis. In prima comparatione necessario quam
+      in carnem mitti ; sed mitti communicant tres personae, pro eo quod in Deo unica est natura
+      et unica est virtus operativa, per quam Deus creaturarum est causa. Secunda vero comparatio
+      potest respicere aliquam personam distincte, pro eo quod, etsi una persona conveniat cum
+      altera in natura et eius virtute, distinguitur tamen ab alia in supposito et personali
+      proprietate. </p>
+          <p xml:id="bb-d1e177-d1e184">Quoniam igitur in unione naturarum sive incarnatione persona divina fit suppositum sive
+      hypostasis humanae naturae, ita quod unio sive incarnatio non tantum dicit habitudinem Dei
+      ad creaturam per modum causae, immo etiam per modum suppositi, similiter ex parte creaturae
+      non dicit comparationem solum quantum ad susceptionem completionis, sed etiam quantum ad
+      habitudinem relationis : hinc est quod incarnatio potest convenire uni personae ita quod non
+      conveniat alteri. Unde rationes hoc ostendentes concedendae sunt.</p>
+          <p xml:id="bb-d1e177-d1e187">1. Ad illud vero quod primo obicitur, quod in divinis omnia sunt unum praeter
+      ingenerationem etc., dicendum quod verum est. Sed cum dicitur quod incarnatio non est
+      aliquid horum, dicendum quod, etsi non sit aliquid horum, tamen aliquid horum includit.
+      Includit enim intellectum personalis distinctionis ; incarnatio enim in eis est unio carnis
+      ad naturam divinam in personam distinctam.</p>
+          <p xml:id="bb-d1e177-d1e190">2. Ad illud quod obicitur, quod indivisa sunt Trinitatis opera, dicendum quod verum est.
+      Sed cum dicitur quod incarnatio est operatio Trinitatis, dicendum quod incarnatio, secundum
+      quod dicit operationem, est communis tribus personis ; sed quia praeter hoc importat
+      relationem, ideo uni personae sine alia potest attribui. Et est exemplum : si tres puellae
+      vestiant unam, vestis induitio est atribus, non tamen tres induuntur, sed una sola.
+      Similiter tres personae operatae sunt incarnationem, et tamen una sola dicitur
+      incarnari.</p>
+          <p xml:id="bb-d1e177-d1e193">3. Ad illud quod obicitur de opere creationis, dicendum quod non est simile, quia hominis
+      formatio dicit actionem et operationem tantum, non relationem ad personam, et ideo communis
+      est tribus ; non sic est de incarnatione.</p>
+          <p xml:id="bb-d1e177-d1e196">4. Ad illud quod obicitur, quod Filius non potest esse in aliquo per inhabitantem gratiam,
+      quod non sit tota Trinitas, dicendum quod non est siinile, quia Deum inhabitare in aliquo
+      dicit effectum in creatura quem necesse est esse a tota Trinitate ; sed uniri dicit
+      respectum ad personam, et hoc potest esse ad unam personam sine alia, sicut prius ostensum
+      est.</p>
+          <p xml:id="bb-d1e177-d1e199">5. Ad illud quod obicitur de missione in carnem et mentem, dicendum quod non est simile,
+      quia missio Filii in mentem solum est secundum operationem essentialem, non secundum unionem
+      personalem ; non sic est de missione Filii in carnem.</p>
+          <p xml:id="bb-d1e177-d1e203">6. Ad illud quod obicitur, quod esse incarnatum est praedicatum absolutum, dicendum quod,
+      quamvis sit praedictum absolutum exterius, est tamen relatio interius, et ratione relationis
+      implicitae potest alicui personae convenire distincte. Et hoc patet, quia nihil aliud est
+      Filium incarnari Filium sibi carnem unire ; nihil aliud est Deum esse hominem quam unam et
+      eamdem personam esse hypostasim divinae et humanae naturae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

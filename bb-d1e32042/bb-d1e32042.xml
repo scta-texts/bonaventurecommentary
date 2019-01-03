@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 34, P. 2, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 34, P. 2, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e32042">
+        <head xml:id="bb-d1e32042-Hd1e119">III, D. 34, P. 2, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e32042-Hd1e122" type="question-title">Utrum usus timoris servilis sit bonus an malus.</head>
+        <p xml:id="bb-d1e32042-d1e125">Secundo quaeritur de timore servili in comparatione ad eius usum, et est quaestio, utrum usus
+    timoris servilis sit bonus an malus.</p>
+        <div xml:id="bb-d1e32053" type="rationes-principales">
+          <head xml:id="bb-d1e32042-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e32042-d1e133">Et quod bonus sit, videtur : Quia quales sunt habitus, tales sunt actus ; sed timor
+      servilis, cum sit donum Spiritus Sancti, est bonus : ergo, per documentum moralis
+      Philosophi, actus eius est bonus.</p>
+          <p xml:id="bb-d1e32042-d1e136">Item, maxima est Philosophi quod <quote xml:id="bb-d1e32042-Qd1e138">cuius usus bonus, ipsum quoque bonum</quote> et
+       <quote xml:id="bb-d1e32042-Qd1e141">cuius usus malus, ipsum est malum</quote>. Ergo, si usus timoris servilis est
+      malus, ipse timor servilis esset malus ; sed non est malus, cum detur divinitus : ergo actus
+      eius est bonus.</p>
+          <p xml:id="bb-d1e32042-d1e145">Item, omnis habitus, cuius usus praeparat hominem ad susceptionem gratiae, est bonus
+      quantum ad usum ; sed timor servilis est huiusmodi, quia per usum eius introducitur caritas,
+      sicut dicit <name ref="#Augustine">Augustinus</name>, et habetur in littera : ergo etc.</p>
+          <p xml:id="bb-d1e32042-d1e151">Item, nullus actus, quo quis vitat peccatum, est peccatum ; sed actu timoris servilis
+      recedit homo a peccato : ergo actus timoris servilis non est peccatum : non est ergo malus.
+      Et est malus vel bonus : ergo est bonus.</p>
+          <p xml:id="bb-d1e32042-d1e155">Sed contra : Super illud Psalmi [118, 120] : <quote xml:id="bb-d1e32042-Qd1e157">Confige timore tuo carnes meas</quote>,
+      Glossa : <quote xml:id="bb-d1e32042-Qd1e160">Timor servilis carnem non crucifigit, quiavivit in eo peccandi voluntas, et
+       sequeretur opus, si speraretur impunitas : mallet enim licere et dolet non licere quod lex
+       vetat</quote>. Sed omnis talis motus est directe contra iustitiam, quia vellet iustitiam
+      non esse ; omnis vero motus contra iustitiam est malus : ergo actus et usus timoris servilis
+      est malus.</p>
+          <p xml:id="bb-d1e32042-d1e164">Item, Gregurius, in Moralibus : <quote xml:id="bb-d1e32042-Qd1e166">Cum poena timetur et Dei facies non amatur, timor ex
+       tumore est, non ex amore</quote>. Sed omnis actus, qui procedit ex radice tumoris et
+      superbiae est actus malus et damnabilis : ergo usus timoris servilis non est bonus, sed
+      culpabilis.</p>
+          <p xml:id="bb-d1e32042-d1e170">Item, nullus actus incompossibilis caritati est bonus ; sed timere serviliter est actus
+      incompossibilis caritati ergo timere serviliter non est bonum. Maior manifesta est, quia
+      caritas bono non repugnat, sed malo. Minor autem manifesta est secundum verba <name ref="#Augustine">Augustini</name> et
+      Apostoli, quia spiritus servitutis non stat cum spiritu adoptionis.</p>
+          <p xml:id="bb-d1e32042-d1e176">Item, omnis timor ortum habet ex amore, ergo timor servilis ex amore habet ortum ; sed
+      omnis amor aut est naturalis aut libidinosus aut gratuitus : cum ergo timor servilis non
+      possit habere ortum ex amore gratuito, quia est in peccatore ; nec ex amore naturali potest,
+      constat, quia iam esset timor naturalis : restat ergo quod ex amore libidinoso. Sed omnis
+      actus qui exit ex amore libidinoso est malus et culpabilis : ergo actus timoris servilis est
+      malus.</p>
+          <p xml:id="bb-d1e32042-d1e179">Item, amare Deum propter temporalia principaliter est peccatum et malum, ergo similiter
+      timere Deum propter poenas principaliter est malum ; sed hoc est timere serviliter : videtur
+      ergo quod actus timoris servilis semper sit culpabilis.</p>
+          <p xml:id="bb-d1e32042-d1e182">Item, timor servilis non dicitur servilis nisi a servitute peccati. Ergo pari ratione
+      nullus dicitur timere serviliter nisi circa illum actum sit annexa circumstantia peccati ;
+      sed circumstantia peccati annexa actui facit totum actum deformem : ergo videtur quod actus
+      et usus timoris servilis semper sit culpabilis et deformis.</p>
+        </div>
+        <div xml:id="bb-d1e32111">
+          <head xml:id="bb-d1e32042-Hd1e188">Conclusio</head>
+          <head xml:id="bb-d1e32042-Hd1e191" type="question-title">Timor servilis, quando servilitas non concomitatur actum, sed
+      solum habitum , potest esse bonus, licet non sit meritorius.</head>
+          <p xml:id="bb-d1e32042-d1e194">Respondeo : Ad praedictorum intelligentiam est notandum quod, cum dico timorem servilem,
+      duo dico, videlicet ipsum habitum, quo anima disponitur ad timendum Deum ut punientem eos
+      qui praevaricantur ; et ulterius nomine servilitatis importatur deformitas peccati, quae
+      annexa est illi habitui in eodem homine, ratione cuius ille homo dicitur esse servus
+      peccati, et timor in eo existens dicitur esse timor servilis. Per hunc etiam modum, cum dico
+      aliquem timere serviliter, duo dico, videlicet actum ab illo habitu egredientem et
+      voluntatis servilitatem sive deformitatem concomitantem. Sed attendendum quod hoc potest
+      esse dupliciter : aut ita quod deformifas illa voluntatis concomitetur quantum ad habitum
+      aut quantum ad actum. Si concomitatur solum quantum ad habitum, sic potest esse quod aliquis
+      serviliter timeat et tamen motu illo non peccabit, quia, si ex recogitatione poenarum
+      aliquis abhorret offendere Deum, hoc potest esse praeter omne peccatum. Si autem
+      concomitatur in actu, quamvis ipsum timere de se non sit malum, tamen ratione deformitatis
+      actualiter annexae depravatur, sicut aliquis, qui timet poenas et timendo dolet quod tales
+      poenae infliguntur pro culpa, et actu etiam concupiscit peccare, si non esset illa poena ;
+      et hoc modo timere serviliter est peccatum et malum. Hoc autem non est semper cum quis
+      movetur timore servili, alioquin per usum illius doni magis homo se a gratia elongaret quam
+      praepararet ; quod plane falsum est.</p>
+          <p xml:id="bb-d1e32042-d1e197">Et ideo concedendum est quod usus timoris servilis potest esse bonus, licet non sit bonus
+      bonitate meriti, sed magis bonitate praeparante vel ordinante ad meritum, quae simul stat
+      cum peccato. Unde et rationes quae hoc ostendunt concedendae sunt, licet ratio ultima sit
+      sophistica, quia procedit ex suppositione falsa.</p>
+        </div>
+        <div xml:id="bb-d1e32127">
+          <head xml:id="bb-d1e32042-Hd1e204">Ad Rationes</head>
+          <p xml:id="bb-d1e32042-d1e207">Ad illud vero quod primo obicitur in contrarium quod in timore servili vivit voluntas
+      peccandi et quod dolet de eo quod lex vetat, dicendum quod illud verbum <name ref="#Augustine">Augustini</name> non
+      intelligitur quod semper, quando timet, doleat actu, et similiter quod voluntas peccandi
+      semper sit in actu, sed hoc dicit, quia manet in habitu et radice. Licet autem voluntas sit
+      per peccatum deformata et regnet in ea malus amor, potest tamen aliquando moveri ad aliqua
+      bona opera in genere vel ex circumstantia per aliquam gratiam gratis datam, non committendo
+      culpam, sicut patet per multa exempla ; et sic potest esse in parte ista.</p>
+          <p xml:id="bb-d1e32042-d1e213">Ad illud quod obicitur, quod timere serviliter est ex tumore, sicut dicit Gregorius, non ex
+      amore, dicendum quod <mentioned> ex </mentioned> non dicit ibi causam, sed concomitantiam ;
+      et cum dicit concomitantiam in actu, tunc deformat actum timoris servilis ; cum dicit
+      concomitantiam in habitu, non oportet quod deformet, sed tamen facit ipsum deficere a meriti
+      perfectione.</p>
+          <p xml:id="bb-d1e32042-d1e219">Ad illud quod obicitur, quod actus incompossibilis caritati est malus, dicendum quod
+      aliquis actus potest esse incompossibilis alicui ratione circumstantiae propriae quam habet
+      ex proprio habitu vel ratione alicuius annexi. Cum ergo dicitur quod actus timoris servilis
+      est incompossibilis caritati, hoc non est ratione ipsius actus per se et secundum se, quia
+      habens caritatem potest bene timere Deum ratione poenae ; sed hoc intelligitur ratione
+      annexi, quod facit ipsum deficere a merito caritatis. Et ideo ex hoc non sequitur quod actus
+      timoris servilis sit malus, sed vel est malus vel est in homine secundum statum malum ; et
+      conclusio est vera ratione alterius partis.</p>
+          <p xml:id="bb-d1e32042-d1e222">Ad illud quod obicitur, quod timor servilis habet ortum ex amore, dicendum quod non habet
+      ortum ex amore libidinoso, sed potest habere ortum ex amore naturali. Amor enim naturalis
+      dupliciter dicitur : uno modo, qui est cum ipsa natura plantatus ; alio modo, qui est ex
+      naturali affectu et voluntario exercitio acquisitus sine gratiae dono ; et ex tali amore
+      potest homo peccator etiam se ipsum sine peccato amare et mala sua fugere, sive praesentia
+      sive futura : et ex tali amore timor servilis habet procedere. Si enim homo amat se ipsum ad
+      hoc ut acquirat salutem et ex hoc timeat aeterna tormenta incurrere ; talis affectio amoris,
+      quamvis non sit ex caritate, potest esse absque libidine. Aliter potest dici quod sicut
+      timor mundanus, quo quis timet amittere mundana, est ex amore mundi et timor humanus ex
+      amore temporalis salutis, sic timor servilis, cum quis timet incurrere aeterna tormenta, est
+      ex amore aeternae salutis et beatitudinis ; et iste amor, quantum est de se, non est
+      culpabilis, sed est vel naturalis vel gratuitus a gratia gratis data vel gratuitus a gratia
+      gratum faciente ; et timor servilis bene potest esse ex amore salutis primo vel medio modo
+      dicto. Et ideo falsum supponit, cum dicto quod est ex amore libidinoso.</p>
+          <p xml:id="bb-d1e32042-d1e226">Ad illud quod obicitur, quod amare Deum propter temporalia principaliter est peccatum,
+      dicendum quod non est simile de amore et timore, quia amor est ille : qui facit frui, quia
+      eius est quietare vel ad aliud inclinare ; et ideo peccat qui diligit Deum propter temporale
+      principaliter, quia facit de via finem et de fine viam ; non sic autem est ex parte timoris.
+      Alia est ratio, quia, cum quis amat Deum propter temporalia, duo sunt ibi amata ; sed, cum
+      quis timet Deum propter poenas quas infligit, unus solus est quem timet : qui enim timet
+      habentem cultellum, uno et eodem timore timet cultellum sive plagam cultelli et actionem
+      percutientis ; et ideo non est simile hinc et inde.</p>
+          <p xml:id="bb-d1e32042-d1e229">Ad illud quod ultimo obicitur, quod timere serviliter est timere cum circumstantia peccati,
+      dicendum quod illa circumstantia sive deformitas peccati potest poni circa actum timendi
+      ratione ipsius actus vel ratione timentis. Et si ponatur ratione ipsius actus, tunc utique
+      actus deformatur et efficitur malus ratione annexi, sicut prius fuit expositum. Sed si ita
+      sit quod ponatur ratione ipsius timentis, sic potest esse quod actus non sit actus
+      deformatus, sed quia deformitas est circa timentem, licet secundum illam deformitatem non
+      actualiter moveatur. Et propterea non est opportunum quod semper timere serviliter sit
+      peccatum, immo hoc potest esse utile et praeparatorium respectu gratiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

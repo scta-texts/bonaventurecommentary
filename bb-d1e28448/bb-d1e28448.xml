@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 31, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 31, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e28448">
+        <head xml:id="bb-d1e28448-Hd1e119">III, D. 31, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e28448-Hd1e122" type="question-title">Utrum caritas semel habita possit amitti.</head>
+        <p xml:id="bb-d1e28448-d1e125">Circa primum sic proceditur et quaeritur, utrum caritas semel habita possit amitti.</p>
+        <div xml:id="bb-d1e28459" type="rationes-principales">
+          <head xml:id="bb-d1e28448-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e28448-d1e133">Et quod non adducit <name ref="#Lombard">Magister</name> multas auctoritates in littera, et hoc ipsum ostenditur
+      ratione. Haec enim est per se vera amor unit, ergo maior amor magis unit ; sed amor
+      caritatis est excellentior amor quam sit amor naturalis : ergo excellentius unit. Sed
+      naturalis amor unit indissolubiliter, quia nullus unquam odit quod narturaliter amat : ergo
+      multo fortius amor caritatis indissolubiliter unit : ergo qui caritatem habet non potest
+      vinculo caritatis privari.</p>
+          <p xml:id="bb-d1e28448-d1e139">Item, fortior est caritas in bono quam sit aliquod peccatum in malo ; sed magis forte non
+      potest destrui per minus forte : ergo caritas non potest expelli per peccatum ; nec per
+      aliud habet expelli : ergo semel habita non potest amitti.</p>
+          <p xml:id="bb-d1e28448-d1e142">Item, omne peccatum ortum habet vel ex timore male humiliante vel ex amore male incendente
+      ; sed in eo in quo est caritas nec est timor male humilians nec amor male incendens, quia
+      dicit <name ref="#Bernard">Bernardus</name> : <quote xml:id="bb-d1e28448-Qd1e147">Nunquam est caritas sine timore, sed casto ; nunquam sine
+       cupiditate, sed ordinata</quote> : ergo videtur quod in eo, in quo est caritas, nulla
+      possit esse culpa. Videtur ergo quod caritas, ex citio semel habetur, numquam amittatur</p>
+          <p xml:id="bb-d1e28448-d1e151">Item, liberum arbitrium in eligendo semper sequitur affectionem praedominantem ; sed in
+      omni homine habente caritatem affectio caritatis praedominatur, cum faciat eum diligere Deum
+      propter se et super omnia : ergo liberum arbitrium, ex quo semel habet caritatem, nunquam
+      movetur contra caritatem. Sed ounquam amittit caritatem nisi moveatur contra ipsam : ergo ex
+      quo caritas semel inest homini, videtur quod non possit ab eo perdi nec separari.</p>
+          <p xml:id="bb-d1e28448-d1e155">Item, omnis qui habet caritatem habet Christum pro fundamento et Spiritum Sanctum pro
+      adiutorio ; sed nihil potest firmitatem fundamenti infringere nec virtutem divini adiutorii
+      superare : ergo videtur quod nihil possit caritatem ab homine expellere.</p>
+          <p xml:id="bb-d1e28448-d1e158">Sed contra : Primo, per exempla Veteris Testamenti. Constat enim quod Saul caritatem
+      habuit, cum de eo scribatur, quod non erat vir in Israel melior eo ; similiter et David
+      caritatem habuit, cum de eo dicat Dominus : Inveni virum secundum cor meum ; et constans est
+      quod uterque caritatem perdidit, quia uterque mortaliter peccavit : Saul in persequendo
+      David, David vero in committendo adulterium et homicidium : ergo etc.</p>
+          <p xml:id="bb-d1e28448-d1e161">Item, hoc ipsum ostenditur per exempla Novi Testamenti, quia discipuli Domini caritatem
+      habuerunt, tam Apostoli quam alii discipuli electi ; sed multi de discipulis abierunt retro,
+      secundum quod dicitur Ioannis 6, 67 ; multi etiam de Apostolis dubitaverunt in fide,
+      secundum quod habetur Matthaei ultimo, 17, et similiter ultimo, 11 Marci, et similiter
+      ultimo, 11 Lucae : ergo caritatem habitam perdiderunt. Ergo caritas semel habita potest
+      perdi.</p>
+          <p xml:id="bb-d1e28448-d1e164">Item, hoc ipsum ostenditur per auctoritates, quia scribitur I ad Corinthios 10, 12 :
+       <quote xml:id="bb-d1e28448-Qd1e166" ana="#Icor10_12">Qui stat videat ne cadat</quote> ; et Apocalypsis 2, 4 : <quote xml:id="bb-d1e28448-Qd1e169" ana="#ap2_4">Habeo adversum te
+       pauca, quod caritatem primam reliquisti</quote>. Ergo caritas semel habita potest perdi et
+      deleri.</p>
+          <p xml:id="bb-d1e28448-d1e173">Item, hoc ipsum probatur manifesto experimento, quia parvuli qui baptizantur habent
+      gratiam, et ita caritatem et virtutes ceteras ; et tamen, quando veniunt ad adultam aetatem,
+      caritatem perdunt peccando, sicut planum est : ergo caritas, postquam habetur,
+      amittitur.</p>
+          <p xml:id="bb-d1e28448-d1e176">Item, hoc ipsum ostenditur rationali argumento. Facilius est deficere quam proficere et
+      cadere quam resurgere ; facilius est etiam perdere caritatem quam fidem, quia, perdita fide,
+      perditur caritas, sed non convertitur ; sed possibile est hominem, qui non habet caritatem,
+      caritatem acquirere, possibile etiam est hominem habentem fidem a fide recedere : ergo multo
+      fortius possibile est hominem habentem caritatem a caritate cadere</p>
+        </div>
+        <div xml:id="bb-d1e28511">
+          <head xml:id="bb-d1e28448-Hd1e182">Conclusio</head>
+          <head xml:id="bb-d1e28448-Hd1e185" type="question-title">Error est et insania dicere quod caritas semel habita non possit
+      amitti.</head>
+          <p xml:id="bb-d1e28448-d1e188">Respondeo : Dicendum quod, sicut dicit <name ref="#Lombard">Magister</name> in littera, quorumdam opinio et sententia
+      fuit quod caritas semel habita nunquam amittatur ; et hoc posuerunt propter perfectionem
+      illius vinculi et ardorem sive fervorem illius amoris. Crediderunt enim illud vinculum esse
+      tantae perfectionis quod nullo agente posset dissolvi ; et ilium amorem esse tanti fervoris
+      quod nullo modo posset exstingui propter dignitatem et excellentiam ipsius caritatis. Et hoc
+      affirmare nisi sunt auctoritate multiplici, sicut in ipso textu <name ref="#Lombard">Magister</name> satis aperte dicit.
+      Sed haec positio, non opinio nec rationalis sententia, immo error et insania potius est
+      dicenda, quia repugnat Sacrae Scripturae, repugnat experimento nostrae fidei, repugnat
+      nihilominus rationi rectae. Sacrae Scripturae et etiam experientiae repugnat, sicut in
+      opponendo monstratum est. A ratione autem recta dissonat, si quis attendat, pro eo quod
+      recta ratio dictat quod caritas viae non tollit a libero arbitrio vertibilitatem ad malum,
+      sicut nec cupiditas tollit habilitatem ad bonum. Simul ergo stat vertibilitas et caritas ;
+      sed ubi est vertibilitas, ibi potest esse culpa ; et ubi potest esse culpa, ibi tam caritas
+      quam gratia potest abesse : restat igitur quod secundum dictamen rationis rectae caritas
+      perdi potest in statu viae. Unde concedendae sunt rationes ad hanc partem inductae.</p>
+        </div>
+        <div xml:id="bb-d1e28530">
+          <head xml:id="bb-d1e28448-Hd1e201">Ad Rationes</head>
+          <p xml:id="bb-d1e28448-d1e204">Ad illud ergo quod primo obicitur, quod excellentius unit amor caritatis quam amor
+      naturalis, dicendum quod verum est ; sed tamen ex hoc non sequitur quod indissolubilius
+      uniat, quia excellentia unionis non tantum attenditur secundum unionis inseparabilitatem,
+      quantum attenditur secundum habitus unientis et obiecti sive termini dignitatem. Unde ratio
+      illa non valet. Sed si tu quaeras, unde hoc est quod amor naturalis unit inseparabiliter et
+      amor caritatis non, dicendum quod hoc est quia caritas est habitus regulativus et directivus
+      voluntatis deliberativae, quae est ad opposita, secundum statum viae ; amor vero naturalis
+      respicit ipsam inclinationem naturae, quae est ad unum determinata. Ideo dilectum ex
+      caritate potest esse odiosum propter voluntatis vertibilitatem, quamvis quod naturaliter
+      diligitur semper sit amabile proptet ipsius naturae determinationem. Unde non est simile
+      hinc inde.</p>
+          <p xml:id="bb-d1e28448-d1e207">Ad illud quod obicitur, quod caritas est fortior peccato, dicendum quod amissio caritatis
+      non est propter hoc quod peccatum agat in ipsam, eam expellendo, sicut una forma naturalis
+      expellit aliam ; sed hoc est quia, cum esse caritatis dependeat a duobus, videlicet a Deo
+      influente et a libero arbitrio suscipiente, cum liberum arbitrium se a Deo avertit, caritas
+      in semetipsa deficit. Et quia liberum arbitrium non se avertit nisi peccando, hinc est quod
+      caritas dicitur per peccatum expelli, non propter fortitudinem ipsius peccati agentis, sed
+      propter defectionem ipsius liberi arbitrii suscipientis.</p>
+          <p xml:id="bb-d1e28448-d1e210">Ad illud quod obicitur, quod omne peccatum est ex amore male inflammante vel timore male
+      humiliante, dicendum quod illud dupliciter potest intelligi : aut quod illae duae radices
+      praecedant omne peccatum perpetratum exterius tempore aut quia praecedant origine. Si quia
+      praecedant tempore, sic non oportet esse generaliter verum, quia ante primum peccatum nullum
+      istorum fuit in primo homine. Si quia praecedant origine ipsam perpetrationem peccati, sic
+      habet veritatem, quia nemo peccatum perpetrat nisi malo affectu amoris vel malo affectu
+      timoris. Quamvis autem huiusmodi affectus non sint in homine habente caritatem in actu,
+      possunt tamen inesse, quia liberum arbitrium, quod est rectum per caritatem, incurvari
+      potest per cupiditatem.</p>
+          <p xml:id="bb-d1e28448-d1e213">Ad illud quod obicitur, quod liberum arbitrium in eligendo sequitur affectionem
+      praedominantem, dicendum quod est affectio praedominans in habitu et est affectio
+      praedominans in actu. Cum ergo dicitur quod liberum arbitrium sequitur affectionem
+      praedominantem, hoc non intelligitur de affectione praedominante in habitu, sed de
+      praedominante in actu. Quamvis autem in homine habente caritatem affectio caritatis
+      praedominetur in habitu, contingit tamen affectionem carnalem praedominari actu, quia
+      frequenter homo, qui est in gratia, eorum quae Dei sunt oblitus, omnino cogitat quae sunt
+      mundi ; et sic afficitur quasi non esset civis illius supernae Ierusalem ; et dum istam
+      affectionem sequitur, cadit in praecipitium perditque gratiae donum et caritatis
+      habitum.</p>
+          <p xml:id="bb-d1e28448-d1e217">Ad illud quod ultimo obicitur, quod habenti caritatem Christus est fundamentum et Spiritus
+      Sanctus est in adiutorium, dicendum quod verum est ; sed sic Christus est fundamentum quod
+      non sustentat nisi volentem sibi inniti, et Spiritus Sanctus non gubernat in esse gratuito
+      nisi volentem sibi cooperari. Et ideo, quamvis illud fundamentum sit immobile et adiutorium
+      illud sit invincibile, tamen, quia liberum arbitrium ex sua defectibilitate recusat inniti
+      illi fundamento et cooperari illi adiutorio, peccando deficit in se ipso, ac per hoc
+      privatur caritatis dono propter defectum a parte sui, non propter defectum a parte
+      fundamenti vel adiutorii.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

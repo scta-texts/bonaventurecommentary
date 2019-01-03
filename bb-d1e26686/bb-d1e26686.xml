@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 29, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 29, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e26686">
+        <head xml:id="bb-d1e26686-Hd1e119">III, D. 29, Divisio Textus</head>
+        <p xml:id="bb-d1e26686-d1e122">Supra determinavit <name ref="#Lombard">Magister</name> de caritate quantum ad essentiam et definitionem et quantum ad
+    diligibilium numerum et distinctionem. Hic sequitur tertia pars, in qua determinat de ipsa
+    quantum ad diligendi ordinem. Dividitur autem pars ista in partes tres. In quarum prima
+    determinat de ordine caritatis per comparationem ad ea quae per caritatem diliguntur. In
+    secunda per comparationem ad ea beneficia quae per caritatem impenduntur, ibi : Unde et super
+    hoc saepe movetur quaestio. Tertio per comparationem ad gradus qui in caritate reperiuntur,
+    ibi : Sciendum quoque est, diversos esse gradus caritatis.</p>
+        <p xml:id="bb-d1e26686-d1e128">Prima et ultima partibus remanentibus indivisis, media pars dividitur in partes duas. In
+    quarum prima ponit <name ref="#Lombard">Magister</name> circa hanc materiam diversorum opiniones. In secunda dissolvit
+    incidentes dubitationes, ibi : Solet etiam quaeri, si parentes nostri etc.</p>
+        <p xml:id="bb-d1e26686-d1e134">Prima pars dividitur in partes tres. In quarum prima opponit ad partem unam. In secunda vero
+    opponit ad partem alteram, ibi : Quibus obviat illud praeceptum Legis. In tertia vero
+    subiungit opinionem suam, ibi : Verum quia praemissa verba <name ref="#Ambrose">Ambrosii</name> etc.</p>
+        <p xml:id="bb-d1e26686-d1e140">Similiter alia pars, in qua removet dubitationes incidentes, tres habet partes secundum tres
+    dubitationes quas dissolvit, quarum una oritur ex alia. Primam dissolvit, ibi : Solet quaeri :
+    si parentes. Secundam ibi : Verumtamen latebrosa quaestio haec est. Tertiam ibi : Solet
+    quaeri, cur Deus praeceperit inimicos diligere etc. Summa autem harum partium satis est
+    manifesta ex his quae dicuntur in littera.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 35, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 35, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e32835">
+        <head xml:id="bb-d1e32835-Hd1e119">III, D. 35, Divisio Textus</head>
+        <p xml:id="bb-d1e32835-d1e122">Supra egit <name ref="#Lombard">Magister</name> de donis generaliter et de timore specialiter. In hac vero parte de aliis
+    donis determinat satis breviter, maxime de donis quae sunt ex parte cognitivae, scilicet de
+    sapientia, intellectu et scientia, ostendens differentiam inter se et ad alia. Et ideo pars
+    ista dividitur in partes duas. In quarum prima assignat differentiam inter dona tria
+    praedicta. In secunda vero assignat differentiam ipsorum ad alia quae non sunt dona, ibi : Et
+    notandum, quod intellectus et scientia etc.</p>
+        <p xml:id="bb-d1e32835-d1e128">Prima pars dividitur in duas. In quarum prima assignat differentiam inter sapientiam et
+    scientiam. In secunda vero assignat differentiam intellectus ad duo praedicta, ibi : Ostensa
+    differentia inter sapientiam et scientiam.</p>
+        <p xml:id="bb-d1e32835-d1e131">Similiter secunda pars principalis dividitur in duas. In quarum prima assignat differentiam
+    ipsius intellectus et scientiae prout sunt dona, ad se ipsa, et prout sunt acquisita. In
+    secunda vero assignat differentiam inter sapientiam-donum et Sapientiam increatam, ibi : Illud
+    etiam sciendum est, quod sapientia, de qua disserimus etc. Divisiones vero partium satis
+    manifestae sunt in littera.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

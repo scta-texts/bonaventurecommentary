@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 2, A. 3, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 2, A. 3, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e1757">
+        <head xml:id="bb-d1e1757-Hd1e119">III, D. 2, A. 3, Q. 1</head>
+        <head xml:id="bb-d1e1757-Hd1e122" type="question-title">Utrum corpus unitum fuerit Verbo mediante spiritu humano sive
+    anima.</head>
+        <p xml:id="bb-d1e1757-d1e125">Circa primum sic proceditur et quaeritur, utrum corpus unitum fuerit Verbo mediante spiritu
+    humano sive anima.</p>
+        <div xml:id="bb-d1e1768" type="rationes-principales">
+          <head xml:id="bb-d1e1757-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e1757-d1e133"> Et quod sic, videtur. Primo, auctoritate <name ref="#JohnDamascenus">Damasceni</name>, quam <name ref="#Lombard">Magister</name> inducit in littera
+       :<quote xml:id="bb-d1e1757-Qd1e141"> Unitum est carni Verbum Dei per medium intellectum</quote>.</p>
+          <p xml:id="bb-d1e1757-d1e145">Item, Gregorius : <quote xml:id="bb-d1e1757-Qd1e147">Carnem deitas mediante anima suscepit</quote>.</p>
+          <p xml:id="bb-d1e1757-d1e151">Item, <name ref="#Augustine">Augustinus</name> hoc ipsum, Ad Volusianum : <quote xml:id="bb-d1e1757-Qd1e156">Animam rationalem et per ipsam corpus
+       humanum aptavit sibi</quote>.</p>
+          <p xml:id="bb-d1e1757-d1e160">Item, hoc ipsum videtur ratione. Extrema multum distantia non uniunur nisi per medium
+      aliquod ; sed corporeum creatum et corruptibile, et increatum incorporeum et incorruptibile
+      sunt maxime distantia : ergo uniuntur per aliquod medium, quod quidem sit creatum et
+      incorporeum. Sed talis est spiritus rationalis : ergo etc.</p>
+          <p xml:id="bb-d1e1757-d1e164">Item, maioris dignitatis est esse unitum divinitati quam esse glorificatum ; sed corpus non
+      est habile ad glorificationem nisi mediante anima : ergo nec ad unionem.</p>
+          <p xml:id="bb-d1e1757-d1e167">Item, circumscripta anima, corpus humanum minus est nobile quam sit brutalis spiritus, quia
+      substantia spiritualis dignior est corporali ; sed animal brutum non habet congruentiam ad
+      unionem : ergo nec corpus humanum per se ipsum. Si ergo congruentiam habet, hoc est mediante
+      spiritu vel intellectu.</p>
+          <p xml:id="bb-d1e1757-d1e170">Sed contra : Deus est intimus omni creaturae, tam corporali quam spirituali : ergo nihil
+      cadit medium inter ipsum et creaturam. Si ergo unit sibi corpus humanum, videtur quod non
+      uniat sibi mediante spiritu.</p>
+          <p xml:id="bb-d1e1757-d1e173">Item, magis unitur medium cuilibet extremorum quam extrema ad invicem. Ergo, si divinitas
+      unitur carni mediante anima, ergo magis unitur divinitas animae quam carni et caro magis
+      unitur animae quam Deo ; sed hoc est falsum, quia anima uniebatur carni separabiliter,
+      divinitas inseparabiliter, et ita illa caro erat Dei sicut anima Dei : ergo relinquitur idem
+      quod prius.</p>
+          <p xml:id="bb-d1e1757-d1e176">Item, soluto medio solvuntur extrema. Ergo, si Deus unitur carni mediante anima, facta
+      separatione a carne, fit separatio a divinitate ; sed hoc est falsum, quia in morte anima a
+      carne recessit ; Deus autem carnem, quam assunisit, nunquam dimisit : ergo videtur quod
+      anima mediante carnem non assumserit.</p>
+          <p xml:id="bb-d1e1757-d1e179">Item, Deus non organizavit nec formavit carnem illam mediante anima. Ergo, si eadem virtute
+      asstimsit qua formavit, et ita immediate assumsit sicut immediate fecit, non videtur quod
+      assumserit mediante spiritu rationali.</p>
+        </div>
+        <div xml:id="bb-d1e1823">
+          <head xml:id="bb-d1e1757-Hd1e185">Conclusio</head>
+          <head xml:id="bb-d1e1757-Hd1e188">Verbum fuit unitum carni mediante creato spiritu, non quasi anima sit medium
+      colligantiae, sed tantum ut est medium congruentiae </head>
+          <p xml:id="bb-d1e1757-d1e191">Respondeo : Dicendum quod, cum quaeritur, utrum caro assumta fuerit a Verbo mediante
+      spiritu humano, hoc dupliciter potest intelligi, secundum quod ad coniunctionem aliquorum
+      potest concurrere medium secundum duplicem rationem. Est enim medium colligantiae et est
+      medium congruentiae. Medium colligantiae est per quod extrema ligantur ad invicem, sicut duo
+      corpora ad invicem coniunguntur, interveniente glutino. Medium vero congruentiae dicitur
+      ratione cuius congruum est aliqua duo extrema perduci ad aliquam unionem, sicut mulier
+      nobilis mediante nobilitate congruentiam habet ut sit sponsa regis ; cum tamen rex sibi
+      unitur, magis unitur sicut coniugi quam sicut nobili.</p>
+          <p xml:id="bb-d1e1757-d1e194">Si ergo intelligitur de medio colligantiae, tunc quaeritur : utrum Verbum unitur carni
+      mediante spiritu creato ? Respondendum est quod non, pro eo quod immediate et
+      inseparabiliter Verbum unitur tam carni quam animae ; et ideo non cadit ibi anima medium
+      quasi glutinum vel vinculum inter corpus et Deum. Si autem intelligatur de medio
+      congruentiae, sic absque dubio concedendum est quod caro unitur ipsi Verbo mediante spiritu
+      creato. Non enim erat congruum quod Dei Verbum, quod est vita, acciperet corpus nisi
+      vivificatum ; nec conveniebat eum, qui est Spiritus immortalis, uniri corpori nisi
+      vivificato spiritu immortali, unde illud corpus esset idoneum ad incorruptionem. Et hoc est
+      quod dicitur in littera, quod incommutabilis et invisibilis Veritas per spiritum animam et
+      per animam corpus, totum hominem, sine sui contagione susciperet. Et accipitur spiritus pro
+      superiori portione animae, sicut dicit <name ref="#Lombard">Magister</name>, quae maiorem convenientiam habet cum Deo ;
+      anima vero pro inferiori parte animae, secundum quam vivificat corpus. Et per haec duo nihil
+      aliud datur intelligi quam illud corpus congruum esse ad unionem, quod quidem habet per
+      animam vivificari et per spiritum ad perpetuitatem et incorruptionem ordinari. Et quia
+      rationes, quae ad primam partem inducuntur, procedunt secundum medium congruentiae, ideo
+      sunt concedendae.</p>
+        </div>
+        <div xml:id="bb-d1e1842">
+          <head xml:id="bb-d1e1757-Hd1e204">Ad rationes</head>
+          <p xml:id="bb-d1e1757-d1e207">Ad illud ergo quod primo obicitur in contrarium, quod Deus est intimus creaturae corporali,
+      ergo non unitur spiritu mediante, dicendum quod ratio illa procedit de medio distantiae vel
+      colligantiae, quod quidem non est ibi reperire ; non autem obviat medio congruentiae.
+      Quamvis enim sit intimus per modum essendi potentialiter, essentialiter, praesentialiter in
+      omni creatura, non tamen congruum est ut quamlibet assumat in unitatem personae, sicut supra
+      visum est, sed eam solam quae est ad eius imaginem vel quae cum sua imagine habet
+      compositionem.</p>
+          <p xml:id="bb-d1e1757-d1e210">Ad illud quod obicitur, quod non magis unitur Deus animae quam carni, immo aeque immediate
+      utrique unitur, dicendum quod verum est de immediatione secundum quam privat medium faciens
+      distare ; sed non est verum de immediatione quae privat medium faciens congruere, quia plus
+      congruit unioni substantia rationalis, quae est ad eius imaginem, quam substantia
+      corporalis.</p>
+          <p xml:id="bb-d1e1757-d1e213">Ad illud quod obicitur, quod soluto medio solvuntur extrema, dicendum quod illud non habet
+      veritatem de medio congruentiae ; sicut patet, cum aliquis accipit in uxorem aliquam ratione
+      pulcritudinis, non tamen ab ea separatur, pulcritudine recedente ; sic et in proposito
+      intelligendum est. Praeterea, anima non recedebat a corpore simpliciter, sed solum ad tempus
+      ; et corpus illud ex prima, coniunctione sui ad animam dispositionem ad incorruptionem
+      habebat ; et ideo propter separationem ipsius animae congruitatem ad unionem non amittebat ;
+      et ideo, quamvis anima separaretur a carne, non oportebat divinitatem a carne separari. </p>
+          <p xml:id="bb-d1e1757-d1e216">Ad illud quod obicitur, quod Deus non formavit carnem illam mediante anima, dicendum quod,
+      etsi teneat hoc de medio per modum causae, non tenet tamen de medio per modum congruentiae.
+      Quamvis enlm anima non fuerit causa corporis effectiva, tamen ex communicatione corporis cum
+      anima potuit esse aliqua congruentia ad unionem cum divina natura.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

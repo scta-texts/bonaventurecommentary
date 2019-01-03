@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 21, A. 2, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 21, A. 2, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e19009">
+        <head xml:id="bb-d1e19009-Hd1e119">III, D. 21, A. 2, Q. 3</head>
+        <head xml:id="bb-d1e19009-Hd1e122" type="question-title">Utrum propter mortem carnis sit mors persoane Verbi Dei
+    attribuenda.</head>
+        <p xml:id="bb-d1e19009-d1e125">Tertio quaeritur, utrum propter mortem carnis sit mors personae Verbi attribuenda.</p>
+        <div xml:id="bb-d1e19020" type="rationes-principales">
+          <head xml:id="bb-d1e19009-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e19009-d1e133">Et quod sic, ostenditur. Dicitur enim in Symbolo : <quote xml:id="bb-d1e19009-Qd1e135">Passus sub Pontio Pilato,
+       crucifixus, mortuus et sepultus</quote> ; hoc autem dicitur de Filio Dei unigenito. Et hoc
+      ipsum dicit <name ref="#Ambrose">Ambrosius</name> expresse, et habetur supra, distinctione decima octava : <quote xml:id="bb-d1e19009-Qd1e141">Tantum
+       fuit peccatum nostrum, ut salvari non possemus nisi unigenitus Dei Filius moreretur pro
+       nobis debitoribus mortis</quote>.</p>
+          <p xml:id="bb-d1e19009-d1e145">Item, hoc ipsum videtur ratione. Carne nascente et concepta, Filius Dei natus dicitur et
+      conceptus. Ergo pari ratione, carne mortua, Filius Dei debet dici mortuus.</p>
+          <p xml:id="bb-d1e19009-d1e148">Item, satisfactio pro peccato nostro fuit per passionem et mortem ; sed nullus potuit pro
+      peccato nostro satisfacere nisi esset Deus : ergo, si pro peccatis nostris per mortem illam
+      satisfactum est, vere Filius Dei fuit mortuus.</p>
+          <p xml:id="bb-d1e19009-d1e151">Item, unio illa facit communicationem idiomatum ; sed propter separationem animae a carne
+      verum et necessarium fuit illum hominem mori : ergo vere et convenienter potest mors
+      attribui Dei Verbo, ut dicatur Filius Dei mortuus et sepultus pro nobis.</p>
+          <p xml:id="bb-d1e19009-d1e155">Sed contra : <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera, ultimo capitulo : <quote xml:id="bb-d1e19009-Qd1e160">Si quis
+       dixerit atque crediderit Deum passum, anathema sit</quote>. Sed cui non potest attribui
+      passio, non potest attribui mors : si igitur non est credendum Filium Dei passum, sicut
+      dicit, non est credendum neque dicendum Filium Dei mortuum.</p>
+          <p xml:id="bb-d1e19009-d1e164">Item, idiomata partis non communicantur personae Verbi : quamvis enim caro fuerit separata
+      ab anima, non tamen propter hoc Filius Dei separatus fuit ab illa anima quam assumpsit.
+      Ergo, si per passionem Christi non est mortua nisi sola caro, quia anima semper vixit, non
+      videtur quod Filio Dei vere possit attribui mors ; aut, si attribuitur ei mors, tunc est
+      quaestio : quare non similiter attribuitur ei separatio ?</p>
+          <p xml:id="bb-d1e19009-d1e167">Item, propter repugnantiam idiomatum non recipitur communiter Filius Dei est creatura ; sed
+      multo magis repugnat vitae mors, quam intentio creaturae intentioni Creatoris : ergo, si
+      Filius Dei est ipsa vita, videtur quod nullo modo sit mors ei attribuenda.</p>
+          <p xml:id="bb-d1e19009-d1e170">Item, quicumque diceret summe sapientem esse stultum, blasphemaret ; similiter qui diceret
+      summe bonum esse iniquum. Ergo pari ratione qui dicit summe potentem esse infirmum ; sed hoc
+      dicit qui dicit Filium Dei esse mortuum : ergo qui hoc dicit blasphemat Deum.</p>
+        </div>
+        <div xml:id="bb-d1e19066">
+          <head xml:id="bb-d1e19009-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e19009-Hd1e179" type="question-title">Concectendum est, Filium Dei pro nobis fuisse mortuum secundum
+      humanam naturam, et quidem per idiomatum communionem.</head>
+          <p xml:id="bb-d1e19009-d1e182">Respondeo : Dicendum quod absque dubio concedendum est Filium Dei pro nobis fuisse mortuum.
+      Et hoc quidem sibi vere attribuitur, non secundum naturam divinam, sed secundum humanam, non
+      per essentiam aut per inhaerentiam, sed per idiomatum communicantiam. Et hoc in nullo
+      derogat divinae dignitati et multum consonat pietati. Nullum enim verbum maioris dignationis
+      resonare potest in auribus cordis nostri quam quod unigenitus Dei Filius mortuus fuerit pro
+      nobis debitoribus mortis. Et ideo non tantum est hoc credendum et asserendum tainquam verum,
+      sed etiam frequentissime recolendum. Et concedendae sunt rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-d1e19079">
+          <head xml:id="bb-d1e19009-Hd1e189">Ad Rationes</head>
+          <p xml:id="bb-d1e19009-d1e192">Ad illud vero quod obicitur de auctoritate <name ref="#Augustine">Augustini</name>, satis convenienter respondet <name ref="#Lombard">Magister</name>
+      in littera. Non enim intendit removere passionem a persona Verbi simpliciter, sed secundum
+      divinam naturam.</p>
+          <p xml:id="bb-d1e19009-d1e201">Ad illud quod obicitur, quod idiomata partis non communicantur personae Verbi, dicendum
+      quod mori non tantum convenit carni, sed etiam toti homini assumpto. In separatione enim
+      animae a carne non solum moritur caro, sed etiam totus homo. Et ideo ratio illa procedit ex
+      suppositione falsi.</p>
+          <p xml:id="bb-d1e19009-d1e204">Ad illud quod obicitur, quod non communicantur idiomata, ubi est repugnantia, dicendum quod
+      verum est, ubi est talis repugnantia quae non tollitur mediante convenientia. Sic autem non
+      est in proposito. Mors enim dat praeintelligere humanitatem, quae sine repugnantia potest
+      dici de persona Christi ; unde Filius Dei dicitur fuisse mortuus, quia fuit homo, in quo
+      fuit passio mortis.</p>
+          <p xml:id="bb-d1e19009-d1e207">Ad illud quod obicitur, quod blasphemia est dicere Filium Dei esse mortuum, dicendum quod
+      hoc videtur auribus infidelium, secundum quod dicitur I ad Corinthios 1, 23 : Praedicamus
+      Iesum Christum crucifium, Iudaeis quidem scandalum, gentibus autem stultitiam. Et ratio
+      huius est : quia non credunt ipsius humanationis Filii Dei benignissimam dignationem nec
+      intelligunt illius humiliationis altissimam rationem. Si enim haec intelligerent, viderent
+      quod illud quod infirmum est Dei, fortius est hominibus, et illud quod stultum est Dei
+      sapientius est omnibus hominibus. His igitur duobus pensatis, videlicet ipsa Verbi
+      incarnatione et ratione ob quam incarnatus est, non est blasphemia, immo laus, dicere quod
+      Filius Dei pro nobis fuit mortuus secundum naturam assumptam. Per hoc enim decentissime,
+      sicut in praecedentibus est ostensum, reparatum est genus humanum. Nec est simile de
+      stultitia et malitia : non enim valebant ad nostram redemptionem sicut passionis et mortis
+      tolerantia. Et per hoc patent quaesita.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

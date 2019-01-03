@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 17, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 17, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e15564">
+        <head xml:id="bb-d1e15564-Hd1e119">III, D. 17, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e15564-Hd1e122" type="question-title">De numero et sufficientia voluntatum in Christo.</head>
+        <p xml:id="bb-d1e15564-d1e125">Secundo quaeritur de voluntatum numero et sufficientia. Dividit enim <name ref="#Lombard">Magister</name> voluntates
+    Christi in tria membra, quorum unum est voluntas divinitatis, aliud voluntas rationis et
+    tertium voluntas carnis seu sensualitatis.</p>
+        <div xml:id="bb-d1e15578" type="rationes-principales">
+          <head xml:id="bb-d1e15564-Hd1e133">Rationes Principales</head>
+          <p xml:id="bb-d1e15564-d1e136">Sed quod ista divisio sit superflua, videtur. Primo auctoritate <name ref="#JohnDamascenus">Damasceni</name>, in III libro :
+       <quote xml:id="bb-d1e15564-Qd1e141">Duas, inquit, naturas Christi, duas eius voluntates naturales et naturales actus
+       aimus</quote>. Ergo, si divisio <name ref="#JohnDamascenus">Damasceni</name> est completa, quae est per duo membra, vicletur
+      quod praedicta divisio sit superflua.</p>
+          <p xml:id="bb-d1e15564-d1e148">Item, <name ref="#Aristotle">Philosophus</name> dicit, in III De anima et etiam in Topicis, quod <quote xml:id="bb-d1e15564-Qd1e153">voluntas est in
+       sola rationali</quote>. Ergo nulla voluntas videtur esse sensualitatis ; et si hoc,
+      tertium membrum praedictae divisionis superfluit.</p>
+          <p xml:id="bb-d1e15564-d1e157">Item, penes voluntatem attenditur liberum arbitrium ; sed in Christo non sunt nisi duo
+      libera arbitria : ergo nonnisi duae voluntates : ergo etc.</p>
+          <p xml:id="bb-d1e15564-d1e160">Item, voluntas consequitur naturam ; sed in Christo sunt tantum duae naturae : ergo tantum
+      duae voluntates.</p>
+          <p xml:id="bb-d1e15564-d1e164">Sed contra : Quod sint non tantum duae sed etiam plures quam tres, videtur : Auctoritate
+      Hugonis, in libello quem fecit De voluntatibus Christi, ubi ait sic : <quote xml:id="bb-d1e15564-Qd1e166">Fuit in Christo
+       voluntas Deitatis et voluntas rationis et voluntas pietatis et voluntas carnis</quote>.
+      Ergo quatuor differentiae voluntatis.</p>
+          <p xml:id="bb-d1e15564-d1e170">Item, sicut Christus habuit sensualitatem, ita habuit synderesim ; et sicut sensualitatis
+      est appetere bonum carnis, ita synderesis est appetere bonum honestatis. Ergo sicut ponitur
+      aliqua voluntas in Christo secundum sensualitatem, ita videtur quod deberet poni secundum
+      synderesim, et ita quatuor voluntatis differentiae.</p>
+          <p xml:id="bb-d1e15564-d1e173">Item, voluntas, secundum <name ref="#JohnDamascenus">Damascenum</name>, dividitur prima divisione in thelesim et bulesim, hoc
+      est in naturalem et deliberativam ; istae duae differentiae constat quod fuerunt in Christo,
+      sicut et praedictae : ergo videtur quod Christus habuerit voluntates plures quam tres.</p>
+          <p xml:id="bb-d1e15564-d1e179">Item, voluntas sequitur cognitionem ; sed in Christo est reperire quatuor genera virtutum
+      cognoscitivarum, quia in ipso cognoscebat sensus exterior, cognoscebat sensus interior,
+      cognoscebat intellectus humanus, cognoscebat intellectus divinus. Si ergo cuilibet
+      cognitioni respondet affectio, et cuilibet affectioni voluntas, videtur quod in Christo
+      fuerit quadruplex voltintatis differentia.</p>
+          <p xml:id="bb-d1e15564-d1e182">Est igitur quaestio de praedictae divisionis sufficientia.</p>
+        </div>
+        <div xml:id="bb-d1e15633">
+          <head xml:id="bb-d1e15564-Hd1e188">Conclusio</head>
+          <head xml:id="bb-d1e15564-Hd1e191" type="question-title">Secundum duas naturas in Christo sunt duae voluntates, secundum
+      potentias sunt tres, secundum actum volendi vero quatuor.</head>
+          <p xml:id="bb-d1e15564-d1e194">Respondeo : Ad praedictorum intelligentiam est notandum quod voluntas tripliciter habet
+      considerari : aut secundum naturam aut secundum potentiam per quam quis vult aut secundum
+      modum volendi. Et secundum istam triplicem considerationem tripliciter habet dividi voluntas
+      in Christo. Secundum enim comparationem ad naturam dividi habet divisione bimembri. Duplex
+      enim in Christo est voluntas divina videlicet et humana secundum duas naturas ; et sic
+      considerat <name ref="#JohnDamascenus">Damascenus</name> voluntatem Christi cum eam dividit in duo membra.</p>
+          <p xml:id="bb-d1e15564-d1e200">Si autem consideretur voluntas secundum potentias per quas quis vult, sic dividi habet
+      divisione trimembri. Nam in Christo fuit potentia divina et potentia rationalis creata et
+      potentia sensitiva, per quarum quamlibet in actum volendi exibat. Et sic dividit <name ref="#Lombard">Magister</name> in
+      littera per tria membra, ita quod illa tria habent reduci ad divisiones duas bimembres quae
+      sunt per differentias immediatas, quia voluntas in Christo fuit aut divina aut humana ; et
+      si humana, aut sequens cognitionem sensitivam aut sequens cognitionem intellectivam. Et sic
+      patet sufficientia praedictae divisionis in tria membra.</p>
+          <p xml:id="bb-d1e15564-d1e206">Per comparationeni autem voluntatis ad modum volendi habet multiplicari voluntas in Christo
+      divisione quadrimembri ; et sic consideravit magister Hugo voluntatem Christi cum eam per
+      quatuor membra divisit. Ait enim sic : In Christo fuit voluntas Divinitatis et voluntas
+      rationis et voluntas pietatis et voluntas carnis : voluntas Divinitatis per iustitiam
+      sententiam dictabat, voluntas rationalis per obedientiam veritatem approbabat, voluntas
+      pietatis per compassionem in malo alieno suspirabat, voluntas carnis per passionem in malo
+      proprio murmurabat. Et sic patet secundum diversos modos dividendi voluntatum Christi
+      numerus et sufficientia, quia secundum diversas considerationes multiplicari habet modo
+      divisione bimembri, modo divisione trimembri, modo divisione quadrimembri sine aliqua
+      repugnantia.</p>
+        </div>
+        <div xml:id="bb-d1e15658">
+          <head xml:id="bb-d1e15564-Hd1e213">Ad Rationes</head>
+          <p xml:id="bb-d1e15564-d1e216">Et in hoc manifesta est responsio ad obiecta, praecipue ad auctoritatem Hugonis et
+      <name ref="#JohnDamascenus">Damasceni</name>.</p>
+          <p xml:id="bb-d1e15564-d1e222">Ad illud vero quod obicitur de verbo Philosophi, quod voluntas est in sola rationali,
+      dicendum quod <name ref="#Aristotle">Philosophus</name> accipit voluntatem stricte, videlicet pro appetitu ratiocinativo ;
+      <name ref="#Lombard">Magister</name> autem et Sancti accipiunt voluntatem large ad omnem humanum affectum, sive procedat
+      ex ratione sive procedat ex sensu.</p>
+          <p xml:id="bb-d1e15564-d1e231">Ad illud quod obicitur, quod penes voluntatem attenditur liberum arbitrium, consimili modo
+      respondendum est quod hoc intelligitur de voluntate proprie dicta ; et sic verum est quod in
+      Christo non habet nisi duas differentias ; <name ref="#Lombard">Magister</name> autem accipit nomen voluntatis pro
+      appetitu.</p>
+          <p xml:id="bb-d1e15564-d1e237">Ad illud quod obicitur, quod voluntas consequitur naturam, dicendum quod voluntas
+      consequitur naturam sicut potentia consequitur substantiam ; et quia in una substantia
+      possunt esse plures potentiae, nihil impedit in Christo reperiri plures voluntates ex parte
+      unius naturae, scilicet naturae humanae, et unam ex parte divinae naturae, et ita in
+      universo tres.</p>
+          <p xml:id="bb-d1e15564-d1e241">Ad illud quod obicitur, quod multo plures deberent esse per auctoritatem Hugonis et propter
+      synderesim et thelesim et bulesim, dicendum quod ex illis auctoritatibus non potest argui
+      quod in Christo sint plures voluntates quam tres, nisi accipiatur divisio voluntatis
+      secundum modos volendi ; per quem modum rationalis voluntas multiplicari habet in voluntatem
+      rationis et pietatis, hoc est secundum conditionalem et absolutam, dividi etiam habet in
+      naturalem et deliberativam. Sed per hoc non potest argui quod praedicta divisio sit
+      insufficiens, quia accepta est secundum potentias ; uni enim potentiae possunt respondere
+      plures modi volendi.</p>
+          <p xml:id="bb-d1e15564-d1e244">Ad illud quod obicitur, quod quadruplex est in Christo cognitio, et ita quadruplex debet
+      esse affectio, dicendum quod cognitio sensitiva exterior non habet perfectionem absque
+      interiori. Sicut enim vult <name ref="#Augustine">Augustinus</name>, non est perfecta visio ex concursu organi et obiecti,
+      nisi adsit interior intentio copulans unum cum altero, sicut dicitur, in libro De Trinitate,
+      XI. Illam autem intentionem vocat <name ref="#Augustine">Augustinus</name> sensualitatem, dicens quod sensualitas est illa
+      per quam intenditur in corporis sensus ; et penes hanc attenditur appetitus carnis. Et ideo
+      <name ref="#Lombard">Magister</name> ex parte cognitionis sensitivae unam tantum ponit voluntatem, scilicet voluntatem
+      sensualitatis ; si enim acciperet secundum sensus exteriores, iam non una, sed quinque
+      essent voluntates secundum quinque differentias sensuum exteriorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

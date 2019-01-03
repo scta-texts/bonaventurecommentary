@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 3, P. 2, A. 3, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 3, P. 2, A. 3, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e3656">
+        <head xml:id="bb-d1e3656-Hd1e119">III, D. 3, P. 2, A. 3, Q. 2</head>
+        <head xml:id="bb-d1e3656-Hd1e122" type="question-title">Utrum in corpore dominico formatio et distinctio membrorum facta sit
+    subito an successive.</head>
+        <p xml:id="bb-d1e3656-d1e125">Secundo quaeritur de eius corporis perfectione quantum ad membrorum distinctionem, et est
+    quaestio, utrum membrorum formatio et distinctio facta sit subito an successive in corpore
+    dominico.</p>
+        <div xml:id="bb-d1e3667" type="rationes-principales">
+          <head xml:id="bb-d1e3656-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e3656-d1e133">Et quod non subito, videtur. <name ref="#Augustine">Augustinus</name>, in IV De Trinitate, tractans illud verbum Ioannis
+      2, 19 : <quote xml:id="bb-d1e3656-Qd1e138" ana="#io2_19">Solvite templum hoc... dixerunt ludaei : Quadraginta
+       sex</quote> etc. ; ibi <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e3656-Qd1e144" source="http://scta.info/resource/adt-l4">Hic
+       numerus perfectioni dominici corporis congruit, quia, ut dicunt physici, tot diebus forma
+       humani corporis perficitur</quote>. Ergo non videtur quod corpus Christi ab instanti
+      conceptionis organizatum fuerit et formatum. Si tu dicis, sicut dicit <name ref="#Lombard">Magister</name> in littera,
+      quod hoc dictum fuit propter incrementum molis, tunc non videtur quod quadraginta sex diebus
+      perfectum sit, quia ad perfectionem hanc non pervenit usque ad annos viginti.</p>
+          <p xml:id="bb-d1e3656-d1e151">Item, ad Hebraeos 2, 17 : <quote xml:id="bb-d1e3656-Qd1e153" ana="#hebr2_17">Per omnia debuit fratribus
+       similari</quote>. Ergo videtur quod in modo formationis corporis ; sed corpora aliorum
+      hominum successive formantur : ergo videtur quod similiter corpus Christi.</p>
+          <p xml:id="bb-d1e3656-d1e157">Item, corpus Christi nutritum et augmentatum fuit sicut corpora aliorum hominum successive.
+      Ergo videtur pari ratione quod fuerit successive formatum.</p>
+          <p xml:id="bb-d1e3656-d1e160">Item, formationem corporis antecedit consolidatio et consolidationem antecedit conversio et
+      conversionem seminis decisio. Si ergo quaelibet istarum operationum non potest fieri in
+      minori quam in instanti, et una est ordinata ad aliam, ergo videtur quod formatio corporis
+      non poterit esse instantanea.</p>
+          <p xml:id="bb-d1e3656-d1e164">Sed contra : <name ref="#Augustine">Augustinus</name>, in libro De fide ad Petrum : Firmissime tene et nullatenus
+      dubites, non carnem Christi sine divinitate in utero Virginis conceptam, priusquam
+      susciperetur a Verbo ; sed Verbum non suscepit nisi carnem formatam, et in instanti suscepit
+      eam. Igitur videtur quod in instanti corpus Christi fuerit ad perfectionis organizationem
+      deductum.</p>
+          <p xml:id="bb-d1e3656-d1e170">Item, <name ref="#Augustine">Augustinus</name>, in libro De Trinitate : Non ex utero Virginis prius caro concepta est et
+      postea divinitas venit in carnem, sed mox ut Dei Verbum in uterum venit, factum est caro,
+      servata proprietate naturae, et perfectus homo in veritate carnis et animae.</p>
+          <p xml:id="bb-d1e3656-d1e176">Item, Virgo beata dicitur concepisse Filium Dei ratione carnis assumtae ex ipsa ; sed non
+      est communicatio idiomatum nisi propter unionem, non est autem unio nisi ad naturam
+      perfectam : ergo, cum in instanti conceptionis verum sit dicere Filium Dei conceptum ex
+      Virgine, necesse fuit et corpus ad perfectam organizationem esse deductum.</p>
+          <p xml:id="bb-d1e3656-d1e179">Item, conceptio Christi fuit virtute mirabili et mirabiliter operante ; sed virtus
+      mirabiliter operans est infinita et operans infinite : ergo videtur quod eius operatio
+      debeat esse instantanea ; et si hoc, corpus dominicum in instanti in perfecta organizatione
+      fuit constitutum.</p>
+        </div>
+        <div xml:id="bb-d1e3722">
+          <head xml:id="bb-d1e3656-Hd1e185">Conclusio</head>
+          <head xml:id="bb-d1e3656-Hd1e188" type="question-title">Corpus Christi ad instanti conceptionis habuit perfectionem
+      organizationis.</head>
+          <p xml:id="bb-d1e3656-d1e191">Respondeo : Dicendum quod absque dubio, sicut dicit <name ref="#Augustine">Augustinus</name>, corpus Christi ab instanti
+      conceptionis habuit perfectionem organizationis. Et ratio huius sumi potest ex parte Verbi
+      assumentis et ex parte virtutis efficientis et ex parte Virginis concipientis. Ex parte
+      Verbi assumentis, quia non decebat Verbum assumere partem humana naturae ut esset homo
+      secundum quid sed totam humanam naturam, et ita carnem et animam, maxime cum anima det carni
+      congruentiam, ut uniatur cum natura divina, sicut ostensum est supra. Et quoniam anima non
+      est nata uniri nisi carni formatae et organizatae, ideo in primo instanti conceptionis
+      necesse fuit corpus ad perfectionem organizationis perduci. Ratio etiam est ex parte
+      virtutis operantis, quia ibi virtus divina operabatur mirabiliter : hoc enim est miraculum
+      miraculorum, quod femina concipiat Deum. Et ideo ad suae mirabilis potentiae ostensionem
+      subito formavit illud corpus, quod natura non potest formare nisi successive. Ratio vero
+      nihilominus est ex parte Virginis concipientis, quae statim, ut consensit, repleta : fuit
+      Spiritu Sancto et Mater Dei effecta, iuxta illud quod angelus annuntiabat. Et quoniam Mater
+      Dei non erat nisi Deus unitus esset carni quam conceperat, et caro nec Deo nec animae
+      congrueret uniri nisi haberet membrorum distinctionem convenientem, hinc est quod ab
+      instanti conceptionis corpus Christi debuit in membrorum distinctione perfectum esse. Unde
+      concedendae sunt rationes ad istam partem inductae.</p>
+        </div>
+        <div xml:id="bb-d1e3738">
+          <head xml:id="bb-d1e3656-Hd1e201">Ad obiecta</head>
+          <p xml:id="bb-d1e3656-d1e204">Ad illud quod obicitur, quod numerus quadraginta sex dierum congruit perfectioni corporis
+      dominici, dicendum quod in Scriptura frequenter dicitur res tunc fieri, cum innotescit ; et
+      per hunc quidem modum verbum beati <name ref="#Augustine">Augustini</name> est intelligendum, quia, etsi corpus dominicum
+      ab instanti conceptionis fuit formatum, non tamen apparuit nec percipi potuit prae parvitate
+      quantitatis molis ; sed post quadraginta sex dies ad tantam perfectionem quantitatis
+      deductum est quod aspectibus hominum patere potuit. Unde corpus Christi illud in incremento
+      cum aliis corporibus similitudinem habuit, quamvis non haberet similitudinem in formatione
+      primaria ; non enim naturaliter, sed mirabiliter formatum fuit. Et sic inteJligenda sunt
+      verba <name ref="#Augustine">Augustini</name>, in IV libro de Trinitate et in libro 83 Quaestionum, quae ad praesens
+      omittuntur ob vitandam prolixitatem.</p>
+          <p xml:id="bb-d1e3656-d1e213">Ad illud quod obicitur de verbo Apostoli, quod per omnia debuit fratribus assimilari,
+      dicendum quod verum est quantum ad ea quae faciebant ad reparationem generis humani, sicut
+      hoc quod est tentari, conversari cum hominibus et pati. Sed in modo conceptionis, quia in
+      nobis annexam habet traductionem originalis peccati, non debuit assimilari, quia non
+      competebat hoc hominum Mediatori et Reparatori.</p>
+          <p xml:id="bb-d1e3656-d1e216">Ad illud quod obicitur, quod similiter fuit nutritum et generatum, dicendum quod non est
+      simile, quia nostra augmentatio et nutritio culpam non habet annexam sicut nostra generatio
+      ; et ita non sic debuit assimilari in generationis primordio sicut in augmento et
+      nutrimento.</p>
+          <p xml:id="bb-d1e3656-d1e219">Ad illud quod obicitur, quod formationem praecessit consolidatio et consolidationem
+      conversio, dicendum quod duplex est ordo, videlicet secundum tempus et naturam vel secundum
+      naturam tantum. Isti autem tres actus ordinem habent in nostra generatione utroque modo,
+      quia nostra generatio est a virtute finita, quae operatur in tempore. In generatione autem
+      Christi non habent ordinem nisi secundum naturam ; et quoniam habentia ordinem secundum
+      naturam simul esse possunt tempore absque aliqua incompossibilitate, hinc est quod nihil
+      impedit illos actus esse in generatione dominica, quamvis non sint simul in generatione
+      nostra.</p>
+          <p xml:id="bb-d1e3656-d1e223">Unde ratio illa non cogit, quia aut procedit ab ordine secundum naturam ad ordinem secundum
+      tempus aut procedit ab operatione naturae ad operationem virtutis divinae. Et nullo istorum
+      modorum est ibi necessitas consequentiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

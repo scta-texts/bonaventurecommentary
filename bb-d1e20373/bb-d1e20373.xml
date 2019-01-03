@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 23, A. 1, Q. 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 23, A. 1, Q. 4</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e20373">
+        <head xml:id="bb-d1e20373-Hd1e119">III, D. 23, A. 1, Q. 4</head>
+        <head xml:id="bb-d1e20373-Hd1e122" type="question-title">Utrum fides sit certior quam scientia.</head>
+        <p xml:id="bb-d1e20373-d1e125">Quarto quaeritur, utrum fides sit certior quam scientia.</p>
+        <div xml:id="bb-d1e20384" type="rationes-principales">
+          <head xml:id="bb-d1e20373-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e20373-d1e133">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e20373-Qd1e138">Nihil est certius homini sua fide</quote>. Ergo
+      videtur quod fides maiorem vel saltem aequalem certitudinem habeat quam scientia.</p>
+          <p xml:id="bb-d1e20373-d1e142">Item, <name ref="#Aristotle">Philosophus</name> : <quote xml:id="bb-d1e20373-Qd1e147">Virtus est certior omni arte</quote>. Sed fides ponitur in
+      genere virtutis, scientia autem et ars sunt eiusdem generis : ergo maior est certitudo in
+      fide, quam sit in habitu scientiae.</p>
+          <p xml:id="bb-d1e20373-d1e151">Item, certius cognoscitur qu.od cognoscitur in lumine Veritatis primae quam quod
+      cognoscitur in lumine veritatis creatae ; sed quod cognoscitur fide cognoscitur in lumine
+      Veritatis primae, quod autem scientia, cognoscitur in lumine veritatis creatae cognoscitur :
+      ergo maior est certitudo fidei quam scientiae.</p>
+          <p xml:id="bb-d1e20373-d1e154">Item, certius est illud in quo non cadit error quam circa quod contingit errare ; sed fidei
+      non permiscetur error, cognitioni autem philosophorum multi errores permiscentur : ergo
+      maior est certitudo fidei quam sit certitudo alicuius scientiae philosophicae.</p>
+          <p xml:id="bb-d1e20373-d1e158">Item, certior scientia certius habet fundamentum ; sed quanto aliqua scientia nobilior et
+      perfectior est, tanto certior est ; sed scientia theologiae est omnino scientia altissima et
+      nobilissima : ergo certissima. Si ergo fides est fundamentum totius scientiae theologicae,
+      necesse est ipsam esse certissimam : est igitur in ea maior certitudo quam in aliqua alia
+      scientia.</p>
+          <p xml:id="bb-d1e20373-d1e161">Sed contra : Hugo de Sancto Victore : <quote xml:id="bb-d1e20373-Qd1e163">Fides est certitudo quaedam animi de rebus
+       absentibus, supra opinionem et infra scientiam constituta</quote>. Ergo minor est
+      certitudo in ipsa fide quam in habitu scientiae.</p>
+          <p xml:id="bb-d1e20373-d1e167">Item, certius cognoscitur id de quo non potest dubitari quam id de quo potest dubitari ;
+      sed quod quis cognoscit scientiali cognitione, sic novit quod de eo dubitare non potest ;
+      qui autem novit aliquid cognitione fidei potest de eo dubitare, sicut patet : ergo maior est
+      certitudo scientiae quam fidei.</p>
+          <p xml:id="bb-d1e20373-d1e170">Item, certius cognoscitur quod cognoscitur aperta visione quam quod cognoscitur sola
+      credulitate ; sed per scientiam cognoscitur aliquid aperta visione, per fidem sola
+      credulitate : ergo certior est scientia quam fides.</p>
+          <p xml:id="bb-d1e20373-d1e173">Item, quanto aliquid cognoscitur clarius, tanto cognoscitur certius ; sed fides cognoscit
+      per speculum in aenigmate, scientia autem revelata facie : ergo maior est certitudo quam
+      habet scientia quam illa quam habet fides.</p>
+          <p xml:id="bb-d1e20373-d1e176">Item, certius cognoscitur quod potest probari quam quod non potest probari ; sed quod quis
+      cognoscit habitu scientiae potest probare alii quantumcumque adversanti et eum convincere
+      necessario, ita quod non potest contradicere ; non sic autem est de fide ; ergo fides non
+      habet tantam certitudinem quantam habet habitus scientiae.</p>
+        </div>
+        <div xml:id="bb-d1e20436">
+          <head xml:id="bb-d1e20373-Hd1e182">Conclusio</head>
+          <head xml:id="bb-d1e20373-Hd1e185" type="question-title">Certitudo fidei superatur a scientia, quae est visio Dei aperta,
+      superat vero scientiam , quae est cognitio credibilium secundum statum viae, et interdum
+      etiam scientiam aliorum cognoscibilium quoad certiludinem adhaesionis, non vero
+      speculationis.</head>
+          <p xml:id="bb-d1e20373-d1e188">Respondeo : Dicendum quod, cum comparamus certitudinem fidei ad certitudinem scientiae,
+      potest intelligi dupliciter. Nam uno modo scientia potest dici aperta et certa visio Dei in
+      patria ; et hoc modo non est quaestio nec dubium quin scientia isto modo praecellat in
+      certitudine ipsam fidem, sicut gloria praecellit gratiam et status patriae statum viae. Alio
+      modo dicitur scientia cognitio quam quis habet in via ; et ista potest esse dupliciter : aut
+      respectu illorum respectu quorum est fides aut respecta aliorum cognoscibilium. Si respectu
+      illorum respecta quorum est fides, sic, simpliciter loquendo, certior est fides quam.
+      scientia. Unde, si aliquis philosophorum cognovit aliquem articulorum ratiocinando, utpote
+      Deum esse creatorem vel Deum esse remuneratorem, nunquam ita certitudinaliter cognovit per
+      suam scientiam sicut cognoscit verus fidelis per suam fidem.</p>
+          <p xml:id="bb-d1e20373-d1e191">Si autem loquamur de scientia secundum quod est cognitio aliorum cognoscibilium, sic quodam
+      modo certior est fides quam scientia et quodam modo e contrario. Est enim certitudo
+      speculationis et est certitudo adhaesionis ; et prima quidem respicit intellectum, secunda
+      vero respicit ipsum affectum. Si loquamur de certitudine adhaesionis, sic maior est
+      certitudo in ipsa fide quam sit in habitu scientiae, pro eo quod vera fides magis facit
+      adhaerere ipsum credentem veritati creditae quam aliqua scientia alicui rei scitae. Videmus
+      enim veros fideles nec per argumenta nec per tormenta nec per blandimenta inclinari posse ut
+      veritatem quam credunt saltem oretenus negent ; quod nemo sciens sanae mentis faceret pro
+      aliquo quod cognoscit, nisi in quantum doctrina fidei dictat non esse mentiendum. Stultus
+      enim esset geometra, qui pro quacumque certa conclusione geometriae auderet subire mortem.
+      Unde verus fidelis, etiam si sciret totam scientiam philosophicam, mallet totam illam
+      scientiam perdere quam unum solum articulum ignorare : adeo adhaeret veritati creditae. De
+      certitudine igitur adhaesionis verum est fidem esse certiorem scientia philosophica, et haec
+      certitudo respicit veritatem et dotrinam secundum pietatem ; et de hac certitudine
+      concludunt rationes ad primam partem inductae.</p>
+          <p xml:id="bb-d1e20373-d1e194">Si autem loquamur de certitudine speculationis, quae quidem respicit ipsum intellectum et
+      nudam veritatem, sic concedi potest quod maior est certitudo in aliqua scientia quam in
+      fide, pro eo quod aliquis potest aliquid per scientiam ita certitudinaliter nosse quod nullo
+      modo potest de eo dubitare nec aliquo modo discredere nec in corde suo ullo modo
+      contradicere, sicut patet in cognitione dignitatum et primorum principiorum. Et hoc modo
+      procedunt rationes ad partem sequentem, sicut pertractanti patet. Et per hoc patet responsio
+      ad quaestionem propositam. Patet etiam responsio ad obiecta. Procedunt enim secundum
+      diversas vias. Nam rationes ad primam partem adducae concludunt de certitudine adhaesionis ;
+      rationes vero ad oppositum de certitudine speculationis. Verumtamen rationes ad primam
+      partem adductae videntur concludere de certitudine speculationis, quod illa certitudine sit
+      fides certior scientia, quod falsum est. Ideo tentandum est eas dissolvere.</p>
+        </div>
+        <div xml:id="bb-d1e20455">
+          <head xml:id="bb-d1e20373-Hd1e201">Ad Rationes</head>
+          <p xml:id="bb-d1e20373-d1e204">Ad illud verbum <name ref="#Augustine">Augustini</name>, quo dicitur quod nihil est homini certius sua fide, dici potest
+      quod nihil facit ad propositum, quia non loquitur de certitudine quam quis habet per fidem,
+      sed quam quis habet de fide quam habet in mente ; et illa est certitudo scientiae : scit
+      enim homo fidelis se habere fidem.</p>
+          <p xml:id="bb-d1e20373-d1e210">Ad illud Philosophi, quod virtus est certior omni arte, dicendum quod ipse loquitur de
+      virtute et arte, secundum quod comparantur ad idem. Multo enim melius scit aliquis invenire
+      medium et obiectum per habitum virtutis quam per habitum purae cognitionis. Non est autem
+      generaliter intelligendum quod virtus sit certior circa proprium obiectum quam aliqua
+      scientia circa suum.</p>
+          <p xml:id="bb-d1e20373-d1e213">Ad illud quod obicitur, quod certius videtur quod videtur in lumine Veritatis increatae,
+      quam quod videtur in lumine veritatis creatae, dicendum quod illud verum est quando lumen
+      Veritatis increatae irradiat plene, sicut erit in patria. Quando autem semiplene irradiat,
+      non est necesse quod habeat veritatem ; sicut patet, quia certius potest homo videre ad
+      lumen candelae quam ad lumen solis, ubi sol non plene irradiat. Sic et in proposito
+      intelligendum est : licet enim fiat irradiatio mediante fide ab ipsa veritate aeterna, non
+      tamen. est irradiatio plena, quoniam manet speculum et aenigma.</p>
+          <p xml:id="bb-d1e20373-d1e216">Ad illud quod obicitur, quod certior est cognitio cui non permiscetur error, dicendum quod
+      verum est ; sed sicut fidei non permiscetur error, ita etiam nec scientiae in quantum
+      scientia, sed hoc est solum ex defectu a parte cognoscentis. Sic etiam contingit in ipsa
+      fide a parte credentis, sicut patet in fidei, qui propter distorsionem intellectus a
+      cognitione fidei labitur in haeresim, dum credulitati verae intermiscet se credulitas falsa.
+      Unde ex hoc non potest concludi quod fides sit certior quam scientia. Istud tamen verum est
+      quod doctrina fidei magis veraciter est tradita quam aliqua scientia philosophica, quia
+      Spiritus Sanctus et ipse Christus, qui docuerunt veritatem fidei et Sacrae Scripturae, in
+      nullo falsum dixerunt nec in aliquo possunt reprehendi ; quod de nullo philosopho arbitror
+      vere posse dici in traditione alicuius doctrinae, immo inveniuntur veris multa falsa
+      permiscuisse.</p>
+          <p xml:id="bb-d1e20373-d1e220">Ad illud quod obicitur, quod quanto scientia nobilior est, tanto certior, dicendum quod
+      illud non habet veritatem. Nam, sicut dicit <name ref="#Aristotle">Philosophus</name>, maior est certitudo mathematicae
+      scientiae quam divinae, et tamen nobilior est divina quam mathematica ; hoc autem est
+      propter defectum a parte intelligentis, quia, sicut dicit <name ref="#Aristotle">Philosophus</name>, sicut se habet oculus
+      noctuae ad. lucem, ita intellectus noster ad manifestissima naturae ; unde illa quae sunt
+      certissima in se, cognoscit aliquando dubie. Et tamen illa cognitio minus certa magis est
+      nobilis et perfecta, quoniam est de re nobiliori. Melius est enim vel modicum quid de Deo
+      scire quam caelestium vel terrestrium notitiam habere. Rationes vero ad oppositam partem
+      concedendae sunt ; concludunt enirri de certitudine speculationis, sicut satis clarum est et
+      pertractanti apparet.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

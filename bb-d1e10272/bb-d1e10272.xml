@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 10, A. 2, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 10, A. 2, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e10272">
+        <head xml:id="bb-d1e10272-Hd1e123">III, D. 10, A. 2, Q. 3</head>
+        <head xml:id="bb-d1e10272-Hd1e126" type="question-title">Utrum filiatio adoptionis sit in nobis per comparationem ad
+    Christum.</head>
+        <p xml:id="bb-d1e10272-d1e129">Tertio quaeritur, utrum filiatio adoptionis sit in nobis per comparationem ad Christum ; et
+    hoc est quaerere, utrum simus filii adoptivi ipsius Christi.</p>
+        <div xml:id="bb-d1e10283" type="rationes-principales">
+          <head xml:id="bb-d1e10272-Hd1e134">Rationes principales</head>
+          <p xml:id="bb-d1e10272-d1e137">Et quod sic, videtur. Frequenter enim in Evangelio vocat Dominus discipulos suos filios, et
+      illos quos curabat : <quote xml:id="bb-d1e10272-Qd1e139">Confide fili ; fides tua te salvum fecit</quote>. Si ergo vere
+      dicebat, illi erant filii Christi ; sed non naturales : ergo adoptivi.</p>
+          <p xml:id="bb-d1e10272-d1e143">Item, super illud ad Ephesios 4, 6 : <quote xml:id="bb-d1e10272-Qd1e145" ana="#eph4_6">Unus Deus et pater
+      omnium</quote>, Glossa : <quote xml:id="bb-d1e10272-Qd1e148">Deus est pater omnium creatione, sed fidelium
+       regeneratione</quote>. Sed Christus creavit et recreavit : ergo Christus est pater omnium
+      et fidelium ; sed fidelium est per adoptionem pater : ergo etc.</p>
+          <p xml:id="bb-d1e10272-d1e152">Item, filii adoptivi efficimur per gratiam inhabitantem ; sed, cum habitat in nobis una
+      persona, necesse est quod inhabitet et reliqua : ergo, si sumus filii unius personae,
+      necesse est quod totius Trinitatis : ergo Christi.</p>
+          <p xml:id="bb-d1e10272-d1e155">Item, unus est amor quo amamus Patrem et Filium et Spiritum Sanctum ; sed amor est ille qui
+      facit nos clamare : Abba, Pater : ergo Pater et Filius et Spiritus Sanctus sunt unus pater
+      noster.</p>
+          <p xml:id="bb-d1e10272-d1e159">Sed contra : Illius solius est adoptare qui potens est generare ; sed in divinis solus
+      Pater generat, non Christus vel Spiritus Sanctus : ergo sumus filii adoptivi solius Patris :
+      non ergo Christi.</p>
+          <p xml:id="bb-d1e10272-d1e162">Item, illius sumus filii adoptivi cuius Christus est Filius per naturam, eo quod sumus eius
+      fratres et coheredes ; sed idem Christus est Filius solius Patris : ergo nos sumus filii
+      adoptivi respectu unius solius personae, scilicet Patris : non ergo Christi.</p>
+          <p xml:id="bb-d1e10272-d1e165">Item, solus Filius est incarnatus, ne, si alius incarnaretur, esset confusio proprietatum,
+      si nomen filiationis transiret in aliam personam. Ergo, si filiatio non debet in divinis
+      competere alii personae quam personae Filii, pari ratione nec paternitas.</p>
+          <p xml:id="bb-d1e10272-d1e168">Item, respectu illius solius dicimur filii qui refertur ad nos vice versa ; sed Filius Dei
+      non dicitur ad nos nec dicitur filius noster, sicut habitum est in primo libro : ergo nec
+      nos debemus dici filii ipsius Filii. Si tu dicas quod, etsi non referatur sub nomine filii,
+      refertur tamen sub nomine patris ; obicitur contra hoc : quia esse patrem et fratrem sunt
+      relationes incompossibiles respectu eiusdem ; sed Christus est frater noster : ergo non est
+      pater : ergo non sumus filii Christi.</p>
+        </div>
+        <div xml:id="bb-d1e10323">
+          <head xml:id="bb-d1e10272-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d1e10272-Hd1e177" type="question-title">Filiatio per adoptionem competit nobis respectu</head>
+          <p xml:id="bb-d1e10272-d1e180">Respondeo : Dicendum quod absque dubio filiatio per adoptionem competit nobis respectu
+      totius Trinitatis, a qua sumus creati et recreati, et sic competit nobis respectu Christi.
+      Unde Christus potest dici pater noster. Sicut enim in divinis nomen principii accipitur
+      essentialiter, utpote cum dicitur respectu creaturae, accipitur etiam notionaliter, cum
+      dicitur respectu personae, sic nomen patris, si dicatur respectu personae, dicitur
+      personaliter ; si vero dicatur respectu rationalis creaturae, essentialiter dicitur. Unde
+      sicut Pater et Filius et Spiritus Sanctus sunt unum principium creaturae ratione
+      productionis naturae, sic sunt unus pater ratione collationis gratiae. Concedendae sunt
+      igitur rationes ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d1e10336">
+          <head xml:id="bb-d1e10272-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-d1e10272-d1e190">Ad illud quod primo obicitur, quod illius est adoptare etc., dicendum quod illud habet
+      locum in eis qui nati sunt habere filios per viam generationis. Deus autem non solum habet
+      Filium per productionem generationis, verum etiam multos sibi format filios per productionem
+      creationis. Et sicut tota Trinitas illos creat dando naturam, sic recreat dando gratiam. Et
+      sic adoptio ad totam Trinitatem spectat.</p>
+          <p xml:id="bb-d1e10272-d1e193">Ad illud quod obicitur, quod eiusdem sumus filii nos et Christus, dicendum quod verum est
+      quod eiusdem sumus filii, scilicet Patris aeterni, ex quo omnis paternitas in caelo et in
+      terra nominatur ; non est tamen illius solius, quia aliter sumus nos filii, aliter Christus.
+      Christus enim est Filius per generationem, quae est actio personalis ; nos autem per
+      creationem et gratificationem, quae est actio essentialis et quam Pater communicat toti
+      Trinitati. Ideo non sequitur, quodsi eiusdem sumus filii cuius est Christus, quod nullius
+      alterius. Verum est tamen quod paternitas ipsi personae Patris appropriatur, secundum quod
+      dicitur respectu nostri.</p>
+          <p xml:id="bb-d1e10272-d1e196">Ad illud quod obicitur, quod nomen proprietatis communicatum aliis personis, inducit
+      confusionem, dicendum quod illud veritatem habet, quando nomen proprietatis sic communicatur
+      quod numeratur, utpote si duo filii essent in Trinitate ; hoc autem contingeret, si alia
+      persona incarnata fuisset. Si enim Spiritus Sanctus esset natus de Virgine, filius esset et
+      alius filius quam sit Christus. Nunc autem non est sic. Nam, etsi Christus et Spiritus
+      Sanctus dicantur esse pater noster per adoptionem, non tamen sunt alius et alius pater, immo
+      tota Trinitas est unus pater noster, quamvis una sola persona primo sit Pater Christi.</p>
+          <p xml:id="bb-d1e10272-d1e199">Ad illud quod obicitur, quod non dicitur Filius noster vel Spiritus Sanctus noster,
+      dicendum quod ad hoc quod aliquis sit noster pater, non oportet quod ad nos referatur sub
+      proprio nomine, sed sub hoc nomine quod est pater ; hoc autem modo dicere est quod Filius
+      Dei sit pater noster, quamvis non sit filius noster. Nec valet quod obicit de confusione
+      relationum, quod idem sit pater et frater ; dicendum enim quod nihil impedit diversas et
+      omnino disparatas relationes inesse eidem secundum diversas naturas ; et sic est in
+      proposito. Nam Christus est pater noster secundum divinam naturam, et est frater noster
+      secundum humanam naturam. Hoc autem non facit confusionem proprietatum nec relationem, quia
+      nec paternitas illa nec fraternitas proprietates personales important.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

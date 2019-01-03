@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e29037">
+        <head xml:id="bb-d1e29037-Hd1e117" type="question-title">Utrum habitus scientiae evacuetur in patria.</head>
+        <p xml:id="bb-d1e29037-d1e120">Tertio quaeritur de evacuatione scientiae, et est quaestio, utrum habitus scientiae evacuetur
+    in patria.</p>
+        <div xml:id="bb-d1e29045" type="rationes-principales">
+          <head xml:id="bb-d1e29037-Hd1e125">Rationes Principales</head>
+          <p xml:id="bb-d1e29037-d1e128">Et quod sic, videtur. Per auctoritatem Apostoli, I ad Corinthios 13, 8 : <quote xml:id="bb-d1e29037-Qd1e130" ana="#Icor13_8">Sive
+       prophetiae evacuabuntur sive linguae cessabunt sive scientia destruetur</quote> ; sed quod
+      destruitur simpliciter evacuatur : ergo etc.</p>
+          <p xml:id="bb-d1e29037-d1e134">Item, secundum quod vult <name>
+              <name ref="#Lombard">Magister</name> Hugo de Sancto Victore</name>, in Didascaleo, <quote xml:id="bb-d1e29037-Qd1e142">scientiae
+       inventae sunt propter indigentias ei necessitates supplendas ex parte animae vel ex parte
+       corporis</quote>. Si ergo in patria tolletur omnis indigentia, videtur quod evacuetur
+      omnis scientia.</p>
+          <p xml:id="bb-d1e29037-d1e146">Item, anima beata omnia cognoscit in Verbo et aperte et continue, ita quod ab illo aspectu
+      non potest separari. Ergo videtur quod nullus alius habitus cognitionis vel aspectus beatae
+      animae conveniat. Videtur ergo quod habitus cognitionis, qui est in via, simpliciter
+      tollatur in patria, alioquin erit ibi frustra.</p>
+          <p xml:id="bb-d1e29037-d1e149">Item, quod plus habet de lumine et veritate minus est evacuabile ; sed in habitu fidei plus
+      est de ratione veritatis et luminis quam in habitu scientiae acquisitae : ipsa enim fides
+      innititur primae Veritati propter se, et in ipsa etiam est lumen gratiae divinitus ei datae
+      et infusae : ergo multo minus est evacuabilis habitus fidei quam habitus scientiae. Si ergo
+      habitus fidei evacuabitur in statu patriae, videtur similiter quod et habitus scientiae.</p>
+          <p xml:id="bb-d1e29037-d1e153">Item, habitus scientiae est per collationem causae ad effectum et per quamdam
+      ratiocinationem et decursum ; sed impossibile est in patria huiusmodi decursum reperire :
+      ergo necesse est habitum scientiae simpliciter tolli et evacuari.</p>
+          <p xml:id="bb-d1e29037-d1e156">Sed contra : <name ref="#Anselm">Anselmus</name>, in libro De similitudinibus : <quote xml:id="bb-d1e29037-Qd1e161">Tunc iusti cuncta scient quae
+       Deus fecit scienda ; ibi a singulis omnes, ibi ab omnibus singuli cognoscentur, nec unquam
+       omnino latebit qua patria, qua gente, qua stirpe quis editus sit</quote>. Si ergo notitia
+      talium manebit, multo fortius manebit scientia, quae est habitus cognitivus universalium.
+      Ergo non videtur quod scientia philosophica habeat evacuari in patria,</p>
+          <p xml:id="bb-d1e29037-d1e165">Item, sicut dicit <name ref="#Aristotle">Philosophus</name> : <quote xml:id="bb-d1e29037-Qd1e170">Scientia non destruitur nisi aut propter
+       corruptionem a parte scibilis aut ex parte medii aut propter oblivionem a parte
+       scientis</quote> ; sed nullum horum erit in patria : ergo nullo modo videtur quod ibi
+      destruatur et evacuetur scientia.</p>
+          <p xml:id="bb-d1e29037-d1e174">Item, Christus erat comprehensor, et tamen nihilominus habuit scientiam competentem statui
+      viae ; angeli etiam sunt comprehensores, et tamen nihilominus habent habitum scientiae ; quo
+      cognoscunt res in proprio genere. Ergo gloria secum compatitur scientiam : ergo nec destruit
+      nec evacuat ipsam.</p>
+          <p xml:id="bb-d1e29037-d1e177">Item, maioris dignitatis est scire syllogizare et aliquid demonstrare quam posse localiter
+      moveri atque discurrere ; sed ab ipsis Beatis non tolletur agilitas ad motum : igitur nec
+      habitus disponens ad syllogizandum et demonstrative aliquid cognoscendum : ergo non videtur
+      quod scientia evacuetur.</p>
+          <p xml:id="bb-d1e29037-d1e180">Item, si scientia evacuaretur et tolleretur in transitu de hac vita, igitur esset
+      computanda inter bona transitoria. Igitur sicut reprehensibiles sunt et stulti qui laborant
+      esse divites, sic videntur omnes esse stulti qui laborant esse scientes, cum aequalis
+      conditionis sit vetula et unus rusticellus, sicut est unus magnus clericus ; quodsi hoc
+      minus convenienter dicitur, videtur quod scientia non evacuetur.</p>
+        </div>
+        <div xml:id="bb-d1e29105">
+          <head xml:id="bb-d1e29037-Hd1e186">Conclusio</head>
+          <head xml:id="bb-d1e29037-Hd1e189" type="question-title">Scientia in patria quoad habitum non perditu, sed completur; quoad
+      usum vero mutatur et quoad modum omnino tollitur.</head>
+          <p xml:id="bb-d1e29037-d1e192">Respondeo : Ad praedictorum intelligentiam est notandum quod hic est triplex modus dicendi.
+      Quibusdam enim videtur quod habitus harum scientiarum acquisitarum, sive liberalium sive
+      aliarum, omnino evacuentur et simpliciter destruantur. Hic enim habitus habet imperfectionem
+      sibi iunctam inseparabiliter ; et ideo ei alius habitus longe perfectior succedet, non solum
+      ille quo quis cognoscet omnia in Verbo limpide et aperte, sed etiam habitus qui erit per
+      species et similitudines universi ordinis causarum mundi, qui datus fuit ipsis spiritibus
+      angelicis et dabitur omnibus glorificatis, per quam cetera cognoscent, etiam eadem ipsa quae
+      modo cognoscunt, multo excellenti us atque nobilius. Alioquin, si non daretur eis alius
+      habitus novus ab isto, non esset in Beatis rerum creatarum secundum proprium genus perfecta
+      cognitio ; quod contra veritatem est et contra <name ref="#Anselm">Anselmum</name>. Et sic concedunt in patria tolli
+      istum habitum scientiae propter nobiliorem habitum supervenientem. Et licet haec scentia
+      destruatur, non tamen frustra laborat qui eam acquirit, quoniam per ipsam manuducitur homo
+      ad cognitionem Dei et ad promotionem fidei, et ita ad augmentum meriti et per consequens ad
+      complementum praemii. Et propterea, sicut non frustra credit aliquis, licet fides evacuetur
+      in patria, sic etiam non frustra addiscit, licet ibi, ut dicunt, simpliciter evacuetur ista
+      scientia.</p>
+          <p xml:id="bb-d1e29037-d1e198">Aliis autem aliter videtur dicendum esse, videlicet quod scientia non omnino evacuetur. Est
+      enim ibi considerare habitum et usum. In patria autem tollitur quantum ad usum, qui
+      imperfectionis est, et manet quantum ad habitum, qui facit ad ipsius animae decorem et
+      pulcritudinem. Si enim manebunt ibi cicatrices vulnerum et notae cogitationum ad
+      commendationem meriti et decorationem merentium, magis rationabile videtur quod maneant ibi
+      habitus scientiarum, quae faciunt ad ipsius animae decorem et ornatum.</p>
+          <p xml:id="bb-d1e29037-d1e201">Tertiis autem aliter videtur esse dicendum quod, cum tria sit considerare in ipsa scientia,
+      videlicet habitum et usum et modum, scientia quantum ad habitum manet et completur ; quantum
+      vero ad usum mutatur, sed non tollitur ; quantum autem ad modum simpliciter evacuatur et
+      destruitur. Habitus enim non tollitur, quia perfectioni non repugnat. Non enim repugnant
+      ista duo : Deum videre et scire propositiones et conclusiones et principia geometriae et
+      alicuius alterius scientiae. Usus vero non tollitur omnino, quia, si esset habitus absque
+      usu et actu, esset incompletus sive minus completus, quod nequaquam competit secundum statum
+      illum pedectissimum et completissimum ; mutatur tamen propter annexam imperfectionem. Modus
+      vero, qui attenditur in decursu et inquisitione et quadam successiva ratiocinatione et
+      collatione, simpliciter destruitur, pro eo quod in patria modus cognoscendi erit per
+      simplicem aspectum, cum ibi habeatur deiformis intellectus per gloriae complementum. Et sic
+      secundum istam opinionem scientia quodam modo salvatur et quodam modo mutatur et quodam modo
+      destruitur et evacuatur. Hic autem tertius modus dicendi magis consonat ipsi Glossae, I ad
+      Corinthios 13, 10, et auctoritati <name ref="#Lombard">Magistri</name>, magis etiam consonat rectae rationi ; ideo magis
+      debet poni et communius sustineri. Igitur iuxta hune modum dicendi concedi possunt rationes
+      quae ostendunt quod scientia non omnino evacuetur. Manet enim, sicut ostendunt, quantum ad
+      habitum secundum statum magis perfectum, manet etiam quantum ad actum, videlicet quantum ad
+      simplicem aspectum.</p>
+        </div>
+        <div xml:id="bb-d1e29129">
+          <head xml:id="bb-d1e29037-Hd1e210">Ad Rationes</head>
+          <p xml:id="bb-d1e29037-d1e213">Ad illud vero quod primo obicitur in contrarium de auctoritate Apostoli ; iam patet
+      responsio, quia dicitur scientia destrui, non quia habitus destruatur et evacuetur, sed quia
+      tollitur et destruitur iste sciendi modus, qui, ut dictum est, habet fieri per decursum.</p>
+          <p xml:id="bb-d1e29037-d1e216">Ad illud quod obicitur de Hugone, quod scientiae inventae sunt propter indigentiam,
+      dicendum quod Hugo non assignat totam causam, sed assignat causam quae movit homines
+      secundum statum praesentis vitae ad inventionem scientiae. Quamvis enim homines moti
+      concessum est scientiam evacuari, fuerint propter indigentias amovendas, huiusmodi habitus
+      magis ordinari habent ad intelligentias nostras perficiendas ; quod quidem non tantum
+      competit statui viae, sed etiam patriae.</p>
+          <p xml:id="bb-d1e29037-d1e219">Ad illud quod obicitur, quod anima omnia cognoscit in Verbo actu etc. ; dicendum quod,
+      sicut fuit dictum de Christo, quod anima Christi non solummodo habuit cognitionem rerum in
+      Verbo, sed etiam secundum se per habitum sibi innatum, et beatis angelis convenit idem
+      propter perfectionem cognitionis, non solum respectu diversitatis cognoscibilium, sed etiam
+      quantum ad varium cognoscendi modum : ita etiam in Beatis intelligendum est esse, quia
+      cognitio rerum in Verbo et in proprio genere simul se compati possunt quantum ad habitum et
+      quantum ad actum, quia una ad alteram ordinatur.</p>
+          <p xml:id="bb-d1e29037-d1e222">Ad illud quod obicitur, quod fides plus habet de veritate et lumine quam habitus scientiae,
+      dicendum quod, etsi illud possit concedi, tamen ex hoc non sequitur quod habeat evacuari ;
+      quia lumen fidei, in quantum huiusmodi. est, habet sibi inseparabiliter adiunctum aliquid,
+      quod non est compossibile cum statu gloriae, sicut in praecedentibus ostensum fuit. Non sic
+      autem est de habitu scientiae, qui, quantum est de sua ratione, tanto perfectior est, quanto
+      certior et clarior ; ideo non sic habet tolli quantum ad habitum sicut fides ad praesentiam
+      gloriae.</p>
+          <p xml:id="bb-d1e29037-d1e226">Ad illud quod obicitur, quod scientia est per collationem causae ad effectum et per quemdam
+      decursum collativum, dicendum quod ipse arguit de scientia quantum ad modum quem in
+      praesenti habet, de quo dictum est, ratione cuius concessum est scientiam evacuari, et
+      ratione cuius Apostoli eam in futuro asserit destruendam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

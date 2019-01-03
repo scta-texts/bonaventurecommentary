@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e35705">
+        <head xml:id="bb-d1e35705-Hd1e117" type="question-title">Utrum essentiale sit mendacio esse peccatum.</head>
+        <p xml:id="bb-d1e35705-d1e120">Secundo quaeritur, utrum essentiale sit mendacio esse peccatum.</p>
+        <div xml:id="bb-d1e35713" type="rationes-principales">
+          <head xml:id="bb-d1e35705-Hd1e125">Rationes Principales</head>
+          <p xml:id="bb-d1e35705-d1e128">Et quod sic, videtur. Primo, auctoritate <name ref="#Augustine">Augustini</name>, Contra mendacium, qui dicit sic :
+       <quote xml:id="bb-d1e35705-Qd1e133">Videtur mihi omne genus mendacii esse peccatum</quote> .</p>
+          <p xml:id="bb-d1e35705-d1e137">Item, <name ref="#Augustine">Augustinus</name> in libro De mendacio : <quote xml:id="bb-d1e35705-Qd1e142">Aut non est credendum bonis aut credendum
+       est eis quos credimus debere aliquando mentiri aut non est credendum bonos aliquando
+       mentiri ; quorum primum est perniciosum, secndum stultum : restat ergo ut nunquam
+       mentiantur boni</quote>. Si ergo aliquis mentitur, necesse est, in quantum mentitur, esse
+      malum : ergo essentiale est ipsi mendacio esse peceatum.</p>
+          <p xml:id="bb-d1e35705-d1e146">Item, <name ref="#Augustine">Augustinus</name>, ibidem : <quote xml:id="bb-d1e35705-Qd1e151">Quisquis aliquod genus mendacii, quod peccatum non sit,
+       esse putaverit, semetipsum turpiter decipit</quote>. Ergo redit idem quod prius.</p>
+          <p xml:id="bb-d1e35705-d1e155">Item, hoc ipsum videtur ratione, quia essentiale est ipsi mendacio esse privationem
+      veritatis et respectu rei et respectu intentionis ; sed ubicumque est intentionis
+      obliquitas, ibi necessario est culpa : ergo necessarium est ipsum mendacium esse
+      peccatum.</p>
+          <p xml:id="bb-d1e35705-d1e159">Item, omnis iniquitas, essentialiter loquendo, est peccatum ; ubicumque autem est
+      mendacium, ibi dolositas est, quia aliud gerit homo in corde, aliud dicit ore ; ubi autem
+      dolositas est, ibi iniquitas : ergo, a primo, impossibile est aliquod mendacium non esse
+      peccatum.</p>
+          <p xml:id="bb-d1e35705-d1e162">Item, verba instituta sunt ad hoc quod homo exprimat per illa illud quod mente gerit ; sed
+      quicumque mentitur utitur verbis ad contrarium eius quod mente gerit : ergo quicumque
+      mentitur utitur verbis ad contrarium eius ad quod instituta sunt ; et omnis qui utitur re ad
+      contrarium eius, ad quod instituta est, necessario illa abutitur ; et omnis qui abutitur
+      peccat : ergo omnis qui dicit mendacium peccat.</p>
+          <p xml:id="bb-d1e35705-d1e165">Sed contra : Primo, per exempta, quia, Genesis 22, 5, Abraham, cum intenderet puerum
+      immolare, dixit se cum puero reversurum ad servos ; et Isaac. de uxore sua dixit quod soror
+      eius esset, Genesis 26, 7 ; et de Ioseph similiter habetur exemplum, Genesis 42, 9 et 44 ;
+      15. Si ergo facta Patriarcharum narrat Scriptura, non sicut reprehendenda, sed sicut
+      imitanda, et ipsi mentiti fuerunt, videtur quod mentiri possit aliquis sine peccato.</p>
+          <p xml:id="bb-d1e35705-d1e168">Item, in Scripturis proponuntur multae locutiones, quae secundum intentionem litterae
+      falsae sunt, sicut patet de eo quod dicitur Iudicum 9, 8, quod ierunt ligna ad rhamnum etc.
+      ; et disputantes proponunt multa quae sciunt esse falsa. Cum ergo Sacra Scriptura absque
+      aliquo peccato fuerit data et scripta et inspirata, et disputatio ad veritatem inquirendam
+      sit laudabilis et meritoria, videtur quod aliqua mendacia dici possint absque ulla culpa :
+      ergo non est essentiale ipsi mendacio esse peccatum.</p>
+          <p xml:id="bb-d1e35705-d1e171">Item, secundum quod dicit <name ref="#Ambrose">Ambrosius</name>, <quote xml:id="bb-d1e35705-Qd1e176">non solum est mendacium in. verbis, sed etiam
+       in operibus simulatis</quote> ; sed contingit facere opera simulata absque aliquo peccato,
+      sicut fecit Iosue, qui simulavit se fugere ante habitatores Hai ; et David, qui simulavit se
+      stultum ante regem Achis ; et Iehu, qui simulavit se cultorem Baal ; et isti non
+      peccaverunt, sed potius commendantur : ergo videtur pari ratione quod possit fieri mendacium
+      in verbis sine peccato.</p>
+          <p xml:id="bb-d1e35705-d1e180">Item, maius malum est homicidium et furtum quam sit mendacium ; sed furtum et homicidium
+      potest bene fieri nec est necessarium semper esse peccatum, sicut patet de his qui occidunt
+      auctoritate legis, et furantur tempore necessitatis, vel ex praecepto Domini, sicut filii
+      Israel : ergo videtur multo fortius quod mendacium aliquod possit bene fieri : ergo non est
+      essentiale ei esse peccatum.</p>
+          <p xml:id="bb-d1e35705-d1e184">Item, mendacium, quo quis mentitur proximo, est contra mandatum secundae tabulae ; sed in
+      mandatis secundae tabulae, ut dicit <name ref="#Bernard">Bernardus</name>, potest Dominus dispensare, ut bene fiant :
+      ergo et in ipso mendacio : igitur non videtur quod essentiale sit ei esse peccatum.</p>
+          <p xml:id="bb-d1e35705-d1e190">Item, possibile est quod quis mentiatur propter castitatem alterius conservandam quem
+      diligit ex caritate ; sed omne quod fit ex caritate fit bene et meritorie, et tale non est
+      peccatum : ergo, si possibile est mentiri ex caritate, possibile est mendacium non esse
+      peccatum.</p>
+        </div>
+        <div xml:id="bb-d1e35784">
+          <head xml:id="bb-d1e35705-Hd1e196">Conclusio</head>
+          <head xml:id="bb-d1e35705-Hd1e199" type="question-title">Omnemendacium est peccatum; immo hoc ipsi ita est essentiate, ut
+      nullo pacto, nullo fine, nullu dispensatione, sive humana sive divina, possit bene
+      fieri.</head>
+          <p xml:id="bb-d1e35705-d1e202">Respondeo : Dicendum quod absque dubio omne mendacium est peccatum ; et adeo est ipsi
+      mendacio essentiale esse peccatum, ut nullo pacto, nullo fine, nulla dispensatione, nec
+      humana nec divina, possit fieri bene. Et hoc <name ref="#Augustine">Augustinus</name> dicit expresse et nititur
+      multipliciter probare, et in hoc communiter concordant doctores. Sed rationem huius
+      difficile est assignare et ad hoc possumus niti diversimode.</p>
+          <p xml:id="bb-d1e35705-d1e208">Una namque ratio reddi potest ex parte eius contra quod est mendacium. Mendacium enim est
+      contra Veritatem, homicidium vero et furtum contra creaturam. Deus autem contra suam
+      veritatem non potest facere nec aliquis iuste contra divinam veritatem ire, quamvis possit
+      quamlibet creaturam alii pro voto subicere et eam disponere et ordinare. Ideo, licet
+      possibile sit dispensare in homicidio et furto, non tamen in mendacio. Sed haec ratio non
+      videtur sufficere, quia non omne mendacium est contra Veritatem increatam. Sicut enim est
+      bonitas creata et increata, ita etiam et veritas ; et sicut Deus est supra creatam
+      bonitatem, ita etiam est supra creatam veritatem. Ergo sicut potest dispensare ut aliquis
+      destruat aliquod bonum creatum, ita tamen quod nullum fiat praeiudicium suae bonitati, ita
+      videtur similiter de veritate.</p>
+          <p xml:id="bb-d1e35705-d1e211">Ideo est alius modus dicendi, quod mendacium nullo modo potest bene fieri, nec aliquo fine
+      nec aliquo praecepto dispensativo, quia semper manet in eo deordinatio, quae quidem est ex
+      discordia vocis et intellectus. Non sic autem est reperire in aliis ; nam divinum mandatum
+      superveniens tollit deordinationem illam quae est in homicidio et in furto : ideo magis
+      adhaeret malitia ipsi mendacio quam furto vel homicidio. Sed nec adhuc videtur istud
+      sufficere, quoniam, si Deus potest facere duos homines discordare ab invicem sine peccato,
+      sicut dicimus de Paulo et Barnaba, videtur similiter quod, manente intellectus et sermonis
+      discordia, possit ex dispensatione divina amoveri omnis culpa. Et ideo non videtur ratio
+      sufficiens sumi ex parte discordiae intentionis et sermonis.</p>
+          <p xml:id="bb-d1e35705-d1e215">Et ideo adhuc st tertius modus dicendi, quod dupliciter dicitur aliquid esse malum : aut ex
+      genere actus, utpote cum transit actus super materiam indebitam, aut ex malitia intentionis.
+      Cum autem transit actus super materiam indebitam, hoc potest esse dupliciter : vel respectu
+      Dei vel respectu proximi. Si respectu Dei, sic est malum in se et secundum se, nec ullo modo
+      potest bene fieri, sicut est odire summum Bonum et blasphemare Deum. Si respectu proximi,
+      sicut est nocumentum inferre proximo in persona vel in rebus, sic est malum in se, et potest
+      aliquo fine bene fieri, quia potest recta intentio supervenire ex dispensatione. Cum autem
+      aliquid est malum ex malitia intentionis, tunc, sive sit respectu Dei sive respectu proximi,
+      simpliciter malum est et nullo fine potest bene fieri, quia dicit privationem debiti finis.
+      Unde facere hoc maium esse bonum nihil aliud est facere quam aliquid simul esse bonum et
+      malum. Tale autem est mendacium. Nam mendacium non solummodo dicit malum ex hoc quod actus
+      transit super materiam indebitam, sed etiam ex intentione indirecta, quoniam ad esse
+      mendacii ista duo concurrunt, videlicet dicere falsum et intentio fallendi. Et primum est
+      malum in se et potest bene fieri ab eo qui ignoranter dicit falsum. Ratione vero secundi est
+      malum secundum se et nullo fine potest bene fieri nec circa ipsum potest dispensari, sicut
+      nullo modo potest bene fieri quod aliquis cognoscat alienam intentione adulterandi sive ex
+      improbitate voluntatis. Concedendae sunt igitur secundum hoc rationes ostendentes quod
+      essentiale est ipsi mendacio esse peccatum et quod ipsum mendacium est malum secundum se,
+      sicut dicit <name ref="#Augustine">Augustinus</name>, quoniam de ratione sui nominis includit inordinatam intentionem,
+      sicut ostensum est.</p>
+        </div>
+      <div xml:id="bb-d1e35705-Dd1e222">
+        <head xml:id="bb-d1e35705-Hd1e224">Ad rationes</head>
+        <p xml:id="bb-d1e35705-d1e227">Ad illud vero quod primo obicitur in contrarium per exempta Veteris
+    Testamenti, de mendacio Abrahae, Isaac et Joseph, dicendum quod nullus eorum mentitus est.
+    Nam, etsi Abraham vellet filium suum immolare, credebat tamen ex magnitudine fidei suae, sicut
+    dicit Apostolus, quod Dominus eum suscitaret ; sciebat enim quod firma erat promissio, qua
+    dictum fuerat : In Isaac vocabilur tibi semen.</p>
+        <p xml:id="bb-d1e35705-d1e230">
+        Similiter nec Isaac mentitus fuit, quia
+   Rebecca soror erat et uxor, et dicendo ipsam esse suam sororem, veritatem utique tacuit, sed
+   tamen falsitatem non dixit. Similiter etiam nec Ioseph mentitus fuit, quia verba illa non
+   dicebat affirmando, sed potius tentando, cum dicebat eos esse exploratores. Unde potius
+   intelligenda sunt interrogative quam affirmative. Cum autem dixit se peritum esse in augurandi
+   scientia, large accipitur verbum <mentioned> augurandi </mentioned> pro futurorum praevisione.
+   Praeterea, hoc ipsum etiam interrogative dixit, potius exprimens famam populi, quam de hoc
+   habebat, quam sibi attribuere volens famam illam. Sic etiam et de consimilibus iudicandum est.
+        </p>
+    <p xml:id="bb-d1e35705-d1e236">Ad illud quod obicitur de locutionibus positis in Scriptura, dicendum quod ea quae
+    transumptive dicuntur referuntur ad consequentem intellectum et pro illo intelliguntur ; et
+    quando pro illo habent veritatem, nullum est ibi mendacium. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>,
+    in libro De mendacio : Quidquid figurative fit aut dicitur non est mendacium ; omnis enim
+    enuntiatio ad id quod enuntiat referenda est. Omne autem figurative factum aut dictum hoc
+    enuntiat quod significat eis quibus intelligendum prolatum est. Et sic nullum est ibi
+    mendacium, quia non enuntiantur pro intellectu primo, sed pro secundo, qui verus est.</p>
+        <p xml:id="bb-d1e35705-d1e242">
+        Sic
+   nec in disputatione est mendacium, cum proponuntur aliqua falsa ad hoc quod per illa deducat
+   homo ad maius falsum, et deducendo ad maius falsum reducat ad verum. In disputationibus enim
+   propositiones magis sunt interrogationes quam veritatis assertiones, nisi forte in doctrinalibus
+   disputationibus, in quibus oportet discentem credere, ubi sola vera proponuntur, probantur et
+   supponuntur.
+        </p>
+          <p xml:id="bb-d1e35705-d1e246">Ad illud quod obicitur de simulatione in facto, dicendum quod est simulatio
+    cautelae et instructionis et duplicitatis. Simulatio cautelae fuit.in Iehu, cum finxit se
+    cultorem Baal, et David, qui finxit se stultum. Simulatio vero doctrinae fuit in Christo, cum
+    finxit se longius ire, sicut dicitur Lucae ultimo, 28 ; in quo erudivit discipulos officium
+    hospitalitatis, quo coegerunt illum apud se manere, per quod meruerunt etiam illum cognoscere.
+    Simulatio vero duplicitatis est in hypocritis, qui in signo exteriori ostendunt se esse bonos
+    et interius replentur malitia. Primae duae simulationes non tenent rationem mendacii, sed
+    tertia rationem mendacii tenet, et illa non est sine peccato.</p>
+        <p xml:id="bb-d1e35705-d1e249">
+        Praeterea, non est simile de
+   verbo et facto, quia factum non est principaliter institutum ad significandum mentis conceptum.
+   Sermo autem ad hoc institutus est ut sit nuntius et interpres ipsius mentis et ut homo
+   significet alteri quod est apud se et ut constituatur veritas apud audientem quae est apud
+   loquentem ; et ideo qui ad aliud utitur ipso sermone abutitur et incurrit peccatum mendacii. Non
+   sic autem est semper ex parte facti.
+        </p>
+          <p xml:id="bb-d1e35705-d1e252">Ad illud quod obicitur, quod maius peccatum est furtum
+    et homicidium quam mendacium, dicendum quod, quamvis gravius peccatum sit utrumque eorum,
+    quando fit mala intentione et malo fine, quia tamen contingit illa a malo fine separari, ideo
+    possunt fieri. Non sic autem est in mendacio reperire, quia de ipsa nominis ratione nominat
+    intentionis obliquationem.</p>
+        <p xml:id="bb-d1e35705-d1e255">Ad illud quod obicitur, quod est contra mandatum secundae tabulae, dicendum quod in mandatis
+    secundae tabulae quantum ad actum bene contingit Deum dispensare, sed quantum ad
+    deordinationem intentionis nunquam, ut aliquis excusetur a peccato propter divinum praeceptum,
+    manente intentione deordinata.</p>
+        <p xml:id="bb-d1e35705-d1e258">Ad illud quod obicitur de eo qui ex caritate movetur ad mentientiendum, dicendum quod caritas
+    praesupponit veritatem, unde ad nihil movet quod veritati repugnet, veritati dico ex parte
+    animae. Unde dicit <name ref="#Bernard">Bernardus</name> quod ad hoc quod opus sit laudabile, necesse est quod sit caritas
+    in intentione et veritas in electione. Et quia veritas non servatur in prolatione mendacii,
+    hinc est quod mendacium ex caritate non potest dici. Sicut enim ex caritate non potest
+    scienter committi malum, quod quidem maneat malum, ut inde eveniat bonum, sic etiam non potest
+    ex caritate dici falsum, ut inde sequatur verum aut bonum. Et est simile, quoniam sicut vis
+    operativa deservit affectivae, sic vis interpretativa deservit intellectivae, et sicut finis
+    affectionis est bonum, ita finis intelligentiae est verum. Sicut ergo nullum opus potest ex
+    caritate fieri nisi quis intendat bonum, et illud opus sit ordinabile ad bonum, sic etiam
+    nullus sermo potest ex caritate proferri nisi in illius sermonis prolatione primo intendat
+    verum. Et quia mendacium ordinatum est ad contrarium veri, videlicet ad indicandum falsum ex
+    ipsa intentione proferentis, ideo non potest fieri ex caritate nec meritorie, sed semper male.
+    Et haec ratio tacta fuit in ipsa responsione facta ad quaestionem.</p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

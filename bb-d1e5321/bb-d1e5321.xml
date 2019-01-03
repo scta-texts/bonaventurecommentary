@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 5, A. 1, Q. 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 5, A. 1, Q. 5</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e5321">
+        <head xml:id="bb-d1e5321-Hd1e119">III, D. 5, A. 1, Q. 5</head>
+        <head xml:id="bb-d1e5321-Hd1e122" type="question-title">Utrum haec sit concedenda divina natura est caro facta.</head>
+        <p xml:id="bb-d1e5321-d1e125">Quinto et ultimo quaeritur, utrum haec sit concedenda divina natura est caro facta.</p>
+        <div xml:id="bb-d1e5332" type="rationes-principales">
+          <head xml:id="bb-d1e5321-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e5321-d1e133">Et quod sic, videtur. Ioannes <name ref="#JohnDamascenus">Damascenus</name>, et habetur <ref xml:id="bb-d1e5321-Rd1e138" target="http://scta.info/resource/pl-l3d5c1-d1e295">in littera</ref> : <quote xml:id="bb-d1e5321-Qd1e141" source="http://scta.info/resource/jddfo-l3c6">Aimus omnem et perfectam naturam deitatis in
+       unam hypostasim incarnatam esse</quote>. Sed incarnari non est aliud quam carnem fieri :
+      ergo, si haec est vera divina natura est incarnata et haec, scilicet divina natura est caro
+      facta .</p>
+          <p xml:id="bb-d1e5321-d1e145">Item, nihil aliud est dicere <mentioned> Verbum est caro factum </mentioned> quam
+       <mentioned> humana natura est assumta a Verbo </mentioned> ; sed humana natura est assumta
+      non solum a Verbo, sed etiam a divina natura, sicut ostensum fuit supra : ergo videtur quod
+      divina natura sit caro facta.</p>
+          <p xml:id="bb-d1e5321-d1e154">Item, nihil aliud est Verbum carnem fieri quam Dei Filium esse factum hominem ; sed Dei
+      Filius est divina natura vel essentia, et propter unionem est communicatio idiomatum : ergo
+      videtur quod sicut ista conceditur Verbum caro factum est, ita ista concedi debet divina
+      natura est facta caro.</p>
+          <p xml:id="bb-d1e5321-d1e157">Sed contra : <name ref="#Lombard">Magister</name> in littera : <quote xml:id="bb-d1e5321-Qd1e162" source="http://scta.info/resource/pl-l3d5c2-d1e126">Melius hoc puto negare quam
+       asserere</quote>. Ergo, secundum sententiam <name ref="#Lombard">Magistri</name>, videtur praedicta locutio esse
+      neganda.</p>
+          <p xml:id="bb-d1e5321-d1e170">Item, quia Filius Dei est caro factus, conceditur quod Filius Dei fuit passus et mortuus,
+      sed non conceditur divina natura est passa, vel mortua : ergo nec ista debet concedi divina
+      natura est caro facta.</p>
+          <p xml:id="bb-d1e5321-d1e173">Item, quandocumque aliqua duo sic se habent quod formaliter sunt distincta, si dicatur unum
+      fieri alterum, significatur unum converti in alterum, utpote si dicatur aqua facta vinum ;
+      sed sic se habet caro et divina natura : cum ergo divina natura non sit in carnem conversa,
+      videtur quod haec non sit concedenda divina natura est caro facta.</p>
+          <p xml:id="bb-d1e5321-d1e176">Est igitur quaestio, quare magis ista conceditur <mentioned> divina natura est incarnata
+      </mentioned> quam ista <mentioned> divina natura et caro facta </mentioned>.</p>
+        </div>
+        <div xml:id="bb-d1e5390">
+          <head xml:id="bb-d1e5321-Hd1e188">Conclusio</head>
+          <head xml:id="bb-d1e5321-Hd1e191" type="question-title">Locutio: divina natura est caro facta, non est admittenda.</head>
+          <p xml:id="bb-d1e5321-d1e194">Respondeo : Dicendum quod ista debet et potest concedi divina natura est incarnata, quia
+      scripta legitur nec est simpliciter impropria. Duplicem enim facit intellectum, quorum unus
+      est verus et catholicus, licet alius sit ambiguus : unus, cum dicitur divina natura est
+      incarnata, id est, carni unita ; et hoc absque dubio verum est. Cum enim unio dicat
+      relationem, simul cum hoc notat naturarum distinctionem et excludit confusionem ; et ideo
+      ratione istius intellectus potest concedi divina natura est incarnata.</p>
+          <p xml:id="bb-d1e5321-d1e197">Potest etiam alius esse sensus divina natura est incarnata, id est, caro facta. Et ratione
+      istius non admittitur communiter a doctoribus. Haec enim non recipitur divina natura est
+      caro facta ; habet enim duplicem intellectum, et in uno intellectu est falsa et in alio
+      intellectu est adeo expressiva quod potest deducere in errorem ; et ideo nullo modo
+      recipitur. Duplicem autem habet intellectum praedicta locutio ex eo quod hoc quod est facta
+      potest cadere inter subiectum et praedicatum et referri ad totum. Si cadit inter subiectum
+      et praedicatum, tunc notat factionem circa divinam naturam respectu formae carnis ; et ideo
+      sensus est divina natura est caro facta, id est, conversa in carnem ; et haec quidem
+      simpliciter, est falsa. Si autem respiciat totum, sic sensus est <mentioned> divina natura
+       est caro facta </mentioned>, id est, factum est ut divina natura sit caro ; et haec
+      quidem, proprie loquendo, est falsa, quia caro non praedicatur de divina natura. Si autem
+      intelligatur synecdochice, ut sit sensus <mentioned> divina natura est caro </mentioned>, id
+      est, homo, etsi illud aliquo modo posset concedi propter convenientiam in hypostasi, quae
+      facit idiomatum communicationem - propter hoc quod haec est vera <mentioned> homo est divina
+       natura </mentioned>, id est, ille qui est homo - propter nimiam tamen expressionem tacenda
+      est, ne videatur natura praedicari de natura vel naturarum fieri identitatem aut
+      confusionem, quae omnia releganda sunt ab illa excellentissima unione et assumtione.
+      Concedendae sunt igitur rationes ostendentes locutionem praedictam non esse admittendam,
+      licet non multum cogant.</p>
+        </div>
+        <div xml:id="bb-d1e5415">
+          <head xml:id="bb-d1e5321-Hd1e213">Ad rationes</head>
+          <p xml:id="bb-d1e5321-d1e216">Ad illud vero quod obicitur, quod divina natura est incarnata et conceditur, dicendum quod
+      non est simile, sicut iam visum est.</p>
+          <p xml:id="bb-d1e5321-d1e219">Ad illud quod obicitur, quod propter humanae naturae assumtionem ista conceditur Verbum est
+      factum caro, dicendum quod non est simile, quia Verbum dicit ipsam hypostasim, cui innititur
+      ipsa humana natura et quam habet denominare. Et ideo non significatur ex hoc aliqua
+      naturarum mutatio vel confusio, sed solum Verbi ad humanam naturam denominatio, ut dicatur
+      Verbum esse homo. Non sic autem est cum dicitur divina natura est facta caro quia, cum istae
+      naturae sint distinctae nec una habeat ab altera denominari, quamvis habeat alteri uniri,
+      magis a proprietate et veritate praedicta locutio recedit.</p>
+          <p xml:id="bb-d1e5321-d1e222">Ad illud quod obicitur, quod Verbum fieri carnem non est aliud quam Verbum fieri hominem,
+      dicendum quod verum est. Et quoniam ista est vera et propria <mentioned> Verbum est factum
+       homo </mentioned>, figurativa locutio, quae in eam immediate resolvitur, non est via
+      ducendi in errorem, immo concedi potest satis catholice. Haec autem divina essentia facta
+      est homo, quamvis non sit omninb falsa, quia pypostasis praedicatur de divina natura per
+      identitatem, non tamen est adeo propria sicut ista Filius Dei factus est homo, immo nimium
+      sit expressiva. Et propterea locutio figurativa, in qua significatur per synecdochen caro
+      sumi pro toto homine, simpliciter respuitur, pro eo quod magis recedit a sermonis
+      proprietate et ab expressione veritatis et approximat intellectui erroris. Qua de causa
+      multae negantur locutiones a doctoribus theologiae, ne paralogizeritur et decipiantur
+      simplices ; qui nesciunt vocabulorum virtutes.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

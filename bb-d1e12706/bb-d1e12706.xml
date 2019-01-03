@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 14, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 14, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e12706">
+        <head xml:id="bb-d1e12706-Hd1e119">III, D. 14, Divisio Textus</head>
+        <p xml:id="bb-d1e12706-d1e122">Supra egit <name ref="#Lombard">Magister</name> de plenitudine gratiae et scientiae communiter, in hac vero parte agit de
+    plenitudine scientiae specialiter. Dividitur autem pars ista in partes duas. In quarum prima
+    ostendit in Christo fuisse omnem scientiam secundum humanam naturam. In secunda vero inquirit,
+    utrum anima Christi habuit omnipotentiam sicut Omnium scientiam, ibi : <quote xml:id="bb-d1e12706-Qd1e127">Si vero
+      quaeritur, quare Deus non ei dederit potentiam</quote> etc.</p>
+        <p xml:id="bb-d1e12706-d1e131">Pars prima habet tres. In quarum prima proponit quaestionem de omniscientia animae Christi.
+    In secunda vero ponit deteminationem secundum aliorum astimationem, ibi : <quote xml:id="bb-d1e12706-Qd1e133">Quibusdam
+      placet, quod nec parem cum Deo</quote>. In tertia vero determinat secundum suam opinionem,
+    ostendens animam Christi habuisse omniscientiam, ibi : <quote xml:id="bb-d1e12706-Qd1e136">Quibus respondentes
+      dicimus</quote> etc.</p>
+        <p xml:id="bb-d1e12706-d1e140">Similiter secunda pars principalis habet tres particulas. In quarum prima determinat <name ref="#Lombard">Magister</name>
+    quare anima Christi non habet omnipotentiam sicut omniscientiam. In secunda vero opponit
+    contra suam determinationem, ibi : <quote xml:id="bb-d1e12706-Qd1e145">Sed si anima illa non habet</quote> etc. In tertia
+    vero dissolvit et solutionem suam multis quaestionibus adaptat, ibi : <quote xml:id="bb-d1e12706-Qd1e148">Ad quod dicimus,
+      illud esse accipiendum</quote>, etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

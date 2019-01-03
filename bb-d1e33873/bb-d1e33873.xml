@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 36, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 36, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e33873">
+        <head xml:id="bb-d1e33873-Hd1e119">III, D. 36, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e33873-Hd1e122" type="question-title">Utrum dona Spiritus Sancti sint connexa.</head>
+        <p xml:id="bb-d1e33873-d1e125">Secundo quaeritur de connexione donorum, et est quaestio, utrum dona Spiritus Sancti sint
+    connexa.</p>
+        <div xml:id="bb-d1e33884" type="rationes-principales">
+          <head xml:id="bb-d1e33873-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e33873-d1e133">Et quod sic, videtur. Primo, quia sicut habitus virtutum sunt gratuiti et procedunt ex
+      munere divinae largitatis, sic et habitus donorum. Cum ergo propter unitatem gratiae
+      informantis et munificentiam largitatis dispensantis ponatur connexio in virtutibus
+      gratuitis, eadem ratione videtur quod ponenda est et in donis.</p>
+          <p xml:id="bb-d1e33873-d1e136">Item, sicut una virtus alteri adminiculatur et eam adiuvat in actu suo, sic unum donum se
+      habet respectu alterius. Ergo qua ratione una virtus indiget altera et non potest ab ea
+      separari, eadem ratione videtur necessarium esse unum donum connecti alteri.</p>
+          <p xml:id="bb-d1e33873-d1e139">Item, quicumque habet caritatem habet unde possit delectari et gustare, <quote xml:id="bb-d1e33873-Qd1e141">quoniam
+       suavis est Dominus</quote> ; sed donum sapientiae consistit in gustu illius summae
+      dulcedinis : igitur quicumque habet caritatem, habet donum spientiae. Sed donum sapientiae
+      est supremum inter omnia dona et praesupponit omnia dona inferiora : ergo quicumque habet
+      caritatem, habet omnia Spiritus Sancti dona : ergo videtur quod dona sint connexa.</p>
+          <p xml:id="bb-d1e33873-d1e145">Item, aliquis homo existens in gratia ex ipso primo munere gratiae sine alterius doni
+      appositione potest pervenire ad salutem. Ergo videtur quod possit in usu donorum et gratia
+      semetipsum exercere ; sed hoc non esset nisi dona essent connexa : ergo etc.</p>
+          <p xml:id="bb-d1e33873-d1e149">Sed contra : I ad Corinthios 12, 8, dicit Apostolus : <quote xml:id="bb-d1e33873-Qd1e151" ana="#Icor12_8">Alii datur per Spiritum sermo
+       sapientiae, alii datur sermo scientiae</quote> ; ubi diversitatem donorum dicit distribui
+      secundum diversitatem personarum. Ergo non videtur quod necessario oporteat omnia dona in
+      una et eadem anima esse connexa.</p>
+          <p xml:id="bb-d1e33873-d1e155">Item, <name ref="#Augustine">Augustinus</name>, in libro De sermone Domini in monte, ponit gradus inter dona, ita quod ab
+      uno paulative fit processus ad alterum ; sed hoc non esset, si omnia infunderentur
+      aequaliter et simul : ergo non videtur quod dona Spiritus Sancti invicem connectantur.</p>
+          <p xml:id="bb-d1e33873-d1e161">Item, Gregorius, in Moralibus, dicit quod <quote xml:id="bb-d1e33873-Qd1e163">minor est sapientia, si intellectu
+       careat</quote>. Ergo donum sapientiae potest haberi sine dono intellectus.</p>
+          <p xml:id="bb-d1e33873-d1e167">Item, supra. habitum fuit, distinctione proxima, et est verbum <name ref="#Augustine">Augustini</name>, De Trinitate,
+      XIV, quod <quote xml:id="bb-d1e33873-Qd1e172" ana="#Augustine_deTrinitate_14_1_3_b">dono scientiae non pollent plures fideles, quamvis polleant ipsa fide</quote>. Ergo
+      videtur quod donum scientiae non necessario concomitetur infusionem gratiae.</p>
+          <p xml:id="bb-d1e33873-d1e176">Item, habitus donorum secundum suam generalitatem dantur ad expediendum. Ergo, si dona
+      essent necessario connexa, videtur quod, uno dono hahito, sanarentur omnia symptomata et
+      expeditus esset homo ad omnia opera meritoria ; quod manifeste esse falsum deprehendit ipsa
+      experientia.</p>
+          <p xml:id="bb-d1e33873-d1e179">Item, dona ut plurimum ordinant ad ea quae sunt supererogationis, sicut patet in dono
+      consilii et fortitudinis ; ea autem quae supererogationis sunt non concomitantur
+      inseparabiliter ea quae sunt necessitatis : ergo videtur quod inter ipsa dona gratuita non
+      sit connexio necessaria.</p>
+        </div>
+        <div xml:id="bb-d1e33939">
+          <head xml:id="bb-d1e33873-Hd1e185">Conclusio</head>
+          <head xml:id="bb-d1e33873-Hd1e188" type="question-title">Dona Spiritus sancti respectu originis habent connexionem, non
+      autem ita respectu usus et perfectionis.</head>
+          <p xml:id="bb-d1e33873-d1e191">Respondeo : Dicendum quod de habitibus donorum gratuitorum est loqui dupliciter, videlicet
+      quantum ad ipsorum originem et quantum ad usum consequentem. Si loquamur de ipsis quantum ad
+      ipsorum originem, cum origo omnium habituum gratuitorum consistat quasi materialiter in
+      natura et completive et formaliter in gratia, quando Spiritus Sancti gratia infunditur, ita
+      sufficienter datur quod omnes habitus gratuiti ex ipsa possunt oriri, si nos velimus
+      susceptae gratiae cooperari, non solum habitus virtutum, sed etiam habitus donorum et
+      beatitudinum. Ideo quantum ad originem indubitanter verum est dona Spiritus Sancti habere
+      connexionem.</p>
+          <p xml:id="bb-d1e33873-d1e194">Aliter est loqui de ipsis habitibus donorum quantum ad usum, secundum quem modum isti
+      habitus reddunt potentiam facilem et expeditam ad proprios actus, qui non tantum sunt
+      necessitatis et sufficientiae, sed etiam cuiusdam supererogationis et excellentiae. Et
+      quantum ad hoc non est necessarium in his esse connexionem, immo vix aut nunquam usus
+      istorum habituum reperitur perfectus in aliquo ; sicut innuit Gregorius, super illud Iob
+      [38, 31] : <quote xml:id="bb-d1e33873-Qd1e196" ana="#iob38_31">Numquid coniungere poteris micantes stellas Pleiadas</quote> ? dicens quod
+      usus Spiritus septiformis in solo Christo fuit perfecte. Usus enim donorum ponit hominem in
+      statu perfectionis, sed origo non necessario ponit in statu perfectionis, sed in statu
+      inchoationis. Unde sicut puer parvulus, sicut dicit <name ref="#Augustine">Augustinus</name>, habet in ratione quidquid
+      postmodum habiturus est in mole, licet magnitudinem malis nondum habeat in actu, sic concedi
+      potest quod habitus donorum non necessario connectuntur quantum ad usum et ipsorum esse
+      completum, secundum quod potentias facilitant et ad acttis excellentes expediunt. Tamen in
+      infusione gratiae habentur radicaIiter et virtualiter et implicite, sicut ostendunt rationes
+      ad primam partem inductae.</p>
+        </div>
+        <div xml:id="bb-d1e33961">
+          <head xml:id="bb-d1e33873-Hd1e207">Ad Rationes</head>
+          <p xml:id="bb-d1e33873-d1e210">Attamen illud quod obicit de similitudine virtutum et donorum non valet. Habitus enim
+      virtutum, pro eo quod necessitatis sunt, etiam quantum ad suos usus in his qui libero
+      arbitrio iam utuntur, simpliciter habent ad invicem connecti, non solum ratione suae
+      originis, sed etiam ratione usus consequentis. Nemo enim potest esse in gratia nisi credat,
+      speret et amet, et sic de aliis viitutibus. Non sic autem est de usibus donorum et
+      beatitudinum sin.e quibus plures salvantur. Multi enim sunt qui fideliter credunt et tamen
+      illud quod credunt nunquam intellectu comprehendunt. Similiter est de usu ipsarum
+      beatitudinum. Et ideo, si aliquo modo sit connexio in habitibus beatitudinum et donorum, non
+      tamen tanta est, quanta est in habitibus virtutum. Est tamen ibi aliqua, sicut illae
+      rationes ostendunt.</p>
+          <p xml:id="bb-d1e33873-d1e213">Ad illa vero quae obiciuntur in contrarium, satis facilis est responsio per ea quae dicta.
+      sunt. Nam quod primo obicitur de auctoritate Apostoli, quod alii datur Spiritum sermo
+      sapientiae etc., procedit de donis gratiae gratis datae, non autem de donis gratiae gratum
+      facientis ; vel certe, si intelligit de ipsis donis, hoc dicit quantum ad usum, non quantum
+      ad ipsorum habituum radicem sive principium.</p>
+          <p xml:id="bb-d1e33873-d1e216">Ad illud quod obicitur de auctoritate <name ref="#Augustine">Augustini</name>, similiter patet responsio. <name ref="#Augustine">Augustinus</name> enim
+      assignat gradus inter dona quantum ad eorum usus, quia non potest quis assuefieri in usu
+      doni superioris nisi primo assuefiat in usu doni inferioris qui non est tantae
+      sublimitatis.</p>
+          <p xml:id="bb-d1e33873-d1e225">Ad illud quod obicitur de auctoritate Gregorii, quod minor est sapientia, si intellectu
+      careat, similiter respondendum est hoc Gregorium intellexisse de usu doni intellectus, quo
+      neglecto, si quis se protendat ad usum doni sapientiae, non ita proficif, sicut proficeret,
+      si ordinato gradu procederet.</p>
+          <p xml:id="bb-d1e33873-d1e229">Ad illud quod obicitur de auctoritate <name ref="#Augustine">Augustini</name>, habita in distinctione praemissa, dicendum
+      quod <name ref="#Augustine">Augustinus</name> intelligit de usu doni scientiae ; et hoc manifestum est ex ipsa
+      auctoritate. Dicit enim quod multi pollent fide qui non poilent scientia. Nemo enim pollet
+      in aliquo habitu nisi habeat ipsum in sua completione, per quam facile sit ipsum habitum
+      manifestari in opere.</p>
+          <p xml:id="bb-d1e33873-d1e238">Ad illud quod obicitur, quod dona expediunt et quod similiter ordinant ad ea quae sunt
+      supererogationis et excellentiae, respondendum, sicut prius tactum est, quod hoc
+      intelligitur de donis quando habentur in usu, non solum in munere, sive quando habentur
+      quantum ad assuefactionem et facilitatem in opere, non quando habentur quantum ad
+      causalitatem in sua origine : uno modo habentur in ipsius gratiae infusione, alio modo
+      habentur per bonorum operum et orationum sive precum multiplicationem, secundum illud quod
+      dicitur in Glossa, Matthaei 6, 9 : Quia per haec dona nos ab imis ad summa consurgimus,
+      septem beatitudines, quae per eadem dona quaeruntur, de imis gradatim ad summa perveniunt.
+      In precibus ergo est ut impetremus dona, in donis ut operemur mandata, de operatione
+      beatitudines consequuntur. Haec autem intelligenda sunt quantum ad usum, sicut prius fuit
+      explanatum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

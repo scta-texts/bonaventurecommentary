@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 6, PRAENOTATA DE TRIBUS OPINIONIBUS</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 6, PRAENOTATA DE TRIBUS OPINIONIBUS</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e6093">
+        <head xml:id="bb-d1e6093-Hd1e119">III, D. 6, PRAENOTATA DE TRIBUS OPINIONIBUS</head>
+        <p xml:id="bb-d1e6093-d1e122">Notandum est autem hoc in principio quod explicatio primae opinionis in quatuor consistit
+    articulis, secundum quod colligi potest ex verbis ipsius <name ref="#Lombard">Magistri</name>. Primo enim ponebant quod in
+    ipsa incarnatione constitutus fuit unus homo ex anima et carne, ita tamen quod nihil
+    constituebatur tertium ex homine et Deo. Secundo vero dicebant hominem ilium assumtum a Verbo.
+    Tertio vero, quia Deus est homo et e conversa, dicebant assumentem praedicari de assumto. Et
+    ex hoc consequebatur quarta positio, quod Christus est duo. Cum enim alius sit assumens et
+    alius sit assumtus, et Christus sit Deus assumens et homo assumtus, suppositis praemissis,
+    necessario habent ponere quod Christus sit duo. Et hoc est ultimum in quo consummatur et
+    denominatur ista positio.</p>
+        <p xml:id="bb-d1e6093-d1e128">Similiter explicatio secundae opinionis consistit in quatuor articulis. Primo enim dicebat
+    quod in incarnatione non tantum est ex anima et corpore constituta una natura, sed etiam
+    divinitas et humanitas ad unam concurrerunt constituendam personam, ita quod persona Verbi
+    ante incarnationem Verbi erat simplex, in incarnatione vero facta est composita. Secundo vero
+    simul cum hoc dicebat quod, si in incarnatione Verbi aliquo modo persona facta est composita,
+    non tamen facta est alia, sed eadem manens quae prius erat. Tertio vero subiungebat quod, etsi
+    persona Verbi in incarnatione Verbi possit dici composita, non tamen potest dici facta ; nec
+    est concedendum quod sit facta persona, quamvis concedi possit quod sit facta persona hominis.
+    Et ideo quarto loco dicebat quod Christus erat unum, non plura, quia persona Verbi non
+    assumserat hominis supposititm, sed naturam.</p>
+        <p xml:id="bb-d1e6093-d1e131">Tertia similiter positio in quatuor consistebat articulis. Nam primo negabat quod dicit
+    positio prima : aiebat enim quod in .incarnatione ex carne et. anima non est constituta tertia
+    natura. Secundo vero negabat quod dicit opinio secunda, pro eo quod non concedebat quod ex
+    illis duabus naturis persona esset composita. Tertio vero subiungebat quod persona Verbi
+    carnem veram et veram animam per modum indumenti assumserat, ut hominum oculis visibilis
+    appareret. Quarto vero subiungebat quod Christus non est aliquid secundum quod homo ; homo
+    enim de Christo non praedicatur per modum substantiae, sed per modum habitus, per quem modum
+    ille qui habet habitum dicitur esse vestitus.</p>
+        <p xml:id="bb-d1e6093-d1e134">Omnia autem quae dicta sunt trahi possunt ex his quae in littera dicuntur. Possent autem et
+    his multa adiungi, quia, uno posito, sequuntur multa. Verumtamen ista quae dicta sunt
+    principales positiones sunt praedictarum opinionum et ex verbis <name ref="#Lombard">Magistri</name> accipi possunt.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

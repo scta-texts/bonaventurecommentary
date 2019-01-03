@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 5, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 5, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e5542">
+        <head xml:id="bb-d1e5542-Hd1e119">III, D. 5, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e5542-Hd1e122" type="question-title">Utrum Deus assumserit humanam personam.</head>
+        <p xml:id="bb-d1e5542-d1e125">Secundo quaeritur, utrum Deus assumserit humanam personam.</p>
+        <div xml:id="bb-d1e5553" type="rationes-principales">
+          <head xml:id="bb-d1e5542-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e5542-d1e133">Et quod sic, videtur. Boethius, definiens personam, dicit quod est <quote xml:id="bb-d1e5542-Qd1e135">individua
+       substantia rationalis naturae</quote>. Sed Christus assumsit individuam substantiam
+      rationalis naturae, ut dicit <name ref="#JohnDamascenus">Damascenus</name> : <quote xml:id="bb-d1e5542-Qd1e141">Assumsit enim naturam in atomo</quote>.
+      Ergo assumsit personam.</p>
+          <p xml:id="bb-d1e5542-d1e145">Item, ad dignitatem singularis spectat ut illud singulare sit persona : persona enim nomen
+      est dignitatis ; sed natura assumta in Christo aeque vel magis nobilis est quam sit in
+      aliquo alia homine : si igitur in aliis non amittit rationem personae, videtur quod in
+      Christo habeat potissime. Ergo etc.</p>
+          <p xml:id="bb-d1e5542-d1e148">Item, anima rationalis unita carni facit personam ; sed, cum Deus humanam carnem assumsit,
+      animam rationalem carni coniunxit : ergo, si assumsit animam carni coniunctam, videtur quod
+      assumserit personam.</p>
+          <p xml:id="bb-d1e5542-d1e151">Item, persona non gignit nisi personam ; sed Dei Filius assumsit quod Virgo genuit : ergo,
+      si Virgo persona fuit, videtur quod Deus ex ea personam assumserit.</p>
+          <p xml:id="bb-d1e5542-d1e155">Sed contra : <name ref="#Augustine">Augustinus</name>, De fide ad Petrum : <quote xml:id="bb-d1e5542-Qd1e160">Deus naturam hominis assumsit, non
+       personam</quote>.</p>
+          <p xml:id="bb-d1e5542-d1e164">Item, hoc ipsum ostendit Boethius tali ratione : in Christo non est nisi una persona :
+      ergo, si Dei. Filius assumsit personam, idem assumsit se ipsum ; sed hoc est falsum et non
+      intelligibile : ergo et illud ex quo sequitur, scilicet quod persona fuerit a Verbo assumta.
+      Probat autem primam propositionem sic, scilicet quod Christus sit unus in persona : omne
+      quod est, ideo est quia unum est. Si ergo Christus est, necesse est unum esse ; sed non est
+      un um in natura : ergo necesse est esse unum in persona.</p>
+          <p xml:id="bb-d1e5542-d1e167">Item, hoc ipsum ostenditur per nominis rationem. Persona enim dicit quid completum et
+      distinctum ultima completione ; sed quod assumitur, eo ipso quod assumitur, ad completius
+      ordinatur : ergo videtur quod in se non habeat rationem personae.</p>
+          <p xml:id="bb-d1e5542-d1e170">Item, si assumsit, aut consumsit aut conservavit. Constat quod non consumsit, quia divina
+      natura humanae nihil nobilitatis abstulit. Si conservavit, ergo, cum assumens non sit
+      assumtum, restat quod in Christo sint duae naturae et duae personae, scilicet humana et
+      divina : ergo nec Deus est homo, nec homo est Deus : igitur non est ibi aliqua unio, ac per
+      hoc nec assumtio. Si igitur est ibi assumtio vera, manifestum est quod persona non est
+      assumta.</p>
+        </div>
+        <div xml:id="bb-d1e5599">
+          <head xml:id="bb-d1e5542-Hd1e176">Conclusio</head>
+          <head xml:id="bb-d1e5542-Hd1e179" type="question-title">Falsum omnino est, quod persona divina assumserit personam
+      humanam</head>
+          <p xml:id="bb-d1e5542-d1e182">Respondeo : Dicendum quod omni modo falsum est quod persona personam assumserit. Hoc enim
+      tripliciter potest intelligi : aut quod ipsum assumtum fuerit persona ante assumtionem aut
+      quod fuerit persona in assumtione aut quod fuerit persona post assumtionem. Quolibet istorum
+      trium modorum sumta, sententia praedicti sermonis est falsa. Nam primus repugnat veritati
+      conceptionis, secundus veritati asssumtionis et tertius veritati unionis.</p>
+          <p xml:id="bb-d1e5542-d1e185">Primus namque, qui hoc ponit quod ante assumtionem fuerit persona, veritati conceptionis
+      repugnat. Si enim ante fuit persona quam esset Deus, Virgo Maria non concepit Deum, sed
+      hominem purum ; quod est contra Evangelium et conceptionis articulum. Secundus vero modus,
+      qui ponit hominem illum tempore assumtionis fuisse personam, veritati assumtionis repugnat.
+      Si enim in assumtione fuit persona et post assumtionem desiit esse persona, potius ini psa
+      assumtione persona consumebatur quam assumebatur ; non igitur fuit illa vera assumtio, sed
+      magis consumtio. Tertius vero modus intelligendi, quod persona fuerit post assumtionem illud
+      quod assumtum est, veritati unionis repugnat. Si enim assumens differt ab assumto, et illud
+      quod assumtum est, est persona, et qui assumsit simititer est persona : ergo in Christo sunt
+      duae personae ; et duae sunt in eodem naturae, hoc constat : ac per hoc nulla est ibi unio ;
+      ac si hoc, nulla est incarnatio nec humani generis reparatio. Quod adeo est absurdum ut
+      totius fidei christianae perimat fundamentum.</p>
+          <p xml:id="bb-d1e5542-d1e188">In hunc autem errorem pessimum decidit Nestorius, ut dicit Boethius, pro eo quod nescivit
+      distinguere inter personam et naturam. Pro eo enim quod vidit in Christo dupliplicem esse
+      naturam, intellexit duplicem esse personam. Eutyches vero ex eadem causa erravit, sed non
+      eodem modo. Quia enim nescivit discernere inter personam et naturam et vidit quod in Christo
+      non poterat esse nisi una persona, ex hoc compulsus est ponere quod in Christo non est nisi
+      una natura. Et ideo sicut duo fuerunt errores in divinis, scilicet Arii et Sabellii, pro eo
+      quod nesciverunt distinguere inter naturam et personam, sic duo fuerunt errores circa
+      incarnationem Christi, videlicet Eutychis et Nestorii. Catholica vero Ecclesia per medium
+      istorum errorum pertransiit, dicens in deitate plures esse personas et unam naturam, et in
+      Christo ptures naturas et unam personam. Et ideo simpliciter concedit personam assumsisse
+      naturam et negat personam assumsisse personam, sicut <name ref="#Lombard">Magister</name> dicit in littera. Unde
+      rationes sunt concedendae inductae pro ista parte.</p>
+        </div>
+        <div xml:id="bb-d1e5621">
+          <head xml:id="bb-d1e5542-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d1e5542-d1e201">Ad illud quod obicitur in contrarium, quod persona est rationalis naturae individua
+      substantia, dicendum quod individuum in notificatione personae triplicem importat
+      distinctionem, videlicet singularitatis, incommunicabilitatis et supereminentis dignitatis.
+      Individuum enim dicitur quod est in se indivisum et ab aliis distinctum. Distinctionem
+      singularitatis voco quod aliquid non sit commune ad plura, sed dicatur de uno solo ; propter
+      quod Socrates dicit individuum, homo vero non dicit individuum. Distinctionem
+      incommunicabilitatis dico quod aliquid non sit alicuius pars sive veniens in compositionem
+      tertii ; unde pes vel manus hominis, proprie loquendo, non dicitur individuum. Distinctionem
+      supereminentis dignitatis intelligo illam quae accipitur a proprietate digniori. Hoc enim
+      nomen persona sumtum est a dignioribus ; unde non reperitur nisi in individuo nobilissimae
+      creaturae, utpote rationalis, et ratione suae nobilissimae proprietatis. Quoniam igitur
+      natura humana, assumta a Christo, ordinata est ad nobiliorem proprietatem eiusdem personae
+      secundum alteram naturam, bine est quod non tenet ibi proprietatem personalitatis. Cadit
+      enim ab una proprietate, quae quidem est supereminentis dignitatis, a qua quidem non cadit
+      persona Verbi secund um divinam naturam. Et sic patet quod distinctio personae et ratio illa
+      non valet, quia notificatio personae, recte intellecta, non convenit humanitati
+      assumtae.</p>
+          <p xml:id="bb-d1e5542-d1e204">Ad illud quod secundo obicitur iam patet responsio ex hoc quod iam dictum est, quia natura
+      asumta in Christo eo ipso est nobilior quod in nobiliori persona stabilitur, quia non in
+      persona creata, sed in persona increata. Unde ordinatio ad dignius, quamvis auferat rationem
+      superpositionis, non aufert dignitatis proprietatem. Melius enim est subesse superiori quam
+      superesse alicui inferiori. Sicut perfectior est anima cum possidetur a Deo quam cum
+      possidet res creatas ; et melius nubit virgo nobilis, cum contrahit matrimonium cum rege cui
+      subsit, quam eum contrahit cum rustico cui praesit. Unde esto quod Deus aliquem assumeret
+      qui iam est persona vel ens actu, ille, cum desineret esse persona, nihil tamen dignitatis
+      amitteret ; esset enim persona secundum naturam assumentem, quamvis non secundum naturam
+      assumtam.</p>
+          <p xml:id="bb-d1e5542-d1e207">Ad illud quod obicitur, quod anima rationalis unita carni facit personam, dicendum quod
+      verum est, quando anima et caro non coniungitur digniori ; tunc enim non solum ex anima et
+      carne constituitur ipsa natura, sed ex ipsa natura hypostasis et persona. Non sic autem est
+      in proposito, quia anima et caro fuerunt sibi invicem unita ipsi Verbo, nec in aliquo
+      instanti fuit anima illa quin esset unita Verbo ; et ipsa hypostasis aeterna erat, in qua
+      couniebantur corpus et anima : et ideo non constituebant personam, sed solum naturam. Et
+      ideo non sequitur, quodsi Dei Filius assumsit animam carni unitam, quod assumserit personam,
+      quia non prius fuit ipsi carni unita quam esset assumta, quidquid sit de ordine secundum
+      naturam.</p>
+          <p xml:id="bb-d1e5542-d1e210">Ad illud quod obicitur, quod beata Virgo genuit personam, dicendum quod verum est, quia
+      genuit Filium Dei ; sed quoniam persona generatur ratione naturae, et duplex est natura in
+      illa persona, scilicet creata et increata, ideo ratione duplicis naturae duplex convenit ei
+      generatio, scilicet temporalis et aeterna : temporalis, in qua assimilatur Matri ; aeterna
+      secundum naturam, in qua assimilatur Patri, ideo non cogit ratio illa. Quamvis enim
+      generatio conveniat personae, convenit tamen ei ratione naturae ; hoc maxime verum est in
+      generatione creata, in qua est non tantum personalis distinctio, sed naturalis
+      multiplicatio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

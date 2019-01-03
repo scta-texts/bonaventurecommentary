@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 12, Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 12, Dubia</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e11956">
+        <head xml:id="bb-d1e11956-Hd1e119">III, D. 12, Dubia</head>
+        <div xml:id="bb-d1e11961">
+          <head xml:id="bb-d1e11956-Hd1e124">Dub. I</head>
+          <p xml:id="bb-d1e11956-d1e127">In parte ista pauca circa litteram quaerenda sunt, pro eo quod satis patent, his visis quae
+      praedicta sunt. Dubitari tamen potest de illa distinctione, quam facit ibi <name ref="#Lombard">Magister</name> : Hic
+      distinctione opus est, an de natura intelligatur etc. Videtur enim quod distinctio illa
+      nulla sit, quia ex quo natura illa fuit unita, non potuit non esse unita ; sed natura illa
+      unita peccare non potuit : ergo non videtur quod aliquo modo peccare potuerit. Item, anima
+      illa beata est et non potest non esse beata : ergo, si beata anima simpliciter et absolute
+      non potest peccare, videtur similiter quod nec anima Christi : ergo nulla videtur opus esse
+      distinctione,</p>
+          <p xml:id="bb-d1e11956-d1e133">Respondeo : Dicendum quod secundum intellectum quaestionis, quem attendit quaestionem
+      proponens, nullam oportet facere distinctionem, propter hoc quod quaestio est de anima
+      Christi unita, utrum habuerit vertibilitatem arbitrii ; verumtamen <name ref="#Lombard">Magister</name> ex abundanti
+      distipguit ad removendum importunitatem sophistice opponentium ; et rationabiliier satis.
+      Cum quaeritur, utrum ille homo peccare potuerit cum verbum <mentioned> possendi </mentioned>
+      sit praeteriti temporis, indeterminate potest extendere se ad omne praeteritum : ergo ad
+      tempus ante unionem vel ad tempus post unionem. Si ad tempus ante unionem, cum ante unionem
+      possibile fuerit illum hominem creari, et tamen Verbo non uniri, possibile fuit quod haberet
+      liberi arbitrii vertibilitatem, et ita quod peccare potuerit. Si autem pro tempore post
+      unionem, peccare non potuit, quia non potuit non esse beatus aut non esse Deus, quorum
+      neutrum patitur in Christo aliquod esse peccatum. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

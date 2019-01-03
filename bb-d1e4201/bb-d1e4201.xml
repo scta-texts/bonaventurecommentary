@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 4, A. 2, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 4, A. 2, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e4201">
+        <head xml:id="bb-d1e4201-Hd1e119">III, D. 4, A. 2, Q. 1</head>
+        <head xml:id="bb-d1e4201-Hd1e122" type="question-title">Utrum Christi incarnatio fuerit ex mera gratia an eam impetrarunt
+    merita sanctorum Patrum.</head>
+        <p xml:id="bb-d1e4201-d1e125">Circa primum sic proceditur et quaeritur, utrum Christi conceptio ver incarnatio fuerit ex
+    mera gratia an hoc impetraverunt sanctorum Patrum merita.</p>
+        <div xml:id="bb-d1e4212" type="rationes-principales">
+          <head xml:id="bb-d1e4201-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e4201-d1e133">Et quod fuerit ex mera gratia, videtur. Ad Titum 3, 4 : <quote xml:id="bb-d1e4201-Qd1e135" ana="#tit3_4">Apparuit
+       benignitas et humanitas Salvatoris nostri non ex operibus iustitiae</quote>. Sed apparitio
+      illa benignitatis et humanitatis est Filii Dei humanatione, sicut in Glossa dicitur :
+       <quote xml:id="bb-d1e4201-Qd1e138">Cum benignus et humanatus Deus noster apparuit</quote>. Ergo videtur quod Filii Dei
+      humanatio non fuerit mediantibus nostris meritis.</p>
+          <p xml:id="bb-d1e4201-d1e142">Item, super illud Psalmi [73, 20] : <quote xml:id="bb-d1e4201-Qd1e144" ana="#ps73_20">Respice in testamentum sanctum
+       tuum</quote>, Glossa : <quote xml:id="bb-d1e4201-Qd1e147">Meminit promissionis, quia merita deficiunt</quote> ; et
+      loquitur de promissione incarnationis : ergo etc.</p>
+          <p xml:id="bb-d1e4201-d1e151">Item, de eo quod per merita acquiritur, non tantum tenemur ad gratiarum actiones sicut pro
+      eo quod gratis datur ; sed de Christi donatione tenemur ad omnimodas gratiarum actiones :
+      ergo videtur quod illam non impetraverint merita Ecclesiae.</p>
+          <p xml:id="bb-d1e4201-d1e154">Item, quod est fundamentum totius meriti Ecclesiae meritis eius non, potest reddi ; sed
+      Christi incarnatio est fundamentum totius meriti Ecclesiae, quia per ipsum, quotquot sunt,
+      reconciliati sunt Deo et Patri, nec aliquis salvatur nisi per eum : ergo non videtur quod
+      incarnatio Christi per merita Patrum sive ipsius Ecclesiae poterit impetrari.</p>
+          <p xml:id="bb-d1e4201-d1e158">Sed contra : Super illud Psalmi [11, 6] : <quote xml:id="bb-d1e4201-Qd1e160" ana="#ps11_6">Propter miseriam inopum el
+       gemitum pauperum</quote>, Glossa, ibi : <quote xml:id="bb-d1e4201-Qd1e163">Exsurgam, id est mittam Filium, propter
+       gemitum pauperum</quote>, qui pro malis gemunt et peccatis conferuntur ; nam aliter non
+      essent digni auxilio. Ergo, si propter gemitum facti sunt digni missione Filii Dei, videtur
+      quod incarnatio sive Filii Dei conceptio eorum meritis impetrata fuerit.</p>
+          <p xml:id="bb-d1e4201-d1e167">Item, qui meretur principale meretur et accessorium ; sed incarnatio Filii Dei fuit
+      ordinata ad nostram glorificationem ; sed nostram glorificationem potuerunt Sancti mereri :
+      ergo et conceptionem Christi.</p>
+          <p xml:id="bb-d1e4201-d1e170">Item, qui meretur quod maius est, mereri potest et quod minus est ; sed maius est nostra
+      beatificatio quam sit Filii Dei incarnatio, quia illud est finis istius : ergo, cum
+      meruerunt sancti Patres suam beatitudinem, meruerunt ergo Filii Dei conceptionem.</p>
+          <p xml:id="bb-d1e4201-d1e173">Item, qui petit aliquid in oratione ex caritate, perseveranter, pie et ad salutem, meretur
+      illud quod petit, maxime cum talis rei petitio Deo placet ; sed antiqui Patres maximo
+      desiderio petebant Filii Dei incarnationem, et hoc perseveranter, pie et ad salutem, et Deo
+      placebat quod tale quid peterent : ergo videtur quod meruerunt Filii Dei incarnationem.</p>
+        </div>
+        <div xml:id="bb-d1e4261">
+          <head xml:id="bb-d1e4201-Hd1e179">Incarnatio Christi quoad essentiam non cadit sub merito; quoad circumstantiam temporis
+      aliquo modo cadit sub merito sanctorum Patrum; quoad efficaciam quodam modo cadit sub
+      merito, quodam modo non.</head>
+          <p xml:id="bb-d1e4201-d1e182">Respondeo : Dicendum quod de beneficio incarnationis, sicut de aliis beneficiis divinis,
+      est tripliciciter loqui, videlicet quantum ad substantiam vel essentiam et quantum ad
+      efficaciam et quantum ad circumstantiam. Si loquamur de ipso quantum ad essentiam, sic
+      dicendum quod illud beneficium erat supra sanctorum Patrum merita, propterea quia non est
+      iustae retributionis, sed dignationis eminentissimae ; et non sequitur merita homihis lapsi,
+      sed potius est fundamentum omnis meriti, quia nullus Deo placere potuit post lapsum absque
+      fide istius beneficii, vel in generali, vel in speciali. Secundum hanc viam procedunt
+      rationes et auctoritates ad primam partem adducatae.</p>
+          <p xml:id="bb-d1e4201-d1e185">Si vero loquamur de beneficio incarnationis quantum ad efficaciam, sic, cum eius efficacia
+      esset duplex, videlicet quod ordinabatur ad liberationem a servitute culpae et a reatu
+      carentiae visionis Dei, quodam modo cadit sub merito, quodam modo non. Quantum ad
+      liberationem a reatu carentiae divinae visionis et captivationis diaboli, hoc meriterunt
+      sancti Patres, et cadit sub merito. Quantum vero ad ereptionem de statu culpae, non cadit
+      sub merito, nisi quis large sumat meritum ad meritum congrui et condigni.</p>
+          <p xml:id="bb-d1e4201-d1e188">Si vero loquamur de beneficio incarnationis quantum ad temporis circumstantiam, potest
+      concedi absque calumnia, quod cadit sub merito praecedentis Ecclesiae. Sancti enim Patres
+      flagrantissimis desideriis meruerunt incarnationis acceIerationem ; in quorum persona dicit
+      Isaias, 64, 1 : <quote xml:id="bb-d1e4201-Qd1e190" ana="#is64_1">Utinam dirumperes caelos et descenderes</quote> etc. Et
+      sic patet quod incarnationis beneficium quantum ad essentiam non cadit sub merito ; quantum
+      vero ad temporis circumstantiam cadit sub merito sanctorum Patrum ; quantum vero ad
+      efficaciam mediam quodam modo cadit sub merito, quodam modo non. Et quoniam rationes
+      inductae ad primam partem currunt quantum ad illud quod est sive quantum ad excellentiam sui
+      in se, ostendunt ipsum non cadere sub merito praecedentis Ecclesiae, ideo sunt
+      concedendae.</p>
+        </div>
+        <div xml:id="bb-d1e4280">
+          <head xml:id="bb-d1e4201-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d1e4201-d1e201">Ad illud quod primo obicitur in contrarium de Glossa Psalmi : Propter miseriam inopum et
+      gemitum pauperum, dicendum quod Glossa illa intelligitur de beneficio incarnationis quantum
+      ad efficciam nostrae liberationis a poena, sicut patet ex ipsa Glossa ; vel quantum ad
+      acceIerationem temporis, sicut colligitur ex ipsa littera. Si tu obicias, quod Deus non
+      citius incarnatus est quam disposuerat ab aeterno, propter merita Patrum, dicendum quod
+      propter merita Patrum Deus praeviderat se acceleraturum ; et sic fecit sicut
+      praeviderat.</p>
+          <p xml:id="bb-d1e4201-d1e204">Ad illud quod obicitur, quod qui meretur principale meretur et accessorium, dicendum quod
+      illud habet instantiam quando illud accessorium non solummodo praeparat ad praemium, sed
+      etiam praeparat ad meritum. Et quoniam Christi incarnatio praebebat sanctis Patribus viam
+      merendi per fidem ipsius, hinc est quod illa propositio non habet veritatem in proposito.
+      Potest etiam alio modo praedictae locutioni instari. Non enim habet veritatem quando illud
+      accessorium non necessario adhaeret principali ; et tale est incarnatio Filii Dei. Potuit
+      enim Deus alio modo genus humanum glorificare et salvare quam per Filii incarnationem ;
+      propter hoc non sequitur, quodsi sancti Patres meruerunt sui glorificationem, quod Christi
+      incarnationem. Posset tamen concedi quod quantum ad efficaciam liberationis potuerunt sancti
+      Patres mereri beneficium incarnationis, non tamen simpliciter, sicut prius ostensum est.</p>
+          <p xml:id="bb-d1e4201-d1e207">Ad illud quod obicitur, quod qui meretur quod malus est, meretur et quod minus, dicendum
+      quod praedicta propositio instantiam habet in gratia et gloria, quia gloria cadit sub
+      merito, gratia vero non ; sic et instantiam potest habere in proposito. Posset etiam
+      responderi per interemptionem assumtionis. Cum enim assumit quod maior est glorificatio quam
+      incarnatio, dicendum quod falsum est, nisi glorificatio intelligatur cum praesuppositione
+      incarnationis vel nisi intelligatur respectu alicuius personae specialis, utpote respectu
+      Petri vel Pauli : melius enim est Petro videre Deum in gloria quam humanam naturam a Verbo
+      esse assumtam. Simpliciter tamen loquendo, melius est Filium Dei incarnari quam Petrum
+      glorificari, quia Filii Dei incarnatio valet toti generi humano, Petri glorificatio sibi
+      soli. Et ideo non sequitur, quodsi aliquis potest sibi mereri suam glorificationem, quod
+      mereatur Christi conceptionem. </p>
+          <p xml:id="bb-d1e4201-d1e210">Ad illud quod obicitur, quod qui petit perseveranter, pie et ad salutem ; meretur, dicendum
+      quod verum est, si petat pro se ; sed nullus petiit quod Filius Dei assumeret se, et ideo
+      nullus hoc meruit ; petendo tamen aliis merebantur vitam aeternam sibi ; et ideo non
+      infructuose orabant. Posset etiam dici quod adhuc habet illud instantiam : quando quis
+      quaereret a Deo excellentiam gloriae Petri, qui esset parvae caritatis, non hoc meretur,
+      quia hoc quod petit, merita sua excedit. Per hunc modum et in proposito potest instantia
+      inferri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

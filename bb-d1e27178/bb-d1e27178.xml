@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 29, A. 1, Q. 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 29, A. 1, Q. 5</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e27178">
+        <head xml:id="bb-d1e27178-Hd1e119">III, D. 29, A. 1, Q. 5</head>
+        <head xml:id="bb-d1e27178-Hd1e122" type="question-title">Utrum domesticus sit extraneo praeponendus.</head>
+        <p xml:id="bb-d1e27178-d1e125">Quinto quaeritur de ordine caritatis per comparationem domestici ad extraneum, et est
+    quaestio, utrum domesticus sit extraneo praeponendus.</p>
+        <div xml:id="bb-d1e27189" type="rationes-principales">
+          <head xml:id="bb-d1e27178-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e27178-d1e133">Et quod sic, videtur. Per illud quod dicitur ad Galatas ultimo, 10 : <quote xml:id="bb-d1e27178-Qd1e135" ana="#gal6_10">Operemur bonum
+       ad omnes, maxine autem ad domesticos fidei</quote> ; et I ad Timotheum 5, 8 : <quote xml:id="bb-d1e27178-Qd1e138" ana="#Itim5_8">Si
+       quis suorum et maxime domesticorum curam.non habet, fidem negavit et est infideli
+       deterior</quote>. Ex utraque istarum auctoritatum ostendi potest quod domesticus extraneo
+      debeat praeferri : per unam ostenditur positive et per aliam destructive.</p>
+          <p xml:id="bb-d1e27178-d1e142">Item, hoc ipsum ostenditur auctoritate <name ref="#Ambrose">Ambrosii</name>, quae ponitur in littera, qui dicit
+      domesticos collocandos esse quinto loco in ordine caritatis, extraneos vero in sexto.</p>
+          <p xml:id="bb-d1e27178-d1e148">Item, hoc ipsum videtur per rationem. Diffusio caloris corporalis prius est ad loca
+      propinquiora quam ad remotiora. Ergo, a simili, communicatio amoris spiritualis prius
+      respicit naturaliter quod est propinquum quam quod est remotum. Si ergo domestici sunt
+      propinquiores nobis quam extranei vel inimici, videtur quod in ordine caritatis primo sint
+      collocandi.</p>
+          <p xml:id="bb-d1e27178-d1e151">Item, ad illos prius et principalius caritas ordinat quibus magis astringimur et ligamur :
+      ordo enim caritatis consonat legi iustitiae ; sed secundum legem iustitiae magis obligamur
+      domesticis quam extraneis : ergo domestici praeferri debent extraneis in ordine
+      caritatis.</p>
+          <p xml:id="bb-d1e27178-d1e155">Sed contra : Ad Colossenses 3, 10 : <quote xml:id="bb-d1e27178-Qd1e157" ana="#col3_10">Renovamini secundum novum hominem, ubi non est
+       masculus et femina, gentilis et Iudaeus, sed omnia in omnibus Christus</quote>. Ergo
+      secundum hoc homini habenti caritatem nemo est extraneus : ergo secundum legem caritatis
+      nulla est distinctio, nullus ordo inter domesticum et extraneum.</p>
+          <p xml:id="bb-d1e27178-d1e161">Item, <name ref="#Augustine">Augustinus</name>, in libro De vera religione : <quote xml:id="bb-d1e27178-Qd1e166">Non sic homo ab homine diligendus est
+       ut diliguntur carnales fratres vel filii vel coniuges vel cognati vel affines aut cives ;
+       nam ista dilectio est temporalis. Non enim tales necessitates haberemus quae nascendo et
+       moriendo contingunt, si nostra natura, in praeceptis et imagine Dei manens, in istam
+       corruptionem non relegaretur</quote>. Ergo videtur quod ordo caritatis penes extraneum et
+      domesticum et propinquum nullatenus attendatur.</p>
+          <p xml:id="bb-d1e27178-d1e170">Item, ratio diligendi proximum ex caritate est ipsa imago Dei. Si ergo domesticus et
+      extraneus aequaliter sunt imago Dei, videtur quod ex caritate aequaliter sunt diligendi.</p>
+          <p xml:id="bb-d1e27178-d1e173">Item, caritas diligit bonum, quia bonum. Ergo ille qui est magis bonus, magis est ex
+      caritate diligendus, sive sit domesticus sive extraneus : ergo propinquitas et familiaritas
+      vel extraneitas nihil videntur facere ad ordinem caritatis.</p>
+        </div>
+        <div xml:id="bb-d1e27238">
+          <head xml:id="bb-d1e27178-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e27178-Hd1e182" type="question-title">Secundum ordinem caritatis domestici praeponendi sunt
+      extraneis.</head>
+          <p xml:id="bb-d1e27178-d1e185">Respondeo : Ad praedictorum intelligentiam est notandum quod praedictus ordo ; qui
+      assignatur secundum has differentias, quae sunt propinquum et remotum, domesticum et
+      extraneum, a quibusdam dicitur esse ipsius dilectionis naturalis, caritatis autem non est
+      nisi tolerantis ; sustinet enim caritas in via, cum sit imperfecta, imperfectionem ipsius
+      naturae. Unde hi voluerunt dicere quod ordo caritatis, qui competit ei secundum se,
+      attenditur penes maius bonum et minus bonum, non autem secundum propinquum et remotum. Sed
+      hic modus dicendi non videtur concordare verbis <name ref="#Ambrose">Ambrosii</name> nec verbis <name ref="#Lombard">Magistri</name>. Nam <name ref="#Ambrose">Ambrosius</name>
+      hunc ordinem assignat in ipsa dilectione gratuita, de qua dicit sponsa in Canticis [2, 4] :
+      Introduxit me rex in cellam vinariam, ordinavit in me caritatem. Et <name ref="#Lombard">Magister</name>, in principio
+      distinctionis, dicit quod peccat qui praepostere agit et hunc ordinem pervertit ; quod non
+      esset, si talis ordo solummodo esset caritatis sicut tolerantis.</p>
+          <p xml:id="bb-d1e27178-d1e200">Et ideo est alius modus dicendi quod ordo, qui attenditur penes praedictas differentias,
+      non tantum est ipsius caritatis sicut tolerantis, sed etiam est ipsius sicut regulantis
+      naturam et ei consonantis. Quod enim primo diligantur propinqui quam extranei, hoc non est
+      naturae inordinatae, sed potius de ordinatione naturae. Sicut enim prius tactum est, rectus
+      ordo diffusionis est ut prius communicetur propinquiori et deinde remotiori. Quoniam ergo
+      caritas rectum ordinem a natura non aufert, hinc est quod caritas superveniens illum ordinem
+      naturae perficit, et perficiendo dicitur eodem ordine ordinari, non quia ordo ille competat
+      sibi secundum se, sed quia competit ei ratione naturae, in qua est.</p>
+          <p xml:id="bb-d1e27178-d1e203">Propter quod attendendum est quod duplex ordo attenditur in caritate : unus, qui ei
+      competit secundum se ipsam ; et iste ordo attenditur penes bonum et magis bonum et maxime
+      bonum. Unde caritas de se magis movet ad amandum spiritum quam corpus, et Deum summum quam
+      spiritum creatum. Alius vero est ordo qui competit ei ratione naturae substratae ; et hic
+      attenditur secundum has differentias, quae sunt proprium et alienum, propinquum et
+      extraneum. Affectus enim caritatis substernit sibi affectum naturae et illum perficit et
+      regit secundum id quod habet in se rectitudinis. Concedendum est ergo quod secundum ordinem
+      caritatis domestici praeponendi sunt extraneis ; rationes etiam quae hoc ostendunt
+      concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-d1e27269">
+          <head xml:id="bb-d1e27178-Hd1e210">Ad Rationes</head>
+          <p xml:id="bb-d1e27178-d1e213">Ad illud quod obicitur, quod in Christo Iesu non est distinctio masculi et feminae, immo
+      omnes unum in Christo, dicendum quod Apostolus per hoc non vult excludere distinctionem et
+      gradum et ordinem in membris Christi, sed hoc vult ostendere quod in omni sexu et aetate et
+      de omni conditione quisque potest per Christum pervenire ad salutem, ita quod nullus
+      excludendus est a fide. Et propterea ex hoc non habetur quod caritas in diligendo membra
+      Christi non servet ordinem.</p>
+          <p xml:id="bb-d1e27178-d1e216">Ad illud quod obicitur de auctoritate <name ref="#Augustine">Augustini</name>, De vera religione, responderi potest quod
+      illam auctoritatem ipse retractt, in I Retractationum. Aliter etiam potest dici quod
+      <name ref="#Augustine">Augustinus</name> non vult removere a caritate considerationem illarum conditionum simpliciter, sed
+      hoc vult dicere quod caritas illas conditiones non considerat primo et principaliter
+      secundum quod amor naturalis et carnalis. Et hoc patet per illud quod subiungit : Amare enim
+      in homine quod filius est, hoc non est in eo amare quod ad Deum pertinet, sed quod pertinet
+      ad se ; constat quod de eo intelligit qui diligit filium principaliter, quia est ab eo
+      genitus, non quia est ad Dei imaginem factus. Et propterea ex auctoritae illa non habetur
+      quod penes illas conditiones non attendatur ordo caritatis, sed quod non sunt principales
+      rationes diligendi ex caritate. Quamvis utem non sint principales, possunt tamen esse
+      annexae et concomitantes et ex hoc ad caritatis ordinem facierites.</p>
+          <p xml:id="bb-d1e27178-d1e225">Ad illud quod obicitur, quod ratio diligendi proximum est imago, dicendum quod ista est
+      ratio communis et generalis, sed praeter hanc possunt esse aliae speciales. Ordo autem et
+      distinctio, quamvis non attendatur penes conditiones generales, attendi potest penes
+      speciales. Et propterea, quamvis domesticus et extraneus sint uniformiter ad imaginem Dei,
+      non tamen sequitur quod sint uniformiter diligendi.</p>
+          <p xml:id="bb-d1e27178-d1e228">Ad illud quod ultimo obicitur, quod caritas diligit bonum quia bonum, dicendum quod verum
+      est de ipsa caritate secundum se. Sicut enim praetactum est, ordo eius in se attenditur
+      penes bonitatem maiorem vel minorem ; sed in caritate non tantum attenditur ordo secundum
+      se, sed etiam ratione naturae substratae ; et ratione illius assignatur ordo inter
+      domesticum et extraneum. Et sic patet quod ratio illa non repugnat ordini caritatis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

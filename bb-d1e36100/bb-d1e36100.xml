@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 38, A. 1, Q. 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 38, A. 1, Q. 5</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e36100">
+        <head xml:id="bb-d1e36100-Hd1e119">III, D. 38, A. 1, Q. 5</head>
+        <head xml:id="bb-d1e36100-Hd1e122" type="question-title">De ipsius mendacii divisione.</head>
+        <p xml:id="bb-d1e36100-d1e125">Quinto quaeritur de ipsius mendacii divisione. Dividit enim <name ref="#Augustine">Augustinus</name> et <name ref="#Lombard">Magister</name> mendacium
+    per tres differentias primas, videlicet in officiosum, iocosum et perniciosum.</p>
+        <div xml:id="bb-d1e36117" type="rationes-principales">
+          <head xml:id="bb-d1e36100-Hd1e136">Rationes Principales</head>
+          <p xml:id="bb-d1e36100-d1e139">Sed contra istam divisionem obicitur. Primo, ratione primi membri. Officiosum enim
+      mendacium dicitur quod alicui prodest ; sed quod mendacium prosit, hoc est valde per
+      accidens, cum sit malum : ergo penes hoc quod est prodesse non est aliquam speciem ipsius
+      mendacii assignare.</p>
+          <p xml:id="bb-d1e36100-d1e142">Item, idem mendacium secundum speciem potest prodesse et potest obesse. Ergo penes ista non
+      contingit assignare ipsius mendacii species diversas.</p>
+          <p xml:id="bb-d1e36100-d1e145">Item, contra secundam differentiam obicitur, quae quidem est mendacium iocosum, quoniam
+      sicut contingit peccatum mendacii ioco perpetrari, ita etiam et alias peccatorum
+      differentias. Ergo, si alia peccata non habent dividi per iocosum et non iocosum, videtur
+      quod nec ipsum mendacium.</p>
+          <p xml:id="bb-d1e36100-d1e148">Item, cum quis falsum dicit intendens iocare, non intendit fallere ; <quote xml:id="bb-d1e36100-Qd1e150">sed mendacium,
+       ut dicit <name ref="#Augustine">Augustinus</name>, est falsa vocis significatio cum intentione fallendi</quote> : ergo
+      ubi iocus intervenit, ibi non est mendacium. Videtur ergo quod mendacium iocosum non sit
+      species mendacii, immo potius defectus et diminutio ipsius.</p>
+          <p xml:id="bb-d1e36100-d1e158">Item, obicitur contra tertiam differentiam, quae est mendacium perniciosum. Si enim
+      perniciosum dicitur mendacium quod inducit mortem, et omne peccatum mortale inducit mortem,
+      esse perniciosum est generale omni peccato mortali : ergo non est differentia mendacii.</p>
+          <p xml:id="bb-d1e36100-d1e161">Item, mendacium perniciosum si distinguitur ab aliis, aut hoc est ratione materiae aut
+      ratione voluntatis. Ratione materiae non, ut videtur, quia in qualibet materia, potest homo
+      mentiri graviter et perniciose, si mentiatur ex malignitate. Nec ratione voluntatis, quoniam
+      in quolibet genere, mendacii potest voluntas inordinate moveri et inducere mortem sive
+      perniciem in mentiente. Ergo non videtur quod sit differentia specialis mendacii. Item,
+      obicitur contra differentias praedictas, quoniam <name ref="#Augustine">Augustinus</name> dividit mendacium in octo
+      differentias. Aut ergo divisio illa est superflua aut ista est diminuta aut necesse est unam
+      reduci ad aliam. Si ergo reducitur, quaeritur per quam viam ; quaeritur etiam quis sit
+      specierum mendacii numerus et quae sufficientia.</p>
+        </div>
+        <div xml:id="bb-d1e36151">
+          <head xml:id="bb-d1e36100-Hd1e170">Conclusio</head>
+          <head xml:id="bb-d1e36100-Hd1e173" type="question-title">Tria sunt genera mendaciorum, quae secundum varietatem intentionis
+      mentientium subdividuntur in octo membra.</head>
+          <p xml:id="bb-d1e36100-d1e176">Respondeo : Ad praedictorum intelligentiam est notandum quod, cum mendacium habeat pro
+      formali et completivo intentionem fallendi, secundum intentionem ipsius mentientis habet in
+      species diversificari. Mentiens autem aut intendit prodesse aut delectare aut laedere.
+      Secundum quod intendit prodesse, est mendacium officiosum ; secundum quod intendit
+      delectare, est mendacium iocosum ; secundum quod intendit laedere, est mendacium
+      perniciosum. Laedere autem potest aliquis dupliciter : vel damno temporali vel damno
+      spirituali. Et si laedit damno temporali, hoc potest esse dupliciter : aut simpliciter
+      laedit aut ita laedit unum, quod alteri prodest. Et secundum hoc sunt tres differentiae
+      mendacii perniciosi, quarum una consistit in eo genere mendacii quo quis mentitur in
+      doctrina religionis ; et hoc quidem facit ad nocumentum boni spiritualis, scilicet fidei.
+      Alia differentia consistit in hoc ut mendacium simpliciter obsit : Tertia vero differentia
+      in hoc quod mendacium non simpliciter obest, sed alicui prodest, alicui obest. Si vero quis
+      mentitur ut delectet, sic est mendacium iocosum ; et sic potest esse dupliciter : aut ut
+      delectet alterum, et sic est mendacium simpliciter iocosum ; aut ut delectet semetipsum in
+      mentiendo, et sic est mendacium libidinosum. Si vero quis mentitur ut prosit alteri, aut
+      mentitur ut prosit in rebus, et sic est una differentia mendacii officiosi ; aut ut prosit
+      in salute et vita corporis, et sic est alia ; aut ut prosit in sanctitate et castitate
+      mentis, et sit est tertia.</p>
+          <p xml:id="bb-d1e36100-d1e179">Et sic patet quod tria sunt genera mendaciorum prima, quae subdividuntur in octo membra,
+      ita quod utraque divisio sumpta est secundum variationem intentionis mentientis et una
+      illarum in altera habet includi, et hoc satis rationabiliter, sicut tactum est. Et per hoc
+      patet responsio ad illud quod ultimo quaerebatur.</p>
+        </div>
+        <div xml:id="bb-d1e36167">
+          <head xml:id="bb-d1e36100-Hd1e186">Ad Rationes</head>
+          <p xml:id="bb-d1e36100-d1e189">Ad illud vero quod primo obicitur in contrarium, quod accidit mendacio quod prosit,
+      dicendum quod verum est quantum est de ratione sui generis. Quia tamen in moribus intentio
+      imponit nomen operi, ex ipsa intentione potest illa conditio adeo fieri mendacio
+      essentialis, ut secundum ipsam accipiantur diversae species ipsius mendacii.</p>
+          <p xml:id="bb-d1e36100-d1e192">Ad illud quod obicitur, quod idem mendacium secundum speciem potest obesse et prodesse,
+      dicendum quod illud verum est loquendo de mendacio quantum ad sermonem exteriorem, sed non
+      est verum de ipso quantum ad interiorem intentionem ; mendacium autem non sortitur speciem a
+      falsa locutione, sed potius ab ipsa intentione, sicut tactum est.</p>
+          <p xml:id="bb-d1e36100-d1e195">Ad illud quod obicitur, quod alia peccata habent fieri ioco sicut et mendadum dicendum quod
+      denominationes non fiunt ab his quae raro accidunt, sed ab his quae frequenter. Licet igitur
+      contingat alia peccata per iocum perpetrari, quia tamen non ita frequenter alia
+      coinmittuntur ioco secundum quod ipsum mendacium : hinc est quod esse iocosum non est
+      differentia alterius peccati sicut mendacii. Praeterea, etsi omnia opera sortiantur
+      denominationem ab ipsa intentione, maxime sermo ab intentione denominatur ; et quia
+      mendacium est in sermone, inde est quod magis denominatur iocosum, quando fit intentione
+      ludendi, quam alia peccata.</p>
+          <p xml:id="bb-d1e36100-d1e198">Ad illud quod obicitur, quod ubi intervenit iocus, ibi non est intentio fallendi, dicendum
+      quod, sicut in littera explanabitur, cum dicitur : mendacium est falsa vocis prolatio cum
+      intentione fallendi, secundum quod generaliter accipitur, non idem est fallere quod
+      decipere, sed idem est fallere quod falsum dicere. Unde sensus est : cum intentione
+      fallendi, hoc est falsum dicendi ; et hoc utique convenit mendacio iocoso, licet minus
+      complete quam pernicioso.</p>
+          <p xml:id="bb-d1e36100-d1e202">Ad illud quod obicitur quod esse perniciosum convenit omni generi peccati mortalis,
+      dicendum quod perniciosum assignatur esse differentia ipsius peccati, non quia sit proprium
+      eius simpliciter, sed hoc est ratione mendacii officiosi, contra quod distinguitur
+      perniciosum, quia illud prodest et istud obest ; et quoniam alia genera peccatorum non ita
+      distinguuntur per officiosum sicut mendacium, hinc est quod nec ita distinguuntur per
+      perniciosum.</p>
+          <p xml:id="bb-d1e36100-d1e205">Ad illud quod obicitur, utrum distinguatur ratione materiae vel voluntatis, dicendum quod
+      ratione voluntatis principaliter, licet etiam posset dici quod ratione materiae quantum ad
+      illam differentiam mendacii perniciosi, quae quidem consistit in doctrina religionis. Et si
+      tu obicias, quod ista prava voluntas potest esse in omni genere mendacii, iam patet
+      responsio, quia hoc est falsum, secundum quod explanatum est, quia, secundum quod verba
+      deserviunt intentioni, fit diversificatio specierum mendacii.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 38, Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 38, Dubia</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e36305">
+        <head xml:id="bb-d1e36305-Hd1e119">III, D. 38, Dubia</head>
+        <div xml:id="bb-d1e36310">
+          <head xml:id="bb-d1e36305-Hd1e124">Dub. I.</head>
+          <p xml:id="bb-d1e36305-d1e127">In parte ista sunt quaestiones circa litteram. Et primo quaeritur de hoc quod dicit de
+      mendacio obstetricum, quod propter misericordiam veniale fuit peccatum, non tamen nullum.
+      Sed contra hoc obicitur per illud quod dicit Gregorius, in Glossa super 1, 21 Exodi :
+      Benignitatis earum merces, quae in aeterna vita remunerari poterat, per culpam mendacii in
+      terrenam recompensationem commutata est. Sed nihil commutat mercedem aeternam in temporalem
+      nisi mortale peccatum : ergo videtur quod mortaliter peccaverunt. Item, videtur quod hic
+      contradicat <name ref="#Jerome">Hieronymus</name> Gregorio. <name ref="#Jerome">Hieronymus</name> enim dicit quod aedificavit eis Dominus domos
+      spirituales : ergo non videtur quod fetribuerit eis in praesenti.</p>
+          <p xml:id="bb-d1e36305-d1e136">Respondeo : Dicendum quod circa hoc est duplex modus dicendi. Quidam volunt dicere quod
+      mendacium obstetricum habuit duplicem respectum, videlicet ad vitam puerorum et ad vitam
+      propriam ; mentiebantur enim pro utraque servanda. Et secundum quod habuit respectum ad
+      vitam puerorum, sic erat ex pietate ; secundum autem quod habuit respectum ad servandam
+      vitam propriam, quam magis dilexerunt quam veritatem, sic erat ex libidine. Et primo modo
+      erat peccatum veniale, quia erat mendacium officiosum ; secundo modo erat peccatum mortale,
+      quia procedebat ex mala radice, videlicet ex libidinoso amore vitae propriae, et eo tempore
+      quo veritas confitenda esset : et ideo haec culpa abstulit eis mercedem quam meruerant ex
+      pietate, quam prius habuerant servando parvulos ex timore Dei. Et secundum hoc dicunt
+      currere diversas Sanctorum auctoritates. Sed iste modus satis calumniabilis est, quia durum
+      videtur dicere quod aliquis pro servanda proprii corporis salute mortaliter peccet, dicendo
+      aliquod mendacium leve.</p>
+          <p xml:id="bb-d1e36305-d1e139">Alius modus dicendi est quod in ipsis obstetricibus duo est considerare, pietatis
+      beneficium praecedens et mendacium subsequens. Et primum fuit ex quadam naturali pietate nec
+      erat meritorium, sed disponebat ad meritum ; mendacium vero subsequens disponebat ad
+      contrarium ; et ideo pietas praecedens fuit temporaliter remunerata propter mendacium, non
+      quia mendacium illud auferret vitam gratiae prius habitae, sed quia ad gratiam habendam viam
+      praecluderet, quod quidem bene potest facere peccatum veniale. Et hoc est quod vult
+      Gregorius dicere, cum dicit : Benignitatis earum merces, quae in aeterna vita remunerari
+      poterat ; poterat, inquam, non potentia disposita et propinqua, sed potentia remota. Et ex
+      hoc patet quod nulla est controversia inter Gregorium et <name ref="#Augustine">Augustinum</name>, nulla etiam est
+      contrarietas inter eos et <name ref="#Jerome">Hieronymum</name>, quia non vult dicere <name ref="#Jerome">Hieronymus</name> quod obstetrices
+      habuerint domos spirituales per assecutionem gratiae, sed quia quodam modo ad gratiam
+      praeparatae fuerunt per timorem et pietatem.</p>
+        </div>
+        <div xml:id="bb-d1e36340">
+          <head xml:id="bb-d1e36305-Hd1e154">Dub. II.</head>
+          <p xml:id="bb-d1e36305-d1e157">Item quaeritur de hoc quod dicit quod quartum sola mentiendi fallendique libidine fit, quod
+      merum mendacium est. Contra hoc enim obicitur : videtur enim quod nullum tale sit mendacium,
+      quia, secundum quod dicit Dionysius, nullus operatur ad malum aspiciens. Si ergo mentiri de
+      se malum est, videtur quod nullus unquam mentiatur solummodo aspiciens ad ipsum mendacium.
+      Item, libido est radix omnium malorum : ergo non solum convenit quarto generi mendacii, sed
+      etiam omni mendacio quod fit ex libidine : ergo penes hoc non debet assignari aliquod genus
+      mendacii. Item, mendacium, quod fit sola libidine mentiendi, nullum habet excusatorium ; et
+      peccattun quanto minus habet excusationis, tanto est gravius : ergo videtur quod illud
+      mendacium sit primum et capitale inter omnia mendacia et non sit quartum genus.</p>
+          <p xml:id="bb-d1e36305-d1e160">Respondeo : Ad hoc dicendum est quod mendacium illud dicitur fieri ex libidine, quo quidem
+      homo mentitur solum ut placeat sibi. Propter quod notandum est quod libido multipliciter
+      dicitur. Uno modo dicitur libido improba voluntas ; et sic est radix mortalium peccatorum.
+      Alio modo dicitur libido quaecumque immoderata delectatio ; et sic libido dicitur a libendo,
+      et hoc modo non solum est radix mortalium, sed etiam venialium. Hoc autem dupliciter potest
+      accipi : vel communiter, prout quaerit finem in actu proprio aut consequenti ; aut
+      specialiter, prout in actu proprio quiescit. Primo quidem modo communis est omni peccato ;
+      secundo vero modo penes ipsam accipitur differentia mendacii quod fit ex libidine, quod,
+      inquam, non dicitur fieri ex libidine, quia procedat ex mala voluntate, sed quia homo in
+      mentiendo non quaerit aliud quam semetipsum oblectare in ipso mendacio. Et huiusmodi minus
+      malum est quam illud in quo intendit alii nocere et maius malum est quam illud in quo
+      intendit alii prodesse ; et ideo medium locum tenet inter mendacioruni genera.</p>
+          <p xml:id="bb-d1e36305-d1e163">Ad illud ergo quod primo obicitur, quod nullus operatur ad malum aspiciens, dicendum quod
+      in mendacio duo sunt, videlicet veritatis absentia et quaedam ars et astutia. Et licet non
+      delectetur quis in absentia veritatis, contingit tamen aliquem delectari in quadam arte et
+      astutia mentiendi ; et hoc aliquo modo habet speciem boni. Et ratione illius dicit
+      <name ref="#Augustine">Augustinus</name> quod sola mentiendi libidine contingit aliquem mentiri.</p>
+          <p xml:id="bb-d1e36305-d1e169">Ad illud quod obicitur, quod libido est radix omnium malorum, dicendum quod libido ibi
+      sumitur large ; sed hic appropriatur ad delectationem quae habetur in ipso actu mentiendi,
+      qua quis finem in se quaerit et non in altero ; quae ideo constituit speciem mendacii,
+      quoniam in aliis speciebus mendacii homo non tantum in se, sed etiam in aliis finem
+      quaerit.</p>
+          <p xml:id="bb-d1e36305-d1e173">Ad illud quod obicitur, quod illud mendacium dicitur esse maximum, dicendum quod hoc non
+      est verum, quia magnitudo mendacii attenditur secundum maiorem obliquationem intentionis ;
+      magis autem obliquatur qui in mendacio intendit alium offendere quam semetipsum delectare :
+      et ideo ratio illa non valet.</p>
+        </div>
+        <div xml:id="bb-d1e36365">
+          <head xml:id="bb-d1e36305-Hd1e179">Dub. III.</head>
+          <p xml:id="bb-d1e36305-d1e182">Item quaeritur de hoc quod dicit : Mendacium est falsa vocis significatio cum intentione
+      fallendi. Obicitur enim contra hoc, quia abstracti et concreti eadem est definitio. Sed
+      mentiri potest quis sine falsa vocis significatione, secundum quod <name ref="#Lombard">Magister</name> dicit post,
+      videlicet cum quis, intendens dicere falsum, dicit verum : ergo ista non est recta
+      definitio. Item, sicut mendacium contingit esse in verbis, ita etiam contingit esse in
+      factis. Ergo non tantum debet dici falsa vocis significatio, sed etiam falsa operis
+      significatio. Item, videtur quod praedida notificatio non conveniat omni mendacio, quia qui
+      mentitur mendacio officioso non intendit fallere, sed prodesse ; et qui etiam mentitur
+      mendacio iocoso non intendit nisi se delectare. Ergo non videtur ista definitio omni
+      mendacio convenire.</p>
+          <p xml:id="bb-d1e36305-d1e188">Respondeo : Dicendum quod, sicut tactum fuit in praecedentibus, ad completum esse mendacii
+      duo concurrunt, videlicet falsa vocis significatio sicut materiale et fallendi intentio
+      sicut formale ; et ideo recte est assignata praedicta notificatio mendacii.</p>
+          <p xml:id="bb-d1e36305-d1e191">Ad illud vero quod obicitur, quod abstracti et concreti eadem est definitio, dicendum quod
+      mendacium, sicut prius tactum est, non tantum dicit comparationem ad mentientem, sed etiam
+      ad ipsam rem de qua fit sermo ; mentiri vero proprie dicit comparationem ad ipsum mentientem
+      ; et ideo plus claudit in se mendacium quam mentiri, nec est idem omnino mentiri et
+      mendacium dicere, sicut <name ref="#Lombard">Magister</name> in littera dicit aperte. Nec sequitur quodsi aliquis
+      mentitur, quod dicat mendacium, si proprie accipiatur mendacium, nisi forte large accipiatur
+      mendacium ad mendacium secundum quid et simpliciter.</p>
+          <p xml:id="bb-d1e36305-d1e197">Ad illud quod obicitur, quod mendacium non solummodo est in verbis, sed etiam in factis,
+      dicendum quod, etsi aliquo modo est in factis, secundum quod innuit <name ref="#Ambrose">Ambrosius</name>, proprie tamen
+      loquendo in verbis est, secundum quod dicit <name ref="#Augustine">Augustinus</name>. Verba enim sunt proprie signa
+      indicantia mentis conceptum, pro eo quod ab interiori procedunt et voluntarie formantur ; et
+      quoniam mendacium respectum dicit ad id quod est in mente interius, hinc est quod proprie
+      est in sermonibus et vocibus et per falsam vocis significationem definitur, licet et in
+      aliis aliquo modo analogice et per posterius reperiatur.</p>
+          <p xml:id="bb-d1e36305-d1e207">Ad illud quod obicitur, quod ista notificatio non convenit mendacio iocoso et officioso,
+      dicendum quod notificatio ista per prius convenit mendacio pernicioso ; iocoso autem et
+      officioso convenit quodam modo quasi per posterius. Unde vocabulum fallendi in notificatione
+      mendacii non tantum importat decipere, sed etiam falsum dicere ; et hoc est omni mendacio
+      commune et generale. Falsum enim dicere exterius quodam modo fallere est, dum homo id dicit
+      quod potest hominem ad falsitatem deducere et deducendo ad falsitatem fallere et
+      decipere.</p>
+        </div>
+        <div xml:id="bb-d1e36399">
+          <head xml:id="bb-d1e36305-Hd1e213">Dub. IV.</head>
+          <p xml:id="bb-d1e36305-d1e216">Item quaeritur de hoc quod dicit quod Iacob matre auctore fecit ut falleret patrem, videtur
+      non esse mendacium, sed mysterium. Videtur enim hoc non habere veritatem, quia Iacob dixit
+      falsum cum intentione fallendi patrem ; intendebat enim significare quod ipse esset Esau :
+      ergo videtur quod simpliciter fuit mendacium : ergo videtur quod simpliciter fuerit
+      mentitus. Item, mendacium est ita malum quod nullo modo potest fieri bonum, nec per se nec
+      per dispensationem aliquam : videtur ergo quod nullo Spiritus Sancti consilio nec matris
+      imperio potuit ipse Iacob a mendacio excusari.</p>
+          <p xml:id="bb-d1e36305-d1e219">Respondeo : Dicendum quod, secundum beatum <name ref="#Augustine">Augustinum</name> et etiam <name ref="#Ambrose">Ambrosium</name>, Iacob vir simplex
+      a mendacio excusatur et quantum ad id quod dixit verbo et quantum ad id quod fecit in facto
+      ; verbo enim dixit et facto simulavit se esse Esau. Quantum ad id quod dixit verbo
+      excusatur, quia non intendebat patrem fallere, sed dirigere ; non intendebat etiam dicere se
+      esse Esau quantum ad personam, sed quantum ad dignitatem primogeniturae et benedictionis
+      quam sibi a Deo vindicaverat. Et hoc, inquam, non propria auctoritate, sed matris imperio et
+      Spiritus Sancti consilio dicebat ; qui quidem Spiritus Sanctus in uno et eodem vocabulo
+      multiplicem habet intelligeniam. Quantum etiam ad id quod fecit facto, simulando se esse
+      Esau, non peccavit, quia, secundum <name ref="#Ambrose">Ambrosium</name>, factum illud figuram praetendebat futurorum.
+      Unde propter praefigurationem et rectam intentionem, quae dirigebatur secundum Spiritus
+      Sancti inspirationem, dicit <name ref="#Augustine">Augustinus</name> Iacob non commisisse mendacium, sed implesse
+      mysterium iuxta Scripturae testimonium, quae dicit eum virum simplicem, non dolosum.</p>
+          <p xml:id="bb-d1e36305-d1e234">Ad illud ergo quod primo obicitur, quod Iacob patrem suum intendebat decipere, respondendum
+      est per interemptionem quod falsum est, sicut prius tactum est, quia non intendebat dicere
+      se esse Esau quantum ad proprietatem personae, sed quantum ad proprietatem benedictionis et
+      primogeniturae.</p>
+          <p xml:id="bb-d1e36305-d1e237">Ad illud quod obicitur, quod Spiritus Sanctus non potest dispensare de mendacio quod non
+      sit peccatum, dicendum quod illud veritatem habet quando mendacium vere et proprie mendacium
+      est ; sed hoc modo Iacob mendax non fuit, quia, quamvis unum praetenderet, aliud
+      praefigurabat, et Spiritus Sanctus illud, quod praefigurabatur, principaliter intendebat et
+      Rebecca praecipiens et Iacob obediens, cuius signum est quod ipse Isaac post benedictionem
+      datam, per Spiritum Sanctum in ecstasi elevatus et intelligens futurorum praefigurationem,
+      postquam etiam deprehendit ipsum fuisse Iacob, confirmavit prius datam benedictionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

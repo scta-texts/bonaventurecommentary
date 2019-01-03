@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 17, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 17, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e15427">
+        <head xml:id="bb-d1e15427-Hd1e119">III, D. 17, Divisio Textus</head>
+        <p xml:id="bb-d1e15427-d1e122">Supra egit <name ref="#Lombard">Magister</name> de natura assumpta quantum ad conditiones naturae et quantum ad
+    plenitudinem gratiae et quantum ad defectum passibilitatis. Hic incipit quarta pars, in qua
+    agit quantum ad usum virtutis. Et quoniam usus virtutis comparationem habet ad voluntatem a
+    qua egreditur, et ad praemium quod meretur, ideo pars ista habet duas partes. In prima
+    determinat de voluntate Christi. In secunda determinat de merito, ibi : De merito etiam
+    praetermittendum non est. Et quoniam affectus voluntatis dignoscitur per petitionem orationis,
+    ideo <name ref="#Lombard">Magister</name> simul determinat de voluntate Christi et de oratione Christi.</p>
+        <p xml:id="bb-d1e15427-d1e131">Dividitur autem pars ista in partes tres. In quarum prima movet dubitationem. In secunda eam
+    determinat iuxta viam Sanctorum communem, ibi : Quocirca ambigendum non est, diversas in
+    Christo etc. In tertia vero adhuc diligentius quaestionem propositam explanat iuxta
+    expositionem Hilarii specialem, ibi : Illud etiam ignorandum non est, quod Hilarius etc. Prima
+    et ultima parte remanentibus indivisis, media dividitur in partes tres. In quarum prima
+    quaestionem praepositam determinat. In secunda vero determinationem suam auctoritatibus
+    Sanctorum confirmat, ibi : Ex affectu igitur humano, quem de Virgine traxit. In tertia vero
+    quamdam auctoritatem dubiam <name ref="#Ambrose">Ambrosii</name> manifestat, ibi : Ceterum non parum nos movent verba
+    ipsius <name ref="#Ambrose">Ambrosii</name> etc. Subdivisiones autem partium manifestae simt in littera.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

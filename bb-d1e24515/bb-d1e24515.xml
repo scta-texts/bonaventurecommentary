@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 27, Tractatio Quaestionum</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 27, Tractatio Quaestionum</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e24515">
+        <head xml:id="bb-d1e24515-Hd1e119">III, D. 27, Tractatio Quaestionum</head>
+        <p xml:id="bb-d1e24515-d1e122">Ad intelligentiam autem huius partis secundum duo quae tangit <name ref="#Lombard">Magister</name> incidit hic quaestio
+    circa duo principaliter. Primo enim queritur de ipsa caritas quantum ad habitum. Secundo vero
+    quaeritur de eadem quantum ad eius actum et modum. Circa primum sex possunt quaeri. Primum
+    est, utrum caritas sit habitus creatus. Secundum est, utrum sit habitus virtuosus. Tertium
+    est, utrum sit habitus ab aliis virtutibus distinctus. Quartum est, utrum sit habitus in se
+    ipso indivisus. Quintum est, utrum sit habitus mere gratuitus. Sextum et ultimum est, utrum
+    sit habitus aliquando informis an semper formatus. Sed quoniam duorum primorum veritas satis
+    haberi potest ex his quae in primo libro fuerunt determinata, ubi ostensum est quod caritas
+    sit vrtus creata, ideo nunc restat determinare atia quatuor sequentia.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

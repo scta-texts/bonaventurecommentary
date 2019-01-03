@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 2, A. 2, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 2, A. 2, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e1643">
+        <head xml:id="bb-d1e1643-Hd1e119">III, D. 2, A. 2, Q. 3</head>
+        <head xml:id="bb-d1e1643-Hd1e122" type="question-title">Utrum Christus habuerit cum aliis hominibus communem speciem.</head>
+        <p xml:id="bb-d1e1643-d1e125">Tertio quaeritur, utrum Christus habuerit cum aliis communem speciem.</p>
+        <div xml:id="bb-d1e1654" type="rationes-principales">
+          <head xml:id="bb-d1e1643-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e1643-d1e133">Et quod sic, videtur. Ad Philippenses 2, 7 : <quote xml:id="bb-d1e1643-Qd1e135" ana="#phil2_7">In similitudinem hominum
+       factus</quote>. Si ergo communitas speciei attenditur secundum assimilationem in forma
+      humanitatis, videtur quod Christus in forma specifica conveniat cum aliis hominibus.</p>
+          <p xml:id="bb-d1e1643-d1e139">Item, genitus est eiusdem speciei cum generante in generatione univoca ; sed Christus
+      genitus fuit ex beata Virgine : ergo est eiusdem speciei cum ea.</p>
+          <p xml:id="bb-d1e1643-d1e142">Item, anima rationalis, unita carni, constituit hominem eiusdem speciei communis ; sed in
+      Christo fuit anima rationalis unita carni : ergo Christus habuit speciem communem cum
+      aliis.</p>
+          <p xml:id="bb-d1e1643-d1e145">Item, in Christi incarnatione natura humana exaltata est et reparata ; sed hoc non esset,
+      si Christus non haberet cum aliis hominibus speciem communem : ergo etc.</p>
+          <p xml:id="bb-d1e1643-d1e149">Sed contra : Ioannes <name ref="#JohnDamascenus">Damascenus</name>, et habetur in littera : <quote xml:id="bb-d1e1643-Qd1e154">In Domino Iesu Christo non
+       est communem speciem accipere</quote>.</p>
+          <p xml:id="bb-d1e1643-d1e158">Item, <name ref="#Lombard">Magister</name>, in littera : <quote xml:id="bb-d1e1643-Qd1e163" source="http://scta.info/resource/pl-l3d2c1-d1e136">Natura non sic accipitur in Christo sicut cum dicitur una est natura omnium
+       hominum</quote> ; sed cum dicitur : una est natura omnium hominum, dicitur esse una
+      unitate speciei : ergo non videtur quod in Christo sit accipere unam naturam, cum qua cum
+      aliis communicat tamquam in specie specifica.</p>
+          <p xml:id="bb-d1e1643-d1e167">Item, <quote xml:id="bb-d1e1643-Qd1e169">species, ut dicit Boethius, dicit totum esse individuorum</quote> ; sed
+      humanitas non dicit totum esse Christi : ergo Christus non continetur sub homine tamquam
+      individuum sub propria specie.</p>
+          <p xml:id="bb-d1e1643-d1e173">Item, forma specifica accipitur ab eo quod nobilissimum et perfectissimum est in re ; sed
+      nobilissimum et perfectissimum in Christo non est natura creata, sed increata ; sed penes
+      naturam increatam non est accipere speciem communem cum aliis hominibus : ergo nullo
+      modo.</p>
+        </div>
+        <div xml:id="bb-d1e1703">
+          <head xml:id="bb-d1e1643-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e1643-Hd1e182" type="question-title">Christus ratione humanae naturae habuit communem speciem cum aliis
+      hominibus, non autem ratione utriusque naturae, scilicet divinae et humanae</head>
+          <p xml:id="bb-d1e1643-d1e185">Respondeo : Dicendum quod species dicit formam, et non quamcumque, sed formam totius, hoc
+      est formam complectentem totum esse. Iuxta quod dicit Boethius quod species est totum esse
+      individuorum ; et Avicenna et alii etiam philosophi in hoc concordant. Forma ergo specifica
+      communis dupliciter potest intelligi : aut secundum praedicationem aut secundum
+      constitutionem. Secundum praedicationem <mentioned> homo </mentioned> dicit formam communem
+      Petro et Paulo ; secundum constitutionem homo dicit formam, quae simul respicit animam et
+      corpus et quae resultat ex coniunctione animae cum corpore. Anima enim et corpus concurrunt
+      ad unam essentiam constituendam. Et hinc est quod constitutus ex anima et corpore habet unam
+      formam specificam, communem sibi et aliis sic constitutis per praedicationem ; communem
+      nihilominus partibus constituentibus per quamdam informationem et completionem.</p>
+          <p xml:id="bb-d1e1643-d1e191">Cum ergo quaeritur, utrum in Domino Iesu Christo sit communem speciem accipere, hoc
+      dupliciter potest intelligi : aut ratione naturae assumtae aut ratione utriusque, humanae
+      scilicet et divinae. Si ratione humanae naturae, sic est communem speciem accipere Christi
+      ad alios homines, quia, sicut in aliis hominibus ex coniunctione animae ad carnem per modum
+      perficientis et informantis resultat forma humanitatis, sic et in Christo. Et ideo isto modo
+      est accipere in eo communem speciem, tam per praedicationem quam etiam per constitutionem.
+      Si autem loquamur de Christo ratione divinae naturae et humanae, sic in Domino Iesu Christo
+      non est accipere communem speciem, quia divina natura non unitur immanae ad unius essentiae
+      constitutionem ; ideo ex coniunctione divinitatis ad humanitatem in Christo nulla resultat
+      forma communis vel universalis, in qua possit aliis assimilari. Et ideo <name ref="#JohnDamascenus">Damascenus</name> dicit,
+      subiungens in eadem auctoritate, quod in Christo non est communem speciem accipere, quia nec
+      factus est nec aliquando fiet alius ; subaudiendum est : qui communicet cum eo in forma una
+      ex hoc quod dicitur Christus. Aliter enim sua ratio non valeret, quia, esto quod esset unus
+      solus homo, sicut est unus solus sol, adhuc esset in eo communem speciem accipere. Uno
+      igitur modo est in Christo speciem communem accipere et alio modo non, quia, cum sit in eo
+      triplex substantia, ex coniunctione duarum, videlicet animae et carnis, resultat una forma
+      specifica, in qua cum aliis hominibus communicat. Et sic procedunt rationes, quae inducuntur
+      ad primam partem.</p>
+        </div>
+        <div xml:id="bb-d1e1725">
+          <head xml:id="bb-d1e1643-Hd1e201">Ad rationes</head>
+          <p xml:id="bb-d1e1643-d1e204">1-2. Ex coniunctione vero divinitatis ad naturam creatam nulla omnino forma resultat ; et
+      quantum ad hoc intelligitur verbum <name ref="#JohnDamascenus">Damasceni</name> et <name ref="#Lombard">Magistri</name>, qui dicunt quod non est una natura
+      Christi sicut omnium hominum.</p>
+          <p xml:id="bb-d1e1643-d1e213">Ad illud vero quod obicitur, quod species dicit totum esse individuorum, dicendum quod
+      verum est eatenus qua est individuum contentum sub illa specie. Christus autem est
+      individuum contentum sub specie humana ratione naturae creatae, non ratione naturae
+      increatae.</p>
+          <p xml:id="bb-d1e1643-d1e216">Ad illud quod ultimo obicitur, quod species specifica accipitur penes illud quod
+      nobilissimum est et perfectissimum in re, dicendum quod verum est, loquendo de illis
+      secundum quae res habet esse in genere ; Christus autem secundum divinam naturam non ponitur
+      in aliquo genere, sed solum ratione naturae creatae. Sic igitur concedendum est quod
+      Christus assumsit veram carnem et veram animam , et haec unita, prout concurrunt in unius
+      speciei specialissimae veritatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

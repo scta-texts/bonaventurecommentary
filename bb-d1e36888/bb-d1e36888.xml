@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 39, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 39, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e36888">
+        <head xml:id="bb-d1e36888-Hd1e119">III, D. 39, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e36888-Hd1e122" type="question-title">Ulrum liceat iurare per aliquod creatum.</head>
+        <p xml:id="bb-d1e36888-d1e125">Secundo quaeritur, utrum liceat iurare per aliquod creatum.</p>
+        <div xml:id="bb-d1e36899" type="rationes-principales">
+          <head xml:id="bb-d1e36888-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e36888-d1e133">Et quod non, videtur. Primo, per ipsum textum Matthaei 5, 34 : <quote xml:id="bb-d1e36888-Qd1e135" ana="#mt5_34">Nolite iurare neque
+       per caelum, quia thronus Dei est, neque per terram</quote> etc., ibi Glossa : <quote xml:id="bb-d1e36888-Qd1e138">Quod
+       perfectionis, est docuit, cum dixit : Non iurare omnino ; quod vero superstitiosum est
+       resecavit, cum subiunxit : Neque per caelum</quote> etc. Ergo iurare per creaturam est
+      superstitiosum ; sed nihil tale est licitum : ergo etc.</p>
+          <p xml:id="bb-d1e36888-d1e142">Item, Pius Papa, Causa XXII, quaestione 1 : <quote xml:id="bb-d1e36888-Qd1e144">Si quis per capillum Dei vel caput
+       iuraverit, si in ecclesiastico ordine est, deponatur, si laicus, anathematizetur</quote>.
+      Si ergo illicitum est iurare per membra Christi, cum ipsa sint sanctiora omnibus aliis
+      creaturis, videtur quod per nullam aliam liceat iurare.</p>
+          <p xml:id="bb-d1e36888-d1e148">Item, iurare per Deum est invocare Deum testem, ergo iurare per creaturam est invocare
+      creaturam in testimonium ; sed irrationalis creatura non potest aliquo modo veritati
+      testimonium perhibere : ergo stultum et vanum et inconveniens est per ipsam iurare.</p>
+          <p xml:id="bb-d1e36888-d1e151">Item, qui iurat per idolum committit idololatriam, et hoc non est ob aliud nisi quia in
+      iurando exhibet idolo quod debet exhibere Deo. Ergo iuratio spectat ad cultum latriae, qui
+      debetur soli Maiestati divinae ; sed constat quod non est licitum creaturam aliquam venerari
+      cultu latriae : ergo nullo modo est licitum per creaturam iurare.</p>
+          <p xml:id="bb-d1e36888-d1e155">Sed contra : Genesis 42, 15, Ioseph iuravit per salutem Pharaonis. Si ergo ipse tamquam
+      sanctus homo licitum iuramentum fecit, et salus Pharaonis erat quid creatum, videtur quod
+      per creaturam iurare sit licitum et concessum.</p>
+          <p xml:id="bb-d1e36888-d1e158">Item, Paulus, I ad Corinthios 15, 31 : Quotidie morior, per vestram gloriam, fratres ; ubi,
+      secundum quod dicit <name ref="#Augustine">Augustinus</name>, iuravit Apostolus ; sed gloria eorum erat quid creatum :
+      ergo etc.</p>
+          <p xml:id="bb-d1e36888-d1e164">Item, forma iuramenti, qua maxime utitur universitas fidelium, est iurare per sancta Dei
+      Evangelia ; sed Evangelium est quid creatum : ergo licitum est iurare per creaturam.</p>
+          <p xml:id="bb-d1e36888-d1e167">Item, quotidie fideles iurant per Sanctos, utpote per beatam Virginem et per beatum Petrum
+      ; nec illud iuramentum arguitur : ergo videtur quod forma iuramenti licita non solum habeat
+      fieri per Creatorem, sed etiam per creaturam.</p>
+          <p xml:id="bb-d1e36888-d1e170">Iuxta hoc quaeritur : quare magis iuratur per Evangelia quam per creaturas alias ?
+      Quaeritur etiam utrum qui iurat falsum per lapidem sit periurus. Et quod non, videtur, quia
+      lapidi nulla est exhibenda reverentia. Contrarium autem huius dicit <name ref="#Augustine">Augustinus</name>, super illud
+      ad Romanos 1, 9 : Testis est mihi Deus, et habetur in littera. Quaeritur ergo quomodo et
+      qualiter liceat iurare per creaturam.</p>
+        </div>
+        <div xml:id="bb-d1e36948">
+          <head xml:id="bb-d1e36888-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e36888-Hd1e182" type="question-title">Iurare per creaturas, et quidem omnes, licite fieri potest duobus
+      modis.</head>
+          <p xml:id="bb-d1e36888-d1e185">Respondeo : Dicendum quod iuramentum assertorium dupliciter habet fieri : quoddam per
+      imprecationem, quoddam per ipsius Veritatis testimonii invocationem. Per imprecationem autem
+      iuratur, cum dicitur : ita vivat filius meus vel pater, hoc est dicere : nisi ego implevero
+      quod promitto vel nisi implevero quod iuro, non vivat filius vel pater meus. Et in hac forma
+      iurandi creatura ad testificandum non invocatur, sed potius ipsi Creatori
+       <quote xml:id="bb-d1e36888-Qd1e187">oppigneratur</quote>, secundum quod dicit <name ref="#Augustine">Augustinus</name>. Et hoc quidem est licitum,
+      quia, quamvis omnis creatura sit ipsius Creatoris, tamen bonum vel solatium, quod ex
+      creatura percipimus et a Deo nobis concessum est, Deo tamquam nostrum oppignerare possumus ;
+      et ideo licita est haec forma, licet <quote xml:id="bb-d1e36888-Qd1e193">hoc iuramenti genus, secundum quod dicit
+       <name ref="#Augustine">Augustinus</name>, in littera, sit gravissimum</quote>.</p>
+          <p xml:id="bb-d1e36888-d1e200">Illud vero iuramentum fit per ipsius Veritatis testimonii invocationem, quando aliquis
+      iurat per aliquem ad invocandum illum in testem. Potest autem creatura dupliciter advocari
+      in testimonium : aut secundum se aut in quantum est vestigium Veritatis divinae. Si secundum
+      se, hoc modo non licet, quia sic crederetur quod aliquid numinis esset in ea, ratione cuius
+      veritas dicti possit per huiusmodi testimonium confirmari. Secundo vero modo, in quantum in
+      ea relucet vestigium divinae Veritatis, licitum est iurare per creaturam. Hoc enim nihil
+      aliud est quam iurare per eum qui in creatura relucet ; et tunc non veneratur quis
+      creaturam, sed Creatorem. Unde sicut <quote xml:id="bb-d1e36888-Qd1e202">honor, qui exhibetur imagini, refertur ad
+       prototypum</quote>, id est ad exemplar primum, sicut dicit <name ref="#JohnDamascenus">Damascenus</name>, ita hoc modo
+      iuratio facta per creaturam refertur ad ipsarum creaturarum auctorem. Et hoc est quod
+      dicitur Causa XXII, quaestione 1 : <quote xml:id="bb-d1e36888-Qd1e208">Sciendum est quod Sancti non tam per creaturas
+       quam per creaturarum auctorem iurabant, nec in creaturis aliud quam ipsarum Creatorem
+       venerabantur, sicut Ioseph, qui, per Pharaonem iurando, hoc in eo venerabatur quod Dei
+       iudicio positus erat in irtfinimis</quote>. Et quoniam in omni creatura isto modo relucet
+      Deus, per omnem creaturam licite potest fieri hoc modo iuramentum. Quia vero principaliter
+      relucet in Sanctis, et maxime in verbis evangelicae Legis, per quae divina nobis Veritas
+      illuxit, hinc est quod per Sanctos et maxime per Evangelia consuevit frequentari forma
+      iurationis, qua quidem iuratur per creaturam. Concedendum est igitur quod per creaturam
+      licitum est iurare, sive imprecando sive Creatorem eius in testimonium invocando. Et sic
+      procedunt rationes ad hanc partem inductae.</p>
+        </div>
+        <div xml:id="bb-d1e36985">
+          <head xml:id="bb-d1e36888-Hd1e216">Ad Rationes</head>
+          <p xml:id="bb-d1e36888-d1e219">Ad illud ergo quod primo obicitur in contrarium, quod Dominus prohibet iuramentum per
+      creaturas, et Glossa dicit illud iuramentum esse superstitiosum, dicendum quod hoc
+      intelligitur secundum quod ipsae creaturae secundum se consideratae in veritatis testimonium
+      invocantur ; et hoc modo est ibi superstitio, quia eis reverentia ultra debitum exhibetur.
+      Et quantum ad hoc intelligi habet Glossa et textus.</p>
+          <p xml:id="bb-d1e36888-d1e222">Ad illud quod obicitur de auctoritate Pii Papae, dicendum quod canon loquitur contra illos
+      qui credebant Deum secundum divinitatem habere caput et capillos, et tales erant blasphemi ;
+      aut certe contra illos qui irreverenter nominant membra Christi et qpodam exquisito modo
+      iurandi dividunt ipsum quasi membratim ; qui valde rationabiliter sunt arguendi.</p>
+          <p xml:id="bb-d1e36888-d1e225">Ad illud quod obicitur, quod qui iurat per aliquid invocat ipsum in testimonium, dicendum
+      quod illud non est semper verum, immo aliquando invocat ipsum in testimonium, aliquando non
+      ipsum invocat, sed illud potius ad quod ipsum refertur, vel etiam obligat et Deo oppignerat.
+      Et his modis, non praemissis, licitum est et concessum iurare per irrationalem
+      creaturam.</p>
+          <p xml:id="bb-d1e36888-d1e228">Ad illud quod obicitur, quod qui iurat per idolum veneratur ipsum, dicendum quod hoc est
+      quia ille qui iurat per idolum invocat ipsum in testimonium tamquam Deum ; et propterea est
+      ibi idololatriae peccatum. Non sic autem est quando iurat per alias creaturas, quia
+      iuramentum illud refertur totum ad Veritatem aeternam.</p>
+          <p xml:id="bb-d1e36888-d1e232">Ad illud vero quod ulterius quaeritur, quare magis iuratur per Evangelia quam per alias
+      creaturas, iam patet responsio per ea quae dicta sunt. Sicut enim crucem Christi magis
+      veneramur, propter hoc quod magis refertur ad ipsum Crucifixum ; et Sanctos, quia quadam
+      maiori propinquitate se habent ad Deum : sic etiam intelligendum est in ipsis Evangeliis,
+      quae directe et immediate ducunt in ipsam aeternam Veritatem. Et si tu obicias, quod, licet
+      creatura ducat in Creatorem, tamen propter hoc non quaelibet creatura est adoranda, sed illa
+      sola quae est ad hoc instituta, sicut imago Crucifixi, dicendum quod non est simile, quia
+      exhibitio honoris et cultus latriae respicit illud quod honoratur secundum illud quod est in
+      eo dignissimum, et hoc est proprium et singulare ; sed invocatio in assertione respicit
+      ipsius Veritatis infallibilitatem et luminositatem ; et haec in singulis creaturis relucet,
+      sed secundum plus et minus. Ideo non est simile hinc et inde. Ad illud quod quaeritur utrum
+      ille qui iurat falsum per lapidem sit periurus, dicendum quod sic, secundum quod dicit
+      <name ref="#Augustine">Augustinus</name>, quoniam iurans per lapidem aut in tendit ipsi lapidi reverentiam exhibere aut
+      auctori lapidis. Et si ipsi lapidi intendat reverentiam exhibere, dupliciter peccat ; si
+      vero auctori lapidis, tunc absque dubio peierat, quia ipsi Creatori lapidis contumeliam
+      facit, dum nomen eius, per effectum creaturae intellectum, assumit in vanum. Si quis ta.men
+      non serio iuraret, sed quodam modo ludere intenderet, sicut mos est aliquibus per bottas
+      suas iurare, non esset dicendum periurium, quia iurare non intendit, sed potius ludere ; est
+      tamen talis modus loquendi satis reprehensibilis et caveri debet a viris perfectis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

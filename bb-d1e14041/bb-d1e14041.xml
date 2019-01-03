@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 15, A. 1, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 15, A. 1, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e14041">
+        <head xml:id="bb-d1e14041-Hd1e119">III, D. 15, A. 1, Q. 2</head>
+        <head xml:id="bb-d1e14041-Hd1e122" type="question-title">Utrum Christus assumpserit omnes defectus nostros praeter
+    peccatum.</head>
+        <p xml:id="bb-d1e14041-d1e125">Secundo quaeritur de huiusmodi defectibus quantum ad generalitatem, et est quaestio, utrum
+    Christus assumpserit omnes defectus nostros praeter peccatum.</p>
+        <div xml:id="bb-d1e14052" type="rationes-principales">
+          <head xml:id="bb-d1e14041-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e14041-d1e133">Et quod sic, videtur. Per <name ref="#JohnDamascenus">Damascenum</name>, qui, in libro III, ait sic : <quote xml:id="bb-d1e14041-Qd1e138">Totus totum
+       assumpsit me, ut toti mihi salutem gratificaret</quote>. Ergo, si omnes defectus nostros
+      venit curare, videtur quod omnes debuit assumere.</p>
+          <p xml:id="bb-d1e14041-d1e142">Item, <quote xml:id="bb-d1e14041-Qd1e144">quod fuit inassumptibile fuit incurabile</quote>. Ergo, si aliqui defectus
+      nostri fuerunt a Christo inassumptibiles, fuerunt incurabiles ; si igitur omnes fuerunt
+      curabiles, omnes fuerunt assumptibiles : ergo videtur quod assumpserit omnes.</p>
+          <p xml:id="bb-d1e14041-d1e148">Item, in assumptione nostrorum defectuum manifestatur divina misericordia : ergo in
+      assumptione plurium defectuum ostenditur maior misericordia, et in assumptione omnium
+      ostenditur maxima ; sed maxima misericordia Dei ostensa fuit in assuniptione nostrarum
+      infirmitatum et defectuum : ergo videtur quid Christus omnes defectus debuit assumere.</p>
+          <p xml:id="bb-d1e14041-d1e151">Item, in nostrorum defectuum assumptione fuit humiliatio ; sed tantum se humiliavit quantum
+      potuit, secundum quod dicit <name ref="#Bernard">Bernardus</name> : <quote xml:id="bb-d1e14041-Qd1e156">Descendit quantum descendere potuit</quote>.
+      Si igitur maior est humiliatio in assumptione plurium defectuum quam paucorum et in
+      assumptione omnium quam quorumdam, videtur quod Christus assumere debuerit universitatem
+      defectuum nostrorum.</p>
+          <p xml:id="bb-d1e14041-d1e161">Sed contra : In nobis videmus defectus membrorum et aliquorum sensuum exteriorum, sicut
+      visus et auditus ; sed tales Christus non assumpsit nec decuit eum assumere : ergo non
+      decuit ipsum assumere omnes defectus nostros poenales.</p>
+          <p xml:id="bb-d1e14041-d1e164">Item, in nobis reperiuntur aegritudines contrariae, sicut patet in febribus et aliis
+      infirmitatibus, reperiuntur etiam aegritudines incurabiles. Ergo, si <quote xml:id="bb-d1e14041-Qd1e166">contraria non
+       possunt esse simul in eodem</quote>, videtur quod omnes defectus nostros poenales nec
+      potuerit nec debuerit simul assumere.</p>
+          <p xml:id="bb-d1e14041-d1e170">Item, fomes et pronitas ad malum non est culpa, quia potest esse in nobis, omni culpa
+      deleta ; sed Christus talem defectum nec habuit nec habere potuit, quia non potuit peccare,
+      ergo nec ad peccatum pronitatem habere : et ita redit idem quod prius.</p>
+          <p xml:id="bb-d1e14041-d1e173">Item, obicitur de difficultate ad bonum, quae est defectus in nobis poenalis ; in Christo
+      autem talis defectus non fuit nec esse potuit : quaeritur igitur in generali, quales
+      defectus assumpsit, si non omnes assumpsit.</p>
+        </div>
+        <div xml:id="bb-d1e14101">
+          <head xml:id="bb-d1e14041-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e14041-Hd1e182" type="question-title">Christus assunsit defectus poenales tantum, non vitiosos, nec
+      omnes poenales, sed tantum naturales, non autem personales</head>
+          <p xml:id="bb-d1e14041-d1e185">Respondeo : Dicendum quod absque dubio Christus non omnes defectus nostros assumpsit, sicut
+      dicit <name ref="#Lombard">Magister</name> in littera, sed illos tantum, quos ipsum assumere decuit et nobis expediens
+      fuit. Sed qui sint isti defectus, adhuc quaestione indiget sicut et primum, et innuit
+      <name ref="#Lombard">Magister</name> illos defectus decuisse et expedivisse illum assumere qui faciunt vel ad veritatis
+      naturae assumptae ostensionem vel ad operis propter quod venerat consummationem. Sed adhuc
+      qui sunt isti defectus, difficile est discernere.</p>
+          <p xml:id="bb-d1e14041-d1e194">Voluerunt autem aliqui dicere quod isti sunt defectus, quos Deus plantavit in nostra
+      natura. Quidam enim defectus sunt qui ortum habent ex absentia gratiae, sicut ignorantia et
+      rebellio carnis ad spiritum et consimilia. Quidam autem sunt qui non solum ex hoc ortum
+      habent, sed etiam ex compositione partium constituentium, sicut fames, sitis, mors, dolor et
+      consimilia, quae ortum habent non tantum ex culpa, sed ex hoc quod humana natura est ex
+      contrariis constituta ; et tales defectus sunt qui faciunt ad veritatis naturae assumptae
+      manifestationem et ad operis suscepti consummationem, alii vero minime. Sed illud adhuc
+      habet calumniam, propter hoc quod aegritudines multae ortum habent ex complexione hominis,
+      quas constat Christum non assumpsisse. Praeterea, omnes defectus nostri poenales magis
+      videntur secuti esse ex nostra transgressione et divina punitione quam ex primaria
+      plantatione.</p>
+          <p xml:id="bb-d1e14041-d1e197">Et propterea potest alio modo dici quod quidam sunt defectus qui sunt ex culpa, quidam vero
+      qui sunt ex culpa et ad culpam, sicut pronitas ad malum et difficultas ad bonum. Illos autem
+      defectus qui non tantum sunt ex culpa, sed etiam via ad culpam, non decuit Christum
+      assumere, quia Christus fuit minister iustitiae omnino segregatus a peccato. Alios autem
+      defectus decuit ipsum assumere, sed non omnes, quia quidam sunt defectus naturales, quidam
+      personales. Defectus autem naturales voco illos qui respiciunt totam naturam humanam
+      universaliter, sicut fames et sitis et defectus consimiles. Personales autem defectus sunt
+      qui respiciunt aliquas personas specialiter, sicut diversae aegritudinum species. Quoniam
+      igitur Christus venerat naturam humanam redimere communiter sine personarum distinctione,
+      hinc est quod defectus naturales, non personales defectus, poenales tantum, non vitiosos,
+      debuit in se habere, sicut ostendunt rationes ad hanc partem adductae.</p>
+        </div>
+        <div xml:id="bb-d1e14126">
+          <head xml:id="bb-d1e14041-Hd1e204">Ad Rationes</head>
+          <p xml:id="bb-d1e14041-d1e207">Ad illud ergo quod obicitur in contrarium de <name ref="#JohnDamascenus">Damasceno</name>, quod totum assumpsit ut totum
+      curaret, dicendum quod hoc intelligitur de his quae sunt de constitutione naturae, non de
+      his quae pertinent ad defectum naturae ; et hoc ipsum verbum insinuat. Nam proprie quod
+      curatur dicitur natura, morbus vero est illud a quo curatur, quia morbus expellitur, sed
+      natura servatur. Et per hoc patet responsio ad sequens, quo dicitur quod inassumptibile est
+      incurabile ; hoc enim intelligitur de natura et eius partibus, quae proprie dicuntur curari,
+      non de defectibus, qui potius dicuntur coassumi quam assumi, magis etiam dicuntur expelli
+      quam sanari.</p>
+          <p xml:id="bb-d1e14041-d1e213">Ad illud quod obicitur de ostensione misericordiae, dicendum quod misericordia semper se
+      ostendit, salva rectitudine iustitiae et ordine sapientiae ; ideo nullos defectus debuit
+      assumere qui non essent ordinati ad nostrum profectum et expeditionem nostrae salutis ;
+      multi autem sunt qui potius impedivissent quam iuvissent, sicut defectus membrorum vel
+      sensuum et aliorum consimilium. Et ideo non sequitur illud.</p>
+          <p xml:id="bb-d1e14041-d1e216">Ad illud vero quod postremo obicitur de humiliatione, dicendum consimiliter quod omnis
+      humiliatio virtuosa et laudabilis ortum habet ex discretione rationis ; non enim procedere
+      debet ex impetu, sed e causa rationabili. Et quia de aliquibus defectibus rationabile non
+      erat ut Christus se per eorum assumptionem humiliaret, quia se potius ex illa humiliatione
+      inutilem quam utilem reddidisset, sicut si fuisset caecus vel gibbosus et huiusmodi, ideo
+      tales nullo modo debuit assumere, sed illos solum de quibus supra dictum est, videlicet
+      illos qui respiciunt ipsam naturam et praebent viam ad iustitiam, non ad culpam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

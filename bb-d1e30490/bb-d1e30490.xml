@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 33, A. 1, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 33, A. 1, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e30490">
+        <head xml:id="bb-d1e30490-Hd1e119">III, D. 33, A. 1, Q. 3</head>
+        <head xml:id="bb-d1e30490-Hd1e122" type="question-title">Utrum virtutes cardinales sint in parte animae rationali an in ea
+    parte quae solum obtemperat rationi.</head>
+        <div xml:id="bb-d1e30498" type="rationes-principales">
+          <head xml:id="bb-d1e30490-Hd1e127">Rationes Principales</head>
+          <p xml:id="bb-d1e30490-d1e130">Et quod sint in parte animae rationali, videtur. Primo, per auctoritatem <name ref="#Augustine">Augustini</name>, in
+      Soliloquiis : <quote xml:id="bb-d1e30490-Qd1e135">Virtus est ratio recta perducens in finem</quote> ; sed constat quod
+      hic est praedicatio causalis sive materialis : ergo videtur quod subiectum virtutis sit ipsa
+      ratio sive potentia rationalis.</p>
+          <p xml:id="bb-d1e30490-d1e139">Tertio quaeritur de virtutibus cardinalibus quantum ad subiectum, et est quaestio, utrum
+      sint in parte animae rationali, an in ea parte quae solum obtemperat rationi.</p>
+          <p xml:id="bb-d1e30490-d1e142">Item, virtus est principium merendi et operis meritorii et laudabilis. Ergo circa illam
+      potentiam habet esse circa cuius actum consistit laus et meritum ; sed talis est potentia
+      rationalis, scilicet liberum arbitrium : ergo videtur idem quod prius.</p>
+          <p xml:id="bb-d1e30490-d1e145">Item, in eo subiecto est virtus in quo anima habet imaginem Dei, cum virtutes ceterae
+      habeant ortum a gratia, cuius anima est capax per hoc quod est imago ; sed non est imago
+      nisi per potentiam rationalem : ergo etc.</p>
+          <p xml:id="bb-d1e30490-d1e149">Item, omnis virtus consistit circa electionem boni et fugam mali ; sed habitus electivus
+      est solius potentiae rationalis proprie dictae : ergo videtur quod omnis virtus proprie sit
+      in rationali parte ipsius animae.</p>
+          <p xml:id="bb-d1e30490-d1e152">Item, virtus est in genere honesti, secundm quod vult Tullius ; sed bonum, quod est
+      honestum, et eius oppositum est obiectum solius rationalis virtutis, quia potentiae
+      sensitivae solummodo feruntur ad ea bona quae sunt de genere commodi : ergo videtur quod
+      virtus sit solum in parte animae rationali.</p>
+          <p xml:id="bb-d1e30490-d1e155">Sed contra : Fortitudo est in irascibili et temperantia in concupiscibili ; sed istae non
+      sunt rationales nisi quia obtemperantes rationi, secundum quod dicit <name ref="#Aristotle">Philosophus</name>, in fine
+      Novae Ethicae : ergo videtur quod cardinales virtutes non habeant esse in parte rationali,
+      sed potius in parte sensibili.</p>
+          <p xml:id="bb-d1e30490-d1e161">Item, in ea parte est habitus virtutis expediens et rectificans circa quam habet esse
+      pronitas et obliquitas ; sed haec duo sunt maxime circa motivam sensibilem, quae quidem sunt
+      irascibilis et concupiscibilis : ergo videtur quod in illis habeat collocari virtus
+      cardinalis.</p>
+          <p xml:id="bb-d1e30490-d1e164">Item, in ea parte est habitus virtutis tamquani in subiecto proprio quae im mediatius et
+      proximius elicit actum ipsius virtutis ; sed temperantiae et fortitudinis actus eliciuntur
+      immediate a concupiscibili et irascibili, quae sunt obedientes rationi : ergo videtur quod
+      in eis virtutes cardinales habeant poni.</p>
+          <p xml:id="bb-d1e30490-d1e167">Item, virtutes cardinales distinguuntur a theologicis sicut consuetudinales ab
+      intellectualibus ; sed intellectuales, ut sapientia et intelligentia et phronesis, ponuntur
+      in ratione proprie dicta, consuetudinales vero in ea parte quae obtemperat rationi : ergo
+      videtur similiter quod theologicae debent reponi in parte rationali et cardinales in parte
+      sensibili secundum quod rationi obedit.</p>
+          <p xml:id="bb-d1e30490-d1e171">Item, in ea parte maxime habet reponi habitus virtutis quae magis indiget rectificari ; sed
+      pars, quae magis indiget rectificari, est pars sensitiva, quoniam, secundum quod dicit
+      <name ref="#Aristotle">Philosophus</name>, intellectus semper est rectus, phantasia recta et non recta : cum ergo
+      phantasia nominet potentiam sensitivam, videtur quod circa ipsam habeant esse virtutes
+      cardinales.</p>
+        </div>
+        <div xml:id="bb-d1e30551">
+          <head xml:id="bb-d1e30490-Hd1e180">Conclusio</head>
+          <head xml:id="bb-d1e30490-Hd1e183" type="question-title">Secundum theologos virtutes cardinales omnes ponendae sunt in
+      parte animae rationali, quatenus ralionale dicitur quod participat ralionem.</head>
+          <p xml:id="bb-d1e30490-d1e186">Respondeo : Ad praedictorum intelligentiam est notandum quod, cum rationale dicatur
+      dupliciter, secundum quod vult <name ref="#Aristotle">Philosophus</name>, videlicet quod rationem participat et quod
+      rationi obedit, si large accipiatur pars raticmalis, sic non est dubiitm quin omnes virtutes
+      in parte rationali sint, sive theologicae sive cardinales sive intellectuales sive
+      consuetudinales. Si vero rationale dicatur proprie, secundum quod participat rationem, sic
+      voluerunt aliqui dicere quod quaedam virtutes cardinales sunt in parte rationali ; utpote
+      prudentia et iustitia ; quaedam vero non, sed in potentia inferiori, quae est rationalis
+      largo modo dicta, quia obtemperat rationi, ut fortitudo et temperantia, quae sunt in
+      irascibili et concupiscibili.</p>
+          <p xml:id="bb-d1e30490-d1e192">Licet autem hic modus dicendi aliquo modo probabilis videatur secundum morales philosophos,
+      tamen secundum theologum non videtur rationabiliter dici quasdam virtutes cardinales reponi
+      in parte superiori et quasdam in inferiori, cum omnes virtutes cardinales aequales sint
+      quantum ad meriti dignitatem ; omnes etiam sunt principium merendi. Et propterea, cum
+      meritum consistai radicaliter circa liberum arbitrium, in solis illis potentiis habent esse
+      virtutes, sive cardinales sive theologicae, in quibus reperitur libertas arbitrii. Propter
+      quod, cum libertas arbitrii non sit nisi in parte animae rationali, secundum quod rationale
+      dicitur quod participat rationem, necesse est ceteras virtutes cardinales in parte illa
+      reponi. Et hoc necessario exigit earum dignitas, cum ipsae habeant ortum a gratia et sint
+      perfectiones animae multo nobiliores quam ipsa scientia, quae ponitur tamquam in subiecto in
+      parte animae rationali et intellectiva. Et propterea concedendae sunt rationes quae sunt ad
+      partem istam.</p>
+          <p xml:id="bb-d1e30490-d1e195">Ad evidentiam vero obiectorum quae in contrarium opponuntur notandus est alius modus
+      distinguendi rationale secundum. theologum. Uno enim modo distinguitur rationale contra
+      partem sensitivam ; alio modo. distinguitur contra potentiam affectivam. Secundum quod
+      distinguitur contra potentiam sensitivam, sic sunt in parte ista rationali omnes virtute.
+      Secundum vero quod distinguitur contra potentiam affectivam, sic non sunt in ea omnes
+      virtutes, sed illae solum quae diligunt in discernendo, sicut fides et prudentia ; aliae
+      vero reponuntur in potentia affectiva, quae quidem pars est liberi arbitrii et elicitur
+      voluntas, secundum quod est coniuncta rationi ; dicitur etiam concupiscibilis et
+      irascibilis, secundum quod diversimode habet affici et moveri. Nihil enim aliud est voluntas
+      quam affectus sive appetitus ratiocinatus. Omnis autem affectus sive appetitus vel est vis
+      irascibilis vel concupiscibilis, quae duae vires, secundum quod sunt liberi arbitrii partes,
+      rationales sunt ; et in ipsis possunt esse virtutes theologicae et cardinales : theologicae,
+      in quantum immediate elevantur in Deum, ipsum diligendo et ipsi innitendo ; cardinales vero,
+      in quantum versantur circa bonum creatum. Et per hoc pro magna parte patet responsio ad
+      obiecta.</p>
+        </div>
+        <div xml:id="bb-d1e30572">
+          <head xml:id="bb-d1e30490-Hd1e201">Ad Rationes</head>
+          <p xml:id="bb-d1e30490-d1e204">Ad illud quod primo obicitur in contrarium, quod fortitudo et temperantia sunt in
+      irascibili et concupiscibili, et istae solum sunt rationales, quia obtemperant rationi,
+      dicendum quod absque dubio istae duae virtutes cardinales quantum ad habitus substratos in
+      illis duabus viribus reponuntur, licet quantum ad rationem primariam merendi et ordinandi
+      omnis virttis in libero arbitrio ponenda sit. Et ista duo sunt compossibilia, pro eo quod
+      liberum arbitrium non est potentia distincta a rationali, concupiscibili et irascibili
+      secundum rem. Et propterea illa assumptio est falsa, quod concupiscibilis et irascibilis
+      solummodo sunt rationales, quia obtemperant rationi. In nobis enim est duplex irascibilis et
+      concupiscibilis, videlicet rationalis et sensibilis : rationalis, secundum quam immediate
+      nati sumus in Deum ferri ei in qua communicamus cum angelis et in qua secundum diversas
+      comparationes habet reponi theologica virtus et cardinalis. Alia vero est irascibilis et
+      concupiscibilis sensibilis, quae solummodo dicitur rationalis, quia obtemperat rationi. Et
+      in his non consistit libertas arbitrii nec in his sicut in subiecto ponitur virtus
+      cardinalis, licet per frequentem assuefactionem aliquo modo illae potentiae non incongrue
+      dicantur habilitari ; illa tamen habilitatio non est de virtutis essentia, sed potius sibi
+      annexa.</p>
+          <p xml:id="bb-d1e30490-d1e207">Ad illud quod obicitur, quod pronitas et obliquitas habent esse circa partem sensibilem,
+      quia nata est rationi subiacere, dicendum quod obliquitas habet esse circa aliquam potentiam
+      dupliciter : aut quia in ea inchoatur aut quia consummatur. Primo modo est obliquitas in
+      parte sensibili, scilicet quantum ad inchoationem, et hoc propter fomitis inclinationem.
+      Secundo vero modo est in parte rationali propter consensum et deliberatam electionem, et in
+      hac principaliter residet obliquitas vitii et per oppositum rectitudo virtutis, et ideo non
+      in parte sensibili, sed magis in rationali.</p>
+          <p xml:id="bb-d1e30490-d1e210">Ad illud quod obicitur, quod actus virtutis fortitudinis et temperantiae immediate
+      eliciuntur a concupiscibili et irascibili, dicendum quod illud verum est, loquendo de
+      concupiscibili et irascibili humana ; sed, si loquamur de coneupiscibili et irascibili,
+      brutali et sensibili, sic per illas potentias non immediate elicitur actus istarum virtutum,
+      immo quasi consequenter, quia, rectificata concupiscibili et irascibili rationali per
+      habitum virtutis, per consequens rectificatur ipsa concupiscibitis et irascibilis brutalis,
+      quae illis habent subici et famulari. Unde sicut, rectificata voluntate in dispensando, per
+      consequens rectificatur manus ad tribuendum beneficium, tamen largitas non est in manu sicut
+      in subiecto, sed in ipsa voluntate, sic intelligendum est in proposito.</p>
+          <p xml:id="bb-d1e30490-d1e213">Ad illud quod obicitur, quod consuetudinales virtutes reponuntur in ea parte quae
+      obtemperat rationi, dicendum quod hoc non est quia habitus consuetudinalis virtutis,
+      secundum quod virtus est, habeat esse in illa parte sensibili quae rationali obtemperat, sed
+      quia ex quadam consuetudine bene faciendi in parte illa relinquitur quaedam habilitas. Et
+      ideo potest dupliciter ad rationem illam responderi. Primum quidem, quia non est simile de
+      virtute cardinali et consuetudinali, secundum quod consuetudinalis est, quia cardinalis
+      virtus nominat habitum dirigentem in operibus electivae, consuetudinalis vero praeter hoc
+      nominat habitum acquisitum ex frequenti bene agere. Aliter etiam responderi potest per
+      interemptionem minoris, quia consuetudinalis virtus, etsi aliquo modo sit in parte sensibili
+      quasi in exsequente et subiacente, in rationali vero est principaliter tamquam in imperante
+      actum virtutis et potentiae sensibili praesidente.</p>
+          <p xml:id="bb-d1e30490-d1e217">Ad illud quod obicitur, quod potentia sensibilis magis indiget rectificari quam
+      intellectualis, dicendum quod falsum est, quia rectitudo et obliquatio, quae homini
+      imputatur, haec est quae habet ortum a parte rationis. Et quod obicit, quod intellectus
+      semper est rectus, dicendum quod hoc intelligitur de intellectu secundum quod respicit leges
+      aeternas et ab ipsis recipit et in eis speculatur, non autem qualitercumque ex se movetur,
+      immo frequenter est obliquus et erroneus. Vel potest dici quod hoc intelligitur de
+      intellectu secundum quod est acceptio principiorum notissimorum in qualibet scientia, utpote
+      dignitatum, circa quae non contingit errare, non autem prout habet applicari ad opera
+      specialia ; et ideo ad ipsarum directionem virtutes sunt sibi necessariae. Et propter hoc
+      ratio illa non concludit, quia procedebat ex falsa assumptione.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

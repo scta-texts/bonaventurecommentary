@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 7, A. 2, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 7, A. 2, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e7647">
+        <head xml:id="bb-d1e7647-Hd1e119">III, D. 7, A. 2, Q. 3</head>
+        <head xml:id="bb-d1e7647-Hd1e122" type="question-title">Utrum haec sit concedenda homo praedestinatus est esse Filius
+    Dei.</head>
+        <p xml:id="bb-d1e7647-d1e125">Tertio quaeritur de hac : homo praedestinatus et esse Filius Dei, utrum sit concedenda.</p>
+        <div xml:id="bb-d1e7658" type="rationes-principales">
+          <head xml:id="bb-d1e7647-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e7647-d1e133">Et quod sic, videtur. Ad Romanos 1, 4 : <quote xml:id="bb-d1e7647-Qd1e135" ana="#rom1_4">Qui praedestinatus est Filius
+       Dei in virtute</quote> ; sed hoc dicitur aut de filio hominis aut de Filio Dei ; sed non
+      de Filio Dei : ergo de filio hominis.</p>
+          <p xml:id="bb-d1e7647-d1e139">Item, in Glossa : <quote xml:id="bb-d1e7647-Qd1e141">Praedestinatus est Iesus, ut qui futurus erat in carne filius
+       David, esset in virtute Filius Dei</quote>. Sed Iesus nominat illum hominem : ergo homo
+      ille est praedestinatus esse Filius Dei.</p>
+          <p xml:id="bb-d1e7647-d1e145">Item, quanto maior et gratia, tanto maior secundum illam debet attendi praedestinatio ; sed
+      gratia unionis, per quam homo ille factus est Dei Filius, maxima fuit, quae simul in se
+      continuit gratiam et gloriam : si ergo homo praevisus est Filius Dei esse per gratiam illam,
+      videtur quod praedestinatus est esse Filius Dei.</p>
+          <p xml:id="bb-d1e7647-d1e148">Item, praedestinatio non attribuitur Filio Dei propter antecessionem, quae quidem non
+      convenit Filio Dei secundum quod Deus ; sed talis antecessio bene competit homini secundum
+      quod homo : ergo recte videtur quod competat sibi praedestinatio. Ergo, si non tantum datur
+      illi homini gratia per quam sit beatus, sed etiam per quam sit Filius Dei, videtur quod haec
+      sit concedenda : homo est praedestinatus ut sit Filius Dei.</p>
+          <p xml:id="bb-d1e7647-d1e152">Sed contra : Si homo est praedestinatus esse Filius Dei, et Filius Dei est homo, ergo
+      Filius Dei est praedestinatus esse Filius Dei ; sed haec est falsa : ergo et illa, ex qua
+      sequitur. Sequitur autem ex hac : homo est praedestinatus esse Filius Dei : ergo etc.</p>
+          <p xml:id="bb-d1e7647-d1e155">Item, praedestinatio non est nisi personae : ergo, si homo est praedestinatus esse Filius
+      Dei, aliqua persona est praedestinata esse Filius Dei. Aut igitur persona creata aut persona
+      increata ; sed non persona creata, quia talem non est reperire in Christo : ergo persona
+      increata. Sed personae increatae non convenit praedestinari : ergo videtur quod non debeat
+      recipi praedictus sermo ; iste scilicet : homo est praedestinatus esse Filius Dei.</p>
+          <p xml:id="bb-d1e7647-d1e158">Item, quicumque praedestinatur, antecedit illud ad quod praedestinatur tempore aut natura ;
+      sed homo nec tempore nec natura antecedit Filium Dei : ergo videtur quod sermo praedictus
+      non debeat concedi.</p>
+          <p xml:id="bb-d1e7647-d1e161">Item, cum dicitur : homo est praedestinatus esse Filius Dei, aut hoc intelligitur secundum
+      quod homo aut secundum quod Deus ; non secundum quod Deus, hoc constat : ergo intelligitur
+      secundum quod homo. Sed quicumque est nunc praedestinatus, ab aeterno fuit praedestinatus :
+      ergo secundum quod homo fuit ab aeterno praedestinatus esse Filius Dei. Sed iste terminus
+      homo supponit verbo de praeterito, ergo supponit pro praeterito : ergo si aliquis ab aeterno
+      fuit praedestinatus esse Filius Dei, ab aeterno aliquis fuit homo ; sed hoc est falsum :
+      ergo et primum.</p>
+        </div>
+        <div xml:id="bb-d1e7695">
+          <head xml:id="bb-d1e7647-Hd1e167">Conclusio</head>
+          <head xml:id="bb-d1e7647-Hd1e170" type="question-title">Ab omnibus recipitur locutio: homo praedestinatus est esse Filius
+      Dei.</head>
+          <p xml:id="bb-d1e7647-d1e173">Respondeo : Dicendum quod ista locutio distingui habet per eum modum per quern distincta
+      fuit prius posita, ex eo videlicet quod hoc participium praedestinatus potest dicere
+      antecessionem respectu subiecti vel respectu praedicati vel respectu totius copulati. Si
+      dicat antecessionem respectu subiecti, vera est locutio, et est sensus : homo, antequam
+      esset homo, praevisus est esse Filius Dei. Si autem notet antecessionem respectu praedicati,
+      falsa est locutio ; est enim sensus : homo praevisus est esse Filius Dei, antequam Filius
+      Dei esset. Si autem notet antecessionem respectu totius copulati, est vera ; est enim sensus
+      : homo praedestinatus est esse Filius Dei id est praedestinatum est ut homo sit Filius Dei.
+      Et iste sensus ab omnibus opinionibus recipitur ; et ideo secundum communem locutionem
+      concedi potest praedictus sermo. Et concedendae sunt rationes quae hoc ostendunt. </p>
+        </div>
+        <div xml:id="bb-d1e7708">
+          <head xml:id="bb-d1e7647-Hd1e180">Ad rationes</head>
+          <p xml:id="bb-d1e7647-d1e183">Ad illud vero quod primo obicitur in contrarium, quodsi homo est praedestinatus esse Filius
+      Dei, quod tunc Filius Dei est praedestinatus esse Filius Dei, dicendum quod non sequitur,
+      quia, sicut praedictum est, quantum ad vocabulum praedestinandi non est communicatio
+      idiomatum, immo est sophisma secundum accidens in praedicto processu. Non enim sequitur :
+      divina praevisio praecedit Christum, secundum quod est filius Virginis, ergo secundum quod
+      est Filius Dei.</p>
+          <p xml:id="bb-d1e7647-d1e186">Ad illud quod obicitur, quod praedestinatio est respectu personae, dicendum quod, si est
+      ratione personae, non est ratione personalitatis, sed alicuius naturae. Et ideo non oportet
+      ad hoc quod sermo habeat veritatem praedestinationem antecedere personam simpliciter, sed
+      sufficit si antecedat eam ratione alicuius naturae. Et ideo, cum dicitur : homo est
+      praedestinatus esse Filius Dei, non intelligitur quod illa persona sit praedestinata nisi
+      ratione humanae naturae. Cum vero dicitur quod persona aeterna non est praedestinata,
+      dicendum quod verum est secundum quod est aeterna ; potest tamen ei convenire ratione
+      naturae temporaliter assumtae.</p>
+          <p xml:id="bb-d1e7647-d1e189">Ad illud quod obicitur, quod praedestinatus antecedit illud ad quod praedestinatur,
+      dicendum quod verum est ; et illud non habet instantiam quando praedestinatio accipitur
+      proprie respectu gratiae et gloriae ; in proposito autem nomen praedestinationis extenditur
+      ad standum pro praevisione ratione determinationis adiunctae, secundum quod in praecedenti
+      problemate visum est. Posset tamen dici quod praedictum verbum intelligendum est quando
+      vocabulum praedestinationis dicit antecessionem, non solum respecta subiecti, sed etiam
+      respecta praedicati ; sic autem non est in proposito. Oportet etiam intelligere de re ad
+      quam quis praedestinatur, non simpliciter, sed in comparatione ad ipsum quod praedestinatur.
+      Non enim oportet quod ille qui praedestinatur sit ante gratiam vel gloriam simpliciter, sed
+      solum secundum quod est in eo ; et sic non habet instantiam in proposito. Nam si Filius Dei
+      praecedat hominem, tamen non prius inest homini quam homo sit, immo per naturam prius est
+      humanitas quam uniretur personae Verbi. </p>
+          <p xml:id="bb-d1e7647-d1e192">Ad illud quod obicitur, utrum homo sit praedestinatus esse Filius Dei aut secundum quod est
+      Deus aut secundum quod est homo, dico quod secundum quod homo ; et sic fuit ab aeterno. Nec
+      valet : ergo supponit pro praeterito. Hoc enim intelligitur de verbo praeteriti temporis,
+      quod non habet vim ampliandi ad futurum. In his enim quae habent vim ampliandi ad futura,
+      pro eo quod claudunt in se actum de futuro, praedicta regula non habet locum. Et sic est in
+      proposito, quia praedestinatio connotat praescientiam alicuius futuri ; et ideo non oportet
+      istum terminum homo respectu talis praedicati supponere pro praeteritis.</p> 
+          <p xml:id="bb-d1e7647-d1e196">
+            Alia est etiam
+    ratio quare ampliat ad omne tempus : quia praedestinatio non ponit rem suam in praedestinato,
+    sed in praedestinante, sicut laus non in laudato, sed in laudante. Et ideo sicut taus non
+    tantum est de praesenti, sed etiam de praeterito et futuro, ita et praedestinatio praeterita
+    potest esse de eo quod est futurum. Et ista clarescunt melius per ea quae in primo libro dicta
+    sunt.</p> 
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

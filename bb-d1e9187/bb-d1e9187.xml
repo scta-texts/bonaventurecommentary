@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 9, A. 2, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 9, A. 2, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e9187">
+        <head xml:id="bb-d1e9187-Hd1e119">III, D. 9, A. 2, Q. 1</head>
+        <head xml:id="bb-d1e9187-Hd1e122" type="question-title">Utrum latria sit in genere virtutis.</head>
+        <p xml:id="bb-d1e9187-d1e125">Circa primum sic proceditur et quaeritur, utrum latria sit in genere virtutis.</p>
+        <div xml:id="bb-d1e9198" type="rationes-principales">
+          <head xml:id="bb-d1e9187-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e9187-d1e133">Et quod sic, videtur. Reddere homini quod suum est, est actus virtutis. Ergo, si maioris
+      vel aequalis dignitatis est Deo reddere quod suum est, erit igitur actus virtutis ; sed per
+      latriam reddimus Deo quod suum est, scilicet reverentiam et honorem : ergo latria virtus
+      est.</p>
+          <p xml:id="bb-d1e9187-d1e136">Item, circa opera laudabilia et difficilia maxime consistit virtus ; sed colere Deum est
+      actus huiusmodi ; et hoc est ipsius latriae : ergo latria est virtus.</p>
+          <p xml:id="bb-d1e9187-d1e139">Item, virtus maxime necessaria est circa opera meritoria vitae aeternae ; sed Deum colere
+      et adorare est meritorium vitae aeternae ; et hoc est ipsius latriae : ergo etc.</p>
+          <p xml:id="bb-d1e9187-d1e142">Item, circa opera praecepti maxime habet esse virtus ; sed Deum colere et adorare est in
+      praecepto : ergo circa hoc maxime habet esse virtus ; et hoc est ipsius latriae : ergo
+      etc.</p>
+          <p xml:id="bb-d1e9187-d1e146">Sed contra : <name ref="#Augustine">Augustinus</name>, X De civitate Dei : <quote xml:id="bb-d1e9187-Qd1e151" source="http://scta.info/resource/adcd-l10">Latria semper aut frequenter dicitur servitus,
+       quae pertinet ad colendum Deum</quote>. Sed omnis virtus, ut virtus est, consistit in
+      libera voluntate : ergo nulla virtus est servitus ; sed latria est servitus : ergo latria
+      non est virtus.</p>
+          <p xml:id="bb-d1e9187-d1e155">Item, latria communiter definitur : <quote xml:id="bb-d1e9187-Qd1e157" source="http://scta.info/resource/adcd-l10">Latria est cultus soli Deo debitus et exhibitus</quote>, et accipitur ex verbis
+      <name ref="#Augustine">Augustini</name>, ibidem ; sed cultus non est habitus, sed usus : si ergo latria est cultus, non
+      est virtus sive habitus, sed motus.</p>
+          <p xml:id="bb-d1e9187-d1e164">Item, latria est idem quod pietas, ut dicit <name ref="#Augustine">Augustinus</name>, in X De civitate Dei : <quote xml:id="bb-d1e9187-Qd1e169" source="http://scta.info/resource/adcd-l10">Pietas proprie cultus Dei dici solet, quam
+       Graeci theosebiam vocant</quote>. Sed pietas continetur inter habitus donorum : ergo
+      videtur quod latria potius sit donum quam virtutis habitus.</p>
+          <p xml:id="bb-d1e9187-d1e173">Item, latriae est Deum revereri ; sed donum timoris facit nos revereri Deum ; est enim
+      timor reverentiae. Ergo videtur quod aut latria superfluit aut est idem quod timor : ergo
+      latria non est virtus.</p>
+        </div>
+        <div xml:id="bb-d1e9247">
+          <head xml:id="bb-d1e9187-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e9187-Hd1e182" type="question-title">Latria, intellecta pro habitu, est habitus virtutis</head>
+          <p xml:id="bb-d1e9187-d1e185">Respondeo : Dicendum quod latria, ut vult <name ref="#Augustine">Augustinus</name>, nominat illud quo colitur Deus ; quo
+      autem colitur Deus, hoc potest intelligi dupliciter : aut sicut actu aut sicut habitu. Ideo
+      nomen latriae aequivoce dicitur et aliquando stat pro habitu, aliquando pro actu. Secundum
+      autem quod stat pro habitu ipsius animae, habilitante ipsam ad cultum Dei, sic est habitus
+      virtutis, in quantum est circa bonum et difficile et meritorium et ad salutem necessarium ;
+      et circa huiusmodi opera praecipue consistit virtutis esse virtus habitus. Et ideo sunt
+      concedendae rationes quae hoc ostendunt.</p>
+        </div>
+        <div xml:id="bb-d1e9263">
+          <head xml:id="bb-d1e9187-Hd1e195">Ad rationes</head>
+          <p xml:id="bb-d1e9187-d1e198">Ad illud ergo quod obicitur, quod latria est servitus, dicendum quod est servitus qua
+      servitur homini et est servitus qua servitur Deo ; et iterum, est servitus necessitatis et
+      est servitus quae est ex mera voluntate. Dicendum ergo quod servitus illa quae fit homini ex
+      necessitate aliquo modo derogat hominis libertati ; et ideo non habet in se excellentiam
+      virtutis. Servitus quae ex mera voluntate fit Deo ponit hominem in statu altiori, et tanto
+      magis facit hominem liberum, quanto magis elongat hominem a peccato. Et talis est servitus
+      latriae. Et ideo nihil impedit talis servitus, latriam habere rationem virtutis
+      completae.</p>
+          <p xml:id="bb-d1e9187-d1e201">Ad illud quod obicitur, quod latria est cultus soli Deo debitus, dicendum quod habitus
+      saepe definiuntur per actus et notificantur ; sed hoc non est praedicatione essentiali, sed
+      causali ; et ideo non sequitur quod latria, si sit cultus, quod non sit habitus. Posset
+      tamen dici, ut prius, quod latria aliquando accipitur pro actu, aliquando pro habitu, sicut
+      hoc frequenter reperitur in habitibus et actibus animae, quae habent unum nomen commune.
+      Unde <name ref="#Aristotle">Philosophus</name> aliquando accipit nomen intellectus pro habitu, aliquando pro potentia ;
+      similiter <name ref="#Anselm">Anselmus</name>, voluntatem ; eodem modo <name ref="#Augustine">Augustinus</name> et alii doctores utuntur nomine
+      latriae.</p>
+          <p xml:id="bb-d1e9187-d1e213">Ad illud quod obicitur, quod latria idem est quod pietas, dicendum quod, sicut dicit
+      <name ref="#Augustine">Augustinus</name>, X De civitate Dei, pietas dicitur tripliciter. Uno modo pietas idem est quod
+      theosebia : et sic idem est quod cultus Dei ; alio modo dicitur pietas officium parentibus
+      exhibitum ; tertio modo dicitur pietas misericordia, quae proximis in operibus exhibetur. De
+      his autem dicitur secundum prius et posterius et secundum quamdam rationem analogiae,
+      secundum quod dicitur ibidem, quia in omnibus est cultus Dei ; principaliter tamen dicitur
+      de cultu divino, id est de illa virtute qua colitur Deus. Et sic patet quod pietas secundum
+      diversas acceptiones potest esse idem quod latria et differre a latria. Cum autem dicitur
+      quod pietas est donum, aequivocatur pietatis. nomen. Ibi enim non accipitur pietas pro
+      virtute illa qua colitur Deus. </p>
+          <p xml:id="bb-d1e9187-d1e219">Ad illud quod obicitur, quod revereri Deum est ipsius timoris, dicendum quod reverentia
+      reperitur tam in honore quam in ti more, quia in timore est resilitio in propriam parvitatem
+      ; in honore vero est testificatio vel exhibitio alicuius testificantis et profitentis ipsam
+      maiestatem. Reverentia autem, quae est latriae, potius est honoris quam timoris. Et sic
+      patet quomodo differt a timore et quare etiam latria non est donum sicut timor. Magis enim
+      habet rationem virtutis, cum latria consistat in exhibitione, timor in resilitione ; et sic
+      latria plus consistit in actione, timor in passione. Et haec est una differentia donorum ad
+      virtutes, ut inferius patefiet. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

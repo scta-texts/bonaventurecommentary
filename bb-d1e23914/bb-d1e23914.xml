@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 26, A. 2, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 26, A. 2, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e23914">
+        <head xml:id="bb-d1e23914-Hd1e119">III, D. 26, A. 2, Q. 3</head>
+        <head xml:id="bb-d1e23914-Hd1e122" type="question-title">Utrum spes praecedat caritatem ordine naturae an e converso.</head>
+        <p xml:id="bb-d1e23914-d1e125">Tertio quaeritur de spe per comparationem ad habitum caritatis, et est quaestio, utrum spes
+    praecedat caritatem ordine naturae an e converso ; et loquimur hic de habitibus in
+    comparatione ad actus.</p>
+        <div xml:id="bb-d1e23925" type="rationes-principales">
+          <head xml:id="bb-d1e23914-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e23914-d1e133">Et quod spes praecedat, videtur. Super illud Matthaei 1, 2 : <quote xml:id="bb-d1e23914-Qd1e135">Abraham genuit Isaac,
+       Isaac genuit Iacob</quote>, Glossa, id est : <quote xml:id="bb-d1e23914-Qd1e138">Fides generat spem, spes generat
+       caritatem</quote>. Ergo, si generans secundum ordinem naturae prius est generato, necesse
+      est quod spes praecedat caritatem.</p>
+          <p xml:id="bb-d1e23914-d1e142">Item, constructio aedificii spiritualis similis est aedificio materiali ; sed in aedificio
+      materiali non solum fundamentum praecedit aedificii complementum, sed etiam paries secundum
+      rectum ordinem antecedit ipsum tectum : si ergo fides assimilatur ipsi fundamento
+      sustentanti et spes parieti erigenti et caritas tecto consummanti, videtur quod spes
+      praecedat ipsam caritatem.</p>
+          <p xml:id="bb-d1e23914-d1e145">Item, secundum naturalem ordinem imperfectum antecedit perfectum, non e converso ; sed
+      caritas maior est et perfectior quam fides et spes, secundum quod dicitur I ad Corinthios
+      13, 13 : <quote xml:id="bb-d1e23914-Qd1e147">Maior autem horum est caritas</quote> : ergo etc.</p>
+          <p xml:id="bb-d1e23914-d1e151">Item, nullus potest amare propter se et super omnia bonum, ad quod non sperat se passe
+      pervenire. Si ergo caritas diligit Deum propter se et super omnia, actus caritatis
+      consequitur actum spei : ergo caritas ipsam spem.</p>
+          <p xml:id="bb-d1e23914-d1e155">Sed contra : Primo auctoritate <name ref="#Lombard">Magistri</name> in littera : <quote xml:id="bb-d1e23914-Qd1e160">Spes est certa exspectatio
+       futurae beatitudinis, veniens ex meritis praecedentibus ipsam spem, quam natura praeit
+       caritas</quote>. Ergo secundum naturalem ordinem caritas est ante spem.</p>
+          <p xml:id="bb-d1e23914-d1e164">Item, <name ref="#Augustine">Augustinus</name>, in XIV De civitate Dei, dicit quod omnis affectio oritur ex amore. Ergo
+      omnis affectio recta ex amore recto. Cum ergo caritas dirigat ipsum amorem voluntatis,
+      virtus autem spei dirigat unam de quatuor affectionibus, videtur quod spes sit posterior
+      caritate.</p>
+          <p xml:id="bb-d1e23914-d1e170">Item, nullus sperat nisi quod amat : quod enim non cupit aliquis nullo modo sperat. Ergo
+      rectitudo amoris praecedit rectitudinem exspectationis ; sed caritas dirigit in amando, spes
+      autem dirigit in exspectatio : ergo caritas ante spem.</p>
+          <p xml:id="bb-d1e23914-d1e173">Item, timor et spes sunt duae affectiones quasi simul currentes ; unde in Glossa,
+      Deuteronomii 24, 6, dicuntur esse <quote xml:id="bb-d1e23914-Qd1e175">duae molae</quote>. Sed omnis timor procedit ex
+      amore : ergo et omnis spes : ergo spes gratuita procedit ex amore gratuito. Igitur secundum
+      naturalem ordinem caritas antecedit spem.</p>
+          <p xml:id="bb-d1e23914-d1e179">Item, quanto aliquid est communius, tanto prius ; sed omne sperandum est fimandum, et non
+      convertitur : ergo communior est actus dilectionis quam actus spei ; et si communior, ergo
+      prior.</p>
+          <p xml:id="bb-d1e23914-d1e182">Item, is est ordo virtutis ad virtutem qui est ordo dotis ad dotem ; sed perfecta tentio,
+      quae est dos correspondens spei, sequitur perfectam dilectionem, quae est dos correspondens
+      caritati : ergo videtur quod in via caritas praecedat spem secundum naturalem ordinem.</p>
+        </div>
+        <div xml:id="bb-d1e23983">
+          <head xml:id="bb-d1e23914-Hd1e188">Conclusio</head>
+          <head xml:id="bb-d1e23914-Hd1e191" type="question-title">Actus spei secundum ordinem naturae antecedit actum caritatis;
+      unde etiam habitus spei in comparatione ad talem actum prior est caritate, licet secundum se
+      consideratus cum habilu caritatishabeat simultatem.</head>
+          <p xml:id="bb-d1e23914-d1e194">Respondeo : Dicendum quod dupliciter est comparare habitum spei ad habitum caritatis, aut
+      ratione habituum secundum se consideratorum aut ratione habituum comparatorum ad actus. Si
+      loquamur de ipsis habitibus secundum se consideratis, sic non habent ordinem, sed
+      simultatem. Omnes enim virtutes gratuitae simul infunduntur, secundum quod infra
+      manifestabitur. Si autem loquamur de ipsis habitibus in comparatione ad actus, sic unus
+      habet ordinem ad alterum, quia actus unius praeparat et disponit ad actum alterius et
+      praeparando et disponendo est eius quodam modo principium et origo ; et ratione talis
+      praeparationis et originis est ibi ordo. Quoniam igitur actus spei praeparat et disponit ad
+      actum caritatis tamquam ad perfectionem et spiritualis aedificii complementum : nemo enim
+      diligit aliquod bonum propter se et super omnia, nisi speret se ad illud bonum perventurum,
+      hinc est quod secundum ordinem naturae actus spei antecedit actum caritatis, et bine est
+      quod habitus spei in cormparatione ad talem actum caritate prior est. Unde concedendae sunt
+      rationes ad istam partem.</p>
+        </div>
+        <div xml:id="bb-d1e23996">
+          <head xml:id="bb-d1e23914-Hd1e201">Ad Rationes</head>
+          <p xml:id="bb-d1e23914-d1e204">Ad illud vero quod obicitur in contrarium ex auctoritate <name ref="#Lombard">Magistri</name>, quod spem natura
+      praecedit caritas, dicendum quod spes accipitur ibi vel pro re sperata vel pro ipso statu
+      spei, non autem pro primo eius actu vel habitu. Posset etiam dici quod istud dicit <name ref="#Lombard">Magister</name>
+      secundum suam opinionem, qua credidit caritatem non esse habitum creatum, sed Spiritum
+      Sanctum, qui est principium omnium aliorum bonorum. Unde, quia in hac opinione communiter
+      <name ref="#Lombard">Magister</name> non sustinetur, et illud est verbum suum, auctoritas illa nullum habet robur.</p>
+          <p xml:id="bb-d1e23914-d1e216">Ad illud quod obicitur, quod amor est principium omnium affectionum, dicendum quod verum
+      est de amore secundum statum imperfectum ; sed sicut amor secundum imperfectionem status est
+      omnium affectionum principium, sic secundum suam perfectionem est omnium affectionum
+      terminus finalis et complementum. Unde omnes affectiones animae ad id ordinantur ut Deus
+      ametur perfecte ; caritas autem non nominat qualemcumque amorem, sed amorem praecipuum. Et
+      ideo ex hoc non potest concludi quod caritas secundum naturalem ordinem praecedat ipsam
+      spem.</p>
+          <p xml:id="bb-d1e23914-d1e219">Ad illud quod obicitur, quod nullus sperat nisi quod amat, dicendum quod verum est ; sed
+      tamen ex hoc non sequitur quod spes caritatem sequatur, pro eo quod caritas addit talem
+      circumstantiam super amorem, quae necessario subsequitur actum sperandi et eius
+      rectitudinem, sicut prius tactum est. Cum enim duplex sit motus amoris caritatis, videlicet
+      amor amicitiae et amor concupiscentiae caritas amore concupiscentiae desiderat Deum super
+      omnia, amore vero amicitiae similiter diligit Deum propter se et super omnia. Unde Deum
+      concupiscit plus quam aliud bonum, Deo etiam bonum optat plus quam habens caritatem optet
+      sibi ipsi. Amor autem concupiscentiae adeo intensus esse non potest nisi praeambula
+      exspectatione. Similiter nec amor amicitiae potest esse adeo elevatus nisi praecedat
+      confidentia. Nullus enim vult plus bonum alii quam sibi nisi in illum totaliter confidat ;
+      nullus etiam aliquod bonum super omnia concupiscit nisi qui se ad illud aliquando
+      perventurum praesumit.</p>
+          <p xml:id="bb-d1e23914-d1e222">Ad illud quod obicitur, quod timor consequitur amorem, ergo et spes similiter, respondendum
+      est, sicut dictum est, quod, licet haec affectio praecedat illam, tamen habitus iste in com
+      paratione ad actum non praecedit ilium, propter praecipuam perfectionem quam caritas ponit
+      circa actum diligendi. Praeterea, cum dicitur quod timor sequitur ad amorem, hoc non
+      intelligitur de quolibet amore, sed de amore sui. Ideo enim quis timet poenam, quia se ipsum
+      amat ; caritas autem non dicit principaliter amorem sui, sed amorem Dei. Et propterea non
+      sequitur quod actus caritatis praecedat actum timoris ; nec ex hoc potest concludi quod
+      similiter praecedat actum spei.</p>
+          <p xml:id="bb-d1e23914-d1e226">Ad illud quod obicitur, quod prius est a quo non convertitur consequentia, dicendum quod
+      illud habet veritatem in his quae essentialiter consequuntur ad se invicem ; in his autem
+      quae se invicem concomitantur non habet veritatem. Et hoc patet, quia sequitur, si est nix,
+      quod sit album, sed non convertitur ; tamen albedo nivis non praecedit ipsam nivis
+      substantiam. Quoniam ergo sperare et amare sunt actus se invicem concomitantes, ideo,
+      quamvis actus amandi se extendat ad diligibilia, non oportet quod sit prius secundum ordinem
+      naturae. Praeterea, quamvis caritas generalior sit a parte obiecti, tamen spes generalior et
+      in plus est a parte subiecti. Omnis enim viator, qui habet caritatem, habet spem ; sed non
+      convertitur, quia spes potest esse in peccatore ; et ideo actus spei origine praecedit actum
+      caritatis respecta subiecti, a quo uterque actus sumit originem. Et sic ratio non valet.</p>
+          <p xml:id="bb-d1e23914-d1e229">Ad illud quod obicitur de dotibus, quod perfecta tentio sequitur perfectam dilectionem,
+      dicendum quod illud non est usquequaque simile, propter hoc quod dotes in patria erunt
+      aequalis perfectioni ; in via autem caritas maioris perfectionis et dignitatis est, quantum
+      est de ratione virtutis, quam sit ipsa spes. Et ideo non oportet, quodsi in via exspectatio
+      praecedit dilectionem praecipuam, quod propter hoc in patria tentio praecedat dilectionem
+      perfectam. Quamvis enim virtutes aequales sint quantum ad rationem merendi, perfectior tamen
+      est actus dilectionis quam exspectationis ; sed in gloria perfecte diligere non est maioris
+      dignitatis quam perfecte habere et perfecte tenere. Unde, quamvis in via actus irascibilis
+      praecedat actum concupiscibilis, non tamen sic oportet esse in patria, ubi est reformatio
+      perfecta, immo potest esse e contrario. Sunt autem et hic alii modi respondendi, qui causa
+      brevitatis omittuntur ad praesens propter hoc quod trahunt extra materiam istam ad ordinem
+      et distinctionem ipsarum dotum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

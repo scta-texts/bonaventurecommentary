@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 37, Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 37, Divisio Textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e34582">
+        <head xml:id="bb-d1e34582-Hd1e119">III, D. 37, Divisio Textus</head>
+        <p xml:id="bb-d1e34582-d1e122">Pars ista, in qua <name ref="#Lombard">Magister</name> agit de vita gratiae, quam suscepimus per Christum et in qua
+    vivimus secundum Christum, divisa fuit in partes duas. In quarum prima determinat <name ref="#Lombard">Magister</name> de
+    habitibus gratuitis, in quibus consistit spiritualis vitae complementum ; in secunda vero de
+    praeceptis Decalogi, in quibus consistit spiritualis vitae exercitium. Prima parte terminata,
+    hic incipit secunda.</p>
+        <p xml:id="bb-d1e34582-d1e131">Dividitur autem pars ista in partes tres. In quarum prima determinat de distinctione
+    praeceptorum in comparatione ad scripturam tabularum. In secunda vero determinat de eadem
+    respectu obliquitatum eisdem oppositarum, ubi agit de mendacio et periurio, infra,
+    distinctione trigesima octava : Sciendum est tria esse mendaciorum genera etc. In tertia vero
+    agit de eisdem praeceptis comparando Legem ad Evangelium, infra, distinctione quadragesima :
+    Sextum praeceptum est : non desiderabis etc.</p>
+        <p xml:id="bb-d1e34582-d1e134">Prima pars, quae continet praesentem distinctionem, dividitur in partes duas. In quarum prima
+    exsequitur de praeceptis primae tabulae. In secunda vero de praeceptis secundae, ibi : In
+    secunda vero tabula septem erant mandata etc.</p>
+        <p xml:id="bb-d1e34582-d1e137">Prima pars habet tres partes, secundum quod tria sunt mandata primae tabulae de quibus
+    exsequitur. In prima agit de primo. In secunda de secundo, ibi : Secundum praeceptum est etc.
+    In tertia de tertio, ibi : Memento, ut diem Sabbati sanctifices etc.</p>
+        <p xml:id="bb-d1e34582-d1e141">Secunda vero pars dividitur in quinque partes secundum quod quinque sunt mandata, de quibus
+    exsequitur breviter. Subdivisiones autem illarum partium satis manifestae sunt in littera.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

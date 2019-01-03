@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 3, P. 1, A. 2, Q. 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 3, P. 1, A. 2, Q. 2</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e2745">
+        <head xml:id="bb-d1e2745-Hd1e119">III, D. 3, P. 1, A. 2, Q. 2</head>
+        <head xml:id="bb-d1e2745-Hd1e122" type="question-title">Utrum in prima sanctificatione in Virgine fuerit exstincta fomitis
+    concupiscentia.</head>
+        <p xml:id="bb-d1e2745-d1e125">Secundo quaeritur, utrum in prima sanctificatione in Virgine fuerit fomitis concupiscentia
+    exstincta.</p>
+        <div xml:id="bb-d1e2756" type="rationes-principales">
+          <p xml:id="bb-d1e2745-d1e130">Et quod sic, videtur. Lucae 1, 28 dicitur ab Angelo ei : <quote xml:id="bb-d1e2745-Qd1e132" ana="#lc1_28">Ave Maria,
+       gratia plena</quote> ; igitur ante adventum Filii Dei fui repleta gratia et plena amore
+      divino ; sed ubi est aliquo modo concupiscentia, ibi non potest esse gratia Dei plena :
+      videtur igitur quod in prima Virginis sanctificatione fomitis concupiscentia omnino fuerit
+      exstincta.</p>
+          <p xml:id="bb-d1e2745-d1e136">Item, ubicumque est fomes, est necessitas ad aliquod peccatum veni.ale. Ergo, cum in ea
+      nulla fuerit peccandi necessitas, quia in ea nulla culpa, ergo videtur quod fomitis
+      concupiscentia omnino fuerit in ea exstincta.</p>
+          <p xml:id="bb-d1e2745-d1e139">Item, fomes reddit illum difficilem ad bonum in quo est ; sed in beata Virgine nulla fuit
+      difficultas ad bonum : ergo videtur quod post primam sanctificationem non remanserit in ea
+      concupiscentiae vitium.</p>
+          <p xml:id="bb-d1e2745-d1e142">Item, si tanta gratia fomitem minuit et maior gratia magis minuit et perfecta simpliciter
+      exstinguit ; sed gloriosae Virgini in ipsa sua sanctificatione primo collata fuit gratia
+      perfecta : ergo omnino fuit in ea exstincta concupiscentia.</p>
+          <p xml:id="bb-d1e2745-d1e145">Sed contra : <name ref="#JohnDamascenus">Damascenus</name> dicit, et habetur in littera : <quote xml:id="bb-d1e2745-Qd1e150">Post consensum Virginis
+       praevenit Spiritus Sanctus in ipsam, secundum verbum quod dixerat Angelus ad eam, purgans
+       eam</quote>. Sed non purgavit a culpa : ergo purgavit ab originalis sequela ; haec autem
+      est fomitis concupiscentia : ergo etc.</p>
+          <p xml:id="bb-d1e2745-d1e155">Item, <name ref="#Lombard">Magister</name> in littera : <quote xml:id="bb-d1e2745-Qd1e160" source="http://scta.info/resource/pl-l3d3c1-d1e127">Mariam quoque totam Spiritus Sanctus praeveniens purgavit et a fomite peccati liberavit,
+       vel fomitem ipsum penitus exstinguendo vel extenuando</quote> ; hoc dicit de
+      sanctificatione secunda : ergo ante ipsam non fuit fomes exstinctus.</p>
+          <p xml:id="bb-d1e2745-d1e164">Item, <name ref="#Bernard">Bernardus</name>, in quadam homilia : <quote xml:id="bb-d1e2745-Qd1e169">In proposito Virginis erat omnium hominum
+       frequentiam fugere, ne perturbatetur oranti silentium aut virginalis castitas
+       tentaretur</quote>. Ergo videtur quod, occasione accepta ab extrinseco, excitaii poterat
+      in ea concupiscentia prava : ergo non fuit omnino exstinctus.</p>
+          <p xml:id="bb-d1e2745-d1e173">Item, si omnino fuisset in ea exstinctus fomes concupiscentiae, igitur secunda
+      sanctificatio non fuisset opportuna. Si igitur opportuna fuit, videtur quod aliquid
+      remanserit in ea fomitis concupiscentiae.</p>
+        </div>
+        <div xml:id="bb-d1e2805">
+          <head xml:id="bb-d1e2745-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d1e2745-Hd1e182" type="question-title">In prima sanctificatione beatae Virginis fomes fuit consopitus, in
+      secunda vero exstinctus.</head>
+          <p xml:id="bb-d1e2745-d1e185">Respondeo : Dicendum quod circa hanc quaestionem est triplex modus dicendi.</p>
+          <p xml:id="bb-d1e2745-d1e188">Quidam enim dicere voluerunt quod nec in prima nec in secunda sanctificatione exstinctus
+      erat in ea fomes concupiscentiae, sed solum consopitus secundum plus et minus, quia fomes
+      causam habet in carne. Unde non directam habet oppositionem ad gratiam secundum essentiam,
+      sed secundum inclinationem : ideo, si gratia magna est, fomes minus inclinat, quamvis per
+      gratiam illam non deleatur eius essentia. Quoniam igitur in Virgine magna fuit gratia in
+      prima sanctificatione et valde magna in secunda, hinc est quod in prima fuit consopitus et
+      in seci.mda magis consopitus, quamvis non omnino fuerit exstinctus vel evacuatus. Sed
+      quoniam caro Christi sumta est de carne Virginis, in Christo etiam nulla. fuit
+      concupiscentia fomitis, cum caro Christi debeat carni Virginis assimilari post Virginis
+      sanctificationem sicut caro aliorum assimilatur carni aliorum parentum, videtur quod
+      Spiritus Sanctus secundo super eam adveniens prorsus exstinxerit fomitem. Et ita praedicta
+      opinio non videt.ur habere probabilitatem.</p>
+          <p xml:id="bb-d1e2745-d1e191">Secundus modus dicendi est quod tam in prima quam in secunda sanctificatione fuerit in ea
+      exstinctus fomes, sed aliter et aliter. In prima namque exstinctus fuit in quantum respicit
+      personam ; in secunda, in quantum respicit naturam. In prima igitur sanctificatione mundata
+      fuit, ut nunquam peccaret ; in secunda vero mundata fuit, ut germen piae prolis emitteret
+      sine peccato, non solum actuali, sed etiam veniali. In prima etiam sanctificatione
+      exstinctus fuit fomes in quantum reddit pronum ad malum ; in secunda, in quantum difficilem
+      ad bonum. Sed illud difficile est intelligere, quia hoc ipso quod proni sumus ad malum,
+      difficiles sumus ad bonum. Quomodo igitur exstingui potest quantum ad pronitatem ad malum,
+      ipso remanente quantum ad difficultatem ad bonum ? Rursus, qualiter potest intelligi quod
+      fomes possit extingui in quantum respicit personam, et non sit exstinctus in quantum
+      respicit naturam, cum ibi sit unus fomes sic diversimode comparatus et exstinctio dicat
+      ipsius fomitis eradicationem ? Non videtur usquequaque intelligibile quomodo fomes
+      exstinguatur in prima sanctificatione et tamen nihilominus remaneat respectu prolis
+      propagandae. Si enim exstinguitur, ergo non manet aliquo modo, nisi forte quis accipiat
+      exstinctionem largo modo pro ablatione inclinationis ad malum respectu personae in qua est.
+      Et ita fortassis intelligitur praedicta positio, quam satis probabilem et rationabilem
+      credo.</p>
+          <p xml:id="bb-d1e2745-d1e195">Tertius autem est modus dicendi, videlicet quod in prima sanctificatione fuit fomes in
+      Virgine consopitus, in secunda exstinctus et eradicatus. Fomes enim radicatur in carne et
+      ascendit usque ad mentem. In prima sanctificatione Virginis collata est tanta gratia
+      perfectionis quod redundaret in eius sensualitatem in tanta redundantia ut fomitem adeo
+      reprimeret quod nullum effectum ad incitandum aliquando haberet. In secunda autem
+      sanctificatione - in qua Spiritus Sanctus non tantum descendit in mentem, sed etiam in
+      carnem, et de carne operatus est, de ea mirabiliter carnem sine macula fabricando - reliquit
+      ipsius carnem immaculatam, exstirpando ex ea et fomitem et omnem concupiscentiam. Et hoc
+      sonant verba <name ref="#Bernard">Bernardi</name>, <name ref="#Lombard">Magistri</name> et <name ref="#JohnDamascenus">Damasceni</name>, sicut patet in auctoritatibus in opponendo
+      habitis. Unde rationes, probantes quod in prima sanctificatione non fuit fomes omnino
+      exstinctus, concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-d1e2837">
+          <head xml:id="bb-d1e2745-Hd1e211">Ad rationes</head>
+          <p xml:id="bb-d1e2745-d1e214">Ad illud quod obicitur, quod Virgo Maria fuit gratia plena in prima sanctificatione,
+      dicendum quod aliter fuit plena in prima sanctificatione, aliter in secunda. In prima fuit
+      plena, secundum quod expediebat ad meritum ; in secunda, secundum quod expediebat ad
+      concipiend um Filium Dei. Et ideo prima sanctificatio respiciebat Virginem secundum animam ;
+      secunda autem respiciebat Virginem totam, secundum quod dicit <name ref="#Lombard">Magister</name> : <quote xml:id="bb-d1e2745-Qd1e219" source="http://scta.info/resource/pl-l3d3c1-d1e127">Mariam totam Spiritus Sanctus
+       praeveniens</quote> etc.</p>
+          <p xml:id="bb-d1e2745-d1e223">2-3. Ad illud quod obicitur, quod fomes impellit ad necessitatem ad peccandum venialiter et
+      ad difficultatem ad bonum, dicendum quod illud verum est ubi est fomes in vigore suo, ubi
+      non reprimitur a gratia movente ad contrarium ; et ideo non habet locum in Virgine, ubi fuit
+      gratia perfecta, tranquillans eius animam et potentias. Et sic patet responsio ad ila
+      duo.</p>
+          <p xml:id="bb-d1e2745-d1e226">Ad illud quod obicitur de perfectione gratiae, dicendum quod gratia, quae directe respicit
+      animam, minuit fomitem quantum ad inclinationem, sed non oportet ut minuat quantum ad
+      radicem : et ideo non sequitur quod per perfectionem illius gratiae fomitis concupiscentia
+      evellatur, sed solum ut eius inclinatio Et hoc quidem concedendum est tamquam verum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

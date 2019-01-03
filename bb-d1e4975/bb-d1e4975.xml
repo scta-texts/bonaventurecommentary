@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 5, A. 1, Q. 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 5, A. 1, Q. 1</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e4975">
+        <head xml:id="bb-d1e4975-Hd1e119">III, D. 5, A. 1, Q. 1</head>
+        <head xml:id="bb-d1e4975-Hd1e122" type="question-title">Utrum assumere sit actus conveniens divinae naturae.</head>
+        <p xml:id="bb-d1e4975-d1e125">Circa primum sic proceditur et quaeritur, utrum assumere sit actus conveniens divinae
+    naturae.</p>
+        <div xml:id="bb-d1e4986" type="rationes-principales">
+          <head xml:id="bb-d1e4975-Hd1e130">Rationes principales</head>
+          <p xml:id="bb-d1e4975-d1e133">Et quod sic, videtur. Auctoritate <name ref="#Augustine">Augustini</name>, in libro De fide ad Petrum : <quote xml:id="bb-d1e4975-Qd1e138">Illa
+       natura, quae semper genita manet apud Patrem, naturam nostram sine peccato
+       suscepit</quote>. Sed suscipere et assumere idem est : ergo natura Dei naturam nostram
+      suscepit.</p>
+          <p xml:id="bb-d1e4975-d1e142">Item, expressius in libro De Trinitate : <quote xml:id="bb-d1e4975-Qd1e144" source="http://scta.info/resource/adt-l1">Forma Dei accepit formam servi</quote>. Sed forma Dei non est aliud quam natura Dei :
+      ergo, si forma formam accepit, natura naturam assumsit.</p>
+          <p xml:id="bb-d1e4975-d1e148">Item, ratione videtur. Haec est vera et propria natura divina unita est humanae ; aut ergo
+      in illa unione se habet ut agens aut ut patiens. Constat quod non ut patiens : ergo se habet
+      ut agens. Sed in ipsa unione agere nihil aliud est quam ipsam naturam assumere : ergo
+      videtur quod assumere conveniat divinae naturae.</p>
+          <p xml:id="bb-d1e4975-d1e151">Item, natura divina et humana uniuntur in unitate personae ; sed ex illa unione vere et
+      proprie dicitur humana natura esse assumta : ergo pari ratione divina natura vel debet dici
+      ex illa unione assumens vel assumta. Sed non assumitur : ergo illius est assumere.</p>
+          <p xml:id="bb-d1e4975-d1e155">Sed contra. est auctoritas Concilii Toletani, quam <ref xml:id="bb-d1e4975-Rd1e157" target="http://scta.info/resource/pl-l3d5c1-d1e170">
+              <name ref="#Lombard">Magister</name> ponit in littera</ref> :
+       <quote xml:id="bb-d1e4975-Qd1e163">Cum tota Trinitas operata sit formationem suscepti hominis, solus tamen Filius
+       suscepit hominem in unitate personae, non in unitate naturae</quote>. Ergo, si hoc soli
+      Filio convenit, non videtur quod conveniat divinae naturae.</p>
+          <p xml:id="bb-d1e4975-d1e167">Item, <name ref="#Anselm">Anselmus</name> : Pater et Filius et Spiritus Sanctus nullo modo differunt in natura. Ergo
+      quod convenit divinae naturae convenit Patri et Filio et Spiritui Sancto ; sed assumtio
+      humanae naturae nullo modo convenit Patri vel Spiritui Sancto : ergo nullo modo videtur
+      divinae naturae competere.</p>
+          <p xml:id="bb-d1e4975-d1e173">Item, divina natura est quoddam simplicissimum ; sed simplicissimum, cum unitur, totaliter
+      unitur : ergo, si divina natura unitur humanae et eam assumit, videtur quod hoc conveniat
+      cuilibet personae.</p>
+          <p xml:id="bb-d1e4975-d1e176">Item, si aliquod unum, in quo plura uniuntur, unitur alicui, necesse est per consequens et
+      illa uniri, sicut patet. Nam si punctus, cui uniuntur multae lineae, alicui coniungitur,
+      necesse est et illas lineas uniri ; si etiam anima, cui uniuntur potentiae, unitur alicui,
+      necesse est et eidem potentias uniri. Ergo, si divinae personae magis uniuntur in natura
+      quam linea in puncto vel potentiae in anima ; si assumere convenit divinae naurae, necese
+      est quod conveniat cuilibet personae ; sed constat quod non convenit cuilibet personae :
+      ergo nec naturae.</p>
+          <p xml:id="bb-d1e4975-d1e179">Item, haec simpliciter est falsa et nullo modo conceditur divina essentia generat vel
+      natura, quoniam ille actus est actus propdus conveniens uni soli personae. Ergo, si assumere
+      est actus conveniens uni soli personae, utpote personae Filii, videtur quod haec sit neganda
+      tamquam falsa divina natura assumit humanam.</p>
+          <p xml:id="bb-d1e4975-d1e182">Item, regula est, et habita fuit in primo libro, quod essentia non supponit personam nec e
+      converso. Ergo divina essentia vel natura non potest pro persona locutionem reddere veram
+      nec pro alio ; hoc constat, quia soli Filio convenit assumere : Ergo videtur siinpliciter
+      esse neganda praedicta locutio.</p>
+        </div>
+        <div xml:id="bb-d1e5043">
+          <head xml:id="bb-d1e4975-Hd1e188">Conclusio</head>
+          <head xml:id="bb-d1e4975-Hd1e191" type="question-title">Terminus assumere non convenire potest divinae naturae, nisi
+      quatenus tantum dicit respectum ad relationem unionis, quae est in una persona, non autem in
+      ipsa natura</head>
+          <p xml:id="bb-d1e4975-d1e194">Respondeo : Ad praedictorum intelligentiam est notandum quod tam per verbum uniendi quam
+      per verbum assumendi importatur unio divinae naturae ad humanam, differenter tamen quantum
+      ad modum significandi, quia verbum uniendi dicitur ab unione, quae magis importat relationem
+      quam actionem ; verbum autem assumendi dicitur ab assumtione, quae principalius importat
+      actionem. Unde, quamvis concedatur quod divina natura uniat sibi humanam et eidem etiam
+      uniatur, nullo modo tamen conceditur quod divina natura. assumatur. Alia etiam est
+      differentia, quia unire, quantum est de se, non dicit terminum relationis vel actionis
+      determinate ; potest enim aliquis aliquid unire sibi et alii. Assumere autem importat
+      terminum intrinsecum tam actionis quam relationis ; assumere enim hoc est ad se sumere.</p>
+          <p xml:id="bb-d1e4975-d1e197">Cum igitur vocabulum assumendi importet simul relationem et actionem, terminus ille,
+      interius intellectus, potest referri ad utrumque vel ad alterum tantum, videlicet ad
+      relationem. Si ad utrumque referatur, cum actio illa terminetur ad unitatem aliquam, tunc
+      assumere dictum de aliquo, significat non solum unionem, sed etiam illam unionem terminari
+      ad unitatem assumentis. Et quoniam illa unio non terminatur ad unitatem naturae, sed potius
+      ad unitatem personae, ideo secundum istum intellectum assumere non convenit divinae naturae.
+      Divina enim natura non assumsit humanam in unitatem naturae ; et ideo isto modo non
+      conceditur quod eam assumserit divina natura, hoc est ad se sive ad propriam unitatem
+      sumserit. Si autem terminus ille habeat respectum ad relationem unionis, tunc conceditur
+      quod divina natura humanam assumserit, hoc est sibi unierit. Univit enim sibi humanam
+      naturam, quamvis non in se ipsa, sed in una persona. Et isto modo procedunt rationes et
+      auctoritates quae ad hoc inducuntur, et ideo sunt concedendae.</p>
+        </div>
+        <div xml:id="bb-d1e5059">
+          <head xml:id="bb-d1e4975-Hd1e204">Ad rationes</head>
+          <p xml:id="bb-d1e4975-d1e207">Ad illud vero quod obicitur, quod solus Filius suscepit humanam naturam, dicendum quod
+      solum non excludit ibi naturam, quae est in persona et praedicatur de persona, sed excludit
+      alias duas personas, scilicet Patrem et Spiritum Sanctum. Praeterea, auctoritas illa non
+      dicit simpliciter quod solus Filius susceperit, sed quod solus Filius suscepit in unitatem
+      propriam ; et tunc non est instantia de natura, quia, ut dictum est, natura divina non
+      suscepit humanam in unitatem naturae, sed in unitatem personae.</p>
+          <p xml:id="bb-d1e4975-d1e210">Ad illud quod obicitur, quod Pater et Filius et Spiritus Sanctus nullo modo differunt in
+      natura, dicendum quod ista duplex est. Uno modo potest intelligi sic : Pater et Filius et
+      Spiritus Sanctus nullo modo differunt in natura, id est, Pater et Filius et Spiritus
+      Sanctus, habentes unam naturam, nullo modo differunt ; et hoc est falsum, quia Pater et
+      Filius personaliter differunt et habent proprietates distinctas. Alio modo potest intelligi
+      ut sit sensus : Pater et Filius non differunt in natura, id est, non differunt diversitate
+      naturae ; nihilominus tamen differunt a se invicem re, et ab ipsa : essentia vel natura
+      differunt ratione vel attributione. Aliquid enim attribuitur personae quod non naturae et e
+      conversa. Et ideo, sicut non sequitur divina natura est in tribus personis : ergo persona
+      Patris est in tribus personis una sic non sequitur divina natura unit sibi vel assumit
+      humanam :ergo persona Patris assumit, immo est ibi sophisma accidentis, vel locus
+      sophisticus accidentis.</p>
+          <p xml:id="bb-d1e4975-d1e213">Ad illud quod obicitur de divina natura, quod est quid simplicissimum, dicendum quod,
+      quamvis sit simplicissimum in forma, habet tamen distinctionem in hypostasibus sive in
+      personis. Cum ergo intelligimus aliquid uniri alicui, hoc possumus intelligere aut quantum
+      ad unionem secundum formam aut quantum ad unionem secundum suppositum. Dico ergo quodsi
+      divina natura uniretur alicui secundum formam, quod necessario tota uniretur, hoc est in
+      qualibet persona, cum simplicissimum sit. Sed quia unio ista vel assumtio non est quantum ad
+      unionem in forma, sed quantum ad unionem in persona et supposito, ideo non sequitur quod,
+      quamvis sit simplicissima, quod tota sit unita, secundum quod totum distribuit pro personis.
+      Unde non valet processus ille quo proceditur a simplicitate naturae ad personarum
+      pluralitatem.</p>
+          <p xml:id="bb-d1e4975-d1e216">Ad illud quod obicitur, quod natura est illud in quo personae uniuntur : ergo, ipsa unita,
+      tres personae uniuntur, et, ipsa assumente, assumunt, dicendum quod non sequitur. Quando
+      enim dicitur quod ad unionem eius in quo alia uniuntur sequitur unio illorum, hoc verum est,
+      quando uniuntur secundum illud et in eo in quo alia uniuntur in eo, sicut est in puncto, in
+      quo lineae uniuntur tamquam in termino et ipse punctus ut terminus potest alii uniri ;
+      similiter et in anima et in suis potentiis. Non sic autem est in proposito, quia illae
+      personae uniuntur in natura quantum ad unitatem naturalem sive essentialem ; sed divina
+      natura non unitur humanae in unam essentiam, sed unitur in unitate hypostasis, in qua quidem
+      hypostasis unitate aliae personae magis distinguuntur quam conveniant.</p>
+          <p xml:id="bb-d1e4975-d1e220">Et huius exemplum haberi potest in aeternis rationibus, secundum quas Deus producit, quae
+      quidem omnes unum sunt in essentia Dei et substantia ; non tamen sequitur quodsi Deus facit
+      aliquid secundum rationem unam, quod secundum illam et eamdem faciat omnia alia. Unde idem
+      sunt idea hominis et idea asini in divina substantia ; cum tamen divina substantia facit
+      asinum, non facit illt.im secundum ideam hominis, sed secundum ideam asini. Aliud etiam
+      exemplum ponit <name ref="#Anselm">Anselmus</name> in fonte, rivo et lacu, qui sunt unius naturae et unus fluit ab
+      alio. Unde Nilus dicitur fons et dicitur rivus et dicitur lacus ; et unus est Nilus et una
+      est aqua et unius naturae, quamvis non sit unus fons et unus rivus et unus lacus. Et
+      contingit Nilum infistulari, ut rivus est, nonut fons neque ut lacus ; et hoc est, quia,
+      quamvis eadem aqua primo sit in fonte, postea in rivo ; postea in lacu, diversum tamen habet
+      modum essendi. In ideis autem est multitudo respectu connotatorum. Et haec duo in divinis
+      personis ponuntur, videlicet pluralitas respectuum et distinctio modorum essendi ab alio et
+      non ab alio. Et sic patet quod non sequitur divina natura assumsit, ergo quaelibet persona
+      assumsit propter relationem intrinsecam.</p>
+          <p xml:id="bb-d1e4975-d1e226">Ad illud quod obicitur, quod nullo modo conceditur <mentioned> essentia generat
+      </mentioned>, quia illud est proprium personae, dicendum quod non est simile, quia generare
+      importat distinctionem, quae nullatenus convenit naturae ; assumere vero dicit actionem et
+      relationem, qua convenit divinae naturae secundum unum intellectum, ut prius visum est.</p>
+          <p xml:id="bb-d1e4975-d1e232">Ad illud quod obicitur, quod natura non supponit pro persona, dicendum quod verum est. Et
+      quod dicitur <mentioned> natura divina assumsit humanam </mentioned>, iste terminus
+       <mentioned> natura </mentioned> non reddit locutionem veram pro persona, sed magis stat
+      ibi natura pro se ipsa. Ipsi enim naturae convenit assumtionem facere et convenit uniri
+      humanae naturae ; et haec duo importat verbum <mentioned> assumendi </mentioned> secundum
+      unam sui acceptionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 27, A. 1, Q. 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 27, A. 1, Q. 3</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e24793">
+        <head xml:id="bb-d1e24793-Hd1e119">III, D. 27, A. 1, Q. 3</head>
+        <head xml:id="bb-d1e24793-Hd1e122" type="question-title">Utrum habitus caritatis sit mere gratuitus an aliquid addat ultra
+    gratiam sicut habitus aliarum virtutum.</head>
+        <p xml:id="bb-d1e24793-d1e125">Tertio quaeritur, utrum habitus caritatis sit mere gratuitus an aliquid addat ultra gratiam
+    sicut habitus aliarum virtutum.</p>
+        <div xml:id="bb-d1e24804" type="rationes-principales">
+          <head xml:id="bb-d1e24793-Hd1e130">Rationes Principales</head>
+          <p xml:id="bb-d1e24793-d1e133">Et quod sit idem caritas omnino quod gratia, nihil addens ultra, videtur : Per illud quod
+      dicit <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d1e24793-Qd1e138">Caritas est mater omnium virtutum, quia omnes informat, sine qua
+       nulla est vera virtus</quote>. Sed esse formam virtutum gratuitarum, secundum quod
+      gratuitae sunt, est proprium ipsius gratiae gratum facientis : ergo, si hoc competit ipsi
+      caritati, videtur quod in nullo differat a gratia.</p>
+          <p xml:id="bb-d1e24793-d1e142">Item, <name ref="#Augustine">Augustinus</name>, XV De Trinitate, dicit quod <quote xml:id="bb-d1e24793-Qd1e147" source="http://scta.info/resource/adt-l15">excellentissimum inter dona Dei est
+       caritas</quote>. Sed gratia gratum faciens est excellentior quam gratia gratis data : ergo
+      videtur, quodsi caritas est excellentissima inter cetera dona, quod ipsa sit mere et pure
+      gratia gratum faciens, nihil habens ultra.</p>
+          <p xml:id="bb-d1e24793-d1e151">Item, Hugo de Santo Victore, in libro De arrha sponsae : <quote xml:id="bb-d1e24793-Qd1e153">Scio, anima mea, quod amor
+       est vita tua</quote>. Sed animan vivificare quantum ad esse moris est proprium ipsius
+      gratiae gratum facientis : ergo videtut quod caritas sit ipsa gratia mere et pure.</p>
+          <p xml:id="bb-d1e24793-d1e157">Item, facere gratum et acceptum Deo est proprie proprium ipsius gratiae ; sed caritas, eo
+      ipso quod caritas est, reddit hominem Deo carum et acceptum et opus facit meritorium : ergo
+      videtur quod nihil aliud in se habeat quod super gratiam gratum. facientem aliquam
+      additionem faciat vel per quod a gratia differat.</p>
+          <p xml:id="bb-d1e24793-d1e161">Item, omnis habitus virtutum, qui aliquid addit super gratiam gratum facientem, aliquo modo
+      manet cum culpa nec tollitur totaliter per peccatum ; sed caritas omnino tollitur per culpam
+      : ergo nihil omnino addit super gratiam.</p>
+          <p xml:id="bb-d1e24793-d1e164">Contra : <name ref="#Bernard">Bernardus</name>, De amore Dei, capitulo 2 : <quote xml:id="bb-d1e24793-Qd1e169">Voluntas crescit in amorem, amor in
+       caritatem et caritas in sapientiam</quote> ; et paulo post : <quote xml:id="bb-d1e24793-Qd1e172">Nihil enim aliud est
+       amor quam vehemens in bono voluntas : per se enim bona voluntas simplex est
+       affectus</quote>. Si ergo affectus vehemens est de essentia caritatis, et affectus
+      huiusmodi aliud est quam gratia, ergo habitus caritatis addit aliquid ultra.</p>
+          <p xml:id="bb-d1e24793-d1e176">Item, nihil generale fit speciale nisi per aliquam additionem ; sed gratia generalis et
+      communis est ad omnem virtutem, caritas autem est specialis virtus : ergo necesse est
+      caritatem aliquid addere ultra gratiam.</p>
+          <p xml:id="bb-d1e24793-d1e179">Item, habitus qui continue est in actu suo differens est ab eo qui non est continue in suo
+      actu ; sed gratia est continue in actu gratificandi, caritas autem non est continue in actu
+      suo, qui est diligere : ergo caritas et gratia aliquo modo differunt : aliquid igitur habet
+      in se caritas quod est a gratia diversum. Cttm ergo sit habitus gratuitus, videtur quod
+      aliquid addat super ipsam gratiam.</p>
+          <p xml:id="bb-d1e24793-d1e182">Item, habitus aliarum virtutum dantur ipsis potentiis ad ipsarum expeditionem ultra gratiam
+      gratum facientem ; sed vis concupiscibilis adeo indiget expediri sicut rationalis, cum sit
+      corrupta et infecta : si ergo virtus perficiens rationalem, ut fides, continet aliquid
+      gratiae gratis datae, videtur pari ratione, immo multo fortiori, caritatem aliquid addere
+      super gratiam gratum facientem.</p>
+          <p xml:id="bb-d1e24793-d1e185">Item, omnis habitus, qui per assuefactionem et frequentiam reddit potentiam faciliorem ad
+      actum sine augmento gratiae gratum facientis, aliquid continet in se praeter gratiam gratum
+      facientem ; sed caritas est huiusmodi, sicut patet : ergo caritas aliquid addit super
+      gratiam. Prima probatur per hoc quod tanto habitus est perfectior, quanto potentiam reddit
+      faciliorem et expeditiorem ad actum. Si ergo habitus caritatis aliquo modo potest proficere,
+      non proficiente gratia gratum faciente, necessario oportet ponere quod differat ab ea.</p>
+        </div>
+        <div xml:id="bb-d1e24865">
+          <head xml:id="bb-d1e24793-Hd1e191">Conclusio</head>
+          <head xml:id="bb-d1e24793-Hd1e194" type="question-title">Caritas ultra gratiam gratum facientem dicit aliquem habitum, quo
+      mediante ipsa potentia diligendi apta fit ad actum proprium ; licet opposita sententia non
+      careat probabililate.</head>
+          <p xml:id="bb-d1e24793-d1e197">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc est duplex modus
+      dicendi.</p>
+          <p xml:id="bb-d1e24793-d1e200">Quidam enim dicere voluerunt quod caritas est omnino idem cum gratia per essentiam,
+      differens sola relatione Dicitur enim gratia, in quantum respicit totam animam ; caritas
+      vero, in quantum regit et dirigit voluntatem. Et hoc videtur significare ipsum caritatis
+      nomen et Apostolus videtur innuere et ratio approbare. Nomen ipsum significare videtur, quia
+      caritas dicitur a charis, quod apud Graecos idem est quod gratia. Unde, cum haec virtus non
+      habeat aliam nominationem a gratia, non videtur quod aliquid addat secundum rem. Apostolus
+      autem insinuare videtur, cum eam ceteris virtutibus anteponit et superponit : hoc enim non
+      faceret, nisi magis pure haberet rationem boni. Et hoc ipsum ipsemet innuit quod aliae
+      virtutes possunt esse infructuosae et recipere admixtionem mali, caritas vero minime ; et
+      propterea videtur caritas secundum testimonium apostolicum esse mera et pura gratia gratum
+      faciens, cum sit bonum purissimum et excellentissimum. Ratio etiam appobare videtur, quia,
+      cum ipsa voluntas sit suprem um in anima, a qua pendet tota rectitudo virium inferiorum et
+      quae immediate unitur ipsi Deo, ideo vindicat sibi totum principium rectitudinis ; et hinc
+      est quod gratia, quae perficit alias potentias animae, specialiori modo perficit voluntatem.
+      Et propterea, licet alias potentias perficiat cum habitu gratiae gratis datae, ipsam
+      potentiam diligendi perficit per se ; et secundum quod illam perficit, sic caritas
+      appellatur. Et sic videtur satis rationabile dicere. quod gratia et caritas idem sunt per
+      essentiam, differentes sola relatione. Et ratione illius relationis connumeratur cum aliis
+      virtutibus et ab eis distinguitur et quodam modo specificatur. Et per hoc declinari satis
+      faciliter videntur rationes ad oppositum, quae ostendunt quod caritas aliquid addat super
+      gratiam. Non enim concludere videntur necessario quod addat aliquid absolutum. Unde ad omnia
+      illa inconvenientia declinanda sufficiens videtur dicere quod addat solum respectum ad opus
+      determinatum.</p>
+          <p xml:id="bb-d1e24793-d1e203">Est et alius mod us dicendi quod caritas ultra gratiam gratum facientem dicit aliquem
+      habitum, quo mediante assuescit ipsa potentia diligendi ad actum proprium. Et hoc quidem
+      dicunt esse necessarium, tum propter essentialem differentiam quae. est inter alias virtutes
+      et. caritatem, quae quidem non potest esse per diversitatem quae sit in gratia gratum
+      faciente, cum ipsa sit una, sicut in secundo libro ostensum est, tum etiam propter actus
+      ipsius specialitatem et difficultatem, respectu cuius requiritur habitus specificans et
+      determinans gratiam ad talem usum et habilitans potentiam, ut exeat in actum suum. Et huic
+      modo dicendi satis concordat auctoritas <name ref="#Bernard">Bernardi</name>, qua dicit in 2 capitulo, De amore Dei,
+      quod <quote xml:id="bb-d1e24793-Qd1e208">libera voluntas data est homini, quae, cum adiuvanti concordat gratiae, virtutis
+       accipit profectum et nomen, et amor efficitur ; cum vero sibi dimissa se ipsa frui vult,
+       sui in se ipsa patitur defectum, et quot vitia, tot vitiorum sortitur nomina, ut
+       cupiditatis, avaritiae, luxuriae</quote>. Ex quo innuitur quod aliquid est ex parte
+      voluntatis nostrae quod, adveniente gratia, fit virtus ; et non est nisi virtus caritatis,
+      de qua loquitur ibi : ergo habitus caritatis ultra gratiam secundum ipsum aliquid dicit.
+      Satis etiam videtur haec positio consona rationi, quia, sicut fides concernit assensum, sic
+      caritas concernit affectum ; et sicut cognitio aliquid est differens a gratia gratum
+      faciente, sic etiam et dilectio ; et sicut fides concernit cognitionem, ita caritas
+      affectionem, secundum illud. quod dicit <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d1e24793-Qd1e214">Caritas est rectissima animi
+       afiectio, qua diligittir Deus propter se et proximus propter Deum</quote>. Et idem ipsum
+      dicitur, in libro De spiritu et anima, circa principium : <quote xml:id="bb-d1e24793-Qd1e217">Ordinandi sunt animi
+       affectus ad illud quod debent, ut in virtutes proficere possint</quote>. Et paulo post :
+       <quote xml:id="bb-d1e24793-Qd1e221">Amor per odium sui proficit in amorem Dei et proximi</quote>. Satis igitur videtur
+      rationi consonum dicere quod sicut virtus fidei aliquem habitum concernit praeter gratiam
+      gratum facientem, sic et habitus caritatis. Et hoc satis videntur rationabiliter ostendere
+      rationes ad istam partem adductae. Si quis igitur velit hanc partem sustinere, satis potest
+      faciliter ad rationes, quae adducuntur in contrarium, respondere.</p>
+        </div>
+        <div xml:id="bb-d1e24903">
+          <head xml:id="bb-d1e24793-Hd1e229">Ad Rationes</head>
+          <p xml:id="bb-d1e24793-d1e232">Ad illud enim quod primo obicitur, quod caritas informat ceteras virtutes, quod est
+      proprium ipsius gratiae, dicendum quod est loqui de virtutibus quantum ad esse et quantum ad
+      bene esse et quantum ad bene operari. Si loquamur de virtutibus quantum ad esse, sic
+      quaelibet virtus habet in se ipsa propriam formam, per quam distinguitur ab alia, ut fides a
+      spe. Si autem loquamur de ipsis quantum ad bene esse, sic informantur a gratia, quae facit
+      ipsas gratuitas et Deo acceptas. Si loquamur de virtutibus quantum ad bene operari, sic
+      informantur a caritate, quae est pondus inclinans et faciens tendere operationes omnium
+      virtutum ad bonum finem. Et sic alio modo informat gratia, alio modo caritas ; et propterea
+      non sequitur quod inter caritatem et gratiam nulla sit essentialis differentia.</p>
+          <p xml:id="bb-d1e24793-d1e235">Ad illud quod obicitur, quod caritas est donum excellentissimum, dicendum quod, quia
+      caritas non separatur a gratia, quamvis aliquid addat ultra ipsam, ideo excellentia gratiae
+      gratum facientis attribuitur caritati ; et hinc est quod sortitur etiam nomen gratiae et
+      praeponitur omnibus virtutibus ab Apostolo quantum ad eius excellentiam et dignitatem. Et
+      propterea non sequitur quod ipsa nihil addat ultra gratiam, quia in illa comparatione non
+      comparatur ad dona gratuita, secundum quod gratuita sunt, sed secundum quod sunt gratiae
+      gratis datae ; et in hoc illis praeponitur, quia nunquam caritas separatur a gratia, quamvis
+      ab ea possint separari alia dona gratuita ; et ideo dicitur donum excellentissimum esse
+      inter cetera.</p>
+          <p xml:id="bb-d1e24793-d1e238">Ad illud quod obicitur, quod amor est vita animi, dicendum quod sicut in vita naturae
+      vivere dicitur dupliciter : uno modo, prout est actus primus, alio modo, prout est actus
+      secundus ; et primo modo est ab animae essentia, et secundo modo ab animae potentia : sic
+      intelligendum est in esse moris, quod vivere, prout est actus primus, est ab ipsa gratia
+      vivificante ipsam animam totam ; sed prout est actus secundus, est ab ipsa virtute. Et,
+      quamvis possit attribui omni virtuti gratuitae, utpote ipsi fidei, secundum illud quod
+      dicitur ad Romanos 1, 11 : Iustus ex fide vivit, potissime tamen attribuitur ipsi caritati
+      propter magnam affinitatem quam habet ad gratiam.</p>
+          <p xml:id="bb-d1e24793-d1e241">Ad illud quod obicitur, quod caritas reddit Deo acceptum et gtatum, dicendum quod hoc facit
+      ratione gratiae ; sed ex hoc non sequitur quod praecise sit gratia, quia caritas non
+      tantummodo habet Deo acceptum reddere, sed etiam aliquam potentiam expedire et ad aliquem
+      actum specialem et determinatum habilitare, ratione cuius aliquid addit ipsi gratiae, quod
+      est ipsi gratiae substratum et materiale, sicut in praecedentibus ostensum fuit de fide.</p>
+          <p xml:id="bb-d1e24793-d1e245">Ad illud quod obicitur, quod caritas omnino destruitur per peccatum, dicendum quod hoc non
+      est quia caritas nihil addat super gratiam gratum facientem, sed quia omne peccatum repugnat
+      ipsi habitui substrato caritati. Et ideo sicut fides totaliter tollitur per infidelitatem,
+      quia non solum repugnat ei quantum ad id quod est in ea gratiae gratum facientis, sed etiam
+      quantum ad habitum substratum, per hunc modum intelligendum est quod caritas tollitur per
+      omne peccatum ; illud autem in sequenti problemate clarius manifestabitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

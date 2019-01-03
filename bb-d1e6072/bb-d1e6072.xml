@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, D. 6, Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+         <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CO">Calix O'Hara</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, D. 6, Divisio textus</title>
+          <date when="2019-01-03">January 03, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>        <authority>
+            <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>          </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d1e6072">
+        <head xml:id="bb-d1e6072-Hd1e119">III, D. 6, Divisio textus</head>
+        <p xml:id="bb-d1e6072-d1e122">Supra determinavit <name ref="#Lombard">Magister</name> de modo illius excellentissimae unionis secundum fidei
+    assertionem ; in hac parte determinat secundum variam doctorum opinionem. Et quoniam secundum
+    varietatem opinionum variatur intelledus locutionum circa illius unionis mysterium, ideo pars
+    ista habet duas partes. In quarum prima circa unionis mysterium plures explicat opiniones. In
+    secunda vero ostendit qualiter secundum illas opiniones determinari habeant ambiguae
+    locutiones, infra, distinctione septima : Secundum vero primam dicitur Deus factus etc.</p>
+        <p xml:id="bb-d1e6072-d1e128">Prima pars dividitur in duas partes. In quarum prima <name ref="#Lombard">Magister</name> proponit ambiguas locutiones.
+    In secunda vero circa modum divinae unionis explicat diversas opiniones, ibi : In huius autem
+    quaestionis reseratione etc. Prima pars remanet indivisa, sed secunda subdividitur in tres
+    secundum tres opiniones. In prima ponit primam opinionem ; in secunda secundam, ibi : Sunt
+    autem et alii, qui istis in parte consentiunt. In tertia vero tertiam, ibi : Sunt autem et
+    alii, qui in incarnatione Verbi etc. Prima dividitur in duas. In prima opinionem narrat ; in
+    secunda confirmat, ibi : Sed ne de suo sensu loqui putentur etc. Similiter secunda duas partes
+    habet. In prima ponit illam opinionem ; in secunda confirmat, ibi : ne hoc <name ref="#Augustine">Augustinus</name> in libro
+    Prosperi. Similiter et tertia pars habet duas, quia in prima ponit intellectum tertiae
+    positionis ; in secunda confirmat Sanctorum testimoniis, ibi : Sed ne de suo sensu influere
+    videantur. </p>
+      </div>
+    </body>
+  </text>
+</TEI>
