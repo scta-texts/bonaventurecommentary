@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24353">
+        <head xml:id="bb-d4e24353-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e24353-Hd1e111" type="question-title">Utrum scientia sit alia clavis quam potestas solvendi.</head>
+        <p xml:id="bb-d4e24353-d1e114">Secundo quaeritur circa hoc, utrum scientia sit alia clavis quam potentia solvendi.</p>
+        <div xml:id="bb-d4e24353-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e24353-d1e119">Et quod sic, videtur : Primo auctoritate Domini, Matthaei 16, 19 : <quote xml:id="bb-d4e24353-Qd1e121" ana="#mt16_19">Tibi dabo claves regni caelorum</quote>. Si ergo Dominus vere et
+            proprie est locutus, non ergo tantum clavem, verum etiam claves dedit : ergo plures sunt
+            claves. Sed non nisi potentia et scientia : ergo etc.</p>
+          <p xml:id="bb-d4e24353-d1e125">2. Item, <quote xml:id="bb-d4e24353-Qd1e127">habitus et potentiae per actus dignoscuntur</quote> : ergo pari ratione
+            et instrumenta ; sed scientia est ad discernendum, sive nominet auctoritatem sive
+            habitum, potentia vero ligandi et solvendi est ad alterum actum : ergo etc.</p>
+          <p xml:id="bb-d4e24353-d1e131">Item, quae habent opposita diversa, ipsa sunt diversa ; sed scientia opponitur errori,
+            ut dicit <name ref="#Jerome">Hieronymus</name>, et habetur in praecedenti problemate ;
+            potentia autem solvendi opponitur difficultati : ergo etc.</p>
+          <p xml:id="bb-d4e24353-d1e137">Item, quae respiciunt diversas animae vires diversa sunt, loquendo de his quae
+            superadduntur potentiis, pro eo quod accidentia et proprietates per subiecta propria
+            distinguuntur ; scientia autem ad intellectum et potentia ad affectum refertur : ergo
+            videtur quod sint duae.</p>
+          <p xml:id="bb-d4e24353-d1e140">Contra : Clavis vel est Ordo sacerdotalis. vel proprietas inseparabiliter annexa, sicut
+            infra videbitur, sed Ordo ille est unus : ergo et clavis ad ilium Ordinem spectans est
+            una.</p>
+          <p xml:id="bb-d4e24353-d1e144">Item, claves sunt directae ad regnum caelorum aperiendum et ad obstaculum removendum ;
+            sed regnum illud non est nisi unum, et ostium, quod sacerdos aperit, non est nisi unum,
+            scilicet debitum aeternae poenae : ergo videtur quod una tantum debeat esse clavis
+            scientia et potentia.</p>
+          <p xml:id="bb-d4e24353-d1e147">Item, aut potentia ligandi et solvendi aperit per se solam, aut iuncta auctoritati
+            discernendi. Constat quod non per se solam, sicut prius visum est ; et hoc patet, quia
+            nulli competit de aliquo de cernere ; de quo non competit discernere. Si ergo actus
+            aperiendi non competit ei nisi cum scientia, et clavis ab actu aperiendi denominatur ;
+            ergo ambae sunt una clavis.</p>
+          <p xml:id="bb-d4e24353-d1e150">Item, si claves istae distinguuntur, aut penes id a quo sunt aut in quo aut ad quod. Si
+            penes id a quo, ut scientia a Filio et potentia a Patre, contra hoc est numerus et ordo
+            : numerus, quia, cum tres sint personae, tres debetent esse claves ; ordo, quia, cum
+            Pater secundum originem praeintelligatur, potestas solvendi praeiret scientiam ; quod
+            est inconveniens. Si penes id in quo sunt, cum ergo triplex sit in nobis potentia
+            secundum quam consistit imago, triplex deberet esse clavis : una in memoria, alia in
+            intelligentia, tertia in voluntate ; vel si non est in istis, sed in viribus, cum tres
+            sint vires in quibus sunt tres virtutes, deberent tunc igitur esse tres claves : una in
+            rationali, alia in concupisciblli et tertia in irascibili. Si autem distinguuntur penes
+            id ad quod, sed illud est unum, scilicet aperire regnum : ergo etc. Si tu dicas quod
+            sunt ad solvendum et ligandum, et ita ad duo, contra : ad virtutem requiritur scire et
+            velle et perseveranter operari ; sed scire et velle virtutem non plurificant, immo sunt
+            in una virtute : ergo pari ratione discernere et solvere. </p>
+        </div>
+        <div xml:id="bb-d4e24353-Dd1e154">
+          <head xml:id="bb-d4e24353-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e24353-Hd1e159" type="question-title">In auctoritate sacerdotibus commissa duae sunt claves,
+            scilicet potestas discernendi causam et sententiandi, concurrentes in unam plenam
+            auctoritatem et in uno ordine datae</head>
+          <p xml:id="bb-d4e24353-d1e162">Respondeo : Ad praedictorum intelligentiam est notandum, quod distinctio clavium
+            praedictarum diversimode sumitur a diversis. Quidam enim distinctionem harum clavium
+            sumunt penes id a quo sunt et ad quod finaliter reducunt. Dicunt enim quod, sicut in
+            angelis est hierarchia descendens ab hierarchia supercaelesti et ad illam ascendens et
+            rediens, sic est in militante Ecclesia. In angelis autem hierarchia, sicut dicit
+            Dionysius, est ordo, scientia et actio, id est potestas ordinata scientia et actione,
+            ita quod potestas respondet Patri, et haec apparet in Thronis ; scientia Filio, et haec
+            apparet in Cherubim ; et actio sive opus Spiritui Sancto, et haec apparet in Seraphim.
+            Per hunc modum est intelligere in hierarchia ecclesiastica, quae maxime consistit penes
+            sacramentum Ordinis, in quo confertur potestas ordinata scientia et actione ; et hanc
+            dicunt potestatem clavium, quae complectitur actum discernerdi et solvendi, ita quod
+            potestas respondeat Patri et scientia Filio et opus Spiritui Sancto. Et secundum hos
+            sunt in sacerdote tres potestates : una principalis et prima, quae est ipse Ordo ut
+            potestas conficiendi ; secunda est potestas discernendi et tertia absolvendi ; ut sic
+            appareat perfectissima pulcritudo in ordine ecclesiastico secundum repraesentationem
+            illius superioris perfectissimae Trinitatis. Si autem tu quaeras ab his : quare potestas
+            conficiendi non est clavis ? respondent tibi, quia non est ad alterum sicut illae duae,
+            sicut videbitur infra. Et haec quidem positio satis probabilis videtur esse.</p>
+          <p xml:id="bb-d4e24353-d1e165">Alii sumunt rationem distinguendi penes id in quo sunt et contra quod sunt Dicunt enim
+            quod hae duae claves respiciunt intellectum et affectum, removendo duplex malum nobis
+            infliatum, scilicet errorem per scientiam et difficultatem per absolvendi potentiam. Sed
+            iste modus minus probabilis est quam primus tum quia secundum rectam viam distinctionem
+            clavium non inquirit ; tum quia, etsi scientia sit in intellectu, tamen auctoritas
+            discernendi in eadem potentia est ; ut videtur aperte, cum auctoritate solvendi sive
+            sententiandi. Non autem recte sumit rationem distinctionis : claves enim non dantur
+            sacerdoti ut sint in remedium sibi ; sed ut sint directae in remedium. aliis. In hoc
+            tamen concordat cum prima, quod duae sunt claves secundum completam distinctionem.</p>
+          <p xml:id="bb-d4e24353-d1e168">Tertius modus distinguendi claves est penes id ad quod immediate sunt. In foro autem
+            poenitentiali duo sunt, quemadmodum in foro iudiciali. In illo enim sunt isti duo actus,
+            scilicet discernere causam et postmodum sententiare ; et isti sunt actus diversi, et ad
+            hoc quod plene cominittatur alicui auctoritas, necesse est utrumque committi, alioquin
+            plenam non habet auctoritatem ; est tamen duplex auctoritas concurrens in unam plenam,
+            quod patet, quia eam contingit dividi. Committit enim aliquando dominus Papa aliquibus
+            ut causam discutiant et instructam ante prolationem sententiae ad ipsum remittant ; et
+            hi habent auctoritatem discernendi, non sententiandi. Per hunc modum in auctoritate
+            sacerdotibus commissa est sentiendum, quod, cum sufficiens sit eis collata potestas
+            arbitrandi inter peccatorem et Deum, quod utramque habent auctoritatem ; et cum utraque
+            harum sit ordinata ad aperiendum caelum, utraque dicitur clavis, et sunt duae claves :
+            tamen, quia ex his constat una plena auctoritas, ideo in uno Ordine dantur et unum
+            respiciunt. Et sic patet quod sunt plures claves.</p>
+        </div>
+        <div xml:id="bb-d4e24353-Dd1e173">
+          <head xml:id="bb-d4e24353-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e24353-d1e178">Et patet responsio ad primum obiectum in contrarium de Ordinis unitate. Posset tamen
+            dici quod prima et unica potestas essentialis Ordini sacerdotali est potestas
+            conficiendi.</p>
+          <p xml:id="bb-d4e24353-d1e181">Ad illud quod obicitur, quod sunt ad unum, dicendum quod ad illud unum duplex actus
+            necessario requiritur, scilicet discretio culpae et solutio poenae, et in his duobus
+            duplex clavis consistit ; non ergo penes finem ultimum, sed penes immediatum habent
+            distinctionem.</p>
+          <p xml:id="bb-d4e24353-d1e184">Ad illud quod obicitur de apertione, dicendum secundum antiquos quod ad eamdem seram
+            aperiendam in corporalibus videmus duplicem clavem : unam, quae aperit viam, et dicitur
+            anticlavis ; et aliam, quae directe aperit, et haec dicitur principalis clavis. Sic in
+            spiritualibus scientia est sicut anticlavis quae dirigit iudicium, et potestas solvendi
+            principalis clavis.</p>
+          <p xml:id="bb-d4e24353-d1e187">Ad illud quod quaeritur penes quid distinguuntur ? dicendum quod penes illud ad quod
+            immediate sunt, scilicet discernere de culpa et solvere a poena ; non penes hos actus
+            solvere et ligare. Et si tu obicias quod scientia et operatio faciunt duas virtutes,
+            dicendum quod scientia est duplex : una per modum praxis et experientiae, et haec est in
+            qualibet virtute et est eis essentialis ; alia vero est per modum cuiusdam directionis -
+            sicut prudentia, quae, ut dicit <name ref="#Bernard">Bernardus</name>, <quote xml:id="bb-d4e24353-Qd1e192">est auriga
+              virtutum</quote>, et fides etiam est directiva theologicarum - et sic distinguitur ab
+            his quae circa opus consistunt. Sic intelligendum est in proposito. Et si tu quaeras a
+            me : quare non sunt tot potestates, quot sunt vitia a quibus solvunt ? dicendum quod ab
+            omnibus illis solvunt secundum unam rationem et unum actum et modum consimilem ; et ideo
+            non oportet sic multiplicari.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

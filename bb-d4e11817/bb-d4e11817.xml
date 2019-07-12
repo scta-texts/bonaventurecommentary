@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e11817">
+        <head xml:id="bb-d4e11817-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e11817-Hd1e111" type="question-title">Utrum in sacramento Eucharistiae sit vera conversio panis in
+          corpus Christi.</head>
+        <div xml:id="bb-d4e11817-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e11817-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e11817-d1e119">Circa primum sic proceditur, et quod sit ibi vera conversio panis in corpus Christi,
+            videtur : Primo per ipsam formam, quia, cum dicitur : <quote xml:id="bb-d4e11817-Qd1e121">Hoc est corpus
+            meum</quote>, aut falsum dicit Veritas aut panem convertit in corpus ; sed non dixit
+            falsum : ergo etc.</p>
+          <p xml:id="bb-d4e11817-d1e125">Item, hoc ipsum probatur auctoritate Doctorum, auctoritate <name ref="#Ambrose">Ambrosii</name> scilicet et Eusebii et <name ref="#Augustine">Augustini</name> et
+            Damasceni : panis et vinum supernaturaliter in corpus et sanguinem transit.</p>
+          <p xml:id="bb-d4e11817-d1e134">Item, ratione videtur, quia constat et verum est quod corpus Christi secundurn.
+            veritatem est in altari ; et prius non fuit : ergo secundum aliquam mutationem sui vel
+            alterius. Non sui, quia est immutabile. Non alterius nisi panis : ergo etc. Si dicas
+            quod corpus Christi est mutabile secundum locum, quia haec est mutatio entis completi,
+            et haec est in corpore Christi ; contra : omne quod mutatur secundum locum, si accedit
+            ad unum, recedit ab altero ; ergo secundum hoc Christus recedit a caelo. Praeterea,
+            nihil quod mutatur secundum locum, simul tendit ad differentias diversas positionum ;
+            sed simul consecratur corpus Christi Romae et Parisius : ergo, si corpus Christi movetur
+            Romam; non ergo Parisius: ergo etc.</p>
+          <p xml:id="bb-d4e11817-d1e137">Contra : <name ref="#GregoryGreat">Gregorius</name> dicit, et habetur in littera :
+              <quote xml:id="bb-d4e11817-Qd1e142">Quis fidelium habere dubium possit in hora immolationis caelos aperiri, summa
+              et ima sociari</quote> : sed haec non fierent, si aliquid in corpus Christi
+            converteretur, immo videtur secundum <name ref="#GregoryGreat">Gregorium</name> quod
+            descendat : ergo ibi non est conversio.</p>
+          <p xml:id="bb-d4e11817-d1e150">Item, Damascenus :<quote xml:id="bb-d4e11817-Qd1e152" source="http://scta.info/resource/jddfo-l4c13">Quia consuetudo
+              est hominibus comedere panem et bibere vinum, coniugavit eis Divinitatem et fecit ea
+              Sacramentum corporis et sanguinis sui</quote>. Si coniugavit illis divinitatem, ergo
+            salvantur in sua natura : non ergo convertuntur in aliud.</p>
+          <p xml:id="bb-d4e11817-d1e156">Item, ratione videtur quia, si aliquid convertitur in corpus Christi, aut quod est aut
+            quod non est. Si quod non est, ergo corpus de novo fit : ergo plura corpora simul. Si
+            quod est, sed quandocumque aliquid convertitur in id quod est, augetur : ergo corpus
+            Christi consecratione sive conversione fit maius.</p>
+          <p xml:id="bb-d4e11817-d1e159">Item, in nullo alio sacramento elementum convertitur in id quod significat, sed
+            sufficit illud adesse : ergo videtur quod similiter debeat esse in hoc Sacramento.</p>
+          <p xml:id="bb-d4e11817-d1e162">Item, miracula non sunt ponenda, ubi aeque bene potest fieri sine miraculo ; sed corpus
+            Christi, cum sit gloriosum, simul cum pane potest esse et idem faciet ac si panis
+            converteretur ; quod non potest esse sine miraculo : ergo etc.</p>
+          <p xml:id="bb-d4e11817-d1e165">Item, in nullum corpus convertitur cibus nisi quod indiget refectione ; sed corpus
+            Christi non est tale : ergo etc. Si dicas quod non absorbet ut terra, sed ut radius
+            aquam, scilicet non indigentia, sed potentia ; contra : radius non convertit aquam in
+            se, ergo nec Christus panem in corpus suum.</p>
+        </div>
+        <div xml:id="bb-d4e11817-Dd1e169">
+          <head xml:id="bb-d4e11817-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e11817-Hd1e174" type="question-title">In sacramento eucharistiae est conversio panis in corpus
+            Christi, non in partem, sed in totum</head>
+          <p xml:id="bb-d4e11817-d1e177">Respondeo : Sicut dicit <name ref="#Lombard">Magister</name>, quorumdam fuit positio
+            quod non est ibi aliqua conversio, sed ad invocationem verborum sine conversione fit
+            divina virtute ut corpus Christi sit ibi. Sed haec positio contraria est Sanctorum
+            auctoritati et rationi. Rationi quidem, quia aufert sacramenti veritatem, congruitatem
+            et utilitatem : veritatem, quia ponit ex hoc falsitatem in forma ; ponit etiam
+            mutationem circa Christi substantiam, sicut probatum est in opponendo. Congruitatem
+            tallit, quia, cum manet ibi panis, non est adeo ductivum in alterum sicut cum manent
+            sola accidentia, quae dependent et per se stare non possunt. Utilitatem etiam, quia, dum
+            possibilitatem et rationem quaeri, minuit meritum fidei.</p>
+          <p xml:id="bb-d4e11817-d1e183">Propter hoc igitur haec positio est reprobanda et neminem habet ex doctoribus
+            defensorem ; immo communiter tenet Ecclesia quod est ibi conversio panis in corpus
+            Christi, non, inquam, in partem corporis, sed in totum.</p>
+        </div>
+        <div xml:id="bb-d4e11817-Dd1e187">
+          <head xml:id="bb-d4e11817-Hd1e189">Ad rationes</head>
+          <p xml:id="bb-d4e11817-d1e192">1-2. Ad illud ergo quod obicitur primo de verbo <name ref="#GregoryGreat">Gregorii</name>, dicendum quod sermo ille est tropicus, et dicuntur caeli aperiri,
+            quia divina bonitas large nobis tunc tribuit panem caelestem. Summa etiam et ima dicit
+            sociari propter corporis Christi praesentiam. Et rursus, per manus angelorum dicitur
+            deferri quantum ad devotionem offerentis, qui mittit sacrificium, et orationem in caelum
+            quam ad angelos spectat Domino praesentare ; sed hoc in litteralibus patebit. Quod autem
+            dicit Damascenus, intelligendum est quantum ad continentiam specierum visibilium vel in
+            ratione conversionis substantiae panis, quia panis convertitur in corpus Divinitati
+            unitum et species post conversionem continent illud, et sic Divinitas utrisque dicitur
+            coniugari.</p>
+          <p xml:id="bb-d4e11817-d1e198">Ad aliud patet responsio, quia totum in totum convertitur, ideo nec fit novum nec fit
+            maius ; illud autem intelligitur, si in parte converteretur.</p>
+          <p xml:id="bb-d4e11817-d1e201">Ad illud quod obicitur de aliis sacramentis, patet similiter responsio quod non est
+            simile, quia hoc est maius quantum ad rem contentam. Praeterea, in aliis res est gratia
+            quae creatur ; sed corpus Christi non creatur tunc in Sacramento.</p>
+          <p xml:id="bb-d4e11817-d1e204">Ad illud quod obicitur de miraculo, patet similiter, quia miraculum ponitur hic propter
+            veritatem Sacramenti et congruitatem et etiam utilitatem, sicut visum est.</p>
+          <p xml:id="bb-d4e11817-d1e208">Ad ultimum quod obicitur de cibo et cibabili, dicendum quod panis non convertitur in
+            corpus Christi sicut cibus in cibabile : nec corpus Christi convertitur in se, sed Deus
+            convertit, ut ubi erat panis, qui est cibus corporalis, sit corpus Christi, non per
+            transmutationem in corpore factam, sed in pane in ipsum prius existens transeunte.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4387">
+        <head xml:id="bb-d4e4387-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e4387-Hd1e111" type="question-title">Utrum Baptismus in omnibus aequalem habeat efficaciam.</head>
+        <p xml:id="bb-d4e4387-d1e114">Tertio quaeritur utrum digne recipientes sacramentum Baptismi, omnes et aequaliter
+          recipiant eius efficaciam.</p>
+        <div xml:id="bb-d4e4387-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e4387-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e4387-d1e122">Et quod sic, videtur : <name ref="#Augustine">Augustinus</name>, in libro De unico
+            Baptismo : <quote xml:id="bb-d4e4387-Qd1e127">Baptizari alius alio magis non dicitur vel minus</quote>. Ergo
+            aequaliter.</p>
+          <p xml:id="bb-d4e4387-d1e131">Item, ratione videtur, quia Baptismus restituit quemlibet ad plenam innocentiam, ita
+            quod baptizatus statim evolaret, si moreretur ; sed unus non est altero innocentior :
+            ergo etc.</p>
+          <p xml:id="bb-d4e4387-d1e134">Item, Baptismus habet efficaciam a passione Christi ; sed Christus aequaliter se
+            obtulit pro omnibus : ergo et sacramentum aequaliter habet efficaciam in omnibus.</p>
+          <p xml:id="bb-d4e4387-d1e137">Item, quaero : in quo maiorem habet efficaciam, aut in eo qui magis peccavit aut in eo
+            qui minus ? Quod in eo qui magis, videtur, quia utrique totum remittitur, et illi magis
+            qui peccavit amplius. Sed quod in eo qui minus, videtur, quia ille est gratia dignior :
+            ergo etc.</p>
+          <p xml:id="bb-d4e4387-d1e141">Contra : Dicitur Matthaei 25, 15 : <quote xml:id="bb-d4e4387-Qd1e143" ana="#mt25_15">Dedit unicuique secundum
+              propriam virtutem</quote> ; sed unus est plus dispositus quam alter : ergo unus plus
+            accipit a Deo in Baptismo quam alter.</p>
+          <p xml:id="bb-d4e4387-d1e147">Item, Damascenus : <quote xml:id="bb-d4e4387-Qd1e149">Peccatorum omnibus similiter per Baptismum venia datur,
+              gratia autem secundum proportionem fidei et praepurgationem</quote>.</p>
+          <p xml:id="bb-d4e4387-d1e153">Item Deus est dator gratiae in Baptismo ; constat quod voluntarius et rationalis ; sed
+            ratio dictat eum qui donat, secundum quod melius invenit aliquem dispositum, plus ei
+            donare : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e4387-Dd1e157">
+          <head xml:id="bb-d4e4387-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e4387-Hd1e162" type="question-title">Effectus baptismi quoad characteris impressionem et
+            innocentiae restitutionem in omnibus aequalis est; mensura tamen gratiae in adultis
+            secundum eorum dispositionem est maior vel minor, at eadem gratia omnia, etiam plurima
+            peccata delet.</head>
+          <p xml:id="bb-d4e4387-d1e165">Respondeo : Dicendum quod, sicut supra dictum est, prima res Baptismi est character,
+            secunda est infusio gratiae, tertia est restitutio innocentiae. Quantum ad characterem
+            non est magis vel minus ; unus enim alio non est magis baptizatus. Quantum ad tertium,
+            scilicet innocentiam, aequaliter, quia unus non est magis innocens alio. Quantum ad
+            medium vero, quod est gratIa, dicendum quod est magis et minus. Sed gratia duplicem
+            habet actum, scilicet delere peccatum et habilitare ad bonum. Quantum ad deletionem
+            peccati, maiorem habet effectum in eo qui plura commisit ; sed tamen non propter hoc est
+            maior, quia modica gratia potest delere omnem culpam. Quantum vero ad habilitationem ad
+            bonum, in eo qui magis se disposuit maiorem habet efficaciam, et praeterea ipsa est
+            maior, quia ex hac parte attenditur augmentum gratiae.</p>
+        </div>
+        <div xml:id="bb-d4e4387-Dd1e170">
+          <head xml:id="bb-d4e4387-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e4387-d1e175">Per hoc patent omnia praeter illud de passione, ad quod dicendum quod, etsi Christus
+            pro omnibus passus est, non tamen habet passio eius in omnibus efficaciam, quia non
+            omnes se disponunt ; sic, etsi aequaliter passus est, non tamen habet aequalem in
+            omnibus efficaciam, quia non omnes aequaliter se disponunt ; sed qui propinquius accedit
+            magis accipit, sicut ad ignem.</p>
+          <p xml:id="bb-d4e4387-d1e178">1-2. Primae duae rationes currunt secundum illam viam secundum quam est aequalitas,
+            scilicet characteris et innocentiae.</p>
+          <p xml:id="bb-d4e4387-d1e181">B.- Ad illud quod quaeritur cui plus donat, vel ei qui plus peccat vel ei qui minus,
+            dicendum quod quantum ad remissionem culpae et dimissionem poenae ei qui plus. Quantum
+            vero ad habilitationem ad bonum potest esse et sic et aliter, secundum quod magis se
+            disponit et Deus acceptat, quia frequenter, ubi abundavit delictum, superabundavit et
+            gratia. Tamen, ceteris paribus, minor praeparatio eius qui minus peccavit pro maiori
+            reputanda est ei ; unde credo eum magis dispositum ad gratiam. Et si tu obicias : <quote xml:id="bb-d4e4387-Qd1e183" ana="#lc7_47">Cui plus dimittitur plus diligit</quote>, Lucae 7, 47, dicendum quod
+            illud non ponltur quia ita sit semper, sed quia de bono et aequo debet plus diligere ex
+            dimisso ; sed non oportet quod plus diligat ex bono dato et commisso. Et sic patent
+            omnia circa haec quaesita.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

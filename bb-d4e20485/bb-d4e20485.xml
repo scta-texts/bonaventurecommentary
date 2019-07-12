@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20485">
+        <head xml:id="bb-d4e20485-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e20485-Hd1e111" type="question-title">Utrum oporteat poenitere de originali peccato.</head>
+        <div xml:id="bb-d4e20485-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e20485-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e20485-d1e119">Circa primum, quod non sit necesse poenitere de originali, videtur : Quia potentior est
+            vis regenerativa sacramenti quam vis, propagativa hominis corrupti ; sed per
+            propagationem sine delectatione transfunditur originale : ergo, ab oppositis, immo multo
+            fortius, per sacramentum sine dolore deletur.</p>
+          <p xml:id="bb-d4e20485-d1e122">Item, omnis poenitentia est respectu voliti, non enim poenitet homo de eo quod noluit ;
+            sed originale nunquam fuit voluntarium : ergo de illo non est necessaria
+            poenitentia.</p>
+          <p xml:id="bb-d4e20485-d1e125">Item, omnis poenitentia est in actu volente ; sed originale est in parvulo, in quo est
+            morbus et remedium : ergo non oportet ipsum poenitere, cum non possit actu velle.</p>
+          <p xml:id="bb-d4e20485-d1e128">Item, omnis poenitentia est respectu actus proprii ; poenitet enim homo de eo quod
+            fecit, non de alieno ; sed originale est per actum alienum : ergo etc</p>
+          <p xml:id="bb-d4e20485-d1e132">Item, Baptismus ordinatur contra originale ; sed non sunt duo remedia contra idem :
+            ergo poenitentia non est remedium contra originale.</p>
+          <p xml:id="bb-d4e20485-d1e135">Contra : De eo de quo iuste arguitur homo ab alio, iuste arguitur a se ipso ; sed <name ref="#Augustine">Augustinus</name> dicit, in libro De correctione et gratia, quod
+            peccator pro originali est arguendus : ergo peccator debet arguere se ipsum ; sed homo
+            de culpa arguit se ipsum per poenitentiam : ergo etc.</p>
+          <p xml:id="bb-d4e20485-d1e141">Item, sicut ira per zelum detestatur homo omnem iniustitiam in alio, ita poenitentia
+            omnem iniustitiam in se ipso ; sed originale est iniustitia in homine : ergo est
+            detestanda per poenitentiam, et sic etc.</p>
+          <p xml:id="bb-d4e20485-d1e144">Item, omnis qui vult Deo reconciliari, necesse habet detestari omne quod a Deo separat
+            ; sed originale separat : ergo etc.</p>
+          <p xml:id="bb-d4e20485-d1e147">Item, de peccato de quo iuste punitur a Deo debet poenitens punire se ipsum ; sed pro
+            originali iuste punitur homo a Deo poena carentiae, quae est maxima poena, quia maximum
+            damnum : ergo pro eo debet se punire.</p>
+        </div>
+        <div xml:id="bb-d4e20485-Dd1e151">
+          <head xml:id="bb-d4e20485-Hd1e153">Responsio</head>
+          <head xml:id="bb-d4e20485-Hd1e156" type="question-title">Quad adultos scientes, se habere peccatum originale, congruum
+            est, ut hoc eis actu displiceat, tamen non est is necessarium de eo conteri et
+            poenitere</head>
+          <p xml:id="bb-d4e20485-d1e159">Respondeo : Dicendum quod de originali peccato est loqui communiter etspecialiter.
+            Communiter, ut est in omnibus ; et sic ad eius deletionem non requiritur aliquis actus
+            ex parte eius in quo est, ut patet in parvulo. Est etiam loqui specialiter, quantum ad
+            adultos qui se habere nesciunt ; et quantum ad hos non oportet quod aliquis actus
+            detestationis interveniat. Est iterum loqui quantum ad adultos qui se habere sciunt ; et
+            quantum ad tales congruum est ut sibi displiceat ; congruum, inquam, quod displiceat non
+            in speciali, sed in generali, quia debet displicere omne quod a Deo separat ; conteri
+            autem non est necessarium.</p>
+          <p xml:id="bb-d4e20485-d1e162">Ratio autem quare non est necesse ut conteratur, est, quia non est actu nostro
+            commissum ; et sic, licet in adulto sit talis originalis displicentia, non tamen est
+            poenitentia, quia poenitentia, sicut ostensum est, proprie est respectu voliti.</p>
+          <p xml:id="bb-d4e20485-d1e165">Rationes igitur probantes quod non est necessaria poenitentia ad deletionem originalis,
+            verae sunt et concedendae. Rationes omnes ad oppositum procedentes probant quod congruum
+            est, ut originale displiceat adulto, ne velit amplius in illo remanere ; sed quod
+            teneatur se affligere, non concludunt, vel etiam poenitere.</p>
+        </div>
+        <div xml:id="bb-d4e20485-Dd1e169">
+          <head xml:id="bb-d4e20485-Hd1e171">Ad rationes</head>
+          <p xml:id="bb-d4e20485-d1e174">Quod enim obicitur, quod arguendus est pro originali, non intelligitur quia ipsum
+            contraxit, sed ne in ipso velit permanere.</p>
+          <p xml:id="bb-d4e20485-d1e177">Ad illud quod obicitur, quod poenitentia est detestandum omne malum nostrum, dicendum
+            quod verum est : actum, non contractum ; similiter videtur de ira per zelum in
+            proximo.</p>
+          <p xml:id="bb-d4e20485-d1e180">Ad illud quod obicitur, quod debet detestari omne malum quod separat a Deo, dicendum
+            quod verum est, si quod sit ex propria voluntate introductum ; et esto quod detestetur,
+            non propter hoc poenitens dicitur.</p>
+          <p xml:id="bb-d4e20485-d1e183">Ad illud quod obicitur, quod debet se punire de omni eo de quo iuste punitur a Deo,
+            dicendum quod hoc verum esset, si Deus poena sensus puniret vel etiam Baptismus non
+            sufficeret ; nunc autem Deus non punit poena sensus et Baptismus sine omni poena
+            satisfactoria sive assumpta absolvit, sicut melius supra visum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

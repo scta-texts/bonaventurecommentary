@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e14595">
+        <head xml:id="bb-d4e14595-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e14595-Hd1e111" type="question-title">Utrum teneamur accedere ad sacramentum Eucharistiae.</head>
+        <div xml:id="bb-d4e14595-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e14595-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e14595-d1e119">Circa primum ostenditur quod sit necesse ad hoc Sacramentum accedere, hoc modo :
+            Ioannis 6, 54 : <quote xml:id="bb-d4e14595-Qd1e121" ana="#io6_54">Nisi manducaveritis carnem Filii hominis et
+              biberitis eius sanguinem, non habebitis</quote> etc.</p>
+          <p xml:id="bb-d4e14595-d1e125">Item, Ecclesia excommunicat non accedentes ad hoc sacramentum determinatis temporibus ;
+            sed non excommunicat pro veniali culpa vel levi : ergo gravis culpa est non accedere ;
+            et si hoc, necesse est accedere.</p>
+          <p xml:id="bb-d4e14595-d1e128">Item, Innocentius : <quote xml:id="bb-d4e14595-Qd1e130" source="http://scta.info/resource/hy7y7y-d1e1885">Necessario
+              manducandus est Agnus, ut a vastante Angelo protegamur ; nec exire possumus de Aegypto
+              nisi celebrando phase paschatem Agnum comedamus</quote>. Et ante hoc dicit quod
+            necesse est quod homo se praeparet, ne cessando sumere incurrat periculum.</p>
+          <p xml:id="bb-d4e14595-d1e134">Item, de sacerdote specialiter ostenditur : ut dicit <name ref="#Ambrose">Ambrosius</name>, in quadam oratione : Grave est quod ad mensam tuam mundo corde et
+            innocentibus manibus non venimus ; sed gravius est, si, quia peccata metuimus,
+            sacrificium non reddamus ; sed primum mortale : ergo et secundum.</p>
+          <p xml:id="bb-d4e14595-d1e141">Item, ratione videtur, quia sacerdoti impositum est officium ; sed officium sine usu
+            est otiosum ; et amplius, qui habet talentum tenetur illo uti, ne damnetur cum servo
+            nequam : ergo tenetur sacrificium offerre. Et est exemplum : si aliquis habet officium
+            praedicandi sibi impositum et videret expedire exsecutionem et negligeret, graviter
+            peccaret.</p>
+          <p xml:id="bb-d4e14595-d1e144">Contra : <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e14595-Qd1e149" source="http://scta.info/resource/iuy75t-d1e247">Quid paras dentem et ventrem ? Crede,
+              et manducasti</quote>. Si ergo sufficit ad manducationem credere, non ergo tenemur
+            sumere Sacramentum.</p>
+          <p xml:id="bb-d4e14595-d1e153">Item, effectus huius sacramenti est deletio venialium et augmentum virtutum ; sed
+            neutrum est de necessitate salutis : ergo etc.</p>
+          <p xml:id="bb-d4e14595-d1e156">Item, si necesse esset accedere, ergo parvuli qui non accedunt nec manducant omnes
+            damnarentur.</p>
+        </div>
+        <div xml:id="bb-d4e14595-Dd1e160">
+          <head xml:id="bb-d4e14595-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e14595-Hd1e165" type="question-title">Eucharistiae sumtio non est de neccessitate, quantum est de
+            sua institutione; est tamen necessaria ex officio assumpto, vel ex praecepto
+            superaddito</head>
+          <p xml:id="bb-d4e14595-d1e168">Respondeo : Dicendum quod sacramentum hoc non est de necessitate, quantum est de sua
+            institutione ; sed si est, hoc est ex assumpto officio vel mandato superaddito : ex
+            assumpto officio, quod scilicet necessarium est exsequi, ut cum sacerdos vivit de
+            altari, ut parochianus, debet servire altari ; si autem non vivat de altari, sed in
+            libertate sua remaneat, non tenetur magis quam alius homo ex debito, sed magis de bono
+            et aequo. Ex mandato superaddito, quod instituit Ecclesia, ut fideles communicarent
+            semel in anno et in morte. Unde, si quis negligit, non est sine contemptu ; ideo peccat
+            mortaliter.</p>
+          <p xml:id="bb-d4e14595-d1e171">Ratio autem quare Ecclesia instituit est, quia hoc Sacramentum est salubre et multi
+            erant negligentes de sua salute. Institutio autem Ecclesiae fuit sub praecepto, ut
+            patet, in Decretali De poenitentiis, libro ultimo : <quote xml:id="bb-d4e14595-Qd1e173" source="http://scta.info/resource/nhyjhg-d1e214">Omnis utriusque sexus fidelis, cum ad
+              annos discretionis pervenerit, recipiat reverenter ad minus in Pascha Eucharistiae
+              sacramentum, nisi forte de proprii sacerdotis consilio, ob aliquam rationabilem
+              causam, ab eius perceptione ad tempus duxerit abstinendum ; alioquin et vivens ab
+              ingressu ecclesiae arceatur et moriens christiana careat sepultura</quote>. Constat
+            autem quod haec est poena excommunicatorum. Ex his patent obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e14595-Dd1e178">
+          <head xml:id="bb-d4e14595-Hd1e180">Ad rationes</head>
+          <p xml:id="bb-d4e14595-d1e183">Nam verbum Ioannis, sive Domini in Ioanne, intelligitur de manducatione spirituali,
+            quae est per fidem et caritatem, sine qua nemo adultus salvatur ; et haec etiam est in
+            parvulo aliquo modo quantum ad incorporationem.</p>
+          <p xml:id="bb-d4e14595-d1e186">2-3. Ad illud quod obicitur de Ecclesia, patet responsio : quia, Ecclesia instituit, et
+            ut institutio esset firma, addidit poenam. Similiter illud Innocentii intelligitur aut
+            de manducatione spirituali aut de sacramentali ratione institutionis Ecclesiae.</p>
+          <p xml:id="bb-d4e14595-d1e189">Ad illud quod quaeritur de sacerdote, dicendum quod, si sacerdos est qui habet curam,
+            tenetur nisi alius eius defectum suppleat.</p>
+          <p xml:id="bb-d4e14595-d1e192">Ad illud quod obicitur de <name ref="#Ambrose">Ambrosio</name>, dicendum quod loquitur
+            de talibus qui tenentur ; vel si de omnibus, tunc loquitur de immunditia veniali, non
+            mortali.</p>
+          <p xml:id="bb-d4e14595-d1e199">Ad aliud dicendum quod officium sacerdotale non imponitur ut homo necessario
+            exsequatur, sed pro loco et tempore, ut sibi videbitur expedire ; et ideo, si
+            conscientia dictat quod sit abstinendum ob sui indignitatem et reverentiam Sacramenti,
+            non peccat ; nec etiam praedicator, nisi quando videt imminere periculum, vel officium
+            per obedientiam est ei iniunctum, ut illud exsequatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

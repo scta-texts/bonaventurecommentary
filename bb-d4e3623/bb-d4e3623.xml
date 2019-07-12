@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e3623">
+        <head xml:id="bb-d4e3623-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e3623-Hd1e111" type="question-title">Quantum baptizandus debeat immergi.</head>
+        <p xml:id="bb-d4e3623-d1e114">Secundo quaeritur, quantum oporteat parvulum immergi ad hoc quod sit Baptismus.</p>
+        <div xml:id="bb-d4e3623-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e3623-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e3623-d1e122">Et quod totum corpus videtur: Quia signum est passionis et mortis : ergo, si Christus
+            totus passus et mortuus, totus homo necessario immergitur.</p>
+          <p xml:id="bb-d4e3623-d1e125">Item, Baptismus est remedium contra concupiscentiam ; sed concupiscentia est in toto
+            corpore, quia tota caro est infecta : ergo etc.</p>
+          <p xml:id="bb-d4e3623-d1e128">Item, si sufficeret, aliquam partem mergi, cum pars, per quam transfusum est originale
+            et in qua viget concupiscentia, sint membra genitalia, magis sufficeret illam partem
+            immergi quam aliam ; sed nullus dicit quod sufficiat : ergo debet immergi totum.</p>
+          <p xml:id="bb-d4e3623-d1e131">Contra : Apostoli baptizaverunt tria millia hominum una die ; et constat quod non
+            mergendo, quia non haberent aquam, ergo aspergendo ; sed aspergi non potest totus homo :
+            ergo etc.</p>
+          <p xml:id="bb-d4e3623-d1e135">Item, scribitur in passione beati Laurentii quod Romanus attulit urceum cum aqua ; et
+            tunc non fuit immersus, hoc patet : ergo etc.</p>
+          <p xml:id="bb-d4e3623-d1e138">Item, esto quod puer semivivus esset et in periculo mortis, adhuc est de foro nostro :
+            ergo debet baptizari ; sed non totus propter periculum : ergo etc.</p>
+          <p xml:id="bb-d4e3623-d1e141">Item, esto quod sit ita parum de aqua quod non possit mergi nisi una pars, quaeritur
+            utrum possit baptizari. Quod sic, videtur, quia est ibi verbum et elementum, et
+            elementum habet virtutem regenerativam ut similitudinem, ergo et efficaciam : ergo non
+            est necesse, totum immergi.</p>
+        </div>
+        <div xml:id="bb-d4e3623-Dd1e145">
+          <head xml:id="bb-d4e3623-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e3623-Hd1e150" type="question-title">Baptismus potest ministrari aspergendo, convenientius autem
+            fit immergendo</head>
+          <p xml:id="bb-d4e3623-d1e153">Respondeo : Dicendum quod praesumitur quod Apostoli baptizaverunt aspergendo, et mos
+            ille servatur adhuc in pluribus Ecclesiis et maxime in Ecclesia Gallicana. Servari autem
+            potest propter hoc quod est ibi integra sacramenti ; et servari debet, cum necessitas
+            imminet, aut propter infirmitatem baptizantis, quia manus sunt debiles vel quia rudis
+            est, et timetur ne laedat , puerum ; vel propter infirmitatem vel impotentiam baptizati,
+            utpote si non esset totus natus ; vel propter penuriam elementi, ut si sit modicum de
+            aqua. Mos tamen communis Ecclesiae est baptizare immergendo, secundum quod tangit <name ref="#Lombard">Magister</name> in littera et Sancti dicunt. Et modus est iste :
+            sacerdos enim debet puerum tenere per latera et versa facie ad aquam debet mergere, ita
+            quod habeat caput primo versus orientem, secundo versus aquilonem, tertio versus
+            meridiem. Haec tamen ad solemnitatem spectant. Potest igitur utroque modo baptizari,
+            tamen convenientius et aptius et securius est baptizare immergendo. Et si est satis de
+            aqua, totum corpus debet immergi ; si parum, sufficit, si est tantum quod immergi possit
+            pars principalis, ut caput et pectus, vel caput tantum vel facies tantum ; quia ibi sunt
+            omnes sensus, et ibi maxime viget operatio animale, et secundum illam maxime attenditur
+            ratio imaginis secundum corpus, qualecumque sit ; et ratione totalitatis sensum
+            significat totalitatem mortis et curationis ; non si autem est de genitalibus membris.
+            Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

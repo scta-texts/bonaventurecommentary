@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e40166">
+        <head xml:id="bb-d4e40166-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e40166-Hd1e111" type="question-title">Utrum sacer Ordo Matrimonium impediat.</head>
+        <p xml:id="bb-d4e40166-d1e114">Secundo quaeritur, utrum sacer Ordo Matrimonium impediat.</p>
+        <div xml:id="bb-d4e40166-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e40166-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e40166-d1e122">Et quod sic, videtur : Per auctoritates multas, quas adducit <name ref="#Lombard">Magister</name> in littera, et sumuntur plures de distinctione 32.</p>
+          <p xml:id="bb-d4e40166-d1e128">Item, in <ref xml:id="bb-d4e40166-Rd1e130" target="http://scta.info/resource/cice-l3t3-d1e119">Extra, De clericis
+              coniugatis, Alexander III</ref> : <quote xml:id="bb-d4e40166-Qd1e133">Si in subdiaconatu et aliis superioribus
+              Ordinibus uxores accepisse noscuntur, eos uxores dimittere compellere
+              procuretis</quote>.</p>
+          <p xml:id="bb-d4e40166-d1e137">Item, omnis qui non vovet continentiam, est ineptus ad sacros Ordines ; sed qui habent
+            uxores sunt huiusmodi : ergo etc. Probatio maioris : <name ref="#GregoryGreat">Gregorius</name> dicit, et habetur in littera : Nullum subdiaconum facere praesumant
+            episcopi, nisi qui se promisit caste victurum. Ergo, si qui promittit in manu episcopi
+            continentiam, ipse vovet et tenetur, patet etc.</p>
+          <p xml:id="bb-d4e40166-d1e143">Item, in sacris Ordinibus ministrant circa altare ; sed sanctius est altare Novae Legis
+            et sacrificium quam Legis figurae ; sed sacerdos, cum ingrediebatur sancta sanctorum,
+            tenebatur a coniuge abstinere, sicut dicitur in Exodo : ergo multo fortius ministri
+            altaris nunc : ergo qui iugiter ministrant, nunquam debent mulieribus adhaerere.</p>
+          <p xml:id="bb-d4e40166-d1e147">Contra : Virtus nullam habet oppositionem cum virtute, ergo nec sacramentum cum
+            sacramento ; sed quod non habet oppositionem cum alio, non praestat ei impedimentum :
+            ergo Ordinis sacramentum nullo modo impedit Matrimonium.</p>
+          <p xml:id="bb-d4e40166-d1e150">Item, oppositio est relatio aequiparantiae : ergo, si unum sacramentum repugnat et
+            impedit susceptionem alterius, pari ratione et converso ; sed Matrimonium non impedit
+            susceptionem.Ordinis, quia multi coniugati promoti sunt in episcopos : ergo nec Ordo
+            sacer impedit Matrimonium.</p>
+          <p xml:id="bb-d4e40166-d1e153">Item, idem est Ordo apud nos et apud Ecclesiam orientalem ; sed apud illos Ordo non
+            impedit Matrimonium nec e converso : ergo nec apud nos. Si tu dicas quod apud nos est
+            superadiectum votum, ratione cuius impedit, tunc videtur quod impedimentum Ordinis non
+            differat ab impedimenta voti.</p>
+        </div>
+        <div xml:id="bb-d4e40166-Dd1e157">
+          <head xml:id="bb-d4e40166-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e40166-Hd1e162" type="question-title">Sacer ordo impedit matrimonium contrahendum et dirimit
+            contractum</head>
+          <p xml:id="bb-d4e40166-d1e165">Respondeo : Dicendum quod absque dubio, sicut sacri canones dicunt, sacer Ordo impedit
+            Matrimonium contrahendum : et dirimit iam contractum. Verumtamen quantum ad modum
+            dicendi sive intelligendi, inter doctores diversos diversitas opinionum resultat.</p>
+          <p xml:id="bb-d4e40166-d1e168">Quidam enim dicunt quod Ordo sacer impedit Matrimonium propter votum annexum, ad quod
+            obligatur qui suscipit Ordinem sacrum. Sed quoniam in susceptione Ordinis non videtur
+            voti emissio, aut si est emissio quantum ad factum, quamvis non sit quantum ad verbum,
+            non videtur tunc differre ab impedimenta voti, hoc falsum est, quia apud Graecos non est
+            votum continentiae ; quia illi sacerdotes licite utuntur uxoribus, et tamen nullus
+            potuit nec potest in sacris Ordinibus constitutus contrahere, sicut ex Synodo VI
+            habetur, quae celebrata fuit apud eos, in qua se huic statuto subiecerunt praeter votum
+            continentiae.</p>
+          <p xml:id="bb-d4e40166-d1e171">Ideo aliorum est opinio, quod Ordo praestat impedimentum ratione statuti ecclesiastici,
+            quod ligat clericos suscipientes Ordines ad nunquam contrahendum.</p>
+          <p xml:id="bb-d4e40166-d1e175">Sed quoniam auctoritates canonum inveniuntur, quae utrumque sonare videntur, et quod in
+            susceptione Ordinis est solemnizatio voti, ideo dicendum et melius quod, etsi apud
+            Graecos impediat, hoc non est nisi ratione statuti ; et sic impedivit, ut dicunt quidam,
+            a tempore Apostolorum ; tamen apud Latinos impedit et ratione statuti et ratione voti.
+            Sicut enim ordo monachor m et habitus continentiam habet annexam, per illum qui habitum
+            instititit et regulam edidit monachalem ; et ideo qui profitetur et suscipit habitum,
+            dicitur emittere votum consequenter : sic Ordo apud Latinos ex ecclesiastica
+            institutione habet inseparabiliter continentiam annexam ; et ideo qui illum suscipit,
+            spontanee se obligat, ita quod illa obligatio procedit ex statuto pariter et ex vota. Et
+            sic patet quod impedit et qualiter impedit.</p>
+        </div>
+        <div xml:id="bb-d4e40166-Dd1e180">
+          <head xml:id="bb-d4e40166-Hd1e182">Ad rationes</head>
+          <p xml:id="bb-d4e40166-d1e185">Ad illud ergo quod obicitur, quod virtus cum virtute non habet oppositionem, dicendum
+            quod verum est quantum ad habitum ; sed tamen status ali,quando sunt incompossibiles, ut
+            coniugalis et virginalis. Et quoniam sacramenta diversa status diversos respidunt, ut
+            Ordo statum continentiae virginalis vel vidualis, Matrimonium statum continentiae
+            coniugalis hinc est quod impedit, sicut status saecularis et religiosus suo modo
+            opponuntur.</p>
+          <p xml:id="bb-d4e40166-d1e188">Ad illud quod obicitur, quod Matrimonium non impedit Ordinem, dicendum quod verum est,
+            si uxor fuit virgo et vult continere ; sed tamen non est simile, quia processus in
+            virtutibus est a statu imperfectiori ad perfectiorem, sed non debet esse reditus ; et
+            quoniam Matrimonium collocat in statu imperfectionis, Ordo vero in statu perfectionis ;
+            ideo etc., sicut de saeculo ad religionem licet ascendere, non descendere.</p>
+          <p xml:id="bb-d4e40166-d1e191">Ad illud quod obicitur ultimo, iam patet responsio, quia statutum Ecclesiae abundantius
+            arctat Latinos quam Graecos, licet illos aliquo modo arctet ; et hoc, quia Latini
+            voluerunt se subicere et plicare, Graeci vero in sua ruditate remanere, et ideo usque
+            hodie in suis faecibus remanserunt. Patet etiam quod non solum ratione voti impedit, sed
+            etiam ratione statuti ecclesiastici.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

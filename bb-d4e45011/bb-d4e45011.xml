@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e45011">
+        <head xml:id="bb-d4e45011-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e45011-Hd1e111" type="question-title">Utrum in conscientia legantur omnia merita.</head>
+        <p xml:id="bb-d4e45011-d1e114">Quantum ergo ad primum proceditur sic, et ostenditur quod omnia legentur in libris
+          conscientiae.</p>
+        <div xml:id="bb-d4e45011-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e45011-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e45011-d1e122">Augustinus, <ref xml:id="bb-d4e45011-Rd1e124">De civitate Dei, XX</ref>, dicit quod <quote xml:id="bb-d4e45011-Qd1e127">vis divina aderit, qua
+              fiet ut omnia ad memoriam revocentur</quote>.</p>
+          <p xml:id="bb-d4e45011-d1e131">Item, hoc ipsum videtur ratione, quia lectio est ut sciatur quantitas meritorum ; sed
+            meritum hominis sic legitur ut sciatur quot et quanta bona et quot mala et quanta
+            fecerit : ergo, si ibi plene ostendetur iustitia, patet quod omnia ibi debent legi.</p>
+          <p xml:id="bb-d4e45011-d1e134">Item, Dei iustitia declarabitur ibi summe et quantum ad retributionem gloriae et poenae
+            : ergo merita debent summe declarari ; sed non possunt nisi omnia bona et mala ad
+            memoriam revocentur : ergo etc.</p>
+          <p xml:id="bb-d4e45011-d1e137">Contra : Quod non omnia, videtur : Quia ibi erit tantum memoria eorum de quibus erit
+            retributio ; sed pro malis, de quibus fuit poenitentia, non retribuetur ; pro bonis, in
+            quibus non perseveravit, non retribuetur : ergo talia non legentur.</p>
+          <p xml:id="bb-d4e45011-d1e141">Item, memoria praeteritorum bonorum generat oblectationem malorum horrorem : ergo, si
+            in malis non erit delectatio, non debent recordari bonorum factorum ; et si in bonis
+            nullus horror, non debent recordari malorum.</p>
+          <p xml:id="bb-d4e45011-d1e144">Item, illa sola legentur in libris, quae sunt scripta ; sed mala bonorum deleta sunt
+            per gratiam, bona malorum deleta sunt de eorum anima per culpam : ergo non legentur in
+            libris nec haec nec illa.</p>
+        </div>
+        <div xml:id="bb-d4e45011-Dd1e148">
+          <head xml:id="bb-d4e45011-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e45011-Hd1e153" type="question-title">Omnium meritorium erit in libris conscientiae lectio atque
+            memoria</head>
+          <p xml:id="bb-d4e45011-d1e156">Respondeo : Dicendum quod omnium meritorum erit ibi lectio et memoria : quia, sicut
+            dicit Apostolus, erunt cogitationes accusantes et defendentes, et ita bonae et malae ibi
+            patebunt, et per consequens affectiones et operationes. Omnia autem reducentur ad
+            memoriam, quia revocatio actuum et cogitationum praecedentium ad memoriam erit ad
+            ostensionem iustitiae divinae secundum. statum illum, et misericordiae secundum statum
+            praeteritum sive transactum. Propter ostensionem iustitiae in retribuendo rememorabuntur
+            bona et mala in quibus permanserunt finaliter ; haec enim sola digna sunt retributione.
+            Propter ostensionem misericordiae de praeterito rememorabuntur mala bonorum a quibus
+            sunt misericorditer liberati, et bona malorum quae in eis misericorditer operatus est
+            Deus, qui solem suum oriri facit super bonos et malos. Ideo bona et mala sua omnia erunt
+            sibi in memoria.</p>
+        </div>
+        <div xml:id="bb-d4e45011-Dd1e161">
+          <head xml:id="bb-d4e45011-Hd1e163">Ad rationes</head>
+          <p xml:id="bb-d4e45011-d1e166">Ad illud ergo quod obicitur primo, quod illa lectio et memoratio est ad ostensionem
+            iustitiae, dicendum quod verum est, sed non tantum ad hoc, sed etiam ad declarationem
+            misericordiae.</p>
+          <p xml:id="bb-d4e45011-d1e169">Ad illud quod obicitur, quod memoria malorum facit tristitiam, et bonorum laetitiam,
+            dicendum quod hoc verum est in his qui possunt tristari et laetari ; sed mali non
+            possunt laetari, boni vero non possunt tristari. Sed istud non sufficit, quia, si non
+            possunt tristari, ergo nec cognoscere unde debeant tristari. Ideo dicendum quod memoria
+            malorum dupliciter potest esse : aut considerando malum eventum, et sic generat
+            tristitiam, ut patet in eo qui conteritur ; vel considerando bonum eventum, scilicet
+            quod de tantis malis misericorditer est ereptus, et hoc generat laetitiam, et haec erit
+            in bonis. Similiter de memoria bonorum distinguendum.</p>
+          <p xml:id="bb-d4e45011-d1e172">Ad illud quod obicitur, quod in malis bona sunt deleta, dicendum quod deleta sunt
+            quantum ad veritatem essentiae, manent tamen quantum ad notam et similitudinem, sicut
+            patet in eo qui amisit caritatem et recordatur se habuisse. Unde super illud ad Romanos
+            2, 15 : <quote xml:id="bb-d4e45011-Qd1e174" ana="#rom2_15">Cogitationum accusantium</quote>, dicit Glossa : Sciendum
+            est quod in illa die cogitationes accusabunt animam vel defendent, non illae quae tunc
+            erunt, sed istae quae modo sunt in nobis, quarum notae et signacula relinquuntur in
+            corde nostro velut in cera ; quae in occulto nunc sunt posita, in illo die revelari
+            dicuntur, et ita secundum similitudinem remanent. Vel esto quod similitudo penitus
+            deleatur, quod vix est possibile, divina virtute tunc reparatur ad Dei gloriam et
+            vindictam malorum, laudem bonorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

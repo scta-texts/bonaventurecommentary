@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e40074">
+        <head xml:id="bb-d4e40074-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e40074-Hd1e111" type="question-title">Utrum Ordines minores impediant matrimonium.</head>
+        <div xml:id="bb-d4e40074-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e40074-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e40074-d1e119">Quantum ergo ad primum, quod minores Ordines non impediant Matrimonium, videtur : Per
+            multas auctoritates, quas adducit <ref xml:id="bb-d4e40074-Rd1e121">Magister in littera</ref>, maxime de illa Leonis
+            Papae, quae sumpta est de distinctione 32.</p>
+          <p xml:id="bb-d4e40074-d1e125">Item, in <ref xml:id="bb-d4e40074-Rd1e127" target="http://scta.info/resource/cice-l3t3-d1e119">Extra, De clericis
+              coniugatis, dicit Alexander III</ref> : <quote xml:id="bb-d4e40074-Qd1e130">Si qui clericorum infra subdiaconatum
+              acceperint uxores, ipsos ad retinendas uxores districtione ecclesiastica
+              compellatis</quote>.</p>
+          <p xml:id="bb-d4e40074-d1e134">Item, ratione videtur, quia ad minores Ordines ut plurimum parvuli promoventur ; sed
+            tales non sunt cogendi ad continentiam : ergo etc.</p>
+          <p xml:id="bb-d4e40074-d1e137">Item, in ingressu religionis est status in quo quis probat et probatur, antequam ad
+            votum continentiae obligetur : ergo pari ratione - immo multo fortiori, cum difficilius
+            sit in saeculo continere - status debet determinari in quo clerici possint probare et
+            probari utrum velint vivere casti, et in illo non debent ad castitatem obligari ; sed
+            iste est Ordinum inferiorum ; ergo etc.</p>
+          <p xml:id="bb-d4e40074-d1e141">Contra : <ref xml:id="bb-d4e40074-Rd1e143" target="http://scta.info/resource/gd-p1d32-d1e252">Distinctione 32</ref>
+            : <quote xml:id="bb-d4e40074-Qd1e146">Lectores, cum ad annos pubertatis venerint, cogantur aut uxorem ducere aut
+              continentiam profiteri</quote>. Ergo, si lectores sunt in statu inferiorum Ordinum,
+            videtur quod compellantur ad continentiam : ergo etc.</p>
+          <p xml:id="bb-d4e40074-d1e150">Item, minores clerici, statim ut sunt clerici, in sortem Dei sunt vocati, et ideo dicti
+            sunt clerici, quia in sortem Dei sunt segregati ; sed qui habet uxorem est divisus,
+            sicut dicit <ref xml:id="bb-d4e40074-Rd1e152" ana="#Icor7_33">Apostolus I ad Corinthios 7, 33</ref> : ergo nullus
+            clericus potest nec debet habere uxorem : ergo etc.</p>
+          <p xml:id="bb-d4e40074-d1e156">Item, omnis clericus in minori officio sive Ordine constitutus potest habere beneficium
+            ecclesiasticum, maxime si intendat ulterius promoveri, saltem beneficium sine cura ; sed
+            nullus coniugatus potest nec debet habere beneficium praebendale, sicut dicitur <ref xml:id="bb-d4e40074-Rd1e158" target="http://scta.info/resource/cice-l3t3-d1e180">Extra, De clericis coniugatis,
+              Diversis fallaciis etc.</ref> : ergo nullus clericus potest esse coniugatus.</p>
+          <p xml:id="bb-d4e40074-d1e162">Item, omnis clericus in minori officio constitutus potest gaudere privilegio clericali
+            ; sed nullus uxoratus potest gaudere privilegio clericali : ergo nullus clericus potest
+            esse uxoratus. Maior manifesta est ; minor patet per <ref xml:id="bb-d4e40074-Rd1e164" target="http://scta.info/resource/cice-l3t3-d1e210">decretalem De clericis coniugatis,
+              Ioannes</ref>, et infra, ubi dicitur quod <quote xml:id="bb-d4e40074-Qd1e167">uxoratus, etiam tonsuratus, non
+              potest privilegio clericali gaudere</quote>. Si tu dicas quod istae rationes non
+            valent, quia qui est clericus, potest non esse clericus, et ita potest esse uxoratus,
+            contra : Ordinis sacramentum est per impressionem characteris : ergo sicut baptizatus
+            non potest esse non baptizatus, ita videtur quod clericus non possit fieri non clericus
+            sive non ordinatus.</p>
+        </div>
+        <div xml:id="bb-d4e40074-Dd1e172">
+          <head xml:id="bb-d4e40074-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e40074-Hd1e177" type="question-title">Ordines miores per se non obstant contractui et usui
+            matrimonii; sed ministerium et beneficium, quae illis non sunt necessario annexa, in
+            Ecclesia occidentali oppositionem habent ad matrimonium quoad usum</head>
+          <p xml:id="bb-d4e40074-d1e180">Respondeo : Dicendum quod in Ordinibus minoribus est considerare Ordinem et officium
+            sive ministerium et beneficium ; secundum haec tria possunt comparari ad Matrimonium. Et
+            Ordo minor nullam habet oppositionem ad Matrimonium ratione sui sive characteris, nec
+            quantum ad contractum Matrimonii nec quantum ad usum ; sed ministerium et beneficium
+            secundum Ecclesiam occidentalem oppositionem habent ad Matrimonium quantum ad usum
+            propter honestatem. Et quoniam clericus in. minoribus Ordinibus non tenetur nec est
+            alligatus ad officium nec ad ministerium, ideo potest contrahere sine aliquo
+            impedimento. Et ita concedendum est quod minores Ordines Matrimonio non praestant
+            impedimentum.</p>
+        </div>
+        <div xml:id="bb-d4e40074-Dd1e184">
+          <head xml:id="bb-d4e40074-Hd1e186">Ad rationes</head>
+          <p xml:id="bb-d4e40074-d1e189">Ad illud ergo quod obicitur, quod lectores debent continentiam promittere, dicendum
+            quod illud capitulum debet intelligi quando promoventur ad subdiaconatum, alioquin solum
+            est consilium.</p>
+          <p xml:id="bb-d4e40074-d1e192">2-4. Ad illa vero quae obiciuntur post, iam patet responsio. Obicit enim de clerico
+            quantum ad ministerium et quantum ad beneficium et privilegium, quae non sunt necessario
+            annexa minoribus Ordinibus ; ideo nec Matrimonium repugnat, ita quod non possit
+            transferri de uno statu ad alium ; impeditur tamen ut non possit nec debeat simul in
+            utroque statu militare, quia nemo militans Deo debet se saecularibus negotiis
+            implicare.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

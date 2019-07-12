@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e150">
+        <head xml:id="bb-d4e150-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e150-Hd1e111" type="question-title">De sacramentorum significatione.</head>
+        <p xml:id="bb-d4e150-d1e114">Secundo quaeritur de sacramentis quantum ad significationem.</p>
+        <div xml:id="bb-d4e150-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e150-d1e119"> Et quod significatio sit de essentia sive integritate sacramenti, ostenditur : Primo
+            per definitionem sive notificationem quam <name ref="#Lombard">Magister</name> ponit in
+            littera : <quote xml:id="bb-d4e150-Qd1e124">Sacramentum est sacrae rei signum</quote>. </p>
+          <p xml:id="bb-d4e150-d1e128">Item, <name ref="#HughOfStVictor">Hugo</name>, in libro De sacramentis :
+              <quote xml:id="bb-d4e150-Qd1e133">Sacramentum est materiale elementum ex similitudine repraesentans, ex
+              institutione significans</quote>. Ergo, si sacramentum esse suum habet ex institutione
+            et est institutum ad significandum, ergo significare est ei essentiale.</p>
+          <p xml:id="bb-d4e150-d1e137">Item, sacramenta instituta sunt <quote xml:id="bb-d4e150-Qd1e139">ad nostram eruditionem</quote> , secundum quod
+              <name ref="#HughOfStVictor">Hugo</name> dicit et <name ref="#Lombard">Magister</name>
+            tangit in littera ; sed non ad eruditionem corporalium : ergo ad eruditionem
+            spiritualium. Sed sacramenta sunt corporalia et non ducunt in spiritualia nisi in
+            ratione significandi, quia offerendo se sensibus aliud faciunt in cognitionem venire :
+            ergo etc.</p>
+          <p xml:id="bb-d4e150-d1e149">Item, sacramentum est elementum ; aut ergo purum elementum corporale atit etiam simul
+            cum hoc dicit aliquid spirituale. Non purum corporale, hoc constat : ergo cum hoc dicit
+            aliquid spirituale. Illud ergo spirituale aut unitur ei secundum veritatem aut secundum
+            intentionem ; sed non secundum veritatem ; illud constat, cum non sit capax, sicut infra
+            probabitur ; ergo secundum intentionem. Sed uniri secundum intentionem est uniri sicut
+            signatum unitur signo : ergo de sacramentorum integritate est ipsa significatio.</p>
+          <p xml:id="bb-d4e150-d1e152">Contra : Sacramenta principaliter sunt instituta ad curandum ; sed ad hoc quod aliqua
+            medicina sit curativa, nihil facit quod curationem significet, sed sufficit solum quod
+            curet : ergo sacramentum potest esse perfecta medicina etiam sine significatione : ergo
+            significatio non est de integritate sacramenti.</p>
+          <p xml:id="bb-d4e150-d1e156">Item, si sacramentum est medicina, sacramentum aliquo modo potest causa ; sed causa non
+            est signum effectus, immo magis signatum : ergo sacramenti potius est significari quam
+            significare.</p>
+          <p xml:id="bb-d4e150-d1e159">Item, si signum est de integritate sacramenti ; ergo quod non significat non est
+            sacramentum, et quod non significat huic, ei cui non significat non est sacramentum ;
+            sed sacramentum Baptismi nihil significat parvulo : ergo parvulo non est sacramentum :
+            ergo dum parvulus recipit Baptismum, non recipit sacramentum. Sed hoc est absurdum :
+            etgo signum non est de integritate Sacramenti.</p>
+          <p xml:id="bb-d4e150-d1e162">Item, si signum, aut ergo demonstrativum aut prognosticum aut rememorativum. Non potest
+            esse nisi demonstrativum, quoniam efficit quod figurat vel saltem, si non efficit, cum
+            signum et signatum sint relativa, sunt simul natura, ergo, si signum est praesens, et
+            signatum. Sed demonstrativum non est, ut videtur, quia, si hoc, cum demonstret, inesse
+            gratiam, et non insit, tunc videtur esse falsum signum : ergo et falsum sacramentum.</p>
+          <p xml:id="bb-d4e150-d1e165">Item, si signum est, aut est naturale aut voluntarium. Si naturale, ergo sacramenta
+            sunt a natura ; et si hoc, cum illud quod est naturale sit idem apud omnes, tunc ergo et
+            sacramentum ; quod certum est esse falsum. Si voluntarium, ergo, cum voluntaria
+            augeantur et minuaritur tota die, sicut patet in dictionibus, ergo pari ratione videtur
+            quod sacramenta possint mutari pro voto. Si tu dicas quod sunt signa voluntaria, quia a
+            voluntate divina ; sed talia sunt cetera creata et omne quod est sub caelo : ergo non
+            debent dici propter hoc signa voluntaria ; aut si hoc, tunc pari ratione cetera alia
+            creata. </p>
+        </div>
+        <div xml:id="bb-d4e150-Dd1e169">
+          <head xml:id="bb-d4e150-Hd1e171">Responsio</head>
+          <head xml:id="bb-d4e150-Hd1e174" type="question-title">Significatio est de essentia Sacramentorum</head>
+          <p xml:id="bb-d4e150-d1e177">Respondeo : Ad praedictum intelligentiam est notandum quod sacramentalis medicina de
+            sua integritate habet significationem et haec communis est et essentialis omnibus
+            sacramentis.</p>
+          <p xml:id="bb-d4e150-d1e180">Ratio autem huius, ut credo, haec est, quoniam sacramentalis medicina est sufficiens
+            medicamen. Quoniam igitur homo lapsus, non tantum lapsus est in pronitatem
+            concupiscentiae, sed etiam in caecitatem ignorantiae : ideo, ut in utroque curetur per
+            sacramentum, non tantum debet habere sacramentum quid gratuitum, sed etiam mysticum, et
+            ita figurativum et significativum. Rursus, quia est sufficiens medicina de se, fert
+            secum suum praeparatorium. Unde sicut medicina corporalis non prodest nisi praeparetur
+            suscipiens, sic necesse est fieri spiritualiter ; et quoniam fides disponit hominem, ut
+            ei sint salutifera sacramenta, et motus fidei excitatur per exhibitionem signi, ut
+            requirat signatum, et per hoc homo disponitur ad curationem : ideo tamquam medicina
+            efficax et sufficiens sacramentalis medicina habet significationem de sua integritate ;
+            et ita, essentialiter loquendo, sacramentum est signum. </p>
+        </div>
+        <div xml:id="bb-d4e150-Dd1e185">
+          <head xml:id="bb-d4e150-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-d4e150-d1e190">Et per hoc patet responsio ad primum argumentum quod obicit de medicina corporali,
+            quoniam non est simile, ut iam patet.</p>
+          <p xml:id="bb-d4e150-d1e193">Ad illud quod obicitur, quod causa non est signum effectus, dicendum quod illud verum
+            est quando habitudo signandi consequitur habitudinem causandi ; in sacramentis autem
+            antecedit. Vel dicendum quod hoc verum est in his quae habent vere ac proprie rationem
+            causae et effectus ; vera enim causa natura prior est, et ideo a sensibus nostris
+            remotior ; et quia significatio est per id quod est nobis propinquum, ideo significamus
+            causam per effectum, non e converso. Sed hoc non est verum in proposito. Quia enim
+            sacramentum non habet vere rationem causae nec gratia rationem effectus, ideo gratia
+            sublimior est et a sensibus nostris remotior, et corporale nobis est propinquius : ideo
+            recte per illud gratia significatur, non e converso. Propositio vero illa locum habet in
+            vera causa.</p>
+          <p xml:id="bb-d4e150-d1e196">Ad illud quod obicitur, quod sacramentum non significat parvulo, dicendum quod signum
+            duplicem habet comparationem : et ad illud quod significat et ad illud cui significat ;
+            et prima est essentialis et habet ipsam semper in actu, secundam autem habet in habitu ;
+            et a prima dicitur signum, non a secunda. Unde circulus super tabernam semper est
+            signum, etiam si nullus aspiciat ; sic sacramentum semper signum est, quamvis nullus
+            cognoscat. Sed tamen adhuc non solvitur, quia, quamvis sit signum, non tamen significat
+            huic. Ideo dicendum quod sicut parvulo sufficit fides aliena, ita sufficit quod
+            significetur ipsi parvulo in alio : unde, quamvis non significet ei in se, significat
+            tamen in alio. </p>
+          <p xml:id="bb-d4e150-d1e199">Ad illud quod obicitur, quo genere signi continetur, dicendum quod aliqua sacramenta
+            significaverunt quod futurum erat, ut legalia ; aliqua quod praeteritum, ut sacramenta
+            nostra, quae significant passionem praeteritam, sicut dicit Glossa super illud ad
+            Romanos 6, 4 : <quote xml:id="bb-d4e150-Qd1e201" ana="#rom6_4">Consepulti estis</quote> etc. : <quote xml:id="bb-d4e150-Qd1e204">Quidquid
+              gestum est in cruce Christi, in his non tantum dictis, sed etiam gestis
+              figuratur</quote> ; loquitur de sacramentis. Sunt etiam signa demonstrativa, quia
+            significant quod donant ; unde duplicem habent significationem, propriam scilicet et
+            allegoricam : propriam respectu praesentis, sed allegoricam respectu praeteriti. Quod
+            ergo obicitur, quod signum et signatum simul sunt natura, dicendum quod verum est sub
+            ratione signi, non autem oportet quod simul sub ratione rei substratae, quoniam haec
+            intentio signorum non ponit rem esse nisi apud animam. Similiter, quod obicitur, quod,
+            si sunt demonstrativa, tunc sunt falsa, dicendum quod signum duplicem habet veritatem,
+            ut dicit <name ref="#Anselm">Anselmus</name> : unam ab institutione, aliam ab usu. Ab
+            institutione, quia imposita est ad hoc significandum ; et haec veritas non potest
+            permutari. Alia veritas est secundum usum, scilicet quando significat illud ad quod est
+            instituta per usum, et hanc veritatem amittit. Signum igitur sacramentale quantum ad
+            primam semper est verum ; similiter quantum ad secundam semper est verum quantum est ex
+            parte sui sive etiam dantis, sed impeditur solum a parte suscipientis : ideo sacramentum
+            non falsificatur, sed male recipiens falsus et fictus iudicatur. </p>
+          <p xml:id="bb-d4e150-d1e212">Ad illud quod obicitur, quod non est naturale nec voluntarium, dicendum quod
+            sacramentum habilitatem ad significandum habet ex natura, sed actualitatem habet ex
+            institutione. Unde <name ref="#HughOfStVictor">Hugo</name> dicit quod <quote xml:id="bb-d4e150-Qd1e217">tria sunt
+              in sacramento : similitudo ex creatione, significatio ex institutione, sanctificatio
+              ex benedictione. Prima est indita per Creatorem, secunda adiuncta per Salvatorem,
+              tertia administrata per dispensatorem</quote>. Quod ergo obicitur, quod est Deo
+            voluntarium nobis est naturale, dicendum quod verum est, si det rei illud, non solum ut
+            in ea sit, sed etiam ut sit ab ea, ita quod sit a principiis subiecti ; et quia talis
+            ratio non est in sacramentis, ideo vere et proprie sunt voluntaria. Et sic patet quod
+            sunt signa et qualiter significant. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

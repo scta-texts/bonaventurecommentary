@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12799">
+        <head xml:id="bb-d4e12799-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e12799-Hd1e111" type="question-title">Utrum sacramentum Eucharistiae possit confici in omni pane et
+          vino.</head>
+        <p xml:id="bb-d4e12799-d1e114">Quarto quaeritur, utrum hoc sacramentum possit confici in omni pane et vino.</p>
+        <div xml:id="bb-d4e12799-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e12799-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e12799-d1e122">Et quod sic, videtur : Quia est cibus communis : ergo debet fieri in materia communi,
+            sicut Baptismus, propter excusationem pauperum. Ergo in omni pane et in omni vino quae
+            habent rationem reficiendi et potandi.</p>
+          <p xml:id="bb-d4e12799-d1e125">Item, ostenditur quod possit confici in pane et vino corrupto, quia dicit Innocentius :
+              <quote xml:id="bb-d4e12799-Qd1e127" source="http://scta.info/resource/hy7y7y-d1e1753">Etsi diligenti studio vinum
+              optimum sit quaerendum, vitium tamen vini non maculat munditiam sacramenti</quote> ;
+            eadem ratione nec panis : ergo etc.</p>
+          <p xml:id="bb-d4e12799-d1e131">Item, ostenditur quod in pane et vino mixto, quia sicut vino commiscetur aqua, ita
+            granis frumenti commisceri possunt alia grana ; sed in vino mixto aqua fit et debet
+            fieri sacramentum : ergo similiter in frumento potest.</p>
+          <p xml:id="bb-d4e12799-d1e134">Item, quod in omni aqua, videtur, quia omnis aqua potest converti in vinum et conversa
+            potest converti in sanguinem : ergo etc.</p>
+          <p xml:id="bb-d4e12799-d1e138">Contra : Quod non in omni pane, videtur quia, sicut Dominus baptizando <quote xml:id="bb-d4e12799-Qd1e140">dedit vim
+              regenerativam aquis</quote>, ita consecrando instituit huius sacramenti materiam ; sed
+            consecravit in pane de frumento, quia ille est solum cibus paschalis, et in vino vitis :
+            ergo etc.</p>
+          <p xml:id="bb-d4e12799-d1e144">Item, quod nec in vino nec in pane corrupto, videtur, quia vinum corruptum non est
+            vinum, sicut homo mortuus non est homo ; unde <quote xml:id="bb-d4e12799-Qd1e146" source="http://scta.info/resource/aristmet-l8">
+              <seg type="qs">acetum</seg>, ut dicit <ref xml:id="bb-d4e12799-Rd1e151">Philosophus in VIII Metaphysicae</ref>,
+                <seg type="qs">nec est vinum nec potest esse</seg>
+            </quote>; similiter de pane : ergo etc.</p>
+          <p xml:id="bb-d4e12799-d1e159">Item, quod nec de mixto, videtur, quia <quote xml:id="bb-d4e12799-Qd1e161">mixtio est miscibilium alteratorum
+              unio</quote> ; unde in mixtione transmutantur formae mixtorum et resultat tertium.
+            Ergo vinum mixtum non est vinum, et similiter panis : ergo etc.</p>
+          <p xml:id="bb-d4e12799-d1e165">Item, quod non in aqua non naturali, videtur, quia Baptismus, qui est. sacramentum
+            necessitatis, non potest : ergo nec illud debet fieri solemnius.</p>
+        </div>
+        <div xml:id="bb-d4e12799-Dd1e169">
+          <head xml:id="bb-d4e12799-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e12799-Hd1e174" type="question-title">Eucharistiae Sacramentum non potest confici in alio pane quam
+            de tritico, nec in alio vino quam de vite</head>
+          <p xml:id="bb-d4e12799-d1e177">Respondeo : Dicendum quod materia congrua huic sacramento de natura sua est panis de
+            frumento et vinum de vite, propter hoc quod iste cibus inter omnes cibos, et potus ille
+            inter omnes potus est convenientior, efficacior, sanior et communior. Et ideo Dominus se
+            grano frumenti comparavit, <ref xml:id="bb-d4e12799-Rd1e179" ana="#io12_24">Ioannis 12, 24</ref> ; et ligno vitis,
+              <ref xml:id="bb-d4e12799-Rd1e182" ana="#io15_1">Ioannis 15, 1</ref> ; et ex hac causa in his duabus speciebus
+            confecit et conficiendo instituit. Ideo in alio pane quam de frumento vel in alio vino
+            quam de vite non potest confici ; et hoc determinavit <ref xml:id="bb-d4e12799-Rd1e185">Concilium Carthaginense
+              <!-- Carthag III, a. 397, c. 24; has parallel ref in gratian De consecratione, d. 2 --></ref>.
+            In omni autem pane de frumento sicut in omni vino de vite, sive ibi sit differentia
+            accidentalis sive specifica, ut dicunt quidam, potest confici, salvata specie illius
+            panis et illius vini.</p>
+        </div>
+        <div xml:id="bb-d4e12799-Dd1e192">
+          <head xml:id="bb-d4e12799-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e12799-d1e197">Ad illud ergo quod obicitur de omni pane propter communitatem, dicendum quod non tantum
+            communitas, sed etiam congruitas est hic consideranda. Praeterea, Baptismus est
+            sacramentum necessitatis, sed illud non ; ideo non est simile. Praeterea, <quote xml:id="bb-d4e12799-Qd1e199">omnis
+              aqua naturaliter omni aquae est eadem specie</quote>, non sic omne bladum.</p>
+          <p xml:id="bb-d4e12799-d1e203">Ad illud quod quaeritur de corruptione, dicendum quod est quaedam corruptio a statu
+            optimo, non tamen ab esse simpliciter, ut puta quando vinum turbatur vel acescit ;
+            quaedam est corruptio ab esse simpliciter, ut quando simpliciter desinit habere formam
+            panis et vini, ut quando perfecte conversum est in acetum. Prima corruptio. non tollit
+            potentiam conficiendi, sed secunda tollit. Haec autem corruptio poterit discerni per
+            gustum ab illis qui noscunt naturas rerum.</p>
+          <p xml:id="bb-d4e12799-d1e206">Ad illud quod obicitur de mixtione, dicendum quod mixtio dicitur dupliciter, scilicet
+            communiter et proprie : communiter, quando miscetur aliquid alicui alterius naturae quod
+            tamen non habet proportionem, sed illud tamquam praedominans solvit speciem et convertit
+            in se ; et tunc non est mixtio proprie, et talis potest esse in hoc sacramento. Et de
+            hac dicitur, in fine I De Generatione, quod si gutta aquae misceatur amphorae vini, non
+            est mixtio, quia solvitur species. Est alia mixtio proprie dicta miscibilium alteratorum
+            unio ; et haec repugnat. Unde tot grana possunt commisceri granis frumenti et tantum de
+            aqua vino quod alterant a suis naturalibus saporibus ; et haec mixtio tollit potentiam
+            conficiendi. Et ideo frumenti grana diligenter sunt secernenda et valde parum de aqua
+            est apponendum, maxime quando vinum est debile. </p>
+          <p xml:id="bb-d4e12799-d1e209">Ad illud quod ultimo quaeritur de aqua, dicendum quod, non aqua rosacea nec
+            artificialis, sed solum naturalis, quae dicitur aqua viva, est apponenda ; et si
+            apponatur alia aqua ut transeat in vinum, fit sacramentum ; sed ille qui apponit peccat,
+            sicut ille qui omittit ponere aquam. Quod enim aqua significat populum, hoc est ratione
+            multitudinis ; et talis est aqua non artificialis, sed naturalis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

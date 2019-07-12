@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33326">
+        <head xml:id="bb-d4e33326-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e33326-Hd1e111" type="question-title">Utrum carnalis commixtio sit de integritate Matrimonii quoad
+          significationem et efficaciam.</head>
+        <p xml:id="bb-d4e33326-d1e114">Tertio quaeritur, utrum carnalis commixtio sit de integritate Matrimonii quantum ad
+          significationem et efficaciam.</p>
+        <div xml:id="bb-d4e33326-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e33326-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e33326-d1e122">Et quod sic, videtur : Quia in institutione Matrimonii dicitur : Erunt duo in carne
+            una, et Dominus ipse repetit Matthaei 19, 5 ; sed hoc non est ante commixtionem : ergo
+            commixtio est de integritate.</p>
+          <p xml:id="bb-d4e33326-d1e125">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera : Non
+            dubium est illam mulierem ad coniugium non pertinere, cum qua docetur commixtio sexuum
+            non fuisse.</p>
+          <p xml:id="bb-d4e33326-d1e131">Item, ratione videtur, quia coniugium est signum coniunctionis Christi et Ecclesiae in
+            conformitate naturae ; sed hoc solum est in commixtione : ergo etc.</p>
+          <p xml:id="bb-d4e33326-d1e134">Item, Matrimonium est institutum in remedium concupiscentiae ; sed hoc remedium habetur
+            ab his solum qui Matrimonio sunt coniuncti : ergo hoc remedium non est per continentiam,
+            sed per commixtionem, quia aliter non esset magis remedium nubere quam non nubere.</p>
+          <p xml:id="bb-d4e33326-d1e138">Contra : Quod non sit de integritate quantum ad significationem, videtur : Quia
+            perfectum Matrimonium fuit inter Adam et Evam ante cognitionem carnalem, et ante dixit :
+            Hoc nunc os, quam eam cognosceret : ergo commixtio non est de integritate.</p>
+          <p xml:id="bb-d4e33326-d1e141">Item, perfectum Matrimonium fuit inter Mariam et Ioseph, quia fuit ibi bonum prolis,
+            fidei et sacramenti ; et sine commixtione : ergo etc.</p>
+          <p xml:id="bb-d4e33326-d1e144">Item, quod non sit de integritate in ratione retnedii, videtur : Quia <name ref="#Augustine">Augustinus</name> dicit quod sanctior est copula mentium quam
+            corporalis. Ergo maior datur ibi efficacia contra concupiscentiam in unione mentali quam
+            carnali.</p>
+          <p xml:id="bb-d4e33326-d1e150">Item, in actu illo efficitur homo totus caro : ergo, per oppositum, cum gratia, quae
+            est remedium contra concupiscentiam, faciat spiritualem, nunquam datur in illo actu.</p>
+          <p xml:id="bb-d4e33326-d1e153">Item, in actu illo satisfit concupiscentiae ; sed dum satisfit ei, ipsa intenditur ;
+            sed quod intendit concupisentiam non est remedium, immo venenum : ergo carnalis
+            commixtio non prodest, immo obest ad remedium matrimonii.</p>
+        </div>
+        <div xml:id="bb-d4e33326-Dd1e157">
+          <head xml:id="bb-d4e33326-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e33326-Hd1e162" type="question-title">Copula carnalis non est de integritate matrimonii quoad esse
+            necessitatis, sed solum quoad esse completionis</head>
+          <p xml:id="bb-d4e33326-d1e165">Respondeo :- Dicendum quod integritas rei dupliciter accipitur, videlicet quantum ad
+            esse necessitatis vel quantum ad esse completionis sive plenitudinis. Si loquamur
+            quantum ad esse necessitatis, verum est quod sacramentum Matrimonii esse habet sine
+            commixtione carnis ; si autem quantum ad esse plenitudinis, sic est de eius integritate.
+            Et sic procedunt rationes ad partes oppositas.</p>
+          <p xml:id="bb-d4e33326-d1e168">Et hoc patet sic. In Matrimonio enim considerantur haec tria, scilicet signum,
+            officium, remedium. Quantum ad significationem, dicendum quod duplex est eius
+            significatio : significat enim coniunctionem Christi et Ecclesiae per caritatem et
+            coniunctionem per naturae conformitatem. Similiter duplex est officium : unum est mutuae
+            educationis et fomenti et aliud procreandae prolis. Similiter duplex est remedium : unum
+            est quantum ad concupiscentiae defluxionem, ut scilicet non in omnem mulierem intendat ;
+            aliud quantum.ad inordinationem, ut scilicet non libidine, sed amore prolis procreandae
+            sive matrimoniali affectu mulierem cognoscat. Primum igitur signatum et primum officium
+            et primum remedium sunt in sacramento Matrimonii quantum ad coniunctionem animorum,
+            secundum autem solum quantum ad coniunctionem corporum. Et primum est de substantia
+            Matrimonii quantum ad esse necessarium ; secundum quantum ad esse plenum. Et sic patet
+            responsio ad utramque partem, distinguendo perfectionem duplicem sive duplicem
+            integritatem sufficientiae et plenitudinis. Et secundum hoc distinguant iuristae
+            matrimonium, scilicet matrimonium ratum et matrimonium consummatum.</p>
+        </div>
+        <div xml:id="bb-d4e33326-Dd1e173">
+          <head xml:id="bb-d4e33326-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e33326-d1e178">Ad illud ergo quod obicitur, quod gratia non datur in illo actu, ergo non est remedium
+            contra peccatum, dicendum quod remedium aliquod contra peccatum est dupliciter : aut
+            quia liberat a peccato commisso, et hoc est per gratiam quae in eo confertur ; quoddam,
+            quod liberat a peccato quod committeretur alias, et tale remedium est Matrimonium, quia
+            multi infirmi urerentur concupiscentia nisi haberent uxorem, quam cognoscendo carnis
+            adustionem evadunt ; et in tali quantum ad usum non est necesse gratiam dari, quamvis in
+            actu illo possit homo mereri, sicut habebitur infra.</p>
+          <p xml:id="bb-d4e33326-d1e181">Ad illud vero quod ultimo obicitur, quod non est in remedium, immo contra, quia
+            intendit concupiscentiam in satisfaciendo ei, dicendum quod qui cognoscit uxorem debite,
+            concupiscentiae non satisfacit, sed potius obviat, ne uratur ; et ideo non intenditur,
+            sed remittitur in eo fervor libidinis. Sed qui cognoscit, ut delectetur, non cognoscit
+            matrimonialiter ; et talis non habet remedium , immo praestat concupiscentiae
+            fomentum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

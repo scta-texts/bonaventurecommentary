@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e2408">
+        <head xml:id="bb-d4e2408-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e2408-Hd1e111" type="question-title">De usu sive efficacia baptismi Ioannis</head>
+        <p xml:id="bb-d4e2408-d1e114">Tertio quaeritur de usu baptismi Ioannis sive de efficacia, utrum scilicet. baptismus
+          Ioannis cum impositione manuum aequipollens esset Baptismo Christi.</p>
+        <div xml:id="bb-d4e2408-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e2408-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e2408-d1e122">Et quod sic, videtur: Ratione, quia ista duo completum faciunt Baptisma, scilicet
+            baptizari in aqua et Spiritu ; sed per Ioannem baptizati sunt aqua, per manuum
+            impositionem Spiritu : ergo aequipollent ista duo Baptismo Christi.</p>
+          <p xml:id="bb-d4e2408-d1e125">Item, hoc videtur ratione alia, quia ad hoc quod Baptismus sit sacramentum completum,
+            non est necesse aliquem simul lavari interius et exterius, sed successive, ut patet in
+            accedente ficte. Ergo videtur quod ubi impositio manuum lavit interius per Spiritum, cum
+            ablutione praecedenti exteriori fuit integrum sacramentum.</p>
+          <p xml:id="bb-d4e2408-d1e128">Item, hoc videtur auctoritate <name ref="#Jerome">Hieronymi</name> et Magistri. Dicit
+            enim <name ref="#Jerome">Hieronymus</name>, Super Ioelem : <quote xml:id="bb-d4e2408-Qd1e136">Baptizati a Ioanne in
+              nomine venturi, quia dixerunt : Neque si Spiritus sanctus est, audivimus, iterum
+              baptizati sunt</quote>: ergo haec est ratio, quia non cognoscebant Spiritum Sanctum :
+            ergo, si haec est causa recta, oppositum est causa oppositi : ergo, si baptizati erant
+            et fidem Trinitatis habebant, non erant rebaptizandi.</p>
+          <p xml:id="bb-d4e2408-d1e140">Item, hoc videtur auctoritate Scripturae. Actuum 8, 16 dicitur de Samaritanis quod
+              <quote xml:id="bb-d4e2408-Qd1e142" ana="#act8_16">baptizati erant in nomine Domini Iesu, et tunc imponebant manus
+              super eos</quote> ; et Apostoli non faciebant aliud nisi imponere manus in nomine
+            Domini Iesu ; sed tunc quaero : aut baptismus ille fuit Christi aut Ioannis, quo
+            baptizati erant ? Non Christi, ut patet per textum : Nondum enim in quemquam illorum
+            venerat etc. ; sed Baptismus Christi dabat Spiritum Sanctum, et Glossa dicit ibi :
+            Baptizati, tantum aqua tincti, non Spiritu : ergo fuit baptismus Ioannis : ego non
+            oportebat nisi manus imponi.</p>
+          <p xml:id="bb-d4e2408-d1e147">Contra : Legitur Actuum 19, 5 quod Paulus rebaptizavit baptizatos baptismate Ioannis :
+            ergo rebaptizandi sunt. Si dicas quod ideo rebaptizavit, quia non habebant fidem
+            Trinitatis, tunc ergo, suppleta fide Trinitatis, non oportuit rebaptizari ; sed constat
+            quod ante instruxit in fide quam baptizaret : ergo nullo modo debuit baptizare.</p>
+          <p xml:id="bb-d4e2408-d1e150">Item, <name ref="#Augustine">Augustinus</name> assignat generalem differentiam inter
+            baptismum Ioannis et Baptismum Christi, dicens : <quote xml:id="bb-d4e2408-Qd1e155">Baptizavit Iudas, et
+              rebaptizatum non est ; baptizavit Ioannes, et rebaptizatum est</quote>: ergo
+            generaliter omnes erant rebaptizandi.</p>
+          <p xml:id="bb-d4e2408-d1e159">Item, ratione videtur, quia, sicut dictum est, baptismus Ioannis assuefaciebat et
+            dirigebat ad Baptismum Christi ; unde ipse Ioannes dicebat : Ego baptizo vos aqua, ille
+            baptizabit vos Spiritu Sancto. Ergo, si frustra assuescit aliquis ad faciendum aliquid
+            quod non facit, frustra baptizati sunt baptismo Ioannis, nisi baptizarentur etiam
+            Baptismo Christi.</p>
+          <p xml:id="bb-d4e2408-d1e162">Item, impositio manuum habebat locum sacramenti Confirmationis ; sed Confirmationis
+            sacramentum praesupponit sacramentum Baptismi et alias non valet : ergo, si nondum
+            habebant plenum sacramentum Baptismi, nihil faciebat Confirmatio sive impositio manuum
+            eis.</p>
+          <p xml:id="bb-d4e2408-d1e165">Item, in Baptismo imprimitur character, qui est fundamentum Ordinis et aliorum
+            sacramentorum ; sed character non imprimebatur in baptismo Ioannis nec in impositione
+            manuum, quia non habebant cum illo aliquam similitudinem : ergo tales semper carerent
+            charactere : ergo nunquam eis valerent alia sacramenta.</p>
+        </div>
+        <div xml:id="bb-d4e2408-Dd1e169">
+          <head xml:id="bb-d4e2408-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e2408-Hd1e174" type="question-title">Communis opinio contra Magistrum docet, baptizatos baptismo
+            Ioannis omnes rebaptizandos fuisse</head>
+          <p xml:id="bb-d4e2408-d1e177">Respondeo : Dicendum quod duplex fuit super hoc opinio, una videlicet quod baptizati
+            baptismo Ioannis, si non habebant fidem Trinitatis, rebaptizandi erant ; si autem
+            habebant fidem Trinitatis, non oportebat eos rebaptizari, sed sufficiebat manus imponi.
+            Et ratio huius positionis fuit quod, quia tales habebant ablutionem exteriorem et
+            habebant fidem Trinitatis, qua interius insigniebantur tamquam charactere, et habebant
+            Spiritum Sanctum per impositionem manuum ; et ideo tales non erant rebaptizandi. Haec
+            autem opinio roboratur per auctoritatem quia, Actuum 8, 16, non sunt rebaptizati, et 19,
+            5, sunt rebaptizati ; et ideo nec generaliter asserunt nec negant, sed distinguunt ad
+            sustinendum hanc opinionem. Et dicunt quod pro tempore illo impositio manuum plus
+            valebat quam nunc Confirmatio ; dabat enim Baptismum flaminis. Huius opinionis fuit
+              <name ref="#Lombard">Magister</name> et alii qui eum sustinent.</p>
+          <p xml:id="bb-d4e2408-d1e183">Alia opinio est quod omnes sunt rebaptizandi, quia ille baptismus Ioatmis solum
+            assuefaciebat, non regenerabat ; impositio manuum non characteristicabat animam. Et ista
+            est communis opinio modernorum magistrorum.</p>
+        </div>
+        <div xml:id="bb-d4e2408-Dd1e188">
+          <head xml:id="bb-d4e2408-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e2408-d1e193">1-2. Quod ergo obicitur, quod erat ablutio exterior et interior, dicendum quod non
+            quaecumque ablutio exterior est sacramentum, sed in qua imprimitur character ; et talis
+            non fuit in baptismo Ioannis. Ideo patet illud.</p>
+          <p xml:id="bb-d4e2408-d1e196">Ad illud <name ref="#Jerome">Hieronymi</name> dicendum quo non vult ibi tangere causam
+            rebaptizationis, sed insufficientiam fidei in alteram personarum ; et hoc patet, si
+            inspiciantur antecedentia et consequentia.</p>
+          <p xml:id="bb-d4e2408-d1e202">Ad aliud dicendum quod Samaritani baptizati erant a Philippa Baptismo Christi, sicut
+            innuit Glossa. Et quod dicitur quod non receperant Spiritum Sanctum, intelligitur
+            visibiliter, quia ille non erat Philippus Apostolus, sed discipulus ; et ideo baptizare
+            potuit et praedicare, sed non manus imponere ad dandum Spiritum Sanctum visibiliter.
+            Unde Glossa, Actuum 8, 14, super illud : Miserunt ad illos Petrum et Ioannem :
+              <quote xml:id="bb-d4e2408-Qd1e204">Philippus, qui Samariae evangelizabat, unus de septem erat. Si enim Apostolus
+              esset, manus imponere posset, quod solis episcopis convenit</quote>.</p>
+          <p xml:id="bb-d4e2408-d1e208">Et ita patet quod haec opinio, quae dicit quod non erant omnes rebaptizandi, non habet
+            fulcimentum ex Scriptura nec ex auctoritate evidenti nec etiam habet rationem cogentem.
+            Alia vero opinio auctoritatem habet, scilicet quod omnes sunt rebaptizandi, sicut patet
+            Actuum 19, 5. Et non est ratio, quia defectum haberent fidei ; quantumcumque enim
+            aliquis est infidelis, non est rebaptizandus, sed erudiendus : ergo haec erat ratio,
+            scilicet quia ille baptismus non computabatur pro sacramento. Et habet auctoritatem a
+            Sanctis. <name ref="#Augustine">Augustinus</name> enim, Super Ioannem, homilia 5 3,
+            dicit : <quote xml:id="bb-d4e2408-Qd1e213">Qui baptizati sunt baptismate Ioannis, non eis suffecit : baptizati enim
+              sunt Baptismate Christi</quote>. Item Beda : <quote xml:id="bb-d4e2408-Qd1e216">Ad hoc Ioannes baptizabat ut ad
+              Baptismum Christi dirigeret</quote>. Ad hoc facit Glossa super illud Ioannis 3, 23 :
+              <quote xml:id="bb-d4e2408-Qd1e219">Quantum catechumenis</quote> , et haec supra habita est. Rationem etiam habet
+            propter characterem qui imprimitur ; et quia Baptismus Christi erat ianua sacramentorum
+            ; postremo, quia assuefactorius erat, frustra erat quia vana est assuefactio, ubi non
+            consequitur illud ad quod est. Huic igitur opinioni tamquam securiori et rectiori
+            consentiendum credo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

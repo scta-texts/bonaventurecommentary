@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51057">
+        <head xml:id="bb-d4e51057-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e51057-Hd1e111" type="question-title">Utrum gloria corporis sit a gloria animae originaliter</head>
+        <p xml:id="bb-d4e51057-d1e114">Secundo quaeritur de origine beatitudinis sive gloriae corporis, utrum sit a gloria
+          animae originaliter.</p>
+        <div xml:id="bb-d4e51057-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e51057-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e51057-d1e122">Et quod sic, videtur : Dionysius, Ad Dioscorum : <quote xml:id="bb-d4e51057-Qd1e124">Beatitudo non est corporum, sed
+              ab animabus redundat in corpora</quote>. Item, gloria inest corpori per
+            resurrectionem, et resurredio per unionem animae : ergo ab anima inest corpori
+            gloria.</p>
+          <p xml:id="bb-d4e51057-d1e128">Item, specialius videtur quoad impassibilitatem, quia, ut dicit Philosophus, <quote xml:id="bb-d4e51057-Qd1e130" source="http://scta.info/resource/aristda-l1">egrediente anima, exspirat et marcescit
+              corpus</quote>. Ergo quod sit incorruptibile, hoc non habet nisi ab anima. Si dicas
+            quod loquitur secundum statum istum, hoc non solvit, quia, sicut anima nunc continet
+            corpus, ita et tunc ; unde <name ref="#Augustine">Augustinus</name>, De vera religione :
+            Corpus non habebit stabilitatem nisi per animam, haec per Deum.</p>
+          <p xml:id="bb-d4e51057-d1e137">Item, de spiritualitate videtur, quia super illud I ad Corinthios 15, 45 : <quote xml:id="bb-d4e51057-Qd1e139" ana="#Icor15_45">Novissimus Adam in spiritum vivificantem</quote>, Glossa :
+              <quote xml:id="bb-d4e51057-Qd1e142">Quia spiritus perfecte adhaeret Deo, sic vivificat, ut corpus spirituale
+              efficiat</quote>. Ergo manifestum etc.</p>
+          <p xml:id="bb-d4e51057-d1e146">Contra : Quandocumque aliquid est alicuius origo per redundantiam, similitudo est
+            utrobique et univocatio ; sed claritas corporis et spiritus sunt claritates aequivoce :
+            ergo haec non redundat in illam.</p>
+          <p xml:id="bb-d4e51057-d1e150">Item, omne quod est ab alio per redundantiam, illo separato, iam non inest : ergo, si
+            anima separaretur a corpore, corpus fieret obscurum ; quod videtur inconveniens
+            dicere.</p>
+          <p xml:id="bb-d4e51057-d1e153">Item, quod habet totaliter esse per redundantiam ab aliquo, illi coniunctum participat
+            proprietates illas sine aliqua immutatione ex parte sui. Ergo, si anima gloriosa
+            uniretur modo corpori passibili, ipsum faceret impassibile ; sed hoc non potest stare,
+            quia quod de passibili per naturam fiat impassibile, est a virtute infinita : ergo non
+            ab anima.</p>
+          <p xml:id="bb-d4e51057-d1e156">Item, anima Christi summe erat gloriosa et corpus summe passibile, ergo et habens alios
+            defectus : ergo et huiusmodi defectus non privantur per gloriam animae, sed per
+            qualitatem absolutam corporis : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e51057-Dd1e160">
+          <head xml:id="bb-d4e51057-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e51057-Hd1e165" type="question-title">Gloria corporis quoad dispositiones, quae sutn qualitates
+            absolutae ipsius corporis, est a Deo corpus reformante, quoad consummationem est per
+            influentiam animae gloriosae</head>
+          <p xml:id="bb-d4e51057-d1e168">Respondeo : Dicendum quod est loqui de dotibus corporis, in quibus eius glorificatio
+            consistit, vel quantum ad dispositionem vel quantum ad consummationem. Si quantum ad
+            dispositionem, sic dico quod dicunt dispositiones quae sunt qualitates absolutae ipsius
+            corporis, quae dantur sibi a Deo in eius reformatione. Si quantum ad consummationem, sic
+            dico quod sunt a gloria animae sive ab anima gloriosa. Unde sicut in praesenti anima in
+            corpus influit, et per illam influentiam corpus est coloratius, corpus est durabilius,
+            corpus est virtuosius et agilius quam cum anima separatur, similiter dico in proposito,
+            suo modo, quod anima gloriosa influens in corpus omnes dotes istas, ad quas
+            dispositiones habebat, per sui reformationem perficit et consummat. Unde credo, quodsi
+            corpus separaretur, quod etsi esset clarum et impassibile, non tamen ita ut nunc.</p>
+          <p xml:id="bb-d4e51057-d1e171">Ex his patent obiecta ad utramque partem. Nam primae rationes ostendunt quod sunt in
+            corpore per influentiam ; quod quidem verum est quantum ad consummationem. Secundae
+            rationes ostendunt quod non sunt totaliter in corpore per reundantiam a gloria animae ;
+            et hoc quidem verum est : praeexigitur enim quod a Deo reformetur habile et per
+            influentiam animae illa habilitas consummetur.</p>
+          <p xml:id="bb-d4e51057-d1e174">Ad illud quod obicitur de spiritualitate, dicendum quod verum est, ubi agens et patiens
+            communicant in materia ; sed non est ita in anima et corpore ; unde anima, immobilis
+            existens, per influentiam causat motum in corpore : sic et in aliis proprietatibus,
+            sicut dicitur calor animalis sive ab anima.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

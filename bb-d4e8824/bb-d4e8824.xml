@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e8824">
+        <head xml:id="bb-d4e8824-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e8824-Hd1e111" type="question-title">De figurarum praeeminentia.</head>
+        <p xml:id="bb-d4e8824-d1e114">Tertio quaeritur circa hoc de figurarum praeeminentia, et quaeritur, quae figura sit
+          expressior, utrum illa quae fuit tempore legis naturae an illa quae fuit tempore legis
+          moysaicae an illa quae fuit tempore legis gratiae.</p>
+        <div xml:id="bb-d4e8824-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e8824-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e8824-d1e122">Et quod illa quae fuit tempore legis naturae, videtur : Auctoritate <name ref="#Ambrose">Ambrosii</name>, De sacramentis : <quote xml:id="bb-d4e8824-Qd1e127" source="http://scta.info/resource/oki89u-d1e214">Apparet anteriora fuisse sacramenta
+              Christianorum quam Iudaeorum</quote>. Sed hoc non dicitur nisi ratione legis naturae :
+            ergo aliquo modo magis fuerunt sacramenta Christianorum in illo tempore ; sed non
+            quantum ad veritatem vel efficaciam : ergo quantum ad expressionem figurae.</p>
+          <p xml:id="bb-d4e8824-d1e131">Item, lex naturae magis convenit cum lege gratiae sive Evangelii quam lex Moysi, quia
+            ius evangelicuni plus habet de naturali dictamine quam de institutione ; econtra est in
+            lege Moysi : ergo et sacramenta expressius figurant, ut videtur.</p>
+          <p xml:id="bb-d4e8824-d1e134">Item, hoc ipsum videtur ratione, quia Melchisedech obtulit sacrificium in pane et vino,
+            et in eisdem speciebus modo offertur et celebratur Sacramentum altaris. Ergo, cum non
+            possit expressius figurari quam in simili secundum speciem, videtur quod tunc praecessit
+            figura expressissima.</p>
+          <p xml:id="bb-d4e8824-d1e137">Ad oppositum arguit <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore : Sicut
+            appropinquavit passio Salvatoris, ita signa debuerunt esse evidentiora ; et ratio eius
+            est quia crevit cognitio veritatis. Ergo, cum tempore legis scriptae creverit cognitio
+            veritatis et appropinquaverit passio Salvatoris, videtur quod figurae fuerunt
+            expressiores.</p>
+          <p xml:id="bb-d4e8824-d1e144">Item, hoc videtur ad litteram in manna, quia cibus ille erat de caelo aequaliter omnes
+            reficiens et omnibus communis et omnem suavitatem habens ; sed panis et vinum ipsius
+            Melchisedech de terra erat, et hoc sacramentum est panis de caelo descendens : ergo
+            videtur, quod figura mannae fuerit expresior.</p>
+        </div>
+        <div xml:id="bb-d4e8824-Dd1e148">
+          <head xml:id="bb-d4e8824-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e8824-Hd1e153" type="question-title">Figurae illae diversarum legum in expressione mutuo se
+            excedunt</head>
+          <p xml:id="bb-d4e8824-d1e156">Respondeo : Dicendum quod figurae illarum legum secundum diversas considerationes mutuo
+            se excedunt in expressione, sicut ostendunt rationes inductae. Potest enim sacramentum
+            hoc praefigurari quantum ad ritum vel quantum ad effectum, sive quantum ad signum vel
+            quantum ad signatum. Si quantum ad ritum, sic expressior figura praecessit in sacrificio
+            Melchisedech, sicut probant rationes inductae ; et hoc patet. Si autem quantum ad
+            effectum, sic expresse praesignabatur in manna, sicut ostendunt rationes praedictae ; et
+            sic patet responsio ad utramque partem.</p>
+          <p xml:id="bb-d4e8824-d1e159">Sed tamen adhuc restat quaestio : quare expressior praefiguratio praecessit in lege
+            naturae quantum ad ritum ? Et ad hoc dicendum quod, quia Dominus instituit legem
+            scriptam ut implendam et evacuandam, sicut veritas evacuat umbram, ideo, ne videremur
+            iudaizare, disposuit figuras in lege Moysi dare expressas, sed tamen differentes quantum
+            ad ritum, ut manifeste ex earum institutione ostenderetur legis illius evacuatio et
+            imperfectio ; et ideo magis se dicit Christus sacerdotem secundum ordinem Melchisedech
+            quam Aaron, ut ostendatur ibi legis et sacerdotii translatio, sicut ostendit <ref xml:id="bb-d4e8824-Rd1e161" ana="#hebr7_11">Apostolus ad Hebraeos</ref>. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

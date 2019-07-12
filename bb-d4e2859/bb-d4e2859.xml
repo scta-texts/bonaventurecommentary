@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e2859">
+        <head xml:id="bb-d4e2859-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e2859-Hd1e111" type="question-title">Utrum ad completum et integrum esse Baptismi sit necessaria
+          fides alicuius articuli.</head>
+        <p xml:id="bb-d4e2859-d1e114">Tertio quaeritur, utrum ad completum et integrum esse Baptismi sit necessaria fides
+          alicuius articuli.</p>
+        <div xml:id="bb-d4e2859-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e2859-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e2859-d1e122">Et quod sic, videtur : Quoniam <name ref="#Ambrose">Ambrosius</name> dicit, et habetur
+            in littera, quod Baptismus est fidei sacramentum. Ergo, si desit fides, deest illud quod
+            principaliter et specialiter respicit Baptismus : ergo non est integrum sacramentum.</p>
+          <p xml:id="bb-d4e2859-d1e128">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera :
+              <quote xml:id="bb-d4e2859-Qd1e133">Unde haec tanta virtus aquae, ut corpus tangat et cor abluat, nisi faciente
+              verbo, non quia dicitur, sed quia creditur</quote>: ergo, si necesse est dici, necesse
+            est et credi.</p>
+          <p xml:id="bb-d4e2859-d1e137">Item, ad Romanos 6, 3 : <quote xml:id="bb-d4e2859-Qd1e139" ana="#rom6_3">Quicumque baptizati sumus in Christo Iesu,
+              in morte ipsius baptizati sumus</quote>, Glossa : <quote xml:id="bb-d4e2859-Qd1e142">In morte ipsius dicit nos
+              baptizari, quia mors Christi causa est nostrae purificationis</quote>; Sed mors
+            Christi non est : ergo, si aliquid facit, necesse est quod faciat per illud quod aliquo
+            modo est. Sed fides est illud secundum quod manet adhuc passio, quia creditur : ergo ad
+            integritatem Baptismi necessaria est fides articuli passionis.</p>
+          <p xml:id="bb-d4e2859-d1e146">Item, in actu baptizandi et in verbo est professio fidei ; sed professio fidei, quando
+            non est fides, falsa est et inefficax : ergo ad hoc quod Baptismus sit sacramentum
+            completum et efficax necessaria est fides.</p>
+          <p xml:id="bb-d4e2859-d1e150">Contra : Baptismus est praevius ad virtutes tamquam primum sacramentorum, quod
+            imprimendo characterem disponit ad fidem ; sed prius potest esse sine posteriori : ergo
+            sacramentum Baptismi est integrum cum defectu fidei.</p>
+          <p xml:id="bb-d4e2859-d1e153">Item, cum nobilior sit caritas quam fides et efficacior. ad merendum, si Baptismus
+            habet efficaciam ab aliqua virtute, potius videtur quod debeat habere a caritate quam a
+            fide.</p>
+          <p xml:id="bb-d4e2859-d1e156">Item, si fides est de necessitate Baptismi ad hoc quod sit perfectum et efficax
+            sacramentum, cum et sacramenta Veteris Legis efficaciam haberent, cum fides erat
+            adiuncta : videtur quod non differat Baptismus a sacramentis Veteris Legis.</p>
+          <p xml:id="bb-d4e2859-d1e159">Item, videtur quod non sit necessaria fides articuli passionis, sed magis Trinitatis,
+            quia in Baptismo exprimitur verbum, in quo est professio fidei Trinitatis. Ergo, si
+            maxime est necessarium credere quod fides exprimit in illo sacramento, videtur tunc quod
+            non fides articuli passionis, sed Trinitatis sit de necessitate Baptismi.</p>
+          <p xml:id="bb-d4e2859-d1e162">Propter hoc igitur est quaestio quomodo sacramenta dicantur habere virtutem a fide. Et
+            si alia sacramenta habent sicut et Baptismus, quare magis ipse Baptismus dicitur
+            sacramentum fidei quam alia sacramenta ?</p>
+        </div>
+        <div xml:id="bb-d4e2859-Dd1e166">
+          <head xml:id="bb-d4e2859-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e2859-Hd1e171" type="question-title">Ad baptismum necessaria est fides alicuius articuli, cum in
+            fide Ecclesiae baptismus suscipiatur</head>
+          <p xml:id="bb-d4e2859-d1e174">Respondeo : Dicendum quod fides non tantum necessaria est sacramento Baptismi, sed
+            etiam omnibus sacramentis, specialiter tamen sacramento Baptismi, quia omnia sacramenta
+            virtutem habent a fide, ut dicit <name ref="#HughOfStVictor">Hugo</name>.</p>
+          <p xml:id="bb-d4e2859-d1e180">Huius autem ratio sumitur generaliter respectu omnium sacramentorum, scilicet
+            necessitatis et congruentiae. Ratio autem necessitatis est, quoniam in fide est prima
+            ratio uniendi et prima ratio elevandi supra naturam. Propter primam rationem uniendi
+            necessaria est in sacramentis, quoniam gratia sacramentalis comparatur ad virtutem
+            passionis ut ad meritum, sed ad virtutem Trinitatis sicut ad principium effectivum. Ad
+            hoc autem quod virtus passionis magis operetur et disponat in sacramentis quam alibi,
+            necesse est quod aliquo modo copuletur huiusmodi signis. Hoc autem non potest esse sine
+            eo in quo est prima unio ; et haec est fides, per quam meritum capitis fit membrorum.
+            Cum enim credimus quod pro nabis passus est, meritum Christi fit Ecelesiae. Similiter ad
+            hoc quod virtus divina specialiter et mirabiliter influat supra naturam, necessaria est
+            fidei virtus, in qua est prima ratio elevandi potentiam supra naturam ; et haec est
+            fides, propter quod etiam maxime attribuitur ei virtus faciendi miracula.</p>
+          <p xml:id="bb-d4e2859-d1e183">Ratio autem congruentiae est, quia, sicut sacramenta dicunt quoddam velamen gratiae
+            interioris, quod tamen aliquo modo illuminat ad cognoscendum, sic fides velamen dicit
+            futurae contemplationis et visionis, et tamen hoc velamen potius.est illuminans quam
+            obscurans. Et rursus, sicut in sacramentis est aliquid mysticum et aliquid gratuium, sic
+            aliquid in fide respicit non tantum intellectum, sed etiam affectum. Haec igitur est
+            ratio generalis quare fides necessaria est omnibus sacramentis.</p>
+          <p xml:id="bb-d4e2859-d1e187">Sed specialiter appropriatur Baptismo ; quoniam Baptismus est primum. inter sacramenta
+            et ianua sacramentorum, sicut fides ianua virtutum ; et. rursus, quia in. hoc sacramento
+            magis explicite est professio fidei quam in aliquo alio sacramento, tum in actu, tum in
+            verbo, et in actu est professio fidei passionis, scilicet per immersionem, sed in verbo
+            professio fidei Trinitatis : unde et maior efficacia est in hoc sacramento quam in
+            aliquo alio.</p>
+          <p xml:id="bb-d4e2859-d1e190">Et ex hoc patet cuius articuli fidei sit necessaria, scilicet passionis, a qua est
+            meritum, et Trinitatis, quae est principium effectivum. Concedendae ergo sunt rationes
+            quae ostendunt quod ad Baptismum necessaria est fides alicuius articuli. Attamen sicut
+            Baptismus est sacramentum, non singularis hominis, sed Ecclesiae, sic efficaciam habet a
+            fide Ecclesiae, et hoc per unitatem sponsae et columbae.</p>
+        </div>
+        <div xml:id="bb-d4e2859-Dd1e195">
+          <head xml:id="bb-d4e2859-Hd1e197">Ad rationes</head>
+          <p xml:id="bb-d4e2859-d1e200">Ad illud ergo quod obicitur, quod Baptismus est praevius ad virtutes, dicendum quod,
+            quamvis sit praevius respectu suscipientis, non tamen respectu Ecclesiae, in qua
+            suscipitur sacramentum.</p>
+          <p xml:id="bb-d4e2859-d1e203">Ad illud quod obicitur de caritate, iam patet responsio, quia non ita congruit sicut
+            fides, rationibus praedictis ; et tamen fides Ecclesiae verae non est sine caritate.</p>
+          <p xml:id="bb-d4e2859-d1e206">Ad illud quod obicitur, quod non differt a sacramentis Legis Veteris, dicendum quod
+            immo, quia illa habebant efficaciam a fide specialis personae ; unde parvulus
+            iustificabatur in fide parentum ; haec autem habent a fide Ecclesiae. Alia etiam
+            differentia est, quia illa totam efficaciam habebant a fide, haec autem non tantum
+            habent a fide, sed etiam a pactione divina, quae ipsum opus operatum ordinavit ad
+            gratiam percipiendam ; illa vero solum per accidens iustificabant, sola, circumcisione
+            excepta, quae virtutem habuit a fide Ecclesiae et ex pactione Dei. Dominus enim pactum
+            fecit, cum dixit Marci ultimo, 16 : <quote xml:id="bb-d4e2859-Qd1e208" ana="#mc16_16">Qui crediderit et baptizatus
+              fuerit, salvus erit</quote> ; et similiter Genesis 17, 2 : <quote xml:id="bb-d4e2859-Qd1e211" ana="#gen17_2">Ponam
+              pactum meum</quote> etc.</p>
+          <p xml:id="bb-d4e2859-d1e215">Ad illud quod obicitur, quod fides Trinitatis magis videtur necessaria, dicendum quod
+            necessaria est utraque, sicut tactum est, sicut etiam utriusque fit professio ; magis
+            tamen appropriatur virtus et efficacia fidei passionis Christi, quoniam ob meritum
+            passionis Christi tota Trinitas est liberalior ad dandam specialem gratiam in Baptismo :
+            et hinc est quod, fides passionis exprimitur facto, sed fides Trinitatis exprimitur
+            verbo. Et sic patet quae sint necessaria ad integritatem Baptismi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

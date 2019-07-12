@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e36266">
+        <head xml:id="bb-d4e36266-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e36266-Hd1e111" type="question-title">Utrum post carnalem copulam possit vir continere, uxore
+          nolente.</head>
+        <div xml:id="bb-d4e36266-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e36266-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e36266-d1e119">Quantum ad primum ostenditur quod non : Quia post carnalem copulam vir non habet
+            potestatem sui corporis. Si non habet, ergo non potest de ipso facere sacrificium
+            continentiae, uxore nolente.</p>
+          <p xml:id="bb-d4e36266-d1e122">Item, <name ref="#Augustine">Augustinus</name> a dicit, et habetur in littera :
+              <quote xml:id="bb-d4e36266-Qd1e127">Non modo non hortamur, sed etiam quod vovisti prohibemus implere, si forte
+              coniux tua hoc tecum suscipere animi vel carnis infirmitate recusat</quote>.</p>
+          <p xml:id="bb-d4e36266-d1e131">Item, ratione videtur, quia mulier non tenetur continere nec vir potest eam ad
+            continentiam cogere ; sed cogit eam, si, ipsa invita, vult continentiam servare : ergo,
+            cum non possit cogere, non potest continere.</p>
+          <p xml:id="bb-d4e36266-d1e134">Item, sicut servus tenetur domino obsequi, sic vir uxori debitum reddere, et fortius,
+            quia est a Domino confirmatum ; sed servus, prohibente domino, non potest religionem
+            intrare vel a servitio eius se auferre ; ergo etc.</p>
+          <p xml:id="bb-d4e36266-d1e138">Contra : Licitum est viro, uxore etiam prohibente, accipere crucem in subsidium Terrae
+            Sanctae ; sed votum continentiae adhuc melius est : ergo etc.</p>
+          <p xml:id="bb-d4e36266-d1e141">Item uxore prohibente, potest quis corpus suum ad martyrium et mortem exponere ; et
+            tunc constat quod se reddit impossibilem ad solvendum debitum : ergo etc.</p>
+          <p xml:id="bb-d4e36266-d1e144">Item, quantumcumque quis iuret vel voveat vel se obliget ut non impleat consilia non
+            tenet iuramentum nec votum. Ergo nullus potest se obligare quin semper faciat melius ;
+            sed melius est continere, sicut dicit Apostolus : ergo etc.</p>
+          <p xml:id="bb-d4e36266-d1e147">Item, qui impedit aliquem volentem ascendere ad altiorem statum, peccat graviter, quia
+            Spiritui Sancto obviat : ergo, si vir vult continere et religionem intrare, videtur quod
+            uxor teneatur consentire : ergo, si vult, potest ad hoc compelli de iure : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e36266-Dd1e151">
+          <head xml:id="bb-d4e36266-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e36266-Hd1e156" type="question-title">Post copulam carnalem, invita uxore, vir non potest continere,
+            ut non reddat debitum, sed tantum, ut non petat.</head>
+          <p xml:id="bb-d4e36266-d1e159">Respondeo : Dicendum quod continere est duobus modis : aut omnino, ita quod debitum nec
+            petat nec solvat ; aut non omnino, ita quod debitum non petat, tamen petenti solvat.
+            Primo modo non potest vir continere, uxore invita, quia non potest ei auferre ius quod
+            habet in corpus viri ; secundo modo continere potest, ipsa contradicente, et vovere
+            potest ; et, si voveat, servare tenetur, videlicet ut nunquam debitum petat. Concedendae
+            igitur sunt rationes probantes quod non omnino potest continere.</p>
+        </div>
+        <div xml:id="bb-d4e36266-Dd1e163">
+          <head xml:id="bb-d4e36266-Hd1e165">Ad rationes</head>
+          <p xml:id="bb-d4e36266-d1e168">Ad illud quod obicitur, quod potest accipere crucem, dicendum quod hoc factum est in
+            favorem et necessitatem Terrae Sanctae ; nec facta est omnino derogatio iuri mulieris,
+            quia debet mulier velle pro necessitate tanta continere ad tempus ; quod si nolit,
+            potest virum suum sequi. Sed cum vovetur continentia, tunc omnino mulier iure suo
+            privatur et secundum tempus totius vitae.</p>
+          <p xml:id="bb-d4e36266-d1e171">Ad illud quod obicitur de martyrio, dicendum quod mori potest pro Christo, si
+            necessitas immineat, quia mulier tenetur hoc velle ; et si vir voluntarie se offerat,
+            mulier non potest vetare, quia, ipso mortuo, poterit cum alio contrahere. Sed non sic
+            est cum vovet, uxore vivente.</p>
+          <p xml:id="bb-d4e36266-d1e174">Ad illud quod obicitur, quod semper licet facere quod melius est nec potest se homo
+            obligare ad minus bonum, dicendum quod verum est de eo qui habet sui corporis
+            potestatem. Vel dicendum quod si continet, non petendo, sed solum reddendo, non minus
+            meretur quam si omnino contineret. Unde <name ref="#Augustine">Augustinus</name> dicit,
+            et habetur in littera : Pro sanctificatione perfecta Deus tibi reputabit, si non quod
+            tibi debetur exigis, sed reddis quod debes uxori.</p>
+          <p xml:id="bb-d4e36266-d1e180">Ad illud quod obicitur de eo qui impedit aliquem etc., dicendum quod peccat qui impedit
+            aliquem ea ratione qua in illo exstinguit bonum propositum et Sancti Spiritus donum ;
+            sed mulier in hoc non potest consentire, quin sit sibi in praeiudicium, quia, si
+            concedit viro quod voveat continentiam, tenetur et ipsa continere. Quoniam igitur ipsa
+            non potest cogi ad continentiam, quia hoc est consilium, ideo dico quod ipsa non peccat,
+            sed, si alia mulier impediret, tunc peccatum esset.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

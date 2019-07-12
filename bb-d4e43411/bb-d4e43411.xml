@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43411">
+        <head xml:id="bb-d4e43411-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e43411-Hd1e111" type="question-title">Utrum spiritualis cognatio transeat ab uno in alterum.</head>
+        <p xml:id="bb-d4e43411-d1e114">Tertio quaeritur, utrum spiritualis cognatio transeat ab uno in alterum, utpote ab uxore
+          in virum.</p>
+        <div xml:id="bb-d4e43411-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e43411-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e43411-d1e122">Et quod sic, videtur. <ref xml:id="bb-d4e43411-Rd1e124" target="http://scta.info/resource/gd-p2c30q4-d1e123">Causa
+              XXX, quaestione 4, capitulo 1, Sciscitatur</ref> : <quote xml:id="bb-d4e43411-Qd1e127">Constat virum compatrem
+              constitui illi mulieri cuius Matrimonio assumpta uxor commater esse
+            videbatur</quote>.</p>
+          <p xml:id="bb-d4e43411-d1e131">Item , <ref xml:id="bb-d4e43411-Rd1e133" source="http://scta.info/resource/gd-p2c30q4-d1e142">ibidem ex Concilio
+              Chalcedonensi</ref> : <quote xml:id="bb-d4e43411-Qd1e136">Si quis cum duabus sororibus aut cum duabus commatribus
+              dormierit, secundum antiquam consuetudinem octo annis poeniteat</quote>. Ergo peccatum
+            est contrahere cum duabus commatribus sicut cum duabus. sororibus.</p>
+          <p xml:id="bb-d4e43411-d1e140">Item, ratione videtur, quia vir qui cognoscit mulierem, necessario efficitur affinis
+            omni consanguineo mulieris qui est cognatus carnaliter ; et hoc propter hoc quod
+            efficiuntur unum corpus : ergo pari ratione, si mulier est alicui cognata spiritualiter,
+            si iungatur alicui, necesse est quod ille efficiatur affinis eidem.</p>
+          <p xml:id="bb-d4e43411-d1e143">Item, magis uniuntur vir et uxor in unitate carnis quam mater et filius ; sed qui
+            efficitur pater spiritualis alicuius, necessario efficitur compater matris : ergo multo
+            fortius qui efficitur compater viri, efficitur compater uxoris.</p>
+          <p xml:id="bb-d4e43411-d1e147">Contra : <ref xml:id="bb-d4e43411-Rd1e149" target="http://scta.info/resource/gd-p2c30q4-d1e172">Causa XXX,
+              quaestione 4</ref> :<quote xml:id="bb-d4e43411-Qd1e152">Qui spiritualem habet compatrem ; cuius filium de lavacro
+              fontis accepit, et eius uxor eommater non est, liceat eidem, compatre suo defuncta,
+              eius viduam ducere in uxorem</quote>.</p>
+          <p xml:id="bb-d4e43411-d1e156">Item, in <ref xml:id="bb-d4e43411-Rd1e158" target="http://scta.info/resource/gd-p2c30q4-d1e187">sequenti
+              capitulo</ref> : <quote xml:id="bb-d4e43411-Qd1e161">Post obitum uxoris suae cum commatre uxoris coniugia copulari
+              nulla videtur ratio vel auctoritas prohibere</quote>.</p>
+          <p xml:id="bb-d4e43411-d1e165">Item, ratione videtur, quia unio carnis et spiritus simpliciter sunt disparatae : ergo
+            per unam ad aliam non transitur : ergo non videtur quod ab uno ad alterum transeat
+            cognatio spiritualis.</p>
+          <p xml:id="bb-d4e43411-d1e168">Item, quantumcumque vir fuerit amicus sive filius Dei, per hoc uxor non coniungitur Deo
+            novo vinculo nec e converso : ergo pari ratione, quando unus coniugum spiritualiter
+            alligatur alicui , non propter hoc alligatur et alter.</p>
+        </div>
+        <div xml:id="bb-d4e43411-Dd1e172">
+          <head xml:id="bb-d4e43411-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e43411-Hd1e177" type="question-title">Consanguinitas spiritualis, contracta per actum alterius, non
+            transit in alterum; sed contracta per actum proprium, et quidem post carnalem copulam,
+            transit</head>
+          <p xml:id="bb-d4e43411-d1e180">Respondeo : Dicendum quod, cum auctoritates sint ad utramque partem, cognatio
+            spiritualis aliquo modo transit a muliere in virum, aliquo modo non.</p>
+          <p xml:id="bb-d4e43411-d1e183">Sed tamen notandum quod <name ref="#Lombard">Magister</name> et etiam Gratianus
+            distinguunt sic, quod postquam alter coniugum contrahit cognationem cum aliquo, aut
+            mutuo se cognoscunt aut non. Si sic, tunc transit cognatio spiritualis ab uno in alterum
+            ; si non, tunc non transit. Sed ista responsio a iurisperitis non approbatur nec ipsum
+            capitulum concordat, <ref xml:id="bb-d4e43411-Rd1e188" target="http://scta.info/resource/gd-p2c30q4-d1e187">Causa
+              XXX, quaestione 4, Post uxoris obitum</ref>, ubi dicitur quod per unionem carnis non
+            transitur ad unionem spiritus. Si ergo aliquis vel aliqua habet cognationem spiritualem,
+            per sequentem copulam talis cognatio in alterum non pertransit.</p>
+          <p xml:id="bb-d4e43411-d1e192">Et ideo aliter distinguendum, quod aliqua mulier vel aliquis vir potest contrahere
+            cognationem spiritualem aut per actum suum aut per actum alterius ; aut quia levat
+            alterius filium aut quia levatur eius filius. Si per actum alterius, sic nullo modo
+            transit nec communicatur. Si per actum proprium, aut ante carnalem copulam aut post. Si
+            ante, tunc non transit nec communicatur, quia per unionem carnis sequentem non transitur
+            ad unionem spiritus praecedentem ; et in his duobus casibus licet habere duas commatres.
+            Si vero per actum proprium contrahit post carnalem copulam, cum vir et mulier sint una
+            caro et unum principium, operatio sive actio unius alteri attribuitur, et in hoc casu
+            non licet habere duas commatres, Extra, De cognatione spirituali, Martinus Bertham. Et
+            ratio huius assignatur unitas principii.</p>
+          <p xml:id="bb-d4e43411-d1e196">Et sic solvuntur contrarietates. Et hoc continetur in his versibus : Quae mihi vel
+            cuius mea natum fonte levavit, Haec mea commater fieri mea non valet uxor, Si qua meae
+            natum non ex me fonte levavit, Hanc post fata meae non inde vetabor habere.</p>
+          <p xml:id="bb-d4e43411-d1e199">Concedendum ergo quod aliquo modo transit ab uxore in virum, licet aliquae rationes ad
+            hoc indudae sint sophisticae.</p>
+        </div>
+        <div xml:id="bb-d4e43411-Dd1e204">
+          <head xml:id="bb-d4e43411-Hd1e206">Ad rationes</head>
+          <p xml:id="bb-d4e43411-d1e209">1-2. Ad illud quod obicitur in contrarium, iam patet responsio, quod auctoriates
+            currunt secundum illas duas vias priores.</p>
+          <p xml:id="bb-d4e43411-d1e212">Ad illud quod obicitur, quod istae coniunctiones sunt omnino disparatae, dicendum quod
+            non est verum, quoniam cognatio spiritualis fit per actum corporalem ; et quia unum
+            corpus sunt, ita quod unitas praecedit : ideo quod fit ab uno, reputatur fieri ab alio.
+            Sed cum unitas sequitur, non potest venire ad unitatem principii actus
+            sacramentalis.</p>
+          <p xml:id="bb-d4e43411-d1e215">Ad illud quod ultimo obicitur, dicendum quod non est simile, propter hoc quod fit per
+            gratiam mentalem, hoc autem per actum corporalem. Et sic patet illud.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

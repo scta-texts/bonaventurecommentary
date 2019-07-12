@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e7339">
+        <head xml:id="bb-d4e7339-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e7339-Hd1e111" type="question-title">Utrum parvuli baptizandi debeant catechizari</head>
+        <p xml:id="bb-d4e7339-d1e114">Et cum catechismus dicatur instructio, quaeritur ergo, utrum parvuli debeant
+          catechizari.</p>
+        <div xml:id="bb-d4e7339-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e7339-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e7339-d1e122">Et quod sic, videtur: Quia, ubi unum tantum sacramentum est, et unus ritus debet
+            observari ; sed magni catechizantur : ergo et parvuli.</p>
+          <p xml:id="bb-d4e7339-d1e125">Item, forma a Deo tradita est observanda generaliter ; sed Christus, in ultimo, 19
+            Matthaei, Baptismo praemittit doctrinam, cum dicit : <quote xml:id="bb-d4e7339-Qd1e127" ana="#mt28_19">Ite, docete
+              omnes gentes</quote> etc.</p>
+          <p xml:id="bb-d4e7339-d1e131">Item, ad hoc facit mos et consuetudo universalis Ecclesiae, quae cum faciat recte
+            catechizando pueros, videtur etc.</p>
+          <p xml:id="bb-d4e7339-d1e134">Sed contra : Stultum est instruere. eum qui non est capax doctrinae : ergo baptizans
+            stulte agit, cum.catechizat parvulum.</p>
+          <p xml:id="bb-d4e7339-d1e138">Item, videtur quod assistentes falso respondeant : aut enim respondent in persona
+            parvuli aut in persona sua. In persona sua, non, quia sacerdos quaerit a parvulo. Si in
+            persona parvuli, ergo falsum dicunt, cum dicunt credo.</p>
+          <p xml:id="bb-d4e7339-d1e141">Item quaero utrum in illa responsione obligentur patrini. Et quod sic, videtur, quia
+              <name ref="#Augustine">Augustinus</name>, in quodam Sermone : <quote xml:id="bb-d4e7339-Qd1e146">Volo quod omnes
+              cognoscatis, tam viri quam mulieres, vos parvulis, quos suscepistis, fideiussores apud
+              Deum exstitisse</quote>. Sed tunc videtur, cum nemo sciat de alio qualis sit futurus,
+            quod stulte promittat et in discrimine se ponat.</p>
+          <p xml:id="bb-d4e7339-d1e150">Item quaero utrum parvuli obligentur. Et quod sic, videtur. Dicit Dionysius quod sensus
+            verborum quae dicunt patrini est quod puer ille, cum in sensum venerit, tenebit sacras
+            confessiones ; obligant ergo parvulum. Si enim obligari potuerit parvulus per carnales
+            parentes ad malum, ergo per spirituales ad bonum multo fortius. Sed contra : si parentes
+            promittant pro filio quod filius intrabit religionem, ille non obligatur nec tenetur :
+            ergo similiter in proposito.</p>
+          <p xml:id="bb-d4e7339-d1e153">Item quaero, si obligatur, utrum illa obligatio sit votum. Et quod sic, videtur, quia
+            votum est spontanea promissio melioris boni, deliberatione et obligatione firmata.
+            Contra : secundum hoc duplici peccato peccaret baptizatus, quia transgressor est voti ac
+            praecepti.</p>
+        </div>
+        <div xml:id="bb-d4e7339-Dd1e157">
+          <head xml:id="bb-d4e7339-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e7339-Hd1e162" type="question-title">Etiam in baptismo parvulorum congruit praemittere
+            catechismum</head>
+          <p xml:id="bb-d4e7339-d1e165">Respondeo : Dicendum quod catechismus in adultis praecedebat Baptismum propter duas
+            causas : ut baptizandi instruerentur de credendis et ut se obligarent voluntarie ad Dei,
+            imperia facienda, quasi non coacte, sed voluntarie illa impleturi. Parvuli quidem, etsi
+            non possunt doceri, possunt tamen per patrinos obligari. Ideo fit in eis catechismus et
+            propter rationem obligandi et propter uniformitatem, ut consimiliter omnes baptizentur,
+            sicut consimilem effectum recipiunt.</p>
+        </div>
+        <div xml:id="bb-d4e7339-Dd1e170">
+          <head xml:id="bb-d4e7339-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e7339-d1e175">1-2. Ad illud ergo quod obicitur de doctrina, iam patet responsio. Similiter ad illud
+            quod obicitur de respondentibus, dicendum quod respondent in persona parvuli, et est
+            sensus : credo, id est sacramentum fidei percipio vel suscipere praesto sum. Et non est
+            sermo falsus nec inconsuetus, quia, sicut dicit <name ref="#Augustine">Augustinus</name>, in epistola Ad Bonifacium, frequenter signum accipitur pro re ;
+            sicut dicimus : cras erit resurrectio Domini, et videns fumum dicit se videre ignem. Vel
+            potest esse sensus : credo, id est ad credendum me obligo.</p>
+          <p xml:id="bb-d4e7339-d1e181">Ad illud quod quaeritur utrum patrini obligentur, dicendum quod, si non haberent alium
+            doctorem, obligantur ad instruendum ipsum in his quae sunt de necessitate fidei et morum
+            vel ad hoc quod facerent instrui vel ad hoc quod ille crederet vel servaret. Nunc autem,
+            quia multos habent doctores, non tenentur.</p>
+          <p xml:id="bb-d4e7339-d1e184">Ad illud quod quaeritur de parvulis, utrum obligentur, dicendum quod sic, quia ibi non
+            requiruntur nisi ea ad quae tenentur de iure naturali. nulla autem supererogationis ;
+            ideo non est simile de ingressu in religionem.</p>
+          <p xml:id="bb-d4e7339-d1e187">Ad illud quod quaeritur utrum talis obligatio sit votum, dicendum quod non proprie,
+            quia votum est de eo quod supererogationis est ; tamen, extenso nomine, est votum, quia
+            voluntaria obligatio. Nec facit duplex peccatum, quia non obligatur magis quam prius de
+            necessitate, sed de bono et aequo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

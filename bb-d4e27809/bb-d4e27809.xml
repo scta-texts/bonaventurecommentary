@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e27809">
+        <head xml:id="bb-d4e27809-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e27809-Hd1e111" type="question-title">Utrum in purgatorio unus liberetur ante alium.</head>
+        <div xml:id="bb-d4e27809-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e27809-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e27809-d1e119">Quantum ergo ad primum ostenditur quod unus liberetur ante alium : Primo per illud quod
+            dicit Apostolus, I ad Corinthios 3, 12 : <quote xml:id="bb-d4e27809-Qd1e121" ana="#Icor3_12">Qui aedificat ligna,
+              foenum, stipulam</quote> ; sed facilius et citius consumitur stipula quam lignum :
+            ergo, cum aliquis ferat stipulam, aliquis ferat lignum, videtur quod citius liberetur
+            unus quam alius.</p>
+          <p xml:id="bb-d4e27809-d1e125">Item, in <ref xml:id="bb-d4e27809-Rd1e127" target="http://scta.info/resource/pl-l4d21c3-d1e115">littera</ref>
+            habetur, et est verbum <ref xml:id="bb-d4e27809-Rd1e130">Augustini, in Enchiridio</ref> : <quote xml:id="bb-d4e27809-Qd1e133" source="http://scta.info/resource/augen-d1e187">Post hanc vitam incredibile non est
+              nonnullos fideles per ignem purgatorium, quanto magis minusve bona pereuntia
+              dilexerunt, tanto citius tardiusque salvari</quote>.</p>
+          <p xml:id="bb-d4e27809-d1e137">Item, in foro poenitentiae graviori culpae respondet gravior poena, non solum quantum
+            ad intensionem, sed etiam quantum ad durationem, ut patet inspicienti canones, in quibus
+            poenitentiae taxantur. Si ergo iudicium Ecclesiae rectum conforme est divino iudicio,
+            patet etc.</p>
+          <p xml:id="bb-d4e27809-d1e140">Item, per peccatum meruit anima non solum in igne cremari, sed etiam Dei visione
+            privari : ergo utroque modo debet temporaliter puniri : ergo qui gravius peccavit non
+            solum acerbius puniri, verum etiam diutius debet a Dei visione separari, ergo tardius
+            purgari.</p>
+          <p xml:id="bb-d4e27809-d1e144">Contra : Quantumcumque merita sint inaequalia, tam in caelo quam in inferno sunt
+            praemia et supplicia aequaliter durantia. Ergo pari ratione, ut videtur, debet esse in
+            poena purgatoria.</p>
+          <p xml:id="bb-d4e27809-d1e147">Item, secundum quod intensior est culpa, intensior ei redditur poena ; sed quantum
+            potest minor poena super minorem culpam, tantum potest maior super maiorem : ergo quam
+            cito liberatur in purgatorio parvus peccator per parvam poenam, tam cito liberatur
+            magnus peccator per magnam poenam.</p>
+          <p xml:id="bb-d4e27809-d1e150">Item, si alius citius alio liberatur, aut ratione maioris caritatis, aut ratione
+            minoris reatus. Ratione maioris caritatis, videtur, quia caritas est tanto maior, quanto
+            anima est Deo similior, et quanto Deo est similior, tanto statui gloriae vicinior. Ergo
+            tanto citius curatur et purgatur et in caelum fertur. Sed quod ratione minoris reatus,
+            videtur, quia anima non est ibi nisi ad solvendum quod traxit ex hac vita ; sed quanto
+            debitum est minus, tanto citius solvitur : ergo videtur quod talis citius purgetur et in
+            caelum feratur.</p>
+        </div>
+        <div xml:id="bb-d4e27809-Dd1e154">
+          <head xml:id="bb-d4e27809-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e27809-Hd1e159" type="question-title">In purgatorio unus citius quam alius purgatur</head>
+          <p xml:id="bb-d4e27809-d1e162">Respondeo : Dicendum quod , sicut dicit <name ref="#Augustine">Augustinus</name>
+            expresse in littera, in illo igne citius purgatur unus quam alius. Qui enim diutius in
+            peccato permansit, dignum est ut diutius sustineat poenam ; rursus, qui gravius
+            offendit, dignum est ut puniatur poena acerbiori et dilatione patriae longiori, divina
+            hoc iustitia faciente, quae omnibus decentissime reddit stipendia meritorum.</p>
+        </div>
+        <div xml:id="bb-d4e27809-Dd1e169">
+          <head xml:id="bb-d4e27809-Hd1e171">Ad rationes</head>
+          <p xml:id="bb-d4e27809-d1e174">Ad illud quod obicitur in contrarium de aequalitate durationis in caelo, dicendum quod
+            non est simile, quia in inferno poena aeterna infligitur, et aeterno non est maius et
+            minus ex parte post sive ex parte ea qua est aeternum ; similiter in caelo praemium
+            aeternum datur ; in purgatorio vero sola poena temporalis infligitur, et in hac est
+            diutius et brevius,</p>
+          <p xml:id="bb-d4e27809-d1e177">Ad illud quod obicitur, quod poena gravis aeque cito delet gravem etc., dicendum quod
+            verum esset, si omnino poena intenderetur secundum quod intenditur culpa ; sed divina
+            dispensatio sic ordinat ut non omnino intendatur quantum ad acerbitatem, propter magnam
+            difficultatem, sive etiam quia vult utroque modo punire, ita ut maior acerbitas et
+            diuturnitas recompensent, si quid in altero deficiebat.</p>
+          <p xml:id="bb-d4e27809-d1e180">Ad illud quod quaeritur, quis citius purgatur, dicendum quod ille qui minorem habet
+            reatum, quoniam locus purgatorius non est debitus nisi ratione reatus vel alicuius
+            culpae. Et si tu obicias, quod caritas maior debet facere citius evolare, dicendum quod
+            caritas maior auget gloriam intensive, secundum autem durationem non. Unde, si duo
+            innocentes inaequalis caritatis simul morerentur, simul evolarent, non tamen aequaliter
+            beati essent.</p>
+          <p xml:id="bb-d4e27809-d1e183">Quod ergo dicit, quod est similior statui gloriae, dicendum quod verum est ratione
+            ordinationis ad bonum, sed non magis quantum ad liberationem a malo ; et velocior
+            purgatio respic ereptionem a malo directe, non habilitationem ad bonum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51426">
+        <head xml:id="bb-d4e51426-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e51426-Hd1e111" type="question-title">Utrum sensus illi, qui sunt in suo actu, cognoscant per
+          receptionem speciei.</head>
+        <p xml:id="bb-d4e51426-d1e114">Secundo quaeritur, utrum illi sensus, qui sunt in suo actu, cognoscant per receptionem
+          speciei.</p>
+        <div xml:id="bb-d4e51426-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e51426-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e51426-d1e122">Et quod sic, videtur : Quia omnis cognitio est motus ad animam ; sed omnis motus ad
+            animam est in aliquid recipiendo : ergo etc.</p>
+          <p xml:id="bb-d4e51426-d1e125">Item, omnis cognitio est per unionem cognoscibilis cum cognoscente ; sed sensus
+            gloriosus aliquid cognoscit cui non unitur secundum veritatem et cuius non habet per
+            naturam speciem : ergo habet uniri mediante specie recepta.</p>
+          <p xml:id="bb-d4e51426-d1e128">Item, quanto speculum est clarius et purius, tanto est ad recipiendum magis idoneum ;
+            sed sensuum gloriosorum organa sunt purissima et denudata a formis obiectorum : ergo
+            etc.</p>
+          <p xml:id="bb-d4e51426-d1e131">Item, ordo naturalis est ut obiectum influat in organum ; sed natura. non tolletur per
+            gloriam : ergo organum recipiet.</p>
+          <p xml:id="bb-d4e51426-d1e135">Contra : <name ref="#Augustine">Augustinus</name>, in VI Musicae, et est propositio per
+            se vera : <quote xml:id="bb-d4e51426-Qd1e140" source="http://scta.info/resource/KPO3bi-UCiTnK">Minus nobile non agit
+              in magis nobile</quote>. Sed quod recipit ab alio, patitur ab illo : ergo visus non
+            poterit recipere a corporibus inferioribus, cum organum eius sit nobilissimum.</p>
+          <p xml:id="bb-d4e51426-d1e144">Item, orbis primus non recipit peregrinam impressionem, propter sui nobilitatem et
+            incorruptionem : ergo, si oculus est nobilior, patet etc.</p>
+          <p xml:id="bb-d4e51426-d1e147">Item, si est ibi receptio de novo, cum non sit receptio faciens esse sensum in actu
+            nisi adsit iudicium, ergo est ibi iudicium ; ergo cogitatio animae, ergo nova cogitatio,
+            et ita volubiles cogitationes ; quod est contra <name ref="#Augustine">Augustinum</name>.</p>
+          <p xml:id="bb-d4e51426-d1e153">Item, immutationem et receptionem animalem antecedit immutatio naturalis ; sed corpus
+            glorificatum et eius organum, cum sit incorruptibile, non recipiet naturalem
+            immutationem : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e51426-Dd1e157">
+          <head xml:id="bb-d4e51426-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e51426-Hd1e162" type="question-title">Sensus glorificati cognoscunt recipiendo speciem a
+            sensibili</head>
+          <p xml:id="bb-d4e51426-d1e165">Respondeo : Ad hoc dixerunt aliqui quod non est receptio ab extrinseco ; sed anima
+            omnium quae vult videre species facit in oculo et videt, quia tunc ordo erit commutatus,
+            quia non erit receptio veniens ab inferiori, sed a superiori. Sed haec solutio non
+            potest stare ; primum quidem, quia perverteretur ordo, cum species spiritualis fieret
+            corporalis, perfectum fieret imperfectum ; secundo, quia ita videret absentia ut
+            praesentia, ita oculis clausis sicut apertis.</p>
+          <p xml:id="bb-d4e51426-d1e168">Secunda positio est quod est sensus, sed non est intus suscipiendo, sed extra mittendo
+            virtutem, quia non recipiet, sed influet. Sed ista adhuc non potest stare, cum cognitio
+            sit in unione et organa sint maxime habilia ad recipiendum.</p>
+          <p xml:id="bb-d4e51426-d1e171">Tertia positio est quod sensus glorificati cognoscunt recipiendo speciem ab ipso
+            sensibili. Et concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e51426-Dd1e176">
+          <head xml:id="bb-d4e51426-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e51426-d1e181">Ad illud quod obicitur, quod minus nobile etc., dici potest quod non oportet quod
+            obiectum sit nobilius organo in quod agit, simpliciter, sed secundum quid, in hoc
+            scilicet quod habet speciem, et illud est denudatum ; et hoc sufficit ad agendum. Vel
+            aliter dicendum quod minus nobile non agit virtute propria, sed aliena ; et in sensu
+            glorificato est natura duplex in oculo, perspicui et luminis ; quando igitur videt
+            corpus se luminosius, illud corpus sua virtute facit speciem in oculo ; quando vero
+            minus luminosum, tunc virtute propria in se facit. Et sic patet illud.</p>
+          <p xml:id="bb-d4e51426-d1e184">Ad illud quod obicitur de aliena impressione, quod non est in orbe, dicendum quod ibi
+            notatur aliena impressio, quae est via ad corruptionem ; sed de hac non intelligitur
+            hic.</p>
+          <p xml:id="bb-d4e51426-d1e187">Ad illud quod obicitur, quod cogitationes volvuntur, dicendum quod cogitationes volvi
+            est dupliciter : uno modo, quia intellectus non habet defixum aspectum in uno, et hoc
+            modo est in via et non erit in.patria ; alio modo est quod principaliter et continue
+            videt unum et alia multa propter illud, et inter illa multa modo unum, modo aliud ; et
+            hoc bene erit in patria ; talis est in proposito.</p>
+          <p xml:id="bb-d4e51426-d1e190">Ad illud quod obicitur, quod immutatio naturalis praecedit, dicendum quod immutatio
+            naturalis est duplex : quaedam est per receptionem et abiectionem, ut calidi a frigido,
+            et haec non erit ; quaedam per receptionem tantum, ut perspicui a luminoso, et haec
+            erit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

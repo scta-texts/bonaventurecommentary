@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e5055">
+        <head xml:id="bb-d4e5055-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e5055-Hd1e111" type="question-title">Utrum Baptismus sanguinis saltem sit sacramentum.</head>
+        <p xml:id="bb-d4e5055-d1e114">Tertio quaeritur de horum convenientia ; et cum Baptismus aquae sit Baptismus et
+          sacramentum, quaeritur utrum Baptismus sanguinis saltem sit sacramentum.</p>
+        <div xml:id="bb-d4e5055-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e5055-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e5055-d1e122">Et quod non, videtur : Quia supra, distinctione tertia, dicit <name ref="#Lombard">Magister</name> quod <quote xml:id="bb-d4e5055-Qd1e127">Sacramentum Baptismi celebratur tantum in aqua, non in
+              aliquo alio liquore</quote>. Sed sanguis non est liquor eiusdem speciei cum aqua :
+            ergo etc.</p>
+          <p xml:id="bb-d4e5055-d1e131">Item, sacramentum est signum expressivum eius quod fit interius ; sed sanguis potius
+            corpus inficit quam purificet : ergo, cum interius anima non inficiatur, sed
+            purificetur, Baptismus sanguinis non est sacramentum.</p>
+          <p xml:id="bb-d4e5055-d1e134">Item, sacramentum Novae Legis efficit aliquid sive confert aliquid interius aliquo modo
+            ; sed sanguis exterior et persecutio exterior non efficit interius, sed potius recipit
+            bonitatem ab interiori : ergo etc.</p>
+          <p xml:id="bb-d4e5055-d1e137">Item, omne sacramentum est institutum, quia ex institutione significat ; hoc autem non
+            est institutum : ergo non est sacramentum.</p>
+          <p xml:id="bb-d4e5055-d1e141">Contra : <quote xml:id="bb-d4e5055-Qd1e143">Sacramentum est invisibilis gratiae visibilis forma</quote> ; sed hoc
+            est in martyrio, quia est signum gratiae invisibilis in corde et manifestatur amor Dei
+            per sanguinis effusionem : ergo etc.</p>
+          <p xml:id="bb-d4e5055-d1e147">Item, super illud ad Romanos 5, 14 : <quote xml:id="bb-d4e5055-Qd1e149" ana="#rom5_14">Qui est forma
+            futuri</quote>, Glossa : <quote xml:id="bb-d4e5055-Qd1e152">De latere Christi dormientis fluxerunt omnia sacramenta,
+              ex quibus formatur Ecclesia</quote> ; et hoc dicit, quia inde fluxerunt sanguis et
+            aqua. Ergo videtur quod ita accedit ad rationem sacramenti sanguis sicut aqua.</p>
+          <p xml:id="bb-d4e5055-d1e156">Item, <quote xml:id="bb-d4e5055-Qd1e158">quod participat nomen speciei participat nomen generis</quote> ; sed
+            martyrium sive effusio sanguinis dicitur Baptismus : ergo de.bet dici sacramentum.</p>
+          <p xml:id="bb-d4e5055-d1e162">Iuxta hoc quaeritur : cum multa sint genera martyriorum, propter quid martyrium vocatur
+            magis Baptismus sanguinis quam ignis vel alterius elementi, cum his omnibus sint Sancti
+            passi ?</p>
+          <p xml:id="bb-d4e5055-d1e165">Et iterum, cum multa sint genera baptismatum, sicut dicit Damascenus, scilicet novem,
+            videtur quod <name ref="#Lombard">Magister</name> insufficienter tangat tantum tria,
+            scilicet baptismum poenitentiae et Baptismum sanguinis et Baptismum aquae ; videtur enim
+            quod aut <name ref="#Lombard">Magister</name> diminutus est aut Damascenus
+            superfluus.</p>
+        </div>
+        <div xml:id="bb-d4e5055-Dd1e175">
+          <head xml:id="bb-d4e5055-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e5055-Hd1e180" type="question-title">Baptismus sanguinis non est Sacramentum</head>
+          <p xml:id="bb-d4e5055-d1e183">Respondeo : Dicendum quod Baptismus sanguinis non est sacramentum, quia deficiunt ei
+            omnia quae sunt de ratione sacramenti, scilicet repraesentatio ex similitudine,
+            significatio ex institutione, sanctificatio ex verbi prolatione, quorum quodlibet
+            deficit, ut in opponendo tactum est et inspicienti patet : et ideo sacramentum non
+            est.</p>
+        </div>
+        <div xml:id="bb-d4e5055-Dd1e188">
+          <head xml:id="bb-d4e5055-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e5055-d1e193">Ad illud ergo quod obicitur, quod est invisibilis gratiae visibilis forma, dicendum
+            quod ratio ista est truncata et supplenda est, sicut <name ref="#Lombard">Magister</name> supplevit, supra, distinctione prima : <quote xml:id="bb-d4e5055-Qd1e198">ita quod similitudinem
+              gerat et causa existat</quote>, quorum utrumque deficit in proposito.</p>
+          <p xml:id="bb-d4e5055-d1e202">Ad illud quod obicitur, quod sacramenta dicuntur profluxisse, dum profluxit sanguis et
+            aqua, dicendum quod sanguis et aqua non significabant sacramentum eiusdem generis, sed
+            diversa ; nam aqua praesignabat sacramentum Baptismi et sanguis sacramentum
+            Eucharistiae, ubi vere est sanguis Christi ; et ideo non oportet quod verum sacramentum
+            Baptismi sit in sanguine, quia Dominus non instituit in sanguine sacramentum
+            purgationis, sed cibationis et refectionis, iuxta illud Matthaei 26, 28 : <quote xml:id="bb-d4e5055-Qd1e204" ana="#mt26_28">Hic est calix sanguinis</quote> etc.</p>
+          <p xml:id="bb-d4e5055-d1e208">Ad illud quod obicitur, quod participat nomen speciei etc., dicendum quod verum est,
+            secundum quod Baptismus nominat speciem sacramenti ; et hoc quidem facit, dum accipitur
+            pro signa visibili. Sed Baptismus non tantum dicitur ablutio exterior, sed etiam
+            purificatio interior ; et haec non est species sacramenti, quoniam haec est non tantum
+            in Baptismo fluminis, sed etiam flaminis et sanguinis. Unde, quia uterque purificat,
+            ideo non absurde uterque Baptismus dicitur, et hoc auctoritate sacrae Scripturae ; nam
+            Lucae 12, 50 de Baptismo martyrii dicitur : <quote xml:id="bb-d4e5055-Qd1e210" ana="#lc12_50">Baptismo habeo
+              baptizari</quote> etc. ; et de Baptismo flaminis habetur Actuum 1, 5 : <quote xml:id="bb-d4e5055-Qd1e213" ana="#act1_5">Vos autem baptizabimini Spiritu Sancto non post multos hos
+            dies</quote>.</p>
+          <p xml:id="bb-d4e5055-d1e217">Ad illud quod quaeritur : quare martyrium dicitur Baptismus sanguinis etc., dici potest
+            quod in martyrio ponitur vita carnis, et vita illa in sanguine est, secundum quod
+            dicitur in lege Moysi. Vel dicendum quod hoc dicitur quia omne genus martyrii ibi habet
+            finem. Nam ab omnibus aliis legimus Sanctos interdum liberatos praeterquam a poena
+            gladii.</p>
+          <p xml:id="bb-d4e5055-d1e221">Si quaeratur ratio huius, potest dici quod hoc genus poenae est a mala volunta hominis
+            immediate, sed alia genera poenarum sunt a creaturis operantibus naturaliter ; et
+            quoniam martyr Deo obtemperat, congruum est ut ei ad manifestationem divinae bonitatis
+            et in testimonium suae virtutis obtemperent cetera operantia per naturam. Mala autem
+            voluntas contra Deum nititur et Domino resistere vult et iusto Dei iudicio sinitur male
+            agere, cum vult ; et ideo nec est congruum, ut martyri subiciatur nec quod a malo
+            prohibeatur. ldeo Deus ceteros martyres huic poenae subiacere disposuit, ut nullus
+            evadat ; magis enim congruebat de hac quam de alia. Vel, quia ab hac Unigenitum non
+            eripuit, quid mirum est si alios non eripit, ne forte servus videatur maior Domino suo ?
+            Prima tamen ratio videtur melior.</p>
+          <p xml:id="bb-d4e5055-d1e224">Ad illud quod obicitur ultimo, quod <name ref="#Lombard">Magister</name> tantum ponit
+            tria et Damascenus novem, dicendum quod <name ref="#Lombard">Magister</name> non agit
+            hic nisi de Baptismo qui purificat ; et hunc comprehendit sub triplici differentia.
+            Damascenus autem accipit differentias Baptismi et quantum ad purificationem et quantum
+            ad significationem ; ideo ponit novem, quorum sic potest patere sufficientia. Nam
+            baptismata particularia ad significationem fuerunt ante Legem Novam, in Lege autem Nova
+            ad purificationem. Prima quatuor sunt secundum quatuor quae praefigurantur in Baptismo.
+            In Baptismo enim est aqua, est Spiritus, est passionis virtus et quarto baptizandi
+            actus. Quantum ad aquam praecessit figura in baptismo diluvii, secundum quod dicitur 1
+            Petri 3, 21 : <quote xml:id="bb-d4e5055-Qd1e232" ana="Ipetr3_21">Quos nunc similis formae salvos facit
+              Baptisma</quote>. Praemiserat enim quod in diluvio octo animae salvae iactae sunt per
+            aquam. Quantum ad aquam et Spiritum, in baptismo maris rubri ; de quo dicit Apostolus, I
+            ad Corinthios 10, 2, <quote xml:id="bb-d4e5055-Qd1e235" ana="#Icor10_2">quod omnes baptizati sunt in nube et in
+              mari</quote>, et nubes illa erat ignea, in quo significatur Spiritus Sancti gratiae
+            efficacia. Quantum ad virtutem passionis praefiguratur in baptismo Legis, ubi erat
+            aspersio per aquam lustrationis ; et erat cinis vitulae rufae, in cuius vitulae
+            occisione significabatur passio Christi, ut aqua lustrationis, habens vim ab illo
+            cinere, significet Baptismum habere virtutem a passione Christi. Et de hoc baptismate
+            habetur saepe in Lege et ad Hebraeos 9, 13 : <quote xml:id="bb-d4e5055-Qd1e238" ana="#hebr9_13">Cinis vitulae
+              aspersus inquinatos sanctificabat ad emundationem.</quote> Quantum ad actum
+            baptizandi, in baptismo Ioannis, ubi immergebatur quis in nomine venturi, in quo
+            praecessit expressa figura quantum ad actum. De hoc baptismate dicitur <ref xml:id="bb-d4e5055-Rd1e242" ana="#mt3_1">Matthaei 3, 1</ref> et <ref xml:id="bb-d4e5055-Rd1e245" ana="#lc3_16">Lucae 3, 16</ref>, <ref xml:id="bb-d4e5055-Rd1e248" ana="#mc1_8">Marci
+              1, 8</ref> et <ref xml:id="bb-d4e5055-Rd1e251" ana="#io1_26">Ioannis 1, 26</ref>. Et sic quantum ad
+            significationem sunt quatuor.</p>
+          <p xml:id="bb-d4e5055-d1e255">Quatuor autem sunt quantum ad purificationem. Est enim purificatio a culpa, et sic
+            baptismus poenitentiae ; et a culpa et poena satisfactoria, et sic Baptismus aquae ; et
+            a sequela, et sic baptismus in linguis igneis ; et ab omni miseria, et sic Baptismus
+            sanguinis. Et sic patet quod in Lege Nova sunt quatuor purificantia, et in Lege ante
+            Novam sunt quatuor significantia. Et medium iungens haec illis fuit Baptismus quo
+            baptizatus fuit Christus, ubi collata est vis regenerativa aquis et Spiritus in columbae
+            specie descendit de caelis. Et sic patet quod in. universo sunt novem et non plura nec
+            pauciora baptismata. Patet etiam quare <name ref="#Lombard">Magister</name> tantum tria
+            enumerat, quia solum de his loquitur quae sunt ad Baptismi efficaciam quoad purgationem
+            a culpa.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

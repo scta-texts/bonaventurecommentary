@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4479">
+        <head xml:id="bb-d4e4479-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e4479-Hd1e111" type="question-title">Utrum aliquis invitus sive coactus recipiat sacramentum
+          Baptismi.</head>
+        <p xml:id="bb-d4e4479-d1e114">Et quod aliquis invitus non recipiat Baptismum, videtur :</p>
+        <div xml:id="bb-d4e4479-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e4479-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e4479-d1e122">Quia dicitur in decretali Innocentii quod <quote xml:id="bb-d4e4479-Qd1e124">si aliquis omnino recusans immergatur,
+              non est baptizatus</quote>.</p>
+          <p xml:id="bb-d4e4479-d1e128">Item, in sacramento Baptismi contrahitur matrimonium spirituate et desponsatur anima
+            Deo ; sed matri monium spirituale aut tantum aut plus exigit de consensu quam
+            matrimonium carnale : ergo, si coactio impedit matrimonium carnale, similiter videtur
+            quod impediat ne quis suscipiat Baptismatis sacramentum.</p>
+          <p xml:id="bb-d4e4479-d1e131">Item, sacramentum est donum Dei, non solum ratione gratiae gratum facientis, sed etiam
+            characteris impressi ; sed Dei gratia, non tantum non datur repugnantibus, immo etiam
+            subtrahitur : ergo videtur quod tali nullo modo conferatur sacramentum.</p>
+          <p xml:id="bb-d4e4479-d1e134">Item, lex evangelica est tex libertatis : ergo et sacramenta evangelica sunt libertatis
+            ; sed quod libertatis est libere suscipitur a voluntate : ergo videtur quod nec de iure
+            nec de facto aliquis sacramentum Baptismi recipiat invitus.</p>
+          <p xml:id="bb-d4e4479-d1e138">Contra : Parvulus et furiosus recipiunt sacramentum, quantumcumque renitantur, sicut
+            patebit infra. Si ergo hoc verum est, ad receptionem eius non concurrit actus voluntatis
+            : ergo ita recipit invitus ut voluntarius.</p>
+          <p xml:id="bb-d4e4479-d1e141">Item, Baptismus est remedium contra originale ; sed originale contrahit necessario
+            puer, cum nascitur : ergo videtur similiter quod ad Baptismum possit inferri alicui
+            necessitas violentiae.</p>
+          <p xml:id="bb-d4e4479-d1e144">Item, non potest magis cogi voluntas quam comminando vel intentando mortem ; sed si
+            aliquis compulsus timore mortis sacrificet, erit idololatra : ergo similiter, si
+            sacramentum Baptismi recipiat timore mortis, sacramentum verum est.</p>
+          <p xml:id="bb-d4e4479-d1e147">Item, si aliquis baptizatur ex amore male inflammante, baptizatus est de facto : ergo
+            si non minus repugnat Baptismo amor male inflammans quam timor male humilians, si hic
+            baptizatus ex malo amore baptizatus est, similiter videtur quod baptizatus ex timore sit
+            baptizatus.</p>
+        </div>
+        <div xml:id="bb-d4e4479-Dd1e151">
+          <head xml:id="bb-d4e4479-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e4479-Hd1e156" type="question-title">Deficiente in adultis penitus intentione, non recipitur
+            Sacramentum, ut in invito ob coactionem sufficientem</head>
+          <p xml:id="bb-d4e4479-d1e159"> Respondeo : Dicendum quod coactio duplex est, scilicet sufficiens et inducens. Si
+            aliquis mer-. gatur coactione sufficiente - utpote quia violenter acceptus est et, ipso
+            renitente manibus et pedibus, mersus est - talis nulla modo baptizatus est, quia nullo
+            modo fuit in eo consensus nec voluntas, immo ftiit omnino repugnans. Si autem aliquis
+            inimergatur coactione inducente, utpote minis vel flagellis, ita quod magis vult se
+            subicere sacramento Ecclesiae quam morte perire, dico quod aut intendit alios illudere
+            et mortem evadere, et tunc, quia non est intentio ; non est sacramentum, cum nullus
+            dicatur baptizatus esse qui consentit se immergi ad iocum ; aut ipse vult illud quod
+            facit Ecclesia circa se fieri magis quam velit perire, et tunc, sive credat sive non,
+            sive velit habere gratiam sive non, dicendum quod recipit sacramentum, eo quod, quamvis
+            non sit ibi voluntas meritoria, est tamen ibi consensus et voluntas, nec est simpliciter
+            involuntarium. Unde, quia talis vult exterius sacramentum recipere, etsi nolit interius
+            aliquid in se fieri, fit tamen, propter hoc quod qui subicit se causae subicit se
+            necessario annexo : et ideo secundum canones et doctores theologiae talis iudicandus est
+            baptizatus.</p>
+        </div>
+        <div xml:id="bb-d4e4479-Dd1e164">
+          <head xml:id="bb-d4e4479-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e4479-d1e169">Ex hoc patet illud quod primo obicitur ; nam ista est intentio Innocentii.</p>
+          <p xml:id="bb-d4e4479-d1e172">Ad illud quod obicitur de matrimonio carnali, dicendum quod non est simile. Quia enim
+            coacta connubia consueverunt habere malos exitus, ideo sacri canones non indulserunt
+            ipsa. Alia tamen potest esse ratio huius, ut dicetur infra. Nihilominus tamen illud
+            verum est quod non tanta voluntas requiritur in aliquo ad susceptionem Baptismi sicut ad
+            contractionem matrimonii. Si enim pater exponat parvulum ad baptizandum, non potest
+            parvulus, cum ad adultam aetatem venerit, revocare ; non sic est de matrimonio, quia,
+            quantumcumque pater obliget parvulum, nunquam obligatur nisi consentiat cum pervenerit
+            ad annos discretionis.</p>
+          <p xml:id="bb-d4e4479-d1e175">Ad illud quod obicitur, quod sacramentum est donum Dei, dicendum quod est donum gratiae
+            gratis datae et gratum. facientis. Quamvis autem donum gratiae gratum facientis non
+            detur habenti duplex cor et duplicem voluntatem, datur tamen donum gratiae gratis datae,
+            quod non exigit tantam dispositionem in suscipiente.</p>
+          <p xml:id="bb-d4e4479-d1e178">Ad illud quod obicitur, quod lex evangelica est lex libertatis, dicendum quod verum est
+            quod de iure non datur nec dari debet ei qui libera voluntate non accedit ; et ius
+            divinum hoc dictat et Constantinus de hoc legem condidit De facto tamen, si fiat, factum
+            est ; hoc tamen habet veritatem in re sacramenti quod facit esse in lege libertatis.</p>
+          <p xml:id="bb-d4e4479-d1e182">Ad illud quod obicitur in contrarium, quod quantumcumque renitenti sacramentum dari
+            potest, propter parvulum et furiosum, dicendum quod non est simile, quia illi non habent
+            usum voluntatis ; unde non statur appetitui suo, sed voluntati offerentium. Tamen de
+            furioso distinguitur, quia aut habuit aliquando usum liberi arbitrii aut non habuit. Si
+            non habuit, iudicandum est sicut e parvulo. Si habuit et in illo baptizari voluit,
+            iudicandum est eum Baptismum recipere ; sed si nullo modo voluit, non est credendum
+            ipsum recipere sacramentum. </p>
+          <p xml:id="bb-d4e4479-d1e185">Ad illud quod obicitur, quod originale contrahit quis invitus, dicendum quod non est
+            simile, quia originalis contractio est quasi naturalis, et ideo inevitabilis ; sed
+            remedium Baptismi non respicit naturam, sed potius voluntatem personae ; et ideo non est
+            simile.</p>
+          <p xml:id="bb-d4e4479-d1e188">3-4. Ad illud quod obicitur ultimo de comminatione mortis, dicendum quod maior potest
+            esse coactio quam haec ; nam haec est solum inducens, non sufficiens. Sed cum accipitur,
+            velit nolit, et immergitur, ibi est sufficiens coactio. Quamvis enim voluntas non possit
+            cogi in volendo, potest tamen simpliciter homini fieri coactio in actu exteriori. Unde
+            voluntas inducta voluntas est ; et ideo hic imprimitur character et ibi non. Et est
+            exemplum in eo qui ponit thura timore mortis et de eo cuius manus trahitur violenter ;
+            primus consentit et peccat et dicitur sacrificare, secundus non. Sic qui sacramentum
+            inductus suscipit dicitur consentire ; sive inducatur amore bono vel malo, sive timore
+            bono vel malo, suscipit sacramentum, quia sacramenti susceptio est bonis malisve
+            communis. Et ideo talis voluntas sufficit ad sacramentum, ut seniores dicunt. Et sic
+            patet quibus character baptismalis imprimitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

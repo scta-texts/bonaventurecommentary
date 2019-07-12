@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e10014">
+        <head xml:id="bb-d4e10014-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e10014-Hd1e111" type="question-title">Utrum Christus manducaverit utroque modo.</head>
+        <p xml:id="bb-d4e10014-d1e114">Quarto quaeritur, utrum Christus manducaverit quolibet supra dictorum modorum.</p>
+        <div xml:id="bb-d4e10014-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e10014-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e10014-d1e122">Et quod sacramentaliter, videtur. Levitici 8, 24 : <quote xml:id="bb-d4e10014-Qd1e124" ana="#lev8_24">Cumque de
+              sanguine arietis</quote>, Glossa Hesychii : <quote xml:id="bb-d4e10014-Qd1e127">Primo sacerdos, deinde filii
+              sanguine intingebantur, quia Christus in Coena prius sanguinem accepit, deinde
+              discipulis dedit</quote>. Et rursus ibidem dicit Glossa : <quote xml:id="bb-d4e10014-Qd1e130">Bibit et aliis bibere
+              dedit</quote>.</p>
+          <p xml:id="bb-d4e10014-d1e134">Item, ratione videtur, quia Baptismum accepit in exemplum. Ergo, si hoc sacramentum est
+            magis arduum, ergo de hoc magis exemplum dare debebat.</p>
+          <p xml:id="bb-d4e10014-d1e137">Item, quod spiritualiter manducaverit, videtur : Quia spiritualiter manducatur per
+            cognitionem et dilectionem ; sed Christus summe se cognoscebat et diligebat : ergo
+            etc.</p>
+          <p xml:id="bb-d4e10014-d1e140">Item, Christus adhuc erat viator, ergo adhuc debebat uti viatico ; sed corpus Christi
+            spiritualiter est viaticum : ergo etc.</p>
+          <p xml:id="bb-d4e10014-d1e144">Contra, quod non manducaverit spiritualiter, videtur : Quia ubi est spiritualis
+            manducatio, ibi unio ; ubi autem unio, ibi diversitas nonnulla. Ergo, cum idem non
+            differat a se, patet quod Christus non comedit spiritualiter, cum fuerit idem sibi.</p>
+          <p xml:id="bb-d4e10014-d1e147">Item, ubi est spititualis manducatio, sacramentum habet spiritualem effectum ; sed in
+            Christo non habuit talem effectum manducatio : ergo etc.</p>
+          <p xml:id="bb-d4e10014-d1e150">Item, quod non sacramentaliter manducaverit, videtur : Quia manducare sacramentaliter
+            est manducare sub velamine ; sed Christus sub velamine non manducavit : ergo etc. Minor
+            patet, quia aperte totum cognoscebat.</p>
+          <p xml:id="bb-d4e10014-d1e153">Item, si sacramentaliter tantum, cum iste sit modus debitus malis, ipse autem aut
+            sumpsit optimo modo aut nullo modo sumpsit ; et iste modus non est optimus : ergo non
+            convenit ei.</p>
+        </div>
+        <div xml:id="bb-d4e10014-Dd1e157">
+          <head xml:id="bb-d4e10014-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e10014-Hd1e162" type="question-title">Christus eucharistiam sacramentaliter non spiritualiter
+            sumsit</head>
+          <p xml:id="bb-d4e10014-d1e165">Respondeo : Dicendum quod quidam dicere voluerunt quod nullo modo sumpsit, quia sibi
+            non competebat. Verumtamen nunc communiter dicunt quod Christus manducavit
+            sacramentaliter, sicut dicit Chrysostomus quod primus bibit, ne alii potum sanguinis
+            abhorrerent. Sed de spirituali quidam dicunt quod sic. Dicunt enim quod fuit ibi unio
+            per actum amoris, et effectus fuit non in se, sed in membris, ut, sicut Christus non
+            sibi meruit, sed nobis, sic virtute illius manducationis meruit ut membra corporis sui
+            magis unirentur sibi.</p>
+          <p xml:id="bb-d4e10014-d1e168">Sed, si istud verum esset, tunc haberet effectum in non manducante et etiam in
+            dormiente. Amplius, ipso baptizato, non sunt alii baptizati. Postremo, spiritualis
+            manducatio dicit intentionem unionis manducantis ad manducatum actu vel habitu ; quorum
+            neutrum fuit in Christo.</p>
+          <p xml:id="bb-d4e10014-d1e171">Propterea dicendum quod sicut Baptismum tantum sacramentaliter suscepit et non rem, sic
+            et hoc sacramentum : et hoc quidem in exemplum fecit.</p>
+        </div>
+        <div xml:id="bb-d4e10014-Dd1e176">
+          <head xml:id="bb-d4e10014-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e10014-d1e181">Ad illud ergo quod obicitur, quod manducavit spiritualiter, quia fuit in eo cognitio et
+            dilectio, dicendum quod hoc non sufficit nisi etiam sit ibi incorporatio, quae non
+            potuit esse in ipso, quia non erat diversus ab eo cui incorporat ista manducatio.</p>
+          <p xml:id="bb-d4e10014-d1e184">Ad illud quod obicitur, quod erat viator, dicendum quod verum est ; sed nihilominus
+            erat comprehensor perfectissimus et nullatenus poterat proficere, nec habitu nec
+            fervoris motu. Unde esto quod aliquis quamtumcumque perfectus, etsi non beatus, recipiat
+            digne sacramentum, intenditur in eo caritas motu vel habitu.</p>
+          <p xml:id="bb-d4e10014-d1e187">Ad illud quod obicitur, quod non manducavit sacramentaliter, quia non sub velamine,
+            dicendum quod ad plenam rationem sacramentalis manducationis non oportet quod veniat
+            signum tamquam velans sed sufficit ut veniat tamquam significans ; quod autem velet, hoc
+            est per accidens, quia oculus videns non est illuminatus plene ; unde velando illuminat
+            et illuminando velat.</p>
+          <p xml:id="bb-d4e10014-d1e190">Ad illud quod obicitur, quod mali tantum comedunt sacramentaIiter, dicendum quod
+            aliquis sacramentaliter tantum recipit, quia non est idoneus ad spiritualem efficaciam.
+            Sed hoc potest esse duplici de causa : aut propter gratiae plenitudinem, et hoc
+            perfectionis est et in solo Christo fuit ; aut hoc est propter ipsius ineptitudinem et
+            indignitatem, et sic est in peccatoribus. Et sic patet illud.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

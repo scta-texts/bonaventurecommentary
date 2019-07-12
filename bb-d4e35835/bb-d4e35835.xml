@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e35835">
+        <head xml:id="bb-d4e35835-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e35835-Hd1e111" type="question-title">Utrum coitus propter prolem possit esse sine omni culpa.</head>
+        <div xml:id="bb-d4e35835-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e35835-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e35835-d1e119">Circa primum sic proceditur, et ostenditur quod possit esse sine omni culpa. <name ref="#Augustine">Augustinus</name> dicit De bono coniugali, et habetur in littera :
+              <quote xml:id="bb-d4e35835-Qd1e124">Coniugalis concubitus generandae prolis gratia non habet culpam</quote>.</p>
+          <p xml:id="bb-d4e35835-d1e128">Item, ratione videtur : Matrimonium est sanctum et bonum ; quod patet, quia a Deo est
+            institutum et confirmatum per praesentiam suam ad nuptias, 2, 2 Ioannis, et approbatum
+            per responsionem suam, Matthaei 19, 4 ; sed re sancta potest homo sancte uti et sine
+            peccato : ergo, cum hoc sit maxime causa prolis, patet etc.</p>
+          <p xml:id="bb-d4e35835-d1e131">Item, omne quod Deus praecipit, potest fieri sine peccato ; sed Deus praecepit prolem
+            procreare, <ref xml:id="bb-d4e35835-Rd1e133" ana="#gen8_11">Genesis 8, 11</ref>, post lapsum : ergo possibile est hoc
+            facere sine peccato.</p>
+          <p xml:id="bb-d4e35835-d1e137">Item, nulla potentia est mala de se, ergo omni potentia bene possumus uti ; sed
+            potentia generandi est potentia nobis data : ergo possumus ea bene uti. Sed bene uti
+            sive melius non est aliter quam ad id ad quod est et secundum quod ad illud est ; hoc
+            autem est, cum cognoscit uxorem propter prolem : ergo etc.</p>
+          <p xml:id="bb-d4e35835-d1e141">Contra : Omnis delectatio immoderata est peccatum, quia, ubi est defectus modi, est
+            malum culpae ; sed in coitu est delectatio immoderata, etiam quando coit quis causa
+            prolis procreandae : ergo est ibi peccatum.</p>
+          <p xml:id="bb-d4e35835-d1e144">Item, omnis delectatio in qua pervertitur rectus ordo est peccatum ; sed in coitu
+            coniugali est delectatio in qua anima absorbetur a carne, etiam cum coit propter hoc :
+            ergo etc.</p>
+          <p xml:id="bb-d4e35835-d1e147">Item, omnis actus in quo rationabiliter homo erubescit, est peccatum vel foeditatem
+            habet, ut purgare ventrem ; attamen non ita rationabiliter de hoc erubescit quis, quia
+            non debet homo erubescere de poena, sed de culpa. Sed in coitu coniugali ratione vel
+            amore prolis erubescit et nullo modo coram aliis faceret : ergo est peccatum.</p>
+          <p xml:id="bb-d4e35835-d1e150">Item, omnis actus in quo regnat libido, est peccatum ; sed in actu coniugali pro
+            generanda prole regnat libido, quia dicit <name ref="#Augustine">Augustinus</name> quod
+              <quote xml:id="bb-d4e35835-Qd1e155">peccatum non transmittit ad posteros propagatio, sed libido</quote> : ergo
+            etc.</p>
+          <p xml:id="bb-d4e35835-d1e159">Item, omnis actus qui est necessario ordinatus ad culpam est peccatum ; sed hoc est in
+            coitu ratione prolis, quia contrahit peccatum proles : ergo in actu coniugali semper est
+            peccatum.</p>
+          <p xml:id="bb-d4e35835-d1e162">Item, ubicumque est actus coniugalis, necesse est praecedere motus in carne ; sed primi
+            motus sunt peccata, saltem venialia : ergo semper coitus propter prolem est peccatum
+            veniale.</p>
+          <p xml:id="bb-d4e35835-d1e166">Item, si Matrimonium excusat coitum propter prolis bonum, aut excusat a peccato quod
+            est, aut a peccato quod non est. Non a peccato quod non est nec fuit. Si a peccato quod
+            est, ergo aliquid est ibi peccatum.</p>
+          <p xml:id="bb-d4e35835-d1e169">Iuxta hoc quaeritur, pro quanto dicatur Matrimonium excusare coitum, cum omnis
+            ordinatio quae cum uxore habetur, possit etiam haberi cum alia muliere, et ita sit
+            libido et pruritus et carnalis actus in cognoscendo uxorem sicut etiam aliam mulierem
+            vel pene.</p>
+        </div>
+        <div xml:id="bb-d4e35835-Dd1e173">
+          <head xml:id="bb-d4e35835-Hd1e175">Conclusio</head>
+          <head xml:id="bb-d4e35835-Hd1e178" type="question-title">Actus coniugii excusatur per sacramentum, et quidem ab omni
+            culpa, quando fit prolis generandae gratiae</head>
+          <p xml:id="bb-d4e35835-d1e181">Respondeo : Dicendum quod circa hoc quidam erraverunt, dicentes quod in actu
+            generativae non est culpa nisi per excessum, sicut in actu nutritivae. Alii erraverunt
+            dicentes semper esse peccatum et nullo modo excusari, immo propter peccatum Matrimonium
+            vitiari, non vitium excusari ; malum enim iunctum bono ipsum vitiat, non e converso
+            bonum malum excusat. Et primi quidem non intellexerunt morbum, quomodo scilicet infecta
+            est vis generativa. Secundi vero non intellexerunt sacramentum esse remedium et
+            medicamentum, quod non vitiatur a morbo, sed econtra morbum sedat. Et ideo qui recte
+            credunt, videntes morbum et remedium, dicunt actum coniugii per sacramentum excusari
+            tamquam morbum per remedium.</p>
+          <p xml:id="bb-d4e35835-d1e184">Si quis autem velit rationem morbi et remedii intueri, potest patere sic. Primum quidem
+            omnis actus in quo regnat pruritus libidinis adeo quod absorbetur ratio et homo
+            efficitur totus caro, est actus deordinatus et actus in quo, quantum est de se,
+            pervertitur regnum animae et ordinatio quae est in viribus animae ; secundum quam
+            ordinationem attenditur iustitia quaedam, quae non tantum est in ordinatione ad alterum,
+            sed in ordinatione virium animae ad se. Sed hoc est in actu coniugali, sicut experimento
+            patet, et Sancti dicunt, maxime <name ref="#Augustine">Augustinus</name> et Origenes, et
+            in Glossa tangitur I ad Corinthios 6, 18 : <quote xml:id="bb-d4e35835-Qd1e189" ana="#Icor6_8">Qui fornicatur in
+              corpus suum peccat</quote>, Glossa : <quote xml:id="bb-d4e35835-Qd1e192">Hic proprie servit anima corpori, in
+              tantum ut ipso momento et experimento huius flagitii nihil cogitare homini liceat aut
+              intendere, quia mentem captivam subdit ipsa submersio et absorbitio libidinis</quote>.
+            In huius autem deordinationis arbitrium plurimum facit erubescentia naturae, quae mendax
+            esse non potest ; erubescit autem motum illorum membrorum et actum tanto plus, quanta
+            est melius ordinata. Et sic patet quod actus ille de se est morbidus, quia sint tanta
+            deordinatione exerceri non potest, sicut in eadem Glossa tangitur. Ecce igitur qualiter
+            possumus videre morbum.</p>
+          <p xml:id="bb-d4e35835-d1e196">Remedium autem intueri sic possumus. Quidam enim actus qui dicit deordinationem mentis
+            ad Deum, ut idololatrare et periurare ; quidam est qui dicit deordinationem creaturae ad
+            creaturam, sive unius ad alterum sive eiusdem ad se. Primus est malus et morbidus
+            secundum se et nullo modo potest fieri bene, nec divino mandato nec aliter. Secundus
+            vero, quia non habet essentialem deordinationem, potest per divinum imperium ordinari,
+            utpote cum Deus praecipit occidere hominem, cum etiam praecipit rem alienam accipere,
+            cum etiam inspirat se ipsum occidere, sicut Samson ; in quem irruit Spiritus Domini,
+            Iudicum 14, 6 ; per hunc modum ordinavit coitum Osee cum muliere quae non erat sua uxor,
+            scilicet per Dei mandatum. Sed quoniam actus iste coniugalis non omnibus debebat
+            praecipi, providit divina dispositio illam deordinationem ordinare, non per mandatum,
+            sed per aliquod statutum, et per statutum quod esset signum illius coniunctionis, quae
+            erat ordinata ad concupiscentiae remedium, et ita per sacramentum Matrimonii, quod, quia
+            habet rationem medicinae, potius excusat quam vitietur ; sicut, cum Dominus praecepit
+            Hebraeis, ut vasa Aegyptiorum asportarent, asportatio non facit praeceptum malum, sed
+            potius econtra praeceptum, quod est potentius et superius, fecit asportationem bonam et
+            meritoriam, quae alias esset culpabilis et mala. Sancti igitur et omnes Catholici dicunt
+            coitum per sacramentum Matrimonii excusari a culpa mortali, maxime quando gratia prolis
+            fit.</p>
+          <p xml:id="bb-d4e35835-d1e200">Sed de modo excusandi est duplex opinio, quia quidam voluerunt dicere quod excusatur a
+            culpa mortali, sed non a veniali, quia mortale fit ibi veniale. Alii dixerunt, et hoc
+            videtur sentire <name ref="#Augustine">Augustinus</name>, quod, cum Deus perfectum det
+            remedium contra morbum, quod, quando gratia prolis coitur, potest esse sine omni culpa ;
+            et hoc est magis consonum rationi et pietati fidei. Et concedendae sunt rationes ad hoc,
+            si tamen haec intentio duret a principio usque in finem, ut non deflectatur ad aliud
+            mens ; quod tamen est valde difficile.</p>
+        </div>
+        <div xml:id="bb-d4e35835-Dd1e207">
+          <head xml:id="bb-d4e35835-Hd1e209">Ad rationes</head>
+          <p xml:id="bb-d4e35835-d1e212">1-4. Ad illud ergo quod obicitur, quod est ibi immoderatio, deordinatio, erubescentia
+            et libido, dicendum quod haec quatuor possunt esse circa actum rationis aut
+            sensualitatis. Si circa actum rationis, semper faciunt culpam, quia faciunt malum
+            secundum se. Si autem sunt circa actum sensualitatis, existente ordinatione circa actum
+            rationis, tunc ista cedunt in poenam ; et sic est in proposito. Nam per virtutem
+            sacramenti ratio ordinatur, ut moderate velit et ordinate et honeste ; nec de illo actu
+            erubescit homo, quia vult filios procreare, nec improba voluntate appetit, sed casta.
+            Sed nisi interveniret remedium Matrimonii, tunc esset inordinatio non solum in
+            sensualitate, sed etiam in ratione ; et sic semper esset peccatum. Unde istis quatuor
+            mediis ostendi potest quod actus generativae est peccatum nisi excusetur.</p>
+          <p xml:id="bb-d4e35835-d1e215">Ad illud quod obicitur, quod est causa peccati, dicendum quod falsum est, quia actus
+            ille secundum se non est causa nisi prolis, sed ratione primae transgressionis prolem
+            generari non contingit sine culpa sua, non generantis, quia non propter culpam
+            generantis, sed propter culpam primi parentis nascitur proles peccatrix.</p>
+          <p xml:id="bb-d4e35835-d1e218">Ad illud quod obicitur de primis motibus, potest dici quod antecedunt actum coniugalem
+            nec semper sunt peccata, ut puta quando surgunt ex cogitatione ordinata, utpote si <name ref="#Abraham">Abraham</name> cogitaret cognoscere uxorem ut acciperet prolem, et
+            tunc, si caro moveretur, non peccaret.</p>
+          <p xml:id="bb-d4e35835-d1e224">Ad illud quod ultimo quaeritur : a quo peccato excusat ? dicendum quod a peccato, non
+            quod est, sed quod alias esset, nisi Matrimonium interveniret. Unde differenti modo est
+            remedium sacramentum Matrimonii et alia sacramenta. Hoc enim est in remedium, quia facit
+            vitare peccatum quod incurreretur ; alia vero liberant a peccato in quod iam quis est
+            lapsus ; pro tanto autem praestat remedium, quia actus de se inordinatus ordinatur per
+            divinum statutum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e10740">
+        <head xml:id="bb-d4e10740-Hd1e106">Quaestio 2</head>
+        <head xml:id="bb-d4e10740-Hd1e109" type="question-title">Utrum corpus Christi sit in altari secundum suam naturalem
+          quantitatem, an sit ibi a quantitate abstractum.</head>
+        <p xml:id="bb-d4e10740-d1e112">Secundo quaeritur, utrum corpus Christi sit in altari secundum suam naturalem
+          quantitatem, an sit ibi a quantitate abstractum.</p>
+        <div xml:id="bb-d4e10740-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e10740-Hd1e117">Rationes principales</head>
+          <p xml:id="bb-d4e10740-d1e120">Et quod magis abstractum, videtur. <ref xml:id="bb-d4e10740-Rd1e122" target="http://scta.info/resource/gd-p3d2-d1e767">Augustinus, De consecratione,
+              distinctione II</ref> : <quote xml:id="bb-d4e10740-Qd1e125" source="http://scta.info/resource/iuy75t-d1e288">Corpus, in quo resurrexit, uno tantum loco esse oportet ; veritas autem eius ubique
+              diffusa est</quote>. Ergo in sacramento est veritas, non tamen est sua corporeitas
+            sive quantitas.</p>
+          <p xml:id="bb-d4e10740-d1e129">Item, videtur ratione, quia in hoc sacramento solum est Christus ut cibus spiritualis ;
+            sed quantitas nihil facit ad esse cibi spiritualis : ergo etc.</p>
+          <p xml:id="bb-d4e10740-d1e132">Item, impossibile et non intelligibile est duas dimensiones esse simul : ergo, si
+            divina Maiestas contemperat se nostrae infirmitati in hoc sacramento, ergo non debet
+            facere hoc, scilicet ut corpus Christi sit cum quantitate, cum abstractio sit magis
+            rationabilis et magis intelligibilis, et Deus faciat quod rationabilius est.</p>
+          <p xml:id="bb-d4e10740-d1e135">Item, multo congruentius est separari substantiam ab accidente quam e converso ; sed in
+            hoc separatur accidens a substantia in speciebus : ergo in re contenta substantia a
+            quantitate.</p>
+          <p xml:id="bb-d4e10740-d1e139">Contra : <name ref="#Augustine">Augustinus</name>, De verbis Evangelii :<quote xml:id="bb-d4e10740-Qd1e144"> Totus
+              per partes manducatur in sacramento, et manet integer totus in caelo</quote>. Sed
+            totus et pars dicunt quantitatem : ergo etc.</p>
+          <p xml:id="bb-d4e10740-d1e148">Item, corpus Christi est vivens, et si vivens, organicum, et, si organicum, quantum.
+            Ergo, si in altari non abstrahitur a vita, nec a quantitate.</p>
+          <p xml:id="bb-d4e10740-d1e151">Item, corpus Christi sive Christus ibi videt et audit, quamvis non loquatur ne
+            deprehendatur ; sed sensus exteriores praesupponunt quantitatem : ergo est ibi secundum
+            quantitatem.</p>
+          <p xml:id="bb-d4e10740-d1e154">Item, si non esset ibi quantitas, deponeret quantitatem ; sed depositio accidentis
+            absoluti inducit transmutationem secundum formam : ergo corpus Christi glorificatum
+            transmutatur.</p>
+        </div>
+        <div xml:id="bb-d4e10740-Dd1e160">
+          <head xml:id="bb-d4e10740-Hd1e160">Conclusio</head>
+          <head xml:id="bb-d4e10740-Hd1e163" type="question-title">In Sacramento altaris non tantum est corporis Christi veritas,
+            sed etiam quantitas</head>
+          <p xml:id="bb-d4e10740-d1e166">Respondeo : Quidam dixerunt quod in Sacramento altaris est Christus, non tantum ut
+            significatus, sed etiam contentus ; sed tamen non est secundum suam quantitatem nec
+            etiam secundum alia accidentia, quia ista nihil faciunt ad finem huius sacramenti qui
+            est cibare. Et rationem huius habent ex hoc quod ibi est corpus Christi, quia
+            transfertur aliquid in ipsum ; sed illud est pure substantia et non accidens, quia alia
+            accidentia manent : ideo transsubstantiatur in substantiam, ita quod est abstracta ab
+            omnibus accidentibus. Sed haec positio, quamvis non sit erronea sicut praedicta, est
+            tamen errori ; propinqua, ideo quia, etsi substantia corporea possit intelligi esse sine
+            quantitate et aliis accidentibus, nunquam tamen intelligitur bene esse. Si ergo non
+            habet, tunc male est. Et rursus, quamvis substantia possit abstrahi a quantitate, tamen
+            quod corpus vivat et sit organicum et non sit quantum, hoc nec esse nec intelligi potest
+            ; et ideo ex hoc sequitur corpus Christi nec bene ibi esse nec vivere ; quod nefas est
+            dicere.</p>
+          <p xml:id="bb-d4e10740-d1e169">Propterea dicendum quod in altari non tantum est corporis Christi veritas, immo etiam
+            quantitas.</p>
+          <p xml:id="bb-d4e10740-d1e172">Et ad intelligentiam obiectorum notandum quod etsi in hoc Sacramento fieri debeant
+            miracula, non tamen debent fieri nisi quae congruant sacramento. Sacramentum autem illud
+            est mysterium fidei, et ideo est verum et occultum. Quia verum, ideo, cum dicitur : Hoc
+            est corpus meum, panis transit in corpus Christi, et hoc ubicumque dicatur. Et ex hoc
+            oritur duplex miraculum : primum, quia panis transit in corpus Christi integrum et
+            perfectum ; et aliud, quia corpus Christi integrum est, ubicumque fit haec
+            transsubstantiatio, ita totum et perfectum in parvo loco et unum in pluriqus locis. Quia
+            vero occultum, ideo debent manere species et omnia sensibilia, ipso non apparente. Et ex
+            hoc est duplex miraculum : unum, quia accidentia sunt sine subiecto ; alterum vero quod
+            est ibi corpus clarissimum et est praesens et non videtur. Ex his patent obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e10740-Dd1e179">
+          <head xml:id="bb-d4e10740-Hd1e179">Ad rationes</head>
+          <p xml:id="bb-d4e10740-d1e182">1-2. Primum enim quod dicit <name ref="#Augustine">Augustinus</name> quod veritas
+            ubique etc., non distinguit veritatem contra quantitatem quae est de veritate corporis,
+            sed contra apparitionem sensibilem, quia tantum in uno loco apparet. Patet etiam
+            sequens, quia quantitas facit ad sacramenti veritatem et prfectionem, ut corpus
+            contentum sit habens omnem perfectionem.</p>
+          <p xml:id="bb-d4e10740-d1e188">Ad aliud dicendum quod Divinitas nostrae infirmitati se contemperat, salvata
+            integritate Sacramenti. Et praeterea, sic se contemperat ut intellectum excedat et fides
+            locum et meritum habeat.</p>
+          <p xml:id="bb-d4e10740-d1e191">Ad ultimum dicendum quod, etsi Deus utrumque faciat, tamen nulla esset utilitas nec
+            quantum ad veritatem nec quantum ad celationem, si corporis Christi veritas a quantitate
+            abstraheretur ; et propterea non valet, quia non debet hic fieri nisi quod congruit
+            Sacramento.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

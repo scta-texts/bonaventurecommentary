@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e27523">
+        <head xml:id="bb-d4e27523-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e27523-Hd1e111" type="question-title">Utrum in purgatorio post hanc vitam fiat purgatio aliqua ab
+          aliqua culpa an solum a poena.</head>
+        <div xml:id="bb-d4e27523-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e27523-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e27523-d1e119">Quantum ergo ad primum ostenditur, quod fiat ibi purgatio a culpa : Primo, per illud
+            quod dicitur Matthaei 12, 32 : <quote xml:id="bb-d4e27523-Qd1e121" ana="#mt12_32">Qui dixerit contra Spiritum Sanctum
+              verbum, non remittetur ei neque in hoc saeculo neque in futuro</quote>. Ergo implicat
+            Dominus aliqua peccata remitti in futuro ; sed non nisi in purgatorio : ergo etc.</p>
+          <p xml:id="bb-d4e27523-d1e125">Item, <name ref="#GregoryGreat">Gregorius</name>, IV Dialogorum, dicit quod
+              <quote xml:id="bb-d4e27523-Qd1e130">quaedam leves culpae remittuntur in futuro</quote> , et ibi multa dicit quae ad
+            hoc ostendendum faciunt. Si dicas quod hoc intelligit quantum ad reatum poenae, hoc non
+            solvit, quia in futuro, utpote in purgatorio, non solum fit purgatio a reatu culparum
+            venialium, verum etiam mortalium in bis qui poenitentiam in hac vita non complent.</p>
+          <p xml:id="bb-d4e27523-d1e134">Item, omnis purgatio, secundum quod huiusmodi, respicit foeditatem aliquam ; foeditas
+            autem animae culpa est : ergo videtur quod purgatorius ignis sit contra culpam. Si dicas
+            quod est contra pronitatem vel sequelam vel aliquid tale, tunc quaero : cum liberum
+            arbitrium post hanc vitam sit ita immobile respectu pronitatis sicut respectu
+            voluntatis, quare talis sequela potest purgari et non venialis culpa, cum plus laedat
+            animam sequela mortalis quam culpa venialis ?</p>
+          <p xml:id="bb-d4e27523-d1e137">Item, quod purgat aliquid aliquo modo habet oppositionem ad illud ; sed poena poenae
+            non opponitur : ergo, si est ibi purgatio, non est a poena : ergo a culpa aliqua.</p>
+          <p xml:id="bb-d4e27523-d1e141">Contra : 1. Super illud I Ioannis 5, 16 : <quote xml:id="bb-d4e27523-Qd1e143" ana="#Iio5_16">Est peccatum ad
+              mortem</quote>, Glossa : <quote xml:id="bb-d4e27523-Qd1e146">Quod in hac vita non corrigitur, frustra post mortem
+              venia eius postulatur</quote>. Ergo nulla post mortem ibi culpa purgatur.</p>
+          <p xml:id="bb-d4e27523-d1e150">Item, Damascenus : <quote xml:id="bb-d4e27523-Qd1e152" source="http://scta.info/resource/jddfo-l2c4">Quod est
+              hominibus mors, hoc est angelis casus</quote> et e converso ; sed angeli post casum a
+            nulla culpa possunt liberari : ergo nec homines post mortem.</p>
+          <p xml:id="bb-d4e27523-d1e156">Item, <name ref="#GregoryGreat">Gregorius</name>, in Dialogis : <quote xml:id="bb-d4e27523-Qd1e161">Talis in iudicio
+              quisque futurus est, qualis de corpore exivit</quote>. Si ergo exivit cum veniali,
+            patet etc.</p>
+          <p xml:id="bb-d4e27523-d1e165">Item, liberum arbitrium medium est inter profectum in bono et liberationem a malo
+            culpae ; sed post mortem non potest in bono proficere : ergo nec a culpa aliqua
+            resurgere.</p>
+          <p xml:id="bb-d4e27523-d1e168">Item, facilius est labi in veniale quam liberari a veniali ; sed post mortem non potest
+            anima venialiter peccare : ergo nec a veniali resurgere.</p>
+          <p xml:id="bb-d4e27523-d1e171">Item, veniale in nobis non est nisi ratione fomitis : ergo, ablato fomite, veniale non
+            manet ; sed fomes aufertur in morte, non post mortem : ergo et veniale.</p>
+        </div>
+        <div xml:id="bb-d4e27523-Dd1e175">
+          <head xml:id="bb-d4e27523-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e27523-Hd1e180" type="question-title">Post hanc vitam poena purgatorii potest purgare non solum a
+            poena, sed etiam a culpa peccati venialis</head>
+          <p xml:id="bb-d4e27523-d1e183">Respondeo : Dicendum quod aliquorum magistrorum et bene intelligentium opinio fuit,
+            quod nullum peccatum post mortem dimittitur, pro eo quod liberi arbitrii quantum ad
+            meritum vel demeritum omnino cessat usus. Unde dicunt quod venialia omnino remittuntur
+            aut per poenitentiam aut per finalem gratiam, si non adsit locus poenitentiae, si forte
+            morte praeoccupatus moritur iustus homo.</p>
+          <p xml:id="bb-d4e27523-d1e186">Rationem autem huius positionis et intelligentiam per hunc modum assignant. Dicunt enim
+            quod triplex est gratia, scilicet baptismalis, poenitentialis et finalis ; et quaelibet
+            harum gratiarum pro sui initio dominium habet in ipsa anima. Pro eo quod dominatur in
+            ipso ingressu, ut gratia baptismalis vel status sui principio, ut finalis, delet omnem
+            culpam, non tantum mortalem, verum etiam venialem. Dominatur autem gratia baptismalis ex
+            virtute sacramenti, gratia poenitentialis ex subiectione et conformitate liberi
+            arbitrii, gratia finalis ex perfecta conformitate omnium virium animae ad ipsam gratiam.
+            Cum enim ipsa separatur a carne, iam pronitates et perturbationes, quae inerant animae
+            ex carne, recedunt et potentiae animae tranquillantur et gratiae subiciuntur ; ac per
+            hoc venialia delentur, sive sint in parte animae rationali sive in parte animae
+            sensibili. Et ita nullum veniale dimittitur post hanc vitam, sed in puncto illo in quo
+            potest dici : haec est finalis gratia, quae dominium sibi vindicat et omnem expellit
+            culpam. Si ergo obiciatur eis, quod in futuro purgantur et remittuntur peccata,
+            respondetur secundum eos quod remittuntur quantum ad reatum sive poenam et purgantur
+            quantum ad scoriam sive sequelam. Et illud videtur magister <name ref="#HughOfStVictor">Hugo</name> sensisse, qui ait sic, loquens de remissione peccati : Aliquando Deus
+            remittit secundum pietatem, aliquando secundum severitatem, aliquando secundum utrumque.
+            Per incendium purgatorii scoria peccati excoquitur, per lavacrum Baptismi peccati macula
+            abluitur, per flagellum satisfactionis peccati palea excutitur. Sed licet ista opinio
+            sit multum rationi consona, tamen auctoritates Sanctorum videntur expresse contraire.
+            Nam ipse <name ref="#GregoryGreat">Gregorius</name> dicit, in Moralibus, quod aliqua
+            peccata dimittuntur post hanc vitam. Et si tu dicas quod intelligit quantum ad reatum,
+            sicut obiectum fuit, sic de omnibus posset intelligi culpis. Item, <name ref="#IsidoreOfSeville">Isidorus</name> tractans illud Matthaei 3, 11 : <quote xml:id="bb-d4e27523-Qd1e197" ana="#mt3_11">Ipse vos baptizabit in Spiritu Sancto et igni</quote> : <quote xml:id="bb-d4e27523-Qd1e200">Peccata,
+              quae praecesserunt, Spiritus Sanctus per aquae Baptismum abluet, et quaedam ex eis
+              quae postea sequuntur criminibus per ignem purgatorium remittet</quote>. Cum ergo
+            peccata praecedentia non solum quantum ad poenam, sed etiam quantum ad culpam abluantur,
+            ergo in purgatorio quaedam quantum ad culpam sunt remittenda. Rursus, cum gratia
+            dominium habeat in anima statim in ipsa separatione, propter quid non purgat a peccati
+            scoria vel sequela, sicut a veniali culpa ?</p>
+          <p xml:id="bb-d4e27523-d1e204">Et propter hoc est hic secundus modus dicendi, quem approbat <name ref="#Lombard">Magister</name> in littera et Sanctorum multiplex confirmat auctoritas. Dicendum ergo
+            quod aliqua peccata, utpote venialia, non solum in hoc saeculo, sed etiam. in purgatorio
+            remitti possunt et remittuntur, quando quis pertransit cum venialibus, pro eo quod
+            gratia non fuit adiuta finaliter ad illa delenda, et ideo indiget auxilio. Quoniam ergo
+            voluntas potest gratiae post hanc vitam esse conformis, quamvis non possit esse
+            adiutrix, pro eo quod cessavit tempus meriti, ideo indiget adiutorio exteriori. Et cum
+            non sit locus sacramenti, habet adiutorium ignis punitivi sive purgaterii, qui ideo
+            dicitur purgatorius, quoniam anima purgatur a peccati scoria et a veniali culpa, si cum
+            illa transeat. Et hoc possibile est, quia, sicut ostensum est in praecedenti problemate,
+            ad deletionem venialis sufficit quod liberum arbitrium se conformet gratiae, nec est
+            necesse quod adiuvet. Concedendum ergo aliquos post hanc vitam a veniali culpa posse
+            purgari.</p>
+        </div>
+        <div xml:id="bb-d4e27523-Dd1e211">
+          <head xml:id="bb-d4e27523-Hd1e213">Ad rationes</head>
+          <p xml:id="bb-d4e27523-d1e216">Ad illud ergo quod obicitur, quod frustra post mortem venia postulatur de eo quod non
+            corrigitur, dicendum quod illud intelligitur de mortali. Vel fiat vis in hoc quod dicit,
+            quod in hac vita non corrigitur : verum est vel in se vel in merito. Quamvis autem non
+            corrigatur aliquod veniale, cum quo quis transit - non corrigatur, inquam, in se -
+            meruit tamen corrigi, quia qui decedit in caritate, per illam meruit etiam post hunc
+            statum ab his emundari quae retardant praemium caritatis.</p>
+          <p xml:id="bb-d4e27523-d1e219">Ad illud quod obicitur de casu angelorum et morte hominum, dicendum quod simile est
+            quantum ad liberi arbitrii invertibilitatem sive quantum ad peccatum mortale, non
+            quantum ad omnia ; nam mali angeli possunt in poenis proficere, quamvis non possunt a
+            malo resurgere. Per oppositum, ratione boni meriti praeteriti, boni homines possunt a
+            malo eripi, quamvis non possunt in malum labi, quia in bono, in quo moriuntur, sunt
+            confirmati.</p>
+          <p xml:id="bb-d4e27523-d1e222">Ad illud quod obicitur de <name ref="#GregoryGreat">Gregorio</name>, dicendum quod,
+            sicut ipsemet subiungit, illud intelligitur quantum ad mortalia, non quantum ad
+            venialia, quia ipsemet excipit illa.</p>
+          <p xml:id="bb-d4e27523-d1e228">Ad illud quod obicitur, quod liberum arbitrium tenet medium ; dicendum quod falsum est
+            pro statu illo. Est enim in statu in quo potest ad ingressum in gloriam disponi per
+            impedimenti remotionem, quamvis non possit mereri, quoniam ad deletionem venialis et ad
+            remissionem reatus peccati sufficit praesentia gratiae et poenae cum consonantia liberi
+            arbitrii et adiutorio meriti praeteriti.</p>
+          <p xml:id="bb-d4e27523-d1e232">Ad illud quod obicitur, quod facilius est labi in malum, dicendum quod verum est
+            quantum ad liberum arbitrium vertibile, non quantum ad omnem statum animae.</p>
+          <p xml:id="bb-d4e27523-d1e235">Ad illud quod obicitur, quod ablato fomite, aufertur veniale, dicendum quod verum est
+            quantum ad potestatem peccandi de futuro ; non tamen oportet auferri veniale prius
+            perpetratum, quia non omnis causa introducendi est causa conservandi, sicut in multis
+            exemplis patet. Destructo enim cultello, non potest infligi plaga ; si tamen cultellus
+            destruatur, non oportet propter hoc sanari plagam prius inflictam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

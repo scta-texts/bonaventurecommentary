@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e29526">
+        <head xml:id="bb-d4e29526-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e29526-Hd1e111" type="question-title">Utrum hoc sacramentum instituerit Christus vel aliquis eius
+          discipulus.</head>
+        <p xml:id="bb-d4e29526-d1e114">Secundo quaeritur de causa efficiente sive instituente, et quaeritur, utrum hoc
+          sacramentum instituerit Christus vel aliquis eius discipulus.</p>
+        <div xml:id="bb-d4e29526-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e29526-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e29526-d1e122">Et quod Christus, videtur : Quia legislatoris est leges instituere ; sed sacramenta
+            omnia sunt leges et statuta in lege evangelica : ergo non solum hoc instituit Christus,
+            verum etiam omnia.</p>
+          <p xml:id="bb-d4e29526-d1e125">Item, Deus per se ipsum instituit omnia sacramenta Veteris Legis, Moysi loquendo et
+            praecipiendo ; unde in principio cuiuslibet sacramentalis praecepti dicitur in Levitico
+            : Locutus est Dominus etc. Si ergo sacramenta evangelica sunt multo digniora, videtur
+            etc.</p>
+          <p xml:id="bb-d4e29526-d1e128">Item, <quote xml:id="bb-d4e29526-Qd1e130">sacramentum, sicut habitum est supra, distinctione decima tertia</quote>,
+            est in quo divina virtus secretius operatur. Si ergo virtus divina operatur in
+            sacramentis principaliter, cum instituere sacramentum sit maioris dignitatis quam
+            operari in sacramento, et operatio est a divina virtute, ergo et institutio.</p>
+          <p xml:id="bb-d4e29526-d1e134">Item, <ref xml:id="bb-d4e29526-Rd1e136" ana="#mc6_13">Marci 6, 13</ref> dicitur quod discipuli inungebant oleo
+            multos infirmas et curabantur ; sed constat quod Apostoli nondum erant tantae
+            auctoritatis, quod per se auderent aliquid instituere : ergo videtur quod Dominus eis
+            mandaverit : ergo videtur quod ipse instituit.</p>
+          <p xml:id="bb-d4e29526-d1e141">Contra : <name ref="#Lombard">Magister</name> dicit in littera : <quote xml:id="bb-d4e29526-Qd1e146">Hoc sacramentum
+              legitur ab Apostolis institutum</quote>.</p>
+          <p xml:id="bb-d4e29526-d1e150">Item, alibi non habemus mandatum de hoc sacramento nisi Iacobi 5, 14 : ergo videtur ibi
+            institutum fuisse.</p>
+          <p xml:id="bb-d4e29526-d1e153">Item, omne sacramentum quod Christus instituit, ipse per se exhibait ; sed Christus hoc
+            sacramentum non exhibait, quia nunquam infirmos oleo, sed solo verbo sanavit : ergo
+            etc.</p>
+          <p xml:id="bb-d4e29526-d1e156">Item, omne sacramentum quod Christus instituit, habuit figuram in Veteri Testamento ;
+            sed hoc non habuit ibi figuram, quia nunquam legimus infirmos propter curationem in
+            Veteri Testamento inungi : ergo videtur quod institutio huius sacramenti non pertinuerit
+            ad Christum.</p>
+        </div>
+        <div xml:id="bb-d4e29526-Dd1e160">
+          <head xml:id="bb-d4e29526-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e29526-Hd1e165" type="question-title">Praefertur opinio, quod extrema unctio a Spiritu sancto per
+            Apostolos instituta et a sancto Iacobo promulgata sit</head>
+          <p xml:id="bb-d4e29526-d1e168">Respondeo : Ad horum intelligentiam notandum est quod aliqui dicere voluerunt omnia
+            sacramenta instituta fuisse a Christo, quoniam ipse fuit legislator. Unde, quamvis non
+            expresse legatur de Confirmatione et Extrema. Unctine, tamen credendum est ipsum
+            instituisse ; et hoc aliquo modo innuitur de Confirmatione, cum manus pueris imposuerit,
+            Matthaei 19, 15 ; de Extrema Unctione, cum discipulos ad praedicandum misit, qui oleo
+            ungebant infirmos et curabmtur, sicut dicitur Marci 6, 13 ; haud dubium quin per
+            mandatum ipsius hoc fecerint. Si autem Apostoli dicuntur aliqua instituisse, hoc est
+            quia institutionem promulgaverunt, sicut beatus Iacobus Confessionis et Unctionis. Sed
+            tamen, cum in Evangelio sufficienter lex evangelica exprimatur, et evangelica lex
+            contineat Christi statuta et facta et magis statuta quam facta, quomodo probabile est ut
+            omnes Evangelistae sic sub silentio tam nobilia sacramenta pertransissent, si Christus
+            instituisset, cum ex his nostrae salutis adminiculum eliciatur ?</p>
+          <p xml:id="bb-d4e29526-d1e171">Et ideo probabilius alii dicunt, et <name ref="#Lombard">Magister</name> videtur hoc
+            sentire, immo aperte dicit, quod Spiritus Sanctus per Apostolos hoc sacramentum
+            instituit, sicut supra dictum est de sacramento Confirmationis. Et quod hoc potuerit
+            esse, manifestum est, cum ipse sit doctor praecipuus sicut et Christus ; et exemplo
+            patet, quia Apostoli, Spiritu Sancto dictante, formam Baptismi a Christo institutam et
+            confirmatam ad tempus mutaverunt ; quanto magis quod Christus insinuaverat instituere
+            potuerunt.</p>
+          <p xml:id="bb-d4e29526-d1e177">Et quod ita fuerit congruum, manifestum est, si attendatur diversitas sacramentorum.
+            Quaedam enim sunt sacramenta. communia Legis Veteris et Novae, quaedam propriissima
+            Legis Novae, quaedam medio modo. Communia sunt illa quae sunt quodam modo ex dictamine
+            naturae, quod quia semper idem manet, illa sacramenta ab initio cucurrerunt, ut
+            Matrimonium et Poenitentia, secundum quod Deo reconciliat ; et haec quidem Dominas Iesus
+            consummavit et.confirmavit in Lege Nova, non evacuavit. Quaedam sunt propriissima Legis
+            Novae, et haec sunt quae significant gratiam in tali statu, quae proprie competit Legi
+            Novae ; haec autem duo sunt : Confirmatio et Unctio, ubi significatur gratia Spiritus
+            Sancti, secundum quam inungitur quis in pugilem, ut pro Christo audeat mori, et in
+            regem, ut in regnum caelorum possit iotroire tamquam in suum. Hoc est Novae Legis
+            proprium ; ideo in Veteri non habuerunt certam figuram haec duo sacramenta. Et quia
+            significant Spiritus Sancti gratiam in aliqua abundantia, et Spiritus Sanctus abundanter
+            non fuit datus, quousque Iesus non fuit glorificatus, sicut dicitur Ioannis 7, 39, ideo
+            haec duo sacramenta a Christo fuerunt insinuata, sed post a Spiritu Sancto fuerunt
+            instituta. Quaedam sunt sacramenta media, quae in Veteri Lege non fuerunt in veritate,
+            fuerunt tamen in figura et significatione, sicut Baptismus, Eucharistia et Ordo. Et quia
+            Christus Legem implevit et figuras evacuavit, haec tria sacramenta per se ipsum
+            instituit. Et sic patet quomodo congruentissime statuta et instituta sunt ecclesiastica
+            sacramenta, ut nihil sit gestum per oblivionem, sed secundum inenarrabilem Dei
+            dispensationem. Concedendae igitur sunt rationes probantes Spiritum Sanctum per
+            Apostolos hoc sacramentum instituisse.</p>
+        </div>
+        <div xml:id="bb-d4e29526-Dd1e182">
+          <head xml:id="bb-d4e29526-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e29526-d1e187">Ad illud ergo quod obicitur, quod hoc est legislatoris, dicendum quod Spiritus Sanctus
+            supplevit hoc quod ipse Dominus dimiserat in doctrina, sicut dicitur Ioannis 16, 12 :
+              <quote xml:id="bb-d4e29526-Qd1e189" ana="#io16_12">Multa habeo vobis dicere, quae non potestis portare modo</quote>
+            ; et post : <quote xml:id="bb-d4e29526-Qd1e192" ana="#io16_13">Cum venerit</quote> etc. Unde sicut supplevit quod
+            deerat de doctrina secundum Dei ordinatam dispensationem, ita etiam quod de institutione
+            ex causa congrua dimissum erat. Nec sunt duo legisIatores Christus et Spiritus eius.</p>
+          <p xml:id="bb-d4e29526-d1e196">2-3. Ad illud quod obicitur, quod per semetipsum, dicendum quod ipse immediate
+            loquebatur Moysi, et post Moyses praecipiebat populo sicut nuntius Dei et minister ; sic
+            Spiritus Sanctus Apostolis et ipsi ut ministri populis exponebant. Unde sacramentorum
+            institutionem non attribuimus nisi Deo vel per Filium vel per Spiritum Sanctum. Nec
+            credendum est quemquam Apostolorum hoc per se instituisse, sed totum collegium ; sed
+            Iacobus promulgavit, sicut sententiam tulit de observantia legalium, Actuum 15, 13. Et
+            per hoc patet sequens, quia, sicut Deus operatur principaliter et sacerdos ut minister,
+            sic institutio sacramentorum respicit Deum ut auctorem, et Apostolos respicit ut
+            ministros in promulgando.</p>
+          <p xml:id="bb-d4e29526-d1e199">Ad illud quod obicitur, quod Apostoli ungebant oleo, dicendum quod ibi non fuit hoc
+            sacramentum institutum, sed insinuatum ; et hoc patet, quia unctio illa principaliter
+            fiebat ad sanitatem corporalem, non ad curationem spiritualem principaliter. Unde sicut
+            gratiam sanitatum tunc habebant Apostoli et non potentiam ligandi et absolvendi sic
+            oleum illud deserviebat sive operabatur ad salutem corporis ; nunc autem principaliter
+            operatur ad salutem spiritus, sicut in ipsa forma evidenter exprimitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

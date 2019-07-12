@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e21117">
+        <head xml:id="bb-d4e21117-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e21117-d1e111">Supra egit <name ref="#Lombard">Magister</name> de partibus integrantibus Poenitentiam
+          quasi sub quodam compendio. Hic, quia Poenitentia, ut est sacramentum Ecclesiae, praecipue
+          attenditur quantum ad confessionem, principaliter determinat de confessione. Et dividitur
+          haec pars in duas. In prima agit de confessione sacramentali, ut habet rationem remedii.
+          In secunda, in quantum habet rationem signi, infra, capitulo ultimo huius totalis partis,
+          distinctione vigesima secunda : Post praedicta restat investigare quid in actione
+          Poenitentiae etc.</p>
+        <p xml:id="bb-d4e21117-d1e117">Prima pars habet quatuor partes. In prima agit de confessione quantum ad necessitatem a
+          parte confitentis. In secunda quantum ad potestatem absolventis, infra, distinctione
+          decima octava : Hic quaeri solet, si peccatum omnino dimissum est a Deo etc. In tertia
+          quantum ad opportunitatem temporis, infra, distinctione vigesima : Sciendum est quod
+          tempus poenitentiae est usque in extremum. In quarta quantum ad utilitatem a parte finis,
+          infra, distinctione vigesima prima ultra medium : Post haec considerandum est, utrum
+          prosit confessio etc.</p>
+        <p xml:id="bb-d4e21117-d1e120">Prima pars spectat ad praesentem distinctionem, quae habet tres partes, secundum tres
+          quaestiones quas determinat <name ref="#Lombard">Magister</name> circa confessionis
+          necessitatem. Primo enim quaerit, utrum confessio sit peccatori necessaria ad
+          iustificationem. Secundo, dato quod quodam modo sit necessaria, utrum sufficiat confiteri
+          corde an necesse sit confiteri ore ipsius Dei ministro ; et hanc prosequitur ibi : Iam
+          secundum quaestionis articulum inspiciamus. Tertio vero determinat cui homini necesse sit
+          confiteri, utrum sufficiat confiteri laico an necesse sit confiteri sacerdoti, et hoc ibi
+          : Nunc priusquam praemissis auctoritatibus etc.</p>
+        <p xml:id="bb-d4e21117-d1e126">Prima pars habet tres partes. In prima proponit quaestiones. In secunda ad utramque
+          partem primae quaestionis opponit, utrum scilicet confessio sit necessaria ad
+          iustificationem, ibi : Dicunt quidam, sine confessione oris. In tertia determinat, ibi :
+          Quid igitur super his sentiendum ? quid tenendum etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

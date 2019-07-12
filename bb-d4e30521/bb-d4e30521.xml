@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e30521">
+        <head xml:id="bb-d4e30521-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e30521-Hd1e111" type="question-title">Utrum praelati Ecclesiae teneantur clericis quantum ad temporale
+          stipendium.</head>
+        <p xml:id="bb-d4e30521-d1e114">Quarto quaeritur, utrum praelati Ecclesiae teneantur clericis quantum ad temporale
+          stipendium.</p>
+        <div xml:id="bb-d4e30521-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e30521-d1e119">Et quod sic, videtur : I ad Corinthios 9, 13 : <quote xml:id="bb-d4e30521-Qd1e121" ana="#Icor9_13">Nescitis quoniam
+              hi qui in sacrario operantur, ea quae de sacrario sunt edunt ; et qui altari
+              deserviunt cum altari participant ?</quote> Si ergo clerici iam altari deserviunt :
+            ergo etc.</p>
+          <p xml:id="bb-d4e30521-d1e125">Item, magister <name ref="#HughOfStVictor">Hugo</name> dicit, in libro De sacramentis :
+              <quote xml:id="bb-d4e30521-Qd1e130" source="http://scta.info/resource/hds-l2p3c2">Postquam clericus factus est,
+              debet deinceps de stipendiis Ecclesiae sustentari</quote>.</p>
+          <p xml:id="bb-d4e30521-d1e134">Item, <ref xml:id="bb-d4e30521-Rd1e136" target="http://scta.info/resource/cice-l3t5-d1e134">decretalis, libro III,
+              De clericis ordinandis</ref> : <quote xml:id="bb-d4e30521-Qd1e139">Non liceat ulli episcopo ullos ordinare clericos
+              et nullas alimonias eis ministrare ; sed duorum unum eligat : vel non faciat clericos,
+              vel si fecerit, det illis unde vivere possint</quote>. Unde alia decretalis
+            Innocentii, in <ref xml:id="bb-d4e30521-Rd1e142" target="http://scta.info/resource/cice-l3t5-d1e346">eodem
+              titulo</ref> : <quote xml:id="bb-d4e30521-Qd1e145">Tamdiu per ordinatores vel per eorumdem successores pravideri
+              volumus ordinatis, donec per eos ecclesiastica beneficia consequantur</quote>.</p>
+          <p xml:id="bb-d4e30521-d1e149">Contra : Clerici non tenentur patrimonium dimittere : ergo nec Ecclesia tenetur eis in
+            necessariis providere.</p>
+          <p xml:id="bb-d4e30521-d1e152">Item, simplices clerici non tenentur Ecclesiae deservire : ergo nec praelati Ecclesiae
+            tenentur eis necessaria ministrare.</p>
+          <p xml:id="bb-d4e30521-d1e156">Iuxta hoc quaeritur, utrum, clerici qui de bonis Ecclesiae sustentantur, utpote qui
+            habent beneficium praebendale, teneantur ad horas canonicas. Et quod sic, videtur, quia,
+            cum vivant de altari, debent altari deservire ; sed servitium Ecclesiae a Patribus
+            statutum est in horis canonicis dicendis : ergo etc. In oppositum vero huius est, quia,
+            cum non sint in sacris Ordinibus constituti, non videntur ad hoc teneri, cum ante
+            possint omnia quae posse libertas dignoscitur laicalis.</p>
+        </div>
+        <div xml:id="bb-d4e30521-Dd1e160">
+          <head xml:id="bb-d4e30521-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e30521-Hd1e165" type="question-title">Clericis ad sacros ordines promotis, non habentibus unde
+            vivant, episcopus, qui eos ordinavit, tenetur providere in necessariis, secus non
+            promotis ad sacros ordines, vel non indigentibus</head>
+          <p xml:id="bb-d4e30521-d1e168">Respondeo : Dicendum quod clericus ordinatus aut est ad sacras Ordines pramotus aut
+            non. Si sit ad sacras Ordines promotus et non habeat unde vivat, cum ei teneatur
+            Ecclesia tamquam ministro ad servitium Ecclesiae deputato, et ipse indigeat, dico quod
+            episcopus qui eum pramovit, sibi in necessariis pravidere tenetur. Si autem non est
+            pramotus ad sacras Ordines vel si patrimonium habet, non tenetur sibi Ecclesia vel
+            episcopus providere : primo, quia non est obligatus ad serviendum Ecclesiae ; secundo
+            vero, quia non indiget. Et quamvis nemo teneatur suis stipendiis militare, quia tamen
+            ipse promoveri voluit, deservire tenetur Ecclesiae ratione Ordinis ; nec tenetur sibi
+            providere praelatus necessario, cum non possit indigentiam allegare. Et totum hoc
+            confirmatur per illud quod dicitur in illa decretali Alexandri, libro III, De praebendis
+            : Episcopus, si aliquem sine certo titulo, de quo necessaria vitae percipiat, in
+            diaconum vel presbyterum ordinavit, tamdiu ei necessaria vitae subministret, donec ei in
+            aliqua ecclesia convenientia stipendia militiae clericalis assignet, nisi talis
+            ordinatus de sua vel paterna hereditate ubsidia vitae possit habere. Et si quaeratur
+            ratio huius, ius divinum reddit, quia, cum talis obligetur ad serviendum Ecclesiae,
+            debet etiam Ecclesia econtra obligari ad pravidendum ei in necessariis. Et sic
+            intelligendae sunt auctoritates quae de hac materia loquuntur ; et patent rationes ad
+            oppositum, quia procedunt de simplici clerico.</p>
+          <p xml:id="bb-d4e30521-d1e171">Quod vera quaeritur ultimo, utrum ad dicendum horas canonicas teneantur, per illud idem
+            solvi potest. Quidam enim obligantur Ecclesiae, quia Ecclesia eis obligatur, utpote qui
+            beneficia recipiunt Ecclesiae. In aliquibus est e converso, quia Ecclesia eis obligatur,
+            quia ipsi primo per sacrarum Ordinum susceptionem obligantur Ecclesiae. Unde apparet
+            secundum ius commune quod clerici in sacris Ordinibus constituti tenentur ad horas
+            canonicas ex officio ; infra vero sacros Ordines tenentur beneficiati ex beneficio ; in
+            sacris Ordinibus constituti et beneficiati tenentur ex utroque ; et hoc dictat ius
+            canonicum et concordat divinum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

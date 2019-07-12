@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e383">
+        <head xml:id="bb-d4e383-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e383-Hd1e111" type="question-title">De sacramentorum efficacia.</head>
+        <p xml:id="bb-d4e383-d1e114">Quarto quaeritur, utrum sacramenta sint gratiae effectiva.</p>
+        <div xml:id="bb-d4e383-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e383-d1e119">Et quod sic, videtur : 1. Quia ista assignatur differentia sacramentorum Novae Legis ad
+            sacramenta Veteris Legis, quod haec efficiunt, illa solum figurant ; sed quod efficit
+            est causa efficiens : ergo sacramenta Novae Legis sunt gratiae effectiva.</p>
+          <p xml:id="bb-d4e383-d1e122">Item, <name ref="#HughOfStVictor">Hugo</name> dicit <quote xml:id="bb-d4e383-Qd1e127">quod sacramenta Novae Legis
+              infusa sibi primum benedictione sanctificant</quote> ; et alibi dicit quod sunt
+              <quote xml:id="bb-d4e383-Qd1e130">ex sanctificatione sanctificantia</quote>. Sed non sanctificatur anima nisi per
+            gratiam : ergo efficiunt ipsam gratiam anima.</p>
+          <p xml:id="bb-d4e383-d1e134">Item, <name ref="#Lombard">Magister</name>, in definitione sacramenti, in littera dicit
+            quod <quote xml:id="bb-d4e383-Qd1e139">sacramentum est quod similitudinem gerit et causa existit</quote> ; sed non
+            formalis neque finalis neque materialis, ut supra monstratum est ; ergo a divisione est
+            causa efficiens.</p>
+          <p xml:id="bb-d4e383-d1e143">Item, idem ratione videtur, quia signum institutum humana institutione potest in nobis
+            aggenerare spiritualem cognitionem et affectionem, sicut circulus ante domum aggenerat
+            cognitionem in anima transeuntis quod ibi sit vinum ; et patibulum et signa belli
+            aggenerant timorem. Ergo, si divina institutio multo potentior est quam humana, et
+            sacramenta sunt signa secundum divinam institutionem, possunt in nobis aggenerare multo
+            nobiliorem effectum : ergo possunt efficere gratiam.</p>
+          <p xml:id="bb-d4e383-d1e146">Item, <quote xml:id="bb-d4e383-Qd1e148">opposita nata sunt fieri circa idem</quote> ; unde nihil est susceptibile
+            culpae nisi sit susceptibile gratiae et e converso. Cum ergo caro, quae est quid
+            corporale, possit adeo vitiari ut efficiat et generet culpam in anima quae sibi unitur,
+            ergo sacramentum corporale poterit sanctificari adeo quod transfundat gratiam : nihil
+            ergo prohibet quod efficiat in anima gratiain spiritualem.</p>
+          <p xml:id="bb-d4e383-d1e153">Item, sicut in generatione carnis est generans et generatus et ulterius quo mediante
+            fit generatio, ita in spirituali regeneratione est regenerans Christus, regeneratus
+            homo, et illud quo mediante fit regeneratio, scilicet sacramentum. Ergo sicut semen,
+            quod erat medium in generatione carnali, defert culpam, eadem ratione sacramentum defert
+            gratiam quae facit filium ; sed non defert essentialiter : ergo defert causaliter. Si
+            dicas quod non est simile, quia facilius est male facere sive vitiare quam bene facere ;
+            hoc nihil est, quia nunquam Adam fuit potentior ad malum vel eius culpa quin Christus
+            sit potentior ad bonum et eius passio ; sed Adam sua culpa potuit vitiare omnem carnem :
+            ergo Christus sua passione potuit adeo sanctificare sacramenta, ut ipsa sanctificata
+            animas sanctificarent et gratiam darent. </p>
+          <p xml:id="bb-d4e383-d1e156">Item, dicit <name ref="#Anselm">Anselmus</name>, De conceptu virginali, quod <quote xml:id="bb-d4e383-Qd1e161">si
+              Adam stetisset, transfunderet iustitiam originalem</quote>; sed hoc non potest esse
+            nisi mediante carne corporali : ergo multo magis Christus potest mediante corporali
+            sacramento transfundere iustitiam gratuitam.</p>
+          <p xml:id="bb-d4e383-d1e165">Contra : Omnis causa efficiens est nobilior suo effectu, et nullum corporale nobilius
+            est aliquo spirituali. Cum igitur gratia sit spiritualis, sacramentum corporale, ut
+            dicit <name ref="#HughOfStVictor">Hugo</name>, nullum sacramentum est causa efficiens
+            ipsius gratiae.</p>
+          <p xml:id="bb-d4e383-d1e171">Item, <name ref="#Lombard">Magister</name> in littera dicit quod <quote xml:id="bb-d4e383-Qd1e176">non est gratia
+              ab illis, sed per illa</quote>. Ergo videtur quod sint sicut canales, non sicut fons :
+            ergo nqn sunt causa efficiens gratiae, sicut nec canales aquae.</p>
+          <p xml:id="bb-d4e383-d1e180">Item, <name ref="#HughOfStVictor">Hugo</name> dicit quod <quote xml:id="bb-d4e383-Qd1e185">gratia non est ex ipsis
+              sacramentis, sed in ipsis</quote>. Sed constat quod ex dicit causam efficientem, sicut
+            patet ibi : ergo etc.</p>
+          <p xml:id="bb-d4e383-d1e189">Item, super illud Psalmi [15, 7] : <quote xml:id="bb-d4e383-Qd1e191" ana="#ps15_7">Benedicam Dominum, qui tribuit
+              mihi intellectum</quote>, Glossa dicit : <quote xml:id="bb-d4e383-Qd1e194">Deus per semetipsum irradiat pias
+              mentes</quote>. Ergo, cum illa irradiatio fiat per lumen gratiae, constat quod gratia
+            est a Deo immediate : non ergo a sacramentis.</p>
+          <p xml:id="bb-d4e383-d1e199">Item, <quote xml:id="bb-d4e383-Qd1e201">virtus est quam Deus in nobis sine nobis operatur</quote>. Si ergo non
+            operatur in nobis virtutem per subiectam creturam, per consequens nec gratiam.</p>
+          <p xml:id="bb-d4e383-d1e205">Item, ordo debet servari in agentibus : ergo Deus per minus nobile non debet influere
+            in magis nobile ; sed anima nobilior est sacramento : ergo Deus non influit per
+            sacramentum gratiam in animam : ergo gratia a solo Deo est effective. Si igitur
+            sacramentum est gratiae causa, hoc est solum dispositive.</p>
+        </div>
+        <div xml:id="bb-d4e383-Dd1e209">
+          <head xml:id="bb-d4e383-Hd1e211">Quaestio 1 lateralis</head>
+          <head xml:id="bb-d4e383-Hd1e214" type="question-title">Utrum Sacramentum sit causa disponens ad gratiam</head>
+          <p xml:id="bb-d4e383-d1e217">Quaeritur ergo utrum sacramentum sit causa disponens ad gratiam.</p>
+          <p xml:id="bb-d4e383-d1e220">Quod sic, videtur : Quia si sacramenta Novae Legis essent solum causa sine qua non,
+            tunc ergo in ratione causandi non differrent a sacramentis Legis Veteris et essent in
+            onus ; sed hoc est inconveniens : ergo etc.</p>
+          <p xml:id="bb-d4e383-d1e223">Item, tam <name ref="#HughOfStVictor">Hugo</name> quam <name ref="#Lombard">Magister</name> in littera quam etiam alii dicunt quod Deus per sacramenta regenerat
+            animam : ergo sacramentum est medium actionis divinae in animam ; sed omne medium agendi
+            aut est deferens virtutem aut disponens ; sed sacramentum non defert : ergo
+            disponit.</p>
+          <p xml:id="bb-d4e383-d1e233">Item, <quote xml:id="bb-d4e383-Qd1e235">sacramenta sunt medicinae spirituales</quote> ; sed medicina corporalis
+            disponit ad sanitatem corporalem : ergo medicina spiritualis disponit ad sanitatem
+            spiritualem.</p>
+          <p xml:id="bb-d4e383-d1e239">Item, si nihil disponerent nec cooperarentur ad sanitatem animae, aeque. bene sine his
+            posset fieri salus sicut cum eis. Ergo imposita nabis in Nova Lege potius dicenda sunt
+            onera quam medicamina, et Lex Nova lex oneris, non suavitatis.</p>
+          <p xml:id="bb-d4e383-d1e242">Sed contra : Dispositio praecedit illud ad quod disponit, non solum natura, sed etiam
+            tempore ; sed simul est sacramenti perceptio et gratiae fofusio tempore : ergo
+            sacramentum non disponit ad gratiam.</p>
+          <p xml:id="bb-d4e383-d1e245">Item, gratia ex nihilo et subito creatur, ergo nullo indiget disponente ad hoc ut sit :
+            ergo sacramenta non. disponunt ad gratiam. Si dicas quod non disponunt ad hoc quod
+            gratia sit, sed ad hoc quod insit ipsi animae, unde habilitant ipsam animam disponendo
+            ad gratiae susceptionem ; contra : esse gratiae est suum inesse, cum sit accidens :
+            ergo, si non habet dispositionem ad hoc quod sit, nec ad hoc quod insit. </p>
+          <p xml:id="bb-d4e383-d1e248">Item, si sacramenta disponunt animam et habilitant, ergo influunt in ipsam ; sed nullum
+            corporale influit in aliquod spirituale : ergo sacramenta, cum sint corporalia, non
+            influunt in.animam : ergo non habilitant ipsam nec disponunt.</p>
+        </div>
+        <div xml:id="bb-d4e383-Dd1e253">
+          <head xml:id="bb-d4e383-Hd1e255">Quaestio 2 lateralis</head>
+          <head xml:id="bb-d4e383-Hd1e258" type="question-title">Utrum in Sacramentis sit aliqua virtus, per quam influant in
+            ipsam animam.</head>
+          <p xml:id="bb-d4e383-d1e261">Si dicas forte quod in ipsis sacramentis est aliqua virtus spiritualis, per quam
+            influunt in animam, quaeritur ergo ratione huius utrum in sacramentis sit aliqua virtus
+            per quam influant in ipsam animam.</p>
+          <p xml:id="bb-d4e383-d1e264">Et quod non, videtur : Quia illa virtus aut est substantia aut accidens. Si substantia,
+            aut Deus, aut angelus, aut anima ; nullum horum esse, certum est, quia si illa virtus
+            est de sacramento, tunc Deus est de sacramento. Si accidens, sed nullum accidens
+            spirituale est in subiecto corporali : ergo aut illa virtus est corporalis, et. sic non
+            influet ; aut si est spiritualis, non est in sacramento.</p>
+          <p xml:id="bb-d4e383-d1e267">Item, illa virtus est bonum, constat ; aut ergo est bonum magnum aut mediocre aut
+            parvum, sicut dividit <name ref="#Augustine">Augustinus</name>. Non de maioribus, quia
+            tunc esset gratia vel virtus gratuita, quae est in sola anima ; non mediocre, quia talia
+            sunt potentiae animae : ergo est bonum infimum. Sed hoc est bonum corporale : ergo illa
+            virtus non est spiritualis et non influit in animam.</p>
+          <p xml:id="bb-d4e383-d1e274">Item, nullum corporale recipitur in spirituali corporaliter, sed solum spiritualiter :
+            ergo similiter nullum spirituale recipitur in corpore spiritualiter, sed corporaliter :
+            ergo illa virtus, cum. sit in sacramentis, est ibi corporaliter, et ita non est potens
+            influere in animam : ergo frustra est ibi.</p>
+          <p xml:id="bb-d4e383-d1e277">Item, <quote xml:id="bb-d4e383-Qd1e279">omne quod recipitur in aliquo est ibi per modum recipientis et non
+              recepti</quote>, sicut dicit Boethius. Ergo illa virtus recipitur in sacramento
+            corporali per modum corporis : ergo etc. Si dicas quod verum est, loquendo naturaliter,
+            sed illa virtus est ibi mirabiliter et supra naturam, contra : quantumcumque sit ibi
+            supra naturam et qualitercumque, tamen est ignobilior ipsa anima ; non ergo influit in
+            ipsam : ergo si non ponitur ob aliud, manifestum est etc. </p>
+          <p xml:id="bb-d4e383-d1e283">Contra : Beda dicit quod <quote xml:id="bb-d4e383-Qd1e285">Dominus contactu mundissimae carnis suae dedit vim
+              regenerativam aquis</quote>. Ergo aliqua vis collata est ipsis aquis ; sed haec non
+            potuit esse nisi creata, quia collata est creaturae, et cum esset ad regenerand um, non
+            potuit esse nisi spiritualis, quia operis spiritmrlis virtus est spiritualis : ergo
+            etc.</p>
+          <p xml:id="bb-d4e383-d1e289">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in tertia distinctione
+            : <quote xml:id="bb-d4e383-Qd1e294">Quae est virtus aquae, ut corpus tangat et cor abluat ?</quote> Ergo aliqua
+            virtus est in sacramento qua abluitur cor : ergo spiritualis.</p>
+          <p xml:id="bb-d4e383-d1e298">Item, videmus quod opera divinae iustitiae fiunt ministerio creaturae corporalis, quae
+            habet a Deo vim aliquam per quam possit agere in animam, alioquin non posset, sicut
+            patet in igne purgatorio. Ergo in operibus misericordiae, quae fiunt per sacramenta,
+            erit quod sacramenta habeant aliquam virtutem a Deo sibi collatam per quam agant in
+            animam.</p>
+          <p xml:id="bb-d4e383-d1e301">Item, videmus quod, si aliquis contritus accedat ad Baptismum, etsi non conferatur ei
+            gratia, quia iam habet eam, tamen confertur ei remissio omnis poenae quam non habebat
+            prius. Ergo Baptismus supra collationem gratiae addit remissionem poenae : ergo aliqua
+            virtus est in Baptismo praeter virtutem gratiae ; eadem ratione in aliis sacramentis
+            Novae Legis.</p>
+          <p xml:id="bb-d4e383-d1e305">Item, si nulla esset virtus ibi, tunc ergo rediret inconveniens saepe dictum quod non
+            differrent a sacramentis Veteris Legis.</p>
+        </div>
+        <div xml:id="bb-d4e383-Dd1e309">
+          <head xml:id="bb-d4e383-Hd1e311">Conclusio</head>
+          <head xml:id="bb-d4e383-Hd1e314" type="question-title">Probabilis est opinio, cum suis rationibus primo posita, quod
+            Sacramenta respectu gratiae gratum facientis sint causa sine qua non, respectu vero
+            characteris et ornatus sint causa efficiens, respectu denique efficaciae gratiae et
+            sanationis potentiarum sint causa disponens. Probabilis etiam est alia opinio, quae
+            negat, ipsis Sacramentis datam esse virtutem efficientem per modum qualitatis absolutae,
+            non relativae.</head>
+          <p xml:id="bb-d4e383-d1e317">Respondeo : Aliqui volunt dicere quod in sacramentis est aliqua virtus creata, per quam
+            influunt in animam et habent rationem causandi differenter. Dicunt enim quod in
+            sacramentis datur gratia gratum faciens ; datur etiam in eis gratia gratis data, sicut
+            est character et ornatus animae ; datur etiam debilitatio fomitis sive expeditio
+            potentiarum, haec est efficaeia gratiae. Dicunt ergo quod respectu gratiae gratum
+            facientis sunt sicut causa sine qua non ; respectu characteristicationis et ornatus sunt
+            sicut causa efficiens ; respectu illius virtutis, respectu scilicet debllitationis
+            fomitis sive roboris potentiarum, sunt causa disponens. Et hoc sic manifestum est. Nam
+            sicut videmus quod in purgatione per ignem purgatorium est ipsa anima purgabilis, habens
+            reatum vel maculam venialem ; est gratia intra animam, quia sine ipsa non fieret
+            purgatio ; est rursus virtus ignis : sic in sacramento est anima habens defectum et
+            debilitatem potentiarum ; est iterum gratia in anima intus operans ; est iterum virtus
+            sacramenti exterior ; et his concurrentibus roborantur et sanantur potentiae et gratia
+            fit efficacior in sua operatione mediante virtute sacramenti. Sic ergo dicunt quod
+            sacramentum est causa gratiae ut sine qua non, scilicet gratum facientis ; est causa
+            characteris et ornatus efficiens ; est causa efficaciae gratiae et sanationis
+            potentiarum ut disponens ; et hoc per virtutem quae est in ipso sacramento spiritualem
+            et a Deo collatam sibi. His visis, manifesta est secundum ipsos responsio.</p>
+        </div>
+        <div xml:id="bb-d4e383-Dd1e321">
+          <head xml:id="bb-d4e383-Hd1e323">Ad rationes</head>
+          <p xml:id="bb-d4e383-d1e326">1-2. Ad illud enim quod quaeritur primo, utrum sint causa efficiens gratiae gratum
+            facientis, dicunt, quod non. Quod ergo obicitur de differentia horum sacramentorum et
+            illorum, dicunt quod differentia attenditur ratione characteristicationis et ornatus et
+            efficaciae gratiae. Et sic respondent ad illud <name ref="#HughOfStVictor">Hugonis</name> quod de illa sanctificatione intelligitur.</p>
+          <p xml:id="bb-d4e383-d1e332">3. Similiter dicunt de eo quod dicit <name ref="#Lombard">Magister</name> quod sit
+            causa ; tamen, si intelligatur quantum ad gratiam, gratuui facientem, dicunt quod est
+            causa sine qua non. Aliter etiam dicunt quod potest dici quod sit causa disponens vel ad
+            hoc quod insit vel ad hoc quod efficax sit, et hoc ratione operis operati ; non sic
+            autem erat in illis sacramentis.</p>
+          <p xml:id="bb-d4e383-d1e338">4. Ad illud quod obicitur, quod signum ex humana institutione generat cognitionem et
+            affectionem spiritualem, dicunt quod hoc est solum dispositive sive occasionaliter, non
+            effective ; immo ipsa anima conferendo in semetipsa cognitionem generat et affectionem ;
+            sicut patet exemplo, manifesto, quod alii vident patibulum et timent, alii non ; tamen
+            per hoc non potest ostendi quod sacramentum sit causa efficiens gratiae.</p>
+          <p xml:id="bb-d4e383-d1e341">5. Ad illud quod obicitur de transfusione culpae mediante carne, dicunt quod sicut
+            gratia non est in aliquo corporali, sic nec culpa. Sed tamen vitiositas in carne habere
+            potest rationem efficiendi culpam in anima ; non sic virtus sacramenti gratiam. Et causa
+            huius est quia gratia est effectus nobilior omni virtute corporali et fit ex nihilo, hoc
+            est solius Dei ; sed effectus culpae dicit ignobilitatem et imperfectionem et defectum.
+            Ideo omnia argumenta illa non valent quae fint per similitudinem gratiae ad culpam.</p>
+          <p xml:id="bb-d4e383-d1e345">6. Ad illud quod obicitur, quod Christus potentior est in bonum, dicunt quod verum et ;
+            nec tamen sequitur ex hoc, quodsi Adam transmittit culpam mediante carne, quod Christus
+            transmittat gratiam mediante sacramento : nam istud esset inordinatio. Praeterea, sicut
+            creatura non potest recipere potestatem creandi, sic nec clandi gratiam.</p>
+          <p xml:id="bb-d4e383-d1e348">7. Ad illud <name ref="#Anselm">Anselmi</name> dicunt quod non intelligitur quod
+            transfunderet iustitiam carne mediante, sed quod omnes posteri haberent illam iustitiam
+            a Deo, quia non esset impedimentum ex parte carnis.</p>
+          <p xml:id="bb-d4e383-d1e354">Ad illud quod quaeritur, utrum sacramentum sit causa disponens, dicunt quod sic, sicut
+            tactum fuit, quia disponit ad efficaciam gratiae, remittendo fomitem, qui impedit
+            operationem gratiae ; vel, sicut tactum fuit, disponit ad hoc quod gratia insit animae,
+            quamvis non disponat ad hoc quod sit. Et hoc est dicere quod gratia comparatur ad causam
+            efficientem, comparatur ad substantiam suscipientem Sacramentum autem non disponit a
+            parte agentis, qui est Deus, sed a parte suscipientis, quod est anima.</p>
+          <p xml:id="bb-d4e383-d1e357">2. Et sic patet responsio ad illud quod obicitur quod gratia est ex nihilo ; dicunt
+            enim quod sacramentum non disponit ad gratiam ratione eius ex ,quo, sed ratione eius in
+            quod recipitur.</p>
+          <p xml:id="bb-d4e383-d1e360">1. Ad illud quod obicitur, quod dispositio praecedit illud ad quod disponit, dicunt
+            quod non semper praecedit tempore, sicut patet in dispositione quae est necessitas sive
+            in dispositione ultima ; sic sacramentum digne susceptum disponit dispositione ultima,
+            quae simul est tempore cum gratia, sed natura prior, sicut ex parte illa.</p>
+          <p xml:id="bb-d4e383-d1e363">3. Ad illud quod obicitur, quod si disponit, influit, dicunt quod influit. Quod ergo
+            obicitur, quod nullum corporale influit in spirituale, dicunt quod in sacramento est
+            aliqua virtus spiritualis, per quam influit in.animam. Tamen illa ratio non valet
+            secundum eos, quia in anima mundanda est considerare ipsam substantiam et ipsam maculam
+            a qua mundatur ; et licet secundum substantiam sit superior omni corpore, tamen ratione
+            maculae vel defectus est inferior.</p>
+          <p xml:id="bb-d4e383-d1e367">Ad illud quod quaeritur, utrum sit in sacramentis ponere virtutem creatam, dicunt quod
+            sic. Quod ergo quaeritur, utrum substantia, aut accidens, dicunt, quod accidens. Quod
+            iterum quaeritur, utrum accidens corporale aut spirituale, dicunt quod spirituale. Quod
+            obicitur postea, quod accidens spirituale non est in subiecto corporali, dicunt quod
+            verum est naturaliter, sed ipsum sacramentum habet illam virtutem supra naturam secundum
+            ordinem divinae misericordiae, sicut virtus est in igne purgatorio secundum ordinem
+            divinae iustitiae supra naturam ignis. Et quod amplius est ex parte hac, quia
+            sacramentum non est subiectum naturale sive secundum naturam ; et ideo non est mirum si
+            habeat virtutem supra naturam. </p>
+          <p xml:id="bb-d4e383-d1e370">Ad illud quod quaeritur, utrum sit bonum maximum etc., dicunt quod virtus illa ponenda
+            est inter bona mediocria, quia est infra gratiam et supra corpus. Si obicias, quod tale
+            bonum est animae potentiae, dicunt quod <name ref="#Augustine">Augustinus</name> non
+            excludit propter hoc quin alia sint ; sed illud dicit exemplando vel arctando bonum ad
+            subiectum humanum. Si vero obicias, quod non aget vel influet in potentias animae, cum
+            sit mediocre, et influxus sit a superiori, dicunt quod non influit in potentias ratione
+            potentiarum, sed ratione ipsarum deficientium per culpam. </p>
+          <p xml:id="bb-d4e383-d1e376">Ad illud quod obicitur de receptione substantiae spiritualis, dicunt quod non est
+            simile : quia, si substantia spiritualis reciperet corporale corporaliter, tunc
+            derogare- tur ipsi substantiae nec perficeretur in ipsa receptione ; sed, si aliquod
+            materiale recipiat spirituale spiritualiter, non derogaretur ei in aliquo.</p>
+          <p xml:id="bb-d4e383-d1e379">Ad illud quod obicitur, quod omne quod recipitur est in recipiente per modum
+            recipientis, dicunt quod hoc verum est de receptione naturali ; sed haec est supra
+            naturam. Praeterea, ipsum sacramentum, secundum quod huiusmodi, est medicina spiritualis
+            ; et ideo debet habere virtutem spidtualem. In naturalibus autem maxime consideratur
+            materia, sed in divinis maxime et principaliter consideratur finis ; ideo, quia in
+            sacramentis non consideratur ratio materiae, sed finis, conveniens fuit secundum ipsos
+            virtutem spiritualem in eis ponere.</p>
+          <p xml:id="bb-d4e383-d1e382">Ad aliud secundum eos iam responsum est, quia nobilior est virtus ipsa, minus nobilis
+            anima lapsa, non ratione substantiae, sed ratione lapsus. Et patent hoc modo cetera
+            obiecta secundum hanc opinionem. Et haec opinio est magnorum.</p>
+          <p xml:id="bb-d4e383-d1e385">Est etiam aliorum magnorum circa hoc opinio dicentium quod in sacramentis non sit
+            causalitas neque virtus aliqua, nec effectiva nec dispositiva ad gratiam, quae sit
+            qualitas vel proprietas aliqua absoluta, sed per quamdam assistentiam.</p>
+          <p xml:id="bb-d4e383-d1e389">Sacramento enim dicunt assistere divinam virtutem, quae est causa gratiae, et fidem et
+            devotionem suscipientis, quae disponit ad gratiam. Et adducunt simile : quoniam ad
+            verbum Elisaei, Naaman se lavante, astitit virtus divina effectiva sanitatis et devotio
+            et obedientia Naaman dispositiva ; nulla tamen causalitas fuit nec in verbo Elisaei nec
+            in aqua Iordanis. Si ergo Dominus ita instituisset ut ad verbum Elisaei non solum ipse
+            Naaman, sed ceteri accedentes curarentur, et hoc ex quadam pactione, ita quod semper
+            assisteret vis divina, aqua illa diceretur curare et sanare lepram et esse causa
+            curationis et habere virtutem curandi. Sic in sacramentis dicunt quod ad prolatlones,
+            verbi assistit virtus divina aquis et infundit gratiam et regenerat, dum homo subicit se
+            per fidei professionem et obedientiam. Dicunt ergo quod sacramenta dicuntur habere
+            virtutem et dicuntur causa et dicuntur efficere secundum communem modum loquendi propter
+            assistentiam divinae virtutis.</p>
+          <p xml:id="bb-d4e383-d1e392">Et si tu quaeras, utrum habeant virtutem aliquam creatam super increatam, respondent
+            quod praeter virtutem increatam est dicere aliquam virtutem habere sacramentum, sed
+            extenso nomine virtutis. Si enim virtus dicat aliquam qualitatem vel naturam sive
+            essentiarri advenientem sacramento, sicut virtus proprie dicitur, sic secundum eos non
+            est dicendum quod habeat virtutem, sed extenditur nomen virtutis ad aliquam
+            ordinationem, ut quando aliquid habet efficacem ordinationem ad aliquid, dicitur habere
+            virtutem respectu illius. Et ponunt hoc exemplum : rex statuit ut qui habent tale signum
+            habeant centum libras. Post istam institutionem signum illud non habet aliquam
+            proprietatem absolutam quam non haberet prius ; ad aliquid tamen est ordinatum, ad quod
+            non etat prius. Et quia habet efficacem ordinationem, dicitur habere virtutem ut faciat
+            aliquem habere centum marcas ; et dicitur illud signum valere centum marcas, et tamen
+            nihil plus habet de bonitate nunc quam prius. Si ergo quaeras quid sit illa virtus in
+            illo signo, dicetur quod non est aliquid absolutum, ed ad aliquid. Sic dicunt quod
+            sacramenta sunt talia signa a Deo instituta, ut qui ea susceperit debito modo habeat
+            tantum de gratia vel habeat gratiam ad hunc actum ; illa, inquam, ordinatio efficax
+            secundum istos virtus est sacramenti, et ratione illius disponit hominem ut habeat
+            gratiam, quia efficaciter ordinat ad habendam et suscipiendam gratiam.</p>
+          <p xml:id="bb-d4e383-d1e395">Rursus dicunt quod ex tali pactione Dominus astrinxit se quodam modo ad dandum gratiam
+            suscipienti sacramentum ; astringit enim quodam modo Deum ad conferendum, et ideo
+            dicitur habere virtutem ad efficiendum et etiam disponendum. Et sicut extenditur nomen
+            virtutis, ita verbum efficiendi vel disponendi quia nec efficit nec disponit influendo,
+            sed efficaciter ordinando. Et sicut haec extenduntur, ita et nomen causae, quia non
+            dicitur causa secundum quod est principium operandi, sed secundum quod est ratio
+            ordinandi.</p>
+          <p xml:id="bb-d4e383-d1e398">Huic positioni pietas fidei non repugnat et ratio consentit. Consentit namque ratio,
+            quia valde difficile est intelligere qualiter illa virtus detur sicut qualitas absoluta
+            ; difficilius, quando detur ; difficile etiam est intelligere cui detur, verbo scilicet
+            an elemento, quae sunt duo nihil unum facientia ; difficile etiam est scire quamdiu
+            duret ; difficile est similiter valde intelligere quomodo influat ; difficile etiam
+            cuius naturae sit in se ipsa ; : et multa talia. Alii vero positioni satis faciliter
+            ratio concordat.</p>
+          <p xml:id="bb-d4e383-d1e401">Pietas etiam fidei non repugnat. Cavendum est enim ne, dum nimis damus corporalibus
+            signis ad laudem, subtrahamus honorem gratiae curanti et animae suscipienti. Haec autem
+            opinio non nimis dat neque subtrahit aliquid honoris debiti. Sicut igitur litterae
+            regiae anulo regis sigillatae magnae sunt dignitatis et virtutis et valoris et magna
+            dicuntur et passe et facere, tamen in eis nulla virtus est absoluta, sed sola ordinatio
+            per assistentiam virtutis regiae - quod patet, quia, mortuo rege, non plus curatur de
+            litteris suis quam de aliis, tamen nihil absolutum amiserunt - sic intelligendum in
+            sacramentis, et sic loquuntur Sanctorum auctoritates secundum communem usum.</p>
+          <p xml:id="bb-d4e383-d1e404">Et rationes ad oppositum patent. Et si tu quaeras super quid fundatur relatio et
+            quomodo advenit sine donatione proprietatis, dicendum quod in institutionibus signorum,
+            ut quando nummus fit arrha, nihil datur de nova ipsi nummo.</p>
+          <p xml:id="bb-d4e383-d1e408">Utraque harum positionum satis videtur probabilis, haec tamen mihi videtur ad
+            sustinendum facilior ; nescio tamen quae sit verior, quia, cum loquimur de his quae sunt
+            miraculi, non multum adhaerendum est rationi. Concedimus igitur quod sacramenta Novae
+            Legis sunt causa et efficiunt et disponunt, extenso nomine, ut dictum est, et hoc
+            securum est dicere ; utrum autem plus habeant, nec vola affirmare nec negare. Et
+            secundum hanc ultintam viam omnia quaesita patent.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

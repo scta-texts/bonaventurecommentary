@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e16648">
+        <head xml:id="bb-d4e16648-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e16648-Hd1e111" type="question-title">Utrum contingat per poenitentiam resurgere, hoc est poenitentiam
+          iterare.</head>
+        <p xml:id="bb-d4e16648-d1e114">Secundo quaeritur, utrum contingat per poenitentiam resurgere, hoc est poenitentiam
+          iterare.</p>
+        <div xml:id="bb-d4e16648-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e16648-d1e119">Et quod sic, videtur : Exemplo David, qui primo peccavit homicidio et poenituit ;
+            rursus, numerando populum, et poenituit, et Deus utrumque acceptavit.</p>
+          <p xml:id="bb-d4e16648-d1e122">Item, auctoritate Ezechielis 18, 21 : <quote xml:id="bb-d4e16648-Qd1e124" ana="#ez18_21">Si impius egerit
+              poenitentiam ab omnibus peccatis etc., omnium iniquitatum eius non recordabor
+              amplius</quote>. Sed non distinguit peccatorem : ergo verum est de eo qui recidivavit,
+            quia terminus in conditionali in antecedente tenetur universaliter.</p>
+          <p xml:id="bb-d4e16648-d1e128">Item, esto quod iste semper, dum fuit in poenitentia, fuisset in culpa ; constat quod
+            peior fuisset ; sed non est ei praeclusa via : ergo, si tunc potuisset per poenitentiam
+            surgere, et nunc potest.</p>
+          <p xml:id="bb-d4e16648-d1e131">Item, ratione videtur, quia Deus pronior est ad miserendum quam ad condemnandum ; sed
+            quantumcumque homo Deo servierit, si poenitet de bono facto, Deus obliviscitur bonorum :
+            ergo, si poenitet de malo, remittit.</p>
+          <p xml:id="bb-d4e16648-d1e134">Item, si non potest resurgere secundo, aut hoc est quia non potest secundo poenitere
+            aut quia Deus non acceptat. Non primo modo, quia liberum arbitrium est in nobis
+            vertibile et tota die verti videmus ; non secundo modo : poenitere enim est conteri et
+            humiliari de peccato ; sed dicitur in Psalmo [50, 19] : <quote xml:id="bb-d4e16648-Qd1e136" ana="#ps50_19">Sacrificium Deo spiritus contribulatus, cor contritum et humiliatum</quote> etc.</p>
+          <p xml:id="bb-d4e16648-d1e141">Contra : Ad Hebraeos 6, 4 : <quote xml:id="bb-d4e16648-Qd1e143" ana="#hebr6_4">Impossibile est eos qui prolapsi sunt
+              rursus renovari ad poenitentiam</quote>.</p>
+          <p xml:id="bb-d4e16648-d1e147">Item, Proverbiorum 28, 18 : <quote xml:id="bb-d4e16648-Qd1e149" ana="#prov28_18">Qui perversis graditur viis
+              concidet semel</quote>.</p>
+          <p xml:id="bb-d4e16648-d1e153">Item, <name ref="#Ambrose">Ambrosius</name> dicit quod <quote xml:id="bb-d4e16648-Qd1e158">unica est Poenitentia
+              sicut unicum Baptisma</quote>. Et Origenes dicit quod <quote xml:id="bb-d4e16648-Qd1e161">in gravioribus criminibus
+              semel tantum poenitentiae conceditur locus</quote>.</p>
+          <p xml:id="bb-d4e16648-d1e165">Item, ratione videtur, quia sacramentum Poenitentiae habet effectum a Christi passione
+            ut Baptismus ; sed passio Christi est unica, et amplius non potest pati : ergo nec
+            Poenitentia iterari. Et hoc est quod dicit Apostolus ad Hebraeos 6, 6 : <quote xml:id="bb-d4e16648-Qd1e167" ana="#hebr6_6">Rursus crucifigentes sibi Filium Dei</quote>.</p>
+          <p xml:id="bb-d4e16648-d1e171">Item, Baptismus non iteratur nec iterari potest, ne fiat contumelia sacramento et
+            veniat in contemptum : ergo pari ratione nec poenitentia.</p>
+        </div>
+        <div xml:id="bb-d4e16648-Dd1e175">
+          <head xml:id="bb-d4e16648-Hd1e177">Poenitentia semper iterari potest, quamdiu homo est in hac vita</head>
+          <p xml:id="bb-d4e16648-d1e180">Respondeo : Dicendum quod pessimus error est et crudelissimus quod Poenitentia non
+            possit iterari, quia claudit viscera divinae misericordiae ; et tunc omnes peccatores
+            vel fere omnes cogeret desperare. Et ideo dicendum quod iterari potest quotiescumque,
+            quamdiu homo est in hac vita, sed post hanc vitam non potest.</p>
+          <p xml:id="bb-d4e16648-d1e183">Et ratio quare Poenitentia possit et debeat iterari et Baptismus non, est triplex. Una
+            est, quia in Baptismo imprimitur character, qui est indelebilis, in Poenitentia non.
+            Secunda ratio est, quia Baptismus est contra morbum non iterabilem, qualis est morbus
+            peccati originalis ; sed Poenitentia contra morbum iterabilem, qualis est morbus peccati
+            actualis. Unde, quia medicina debet aptari morbo, patet etc. Tertia ratio est, quia
+            Baptismus habet totam efficaciam a passione Christi, sed Poenitentia non tantum a
+            passione Christi, sed ab actu. nostro ; et ideo Baptismus non iteratur sicut nec passio
+            ; Poenitentia vero iteratur secundum quod voluntas nostra convertitur et revertitur.
+            Inde est quod in Baptismo omnis poena remittitur, in Poenitentia non. Et si Baptism us
+            iteraretur, daretur nobis occasio peccandi ; non sic est in Poenitentia, quia bene
+            punit.</p>
+        </div>
+        <div xml:id="bb-d4e16648-Dd1e188">
+          <head xml:id="bb-d4e16648-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e16648-d1e193">1-2. Ad illud ergo quod obicitur in contrarium de verbo Apostoli : Impossibile est
+            etc., potest fieri vis in hoc quod dicit impossibile, quia non ex viribus humanis ; vel
+            impossibile, id est difficile ; loquitur enim de perfectis, qui difficulter resurgunt.
+            Vel ut fiat vis in poenitentia, quia loquitur de renovatione quae est in poenitentia,
+            quam sequitur Baptismus ; haec enim virtutem totam habet ab hostia passionis, et de hac
+            dicit Apostolus ad Hebraeos 10, 26 : <quote xml:id="bb-d4e16648-Qd1e195" ana="#hebr10_26">Non relinquitur hostia pro
+              peccato</quote>.</p>
+          <p xml:id="bb-d4e16648-d1e199">Ad illud <name ref="#Ambrose">Ambrosii</name> et Origenis, dicendum quod intelligi
+            debet de poenitentia solemni, et hoc secundum morem aliquarum ecclesiarum, sicut patet
+            in littera.</p>
+          <p xml:id="bb-d4e16648-d1e205">4-5. Ad illud quod obicitur de Baptismo et contumelia sacramenti, patet responsio ex
+            praedictis, quod non est simile. Hic enim non fit contumelia sacramento, quia sic
+            institutum est et efficaciam habet, sed secundus Baptismus nullius est efficaciae. Non
+            fit etiam contumelia passioni, quia non sic totam et plenam efficaciam a passione
+            recipit ut Baptismus, sicut in praecedentibus visum est et infra de poenitentia
+            videbitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12257">
+        <head xml:id="bb-d4e12257-Hd1e108">Quaestio 6</head>
+        <head xml:id="bb-d4e12257-Hd1e111" type="question-title">Quibus verbis illa conversio debeat exprimi.</head>
+        <p xml:id="bb-d4e12257-d1e114">Sexto et ultimo quaeritur, quibus verbis debeat exprimi ista conversio.</p>
+        <div xml:id="bb-d4e12257-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e12257-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e12257-d1e122">Et ostenditur quod per verbum substantivum, ut dicatur : Panis erit corpus Christi ; et
+            quod fuit panis etc. ; et hoc auctoritate et ratione.</p>
+          <p xml:id="bb-d4e12257-d1e125">Auctoritate, quia <name ref="#Ambrose">Ambrosius</name> dicit : <quote xml:id="bb-d4e12257-Qd1e130">Quod erat panis
+              ante consecrationem, est corpus Christi post consecrationem</quote>.</p>
+          <p xml:id="bb-d4e12257-d1e134">Item, ratione videtur, quia ubi totum transit in totum, fit maior unio quam ubi pars in
+            partem ; sed ubi pars in partem, vera est, ut puta secundum accidens album erit nigrum,
+            et secundum substantiam, ut quod fuit sub forma ignis modo est sub forma aeris : ergo
+            multo fortius hic, ubi totum transit in totum.</p>
+          <p xml:id="bb-d4e12257-d1e137">Item quod in verbo mutandi, videtur. Damascenus : <quote xml:id="bb-d4e12257-Qd1e139">Panem et vinum fecit ea corpus
+              et sanguinem suum</quote>.</p>
+          <p xml:id="bb-d4e12257-d1e144">Item, ratione videtur, quia quod mutatur, et non annihilatur, non fit nihil, sed
+            aliquid ; sed panis mutatur, et non annihilatur nec fit aliud quam corpus : ergo
+            etc.</p>
+          <p xml:id="bb-d4e12257-d1e147">Item, quod cum verbo posendi : <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e12257-Qd1e152">Quod est
+              panis potest esse corpus consecratione, quae fit Christi sermone</quote>.</p>
+          <p xml:id="bb-d4e12257-d1e156">Item, ratione videtur, quia omne quod mutatur in aliquid habet posse ad illud, quia
+            omnem actum antecedit potentia aliqua ; sed panis mutatur in corpus Christi : ergo
+            etc.</p>
+          <p xml:id="bb-d4e12257-d1e159">Item, quod cum praepositione : <name ref="#Ambrose">Ambrosius</name>, De sacramentis :
+              <quote xml:id="bb-d4e12257-Qd1e164">Ubi accessit consecratio, de pane fit corpus Christi</quote>.</p>
+          <p xml:id="bb-d4e12257-d1e168">Item, ratione videtur, quia hic est transsubstantiatio ; aut ergo de aliquo aut de
+            nihilo. Non de nihilo, ergo de aliquo : ergo de pane, cum non sit dare de alio.</p>
+          <p xml:id="bb-d4e12257-d1e171">Contra : Hoc verbum <mentioned> est </mentioned> notat identitatem ; sed panis ad
+            corpus non est identitas nec in forma nec illa materia : ergo talis locutio, scilicet
+            cum verbo substantiva quod notat identitatem, est falsa.</p>
+          <p xml:id="bb-d4e12257-d1e178">Item, omne fieri terminatur ad factum esse ; sed in hoc sacramento nihil factum est,
+            quia corpus non est nunc factum : ergo nec fieri est ibi : ergo sunt falsae cum verbo
+              <mentioned> fiendi </mentioned>.</p>
+          <p xml:id="bb-d4e12257-d1e184">Item, omnis potentia aut est activa aut passiva ; in pane non est activa nec etiam
+            passiva, quia tunc esset ad actum : ergo cum hoc verbo potest est falsa locutio.</p>
+          <p xml:id="bb-d4e12257-d1e187">Item, haec praepositio <mentioned> de </mentioned> et <mentioned> ex </mentioned> dicit
+            causalitatem aut ordinem, ut de mane fit meridies. Hoc non potest stare secundum quod
+            dicit causalitatem nec secundum quod dicit ordinem, quia tunc est sensus : post panem
+            est corpus ; pari ratione posset dici de verbo : corpus post verbum.</p>
+        </div>
+        <div xml:id="bb-d4e12257-Dd1e197">
+          <head xml:id="bb-d4e12257-Hd1e199">Conclusio</head>
+          <head xml:id="bb-d4e12257-Hd1e202" type="question-title">Illa tantum propositio est vera et propria, in qua verbum
+            significat non identitatem neque innovationem neque ordinationem naturalem; sed solum
+            conversionem cum praepositione</head>
+          <p xml:id="bb-d4e12257-d1e205">Respondeo : Dicendum quod ista conversio est singularis, quia totum in totum transit,
+            et hoc virtute supra naturam ; ideo panis ad corpus non est identitas, non est
+            causalitas, in Christi corpore nulla est innovatio, in pane nulla est secundum causas
+            inferiores ordinatio. Ex his eliciuntur quatuor regulae.</p>
+          <p xml:id="bb-d4e12257-d1e208">Prima est, quod omnia verba significantia identitatem panis ad corpus Christi faciunt
+            sermonem falsum. Unde omnes tales locutiones impropriae sunt et exponendae : panis erit
+            corpus Christi, vel quod fuit partis est corpus Christi, id est, conversum est in corpus
+            ; simpliciter non sunt recipiendae cum relativo et verbo substantiva. Et ideo non valet
+            ratio quam adducit. Quia enim totum in totum transit, non est maior identitas, immo
+            minor, immo nulla.</p>
+          <p xml:id="bb-d4e12257-d1e211">Secunda regula est, quod omnia verba significantia innovationem circa corpus Christi
+            sunt falso dicta ; quae autem significant conversionem et transitum vere dicuntur. Et
+            quia generari dicit innovationem, <mentioned> fieri </mentioned> potest dicere
+            transitum, ut cum dicitur : hoc fit illud ; ideo cum verbo <mentioned> fiendi
+            </mentioned> potest concedi, non cum verbo <mentioned> generandi </mentioned>. Et
+            concedendae sunt rationes ad hoc. Ratio ad oppositum non valet, quia obicit de fieri,
+            prout dicit alicuius generationem ; sed non sic accipitur hic. Unde haec est magis
+            propria : panis fit corpus, quam de pane fit corpus ; et haec simpliciter est impropria
+            : corpus Christi fit sed conceditur : fit hic.</p>
+          <p xml:id="bb-d4e12257-d1e224">Tertia regula est, quia non est ordinatio panis ad corpus Christi secundum causas
+            inferiores, ideo verba hoc significantia, sicut hoc verbum potest, absolute dictum,
+            faciunt locutionem falsam, ut si dicatur : panis potest esse corpus. Sed, si dicatur
+            ordinatio secundum causas superiores, tunc est in locutione veritas, ut si dicatur :
+            panis potest converti a Deo. Et sic dicit <name ref="#Ambrose">Ambrosius</name> et ratio
+            concludit, quia actus ille est a potentia superiori.</p>
+          <p xml:id="bb-d4e12257-d1e230">Quarta regula est, quia nulla est causalitas, sed solum transitus panis in corpus
+            Christi, quod omnes praepositiones causalitatem importantes reddunt locutionem
+            impropriam. Unde impropriae sunt cum hac praepositione <mentioned> de </mentioned> vel
+              <mentioned> ex </mentioned> secundum quod dicunt causalitatem ; sed cum est aliqua
+            acceptio ordinis, sustineri potest, nec tamen secundum illam omnino propria. Et
+            dicendum, quod illa est vera et propria in qua verbum significans non identitatem nec
+            innovationem nec ordinationem naturalem, sed solum conversionem cum praepositione
+            importante transitum, non causam. Unde haec est propria : panis convertitur in corpus
+            Christi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

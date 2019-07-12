@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e21592">
+        <head xml:id="bb-d4e21592-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e21592-Hd1e111" type="question-title">Utrum infusio gratiae necessario praecedat peccati
+          expulsionem.</head>
+        <div xml:id="bb-d4e21592-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e21592-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e21592-d1e119">Circa primum, quod gratiae infusio necessario praecedat peccati expulsionem, videtur.
+              <name ref="#Ambrose">Ambrosius</name> dicit : Quemadmodum intrans animam sapientis
+            disciplina imprudentiam tollit, ita perfecta virtus iniquitatem. Si ergo iniquitatem non
+            tollit nisi perfecta virtus intrans, et haec est gratia, ergo etc.</p>
+          <p xml:id="bb-d4e21592-d1e125">Item, gratiam infundi non est aliud quam ipsam creari ; sed creatio gratiae praecedit
+            expulsionem culpae, quia culpa non expellitur nisi per gratiam : ergo et gratiae
+            infusio.</p>
+          <p xml:id="bb-d4e21592-d1e128">Item, si prius naturaliter expellitur culpa quam infundatur gratia, cum culpa non
+            possit expelli nisi per habitationem Dei in anima, tunc prius inhabitaret Deus animam
+            quam infunderet gratiam ; et hoc est impossibile.</p>
+          <p xml:id="bb-d4e21592-d1e131">Item, cum ignis expellit frigus, prius naturaliter immittit virtutem in materiam quam
+            illud expellit. Si ergo Deus expellit culpam immittendo gratiam, ergo prior est gratiae
+            immissio per naturam quam culpae expulsio.</p>
+          <p xml:id="bb-d4e21592-d1e135">Sed contra : In qualibet mutione prius est terminus a quo quam terminus ad quem
+            secundum naturam vel secundum tempus ; sed iustificatio incipit a malo et terminatur ad
+            bonum : ergo, si malum a quo incipit est peccatum, et bonum ad quod tendit est gratia,
+            videtur quod prior per naturam sit peccati expulsio quam gratiae infusio.</p>
+          <p xml:id="bb-d4e21592-d1e138">Item, prius est natura a quo non convertitur consequentia secundum necessitatem ; sed
+            necessario ad esse gratum sequitur esse mundum, et non e converso, ut patet in primo
+            homine et angelo, in quibus ante fuit status innocentiae quam gratiae : ergo naturaliter
+            prius est esse mundum quam gratum. Sed esse mundum est per culpae expulsionem, esse
+            gratum per infusionem gratiae : ergo culpae expulsio prior.</p>
+          <p xml:id="bb-d4e21592-d1e141">Item, medium est secundum naturam et secundum actualem existentiam ; et licet inter
+            culpam et gratiam non sit medium secundum actualem existentiam, est tamen medium
+            secundum naturam, videlicet innocentia ; sed medium secundum naturam in mutatione
+            naturaliter praecedit extremum : ergo etc.</p>
+          <p xml:id="bb-d4e21592-d1e144">Item, culpa expellitur aut quando est aut quando non est. Non quando non est, quia tunc
+            semper expelleretur. Si quando est, sed quando est culpa in anima, non est infusa
+            gratia, quia tunc simul essent duo opposita in eodem : ante expellitur culpa quam
+            infundatur gratia.</p>
+          <p xml:id="bb-d4e21592-d1e147">Item, si Deus successive operaretur, prius expelleret culpam quam infunderet gratiam,
+            prius, inquam, tempore ; sed subita operatio, si tollat ordinem temporis, non tamen
+            tollit ordinem in natura : ergo, cum subito iustificet, prius naturaliter culpam
+            expellit quam det gratiam.</p>
+          <p xml:id="bb-d4e21592-d1e150">Item, non videtur quod sit aliquis ordo, quoniam privare privationem nihil aliud est
+            quam restituere habitum ; sed culpa est privatio, gratia est habitus : ergo omnino est
+            idem gratiam infundi et culpam expelli : ergo videtur quod simul sint tempore et natura,
+            cum eiusdem ad se non sit aliquis ordo.</p>
+        </div>
+        <div xml:id="bb-d4e21592-Dd1e154">
+          <head xml:id="bb-d4e21592-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e21592-Hd1e159" type="question-title">Gratiae infusio, ut egrediens a suo principio, in
+            iustificatione naturaliter praecedit expulsionem peccati</head>
+          <p xml:id="bb-d4e21592-d1e162">Respondeo : Ad hoc voluerunt aliqui dicere quod Deus se ipso expellit culpam ; nam ipse
+            de se dicit, Isaiae 43, 25 : <quote xml:id="bb-d4e21592-Qd1e164" ana="#is43_25">Ego sum qui deleo iniquitates tuas
+              propter me</quote>. Unde secundum hos prius Deus mundat animam et postmodum dat
+            gratiam, simul tempore, tamen posterius natura.</p>
+          <p xml:id="bb-d4e21592-d1e168">Sed quia communiter ponitur, et verum esse credo, quod Deus expellit peccatum per
+            gratiam sicut sol per radios tenebras, sicut dicitur Actuum 15, 9 : <quote xml:id="bb-d4e21592-Qd1e170" ana="#act15_9">Fide purificans</quote> etc., et hoc supra monstratum est ; ideo, cum
+            causa praecedat effectum, infusio gratiae naturaliter prior est expulsione peccati,
+            sicut lux praeit effugationem tenebrarum.</p>
+          <quote xml:id="bb-d4e21592-Qd1e174">Ad quod intelligendum, notandum est quod qualitas aliqua, quae agit in aliud, habet
+            triplicem comparationem, scilicet ad principium a quo exit, et ad contrarium vel
+            oppositum quod expellit, et ad subiectum quod perficit. Et sunt istae comparationes
+            ordinatae. Prius enim comparatur ad principium a quo producitur ; secundo ad oppositum
+            quod expellitur ; tertio ad subiectum quod perficitur. Subiectum enim informatum aliqua
+            qualitate vel deformatum vitio non potest intelligi informari aliqua bona qualitate vel
+            perfectione, nisi prius intelligatur expulsio contrariae. Et impossibile est quod
+            aliquid intelligatur expulsum ab aliquo, quin prius intelligatur illud egredi a suo
+            principio. Quoniam igitur gratiae infusio non dicit perfectionem subiecti nisi per
+            concomitantiam, sed potius ipsius gratiae productionem ab agente, ideo patet quod prior
+            est quam expulsio, sicut ausa prior est suo causato.</quote>
+        </div>
+        <div xml:id="bb-d4e21592-Dd1e178">
+          <head xml:id="bb-d4e21592-Hd1e180">Ad rationes</head>
+          <p xml:id="bb-d4e21592-d1e183">Ad illud ergo quod primo obicitur in contrarium, quod prius est terminus a quo,
+            dicendum quod terminus ad quem non est gratiae infusio, sed magis subiectum esse gratum
+            et mundatum et gratia informatum. Unde bene concedo quod gratia prius per naturam habet
+            rationem agentis quam informantis ; et secundum quod habet rationem agentis, sic est
+            principium iustificationis ; secundum quod habet rationem informantis, sic est
+            terminus.</p>
+          <p xml:id="bb-d4e21592-d1e186">Ad illud quod obicitur, quod prius est esse mundum quam gratum, dicendum quod, quamvis
+            prior sit mundatio per naturam quam gratificatio, non tamen est prior quam ipse mundans
+            : et quia gratia non tantum est gratificans, sed etiam mundans, ideo praecedit Unde
+            ratio illa bona esset, si mundatio non esset a gratia tamquam a principio , immediato et
+            creato ; nunc autem ratio illa tantum valet quod prius per naturam competit gratiae
+            expellere culpam quam subiectum informare ; et hoc verum est. Forma enim quae inducitur
+            in materiam aliquam, prius est ibi ut potentia sive ut agens quam sit ut perficiens sive
+            ut actus. Sive igitur expulsio culpae sit idem quod mundificatio sive non, sequitur
+            infusionem gratiae : gratia enim mundificat, et hoc per naturam prius habet facere quam
+            subiectum denominare.</p>
+          <p xml:id="bb-d4e21592-d1e189">Ad illud quod obicitur, quod munditia vel innocentia est medium inter gratiam et
+            culpam, dicendum quod verum est ; sed non propter hoc est prius animae mundificatio quam
+            gratiae infusio. Gratia enim creata in anima ipsam informat ; et quia informare non
+            potest quamdiu ibi obstaculum est, scilicet quamdiu subiectum opposito habitu
+            informatur, culpam expellit. Unde prius est culpae expulsio naturaliter quam animae
+            informatio. Et ante haec duo prius est gratiae creatio quam aliquod horum ; gratiae
+            autem infusio non est aliud quam ipsius creatio. Unde cum dicit quod gratiae infusio est
+            ipsius subiecti habilitatio, hoc dictum est per concomitantiam.</p>
+          <p xml:id="bb-d4e21592-d1e192">Ad illud quod quaeritur : quando culpa expellitur, aut quando est aut quando non est ?
+            dicendum quod, quia expulsio est mutatio subita, et in mutatione : subita simul est
+            fieri et factum esse, ideo simul est expulsio et expulsum esse ; unde expellitur, quando
+            primo non est. Dicitur ergo pro tanto expelli, quia prius fuit et adhuc esset, nisi
+            contrarium repugnaret ; et non semper dicitur expelli, sed solum in primo instanti et in
+            quo esse desinit, et tunc quidem non est.</p>
+          <p xml:id="bb-d4e21592-d1e196">Aliqui tamen volunt aliter dicere, quod, quia culpa habet esse temporale, ideo non est
+            in sui termina, sed gratia est in termina et in initio ; et ideo dicunt quod cum gratia
+            infunditur, et incipit et est tunc ; peccatum autem, cum desinit esse, non est. Sed
+            quidquid sit de verbo desinendi, quod habet duplicem expositionem, tamen credo quod
+            culpa bene habet esse in instanti sicut et gratia, et est in sui termina, termina,
+            inquam, intra ; sed expulsio est terminus extra, quia simul est cum expulsum esse. Et si
+            tu obicias, quod duo instantia sunt immediata, tunc respondendum est sicut superius
+            responsum fuit de transitione panis in corpus Christi, ubi positae sunt quinque
+            responsiones, quas non oportet iterare propter brevitatem ; et in ultima credo esse
+            standum.</p>
+          <p xml:id="bb-d4e21592-d1e199">Ad illud quod obicitur, si Deus operaretur successive etc., dicendum quod aliud
+            mundaret animam quam gratia, et tunc esset alius ordo naturae ; nunc autem, cum mundet
+            per gratiam, necesse est ordine naturae ipsam praecedere expulsionem culpae. Hoc autem
+            posito, quod per gratiam mundet, impossibile est intelligere quod successive, quia tunc
+            simul esset gratia cum culpa ; gratia autem talis proprietas est, quae culpae nullatenus
+            possit permisceri.</p>
+          <p xml:id="bb-d4e21592-d1e202">Quod obicitur ultimo, quod idem est removere privationem et dare habitum, dicendum quod
+            verum est, ubi est pura privatio ; verum est etiam, ubi datur habitus praecise removens
+            illam privationem. Nunc autem non est ita, sed peccatum, etsi dicat deformitatem,
+            nihilominus tamen concernit aliquam materiam secundum quosdam. Quidquid tamen sit de
+            hoc, gratia non tantum reparat habitum oppositum culpae, qui est innocentia, sed
+            superaddit, ut visum est supra ; et ideo non est omnino idem culpam expellere et gratiam
+            dare. Et illud tenet communis opinio, quae illa quatuor distinguit quae concurrunt ad
+            iustificationem impii, inter quae primum est gratiae infusio, ultimo vero ponitur culpae
+            expulsio. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

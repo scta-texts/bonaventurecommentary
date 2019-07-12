@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e34567">
+        <head xml:id="bb-d4e34567-Hd1e108">Quaestio 6</head>
+        <head xml:id="bb-d4e34567-Hd1e111" type="question-title">An consensus debeat esse in carnalem copulam.</head>
+        <p xml:id="bb-d4e34567-d1e114">Sexto et ultimo quaeritur, in quid debeat esse consensus.</p>
+        <div xml:id="bb-d4e34567-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e34567-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e34567-d1e122">Et quod in carnalem copulam, videtur : Quia ita dicit <name ref="#Jerome">Hieronymus</name>, quod voveritibus virginitatem non solum nubere, sed etiam velle
+            nubere damnabile est. Sed non esset damnabile nisi esset contra votum ; et non esset
+            contra votum nisi consentirent in opus carnis : ergo necesse erat in illud
+            consentire.</p>
+          <p xml:id="bb-d4e34567-d1e128">Item, in omnia in quae consentit vir et uxor, possunt consentire frater et soror
+            licite, excepta copula carnali. Ergo, si inter fratrem et sororem non potest licite
+            contrahi Matrimonium, patet etc. Si tu dicas mihi quod oportet consentire in copulam
+            coniugalem, quaero, quid vocetur copula coniugalis ; et tandem oportet ad hoc devenire
+            quod ibi includatur copula carnalis.</p>
+          <p xml:id="bb-d4e34567-d1e131">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur infra, distinctione
+            trigesima, et loquitur de purissima Virgine : Committens virginitatem suam divinae
+            dispositioni, consensit in carnalem copulam. Si ergo nullum Matrimonium purius illo,
+            nullum sanctius, in omni oportet consentire.</p>
+          <p xml:id="bb-d4e34567-d1e137">Item, si qua mulier dicat : consentio in te, ut tamen non cognoscas me, non est
+            Matrimonium. Ergo, si ista conditio est contra substantiam Matrimonii, ergo tenetur
+            consentire in carnalem copulam.</p>
+          <p xml:id="bb-d4e34567-d1e141">Item, Matrimonium ad hoc institutum est, ut sint duo in carne una. Ergo necesse est, ad
+            hoc quod sit Matrimonium, quod carnaliter uniantur vel in carne vel in voluntate : ergo
+            non est Matrimonium sine carnali copula.</p>
+          <p xml:id="bb-d4e34567-d1e144">Contra : <name ref="#Lombard">Magister</name> dicit in littera quod consensus
+            cohabitationis vel carnalis copulae non facit coniugium.</p>
+          <p xml:id="bb-d4e34567-d1e150">Item, in distinctione trigesima dicitur : Consensit Maria in copulam maritalem, sed non
+            in copulam carnalem.</p>
+          <p xml:id="bb-d4e34567-d1e153">Item, hoc ipsum expresse dicit <name ref="#HughOfStVictor">Hugo</name>, in libro De
+            virginitate Mariae ; et tamen ex consensu suo Matrimonium contraxit : ergo non oportet
+            in carnalem copulam consentire.</p>
+          <p xml:id="bb-d4e34567-d1e159">Item, ratione videtur, quia nullus consentiens in actum carnis est virgo perfecte ;
+            beatus loannes est virgo perfecte : ergo non consensit in actum carnis. Et consensit in
+            Matrimonium, quia de nuptiis est a Domino vocatus : ergo etc.</p>
+          <p xml:id="bb-d4e34567-d1e162">Item, nullus vovens continentiam virginalem, potest sine peccato consentire in actum
+            carnis ; beata Virgo vovit, sicut dicit <name ref="#Augustine">Augustinus</name>, et
+            ipsa innuit in responsione sua quam dixit : ergo peccavit, si in actum sive in carnalem
+            copulam consensit. Et constat quod sine peccato nupsit : ergo etc.</p>
+          <p xml:id="bb-d4e34567-d1e169">Item, possibile est inter duos esse plenum Matrimonium et perfectum sine commixtione
+            carnali : ergo possibile est quod aliquis consentiat in Matrimonium, non consentiendo in
+            commixtionem carnalem ; si hoc potest. esse in re et effectu, potest esse in consensu et
+            causa.</p>
+        </div>
+        <div xml:id="bb-d4e34567-Dd1e173">
+          <head xml:id="bb-d4e34567-Hd1e175">Conclusio</head>
+          <head xml:id="bb-d4e34567-Hd1e178" type="question-title">Consensus, qui matrimonium facit, est consensus in mutuam
+            suorum corporum potestatem, quae tamen aliter datur in contractione, et aliter in
+            consummatione matrimonii</head>
+          <p xml:id="bb-d4e34567-d1e181">Respondeo : Dicendum quod quorumdam opinio fuit, quod ad hoc quod contrahatur
+            Matrimonium, necesse est absolute consentire in copulam carnalem. Et dicunt hi quod
+            beata Virgo et Ioannes consensit, tamen sine peccato, quia Ioannes nec voverat nec
+            proposuerat virginitatem servare ; beata Virgo, quia non voverat, sed tantum
+            proposuerat. Sed haec opinio iniuriam facit Virgini gloriosae, quia, quamvis excuset a
+            culpa, minuit tamen virginitatis eius gloriam, ut iam non debeat Virgo super omnes
+            virgines nuncupari ; quod noster refugit animus pariter et auditus. Unde haec opinio
+            satis convenienter a magistro <name ref="#HughOfStVictor">Hugone</name> reprobatur.</p>
+          <p xml:id="bb-d4e34567-d1e187">Aliorum opinio fuit, et istius fuit Antissiodorensis, quod necesse est consentire in
+            copulam carnalem, non in particulari, sed in universali, non explicite, sed implicite.
+            Oportet enim consentire in copulam coniugalem, quae continet in se quatuor, scilicet
+            cohabitatiohem et mutuum obsequium et mutuam corporum potestatem et copulam carnalem.
+            Sed illud non videtur sufficiens, quia constat quod beata Virgo bene sciebat legem
+            coniugii et sciebat explicite et cogitabat de actu coniugum ; aut ergo consentiebat aut
+            dissentiebat. Si consentiebat, redit primum inconveniens ; si dissentiebat, ergo nec in
+            generali nec in speciali consentiebat.</p>
+          <p xml:id="bb-d4e34567-d1e190">Tertia opinio est quod oportet consentire in carnalem copulam, vel absolute vel sub
+            conditione, videlicet nisi Deus aliter disponat. Vel si placuerit Deo ; et tali modo
+            consensit Virgo beata, ut videtur dicere beatus <name ref="#Augustine">Augustinus</name>, et hoc non repugnat virginitati. Sed certe omnis quicumque recte
+            consentit, taliter consentit. Praeterea, non est consensus conditionatus, sed absolutus,
+            ille qui Matrimonium facit, et maxime cum non stet conditio ; Deus autem nolebat
+            Virginem copulari carnaliter viro.</p>
+          <p xml:id="bb-d4e34567-d1e197">Et propterea dicendum quod consensus, qui Mafrimonium facit, est consensus in mutuam
+            suorum corporum potestatem ; et hoc sonant verba, cum dicunt : accipio te in meum vel in
+            meam ; et sic consensit beata Virgo et Ioseph. Sed notandum quod aliter datur potestas
+            corporis in contractione Matrimonii, aliter in consummatione. In contractione ita datur
+            uni ut non possit, illo vivente, dari alii ; ita etiam datur illi ut ius habeat petendi
+            et necesse sit reddere petenti, nisi moriatur mundo per votum castitatis solemne et
+            ingressum in religionem. Quoniam igitur beata Virgo divina inspiratione noverat, vel
+            fortassis ipsius Ioseph relatione, quod nunquam vellet uti eius corporis potestate, sed
+            eius custodire virginitatem, ideo potuit et debuit ei committere sive dare. Sciebat
+            etiam quod, si vellet exigere, quod posset publicando votum contraire ; et sic patet
+            illud. Si ergo volumus istam mutuam corporum potestatem vocare copulam coniugalem, sic
+            beata Virgo consensit in copulam ut omnes nubentes. In Matrimonii autem consummatione
+            omnino transfertur potestas, ita quod nec voto privato nec solemni possit petenti
+            debitum adversari. Unde gloriosa Virgo Matrimonium consensit contrahere, sed certa fuit
+            quod nunquam Matrimonium consummaret, et hoc scivit Spiritus Sancti revelatione vel
+            Ioseph relatione vel quia considerabat de voti publicatione, quia in Lege praeceptum
+            erat servare, sed nullus fuerat ausus hoc vovere. Et hoc tangitur in libello illo, quem
+            transtulit <name ref="#Jerome">Hieronymus</name>, De nativitate Mariae, qui, quamvis sit
+            apocryphus, continet tamen multa verissima.</p>
+        </div>
+        <div xml:id="bb-d4e34567-Dd1e205">
+          <head xml:id="bb-d4e34567-Hd1e207">Ad rationes</head>
+          <p xml:id="bb-d4e34567-d1e210">Ad illud ergo quod obicitur, quod velle nubere damnabile est, dicendum quod <name ref="#Jerome">Hieronymus</name> loquitur de illis qui volunt nubere ex carnis
+            petulantia, et tales magis appetunt coniunctionem corporum quam animorum.</p>
+          <p xml:id="bb-d4e34567-d1e216">Ad illud quod obicitur, quod in omnia frater et soror, praeterquam in copulam carnalem,
+            possunt consentire, dicendum quod falsum est ; non enim possunt sibi suorum corporum
+            dare mutuam potestatem ; unde alter potest alii nubere, altero contradicente.</p>
+          <p xml:id="bb-d4e34567-d1e219">Ad illud quod obicitur quod dicit <name ref="#Augustine">Augustinus</name> quod
+            consensit in copulam carnalem, dicendum quod illud intelligitur, quia consensit in
+            mutuam corporum potestatem, quae ad carnalem copulam ordinatur, non tamen de necessitate
+            ; et beata Virgo in illam mutuam corporum potestatem absolute consensit, residuum vero,
+            scilicet ordinationem in actum, divinae dispositioni commisit, credens semper quod
+            Dominus ipsam servaret sine macula. Exemplum est de beata Caecilia.</p>
+          <p xml:id="bb-d4e34567-d1e225">Ad illud quod obicitur, quod conditio illa impedit, dicendum quod verum est, contra
+            collationem mutuae potestatis ; in consensu enim in copulam coniugalem datur potestas
+            petendi debitum, licet non teneatur ad statim, sed viam habet per quam evadere possit ;
+            quae, etsi non erat nota omnibus, erat tamen nota spiritualibus mentibus ; sicut certum
+            est nobis de gloriosa Virgine et probabilius praesumitur de Ioseph, quoniam hoc non est
+            iuris positivi, sed. magis est iuris divini.</p>
+          <p xml:id="bb-d4e34567-d1e229">Ad illud quod obicitur, quod est propter carnalem copulam, dicendum quod verum est,
+            quod prima et principalis institutio ad hoc fuit, et tamen hoc non est tota ratio sive
+            causa Matrimonii, sicut melius patebit infra, immo etiam fidei et sacramenti et mutuae
+            educationis ; et hoc supra determinatum est, ubi agitur utrum carnalis copula sit de
+            integritate sacramenti.</p>
+          <p xml:id="bb-d4e34567-d1e232">Haec autem sine praeiudicio dicta sint, maxime propter reverentiam Virginis. Non enim
+            possumus negare quin inter Mariam et Ioseph fuerit verum coniugium, cum hoc dicat
+            Scriptura evangelica, et Sancti. omnes in hoc consentiant. Rursus, pietas fidei et
+            reverentia Virginis non patitur nos sentire ipsius beatissimam et purissimam et
+            integerrimam animam ad opus carnis fuisse aliquantulum inclinatam ; nec credo ipsam in
+            dubio se super hoc posuisse. Si quis tamen aliter dicat, dum tamen Virgini non faciat
+            iniuriam, non est magna vis facienda. Cavendum est enim diligenter ut honor Dominae
+            nostrae in nullo ab aliquo minuatur, qui etiam in periculo capitis debeat integer
+            custodiri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

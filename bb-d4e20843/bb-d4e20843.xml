@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20843">
+        <head xml:id="bb-d4e20843-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e20843-Hd1e111" type="question-title">Utrum veniale peccatum possit fieri mortale.</head>
+        <p xml:id="bb-d4e20843-d1e114">Primo ergo quaeritur, utrum veniale peccatum possit fieri mortale.</p>
+        <div xml:id="bb-d4e20843-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e20843-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e20843-d1e122">Et quod sic : Per complacentiam specialiter, videtur <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e20843-Qd1e127">Nihil adeo est veniale quod non fiat mortale dum
+              placet</quote>. Item, quod per multitudinem : <name ref="#Augustine">Augustinus</name>, De poenitentia : <quote xml:id="bb-d4e20843-Qd1e133">Quamvis singula non letali vulnere ferire
+              sentiantur, tamen omnia simul congregata velut scabies, eo quod plura sunt,
+              necant</quote>. </p>
+          <p xml:id="bb-d4e20843-d1e137">Item, ratione videtur, quia complacentia est plenus consensus ; sed delectatio quae est
+            venialis, adveniente consensu, fit mortalis : ergo veniale per complacentiam fit
+            mortale. Minor patet, quia delectatio morosa, quae est venialis ante consensum, postea
+            fit mortalis.</p>
+          <p xml:id="bb-d4e20843-d1e140">Item, placitum est quietata voluntas : sed quiescens in creatura fruitur illa, et ita
+            peccat mortaliter : ergo veniale fit per complacentiam mortale.</p>
+          <p xml:id="bb-d4e20843-d1e143">Item, quod per multitudinem, videtur, quia amor mortalis non excedit amorem venialis in
+            infinitum ; sed finitum aliquoties sumptum reddit esse finitum : ergo etc. Si tu dicas
+            quod excedit in infinitum, quia hoc est supra Deum et illud infra, contra : ab eadem
+            virtute non exit motus in infinitum maior et minor ; sed mortalis amor et venialis sunt
+            ab eadem potentia : ergo etc.</p>
+          <p xml:id="bb-d4e20843-d1e147">Item, veniale est alicuius quantitatis, quia est maius et minus ; sed omne quantum est
+            proportionale quanto : ergo mortale, cum sit quantum, non excedit veniale
+            improportionaliter, et sic etc.</p>
+          <p xml:id="bb-d4e20843-d1e150">Item, unum veniale disponit aliquo modo et aliud magis ; sed per maiorem dispositionem
+            fit necessitas : ergo necessario, ut videtur, veniale introducit mortale peccatum.</p>
+          <p xml:id="bb-d4e20843-d1e153">Contra : Veniale et mortale specie differunt ; sed complacentia, eo quod complacentia,
+            non mutat speciem, sed conservat : ergo unum per complacentiam non fit alterum : ergo
+            veniale non fit mortale.</p>
+          <p xml:id="bb-d4e20843-d1e156">Item, mortale excedit veniale in infinitum, quia poena excedit poenam in infinitum :
+            ergo veniale infinities multiplicatum non fit mortale.</p>
+        </div>
+        <div xml:id="bb-d4e20843-Dd1e160">
+          <head xml:id="bb-d4e20843-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e20843-Hd1e165" type="question-title">Peccata venialia per essentiam non fiunt mortalia, fiunt tamen
+            interdum ratione vel pleni consensus, vel quietatae voluntatis, vel dispositionis sive
+            pronitatis</head>
+          <p xml:id="bb-d4e20843-d1e168">Respondeo : Dicendum quod triplex est genus venialis peccati. Quoddam enim est ex
+            subreptione, et ideo veniale, quia vitari non potest tunc. Quoddam ex cogitatione sine
+            voluntate sive consensu, et ideo veniale, quia non plene consentit homo, ut in
+            cogitatione de muliere et delectatione citra consensum in delectationem. Quoddam est
+            veniale cum ratione et consensu, sed tamen ideo est veniale, quia non est deordinatio
+            contra praeceptum, ut ebrietas et mendacium iocosum.</p>
+          <p xml:id="bb-d4e20843-d1e171">Cum igitur quaeritur, utrum veniale fiat mortale, si intelligat quod haec culpa per
+            essentiam fiat illa, nulla est quaestio, quia hoc est impossibile. Si intelligat quod
+            illud quod alias erat veniale possit esse mortale, ut mendacium iocosum et ebrietas,
+            dico quod quoddam non fit mortale ; quoddam fit mortale per complacentiam. Primum igitur
+            veniale, quod committitur praeter rationem, semper est veniale ; sed secundo modo
+            veniale per delectationem citra consensum fit mortale per consensum, et ita per
+            complacentiam, secundum quod placitum dicitur consensus plenus. Tertium veniale, quod
+            est per delectationem citra Deum, potest fieri mortale per libidinem magnam, sicut
+            mendacium iocosum ; et hoc fit mortale secundum placitum, secundum quod placitum dicitur
+            quietata voluntas. Et quia iteratio actus disponit ad libidinem et complacentiam, hinc
+            est quod <name ref="#Augustine">Augustinus</name> dicit, in pluribus locis, quod plura
+            venialia obruunt, non per se, sed quia disponunt ad libidinem, non dispositione
+            necessitatis, sed pronitatis.</p>
+          <p xml:id="bb-d4e20843-d1e177">Ad illud ergo quod probatur, quod venialia non fiant mortalia per essentiam, dicendum
+            quod verum est.</p>
+        </div>
+        <div xml:id="bb-d4e20843-Dd1e182">
+          <head xml:id="bb-d4e20843-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e20843-d1e187">Sed quod obicit in contrarium de <name ref="#Augustine">Augustino</name>, solutum est
+            quomodo intelligitur. Illud enim intelligitur sive per convenientiam in genere actus
+            sive per dispositionem, quia multa venialia disponunt ad libidinem et contemptum. Ideo
+              <name ref="#Augustine">Augustinus</name> comparat ea bestiis minutis, comparat guttis,
+            comparat arenae, comparat scabiei, non quia ipsa in se faciunt naufragium, sed quia ad
+            hoc perducunt per accidens.</p>
+          <p xml:id="bb-d4e20843-d1e196">2-3. Ad illud quod obicitur de consensu et quietata voluntate, dicendum quod, quando
+            consensus venit, novum peccatum fit, nec fit veniale mortale, sed quod alias esset
+            veniale fit mortale.</p>
+          <p xml:id="bb-d4e20843-d1e199">Ad illud quod obicitur, quod per multitudinem, dicendum quod est infinita proportio,
+            non quia motus est infinitus intensione, sed reputatione, sicut patet in eo qui diligit
+            ex caritate : plus diligit Deum quam denarium unum et quam in infinitum multiplicatum ;
+            unde amor infra Deum nunquam comparabilis est amori qui est supra Deum, secundum istum
+            modum.</p>
+          <p xml:id="bb-d4e20843-d1e202">Ad illud quod obicitur, quod veniale est quantum, dicendum quod quemadmodum linea est
+            in se quanta, sed comparatione superficiei non habet quantitatem, sic veniale, etsi de
+            se quantum sit, comparatiorie mortalis caret quantitate.</p>
+          <p xml:id="bb-d4e20843-d1e206">Ad illud quod obicitur de dispositione, dicendum quod voluntas semper libere movetur,
+            et ideo non disponitur dispositione quae sit necessitas, sed tantum dispositione quae
+            est pronitas ; non sic natura, quae ad unam partem est determinata. Et alia ratio est in
+            habente caritatem, quia sustentatur a virtute infinita ; et talis per nullum pondus
+            compellitur cadere, salva sustentatione ; voluntas enim semper libera est et, quamdiu
+            est in via, vertibilis est ; et ideo nunquam inevitabiliter, dum est in via, ad malum
+            culpae disponitur. Et sic patet illud. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

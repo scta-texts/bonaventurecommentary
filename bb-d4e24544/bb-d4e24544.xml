@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24544">
+        <head xml:id="bb-d4e24544-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e24544-Hd1e111" type="question-title">Utrum aliquis possit vel debeat excommunicari.</head>
+        <div xml:id="bb-d4e24544-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e24544-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e24544-d1e119">Circa primum ostenditur quod aliquis possit excommunicari : Primo auctoritate Domini,
+            Matthaei 18, 15-17 : <quote xml:id="bb-d4e24544-Qd1e121" ana="#mt18_15 #mt18_16 #mt18_17">Si peccaverit in te frater
+              tuus etc. usque ibi : Quodsi Ecclesiam non audierit, sit tibi sicut ethnicus et
+              publicanus ; et post : Amen dico vobis, quodcumque ligaveritis super terram</quote>
+            etc. Sed ethnici et publicani extra communicationem reputantur : ergo et talis frater ;
+            et hoc secundum iudiciuni Ecclesiae, ut dicit : ergo etc.</p>
+          <p xml:id="bb-d4e24544-d1e125">Item, hoc probatur exemplo Apostoli, qui, <ref xml:id="bb-d4e24544-Rd1e127" ana="#Icor5_5">I ad Corinthios 5,
+              5</ref>, fornicatorem manifestum tradidit satanae ; et I ad Timotheum 1, 20 : <quote xml:id="bb-d4e24544-Qd1e130" ana="#Itim1_20">Ex quibus est Hymenaeus et Alexander, quos tradidi satanae</quote>, et
+            ad Galatas 1, 9 : <quote xml:id="bb-d4e24544-Qd1e133" ana="#gal1_9">Si quis vobis evangelizaverit praeter id quod
+              accepistis, anathema sit</quote> ; et I ad Corinthios ultimo, 22 : <quote xml:id="bb-d4e24544-Qd1e136" ana="#Icor16_22">Si quis non amat Dominum Iesum Christum, anathema sit</quote>. Si
+            ergo Paulus, Ecclesiae ministrator, subiectos excommunicavit, videtur illud esse
+            conveniens et licitum.</p>
+          <p xml:id="bb-d4e24544-d1e140">Item, hoc ipsum rationabiliter probatur per exemplum in moralibus. Pater enim familias
+            secundum rectum ordinem filium inobedientem extra domum ad tempus eicit, ut saltem sic
+            corrigatur. Ergo pari ratione me qui praeest in domo Dei potest et debet consimilem
+            eicere extra domum ; sed eicere extra domum est eicere extra communicationem, et hoc non
+            est aliud quam excommunicare : ergo etc.</p>
+          <p xml:id="bb-d4e24544-d1e143">Item, videmus in arte medendi quod secundum rectum iudicium artis membrum putridum,
+            ordinatum ad aliorum membrorum infectionem, a corpore est resecandum ; sed in
+            spiritualibus contingit membra esse putrida per peccatum et alia membra corrumpentia :
+            ergo videtur quod talia recte sint amputanda secundum rectum regiminis ordinem. Sed hoc
+            fit per excommunicationem : ergo etc.</p>
+          <p xml:id="bb-d4e24544-d1e147">Contra : <quote xml:id="bb-d4e24544-Qd1e149">Excommunicatio est separatio a communione</quote> ; sed communio est
+            per caritatem ; sed extra caritatem nemo potest nec debet aliquem eicere : ergo nec
+            excommunicare. Quod nemo possit auferre caritatem, videtur, quia nemo amittit caritatem
+            invitus. Item, nemo est, qui non sit ex caritate diligendus quamdiu est in via : ergo
+            etc.</p>
+          <p xml:id="bb-d4e24544-d1e153">Item, excommunicatio est separatio a communione sacramentorum ; sed a sacramentis
+            nullus est separandus nec prohibendus : ergo nullus est excommunicandus. Maior patet ;
+            minor probatur sic : omnis fidelis aut est iustus et sanus, aut peccator et infirmus. Si
+            iustus, non est arcendus a sacramentis ; si peccator et infirmus et indigens medicinis
+            spiritualibus, magis est attrahendus quam arcendus : ergo etc.</p>
+          <p xml:id="bb-d4e24544-d1e156">Item, excommunicatio aut est morbus aut medicina. Si morbus, ergo nulli est infligenda,
+            quia omnium salus est desideranda. Si medicina, ergo, cum medicina sit omnibus aptanda
+            et non prosit nisi ei qui vult in eam per liberum arbitrium consentire, ergo nullus est
+            excommunicandus nisi volens et quilibet debet velle se excommunicari ; quorum utrumque
+            falsum est.</p>
+          <p xml:id="bb-d4e24544-d1e159">Item, in excommunicatione traditur satanae ipse excommunicatus, sicut patet in
+            excommunicatione ipsius Apostoli ; aut ergo quantum ad animam aut quantum ad corpus. Si
+            quantum ad corpus, non potest : illud videmus ad litteram ; quantum ad animam, nec
+            potest nec debet : ergo nullo modo videtur aliquis esse excommunicandus.</p>
+        </div>
+        <div xml:id="bb-d4e24544-Dd1e163">
+          <head xml:id="bb-d4e24544-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e24544-Hd1e168" type="question-title">Contemptores et rebelles excommunicare licet et debitum
+            est</head>
+          <p xml:id="bb-d4e24544-d1e171">Respondeo : Ad horum intelligentiam est notandum quod sicut in disciplinis duplex est
+            modus instruendi et duplex modus arguendi, scilicet ostensivus et per impossibile ; et
+            in medicinalibus duplex est modus curandi, scilicet per medicamenta lenientia et per
+            medicamenta asperantia - curatur enim aliquis per emplastri appositionem, aliquis per
+            sectionem - sic in moralibus duplex est modus corrigendi, unus per dulces monitiones,
+            alter per asperas increpationes ; et hoc secundum duo genera hominum, quia quidam sunt
+            tractabiles et plicabiles, quidam duri et rebelles. Sic in divinis et ecclesiasticis
+            iudiciis, in quibus est instructio, curatio et correctio, duplex reperitur modus
+            instruendi et corrigendi et etiam curandi. Quemadmodum igitur nolentibus acceptare
+            rationem ostensivam fit argumentatio ducens ad impossibile ; et morbis qui non curantur
+            per emplastrum apponitur vulnus et cauterium ; et invitis et incorrigibilibus fit
+            curatio per flagellum : sic esse oportuit in Ecclesiae correctionibus. Et ideo Ecclesiae
+            non tantum dedit Dominus, institutor et fundator, medicamenta sacramentorum ad curandum
+            accedentes, sed etiam gladium spiritus, quod est verbum Dei, et potestatem amputandi et
+            resecandi contemptores et rebelles ; et tales licet et debitum est excommunicari, sicut
+            ostensum est auctoritate Dei et exemplo Apostoli et ratione in consimili.</p>
+        </div>
+        <div xml:id="bb-d4e24544-Dd1e175">
+          <head xml:id="bb-d4e24544-Hd1e177">Ad rationes</head>
+          <p xml:id="bb-d4e24544-d1e180">Ad illud ergo quod obicitur, quod excommunicare est extra communionem eicere, quae est
+            per caritatem, dicendum quod communio triplex est : quaedam spiritualis omnino, et haec
+            est quantum ad dilectionem interiorem ; quaedam corporalis, et haec est quantum ad
+            exteriorem conversationem ; quaedam medio modo, et haec est quantum ad sacramentorum
+            susceptionem et praecipue quantum ad Sacramentum altaris. Dico ergo quod a prima nullus
+            potest nec debet excludi quamdiu est viator, nec excommunicatio dicit privationem illius
+            communionis. Quantum ad sacramentalem excluditur quilibet qui dicitur excommunicatus,
+            sive maiori sive minori. Quantum ad conversationem exteriorem attenditur excommunicatio
+            maior, in qua communicatio negatur secundum actus legitimos, qui attenduntur in quatuor,
+            scilicet in osculo, in colloquio, in convivio, in oratorio. Unde versus : Os, orare,
+            vale, comunio, mensa negatur. Sic igitur patet quod, cum triplex sit communio, una
+            spiritualis et alia sacramentalis et alia corporalis, quod secundum primam nullus
+            excommunicatur ; secundum sacramentalem excommunicatur omnis qui dicitur excommunicatus
+            ; secundum tertiam excommunicatur ille qui maiori excommunicatione excommunicatus
+            dicitur, quia maior est hic privatio communicationis. Et sic patet illud primum.</p>
+          <p xml:id="bb-d4e24544-d1e183">Ad illud quod obicitur, quod nullus separandus est a sacramentis, dicendum quod immo ;
+            quoniam, etsi sacramenta sint medicinae, tamen non prosunt nisi dispositis. Unde sicut
+            bonus medicus secundum artem prohibet infirmum a medicinis, non tantum a cibis, propter
+            indispositionem, sic in proposito est intelligendum. Utilius enim est alicui medicinam
+            subtrahi quam dari contra dispositionem, immo tali diferre medicinam est medicinale.</p>
+          <p xml:id="bb-d4e24544-d1e186">Ad illud quod obicitur de excommunicatione, utrum sit morbus vel medicina, dicenqum
+            quod sicut sectio de prima sua ratione plaga est dolorem facit, tamen in comparatione ad
+            vulnus apostematis est medicina, sic ipsa separatio a communione fidelium dicit malum et
+            damnum et poenam, in comparatione tamen ad rebellem medicina est, ut eius rebellio et
+            contumacia frangatur. Unde sicut ille qui syllogizat, per impossibile ad impossibile
+            deducit, non ut ibi sistat, sed ut redeat ad veritatem, sic Ecclesia separat et
+            excommunicat ut redeuntem cum humilitate et confusum de contumacia arctius stringat et
+            interius claudat. Et sic patet quod, quamvis sit medicina, quia curat morbum
+            rebellionis, quod nullus hanc medicinam debet appetere, nec debet dari quaerenti veram
+            medicinam, sed contemnenti.</p>
+          <p xml:id="bb-d4e24544-d1e189">Ad illud quod obicitur, quod excommunicare est tradere satanae, dicendum quod satanas
+            est tortor, non tantum animarum, verum etiam corporum. Tradere autem tortori est
+            dupliciter : aut cessando a protectione torquendi sive exponendo ; aut iubendo tortori
+            ut affligat. Ex communicare ergo secundum praesentis Ecclesiae statum est satanae
+            tradere protectionem subtrahendo et ei exponendo ; subtrahit nim suffragia et
+            sacramenta, per quae munimur contra hostis insidias. In tempore autem Ecclesiae
+            primitivae, quia daemones ipsis Apostolis subiciebantur et manifestanda erat fides per
+            miracula, non tantum exponebantur, immo corporaliter ad mandatum Apostolicum vexabantur,
+            sicut dicitur <ref xml:id="bb-d4e24544-Rd1e191" ana="#Icor5_5">I ad Corinthios 5, 5</ref> et in textu et in Glossa ;
+            et illud decuit in principio Ecclesiae fieri ad terrorem vel propter excellentiam
+            Apostolorum. Nunc autem, quamvis non ita vexentur, tamen corpore et spiritu vexandi
+            exponuntur ; et pro tanto dicuntur tradi satanae et vere excommunicari. Et sic patent
+            obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

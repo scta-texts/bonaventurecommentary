@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12174">
+        <head xml:id="bb-d4e12174-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e12174-Hd1e111" type="question-title">Utrum haec conversio sit subita vel successiva.</head>
+        <p xml:id="bb-d4e12174-d1e114">Quinto quaeritur, utrum haec conversio sit subita an successiva.</p>
+        <div xml:id="bb-d4e12174-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e12174-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e12174-d1e122">Et quod sit subita, videtur : Quia successio est per resistentiam suscipientis, ut
+            patet in diffusione lucis in aera, quia nihil resistens ; sed ex parte panis nulla est
+            resistentia : ergo nec successio aliqua.</p>
+          <p xml:id="bb-d4e12174-d1e125">Item, quantum operatio est a virtute potentiori, tanto velocior, ut patet in VI
+            Physicorum ; sed haec est a virtute infinita : ergo est instanti.</p>
+          <p xml:id="bb-d4e12174-d1e128">Item, non ob aliud est successio in operatione nisi propter praeparationem et
+            inductionem proprietatum ; sed hic nulla est praeparatio : ergo nulla successio.</p>
+          <p xml:id="bb-d4e12174-d1e131">Item, si successio, aut haec est quia panis successive abicitur aut quia corpus
+            successive introducitur. Non quia panis, quia non est ponere quare citius convertatur
+            una pars quam alia nec materia quam forma. Nec quia Christi corpus, quia illud non
+            potest habere nisi esse perfectum et integrum.</p>
+          <p xml:id="bb-d4e12174-d1e135">Contra : Etsi divina virtus ibi immediate operetur, operatur tamen ad verbi prolationem
+            ; sed verbi prolatio est successiva : ergo et conversio.</p>
+          <p xml:id="bb-d4e12174-d1e138">Item, si dicas quod non operatur per sermonem, tamen simul operatur cum sermone, quia
+            nec ante nec post ; sed sermonis prolatio est successiva : ergo, cum successivum non sit
+            simul cum instantaneo, patet etc.</p>
+          <p xml:id="bb-d4e12174-d1e141">Item, si conversio est in instanti, quaero, in illo instanti in quo est mutatio quid
+            sit. Aut panis aut corpus. Non panis, quia panis est terminus a quo ; non corpus, quia
+            est terminus ad quem est mutatio ; nec aliquid aliud : ergo nihil ; sed hoc est
+            impossibile : ergo mutatio non fit in instanti.</p>
+          <p xml:id="bb-d4e12174-d1e144">Item, panis in illa conversione habet esse ultimum, similiter corpus Christi primum,
+            aut in eodem instanti aut in alio. Si in eodem, ergo simul est panis et corpus. Si in
+            alio et alio, sed inter quaelibet duo instantia cadit tempus medium et in illo medio est
+            conversio : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e12174-Dd1e148">
+          <head xml:id="bb-d4e12174-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e12174-Hd1e153" type="question-title">Conversio panis in verum Christi corpus fit in instanti, non
+            successive</head>
+          <!-- also includes "ad rationes" -->
+          <p xml:id="bb-d4e12174-d1e158">Respondeo : Dicendum quod haec conversio est subito et in instanti. Quamvis enim fiat
+            ad verbi prolationem, non tamen per verbum sicut per effectivum principium ; sed per
+            Verbum increatum, quod operatur in instanti.</p>
+          <p xml:id="bb-d4e12174-d1e161">Quod ergo obicit, quod non sunt simul, dicendum quod successivum non est simul cum
+            instantaneo secundum totum nec secundum partem, sed tamen secundum aliquid sui, ut puta
+            factum vel dictum esse, quod est vel in ratione medii vel principii vel finis. Unde
+            certum est quod quando totum dictum est, totum factum est ; sed quando Dominus facit,
+            ipse novit.</p>
+          <p xml:id="bb-d4e12174-d1e165">Ad illud vero quod obicitur de illo instanti, utrum sit panis, dicendum quod in
+            mutatione subita simul est fieri et factum esse et simul desinere et desiisse ; quia
+            ergo in instanti desinit esse panis, non est panis. Rursus, quia incipit esse corpus vel
+            convertitur in corpus, est corpus Christi.</p>
+          <p xml:id="bb-d4e12174-d1e168">Ad illud vero quod quaeritur de ultimo esse panis, multiplex est positio.</p>
+          <p xml:id="bb-d4e12174-d1e171">Quidam enim dicunt quod, quia panis habet esse temporale, sed corpus Christi esse
+            aeternum, quod ultimum esse panis non est nisi in tempore, primum esse corporis in
+            instanti. Unde sicut instans copulatur ad tempus, ita quod nihil est medium, sic et in
+            proposito habere se dicunt. Sed hoc est fuga : primum, quia, si panis nunquam haberet
+            esse in instanti, maneret obiectio et non est hic solutio. Secundo, quia quod corpus
+            Christi sit in altari vel sub speciebus, hoc est temporale. Tertio vero, quia utrumque
+            habet esse permanens, et ideo esse utriusque est in instanti.</p>
+          <p xml:id="bb-d4e12174-d1e174">Propterea est alia positio, quod in eodem instanti est ultimo esse panem et primo esse
+            corpus, eodem, inquam, secundum substantiam, differente secundum rationem ; quia
+            secundum quod est mensura ultimi esse panis, est terminus praeteriti, secundum quod
+            primi esse corporis, est principium futuri. Sed haec positio non potest stare, quia,
+            quaecumque sit diversitas in ratione in uno instanti, nunquam contradictoria sunt simul
+            vera in eodem : ergo nec disparata de eodem. Et praeterea, si praeteritum in sui termina
+            esset et futurum esset in sui initio, nunquam continuarentur per unum instans, immo
+            essent simul.</p>
+          <p xml:id="bb-d4e12174-d1e177">Propterea est tertia positio, quod est in uno instanti secundum rem, sed plura secundum
+            virtutem. Sicut enim unus punctus fit duo puncta divisione lineae et commensuratione ut
+            puta si duarum linearum fiat contiguatio super lineam continuam substratam ; ille unus
+            punctus ad quem contiguantur aequivalet duobus : sic in instanti, quamvis non
+            multiplicetur, quia tempus non dividitur, tamen duobus aequivalet propter
+            commensurationem duorum ultimorum, durationis scilicet paniset corporis. Sed illud non
+            potest stare, quia in contiguis ultima simul sunt ; sed in durationibus, quae se habent
+            secundum prius et posterius, impossibile est quod ultima sint simul ; unde in illa
+            contiguatione punctus substratus non fit duo, sed duo puncta uniuntur in uno, nec tamen
+            cedunt in unum propter distinctionem corporum in quibus sunt. Et iterum, quantumcumque
+            illud verum sit quod duo indivisibilia sint simul, nunquam tamen verum est quod duo
+            contradictorie opposita simul insint eidem, quia sunt incompossibilia ; nec etiam ea
+            quae necessario requirunt ordinem, non tantum causaliter sive secundum naturam, sed
+            etiam secundum esse in actu et durationem actualem.</p>
+          <p xml:id="bb-d4e12174-d1e180">Propterea est quarta positio, quod est in alio et alio instanti secundum rem, eo modo
+            quo in tempore est ponere instantia multa, quia unum est secundum suam essentiam, cuius
+            fluxus est continuus ; unde non est ponere plura instantia ut consequenter se habentia
+            secundum se ; sed tamen, secundum quod mensurat duas actiones discontinuas, est in eo
+            duo signare ; sicut, si linea secet aliam, signat duo puncta. Sed illud non potest
+            stare, quia in nullo continuo nec esse nec intelligi nec signari possunt vere duo
+            indivisibilia, ipso manente continuo, quae se habeant consequenter, alioquin
+            intelligitur de necessitate ut multiplicatum. Si ergo tempus manet non intercisum, patet
+            etc.</p>
+          <p xml:id="bb-d4e12174-d1e184">Et ideo dicendum est ultimo quod tempus sive instans, mensura ultimi esse panis et
+            primi esse corporis, potest dupliciter accipi : vel in duratione propria uniuscuiusque,
+            sicut dicit Philosophus quod unumquodque propria periodo mensuratur, quae quidem cum re
+            incipit et desinit ; et sic sunt diversae mensurae discontinuae et diversa instantia
+            consequenter se habentia, sicut sunt, duo esse, esse scilicet panis et corporis. Si
+            autem accipiatur instans secundum communem mensuram, quae est tempus continuum, non
+            intercisum, ut est mensura motus primi mobilis vel etiam ut tempus consideratur secundum
+            essentiam, non secundum esse, tunc accipit determinatum instans secundum nostram
+            signationem. Signetur ergo unum instans in tempore in quo ultimo est panis ; signetur et
+            aliud instans in quo primo est corpus ? Ego dico, non signetur, quia non est signare duo
+            instantia consequenter se habentia in continuo, manente continuo ; unde quodlibet horum
+            per se signari potest, sed duo simul impossibile est signare. Et sic patet quod in alio
+            et alio instanti habet esse panis et corpus secundum rem et secundum quod est mensura
+            realis et propria, licet secundum mensuram communem duo instantia immediate signare non
+            contingat. Hic autem modus solvendi rationabilior et certior videtur omnibus praedictis,
+            quoniam supra tria principia certa fundatur. Primum est, quod in eodem instanti simplici
+            impossibile est contradictoria esse, quantumcumque instans habeat diversitatem secundum
+            considerationem. Secundum est, quod in continuo, manente continuo, impossibile est
+            instantia esse consequenter nec vere signari. Tertium est, quod inter esse panem et
+            corpus Christi vel inter duo contradictoria nihil est medium.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

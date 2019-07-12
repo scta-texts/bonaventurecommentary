@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e31563">
+        <head xml:id="bb-d4e31563-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e31563-Hd1e111" type="question-title">Utrum episcopatus sit Ordo.</head>
+        <p xml:id="bb-d4e31563-d1e114">Tertio quaeritur, utrum episcopatus sit Ordo.</p>
+        <div xml:id="bb-d4e31563-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e31563-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e31563-d1e122">Et quod sic, videtur : <ref xml:id="bb-d4e31563-Rd1e124">Distinctione 17, Gelasius Papa</ref>, distinguens gradus
+            Ordinum, in fine dicit : <quote xml:id="bb-d4e31563-Qd1e127">Deinde subdiaconus, deinde diaconus et postea presbyter
+              ; et exinde, si meretur, episcopus ordinetur</quote>.</p>
+          <p xml:id="bb-d4e31563-d1e131">Item, <ref xml:id="bb-d4e31563-Rd1e133">Isidorus, in VII libro Etymologiarum</ref> : <quote xml:id="bb-d4e31563-Qd1e136" source="http://scta.info/resource/wer3fe-d1e119">Episcoporum quadripartitus est
+              Ordo</quote>. Ergo episcopatus est Ordo.</p>
+          <p xml:id="bb-d4e31563-d1e140">Item, ratione videtur, quia nullus recte dicitur ordinari nisi ab Ordinis susceptione ;
+            sed qui promovetur in episcopum, recte dicitur in episcopum ordinari, sicut per omnes
+            canones innuitur qui de hac materia loquuntur : ergo</p>
+          <p xml:id="bb-d4e31563-d1e143">Item, illa inter virtutes est virtus praecipua, quae virtutes alias regit et eis
+            imperat : ergo pari, ratione in Ordine iste erit magis praecipuus, qui alios dispensat
+            et regit ; et ille est Ordo episcopaIis. : ergo etc.</p>
+          <p xml:id="bb-d4e31563-d1e147">Item, hoc videtur per definitionem Ordinis. <quote xml:id="bb-d4e31563-Qd1e149">Ordo enim est, ut dicit <name ref="#Lombard">Magister</name>, signaculum, quo spiritualis potestas traditur
+              ordinato</quote> ; sed hoc totum est in episcopatu, ut patet : ergo etc. Minor patet
+            per ipsam ordinationem episcopi, in qua traditur sibi baculus, qui significat potestatem
+            spiritualem ; unde dicitur sibi, cum traditur ei baculus : Accipe baculum pastoralis
+            officii, id est potestatem ligandi et solvendi ; et sis in corrigendis vitiis saeviens :
+            pie, in fovendis virtutibus animos auditorum demulcens, in tranquillitate severitatis
+            censuram non deferens.</p>
+          <p xml:id="bb-d4e31563-d1e156">Item, solemnior inunctio, solemnior benedictio et manuum impositio fit in consecratione
+            episcopi quam sacerdotis ; sed talis inunctio non potest esse vacua a significatione et
+            efficacia, cum sit Novae Legis : ergo est amplioris efficaciae. Si ergo sacerdotium est
+            Ordo, multo fortius videtur quod episcopatus.</p>
+          <p xml:id="bb-d4e31563-d1e159">Contra : <ref xml:id="bb-d4e31563-Rd1e161">Magister <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore</ref>,
+            distinguens gradus Ordinum, dicit sic : <quote xml:id="bb-d4e31563-Qd1e167">Primus est ostiariorum, secundus
+              lectorum, tertius exorcistarum, quartus acolythorum, quintus subdiaconorum, sextus
+              diaconorum, septimus sacerdotum. Hic gradus dispares in eodem Ordine habet dignitates,
+              scilicet episcopi</quote> etc. Ergo episcopatus solum dicit dignitatem, non Ordinem :
+            ergo etc.</p>
+          <p xml:id="bb-d4e31563-d1e171">Item, distinctio graduum et Ordinum omnis est propter altaris per omnes ministerium,
+            scilicet propter sacrificium, in quo est consummatio omnis divini cultus. Ergo, cum
+            perventum est ad illam, ibi debet esse status ; sed in presbyteratu pervenitur : ergo
+            etc.</p>
+          <p xml:id="bb-d4e31563-d1e174">Item, gradus ecclesiastici talem habent ordinem quod possibile est posteriorem
+            accipere, omisso priori ; quod patet per illud quod dicitur <ref xml:id="bb-d4e31563-Rd1e176">distinctione 52,
+              Sollicido</ref> etc., et <ref xml:id="bb-d4e31563-Rd1e179">Extra, De clerico per saltum ordinato, Tuae litterae
+              etc.</ref> Sed impossibile est aliquem promoveri in episcopum, sacerdotio omisso ;
+            sicut dicitur <ref xml:id="bb-d4e31563-Rd1e182">Extra, De excessibus praelatorum, Ex litteris</ref>, et infra, ubi
+            dicit Innocentius : <ref xml:id="bb-d4e31563-Rd1e185">Pontificale officium sine altaris ministerio non valet
+              adimpleri</ref>. Ergo videtur quod episcopatus non sit alius Ordo quam
+            sacerdotium.</p>
+          <p xml:id="bb-d4e31563-d1e189">Item, promotus in sabbato ad Ordinem sacrum non debet in die sequenti alium Ordinem
+            sacrum suscipere ; sed promotus in sacerdotem potest in die sequenti, scilicet dominico,
+            in episcopum promoveri : ergo videtur quod episopatus non non sit Ordo sacer.</p>
+        </div>
+        <div xml:id="bb-d4e31563-Dd1e193">
+          <head xml:id="bb-d4e31563-Hd1e195">Conclusio</head>
+          <head xml:id="bb-d4e31563-Hd1e198" type="question-title">Episcopatus proprie non est ordo, sed ordinis eminentia vel
+            dignitas</head>
+          <p xml:id="bb-d4e31563-d1e201">Respondeo : Dicendum quod ; sicut tactum est, cum Ordinis potestas principaliter sit
+            ordinata ad dispensationem sacramentorum et maxime illius Sacramenti nobilissimi,
+            scilicet corporis Domini, quod ibi est status graduum et Ordinum ascendentium, et ita
+            ultra sacerdotium non est gradus Ordinis. Sed tamen intra hunc gradum et Ordinem
+            contingit esse distinctionem dignitatum et officiorum, quae tamen novum gradum vel
+            Ordinem non constituant, ut archipresbyter, episcopus, archiepiscopus, patriarcha,
+            Pontifex Summus, quae ultra sacerdotium non addunt Ordinem nec gradum novum, sed solum
+            dignitatem et officium. Et ita episcopatus, prout concernit Ordinem sacerdotii, bene
+            potest dici Ordo ; sed prout distinguitur contra sacerdotium, dicit dignitatem quamdam
+            vel officium ipsi annexum, et non est proprie nomen Ordinis nec novus character
+            imprimitur nec nova potestas datur, sed potestas data ampliatur. Unde sicut non recipit
+            alias claves, sic nec alium Ordinem. Et hoc sensit magister <name ref="#HughOfStVictor">Hugo</name>, hoc etiam sensit <name ref="#Lombard">Magister</name> Sententiarum,
+            sicut patet per id quod dicit in littera, quod non sunt nomina Ordinum, sed dignitatum ;
+            hoc etiam tenet communis opinio, quod in episcopatu character novus non imprimitur, sed
+            illi aliqua eminentia confertur, que semper manet cum ipso charactere Ordinis, ablata
+            omni iurisdictione. Hanc igitur opinionem sustinendo, dicamus quod episcopatus, praecise
+            loquendo, non est Ordo, sed Ordinis eminentia vel dignitas.</p>
+        </div>
+        <div xml:id="bb-d4e31563-Dd1e212">
+          <head xml:id="bb-d4e31563-Hd1e214">Ad rationes</head>
+          <p xml:id="bb-d4e31563-d1e217">1-3. Ad illud ergo quod primo obicitur de <name ref="#IsidoreOfSeville">Isidoro</name>
+            et Gelasio, dicendum quod ad eorum auctoritates et consimiles unica responsione potest
+            responderi, quod ipsi nomen Ordinis ampliant ad officia et dignitates ; sed magistri
+            nostri strictius accipiunt, scilicet pro gradu potestatis ; et hoc patet per hoc quod
+              <name ref="#IsidoreOfSeville">Isidorus</name> dicit quod episcoporum quadripartitus
+            est ordo. Cum enim ordinatus in episcopum, si assumatur ad archiepiscopatum, non
+            consecretur de novo, sed solum accipiat pallium, patet quod non potest intelligi quod
+            novus sit ibi Ordo, sed solum dignitas altior. Si ergo dieit ipsos esse diversos
+            ordines, manifestum est quod nomen Ordinis ad officia et dignitates extendit. Et per hoc
+            patet aliud sequens. Sicut enim ampliatur vocabulum et significatio Ordinis, ita et
+            verbum, cum dicitur : iste ordinatur in episcopum ; unde non ita proprie dicitur aliquis
+            ordinari, cum promovetur in episcopum sicut cum promovetur in sacerdotem, sed magis
+            proprie dicitur consecrari. Unde et Apostolus, loquens proprie, dicit Actuum 20, 28 :
+            Posuit vos episcopos etc. ; et I ad Timotheum 3, 1 : <quote xml:id="bb-d4e31563-Qd1e225" ana="#Itim3_1">Qui
+              episcopatum desiderat, bonum opus desiderat</quote>.</p>
+          <p xml:id="bb-d4e31563-d1e229">Ad illud quod obicitur, quod per episcopatum Ordines dispensantur, dicendum quod
+            nunquam possent per episcopum dispensari, nisi Ordines illos quos dispensat haberet,
+            maxime nisi haberet sacerdotium ; et ideo concedo bene quod episcopatus includit
+            necessario Ordinem perfectissimum, scilicet sacerdotium, et illi superaddit aliquam
+            eminentiam, quam et ipsum nomen nobis insinuat ; dicitur enim episcopus ab <mentioned>
+              epi </mentioned>, quod est supra.</p>
+          <p xml:id="bb-d4e31563-d1e235">Ad illud quod obicitur, quod Ordo est signaculum, in quo spiritualis potestas etc.,
+            dicendum quod episcopatus deficit quantum ad utramque partem definitionis. Primo namque
+            deficit a ratione Ordinis quantum ad hoc quod dicitur signaculum, quia signaculum ibi
+            accipitur pro charactere ; et hic non imprimitur in episcopatu, cuius signum est quod
+            non potest episcopus consecrari nisi sit sacerdos, et ita per se characterem non
+            mprimit. Amplius deficit, quia non datur ibi nova potestas, sed solum potestas ligandi
+            et solvendi ampliatur, et ideo in huius signum baculus pastoralis porrigitur. Unde sicut
+            collatio pallii non dat novum Ordinem archiepiscopo ultra episcopum, sic nec collatio
+            baculi aut anuli aut mitrae aut alicuius consimilis ultra sacerdotem. Talia enim potius
+            sunt sacramentalia quam sacramenta ; non enim sacramentalia tantum praecedunt
+            sacramentum, sed etiam sequi possunt.</p>
+          <p xml:id="bb-d4e31563-d1e238">Ad illud quod obicitur, quod solemnior est inunctio, dicendum quod verum est, pro eo
+            quod ad summum pontificatum assumitur et datur ibi eminentia status et dignitas
+            pastoralis, in qua debet esse eminentia sanctitatis ; unde illa sanctitatis eminentia
+            per superabundantem inunctionem debet significari, secundum quod dicitur de summo
+            pontifice Aaron : Sicut unguentum in capite eius, quod descendit in barbam, barbam
+            Aaron. Quia ad officium illud maior requiritur sanctitas quam requiratur ad Ordines,
+            hinc est quod maior fit inunctio. Reges enim et principes consueverunt inungi in signum
+            dignitatis, quibus non Ordo confertur, sed regalis dignitas ; sic et episcopi, quibus
+            confertur Ordo sacerdotalis. Et propter hoc ratio illa non valet, quia inunctio non
+            respicit Ordinem in quantum est Ordo, sed magis dignitatem. Unde et sacerdos non
+            inungitur ad Ordinis necessitatem, sed magis ad solemnitatem, ut digne possit corpus
+            Christi sacratissimum consecrare.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

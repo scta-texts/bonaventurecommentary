@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e37963">
+        <head xml:id="bb-d4e37963-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e37963-Hd1e111" type="question-title">Utrum uxor post repudium debeat viro reconciliari.</head>
+        <p xml:id="bb-d4e37963-d1e114">Tertio quaeritur de reconciliatione, et quaeritur, utrum uxor post repudium debeat viro
+          reconciliari.</p>
+        <div xml:id="bb-d4e37963-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e37963-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e37963-d1e122">Et quod sic, videtur : Quia peccatum fuit uxorem dimittere, ut supra ostensum est :
+            ergo iustum est ipsam resumere.</p>
+          <p xml:id="bb-d4e37963-d1e125">Item, mulier repudiata, si contrahit cum alio, aut peccat aut non. Si non peccat, ergo,
+            cum propter nullum peccatum eius fuerit repudiata, et non debeat infligi poena nisi
+            propter culpam, manifestum est etc. Si peccat, ergo manet vinculum cum priori, ego adhuc
+            est uxor eius ; sed Dominus vult quod uxor sit cum viro : ergo etc.</p>
+          <p xml:id="bb-d4e37963-d1e128">Item, de omni malo licitum est poenitere ; sed poenitentia retractat malum factum :
+            ergo, cum repudiare uxorem sit malum, ergo licitum est poenitere, ergo et retractare :
+            ergo et uxorem sibi reconciliare.</p>
+          <p xml:id="bb-d4e37963-d1e131">Item , divisa per divortium potest reconciliari : ergo et per repudium.</p>
+          <p xml:id="bb-d4e37963-d1e135">Contra : Deuteronomii 24, 4 dicitur quod non est recipienda post repudium, <quote xml:id="bb-d4e37963-Qd1e137" ana="#deut24_4">ne peccare faciat terram</quote> : ergo qui recipit, facit peccare
+            terram, ergo etc.</p>
+          <p xml:id="bb-d4e37963-d1e141">Item, Ieremiae 3, 1 : <quote xml:id="bb-d4e37963-Qd1e143" ana="#ier3_1">Vulgo dicitur : Si dimiserit vir uxorem, et
+              illa recedens duxerit virum alterum, numquid revertetur ad eam ? Quasi dicat
+              non</quote> : ergo etc.</p>
+          <p xml:id="bb-d4e37963-d1e147">Item, iste repudiando uxorem, quantum in se est, amisit ius in eam tamquam in uxorem :
+            ergo, si recipit, accipit quod non est suum.</p>
+          <p xml:id="bb-d4e37963-d1e150">Item, sententia iudici secundum legem debet irretractabiliter observari : iusta enim
+            sententia non est retractanda ; sed, cum uxor dimittebatur, data libella repudii, in
+            conspectu Ecclesiae fiebat per sententiam legis repudium : ergo. etc.</p>
+        </div>
+        <div xml:id="bb-d4e37963-Dd1e154">
+          <head xml:id="bb-d4e37963-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e37963-Hd1e159" type="question-title">Licebat, ut post repudium uxor viro reconciliaretur, nisi
+            culpa adulterii intervenerit.</head>
+          <p xml:id="bb-d4e37963-d1e162">Respondeo : Dicendum quod post repudium aliquid fuit licitum et concessum, ut ambos,
+            scilicet virum et mulierem, manere innuptos vel etiam ante nuptias alias invicem
+            reconciliari. Aliquid fuit illicitum, sed permissum, ut scilicet vir, uxore repudiata,
+            aliam duceret in uxorem ; non enim fuit prohibitum, quia non erat prohibitum plures
+            habere uxores. Aliquid fuit illicitum et prohibitum, ut videlicet uxor repudiata, viro
+            vivente, duceret alium. Quia enim nunquam licuit uni uxori habere plures viros, cum
+            primus vir repudiatae vivat, non licet ei habere secundum. Hoc tamen non fuit prohibitum
+            directe, sed oblique in poenam eius impositum, ut nunquam possit redire ad virum
+            priorem, quia voluntarie se potuit cum secundo ; et ideo dicitur Deuteronomii 24, 4 et
+            Ieremiae 3, 1, quod polluta et contaminata est mulier illa, propter adulterium scilicet
+            quod commisit cum secundo. Concedendum est igitur quod licitum fuit post repudium uxorem
+            viro reconciliari, nisi culpa adulterii interveniat, propter quam puniendam prohibetur
+            ne ad virum redeat, quia tunc licite fiebat divortium. Unde miro modo, licet occulte,
+            tamen vere, ipsa Lex iudicabat inseparabile esse Coniugii sacramentum ; et hoc magis
+            expresse tangit <ref xml:id="bb-d4e37963-Rd1e164" ana="#ier3_1">Ieremias 3, 1</ref>.</p>
+        </div>
+        <div xml:id="bb-d4e37963-Dd1e170">
+          <head xml:id="bb-d4e37963-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e37963-d1e175">1-2. Quod ergo dicit Lex, quod non est recipienda, intelligitur propter adulterium
+            commissum, non quia non sit uxor, sed quia contra Matrimonium fecit. Magis autem punitur
+            mulier quam vir rationibus praedictis, quia in Lege inferior erat.</p>
+          <p xml:id="bb-d4e37963-d1e178">Ad illud quod obicitur, quod nullo modo licet, cum perdiderit ius, dicendum quod non
+            habet ius repetendi postquam repudiavit. Si tamen uxor velit, de eius voluntate et
+            consensu potest iterum licite fieri.</p>
+          <p xml:id="bb-d4e37963-d1e181">Ad illud quod obicitur, quod sententia lata secundum legem non est retractanda,
+            dicendum quod lex quaedam praecipit, quaedam permittit. Sententia lata secundum legem
+            praecipientem omnino iusta est et retractanda non est ; si secundum legem permittentem,
+            cum ibi sit aliquid iniustitiae, sine omni peccato revocari potest, immo meritorie et
+            licite.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

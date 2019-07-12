@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e17655">
+        <head xml:id="bb-d4e17655-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e17655-Hd1e111" type="question-title">Utrum extra caritatem abstinentem a peccatis possibile sit Deo
+          satisfacere.</head>
+        <p xml:id="bb-d4e17655-d1e114">Tertio quaeritur, utrum extra caritatem abstinentem a peccatis possibile sit
+          satisfacere.</p>
+        <div xml:id="bb-d4e17655-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e17655-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e17655-d1e122">Et quod sic, videtur : Lucae 11, 41 : <quote xml:id="bb-d4e17655-Qd1e124" ana="#lc11_41">Date eleemosynam, et ecce
+              omnia munda sunt vobis</quote>. Constat quod ibi loquitur de peccatoribus : ergo
+            potest satisfacere quis per eleemosynam sine gratta. Et hoc ipsum, Danielis 4, 24 dixit
+            Daniel Nabuchodonosor : <quote xml:id="bb-d4e17655-Qd1e127" ana="#dan4_24">Peccata tua eleemosyizis redime</quote>.
+            Et constat quod ille erat peccator magnus : ergo etc.</p>
+          <p xml:id="bb-d4e17655-d1e131">Item, Threnorum 3, 52 : <quote xml:id="bb-d4e17655-Qd1e133">Venatione ceperunt me</quote>, Glossa : <quote xml:id="bb-d4e17655-Qd1e136">Etsi
+              fides deesset, poena satisfaceret</quote>. Sed ubi deest fides, non est caritas : ergo
+            etc.</p>
+          <p xml:id="bb-d4e17655-d1e140">Item, ratione videtur, quia ad nullum praeceptum divinum tenetur homo ex caritate ; hoc
+            constat, quia, si quis pro loco et tempore parentes honorat, etiam non habens caritatem,
+            non peccat. Ergo multo minus tenetur ex caritate implere sacerdotis mandatum ; sed
+            satisfactio est mandatum sacerdotis : ergo potest fieri extra caritatem.</p>
+          <p xml:id="bb-d4e17655-d1e143">Item, si tenetur ex caritate satisfacere, cum nullus sit certus utrum amore, an odio
+            dignus sit, semper est in dubio : ergo semper debet satisfacere. Si tu dicas quod
+            conclusio est vera, quia semper continuanda est poenitentia usque ad mortem ; ergo esto
+            ,quod imposita sit alicui poenitentia dare centum marcas, videtur secundum hoc quod
+            semper tenetur dare ; sed hoc est impossibile : ergo tenetur ad impossibile.</p>
+          <p xml:id="bb-d4e17655-d1e147">Contra : <quote xml:id="bb-d4e17655-Qd1e149">Non respicit Deus quantum, sed ex quanto</quote>. Sed voluntas sine
+            caritate non placet Deo : ergo nec opus, ergo nec satisfactio.</p>
+          <p xml:id="bb-d4e17655-d1e153">Item, quamdiu homo est extra caritatem, est inimicus ; sed satisfactio est
+            reconciliativa : ergo talis non potest satisfacere.</p>
+          <p xml:id="bb-d4e17655-d1e156">Item, Apostolus, I ad Corinthios 13, 3 : <quote xml:id="bb-d4e17655-Qd1e158" ana="#Icor13_3">Si distribuero in cibos
+              pauperum omnes facultates meas, caritatem autem non habuero, nihil mihi
+              prodest</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e17655-d1e162">Item, nullus damnatur pro culpa pro qua satisfacit ; et nullus damnatur nisi propter
+            culpam : ergo nullus satisfaciens damnatur. Sed nullus evadit damnationem nisi qui habet
+            caritatem : ergo nullus satisfacit nisi qui est in caritate.</p>
+        </div>
+        <div xml:id="bb-d4e17655-Dd1e166">
+          <head xml:id="bb-d4e17655-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e17655-Hd1e171" type="question-title">Sine gratia gratum faciente nemo potest Deo satisfacere</head>
+          <p xml:id="bb-d4e17655-d1e174">Respondeo : Dicendum quod satisfacere, quantum est de vi nominis, importat divinam
+            acceptationem et reconciliationem et amicitiam ; et quoniam sine gratia gratum faciente
+            et caritate impossibile est aliquem Deo placere et opera eius acceptari, ideo nec
+            satisfacere est possibile. Potest tamen homo, antequam habeat caritatem, praeparare se
+            ad habendam caritatem et ad faciendam satisfactionem. Et sic intelligitur consilium
+            Domini et consilium Danielis, ut se praeparent per eleemosynam ad gratiam, qua accepta ;
+            multiplicando eleemosynas satisfacerent.</p>
+        </div>
+        <div xml:id="bb-d4e17655-Dd1e179">
+          <head xml:id="bb-d4e17655-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e17655-d1e184">Ad illud quod obicitur de Glossa in Threnis, dicendum quod fides ibi dicitur
+            conscientia peccati. Aliquando enim habens gratiam per poenam satisfacit de culpa, cuius
+            non habet memoriam ; unde tantum valet dicere : si fides desit, quantum : si desit
+            conscientia.</p>
+          <p xml:id="bb-d4e17655-d1e187">3-4. Ad illud quod obicitur, quod nullus tenetur ex caritate implere mandata, dicendum
+            quod, quando satisfactionis opus ab homine imponitur homini, non tenetur illud opus
+            facere ex caritate sive in caritate quia praeceptum ; sed necesse habet in caritate
+            facere ad hoc quod sit emendatorium et Deo placiturum. Et ideo dico quod, opere illo
+            iniuncto completo, non tenetur illud iterare. Sed si dubitat probabiliter se Deo non
+            satisfecisse, non debet a satisfactione cessare quousque per signa probabilia habeat
+            certitudinem de culpa dimissa et poena. Unde, sicut dictum est de aliis Sacramentis,
+            maxime de Eucharistia, quod non valet nisi habenti caritatem, non tamen tenetur quis
+            accedere ex caritate secundum veritatem, sed se probabiliter disponere ; ita etiam de
+            satisfactione dicendum, quod opera iniuncta in satisfactionem tenetur facere et tenetur
+            se disponere, quantum est in se ; et. sic absolutus est in foro Ecclesiae et a poena
+            suae conscientiae, et in foro Dei absolutus est, ut non peccet in hoc faciendo. Sed
+            tamen per haec opera non absolvitur omnino ; et ideo sanum consilium est, quod homo
+            semper poeniteat. Sufficit tamen cum signis probabilibus fecisse poenitentiam iniunctam
+            nec oportet eam iterare. Unde, si centum dedit, non debet iterare, nec sacerdos debet
+            iterum imponere, nisi pro aliqua culpa de novo commissa. Satisfecit enim talis in foro
+            Ecclesiae et suae conscientiae.</p>
+          <p xml:id="bb-d4e17655-d1e190">Unde notandum quod duplex potest distingui forum secundum duplex iudicium, scilicet
+            forum conscientiae et forum divinae iustitiae. Primum est manifestum, secundum est
+            occultum. Si quis igitur impleat poenitentiam impositam sine remorsu conscientiae, sed
+            tamen extra caritatem, non tenetur satisfacere amplius, nec iudicio sacerdotis nec suo ;
+            tenetur tamen iudicio Dei, quia adhuc Deus exiget poenam. Illud autem forum distinguitur
+            contra forum Ecclesiae ; sed istud vocatur forum Ecclesiae, quod est in facie Ecclesiae
+            et secundum iudicium publicum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

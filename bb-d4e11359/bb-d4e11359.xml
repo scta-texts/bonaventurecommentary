@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e11359">
+        <head xml:id="bb-d4e11359-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e11359-Hd1e111" type="question-title">Utrum virtus transsubstantiandi sit data verbo prolato, an solum
+          sit virtus Verbi increati.</head>
+        <p xml:id="bb-d4e11359-d1e114">Terto quaeritur de virtute transsubstantiationis per comparationem ad verbum ; et
+          quaeritur, utrum virtus transsubstantiandi sit data verbo prolato an solum sit virtus
+          Verbi increati.</p>
+        <div xml:id="bb-d4e11359-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e11359-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e11359-d1e122">Et quod verbo prolato, videtur : <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e11359-Qd1e127">Sermo
+              Christi creaturam mutat</quote> ; sed omnis actio, quae est ab aliquo, est mediante
+            virtute, sed haec mediante verbo prolato : ergo etc.</p>
+          <p xml:id="bb-d4e11359-d1e131">Item, Eusebius : <quote xml:id="bb-d4e11359-Qd1e133">Invisibilis sacerdos visibiles creaturas in substantiam
+              corporis et sanguinis sui verbi sui secreta potestate commutat</quote>
+          </p>
+          <p xml:id="bb-d4e11359-d1e137">Item, ratione videtur, quia omne adveniens alicui. quod est in sola potestate ad
+            aliquid et faciens ipsum esse in actu habet virtutem aliquam ; sed, verbo adveniente ad
+            elementum, statim transit in corpus Christi : ergo in verbo est aliqua virtus ad
+            hoc.</p>
+          <p xml:id="bb-d4e11359-d1e140">Item, cum non sit virtus in speciebus, si non est virtus in verbo, tunc ergo non est
+            sacramentum Novae Legis, cuius est efficere quod figura.</p>
+          <p xml:id="bb-d4e11359-d1e144">Item, ihomni naturali opere, ubi Deus operatur mediante creatura, data est virtus
+            creaturae per quam operatur. Ergo simili ratione in opere miraculi : ergo, si illud
+            operatur per verbum, patet quod verbo collata est virtus.</p>
+          <p xml:id="bb-d4e11359-d1e147">Contra : Augustinus, De verbis Domini : <quote xml:id="bb-d4e11359-Qd1e149">Sicut de Virgine per Spiritum sanctum
+              Christi caro sine coitu creatur, ita per eumdem ex substantia panis et vini idem
+              corpus Christi mystice consecratur</quote>. Sed illud fit solum virtute increata :
+            ergo et istud.</p>
+          <p xml:id="bb-d4e11359-d1e153">Item, <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e11359-Qd1e158">Sermo Christi creaturam
+              mutat</quote> ; <quote xml:id="bb-d4e11359-Qd1e161">quis Sermo ? Hic, per quem omnia facta sunt</quote>. Sed illud
+            Verbum est increatum, non creatum : ergo etc.</p>
+          <p xml:id="bb-d4e11359-d1e165">Item, ratione videtur, quia corpus Christi est nobilissimum inter creata ; sed potentia
+            transsubstantiandi potest in illud, quia convertit aliud in ipsum ; sed nihil potest
+            supra aliud nisi quod est nobilius ; et nihil creatum est ipso nobilius ; ergo nulla
+            virtute creata fit : ergo nec virtute verbi prolati.</p>
+          <p xml:id="bb-d4e11359-d1e168">Item, si virtus est data verbo a Christo, aut verbo in mente aut in scripto aut in
+            prolatione. Non in mente nec in scripto : ergo.in prolatione ; sed verbum quod Christus
+            protulit nunquam potest resumi : ergo dicitur aliud. Sed illud nunquam fuit nisi nunc :
+            ergo nec data est ei potestas sive virtus.</p>
+          <p xml:id="bb-d4e11359-d1e171">Item, si datur in prolatione, aut subito aut successive. Si successive, ergo successive
+            operatur ; quod stultum est dicere, ut manifestum est. Non enim dare est quod una pars
+            panis primo transsubstantietur quam alia, cum verbum respiciat aequaliter totum ; nec.
+            quod una pars Christi prius sit ibi quam alia, quia tunc partes corporis Christi
+            glorificati essent separabiles ; quod stultum est dicere. Si subito, aut in principio
+            aut in medio aut in fine. Si in principio, et statim cum est operatur : ergo in
+            principio fit transsubstantiatio : ergo, si non compleret verba, factum esset. Similiter
+            de medio. Si in fine, sed verbum in fine non est : ergo datur non-enti. Item, si in
+            fine, constat quod, desinente verbo, desinit et virtus : ergo in eodem instanti virtus
+            incipit et desinit et est et non est.</p>
+          <p xml:id="bb-d4e11359-d1e175">Item, si datur virtus, aut toti aut alicui parti. Si toti, ergo aut quaelibet pars
+            habet totam virtutem aut partem. Si totam, ergo quaelibet pars facit ; si partem
+            virtutis, cum partes non sint simul, nec erit virtus simul nec operatio simul. Si alicui
+            parti, quaero, cui ?</p>
+          <p xml:id="bb-d4e11359-d1e178">Item, si Deus dat virtutem verbo in prolatione, tunc, cum verbum prolatum deficiat,
+            videtur similiter quod illa nobilis virtus statim desinat esse ; et inconveniens esset
+            quod Deus sic tam nobilem virtutem daret quae statim desinat esse.</p>
+          <p xml:id="bb-d4e11359-d1e181">Item, si corrumpitur, quaero : in quid cedit ? Aut in aliquid aut in nihil. In aliquid
+            non, quia non ex aliquo ; si in nihil, tunc videtur contra communem sententiam et
+            Sanctorum et philosophorum, quae est quod nihil quod corrumpitur cedat omnino in
+            non-ens.</p>
+        </div>
+        <div xml:id="bb-d4e11359-Dd1e185">
+          <head xml:id="bb-d4e11359-Hd1e187">Conclusio</head>
+          <head xml:id="bb-d4e11359-Hd1e190" type="question-title">Intelligibilior est opinio, quod non sit data verbo aliqua
+            qualitas, quae operetur transubstantiationem sed tantum efficax ordinatio ad hoc</head>
+          <p xml:id="bb-d4e11359-d1e193">Respondeo : Ad hoc dicendum quod hic est duplex opinio, sicut factum est supra,
+            distinctione prima.</p>
+          <p xml:id="bb-d4e11359-d1e196">Quidam enim ponunt quod datur verbis aliqua virtus spiritualis per quam operantur
+            transsubstantiationem, Deo nihilominus intime operante. Et haec virtus verbi habet posse
+            et respicit panem ; non enim se extendit ad corpus Christi. Et est exemplum : si esset
+            dator formarum, sicut aliqui posuerunt, agens particulare solum operaretur per
+            comparationem ad terminum a quo, non ad quem. Et datur haec virtus verbo supra naturam
+            et supra intellectum et datur subito, ut dicunt. Sed non oportet quod operetur statim
+            cum datur ; quia operatur secundum nutum dantis. Et est virtus simplex, operans
+            instantanee ; et tamen est in subiecto composito et successivo, quoniam est ibi supra
+            naturam.</p>
+          <p xml:id="bb-d4e11359-d1e199">Sed quia difficillimum et non intelligibile videtur, quando illa virtus datur verbo,
+            utrum tunc detur vel ante sit data et quomodo et qualiter datur et quomodo operatur, si
+            ponatur esse aliqua qualitas in verbo ; propterea est alia via quod virtus verbi extenso
+            nomine dicitur, non quia aliqua qualitas sit data verbo per quam operatur, sed ex divina
+            institutione hoc firmatum est, ut isto verbo prolato a sacerdote super panem cum
+            intentione conficiendi, panis transsubstantietur. Unde ad prolationem illius verbi
+            Verbum increatum facit. Illa ergo ordinatio verbi infallibilis ad talem effectum virtus
+            dicitur, quae non est aliqua qualitas data verbo nec aliquid de novo creatum.</p>
+        </div>
+        <div xml:id="bb-d4e11359-Dd1e204">
+          <head xml:id="bb-d4e11359-Hd1e206">Ad rationes</head>
+          <p xml:id="bb-d4e11359-d1e209">1-5. Et ex hoc patent rationes ad utramque partem, quia primae procedunt de virtute
+            communiter dicta, praeter ultimum. Ad quod dicendum quod non est simile, quia natura est
+            agens praecipuum et efficiens, sed hic solus Deus est influens.</p>
+          <p xml:id="bb-d4e11359-d1e212">1-2. Rationes ad oppositum patent, quia concedo quod, sicut rerum creatio est a sola
+            virtute increata, sic et transsubstantiatio. Sed in hoc est hic additio, quia hoc fit ad
+            prolationem verbi creati, illud sine aliquo ministerio.</p>
+          <p xml:id="bb-d4e11359-d1e215">3-6. Aliae rationes omnes patent, quia nihil absolutum est verbis datum, sed Christus
+            unica institutione non tantum verbum quod protulit, sed omne consimile prolatum a
+            sacerdote supra naturam ordinavit, ut statim, ipso prolato, ipse sacerdos invisibilis
+            assistens converteret. Unde nihil datur verbo de novo, quando sacerdos illud pronuntiat.
+            Sed illa institutione primaria efficacem habuit ordinationem ad hoc ; propter quod non
+            immerito dicitur habere virtutem. Per hunc etiam modum intelligo sacramenta Novae Legis
+            esse causam et efficere, sicut supra determinatum est, non quia gratiam donent, sed quia
+            efficacem ordinationem habent ex divina pactione ad gratiam. Non sic sacramenta Veteris
+            Legis ; excepta circumcisione. Habet tamen nihilominus hoc Sacramentum causalitatem
+            ratione rei contentae, scilicet carnis Christi, quae ad gratiam disponit. Et haec
+            positio magnorum est et bene intelligentium.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e3543">
+        <head xml:id="bb-d4e3543-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e3543-Hd1e111" type="question-title">Quoties baptizandus debeat immergi.</head>
+        <div xml:id="bb-d4e3543-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e3543-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e3543-d1e119">Et quod semel tantum sit immergendum, videtur : De consecratione, distinctione IV, ex
+            Concilio Toletano : <quote xml:id="bb-d4e3543-Qd1e121" source="http://scta.info/resource/gd-p3d4-d1e1364">Propter
+              vitandi schismatis scandalum vel haeretici dogmatis usum simplam teneamus baptismatis
+              immersionem</quote>. Ergo videtur quod haereticum sit ter mergere.</p>
+          <p xml:id="bb-d4e3543-d1e125">Item, ratione videtur, quia haec est vera per essentiam : Baptismus est ablutio vel
+            tinctio in aqua : ergo, si fit triplex tinctio, triplex erit Baptismus : ergo, si nullo
+            modo licet Baptismum iterari, nullo modo licet ter mergi.</p>
+          <p xml:id="bb-d4e3543-d1e128">Item, ista duo sufficiunt, verbum scilicet et elementum ; et si mergatur semel et si
+            proferatur semel, est plenum sacramentum : ergo ; si amplius mergitur, superfluit : ergo
+            non debet nisi semel mergi.</p>
+          <p xml:id="bb-d4e3543-d1e131">Item, quaeritur quare magis ter quam bis. Si dicas quod binarius est numerus infamis,
+            quia recedit ab unitate, eadem ratione laudabilis, quia accedit maxime.</p>
+          <p xml:id="bb-d4e3543-d1e135">Sed contra : <name ref="#Jerome">Hieronymus</name>, Super Epistolam ad Ephesios :
+              <quote xml:id="bb-d4e3543-Qd1e140">In Patrem et Filium et Spiritum Sanctum baptizamur et ter mergimur, ut
+              Trinitatis unum appareat sacramentum</quote>.</p>
+          <p xml:id="bb-d4e3543-d1e144">Item, Pelagius, Gaudentio episcopo, De consecratione, distinctione IV : <quote xml:id="bb-d4e3543-Qd1e146" source="http://scta.info/resource/gd-p3d4-d1e1321">Evangelicum praeceptum nos admonet
+              in nomine Trinitatis trina etiam immersione sanctum Baptisma cuique
+            tribuere</quote>.</p>
+          <p xml:id="bb-d4e3543-d1e150">Item, De consecratione, distinctione IV, ex canonibus Apostolorum : <quote xml:id="bb-d4e3543-Qd1e152" source="http://scta.info/resource/gd-p3d4-d1e1275">Si quis presbyter aut episcopus non
+              trinam immersionem unius mysterii celebret, sed semel tantum mergat in Baptismate,
+              quod dari a quibusdam in morte Domini perhibetur, deponatur</quote>. Ergo necessaria
+            est trina immersio.</p>
+        </div>
+        <div xml:id="bb-d4e3543-Dd1e157">
+          <head xml:id="bb-d4e3543-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e3543-Hd1e162" type="question-title">Unitas et trinitas immersionum non sunt de necessitate
+            baptismi, sed de congruitate; magis tamen congruit trinitas secundum morem Ecclesiae
+            Romanae.</head>
+          <p xml:id="bb-d4e3543-d1e165">Respondeo : Dicendum quod unitas vel multitudo immersionum non est de substantia
+            Baptismi, sed solum de ben esse, quia, quotiescumque immergat, dum tamen debito modo et
+            sine dilatione magna verba proferat, Baptismus est et sacramentum integrum. Etsi non sit
+            ei de necessitate, est tamen de congruitate propter significationem, cui congruit unitas
+            et trinitas : ut patet in fide Trinitatis, quia unitas est in essentia, sed trinitas et
+            personis ; similiter in morte Christi, quia una est in essentia, sed tribus diebus fuit
+            in corde terrae ; similiter gratia, quia una est in se, sed triplex in virtutibus unitas
+            et trinitas convenit - sed tamen magis trinitas propter expressionem maiorem ; ei ideo
+            utrumque morem servat Ecclesia. Sed Romana Ecclesia tamquam praecellens trinat servat
+            immersionem, tum propter significationem Trinitatis, tum etiam triduanae sepulturae, tum
+            etiam triplicis concupiscentiae, a qua anima liberatur, tum etiam propter triplicem
+            virtutem, qua imago in anima reformatur.</p>
+          <p xml:id="bb-d4e3543-d1e168">Si quaeritur quoties sit immergendum, respondeo : secundum morem Ecclesiae ; qui autem
+            propria auctoritate mutat, peccat. Et ideo dicitur quod deponendus est episcopus, non
+            quia non. baptizaret, sed quia propria auctoritate nova introduceret. Rationes igitur
+            probantes quod ter mergendum sit intelligendae sunt secundum morem Ecclesiae
+            Romanae.</p>
+        </div>
+        <div xml:id="bb-d4e3543-Dd1e172">
+          <head xml:id="bb-d4e3543-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e3543-d1e177">Ad illud quod obicitur ad oppositum primo, dicendum, quod loquitur secundum morem
+            illius Ecclesiae in qua tantum solebat semel mergi ; sed haeretici inceperunt immutare :
+            ideo statuerunt tenere, ne viderentur haeresi consentire.</p>
+          <p xml:id="bb-d4e3543-d1e180">2-4. Ad illud quod obicitur, quod Baptismus est tinctio, dicendum quod non est per
+            essentiam nisi addatur forma praescripta ; si tamen tinctio fiat cum invocatione
+            Trinitatis, Baptisma est. Et si in una. protulit omnia verba, non debet amplius mergere,
+            quia Baptisma consummatum est. Sed quando fit trina immersio, in prima debet nominari
+            Pater, in secunda Filius, in tertia Spiritus Sanctus ; et tunc nulla superfluit, quia
+            non est completum sacramentum, quousque terminatum sit verbum ; incipitur enim immersio
+            cum verbo et cum illo terminatur. Sequens patet ; similiter, quare magis ter quam bis,
+            et cetera obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

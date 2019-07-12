@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e7741">
+        <head xml:id="bb-d4e7741-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e7741-Hd1e111" type="question-title">Utrum in Confirmatione sit necessaria forma verborum.</head>
+        <div xml:id="bb-d4e7741-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e7741-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e7741-d1e119">Et quod necessarium sit in hoc sacramento habere formam verborum, ostenditur : Per
+            simile in aliis sacramentis, quia, si in aliis forma verborum est necessaria, videtur
+            quod et in isto.</p>
+          <p xml:id="bb-d4e7741-d1e122">Item, hoc ipsum ostenditur per aliam rationem, quia forma verborum est sanctificans
+            elementum ; sed sacramentum est ex sanctificatione sanctificans, secundum quod dicit
+              <name ref="#HughOfStVictor">Hugo</name> : ergo necesse est quod formam verborum
+            habeat, cum per ipsam sit sanctificans elementum.</p>
+          <p xml:id="bb-d4e7741-d1e128">Sed contra : Christus fuit institutor formae sacramentorum ; sed formam Confirmationis
+            non legitur instituisse, immo pueris tantum manus imposuisse, Matthaei 19, 15 : ergo non
+            est necessaria, cum Christus instituerit quod pertinet ad necessitatem et formam aliorum
+            sacramentorum, et non huius.</p>
+          <p xml:id="bb-d4e7741-d1e131">Si tu dicas, quod reliquit Apostolis formam ; contra : Actuum 8, 17 legitur quod
+            impositione manuum dabant Spiritum Sanctum ; sed quod est de necessitate sacramenti est
+            invariabile ut sacramentum : ergo etc.</p>
+          <p xml:id="bb-d4e7741-d1e135">Item, de forma quaeritur, quae est haec : <quote xml:id="bb-d4e7741-Qd1e137">Signo te signo crucis, confirmo te
+              chrismate salutis, in nomine Patris et Filii et Spiritus Sancti, Amen</quote>. Primo
+            videtur quod superfluat hoc verbum <mentioned> signo </mentioned>, quia sufficit actu
+            signare. Si tu dicas quod hoc est propter intentionem, tunc ergo, sicut in Baptismo
+            dicitur baptizo, et non dicitur alius actus, ita in Confirmatione sufficit dicere
+            confirmo.</p>
+          <p xml:id="bb-d4e7741-d1e144">Item, quaeritur : quare potius fit mentio in forma de cruce quam de incarnatione vel
+            resurrectione ?</p>
+          <p xml:id="bb-d4e7741-d1e147">Item, quaeritur : quare potius in hoc sacramento materia nominatur, cum dicit :
+              <quote xml:id="bb-d4e7741-Qd1e149">Confirmo te chrismate</quote> quam in Baptismo, ut dicatur : <quote xml:id="bb-d4e7741-Qd1e152">Baptizo te
+              in aqua ?</quote>
+          </p>
+        </div>
+        <div xml:id="bb-d4e7741-Dd1e157">
+          <head xml:id="bb-d4e7741-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e7741-Hd1e162" type="question-title">Forma confirmationis est de necessitate Sacramenti</head>
+          <p xml:id="bb-d4e7741-d1e165">Respondeo : Ad hoc dicendum quod forma praedicta est de necessitate huius sacramenti,
+            sicut probant rationes ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d4e7741-Dd1e169">
+          <head xml:id="bb-d4e7741-Hd1e171">Ad rationes</head>
+          <p xml:id="bb-d4e7741-d1e174">Ad illud autem quod obicitur in contrarium de eius institutione, diversificantur
+            doctores. Quidam enim dicunt quod formam illam Christus instituit et Apostolis tradidit,
+            et Apostoli postmodum aliis reliquerunt, licet hoc non sit scriptum in canone
+            Scripturae. Ipse tamen forma illa non fuit usus imponendo manus pueris, quia hoc
+            faciebat ut Dominus, non ut minister. Aliter potest dici et melius, credo, quod illud
+            sacramentum Christus nec dispensavit nec instituit, quia post ascensionem suam decebat
+            Apostolos confirmari et Spiritum ad robur dari. Unde Ioannis 7, 39 : <quote xml:id="bb-d4e7741-Qd1e176" ana="#io7_39">Spiritus Sanctus nondum erat datus, quia Iesus nondum erat
+              glorificatus</quote>. non, inquam, datus in plenitudine vel ad robur ; sed hoc quidem
+            fecit die Pentecostes. Unde confirmati sunt a Spiritu Sancto immediate sine ministerio
+            et sacramento ; et ideo ipsi etiam alios confirmabant etiam sine verbo. Sed postquam
+            bases Ecclesiae, Apostoli scilicet, qui a Deo, non per homines, erant ordinati praelati
+            et confirmati, defecerunt, instituit Spiritus Sanctus huius sacramenti formam, cui etiam
+            virtutem sanctificandi dedit. Et per hoc patet responsio ad primum.</p>
+          <p xml:id="bb-d4e7741-d1e180">Ad illud quod obicitur de forma : quare scilicet Christus non instituit et quare
+            Apostoli non instituerunt et posteris tradiderunt, ratio praedicta est. Possunt tamen et
+            aliae rationes congruentiae assignari : quia enim minuebatur in dispensantibus
+            sanctitas, in suscipentibus idoneitas, ideo opportunum fuit instituere verbum
+            sanctificans. Alia est etiam ratio, sed haec patebit infra. </p>
+          <p xml:id="bb-d4e7741-d1e183">Ad illud quod ultra quaeritur de forma, dicendum quod in hoc sacramento datur gratia ad
+            robur fidei quantum ad confirmationem in corde et quantum ad confessionem liberam in
+            ore. Et quia difficillimum et, arduissimum erat Christum crucifixum confiteri, tum
+            propter opprobrium, secundum quod dicitur I ad Corinthios 1, 23 : <quote xml:id="bb-d4e7741-Qd1e185" ana="#Icor1_23">Praedicamus Christum crucifixum, Iudaeis quidem scandalum, gentibus autem
+              stultitiam</quote> ; tum propter periculum, quia adversarii tales nitebantur occidere,
+            Ioannis 15, 21 : <quote xml:id="bb-d4e7741-Qd1e188" ana="#io15_21">Haec facient vobis propter nomen meum</quote> :
+            hinc est quod decuit duplicem actum in forma poni, unum qui respicit liberam Crucifixi
+            confessionem, quasi eam semper ferret in fronte, alterum, cordis stabilitionem.</p>
+          <p xml:id="bb-d4e7741-d1e192">Ex hoc patet quare magis fit mentio de cruce, quia illud est arduissimum et
+            ignominiosum confiteri. De materia vero, quare hoc fit, iam videtur ; et ratio est quia
+            consecrata est, non sic in sacramentis aliis. Aliqui tamen dicunt quod hoc est propter
+            praecipuam efficaciam huius sacramenti et gratiam specialem et singularem, quae datur in
+            hoc sacramento ad pugnam. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

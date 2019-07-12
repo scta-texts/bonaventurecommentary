@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e27657">
+        <head xml:id="bb-d4e27657-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e27657-Hd1e111" type="question-title">Utrum purgatio purgatorii fiat per ignem materialem.</head>
+        <p xml:id="bb-d4e27657-d1e114">Secundo quaeritur, utrum purgatio illa fiat per ignem materialem aut per spiritualem.</p>
+        <div xml:id="bb-d4e27657-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e27657-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e27657-d1e122">Et quod sit spiritualis, videtur : Per Glossam super illud I ad Corinthios 3, 15 :
+              <quote xml:id="bb-d4e27657-Qd1e124" ana="#Icor3_15">Si cuius opus arserit</quote> : <quote xml:id="bb-d4e27657-Qd1e127">Exuritur autem illius
+              opus qui hic temporalia dilexit, quoniam sine dolore non pereunt quae hic cum amore
+              possessa sunt</quote>. Et <name ref="#Augustine">Augustinus</name>, De civitate Dei,
+            XXI, exponens illud dicit : <quote xml:id="bb-d4e27657-Qd1e133" source="http://scta.info/resource/adcd-l21">Necesse
+              est ut tantum urat dolor, quantum haeserat amor</quote>. Si ergo hoc totum est
+            spirituale, non videtur quod ille ignis purgans sit aliquid nisi spirituale quid.</p>
+          <p xml:id="bb-d4e27657-d1e137">Item, quod purgatur et a quo purgatur et ipsa purgatio est quid spirituale. Ergo
+            videtur quod illud similiter per quod purgatur ; hoc autem est ignis purgatorius : ergo
+            etc.</p>
+          <p xml:id="bb-d4e27657-d1e140">Item, nihil corporale extrinsecum facit aliquid ad animae iustificationem, ergo nec ad
+            culpae remissionem ; sed in purgatorio emundatur anima a culpa : ergo non videtur quod
+            uratur flamma materiali.</p>
+          <p xml:id="bb-d4e27657-d1e143">Item, si anima purgatur per poenam corporalem, cum poena mortis sit suprema poenarum,
+            ergo videtur quod ibi deberet omnino purgari : ergo nullo modo indiget purgari igne
+            materiali.</p>
+          <p xml:id="bb-d4e27657-d1e147">Item, videtur quod nulla ad hoc sit necessitas, quia vehemens dolor et fervens amor per
+            se sine aliquo exteriori sufficit delere poenam et culpam ; sed statim, separata anima,
+            cum liberum arbitrium consonet gratiae, fervet caritas, et anima detestatur quantum
+            potest culpam prius commissam, et hoc generat fervorem et dolorem ; ergo statim deletur
+            omnis culpa.</p>
+          <p xml:id="bb-d4e27657-d1e150">Contra : Sicut dicitur in Glossa super illud : <quote xml:id="bb-d4e27657-Qd1e152" ana="#Icor3_15">Sic salvus
+              erit</quote> etc., et habetur in littera : <quote xml:id="bb-d4e27657-Qd1e155">Gravior est ille ignis, quam
+              quidquid potest homo pati in hac vita</quote>. Ergo animae habebunt aliquod
+            afflictivum extra ; illud autem aut est corporale aut spirituale ; non spirituale, quia
+            tunc vel esset angelus vel esset anima vel Deus, quorum nullum esse potest : ergo
+            necesse est quod sit corporale.</p>
+          <p xml:id="bb-d4e27657-d1e159">Item, nos videmus quod recta ordinatione fit quod anima, quae rebus corporalibus se
+            subiecerat libidinose, utpote per conversionem ad bonum commutabile, iustificatur per
+            materialia et corporalia sacramenta : ergo pari ratione post hanc vitam purgari debet
+            per afflictiva corporalia.</p>
+          <p xml:id="bb-d4e27657-d1e162">Item, si anima post mortem purificatur, aut ergo dolore qui veniat ex contritione, aut
+            dolore qui veniat ex rei amissione, aut dolore qui veniat ex exteriori afflictione. Non
+            primo modo, quia non est amplius locus meriti, nec quantum ad contritionem nec quantum
+            ad alios actus virtutum : non secundo modo, quia dolor de amissione est potius sapiens
+            rationem culpae quam rationem purgationis, quia venit ex inordinato amore : ergo tertio
+            modo purgatur, dolore qui venit ex afflictione exteriori : ergo etc.</p>
+          <p xml:id="bb-d4e27657-d1e165">Item, si ignis ille esset spiritualis, cum non sit Deus, hoc constat, necesse est quod
+            in diversis diversificetur et plurificetur. Ergo quot essent animae, tot essent ignes
+            purgatorii et tot purgatoria : si ergo hoc est inconveniens, patet quod non est
+            spiritualis.</p>
+        </div>
+        <div xml:id="bb-d4e27657-Dd1e169">
+          <head xml:id="bb-d4e27657-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e27657-Hd1e174" type="question-title">Ignis purgatorii est materialis sive corporalis</head>
+          <p xml:id="bb-d4e27657-d1e177">Respondeo : Dicendum quod <name ref="#Augustine">Augustinus</name> videtur dubitare
+            utrum ignis ille sit materialis an spiritualis, qui cruciabit vel nunc cruciat animas -
+            non solum de igne purgatorio, sed etiam de igne infernali, in quo dives ille ardebat non
+            solum Super Genesim ad litteram, verum etiam in libro De civitate Dei. Unde et per modum
+            dubitationis dicit in Glossa super illud I ad Corinthios 3, 12 : <quote xml:id="bb-d4e27657-Qd1e182" ana="#Icor3_12">Qui aedificat lignum, foenum</quote> etc., ponens opinionem dicentium igne materiali
+            et temporali animas post hanc vitam purgari, dicit : <quote xml:id="bb-d4e27657-Qd1e185">Non redarguo, quia forsitan
+              verum est</quote>. Et hoc ipsum ponitur in littera, et satis videtur rationabilis sua
+            dubitatio. Dives enim, qui erat in inferno, et cuius lingua urebatur, linguam corporalem
+            non habebat. Et qui portat lignum, foenum, stipulam, non portat secum haec materialia,
+            sed spiritualia, quae sic nominantur per metaphoram ; quare non similiter de igne
+            spirituali metaphorice competit intelligere ?</p>
+          <p xml:id="bb-d4e27657-d1e189">Sed quamvis egregius doctor <name ref="#Augustine">Augustinus</name> visus fuerit
+            dubitare, alii tamen doctores nobis auferunt dubitationem, quoniam hoc cognoverunt
+            multiplici ratione, ut <name ref="#GregoryGreat">Gregorius</name>, in IV Dialogorum, et
+              <name ref="#IsidoreOfSeville">Isidorus</name>, De ordine creaturarum, et communiter
+            tenent doctores temporis nostri ignem purgatorium esse materialem sive corporalem. Sed
+            qualiter talis ignis agat in animas, eas affligendo, hoc magnam habet quaestionem et
+            infra inquiretur de poenis animarum, Qualiter autem agat purgando, diversitas est inter
+            doctores.</p>
+          <p xml:id="bb-d4e27657-d1e201">Quidam enim dicere voluerunt quod praeter vim punitivam data est illi igni vis
+            spiritualis purgativa, ratione cuius purgat a veniali macula vel etiam a peccati scoria,
+            sicut sacramenta habent vim sanctificandi sibi datam. Sed illud non oportet ponere,
+            scilicet quod ultra punitionem habeat vim novam, cum multas animas dicat <name ref="#GregoryGreat">Gregorius</name> purgari per diversa loca, et talis culpae
+            mundificatio proprie sit ab ipsa gratia.</p>
+          <p xml:id="bb-d4e27657-d1e208">Et ideo est aliorum positio, ut videtur, magis recta, quod ille ignis per eamdem
+            naturam et punit et purgat, quoniam puniendo iuvat gratiam, et gratia, habens adiutorium
+            poenae et consonantiam voluntatis nostrae - quae, quamvis non sit adiutrix, non tamen
+            impedit - est potens purgare culpam et peccati scoriam, ita ut purgatio talis sit a
+            gratia, libero arbitrio consonante et exteriore poena adiuvante, secundum conformitatem
+            ad remissionem venialium quae sit in hac vita.</p>
+          <p xml:id="bb-d4e27657-d1e211">Si tamen quaeras : quomodo poena adiuvat gratiam ad delendum sive purgandum maculam ?
+            dicendum quod hoc facit divina iustitia ; vel etiam per eum modum potest intelligi per
+            quem dicitur quod infirmitas gravis sobriam facit animam, id est, virtus hoc facit,
+            quodam modo adiuta per poenam. Si autem quaeras, utrum statim, cum gratia habet illud
+            adiutorium, culpam deleat et purget scoriam, dici potest quod utrumque est satis
+            probabile, vel quod statim vigoretur gratia ut venialem culpam deleat, cum a poena est
+            adiuta, et deinceps punitur pro obligatione ; vel potest dici quod poena magis et magis
+            disponat et postmodum ex quo disposuit sufficienter, gratia ipsa in instanti delet
+            culpam, si qua est. Quodcumque horum dicatur, non videtur de facili improbari posse.
+            Concedendum igitur ignem illum materialem esse sive corporalem.</p>
+        </div>
+        <div xml:id="bb-d4e27657-Dd1e216">
+          <head xml:id="bb-d4e27657-Hd1e218">Ad rationes</head>
+          <p xml:id="bb-d4e27657-d1e221">Ad illud ergo quod obicitur de Glossa et de <name ref="#Augustine">Augustino</name>,
+            dicendum quod <name ref="#Augustine">Augustinus</name> non negat quin ille ignis
+            materialis sit qui animas purgabit, sed exponit hoc de spirituali posse intelligi. Tamen
+            ipse <name ref="#Augustine">Augustinus</name> satis in sermonibus suis, de purgatorio
+            loquens, innuit ignem materialem esse sicut est ignis inferni.</p>
+          <p xml:id="bb-d4e27657-d1e233">Ad illud quod obicitur, quod spiritualis est purgatio, dicendum quod verum est, et ideo
+            effective sive formaliter est per quid spirituale, scilicet per gratiam ; sed tamen,
+            quia anima peccavit cum carne et peccando carnem sibi praeposuit, et ita corpus
+            praeposuit spiritui, divina iustitia. decrevit etiam in purgatione rei corporali ipsam
+            subicere.</p>
+          <p xml:id="bb-d4e27657-d1e236">Ad illud quod obicitur, quod non iustificat, dicendum quod verum est per se ; tamen
+            exterior punitio excitat et adiuvat interiorem gratiam, ut possit perducere ad
+            iustificationem perfectam.</p>
+          <p xml:id="bb-d4e27657-d1e239">Ad illud quod. obicitur de poena mortis, dicendum quod ipsa poena mortis est debitum
+            originalis peccati nec est ordinata ad animae purgationem nisi voluntarie suscipiatur,
+            cum quis potest evadere, ut in Martyribus, vel etiam sustineatur voluntarie, cum ab alio
+            infligitur ; sed poena purgatorii ad hoc est.</p>
+          <p xml:id="bb-d4e27657-d1e243">Ad illud quod obicitur de dolore et amore, dicendum quod illi sunt motus voluntarii ;
+            et ideo non oportet quod sint in summo in anima iam exuta ; praeterea, iam per se non
+            sufficiunt, cum non restet amplius merendi spatium : et ideo necesse est exterius
+            adhiberi ignem purgatorium, sicut parvulis, qui non possunt per se mereri, subvenit
+            Baptismatis sacramentum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

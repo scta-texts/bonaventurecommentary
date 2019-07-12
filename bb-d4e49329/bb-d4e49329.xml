@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e49329">
+        <head xml:id="bb-d4e49329-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e49329-Hd1e111" type="question-title">De ordine huius ignis ad ea quae fient in iudicio.</head>
+        <p xml:id="bb-d4e49329-d1e114">Quarto quaeritur de ordine istius ignis ad ea quae fient in iudicio, et quaeritur, utrum
+          ille ignis praecedat iudicium aut sequatur.</p>
+        <div xml:id="bb-d4e49329-Dd1e117">
+          <p xml:id="bb-d4e49329-d1e119">Et quod praecedat, videtur : Per auctoritatem Psalmi, [96, 3] : <quote xml:id="bb-d4e49329-Qd1e121" ana="#ps96_3">Ignis ante ipsum praecedet</quote> etc.</p>
+          <p xml:id="bb-d4e49329-d1e125">Item, Isaiae ultimo, 15 : <quote xml:id="bb-d4e49329-Qd1e127" ana="#is66_15">Dominus in igne veniet</quote> ; sed
+            adventus est ante iudicium : ergo et ignis ante iudicium praecedet.</p>
+          <p xml:id="bb-d4e49329-d1e131">Item, ratione videtur, quia ille ignis purgabit electos, sicut dicitur in Malachiae 3,
+            3 : Ipse sedebit conflans et emundans argentum ; sed in iudicio necesse est , quod omnes
+            electi praesententur iudici purgati et emundati : ergo etc.</p>
+          <p xml:id="bb-d4e49329-d1e134">Contra : <ref xml:id="bb-d4e49329-Rd1e136">Augustinus, De civitate Dei, XX, in fine</ref>, posuit ordinem illorum
+            quae erunt in iudicio, et dicit quod <quote xml:id="bb-d4e49329-Qd1e139" source="http://scta.info/resource/adcd-l20">conflagratio erit post iudicium</quote>.</p>
+          <p xml:id="bb-d4e49329-d1e143">Item, <name ref="#Augustine">Augustinus</name> dicit : <quote xml:id="bb-d4e49329-Qd1e148" source="http://scta.info/resource/adcd-l20">Iudicatis impiis et in aeternum ignem
+              missis, figura huius mundi mundanorum ignium conflagratione peribit</quote>.</p>
+          <p xml:id="bb-d4e49329-d1e153">Item, constat quod, secundum quod dicitur I ad Thessalonicenses 4, 11, Dominus inveniet
+            multos vivos : <quote xml:id="bb-d4e49329-Qd1e155">Deinde nos, qui vivimus</quote> etc. ergo, constat quod ignis
+            conflagrationis, cum totum consumat, non praeibit.</p>
+          <p xml:id="bb-d4e49329-d1e159">Item, ignis conflagrationis est ordinatus ad innovationem, ita quod purgando innovat ;
+            sed innovatio sequitur iudicium, ut patet Apocalypsis 21, 1 : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e49329-Dd1e163">
+          <head xml:id="bb-d4e49329-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e49329-Hd1e168" type="question-title">Alius ignis, sive alius effectus eiusdem, praecedet iudicium
+            et purgabit electos, alius vero sequitur et purgabit mundum et tandem cruciabit
+            damnatos</head>
+          <p xml:id="bb-d4e49329-d1e171">Respondeo : Ad hoc respondere voluerunt quidam distinguendo iudicium, dicentes quod est
+            iudicium definitionis, et illud praecedet ignem, quia ante dabitur sententia contra
+            malos quam veniat ignis ; et est iudicium exsecutionis, et istud sequitur ignem, quia
+            reprobi illo igne involventur et ad infernum deducentur. Sed haec responsio non potest
+            stare, quia <name ref="#Augustine">Augustinus</name> dicit quod iudicatis impiis et in
+            aeternum ignem missis, figura huius mundi mundanorum ignium conflagratione peribit.</p>
+          <p xml:id="bb-d4e49329-d1e177">Alii respondent distinguendo duplicem effectum huius ignis, scilicet purgare et
+            innovare : ratione purgationis praecedit, ratione innovationis sequitur. Et secundum hoc
+            solvunt rationes ad partes oppositas. Sed nec istud videtur stare posse, quia ignis
+            purgando innovat unde effectus isti sunt coniuncti et indivisi ; et ideo, si natura se
+            habeant secundum ordinem, tamen tempore sunt simul.</p>
+          <p xml:id="bb-d4e49329-d1e180">Et ideo potest dici, sicut dicit Glossa super illud Malachiae 3, 3 : Purgabit filios
+            Levi : Duos ignes legimus futuros : unum, qui purgabit electos et praecedet iudicium,
+            alterum, qui reprobos cruciabit. Secundum hanc Glossam dicendum quod, sive dicantur duo
+            ignes quantum ad substantiam sive duo ratione duorum effectuum, dicendus est futurus
+            ignis in iudicio ad electorum purgationem, quia debet uniuscuiusque opus probari et
+            purgari in igne, ut totaliter sistantur mundati in conspectu Dei ; et hic praecedet
+            faciem iudicis et purgando amicos, inflammabit in circuitu inimicos. Est etiam ignis
+            futurus ad purgationem mundi et eius innovationem ; et iste, ut dicit, sequetur iudici
+            um et exuret faciem mundi et purgabit et demum reprobos cruciabit. Concedendae igitur
+            sunt rationes probantes quod aliquis ignis praecedet iudicium.</p>
+          <p xml:id="bb-d4e49329-d1e184">Quod vero obicitur, quod nullus praecedat, quia Dominus inveniet multos vivos, dicendum
+            quod ille ignis erit ad purgationem electorum, non ad consumptionem ; et ideo, sicut
+            tres pueri in camino ignis ardentis divina sunt virtute conservati illaesi, sic fiet in
+            illo igne qui eos purgabit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

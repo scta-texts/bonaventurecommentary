@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e28178">
+        <head xml:id="bb-d4e28178-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e28178-Hd1e111" type="question-title">Utrum liceat aliquid in confessione addere.</head>
+        <p xml:id="bb-d4e28178-d1e114">Secundo quaeritur, utrum liceat aliquid in confessione addere.</p>
+        <div xml:id="bb-d4e28178-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e28178-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e28178-d1e122">Et quod non, videtur : Quia <name ref="#Augustine">Augustinus</name> dicit, in libro De
+            poenitentia, et habetur in littera : <quote xml:id="bb-d4e28178-Qd1e127">Si causa humilitatis mentiris, efficeris
+              quod vitasti</quote>. Si ergo aliquis causa humilitatis accusat se amplius quam
+            meruit, videtur ex hoc culpam incurrere.</p>
+          <p xml:id="bb-d4e28178-d1e131">Item, iniquus testis est qui accusat alium in eo in quo non est culpabilis,
+            quantumcumque faciat bona intentione ; sed homo in confessione contra se testificatur :
+            ergo, si se accusat in eo in quo non peccavit, videtur quod inique agat.</p>
+          <p xml:id="bb-d4e28178-d1e134">Item, nihil obiciendum est in iudicio manifesta, quod non possit manifeste probari
+            :ergo pari ratione nihil imponend um est in iudicio poenitentiali, quod non possit per
+            testem rectum probari ; testis autem est conscientia : ergo nihil dicendum est nisi de
+            quo accusat conscientia : ergo etc.</p>
+          <p xml:id="bb-d4e28178-d1e137">Item, confessio est ad dirigendum medicum spiritualem, sicut cognitio carnalis
+            infirmitatis est ad dirigendum medicum carnalem ; sed ita facit errare medicum qui dicit
+            se habere morbum quem non habet, sicut qui dicit se non habere quem habet : ergo sicut
+            peccat ille qui dimittit, ita ille qui addit.</p>
+          <p xml:id="bb-d4e28178-d1e141">Contra : <name ref="#GregoryGreat">Gregorius</name> : <quote xml:id="bb-d4e28178-Qd1e146">Bonarum mentium est ibi
+              culpam agnoscere, ubi culpa non est</quote>. Ergo, si potest et debet se homo accusare
+            secundum quod agnosait se, et bona mens potest se magis culpabilem reputare quam sit
+            secundum veritatem, videtur quod magis possit se accusare quam sit in re.</p>
+          <p xml:id="bb-d4e28178-d1e150">Item, qui conteritur plus quam meruit, et satisfacit puniendo se ultra quam meruit,
+            iuste et laudabiliter et bene facit : ergo pari ratione, qui se accusat ultra quam
+            peccavit, berre facit.</p>
+          <p xml:id="bb-d4e28178-d1e153">Item, confessio est ad humiliationem confitentis, et hoc per accusationem ; sed nemo
+            potest se nimis humiliare, etiam si se subiciat omnibus propter Deum : ergo pari ratione
+            nemo potest se nimis accusare.</p>
+          <p xml:id="bb-d4e28178-d1e156">Item, ponatur quod aliquod peccatum commisit quis, de quo dubitat utrum sit mortale vel
+            veniale ; quaero qualiter debeat illud confiteri. Et videtur quod sicut mortale, quia in
+            dubiis securior pars est eligenda ; alioquin, si sicut veniale confitetur, discrimini se
+            committit ; sed possibile est quod istud peccatum non sit nisi veniale : ergo potest
+            veniale confiteri ut mortale : ergo ad confessionem addere ad se accusandum.</p>
+        </div>
+        <div xml:id="bb-d4e28178-Dd1e160">
+          <head xml:id="bb-d4e28178-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e28178-Hd1e165" type="question-title">In confessione nihil licet addere, refragante testimonio
+            conscientiae; tamen additio ultra rei veritatem, conscientia autem linguae concordante,
+            potest esse meritoria</head>
+          <p xml:id="bb-d4e28178-d1e168">Respondeo : Ad praedictorum intelligentiam praenotandum est quod differt mentiri et
+            falsum dicere. Mentiri enim est, quando aliud exprimit vox quam sentiat mens, etiam si
+            per vocem verum dicatur in re ; falsum dicere est quando vox discordat a re significata.
+            Mentiri quidem, quia semper importat abusum signi et obliquationem hominis quantum ad
+            vim intellectivam et exteriorem, inter quas est discordia, semper est malum et ita
+            secundum se malum, quod nulla potest bona circumstantia vestiri ut bene fiat, sicut
+            dicit <name ref="#Augustine">Augustinus</name>, in libro Contra mendacium. Falsum vero
+            dici potest frequenter meritorie, cum mens decipitur et ita credit esse ut loquitur,
+            sicut dixit Apostolus se in Hispaniam profecturum, ad Romanos 15, 24.</p>
+          <p xml:id="bb-d4e28178-d1e174">Si ergo tu quaeras utrum liceat est addere ad confessionem, respondendum est quod aut
+            tu loqueris quantum ad testificationem conscientiae, aut quantum ad conformitatem
+            veritatis in re. Si quantum ad conscientiam, ut conscientia minus accuset et vox
+            amplius, sic est peccatum et mendacium et perditur confessionis meritum, in qua debuit
+            esse verbum verax, secundum illud Ecclesiastici 37, 20 : <quote xml:id="bb-d4e28178-Qd1e176" ana="#sir37_20">Ante
+              omnia verbum verax praecedat te</quote>. Verbum verax est, quando id exprimit lingua
+            quod sentit conscientia. Si autem intelligas de additione quantum ad rei veritatem, ita
+            quod conscientia non discordat a lingua, dicendum tunc quod talis additio potest esse
+            meritoria. Qui enim in parvis se credit graviter offendisse et sic confitetur quasi
+            graviter offenderit, multum absque dubio profecit.</p>
+          <p xml:id="bb-d4e28178-d1e180">Rationes igitur ad primam partem procedentes concludunt quod non potest nec debet
+            addere ultra testimonium conscientiae. Rationes accusandum ad secundam partem procedunt
+            secundum quod in additione lingua consonat cum conscientia ; et sic licet addere, quia
+            nullum fit veritati praeiudicium, dum simul iungitur veritas mentis et oris cum
+            humilitate cordis.</p>
+        </div>
+        <div xml:id="bb-d4e28178-Dd1e185">
+          <head xml:id="bb-d4e28178-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-d4e28178-d1e190">1-2. Et sic intelligitur illud <name ref="#GregoryGreat">Gregorii</name> :
+              <quote xml:id="bb-d4e28178-Qd1e195">Bonarum mentium</quote> etc. ; similiter et sequens de contritione et punitione
+            et additione. Posset tamen dici quod non est simile de contritione et punitione et de
+            confessione, quoniam confessio est actus veritatis, et contra hanc non potest aliquis
+            dicere aliquid, quod non sit falsum et praeiudicium veritatis. Non sic est de punitione,
+            quia iuste potest aliquis sustinere poenam, etiam quam non meruit, in gloriam Dei vel
+            propter salutem proximi vel in ampliorem profectum sui ; et hoc est abundantis
+            iustitiae. Veritas vero non debet nec deficere nec superabundare, quia est rectitudo
+            intellectus, et haec rectitudo est indivisibilis ; sed rectitudo voluntatis habet
+            latitudinem, ideo plus et minus factum est iustum ; sed non plus et minus dictum est
+            verum, nisi dicatur verius quod est durabilius, ut necessarium et perpetuum, quam
+            contingens et momentaneum.</p>
+          <p xml:id="bb-d4e28178-d1e199">Ad illud quod obicitur, quod confessio est ad humiliationem, dicendum quod non omni
+            modo est ad humiliationem, sed per accusationem, quae veritatem debet habere principium
+            vel comitem ad hoc quod recta sit. Et non sequitur, quodsi humilitas non habet excessum
+            in reputatione, quod veritas non habeat excessum in locutione.</p>
+          <p xml:id="bb-d4e28178-d1e202">Ad illud quod quaeritur de peccato dubio, dicendum quod, sicut dicit <ref xml:id="bb-d4e28178-Rd1e204" target="http://scta.info/resource/adt-l15">Augustinus, in XV De Trinitate</ref>, non
+            solum est mendacium dicere scienter falsum, sed etiam asserere dubium, quia lingua a
+            corde discordat. Quando ergo dubitat utrum sit mortale, dicendum quod sicut dubitat, ita
+            dubitando debet confiteri ; tamen debet conteri et poenam sustinere ac si esset mortale,
+            et tunc mens assecuratur et in nullo veritati : praeiudicatur. Et sic patet responsio ad
+            obiecta.</p>
+          <p xml:id="bb-d4e28178-d1e208">Ad illud tamen quod ultimo obicitur ad partem oppositam, quod facit medicum errare
+            etc., dicendum quod falsum est, quia aggravatio poenitentiae non aggravat naturam, sed
+            alleviat ; non sic est in temporali et corporali medicina ; nocet enim si non adsit
+            morbi materia. Sed ista est ratio, quia lingua discordat a conscientia ; et illud
+            praecipue exigitur in illa confessione recte et ordinate facta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

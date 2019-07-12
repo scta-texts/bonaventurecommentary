@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e15519">
+        <head xml:id="bb-d4e15519-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e15519-Hd1e111" type="question-title">Utrum corpus Christi descendat in ventrem hominis.</head>
+        <p xml:id="bb-d4e15519-d1e114">Secundo quaeritur, utrum corpus Christi descendat in ventrem hominis.</p>
+        <div xml:id="bb-d4e15519-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e15519-d1e119">Et quod sic, videtur : Auctoritate : <ref xml:id="bb-d4e15519-Rd1e121" target="http://scta.info/resource/gd-p3d2-d1e445">De consecratione, distinctione
+              II</ref> :<quote xml:id="bb-d4e15519-Qd1e124"><!-- quote from Clemens epist. II --> Qui residua corporis Dominici,
+              quae in sacrario relicta sunt, consumunt, non statim ad percipiendos communes cibos
+              conveniant, ne putentur sacrae participationi commisceri</quote>. Sed hoc non diceret
+            nisi descenderet in ventrem : ergo etc.</p>
+          <p xml:id="bb-d4e15519-d1e129">Item, Beda, ibidem : <quote xml:id="bb-d4e15519-Qd1e131">Si quis per voracitatem vel edacitatem Eucharistiam
+              vomuerit, quadraginta diebus poeniteat</quote>. Sed non vomitur nisi quod traicitur :
+            ergo etc.</p>
+          <p xml:id="bb-d4e15519-d1e135">Item, corpus Christi coniunctum est illis speciebus quamdiu manent sub formis suis ;
+            sed non statim transmutantur, immo descendunt in ventrem sub suis proprietatibus : ergo
+            et corpus Christi cum eis.</p>
+          <p xml:id="bb-d4e15519-d1e138">Item, corpus Christi aut vadit in ventrem aut in mentem. Non in mentem,. quia solus
+            Deus illabitur : ergo in ventrem.</p>
+          <p xml:id="bb-d4e15519-d1e141">Item, pro quanto dicitur corpus Christi manducati sacramentaliter ? Si propter
+            masticationem tantum, ergo, si quis masticaret species et spueret, diceretur
+            sacramentaliter manducasse ; quod falsum est : ergo oportet quod non tantum fiat
+            masticatio, sed etiam incorporatio. Sed si species sine contento transmittuntur in
+            ventrem, desinunt habere sacramenti rationem : ergo propter hoc non erit manducatio
+            sacramentalis : necesse est ergo quod manducet corpus verum.</p>
+          <p xml:id="bb-d4e15519-d1e145">Item, quod inconveniens est, si descendat in ventrem ? Videmus enim corpus lucis per
+            omnia transire incoinquinatum nec aliqua refugit, nec munda nec immunda : ergo
+            similiter, immo multo fortius, Christi corpus gloriosum.</p>
+          <p xml:id="bb-d4e15519-d1e148">Contra : Matthaei 15, 17 : <quote xml:id="bb-d4e15519-Qd1e150" ana="#mt15_17">Omne quod in os intrat in ventrem
+              vadit et in secessum emittitur</quote>. Sed corpus Christi non emittitur in secessum :
+            ergo constat quod ab ore non vadit in ventrem.</p>
+          <p xml:id="bb-d4e15519-d1e154">Item, <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e15519-Qd1e159">Non est iste panis qui vadit in
+              corpus, sed panis vitae aeternae qui animae substantiam fulcit</quote>.</p>
+          <p xml:id="bb-d4e15519-d1e163">Item, ratione videtur, quia constat quod corpus Christi non est cibus ventris, sed
+            mentis : ergo non transit in ventrem, sed in mentem.</p>
+          <p xml:id="bb-d4e15519-d1e166">Item, si transit in ventrem, vadit ad officia ventris, quae sunt digerere et
+            distribuere et ad singulas partes transmittere vel emittere in secessum ; sed hoc falsum
+            : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e15519-Dd1e170" type="rationes-principales">
+          <head xml:id="bb-d4e15519-Hd1e172">Conclusiones</head>
+          <head xml:id="bb-d4e15519-Hd1e175" type="question-title">Relatis quatuor opinionibus, securior declaratur ea quae
+            asserit, quod corpus Christi manet in stomacho sub speciebus, quamdiu hae sunt sub
+            propria forma et habent rationem reficiendi.</head>
+          <p xml:id="bb-d4e15519-d1e178">Respondeo : Dicendum quod in ventrem. ire est dupliciter : aut quantum ad substantiam
+            aut quantum ad cibandi efficaciam. Primo modo descendit aliquod corpus in ventrem, etiam
+            si non sit cibus ; secundo modo non nisi cibus. Similiter in mentem ire est dupliciter :
+            aut quantum ad substantiam, et sic vadit illud quod illabitur animae, et hic st solus
+            Deus ; aut quantum ad efficaciam, et sic dicitur ire in mentem quod ipsam reficit. Si
+            ergo loquamur quantum ad cibandi efficaciam, sic certum est quod corpus Christi non
+            vadit in ventrem, sed in mentem, quia caro Christi non reficit ventrem, sed mentem,
+            sicut ostendunt quatuor rationes ultimae. Si autem loquamur quantum ad substantiam, sic
+            certum est quod non vadit in mentem. Sed utrum vadat in ventrem, dubium est propter
+            diversitatem opinionum. Unde notandum quod quatuor fuerunt hic opiniones. </p>
+          <p xml:id="bb-d4e15519-d1e181">Aliqui enim dixerunt quod non solum in ventrem, sed etiam vadit quocumque illae species
+            deferuntur, salva illarum natura, sive in ventrem muris sive in locum immundum.</p>
+          <p xml:id="bb-d4e15519-d1e184">Aliqui dixerunt quod non solum in ventrem hominis vadit, sed ibi manet quamdiu species
+            illae sunt ordinabiles ad refectionem. Unde dixerunt quod in ventrem vadit et moratur
+            quousque refectionis operatio compleatur.</p>
+          <p xml:id="bb-d4e15519-d1e188">Aliqui dixerunt quod ad ventrem pervenit quousque sint in sumptum esse, et amplius non
+            moratur.</p>
+          <p xml:id="bb-d4e15519-d1e191">Aliqui dixerunt quod solum est cum illis speciebus quamdiu sunt cum aliquo sensu, ut
+            visu vel gustu. Et hoc dicunt quod sensit <name ref="#HughOfStVictor">Hugo</name>, qui
+            dicit : <quote xml:id="bb-d4e15519-Qd1e196">In visu, tactu et sapore tecum est ; quamdiu sensus corporalis afficitur,
+              praesentia corporis non aufertur ; postquam autem sensus corporalis percipiendo
+              deficit, deinceps corporalis praesentia quaerenda non est, sed spiritualis retinenda :
+              dispensatio completa perfectum est sacramentum, virtus manet, Christus de ore transit
+              ad cor ; melius est, ut eat in mentem tuam quam in ventrem</quote>.</p>
+          <p xml:id="bb-d4e15519-d1e200">Ratio autem diversitatis harum opinionum haec est : omnes enim in hoc consentiunt quod
+            tamdiu est corpus Christi in illis speciebus quamdiu est ratio sacramenti. Dicunt igitur
+            primi quod species panis consecrati tamdiu est sacramentum quamdiu est species panis,
+            cum virtus consecrationis ipsam respiciat secundum quod est panis ; ideo nunquam
+            desinit, illa proprietate salva. Et ex hoc oritur positio prima. Alii vero dicunt quod
+            ratio Sacramenti tantum salvatur quamdiu species habilis est ad refectionem humanam ;
+            ideo enim instituta est et ad hoc ordinatur, et hoc habet quando est extra et in
+            stomacho, quia reficit. Et ex hoc oritur secunda positio. Tertii dicunt quod tamdiu
+            salvatur quousque recipiatur in usum manducationis ; et quando manducatio completa est,
+            iam sacramentum non est, sed fuit. Et ex hoc habet ortum tertia positio. Alii dicunt
+            quod, quia sacramentum est signum, et signum est quod se offert sensibus, quod tamdiu
+            species est sacramentum, quamdiu nata est sentiri ab aliquo sensu ; et ideo ; cum
+            deficit perceptio sensuum, deficit ratio sacramenti et praesentia corporalis.</p>
+          <p xml:id="bb-d4e15519-d1e203">Quid autem in tanta diversitate tenendum est, difficile est iudicare. Videtur tamen
+            prima opinio, quae dicit quod defertur quocumque species deferantur, nisi ampla, quia
+            tunc et mus in ventrem traiceret et in cloacam descenderet ; quod aures piae abhorrent ;
+            et si diceremus, haeretici et infideles deriderent nos et irriderent. Similiter quarta
+            opinio, quae dicit quod deficit, deficiente sensu illarum specierum, videtur esse nimis
+            arcta. Nunquam enim secundum hoc posset dici corpus Christi sumi vere, cum non dicatur
+            sumptus esse cibus qui non percipitur nec pervenit usque ad stomachum. Unde nec verbum
+              <name ref="#HughOfStVictor">Hugonis</name> intelligendum est quantum ad actum
+            sentiendi, sed quantum ad idoneitatem. Et praeterea, sensus non tantum est in gustu
+            linguae, sed etiam sentit homo descensum cibi quousque quiescat in stomacho.</p>
+          <p xml:id="bb-d4e15519-d1e209">De duabus positionibus mediis, quae sit verior non est facile iudicare, cum utraque
+            multum sit probabilis. Probabile enim est quod sumptione completa et manducatione, cum
+            iam sacramentum habuit finem suum propter quem erat, desinit esse sacramentum ; et hoc
+            dicit <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore et videtur hoc sensisse.
+            Dicit enim sic : Postquam manducasti, si corporalem praesentiam Christi quaeris, in
+            caelo quaere, ibi est ad dexteram Patris ; et hoc videtur satis probabile. Quamdiu enim
+            Christus est sub speciebus illis, est adorandus ; sed stultus esset qui adoraret
+            Christum in ventre nianducantis.</p>
+          <p xml:id="bb-d4e15519-d1e215">Secundum hanc positionem satis patet responsio ad obiecta, exceptis his quae de
+            commixtione et vomitu obiciunt, ad quae potest responderi : primum, quia decretum non
+            dicit quod commisceantur, sed commisceri putentur. Secundo vero, quod dicit Beda quod
+            aliquis vomit, hoc dictum est et poena imposita nonnisi quia species illae fuerunt
+            contentivae Dominici corporis ; et ideo in magna reverentia sunt habendae, maxime quia
+            fuerunt sanctissimis symbolis consecratae ; et ideo comburuntur et cinis debita
+            reverentia reservatur. Ille autem qui vomit graviter punitur, quia, quantum in se est,
+            vomit corpus Christi ; et sic de illo dicendum esset qui proiceret in cloacam. Sic
+            potest ista opinio satis probabiliter sustineri.</p>
+          <p xml:id="bb-d4e15519-d1e219">Nihilominus tamen alia videtur securior et auctoritatibus magis concordare, quod corpus
+            Christi cum illis speciebus descendit ad stomachum et sub illis est quamdiu illae sunt
+            sub propria forma et habent rationem reficiendi, quia secundum ordinationem et
+            refectionem humanam sacramentum erant ; unde concedunt quod corpus Domini est in
+            stomacho, quia ibi sunt species ut cibus ; et ideo, si evomuntur species, evomitur
+            Eucharitia, et si species possit ab aliis discerni, sumenda esset. Si autem species
+            illae transeant stomachum indigestae per aliquam infirmitatem, tunc sunt extra
+            proprietatem refectionis ; et ideo, si vadant in. secessum, non est ibi corpus Domini.
+            Utrum autem hoc sit verum, nescio ; tamen securum mihi videtur quod, si quis evomat
+            species perceptibiles, magna reverentia est exhibenda ; et magna diligentia adhibenda,
+            ne quis evomat ; et periculum est ei dare de quo praesumeretur quod non possit tenere.
+            Secundum hanc positionem satis patet responsio ad obiecta. Poena autem imponenda
+            evomentibus determinatur satis <ref xml:id="bb-d4e15519-Rd1e221">De consecratione, distinctione secunda</ref>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

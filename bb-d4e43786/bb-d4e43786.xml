@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43786">
+        <head xml:id="bb-d4e43786-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e43786-Hd1e111" type="question-title">Utrum secundae nuptiae sint licitae.</head>
+        <p xml:id="bb-d4e43786-d1e114">Quantum ergo ad primum ostenditur quod secundae nuptiae non sint licitae.</p>
+        <div xml:id="bb-d4e43786-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e43786-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e43786-d1e122">Chrysostomus : Secundum virum accipere secundum praeceptum Apostoli licitum, secundum
+            veritatem fornicatio est. Sed de unoquoque iudicandum est secundum veritatem : ergo
+            secundae nuptiae non sunt licitae, cum nec fornicatio.</p>
+          <p xml:id="bb-d4e43786-d1e125">Item, <name ref="#Ambrose">Ambrosius</name> : A secundo die subtraxit Deus
+            benedictionem, nobis intelligentiam derelinquens, non bonum esse Matrimonium duplex,
+            quia ab unitate dividit. Sed ibi praefigurantur secundarum foedera nuptiarum : ergo
+            etc.</p>
+          <p xml:id="bb-d4e43786-d1e131">Item, ratione videtur, quia bigamus non potest promoveri ad sacros Ordines, sed poena
+            non infligitur nisi pro culpa : ergo in bigamia est culpa.</p>
+          <p xml:id="bb-d4e43786-d1e134">Item, peccatum est habere plures uxores simul nisi dispensetur a Deo : ergo pari
+            ratione videtur esse peccatum habere plures successive. Si dicas quod non est simile,
+            quia, cum sunt simul, fit iniuria primae uxori, non tamen successive ; contra : esto
+            quod prima uxor velit, nihilominus est peccatum : ergo etc.</p>
+          <p xml:id="bb-d4e43786-d1e138">Contra : <name ref="#Abraham">Abraham</name> secundas contraxit nuptias cum Cethura,
+            Genesis 25, 1 ; et in hoc non reprehenditur : ergo licitum fuit ei, et sic etc.</p>
+          <p xml:id="bb-d4e43786-d1e144">Item, I ad Timotheum 5, 14 : <quote xml:id="bb-d4e43786-Qd1e146" ana="#Itim5_14">Volo iuniores nubere, filios
+              procreare, matresfamilias esse</quote> ; loquitur de viduis.</p>
+          <p xml:id="bb-d4e43786-d1e150">Item , ratione videtur, quia nuptiae sunt in remedium ; sed, cum mulier moritur, viro
+            vivente vel e converso, manet morbus et non adest remedium : ergo licitum est remedium
+            adhibere, ergo et Matrimonium secundo contrahere.</p>
+          <p xml:id="bb-d4e43786-d1e153">Item, nuptiae sunt in officium, hoc est in procreationem filiorum ad Dei cultum ; sed
+            multi post obitum uxorum sunt idonei filios procreare, similiter multae mulieres post
+            obitum virorum : ergo licet contrahere.</p>
+        </div>
+        <div xml:id="bb-d4e43786-Dd1e157">
+          <head xml:id="bb-d4e43786-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e43786-Hd1e162" type="question-title">Non solum secundae, sed etiam aliae ampliores nuptiae sunt
+            licitae</head>
+          <p xml:id="bb-d4e43786-d1e165">Respondeo : Dicendum quod non tantum secundae nuptiae, sed etiam tertiae et quartae et
+            ampliores sunt licitae, dum tamen fiant bono fine, scilicet propter prolem generandam
+            vel propter fornicationem vitandam vel propter necessitatem suam sustentandam, ut cum
+            contrahit vir cum muliere, ut ipsum foveat vel e converso. Unde <name ref="#Augustine">Augustinus</name> dicit : Non contemnimus quotaslibet nuptias ; et <name ref="#Jerome">Hieronymus</name> etiam, quod Dominus non damnavit mulierem
+            septemviram.</p>
+        </div>
+        <div xml:id="bb-d4e43786-Dd1e176">
+          <head xml:id="bb-d4e43786-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e43786-d1e181">Ad illud ergo quod dicit Chrysostomus, quod secundum veritatem est fornicatio, dicendum
+            quod ipse vocat veritatem coniecturam rationis, quae tamen saepe fallitur, licet
+            probabiliter iudicet. Vel dicendum quod fornicatio dicitur quaedam immersio libidinis,
+            quia illud maxime consuevit mover ad secundas nuptias contrahendas.</p>
+          <p xml:id="bb-d4e43786-d1e184">Ad illud quod dicit <name ref="#Ambrose">Ambrosius</name>, quod duplex Matrimonium non
+            est bonum, dicendum quod illud intelligendum est sic : id est, non est honorabile.</p>
+          <p xml:id="bb-d4e43786-d1e190">Ad illud quod obicitur, quod punitur poena irregularitatis, dicendum quod non passe
+            ascendere ad sacros Ordines non est poena, quia etiam nec mutus vel mutilatus
+            naturaliter potest ascendere ; nec tamen hoc est ei in poenam, sed quia non est
+            idoneus.</p>
+          <p xml:id="bb-d4e43786-d1e193">Ad illud quod obicitur, quod non licet plures habere simul, dicendum quod non est
+            simile, quia, viro vivente, mulier non habet potestatem sui corporis nec e converso vir,
+            vivente muliere ; et ideo non potest alteri dare, et si dat, contra ius facit. Sed,
+            mortua uxore, solutus est, et ideo alteri potest dare ; et ideo licet et non peccat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e25935">
+        <head xml:id="bb-d4e25935-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e25935-Hd1e111" type="question-title">Utrum poena purgatorii sit ponenda.</head>
+        <p xml:id="bb-d4e25935-d1e114">Quaeritur ergo primo, utrum sit ponere poenam purgatoriam.</p>
+        <div xml:id="bb-d4e25935-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e25935-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e25935-d1e122">Et quod sic, videtur : Primo, auctoritate Apostoli, I ad Corinthios 3, 15 : <quote xml:id="bb-d4e25935-Qd1e124" ana="#Icor3_15">Ipse autem salvus erit, sic tamen quasi per ignem</quote>. Ergo
+            videtur quod sit ponere poenam aliquam post hanc vitam, qua electi purgantur.</p>
+          <p xml:id="bb-d4e25935-d1e128">Item, <ref xml:id="bb-d4e25935-Rd1e130">Augustinus</ref> dicit, et habetur <ref xml:id="bb-d4e25935-Rd1e133">in littera</ref> : <quote xml:id="bb-d4e25935-Qd1e136" source="http://scta.info/resource/pl-l4d20c2-d1e121"><!-- can't tell if this is original augustine quote or lomard -->Aut homo punit aut
+              Deus punit</quote> ; sed frequenter aliqui convertuntur in fine, qui non puniuntur in
+            praesenti : ergo necesse est quod puniantur a Deo ; sed non igne infernali sive aeterno
+            : ergo etc.</p>
+          <p xml:id="bb-d4e25935-d1e141">Item, hoc ipsum videtur ratione, quia qui gravius peccavit gravius est puniendus, ergo
+            qui diutius peccavit diutius est puniendus ; sed iste qui perseveravit in culpa usque ad
+            mortem, diuturnius peccavit : ergo diuturnius et gravius debet puniri ; sed non in hac
+            vita : ergo etc.</p>
+          <p xml:id="bb-d4e25935-d1e144">Item, peccatum relinqui impunitum est peccatum remanere inordinatum, et hoc est
+            universum foedari ; sed impossibile est quod summa Sapientia dimittat universum foedari
+            : ergo oportet illud puniri ; sed non in praesenti : ergo etc.</p>
+          <p xml:id="bb-d4e25935-d1e148">Item, si non est poena purgatoria, sed boni statim evolant : ergo errat universalis
+            Ecclesia quae pro defunctis fidelibus facit suffragia.</p>
+          <p xml:id="bb-d4e25935-d1e151">Item, si non est poena post hanc vitam, ergo qui perdurat usque ad mortem in culpa, cum
+            nullam sustinuerit poenam, reportat de malitia sua commodum ; quorum utrumque est
+            falsitas manifesta.</p>
+          <p xml:id="bb-d4e25935-d1e154">Contra : Apocalypsis 14 ; 13 : <quote xml:id="bb-d4e25935-Qd1e156" ana="#ap14_13">Beati mortui qui in Domino
+              moriuntur ; amodo iam dicit Spiritus, ut requiescant a laboribus suis</quote>. Ergo
+            post hanc vitam nullus bonus laborat : ergo nullus affligitur : ergo nullus punitur.</p>
+          <p xml:id="bb-d4e25935-d1e160">Item, Deus est misericordissimus ; sed a summe misericordi veniam dimidiam sperare est
+            impietas : ergo, cum remittit, totum remittit. Ergo, si aliquid de peccato remisso
+            exigitur a peccatore, hoc est secundum statum praesentis Ecclesiae ; sed in morte hunc
+            statum egreditur : ergo videtur quod amplius ab eo nihil exigatur.</p>
+          <p xml:id="bb-d4e25935-d1e163">Item, in morte absolvitur quis ab omni mandato, ergo et a mandato satisfactionis et
+            confessionis et huiusmodi ; sed punitio pro peccatis satisfactio est : ergo liberatur
+            deinceps ab omni debito punitionis : ergo, ut videtur, amplius non punitur.</p>
+          <p xml:id="bb-d4e25935-d1e166">Item, pronior est Deus ad miserendum quam ad condemnandum ; sed decedentem in mortali
+            peccato statim condemnat : ergo decedentem in caritate statim glorificat.</p>
+          <p xml:id="bb-d4e25935-d1e170">Item, potentior est caritas ad elevandum quam sit mortalis culpa ad deprimendum ; sed
+            culpa mortalis statim demergit in abyssum : ergo caritas statim elevat in caelum : ergo
+            non est ponere post mortem aliquod supplicium.</p>
+          <p xml:id="bb-d4e25935-d1e173">Item, status post mortem respondet statui qui est in via ; sed in via non est nisi
+            duplex status, scilicet bonorum et malorum : ergo post mortem non est nisi duplex : ergo
+            statim anima decedentis vel est in paradiso cum bonis, vel in inferno cum malis.</p>
+        </div>
+        <div xml:id="bb-d4e25935-Dd1e177">
+          <head xml:id="bb-d4e25935-Hd1e179">Conclusio</head>
+          <head xml:id="bb-d4e25935-Hd1e182" type="question-title">Poena purgtoria post hanc vitam absque dubio ponenda
+            est</head>
+          <p xml:id="bb-d4e25935-d1e185">Respondeo : Dicendum quod - sicut dicit Scriptura et auctoritates Sanctorum et plures
+            revelationes et rationes concordant, et Ecclesia universalis confirmat, quae pro illis
+            orat - absque dubio post hanc vitam est ponere poenam purgatoriam.</p>
+          <p xml:id="bb-d4e25935-d1e188">Ratio autem huius est ista, <quote xml:id="bb-d4e25935-Qd1e190" ana="#ps24_10">quia universae viae Domini
+              misericordia et veritas</quote> ; sic autem misericordia parcit Dominus, ut veritati
+            sive iustitiae non fiat praeiudicium : ideo dimittit culpam et poenam aeternam, ita
+            tamen ut obligatum teneat ad poenam temporalem. Ab hac autem poena non absolvitur in
+            morte, quoniam status post mortem non repugnat punitioni animae, quamvis non competat
+            merito eiusdem : puniuntur enim animae et praemiantur ; et ideo, cum non sint taliter
+            alicui remissa peccata quin obligetur ad aliquam poenam, nisi fiat per baptismalem
+            gratiam, et ab illa obligatione non absolvitur, et debitor poenae non possit cum debito
+            ingredi caelum, necessarium est esse purgatorium.</p>
+        </div>
+        <div xml:id="bb-d4e25935-Dd1e196">
+          <head xml:id="bb-d4e25935-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d4e25935-d1e201">Ad illud ergo quod obicitur de Apocalypsi, quod requiescunt a laboribus, dicendum quod
+            est labor in operando et est labor in patiendo ; et verbum illud intelligitur de labore
+            in operando, quia iam non est dies in qua operari valeant merendo ; non autem
+            intelligitur de labore in patiendo. Et hoc patet ex ipso textu sequenti : Opera enim
+            illorum sequuntur illos.</p>
+          <p xml:id="bb-d4e25935-d1e204">Ad illud quod obicitur, quod est misericordissimus, dicendum quod verum est, sed tamen
+            iustus est ; ideo veniam praestat quam decet iustam misericordiam praestare. Quia enim
+            iustus est, homini iniusto reconciliari non decet, manente iniustitia et offensa ; et
+            ideo nunc iustitiam decet ut, remittendo unam mortalem culpam, remittat omnem aliam ;
+            non sic de poena. Quoniam enim misericordia remittit poenam et iustitia exigit, ideo
+            oportet quodam modo dimidiari, ut unum alteri non praeiudicet. Et sic patet quod etiam
+            poena exigitur in foro Dei.</p>
+          <p xml:id="bb-d4e25935-d1e207">Ad illud quod obicitur, quod absolvitur ab omni mandato, dicendum quod verum est ; sed
+            tamen non absolvitur a debito, immo anima trahit secum debitum, et quia retributor est
+            iustus, retribuit secundum quod invenit debitricem ; et quia debitrix erat poenae, quam
+            nondum exsolvit, patet etc.</p>
+          <p xml:id="bb-d4e25935-d1e210">Ad illud quod obicitur, quod statim damnat decedentem in mortali, ergo etc., dicendum
+            quod non est simile, quoniam iste qui in mortali est, nihil habet in se quod sit dignum
+            vita, immo totum vel est mortuum vel est mortificatum ; et ideo summe dispositus est ad
+            aeternam damnationem, et propter hoc statim damnatur iusta retributione. Sed ille qui
+            est in caritate, cum caritas simul stet cum veniali culpa et reatu poenae, habere potest
+            in se aliquid dignum poena ; et quia gloria non potest simul stare cum poena secundum
+            forum commune, necesse est prius debitum illud solvi per poenam purgatoriam.</p>
+          <p xml:id="bb-d4e25935-d1e214">Ad illud quod obicitur de pondere, iam patet responsio, quia pondus caritatis habet in
+            se aliquod retardans, ut culpam aliquam parvulam vel reatum ; sed pondus peccati nihil
+            habet elevans vel retardans : ideo non est simile de ascensu caritatis et descensu
+            peccati.</p>
+          <p xml:id="bb-d4e25935-d1e217">Ad illud quod obicitur, quod non est nisi duplex status in hac vita, ergo etc.,
+            dicendum quod, licet duplex sit principalis, tamen uterque subdividitur. Nam qui habet
+            iustitiam in duplici differentia est. Aut enim est in statu perfectorum perfectione
+            completa ; et talis non habet cremabilia nec aliqua debita, et huic statim debetur vita
+            aeterna ; tales fuerunt sancti Martyres, ut Laurentius et Vincentius, et sancti
+            Confessores, ut Benedictus et Franciscus. Alii sunt in statu imperfectorum ; et hi
+            habent cremabilia ut plurimum, et etiam debita ; et oportet primum debita solvi et
+            cremabilia, quam introducantur in patriam ; et hoc est in poena purgatoria. Similiter
+            carentes iustitia in duplici sunt differentia : quidam in statu parvulorum ; et hi
+            carent iustitia originali, et his competit status in limbo sine poena sensibili. Aliqui
+            sunt in statu adultorum, qui carent iustitia personali sive gratuita per propriam culpam
+            ; et talibus competit status infernalis. Et sic patet quod ratio illa non valet. Posset
+            etiam dici quod poena purgatoria non dicit statum, sed magis transitum de statu in
+            statum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

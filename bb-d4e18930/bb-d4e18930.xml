@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e18930">
+        <head xml:id="bb-d4e18930-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e18930-Hd1e111" type="question-title">Utrum contingat satisfacere oratione.</head>
+        <p xml:id="bb-d4e18930-d1e114">Tertip quaeritur, utrum contingat satisfacere oratione. Et cum duplex sit oratio,
+          scilicet mentalis et vocalis, quaeritur quae magis sit satisfactoria.</p>
+        <div xml:id="bb-d4e18930-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e18930-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e18930-d1e122">Et videtur quod mentalis : <quote xml:id="bb-d4e18930-Qd1e124">Quia veraciter orare est, ut dicit <name ref="#GregoryGreat">Gregorius</name>, amaros in compunctione gemitus, non ornata
+              verba resonare</quote>. Ergo videtur quod vera oratio et satisfactoria non sit in
+            verbo et cantu, sed in lacrymis et fletu.</p>
+          <p xml:id="bb-d4e18930-d1e131">Item, Matthaei 6, 7 : <quote xml:id="bb-d4e18930-Qd1e133" ana="#mt6_7">Orantes nolite multum loqui sicut ethnici
+              faciunt</quote> ; sed si vocalis oratio adderet ad satisfactionem, non esset parum
+            loquendum, sed multum : ergo etc.</p>
+          <p xml:id="bb-d4e18930-d1e137">Item, oratio facit hominem tendere sursum ; sed ratio non potest ferri sursum, quamdiu
+            sollicita est circa ea quae sunt deorsum ; sed quando profert sermonem, intenta est
+            circa quid creatum : ergo si oratio quae magis fert sursum est oratio mentalis, et ista
+            est magis placita, haec est magis satisfactoria.</p>
+          <p xml:id="bb-d4e18930-d1e140">Contra : Oratio est satisfactoria quae est poenalis ; sed haec non est oratio mentalis,
+            sed vocalis ; nam mentalis oratio est suavis, sicut dicitur Ecclesiastis 10, 1 : <quote xml:id="bb-d4e18930-Qd1e142" ana="#qoh10_1">Muscae morientes perdunt suavitatem unguenti</quote>.</p>
+          <p xml:id="bb-d4e18930-d1e147">Item, illa quae est praecipue satisfactoria, praecipue debet imponi a sacerdote ; sed
+            sacerdos imponit orationem vocalem, non mentalem : ergo etc.</p>
+          <p xml:id="bb-d4e18930-d1e150">Item, oratio mentalis, si qua est satisfactoria, est illa qua oratur cum gemitibus ;
+            sed haec est contritionis, scilicet plangere peccatum, et contritio dividitur contra
+            satisfactionem : ergo talis oratio non est pars satisfactionis.</p>
+          <p xml:id="bb-d4e18930-d1e153">Item, plus laborat qui laborat corde et lingua, quam qui corde tantum ; sed laborare
+            primo modo est in oratione vocali, corde vero tantum in mentali : ergo videtur quod
+            vocalis sit magis satisfactoria.</p>
+        </div>
+        <div xml:id="bb-d4e18930-Dd1e157">
+          <head xml:id="bb-d4e18930-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e18930-Hd1e162" type="question-title">Quaelibet oratio est satisfactoria, prae ceteris autem ea, in
+            qua accenditur homo ad gemitum</head>
+          <p xml:id="bb-d4e18930-d1e165">Respondeo : Dicendum quod vocalis oratio ordinatur ad mentalem et non e converso.
+            Secundum hoc intelligendum quod quaedam oratio est pure mentalis, quaedam pure vocalis,
+            quaedam media : pure mentalis, quando labia non moventur, sed cor ad Deum loquitur ;
+            pure vocalis, quando nihil cogitat in his quae dicit, nec in generali nec in speciali,
+            ita quod referat intentionem ad sensum verborum vel finem, sed cum orat, fabricat castra
+            ; et sic mentalis simpliciter excedit vocalem. Alia est mixta, in qua scilicet orat
+            mentaliter et vocaliter ; et de ista distinguendum, quia aut verba illa impediunt
+            affectum, quia sic inflammatus est, quod immediate fertur in Deum, et tali utilior est
+            oratio mentalis ; si autem iuvatur, utilior est vocalis ; et multi sunt tales et maxime
+            illi qui non sunt viri spirituales, ad quorum affectus provocandos institutae sunt
+            vocales orationes.</p>
+          <p xml:id="bb-d4e18930-d1e168">Si quaeratur, quae oratio sit satisfactoria, credo quod omnis, quia nulla est in qua
+            non laborent virtutes animales ; et quantum delectatur spiritus, tantum caro frequenter
+            tabescit et virtutes animales minus sunt intentae regimini corporis. Credo tamen quod
+            illa inter ceteras est satisfactoria magis, in qua accenditur homo ad gemitum, quia haec
+            est in qua Deus maxime delectatur. Unde quia illud est gratiae specialis, ideo non
+            imponitur a sacerdote, sed praeambulum ad illud, scilicet oratio vocalis. Et quia non
+            est status in vocibus, sed ordinantur ad intellectum, hinc est quod Dominus et <name ref="#GregoryGreat">Gregorius</name> mittunt a vocali oratione ad mentalem.</p>
+          <p xml:id="bb-d4e18930-d1e174">Ad illud quod obicitur, quod impedit ne sursum feratur, dicendum quod falsum est, immo
+            excitat affectum tepidum ; nec est homo divisus, immo vis inferior superiori
+            cooperatur.</p>
+        </div>
+        <div xml:id="bb-d4e18930-Dd1e179">
+          <head xml:id="bb-d4e18930-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e18930-d1e184">1-2. Ad illud quod obicitur ad oppositum, quod vocalis magis est poenalis, dicendum
+            quod verum est ceteris paribus.</p>
+          <p xml:id="bb-d4e18930-d1e187">Ad illud quod obicitur, quod oratio gemebunda spectat ad contritionem, dicendum quod
+            verum est, sed super illam addit postulationem, sicut publicanus petebat a Domino in
+            templo remissionem.</p>
+          <p xml:id="bb-d4e18930-d1e190">Sit igitur haec summa dictorum : quod omnis oratio ex caritate facta, si recte fiat,
+            poenalis est et satisfactoria potest esse, quia nunquam est ita delectabilis, quin sit
+            poenalis antecedenter vel consequenter vel concomitanter. Illa tamen inter omnes
+            praecipue satisfacit, quae est magis gemebunda et in qua maior clamor cordis est ad Deum
+            pro venia peccatorum ; haec autem in aliquibus est mentalis, in aliquibus vocalis.</p>
+          <p xml:id="bb-d4e18930-d1e193">Unde notandum quod triplex est ratio quare vocalis oratio est instituta. Prima et
+            potissima est ad affectus accensionem. Unde Beda, super illud Matthael 6, 9 :
+              <quote xml:id="bb-d4e18930-Qd1e195">Pater noster</quote> etc. : <quote xml:id="bb-d4e18930-Qd1e198">Non his solis verbis oratur, sed aliis
+              contentis sub eodem sensu, quibus cor nostrum accenditur</quote>. Secunda ratio est ad
+            intellectus instructionem. Unde Beda, ibidem : <quote xml:id="bb-d4e18930-Qd1e201">Orationem brevibus verbis
+              composuit, quibus nec opus esset loqui ad eum qui omnia novit, sed ut noster affectus,
+              qui cum Deo. agit, disceret res quas oraret, non verba quae diceret</quote>. Tertia
+            ratio est ad faciliorem recordationem. Unde Glossa super illud Matthaei 6, 8 : <quote xml:id="bb-d4e18930-Qd1e204" ana="#mt6_8">Nolite assimilari eis</quote> : <quote xml:id="bb-d4e18930-Qd1e207">Non apud Deum agendum est verbis,
+              sed rebus, intentione cordis, affectu simplici ; quae enim dicimus non eum docemus,
+              sed nos temporis orandi recordamur</quote>.</p>
+          <p xml:id="bb-d4e18930-d1e212">Et sic patet ratio institutionis orationis vocalis, quia propter mentalem est, quam
+            Deus praecipue acceptat et illam magis ad remissionem et satisfactionem, in qua cor
+            magis contra peccatum intenditur. Ideo perutile est peccatoribus orationes frequentare,
+            in quibus fiat mentio de male commissis, sicut fuit oratio Manassae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

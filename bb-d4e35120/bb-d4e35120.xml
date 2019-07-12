@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e35120">
+        <head xml:id="bb-d4e35120-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e35120-Hd1e111" type="question-title">Utrum consensus erroneus faciat Matrimonium.</head>
+        <p xml:id="bb-d4e35120-d1e114">Quantum ergo ad primum quaeritur, utrum consensus erroneous faciat Matrimonium.</p>
+        <div xml:id="bb-d4e35120-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e35120-d1e119">Et quod non, videtur : Quia consensus sequitur cognitionem, ergo qui consentit,
+            consentit in eum de quo cogitat ; sed credens hunc esse alium, de illo cogitat : ergo
+            consentit in illum et non in hunc : et sic etc ;</p>
+          <p xml:id="bb-d4e35120-d1e122">Item, <quote xml:id="bb-d4e35120-Qd1e124">voluntarium est cuius principium est in ipso cognoscente
+              singularia</quote> ergo involuntarium, ubi non est cognitio ; sed ubi errat non
+            cognoscit, et sic non est ibi ratio voluntarii : ergo nec Matrimonium.</p>
+          <p xml:id="bb-d4e35120-d1e128">Item, plus habet de ratione in voluntarii quod fit per ignorantiam quam per violentiam
+            ; sed illud impedit : ergo istud.</p>
+          <p xml:id="bb-d4e35120-d1e131">Item, ad hoc est auctoritas, quae dicit hoc, sicut habetur Causa XXIX, quaestione 1 per
+            totum.</p>
+          <p xml:id="bb-d4e35120-d1e134">Contra : Isaac credidit benedicere Esau, tamen benedicendo Iacob, benedictus est. Ergo,
+            a simili, qui credit ducere unam in uxorem et ducit aliam, uxor eius est.</p>
+          <p xml:id="bb-d4e35120-d1e138">Item, Iacob credidit cognoscere Rachelem et cognovit Liam, et tamen Matrimonium fuit :
+            ergo etc.</p>
+          <p xml:id="bb-d4e35120-d1e141">Item, hoc ostenditur ratione, quia qui. peccat per ignorantiam, nihilominus peccat et
+            non excusatur : ergo nec Matrimonium infringitur propter errorem.</p>
+          <p xml:id="bb-d4e35120-d1e144">Item obicitur, quia rusticus, credens cuprum aurum, emit cuprum, non aurum. Ergo
+            similiter videtur quod mulier credens Petrum esse Martinum, consentit in Petrum.</p>
+          <p xml:id="bb-d4e35120-d1e147">Item, si consensus erroneus impedit in quantum erroneus, ergo ubicumque est error, est
+            impedimentum. Ergo, si credit contrahere cum divite et contrahit cum paupere, videtur
+            quod non fiat contractio Matrimonii.</p>
+          <p xml:id="bb-d4e35120-d1e150">Iuxta hoc quaeritur, quis error impediat et utrum error nobilitatis impediat
+            Matrimonium. Videtur enim quod non, cum sit error qualitatis ; oppositum autem dicit
+              <name ref="#Lombard">Magister</name> in littera.</p>
+        </div>
+        <div xml:id="bb-d4e35120-Dd1e157">
+          <head xml:id="bb-d4e35120-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e35120-Hd1e162" type="question-title">Matrimonium impedit error circa personam, non autem error
+            circa proprietates personae, nisi sit circa conditionem</head>
+          <p xml:id="bb-d4e35120-d1e165">Respondeo : Dicendum quod error potest esse dupliciter in consensu : aut error circa
+            personam aut circa proprietates personae. Si sit error circa personam, talis consensum
+            tollit et Matrimonium impedit. Quae enim consentit in aliquem, credens ipsum esse alium,
+            secundum veritatem affectus eius coniungitur ei de quo credit et in eum consentit ; et
+            ideo non est ibi Matrimonium, pro eo quod non est consensus mutuus. Ad hoc autem quod
+            sit error personae, necesse est quod duplex persona occurrat : una in aspectu interiori,
+            altera in exteriori ; et talis error facit consensum et voluntatem diverti ab eo qui
+            exterius apparet, pro eo quod consensus omnis et voluntas aliquam sequitur cognitionem.
+            Invisa enim, ut dicit <name ref="#Augustine">Augustinus</name>, diligere possumus,
+            incognita nequaquam. Si autem sit error proprietatum personae, talis error non omnino
+            tollit consensum ; et ideo non omnino impedit Matrimonium, nisi quando est error
+            conditionis sive servitutis. Quare autem iste error magis impediat quam alius, infra
+            dicitur.</p>
+        </div>
+        <div xml:id="bb-d4e35120-Dd1e173">
+          <head xml:id="bb-d4e35120-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e35120-d1e178">Ad illud ergo quod obicitur de benedictione Iacob, dicendum quod non est simile, quia
+            benedictio est opus Dei et secundum veritatem illi debebatur, quem ignorans benedicebat,
+            et ideo Isaac benedictionem postmodum confirmavit ; sed consensus est opus personae
+            quantum ad iudicium potens errare ; ideo non est simile.</p>
+          <p xml:id="bb-d4e35120-d1e181">Ad illud quod obicitur, quod Iacob cognoscens Liam erravit et tamen Matrimonium fuit,
+            dicendum quod non ex coitu fuit Matrimonium ; sed postmodum Iacob consensit in illam
+            quam cognoverat, et rursus servivit pro prima.</p>
+          <p xml:id="bb-d4e35120-d1e184">Ad illud quod obicitur, quod ignorantia non excusat a culpa, dicendum quod ignorantia
+            iuris non excusat, sed tamen ignorantia personae et facti, adhibita diligentia, excusat,
+            ut si quis cognoscat aliam credens cognoscere suam ; sic in proposito.</p>
+          <p xml:id="bb-d4e35120-d1e187">Ad illud quod obicitur, quod qui credit emere aurum etc., dicendum quod non est simile,
+            duplici ex causa : primum, quia rusticus non cogitat de auro nisi in generali, sed de
+            cupro in speciali ; sed mulier, errans in Petro, cogitat de Martino in speciali.
+            Praeterea, consensus est actus voluntatis interior qui consequitur aestimationem et
+            credulitatem sed emptio est actus exterior qui consequitur contractum exteriorem circa
+            rem. Si tamen rusticus mentionem faceret de auro, ita quod mentio de auro fieret in
+            contractu, et ille venderet aurichalcum pro auro, tunc non teneret contactus, immo
+            teneretur decipiens ad restitutionem ; et quantum ad hoc est simile. Et hoc est quod
+              <name ref="#Lombard">Magister</name> introducit istud pro simili in ipsa littera.</p>
+          <p xml:id="bb-d4e35120-d1e194">Ad illud quod obicitur, quis error impediat, patet responsio ex praedictis.</p>
+          <p xml:id="bb-d4e35120-d1e197">Quod vero quaeritur de nobilitate, dicendum quod circa nobilitatem contingit errare
+            dupliciter, ut patet per exemplum. Mulier enim, quae credit hunc, quem videt, esse
+            filium regis Angliae, dupliciter potest errare : aut enim cognoscit personam filii regis
+            Angliae visu vel auditu ; et tunc in veritate consentit in illum, quia de illo cogitat ;
+            et, tunc est error personae, et non est Matrimonium. Aut personam eius non cognoscit,
+            sed solum cogitat dignitatem et credit hunc, quem videt, habere illam dignitatem et
+            nobilitatem ; et tunc non consentit nisi in hunc, et est error proprietatis, non
+            substantiae. Quod ergo obicitur : credit hunc esse alium, falsum est, sed alterum, quia
+            nobilitas non est substantia, sed accidens.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

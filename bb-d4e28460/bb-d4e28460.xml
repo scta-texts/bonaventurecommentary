@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e28460">
+        <head xml:id="bb-d4e28460-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e28460-Hd1e111" type="question-title">Utrum confitens possit licentiare confessarium ut peccata
+          revelet.</head>
+        <p xml:id="bb-d4e28460-d1e114">Secundo quaeritur, utrum confitens possit sacerdotem licentiare.</p>
+        <div xml:id="bb-d4e28460-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e28460-d1e119">Et quod non, videtur : Quia ad celandam confessionem arctamur per mandatum superioris,
+            scilicet Papae ; sed inferior a mandato superioris non potest absolvere : ergo nec ad
+            contrarium mandato licentiare.</p>
+          <p xml:id="bb-d4e28460-d1e122">Item, sigillum confessionis institutum est non solum propter vitandum scandalum
+            confitentis, sed etiam totius Ecclesiae unitatis : ergo, quantumcumque confitens velit,
+            si revelet, praeiudicium toti Ecclesiae facit : ergo non potest ab eo licentiari.</p>
+          <p xml:id="bb-d4e28460-d1e125">Item, sigillum istud institutum est propter scandalum vitandum ; sed, si quis revelat
+            per licentiam, potest suscitari idem scandalum quod sine licentia, quia confitens
+            poenitere possit de licentiatione et imponere sacerdoti confessionis revelationem ; et
+            cum habet iudicium pro se, idem posset scandalum concitari quod et sine licentia.</p>
+          <p xml:id="bb-d4e28460-d1e128">Item, si licentiari possunt, ergo, cum mali et impii sacerdotes possent praetendere
+            licentiam sibi datam, videretur tunc quod sub hoc pallio confessionem impune revelare
+            possent ; sed hoc est inconveniens ; ergo etc.</p>
+          <p xml:id="bb-d4e28460-d1e131">Contra : Celatio confessionis est in favorem confitentis ; sed quilibet potest cedere
+            iuri suo : ergo potest confitens dare licentiam revelandi.</p>
+          <p xml:id="bb-d4e28460-d1e135">Item, qui potest dicere peccatum per se ipsum, potest per sacerdotem alii sacerdoti
+            denudare : ergo et per ipsum alii revelare.</p>
+          <p xml:id="bb-d4e28460-d1e138">Item, quod dicitur homini ut homini, in casu utili potest et debet ab eo dici ; sed
+            confitens, qui dicit confessori ut Deo, potest dicere ut homini : ergo potest dare
+            licentiam revelandi alii.</p>
+          <p xml:id="bb-d4e28460-d1e141">Item, constat quod superior potest mittere ad inferiorem et auctoritatem absolvendi ab
+            aliquo peccato enormi ei praebere ; sed hoc non posset nisi posset per voluntatem
+            confitentis peccatum alii revelare : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e28460-Dd1e145">
+          <head xml:id="bb-d4e28460-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e28460-Hd1e150" type="question-title">Confitens potest licentiare conessarium, ut peccata revelet,
+            in casu, in quo non timetur secundum</head>
+          <p xml:id="bb-d4e28460-d1e153">Respondeo : Dicendum quod, sicut tactum est, revelare sacerdos non debet propter duo,
+            scilicet quia novit solum ut Deus, et iterum, ne populum scandalizet vel etiam ipsum
+            confitentem. Et quoniam confitens potest facere quod ipse noverit ut homo, quando facit
+            eum nuntium, potest eum licentiare in casu in quo non timetur periculum scandali, sicut
+            ostendunt rationes secundo inductae. Ubi autem periculum scandali formidatur,
+            quantumcumque poenitens licentiet sacerdotem, non debet sacerdos assumere tunc autem
+            potest timeri periculum scandali, quando probabiliter posset conici quod sacerdos
+            confessionem suam revelaverit. Unde, si dicat quod alii referat peccatum, debet ipse
+            sacerdos poenitentem suum nuntium constituere, non se internuntium facere ; et sic
+            vitatur scandalum et non rumpitur sigillum confessionis. Et intelligatur hoc cum illa
+            generali suppositione, quod peccatum alicuius nulli est manifestandum, nisi ei qui
+            possit prodesse nec velit obesse ; intelligatur etiam hoc de peccatis propriis, non de
+            alienis. Nam aliena peccata dicere non potest nec debet poenitens alicui committere,
+            nisi forte in casu in quo ipse deberet dicere et melius per alium quam per se posset
+            bonum illius procurare, semper adhibita cautela ut ex hoc non scandalizetur Ecclesia. Et
+            sic patent obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

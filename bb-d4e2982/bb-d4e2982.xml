@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e2982">
+        <head xml:id="bb-d4e2982-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e2982-Hd1e111" type="question-title">Utrum verbum exprimens actum baptizandi sit de necessitate
+          formae baptizandi.</head>
+        <div xml:id="bb-d4e2982-Dd1e114" type="rationes-principales">
+          <p xml:id="bb-d4e2982-d1e116">Et quod verbum exprimens actum sit necessarium, videtur : Quia hanc formam servat tota
+            Ecclesia : Ego te baptizo in nomine Patris et Filii et Spiritus Sancti. Amen. </p>
+          <p xml:id="bb-d4e2982-d1e119">2.Item, Alexander III dicit : <quote xml:id="bb-d4e2982-Qd1e121" source="http://scta.info/resource/cice-l3t42-d1e119">
+              <!-- dbcheck against: http://scta.info/resource/cice-l3t42-d1e113 as source -->Si quis
+              puerum ter in aqua merserit dicendo : In nomine Patris et Filii et Spiritus Sancti,
+              nisi dicat : ego baptizo te, talis mersio non potest esse Baptismus</quote>.</p>
+          <p xml:id="bb-d4e2982-d1e127">Item, ratione videtur ; quia nihil est magis necessarium ad Baptismum quam intentio
+            baptizantis ; aeque enim est necessaria intentio ut fides : ergo, nihil est magis de
+            necessitate formae quam verbum exprimens intentionem ; sed tale est hoc verbum baptizo :
+            ergo, si aliquid est de necessitate formae baptizandi, verbum baptizandi est de
+            necessitate.</p>
+          <p xml:id="bb-d4e2982-d1e130">Contra : Verba non sunt de necessitate sacramenti nisi illa quibus Dominus contulit
+            virtutem in instituendo ; sed cum instituit formam, non dedit virtutem huic verbo
+            baptizo : ergo non est de necessitate. Quod non dederit, patet, quia Matthaei ultimo, 19
+            traditur forma : Docete omnes gentes, baptizantes eos in nomine Patris et Filii et
+            Spiritus Sancti. Si ergo daretur virtus huis verbo baptizantes , non liceret mutare
+            participium, ergo nulla virtus tradita est ei.</p>
+          <p xml:id="bb-d4e2982-d1e133">Item, quod non sit necessarium propter intentionem, videtur, quia actus baptizandi
+            aeque bene vel magis exprimit intentionem ut verbum : ergo videtur quod superfluat vel
+            saltem non sit verbum necessarium. Quod autem actus exprimat, pate per simile, quia, cum
+            quis signat se signo sanctae crucis, sufficit dicere : In nomine Patris et Filii et
+            Spiritus Sancti , nec oportet addere signo.</p>
+          <p xml:id="bb-d4e2982-d1e137">Item, si est necessarium exprimere actum in sacramentis propter intentionem, ergo, cum
+            intentio sit necessaria in sacramento Eucharistiae, similiter deberet exprimi in forma,
+            et si non exprimitur, non est sacramentum ; sed hoc est falsum : ergo et primum.</p>
+        </div>
+        <div xml:id="bb-d4e2982-Dd1e141">
+          <head xml:id="bb-d4e2982-Hd1e143">Conclusio</head>
+          <head xml:id="bb-d4e2982-Hd1e146" type="question-title">Verbum exprimens actum baptizandi est de necessitate
+            formae</head>
+          <p xml:id="bb-d4e2982-d1e149">Respondeo : Dicendum quod, sicut dicit auctoritas Alexandri, verbum <mentioned>
+              baptizandi </mentioned> est de necessitate formae. Ratio autem quare est de
+            necessitate, est institutio. Ratio autem institutionis est, quia intentio necessaria est
+            sacramento, et hoc est sacramentum necessitatis et est ad alterum. Ideo propter
+            pericuium defectus intentionis proprio verbo expressa est ibi in forma. Ex his patent
+            obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e2982-Dd1e156">
+          <head xml:id="bb-d4e2982-Hd1e158">Ad rationes</head>
+          <p xml:id="bb-d4e2982-d1e161">Quod enim obicitur, quod Dominus non tradidit in forma, dicendum quod Dominus, antequam
+            illud diceret, formam instituerat quam modo servat Ecclesia et accepit ab Apostolis.
+            Illud autem quod dicitur Matthaei ultimo, 19, fuit commemoratio iam institutae ; aut si
+            Christus ipse non instituit, instituit Ecclesia instinctu Spiritus Sancti, et hoc
+            tantuin est ac si ipse proprio ore dixisset. Tota enim Trinitas approbat quod ipse
+            Spiritus Sanctus inspirat fieri, sicut iilud quod Christus instituit.</p>
+          <p xml:id="bb-d4e2982-d1e164">Ad illud quod obicitur, quod non oportet, quia actus intentionem exprimit, dicendum
+            quod immo oportet, quia actus potest fieri multiplici intentione ; potest enim quis
+            immergere, ut ludat, ut corpus abluat, ut baptizet. Et quia actus multiplici intentione
+            fieri poterat, ideo non determiriate intentionem baptizandi exprimebat ; sed actus
+            signandi una intentione principali consuevit fieri : ideo non est simile.</p>
+          <p xml:id="bb-d4e2982-d1e167">Ad illud quod obicitur de Eucharistia, dicendum quod non est sacramentum necessitatis :
+            et praeterea non est ad alterum ; et iterum, cum maiori fit solemnitate, et ideo
+            intentio ibi colligitur, non evagatur tunc, propterea non est necesse exprimi verbo, et
+            ideo non oportuit institui nec per consequens observari. Alia ratio est huius, sed infra
+            dicetur, cum agetur de forma Eucharistiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

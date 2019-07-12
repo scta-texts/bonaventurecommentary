@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e35724">
+        <head xml:id="bb-d4e35724-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e35724-Hd1e111" type="question-title">Utrum haec tria bona sint de necessitate Matrimonii.</head>
+        <p xml:id="bb-d4e35724-d1e114">Tertio quaeritur de necessitate horum trium bonorum, utrum scilicet sint de necessitate
+          sacramenti.</p>
+        <div xml:id="bb-d4e35724-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e35724-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e35724-d1e122">Et quod bonum sacramenti sit de necessitate, Dicit <name ref="#Augustine">Augustinus</name> et habetur in littera : Sacramentum ita inseparabiliter coniugio
+            haeret, ut sine illo esse non videatur.</p>
+          <p xml:id="bb-d4e35724-d1e128">Item, ratione videtur : bonum sacramenti est ratione inseparabilitatis ; sed
+            inseparabilitas semper inest ut necessitas : aut ergo bonum sacramenti non est bonum aut
+            necessario inest.</p>
+          <p xml:id="bb-d4e35724-d1e131">Item, quod bonum prolis de necessitate consequatur Matrimonium, videtur : Quia dicit
+              <name ref="#Augustine">Augustinus</name>, et habetur in littera, quod <quote xml:id="bb-d4e35724-Qd1e136">qui
+              venena sterilitatis procuraverint, non sunt coniuges</quote>.</p>
+          <p xml:id="bb-d4e35724-d1e140">Item, ratione videtur, quia ad hoc institutum fuit Matrimonium, scilicet ad crescendum
+            et multiplicandum : ergo frustra est, si hoc fine caret ; sed non potest esse omnino
+            frustra, cum sit sacramentum : ergo etc.</p>
+          <p xml:id="bb-d4e35724-d1e144">Item, quod bonum fidei sit de necessitate sacramenti, videtur : Quia dicit <name ref="#Augustine">Augustinus</name> quod, si quis consentiat in aliquam, ut postmodum
+            aliam accipiat, non est sacramentum ; sed hoc est propter defectum fidei : ergo etc.</p>
+          <p xml:id="bb-d4e35724-d1e150">Item, ratione videtur, quia licet ex causa fornicationis Matrimonium dividere ; sed non
+            liceret nisi fides esset de substantia : ergo etc.</p>
+          <p xml:id="bb-d4e35724-d1e153">Contra : Quod sacramentum non sit de substantia Matrimonii, videtur, quia, si aliquis
+            contrahat cum aliqua per verba de praesenti, est Matrimonium contractum, et tamen, illo
+            transeunte ad religionem, ista potest nubere : ergo non erat ibi vinculum
+            inseparabile.</p>
+          <p xml:id="bb-d4e35724-d1e156">Item, quod nec fides, videtur, quia Matrimonium potest esse inter perpetuo continentes
+            et potest esse inter incontinentes, quia neuter cum alio vel alia potest contrahere,
+            ergo etc.</p>
+          <p xml:id="bb-d4e35724-d1e159">Item, quod proles non sit de necessitate, videtur, quia Matrimonium est inter steriles,
+            sicut patet ; sed hic non est bonum prolis.</p>
+          <p xml:id="bb-d4e35724-d1e162">Quaeritur ergo : quid est quod dicit <name ref="#Augustine">Augustinus</name> quod non
+            sunt coniuges ? Si enim prius consenserunt, fuit Matrimonium ratum ; si post coierunt,
+            fuit consummatum ; sed hoc nullo casu, nullo peccato rumpitur.</p>
+        </div>
+        <div xml:id="bb-d4e35724-Dd1e169">
+          <head xml:id="bb-d4e35724-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e35724-Hd1e174" type="question-title">Bonum Sacramenti est de necessitate matrimonii: alia duo,
+            scilicet fides et proles, quodam modo sunt de</head>
+          <p xml:id="bb-d4e35724-d1e177">Respondeo : Sicut tangit <name ref="#Lombard">Magister</name> in littera et accipit ab
+              <name ref="#Augustine">Augustino</name>, cum sint tria bona Matrimonii, scilicet
+            fides, proles et sacramentum, unum, scilicet sacramentum, est de necessitate Matrimonii.
+            Sacramentum enim venit ex mutua obligatione et divina institutione et significatione
+            illius unionis ; et ideo quia ista sunt de necessitate Matrimonii, per consequens et
+            sacramentum. Sed alia duo bona quodam modo sunt de esse, quodam modo de bene esse. Si
+            enim loquamur quantum ad Matrimonii usum, sic sunt de bene esse, quoniam usus Matrimonii
+            absque his esse potest, sicut tota die est ; et non solum est absque his, sed etiam cum
+            suis oppositis. Unde sterilitatis et aborsus procuratio et fidei fractio non dissolvunt
+            matrimoniale vinculum contractum.</p>
+          <p xml:id="bb-d4e35724-d1e186">Si autem loquamur quantum ad Matrimonii contractum, qui est per matrimonialem
+            consensum, sic potest esse contractus absque his duobus bonis, ut puta in sterilibus et
+            in continentibus, sed tamen non est contra haec tunc autem est consensus contra haec,
+            quando sub tali pacto consentitur, ut prolis sterilitas procuretur vel uxor alii
+            prostituatur ; tunc enim non est consensus vel pactio Matrimonii, sed potius adulterii,
+            cum directe repugnet institutioni Matrimonii. Sed carentia sive absentia horum duorum
+            non repugnat, quia fides venit ex recto Matrinionii usu ; et quia possunt homines abuti
+            ipso, ideo potest deesse fides. Similiter proles venit ex fructu ventris ; et quia
+            steriles possunt esse vel natura vel arte, ideo Matrimonium hoc bono potest carere.</p>
+        </div>
+        <div xml:id="bb-d4e35724-Dd1e191">
+          <head xml:id="bb-d4e35724-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e35724-d1e196">Ad illud ergo quod obicitur, quod sacramenti bonum non est in Matrimonio ante carnalem
+            copulam, dicendum quod falsum est, quia est inter coniuges insolubile vinculum nec
+            solvitur nisi per mortem spiritualem, sicut post consummationem per mortem corporalem.
+            Verum est tamen quod non est ibi sacramentum secundum completam et plenariam
+            rationem.</p>
+          <p xml:id="bb-d4e35724-d1e199">Ad illud quod obicitur, quod fides sit de necessitate, quia qui sic consentit, ut tamen
+            aliam ducere possit post, non contrahit, dicendum quod hoc non est tantum propter
+            defectum fidei, sed etiam propter defectum sacramenti, quia non vult isti coniungi
+            perpetuo, et quia in pactione introducitur conditio contraria bono fidei ; nec propter
+            infidelitatem solvitur Matrimonii sacramentum, sed solvitur obligatio ad reddendum
+            debitum.</p>
+          <p xml:id="bb-d4e35724-d1e202">Ad illud quod obicitur de bono prolis, quod propter hoc institutum est, dicendum quod
+            non tantum propter hoc, sed etiam in remedium et in signum ; et ideo, quamvis non sit
+            ibi hoc bonum, possunt tamen esse alia bona. Si autem homo stetisset, tunc semper
+            fuisset hoc bonum, quia tantum fuisset in officium ; et hoc bonum non deesset, quia
+            nulla esset sterilitatis poena.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

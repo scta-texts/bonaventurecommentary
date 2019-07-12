@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43169">
+        <head xml:id="bb-d4e43169-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e43169-d1e111">Supra egit <name ref="#Lombard">Magister</name> de cognatione carnali. In hac parte agit
+          de spirituali, et continet haec pars praesentem distinctionem, quae potest dividi in duas
+          partes. In prima agit de cognatione spirituali. In secunda vero agit de secundis nuptiis,
+          ostendens illas esse licitas ; quae pars supra divisa fuit contra totam praecedentem ; et
+          hoc facit ultimo capitulo : Sciendum est etiam quod non solum primae vel secundae nuptiae
+          etc.</p>
+        <p xml:id="bb-d4e43169-d1e117">Prima pars habet duas. In prima ostendit qualiter spiritualis cognatio contrahatur. In
+          secunda, qualiter impedit Matrimonium, ibi : Quod autem compater et commater etc. Et illa
+          dividitur in duas. In prima agit de cognatione directa. In secunda vero de indirecta, ibi
+          : Solet etiam quaeri, si commatrem etc.</p>
+        <p xml:id="bb-d4e43169-d1e120">Prima pars iterum dividitur in duas. In prima agit quomodo cognatio spiritualis impedit
+          in se. In secunda vero, in comparatione ad cognationem legalem, ibi : Quod autem
+          spirituales vel adoptivi filii. Et ita tria determinat in hac distinctione. Primum est de
+          cognatione spirituali ; secundum est de legali, et tertium est de secundis nuptiis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

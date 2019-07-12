@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e32232">
+        <head xml:id="bb-d4e32232-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e32232-Hd1e111" type="question-title">Utrum dans Ordines simoniace ex hoc ipso fiat haereticus.</head>
+        <p xml:id="bb-d4e32232-d1e114">Quarto quaeritur , utrum dans Ordines simoniace ex hoc ipso fiat haereticus.</p>
+        <div xml:id="bb-d4e32232-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e32232-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e32232-d1e122">Et quod si, videtur : <ref xml:id="bb-d4e32232-Rd1e124">Gregorius, in Registro 1</ref>, et habetur <ref xml:id="bb-d4e32232-Rd1e127" target="http://scta.info/resource/gd-p2c1q1-d1e154">Causa I, quaestione 1
+              <!-- actually 3 -->, Presbyter si per pecuniam</ref> ; et infra : <quote xml:id="bb-d4e32232-Qd1e132">Quia decimas
+              et altare et Spiritum Sanctum emere vel vendere, simoniacam haeresim nullus fidelium
+              ignorat</quote>.</p>
+          <p xml:id="bb-d4e32232-d1e136">Item, in eodem : Quisquis per pecuniam ordinatur, ad hoc ut fiat haereticus,
+            promovetur.</p>
+          <p xml:id="bb-d4e32232-d1e139">Item, <ref xml:id="bb-d4e32232-Rd1e141" target="http://scta.info/resource/gd-p2c1q1-d1e403">Causa I, quaestione 1,
+              Eos qui per pecunias</ref> ; et infra : <quote xml:id="bb-d4e32232-Qd1e144">Tolerabilior est enim Macedonii et
+              eorum qui circa ipsum sunt Spiritus Sancti impugnatorum impia haeresis ; illi enim
+              creaturam et servum Dei Patris et Filii Spiritum Sanctum delirando fatentur ; isti
+              vero eumdem Spiritum Sanctum efficiunt servum suum</quote>. Ergo videtur quod sit
+            impiissima haeresis.</p>
+          <p xml:id="bb-d4e32232-d1e148">Item, omnis qui aestimat, donum Dei pecunia possideri, errat et haereticus est
+            iudicandus ; sed omnis vendens vel emens Ordines, aestimat donum Dei pecunia possideri :
+            ergo etc.</p>
+          <p xml:id="bb-d4e32232-d1e152">Item, nullus est maior error circa naturalia quam uni contratrio attribuere suum
+            contrarium, ut si quis ponat album nigrum ; et circa mores nullus maior quam ponere
+            bonum malum. Ergo nec circa divina aliquis est maior error quam ponere Dei gratiam non
+            esse gratiam ; hoc autem ponit omnis qui eam emere vel vendere contendit : ergo etc.</p>
+          <p xml:id="bb-d4e32232-d1e155">Item, sicut Filio attribuitur sapientia, ita Spiritui Sancto largitas ; sed qui
+            attribueret Filio insipientiam, laberetur in haeresim : ergo qui attribuit Spiritui
+            Sancto avaritiam haereticus est. Sed qui credit dona Spiritus Sancti per pecuniam vendi
+            vel emi est huiusmodi, quia ponit Spiritum Sanctum esse venalem : ergo etc.</p>
+          <p xml:id="bb-d4e32232-d1e158">Contra : Nulla haeresis est in contractu, sed in credulitate ; sed simonia est in
+            contractu emptionis et venditionis : ergo non. videtur quod simoniacus fiat
+            haereticus.</p>
+          <p xml:id="bb-d4e32232-d1e161">Item, haeresis est peccatum in Filium et contra veritatem ; sed simonia peccat contra
+            Spiritus Sancti gratiam et bonitatem : ergo non videtur esse haereticus.</p>
+          <p xml:id="bb-d4e32232-d1e164">Item, non videtur labi in aliquod peccatum vendendo Spiritus Sancti donum, quia dicitur
+            1 Regum 9, 8 de Saul, et III Regum 14, 3 de uxore Ieroboam, quod utrique ad sanctos
+            Prophetas pretium detulerunt pro prophetica manifestatione ; et constans est prophetiam
+            donum ei esse : ergo etc.</p>
+          <p xml:id="bb-d4e32232-d1e167">Item, per Novum Testamentum, I ad Corinthios 9, 11 : <quote xml:id="bb-d4e32232-Qd1e169" ana="#Icor9_11">Si nos
+              vobis spiritualia seminamus, non est magnum, si carnalia vestra metamus</quote>. Ergo
+            licitum est pro spiritualibus carnalia accipi : non ergo videtur peccare.</p>
+          <p xml:id="bb-d4e32232-d1e174">Item, non videtur peccare qui emit, quia regnum caelorum, quod est supremum inter
+            omnia, vendi potest et emi, sicut dicit <name ref="#GregoryGreat">Gregorius</name> :
+              <quote xml:id="bb-d4e32232-Qd1e179">Regnum caelorum tantum valet, quantum habes</quote> : ergo etc.</p>
+          <p xml:id="bb-d4e32232-d1e183">Item, qui emit dat temporale pro spirituali, ergo carius habet spirituale quam carnale
+            : ergo non avertit se ab incommutabili bono, immo potius convertit : ergo non peccat,
+            quia <quote xml:id="bb-d4e32232-Qd1e185">peccatum est aversio ab incommutabili bono et conversio ad
+              commutabile</quote>.</p>
+        </div>
+        <div xml:id="bb-d4e32232-Dd1e190">
+          <head xml:id="bb-d4e32232-Hd1e192">Conclusio</head>
+          <head xml:id="bb-d4e32232-Hd1e195" type="question-title">Simoniacus non est proprie haereticus, nisi credat,
+            spiritualia esse venalia.</head>
+          <p xml:id="bb-d4e32232-d1e198">Respondeo : Dicendum quod sacri Ordines nec aliquid sacramentorum per pecuniam dari
+            potest sine gravi et enormi peccato, pro eo quod spirituale, quod ex sola liberalitate
+            pro sui dignitate dandum est, mercatur et facit vile ; rursus, quia illud quod erat
+            impretiabile , sub pretio ponit ; quod nullo modo potest fieri quin fiat contumelia
+            Spiritui Sancto : et ideo illud non tantum est malum in se, immo etiam secundum se.</p>
+          <p xml:id="bb-d4e32232-d1e201">Si autem tu quaeras a me, utrum sit peccatum in fide vel in moribus, dicendum quod ille
+            qui emit vel vendit huiusmodi spiritualia, aut credit ea pro pretio posse aestimari et
+            valori rei terrenae aequari et per pecuniam possideri ; et haec est haeresis manifesta,
+            et sic aestimavit Simon magus, Talis enim errat in fide, quia credit gratiam non esse
+            gratiam. Aut ille qui vendit et emit, non hoc credit quod gratia Dei per pecuniam
+            comparetur, sed tamen ardens avaritia nititur aliquid assequi vel impetrare per
+            pecuniam, quod ad humanam spectat dispensationem ; et sic non est peccatum fidei, sed
+            morum, quoniam talis peroptime novit et male facit ; sicut et ille qui fornicatur,
+            sciens fornicationem esse peccatum, non errat in fide, sed in via morum. Et sic
+            simoniacus est avarus et in pessima specie avaritiae, nec est haereticus proprie, sed
+            tamen a sanctis haereticus vocatur, sive quia ad modum haeretici operatur, sive quia ut
+            haereticus proicitur a Dei servitio et cultu propter enorme scelus.</p>
+        </div>
+        <div xml:id="bb-d4e32232-Dd1e206">
+          <head xml:id="bb-d4e32232-Hd1e208">Ad rationes</head>
+          <p xml:id="bb-d4e32232-d1e211">Et sic patet quomodo respondendum sit ad illud quod obiciebatur, quod simoniacus non
+            sit haretitus ; patet etiam quod ad utramque partem obicitur.</p>
+          <p xml:id="bb-d4e32232-d1e214">Ad illud vero quod obicitur, quod non sit peccatum vendere exemplo Prophetarum,
+            dicendum quod nullus Propheta donum vendidit prophetiae, qui esset bonus et sanctus, sed
+            solum mali, sicut expresse reprehenduntur tales in Michaeae 3, 11-12 : Iudices eius in
+            muneribus iudicabant, et sacerdotes eius in mercede docebant, et Prophetae eius in
+            pecunia divinabant ; et infra : Propter hoc causa vestri Sion quasi ager arabitur
+            etc.</p>
+          <p xml:id="bb-d4e32232-d1e217">Ad illud quod obicitur de uxore Ieroboam et Saul, dicendum quod nunquam legitur quod
+            illi Prophetae aliquid recepissent ; sed ignoranter illi dicebant, quia morem istum
+            accipere consueverunt quodam modo a divinis hariolis, qui non erant prophetae veri.</p>
+          <p xml:id="bb-d4e32232-d1e220">Ad illud quod obicitur, quod seminans spiritualia potest metere carnalia, dicendum
+            quod, si propter hoc seminat ut illa metat finaliter, maxime si pactio interveniat, non
+            est iustitia, immo malitia et avaritia ; quodsi hoc non intendit principaliter, immo
+            carnalia metit ut se, sustentet et spiritualia seminet, nulla est avaritia, nulla
+            mercatio, immo manifesta iustitia, sicut multiplici exemplo Apostolus, I ad Corinthios
+            9, 7 probat, quoniam talis debet sustentari. Unde ex hoc patet quod, si doctor et
+            consiliarius et medicus et alii qui laborant de consilio sive de dotrina, pretium
+            recipiant propter laborem et suam sustentationem, nulla est culpa, nulla est simonia. Si
+            tamen quis venderet donum sibi divinitus datum, non laborem suum, iudicaretur
+            simoniacus. Similiter intelligendum est de celebratione Missarum et consimilibus.</p>
+          <p xml:id="bb-d4e32232-d1e224">Ad illud quod obicitur, quod regnum caelorum emitur, dicendum quod emptio illa non est
+            emptio, pro eo quod pretium eius non est nisi bona voluntas, quae. mercedem non.intuetur
+            ; unde quamvis sine mercede non possit servire, tamen, quia liberaliter deservit, nulla
+            omnino pactio intervenit ; unde totum spirituale est.</p>
+          <p xml:id="bb-d4e32232-d1e227">Ad illud quod obicitur, quod se convertit ad bonum spirituale, dicendum quod, quamvis
+            se convertat, tamen convertit se inordinate ; et hoc est magis averti quam converti.
+            Exemplum huius est in Lucifero, qui ad Deum se convertens, volens ei aequari, magis
+            cecidit quam ascendit ; sic qui convertitur ad emendum donum Spiritus Sancti, magis a
+            Deo recedit quam ad eum accedit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

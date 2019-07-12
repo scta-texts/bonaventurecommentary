@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e25381">
+        <head xml:id="bb-d4e25381-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e25381-Hd1e111" type="question-title">Utrum claves dentur in Ordine sacerdotali.</head>
+        <div xml:id="bb-d4e25381-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e25381-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e25381-d1e119">Circa primum ostenditur quod in solo illo Ordine dentur. Primo auctoritate. <name ref="#Ambrose">Ambrosius</name>, in libro De paradiso, loquens de potestate ligandi et
+            solvendi, dicit : Ius hoc solis permissum est sacerdotibus.</p>
+          <p xml:id="bb-d4e25381-d1e125">Item, super illud : <quote xml:id="bb-d4e25381-Qd1e127">Tibi dabo claves</quote>, Glossa <name ref="#Jerome">Hieronymi</name> : <quote xml:id="bb-d4e25381-Qd1e133">Habent iudiciariam potestatem omnes Apostoli ; habet etiam
+              omnis Ecclesia in episcopis et presbyteris</quote>. Sed omnis episcopus est sacerdos :
+            ergo etc.</p>
+          <p xml:id="bb-d4e25381-d1e137">Item, ratione videtur, quia potestas clavis Apostolis data fuit, cum Dominus dixit
+            Ioannis 20 23 : <quote xml:id="bb-d4e25381-Qd1e139" ana="#io20_23">Quorum remiseritis peccata</quote> etc. Ergo illis
+            solis significatur haec potestas dari, quibus haec verba dicuntur ; haec autem non
+            dicuntur nisi solis sacerdotibus : ergo etc.</p>
+          <p xml:id="bb-d4e25381-d1e143">Item, omnis habens hanc potestatem mediator est, et omnis talis constituitur in his
+            quae sunt ad Deum, ut offerat dona et sacrificia pro peccatis. Ergo ad eum pertinet haec
+            potestas, ad quem pertinet sacrificium offerre ; sed hoc pertinet in Nova Lege et Veteri
+            ad solos sacerdotes : ergo etc.</p>
+          <p xml:id="bb-d4e25381-d1e147">Contra : <name ref="#Jerome">Hieronymus</name> : <quote xml:id="bb-d4e25381-Qd1e152">Ostiarii, inter bonos et malos
+              habentes iudicium, dignos recipiunt et indignas respuunt</quote>. Sed hoc est officium
+            clavium, sicut patuit in praecedentibus per <ref xml:id="bb-d4e25381-Rd1e155">Glossam Matthaei 16, 19</ref> : ergo
+            etc.</p>
+          <p xml:id="bb-d4e25381-d1e159">Item, ratione videtur, quia, si alicui competit dari claves, ei competit qui habet
+            officium ostiarii ; sed multo inferior sacerdotio est Ordo ille, immo primus inter
+            Ordines : ergo tunc videtur ei dari potestas clavium.</p>
+          <p xml:id="bb-d4e25381-d1e162">Item, exteriora quae sunt in Ordinibus sunt signa interiorum et spiritualium, quoniam
+              <quote xml:id="bb-d4e25381-Qd1e164">sacramentum est invisibilis gratiae visibilis forma</quote>. Ergo in illo
+            Ordine datur clavis spiritualis interius, in quo datur clavis materialis exterius :
+            ergo, cum iste sit Ordo ostiariorum, patet etc.</p>
+          <p xml:id="bb-d4e25381-d1e168">Item, in omni ordine est aliqua potestas spiritualis, et illa potestas ordinata est sub
+            sacerdotali per modum ministerii in Ordinibus inferioribus ; sed nos videmus in curia
+            regis et in curia Romana claves non dari principibus et consiliariis, sed clientibus et
+            ministris : ergo, cum magis competat hanc clavem dari in traditione aliorum Ordinum quam
+            sacerdotii, cum officium sacerdotis sit in praesentia Domini ministrare et gratissimum
+            ei sacrificium offerre, videtur etc.</p>
+          <p xml:id="bb-d4e25381-d1e171">Iuxta hoc quaeritur, cum detur novus usus ligandi et solvendi in dignitate episcopali,
+            cum etiam ibi tradatur potestas et auctoritas pontificalis, utrum tradatur ibi alia
+            clavis. Quod si verum esset, non ergo tantum sunt duae claves ; quod est contra
+            praedeterminata.</p>
+        </div>
+        <div xml:id="bb-d4e25381-Dd1e175">
+          <head xml:id="bb-d4e25381-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e25381-Hd1e180" type="question-title">Solis sacerdotibus et in ordine sacerdotali clavium potestas
+            confertur</head>
+          <p xml:id="bb-d4e25381-d1e183">Respondeo : Dicendum, sicut dicunt Sancti, et hoc etiam innuit ipse modus tradendi
+            Ordines, quod in Ordine sacerdotali clavium potestas confertur. Huius autem ratio est
+            divina institutio. Institutionis autem congruitatem videre possumus, quoniam harum
+            clavium conservator habet officium mediatoris et officium reconciliatoris. Mediator
+            autem est inter Deum et homines ; reconciliator vero reducendo ad Ecclesiam et
+            reconciliando Ecclesiae. Ad hoc autem ut possit esse mediator perfectus et competens
+            inter Deum et hominem, oportet quod posse habeat offerendi dona et sacrificia pro
+            peccatis, in quibus Deus placetur. Ad hoc quod possit reducere ad corpus Christi
+            mysticum, cuius caput est ipse Christus verus, ut recta sit et ordinata potestas,
+            oportet quod habeat posse conficiendi sanctissimum corpus Christi. Hoc autem ad solos
+            pertinet sacerdotes. Et ideo mirabilis Dei sapientia, ordinatissimo modo ordinans
+            ecclesiasticas potestates, hanc potestatem ligandi et solvendi solis sacerdotibus
+            commisit, et ita in Ordine sacerdotali dantur claves. Et quoniam episcopatus non dicit
+            novum Ordinem, sed quamdam Ordinis eminentiam, recte dicendum est in eo non dari novam
+            clavem, sed potestatem huiusmodi extendi et ampliari, ut sic pateat ultimo quaesitum.
+            Ampliatur autem potestas iurisdictionis ad corripiendum, in cuius signum baculus ei
+            traditur pastoralis.</p>
+        </div>
+        <div xml:id="bb-d4e25381-Dd1e187">
+          <head xml:id="bb-d4e25381-Hd1e189">Ad rationes</head>
+          <p xml:id="bb-d4e25381-d1e192">1-3. Ad illud ergo quod obicitur de ostiariis, quod habent iudicium, dicendum quod
+            habere iudicium et potestatem ad repellendum vel admittendum est dupliciter : vel ad
+            ipsa sacramenta et eorum efficaciam, ea quidem prout oportet administrando ; et hoc
+            quidem spectat ad claves caeli, et hae sunt claves de quibus loquimur. Alia est potestas
+            admittendi et repellendi ad locum vel ad loca sacramentorum, sicut est ecclesia ; et
+            haec spectat ad infimum Ordinem ; haec auteni non dicitur clavis caeli, sed magis
+            potestas quaedam respectu templi materialis, et ideo magis potest dici clavis
+            excubantium in custodiis sanctuarii. Et quamvis aliquo modo sit haec potestas
+            spiritualis, quia inest ratione officii et ordinat ad spirituale, tamen ex hoc non
+            dicitur clavicularius caeli nec ostiarius. Et per hoc patent duo sequentia de clavibus
+            et ostiario, quia aliam poteritiam significant, non illam quae praedicta est et de qua
+            nunc agitur.</p>
+          <p xml:id="bb-d4e25381-d1e195">Ad illud quod obicitur, quod ista potestas est personarum infimarum in curiis hominum,
+            dicendum quod non est simile, quia haec dicit proprie potestatem respectu hominum ostium
+            ingredientium, ex qua non acquirunt aliquam excellentiam ; sed potestas clavium est
+            potestas respectu ingredientium Ecclesiam et deinde caelum ; et ideo ille cui collata
+            est plena potestas, super omnes constitutus est, sicut beatus Petrus. Et quia principi
+            collata est primo haec potestas, patet quod nort vilitatis, sed maximae nobilitatis est,
+            et ideo nobilissimo Ordini competit et aptatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

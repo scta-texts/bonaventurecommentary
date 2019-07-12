@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e15916">
+        <head xml:id="bb-d4e15916-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e15916-Hd1e111" type="question-title">Utrum poenitentia sit virtus generalis an specialis.</head>
+        <p xml:id="bb-d4e15916-d1e114">Secundo quaeritur, utrum poenitentia sit virtus generalis an specialis.</p>
+        <div xml:id="bb-d4e15916-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e15916-d1e119">Et ostenditur, quod generalis: <name ref="#Augustine">Augustinus</name>, in libro De
+            quinque responsionibus : <quote xml:id="bb-d4e15916-Qd1e124">Poenitentia est quaedam res optima et perfecta ; omnes
+              defectus revocans ad perfectum</quote>. Sed alio habitu restauratur defectus
+            concupiscibilis et irascibilis : ergo poenitentia respicit omnes habitus. Sed hoc non
+            posset facere, si esset specialis virtus : ergo etc.</p>
+          <p xml:id="bb-d4e15916-d1e128">Item, ratione vipetur, quia eiusdem virtutis cuius est delectari in aliquo est tristari
+            et detestari oppositum ; sed continentiae est delectari de actu castitatis : ergo
+            eiusdem est detestari actum incontinentiae, et sic de aliis. Sed poenitens detestatur
+            omne peccatum : ergo etc.</p>
+          <p xml:id="bb-d4e15916-d1e131">Item, habitus cognoscuntur per actus et actus per obiecta. Sed obiectum. poenientiae
+            est peccatum in communi, quia ipsa omne peccatum detestatur et omne peccatum expellit :
+            ergo poenitentia est virtus generalis et communis.</p>
+          <p xml:id="bb-d4e15916-d1e134">Contra : Specialis virtutis est diligere bonum quia bonum, scilicet caritatis : ergo, a
+            simili, specialis virtutis est odire sive detestari malum quia malum ; sed hoc est
+            poenitentiae : ergo etc.</p>
+          <p xml:id="bb-d4e15916-d1e137">Item, specialis doni est refugere malum faciendum sive declinare a malo, ut timoris :
+            ergo specialis virtutis est refugere malum iam factum ; sed hoc est poenitentiae : ergo
+            etc.</p>
+          <p xml:id="bb-d4e15916-d1e141">Item, poenitentia ordinatur ad unum actum tantum liberi arbitrii, non ad omnes, quia
+            solum ad poenitere et dolere : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e15916-Dd1e145">
+          <head xml:id="bb-d4e15916-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e15916-Hd1e150" type="question-title">Poenitentia est virtus specialis</head>
+          <p xml:id="bb-d4e15916-d1e153">Respondeo : Dicendum quod hic fuit multiplex positio. Quidam enim voluerunt dicere quod
+            est virtus generalis et est pars iustitiae generalis, cuius est facere bonum et
+            declinare a malo. Unde sicut facere omne bonum est iustitiae generalis, sic declinare ab
+            omni malo facto est iustitiae generalis ; et hoc est poenitentiae ; et ideo poenitentia
+            et pars iustitiae generalis. Et quoniam iustitia generalis dicitur non per
+            praedicationem, sed per quamdam virtutum aggregationem, quia comprehendit multas
+            virtutes - sicut una vinea multas vites, ut dicit Chrysostomus, sic poenitentia
+            comprehendit omnes virtutes - quando poenitet de malo luxuriae, tangit chordam
+            continentiae ; quando de malo superbiae, chordam humilitatis ; ut sit venter
+            conscientiae resonans in fletu quasi cithara, secundum illud Isaiae 16, 11 : Venter meus
+            ad Moab quasi cithara sonabit ; quia si secundum omnes virtutes flenda sunt peccata
+            aliena, multo magis propria.</p>
+          <p xml:id="bb-d4e15916-d1e156">Sed haec positio non debet stare, quia, etsi poenitentia respiciat malum in communi,
+            tamen respicit sub propria ratione et habet actum specialem qui indiget virtute non
+            tantum praecipiente, sed eliciente ; ut sicut ita per zelum, quae detestatur omne
+            peccatum in proximo, est specialis virtus, quia respicit illud sub ratione digni poena ;
+            et obedientia specialis virtus, quia respicit exsequendum sub ratione mandati : sic
+            etiam poenitentia specialis virtus, quia respicit sub ratione mali proprii a se contra
+            Deum perpetrati, prout homo ex hoc dignus est puniri.</p>
+        </div>
+        <div xml:id="bb-d4e15916-Dd1e161">
+          <head xml:id="bb-d4e15916-Hd1e163">Ad rationes</head>
+          <p xml:id="bb-d4e15916-d1e166">Ad illud ergo quod obicitur in contrarium, quod effectum habet generalem, dicendum quod
+            illud est verum ratione connexionis virtutum, quia omnes defectus reparat ; et magis est
+            verum de ipsa quam de alia, quia aliorum actus est in formando, sed actus poenitentiae
+            in reformando.</p>
+          <p xml:id="bb-d4e15916-d1e169">Ad illud quod obicitur, quod eiusdem virtutis est gaudere de aliquo et de opposito
+            tristari, dicendum quod verum est imperative, sed non elicitive. Et hoc patet, quia
+            caritas dictat et imperat fugere peccatum ; sed tamen amor elicit motum fugae. Alterius
+            enim virtutis est imperare et alterius elicere, ut obedientia. dictat Deo obediendum in
+            hoc praecepto : Non moechaberis, et continentia elicit.</p>
+          <p xml:id="bb-d4e15916-d1e172">Ad illud quod obicitur de obiecto, dicendum quod, etsi non contrahatur ad speciale
+            peccatum, tamen illud considerat sub speciali et propria ratione, hoc est , in quantum a
+            se perpetratum et Dei offensivum, cui vult reconciliari et emendam facere ; ideo est
+            virtus specialis, quia virtus ponitur generalis vel specialis, non ratione obiecti, quod
+            est materiale, sed secundum quod habet rationem motivi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

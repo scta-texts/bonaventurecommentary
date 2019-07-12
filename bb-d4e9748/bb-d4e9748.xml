@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9748">
+        <head xml:id="bb-d4e9748-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e9748-Hd1e111" type="question-title">De duplici modo manducandi Eucharistiam.</head>
+        <p xml:id="bb-d4e9748-d1e114">Quantum ergo ad primum proceditur sic.</p>
+        <p xml:id="bb-d4e9748-d1e117">Quod duo debeant esse modi manducandi, scilicet sacramentalis et spiritualis, secundum
+          quod <name ref="#Lombard">Magister</name> dicit, ostenditur.</p>
+        <div xml:id="bb-d4e9748-Dd1e123" type="rationes-principales">
+          <p xml:id="bb-d4e9748-d1e125">Primo, auctoritate canonis Ioannis 6, 58 : <quote xml:id="bb-d4e9748-Qd1e127" ana="#io6_58">Qui manducat me vivit
+              propter me</quote>, hic tangitur modus spiritualis ; sed I ad Corinthios 11, 29 :
+              <quote xml:id="bb-d4e9748-Qd1e130" ana="#Icor11_29">Qui manducat indigne iudicium sibi manducat</quote>, et hic
+            tangitur alius modus, qui non est spiritualis : ergo manducatio corporis Christi
+            multiplex est.</p>
+          <p xml:id="bb-d4e9748-d1e134">Item, auctoritate <name ref="#Augustine">Augustini</name> : <quote xml:id="bb-d4e9748-Qd1e139">Spiritualiter
+              manducat qui in unitate Christi et Ecclesiae, quam sacramentum significat,
+              manet</quote> ; <quote xml:id="bb-d4e9748-Qd1e142">qui autem discordat a Christo nec carnem Christi manducat nec
+              sanguinem bibit, etiam si tantae rei sacramentum ad iudicium quotidie
+            accipit</quote>.</p>
+          <p xml:id="bb-d4e9748-d1e146">Item, hoc ipsum ostenditur ratione, quia, cum duae sint tantum res huius sacramenti, et
+            possibile sit unam accipere sine alia, ergo sunt duo modi distincti.</p>
+          <p xml:id="bb-d4e9748-d1e149">Item, manducatio dicit usum sacramenti : ergo, cum hic sit sacramentum interius et
+            exterius, patet quod sunt duae manducationes.</p>
+          <p xml:id="bb-d4e9748-d1e152">Contra : Videtur quod non nisi una, quia <quote xml:id="bb-d4e9748-Qd1e154">ubi unum propter alterum, ibi unum
+              tantum</quote>. Ergo, si sacramentalis est propter spiritualem vel ad spiritualem,
+            sicut signum ad signatum, ergo una tantum manducatio.</p>
+          <p xml:id="bb-d4e9748-d1e159">Item, caro Christi vere est cibus, ergo sicut lucis est illuminare, ita carnis illius
+            est cibare ; sed non corporaliter, ergo spiritualiter ; sed qui recipit sacramentaliter
+            recipit carnem, et sic cibatur spiritualiter : ergo unus tantum est modus manducandi,
+            scilicet spiritualis.</p>
+          <p xml:id="bb-d4e9748-d1e162">Item, ostenditur quod sint plures modi, quia, sicut dicitur supra, distinctione quarta,
+            quidam recipiunt in Baptismo rem tantum, quidam sacramentum tantum, quidam utrumque.
+            Ergo tres modi : eadem ergo ratione et hic sunt tres manducationes.</p>
+          <p xml:id="bb-d4e9748-d1e165">Item, triplex est unio : in natura, in fide et in caritate ; sed unioni fidei respondet
+            manducatio sacramentalis : ergo et unioni caritatis spiritualis : ergo erit tertius
+            modus respondens unioni in natura.</p>
+          <p xml:id="bb-d4e9748-d1e168">Item, triplex est in nobis virtus theologica, et quaelibet suo modo unit. Ergo, cum
+            aliquis modus manducandi respondeat fidei, aliquis respondebit spei.</p>
+        </div>
+        <div xml:id="bb-d4e9748-Dd1e173">
+          <head xml:id="bb-d4e9748-Hd1e175">Conclusio</head>
+          <head xml:id="bb-d4e9748-Hd1e178" type="question-title">Eucharistia duplici modo manductur scilicet sacramentaliter et
+            spiritualiter</head>
+          <p xml:id="bb-d4e9748-d1e181">Respondeo : Dicendum quod duplex est modus manducandi, cuius distinctio a triplici
+            oritur principio, videlicet a dispositione sumentium, quia quidam accedunt male
+            dispositi, et hi manducant sacramentaliter ; quidam bene, et hi spiritualiter. Ulterius
+            oritur dictinctio secundo a modo sumendi , quia quidam suscipiunt ore corporis, et hi
+            sacramentaliter ; quidam vero ore cordis, et hi spiritualiter ; unde secundum duplex os
+            duplex est manducatio. Tertio oritur ab ipso sacramento, quia duplicem habet rem, quarum
+            una potest recipi sine altera ; ita sicut duplex est Baptismus, scilicet fluminis et
+            flaminis a duplici re, sic etiam duplex modus manducandi. Et hoc ultimum est et
+            completum, quia una res potest sumi sine altera.</p>
+        </div>
+        <div xml:id="bb-d4e9748-Dd1e185">
+          <head xml:id="bb-d4e9748-Hd1e187">Ad ratoines</head>
+          <p xml:id="bb-d4e9748-d1e190">Ad illud ergo quod obicitur, quod ubi unum propter alterum, dicendum quod hoc verum
+            est, si sit ibi unum propter alterum quod non queat separari ; sed cum separatur, iam
+            non remanet unum.</p>
+          <p xml:id="bb-d4e9748-d1e193">Ad illud quod obicitur, quod caro semper cibat, dicendum quod actus ille semper
+            respicit dispositionem suscipientis, sicut illuminare ; unde sicut geminatur dispositio,
+            sic et modus manducandi.</p>
+          <p xml:id="bb-d4e9748-d1e196">Ad illud quod obicitur, quod tres sunt modi in Baptismo, et sic etc., dicendum quod
+            ille tertius modus non distinguitur nisi materialiter tantum ab aliis duobus.</p>
+          <p xml:id="bb-d4e9748-d1e199">Ad illud quod obicitur de unione naturae, dicendum quod manducatio respicit actum
+            personae, ideo secundum naturam non est manducatio, sed praesupponitur.</p>
+          <p xml:id="bb-d4e9748-d1e203">Ad illud quod obicitur de spe, dicunt quidam quod non unit, quia spes proprie est
+            futuri ; tamen dicendum quod istae manducationes non distinguuntur secundum virtutes
+            quia manducatio spiritualis est secundum fidem et caritatem sed secundum res sacramenti.
+            Unde omne sacramentum, quod quidem habet res duas, potest recipi sacramentaliter et
+            spiritualiter.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

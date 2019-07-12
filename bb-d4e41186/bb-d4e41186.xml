@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41186">
+        <head xml:id="bb-d4e41186-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e41186-Hd1e111" type="question-title">Utrum Summus Pontifex possit dispensare in voto.</head>
+        <p xml:id="bb-d4e41186-d1e114">Tertio quaeritur de obligatione voti in comparatione ad dispensationem, et quaeritur,
+          utrum Summus Pontifex possit dipensare in voto.</p>
+        <div xml:id="bb-d4e41186-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e41186-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e41186-d1e122">Et quod non, videtur : Quia Glossa super illud Psalmi [75, 12] : <quote xml:id="bb-d4e41186-Qd1e124" ana="#ps75_12">Vovete et reddite</quote> etc. : <quote xml:id="bb-d4e41186-Qd1e127">Reddere est necessitatis</quote> ; sed circa
+            ea quae sunt de necessitate salutis non potest dispensari : ergo etc.</p>
+          <p xml:id="bb-d4e41186-d1e131">Item, obligatio voti est secundum ius naturale ; quod patet, quia omni tempore cucurrit
+            ; sed Pontifex non potest in ea quae sunt iuris naturalis : ergo etc.</p>
+          <p xml:id="bb-d4e41186-d1e134">Item, <name ref="#Bernard">Bernardus</name> dicit : quaedam sunt praecepta moralia
+            primae tabulae ordinantia ad Deum ; quaedam secundae ordinantia ad proximum ; quaedam
+            superaddita, ut canonicae sanctiones et Patrum instituta. In primis non potest
+            dispensare nec homo nec Deus ; in secundis non homo, sed Deus ; in tertiis et homo et
+            Deus. Ratio autem huius est, quia praecepta primae tabulae immediate ordinant ad Deum.
+            Si ergo votum immediate ad Deum ordinat, videtur etc.</p>
+          <p xml:id="bb-d4e41186-d1e140">Item, qui non facit quod promittit, mentitur ; sed Papa non potest dispensare in
+            mendacio ; ergo nec in voto.</p>
+          <p xml:id="bb-d4e41186-d1e144">Item, quod non in voto continentiae specialiter, videtur : Ecclesiastici 26, 20 : Non
+            est digna ponderatio continentis animae. Si ergo continentia nullo modo potest
+            recompensari, patet etc.</p>
+          <p xml:id="bb-d4e41186-d1e147">Item, quod nec in voto paupertatis, videtur quia perfectius est pro Deo mendicare quam
+            continere. Ergo perfectius est votum paupertatis : ergo, si dispensare non potest in
+            voto continentiae, nec paupertatis.</p>
+          <p xml:id="bb-d4e41186-d1e150">Item, quod nec in voto obedientiae, videtur, quia hoc est perfectissimum, quia in
+            castitate vincit homo corpus suum, in paupertate mundum, in obedientia mactat homo se
+            ipsum. Ergo etc.</p>
+          <p xml:id="bb-d4e41186-d1e153">Sed contra : Quod possit in omni dispensare, videtur, quia votum unum non minus obligat
+            quam aliud ; sed potest dispensare in aliquo, utpote in voto peregrinationis et
+            abstinentiae : ergo et in omni.</p>
+          <p xml:id="bb-d4e41186-d1e156">Item, quod specialiter in voto continentiae, videtur, quia dispensatio locum habet, ut
+            dicit <name ref="#Bernard">Bernardus</name>, ubi cadit necessitas vel communis utilitas
+            ; sed possibile est quod aliquis ex defectu mulieris incurrat periculum mortis ; sicut
+            dicitur de rege Ludovico ; sed possibile est quod omnes moriantur qui possunt generare ;
+            solo eo remanente qui vovit et remanente Papa et muliere : ergo, si necessitas est
+            conservationis speciei, in casu isto posset contrahere.</p>
+          <p xml:id="bb-d4e41186-d1e162">Item, possibile est ex Matrimonio pacem Ecclesiae dari, quae est communis utilitas ;
+            sed communis utilitas praeferenda est bono privato : ergo etc.</p>
+          <p xml:id="bb-d4e41186-d1e166">Item, quod in voto paupertatis, videtur, quia dispensare potest in voto abstinentiae ;
+            sed maius est carnem suam macerare quam divitias dimittere : ergo etc.</p>
+          <p xml:id="bb-d4e41186-d1e169">Item, quod in voto obedientiae, videtur, quia Summus Pontifex assumit de religionibus
+            ad dignitates et praelationes ; sed sic assumpti non tenentur obedire praelatis sui
+            ordinis quibus voverunt obedientiam : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e41186-Dd1e173">
+          <head xml:id="bb-d4e41186-Hd1e175">Conclusio</head>
+          <head xml:id="bb-d4e41186-Hd1e178" type="question-title">Votum potest dispensari a Summo Pontifice, prout dispensatio
+            dicit iuris declarationem, non autem, prout dicit iuris relaxationem</head>
+          <p xml:id="bb-d4e41186-d1e181">Respondeo : Dicendum quod dispensatio dicitur dupliciter : uno modo iuris relaxatio,
+            alio modo iuris declaratio. Dicunt ergo aliqui quod Papa potest in voto dispensare
+            secundum quod dispensatio est iuris relaxatio, eo quod eius auctoritas est circa
+            obligationem voti. Et rationem huius assignant, quia Papa est immediatus omnium
+            praelatus et ad ipsum spectat omnium ordinatio, maxime quantum ad ea.quae sunt
+            supererogationis. Et quia omnium voluntates eius subsunt auctoritati et dispositioni,
+            nullum votum aliter debet emitti nisi cum hac conditione, nisi dominus Papa de vovente
+            aliter duxerit disponendum ; et ideo nullus obligatur ad votum faciendum, cum Papa
+            aliter disponat ; quodsi illam conditionem non apponat, tamen non potest eam excludere.
+            Et ideo dicunt quod in omni voto potest dispensare et ab omni tali obligatione absolver.
+            Et ad omnes rationes respondent quod non est ibi obligatio absoluta, sed conditionata ;
+            et ideo dispensare potest, cum possit illam conditionem infringere, si sibi aliud de
+            vovente placet disponere. Sed cum illa quae Deus consulit facienda, et absque dubio bona
+            sunt, sine haesitatione totis visceribus amplectenda sint ; videtur etiam, cum Deus
+            voluerit unumquemque liberum esse, quod unusquisque sine conditione aliqua talia possit
+            et debeat vovere.</p>
+          <p xml:id="bb-d4e41186-d1e184">Et ideo alii dicunt quod Papa in nullo voto potest dispensare secundum quod dispensare
+            est iuris relaxatio, quia obligatio voti pendet ex iure divino, non humano, ex iure
+            naturali, non ex constitutione Patrum. Propterea Papa non habet posse nec auctoritatem
+            in votum relaxando ius, quia illud non est ei subiectum ; habet tamen potestatem quantum
+            ius sibi dat ; et ideo dispensare potest secundum quod dispensatio est iuris declaratio.
+            Et haec positio est rationabilior et securior est, quia magis per ipsam satisfit
+            conscientiae.</p>
+          <p xml:id="bb-d4e41186-d1e187">Ad intelligentiam eius est notandum quod ius obligationis voti constituitur ex duplici
+            iure naturali, ex hoc videlicet quod homo debet esse verax in promisso, et ex alio quod
+            nihil debet homo promittere nisi salva sua salute et divinae maiestatis honore. Ergo ex
+            iure naturali est, quod quis per votum non impediri debet quin facere possit sibi
+            utilius et Deo acceptabilius ; et ideo in omni voto quod recipit recompensationem
+            melioris boni, sive simpliciter sive pro loco et tempore, dominus papa, cuius est ius
+            dilucidare, potest dispensare.</p>
+          <p xml:id="bb-d4e41186-d1e191">Et in hoc communiter omnes conveniunt, sed diversificantur penes modum dispensandi.
+            Aliqui enim dicunt quod non est aliquod votum quod pro loco et tempore non recipiat
+            recompensationem ; ideo nullum est in quo non possit dispensare. Unde dicunt quod bono
+            continentiae praefertur bonum universalis Ecclesiae, ut pax ; et ideo in voto
+            continentiae, de quo minus videtur, potest fieri dispensatio, vel simpliciter vel ad
+            tempus, sicut etiam aliquando factum est.</p>
+          <p xml:id="bb-d4e41186-d1e194">Alii vero dicunt quod votum continentiae non recipit recompensationem, quia non est
+            digna ponderatio animae continentis, quando obtinetur victoria de domestico inimico ; in
+            omnibus aliis est recompensatio : ideo potest dispensare in omnibus, praeterquam in
+            hoc.</p>
+          <p xml:id="bb-d4e41186-d1e197">Tertii dicunt quod perfectioni religionis, quae est in imitatione Christi, nihil potest
+            aequari nec pro illa recompensari ; et illa substantialiter consistit in triplici voto,
+            scilicet continentiae, paupertatis et obedientiae : et ideo in his tribus non potest
+            dispensare. Perfectio enim consistit in assimilatione ad Christum maxime, sicut dicit
+              <name ref="#Augustine">Augustinus</name>, in libro De vera religione ; et quia in
+            nullo tantum assimilatur homo Christo sicut in his, nihil potest haec tria homini
+            recompensare, quoniam recompensatio non tantum aliorum respicit bonum, verum etiam
+            voventis, quoniam Deus vult quod magis sit unusquisque sollicitus de sua salute quam
+            aliorum.</p>
+          <p xml:id="bb-d4e41186-d1e203">Quae istarum trium opinionum sit verior, fateor me nescire et satis potest quaelibet
+            sustineri, ideo nullam assero. Si quis tamen velit hanc ultimam acceptare, non occurrit
+            ei inconveniens manifestum, ut dicatur, quia nec in omni nec in nullo, sed in quodam sic
+            et in quodam non.</p>
+          <p xml:id="bb-d4e41186-d1e206">Ad illud ergo quod obicitur, quod in nullo potest dispensare, dicendum quod illa
+            argumenta currunt secundum quod dispensatio est iuris relaxatio, et sic non potest ;
+            potest tamen secundum quod dispensatio est iuris declaratio, quia ius concedit votum non
+            teneri, cum potest recompensari ; et universaliter domini Papae est hoc ius interpretari
+            : et ideo in omnibus aliis ab his tribus potest dispensare.</p>
+        </div>
+        <div xml:id="bb-d4e41186-Dd1e211">
+          <head xml:id="bb-d4e41186-Hd1e213">Ad rationes</head>
+          <p xml:id="bb-d4e41186-d1e216">Ad illud quod obicitur, si potest in uno, et in omnibus, dicendum quod non est simile,
+            quia conditio recompensationis melioris non stat uniformiter in omnibus.</p>
+          <p xml:id="bb-d4e41186-d1e219">2-3. Ad illud quod obicitur, quod in voto continentiae potest cadere necessitas et
+            utilitas, dicendum quod non cadit ; et praeterea, cum certitudo cadit, non cadit
+            necessitas, quia nunquam est infirmitas a qua non possit quis nisi per coitum liberari.
+            Non cadit necessitas respectu speciei, qui nunquam erit aliquis solus. Non cadit ibi
+            maior utilitas facientis, et ibi non est, quia commutat meritum centesimi fructus in
+            meritum trigesimi. Praeterea, si totum hoc esset, incertum esset, quia nescitur utrum
+            infirmus coitu sanaretur ; nescitur utrum ex coitu aliquis generaretur ; nescitur etiam
+            utrum ex Matrimonio pax reformaretur ; et non est dimittendum certum pro incerto : ideo
+            non valet.</p>
+          <p xml:id="bb-d4e41186-d1e222">Ad illud quod obicitur, quod votum abstinentiae voto paupertatis est maius, dicendum
+            quod falsum est, quia exercitatio corporalis est ad modicum utilis, pietas autem valet
+            ad omnia, ut dicit Apostolus ; et summa pietas est quod omnia vendantur et dentur
+            pauperibus. Praeterea, difficilius est plures enim inveniuntur qui volunt ieiunare quam
+            qui volunt mendicare. Praeterea, ibi non tantum est abdicatio rei terrenae, sed etiam
+            voluntatis habendi ; unde pauperculus veniens ad religionem dimittit totum mundum
+            ratione voluntatis.</p>
+          <p xml:id="bb-d4e41186-d1e225">Ad illud quod obicitur de voto obedientiae, quod fit dispensatio in religiosis qui
+            promoventur, dicendum quod, licet in praelationibus non teneantur obedire et multa
+            habeant quae non licerent eis, si essent subditi, tamen in neutro voto est dispensatum.
+            Nam in voto paupertatis non dispensatur, quia non licet tali religioso habere proprium,
+            etiam si Papa dispenset ; sed tamen potest bona Ecclesiae dispensare, sicut abbas bona
+            monasterii, nec amittit meritum paupertatis ; sed est divitiarum non dominus, sed
+            dispensator, non amator, sed contemptor, non conservator, sed dispersor in pauperes.
+            Similiter in voto obedientiae non est dispensatum, quia omnem obedientiam, quam debebat
+            prius suo superiori, debet Papae ; et Papa a sua obedientia non potest eum absolvere ;
+            et in talibus meritum obedientiae commutatur in meritum pastoralis curae ; nec est
+            dispensatio, sed exemptio proprius debet dici.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

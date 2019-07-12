@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e31476">
+        <head xml:id="bb-d4e31476-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e31476-Hd1e111" type="question-title">Utrum psalmistatus sit Ordo.</head>
+        <p xml:id="bb-d4e31476-d1e114">Secundo quaeritur, utrum psalmistatus sit Ordo.</p>
+        <div xml:id="bb-d4e31476-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e31476-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e31476-d1e122">Et quod sic, videtur : <ref xml:id="bb-d4e31476-Rd1e124" target="http://scta.info/resource/gd-p1d21-d1e123">Distinctione 21 : Cleros et clericos</ref>, et infra : <quote xml:id="bb-d4e31476-Qd1e127" source="http://scta.info/resource/wer3fe-d1e119"><!-- quote is from <name ref="#IsidoreOfSeville">Isidore</name> VII, etymologies, c. 12; also appears in Lombard: http://scta.info/resource/pl-l4d24c4-d1e139 -->Generaliter
+              clerici dicti sunt omnes qui in Ecclesia Christi deserviunt, quorum gradus et nomina
+              haec sunt : ostiarius, psalmista et lector</quote> etc. ; et iterum, <ref xml:id="bb-d4e31476-Rd1e131" target="http://scta.info/resource/http://scta.info/resource/gd-p1d25-d1e120">distinctione 25, Perlectis</ref>, et infra, ubi enumerat officium psalmistae inter
+            alios ; et hoc expresse dicit <ref xml:id="bb-d4e31476-Rd1e134" target="http://scta.info/resource/wer3fe-d1e119">Isidorus, VII libro Etymologiarum</ref>.</p>
+          <p xml:id="bb-d4e31476-d1e138">Item, ratione videtur hoc ipsum probati, quia prophetia Psalmorum non est minus nobilis
+            quam aliae : ergo sicut est. Ordo in Ecclesia deputatus ad recitandum alias prophetias,
+            scilicet Ordo lectoris, ita videtur quod debeat aliquis Ordo ordinari ad recitandum
+            Psalmos ; sed iste est psalmistae : ergo etc.</p>
+          <p xml:id="bb-d4e31476-d1e141">Item, nobilius et dignius officium est Psalmos in Ecclesia recitare quam sit ostia
+            custodire : ergo si Ordo deputatus est ad illud officium, multo fortius videtur quod ad
+            dicendum Psalmos.</p>
+          <p xml:id="bb-d4e31476-d1e144">Contra : <ref xml:id="bb-d4e31476-Rd1e146" target="http://scta.info/resource/gd-p1d77-d1e123">Distinctione 77 :
+              Illud nos</ref>, et infra : <quote xml:id="bb-d4e31476-Qd1e149">Si quis episcopus esse meretur, sit primum
+              ostiarius, deinde lector, postea exorcista, deinde sacretur acolythus, deinde vero
+              subdiaconus, deinde diaconus ; postea presbyter</quote>. Hic sufficienter gradus et
+            Ordines distinguuntur, et non ponitur Ordo psalmistae : ergo etc.</p>
+          <p xml:id="bb-d4e31476-d1e154">Item, omnes Ordines, sicut melius patebit, ab episcopo dantur, non a simplici sacerdote
+            ; sed psalmistatus datur a simplici sacerdote ; unde distinctione 23 : Psalmista potest
+            absque scientia episcopi sola iussione presbyteri officium suscipere cantandi.</p>
+          <p xml:id="bb-d4e31476-d1e157">Item, ad illud quod communiter spectat ad totum chorum, non debet aliquis Ordo ordinari
+            specialiter ; sed psalmodia spectat ad omnes qui sunt in choro et cantus antiphonarum et
+            responsoriorum : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e31476-Dd1e161">
+          <head xml:id="bb-d4e31476-Hd1e163">Conclusio</head>
+          <head xml:id="bb-d4e31476-Hd1e166" type="question-title">Psalmistatus proprie non est ordo, sed officium ordini
+            annexum</head>
+          <p xml:id="bb-d4e31476-d1e169">Respondeo : Dicendum quod psalmistatus proprie non est Ordo, sed officium Ordini
+            annexum. Et ratio huius est, quia non dicit officium cui debeat specialis gradus Ordinis
+            deputari, sed solum est annexum Ordini. Psalmista enim et cantor pro eodem reputantur,
+            sicut patet ex his quae dicuntur distinctione 23 : Psalmista, id est cantor etc.
+            Psalmistae enim est non solum Psalmos cantare, sed etiam alios cantus harmonicos
+            lectionibus interserere ; et hoc ut audientium corda excitentur ad Dei laudem et ad
+            eruditionem lectoris et non afficiantur taedio in auditu verbi divini. In hoc ergo quod
+            est ad laudem Dei, cum illud sit omnium fidelium et communiter insimul, non oportet ad
+            hoc Ordinem deputari. In hoc enim quod excitat corda ad eruditionem et ad percipiendum
+            sensum quem praedicat lector, est officium annexum Ordini lectoris. Et sic patet quod
+            stricte accipiendo Ordines et gradus, psalmistatus non debet inter Ordines computari ;
+            sed si largius extendatur nomen Ordinis ad officium etiam annexum Ordini et quod
+            specialiter et principaliter convenit ordinatis, sic psalmistatus potest inter Ordines
+            computari, et ita accipit <name ref="#IsidoreOfSeville">Isidorus</name>. </p>
+        </div>
+        <div xml:id="bb-d4e31476-Dd1e177">
+          <head xml:id="bb-d4e31476-Hd1e179">Ad rationes</head>
+          <p xml:id="bb-d4e31476-d1e182">Et per hoc patent auctoritates inductae ad hoc quod sit Ordo ; loquuntur enim secundum
+            hanc viam.</p>
+          <p xml:id="bb-d4e31476-d1e185">Ad illud vero quod obicitur, quod prophetia Psalmorum est dignior vel aeque digna,
+            dicendum quod digna est quantum ad intellectum et sensum ita sicut aliae. Sed quia
+            psalmista non tantum erudit per sensum verborum, quantum etiam excitat mentes per cantum
+            musicorum et per emissionem vocum resonantium, et hoc competit multitudini, alias vero
+            prophetias competit uni recitare, cui alii sint intenti : ideo oportet illum qui legit
+            esse provectiorem, non ratione eius qod recitatur, sed ratione inodi recitandi. Et sic
+            patet illud.</p>
+          <p xml:id="bb-d4e31476-d1e188">Ad illud quod obicitur de custodia ostiorum et psalmodia, dicendum quod maioris
+            auctoritatis et dignitatis est excludere indignos et admittere dignos ad divinum
+            officium quam interesse et Psalmos cantare, pro eo quod primum dicit quamdam
+            auctoritatem et potestatem, nec competit alicui nisi detur ab eo qui habet auctoritatem
+            eminentem, scilicet ab episcopo. Sed psalmodia respicit scientiam et vocem ; et qui
+            habet haec sine donatione auctoritatis, potest hoc facere sola iussion sacerdotis, ut
+            praedictum est. Quamvis ergo istud officium maius videatur, tamen si consideratur
+            auctoritas utrobique, illud est maius quam hoc.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

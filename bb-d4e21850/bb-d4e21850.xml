@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e21850">
+        <head xml:id="bb-d4e21850-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e21850-Hd1e111" type="question-title">Utrum confessio necessario sequatur iustificationem.</head>
+        <p xml:id="bb-d4e21850-d1e114">Quarto quaeritur, utrum confessio necessario sequitur iustificationem.</p>
+        <div xml:id="bb-d4e21850-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e21850-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e21850-d1e122">Et quod sic, videtur. Quia iste peccator tenetur confiteri ; sed constat quod gratia
+            non absolvit ipsum a praecepto confessionis : ergo post gratiam susceptam adhuc
+            tenetur.</p>
+          <p xml:id="bb-d4e21850-d1e125">Item, contritus et confessus tenetur satisfacere ; sed concessio non absolvit a
+            satisfactione, quae est posterior ipsa : ergo nec contritio a confessione. Sed contritus
+            est iustificatus : ergo iustificatus tenetur confiteri.</p>
+          <p xml:id="bb-d4e21850-d1e128">Item, Dominus praecepit poenitentiam agere, Matthaei 4, 11 ; sed in perfectione
+            poenitentiae sunt ista tria, scilicet <quote xml:id="bb-d4e21850-Qd1e130" source="http://scta.info/resource/pl-l4d16c1-d1e140">contritio, confessio, et
+              satisfactio</quote>, sicut dicit <ref xml:id="bb-d4e21850-Rd1e133">Magister in littera, supra, distinctione decima
+              sexta, in principio</ref> ; ergo non implet homo praeceptum nisi confiteatur : ergo
+            tenetur homo confiteri quantumcumque iustificatus.</p>
+          <p xml:id="bb-d4e21850-d1e137">Item, iustificationi necessarium est propositum confitendi ; sed propositum aut desinit
+            esse efficax aut exit in actum, cum se offerunt tempus et locus. Sed, proposito
+            confitendi desinente, desinit aliquis esse iustus ; et necesse est non esse propositum
+            efficax vel hominem confiteri : ergo vel necesse est quod post iustificationem homo
+            confiteatur vel quod a iustitia cadat.</p>
+          <p xml:id="bb-d4e21850-d1e141">Contra : Qui habet iustitiam habet omne quod ad salutem est necessarium ; sed omnis
+            iustificatus habet iustitiam : ergo habet omne quod ad salutem est necessarium. Si ergo
+            confessio non est necessaria ad iustificationem, nec post iustificationem est necessaria
+            ad salutem : ergo iustificatus ad confessionem non tenetur.</p>
+          <p xml:id="bb-d4e21850-d1e144">Item, si iustificatus tenetur ad confessionem, aut ergo propter deletionem culpae, aut
+            propter deletionem poenae ; non culpae, quia culpa iam deleta est ; non poenae, quia
+            tanta potest esse contrition quod delet totam poenam ; et si aliquod residuum est,
+            potest deleri per satisfactionem exteriorem : ergo nullo modo tenetur.</p>
+          <p xml:id="bb-d4e21850-d1e147">Item, duplex est forum, scilicet forum Dei et forum Ecclesiae ; secundum forum Dei
+            punitur quis in purgatorio multo gravius quam in hoc mundo ; secundum forum Ecclesiae in
+            hac vita ; sed potest quis renuntiare iudicari in foro minori, ut transferat se ad forum
+            maius : ergo aliquis licite post contritionem potest exspectare poenam purgatoriam :
+            ergo non tenetur iudicari in foro Ecclesiae : ergo nec confiteri.</p>
+          <p xml:id="bb-d4e21850-d1e150">Item, ponatur quod aliquis conteratur et nihil cogitet de confessione, constans est
+            quod iste habet gratiam ; et non omittit : ergo non cadit a gratia, quia non intervenit
+            contemptus ; ergo quamdiu non cogitat, non peccat. Esto quod sic moriatur, constat quod
+            salvatur, etiam sine confessione : ergo etc. Et ad hoc sunt multae auctoritates quas
+            adducit <name ref="#Lombard">Magister</name> in littera.</p>
+          <p xml:id="bb-d4e21850-d1e156">Respondeo : Dicendum quod confessio est instituta sub praecepto, sieut melius patebit
+            infra ; et ideo, quia ab hoc praecepto peccans per susceptionem gratiae non absolvitur,
+            adhuc confiteri tenetur ; et ideo, si non confitetur, cadit a iustitia. Sicut enim
+            nullus potest iustificari qui sacramenta contemnat, sic nullus in iustitia perseverat,
+            si post iustificationem ex contemptu negligat confiteri. Et ideo, si potest confifori et
+            non curat, cadit a iustitia, cum cadit a proposito confitendi, sine quo iustificari non
+            poterat. Concedendum ergo quod confessio post iustificationem est necessaria necessitate
+            praecepti, a qua tamen excusat impossibilitas. Unde et rationes ad banc partem sunt
+            concedendae.</p>
+        </div>
+        <div xml:id="bb-d4e21850-Dd1e160">
+          <head xml:id="bb-d4e21850-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e21850-Hd1e165" type="question-title">Confessio etiam post iustificationem est necessaria
+            necessitate praecepti, a qua tamen impossibilitas excusat</head>
+          <p xml:id="bb-d4e21850-d1e168">Ad illud ergo quod obicitur : qui habet iustitiam habet omne quod necessarium est ad
+            salutem, dicendum quod verum est, si perseveret in illa ; sed, quamvis sine confessione
+            possit quis iustitiam adipisci, tamen in illa non potest diu permanere sine confessione
+            quin omittat. Non solum autem sunt necessaria ad salutem illa quae necessario
+            requiruntur ad iustitiae adeptionem, verum etiam illa quae requiruntur ad habitae
+            conservationem.</p>
+          <p xml:id="bb-d4e21850-d1e171">Ad illud quod obicitur : aut est necessaria propter deletionem culpae etc., dicendum
+            quod. ista non est ratio, sed institutio. Quia enim confessio instituta est sub
+            praecepto, ideo nemo absolvitur, sed quilibet tenetur, quantumcumque poena et culpa
+            deleatur. Valet tamen ad deletionem culpae quantum ad eos qui se non paraverunt
+            sufficienter omnino, et etiam poenae quantum ad alios, et ad multas utilitates, sicut
+            infra melius apparebit, propter quod eam Dominus instituit.</p>
+          <p xml:id="bb-d4e21850-d1e174">Ad illud quod obicitur de duplici foro, dicendum quod poenitens, quamdiu est in hac
+            vita, subiectus est foro Ecclesiae, ita quod ab ipso non potest appellare. Praeterea,
+            fecit iniuriam Ecclesiae, et ideo, si potest comparere, tenetur, nisi per
+            impossibilitatem excusetur. Nemo enim ad forum purgatorii admittitur qui forum Ecclesiae
+            contempsit, cum in nullo fiat iniuria peccatori, sed in utroque iustitia.</p>
+          <p xml:id="bb-d4e21850-d1e178">Ad illud quod obicitur de illo qui nihil cogitat, dicendum quod hoc potest esse duplici
+            ex causa : vel propter intensionem doloris, vel propter occupationem superfluae
+            sollicitudinis. Quantum ad primum, quia Dominus cor eius occupavit, si non fuit mora
+            superflua nec indiscretio aliqua, credo quod Dominus absolvit et voluntatem pro opere
+            computat ; et computatur iste cum illis qui excusantur propter impossibilitatem,
+            habentes devotionem in sacramento. Si autem non cogitat nec curat, aliis
+            sollicitudinibus occupatus, maxime si locum et tempus habuit confitendi ore, tunc non
+            excusatur, immo ob peccatum omissionis reputabitur reus mortis, maxime si non fuerit sic
+            morte praeventus quin bene posset et deberet recogitare et petere sacramentum
+            Ecclesiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

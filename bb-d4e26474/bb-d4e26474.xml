@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e26474">
+        <head xml:id="bb-d4e26474-Hd1e108">Dubia</head>
+        <div xml:id="bb-d4e26474-Dd1e111">
+          <head xml:id="bb-d4e26474-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-d4e26474-d1e116">In parte ista sunt dubitationes circa litteram. Et primo dubitatur de hoc quod dicit
+              <name ref="#Augustine">Augustinus</name> : Si sic agis, dico tibi quia securus es etc.
+            Videtur enim male dicere, quia nemo scit utrum timore an odio dignus sit. Ergo nemo
+            securus est.</p>
+          <p xml:id="bb-d4e26474-d1e122">Respondeo : Dicendum quod duplex est certitudo, scilicet scientiae et coniecturae.
+            Certitudinem scientiae nemo habet nisi per revelationem, certitudinem autem coniecturae
+            habet qui sanus poenitet, cum ei prospera arrident ; tunc signum est quod dolor suus est
+            ex Dei gratia, non ex affectione terrena. Utraque harum certitudinum caret qui in fine
+            poenitet sera poenitentia, quia magis habet rationem ad oppositum quam ad
+            propositum.</p>
+        </div>
+        <div xml:id="bb-d4e26474-Dd1e126">
+          <head xml:id="bb-d4e26474-Hd1e128">Dub. II</head>
+          <p xml:id="bb-d4e26474-d1e131">Item quaeritur de hoc quod dicit : Cum, in quacumque die invocetur Deus, adsit. Videtur
+            enim hoc esse contra illud Michaeae 3, 4 : <quote xml:id="bb-d4e26474-Qd1e133" ana="#mich3_4">Tunc clamabunt, et non
+              exaudiam</quote> ; et Glossa super illud : clamabunt, scilicet sera poenitentia,. Ergo
+            videtur quod Dominus non semper adsit.</p>
+          <p xml:id="bb-d4e26474-d1e137">Respondeo : Dicendum quod invocatio potest venire ex duplici principio, scilicet ex
+            timore poenae vel ex amore divinae misericordiae. Primum est servitutis, et hanc in
+            vocationem Dominus non exaudiet ; secundum est filiationis et veritatis, et hanc
+            invocationem exaudit, secundum illud Psalmi [114, 18] : <quote xml:id="bb-d4e26474-Qd1e139" ana="#ps114_18">Prope est
+              Dominus omnibus invocantibus eum, omnibus invocantibus eum in veritate</quote>.</p>
+        </div>
+        <div xml:id="bb-d4e26474-Dd1e144">
+          <head xml:id="bb-d4e26474-Hd1e146">Dub. III</head>
+          <p xml:id="bb-d4e26474-d1e149">Item quaeritur de hoc quod dicit : Arbitrii libertatem quaerit Deus, ut delere possit
+            commissa. Videtur enim non bene dicere, quia Deus potest iustificare hominem etiam
+            dormientem, sicut illustravit Salomonem etiam in somnis, quando non est usus liberi
+            arbitrii. Item, libertas arbitrii durat quamdiu homo vivit, secundum possibilitatem ad
+            meritum et demeritum, secundum impossibilitatem ad coactionem. Semper ergo, quocumque
+            modo intelligat de arbitrii libertate, non videtur verum quod dicit.</p>
+          <p xml:id="bb-d4e26474-d1e152">Respondeo : Dicendum quod hic appellat <name ref="#Augustine">Augustinus</name>
+            arbitrii libertatem non ipsam potentiae facultatem, sed expeditionem, secundum quam
+            dicitur libere facere, quando non habet retardationem ; hoc autem requiritur quantum ad
+            bene esse conversionis. Hoc autem frequenter non habetur in morte, pro eo quod anima
+            adeo intenta est dolori mortis et aegritudinis, quod minus potest ad se ipsam redire et
+            cogitare quae spectarerit ad hoc ut haberet aliquis sufficiens remedium verae
+            poenitentiae. Verumtamen littera videtur loqui de tempore post mortem, in quo non solum
+            difficile, sed etiam impossibile est salvari decedentem in peccato ; non quia hoc non
+            possit divina potentia, sed iuste et rationabiliter oppositum decrevit divina iustitia ;
+            et si alicui unquam post mortem dedit gratiam, intelligendum est quod ille non erat
+            damnatus per sententiam, sicut legitur de Traiano : Aliqui etiam dicere voluerunt quod
+            hoc privilegium speciale fuit, ut Dominus ostenderet quantum Sanctos suos diligeret.</p>
+        </div>
+        <div xml:id="bb-d4e26474-Dd1e159">
+          <head xml:id="bb-d4e26474-Hd1e161">Dub. IV.</head>
+          <p xml:id="bb-d4e26474-d1e164">Item quaeritur de hoc quod dicit, quod iste ignis purgatorius non est aeternus. Videtur
+            enim falsum, quia ignis conflagrationis, qui exuret faciem mundi ; non peribit omnino,
+            sed reprobos involvet. Ego multo fortius videtur quod iste ignis in aeternum duret.</p>
+          <p xml:id="bb-d4e26474-d1e167">Respondeo : Dicendum quod non loquitur de duratione sive aeternitate istius ignis
+            quantum ad substantiam, sed quantum. ad officium sive quantum ad actum puniendi sive
+            purgandi bonos. Si enim remanet ad actum aliquem, secundum id quod habet ardoris erit ad
+            reproborum. concremationem, non ad purgationem.</p>
+        </div>
+        <div xml:id="bb-d4e26474-Dd1e172">
+          <head xml:id="bb-d4e26474-Hd1e174">Dub. V.</head>
+          <p xml:id="bb-d4e26474-d1e177">Item quaeritur de verbo Apostoli quod est in littera : Horrendum est incidere in manus
+            Dei viventis. Videtur enim. contrarium dici II Regum ultimo, 14 : Melius est mihi
+            incidere : in manus Dei quam in manus hominum. Item, Deus est misericordissimus ; sed in
+            manus misericordioris melius est incidere : ergo etc.</p>
+          <p xml:id="bb-d4e26474-d1e180">Respondeo : Dicendum quod duplex. est status : unus in quo sceptrum habet misericordia,
+            et hic est status vitae praesentis, pro quo dictum est : Melius est incidere in manus
+            Dei. Alius est status, in quo sceptrum habet iustitia, et hic est status vitae futurae
+            et pro hoc dicitur : Horrendam est incidere etc., quia cum Deus sit misericordissimus,
+            et ideo plus impendat quam humana mens possit aestimare : cum sit et similiter
+            iustissimus ; quamvis non sit ita pronus, adeo tamen graviter punit quod horribile est
+            cogitare.</p>
+        </div>
+        <div xml:id="bb-d4e26474-Dd1e184">
+          <head xml:id="bb-d4e26474-Hd1e186">Dub. VI.</head>
+          <p xml:id="bb-d4e26474-d1e189">Item, quaeritur de hoc quod dicit, quod quaedam peccata mortalia in poenitentia fiunt
+            venialia. Videtur enim dicere falsum, quia mortale in poenitentia omnino deletur : ergo
+            omnino desinit esse : ergo non transit in aliud peccatum : ergo non fit veniale.</p>
+          <p xml:id="bb-d4e26474-d1e192">Respondeo : Dicendum quod in mortali duo sunt : et macula et reatus sive obligatio ad
+            poenam. Cum ergo deletur mortale, macula omnino desinit nec in aliud transit : sed
+            reatus poenae manet alteratus, quia primo erat ad mortem aeternam, sed modo est ad
+            poenam temporalem.</p>
+          <p xml:id="bb-d4e26474-d1e195">Sed quomodo intelligemus quod iste reatus fiat ille ? Notandum est hic quod aliqui
+            voluerunt dicere quod idem reatus erat, sed minoratus sive diminutus. Dixerunt enim
+            quod, cum Deus dimittit culpam, non dimittit eam secundum id quod est, sed solum
+            secundum rationem dispositionis, quae est aeternitas : unde prior obligatio ad poenam
+            manet ; sed, quia Dominus remisit aeternitatem, iam est solum ad poenam temporalem, ita
+            quod idem reatus est qui tunc erat et nunc ; et pro tanto recte dicitur mortale fieri
+            veniale. Sed illud non est multum bene intelligibile, pro eo quod aeternitas non est
+            dispositio poenae, sed magis mensura ; et mensura durationis inseparabiliter adhaeret ei
+            quod mensurat, ut, si aliqua actio sit in A, impossibile est quod illa eadem fiat in B.
+            Et ideo intelligendum quod novus est reatus, et primus reatus commutatur et culpa
+            totaliter dimittitur ; et ideo, si mortale dicatur fieri veniale quantum ad reatum, non
+            est intelligendum per identitatem, sed per commutationem quam facit divina sententia.
+            Potest tamen dici quod mortale in poenitentia dicitur fieri veniale, quia ibi de eo
+            venia impetratur.</p>
+        </div>
+        <div xml:id="bb-d4e26474-Dd1e199">
+          <head xml:id="bb-d4e26474-Hd1e201">Dub. VII.</head>
+          <p xml:id="bb-d4e26474-d1e204">Item quaeritur de hoc quod dicit de impoenitente, quod si semper viveret, semper
+            peccaret. Si enim hoc verum est, tunc videtur quod quilibet impoenitens peccet
+            continue.</p>
+          <p xml:id="bb-d4e26474-d1e207">Respondeo : Semper peccaret, id est, in peccato perseveraret, et ideo semper debet
+            perseverare in poena. Alia est tamen ratio huius, sicut patebit infra, distinctione
+            quadragesima quarta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

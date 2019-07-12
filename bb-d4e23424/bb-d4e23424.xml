@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e23424">
+        <head xml:id="bb-d4e23424-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e23424-Hd1e111" type="question-title">Utrum oporteat confiteri omnem peccati mortalis
+          differentiam.</head>
+        <p xml:id="bb-d4e23424-d1e114">Secundo quaeritur, utrum sit confitenda omnis peccati mortalis differentia, scilicet
+          peccatum cordis, oris et operis, peccatum etiam latens vel manifestum.</p>
+        <div xml:id="bb-d4e23424-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e23424-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e23424-d1e122">Et quod omnem differentiam, videtur : Per decretalem, quae dicit cuilibet fideli :
+              <quote xml:id="bb-d4e23424-Qd1e124">Omnia solus peccata sua</quote> ; non dicit omnia quantum ad venialia : ergo
+            dicit omnia quantum ad mortalia.</p>
+          <p xml:id="bb-d4e23424-d1e128">Item, hoc videtur ratione, quia pro quolibet horum efficitur homo inimicus Dei et
+            separatur ab unitate Ecclesiae ; sed confessio ad hoc directe instituta est, ut homo
+            reconcilietur Ecclesiae et ostendatur reconciliatus Deo : ergo de omnibus tenetur
+            confiteri.</p>
+          <p xml:id="bb-d4e23424-d1e131">Item, pro omni differentia peccati mortalis punitur quis actualiter et aeternaliter et
+            condemnabitur ; sed pro omni eo, pro quo adducendus est homo in iudicium condemnationis,
+            necessario oportet adduci ante arbitrum Iesu Christi : ergo pro omni differentia
+            mortalis tenetur confiteri.</p>
+          <p xml:id="bb-d4e23424-d1e134">Item, peccatum gravius est dignum punitione ; sed peccatum cordis aliquando gravius est
+            quam peccatum operis in alio genere, ut haeresis quam fornicatio, similiter peccatum
+            apertum gravius quam occultum : si ergo oportet confiteri peccatum operis et oris,
+            videtur quod peccatum cordis similiter ; si peccatum latens, videtur multo fortiori
+            ratione quod et manifestum : ergo omnem peccati mortalis differentiam necesse est
+            confiteri.</p>
+          <p xml:id="bb-d4e23424-d1e138">Item, per omnem peccati mortalis differentiam naufragatur homo ; sed patiens naufragium
+            necesse habet ad tabulam recurrere ; et non potest ad Baptismum : ergo ad sacramentum
+            Poenitentiae. Sed sacramentum Poenitentiae in quantum sacramentum consistit in
+            confessione : ergo etc.</p>
+          <p xml:id="bb-d4e23424-d1e141">Contra : Sapientiae 11, 17 : <quote xml:id="bb-d4e23424-Qd1e143" ana="#sap11_17">Per quae peccat quis, per haec et
+              torquetur</quote>. Ergo, si aliquis solo corde peccat, in solo scilicet spiritu et non
+            in carne nec per organum oris ; ergo sola contritione est puniendus, non ergo
+            confessione : ergo non tenetur confiteri peccatum cordis.</p>
+          <p xml:id="bb-d4e23424-d1e147">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e23424-Qd1e152">Ubi peccatum oritur, ibi
+              peccatum moriatur</quote>. Ergo peccatum quod fuit in solo corde, ibi debet mori :
+            ergo non oportet quod exterius propaletur per verbum.</p>
+          <p xml:id="bb-d4e23424-d1e156">Item, in foro iudiciali ita est quod non adducuntur aliqua ad iudicium nisi quae aliquo
+            modo manifesta sunt ; unde Matthaei 18, 15 : <quote xml:id="bb-d4e23424-Qd1e158">Si peccaverit in te frater tuus,
+              corripe eum inter te et ipsum solum</quote>. Ergo videtur, quodsi peccatum in solo
+            corde fuit, cum nulli sit manifestum, quod non oporteat ad iudicium sacerdotale
+            deferre.</p>
+          <p xml:id="bb-d4e23424-d1e162">Item, quod solum peccatum latens sit confitendum, videtur : Quia <name ref="#Augustine">Augustinus</name>, definiens confessionem, dicitur quod <quote xml:id="bb-d4e23424-Qd1e167">confessio est per quam
+              morbus latens spe veniae aperitur</quote>.</p>
+          <p xml:id="bb-d4e23424-d1e171">Item, super illud Genesis 4, 10 : <quote xml:id="bb-d4e23424-Qd1e173" ana="#gen4_10">Vox sanguinis</quote> etc.,
+            Glossa : <quote xml:id="bb-d4e23424-Qd1e176">Evidentia patrati sceleris non indiget accusatore</quote> ; sed
+            confessio est accusatio, Proverbiorum 18, 11 : <quote xml:id="bb-d4e23424-Qd1e179" ana="#prov18_11">Iustus in
+              principio accusator est sui</quote> : ergo quando peccatum est evidens, non indiget
+            confessione.</p>
+          <p xml:id="bb-d4e23424-d1e184">Item, ideo fit confessio ut instruatur sacerdos de quantitate peccati ; sed non oportet
+            quando est publicum et notorium : ergo de aperto nullus debet nec tenetur confiteri.</p>
+        </div>
+        <div xml:id="bb-d4e23424-Dd1e188">
+          <p xml:id="bb-d4e23424-d1e190">Respondeo : Dicendum quod omnis peccati mortalis differentiam necesse est confiteri,
+            sive sit latens sive manifestum, sive sit cordis sive sit oris. Peccatum apertum oportet
+            confiteri duplici ex causa : una est a parte audientis, alia ex parte confitentis. Ex
+            parte audientis, quoniam, sicut est in iudicio forensi, quod iudex aliquid novit ut
+            privata persona, quod tamen non novit ut iudex, nec procedit ad sententiam quousque
+            innotescat ei ut iudici ; sic est in iudicio poenitentiali, quod sacerdos aliquid novit
+            ut homo, quod tamen non novit ut Deus, quia non est per testimonium conscientiae
+            accusatum, quae est testis divinus ; et quousque sic novit, non spectat ad ipsum nec
+            solvere nec ligare : ideo oportet quod ei confiteatur peccator, quantumcumque sit
+            publicum. Alia ratio est ex parte confitentis : quantumcumque enim aliquis ab aliquo
+            accusetur, nunquam propter hoc iustus dicitur sive iudicatur, sed magis iniustus ; sed
+            quando homo se ipsum, qui est dignus accusatione, accusat, tunc exercet opus iustitiae,
+            et ideo dicitur : Iustus in principio accusator est sui. Ut ergo quis iustificetur et
+            iustus esse comprobetur et dignus Ecclesiae reconciliatione, necesse est quod ipse se
+            accuset, quantumcumque eius peccatum sit publicum.</p>
+          <p xml:id="bb-d4e23424-d1e193">Oportet etiam peccatum cordis sive peccatum latens confiteri duplici ex causa similiter
+            : tum ex parte audientis tum ex parte confitentis. Ex parte sacerdotis, quoniam pro illo
+            debet ligare ad poenam et absolvere : certum enim est quod pro omni mortali meretur quis
+            poenam aeternam ; ideo satisfactio imponenda est secundum arbitrium sacerdotis : ideo
+            talis habet necesse confiteri ei scelus occultum, quia aliter ipse non novit Alia ratio
+            est ex parte confitentis, ut quae non erubuit intra thalamum cordis in conspectu divinae
+            praesentiae cogitare et velle et volendo consentire, tunc coram oculis sacerdotis
+            recitet cum rubore, ut, quae perpetravit inverecunde et verecundiam abiecit, nunc ex hoc
+            in conspectu hominis erubescat ; homo enim carnalis plus erubescit oculos hominis quam
+            Dei. Concedendae igitur sunt rationes quod differentiae omnis peccati mortalis
+            confitendae sunt.</p>
+        </div>
+        <div xml:id="bb-d4e23424-Dd1e198">
+          <head xml:id="bb-d4e23424-Hd1e200">Ad rationes</head>
+          <p xml:id="bb-d4e23424-d1e203">Ad illud ergo quod obicitur de Sapientiae 11, 11, dicendum quod tam verbum illud quam
+            verbum Chrysostomi et <name ref="#Augustine">Augustini</name> super hac materia
+            intelligendum est per appropriationem ; non enim intelligendum. est praecise per
+            veritatem. Peccator enim qui sola voluntate peccat, quae toti homini praesidet, totus
+            punitur, ita quod interius et exterius ; et ideo, si fiat emenda, totus homo debet eam
+            facere, et per omnes actus, scilicet cordis ; oris et manus.</p>
+          <p xml:id="bb-d4e23424-d1e209">Ad illud quod obicitur de <name ref="#Augustine">Augustino</name>, quod ubi oritur
+            etc., dicendum quod verbum illud intelligitur quantum ad progressum peccati, ut peccatum
+            non procedat, sed ubi oritur, ibi moriatur ; non intelligitur quantum ad emendam. Vel
+            dicendum quod illud est intelligendum de poenitentia respondente peccato publico et
+            occulto. De peccato enim publico publice est puniendum propter scandalum exstirpandum ;
+            et de occulta occulte coram unico sacerdote ; et illud videtur <name ref="#Lombard">Magister</name> dicere in littera.</p>
+          <p xml:id="bb-d4e23424-d1e218">Ad illud quod obicitur de foro iudicii, quod adducuntur manifesta, dicendum quod in
+            foro iudiciali, quod procedit secundum rigorem iustitiae ad condemnationem, alius est
+            actor, alius est reus, alius testis ; et ideo oportet quod pluribus sit notum illud de
+            quo quis accusatur. Sed in foro poenitentiali sacerdos tenet locum Dei, et confitens
+            tenet locum accusantis et accusati et testis. Nam ratio accusat voluntatem, testimonium
+            ferente conscientia ; et quia iste est testis privatus, quem nihil latet et de omni
+            occulta testimonium perhibet, ideo tali iudicio competit occulta iudicare.</p>
+          <p xml:id="bb-d4e23424-d1e221">Ad illud quod obicitur de manifesto, quod confessio est latentis peccati, per <name ref="#Augustine">Augustinum</name>, dicendum quod est peccati latentis illum cui
+            confitetur per modum iudicis. Vel dicendum quod peccatum omne in anima est quasi
+            apostema intrinsecum ; et quantumcumque homo peccet aperte, adhuc virtus peccati Iatet
+            in anima ; sed in confessione rumpitur vulnus et sanies peccati ad exteriora trahitur ,
+            ut dicit <name ref="#GregoryGreat">Gregorius</name> ; et hinc est quod omnis confessio
+            dicitur, per quam morbus latens spe veniae aperitur.</p>
+          <p xml:id="bb-d4e23424-d1e231">Ad illud quod obicitur de evidentia patrati sceleris etc., dicendum quod illud
+            intelligitur in foro iudiciali, quia factum illud exterius notum est et testibus non
+            eget, eo quod nulla possit tergiversatione celari ; sed non sic in foro poenitentiae :
+            creditur enim ibi testimonio solius conscientiae. Si enim conscientia testificetur nunc
+            contra hominem, in iudicio testificabitur pro homine ; alioquin semper erit testis
+            contrarius.</p>
+          <p xml:id="bb-d4e23424-d1e234">Ad illud quod obicitur, quod est ad sciendam quantitatem peccati, dieendum quod ista
+            non est tota ratio, immo rationes quae superius assignatae sunt ; et praeterea ad hoc
+            est ut sciat per modum iudicis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

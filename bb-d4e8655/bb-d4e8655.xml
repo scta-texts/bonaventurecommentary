@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e8655">
+        <head xml:id="bb-d4e8655-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e8655-Hd1e111" type="question-title">Utrum sacramentum Eucharistiae debuerit praefigurari.</head>
+        <p xml:id="bb-d4e8655-d1e114">Et quod hoc sacramentum sit praefiguratum, patet per illud Apostoli, I ad Corinthios 10 :
+            <quote xml:id="bb-d4e8655-Qd1e116" ana="#Icor10_3">Omnes eamdem escam spiritualem manducaverun</quote>t ; et post :
+            <quote xml:id="bb-d4e8655-Qd1e119" ana="#Icor10_11">Haec omnia contingebant illis in figura</quote>.</p>
+        <div xml:id="bb-d4e8655-Dd1e123" type="rationes-principales">
+          <head xml:id="bb-d4e8655-Hd1e125">Rationes principales</head>
+          <p xml:id="bb-d4e8655-d1e128">Et quod ita debuerit, apparet : Quia, si Lex Vetus fuit nobis futurorum figura, et quae
+            erant digniora magis debent praefigurari, cum hoc sacramentum sit dignissimum, maxime
+            debuit praefigurari.</p>
+          <p xml:id="bb-d4e8655-d1e131">Item, ratione alia ostenditur, quia congruum erat ut processus a tenebris ad lucem
+            fieret mediante umbra et figura, quia sicut natura non sustinet repentinas immutationes,
+            sic nec anima ; sed in hoc sacramento est ipsa lux praesens : ergo debuit
+            praefigurari.</p>
+          <p xml:id="bb-d4e8655-d1e134">Item, hoc sacramentum est difficillimum ad credendum ; sed ad difficilia paulative est
+            infirmus promovendus : ergo etc.</p>
+          <p xml:id="bb-d4e8655-d1e137">Contra : <quote xml:id="bb-d4e8655-Qd1e139" source="http://scta.info/resource/aristdp-d1e80">Mutationis non est
+              mutatio</quote> : ergo nec signi signum ; sed sacramentum hoc, eo ipso quod
+            sacramentum est, est signum et figura : ergo non debuit praesignari nec
+            praefigurari.</p>
+          <p xml:id="bb-d4e8655-d1e144">Item, Confirmatio et Extrema Unctio sunt Novae Legis sacramenta et non habent figuras
+            in Veteri, quia, si dicas de unctione regum, illud nihil est, quia illud speciale, hoc
+            universale. Ergo nec hoc debuit habere.</p>
+          <p xml:id="bb-d4e8655-d1e147">Item, Baptismus habuit figuram, quae non tantum fuit figura, sed etiam remedium, ut
+            puta circumcisionem ; sed nihil praecessit Sacramentum altaris, quod haberet eius
+            remedium : ergo hoc sacramentum est sine figura.</p>
+        </div>
+        <div xml:id="bb-d4e8655-Dd1e151">
+          <head xml:id="bb-d4e8655-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e8655-Hd1e156" type="question-title">Eucharistiae Sacramentum praefigurari conveniens fuit ratione
+            tum suae dignitatis, tum difficultatis in credendo</head>
+          <p xml:id="bb-d4e8655-d1e159">Respondeo: Dicendum quod istud sacramentum praefiguratum est et. praefigurari debuit
+            tum ratione suae dignitatis, tum ratione difficultatis : ratione dignitatis, quia
+            praedicandum et exspectandum erat sicut donum Dei excellentissimum ; ideo figurae huius
+            sacramenti praeire debuerunt, et in quibus refocillaretur exspectatio fidelium et
+            dignitas huius sacramenti famosior ostenderetur ; unde figurarum praemissio non fuit
+            aliud quam famae eius divulgatio. Ratione difficultatis, quia hoc inter sacramenta
+            cetera est difficillimum ad credendum, immo inter cetera credibilia, ideo debuerunt
+            homines ad hoc assuefieri quadam figurarum manuductione.</p>
+        </div>
+        <div xml:id="bb-d4e8655-Dd1e164">
+          <head xml:id="bb-d4e8655-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e8655-d1e169">Ad illud quod obicitur primo in contrarium, quod signi non est signum, dicendum quod
+            illud signum habet veritatem coniunctam ; unde non tantum est signum, sed etiam ratione
+            coniuncti est veritas ; et quoniam veritatis potest esse signum et figura, ideo
+            sacramentorum Novae Legis potest esse signum et figura, et maxime huius.</p>
+          <p xml:id="bb-d4e8655-d1e172">Ad illud quod obicitur de Confirmatione et Extrema Unctione, multipliciter respondetur.
+            Quidam enim dicunt quod omnia sacramenta in Veteri Lege sunt praefigurata, quoniam rota
+            erat in rota, in visione Ezechielis. Et quod obicitur de duobus sacramentis, solvunt per
+            interemptionem, quoniam tres unctiones Legis Novae praefiguratae sunt per tres unctiones
+            David, de quibus I Regum 16, 13, et II Regum 2, 4 et 5, 3, et ita per interemptionem
+            respondent.</p>
+          <p xml:id="bb-d4e8655-d1e175">Alii dicunt aliter quod illa sacramenta non fuerunt praefigurata propter suam
+            perfectionem ; unde distinguunt tria genera sacramentorum. Quaedam enim sunt suprema, ut
+            illa quae dant gratiam perfectam vel ad pugnandum vel ad egrediendum ; et talia sunt
+            Confirmatio et Extrema Unctio, quae de ratione sua perfectionem dicunt : et quoniam Lex
+            neminem ad perfectum duxit, ideo haec duo sunt propria Novae Legis. Alia sunt quasi
+            media, quae gratiam magnam dant, ideo pertinent ad Legem Novam ; tamen, quia non dicunt
+            perfectionem, possunt praesignata esse in Veteri Testamento, et haec, ut dicunt, sunt
+            duo, scilicet Baptismus et Eucharistia. Quaedam sunt infima, ut Matrimonium, Ordo et
+            Poenitentia ; et haec non sunt propria, immo communia nec tantum praesignata, immo
+            inchoata et in Nova perfecta. Tamen praeferre alia sacramenta duobus quae praefigurata
+            sunt, videtur valde absurdum : cum sint haec duo sacramenta, Baptismus et Eucharistia,
+            famosissima.</p>
+          <p xml:id="bb-d4e8655-d1e178">Et ideo aliter dicendum quod, quamvis omnia aliquo modo praefigurata sint, haec duo
+            tamen pluribus et.expressioribus figuris, tum propter difficultatem in credendo, quae
+            est in Baptismo, quia primum sacramentum, in Eucharistia, quia summum ; tum propter
+            dignitatem, quae est in Baptismo quantum ad efficaciam, in Eucharistia quantum ad
+            continentiam ; tum propter Ecclesiae unitatem, quae est in Baptismo quantum ad
+            inchoationem, in Eucharistia quantum ad consummationem, vel in Baptismo quantum ad
+            signaculum christianitatis, in Eucharistia quantum ad cultum Deitatis. Unde, quamvis
+            alia habeant figuras aliquo modo, non tamen ita praecipue nec ita expresse.</p>
+          <p xml:id="bb-d4e8655-d1e182">Ad illud quod obicitur, quod Baptismus habuit figuram sanctificantem, dicendum quod
+            ratio huius est duplex. Prima est, quia Baptismus est remedium contra morbum perniciosum
+            et mortiferum ; et est remedium parvulorum, qui se non possunt iuvare ; et quoniam qui
+            minus se possunt iuvare maiori indigent auxilio : ideo sacramentum praecessit Baptismum,
+            quod de se haberet efficaciam. Non sic est de Eucharistia, quoniam est sacramentum iam
+            viventium et adultorum, qui se possunt iuvare auxilio fidei et motu liberi arbitrii ;
+            unde supplet in eis fides quod deerat a parte sacramenti. Et sic patent quaesita.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

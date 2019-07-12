@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12474">
+        <head xml:id="bb-d4e12474-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e12474-d1e111">Supra egit <name ref="#Lombard">Magister</name> de confectione quantum ad
+          transsubstantiationem sive conversionem ; hic agit secundo, in qua specie vel substantia
+          debeat fieri talis confectio. Et habet haec pars duas partes. In prima determinat in qua
+          specie vel substantia nunc conficere debeat Ecclesia. In secunda ostendit quod sic fuerit
+          in confectione prima, quae fuit in Coena, ibi : Colligitur etiam ex praedictis quod
+          Christus etc., ubi ostendit in quibus substantiis confecit et quale corpus discipulis
+          dedit.</p>
+        <p xml:id="bb-d4e12474-d1e117">Prima pars habet tres partes. In prima ostendit quare illud Sacramentum sive Christi
+          corpus datur sub alia specie. In secunda, quare sub duplici specie, ibi : Sed quare sub
+          duplici specie sumitur etc. In tertia vero determinat quod aqua vino commiscenda est, ibi
+          : Aqua vero admiscenda est vino. Et illa pars duas habet. In prima ostendit modum
+          commiscendi. In secunda vero inquirit, utrum hoc spectet ad Sacramenti necessitatem, ibi :
+          Si vero quaeritur, an irritum sit quod geritur, si aqua etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

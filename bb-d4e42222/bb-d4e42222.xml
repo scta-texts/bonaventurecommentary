@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e42222">
+        <head xml:id="bb-d4e42222-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e42222-Hd1e111" type="question-title">Utrum in infidelibus venientibus ad fidem solvatur
+          Matrimonium.</head>
+        <p xml:id="bb-d4e42222-d1e114">Quarto quaeritur, utrum in infidelibus venientibus ad fidem solvatur Matrimonium propter
+          personarum illegitimitatem, ut si habet sororem in uxorem.</p>
+        <div xml:id="bb-d4e42222-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e42222-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e42222-d1e122">Et quod non, videtur : Per illam <ref xml:id="bb-d4e42222-Rd1e124" target="http://scta.info/resource/cice-l4t19-d1e225">decretalem Innocentii,
+              Gaudemus</ref>, in qua dicit non esse separandos.</p>
+          <p xml:id="bb-d4e42222-d1e128">Item, ratione videtur : per sacramentum Baptismi coniugia non solvuntur, sed crimina
+            tolluntur. Ergo, cum istud fuerit coniugium apud paganos, non solvitur cum
+            baptizatur.</p>
+          <p xml:id="bb-d4e42222-d1e131">Item, pagani canonicis constitutionibus non arctantur, sed tunc solum incipiunt
+            arctari, quando ad fidem veniunt ; sed iura et constitutiones formam futuris imponunt
+            negotiis, non ad praeterita revocantur : si ergo ante contraxit quam arctetur,
+            constitutio tale Matrimonium non solvit.</p>
+          <p xml:id="bb-d4e42222-d1e134">Contra : Si aliquis infidelis contraxit cum duabus, ad fidem veniens compellitur
+            alteram relinquere, quia hoc est contra constitutiones canonicas, sicut probatur per
+            decretalem De divortiis, Gaudemus etc. Ergo a simili in proposito.</p>
+          <p xml:id="bb-d4e42222-d1e138">Item, si aliquis infidelis repudiavit uxorem, quod quidem licitum est apud eos, ambobus
+            venientibus ad fidem, compellitur recipere eam, quia hoc apud fideles non licet. Ergo a
+            simili in contrario tenetur talem uxorem dimittere.</p>
+          <p xml:id="bb-d4e42222-d1e141">Item, apud fideles profanum est uxorem accipere sororem uxoris ; sed noviter conversus
+            debet se fidelibus conformare : ergo debet huiusmodi coniugium reputare profanum : ergo
+            non debet amplius stare.</p>
+        </div>
+        <div xml:id="bb-d4e42222-Dd1e145">
+          <head xml:id="bb-d4e42222-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e42222-Hd1e150" type="question-title">Quando conversi ad fidem matrimonium contraxerunt cum
+            impedimento dirimente secundum legem naturae et divinam, separandi sunt; secus est, si
+            impedimentum est ex constitutione Ecclesiae</head>
+          <p xml:id="bb-d4e42222-d1e153">Respondeo : Dicendum quod illegitimitas personarum ad Matrimonium est duplex. Una est
+            secundum naturam et institutionem divinam, ut puta quod filius non contrahat cum matre,
+            neque pater cum filia ; item, quod alligatus uxori non ducat aliam, vel etiam in
+            gradibus divina lege prohibitis Levitici 18, 6, ut dicunt iurisperiti, ubi prohibetur
+            secundus gradus ; et haec illegitimitas astringit fideles et infideles. Et si in tali
+            illegitimitate contrahitur Matrimonium apud infideles, solvitur, cum veniunt ad fidem,
+            quia, ut dicit <name ref="#Ambrose">Ambrosius</name>, quod extra Dei decretum factum
+            est, non est putandum Matrimonium, sed, cum cognoscitur, emendandum. Unde, si Iudaeus
+            contrahat cum sorore in secundo gradu, ad fidem veniens ab ea separatur. Si autem
+            contraxit cum uxore fratris, quia hoc est in Lege concessum, minime separatur. Alia est
+            illegitimitas ex constitutione Ecclesiae, ut sunt personae infra quartum gradum ; et
+            haec non arctat infideles nec impedit Matrimonium quin contrahatur ; et quia non ad
+            praeterita revocantur, non solvunt legitime iam contractum.</p>
+        </div>
+        <div xml:id="bb-d4e42222-Dd1e161">
+          <head xml:id="bb-d4e42222-Hd1e163">Ad rationes</head>
+          <p xml:id="bb-d4e42222-d1e166">1-2. Ad illud ergo quod obicitur de bigamia et repudio, solvendum quod utrumque est
+            contra ius naturae et contra ius divinum ; ideo non est simile.</p>
+          <p xml:id="bb-d4e42222-d1e169">Ad illud quod obicitur, quod profanum est sorotem uxoris ducere in uxorem vel etiam
+            habere, dicendum quod hoc verum est propter Ecclesiae mandatum ; quo quia iste non
+            astringitur, non debet illud coniugium reputare profanum ; unde iste, ex quo venit ad
+            fidem, alligatur, ut amplius non contrahat contra Ecclesiae statutum ; si tamen
+            contraxit, non debet solvi nec tenetur dimittere, quia ad ipsum non se extendit
+            constitutio Ecclesiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

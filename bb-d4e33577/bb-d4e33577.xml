@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33577">
+        <head xml:id="bb-d4e33577-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e33577-Hd1e111" type="question-title">Quid sit Matrimonium nomine.</head>
+        <p xml:id="bb-d4e33577-d1e114">Secundo quaeritur, quid sit nomine.</p>
+        <div xml:id="bb-d4e33577-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e33577-Hd1e119">Rationens principales</head>
+          <p xml:id="bb-d4e33577-d1e122">Et quod Matrimonium debeat hoc vinculum appellari, ostenditur : Primo per iura canonica
+            et civilia, quae sic appellant, et <name ref="#Lombard">Magister</name> sic appellat in
+            littera, et multiplex ad hoc adduci potest auctoritas. Unde <ref xml:id="bb-d4e33577-Rd1e127">Augustinus, Contra
+              Faustum, libro XIX</ref> : <quote xml:id="bb-d4e33577-Qd1e130">Matrimonium ob hoc dictum est ; quod non ob aliud
+              debeat femina nubere nisi ad hoc ut mater fiat</quote>.</p>
+          <p xml:id="bb-d4e33577-d1e134">Item, ratione videtur, quia in aliis sacramentis denominatio fit a materia vel a
+            materiali. principio, sicut patet, quia Baptismus lavacrum dicitur ab aqua lavante magis
+            quam a verbo ; sed in hac coniunctione maris et feminae, femina est per modum materiae :
+            ergo videtur quod per illam debeat denominatio fieri.</p>
+          <p xml:id="bb-d4e33577-d1e137">Item, quando relatio vel comparatio est inter extrema aliqua, si recte denominatur, ab
+            eo debet denominari in quo maior est dependentia ; sed mulier magis indiget coniungi
+            viro quam e converso : ergo talis coniunctio potius debet denominari a muliere quam a
+            viro.</p>
+          <p xml:id="bb-d4e33577-d1e140">Item, relatio aequiparantiae potissime ei appropriatur, in quo est consummatio illius,
+            sicut aequalitas et similitudo appropriatur Filio, pro eo quod dat praeintelligere
+            principium a quo, Patri autem unitas appropriatur. Ergo, si vir primo creatus est
+            unicus, et post mulier facta ut ei coniungeretur ut adiutorium, et hoc per Matrimonium,
+            ergo hoc vinculum debet appellari Matrimonium.</p>
+          <p xml:id="bb-d4e33577-d1e144">Contra : In omnibus denominatio debet fieri a digniori ; sed in coniunctione carnali
+            sive matrimoniali dignius extremum est vir quam mulier, quoniam caput mulier est vir :
+            ergo etc.</p>
+          <p xml:id="bb-d4e33577-d1e147">Item, quaero, secundum quod genus causae sit ista denominatio. Si secundum genus causae
+            finalis, sed mulier propter virum facta est, non vir propter mulierem : ergo potius
+            debet denominari a patre. Si secundum genus causae efficientis, sed efficiens est
+            activum principium, et principium activum in coniunctione maris et feminae est vir :
+            ergo potius debet denominari a viro. Si secundum causam materialem, sed non vir ex
+            muliere, sed mulier de costa viri. Si secundum causam formalem, cum magis teneat
+            rationem formae vir, sicut dicit Philosophus quod m<quote xml:id="bb-d4e33577-Qd1e149">ateria appetit formam sicut
+              mulier appetit virum</quote>, videtur quod a viro debeat denominari.</p>
+          <p xml:id="bb-d4e33577-d1e153">Item, coniunctio maris et feminae est relatio aequiparantiae ; sed relatio talis
+            respicit utrumque extremum aequaliter, et talis relatio non magis denominatur ab uno
+            quam ab altero : ergo non magis a patre quam a matre.</p>
+          <p xml:id="bb-d4e33577-d1e156">Item, denominatio rei non debet fieri ab eo quod accidit et abesse potest ; sed vinculo
+            tali sive sacramento frequenter deest proles, ergo et maternitas : ergo, cum falso talis
+            mulier dicatur mater, falso tale vinculum dicitur Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e33577-Dd1e160">
+          <head xml:id="bb-d4e33577-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e33577-Hd1e165" type="question-title">Matrimonium habet quatuor etymologias, inter quas potissima
+            est matris munium</head>
+          <p xml:id="bb-d4e33577-d1e168">Respondeo : Dicendum quod aliqui voluerunt dicere quod istud vinculum sive coniunctio
+            nec denominatur a patre nec a matre, sed, cum sit vinculum unum, denominatur ab utroque,
+            in quantum uniuntur ; et quoniam pater et mater sive vir et mulier uniuntur ut sint una
+            materia prolis, ideo hoc sacramentum Matrimonium appellatur, non a matre, sed a materia
+            et monos, quod est unum ; inde matrimonium quasi una materia. Sed, licet istud videatur
+            probabiliter dici, tamen est contra <name ref="#IsidoreOfSeville">Isidorum</name>, in IX
+            libro Etymologiarum, ubi dicit quod <quote xml:id="bb-d4e33577-Qd1e173" source="http://scta.info/resource/wer3fe-d1e141">Matrimonium dicitur a matre</quote> ;
+            unde matrona dicitur quae iam nupsit, et est dicta matrona quasi mater nati. Unde, sicut
+            ibidem colligitur, hoc sacramentum appellatur coniugium, appellatur et nuptiae,
+            appellatur et Matrimonium. Et hanc triplicem denominationem habet secundum triplicem
+            comparationem sive considerationem. Potest enim considerari secundum id quod est ; et
+            sic dicitur coniugium, quasi commune iugum, quia mutuum est vinculum et mutua potestas ;
+            et hoc dicit <ref xml:id="bb-d4e33577-Rd1e176" target="http://scta.info/resource/wer3fe-d1e141">Isidorus, in IX
+              Etymologiarum</ref>. Aut secundum signum, in quo apparet ; et sic dicitur nuptiae,
+            quasi a nubibus, quia nubentes operiri solebant et eorum capita velabantur ; unde est
+            nomen translatum. Aut secundum fructum ad quem perducit ; et quoniam perducit ad bonum
+            prolis, ideo Matrimonium appellatur. Magis autem bonum prolis per matris nomen datur
+            intelligi, quia mulier propter procreationem liberorum facta est ; unde facta est in
+            adiutorium viri ; et quia in procreatione prolis magis incumbit sibi labor.</p>
+          <p xml:id="bb-d4e33577-d1e180">Unde nota, quod Matrimonium quatuor habet etymologias secundum nomen matris : uno enim
+            modo dicitur Matrimonium, quasi matris nomos, id est lex ; quia, ut dicit <name ref="#Augustine">Augustinus</name>, Contra Faustum, ad hoc debet femina nubere etc.
+            Secundo modo, quia matrem monet, ut servet foedus contra luxuriam ; contra quod dicitur
+            Proverbiorum 2, 11 : <quote xml:id="bb-d4e33577-Qd1e185" ana="#prov2_11">Reliquit ducem pubertatis, et pacti
+              Dei</quote> etc. Tertio modo, quia matrem munit ac defendit tum per virum, tum per
+            prolem, quia mulier indiget defensore, Isaiae 1, 17 : Defendite viduam. Quarto,
+            Matrimonium dicitur matris munium, id est matris officium, pro eo quod prolis enutritio
+            et acquisitio maxime spectat ad mulierem in concipiendo, in portando, in pariendo, in
+            nutriendo, in compatiendo ; unde sicut possessio dicitur patrimonium, quia paterna
+            sollicitudine acquiritur, sic prolis acquisitio Matrimonium est ; et haec est potissima
+            inter omnes etymologias.</p>
+        </div>
+        <div xml:id="bb-d4e33577-Dd1e191">
+          <head xml:id="bb-d4e33577-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e33577-d1e196">1-2. Ad illud ergo quod obicitur, quod a digniori debet fieri denominatio, dicendum
+            quod denominatio est a fructu ventris, et ita a digniori. Sed non fit denominatio a
+            muliere, secundum quod mulier, sed secundum quod mater ; et per hoc patet sequens, a quo
+            genere causae sumitur, quia a causa finali, a qua maxime debent sacramenta
+            denominari.</p>
+          <p xml:id="bb-d4e33577-d1e199">Ad illud quod obicitur de relatione aequiparantiae, dicendum quod vinculum illud in se
+            consideratum aequaliter respicit utrumque extremum, sed relatum ad effectum, non ; et
+            hic fit denominatio per comparationem ad effectum.</p>
+          <p xml:id="bb-d4e33577-d1e202">Ad illud quod obicitur, quod non semper habent prolem, dicendum quod non fit
+            denominatio ab eventu, sed ab intentione, propter quam principaliter institutum fuit
+            sacramentum ; et ideo non est ibi falsitas nec vanitas.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e50414">
+        <head xml:id="bb-d4e50414-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e50414-Hd1e111" type="question-title">Qualiter beatitudo sit appetibilis.</head>
+        <p xml:id="bb-d4e50414-d1e114">Secundo quaeritur, qualiter beatitudo sit appetibilis ; et quaeritur, utrum omnes
+          appetant beatitudinem veram.</p>
+        <div xml:id="bb-d4e50414-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e50414-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e50414-d1e122">Et quod sic, videtur. Boethius : <quote xml:id="bb-d4e50414-Qd1e124">Inserta est mentibus hominum veri boni
+              cupiditas</quote> ; sed verum bonum est quod nos beatos vere efficit : ergo omnes
+            appetunt beatitudihem veram.</p>
+          <p xml:id="bb-d4e50414-d1e128">Item, Philosophus dicit quod <quote xml:id="bb-d4e50414-Qd1e130" source="http://scta.info/resource/aristneth-l1">omnia bonum exoptant</quote> ; aut ergo exoptant bonum quodcumque, aut bonum quod
+            sufficit. Non quodcumque, quia, si quodcumque, tunc processus est in infinitum : constat
+            ergo quod bonum quod sufficit. Sed nullum bonum est sufficiens implere animam humanam
+            nisi beatitudo vera : ergo omnes homines appetunt beatitudinem veram.</p>
+          <p xml:id="bb-d4e50414-d1e134">Item, quod homo appetat beatitudinem, aut hoc est naturale aut deliberationis. Si
+            deliberationis, ergo potest appetere contrarium, scilicet miseriam ; cuius contrarium
+            dicit <name ref="#Augustine">Augustinus</name>, in III De libero arbitrio : ergo appetit
+            appetitu naturali. Sed natutalis appetitus est communis omnibus et perpetuus : ergo, si
+            talis est appetitus beatitudinis, patet etc.</p>
+          <p xml:id="bb-d4e50414-d1e140">Item, unumquodque perfectibile naturaliter, appetit suam perfectionem ; sed anima
+            humana nata est perfici beatitudine vera : ergo omnis anima appetit beatitudinem
+            veram.</p>
+          <p xml:id="bb-d4e50414-d1e144">Contra : Invisa possuinus diligere, incognita nequaquam, ut dicit <name ref="#Augustine">Augustinus</name> ; sed multi sunt qui ignorant quid sit et ubi sit
+            beatitudo vera ; quod patet, quia ponunt beatitudinem in divitiis et honoribus : ergo et
+            beatitudinem veram non appetunt.</p>
+          <p xml:id="bb-d4e50414-d1e150">Item, <quote xml:id="bb-d4e50414-Qd1e152">peccatum est, spreto Bono incommutabili, rebus commutabilibus
+              adhaerere</quote> ; sed beatitudo est Bonum incommutabile : ergo omnis peccator
+            beatitudinem veram spernit, ergo nullus appetit. Si dicas quod spernit appetitu
+            deliberativo, sed appetit naturali, hoc nihil est, quia quod naturale est, non assuescit
+            in contrarium. Ergo nunquam per assuefactionem spernere poterit.</p>
+          <p xml:id="bb-d4e50414-d1e156">Item, beatitudo aut appetitur propter se aut propter aliud. Si propter aliud, ergo non
+            appetitur ut beatitudo, quia illud facit beatum in quo finis constituitur : appetitur
+            ergo ab omni, a quo appetitur, propter se. Sed multi sunt qui fruuntur utendis et
+            utuntur fruendis : ergo multi sunt qui veram beatitudinem non appetunt propter se : ergo
+            nec appetunt.</p>
+          <p xml:id="bb-d4e50414-d1e159">Item, si appetitur, aut in ratione commodi, aut in ratione honesti. Si in ratione
+            commodi, cum appetitus commodi sit in animalibus brutis : ergo et beatitudinis. Si in
+            ratione honesti, cum amor honesti non sit in malis : ergo non appetitur ab ipsis
+            malis.</p>
+        </div>
+        <div xml:id="bb-d4e50414-Dd1e163">
+          <head xml:id="bb-d4e50414-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e50414-Hd1e168" type="question-title">Omnes homines beatitudinem veram appetunt naturaliter</head>
+          <p xml:id="bb-d4e50414-d1e171">Respondeo : Dicendum quod duo sunt quae faciunt appetitum, scilicet convenientia et
+            indigentia. Quoniam igitur anima rationalis creata est ad Dei imaginem et similitudinem
+            et facta est capax boni sufficientissimi, et ipsa sibi non sufficit, cum sit vana et
+            deficiens : ideo dico quod veram beatitudinem appetit naturaliter.</p>
+        </div>
+        <div xml:id="bb-d4e50414-Dd1e176">
+          <head xml:id="bb-d4e50414-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e50414-d1e181">1-3. Ad illud ergo quod obicitur in contrairum, quod multi ignorant veram beatitudinem,
+            respondent aliqui quod ante appetitum deliberativum oportet cognitionem praecedere, sed
+            non appetitum naturalem. Sed hoc nihil est, quia sicut in nobis est duplex amor,
+            naturalis et deliberativus, sic similiter et duplex cognitio : ergo sicut deliberativa
+            cognitio deliberativum amorem praecedit, sic naturalis naturalem.</p>
+          <p xml:id="bb-d4e50414-d1e184">Et propterea dicendum quod sicut duplex est instinctus ad bonum, scilicet in. generali
+            et in speciali, sic et duplex appetitus. Et dictamen boni in generali venit a cognitione
+            naturali, et quantum ad hoc non est error ; sed dictamen in speciali illius vel illius
+            non est omnino ab habitu naturali, sed per assumptionem factam a ratione deliberante, et
+            circa hoc est error. Similiter et de appetitu intelligendum. Omnes ergo habent appetitum
+            beatitudinis verae in generali et habent cognitionem in generali. Omnes enim credunt
+            quod beatitudo sit bonum quod sufficit et omnes istud appetunt. In speciali vero, quando
+            assumit : hoc sufficit, scilicet honor vel pecunia, errat cognitio et declinat affectio.
+            Et est simile de eo qui vult emere aurum et crepit hoc frustum aurichalci esse aurum et
+            frustum auri credit esse aurichalcum. Si quaeras ab eo in generali, quid velit emere,
+            respondet : aurum. Si quaeras, quod frustum vult emere, respondebit quod hoc,
+            demonstrato aurichalco. Similiter, si ab avaro quaeras, utrum appetat beatitudinem veram
+            et velit habere, respondebit quod sic : Si quaeras, quid velit, utrum paradisum vel
+            denarium, respondebit : denarium. Et huius ratio est, quia hic credit sufficientiam, ibi
+            non.</p>
+          <p xml:id="bb-d4e50414-d1e187">Si quaeras : quomodo cognovit in generali ? dico quod innata est illa cognitio. Si
+            quaeras : per quid ? dico quod sufficientiam cognoscit per indigentiam. Si opponas, quod
+            privatio non est via cognoscendi habitum, dicendum quod est quaedam indigentia omnino
+            privans, quaedam disponens et inclinans ; et haec est ratio cognoscendi. Unde, si
+            materia necessario haberet potentiam cognoscendi, cognosceret utique formam ad quam
+            inclinatur et disponitur ; sic anima sufficientiam per suam indigntiam. Posset tamen
+            dici quod cognitio beatitudinis et multarum rerum naturalium, ut puta iuris naturalis,
+            nobis innata est. Et si anima dicatur creata esse ut tabula rasa, hoc intelligitur solum
+            quantum ad species et similitudines quas acquirit per sensus. Vel dicatur tertio modo,
+            sicut in primo libro dictum est de caritate, quomodo cognoverit eam qui non habet, et
+            tamen sine receptione speciei a sensibus. Quilibet istorum modorum multum est
+            probabilis. Alia duo patent.</p>
+          <p xml:id="bb-d4e50414-d1e190">Ad ultimum dicendum quod beatitudo appetitur sub ratione commodi ; sed illud commodum
+            est proprium naturae rationalis, quia sola est capax Dei per cognitionem et amorem.
+            Unde, etsi animalia appetant commodum, illud appetunt ad quod sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

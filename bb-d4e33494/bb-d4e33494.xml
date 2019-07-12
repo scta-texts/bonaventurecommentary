@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33494">
+        <head xml:id="bb-d4e33494-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e33494-Hd1e111" type="question-title">Utrum Matrimonium sit coniunctio maris et feminae.</head>
+        <p xml:id="bb-d4e33494-d1e114">Quantum ad primum quaeritur, utrum Matrimonium sit coniunctio maris et feminae.</p>
+        <div xml:id="bb-d4e33494-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e33494-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e33494-d1e122">Et quod sic, videtur : Per rationem, quam ponit <name ref="#Lombard">Magister</name> in
+            littera : <quote xml:id="bb-d4e33494-Qd1e127">Matrimonium, inquit, est maris et feminae coniunctio</quote>.</p>
+          <p xml:id="bb-d4e33494-d1e131">Et quod ita sit, ostenditur ratione. Solo viro existente, non est Matrimonium ;
+            similiter sola muliere existente, non est Matrimonium : ergo Matrimonium est in
+            simultate et in coniunctione unius ad alterum.</p>
+          <p xml:id="bb-d4e33494-d1e134">Item, nihil absolutum est unum in duobus subiectis ; sed Matrimonium unum est in viro
+            et femina : ergo non dicit quid absolutum, sed relatum. Sed illud, quodcumque sit, cum
+            non sit disparitas, sed conformitas, non est disiunctio, sed coniunctio.</p>
+          <p xml:id="bb-d4e33494-d1e137">Item, illud ad quod consequuntur ista tria bona, scilicet fides, proles et sacramentum,
+            est recte Matrimonium ; hoc autem est coniunctio maris et feminae, ubi est fides in
+            singularitate, proles in fecunditate et significatio in insolubilitate : ergo etc.</p>
+          <p xml:id="bb-d4e33494-d1e141">Contra : Multiplicato superiori essentiali, multiplicatur inferius : ergo, si
+            Matrimonium est coniunctio, quoties vir et uxor coniunguntur, toties Matrimonium
+            contrahitur, et ita inter eumdem virum et eamdem mulierem erunt plura Matrimonia ; quod
+            si falsum est, ergo etc.</p>
+          <p xml:id="bb-d4e33494-d1e144">Item, nullum sacramentum iteratur super eamdem materiam : ergo, si Matrimonium est
+            coniunctio viri cum muliere, ex quo semel coniungitur, non debet amplius coniungi cum
+            eadem. Sed hoc est falsum et inconveniens :, ergo etc.</p>
+          <p xml:id="bb-d4e33494-d1e147">Item, omne sacramentum est signum sensibile ; sed nulla relatio est signum sensibile,
+            coniunctio autem maris et feminae est relatio : ergo coniunctio talis non est signum,
+            ergo nec sacramentum : ergo, a simplici conversa, nullum sacramentum est coniunctio,
+            ergo nec Matrimonium.</p>
+          <p xml:id="bb-d4e33494-d1e150">Item, si Matrimonium est coniunctio, aut ergo corporum aut animorum. Non animorum, quia
+            tunc Matrimonium esset in patria ; non corporum, quia tunc inter Mariam et Ioseph non
+            fuisset coniugium.</p>
+          <p xml:id="bb-d4e33494-d1e153">Item, sive sit coniunctio corporum secundum commixtionem, sive animorum secundum
+            consensum, contingit talem coniunctionem removeri per odium : ergo et Matrimonium solvi
+            et destrui ; sed hoc falsum est, ut iam patebit : ergo Matrimonium non est
+            coniunctio.</p>
+        </div>
+        <div xml:id="bb-d4e33494-Dd1e157">
+          <head xml:id="bb-d4e33494-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e33494-Hd1e162" type="question-title">Matrimonium recte dicitur coniunctio maris et feminae</head>
+          <p xml:id="bb-d4e33494-d1e165">Respondeo : Dicendum quod Matrimonium secundum genus remotum est signum ; specificatio
+            autem vel descensus ad genus inferius accipitur secundum comparationem ad signatum ;
+            unde, cum signatum in hoc sacramento sit coniunctio Christi et Ecclesiae, et coniunctio
+            non potest melius significari quam per coniunctionem exteriorem, sicut Baptismi ablutio
+            per ablutionem aquae exteriorem : ideo, sicut Baptismus dicitur ablutio, sic Matrimonium
+            dicitur essentialiter et secundum genus suum coniunctio. Et nota quod sicut in ablutione
+            Baptismi est aliquid permanens, sicut impressio characteris interior, et aliquid
+            transiens, ut lotio exterior, utrumque dicitur Baptismus : sic in Matrimonio est aliquid
+            permanens, et hoc est vinculum, per quod ligantur vir et mulier, quantumcumque exterius
+            separentur ; et est aliquid transiens, sicut coniunctio primo facta per verbum exterius
+            vel per exteriorem actum ; et utraque dicitur Matrimonium, et utraque est coniunctio. Et
+            ideo recte Matrimonium coniunctio dicitur et est, sicut rationes primae ostendunt.</p>
+        </div>
+        <div xml:id="bb-d4e33494-Dd1e170">
+          <head xml:id="bb-d4e33494-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e33494-d1e175">Ad illud quod obicitur, quod multoties coniunguntur, dicendum quod quaedam coniunctio
+            dicitur vinculum, quaedam facit vinculum, quaedam est usus vinculi. Dico igitur quod
+            prima et secunda, quia respiciunt substantiam Matrimonii, non iterantur, sed solum
+            tertia ; et ad multiplicationem illius non sequitur multiplicatio Matrimonii, quoniam
+            non est genus in essendo, sed actus in utendo sive usus in agendo.</p>
+          <p xml:id="bb-d4e33494-d1e178">Et ex hoc patet sequens, quia non est iteratio sacramenti ; et sicut frequenter
+            manducare corpus Christi non dicit sacramenti iterationem, sed usum, sic in proposito
+            intelligendum, licet non sit simile omnino, quia quod semel manducatum est, iterum
+            manducari non potest ; sed haec mulier, quae semel cognita est, iterum cognosci
+            potest.</p>
+          <p xml:id="bb-d4e33494-d1e181">Ad illud ergo quod obicitur, quod est signum sensibile, dicendum quod sicut similitudo
+            corporalis sensu percipitur, non ratione sui, sed ratione qualitatum in quibus est
+            assimilatio, quae sensu deprehenduntur ; sic intelligendum est in proposito quod,
+            quamvis coniunctio secundum se non sit perceptibilis ut relatio, est tamen ratione eorum
+            quae coniunguntur, ut viri et mulieris, et ratione signi in quod vel per quod
+            coniunguntur.</p>
+          <p xml:id="bb-d4e33494-d1e184">4-5. Ad illud quod quaeritur, utrum sit corporum an animorum, dicendum quod animorum in
+            corporibus, quia est coniunctio ratione utentium et habentium sexus distinctos ; illa
+            autem coniunctio, quae respicit totum coniunctum et est Matrimonium essentialiter, non
+            est affectio animorum vel approximatio corporum, sed quoddam vinculum obligatorium, quod
+            non perimitur, sive affectu sive corpore separentur. Et per hoc patet responsio ad
+            ultimum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

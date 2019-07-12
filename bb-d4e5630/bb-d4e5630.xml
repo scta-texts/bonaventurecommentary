@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e5630">
+        <head xml:id="bb-d4e5630-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e5630-Hd1e111" type="question-title">Utrum soli sacerdotes sive clerici habeant potestatem
+          baptizandi.</head>
+        <div xml:id="bb-d4e5630-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e5630-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e5630-d1e119">Et quod non tantum sacerdotes, sed etiam laici, ostenditur sic : Si baptizaret vetula,
+            servata forma verborum, ille quem baptizat non rebaptizatur : ergo est baptizatus ; sed
+            vetula non baptizaret nisi haberet potestatem : ergo etc.</p>
+          <p xml:id="bb-d4e5630-d1e122">Item, alia ratione videtur : Baptismus, quia est sacramentum necessitatis, ideo
+            institutum est in elemento omnibus communi ; sed elementum non sufficit, nisi adsit qui
+            possit baptizare : ergo potestas baptizandi omnibus debuit conferri, tam clericis quam
+            laicis.</p>
+          <p xml:id="bb-d4e5630-d1e125">Item, <ref xml:id="bb-d4e5630-Rd1e127" ana="#io4_2">Ioannis quarto</ref> dicitur quod Dominus non baptizabat, sed
+            discipuli ; sed discipulis nondum erat collata potestas sacerdotalis : ergo etc.</p>
+          <p xml:id="bb-d4e5630-d1e131">Contra : 1. <name ref="#IsidoreOfSeville">Isidorus</name> : <quote xml:id="bb-d4e5630-Qd1e136">Constat Baptismum
+              solis sacerdotibus traditum esse, nec ipsis diaconibus eius ministerium esse
+              permissum</quote>.</p>
+          <p xml:id="bb-d4e5630-d1e141">3. Item, Baptismus est sacramentum Ecclesiae ; sed ordo est in ecclesiastica hierarchia
+            : ergo ab his solis potest tradi qui ad hoc in Ecclesia sunt ordinati. Sed illi soli
+            sunt qui habent Ordinis sacramentum : ergo etc.</p>
+          <p xml:id="bb-d4e5630-d1e144">3. Item, si propter necessitatem solam confertur omnibus : ergo, cum sacramentum
+            Poenitentiae sit sacramentum necessitatis, videtur quod in casu illo debeat quilibet
+            absolvere, etiam laicus.</p>
+          <p xml:id="bb-d4e5630-d1e147">4. Item, si in casu necessitatis indultum est, videtur quod, si aliquis Iaicus baptizet
+            praeter necessitatem, debet rebaptizari.</p>
+        </div>
+        <div xml:id="bb-d4e5630-Dd1e151">
+          <head xml:id="bb-d4e5630-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e5630-Hd1e156" type="question-title">Non soli sacerdotes, sed etiam laici non muti neque manci
+            possunt et in casu necessitatis debent baptizare</head>
+          <p xml:id="bb-d4e5630-d1e159">Respondeo : Dicendum quod sacramentum Baptismi est sacramentum ecclesiasticum,
+            necessarium et primum. Quia ecclesiasticum, ideo eius administratio primo et
+            principaliter est commissa clericis, et inter hos sacerdotibus. Quia vero necessarium,
+            et sacerdos non semper adest, ideo eius administratio se extendit etiam ad laicos,
+            divina misericordia faciente, quae neminem vult perire. Quia vero primum, ideo a nullo
+            alio sacramento dependet ; et ideo huius ministerii potestas se extendit ad omnes qui
+            possunt facere ea quae sunt de integritate sacramenti ; et quicumque illa faciat,
+            baptizatum est : ille ergo solus excluditur qui non potest.</p>
+          <p xml:id="bb-d4e5630-d1e162">Propter quod notandum quod Baptismus, sicut alia sacramenta, est sacramentum, et
+            sacramentum unum et verum et integrum. Quia sacramentum, ideo est signum visibile, et
+            ideo debet habere dispensatorem visibilem, ut hominem, non spiritum. Quia vero unum,
+            ideo debet tradi ab uno dispensatore, non a pluribus. Quia verum, ideo non debet idem
+            esse baptizans et baptizatus, sed alius, quia in forma duplex persona exprimitur, cum
+            dicitur : baptizo te. Quia vero integrum, ideo concurrunt in eo necessario duo, scilicet
+            elementum et verbum. Verbum autem debet dici ; et quia dicere est cum intentione
+            proferre, ideo necesse est quod baptizans habeat discretionem et non sit stultus, et
+            oportet quod habeat locutionem et non sit inutus. Quia vero in elementum debet mergere,
+            oportet quod non sit mancus. Omnis talis potest baptizare et in casu necessitatis debet,
+            etiam si non habet ordinem ; praeter casum necessitatis solus sacerdos, debet baptizare,
+            et si alius facit, quamvis baptizet, graviter peccat.</p>
+        </div>
+        <div xml:id="bb-d4e5630-Dd1e166">
+          <head xml:id="bb-d4e5630-Hd1e168">Ad rationes</head>
+          <p xml:id="bb-d4e5630-d1e171">1-2. Patent igitur obiecta, quia <name ref="#IsidoreOfSeville">Isidorus</name> loquitur
+            secundum congruitatem exsequendi, non secundum potestatem. Et similiter patet aliud,
+            quia, etsi sit ecclesiasticum, tamen est necessarium et primum, et ideo etiam secundum
+            rectam ordinationem Ecclesiae competit eius administratio omnibus eis qui possunt
+            exercere quae sunt de integritate Sacramenti.</p>
+          <p xml:id="bb-d4e5630-d1e177">Ad illud de Poenitentia dicendum ,quod, etsi sit necessarium, non tamen primum, sed
+            eorum qui iam sunt de Ecclesia. Praeterea, hoc sacramentum est tantum adultorum, qui
+            possunt adire sacerdotem interiorem, cum carent exteriori ; sed non sic Baptismus, quia
+            est remedium parvulorum.</p>
+          <p xml:id="bb-d4e5630-d1e180">Ad ultimum dicendum quod potestas non tantum data est in casu necessitatis, sed tunc
+            imposita, ut, si alias fecerit, peccet ; tunc vero non peccat, si facit, immo peccat, si
+            non facit ; nihilominus tamen si fecerit, factum est. Et sic patet responsio ad
+            illud.</p>
+          <p xml:id="bb-d4e5630-d1e183">Ex praedictis patent aliqui casus, qui circa potestatem baptizantium possunt quaeri.
+            Solet enim quaeri utrum in articulo necessitatis possit aliquis a sathana baptizari,
+            esto quod <quote xml:id="bb-d4e5630-Qd1e185" ana="#IIcor11_14">se transfiguret in angelum lucis</quote>. Et quod
+            sic, videtur, quia omnia verba potest dicere et omnem actum facere quem alius
+            potest.</p>
+          <p xml:id="bb-d4e5630-d1e190">Et ad hoc patet responsio, quod non, quia ipsi non competit administratio sacramenti
+            sensibilis. Potest autem huius triplex ratio reddi. Prima est, quia spiritus est ;
+            administratio autem sive dispensatio sacramentorum per Christum-hominem instituta est
+            per homines ad salutem hominum dispensandam. Secunda ratio est, quia spiritus est ita
+            praecisus ab Ecclesia quod nec est membrum actu nec potentia ; et ideo administratio et
+            potestas, quae descendit a capite Christo, non pervenit ad ipsum. Tertia ratio est, quia
+            in omnibus sinistram habet intentionem. Sicut enim Christus omnia bene fecit, ita
+            diabolus omnia male ; et ideo, etiam si faceret actum et diceret verbum, non intenderet
+            baptizare, sed potius deludere. Et sic patet quod non potest baptizare. Prima tamen
+            ratio melius valet.</p>
+          <p xml:id="bb-d4e5630-d1e193">Solet etiam quaeri utrum aliquis in articulo necessitatis positus possit baptizare se
+            ipsum. Videtur enim quod sic, propter statum necessitatis, cum possit se mergere et
+            verbum dicere. Et hoc ipsum videtur Innocentius, in quadam decretali, dcere quod, si
+            Iudaeus aliquis aspergat se aqua, utens forma baptismi, non habens qui ei sacramentum
+            tribuat, evolat et inter fideles computandus est, ut dicit. Et ad hoc patet responsio
+            quod nullus potest sibi administrare sacramentum Baptismi.</p>
+          <p xml:id="bb-d4e5630-d1e196">Et prima quidem ratio tacta est, quia non salvatur veritas formae, cum in forma duplex
+            persona exprimatur, cum dicitur : baptizo te. Secunda vero est, quia baptizans pater est
+            spiritualis baptizati : si ergo nemo est filius,suus, nemo se ipsum potest baptizare.
+            Postremo, deficit ibi ratio significationis. Quia enim significatur ibi mundans et
+            mundatus spiritualiter, et hic non potest esse idem, sed alius, ita necesse est etiam
+            quod sit in sacramento. Prima tamen ratio potior est.</p>
+          <p xml:id="bb-d4e5630-d1e199">Solet etiam poni talis casus : esto quod aliquis habeat consortium muti et manci. Alter
+            non potest baptizare, quia deficit ei verbum, alter non potest, quia deficit ei actus ;
+            videtur ergo quod ambo simul possint totum supplere et baptizare propter
+            necessitatem.</p>
+          <p xml:id="bb-d4e5630-d1e202">Et ad hoc patet responsio quod non possunt. Aut enim dicit mancus ille baptizamus aut
+            baptizo. Si dicat baptizamus, mutat formam. Si dicat baptizo, falsum dicit, quia, cum
+            sit mancus, non mergit ; et ita non potest ibi salvari quod est de integritate
+            sacramenti. Si autem duo baptizent, quorum uterque mergit et verbum dicit, si dicunt
+            ambo baptizamus, neuter baptizat, quia formam mutat ; si vero dicunt baptizo, alter eum
+            baptizat, scilicet qui prius loquitur et complet, alter vero omnino nihil facit.</p>
+          <p xml:id="bb-d4e5630-d1e205">Solet etiam quaeri : si plures sint in extrema necessitate, utrum possint simul
+            baptizari. Et quod sic, videtur, quia propter necessitatem indultum est omnibus : ergo
+            videtur quod unus possit baptizare plures, ubi est periculum mortis.</p>
+          <p xml:id="bb-d4e5630-d1e209">Et ad hoc aliter respondetur quam ad praedicta, quod potest ; et si baptizaret ita :
+            baptizo vos in nomine Patris et Filii et Spiritus sancti, baptizatum est. Et si tu
+            obicias, quod mutat formam, sicut si dicatur : nos baptizamus, dicendum quod in hoc est
+            mutatio formae. Nam, sicut dicit Priscianus, <mentioned> nos </mentioned> non geminat
+            singulare suum, ut dicatur ego et ego, sed ego et tu, vel ego et ille ; et ideo, si
+            dicatur : nos baptizamus, aliquid dicitur a forma extraneum, et forma mutatur. Sed cum
+            dicitur : baptizo vos, sensus est : baptizo te et te ; et ideo non est formae mutatio,
+            sed geminatio, nec hic introducitur persona alia nisi baptizans et baptizata ; non sic
+            est in forma alia, cum dicitur : nos baptizamus.</p>
+          <p xml:id="bb-d4e5630-d1e215">Attendendum tamen quod, si per pluralem numerum non fiat vis aliqua, nisi quae sit
+            secundum cursum solitum loquendi, secundum quod Papa de se unico dicit : nos dicimus, et
+            in vulgari hoc utimur linguagio, non dicerem, tunc forniam mutari nec corruptam esse.
+            Sed si istud serio diceretur et cum pondere sui sensus, alium generaret intellectum ; et
+            ideo non esset Baptismus, quia, sicut praedeterminatum est, mutatio formae aufert
+            Baptismum. Ex praedictis igitur patet quod unus potest simul baptizare plures, non
+            plures unum ; et ratio est mutatio formae in uno et non in alio. Potest nihilominus alia
+            ratio assignari, quia non est necesse quod simul duo baptizent, si uterque potest verbum
+            dicere et mergere. Sed necessitas et utilitas est quod simut duo baptizentur, quando
+            sunt in articula mortis. Alia tamen ratio est, quia baptizans minister significat
+            Christum ; unde sicut in hoc quod unus habeat plures uxores, salvari potuit ratio
+            sacramenti aliquo modo, quia Christus est sponsus multarum animarum, sed non.e conversa
+            ; sic in proposito est intelligendum, quia unus est baptizans interius, scilicet
+            Christus Dominus, a quo est unitas in sacramento Baptismi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

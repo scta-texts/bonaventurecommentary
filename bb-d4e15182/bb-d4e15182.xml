@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e15182">
+        <head xml:id="bb-d4e15182-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e15182-Hd1e111" type="question-title">Utrum soli sacerdotes possint conficere.</head>
+        <p xml:id="bb-d4e15182-d1e114">Secundo quaeritur, utrum soli sacerdotes possint conficere.</p>
+        <div xml:id="bb-d4e15182-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e15182-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e15182-d1e122">Et quod sic, videtur : Quia dicit <name ref="#HughOfStVictor">Hugo</name> : <quote xml:id="bb-d4e15182-Qd1e127">Ad
+              istud sacramentum concurrit Ordo, intentio et actio</quote>. Et hoc etiam dicit <name ref="#Lombard">Magister</name> et habet consuetudo sanctae Ecclesiae.</p>
+          <p xml:id="bb-d4e15182-d1e134">Item ratione videtur, quia in Veteri Testamento, ex quo templum est factum, solis
+            sacerdotibus licebat offerre sacrificium. Ergo, si figura fuit vera et debet ei verftas
+            respondere, patet etc.</p>
+          <p xml:id="bb-d4e15182-d1e137">Item, hoc Sacramentum est habendum in magna reverentia. Ergo eius dispensatio non
+            omnibus debuit concedi, ergo aliquibus est concessa, ergo alii non habent potestatem ;
+            sed illos quibus haec potestas data est, dicimus sacerdotes : ergo etc.</p>
+          <p xml:id="bb-d4e15182-d1e140">Item, Apostolus ad Hebraeos 5, 1 dicit quod <quote xml:id="bb-d4e15182-Qd1e142" ana="#hebr5_1">pontifex
+              constituitur, ut offerat dona et sacrificia pro peccatis</quote>. Ergo qui non est
+            sacerdos constitutus, non potest.</p>
+          <p xml:id="bb-d4e15182-d1e147">Item, in omni gente, etiam inter idololatras in quibus ponitur cultus, aliquibus
+            personis specialiter committitur potestas offerendi, qui sacerdotes dicuntur. Ergo, si
+            Ecclesia est ordinatissima, ergo videtur quod Christus aliquibus hoc officium debuit
+            dare ; sed distributio officiorum in Ecclesia debet esse ordinata ad unum ; ergo hi
+            solum hoc possunt qui ad hoc per principes et pontifices Ecclesiae ordinantur ; sed hi
+            sunt sacerdotes : ergo. etc.</p>
+          <p xml:id="bb-d4e15182-d1e150">Contra : Etsi solis sacerdotibus ex officio competat baptizare, tamen si laicus
+            baptizat, baptizatum est : ergo similiter, si conficit, confectum est.</p>
+          <p xml:id="bb-d4e15182-d1e153">Item, magis dignus est ministrare Deo bonus laicus quam impius sacerdos. Ergo, si ad
+            sacerdotis mali invocationem Dominus convertit panem in corpus, multo fortius ad verbum
+            laici boni.</p>
+          <p xml:id="bb-d4e15182-d1e156">Item, sicut Dominus solis discipulis dixit : <quote xml:id="bb-d4e15182-Qd1e158" ana="#mt26_26">Accipite</quote> et
+            : <quote xml:id="bb-d4e15182-Qd1e161" ana="#Icor11_25">Quotiescumque feceritis</quote> etc., ita dixi : <quote xml:id="bb-d4e15182-Qd1e164" ana="mt28_19">Docete omnes gentes, baptizantes</quote> ; sed potestas baptizandi est
+            concessa omnibus : ergo a simili et potestas conficiendi.</p>
+          <p xml:id="bb-d4e15182-d1e168">Item, beatus Petrus, I Canonicae, 2 capitulo, 9 : <quote xml:id="bb-d4e15182-Qd1e170" ana="#Ipetr2_9">Vos estis gens
+              sancta, regale sacerdotium</quote> : loquitur ad omnes bonos : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e15182-Dd1e175">
+          <head xml:id="bb-d4e15182-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e15182-Hd1e180" type="question-title">Soli sacerdotes possunt conficere eucharistiam</head>
+          <p xml:id="bb-d4e15182-d1e183">Respondeo : Dicendum quod soli sacerdotes possunt conficere, et si alii faciunt, nihil
+            omnino faciunt. Et hoc quidem docet nostra fides quam ab Apostolis percepimus et ipsi a
+            Domino ; unde ordinaverunt Ecclesiam secundum Dei institutionem. Et quia Apostoli et
+            eorum postmodum successores potestatem conficiendi personis specialibus contulerunt,
+            quos et sacerdotes appellaverunt, ideo solum illis tenet fides licitum esse.</p>
+          <p xml:id="bb-d4e15182-d1e186">Huic consonat ratio, quia Sacramentum illud, quod in magna reverentia habendum fuit,
+            specialibus personis commissum est et committi debuit. Aut ergo ratione sanctitatis aut
+            ratione auctoritatis. Si sanctitatis, ut dicunt haeretici, tunc ergo nemo est certus
+            utrum conficiat et salus nostra pendet ex aliena bonitate. Si auctoritatis, et
+            auctoritas potest tam bonis quam malis concedi, et hanc vocamus ordinem sacerdotii,
+            constat ergo quod illi soli possunt.</p>
+        </div>
+        <div xml:id="bb-d4e15182-Dd1e191">
+          <head xml:id="bb-d4e15182-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e15182-d1e196">Ad illud quod obicitur de Baptismo, dicendum quod non est simile, quia illud est
+            sacramentum primum et necessarium nec in tanta veneratione habendum.</p>
+          <p xml:id="bb-d4e15182-d1e199">Ad illud quod obicitur, quod bonus laicus est magis dignus, dicendum quod non
+            consideratur in potestate conficiendi dignitas, sed tantum auctoritas, quae est in
+            sacerdotibus ratione characteris.</p>
+          <p xml:id="bb-d4e15182-d1e202">Ad illud quod obicitur, quod solis Apostolis dictum est : Accipite et comedite ;
+            similiter : Ite et baptizate, patet responsio : sicut enim ipsi exposuerunt facto,
+            aliter est hoc commissum, aliter illud. Sicut enim in Ecclesia instituerunt, patet quod
+            indifferenter baptizari permiserunt, et specialem potestatem et auctoritatem personis
+            specialibus contulerunt, maxime ad hoc sacramentum conficiendum ; hanc autem dicimus
+            ordinem et personae potestatem illam habentes vocantur sacerdotes.</p>
+          <p xml:id="bb-d4e15182-d1e205">Ad illud quod obicitur, quod Sancti dicuntur sacerdotes, dicendum quod non dicuntur
+            sacerdotes ab oblatione corporis Domini, sed sui, quia unusquisque corpus suum offert
+              <quote xml:id="bb-d4e15182-Qd1e207" ana="#rom12_1">hostiam viventem</quote>, ad Romanos 12, 1.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

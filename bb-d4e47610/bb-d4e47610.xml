@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e47610">
+        <head xml:id="bb-d4e47610-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e47610-Hd1e111" type="question-title">Utrum Sancti nobis aliqua impetrent suis orationibus.</head>
+        <p xml:id="bb-d4e47610-d1e114">Secundo quaeritur, utrum Sancti impetrent nobis aliqua suis orationibus.</p>
+        <div xml:id="bb-d4e47610-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e47610-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e47610-d1e122">Et quod non, videtur : Quia nullus impetrat aliquid apud Deum, nisi qui est in statu
+            merendi ; sed Sancti non sunt in statu merendi : ergo etc. Si dicas quod non merito quod
+            tunc fit, sed quod praecessit, contra : hoc non solvit, quia secundum hoc, etiam si non
+            rogent, nihilominus obtinebimus : ergo nihil nobis facit oratio eorum. Praeterea ipsi
+            sufficienter remunerati sunt de toto eo quod meruerunt : ergo non meruerunt aliquid
+            aliud : ergo ratione meriti praecedentis non impetrant.</p>
+          <p xml:id="bb-d4e47610-d1e125">Item, Sancti per omnia conformant voluntatem suam voluntati divinae : ergo non orant
+            nec petunt nisi quod Deus vult dare ; sed quod Deus vult dare dabit, etiam si Sancti non
+            petant : ergo etc.</p>
+          <p xml:id="bb-d4e47610-d1e128">Item, Sancti vident utrum orationes nostrae sint exaudiendae, et si non sunt
+            exaudiendae, non petunt : ergo petunt, cum sunt exaudiendae ; sed, si non peterent,
+            nihilominus petitiones exaudiendae exaudirentur : ergo eorum oratio nihil facit.</p>
+          <p xml:id="bb-d4e47610-d1e131">Contra : Sancti in via impetrant aliis gratiam et multa bona : sed plus possunt apud
+            Deum in patria quam in via : ergo magis impetrant.</p>
+          <p xml:id="bb-d4e47610-d1e135">Item, Sancti impetrant pro vivis, quia sunt amici Dei ; sed magis sunt amici Dei in
+            patria quam in via ; ergo efficacius impetrant.</p>
+          <p xml:id="bb-d4e47610-d1e138">Item, ostenditur per impossibile, quia, si non impetrant et orant, sicut supra
+            monstratum est, ergo frustra orant et sunt miseri, quia non impletur eorum voluntas.</p>
+          <p xml:id="bb-d4e47610-d1e141">Item, Sancti ita faciunt miracula post mortem ut ante : ergo ita impetrant post mortem
+            ut ante.</p>
+        </div>
+        <div xml:id="bb-d4e47610-Dd1e145">
+          <head xml:id="bb-d4e47610-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e47610-Hd1e150" type="question-title">Sanctorum orationes multa nobis bon impetrant</head>
+          <p xml:id="bb-d4e47610-d1e153">Respondeo : Dicendum quod Sanctorum orationes multa nobis bona impetrant, sicut dicit
+              <name ref="#Lombard">Magister</name>, merito et affectu ; merito quidem praecedenti,
+            quo Deo fidelissime servierunt et tantum locum suis meritis sunt adepti, ut non solum
+            sibi beatitudinem et gloriam meruerint, sed etiam aliis suffragari. Multa etiam
+            supererogaverunt affectu, quia amici Dei sunt facti, et amicitia est idem velle et nolle
+            ; et cum aliquem ament Sancti, compellunt, ut sic dicam, Deum diligere. Unde beata Virgo
+            multos peccatores Deo reconciliare dicitur.</p>
+          <p xml:id="bb-d4e47610-d1e159">Ad illud ergo quod obicitur, quod non sunt in statu merendi, dicendum quod verum est
+            sibi. Et praeterea non redditur exauditio merito quod tunc fit, sed merito quod
+            praecessit. Quod obicitur, quod tunc sine oratione fieret, dicendum quod meruerunt non
+            simpliciter quod isti obtinerent, sed sub conditione, videlicet si ipsi intercederent
+            vel alii eorum subsidia implorarent ; sicut aliqui Sancti in morte petierunt quod
+            Dominus exaudiret invocantes eorum patrocinium. Et quod dicit, quod meritum eorum est
+            plene remuneratum, verum est de merito absoluto, sed de merito conditionato adhuc stat
+            conditio et merendi ratio.</p>
+          <p xml:id="bb-d4e47610-d1e162">2-3. Ad illud quod obicitur , quod conformant voluntatem suam divinae per omnia,
+            dicendum quod, sicut dicit <name ref="#Augustine">Augustinus</name>, De praedestinatione
+            Sanctorum, quod orare debemus pro praedestinatis, quia fortasse praedestinati sunt ut
+            nostris orationibus concedantur : et si constaret nobis hoc totum, quod essent praevisi
+            salvari ad nostras preces, deberemus utique pro eis rogare, et fructuose rogaremus, quia
+            ad preces nostras salvantur. Sic intelligendum est in Sanctis, qui vident quod Deus
+            decrevit nos salvare ad ipsorum preces ; ideo instantissime rogant et impetrant.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

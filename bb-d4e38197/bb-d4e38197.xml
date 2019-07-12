@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e38197">
+        <head xml:id="bb-d4e38197-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e38197-d1e111">Supra egit <name ref="#Lombard">Magister</name> de Matrimonio quantum ad tria genera
+          causarum. Hic agit quantum ad quartum genus causae, scilicet quantum ad causam materialem,
+          quae quidem est personarum legitimitas vel illegitimitas. Et dividitur haec pars in duas,
+          quia quaedam personae sunt simpliciter illegitimae respectu Matrimonii, quaedam respectu
+          Matrimonii perfecti, utpote illae quae alias nupserunt, et iam mortuus est vir vel
+          defuncta uxor. Ideo <name ref="#Lombard">Magister</name> primo agit de impedimentis.
+          Secundo circa finem istius tractatus agit de secundis nuptiis, ibi : Sciendum est quod non
+          solum primae vel secundae nuptiae etc.</p>
+        <p xml:id="bb-d4e38197-d1e120">Prima pars habet duas. In prima agit de impedimentis quae non omnino auferunt
+          legitimitatem. In secunda vero de his quae omnino faciunt illegitimas ; et hoc dico
+          secundum divisionem Magistri in littera ; et incipit secunda pars trigesima septima ante
+          principium : Nunc de aliis, quae personas penitus illegitimas etc., vel ibi : Sunt igitur
+          quidam ordiries. Prima pars habet duas, secundum duo impedimenta de quibus principaliter
+          agit. Primo enim agit de impotentia coeundi, quae respicit defectum naturae. Secundo vero
+          de conditione, quae respicit statum legis humanae, infra, distinctione trigesima sexta :
+          Nunc de conditione videamus. Prima pars habet duas, quia ad impedimentum sequitur
+          divortium. Ideo primo agit de Matrimonii impedimento licet semiplene. Secundo vero de
+          divortio, infra, distinctione trigesima quinta : Hoc etiam notandum est, quod cum Dominus
+          etc. </p>
+        <p xml:id="bb-d4e38197-d1e123"> Prima pars habet duas partes. In prima determinat huiusmodi impedimenta in generali. In
+          secunda in speciali, ibi : De his enim, qui causa frigiditatis etc. Et illa secunda pars
+          subdividitur in duas, quia impedimentum potest venire vel ex parte vis imperatae, scilicet
+          generativae, vel imperantis, ut liberi arbitrii. Ideo primo ponit impedimenta respicientia
+          primam vim. Secundo vero secundam, ibi : Furiosi quoque , dum in amentia sunt etc. Et
+          quaelibet harum habet duas secundum subdivisionem impedimenti. Nam impedimentum in vi
+          generativa est impotentia coeundi : et haec est duplex, naturalis scilicet et
+          accidentalis. Similiter impedimentum ex libero arbitrio est aut propter defectum
+          cognitionis in ratione, aut honestatis in voluntate ; et sic sunt duo, scilicet furia et
+          criminis enormitas vel incestus. Partes in littera signatae sunt secundum quatuor
+          capitula. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51333">
+        <head xml:id="bb-d4e51333-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e51333-Hd1e111" type="question-title">Utrum in patria omnes sensus habeant suos actus.</head>
+        <div xml:id="bb-d4e51333-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e51333-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e51333-d1e119">Quantum ergo ad primum ostenditur quod omnes sensus erunt in suo actu : Quia nobilior
+            est potentia coniuncta suo actui quam non coniuncta ; sed omnes potentiae erunt ibi in
+            statu nobilissimo : ergo omnes erunt coniunctae actui : ergo etc.</p>
+          <p xml:id="bb-d4e51333-d1e122">Item, sicut anima appetit uniri corpori, ita sensus obiecto ; sed ad hoc quod anima
+            perfecte glorificetur, necesse est uniri corpori, ut ille appetitus quietetur : ergo
+            similiter necesse est sensum omnem uniri obiecto. Sed unio sensus ad obiectum est
+            mediante actu : ergo etc.</p>
+          <p xml:id="bb-d4e51333-d1e125">Item, constat quod corpus remuneratur, quia servit animae : ergo et sensus debet
+            remunerari ; sed omnis potentia nata delectari, si perfecte remuneratur, in perfecta
+            delectatione constituitur : quiescit enim in illo, et haec quies est delectatio. Et hoc
+            potest probari per simile in damnatis, quia ibi erit continuus dolor in sensu : ergo in
+            Beatis continua delectatio. Ex hoc arguo : nulla potentia delectatur nisi in eo quod
+            cognoscit ; sed sensus non cognoscit se nec organum nec quod supra se est : ergo, cum
+            solum obiectum cognoscat, delectatur in obiecto. Sed in illo non delectatur nisi in actu
+            : ergo etc.</p>
+          <p xml:id="bb-d4e51333-d1e128">Item, summa delectatio potentiae est in suo actu : ergo, si sensus ibi delectantur, in
+            suis actibus ibi sunt. Praeterea, si delectatur, sentit ; sicut sequitur, si dolet, quod
+            sentiat : ergo, cum probatum sit delectationem esse in omnibus sensibus, oportet quod
+            omnes sentiant.</p>
+          <p xml:id="bb-d4e51333-d1e132">Item, visus est in sito actu, qui est spiritualissimus. Unde Iob 19, 26 : <quote xml:id="bb-d4e51333-Qd1e134" ana="#iob19_26">Carne mea videbo Deum</quote> ; et Apocalypsis 1, 7 : <quote xml:id="bb-d4e51333-Qd1e137" ana="#ap1_7">Videbit eum omnis oculus</quote> ; et <name ref="#Augustine">Augustinus</name> dicit quod visus reficietur in contemplatione humanitatis , in
+            libro De spiritu et anima.</p>
+          <p xml:id="bb-d4e51333-d1e144">Est etiam ibi sensus tactus ; quod patet, quia unum corpus glorificatum poterit aliud
+            amplexari, et iste est maxime materialis. Quare, cum sit ibi actus sensus spiritualis et
+            materialis, ergo et omnium sensuum.</p>
+          <p xml:id="bb-d4e51333-d1e147">Contra : Quod nullus sensus sit ibi in actu, videtur : Quia omnis virtus finita plus
+            potest in unum quam quando dispergitur ad multa ; sed anima habet virtutem finitam :
+            ergo et intensius moveretur, si in solum Deum moveretur cognitione et delectatione :
+            ergo cognitio et delectatio sensuum minuit motum in Deum, ergo et gloriam. Sed nihil
+            debet ibi esse tale : ergo etc.</p>
+          <p xml:id="bb-d4e51333-d1e150">Item, si est sensus in actu, aut ille est cum delectatione aut sine. Si non est cum
+            delectatione, ergo non est in actu perfecto. Si vero est cum delectatione, sed quando
+            aliquid delectatur in uno oppositorum, tristatur in reliquo ; quando delectatur in
+            medio, tristatur in extremis : ergo, si delectatur in percipiendo, possibile est
+            tristari. Si dicas quod nihil sibi repugnat nec corrumpit, propter incorruptibilitatem ;
+            saltem carentia rei inducit tristitiam, cuius praesentia afferebat delectationem : ergo
+            etc.</p>
+          <p xml:id="bb-d4e51333-d1e153">Item, quidam sensus sunt propter indigentiam, ut patet de gustu, ad restaurationem
+            deperditi ; sed tunc tolletur omnis indigentia : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e51333-Dd1e157">
+          <head xml:id="bb-d4e51333-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e51333-Hd1e162" type="question-title">Sensus visus et tactus et fortasse etiam auditus erunt in suis
+            actibus, alii vero non</head>
+          <p xml:id="bb-d4e51333-d1e165">Respondeo : Dicendum quod posse sentire est ex coniunctione potentiae cum organo bene
+            disposito, sentire vero ex coniunctione ipsius cum obiecto. Quoniam igitur ibi erunt
+            potentiae iunctae organis bene dispositis, ibi erunt omnes potentiae sentiendi. Quoniam
+            vero obiecta omnium sensuum non erunt in gloria, sed quorumdam, ideo quidam erunt in
+            actu suo, quidam vero non. Obiecta enim quorumdam sensuum sunt proprietates absolutae,
+            quae reperiuntur in corpore glorificando, utpote color visus et levitas ipsius tactus ;
+            et quia corpus gloriosum resurget cum luminositate et levitate, erunt ibi obiecta duorum
+            sensuum ; ideo isti sensus erunt in suis actibus. Obiecta vero aliorum sensuum non sunt
+            proprietates corporis glorificandi nec proprietates absolutae, sed emanationes a
+            corporibus, ut odor et sonus et sapor ; et quia non erunt in patria, ideo etc.</p>
+          <p xml:id="bb-d4e51333-d1e168">Alia etiam ratio sumitur ex parte medii, quia medium in visu potest esse omne quod
+            habet rationem pervii, medium in tactu est caro sibi coniuncta ; et ideo, quia ista duo
+            media erunt in patria, et isti duo sensus in suis actibus erunt ; alii vero minime,
+            deficientibus sibi mediis, nisi forte quis instet in auditu, de quo relinquitur in
+            dubio, sicut de laude vocali in patria, quam ibi ponere nec videtur necessarium nec
+            aperte falsum ; et ideo hic opinari est licitum.</p>
+        </div>
+        <div xml:id="bb-d4e51333-Dd1e172">
+          <head xml:id="bb-d4e51333-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e51333-d1e177">Ad illud ergo quod obicitur, quod omnes erunt in actibus propter nobilitatem
+            potentiarum maiorem, dicendum quod est actus perfectionis et actus qui habet
+            imperfectionem coniunctam ; et quoniam actus gustandi habet imperfectionem coniunctam
+            ratione status, et similiter olfactus ratione obiecti, quod non glorificatur et habet
+            fieri per medium receptivum peregrinae impressionis : ergo etc.</p>
+          <p xml:id="bb-d4e51333-d1e180">Ad illud quod obicitur, quod appetit sensus uniri, dicendum quod alius est modus
+            appetendi. Ille enim animae appetitus est ratione perfectionis esse naturalis, sed iste
+            solum est quantum ad bene esse ; et ideo ille non potest terminari nisi corpus uniatur ;
+            iste potest, si in tali statu ponatur quod illo obiecto non egeat.</p>
+          <p xml:id="bb-d4e51333-d1e183">3-4. Ad illud quod obicitur de delectatione, dicendum quod delectatio est in sensu
+            dupliciter : una per redundantiam, alia per obiecti praesentiam. Per redundantiam, sicut
+            quando anima est interius plena delectatione, ita inebriantur et potentiae sentiendi
+            quod nullo modo quaerunt nec egent exterius delectari ; et haec delectatio erit praemium
+            omnium sensuum et in omnibus. Hanc autem delectationem non habent a se nec ab actu suo,
+            sed ab actu animae ; et ideo non oportet quod propter istam sint sensus in suo actu.
+            Alia est delectatio per obiecti convenientis praesentiam ; et quia solum duo sunt
+            sensus, qui habent obiecta gloriosa, ideo solum in duobus est ; et hoc non est praemium
+            nisi valde accidentale, quia non magis est gloriosus sensus in illius praesentia quam
+            absentia. Aliud patet.</p>
+          <p xml:id="bb-d4e51333-d1e186">Ad illud vero quod obicitur, quod nullus sit sensus, quia unus actus impedit alium,
+            dicendum quod verum est, quando unus non ordinatur ad alium ; non sic in proposito, sed
+            actus rationis redundat in sensum et actus sensus ordinatur et subservit actui rationis
+            ; et ideo unus vigoratur ex alio.</p>
+          <p xml:id="bb-d4e51333-d1e190">Ad illud quod obicitur, quod ubi delectatio, ibi tristitia ; dicendum quod quidam
+            sensus delectatur in obiecto, quia est conveniens, perficiens et conservans, utpote est
+            obiectum respectu sensus corporis ; quidam, quia est conveniens et perficiens, ut
+            intellectus in intelligibili veritate ; quidam, quia tantum est conveniens, ut sensus
+            gloriosus, non perficiens, quia interius perficitur, non conservans, quia
+            incorruptibilis est ; et talis non tristatur in contrario, quia non laeditur, nec in
+            absentia, quia non efficitur imperfectus. Quod primo modo delectatur, tristatur
+            dupliciter ; quod secundo, uno modo.</p>
+          <p xml:id="bb-d4e51333-d1e193">Ultima ratio concedenda est, quod illi sensus qui sunt per indigentiam, non manebunt in
+            suis actibus. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

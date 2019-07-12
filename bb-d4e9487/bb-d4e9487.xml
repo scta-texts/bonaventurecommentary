@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9487">
+        <head xml:id="bb-d4e9487-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e9487-Hd1e111" type="question-title">Quid in Eucharistia sit res et quid sacramentum.</head>
+        <p xml:id="bb-d4e9487-d1e114">Circa primum proceditur sic. <name ref="#Lombard">Magister</name> dicit quod
+            <quote xml:id="bb-d4e9487-Qd1e119">aliquid est ibi sacramentum tantum, ut species visibilis, et aliquid res tantum,
+            ut corpus Christi mysticum, et aliquid res et sacramentum, ut corpus Christi
+            verum</quote>, quod est res primi et sacramentum tertii.</p>
+        <div xml:id="bb-d4e9487-Dd1e123" type="rationes-principales">
+          <head xml:id="bb-d4e9487-Hd1e125">Rationes principales</head>
+          <p xml:id="bb-d4e9487-d1e128">Et videtur primo quod species visibilis non sit sacramentum corporis. Quia sacramentum
+            naturalem debet habere similitudinem ad rem ; sed species non habet similitudinem, quia
+            tam corpus Christi verum quam mysticum est totum heterogeneum, sed species homogeneum :
+            ergo etc. Si dicas quod species componitur ex pluribus granis, hoc nihil est, quia illa
+            non sunt heterogenea, sed uniformia. Praeterea, species est accidens, ergo non
+            componitur.</p>
+          <p xml:id="bb-d4e9487-d1e131">Item, sacramentum Novae Legis efficit ; sed species nullam habent omnino operationem
+            respectu contenti ; ergo non sunt sacramentum.</p>
+          <p xml:id="bb-d4e9487-d1e134">Item, quod corpus Christi verum non. sit sacramentum corporis mystici, videtur. Quia
+            sacramentum est signum, signum autem est quod se offert sensibus ; sed corpus Christi,
+            ut est sub illis speciebus, non offert se sensibus : ergo etc.</p>
+          <p xml:id="bb-d4e9487-d1e137">Item, si est sacramentum, ergo signum ex institutione significans ; sed corpus Christi
+            verum non est institutum ad significandum mysticum, nec debet institui, quia nobilius
+            est, sicut caput toto corpore : ergo non est sacramentum.</p>
+          <p xml:id="bb-d4e9487-d1e141">Item, obicitur de mystico, quod non sit res: Quia res cuiuslibet sacramenti est aliqua
+            gratia, quia dicitur sacramentum invisibilis gratiae visibilis forma. Ergo, cum corpus
+            mysticum non sit gratia, non est res huius sacramenti.</p>
+          <p xml:id="bb-d4e9487-d1e144">Item, res cuiuslibet sacramenti Novae Legis est effectus eius ; sed corpus Christi
+            mysticum non est effectus huius sacramenti, quia effectus non praecedit causam ; sed
+            corpus mysticum praecedit sacramentum : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e9487-Dd1e148">
+          <head xml:id="bb-d4e9487-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e9487-Hd1e153" type="question-title">In Sacramento eucharistiae species visibilis est signum
+            corporis Christi veri et mystici; corpus verum est res speciei et signum et causa
+            corporis mystici: hoc autem est res corporis veri et veritas signi sensibilis</head>
+          <p xml:id="bb-d4e9487-d1e156">Respondeo : Sicut dicit <name ref="#Lombard">Magister</name>, tria sunt in hoc
+            sacramento : species visibilis, corpus Christi verum, et corpus mysticum. Et secundum
+            quod dicit <name ref="#HughOfStVictor">Hugo</name>, primum est signum secundi et tertii
+            ; secundum est res primi et signum et causa tertii ; et tertium est res secundi et
+            veritas primi. Unde reperitur hic ratio efficiendi et significandi ; unde est verum
+            sacramentum Novae Legis.</p>
+        </div>
+        <div xml:id="bb-d4e9487-Dd1e167">
+          <head xml:id="bb-d4e9487-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e9487-d1e172">Ad illud quod debet habere similitudinem, dicendum quod species comparationem habet ad
+            materiam componentem sive ex qua constat, quia est ex granis ; et comparationem ad
+            effectum consequentem sive quem dat, qui est cibare. Si ad materiam, sic est ex granis
+            purissimis ad invicem unitis ; et sic habet similitudinem cum corpore mystico, quod
+            constat ex fidelibus puris, fide et caritate copulatis. Et si obicias, quod est
+            diversarum operationum, non valet, quia uniuntur ut consimiles in unitate fidei et
+            caritatis. Si autem comparetur ad effectum, qui est cibare, tunc habet similitudinem ad
+            corpus Christi verum, quod est vere cibus.</p>
+          <p xml:id="bb-d4e9487-d1e175">Potest tamen dici quod ad utrum que comparetur ratione eorum ex quibus conficitur, quia
+            corpus Christi verum est ex purissimis sanguinibus, et corpus Christi mysticum ex puris
+            fidelibus. Quod autem. hic membrorum significetur varietas, hoc est per accidens,
+            scilicet ratione corporis. Christi quod traxit de Virgine, quod est corpus organicum Et
+            si obicias, quod species non componitur nec reficit, dicendum quod retinent idiomata
+            substantiae quae prius ibi fuit, et ratione illius sunt signa convenientia.</p>
+          <p xml:id="bb-d4e9487-d1e178">Ad illud quod obicitur de causalitate, dicendum quod illud quod est sacramentum tantum,
+            si comparetur ad medium, per se non habet rationem efficiendi aliquam vel causandi nisi
+            adiuncto verbo, ut patet in aqua respectu characteris ; sic in speciebus respectu
+            corporis. Similiter, si comparetur ad tertium, habet rationem efficiendi mediante
+            secundo, ut ablutio exterior cum charactere ; similiter hic species exteriores ratione
+            corporis Christi veri interius contenti, quod unit et incorporat.</p>
+          <p xml:id="bb-d4e9487-d1e181">3-4. Ad illud quod obicitur de corpore vero, dicendum quod ex se habet naturalem
+            aptitudinem ad repraesentandum. Quod autem repraesentet, hoc non convenit ei secundum
+            se, sed prout subest speciebus visibilibus institutis ; et quantum ad hoc est signum
+            visibile et voluntarie institutum in altero, non in se ipso ; nec ad significandum est
+            instittItum in se, sed ad efficiendum in se tamquam nobilius, ad significandum vero, ut
+            est contentum in altero ; et hoc nihil derogat sibi.</p>
+          <p xml:id="bb-d4e9487-d1e185">5-6. Ad illud quod obicitur de corpore mystico, quod non est res, dicendum quod res
+            huius sacramenti non dicitur corpus mysticum ratione partium, sed ratione unionis ; et
+            illa unio est gratia et effectus sacramenti. Si obicias, quod effectus sequitur causam,
+            dicendum quod unio in corpore mystico potest esse dupliciter : vel ab unitate virtutum
+            compingentium vel a gratia sacramentali, secundum quam sumentes magis Christo
+            incorporantur, et sic per consequens magis ad invicem uniuntur. Prima praecedit et non
+            est res secunda sequitur et est effectus et res huius sacramenti.. Et sic patet
+            illud.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

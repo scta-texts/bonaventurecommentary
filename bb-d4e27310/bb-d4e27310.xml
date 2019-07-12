@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e27310">
+        <head xml:id="bb-d4e27310-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e27310-Hd1e111" type="question-title">Utrum peccata venialia possint deleri sine gratia.</head>
+        <div xml:id="bb-d4e27310-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e27310-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e27310-d1e119">Et quod possint deleri sine gratia, videtur : Quia omnis culpa remissa est omnino, cum
+            est punita quantum ipsa exigit ; sed venialis culpa est digna sola poena temporali :
+            ergo, cum omne temporale finem habeat, possibile est aliquem existentem extra gratiam
+            sufficienter pro illa culpa puniri : ergo possibile est sine gratia remitti Prima
+            propositio manifesta est, quia nullus ita severus est in iustitia, quod puniat ultra
+            quod meruit qui peccavit : ergo, cum sufficienter punit Deus, amplius non punit ; sed
+            non potest esse culpa sine poena : ergo, cessante poena, cessat culpa.</p>
+          <p xml:id="bb-d4e27310-d1e122">Item, venialis culpa non dicit deformitatem imaginis, sed solum pronitatem ad bonum
+            commutabile ; sed pronitas potest sine gratia aboleri, quoniam qui est pronus ad
+            avaritiam sine gratia potest fieri prodigus et pronus ad prodigalitatem : ergo etc.</p>
+          <p xml:id="bb-d4e27310-d1e125">Item, in morbis parvis natura non indiget medicina, sed solum quando morbus
+            magnificatus est ; sed venialia non prosternunt naturam, immo dimi.ttunt eam in suo
+            vigore : ergo praeter medicinam gratiae potest per naturam veniale curari.</p>
+          <p xml:id="bb-d4e27310-d1e128">Item, quanto morbi minorem habent connexionem et similitudinem, tanto specialius potest
+            unus sine alio curari ; sed veniale maiorem convenientiam habet cum aliquo veniali quam
+            cum mortali ; sed unum veniale potest deleri, alio remanente : ergo multo fortius potest
+            deleri veniale, remanente mortali : ergo etc.</p>
+          <p xml:id="bb-d4e27310-d1e132">Item, si veniale non potest deleri sine gratia, esto quod aliquis in solo veniali
+            moriatur, illud nunquam delebitur, sed quamdiu durabit, punietur : ergo aeternaliter ex
+            se ipso punitur : ergo non differt a mortali.</p>
+          <p xml:id="bb-d4e27310-d1e135">Contra : <name ref="#Augustine">Augustinus</name>, De civitate Dei, XXI : <quote xml:id="bb-d4e27310-Qd1e140" source="http://scta.info/resource/adcd-l21">Nec magna nec parva possunt nobis dimitti,
+              nisi nos dimiserimus debitoribus nostris</quote>. Hoc non est ob aliud, nisi quia, dum
+            homo non dimittit, est semper in peccato : ergo nullum peccatum potest homini dimitti
+            quamdiu est in peccato mortali : ergo, si sola gratia a peccato liberat, veniale non
+            dimittitur sine gratia.</p>
+          <p xml:id="bb-d4e27310-d1e144">Item, si aliquid delet aliquid aliud, habet oppositionem ad illud aliquo modo ; sed nec
+            poena nec natura habet oppositionem ad culpam : ergo nec per poenam nec per naturam
+            delentur venialia nisi adsit gratia.</p>
+          <p xml:id="bb-d4e27310-d1e147">Item, omne peccatum nocet et adimit, sicut vult <name ref="#Augustine">Augustinus</name>, in Enchiridio et multis lacis. Ergo veniale aliquid de bono
+            spirituali et rectitudine adimit ; sed solus Deus potest animae restituere bonum, sicut
+            solus potuit eam creare ; et hoc est per gratiam : ergo etc.</p>
+          <p xml:id="bb-d4e27310-d1e153">Item, Deus punit pro veniali, hoc constat : ergo aliquid invenit displicentiae in
+            veniali ; sed nihil omnino removet displicentiam Dei, nisi quod invenit placentiam et
+            veniam ; sed sola gratia gratum faciens est ilia quae Deo placere facit : ergo etc.</p>
+          <p xml:id="bb-d4e27310-d1e156">Item, perfectius est carere veniali quam martali : ergo aeque nobilis doni sive aeque
+            perfecti, vel magis perfecti actus est delere veniale quam delere mortale ; sed mortale
+            deleri non potest nisi a dono gratiae gratum facientis : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e27310-Dd1e160">
+          <head xml:id="bb-d4e27310-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e27310-Hd1e165" type="question-title">Peccata venialia sine gratia gratum</head>
+          <p xml:id="bb-d4e27310-d1e168">Respondeo : Dicendum quod aliquorum positio fuit quod venialia sine gratia gratum
+            faciente deleri possunt per gratiam gratis datam. Et rationem huius ostendere voluerunt,
+            pro eo videlicet quod veniale peccatum non repugnat gratiae gratum facienti, sed gratis
+            datae ; nec offendit Maiestatem divinam, quia ibi non dillgitur aliquid supra Deum, sed
+            aliquantulum inordinate sub Deo. Et ideo, sicut mortale potest deleri per gratiam, quia
+            ei repugnat et quia gratia Deo offenso reconciliat et quia Deum contemptum amare facit
+            super omnia, sic veniale potest deleri per gratiam gratis datam, quae illam modicam
+            inordinationem removet et illam occasionem minus amandi Deum ab ipsa anima tollit ; nec
+            oportet ibi esse gratiam elevantem animam ad dilectionem Dei super omnia, quia per
+            veniale nihil amatur supra Deum.</p>
+          <p xml:id="bb-d4e27310-d1e171">Sed haec positio, licet probabilis videatur, a veritate tamen deviat, si quis
+            inspiciat. Omne enim peccatum eo ipso quod peccatum est, aliquo modo animam foedat et
+            aliquo modo ipsam deordinat, et necesse est ex hoc quod aliquo modo Deo displiceat.
+            Quoniam igitur nota displicentiae minima quae esse possit, sine habitu, qui reducit ad
+            complacentiam et ad amicitiam, auferri non potest, tenendum est omnino de omni peccato
+            generaliter quod nullum omnino potest deleri sine gratia gratum faciente. Sic enim
+            decrevit nos sanare divina misericordia ; et hoc dicunt Sancti et sonat Scriptura, quae
+            maxime ponit gratiam esse necessariam ad delenda peccata.</p>
+        </div>
+        <div xml:id="bb-d4e27310-Dd1e175">
+          <head xml:id="bb-d4e27310-Hd1e177">Ad rationes</head>
+          <p xml:id="bb-d4e27310-d1e180">Ad illud ergo quod obicitur, quod sufficiens punitio absolvit a culpa, dicendum quod,
+            si illud intelligatur in facie hominum, qui iudicant secundum exteriora, potest habere
+            veritatem. Sed in facie Dei, qui considerat faciem animae internam et decorem imaginis
+            suae, quantacumque sit poena, non potest omnino absolvere peccatorem nisi removeatur
+            interior deformitas ; et ideo in foro Dei impossibile est peccatum sufficienter puniri
+            quantum ad tempus nisi deleatur per gratiam.</p>
+          <p xml:id="bb-d4e27310-d1e183">Ad illud quod obicitur, quod veniale dicit solam pronitatem, dicendum quod falsum est,
+            immo amplius dicit quamdam notam displicentiae ; et ita semper manet in anima, etiam si
+            veniat pronitas ad oppositum, nisi interveniat caritas, quae operit multitudinem
+            peccatorum.</p>
+          <p xml:id="bb-d4e27310-d1e186">Ad illud quod obicitur, quod in morbis parvis natura non indiget medicina, dicendum
+            quod verum est ; et similiter in spiritualibus est, si recte fiat similitudinis
+            translatio. Natura igitur habet in se fundamentum sanitatis, scilicet virtutes
+            naturales, regentes complexionem. et expellentes nociva ; regimen autem spiritualis
+            sanitatis non est nisi gratia gratum faciens : et ideo sicut, corrupta vi naturali, non
+            potest deleri morbus corporalis, sic nec absente gratia potest deleri quantumlibet sit
+            parvus, morbus spiritualis. Non ergo gratia sicut medicina, sed sicut regitiva virtus
+            est ; exterius autem sacramentum est sicut medicina, quo non indiget gratia necessario,
+            expedit sibi tamen ad curationem venialis, maxime cum illat aegritudo est
+            consuetudinaria.</p>
+          <p xml:id="bb-d4e27310-d1e189">Ad illud quod obicitur, quod maior connexio est venialis ad veniale, dicendum quod
+            veniale sine veniali potest deleri, quia neutrum fundamentum virtutis vivificantis et
+            sanantis evertit, scilicet gratiam ; sed mortale exstirpat gratiam : non enim simul stat
+            cum vita. Et quoniam non potest deleri aliqua culpa sine gratia, ideo nullus morbus,
+            etiam minimus, potest deleri quin deleatur omnis mortalis culpa ; non sic autem est in
+            veniali, pro eo quod utrumque simul stat cum gratia.</p>
+          <p xml:id="bb-d4e27310-d1e193">Ad illud quod obicitur de eo qui in solo veniali decedit, dicendum quod positio est
+            impossibilis ; et ideo non est mirum si accidat impossibile. Si tamen aliquis decedat
+            cum originali et veniali, vel cum veniali et alio quocumque mortali, punietur pro
+            veniali aliquanta poena intensive ; sed ratione adiuncti poena illa erit aeterna, non
+            ratione ipsius culpae venialis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

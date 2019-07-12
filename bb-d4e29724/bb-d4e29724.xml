@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e29724">
+        <head xml:id="bb-d4e29724-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e29724-Hd1e111" type="question-title">Utrum forma verbi sit de essentia huius sacramenti.</head>
+        <p xml:id="bb-d4e29724-d1e114">Quarto loco quaeritur de forma huius sacramenti, et quaeritur, utrum forma verbi sit de
+          essentia huius sacramenti.</p>
+        <div xml:id="bb-d4e29724-Dd1e117">
+          <head xml:id="bb-d4e29724-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e29724-d1e122">Et quod sic, videtur : Primo per ritum universalis Ecclesiae quae ubique locorum
+            unctionem tribuit cum benedictione sacerdotali.</p>
+          <p xml:id="bb-d4e29724-d1e125">Item, probatur per illud Iacobi [5, 14] : <quote xml:id="bb-d4e29724-Qd1e127" ana="#iac5_14">Inducat presbyteros, et
+              orent pro eo, ungentes eum oleo</quote> : Ergo praemittitur oratio ante unctionem, et
+            videtur quod ita sit de integritate ut unctio ; et hoc probatur per litteram sequentem :
+            Oratio fidei salvabit infirmum. Ergo efficacia sacramenti principaliter residet penes
+            verbum orationis.</p>
+          <p xml:id="bb-d4e29724-d1e131">Item, hoc ipsum videtur per simile in aliis sacramentis, quia sacramenta Novae Legis
+            sanctificant</p>
+          <p xml:id="bb-d4e29724-d1e134">Item, sicut in aliis necessaria est intentio, et ideo est verbum etiam arctans
+            intentionem, ita et in hoc necessaria est intentio. Ergo pari ratione et verbi
+            expriinentis sive arctantis intentionem prolatio.</p>
+          <p xml:id="bb-d4e29724-d1e138">Contra : Omnia sacramenta ex fonte sacrae Scripturae ortum habent, quia nullum
+            sacramentum est in Ecclesia, quin describatur in Scriptura ; sed huius sacramenti forma
+            nusquam describitur, nec ab Evangelista nec ab Apostolo : ergo etc.</p>
+          <p xml:id="bb-d4e29724-d1e141">Item, omnia sacramenta, quae habent formam eamdem debent habere per totam Ecclesiam
+            catholicam, quia variatio formae est variatio sacramenti, et sacramentum non potest esse
+            nisi uniforme, sicut fides et Ecclesia ; sed hoc sacramentum non habet eamdem formam.
+            Nam in Ecclesia Gregoriana est haec forma : Per istam sanctam unctionem et suam
+            piissimam misericordiam indulgeat tibi Dominus quidquid oculorum vitio deliquisti ; in
+              <name ref="#Ambrose">Ambrosiana</name> est haec : Ungo te oleo sanctificato in nomine
+            Patris et Filii et Spiritus Sancti, ut more militis uncti praeparatus ad certamen ;
+            aereas possis superare potestates, vel similis huic. Ergo non videtur quod aliqua forma
+            sit substantialis.</p>
+          <p xml:id="bb-d4e29724-d1e147">Item, omnes sacramentorum formae traditae sunt per orationem indicativam ; sed forma
+            huius sacramenti tradita est per orationem deprecativam : ergo non videtur convenienter
+            assignata, aut non est forma, quoniam sacramenta Novae Legis certitudinaliter ponunt
+            suum effectum : ergo per orationem indicativam debent exprimi, non per deprecativam.</p>
+          <p xml:id="bb-d4e29724-d1e150">Item, secundum beatum Iacobum [5, 15] oratio fidei est illa quae est necessaria. Si
+            ergo oratio est ad Deum, et ad Deum oratur melius gemitu cordis quam voce oris, videtur
+            quod ad istius sacramenti perfectionem non oporteat aliquid oretenus exprimi.</p>
+          <p xml:id="bb-d4e29724-d1e153">Quaeritur igitur, si formam habet et quae sit forma et per quem modum.</p>
+        </div>
+        <div xml:id="bb-d4e29724-Dd1e157">
+          <head xml:id="bb-d4e29724-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e29724-Hd1e162" type="question-title">Forma extremae unctionis essentialis est oratio
+            deprecativa</head>
+          <p xml:id="bb-d4e29724-d1e165">Respondeo : Dicendum quod aliqui voluerunt dicere quod istud sacramentum non habebat
+            formam verbi essentialem, sed quae solum erat de bene esse ; et ideo non fuit expressa
+            nec in Ecclesia invenitur unica, sed diversa. Sed tamen illud non est securum dicere nec
+            secundum textum Scripturae, cum in istius sacramenti institutione maximam vim videatur
+            Iacobus in oratione constituere et sibi totam efficaciam attribuere, cum dicit : Oratio
+            fidei salvabit, non dicit : unctio. Oratio autem fidei dicitur non ipsius inungentis,
+            sed ipsius Ecclesiae, in cuius fide administrantur sacramenta. Sicut ergo in aliis
+            sacramentis non sufficit corde credere, nisi fiat professio in verbo exteriori, sic
+            intelligendum est hic, quod non sufficit oratio mentalis sine vocali.</p>
+          <p xml:id="bb-d4e29724-d1e168">Et ideo forma verbi est de integritate sacramenti forma, inquam, verbi secundum quod
+            est expressiva orationis fidei ; et hoc propter talem institutionem istius
+            sacramenti.</p>
+          <p xml:id="bb-d4e29724-d1e171">Unde nota quod est forma verbi quae exprimit actum et intentionem ; et talis, est per
+            modum indicativum et non est de sacramenti necessitate, sed congruitate ; et haec in
+            aliquibus habetur Ecclesiis, sed non in Romana, quae maxime vitat ea quae possunt esse
+            occasio deviandi. Et est forma quae exprimit orationem ; et quoniam oratio est per modum
+            deprecativum, talis forma est deprecativa ; et haec est de necessitate sacramenti huius
+            et habetur in omnibus Ecclesiis, quoniam haec tangitur in institutione huius sacramenti.
+            Et quoniam non exprimitur verbum determinatum, sed solum oratio fidei, ideo non oportet
+            quod sit uniformitas in verbo orationis, sed solum quod sit in sensu.</p>
+          <p xml:id="bb-d4e29724-d1e175">Si autem quaeras, quare in isto sacramento potius est oratio de essentia quam in alio,
+            respondetur quod ratio principalis est institutio. Si quaeras rationem institutionis,
+            dici potest quod haec habet rationem congruitatis multiplicem. Prima est ex parte
+            suscipientis, qui propter infirmitatem est destitutus ; ideo oratione est relevandus.
+            Secunda est ex parte modi curandi, qui est per devotionem et elevationem animae ad
+            spiritualia ; et quia quod super omnia excitat animam ad hoc est oratio, ideo etc.
+            Tertia ratio est ex parte morbi, quoniam hic fit remissio peccati, interveniente
+            ministerio sacerdotis ; et quoniam in remissione culpae sacerdos non se habet nisi per
+            modum deprecantis - unde et in absolutione sua utitur oratione deprecativa, ut in
+            praecedentibus habitum est - hinc est quod optime institutum fuit unctionem non fieri
+            sine oratione, cuius expressio est forma sacramenti, ut ostendunt rationes. His visis,
+            facile est respondere ad obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e29724-Dd1e180">
+          <head xml:id="bb-d4e29724-Hd1e182">Ad rationes</head>
+          <p xml:id="bb-d4e29724-d1e185">Ad illud enim quod obicitur, quod non habet ortum ex fonte sacrae Scripturae, dicendum
+            quod falsum est, ut patet ; immo ab illo verbo beati Iacobi : Oratio fidei salvabit
+            infirmum.</p>
+          <p xml:id="bb-d4e29724-d1e188">Ad illud quod obicitur, quod non est eadem forma, dicendum quod, secundum id quod est
+            necessarium et essentiale sacramento, eamdem oportet esse ; sed forma verbi non est
+            necessaria ratione vocis exterioris, sed prout est expressiva verbi interioris.</p>
+          <p xml:id="bb-d4e29724-d1e191">Ad illud quod obicitur de oratione indicativa, dicendum quod non est simile de hoc
+            sacramento et de aliis, pro eo quod illud habet aliquam specialem orationem, quam non
+            habuit aliud, ut visum est.</p>
+          <p xml:id="bb-d4e29724-d1e194">Ad illud quod obicitur, quod melius oratur gemitu cordis, dicendum quod in sacramentis,
+            quia sunt signa exteriora, non tantum consideratur quod est interius, sed etiam signum
+            exterius, ratione cuius habent rationem sacramenti ; et sic patet totum. Quamvis enim
+            aliquis crederet Trinitatem, nisi exprimeretur in baptizando, non daret sacramentum. Sic
+            in proposito est intelligendum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

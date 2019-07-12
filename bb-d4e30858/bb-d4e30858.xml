@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e30858">
+        <head xml:id="bb-d4e30858-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e30858-Hd1e111" type="question-title">Utrum Ordo sit sacramentum unum vel plura.</head>
+        <p xml:id="bb-d4e30858-d1e114">Quarto et ultimo quaeritur, utrum Ordo sit sacramentum unum vel plura.</p>
+        <div xml:id="bb-d4e30858-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e30858-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e30858-d1e122">Et quod sit unum, videtur : Per divisionem sacramentorum, quae dividuntur in septem. Si
+            ergo alia non subdividuntur, videtur quod Ordo sit unum sacramentum.</p>
+          <p xml:id="bb-d4e30858-d1e125">Item, sacramentum unionis sive communionis est unum sacramentum. Ergo pari ratione et
+            sacramentum Ordinis.</p>
+          <p xml:id="bb-d4e30858-d1e128">Item, ab eodem est unitas a quo est perfectio et complementum ; sed sacramentum Ordinis
+            unum habet complementum, scilicet sacerdotium, quod complet omnes Ordines praecedentes :
+            ergo unum est sacramentum.</p>
+          <p xml:id="bb-d4e30858-d1e131">Item, <quote xml:id="bb-d4e30858-Qd1e133" source="http://scta.info/resource/ldc-p17">quanto aliqua virtus potentior,
+              tanto magis unita</quote>. Ergo quanto sacramentum maius et excellentius, tanto magis
+            unum ; sed sacramentum Ordinis est excellens et in statu excellenti collocat. ordinatum
+            : ergo etc.</p>
+          <p xml:id="bb-d4e30858-d1e138">Contra : Multiplicato inferiori, multiplicatur superius ; sed sacramentum est superius
+            ad Ordinem : ergo, cum sint plures Ordines, sunt ergo plura sacramenta.</p>
+          <p xml:id="bb-d4e30858-d1e141">Item, cum Ordinis sacramentum dividitur, aut in partes integrales aut subiectivas. Non
+            integrales, quia nulla pars integralis recipit praedicationem totius, sed quilibet
+            gradus ecclesiasticus recipit praedicationem sui totius. Si in subiectivas, ergo redit
+            idem quod prius, quod illud sacramentum multiplicetur.</p>
+          <p xml:id="bb-d4e30858-d1e144">Item, hoc sacramentum est ordinatum ad dispensationem aliorum sacramentorum ; sed alia
+            sacramenta differunt specie : ergo potentiae ordinatae ad illa debent differre specie :
+            ergo videtur quod istud sacramentum per species diversas plurificetur.</p>
+          <p xml:id="bb-d4e30858-d1e147">4. Item, sacerdos cum sacerdote habet convenientiam in sacramento Ordinis ; sed
+            sacerdos cum diacono habet distinctionem et differentiam : constat quod non solum
+            materialem, ergo specificam habet differentiam : ergo, cuni utrumque horum sit
+            sacramentum, videtur quod Ordinis sacramentum diversas habeat species sacramentorum.</p>
+        </div>
+        <div xml:id="bb-d4e30858-Dd1e151">
+          <head xml:id="bb-d4e30858-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e30858-Hd1e156" type="question-title">Sacramentum ordinis est unum, habet tamen plures partes
+            potestativas, unum perfectum Sacramentum constituentes</head>
+          <p xml:id="bb-d4e30858-d1e159">Respondeo : Dicendum quod sacramentum Ordinis unum est, multas tamen habet partes, quae
+            sacramentum non plurificant, pro eo quod non sunt omnino partes subiectivae, et tamen
+            recipiunt praedicationem totius, quia naturam habent quodam modo partium subiectivarum,
+            et tales sunt partes potestativae, quae maxime competunt ordini : tum quia ordo dicitur
+            ordinata potestas, quae ex ordinatione multorum ad unum redditur perfecta, et quodlibet
+            illorum participat rationem potestatis, licet non perfectionis ; tum etiam, quia ordo
+            concernit distinctionem in partibus sicut et numerus. Unde quemadmodum partes numeri
+            quodam modo habent naturam partium integrantium in hoc quod simul convenientes per
+            ordinem reddunt numerum perfectum, ut partes senarii constituunt senarium, et tamen
+            quaelibet pars numeri est numerus : sic omnes gradus Ordinum unum faciunt sacramentum
+            perfectum, et tamen quilibet gradus Ordo dicitur. Et concedendae sunt rationes
+            ostendentes hoc sacramentum esse unum, quamvis aliquae non sint multum cogentes.</p>
+        </div>
+        <div xml:id="bb-d4e30858-Dd1e164">
+          <head xml:id="bb-d4e30858-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e30858-d1e169">Ad illud quod obicitur, quod multiplicato inferiori etc., dicendum quod istud verum est
+            in eo quod habet naturam speciei sive partis subiectivae solum ; non sic est in
+            proposito.</p>
+          <p xml:id="bb-d4e30858-d1e172">Ad illud quod quaeritur, utrum dividatur in partes integrales aut subiectivas, dicendum
+            quod dividitur in partes potestativas, quae utrarumque partium habent naturam ; unde
+            sicut divisio analogi tenet medium inter divisionem aequivoci et univoci, sic talis
+            divisio medium tenet inter divisionem totius universalis et totius integralis.</p>
+          <p xml:id="bb-d4e30858-d1e175">Ad illud quod obicitur, quod ad dispensationem aliorum ordinatur, dicendum quod
+            principaliter : ordinatur ad dispensationem Sacramenti altaris, quod unum est.</p>
+          <p xml:id="bb-d4e30858-d1e178">Ad illud quod obicitur de differentia, dicendum quod quodam modo est specifica, quodam
+            modo non. Una enim species non disponit ad aliam, sicut unus Ordo ad alium disponit ; et
+            ideo non est ibi specifica distinctio, sed tamen aliquo modo distinguuntur ; quia tamen
+            ad unum complementum ordinantur, ideo unum sacramentum faciunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

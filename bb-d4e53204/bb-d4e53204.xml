@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e53204">
+        <head xml:id="bb-d4e53204-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e53204-Hd1e111" type="question-title">Utrum damnati habeant vermem materialem.</head>
+        <p xml:id="bb-d4e53204-d1e114">Quantum ergo ad primum proceditur sic, et ostenditur quod vermis ille sit materialis.</p>
+        <div xml:id="bb-d4e53204-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e53204-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e53204-d1e122">Ecclesiastici 7, 19 : <quote xml:id="bb-d4e53204-Qd1e124" ana="#qoh7_19">Vindicta carnis impii ignis et
+              vermis</quote> ; et Iudith ultimo, 21 : <quote xml:id="bb-d4e53204-Qd1e127"><!-- Judith 16_21 -->Dabit ignem et
+              vermes in carnes eorum</quote>. Ergo, si in carne non est nisi vermis materialis,
+            patet etc.</p>
+          <p xml:id="bb-d4e53204-d1e132">Item, damnati resurgent cum poenalitatibus et deformitatibus : ergo habebunt corpora
+            putrefactibilia sicut nunc habent ; sed ex corpore putrefactibili generantur vermes :
+            ergo etc.</p>
+          <p xml:id="bb-d4e53204-d1e135">Item, poena vermis semper annectitur poenae ignis, velut in pluribus locis Scripturae
+            patet ; sed ignis non tantum est spiritualis, sed etiam materialis : ergo videtur
+            similiter quod vermis. Igne enim punitur corpus et anima, ergo similiter et verme : ergo
+            videtur quod sit materialis.</p>
+          <p xml:id="bb-d4e53204-d1e138">Contra : Isaiae 14, 11 dicitur de diabolo : Operimentum tuum erunt vermes ; sed constat
+            quod diabolus non habet vermem materialem : ergo etc.</p>
+          <p xml:id="bb-d4e53204-d1e142">Item, nullus vermis materialis est immortalis, cum habeat formam corruptibilem ; sed
+            vermis ille non moritur, sicut dicitur ultimo, 24 Isaiae : ergo etc.</p>
+          <p xml:id="bb-d4e53204-d1e145">Item, vermis materialis et in sua corrosione et in sua origine aliquid minuit de
+            substantia corporis. Ergo, si corpus illud non est minuibile, non est circa illud talis
+            vermis.</p>
+          <p xml:id="bb-d4e53204-d1e148">Item, ibi erit multo intensior ignis quam sit hic ; sed vermes in isto igne non possunt
+            vivere : ergo nec in illo poterunt. Si tu dicas quod hoc est per miraculum ; ergo tunc,
+            cum non patiantur ab igne, videntur habere corpora gloriosa et incorruptibilia. Si dicas
+            quod renascuntur ; quaero : quomodo? cum non sit ibi solis latio, et maxime
+            putrefactibilia per virtutem supracaelestem habeant generari.</p>
+        </div>
+        <div xml:id="bb-d4e53204-Dd1e152">
+          <head xml:id="bb-d4e53204-Hd1e154">Conclusio</head>
+          <head xml:id="bb-d4e53204-Hd1e157" type="question-title">Vermis ille non est materialis, sed spiritualis</head>
+          <p xml:id="bb-d4e53204-d1e160">Respondeo : Dicendum quod <name ref="#Augustine">Augustinus</name>, XX De civitate Dei,
+            ponit circa hoc duas opiniones. Quidam enim voluerunt intelligere vermem illum esse
+            materialem propter verbum Scripturae ; alii vero, rationem sequentes, voluerunt dicere
+            quod vermis ille sit spiritualis. Et horum opinionem dicit sibi magis placere ; et ex
+            quo sibi magis placet, et nobis similiter debet placere. Unde concedendae sunt rationes
+            quod vermis ille non sit materialis.</p>
+        </div>
+        <div xml:id="bb-d4e53204-Dd1e168">
+          <head xml:id="bb-d4e53204-Hd1e170">Ad rationes</head>
+          <p xml:id="bb-d4e53204-d1e173">Ad illud quod obicitur in contrarium per similitudinem ignis, dicendum quod sicut ignis
+            materialis affligendo corpus affligit et punit animam ei unitam, sic vehemens dolor et
+            remorsus sive tristitia animae redundat in corpus, quia spiritus tristis desiccat ossa.
+            Quoniam igitur erit in damnatis magnus conscientiae remorsus et dolor, ita etiam ut
+            redundet haec moestitia in carnem, ideo vere dixit Scriptura quod daret Deus vermem in
+            carnem eorum, et expressit multum ad terrorem carnalium, qui magis horrent poenam carnis
+            quam animae. Vel posset dici quod caro ibi dicitur opus carnale, hoc est opus peccati,
+            ex quo generatur vermis spiritualis.</p>
+          <p xml:id="bb-d4e53204-d1e176">Ad illud quod obicitur, quod habebunt deformitatem, dicendum quod verum est, sed non
+            putrefactionem.</p>
+          <p xml:id="bb-d4e53204-d1e179">Ultimum solutum est de igne, quia ignis ab exteriori procedit ad intima, vermis ab
+            intimis ad exteriora ; et ideo ignis est materialis, sed vermis spiritualis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e23317">
+        <head xml:id="bb-d4e23317-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e23317-Hd1e111" type="question-title">Utrum oporteat confiteri omnem venialem culpam.</head>
+        <p xml:id="bb-d4e23317-d1e114">Circa primum ostenditur quod oporteat confiteri culpam venialem.</p>
+        <div xml:id="bb-d4e23317-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e23317-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e23317-d1e122">Iacobi ultimo, 16 : <quote xml:id="bb-d4e23317-Qd1e124" ana="#iac5_16">Confitemini alterutrum peccata
+            vestra</quote>, Glossa : <quote xml:id="bb-d4e23317-Qd1e127">Peccata, quae ex humana ignorantia veniunt, dicit et
+              praecipit confiteri</quote> ; et talia sunt venialia : ergo praeceptum est confiteri
+            illa.</p>
+          <p xml:id="bb-d4e23317-d1e131">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e23317-Qd1e136">Si coepisti fluctuare,
+              confitearis motum, ne plangas ruinam</quote>. Si ergo periculum est ruere, qui non
+            confitetur exponit se periculo ; sed omnes tenentur illud fugere : ergo etc.</p>
+          <p xml:id="bb-d4e23317-d1e140">Item, de omni de quo Dominus punire et iudicare debet in futuro, coinmisit in praesenti
+            iudicium sacerdotibus et praecipue Petro ; sed Dominus in die iudicii iudicabit de
+            venialibus et oportebit reddere rationem, sicut dicitur Matthaei 12, 36, <quote xml:id="bb-d4e23317-Qd1e142" ana="#mt12_36">de omni verbo otioso</quote> etc. Si tu dicas quod requiret rationem,
+            sed tamen non propter hoc condemnabit, obicitur de eis qui cum mortali decedunt, quod
+            pro venialibus in aeternum cruciabuntur. Ergo videtur quod impius veniens ad
+            confessionem, cum pro utrisque esset aeternliter puniendus, quod debet utraque
+            confiteri.</p>
+          <p xml:id="bb-d4e23317-d1e146">Item, de aliquibus venialibus difficile est iudicare utrum sint mortalia vel venialia,
+            quae tamen secundum veritatem. sunt venialia ; sed, cum est difficultas et ambiguitas,
+            recurrendum est ad sacerdotes, sicut dicitur Deuteronomii 17, 8 : <quote xml:id="bb-d4e23317-Qd1e148" ana="#deut17_8">Si difficile et ambiguum</quote> etc. : ergo venialia talia sunt confitenda.</p>
+          <p xml:id="bb-d4e23317-d1e153">Contra : <quote xml:id="bb-d4e23317-Qd1e155">Poenitentia est secunda tabula post naufragium</quote> ; sed per
+            veniale nemo naufragatur : ergo pro venialibus nullus tenetur recurrere ad Poenitentiam
+            : ergo nec ea confiteri.</p>
+          <p xml:id="bb-d4e23317-d1e159">Item, venialia non sunt in prohibitione, ergo nec eorum remedia in praecepto : ergo non
+            est praeceptum confiteri venialia.</p>
+          <p xml:id="bb-d4e23317-d1e162">Item, confessio fit ad reconciliandum Ecclesiae ; sed per veniale nullus factus est
+            inimicus Ecclesiae, nullus extra Ecclesiam eiectus est, in nullo damnificata Ecclesia,
+            quia caritatem non auferunt nec minuunt : ergo nemo tenetur illa confiteri.</p>
+          <p xml:id="bb-d4e23317-d1e165">Item, quidquid homo tenetur confiteri, tenetur amplius non iterare, quia poenitentia
+            vera est commissa plangere et plangenda non committere ; sed non tenetur quis venialia
+            non iterare : ergo non tenetur de illis poenitentiam agere, ergo nec confiteri.</p>
+        </div>
+        <div xml:id="bb-d4e23317-Dd1e169">
+          <head xml:id="bb-d4e23317-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e23317-Hd1e174" type="question-title">Confiteri peccata venialia congruum est, non necessarium, nisi
+            interdum propter dubium, vel ecclesiasticum statutum</head>
+          <p xml:id="bb-d4e23317-d1e177">Respondeo : Dicendum quod confessio venialium non est in praecepto, est tamen in
+            consilio. In praecepto non est, quia, cum sint de sui natura venialia, per se possunt
+            veniam consequi, sive per poenitentiam internam, sive per exteriorem assumptam, sive
+            etiam per poenam purgatoriam, sicut melius patebit infra, sive per aliud remedium
+            competens et idoneum. Quamvis autem de ratione sui generis non sit ea confiteri
+            necessarium, tamen ea confiteri congruum est, maxime viris perfectis, quia utile est
+            multum, et poena illis debita minuitur ex vi clavium. Hoc est gitur de venialibus
+            generaliter dictum.</p>
+          <p xml:id="bb-d4e23317-d1e180">In casu tamen contingit quod homo teneatur ea confiteri, sive propter dubium sive
+            propter ecclesiasticum statutum. Propter dubium, quia dubitat probabiliter utrum sit
+            veniale vel mortale ; ideo, si non poenitet sicut de mortali, discrimini se exponit, et
+            ideo debet confiteri sicut iacet in conscientia, et iudicio sacerdotis relinquat utrum
+            sit veniale vel mortale. Propter ecclesiasticum statutum tenetur, quia omnis fidelis
+            semel in anno tenetur confiteri ; et ideo, si non habet nisi venialia, saltem illa semel
+            in anno tenetur confiteri. Sed hoc non est propter venialis peccati morbum, sed propter
+            praeceptum, quod quare omnibus sit iniunctum, superius tactum est.</p>
+          <p xml:id="bb-d4e23317-d1e183">Concedendum est igitur quod venialia, secundum quod huiusmodi, non est necesse
+            confiteri, est tamen expediens ; nec quis tenetur nisi de bono et aequo, nisi in duobus
+            casibus, vel quia ligatur a conscientia vel quia ligatur a constitutione
+            ecclesiastica.</p>
+        </div>
+        <div xml:id="bb-d4e23317-Dd1e188">
+          <head xml:id="bb-d4e23317-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e23317-d1e193">Ad illud quod obicitur, quod peccata quae per ignotantiam contrahuntur praecipit
+            confiteri, dicendum quod illud intelligendum est de venialibus. Sed tunc praecipere est
+            docere, secundum illud Lucae 5, 5 : <quote xml:id="bb-d4e23317-Qd1e195" ana="#lc5_5">Praeceptor, per totam
+              noctem</quote> etc. Verbum autem beati Iacobi, quamvis propositum sit per modum
+            imperativum, tamen pro mortalibus tenetur imperative, pro venialibus magis
+            excitative.</p>
+          <p xml:id="bb-d4e23317-d1e199">Ad illud quod dicit <name ref="#Augustine">Augustinus</name> : Si coepisti etc.,
+            dicendum quod consilium est, non quia non aliter possit vitari ruina nisi per
+            confessionem, sed quia haec via, est idonea et salubris ; unde non dicit hoc, quod
+            semper ruat ille qui non confitetur motum, sed quia ad ruendum esset proclivior.</p>
+          <p xml:id="bb-d4e23317-d1e205">Ad illud quod obicitur, quod Dominus puniet et iudicabit in futuro, dicendum quod
+            aliter iudicabit veniale sive pro veniali, aliter pro mortali. Pro mortali namque
+            iudicabit et condemnabit ; pro veniali nequaquam condemnabit, sed temporaliter
+            cruciabit, nisi forte sit annexum mortali, et hoc non ratione sui, sed ratione mortalis.
+            Et ideo, ex quo quis confitetur mortale, solvitur pro quo condemnandus erat a Domino ;
+            et ideo non oportet illa confiteri quantum est de necessitate obligationis.</p>
+          <p xml:id="bb-d4e23317-d1e208">Ad illud quod obicitur de venialibus, quod dubium sint mortalia, dicendum quod in tali
+            casu, nisi certificetur poenitens per aliquem virum sapientem cui possit adhibere fidem,
+            tenetur illud utique confiteri ; si autem tollatur dubitatio et sciatur esse veniale,
+            tunc non obligatur ; sicut si conscientia alicuius probabiliter dubitat de aliquo, utrum
+            sit mortale, tenetur amplius illud non facere, manente dubitatione ; sed, amota tali
+            conscientia, non tenetur. Et ideo sane dictum est quod ad confessionem venialis ligatur
+            quis, non ex institutione divina, sed ex constitutione ecclesiastica et conscientia
+            propria. Et sic patent obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

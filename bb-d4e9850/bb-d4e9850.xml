@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9850">
+        <head xml:id="bb-d4e9850-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e9850-Hd1e111" type="question-title">Quid sit manducare spiritualiter.</head>
+        <p xml:id="bb-d4e9850-d1e114">Secundo quaeritur, quid sit manducare spiritualiter, sive pro quanto dicatur quis
+          manducare spiritualiter.</p>
+        <div xml:id="bb-d4e9850-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e9850-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e9850-d1e122">Et quod credere sit spiritualiter manducare, videtur : Auctoritate Domini, Ioannis 6,
+            54 : <quote xml:id="bb-d4e9850-Qd1e124" ana="#io6_54">Nisi manducaveritis carnem Filii hominis, non habebitis vitam
+              in vobis</quote> ; et Ioannis 11, 25 : <quote xml:id="bb-d4e9850-Qd1e127" ana="#io11_25">Qui credit in me, etiam
+              si mortuus fuerit, vivet</quote>. Si igitur vita spiritualis non est sine manducatione
+            spirituali, et vivere est in nobis per fidem, ergo vel credere est manducare vel non
+            sine manducatione.</p>
+          <p xml:id="bb-d4e9850-d1e131">Item, hoc videtur expressius auctoritate <name ref="#Augustine">Augustini</name>, quam
+            etiam <name ref="#Lombard">Magister</name> ponit in littera : <quote xml:id="bb-d4e9850-Qd1e139">Crede, et
+              manducasti</quote> ; sed constat, quod hoc non intelligit sacramentaliter : ergo
+            spiritualiter, et sic etc.</p>
+          <p xml:id="bb-d4e9850-d1e143">Item, quandocumque aliquis interius lavatur, dicitur spiritualiter baptizari. Ergo, a
+            simili, quandocumque aliquis spiritualiter masticat et reficitur, spiritualiter manducat
+            ; sed hoc est per actum fidei devotae, ubi est discussio et spiritualis refectio : ergo
+            etc.</p>
+          <p xml:id="bb-d4e9850-d1e146">Contra : Si credere est spiritualiter manducare, cum multi peccatores et credant et
+            aliquam devotionem habeant, videtur quod secundum hoc spiritualiter manducent ; hoc
+            autem est contra <name ref="#Augustine">Augustinum</name>, qui dicit quod nullus
+            spiritualiter manducat nisi qui est membrum Christi et manet in Christo.</p>
+          <p xml:id="bb-d4e9850-d1e153">Item, si actus fidei etiam cum caritate sufficit ad spiritualem manducationem, ergo
+            omne quod credimus et diligimus, manducamus. Ergo, cum multa alia credamus quam hoc
+            sacramentum vel rem huius sacramenti, videtur quod manducatio spiritualis sit omnium
+            articulorum quod nemo sanae mentis concederet et quod manducatio non sit huic sacramento
+            et rei propria.</p>
+          <p xml:id="bb-d4e9850-d1e156">Item, manducatio spiritualis est dicta ad similitudinem materialis ; sed qui comedit
+            materialiter incorporat sibi cibum, qui autem credit et diligit Christum incorporatur
+            Christo : ergo potius manducatur quam manducet. Ergo videtur quod manducatio
+            spiritualis, qua quis manducat, in actu fidei et caritatis non consistat.</p>
+        </div>
+        <div xml:id="bb-d4e9850-Dd1e160">
+          <head xml:id="bb-d4e9850-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e9850-Hd1e165" type="question-title">Ad spiritualem manducationem requiritur recogitatio fidei
+            quasi masticati, et affectio caritatis quasi incorporatio</head>
+          <p xml:id="bb-d4e9850-d1e168">Respondeo : Dicendum quod manducatio primo et proprie in corporalibus invenitur et ab
+            his ad spiritualia est translata ; et ideo, si velimus accipere rectam manducationem
+            spiritualem, necesse habemus ad propriam acceptionem vocabuli nos transferre. Notandum
+            igitur quod, licet multiplex actus sit in manducatione corporali annexus et consequens,
+            iste tamen duplex est, qui est de integritate, masticatio scilicet et incorporatio, ut
+            patet aspicienti. Si ergo ratio manducationis congrue transfertur ad spiritualia,
+            oportet haec duo reperire, et secundum ea in quibus haec duo consistunt manducatio
+            spiritualis attenditur. Spiritualis masticatio est recogitatio cibi, scilicet carnis
+            Christi pro nobis expositae in pretium ad redimendum et in cibum ad reficiendum.
+            Incorporatio vero attenditur, dum recogitans caritatis amore ei quod cogitatur iungitur
+            et sic incorporatur, et dum incorporatur, reficitur et magis assimilatur.</p>
+          <p xml:id="bb-d4e9850-d1e171">Ad hoc ergo quod quis spiritualiter manducet requiritur recogitatio fidei et affectio
+            caritatis. In primo est masticatio, in secundo incorporatio ; et ex his duobus
+            integratur spiritualis manducatio. Concedo ergo quod non sufficit qualiscumque fides,
+            sed necessario fides operans per dilectionem. Et de hac currunt tres rationes ad primam
+            partem.</p>
+        </div>
+        <div xml:id="bb-d4e9850-Dd1e176">
+          <head xml:id="bb-d4e9850-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e9850-d1e181">Ad illud ergo quod primo obicitur in oppositum de fide informi, dicendum quod verum
+            est, quod illa non sufficit.</p>
+          <p xml:id="bb-d4e9850-d1e184">Ad illud quod obicitur, quod secundum hoc omnes articulos manducamus, dicendum quod,
+            proprie loquendo, non quaecumque discussio et recogitatio fidei dicitur masticatio, sed
+            illa quae est cibi ; et ideo non quilibet actus credendi manducare nos facit, nisi ille
+            sit qui est ipsius carnis Christi pro nobis ad redimendum expositae, ubi fuit eius
+            decoctio, et ad reficiendum, ubi vera consistit refectio.</p>
+          <p xml:id="bb-d4e9850-d1e187">Ad illud quod obicitur de assimilatione, dicendum quod non est omnimoda similitudo, est
+            tamen similitudo sufficiens ad translationem, quia sicut hic corporaliter est masticatio
+            et incorporatio, ita in manducatione spirituali. Sed in hoc est dissimilitudo, quia in
+            corporali manducans convertit in se cibum, quia dignior et nobilior est cibo ; in
+            spirituali est e contrario, quia cibus est nobis dignior et perfectior et completior,
+            ideo potius in ipsum mutamur et incorporamur quam e converso. Ratio igitur non valet,
+            quia non est omnino simile ; et in translatione non oportet omnimodam attendi
+            similitudinem, sed sufficit reperire aliqualem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

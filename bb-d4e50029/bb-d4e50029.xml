@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e50029">
+        <head xml:id="bb-d4e50029-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e50029-Hd1e111" type="question-title">Utrum elementa innovabuntur.</head>
+        <p xml:id="bb-d4e50029-d1e114">Tertio quaeritur, utrum innovabuntur elementa.</p>
+        <div xml:id="bb-d4e50029-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e50029-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e50029-d1e122">Et quod sic, videtur : I ad Corinthios 7, 31 : <quote xml:id="bb-d4e50029-Qd1e124" ana="#Icor7_31">Praeterit figura
+              huius mundi</quote> ; aut igitur in nihil aut in melius aut in peius. In nihil non,
+            quia Deus nihil permittit omnino perire : non in peius, quia, si homo melioratur, et
+            mundus. Ergo in melius ; sed quod senescit et in melius mutatur, innovatur, ergo mundus
+            iste ; sed elementa sunt partes mundi : ergo etc.</p>
+          <p xml:id="bb-d4e50029-d1e128">Item, <name ref="#Augustine">Augustinus</name>, De ecclesiasticis dogmatibus :
+              <quote xml:id="bb-d4e50029-Qd1e133">Elementa non dicimus abolenda, sed in melius commutanda</quote>.</p>
+          <p xml:id="bb-d4e50029-d1e137">Item, ratione videtur, quia aut innovabuntur omnia aut nulla aut quaedam. Si omnia,
+            habeo propositum ; si nulla, ergo erunt in continua transmutatione et impuritate quam
+            contraxerunt ; sed hoc est inconveniens, cum sint propter hominem incorruptibilem et
+            omnino mundum. Si quaedam sic et quaedam non, ergo solvitur harmonia elementorum : ergo
+            et pulcritudo et decor universi.</p>
+          <p xml:id="bb-d4e50029-d1e140">Item, ignis est completissimum elementorum ; unde et species elementorum dicitur.
+            Quaero igitur aut ignis innovabitur aut non. Si non innovatur, sed consumitur, ergo
+            perit nobilitas et decor elementorum. Si innovatur, ergo, cum alia elementa magis sint
+            accedentia ad vetustatem, videtur quod omnia debeant innovari.</p>
+          <p xml:id="bb-d4e50029-d1e144">Sed contra : Matthaei 24, 35 : <quote xml:id="bb-d4e50029-Qd1e146" ana="#mt24_35">Caelum et terra
+            transibunt</quote>. Si ergo terra est stabilissimum inter elementa, et ipsa non
+            innovatur, sed transit, nec alia innovabuntur. Si dicas quod non transit quantum ad
+            substantiam, sed quantum ad figuram, sicut dicitur I ad Corinthios 7, 31 : <quote xml:id="bb-d4e50029-Qd1e149" ana="#Icor7_13">Praeterit figura huius mundi</quote> ; tunc ergo, cum figura respiciat
+            quantitatem et dispositionem partium, non qualitatem, videtur ergo quod alterius figurae
+            erit universum. Cum ergo modo sit circulare, tunc erit non circulare ; sed hoc est
+            inconveniens : ergo etc.</p>
+          <p xml:id="bb-d4e50029-d1e153">Item, super <ref xml:id="bb-d4e50029-Rd1e155">II Petri ultimum, 10</ref>, dicit Glossa: <quote xml:id="bb-d4e50029-Qd1e158">Elementa quatuor
+              quibus mundus consistit, ille maximus ignis absumet, nec cuncta in tantum consumet ut
+              non sint, sed duo ex toto consumet, duo vero in meliorem restituet faciem</quote>.</p>
+          <p xml:id="bb-d4e50029-d1e162">Item, ratione videtur, quia, si elementa innovabuntur, aut ergo quantum ad substantiam,
+            aut quantum ad qualitatem. Non quantum ad substantiam, quia substantia erit eadem, non
+            recipiens magis et minus ; non quantum ad qualitates, quia accidentia sunt inalterabilia
+            : ergo nullo modo. Si dicas quod quantum ad qualitates erit innovatio, quia qualitates
+            istae transibunt, contra : forma substantialis in materia est causa immediata ipsarum
+            qualitatum elementarium : ergo si posita causa immediata, necessario ponitur effectus ;
+            sed remanebit forma substantialis in materia : ergo et qualitates.</p>
+          <p xml:id="bb-d4e50029-d1e165">Item, calidum in summo est dispositio ad formam ignis ; sed, remota dispositione et
+            privata, per consequens privatur forma : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e50029-Dd1e169">
+          <head xml:id="bb-d4e50029-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e50029-Hd1e174" type="question-title">Elementorum et substantia et qualitates remanebunt; sed
+            qualitates quoad substantiam remanentes innovabuntur quoad rationem corruptionis</head>
+          <p xml:id="bb-d4e50029-d1e177">Respondeo : Dicendum quod ubi est innovatio, substantia remanet eadem, sed sub aliis
+            proprietatibus ; ideo dicendum quod omnia elementa secundum substantiam remanebunt, sed
+            quantum ad qualitates innovabuntur. Sed circa ipsas qualitates duplex est opinio.</p>
+          <p xml:id="bb-d4e50029-d1e180">Quidam enim dicunt quod tria sunt genera qualitatum in elementis : quaedam, secundum
+            quas ordinantur in mundo, ut gravitas et levitas ; et istae remanebunt, quia remanebunt
+            in mundo ordo et situs elementorum. Quaedam sunt qualitates, secundum quas est receptio
+            influentiae luminis sine omni corruptione, ut perspicuitas et transparentia ; et istae
+            similiter remanebunt, sicut influentia luminis. Quaedam autem sunt secundum quas
+            ordinantur ad gendum et patiendum, et ita per consequens ad transmutationem et
+            corruptionem ; et secundum has non remanebunt. Sed inter has quaedam sunt activae, ut
+            caliditas et frigiditas ; quaedem passivae, ut humiditas et siccitas. Et quae sunt
+            activae, sunt illae quae excitant et faciunt transmutationem : et istae tollentur ab
+            elementis, et non redibunt in nihil, sed cadent in regionem damnatorum, sicut vult
+            Basilius super illud : Vox Domini intercidentis flammam ignis. Dicit enim quod calor
+            cedat in partem damnatorum, sed lux in regionem salvandorum ; similiter et in aqua
+            frigiditas ad affligendum ; siccum vero et humidum non tollentur, sed terminabuntur. Et
+            ideo dicunt quod Beda dicit quod duo totaliter absumentur propter coniunctionem quae
+            erat ex duplici qualitate, non quantum ad integritatem substantiae, sed quantum ad.
+            totalitatem duplicis qualitatis ratione activae. Sed quia <ref xml:id="bb-d4e50029-Rd1e182">Augustinus dicit, XX De
+              civitate Dei</ref>, quod <quote xml:id="bb-d4e50029-Qd1e185" source="http://scta.info/resource/adcd-l20">omnium
+              elementorum qualitates ardendo penitus interibunt</quote> et siccitas et humiditas
+            sunt qualitates corruptibiles, non videtur maior ratio de caliditate et frigiditate quam
+            de aliis duabus.</p>
+          <p xml:id="bb-d4e50029-d1e189">Ideo dicunt alii aliter, quod omnes res, quantum est de se, appetunt esse perpetuum et
+            divinum ; sed quaedam formae sunt quae appetunt continuare esse per multiplicationem sui
+            in altero, ut puta sunt formae activae accidentales et substantiales ; quaedam autem
+            appetunt continuare esse suum per continuam adhaerentiam cum materia, ut sunt formae et
+            qualitates passivae. Quoniam igitur post iudicium auferetur ab elementis omnis ratio
+            multiplicandi se et dabitur virtus continuandi se in se, quia erunt incorruptibilia,
+            hinc est quod elementa quae habent qualitates activas dicuntur totaliter absumi, quia
+            omnino auferetur ab eis ratio agendi et se multiplicandi ; alia vero duo dicuntur in
+            meliorem faciem restituenda, quia appetitus continuandi in se esse, qui modo est in eis
+            secundum esse imperfectum, complebitur et perficietur. Manebunt ergo qualitates omnium
+            elementorum quantum ad substantiam, sed quantum ad rationem corruptionis innovabuntur ;
+            similiter et formae substantiales. Et haec opinio est probabilior.</p>
+        </div>
+        <div xml:id="bb-d4e50029-Dd1e194">
+          <p xml:id="bb-d4e50029-d1e196">Et patent obiecta praeter primum, quod dicit quod figura non transit. Dico enim quod
+            figura dicitur tripliciter : uno modo dispositio ex clausione linearum ; et haec
+            praeterit quantum ad terram, quia non omnino est orbicularis. Secundo modo dicitur
+            figura exterior rei facies sive pulcritudo ; et haec transibit, sicut dicitur in Glossa
+            : non substantia, sed pulcritudo. Tertio, modo figura dicitur fictio vel fragilitas, a
+            fingo, fingis, ut vasa figuli ; et sic etiam pertransibit. Et sic patet quod non
+            transibit substantia, sed dispositio partium quoad terram et pulcritudo et
+            fragilitas.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

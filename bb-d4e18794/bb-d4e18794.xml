@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e18794">
+        <head xml:id="bb-d4e18794-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e18794-Hd1e111" type="question-title">Utrum ieiunio contingat satisfacere.</head>
+        <p xml:id="bb-d4e18794-d1e114">Secundo quaeritur, utrum ieiunio contingat satisfacere.</p>
+        <div xml:id="bb-d4e18794-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e18794-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e18794-d1e122">Et quod sic, videtur : Quia, si satisfacere est causas peccatorum excidere et Deo
+            honorem per poenam reddere, cum in ieiunio carnis incentiva excidantur et homo se ipsum
+            puniat, patet etc.</p>
+          <p xml:id="bb-d4e18794-d1e125">Contra : Ioel 2, 13 : <quote xml:id="bb-d4e18794-Qd1e127" ana="#ioel2_13">Scindite corda vestra et non vestimenta
+              vestra</quote>. Ergo non facit vim Deus in afflictione carnis, sed mentis.</p>
+          <p xml:id="bb-d4e18794-d1e131">Item, 1 ad Timotheum 4, 8 : <quote xml:id="bb-d4e18794-Qd1e133" ana="#Itim4_8">Corporalis exercitatio ad modicum
+              utilis est</quote> ; sed satisfactio multum : ergo etc.</p>
+          <p xml:id="bb-d4e18794-d1e137">Item, cum satisfacere sit causas excidere peccatorum, illud punire est satisfacere quod
+            est causa peccati ; sed hoc est cor, non os vel caro, Matthaei 15, 11 : <quote xml:id="bb-d4e18794-Qd1e139" ana="#mt15_11">Nihil quod intrat in os, coinquinat hominem, sed de corde
+              exeunt</quote> etc.</p>
+          <p xml:id="bb-d4e18794-d1e144">Item, iudex iustus puniendo non animadvertit in instrumentum, sed in auctorem sceleris
+            ; unde non punitur gladius, sed homicida. Ergo, cum caro non sit nisi sicut instrumentum
+            motum, patet etc.</p>
+          <p xml:id="bb-d4e18794-d1e147">Item, caro est inimicus nostri spiritus, ad Galatas 5, 11 : <quote xml:id="bb-d4e18794-Qd1e149" ana="#gal5_11">Haec
+              sibi invicem adversantur</quote> ; sed dicitur Matthaei 5, 44 : <quote xml:id="bb-d4e18794-Qd1e152" ana="#mt5_44">Diligite inimicos vestros, bene facite</quote> etc.</p>
+          <p xml:id="bb-d4e18794-d1e156">Item, quod commune est apud omnes est naturale ; sed dicitur ad Ephesios 5, 29 : <quote xml:id="bb-d4e18794-Qd1e158" ana="#eph5_29">Nemo unquam carnem suam odio habuit</quote> : ergo naturale est carnem
+            fovere : ergo affligere est contra naturam. Sed poenitentia est regressio ab eo quod est
+            praeter naturam : ergo ieiunium non est ad satisfaciendum in poenitentia.</p>
+          <p xml:id="bb-d4e18794-d1e162">Item, qui carnem affligit amittit vitam et accelerat mortem, quia est in eo maior
+            consumptio et minor restauratio ; sed qui accelerat mortem est homicida, ita etiam quod,
+            si longo tempore, non refert. Unde <name ref="#Jerome">Hieronymus</name> : Non refert
+            utrum parvo tempore vel magno te interimas : ergo qui ieiunat est homicida.</p>
+          <p xml:id="bb-d4e18794-d1e168">Item, omne opus discretum et virtuosum consistit in medio ; sed ieiunium non consistit
+            in medio, immo declinat ad indigentiam : ergo nec poenitentiae est nec virtutis.</p>
+        </div>
+        <div xml:id="bb-d4e18794-Dd1e172">
+          <head xml:id="bb-d4e18794-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e18794-Hd1e177" type="question-title">Ieiunium est opus satisfactorium</head>
+          <p xml:id="bb-d4e18794-d1e180">Respondeo : Dicendum quod ieiunium est opus satisfactorium, secundum quod ipse Dominus
+            dicit, Matthaei 17, 20 : <quote xml:id="bb-d4e18794-Qd1e182" ana="#mt17_20">Hoc genus daemoniorum non eicitur nisi in
+              oratione et ieiunio</quote>. Est, inquam, satisfactorium liberando a poena, cum sit
+            poenale ; et Deo est placitum, quia corporis et spiritus est reordinativum ; ut corpus
+            spiritui non repugnet contumaciter, Proverbiorum 29, 21 : <quote xml:id="bb-d4e18794-Qd1e185" ana="#prov29_21">Qui
+              delicate a pueritia nutrit servum suum, sentiet illum contumacem</quote> ; ut spiritui
+            subiciatur totaliter, I ad Corinthios 9, 27 : <quote xml:id="bb-d4e18794-Qd1e188" ana="#Icor9_27">Castigo corpus meum
+              et in servitutem redigo</quote> etc. ; ut non crucietur aeternaliter, Ecclesiastici
+            20, 12 : <quote xml:id="bb-d4e18794-Qd1e191" ana="#sir20_12">Est qui multa redimat modico pretio</quote>, et
+            Ezechielis 4, 6 : <quote xml:id="bb-d4e18794-Qd1e194" ana="#ez4_6">Diem pro anno dedi tibi</quote> ; ut glorificetur
+            aeternaliter, II ad Corinthios 4, 17 : <quote xml:id="bb-d4e18794-Qd1e198" ana="#IIcor4_17">Id quod est in praesenti
+              momentaneum et leve tribulationis nostrae</quote> etc.</p>
+        </div>
+        <div xml:id="bb-d4e18794-Dd1e204">
+          <head xml:id="bb-d4e18794-Hd1e206">Ad rationes</head>
+          <p xml:id="bb-d4e18794-d1e209">Ad illud ergo quod obicitur in contrarium, quod non placet Deo etc., dicendum quod Deo
+            non placet afflictio carnis sive eius maceratio secundum se, sed in quantum in ea
+            punitur spiritus, quia dolor non est carnis, sed animae in carne, ut dicit <name ref="#Augustine">Augustinus</name> ; et in quantum talis poena procedi a poena doloris
+            spiritualis, ut non, sicut hypocrita, exterius tantum puniat ; et contra hoc est illud
+            Ioelis, quia non dolebant animo, sed signa.</p>
+          <p xml:id="bb-d4e18794-d1e215">Ad illud quod obicitur, quod ad modicum valet, dicendum quod hoc est vel quia uni soli
+            vel ad modicum comparatione pietatis.</p>
+          <p xml:id="bb-d4e18794-d1e218">Ad illud quod obicitur, quod caro non est causa, dicendum quod, etsi non sit causa, est
+            tamen occasio ; occasiones autem sunt praecidendae.</p>
+          <p xml:id="bb-d4e18794-d1e221">Ad illud quod obicitur, quod est instrumentum, dicendum quod duplex est instrumentum,
+            scilicet separatum, et hoc non est puniendum ; et coniunctum, quale est caro, et hoc
+            sic, quia, hoc punito, punitur spiritus.</p>
+          <p xml:id="bb-d4e18794-d1e225">5-6. Ad illud quod obicitur, quod fovendus est inimicus, dicendum quod caro fovenda est
+            et servanda, sed inimicitia carnis non est fovenda, immo ad concordiam spiritus
+            revocanda ; et quia hoc fit per ieiunium et flagella, ideo est punienda. Et per hoc
+            patet quod naturale est carnem diligere et fovere, sed carnis lasciviam fovere est
+            corruptionis et vitii.</p>
+          <p xml:id="bb-d4e18794-d1e228">Ad illud quod obicitur, quod diminuit vitam, dicendum quod diminuere vitam vel
+            accelerare mortem, aut est ex intentione aut praeter. Si ex intentione, peccatum est ;
+            et sic intelligit <name ref="#Jerome">Hieronymus</name>. Aut praeter intentionent, et
+            tunc aut dando operam rei licitae, aut non dando licitae vel utili, sed supervacaneae
+            vel malae. Primo modo non est peccatum, sed secundo sic. Aliqui tamen dicunt quod
+            abstinentia non accelerat mortem, sed tamen non credo, immo gravis poenitentia bene
+            accelerat.</p>
+          <p xml:id="bb-d4e18794-d1e234">Ad illud quod obicitur, quod non est medium in ieiunio, dicendum quod immo ; sed hoc
+            non est medium sobrietatis, sed medium iustitiae, quia ieiunio punit quis suam carnem ;
+            sed in hac punitione servandum est ita medium, ut nec nimis lente puniat, ita quod vitia
+            carnis vivant, nec ita acerbe ut natura deficiat. Unde <name ref="#Bernard">Bernardus</name> : Oportet carnem reprimere, non exstinguere. Nec istud impedit quin
+            sit medium, quia ad extremum declinat. Nam in patientia medium est fere omnia sustinere,
+            in continentia etiam sempe abstinere.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

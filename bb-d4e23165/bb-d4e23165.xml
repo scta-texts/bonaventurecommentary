@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e23165">
+        <head xml:id="bb-d4e23165-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e23165-Hd1e111" type="question-title">Utrum proprio sacerdoti debeat quis confiteri in publico vel in
+          occulto.</head>
+        <p xml:id="bb-d4e23165-d1e114">Tertio quaeritur, utrum necesse sit confiteri proprio sacerdoti coram populo, an
+          sufficiat ei confiteri in occulto.</p>
+        <div xml:id="bb-d4e23165-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e23165-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e23165-d1e122">Et quod necesse sit confiteri coram populo, videtur : <name ref="#Augustine">Augustinus</name> dicit, et habetur supra, eadem distinctione: <quote xml:id="bb-d4e23165-Qd1e127">Nemo dicat sibi
+              : occulte ago poenitentiam</quote> ; et post : <quote xml:id="bb-d4e23165-Qd1e130">Iob [31, 33] ait : <quote xml:id="bb-d4e23165-Qd1e132" ana="#iob31_33">Si erubui in conspectu populi confiteri peccata mea</quote>
+            </quote> : adiuratio est et imprecatur sibi malum. Ergo videtur tum ex verbo <name ref="#Augustine">Augustini</name>, tum ex concordia quam adducit, quod confessio sit
+            facienda sacerdoti coram multis.</p>
+          <p xml:id="bb-d4e23165-d1e140">Item, <name ref="#GregoryGreat">Gregorius</name>, de Magdalena, in Homilia :
+              <quote xml:id="bb-d4e23165-Qd1e145">Quia semetipsam graviter erubesdebat intus, nihil esse credebat quod
+              verecundaretur foris</quote>. Unde commendat eam, quia coram omnibus se peccatricem
+            ostendit : ergo videtur quod quilibet peccator ita deberet facere.</p>
+          <p xml:id="bb-d4e23165-d1e149">Item, <name ref="#Bernard">Bernardus</name>, Super Cantica, Homilia 42 : <quote xml:id="bb-d4e23165-Qd1e154">Si
+              veritatis amore affectus esses, velles procul dubio, quod in te est, eamdem de te
+              omnes : tenere sententiam, quam ipsam apud te habere cognoscis veritatem. Alioquin,
+              si.privato amore contentus detines intra te iudicium veritatis, cui dubium est minus
+              te veritatem diligere, cui praeponis proprium commodum vel honorem ?</quote> Ergo,
+            secundum <name ref="#Bernard">Bernardum</name>, nullus est veritatis amator, qui quod
+            veraciter de se sentit, non omnibus publice, confitetur.</p>
+          <p xml:id="bb-d4e23165-d1e161">Item, ratione videtur, quia verus poenitens se ipsum punit et iudicat loco Dei et
+            sacerdoti offert se iudicandum ut Deo : ergo debet, secundum quod potest, se divino
+            iudicio conformare ; sed in iudicio finali peccata omnium omnibus innotescent, quia tunc
+            aperientur libri : ergo nunc debet vere poeni tens librum suae conscientiae omnibus
+            aperire.</p>
+          <p xml:id="bb-d4e23165-d1e165">Item, aut poenitens vult quod alii reputent eum, peccatorem aut bonum. Si vult quod
+            reputent eum bonum, ergo non est verus poenitens, sed hypocrita superbus. Si vult quod
+            reputent eum peccatorem, sed nullus potest eum reputare peccatorem nisi ab ipso sciat :
+            ergo debet omnibus revelare.</p>
+          <p xml:id="bb-d4e23165-d1e168">Item, peccator confitetur sacerdoti ut reconcilietur, non Deo tantum, sed etiam
+            Ecclesiae, quia Deo reconciliatus est per contritionem ; sed Ecclesia non est persona
+            singularis, immo multitudo fidelium : ergo videtur quod sacerdoti, praesente
+            multitudine, deberet confiteri.</p>
+          <p xml:id="bb-d4e23165-d1e171">Contra : In decretali Innocentii : <quote xml:id="bb-d4e23165-Qd1e173" source="http://scta.info/resource/nhyjhg-d1e214">Omnis utriusque sexus</quote> etc. ;
+            et post : <quote xml:id="bb-d4e23165-Qd1e176" source="http://scta.info/resource/nhyjhg-d1e214">Omnia sua solus
+              peccata semel in anno confiteatur proprio sacerdoti</quote>. Ergo solus debet
+            esse.</p>
+          <p xml:id="bb-d4e23165-d1e180">Item, quae debent secretissime custodiri, non debent in conspectu multitudinis
+            propalari ; sed ea quae in confessione dicuntur, deberit secretissime custodiri, sicut
+            infra habebitur de sigillo confessionis : ergo nullo modo debent coram multis dici.</p>
+          <p xml:id="bb-d4e23165-d1e183">Item, <name ref="#Bernard">Bernardus</name>, De dispensatione : <quote xml:id="bb-d4e23165-Qd1e188">Quod ex caritate
+              institutum est, contra caritatem militare non debet</quote>. Sed confessionem constat
+            pro caritate esse institutam : ergo non debet contra caritatem militare ; sed
+            manifestatio peccati aliquibus est occasio labendi, multis superbiendi et etiam
+            peccatorem contemnendi : ergo non debet multis manifestari.</p>
+          <p xml:id="bb-d4e23165-d1e192">Item, nullus tenetur semetipsum infamare ; sed, cum manifestatur peccat um in conspectu
+            multitudinis, efficitur homo infamis : ergo nullus tenetur nec debet sic peccatum
+            confiteri : ergo videtur quod soli sacerdoti.</p>
+        </div>
+        <div xml:id="bb-d4e23165-Dd1e196">
+          <head xml:id="bb-d4e23165-Hd1e198">Conclusio</head>
+          <head xml:id="bb-d4e23165-Hd1e201" type="question-title">Non tenetur quis confiteri nisi unico et proprio sacerdoti,
+            non in publico, sed in occulto</head>
+          <p xml:id="bb-d4e23165-d1e204">Respondeo : Dicendum quod confesso sacramentalis sacerdoti soli et in secreto debet
+            fieri, nisi sit peccatum adeo enorme, quod totam commoverit urbem vel etiam totum orbem
+            ; quod quidem debet quis confiteri in publico, ut in publico poenitentia solemnis
+            imponatur, et ut ostendat et recognoscat se reum, ut puta, si sit haereticus manifestus.
+            Quantum vero est de confessione secundum legem communem, debet unico sacerdoti fieri in
+            privato, sicut expresse dicit illa decretalis.</p>
+          <p xml:id="bb-d4e23165-d1e207">Ratio autem huius est, quia occultatio duplici ex causa competit sacramento : tum quia
+            hic manifestantur peccata sacerdoti, non ut manifestentur, sed ut deleantur et
+            occultentur, quia caritatis confessio operit multitudinem peccatorum ; tum etiam quia
+            manifestantur sacerdoti ut Deo ad testimonium conscientiae internae ; et ideo, ut homo
+            totam conscientiam revelet homini tamquam Deo, et hoc testificarite teste secreto, in
+            tali manifestatione non debet admitti alienus, sed sacerdos unicus qui tenet locum
+            Christi. Et sicut occultatio competit duplici ex causa, ita propalatio coram omnibus
+            disconvnit ex duplici causa. Una est, quia confessio est onerosa sive ignominiosa, adeo
+            quod vix aliquis aut nullus auderet coram multitudine confiteri, cum pauci audeant plene
+            et integre confiteri etiam coram unico sacerdote. Alia ratio est, quia periculosa : si
+            enim conscientiae manifestarentur, infinita. mala orirentur et rixae et discordiae et
+            infamiae, sicut manifeste apparet.</p>
+          <p xml:id="bb-d4e23165-d1e210">Et ideo dicendum est quod non tenetur quis confiteri nisi unico et proprio sacerdoti,
+            et huic solitario, quantum est de praecepto apostolico sive ecclesiastico.</p>
+        </div>
+        <div xml:id="bb-d4e23165-Dd1e215">
+          <head xml:id="bb-d4e23165-Hd1e217">Ad rationes</head>
+          <p xml:id="bb-d4e23165-d1e220">Ad illud ergo quod obicitur de <name ref="#Augustine">Augustino</name>, dicendum quod
+            loquitur de occultatione respectu iudicii sacerdotalis, quibus Dominus commisit
+            auctoritatem et officium iudicandi inter lepram et non lepram, Et si tu obicias de Iob,
+            dicendum quod illa translatio non est recta, sed alia quam habemus. Tamen si velimus
+            illam sustinere, dicendum quod intelligitur de generali confessione, qua omnes
+            confitentur se peccatores.</p>
+          <p xml:id="bb-d4e23165-d1e226">Ad illud quod obicitur de Magdalena, dicendum quod illud fuit perfectionis et
+            supererogationis ; unde non omnibus competit. Vel dicendum quod ipsa non fuit confessa
+            peccata sua coram omnibus, quae fecerat occulte, sed quia signa lasciviae non occulte
+            portavit, sed in publico, ideo etiam signa poenitentiae in publico manifestavit ; et hoc
+            est dignum et laudabile et imitandum ; nec tamen dico quod homo ad hoc teneatur, nisi de
+            bono et aequo.</p>
+          <p xml:id="bb-d4e23165-d1e229">Ad illud quod obicitur de <name ref="#Bernard">Bernardo</name>, dicendum quod facienda
+            est vis in hoc quod <name ref="#Bernard">Bernardus</name> dicit : Quod in te est ; et
+            ipsemet facit ibi vim : Sane, quod in te est, dixerim, quia plerumque non expedit
+            innotescere omnia quae nos scimus de nobis ; atque ipsa veritatis caritate vetamur palam
+            fieri velle quod noceat agnoscenti. Et sic patet quod, quamvis homo, quantum est de se,
+            debeat esse promptus, non tamen debet palam peccata dicere, ne alii inde
+            damnificentur.</p>
+          <p xml:id="bb-d4e23165-d1e238">Ad illud quod obicitur de divino iudicio, quod omnibus propalabitur, dicendum quod
+            secus est, quia illud erit iudicium severitatis, hoc autem est misericordiae et
+            benignitatis. Praeterea, nulli nocebit illa manifestatio, sed in hoc Dei iustitia
+            clarior apparebit ; nunc autem nulli prodesset et multis obesset.</p>
+          <p xml:id="bb-d4e23165-d1e242">Ad illud quod obicitur, quod poenitens debet velle quod alii reputent eum peccatorem,
+            dicendum quod verum est, quod debet velle suam humiliationem, ita tamen quod alii non
+            peccent contemnendo vel imitando ; et ideo sufficit quod peccatores se dicant in
+            generali, sed non expedit in speciali ita multis dicere simul, maxime qui non sunt
+            sacerdotes : non ergo debet celare peccatum propter suum commodum et gloriam, sed
+            propter cavendam culpam alienam.</p>
+          <p xml:id="bb-d4e23165-d1e245">Ad illud quod obicitur, quod confitetur ut reconcilietur ; dicendum quod sacerdos habet
+            potestatem reconciliandi Deo, quia ipse, ratione auctoritatis, fungitur iure Dei et
+            Ecclesiae tamquam mediator utriusque ; et ideo non oportet multitudinem adesse ; secus
+            autem est in iudicio contentioso, ubi homo se non accusat, sed defendit, ubi producuntur
+            testes ; hic autem non oportet.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

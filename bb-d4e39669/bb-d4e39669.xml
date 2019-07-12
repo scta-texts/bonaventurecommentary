@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e39669">
+        <head xml:id="bb-d4e39669-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e39669-Hd1e111" type="question-title">Utrum conditio prolis sequatur patrem an matrem.</head>
+        <p xml:id="bb-d4e39669-d1e114">Tertio quaeritur, cuius conditionem sequatur proles, utrum patris an matris.</p>
+        <div xml:id="bb-d4e39669-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e39669-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e39669-d1e122">Et quod patris, videtur : Quoniam denominatio fieri debet a principaliori et digniori ;
+            sed pater est nobilius et dignius principium quam mater et principalius : ergo, si magis
+            debet principiatum regulari secundum regulas dignioris principii, videtur quod partus
+            debeat sequi patrem.</p>
+          <p xml:id="bb-d4e39669-d1e125">Item, in Sacra Scriptura, nunquam ponitur genealogia mulierum, sed potius virorum :
+            ergo generatio principaliter spectat ad viros : ergo et germen generationis.</p>
+          <p xml:id="bb-d4e39669-d1e128">Item, repromissio de semine benedicto, scilicet Christo, facta est viris principaliter,
+            quamvis nasci deberet de muliere ; non enim facta est repromissio Sarae vel Bersabee,
+            sed <name ref="#Abraham">Abraham</name> et David : ergo videtur quod proles magis sit
+            ipsius viri quam mulieris : ergo etc. Item, unumquodque principiatum, quod producitur
+            secundum unitionem, plus sequitur illud cui plus assimilatur ; sed filii plus
+            assimilantur patri : ergo magis debent sequi patres.</p>
+          <p xml:id="bb-d4e39669-d1e134">Contra : <ref xml:id="bb-d4e39669-Rd1e136" source="http://scta.info/resource/cice-l4t10-d1e119">De coniugio
+              servorum, dicit decretalis
+              <!-- bonaventure mistaken citation (actually in 4,t.10), DE NATIS EX LIBERO VENTRE. -->--&gt;</ref>
+            : <quote xml:id="bb-d4e39669-Qd1e141">Indecens videtur, ut geniti ex libera filii ad serviendum retrahantur</quote>.
+            Ergo qui nascuntur ex matre libera sunt liberi : ergo sequuntur matrem.</p>
+          <p xml:id="bb-d4e39669-d1e146">Item, si quis seminat in terra aliena, fructus est domini terrae, non seminantis ; sed
+            venter mulieris respectu seminis viri est sicut terra respectu sementis : ergo videtur
+            quod sicut fructus sequitur terram, ita partus sequatur ventrem.</p>
+          <p xml:id="bb-d4e39669-d1e149">Item, hoc videtur in animalibus, quoniam si animal masculini sexus impraegnat animal
+            feminini sexus, ut equus equam, pullus sequitur equam, non equum : ergo pari ratione
+            videtur in proposito.</p>
+          <p xml:id="bb-d4e39669-d1e152">Item, hoc videtur per simile in artificialibus, quia, si quis aedificat in terra
+            aliena, aedificium cedit solo, non solum aedificio : ergo, si quis generat in alieno
+            ventre, proles sequitur ventrem.</p>
+        </div>
+        <div xml:id="bb-d4e39669-Dd1e156">
+          <head xml:id="bb-d4e39669-Hd1e158">Conclusio</head>
+          <head xml:id="bb-d4e39669-Hd1e161" type="question-title">Conditio prolis congrue sequitur matrem, licet in aliquibus
+            regionibus alia sit consuetudo.</head>
+          <p xml:id="bb-d4e39669-d1e164">Respondeo : Dicendum quod secundum leges civiles sive ius imperiale partus sequitur
+            ventrem. Et ratio huius est valde conveniens, quoniam prolis duplex est principium,
+            pater scilicet et mater. Pater est principium honorabilius, sed mater est principium
+            substantialius ; et ideo in honoribus et municipiis filius sequitur patrem, quoniam illa
+            acquiruritur paterna sollicitudine et in hereditate patrimoniali. Sed quoniam mater est
+            principium substantialius, quantum ad id quod est, sequitur matrem ; et quoniam libertas
+            et servitus respiciunt hominem secundum id quod est, non secundum id quod habet : hinc
+            est quod secundum leges civiles rationabiliter valde institutum est ut partus sequatur
+            ventrem ; et hinc est quod coniunctio ad prolem generandam Matrimonium appellatur. Et
+            huic concordat ius canonicum, sicut patet in decretali prius posita ; concordat etiam
+            ius divinum, scriptum in lege Moysaica, ubi dicitur Exodi 21, 4, quodsi dederit dominus
+            uxorem alicui quem emerit, et ille postmodum egredietur liber, quod filii debent
+            remanere domino qui dedit ei uxorem, licet ipse egrediatur liber ; concordat etiam
+            multiplex ratio et similitudo naturalis. Et ideo, quia hoc dictat ius civile et ius
+            canonicum approbat et divinum confirmai et naturale commendat, ideo recte dicendum quod
+            partus debet sequi ventrem.</p>
+          <p xml:id="bb-d4e39669-d1e167">Verumtamen aliquae partes, quae non sunt huiusmodi legibus subiectae, non servant hanc
+            consuetudinem, immo partus sequitur conditionem. deterioris ; unde, si alter est servus,
+            filii sunt servi, et similiter, si mater ancilla ; si ambo sint diversorum dominorum,
+            filii dividuntur. Hunc morem servat Francia in aliquibus partibus, licet non ubique ;
+            sed tamen constitutio legalis multo nobilior est et rationabilior quam haec
+            consuetudo.</p>
+        </div>
+        <div xml:id="bb-d4e39669-Dd1e172">
+          <head xml:id="bb-d4e39669-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e39669-d1e177">Ad illud ergo quod primo obicitur, quod pater est dignius principium, dicendum quod
+            verum est, non tamen substantialius ; et ideo in dignitatibus patrem debet sequi, non in
+            substantia sive in libertate corporis sui. Et est exemplum : quia nobilius principium
+            fructuum agriculturae est cultor quam ager ; fructus tamen est agri sive domini
+            agri.</p>
+          <p xml:id="bb-d4e39669-d1e180">2-3. Ad illud quod obicitur, quod sacra Scriptura genealogias attribuit viris, dicendum
+            quod verum est et conveniens : nam et hunc modum habemus quod filium denominamus a
+            patre, unde dicitur Petrus Martini, non Berthae, ut in pluribus ; similiter repromissio
+            fit viris ; tamen ex hoc non sequitur quod proles debeat sequi virum secundum
+            conditionem libertatis vel servitutis, sed secundum conditionem dignitatis et honoris,
+            quae non substantiam respicit, sed potius qualitatem.</p>
+          <p xml:id="bb-d4e39669-d1e183">Ad illud quod obicitur, quod filius assimilatur patri, dicendum quod assimilatio non
+            venit a substantia, sed a virtute formativa, quae principaliter viget in semine viri,
+            quando masculus generatur ; et ideo frequentius filii assimilantur patribus. Attamen,
+            quantumcumque sit patri similior in figura et proprietatibus, plus tamen traxit a matre
+            de substantia ; et ideo ex hoc non sequitur quod in libertate patrem sequatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

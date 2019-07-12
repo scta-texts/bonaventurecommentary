@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20672">
+        <head xml:id="bb-d4e20672-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e20672-Hd1e111" type="question-title">Utrum necesse sit poenitere de peccatis commissis per
+          ignorantiam.</head>
+        <div xml:id="bb-d4e20672-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e20672-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e20672-d1e119">Circa primum ostenditur quod necesse est poenitere de peccatis commissis per
+            ignorantiam : Quia dicit <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e20672-Qd1e124">Gravissime
+              peccas, si ignoras</quote> ; sed, sicut exponitur, hoc non est ob aliud nisi quia
+            talis non de facili quaerit medicum : ergo tali necessaria est medicina ; et haec est
+            poenitentia, et sic etc.</p>
+          <p xml:id="bb-d4e20672-d1e128">Item, ratione videtur, quia <name ref="#Augustine">Augustinus</name>, De correctione et
+            gratia, dicit quod non excusatur homo propter ignorantiam quin teneatur credere. Ergo
+            pari ratione non excusatur homo propter ignorantiam quin teneatur conteri.</p>
+          <p xml:id="bb-d4e20672-d1e134">Item, ratione videtur, quia peccatum ex ignorantia est peccatum actuale ex nostro actu
+            commissum : ergo sine actu nostro non deletur ; sed actus per quem deletur culpa est
+            poenitentia : ergo etc.</p>
+          <p xml:id="bb-d4e20672-d1e137">Item, ignorantia in eo qui peccavit non excusavit a peccato : ergo non excusat quin
+            egeat remedio.</p>
+          <p xml:id="bb-d4e20672-d1e141">Contra : Poenitentia non est nisi de volito ; sed quod per ignorantiam fit, est
+            involuntarium : ergo de tali non debet fieri poenitentia.</p>
+          <p xml:id="bb-d4e20672-d1e144">Item, incognita bona non possumus amare : ergo nec incognita mala possumus odire nec
+            detestari : ergo de his non est poenitentia.</p>
+          <p xml:id="bb-d4e20672-d1e147">Item, nullo iure sumus certi utrum offendimus Deum per ignorantiam ; sed nullus tenetur
+            agere aliquid ex praecepto, nisi ad quod habet certitudinem ex aliquo iure : ergo nullus
+            tenetur poenitere de commissis per ignorantiam.</p>
+          <p xml:id="bb-d4e20672-d1e150">Item, de solis illis tenemur poenitere de quibus tenemur confiteri ; sed sola illa
+            tenemur confiteri, quae possumus veraciter enarrare, et illa sola possumus veraciter
+            enarrare quae novimus, quia, si dubia vel ignorata asseramus, est mendacium : ergo, cum
+            ignoranter commissa nesciamus esse peccata, non possumus ea veraciter confiteri : ergo
+            nec tenemur de his aliquo modo poenitere.</p>
+        </div>
+        <div xml:id="bb-d4e20672-Dd1e154">
+          <head xml:id="bb-d4e20672-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e20672-Hd1e159" type="question-title">De peccatis commissis per ignorantiam necesse est adhibere
+            diligentiam, ut sciantur, atque poenitere in generali, non autem in speciali</head>
+          <p xml:id="bb-d4e20672-d1e162">Respondeo : Dicendum quod poenitere de aliquo est dupliciter, scilicet in generali et
+            in speciali : in generali, quando homo dolet generaliter de omni offensa Dei quam fecit
+            ; in speciali, quando dolet de hac vel illa. Dico ergo quod de peccatis commissis per
+            ignorantiam debet poenitere in generali et dicere cum Propheta : Delicta iuventutis meae
+            et ignorantias meas etc. ; in speciali vero non tenetur poenitere, sed tenetur facere
+            quod in se est ut sciat et ut peccata recognoscat. Committuntur enim peccata per
+            ignorantiam iuris ; et tunc, cognito iure, scit se peccasse, ut puta qui fornicatus est
+            ignorans illud esse peccatum. Committuntur etiam per ignorantiam facti, diligenti debita
+            non adhibita ; et tunc cognoscuntur, Domino revelante ; unde tenetur orare ut Dominus
+            parcat ei vel revelet.</p>
+        </div>
+        <div xml:id="bb-d4e20672-Dd1e166">
+          <head xml:id="bb-d4e20672-Hd1e168">Ad rationes</head>
+          <p xml:id="bb-d4e20672-d1e171">Ad illud ergo quod obicitur, quod peccatum commissum per ignorantiam est involuntarium,
+            dicendum quod non est omnino involuntarium, quia, etsi non perfecta fuerit cognitio,
+            fuit tamen cognitio actus, quamvis non recognosceretur circumstantia deformans ; et hoc
+            melius patet in quaestione de ignorantia, in secundo.</p>
+          <p xml:id="bb-d4e20672-d1e174">Ad illud quod obicitur, quod non possumus poenitere de ignoratis, dicendum quod verum
+            est de ignoratis omnino, sed de ignoratis in particulari et in universali scitis
+            contingit conteri in universali. Et quia quaedam ignorata in particulari per
+            negligentiam, sciuntur per diligentiam, ideo tenetur facere quod in se est ut sciat ; et
+            si non occurrat, tunc sufficit poenitentia in generali, ut doleat et etiam aliqua mata
+            sustineat et in multis se offendisse credat quae ignorat.</p>
+          <p xml:id="bb-d4e20672-d1e177">Ad illud quod obicitur, quod ignoratum nullo iure scitur etc., dicendum quod ad
+            poenitentiam sufficit cognitio probabilis ; et probabile est cuilibet qui fuit ignorans,
+            etiam in adulto, quod in multis offenderit. Et hoc insinuat lex divina, quae de illis
+            docet poenitere et petere veniam ; unde in Psalmo [18, 13] : <quote xml:id="bb-d4e20672-Qd1e179" ana="#ps18_13">Delicta quis intelligit ? ab occultis meis munda me</quote>.</p>
+          <p xml:id="bb-d4e20672-d1e183">Ad illud quod obicitur, quod ignorata non possunt confiteri : ergo etc., dicendum quod
+            illa tenemur confiteri pro quibus oportet poenitentiam facere in speciali ; talia autem,
+            nisi nobis innotescant vel per nostram diligentiam vel per revelationem divinam, ad
+            poenitentiam in speciali agendam non obligant ; nihilominus tamen in ipsa confessione
+            debet homo se totum ostendere et libenter poenam portare, etiam de his quae sunt
+            ignorante perpetrata.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

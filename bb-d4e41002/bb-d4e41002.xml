@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41002">
+        <head xml:id="bb-d4e41002-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e41002-Hd1e111" type="question-title">Utrum votum continentiae impediat, vel dirimat
+          matrimonium.</head>
+        <p xml:id="bb-d4e41002-d1e114">Quantum ergo ad primum sic proceditur ; et, supposito quod votum continentiae
+          universaliter impediat Matrimonium et quod votum solemne impediat contrahendum et dirimat
+          iam contractum, quaeritur de voto simplici, utrum sit impedimentum rescindens sive
+          impediens Matrimonium.</p>
+        <div xml:id="bb-d4e41002-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e41002-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e41002-d1e122">Et quod non dirimat : Dicit <ref xml:id="bb-d4e41002-Rd1e124" target="http://scta.info/resource/cice-l4t6-d1e195">Caelestinus Papa, Extra, De voventibus et ordinatis</ref>, quod non possunt
+            contrahere Matrimonium, Rursus quidam etc., quod <quote xml:id="bb-d4e41002-Qd1e127">votum simplex impedit
+              contrahendum, sed non dirimit iam contractum</quote>.</p>
+          <p xml:id="bb-d4e41002-d1e131">Item, non magis obligat votum simplex quam iuramentum ; sed iuramentum non impedit
+            Matrimonium ita ut dirimat iam contractum : ergo etc.</p>
+          <p xml:id="bb-d4e41002-d1e134">Item, si votum simplex Matrimonium dirimeret, cum votum illud sit occultum et quilibet
+            possit si. mulare se vovise ; quandocumque malitiose alter coniugum vellet, posset
+            Matrimonium separari, etiam legitimum.</p>
+          <p xml:id="bb-d4e41002-d1e137">Item, videtur quod nullo modo impediat, sic : sicut se habet Matrimonium consummatum ad
+            votum solemnizatum, ita Matrimonium non consummatum ad votum non solemnizatum ; sed
+            Matrimonium non consummatum non impedit votum, ergo nec dirimit : ergo votum non
+            solemnizatum non ,impedit nec dirimit Matrimonium.</p>
+          <p xml:id="bb-d4e41002-d1e141">Sed contra : Ratio quare votum rescindit et dirimit Matrimonium, ut dicit <name ref="#Lombard">Magister</name> in littera, est, quia voventibus non solum nubere, sed
+            etiam velle nubere est damnabile ; et quia nuptiae sunt eis damnabiles, ideo irritantur
+            ; sed hoc non solum in voto solemni est, sed etiam in simplici : ergo etc.</p>
+          <p xml:id="bb-d4e41002-d1e147">Item, Caelestinus dicit et auctoritas in decretali praemissa, quod apud Deum non minus
+            obligat votum simplex quam votum solemne. Si ergo non minus obligat, cum obligatio voti
+            solemnis irritet Matrimonium, videtur quod et obligatio voti simplicis.</p>
+          <p xml:id="bb-d4e41002-d1e150">Item, qui voto simplici vovet continentiam, tenetur nunquam coire : ergo quotiescumque
+            coit, peccat mortaliter ; sed nullus potest obligari ad mortale peccatum : ergo, cum
+            Matrimonium. obliget ad coitum, iste non potest obligari Matrimonio.</p>
+          <p xml:id="bb-d4e41002-d1e153">Item, quaero, quare magis votum solemne Matrimonium dirimat quam simplex. Si dicas,
+            quia privatum, et ideo non scandalizat nec potest probari, contra hoc est, quia
+            Matrimonium contractum in clanculo sic irritat Matrimonium sequens de facto sicut
+            contractum in manifesta. Et praeterea, votum emissum in publico coram omnibus, etiam in
+            foro iudicatur simplex nec dirimit Matrimonium iam contractum.</p>
+        </div>
+        <div xml:id="bb-d4e41002-Dd1e157">
+          <head xml:id="bb-d4e41002-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e41002-Hd1e162" type="question-title">Probatur, quod votum simplex continentiae impedit quidem
+            matrimonium contrahendum, non autem simplex, sed tantum solemne dirimit matrimonium iam
+            contractum</head>
+          <p xml:id="bb-d4e41002-d1e165">Respondeo : Dicendum quod votum continentiae est tale votum quod generaliter impedit
+            Matrimonium contrahendum, sed non dirimit iam contractum nisi solemnizatum. Et rationem
+            huius assignant aliqui Ecclesiae institutionem. Quod enim vovens sit persona illegitima,
+            hoc non est ex voto, quia in ipso Matrimonio perfectio continentiae servari potest ab eo
+            qui debitum non exigit, sed solvit. Unde <name ref="#Augustine">Augustinus</name> dicit
+            quod computatur pro sanctificatione perfecta, si non exigis, sed reddis quod debes. Sed
+            quod impediat, hoc est ex constitutione Ecclesiae, cuius est personas legitimas vel
+            illegitimas Matrimonio determinare. Ratio autem quare Ecclesia de voto solemni
+            instituit, ut dicunt, est quod in voto solemni non potest decipi et potest in fractione
+            eius scandalizari, quia publicum est ; sed in voto simplici neutrum habet locum, quia
+            privatum est. Sed haec solutio videtur supponere duplex falsum : unum, quod sit ab
+            institutione talis illegitimitas, quia Ecclesia, ut communiter dicitur, non potest ibi
+            dispensare ; potest autem dispensare generaliter in suis constitutionibus. Aliud falsum
+            est, quia votum solemne non dicitur, quia notorium vel publicum, quia votum,
+            quantumcumque publicetur, nisi aliud adsit, simplex iudicatur nec impedit Matrimonium
+            iam contractum : unde aliud est votum publicum, aliud solemne.</p>
+          <p xml:id="bb-d4e41002-d1e171">Ideo alia ratio assignatur veracior a voti solemnizatione. Votum enim tripliciter
+            solemnizatur, scilicet Ordinis susceptione, professionis emissione et habitus
+            professorum assumptione cum aliis quae hominem professum ostendunt. Et hoc est commune
+            in voti solemnizatione, quod fiat coram persona quae locum Dei tenet et quae votum
+            potest approbare ; qua recipiente votum continentiae, transfertur potestas corporis
+            voventis in alium, quia alius adest qui recipit. Sed in voto simplici, ubi homo mera se
+            obligat voluntate et in nullius manibus hoc facit, obligatur quidem, sed tamen dominium
+            sui corporis in alterum non transfertur. Et quia quod translatum est in potestatem
+            unius, non potest transferri in potestatem alterius : ideo, emisso voto solemni, non
+            potest Matrimonium contrahi, in quo est translatio dominii proprii corporis. Sed quod
+            translatum non est, adhuc transferri potest ; ideo, voto simplici emisso, potest vir
+            potestatem sui corporis in Matrimonio dare : ideo, si contrahat, contractum est.
+            Amplius, in voto solemni Deo et homini obligatur, sic et in Matrimonio ; et quoniam
+            utrobique est par obligatio, et par obligatio non solvit vinculum paris obligationis,
+            sed bene praepotens solvit vinculum minoris obligationis : ideo obligatio voti solemnis
+            non potest infringi per superveniens vinculum Matrimonii. Hoc autem non ideo dico quod
+            faciat scandalum, quia et illud potest esse in voto simplici ; sed hoc facit obligauo
+            duplex cum translatione potestatis in alterum. Est igitur haec summa rationis, quia
+            votum solemne obligat aequaliter districte ; ex opposito non sic simplex ; ideo
+            impedit.</p>
+        </div>
+        <div xml:id="bb-d4e41002-Dd1e176">
+          <head xml:id="bb-d4e41002-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e41002-d1e181">Ad illud ergo quod obicitur, quod ratio irritationis Matrimonii est, quia post votum
+            damnabile est nubere, dicendum quod hoc non est ratio tota, sed concausa.</p>
+          <p xml:id="bb-d4e41002-d1e184">Ad illud quod obicitur, quod non minus obligat etc., dicendum quod verum est quantum ad
+            culpam sive transgressionem ; tamen minus obligat quantum ad alterius vinculi
+            solutionem, ut fiat vis in hoc quod dicit quantum ad Deum. Hoc enini dupliciter dicitur
+            : vel quantum ad Deum ut obiectum, quia votum astringit astrictione necessitatis ; vel
+            quantum ad Deum, id est quantum ad divinum iudicium. Deus autem hunc qui obligatus est
+            voto solemni, reputat magis obligatum, pro eo quod non solum reputat eum obligatum sibi,
+            sed etiam homini ; non solum reputat promissionem factam acceptam, immo per ministrum
+            potestatem corporis esse translatam : et ideo Deus iudicat quod votum solemne impediat
+            et non simplex. Et hoc non tantum est manifestum in foro Ecclesiae, sed etiam in foro
+            conscientiae.</p>
+          <p xml:id="bb-d4e41002-d1e187">Ad illud quod obicitur, quod tenetur nunquam coire, dicendum quod verum est, nisi
+            fortiori vinculo solvatur ; et quia Matrimonium fortius est, ideo dicunt quod, cum
+            consummatur Matrimonium, tunc omnino absolvitur a voto, sed debet de eo poenitentiam
+            agere, quia votum violavit ; unde dicunt quod potest debitum petere et solvere. Sed hoc
+            non credo, scilicet quod absolvatur a voto quantum ad Matrimonium, nisi in quantum ius
+            Matrimonii compellit eum agere contra votum ; sed non compellit ius Matrimonii debitum
+            petere, quia hoc est libertatis, sed solum solvere. Ideo dico quod potest sine peccato
+            solvere, quia facit id ad quod tenetur, nunquam tamen potest sine peccato petere ; et si
+            uxor moriatur, tenetur omnino continere. </p>
+          <p xml:id="bb-d4e41002-d1e190"> Quod tamen obicit, quod Matrimonium non consummatum non impedit votum, ratio huius
+            est, quia nullum fit ei praeiudicium : potest enim uxor sive sponsa alteri nubere ; sed
+            per Matrimonium omni voto praeiudicium generator. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

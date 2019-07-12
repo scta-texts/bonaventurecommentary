@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9574">
+        <head xml:id="bb-d4e9574-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e9574-Hd1e111" type="question-title">De unitate sacramenti Eucharistiae.</head>
+        <p xml:id="bb-d4e9574-d1e114">Secundo quaeritur de unitate huius sacramenti.</p>
+        <div xml:id="bb-d4e9574-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e9574-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e9574-d1e122">Et quod sit unum sacramentum, probatur : Quia <name ref="#Ambrose">Ambrosius</name>
+            dicit quod simplex est sacramentum ; sed hoc est sacramentum : ergo simplex, ergo
+            unum.</p>
+          <p xml:id="bb-d4e9574-d1e128">Item, ratione videtur, quia hoc sacramentum unius effectus est causa et ad unum
+            ordinatur : ergo est unum et non plura.</p>
+          <p xml:id="bb-d4e9574-d1e131">Item, tantum septem sunt sacramenta ; sed si hoc non esset unum, essent sacramenta
+            plura septem : ergo etc.</p>
+          <p xml:id="bb-d4e9574-d1e134">Contra : In Collecta : <quote xml:id="bb-d4e9574-Qd1e136">Purificent nos, quaesumus, Domine, sacramenta, quae
+              sumpsimus</quote>, et in multis aliis locis : ergo etc.</p>
+          <p xml:id="bb-d4e9574-d1e141">Item, significata in hoc sacramento sunt plura, scilicet corpus Christi verum et corpus
+            Christi mysticum, quae omnino habent differentem unitatem : nam corpus Christi verum est
+            unum unitate integritatis, sed corpus mysticum est unum unitate formae aggregationis.
+            Ergo etc. Si dicas quod sunt ad invicem ordinata, ita quod unum per alterum, obicitur,
+            quia plura sunt significata immediate et ex aequo, ut corpus et sanguis. Si dicas quod
+            sunt annexa, hoc non solvit, quia secundum veritatem sacramenti non sunt ut annexa.</p>
+          <p xml:id="bb-d4e9574-d1e144">Item, sacramentum est signum essentialiter ; sed, plurificato superiori, plurificatur
+            inferius ; sed in Eucharistia sunt plura signa : ergo et plura sacramenta. Si dicas quod
+            plura sunt signa ratione specierum, sed unum significatum, et ideo unum sacramentum ;
+            contra : in nomine est vox et significatum, sicut in sacramento ; sed Marcus et Tullius,
+            etsi idem significent, tamen diversa sunt nomina : ergo et in sacramento isto, etsi idem
+            sit res, plura tamen debent dici sacramenta. </p>
+          <p xml:id="bb-d4e9574-d1e147">Item, ista duo constituunt sacramentum : verbum et elementum, et elementum in ratione
+            materialis, verbum in ratione formalis, Ergo ubi plura verba et elementa, ibi plura
+            sacramenta ; sed sic est in proposito. Si dicas quod ordinata sunt ad unum, et ideo sunt
+            unum, contra : causa universalis et particularis ad unum effectum ordinantur, nec tamen
+            sunt unum, sed. plures causae : ergo etc. </p>
+        </div>
+        <div xml:id="bb-d4e9574-Dd1e151">
+          <head xml:id="bb-d4e9574-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e9574-Hd1e156" type="question-title">Eucharistiae Sacramentum non est unum unitate simplicitatis,
+            sed integritatis et in comparatione, quia signum ordinatur ad unum ratione naturae et
+            institutionis</head>
+          <p xml:id="bb-d4e9574-d1e159">Respondeo : Dicendum quod unitas sacramenti non est unitas simplicitatis - constat enim
+            ex verbo et elemento - sed integritatis ; nec integritatis absolutae, sed in
+            comparatione, quia non uniuntur in tertio tamquam in forma, sed tamquam in signo.
+            Quoniam igitur hoc sacramentum, quamvis duo signa contineat et duo verba, quia tamen ex
+            his perfectum resultat signum et ordinatum ad unum, scilicet ad unionem corporis
+            mystici, ideo est unum sacramentum.</p>
+          <p xml:id="bb-d4e9574-d1e162">Ratio autem talis integritatis et ordinationis unius dispositive venit a natura - quia
+            nec panis est per se plene reficiens nec vinum, sed utrumque ; una enim plena refectio
+            in natura venit ex utroque, et ita disposita sunt ad unam refectionem significandam -
+            sed completive venit ab institutione divina, quae una institutione haec duo signa
+            ordinavit ad significandam unam perfectam refectionem ; et ideo unum est sacramentum
+            ratione naturae et institutionis divinae. Unde quia ex pluribus integratur, ideo <name ref="#GregoryGreat">Gregorius</name>, materialiter loquendo, dicit sacramenta ; quia
+            vero una ordinatione ordinatur ; ideo statim dicit : et praesta, ut hoc tuum sacramentum
+            etc.</p>
+        </div>
+        <div xml:id="bb-d4e9574-Dd1e170">
+          <head xml:id="bb-d4e9574-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e9574-d1e175">Et sic patet illud <name ref="#GregoryGreat">Gregorii</name>.</p>
+          <p xml:id="bb-d4e9574-d1e181">Ad illud quod primo obicitur, quod plura sunt significata, dicendum quod unum est
+            propter alterum. et per alterum, quia verum significat mysticum.</p>
+          <p xml:id="bb-d4e9574-d1e184">Ad illud autem quod obicitur de sanguine, dicendum quod annexa sunt. Unde sicut oblatio
+            agni et eius sanguinis non sunt duae oblationes vel sacrificia, sic in proposito
+            intelligendum. Et si illud non sufficit, dicendum quod ordinantur ad unum significatum
+            ultimum.</p>
+          <p xml:id="bb-d4e9574-d1e187">Ad illud quod obicitur, quod sunt plura signa, dicendum quod integraliter loquendo et
+            materialiter, verum est, quia plures species, sed tamen unum signum integrum, sicut
+            ostensum est. Non sic divrsae voces sunt unum nomen, immo diversas rationes habent
+            innotescendi et diversas institutiones, ideo plura nomina ; si autem unam haberent
+            institutionem, unum esset nomen, sicut hoc nomen Bonaventura vel hoc nomen
+            Bonushomo.</p>
+          <p xml:id="bb-d4e9574-d1e191">Ad aliud similiter patet responsio, quia, quamvis sint duo verba et elementa, unum
+            tamen sunt sacramentum, quia verbum et elementum non conveniunt ad unum sacramentum nisi
+            ratione institutionis ordinantis ad unum. Quia ergo hic est institutio illa plura ad
+            unum ordinans, ideo unum sacramentum. Per hoc patet quod non est simile de causa
+            universali, quia non tantum ad unum effectum causae particularis ordinatur universalis,
+            sed ad multos alios ; sed haec duo ad unum perfectum sacramentum ordinantur ; perfectum,
+            inquam, dico quantum ad significationem, quia in neutro salvatur ratio perfectae
+            refectionis naturalis per se, sed in utroque simul, ut tactum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

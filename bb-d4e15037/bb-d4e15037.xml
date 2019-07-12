@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e15037">
+        <head xml:id="bb-d4e15037-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e15037-Hd1e111" type="question-title">Utrum omnis sacerdos possit conficere.</head>
+        <div xml:id="bb-d4e15037-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e15037-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e15037-d1e119">Circa primum sic proceditur. <name ref="#Augustine">Augustinus</name>, in libro
+            Sententiarum Prosperi : <quote xml:id="bb-d4e15037-Qd1e124">Non est locus veri sacrificii extra catholicam
+              Ecclesiam</quote>. Sed haereticus est extra catholicam Ecclesiam : ergo in eo non est
+            veruni sacrificium, et sic etc.</p>
+          <p xml:id="bb-d4e15037-d1e128">Item, <name ref="#Jerome">Hieronymus</name> : <quote xml:id="bb-d4e15037-Qd1e133">Panem pollutum comedunt
+              haeretici</quote>. Sed panis iste non potest pollui : ergo non comedunt hunc
+            panem.</p>
+          <p xml:id="bb-d4e15037-d1e137">Item, idem <name ref="#Jerome">Hieronymus</name> : <quote xml:id="bb-d4e15037-Qd1e142">Odit Deus sacrificia
+              haereticorum, detestatur foetorem</quote>. Ergo non mittit nec se nec angelos, nec
+            ipsi per consequens mittunt in caelum : ergo non conficiunt nec Missam dicunt et falso
+            dicunt : Ite, Missa est.</p>
+          <p xml:id="bb-d4e15037-d1e146">Item, Cyprianus : <quote xml:id="bb-d4e15037-Qd1e148">Haereticorum sacramenta sacrilegia sunt</quote>. Sed iste
+            panis sanctus est : ergo etc.</p>
+          <p xml:id="bb-d4e15037-d1e153">Item, ex <ref xml:id="bb-d4e15037-Rd1e155">Concilio Laodicensi</ref> : <quote xml:id="bb-d4e15037-Qd1e158">Non oportet haereticorum benedictiones
+              accipere ; sunt enim magis maledictiones</quote>
+            <!-- no reference to gratian here, but appears in gratian at http://scta.info/resource/gd-p2c1q1-d1e1117 -->
+            .</p>
+          <p xml:id="bb-d4e15037-d1e164">Item, ratione videtur, quia hoc Sacramentum est sacramentum unionis : ergo qui separati
+            sunt ab Ecclesia omnino alieni sunt ab hoc Sacramento ; et si hoc, non possunt
+            conficere.</p>
+          <p xml:id="bb-d4e15037-d1e167">Item, qui separati et haeretici sunt, quamvis habeant ordinem, non possunt solvere et
+            ligare, et, si solvunt, nihil faciunt : ergo eadem ratione nec conficere.</p>
+          <p xml:id="bb-d4e15037-d1e170">Item, <quote xml:id="bb-d4e15037-Qd1e172">privilegium meretur amittere, qui concessa sibi abutitur potestate</quote>
+            ; sed haereticus et schismaticus abutuntur potestate conficiendi : ergo sicut Deus ded
+            it potestatem, ita et debet auferre ;</p>
+          <p xml:id="bb-d4e15037-d1e176">Item, potestatis superioris est compescere inferiorem, si ordinatae sunt potestates ;
+            ergo, si Papa vel episcopus vetat sacerdoti ne conficiat, amplius non potest conficere.
+            Si dicas quod non potest de iure, potest tamen de facto, contra : hoc solum potest homo
+            apud Deum quod de iure potest ; sed potestas conficiendi est potestas quantum ad Deum :
+            ergo, si non potest de iure ; nullo modo potest.</p>
+          <p xml:id="bb-d4e15037-d1e179">Contra : <name ref="#Augustine">Augustinus</name>, Ad Parmenianum, loquens de
+            haereticis et schisrnaticis : <quote xml:id="bb-d4e15037-Qd1e184">Sicut in eis mansit Baptismus, sic et Ordinatio
+              integra ; in praecisione fuerat vitium, quod in unitate pacis est correcturn, non in
+              sacramentis, quae, ubicumque sunt, ipsa vera sunt</quote>
+          </p>
+          <p xml:id="bb-d4e15037-d1e189">Item, <ref xml:id="bb-d4e15037-Rd1e191">Causa 1, quaestione 1</ref> : <quote xml:id="bb-d4e15037-Qd1e194" source="http://scta.info/resource/gd-p2c1q1-d1e695">Sacramenta in modum lucis ab
+              immundis coinquinari non possunt</quote>.</p>
+          <p xml:id="bb-d4e15037-d1e198">Item, sacerdos conficit, aut quia bonus aut quia sacerdos. Si quia bonus, sed non est
+            certus de bonitate : ergo nec certus est utrum conficiat. Si quia sacerdos, cum propter
+            haeresim non desinat esse sacerdos, patet etc.</p>
+          <p xml:id="bb-d4e15037-d1e201">Item, ad sacramentum ex parte dispensantis non plus requiritur quam <quote xml:id="bb-d4e15037-Qd1e203">ordo et
+              intentio et actio</quote> ; sed haec omnia sunt in praeciso : ergo etc. Si dicas quod
+            requiritur bonitas, tunc salus nostra in manu alterius est posita</p>
+        </div>
+        <div xml:id="bb-d4e15037-Dd1e208">
+          <head xml:id="bb-d4e15037-Hd1e210">Conclusio</head>
+          <head xml:id="bb-d4e15037-Hd1e213" type="question-title">In omni sacerdote rite procedente salvatur veritas Sacramenti,
+            non autem eius utilitas conficienti malo, vel excommunicato</head>
+          <p xml:id="bb-d4e15037-d1e216">Respondeo : Aliqui voluerunt distinguere, ex quibus videtur fuisse <name ref="#Lombard">Magister</name>, quod sacerdotes mali quidam occulte sunt mali et de Ecclesia, saltem
+            numero et quoad exteriorem faciem ; et tales possunt. Alii vero sunt manifeste mali et
+            ab Ecclesia precisi ; et tales non possunt. Sed haec positio videtur consonare positioni
+            Cypriani, qui posuit quod haeretici non habeant vera sacramenta ; quod satis improbat
+              <name ref="#Augustine">Augustinus</name>.</p>
+          <p xml:id="bb-d4e15037-d1e225">Propter hoc dicendum aliter quod in sacramento duo attenduntur, scilicet sacramenti
+            veritas, quae consistit quantum ad rem primam ; et sacramenti utilitas, quae consistit
+            quantum ad rem ultirilam, quae est incorporatio vel unio quantum ad corpus mysticum. Si
+            de veritate sacramenti loquamur, veritas salvatur, ubi est ex parte ministri Ordo et
+            intentio et verbi prolatio, cum adest debitum elementum. Si autem loquamur quantum ad
+            utilitatem, dicendum quod sacerdos bonus conficit ad utilitatem suam et asistentium ;
+            malus occultus ad damnum suum, nihilominus tamen ad utilitatem assistentium qui cum fide
+            et devotione Missam audiunt ; sed praecisus et haereticus ad damnationem suam et omnium
+            assistentium. Quia ergo in praecisis et haereticis manifestis privatur Saoramentum omni
+            fructu, quamvis sit ibi corpu Christi verum, ideo loquuntur sacri canones et
+            auctoritates Sanctorum, ipsorum sacrificia detestantes, non ratione operis operati, sed
+            damni.</p>
+        </div>
+        <div xml:id="bb-d4e15037-Dd1e229">
+          <head xml:id="bb-d4e15037-Hd1e231">Ad rationes</head>
+          <p xml:id="bb-d4e15037-d1e234">1-5. Et sic solvuntur auctoritates et sic credendum est intellexisse Magistrum.</p>
+          <p xml:id="bb-d4e15037-d1e237">Ad illud autem quod obicitur, quod non possunt praecisi, quia est sacramentum unionis,
+            dicendum quod sacramentum unionis est ratione efficientiae et praecisi sine efficacia et
+            fructu conficiunt.</p>
+          <p xml:id="bb-d4e15037-d1e240">Ad illud quod obicitur, quod non possunt solvere, dicendum quod non est simile, quia
+            potestas solvendi est potestas ad alterum ordinata, quae non tantum consistit in ordine,
+            sed in iurisdictione, quam non habet haereticus.</p>
+          <p xml:id="bb-d4e15037-d1e243">Ad illud quod obicitur, quod privilegium debet amittere, dicendum quod dignus est de
+            se, sed tamen Dei largitas non subtrahit quod imprimit ut perpetuum ; et quia talis est
+            character sacerdotalis, ideo manet ad divinae largitatis gloriam et malorum perpetuam
+            damnationem et ignominiam, et per consequens ad manifestandam Dei iustitiam.</p>
+          <p xml:id="bb-d4e15037-d1e247">Ad illud quod obicitur, quod superior potestas potest cohibere inferiorem, dicendum
+            quod secundum illud potest cohibere secundum quod superior ; sed non est superior
+            quantum ad potestatem conficiendi - omnes enim sacerdotes aequaliter possunt conficere -
+            sed quantum. ad debitam et ordinatam exsecutionem est superior, et quantum ad hanc bene
+            cohibet. Unde si praecisus vel excommunicatus conficiat, facit quidem hoc ad quod habet
+            potentiam, sed tamen non facit debite et ordinate, immo ad damnationem suam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

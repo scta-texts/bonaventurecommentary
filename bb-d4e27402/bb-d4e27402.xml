@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e27402">
+        <head xml:id="bb-d4e27402-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e27402-Hd1e111" type="question-title">Utrum peccata venialia possint deleri a gratia sine contritione
+          sive interiori poena.</head>
+        <p xml:id="bb-d4e27402-d1e114">Secundo quaeritur circa hoc, utrum venialia possint deleri a gratia sine contritione sive
+          interiori poena.</p>
+        <div xml:id="bb-d4e27402-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e27402-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e27402-d1e122">Et quod sic, videtur : Per illud quod habetur in littera, quod est verbum <name ref="#GregoryGreat">Gregorii</name> : Quod est gutta aquae ad caminum ignis, hoc est
+            veniale ad fervorem caritatis. Ergo videtur quod in solo caritatis fervore possit deleri
+            veniale.</p>
+          <p xml:id="bb-d4e27402-d1e128">Item, sicut colligitur ex verbis <name ref="#Augustine">Augustini</name>, in libro
+            Confessionum, veniale non est aliud quam minor amor Dei. Ergo quod excludit remissionem
+            amoris, excludit veniale et, delet ; sed caritas, nulla facta meditatione, potest magis
+            et magis inflammari : ergo etc.</p>
+          <p xml:id="bb-d4e27402-d1e134">Item, possibile est iustum, qui habet venialia, mori dormiendo vel ita quod cadat in
+            furiam. Ergo, cum ultra non sit locus poenitentiae et necesse sit illa venialia deleri,
+            quia aliquando, cum habeat gratiam, perveniet ad gloriam, ergo possunt venialia deleri
+            per gratiam sine poenitentia.</p>
+          <p xml:id="bb-d4e27402-d1e137">Item, mortale improportionaliter plus offendit Deum quam veniale ; sed minima contritio
+            sufficit ad delendum mortale cum gratia : ergo ad delendum veniale sufficit sola
+            gratia.</p>
+          <p xml:id="bb-d4e27402-d1e141">Item, venialia delentur virtute sacramenti Extremae Unctionis, virtute etiam
+            Eucharistiae - sicut supra habitum est, et expresse dicit <name ref="#Ambrose">Ambrosius</name> - et per orationem dominicalem et benedictionem episcopalem, sicut
+            dicunt magistri communiter. Ergo non est necessarium conteri, quia alia est via
+            deletionis. Cum ergo per haec remittantur et etiam per contritionem et exteriorem
+            satisfactionem et per Baptismum, quaeritur, per quam naturam communem insit his haec
+            passio communis.</p>
+          <p xml:id="bb-d4e27402-d1e147">Contra : Supra distinctione decima sexta ; habetur, ubi agitur de remissione venialium
+            sive de poenitentia, dicit <name ref="#Lombard">Magister</name> quod ad remissionem
+            venialium <quote xml:id="bb-d4e27402-Qd1e152" source="http://scta.info/resource/pl-l4d16c6-d1e139">sufficit oratio
+              dominica cum aliquo ieiunio et eleemosynis, sic tamen, ut praecedat contritio
+              aliquantula</quote>. Ergo non potest pro illa culpa fieri satisfactio congrua, nisi
+            praecedat interior poenitentia : ergo etc.</p>
+          <p xml:id="bb-d4e27402-d1e156">Item, maioris adhaerentiae est veniale quam mortale ; sed mortale nunquam deletur, nisi
+            liberum arbitrium ab eo dissentiat per actum contritionis : ergo multo fortius videtur
+            de veniali.</p>
+          <p xml:id="bb-d4e27402-d1e159">Item, quando aliquae duae formae sese compatiuntur, una per se non expellit aliam ; sed
+            veniale simul stat cum gratia : ergo gratia per se non delet veniale : ergo necesse est
+            aliquid addi ultra, quod cum veniali peccato oppositionem habeat. Sed hoc non est nisi
+            poenitentia interior : ergo etc.</p>
+          <p xml:id="bb-d4e27402-d1e162">Item, ratio quare mortale : non potest deleri sine actu detestationis, est, quoniam
+            voluntate actum est et voluntate acceptante, et ideo non potest deleri nisi voluntate
+            detestante ; sed peccata venialia ut in pluribus voluntarie committuntur et durant in
+            nobis, quamdiu voluntas vult in talibus versari : ergo videtur quod venialia non possunt
+            deleri sine. contritione interna.</p>
+          <p xml:id="bb-d4e27402-d1e165">Item, possibile est unum veniale deleri sine alio ; sed hoc non est nisi per aliquid
+            quod magis aspicit unum veniale quam aliud, ratione cuius gratiae effectus potius est
+            supra unum quam supra aliud ; sed tale non est gratia nec sacramentum, sed solus actus
+            interior liberi arbitrii : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e27402-Dd1e169">
+          <head xml:id="bb-d4e27402-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e27402-Hd1e174" type="question-title">Quamvis venialia peccata valde congrue per poenitentiam
+            deleantur, tamen possunt deleri per gratiam aliter adiutam, scilicet solo libero
+            arbitrio consonante, et aliquo exterius adiuvante</head>
+          <p xml:id="bb-d4e27402-d1e177">Respondeo : Ad hoc voluerunt aliqui dicere quod peccata venialia, quia quodam modo sunt
+            voluntaria, sine actu voluntatis detestantis illa deleri non possunt. Quia tamen longe
+            minus habent de ratione voluntarii quam mortalia, ideo quantulacumque contritio sufficit
+            sive in generali sive in speciali. Unde dixerunt quod, si quis cum impoenitentia de
+            venialibus decedat, mortaliter peccat ; si quis vero praeter usum liberi arbitrii
+            decedat, postmodum deleritur per gratiam cum detestatione voluntaria. Nam anima quae est
+            in gratia, statim clum in se conspicit culpam, illam detestatur et gratia existens in
+            anima eam delet. Sed tamen illud difficile est sustinere, tam in hoc saeculo quam in
+            futuro : in hoc, inquam, saeculo, quoniam multi sunt modi remittendi peccata venialia
+            praeter poenitentiam, ut puta, cum aliquis devote suscipit episcopalem benedictionem et
+            aquae benedictae aspersionem et consimilia ; in futuro, quia ; cum nullus sit usus
+            liberi arbitrii meritorius post mortem, in nullo videtur possibile quod gratia culpam
+            deleat cooperante motu voluntatis animae iam exutae. Et sic modus iste dicendi non videt
+            ut omnino conveniens.</p>
+          <p xml:id="bb-d4e27402-d1e180">Propter hoc igitur aliter dici oportet. Et ut intelligamus modum deletionis venialium,
+            notandum quod triplex est genus peccati, scilicet originale, actuale mortale et veniale.
+            Et primum quidem minimam habet rationem voluntarii, immo nullam habet rationem
+            voluntarii in nobis. Alterum autem genus peccati, scilicet mortale, simpliciter tenet
+            rationem voluntarii, licet non ita sicut peccatum Adae, quod nullum habuit inclinativum.
+            Veniale peccatum quodam modo tenet medium : unde quodam modo habet rationem poenae,
+            quodam modo culpae ; et rursus, quodam modo est voluntarium, quodam modo involuntarium.
+            Habemus enim necessitatem committendi aliquod veniale in communi, quamvis ad nullum in
+            particulari.</p>
+          <p xml:id="bb-d4e27402-d1e183">Primum igitur peccatum, quoniam aliunde contractum est, potest deleri, libero arbitrio
+            nihil omhino agente, Sed sacramento solo exterius adiuvante, sicut patet in parvulis.
+            Secundum genus peccati, quoniam voluntarie contractum est, non potest deleri nisi libero
+            arbitrio consonante et adiuvante ; ideo in iustificatione impii requiritur motus liberi
+            arbitrii, per quem consonet gratiae, et ulterius contritio, per quam adiuvat. Veniale
+            peccatum potest deleri, libero arbitrio consonante et aliquo exterius adiuvante ; unde
+            si liberum arbitrium gratiae non repugnat, volendo persistere in culpa, et gratia
+            virtute sacramenti vel rei sacramentalis vigoratur, culpam venialem delet vel
+            universaliter vel particulariter. Unde credendum est quod aliquo nihil de peccatis suis
+            cogitante, sed tantum passionem Christi recolente in sacramento Eucharistiae,
+            recogitante, inquam, ferventer quod venialia peccata, vel omnia vel quaedam, remittuntur
+            ei per gratiam sic adiutam. Et omnia illa, sive sacramenta sive sacramentalia, ut
+            Eucharistia et Unctio et Baptismus et aquae aspersio et episcopalis benedictio et
+            contritio et misericordiae exhibitio et orationis dominicae devota exoratio, faciunt ad
+            venialium deletionem, non per propriam naturam, sed per eam naturam qua gratiam gratum
+            facientem ad hunc actum adiuvant et vigorant.</p>
+          <p xml:id="bb-d4e27402-d1e187">Si quaeras : quomodo adiuvant ? dicendum quod in talibus ut plurimum est humiliatio et
+            devotio, quae est actus gratia informatus, repugnans ipsi veniali peccato, quod fervorem
+            caritatis et devotionem, quantum est ex se, diminuit. Vel ea ratione qua est in eis
+            poenalitas, quae repugnat inordinatae delectationi, prout illa poena iuncta est ordini
+            gratiae. Et sic potest responderi quod quamvis venialia valde congrueper poenitentiam
+            deleantur, possunt tamen per gratiam aliter adiutam deleri. Et concedendae sunt rationes
+            ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d4e27402-Dd1e192">
+          <head xml:id="bb-d4e27402-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e27402-d1e197">Ad illud ergo quod obicitur, quod praecedere debet aliquantula contritio, dicendum quod
+              <name ref="#Lombard">Magister</name> non determinat praecise modum delendi veniale
+            peccatum, sed modum perfecte satisfaciendi. Nemo autem perfecte satisfacit pro culpa,
+            nisi etiam interius in corde doleat, quantumcumque se exterius punit ; et hoc dieo vel
+            in generali vel in speciali. Venialia autem non solum per vim poenitentiae, sed etiam
+            aliis modis deleri possunt, ut tactum est.</p>
+          <p xml:id="bb-d4e27402-d1e203">Ad illud quod obiicitur quod veniale est maioris adhaerentiae, dicendum quod dupliciter
+            est loqui de adhaerentia venialis : aut quantum ad maculam, aut quantum ad pronitatem,
+            quae est via ad illam. Si loquamur quantum. ad notam displicentiae, plus adhaeret
+            mortale quam veniale. Si autem quantum ad pronitatem, e contrario est ; deletio autem
+            non est respectu pronitatis, sed potius respectu maculae peccati.</p>
+          <p xml:id="bb-d4e27402-d1e206">Ad illud quod obicitur, quod veniale se compatitur cum gratia etc., dicendum quod verum
+            est quod se compatitur quantum ad inhaerentiam ; et ideo gratia non delet per sui
+            essentiam vel inhaerentiam ; et propter hoc oportet ei addi aliquod adiutorium, vel
+            liberi arbitrii vel alicuius alterius poenalitatis vel sacramenti, ratione cuius
+            effectus vel actus gratiae repugnat veniali. Quamvis enim gratia secundum essentiam stet
+            cum veniali, tamen caritas ad fervorem excitata consumit culpam, sicut fornax ignis
+            modicam aquae guttam.</p>
+          <p xml:id="bb-d4e27402-d1e209">Ad illud quod obicitur, quod veniale est voluntarium, dicendum quod non sic sicut
+            mortale ; tamen, quia aliquo modo voluntarium est, nunquam deletur nisi voluntas
+            consonet. Unde vix contingit quod ei qui proponit manere in veniali peccato, utpote in
+            verbis otiosis, quod, etiam si confiteatur, remittatur ei culpa, nisi forte pro opere
+            illo contra se ipsum insurgat et adeo rugitus rationis fremat, quod bestiales motus
+            sensualitatis gressum figant, ad modum leonis, quo rugiente, cetera animalia gressum
+            figunt.</p>
+          <p xml:id="bb-d4e27402-d1e213">Ad illud quod obicitur, quod veniale unum deletur sine alio, dicendum quod hoc
+            possibile est duplici modo : vel quia voluntas habitudinaliter adhaeret uni, et non alii
+            ; et tunc culpa remittitur, cui non inhaeret, et remanet culpa, cui voluntas adhaerebat
+            ; vel ideo quia voluntas unum peccatum magis detestatur quam alterum. Unde gratia magis
+            delet culpam venialem, in cuius deletione magis voluntas consonat vel adiuvat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e3048">
+        <head xml:id="bb-d4e3048-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e3048-Hd1e111" type="question-title">Utrum expressio totius Trinitatis sit de necessitate
+          Baptismi.</head>
+        <p xml:id="bb-d4e3048-d1e114">Secundo quaeritur, utrum expressio totius Trinitatis sit de necessitate Baptismi.</p>
+        <div xml:id="bb-d4e3048-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e3048-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e3048-d1e122">Et quod sic, videtur : Per formam a Domino traditam, <ref xml:id="bb-d4e3048-Rd1e124" ana="#mt28_19">Matthaei
+              ultimo, 19</ref>.</p>
+          <p xml:id="bb-d4e3048-d1e128">Item, Fulgentius : <quote xml:id="bb-d4e3048-Qd1e130">Mysterium redemptionis nullo modo habetur, si Patris vel
+              Filii vel Spiritus Sancti nomen subtrahatur</quote>.</p>
+          <p xml:id="bb-d4e3048-d1e134">Item, Pelagius, Gaudentio episcopo : <quote xml:id="bb-d4e3048-Qd1e136">Revera, si hi de haereticis, qui in locis
+              dilectionis tuae et vicinis commorari dicuntur, solum in nomine Domini se baptizatos
+              fuisse fortasse confitentur, sine cuiusquam dubitationis ambiguo eos ad catholicam
+              fidem venientes in. sartctae Trinitatis nomine baptizabis</quote>: ergo non fuerunt
+            baptizati.</p>
+          <p xml:id="bb-d4e3048-d1e140">Item, ratione videtur, quia necessarium est verbum vocale ad professiotiem fidei ; sed
+            sicut non sufficit credere tantum alteram personarum, sic nec sufficit profiteri : ergo,
+            si professio sufficiens est necessaria, necesse est totam Trinitatem exprimere in
+            Baptismo.</p>
+          <p xml:id="bb-d4e3048-d1e144">Sed contra : <name ref="#Ambrose">Ambrosius</name> dicit, in libro De Trinitate, et
+            habetur in littera : <quote xml:id="bb-d4e3048-Qd1e149">Si unum in sermone comprehendas, vel Patrem vel Filium vel
+              Spiritum Sanctum, fide autem nec Patrem nec Filium nec Spiritum Sanctum abneges,
+              plenum est fidei sacramentum</quote>. Ergo videtur quod non est necesse exprimere
+            totam Trinitatem, sed credere.</p>
+          <p xml:id="bb-d4e3048-d1e153">Item, ratione videtur, quia una est potestas et operatio Trinitatis : ergo quod
+            operatur Pater, et tota Trinitas : ergo, si dicatur : baptizo te in nomine Patris,
+            tantumdem valet ac si tota Trinitas exprimatur.</p>
+          <p xml:id="bb-d4e3048-d1e156">Item, Apostoli in primitiva Ecclesia baptizaverunt in nomine Christi : ergo, si nullo
+            modo licuit eis mutare formam a Domino institutam, ergo ista forma non discordabit ab
+            illa : ergo videtur quod sufficiat alteram personarum exprimere. Si dicas quod non
+            mutatur propria, sed divina auctoritate, tunc ergo divina auctoritas contulit vim illi
+            nomini : ergo, si quod Deus contulit, illud homo auferre non potest, adhuc potest
+            baptizari in nomine Christi. Si dicas quod non fuit collata virtus nisi ad tempus,
+            quaero : quare magis collata est virtus simpliciter nomini totius Trinitatis quam nomini
+            Christi ? Et rursus : quare magis collata est virtus nomini Christi pro illo tempore
+            quam pro nostro ? Et quod simpliciter habeat, videtur, quia Baptismus virtutem habet a
+            passione, ergo et a fide passionis. Ergo, si Christus, non tota Trinitas fuit passa,
+            potius debet dici : in nomine Christi quam : totius Trinitatis. </p>
+        </div>
+        <div xml:id="bb-d4e3048-Dd1e160">
+          <head xml:id="bb-d4e3048-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e3048-Hd1e165" type="question-title">Expressio verbalis totius Trinitatis in baptismo est
+            necessaria</head>
+          <p xml:id="bb-d4e3048-d1e168">Respondeo : Dicendum quod notitia Trinitatis sive nominatio potest esse in Baptismo
+            quatuor modis : aut ita quod sit plena in corde et in ore, et tunc secundum omnes plenum
+            est sacramentum ; aut ita quod sit semiplena in corde et in ore, et tunc secundum omnes
+            non est sacramentum plenum ; aut ita quod plena in ore et semiplena in corde ; aut ita
+            quod plena in corde et semiplena in ore. De primo modo et secundo non est controversia,
+            sed de duobus sequentibus fuit opinio diversa.</p>
+          <p xml:id="bb-d4e3048-d1e171">Quia enim Baptismus est sacramentum fidei et virtutem habet a fide, quae in corde est,
+            ideo voluerunt aliqui dicere quod plenitudo fidei in corde cum qualicumque Trinitatis
+            expressione, sive duae sive una sive tres personae exprimantur, plenum facit
+            sacramentum, quia fides supplet defectum sermonis ; e converso autem, si non est fides
+            in corde, si exprimantur tres ore, non est plenum sacramentum. Et hoc videtur dicere
+              <name ref="#Ambrose">Ambrosius</name>, et hliius opinionis videtur fuisse <name ref="#HughOfStVictor">Hugo</name> et <name ref="#Lombard">Magister</name> quantum ad
+            primam partetn opinionis. Sed quia, ut determinat <name ref="#Augustine">Augustinus</name>, Baptismus est sacramentum fidei, no singularis personae, sed
+            totius Ecclesiae, ideo fides personae nihil obest, nihil prodest.</p>
+          <p xml:id="bb-d4e3048-d1e186">Et ideo determinat alia positio quod, quidquid sit de fide cordis, iudicandum est de
+            Baptismate secundum expressionem oris sive sermonis ; et ideo, qualitercumque credat, et
+            si totam exprimat Trinitatem, baptizatus. est ; si autem non totam, non est baptizatus
+            et rebaptizandus est. Et hoc communiter et certitudinaliter asserunt magistri.</p>
+        </div>
+        <div xml:id="bb-d4e3048-Dd1e191">
+          <head xml:id="bb-d4e3048-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e3048-d1e196">Ad illud ergo quod obicitur de <name ref="#Ambrose">Ambrosio</name>, dicendum quod
+            verbum <name ref="#Ambrose">Ambrosii</name> est exponendum, ut sacramentum fidei ponatur
+            pro ipsa fide : plenum sacramentum fidei, id est ipsa fides, quae significatur per
+            sacramentum. Vel si de sacramento intelligitur, habet locum in casu ; ut quando puer
+            deficit in manibus sacerdotis, ubi credendum est quod divina misericordia et summus
+            Sacerdos non dimittat imperfectum quod inchoatum, est. </p>
+          <p xml:id="bb-d4e3048-d1e205">Ad aliud dicendum quod, etsi potestas et operatio Trinitatis uniat, tamen fides
+            distinguit ; et ideo non sufficit unam personarum credere ; sed necesse est credere
+            omnes. Et quia Baptismus est sacramentum plenae professionis, ideo necesse est profiteri
+            omnes personas.</p>
+          <p xml:id="bb-d4e3048-d1e208">Ad illud quod obicitur de nomine Christi, dicendum quod Apostolis licuit baptizare in
+            nomine Christi divinitus inspiratis, sed non licet modo nobis.</p>
+          <p xml:id="bb-d4e3048-d1e211">Dicunt tamen aliqui quod verbum illud non amisit virtutem propter constitutionem
+            Ecclesiae ordinantis, quod tantum fiat in nomine Trinitatis ; unde, etsi peccaret sic
+            baptizans, tamen baptizatum esse. Sed communis opinio et certior est quod non esset
+            baptizatum, quia, cum sit unicum Baptisma in Ecclesia, ideo unica debet esse forma ; et
+            ideo tantum in nomine Trinitatis baptizat tota ecclesia.</p>
+          <p xml:id="bb-d4e3048-d1e215">Quod ergo obicitur, quod Apostoli baptizabant in nomine Christi, dicendum quod data
+            fuit virtus illi verbo tempore primitivae Ecclesiae. Et una ratio fuit quod nomen
+            Christi implicat et insinuat totam Trinitatem ; Christus enim unctus dicitur, et ideo
+            ungentem et unctum et unctionem insinuat, et sic cum praedicta forma concordabat. Alia
+            ratio fuit, quia nomen Christi erat ignotum et contumeliosum, utpote crucifixi, ut nomen
+            publicaretur et in reverentia haberetur, tunc temporis tali forma usi sunt. Et quia,
+            cessante causa, cessat effectus, Christi nomine publicato et honorabili facto, amplius
+            nec. debuit nec potuit in eo impleri sacramentum Baptismi, quia ad tempus tantum
+            institutum fuit. Quod ergo obicitur, quod debuit simpliciter institui propter fidem
+            passionis, dicendum quod recreator dicitur dupliciter : vel sicut auctor, et sic tota
+            Trinitas ; vel sicut mediator ; et sic Christus. Ad hoc ergo quod esset plenum
+            sacramentum, necesse erat fide profiteri mediatorem et auctorem, sed tamen principalius
+            auctorem. Quia ergo per actum immergendi mors Christi intelligitur, et ita mediator,
+            necesse fuit voce exprimi auctorem, et ita totam Trinitatem nominari oportuit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

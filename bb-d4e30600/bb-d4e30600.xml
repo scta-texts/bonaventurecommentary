@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e30600">
+        <head xml:id="bb-d4e30600-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e30600-Hd1e111" type="question-title">Utrum ordo sit in Ecclesia.</head>
+        <div xml:id="bb-d4e30600-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e30600-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e30600-d1e119">Quantum ad primum. sic proceditur et ostenditur quod in Ecclesia sit ordo: Primo, per
+            illud quod dicitur <ref xml:id="bb-d4e30600-Rd1e121" ana="#Icor12_12">I ad Corinthios 12, 12</ref>, quod Ecclesia
+            similis est corpori organico ; sed corpus organicum ad sui perfectionem necessario
+            requirit ordinationem : ergo etc.</p>
+          <p xml:id="bb-d4e30600-d1e125">Item, hoc videtur Exodi 25, 40 : <quote xml:id="bb-d4e30600-Qd1e127" ana="#ex25_40">Vide omnia, et fac secundum
+              exemplar quod tibi in monte monstratum est</quote>. Ergo Ecclesia militans imitari
+            debet trium phantem ; ut enim dicit Apostolus, omnia haec exemplaria sunt caelestium. Si
+            ergo in Ecclesia triumphante ordo est, ut in angelis, patet etc.</p>
+          <p xml:id="bb-d4e30600-d1e131">3. Item, Ecclesia constituitur ex duplici pariete, scilicet laicali et clericali ; sed
+            in pariete laicali est ordo, utpote imperator, rex, dux, comes, tribunus, centurio et
+            decurio, omnia haec ordinem dicunt : si ergo Ecclesia militat militia spirituali,
+            videtur quod et ipsa debeat esse ut castrorum acies ordinata ?</p>
+          <p xml:id="bb-d4e30600-d1e134">Item, ubicumque est multitudo, aut confusa est aut ad ordinem redacta est ad regimen.
+            Ergo, si in ecclesiastica multitudine confusio necessario vitatur, necesse est quod ibi
+            ponatur ordo.</p>
+          <p xml:id="bb-d4e30600-d1e138">Contra : Ubicumque est ordo, ibi est distinctio ; sed ut dicitur ad Galatas 3, 28 :
+              <quote xml:id="bb-d4e30600-Qd1e140" ana="#gal3_28">Omnes nos unum sumus in Christo</quote> ; intelligendum de
+            omnibus fidelibus : ergo ibi non videtur esse ordo.</p>
+          <p xml:id="bb-d4e30600-d1e144">Item, ubicumque est ordo, ibi est determinata praelatio et subiectio ; sed in Ecclesia
+            quilibet se debet reputare infimum ; sicut dicitur ad Philippenses 2, 3 : <quote xml:id="bb-d4e30600-Qd1e146" ana="#phil2_3">In humilitate superiores sibi invicem</quote> etc. ; Lucae 22, 26 :
+              <quote xml:id="bb-d4e30600-Qd1e149" ana="#lc22_26">Quicumque voluerit inter vos maior esse</quote> etc.</p>
+          <p xml:id="bb-d4e30600-d1e153">Item, ubi est ordo, ibi est praelatio et dominium, et ubi hoc est, ibi est aliqua
+            subiectio et servitus ; sed omnes fideles in libertatem vocati sunt, sicut dicitur ad
+            Galatas 5, 13 : ergo inter fideles in Ecclesia nullus est Ordo.</p>
+          <p xml:id="bb-d4e30600-d1e156">Item, si est ordo, aut ergo secundum bona naturae, aut secundum bona fortunae, aut
+            secundum dona gratiae. Si secundum bona naturae, ergo ille debet esse superior qui est
+            industrior et qui fortior ; et hoc falsum. Si secundum bona fortunae, ergo ille superior
+            qui ditior et potentior. Si secundum dona gratiae, sed nemo scit quis habet de gratia
+            plus vel minus : ergo nemo scit quis sit subditus aut quis sit praelatus : ergo non
+            videtur quod sit aliquis ordo.</p>
+        </div>
+        <div xml:id="bb-d4e30600-Dd1e160">
+          <head xml:id="bb-d4e30600-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e30600-Hd1e165" type="question-title">Ordinem esse necessarium in Ecclesia, duplici ratione
+            probatur</head>
+          <p xml:id="bb-d4e30600-d1e168">Respondeo : Dicendum quod necessarius est ordo in Ecclesia duplici ratione, scilicet
+            propter pulcritudinem et propter rectitudinem. Cum enim sit magna multitudo in Ecclesia,
+            nisi esset ordo, manifeste appareret confusio, et haec est multitudinis foedatio. Unde
+            omnis sapiens, qui, eo ipso quod sapiens, pulcritudinis amator est, non producit multa
+            sine ordine ; et in hoc maxime apparet sapientia Dei, quae inter omnia. opera sua
+            manifestatur in constitutione Ecclesiae. Necessarius est etiam ordo propter
+            rectitudinem. Etenim multitudo, cum est in statu in quo deviare potest, errat, si non
+            habet ducem nec rectorem, sicut dicitur III Regum ultimo, 17 : Vidi cunctum Israel
+            dispersum in montibus, sicut oves non habentes pastorem. Quoniam ergo multitudo
+            Ecclesiae est in statu in quo potest deviare, indiget capite et regimine ; et cum unus
+            non possit omnibus sufficere nec ad omnia, ideo oportuit secundum plus et minus
+            ecclesiastica officia et potestates distribuere, ut Ecclesia regatur et dirigatur sine
+            errore. Et concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e30600-Dd1e172">
+          <head xml:id="bb-d4e30600-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e30600-d1e177">Ad illud ergo quod obicitur de unitate, dicendum quod sicut in corpore nostro est
+            considerare naturam per quam est unitas et convenientia, et naturam secundum quam est
+            distinctio sive differentia - prima est complexio, secunda est organizatio - sic in
+            corpore quod est Ecclesia. Per naturam enim caritatis omnes unimur, sed per dona alia
+            gratiarum, quae Apostolus enumerat <ref xml:id="bb-d4e30600-Rd1e179" ana="#Icor12_4">I ad Corinthios 12, 4</ref>,
+            distinguimur et ordinamur.</p>
+          <p xml:id="bb-d4e30600-d1e183">Ad illud quod obicitur, quod unusquisque se debet reputare inferiorem, dicendum quod
+            reputare se inferiorem est dupliciter : vel quantum ad vitae meritum, vel quantum ad
+            officium. Quantum ad vitae meritum, quia nemo scit quanti meriti sit, sic debet se
+            reputare inferiorem ; sed quantum ad officium non oportet, et quantum ad hoc attenditur
+            ordo.</p>
+          <p xml:id="bb-d4e30600-d1e186">Ad illud quod obicitur de ubertate, dicendum quod libertas haec non excludit
+            subiectionem, cum ipse Apostolus dicat ad Hebraeos ultimo, 11 : Obedite praepositis
+            vestris per omnia ; sed excludit ignominiam servitutis, in qua est ille qui est servus
+            peccati, et ita non excludit ordinem. Vel dicendum quod alii subici est dupliciter,
+            scilicet timore et amore. Qui subicitur amore, ambulat in libertate spiritus sicut
+            filius ; qui ex timore, est quodam modo servus ; et in bonis et in iustis non est
+            subiectio per timorem, sed per amorem ; et talis subiectio et praelatio et ordo in nullo
+            praeiudicat libertati.</p>
+          <p xml:id="bb-d4e30600-d1e189">Ad illud quod quaeritur, secundum quae dona attendatur ordo, dicendum quod secundum
+            dona gratiae gratis datae, quae quidem est potestas ad aliquod officium deputata ; et de
+            hac certi sumus certitudine probabilitatis, et haec stat et non variatur, etiam gratia
+            gratum faciente abscedente ; etsi enim gratia gratum faciens reddat dignum, talis gratia
+            gratis data collocat in ordine et gradu. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

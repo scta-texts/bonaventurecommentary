@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33687">
+        <head xml:id="bb-d4e33687-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e33687-Hd1e111" type="question-title">Utrum consensus sit causa Matrimonii.</head>
+        <div xml:id="bb-d4e33687-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e33687-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e33687-d1e119">Quantum ergo ad primum ostenditur quod consensus sit causa Matrimonii : Per
+            Chrysostomum, qui dici quod <quote xml:id="bb-d4e33687-Qd1e121">Matrimonium non facit coitus, sed
+            voluntas</quote>.</p>
+          <p xml:id="bb-d4e33687-d1e125">Item, <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e33687-Qd1e130">Non defloratio virginitatis facit
+              coniugium, sed pactio coniugalis</quote>.</p>
+          <p xml:id="bb-d4e33687-d1e134">Item exemplo probatur, quia inter Mariam et Ioseph fuit Matrimonium, et tamen non
+            intervenit nisi consensus.</p>
+          <p xml:id="bb-d4e33687-d1e137">Item ratione probatur, quia maioris libertatis est pactio coniugalis quam servitutis ;
+            sed solo consensu aliquis facit se servum : ergo solo consensu. potest fieri alterius
+            coniux.</p>
+          <p xml:id="bb-d4e33687-d1e141">Contra : Nihil est causa efficiens sui ipsius ; sed Matrimonium non est aliud quam
+            consensus, quia ille est signum coniunctionis Christi et Ecclesiae : ergo consensus non
+            est causa efficiens Matrimonii.</p>
+          <p xml:id="bb-d4e33687-d1e144">Item, <quote xml:id="bb-d4e33687-Qd1e146">si propositum est causa propositi, et oppositum oppositi</quote>. Ergo, si
+            consensus est causa Matrimonium constituens, dissensus est destruens ; sed Matrimonium
+            non destruitur per dissensus hominum : ergo nec per consensum constituitur.</p>
+          <p xml:id="bb-d4e33687-d1e150">Item, multiplicata causa, multiplicatur effectus. Ergo, si consensus est causa, et duo
+            sunt consensus, videtur quod duo sunt Matrimonia inter virum et mulierem ; sed non sunt
+            duo Matrimonia : ergo etc.</p>
+          <p xml:id="bb-d4e33687-d1e153">Item, si duo consensus faciunt unum Matrimonium, necesse est uniri ; sed tunc uniuntur,
+            quando sunt in idem ; sed in Matrimonio non uniuntur in unum, quia consensus viri est in
+            mulierem, consensus mulieris in virum : ergo diversi, non ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e33687-Dd1e157">
+          <head xml:id="bb-d4e33687-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e33687-Hd1e162" type="question-title">Consensus utriusque personae est causa proxima matrimonii, sed
+            simul cum institutione divina</head>
+          <p xml:id="bb-d4e33687-d1e165">Respondeo : Dicendum quod sicut Baptismus dupliciter dicitur : uno modo, prout
+            comprehendit exteriorem ablutionem et interiorem characteris impressionem, alio modo pro
+            interiori charactere ; sic Matrimonium uno modo comprehendit vinculum et exterius
+            signum, et sic Matrimonium est consensus expressus, non eius effectus ; alio modo, prout
+            stat pro vinculo interiori. Huiusmodi autem vinculum habet causam primam et habet causam
+            proximam prima est divina institutio, proxima est humana pactio, quae est in
+            convenientia consensuum duorum, scilicet maris et feminae. Et ideo dicendum quod
+            consensus est causa : Matrimonii, sed non tota, immo cum institutione divina ; consensus
+            autem.non alterius, sd utriusque personae.</p>
+        </div>
+        <div xml:id="bb-d4e33687-Dd1e169">
+          <head xml:id="bb-d4e33687-Hd1e171">Ad rationes</head>
+          <p xml:id="bb-d4e33687-d1e174">Et per hoc patet primum argumentum.</p>
+          <p xml:id="bb-d4e33687-d1e177">2-3. Ad illud quod obicitur, quod si oppositum non est causa oppositi etc., dicendum
+            quod est causa efficiens et conservans et est causa solum efficiens, non conservans,
+            sicut patet, quia sol est causa luminis primo modo, cultellus causa vulneris secundo
+            modo. Sic Matrimonium. habet causam efficientem consensum, sed non conservantem. Est
+            ergo consensus causa ut Matrimonium fiat, non ut permaneat. Similiter oppositum
+            consensus, id est dissensus, non est causa dissolvens factum, sed impediens ne fiat.</p>
+          <p xml:id="bb-d4e33687-d1e180">Ad illud quod obicitur, quod non uniuntur, dicendum quod est uniri et in obiecto et in
+            subiecto et est uniri in effectu. Dico ergo quod, quamvis duo consensus non uniantur in
+            subiecto nec in obiecto, uniuntur tamen in effectu qui surgit ex illo mutuo consensu.
+            Dum enim haec vult illum in virum ; vult esse uxor eius ; et dum ille hanc in uxorem,
+            efficitur vir eius. Et si tu obicias quod non uniuntur in effectu, nisi etiam uniantur
+            in obiecto, dico quod uniuntur in effectu secundario et in obiecto.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

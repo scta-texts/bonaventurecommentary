@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e11183">
+        <head xml:id="bb-d4e11183-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e11183-d1e111">Supra reprobavit <name ref="#Lombard">Magister</name> errorem ponentium corpus Christi
+          non esse vere in altari, et hoc respondendo eorum sophisticis obiectionibus ; in parte
+          ista veritatem fidei confirmat, multiplici auctoritate ostendens quod corpus Christi vere
+          est in altari et simul cum hoc ostendens qua virtute sit ibi. Et habet haec pars tres
+          partes. In prima resumit errorem superius positum cum sua ratione, ut ipsum infringat
+          veritatis ostensione. In secunda manifestando veritatem convincit errorem, ibi : Haec et
+          his similia obiciunt etc. In tertia concludit veritatem iam probatam, ibi : Ex his
+          aliisque constat etc.</p>
+        <p xml:id="bb-d4e11183-d1e117">Prima parte et ultima remanentibus indivisis, media dividitur in duas. In prima ostendit
+          duplici auctoritate quod corpus Christi vere potest esse in altari. In secunda vero
+          ostendit quod non. solum potest esse, immo vere est post consecrationem, ibi : Item ante
+          benedictionem alia species nominatur. Et utraeque auctoritates habent secum rationes
+          coniunctas. Nam primae duae dicunt quod virtus Verbi, quae potuit creare, et virtus
+          Spiritus Sancti, quae potuit in utero Virginis mirabiliter et praeter ordinem naturae
+          corpus Christi formare, potest similiter, immo multo fortius, substantias in id quod iam
+          erat mutare. Similiter duae sequentes dicunt quod panis convertatur in verum corpus, et
+          ibi sit corpus, ubi erat panis. Hoc fit secreta potestate et virtute Spiritus Sancti.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

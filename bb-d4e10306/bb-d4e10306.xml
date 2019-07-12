@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e10306">
+        <head xml:id="bb-d4e10306-Hd1e106">Quaestio 3</head>
+        <head xml:id="bb-d4e10306-Hd1e109" type="question-title">Utrum peccator sumendo corpus Christi semper mortaliter
+          peccet.</head>
+        <p xml:id="bb-d4e10306-d1e112">Tertio quaeritur, utrum peccator sumendo corpus Christi semper mortaliter peccet.</p>
+        <div xml:id="bb-d4e10306-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e10306-Hd1e117">Rationes principales</head>
+          <p xml:id="bb-d4e10306-d1e120">Et quod sic, videtur : Quia inter dignum et indignum nihil est medium ; sed nullus
+            peccator accedit digne : ergo omnis peccator accedit indigne ; et omnis talis peccat :
+            ergo peccator semper peccat sumendo.</p>
+          <p xml:id="bb-d4e10306-d1e123">Item, omnis qui accedit, tenetur se ipsum praeparare, quia dicit Apostolus, I ad
+            Corinthios 11, 28 : <quote xml:id="bb-d4e10306-Qd1e125" ana="#Icor11_28">Probet autem se ipsum homo</quote> ; sed si
+            praeparat se, facit quod in se est ; et si hoc, tunc Deus facit quod in se est, et tunc
+            non est peccator : ergo, si est peccator et accedit, non se praeparavit, ergo omnis
+            talis peccat.</p>
+          <p xml:id="bb-d4e10306-d1e129">Item, omnis accipiens sacramentum et non rem ficte accedit ; sed omnis peccator manens
+            in peccato mortali, qui accipit sacramentum, accipit illud sine re ; ergo ficte accedit.
+            Sed qui ficte accedit peccat mortaliter : ergo etc.</p>
+          <p xml:id="bb-d4e10306-d1e132">Item, sicut dicitur in Glossa, <ref xml:id="bb-d4e10306-Rd1e134" ana="#Icor11_21">I ad Corinthios 11, 21</ref> :
+              <quote xml:id="bb-d4e10306-Qd1e137">Indigne manducat qui accedit infidelis vel indevotus</quote>. Sed omni peccator
+            est indevotus, quia caritas facit devotum, qua caret peccator : ergo omnis peccator
+            indigne accedit,</p>
+          <p xml:id="bb-d4e10306-d1e142">Item, si peccator, qui habet peccati mortalis conscientiam, peccat mortaliter
+            accedendo, aut ergo quia gustus facit irreverentiam simpliciter, peccat qui gustat. Quia
+            vero in tactu est irreverentia, licet non semper nec tanta, ideo non quia habet peccatum
+            aut quia conscientiam. Non quia conscientiam, quia hoc non est malum cognoscere suum
+            peccatum : ergo quia habet peccatum ; et sic semper mortaliter peccat.</p>
+          <p xml:id="bb-d4e10306-d1e145">Item, qui peccat et ignorat minus est dispositus ad medicinam ; unde <name ref="#Ambrose">Ambrosius</name> dicit quod <quote xml:id="bb-d4e10306-Qd1e150">peccat gravissime qui
+              ignorat</quote>. Si ergo peccat qui accedit cum peccato ignoranter, multo fortius qui
+            accedit cum peccato scienter.</p>
+          <p xml:id="bb-d4e10306-d1e154">Item, iustus credens se esse in peccato mortali peccat, si accedat ; sed iustus est
+            magis dispositus quam quilibet peccator : ergo multo magis peccat peccator.</p>
+          <p xml:id="bb-d4e10306-d1e157">Contra : Si omnis peccator damnabiliter manducat, cum nullus sciat se esse iustum,
+            omnis homo exponit se discrimini sumendo.</p>
+          <p xml:id="bb-d4e10306-d1e160">Item, Apostolus : <quote xml:id="bb-d4e10306-Qd1e162" ana="#Icor4_4">Nihil mihi conscius sum, sed non in hoc
+              iustificatus sum</quote> ; sed non tenetur homo amplius se disponere, quam quod non
+            habeat remorsum conscientiae : ergo, si per hoc non est iustificatus, et qui accedit non
+            iustificatus peccat, tunc quilibet sumendo peccat.</p>
+        </div>
+        <div xml:id="bb-d4e10306-Dd1e169">
+          <head xml:id="bb-d4e10306-Hd1e169">Conclusio</head>
+          <head xml:id="bb-d4e10306-Hd1e172" type="question-title">Qui minus sufficienter, scilicet tantum secundum
+            probabilitatem, se praeparat ad sumendam echaristiam non mortaliter peccat</head>
+          <p xml:id="bb-d4e10306-d1e175">Respondeo : Ad praedictorum intelligentiam dicendum quod in hoc sacramento tenetur
+            percipiens se praeparare, quia Deus venit ad habitandum in homine. Praeparatio autem non
+            semper est sufficiens ; sed haec est sufficiens, quando inimicus Domini expellitur de
+            hospitio per veram examinationem et contritionem sive iudicium poenitentiae. Rursus,
+            quia divina Maiestas summa se dignatione humiliat, et divina Bonitas offert gratiam,
+            debet homo cum metu reverentiae et cum dilectione accedere ad hoc quod digne manducet.
+            Digne igitur manducare est sufficienter se praeparare, scilicet peccati omnis
+            expulsione, reverentia et dilectione.</p>
+          <p xml:id="bb-d4e10306-d1e178">Quidam igitur sunt qui se sufficienter praeparant secundum veritatem ; quidam autem non
+            sufficienter secundum veritatem, sufficienter tamen secundum probabilitatem ; quidam
+            autem neutro modo se praeparant, immo contemnunt. Qui ergo sufficienter se praeparat
+            manducat digne ; qui se nullo modo parat manducat indigne ; qui autem minus sufficienter
+            se parat, scilicet secundum probabilitatem potius quam secundum veritatem, non manducat
+            digne, quia non se praeparavit sufficienter ; nec indigne, quia se praeparat
+            probabiliter ; talis, quamvis non recipiat gratiam, non tamen incurrit offensam.</p>
+        </div>
+        <div xml:id="bb-d4e10306-Dd1e185">
+          <head xml:id="bb-d4e10306-Hd1e185">Ad rationes</head>
+          <p xml:id="bb-d4e10306-d1e188">Et sic patet illud quod obicit de digne et indigne sumente, quia est ibi medium,
+            quamvis non sit medium inter dignum et indignum.</p>
+          <p xml:id="bb-d4e10306-d1e191">2-3. Ad illud quod obicitur de praeparatione, dicendum quod nullus tenetur ad hoc
+            sufficienter praeparare se, quia nullus potest scire utrum hoc faciat ; sed quod se
+            praeparet secundum sufficiens dictamen conscientiae, et in hoc contentus debet esse
+            probabilitate.</p>
+          <p xml:id="bb-d4e10306-d1e194">Ad illud quod obicitur de indevoto, dicendum quod indevotus ibi dicitur contrarie, qui
+            accedit cum peccandi proposito, sicut ibi patet in Glossa.</p>
+          <p xml:id="bb-d4e10306-d1e197">5-6. Ad illud quod obicitur de eo qui habet conscientiam peccati, dicendum quod non
+            dicitur quis peccare quia recognoscit peccatum suum, sed qui cognoscit peccatum et de
+            illo non poenitet et cum illo accedit ; hoc autem non potest esse sine contemptu ; secus
+            est, quando ignorat. Similiter patet sequens, quod ignorans minus est dispositus,
+            ceteris paribus ; sed ignorans proponens poenitere et volens sciente, qui vult in culpa
+            persistere, non minus, sed magis est dispositus ; unde ignorantia peccati non excusat
+            ratione ignorantiae, sed ratione probabilitatis, quod sit in gratia.</p>
+          <p xml:id="bb-d4e10306-d1e201">Ad ultimum dicendum quod iustus ex tali conscientia reddit se magis inhabilem, non
+            propter culpam, sed propter conscientiam erroneam, quae quidem, quamdiu persistit,
+            obligat ut non recipiat, propter hoc quod non potest cum hac conscientia recipere quin
+            contemnat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

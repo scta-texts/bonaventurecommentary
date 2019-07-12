@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e50948">
+        <head xml:id="bb-d4e50948-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e50948-Hd1e111" type="question-title">Utrum gloria corporis sit de substantia beatitudinis.</head>
+        <p xml:id="bb-d4e50948-d1e114">Quantum ergo ad primum proceditur sic, et ostenditur quod gloria corporis sit de
+          beatitudinis substantia sive augmentet gloriam animae :</p>
+        <div xml:id="bb-d4e50948-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e50948-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e50948-d1e122">Et primo per auctoritatem Magistri in littera : <quote xml:id="bb-d4e50948-Qd1e124" source="http://scta.info/resource/pl-l4d49c4-d1e118">Sine scrupulo, inquit, credendum
+              est eos habituros maiorem gloriam post iudicium quam ante, quia maius erit gaudium et
+              amplior cognitio</quote>. Sed ista respiciunt essentiam beatitudinis : ergo etc.</p>
+          <p xml:id="bb-d4e50948-d1e128">Item, <name ref="#Bernard">Bernardus</name>, De diligendo Deo : <quote xml:id="bb-d4e50948-Qd1e133">Anima exuta tam
+              en corpori est coniuncta, etsi non vita vel sensu, tamen affectu, ut sine eo nec
+              possit nec valeat consummari</quote>.</p>
+          <p xml:id="bb-d4e50948-d1e137">Item, <ref xml:id="bb-d4e50948-Rd1e139">Augustinus, XII Super Genesim</ref>, de anima exuta dicit : <quote xml:id="bb-d4e50948-Qd1e142">Inest ei
+              quidam naturalis appetitus administrandi corpus, quo retardatur ne tota intentione
+              feratur in illud summum caelum</quote>. Ergo, si quantitas praemii substantialis
+            consistit in adhaerentia et fruitione illius summi caeli, patet etc.</p>
+          <p xml:id="bb-d4e50948-d1e146">Item, perfecta beatitudo est quies omnium desideriorum : si ergo anima appetit
+            naturaliter corpori uniri, et iste appetitus, cum sit naturalis, non possit terminari
+            nisi per unionem, impossibile est animam perfecte beatificari, quousque resumat
+            corpus.</p>
+          <p xml:id="bb-d4e50948-d1e150">Contra : Anima gaudet nunc de Deo, post iudicium vero non tantum gaudebit de Deo, sed
+            etiam de bonis corporis ; sed Deus est bonum infinitum, bonum corporis est bonum finitum
+            ; sed finitum additum super infinitum nihil auget : ergo bonum corporis non auget
+            praemium : ergo etc.</p>
+          <p xml:id="bb-d4e50948-d1e153">Item, tanta gratia est in anima exuta, quantae gratiae capax est cum est coniuncta :
+            ergo similiter videtur de gloria.</p>
+          <p xml:id="bb-d4e50948-d1e156">Item, cum Deus se offerat modo animae in aperta visione sicut post iudicium, quare non
+            est ita modo perfecta gloria sicut post iudicium ? Si dicas quod propter appetitum
+            administrandi corpus, contra : <name ref="#Bernard">Bernardus</name>, De diligendo Deo,
+            de beatis animabus dicit quod ita inebriantur Deo, ut obliviscantur sui. Ergo, si sui
+            obliviscuntur, multo magis corporis.</p>
+          <p xml:id="bb-d4e50948-d1e162">Item, maiores motus absorbent minores : ergo, cum motus amoris in Deum
+            improportionaliter sit maior quam in corpus, ergo totaliter absorbet illum.</p>
+          <p xml:id="bb-d4e50948-d1e165">Item, appetitus administrandi corpus impedit, ergo multo fortius administratio : si
+            enim amor alicuius potest retrahere a Deo, cum est absens, multo fortius cum est
+            praesens.</p>
+          <p xml:id="bb-d4e50948-d1e168">Item, corpus nunquam fiet Spiritus, quamvis fiat spirituale : ergo liberior est
+            spiritus a corpore absolutus quam alligatus : ergo melius dispositus ad suscipiendam
+            beatitudinem perfectam.</p>
+        </div>
+        <div xml:id="bb-d4e50948-Dd1e172">
+          <head xml:id="bb-d4e50948-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e50948-Hd1e177" type="question-title">Glorificatio corporis facit ad maius gaudium quoad extensionem
+            et etiam quoad intensionem, quatenus removetur impedimentum, quain tamen augeatur
+            habitus</head>
+          <p xml:id="bb-d4e50948-d1e180">Respondeo : Dicendum quod beatitudo dicitur gaudium per essentiam ; gaudium autem
+            potest dici maius quadrupliciter : aut quia de maiori obiecto, aut quia ex maiori
+            habitu, aut quia de pluribus, aut quia ex eodem habitu intensius. Primo modo maius
+            gaudium, quia de maiori, non reperitur nec respectu eiusdem nec respectu diversorum,
+            quia quilibet gaudet de bono infinito. Secundo modo maius invenitur respectu diversorum,
+            quia maiori habitu gaudet Petrus quam Linus ; sed non reperitur respectu eiusdem quantum
+            ad diversa tempora, quia non habebit maiorem habitum Petrus post iudicium quam habet
+            nunc. Tertio modo maius, quia latius et de pluribus, reperitur in eodem secundum diversa
+            tempora, quia Petrus de pluribus gaudebit post iudicium quam nunc, quia de gloria animae
+            et corporis et de gloria omnium salvatorum. Sed non est maius hoc modo respectu
+            diversorum, quia de tot et eisdem gaudebit unus Sanctus parvus sicut et maximus Sanctus.
+            Quarto modo maius, quia intensius, reperitur et respectu eiusdem et respectu diversorum
+            : respectu diversorum, quia unus intensius movetur quam alter ; respectu eiusdem, quia
+            ex eodem habitu intensius movebitur anima, resumpto corpore, quia nullum habebit
+            retardans.</p>
+          <p xml:id="bb-d4e50948-d1e183">Concedendum est igitur quod glorificatio corporis facit ad maius gaudium quantum ad
+            extensionem ; facit etiam quantum ad intensionem, non augendo habitum, sed removendo
+            impedimentum. Unde non facit ad augmentum praemii essentialis principaliter, sed ex
+            consequenti. Et concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e50948-Dd1e188">
+          <head xml:id="bb-d4e50948-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e50948-d1e193">1-2. Ad illud quod obicitur in contrarium, quod non gaudet de maiori, dicendum quod
+            ratio tenet bene, sed quantum ad hoc non dicitur maior, sed de eodem intensius.
+            Similiter, quod secundo obicit de gratia, patet, quoniam ipsa gratia dicit habitum, et
+            idem etiam habitus gloriae est in anima exuta et postquam est unita ; sed per illum non
+            ita intense movetur, et hoc retardante appetitu.</p>
+          <p xml:id="bb-d4e50948-d1e196">Ad illud quod obicitur, quod obliviscitur sui, dicendum quod hoc non intelligitur quin
+            amet se, sed quod omnis amor privatus, qui non referatur in Deum, ab anima auferetur ;
+            et certe anima non appetit corpus amore privato, sed ad gloriam Dei. Vel dicendum quod
+              <name>Bernardus</name> loquitur de Beatis post resumptionem secundae stolae.</p>
+          <p xml:id="bb-d4e50948-d1e202">Ad illud quod obicitur, quod maiores motus absorbent minores, dicendum quod verum est
+            quod absorbent, sed non ita ut non sint, sed ut non ita intense appareant ; sunt tamen
+            et apparent aliquo modo ; et ideo, quamvis parum, tamen aliquo modo minuunt motus
+            minores ipsos maiores, licet vincantur.</p>
+          <p xml:id="bb-d4e50948-d1e205">Ad illud quod obicitur, quod si appetitus impedit, magis praesentia, dicendum quod
+            appetitus duo dicit, scilicet amorem alicuius rei et carentiam illius. Quando igitur
+            impedit ; aut ratiorie amoris aut carentiae. Si ratione amoris, tunc magis impedit res
+            praesens ; si ratione carentiae, tunc non impedit, cum carentia per praesentiam
+            removetur.</p>
+          <p xml:id="bb-d4e50948-d1e209">Ad illud quod obicitur, quod spiritus absolutus est liberior, dicendum quod est
+            spiritus a corpore absolutus substantia et affectu, et iste est liberrimus. Et est
+            spiritus alligatus affectu et solutus substantia, et iste non est liber, quia aliquid
+            vult quod non habet. Et est spiritus alligatus substantia et affectu, et tunc aut corpus
+            est inobediens, et talis non est liber, quia non potest quod vult ; aut per omnia
+            obediens, et talis est liber libertate sibi conveniente, quia nihil vult nisi quod
+            potest, et habet omne quod vult.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

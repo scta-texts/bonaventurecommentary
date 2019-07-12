@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e11208">
+        <head xml:id="bb-d4e11208-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e11208-Hd1e111" type="question-title">Utrum aequalis vel maioris virtutis sit panem in corpus Christi
+          convertere, quantae est aliquid de novo creare.</head>
+        <p xml:id="bb-d4e11208-d1e114">Quantum ergo ad primum quaeritur, utrum aequalis virtutis vel maioris sit panem in corpus
+          Christi convertere, quantae est aliquid de novo creare.</p>
+        <div xml:id="bb-d4e11208-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e11208-d1e119">Et quod non sit aequalis virtutis, videtur : Per verbum <name ref="#Ambrose">Ambrosii</name>, quoniam <name ref="#Ambrose">Ambrosius</name> arguit sic : <quote xml:id="bb-d4e11208-Qd1e127">Si
+              sermo Christi potuit facere quod non erat, non potest ea quae sunt in id mutare quod
+              non erant</quote> ? quasi dicat : potest. Sed ista ratio nihil valeret nisi illud
+            esset maioris potentiae : ergo potentia creandi est maioris potentiae quam
+            transsubstantiandi.</p>
+          <p xml:id="bb-d4e11208-d1e131">Item, ratione videtur, quia ubi est maior distantia, ibi maior virtus reducens ; sed
+            inter ens et non-ens est maior distantia quam inter ens et ens : ergo maior est virtus
+            in creatione in qua de non-ente fit ens.</p>
+          <p xml:id="bb-d4e11208-d1e134">Item, maior est virtus quae agit paucioribus mediis et auxiliis ; sed virtus quae
+            producit ex nihilo sibi sola sufficit, quae vero ex aliquo, aliam rationem praesupponit
+            ; ergo etc.</p>
+          <p xml:id="bb-d4e11208-d1e137">Contra : <quote xml:id="bb-d4e11208-Qd1e139">Maius est de impio facere pium quam creare caelum et terram</quote> ;
+            sed transsubstantiatio panis in corpus Christi multo maior est quam impium iustificare ;
+            ergo illud maioris virtutis est quam creare.</p>
+          <p xml:id="bb-d4e11208-d1e143">Item, illud est impossibilius quod mens bene disposita difficilius iudicat ; sed omnis
+            mens facilius credit aliquid de novo fieri quam aliquid in aliud transmutari sine illius
+            augmenta et aliqua mutatione : ergo illud difficilius.</p>
+          <p xml:id="bb-d4e11208-d1e147">Item, ubicumque est finita distantia inter extrema, aliquid manet commune ; sed in
+            transsubstantiatione nihil commune manet : ergo inter extrema est distantia infinita ;
+            et si hoc, transsubstantiatio talis est a virtute infinita, et sic non est maioris
+            potentiae illud quam istud.</p>
+          <p xml:id="bb-d4e11208-d1e150">Item, maioris potentiae est facere quod unum sit in pluribus locis quam quod unum sit ;
+            sed haec virtus, quae facit corpus Christi esse in altari, facit ipsum in pluribus locis
+            esse : ergo istud est maioris virtutis.</p>
+        </div>
+        <div xml:id="bb-d4e11208-Dd1e154">
+          <head xml:id="bb-d4e11208-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e11208-Hd1e159" type="question-title">Maius est quoad effectum creare quam tanssubstantiare; sed
+            quatenus corpus Christi superexcedit omnem creaturam, prout est cum anima et Divinitate,
+            effectus transubstantionis excellit omnem rei alterius creationem</head>
+          <p xml:id="bb-d4e11208-d1e162">Respondeo : Dicendum quod, si loquamur de virtute creante et transsubstantiante, quae
+            maior sit quantum ad se, non est differentia, quia una est, nec intensa nec remissa. Si
+            autem quantum ad effectum, quis sit indicativus maioris potentiae, sive magis
+            declarativus potentiae divinae, dicendum quod in qualibet harum operationum est
+            considerare principium initiale, distantiam mediam et terminum finalem. Quantum ad
+            principium initiale maioris virtutis est attestativum creare quam transsubstantiare,
+            quia ibi ex nihilo, hic operatur in aliquid. Quantum vero ad distantiam mediam est
+            aequalis virtutis, quia utrobique nihil commune reperitur nec manet secundum genus
+            subiectum, licet secundum genus praedicabile in altero. Quantum vero ad terminum
+            finalem, quia ibi in creatione fit ut quod non erat sit, in transsubstantiatione fit ut
+            quod erat alicubi sine sui mutatione sit alibi, illud quidem est maius, sed hoc rarius ;
+            et illud maius est, sed istud maius videtur. Quantum ergo ad terminum finalem maius est
+            creare, sed maius videtur transsubstantiare.</p>
+          <p xml:id="bb-d4e11208-d1e165">Rationes igitur primae verae sunt, quia maior effectus est creare et quantum ad
+            terminum finalem et quantum ad principium initiale. In hoc tamen quod corpus Christi
+            superexcellit omnem creaturam prout est cum anima et Divinitate ; et transsubstantiatio
+            facit ut illud corpus sit in altari, non de alio : ideo excellit omnem alterius rei
+            creationem, non tamen sui formationem, sicut videbitur.</p>
+        </div>
+        <div xml:id="bb-d4e11208-Dd1e170">
+          <head xml:id="bb-d4e11208-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e11208-d1e175">Ad illud quod obicitur, quod maius est de impio facere pium etc., dicendum quod illud
+            dicitur maius, salvo libero arbitrio, quia hic ex parte liberi arbitrii est resistentia,
+            ibi nulla ; non sic in proposito.</p>
+          <p xml:id="bb-d4e11208-d1e178">Ad illud quod obicitur de iudicio mentis dispositae, dicendum quod faciliora iudicat
+            usitatiora et quae magis apparent, quamvis maiora sint ; unde non valet.</p>
+          <p xml:id="bb-d4e11208-d1e181">Ad illud quod obicitur de distantia, dicendum quod hoc concedendum est quantum ad hoc
+            quod nihil commune remanet, sed non quantum ad distantiam in ratione generis
+            praedicabilis.</p>
+          <p xml:id="bb-d4e11208-d1e184">Ad illud quod obicitur, quod maius est facere quod in pluribus locis etc., dicendum
+            quod, cum aliquid non-ens fit, aut est in potentia ut sit aut nullo modo. Si aliquo modo
+            est. in potentia ut sit, tunc bene concedendum est quod maius est facere quod in
+            pluribus locis sit quam quod sit, quia est in potentia ad esse, non ad plura loca simul.
+            Sed quando nullo modo est in potentia ut sit et congruitatem hahet ad hoc ut in pluribus
+            locis sit, primum est maius ; et sic in proposito, quia illud quod creatur nullam habet
+            potentiam nec ordinationem ad hoc ut sit. Sed corpus Christi iam conditum et perfectum
+            idoneitatem habet ad hoc ut sit in pluribus locis sub Sacramento.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

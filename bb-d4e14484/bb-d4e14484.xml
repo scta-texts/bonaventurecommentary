@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e14484">
+        <head xml:id="bb-d4e14484-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e14484-Hd1e111" type="question-title">Quae sit efficacia huius Sacramenti.</head>
+        <p xml:id="bb-d4e14484-d1e114">Tertio quaeritur, quae sit efficacia huius sacramenti. Et dicit <name ref="#Lombard">Magister</name> quod est venialium remissio et augmentatio virtutum.</p>
+        <div xml:id="bb-d4e14484-Dd1e120" type="rationes-principales">
+          <head xml:id="bb-d4e14484-Hd1e122">Rationes principales</head>
+          <p xml:id="bb-d4e14484-d1e125">Et quod ita sit, videtur : Innocentius : <quote xml:id="bb-d4e14484-Qd1e127" source="http://scta.info/resource/hy7y7y-d1e1905">Eucharistia liberat a malo et
+              conservat in bono, delet venialia et cavet mortalia</quote>. <quote xml:id="bb-d4e14484-Qd1e130" source="http://scta.info/resource/hy7y7y-d1e1905">Huius etiam virtute Sacramenti
+              universae virtutes augentur et omnium gratiarum fructus exuberant</quote>.</p>
+          <p xml:id="bb-d4e14484-d1e134">Item, ratione videtur, quia hoc dicitur esse sacramentum unionis ; aut ergo quia de
+            novo unit aut quia magis unit. Non quia de novo unit, ergo quia magis unit ; sed si
+            magis unit, ergo auget virtutes.</p>
+          <p xml:id="bb-d4e14484-d1e137">Item, si magis unit, ergo repugnat ei quod minus ; sed hoc est veniale, quia <name ref="#Augustine">Augustinus</name> : Minus te amat qui tecum aliquid amat, et hoc
+            dicitur de veniali : ergo etc.</p>
+          <p xml:id="bb-d4e14484-d1e143">Item, caro Christi est sicut carbo ignitus ; sed carbonis igniti est pellere frigus et
+            intendere calorem : ergo hoc sacramentum reprimit mo1us frigidos culpae et intendit
+            motus vivos gratiae : ergo delet et auget.</p>
+          <p xml:id="bb-d4e14484-d1e147">5. Item, hoc sacramentum quotidie offertur. Ergo, si non frustra est, dat ergo aliquid
+            quo quotidie indigemus ; sed illud quo quotidie indigemus est liberatio a veniali malo
+            et profectus in bono, quia caritas aut deficit aut proficit : ergo etc.</p>
+          <p xml:id="bb-d4e14484-d1e150">Contra : Unius sacramenti unus debet esse effectus praecipuus : ergo non est ad hos
+            duos effectus praedictos.</p>
+          <p xml:id="bb-d4e14484-d1e153">Item, quod non sit ad remissionem venialium, ostenditur: Primo, quia qui accedit ad hoc
+            sacramentum, aut accedit contritus aut non. Si contitus, ergo remissa est sibi culpa ;
+            si non contritus, ergo remanet culpa : ergo nullum habet Eucharistia effectum super
+            venialia. Si dicas quod contritio non semper sufficit, esto quod tanta sit quod
+            sufficiat, tunc non habebit hoc Sacramentum effectum, et tamen melius est
+            dispositus.</p>
+          <p xml:id="bb-d4e14484-d1e156">Item, si effectus huius Sacramenti est deletio venialium : ergo qui peccat venialiter
+            irritat effectum eius, sicut qui peccat mortaliter irritat effectum Baptismi ; sed homo
+            habet necesse peccare venialiter, ergo et hoc sacramentum irritare : ergo nunquam accipi
+            debet, quia nunquam debet quis contumeliam huic sacramento inferre.</p>
+          <p xml:id="bb-d4e14484-d1e159">Item, quod augmentum virtutum non sit effectus huius Sacramenti, videtur : Quia, si
+            hoc, tunc ergo valde cito fieret aliquis perfectus qui hoc sacramentum quotidie recipit
+            ; sed hoc videmus esse falsum : ergo etc.</p>
+          <p xml:id="bb-d4e14484-d1e162">Item, augmentum virtutum est effectus Baptismi et Confirmationis, sicut supra diit
+              <name ref="#Lombard">Magister</name>, et similiter remissio venialium : non ergo huius
+            sacramenti.</p>
+        </div>
+        <div xml:id="bb-d4e14484-Dd1e169">
+          <head xml:id="bb-d4e14484-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e14484-Hd1e174" type="question-title">Efficacia huius Sacramenti est unitos magis unire triplici
+            modo.</head>
+          <p xml:id="bb-d4e14484-d1e177">Respondeo : Dicendum quod, cum hoc sacramentum sit unionis, effectus eius primus aut
+            est unire aut magis unire ; sed non de novo unire, ut supra ostensum est, sed iam unitos
+            magis unire. Magis autem unire est tripliciter : aut quia quis unitur maiori vinculo, ut
+            ille magis unitur qui maiorem habet caritatem ; aut quia eodem vinculo unitur strictius,
+            ut ille qui secundum eumdem habitum ferventius amat ; aut quia eodem firmius, ut ille
+            qui in eodem habitu est magis radicatus.</p>
+          <p xml:id="bb-d4e14484-d1e180">Dicitur ergo hoc. sacramentum magis unire, quia digne accedentem reddit ferventiorem,
+            ut carbo ignitus ; et iterum, reddit fortiorem, ut bonus cibus. Et ex hoc quod reddit
+            caritatem magis ignitam, adiuvat ad consumendam peccati venialis rubiginem ; ex hoc quod
+            magis firmat, adiuvat ad vitandum omnia scelera ; et ratione utriusque valet ad
+            augmentum virtutum, et maxime caritatis, quae est vinculum, non quantum ad essentiam,
+            sed quantum ad fervorem vel radicationem. Fervor enim minuitur quotidie per venialia et
+            radicatio ; ideo oportet per hune cibum restaurari deperditum. Ex his patent obiecta.
+            Nam rationes ad primam partem sunt concedendae.</p>
+        </div>
+        <div xml:id="bb-d4e14484-Dd1e185">
+          <head xml:id="bb-d4e14484-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-d4e14484-d1e190">Quod vero obicit, quod unius sacramenti unus est effectus, dicendum quod verum est,
+            primus ; et ille est magis unire, et per ilium habet hos duos consequentes.</p>
+          <p xml:id="bb-d4e14484-d1e193">Ad illud vero quod obicitur, quod venialia delentur in contritione, dicendum quod iste
+            non est effectus primus, sed ex consequenti fit, quando homo indiget ; ut puta quando
+            fervor caritatis per se non est ita intensus quod peccata venialia deleat, adiungitur
+            carbo divinus per quem vigoratur, et vigorata delet venialia ; nihilominus tamen, si non
+            habet venialia, caritatis fervor vigoratur.</p>
+          <p xml:id="bb-d4e14484-d1e196">Ad aliud dicendum quod non irritatur huius sacramenti effectus per aliquod veniale,
+            quia veniale non tollit gratiam sicut mortale tollit ; et posssibile est unum veniale
+            remitti, altero non remisso. Unde veniale nec irritat antecedenter faciendo fictum nec
+            consequenter evacuando fructum ; nec oportet alia venialia deleri, sed secundum quod
+            homo melius se disponit et caritas contra illa vigoratur ; unde plus et minus in
+            diversis.</p>
+          <p xml:id="bb-d4e14484-d1e199">Ad illud quod obicitur de augmento, dicendum quod augmentum intelligitur quantum ad
+            fervorem, non quantum ad essentiam. Et quantum ad fervorem non omnes ita procedunt
+            propter multa venialia quae committunt, quae illum diminuunt.</p>
+          <p xml:id="bb-d4e14484-d1e203">Ultimum manifestum est, quia neuter horum est primus et proprius effectus huius
+            sacramenti, sed magis unire, ut visum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

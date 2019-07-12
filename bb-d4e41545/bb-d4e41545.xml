@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41545">
+        <head xml:id="bb-d4e41545-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e41545-Hd1e111" type="question-title">Utrum Matrimonium possit contrahi inter fidelem et
+          infidelem.</head>
+        <p xml:id="bb-d4e41545-d1e114">Quantum ergo ad primum sic proceditur, et ostenditur quod Matrimqnium possit contrahi
+          inter fidelem et infidelem.</p>
+        <div xml:id="bb-d4e41545-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e41545-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e41545-d1e122">Et primo exemplo, quoniam Ioseph contraxit cum muliere Aegyptiaca nec reprehenditur,
+            sicut dicitur Genesis 41, 45 ; similiter Moyses cum Aethiopissa, sicut innuitur <ref xml:id="bb-d4e41545-Rd1e124" ana="#num12_1">Numerorum 12, 1</ref>, nec ipse reprehenditur.</p>
+          <p xml:id="bb-d4e41545-d1e128">Item , hoc videtur auctoritate, Deuteronomii 21, 10 : <quote xml:id="bb-d4e41545-Qd1e130" ana="#deut21_10">Si
+              egressus ad pugnam videris mulierem pulcram in medio captivorum et adamaveris eam,
+              intrabis ad eam dormiesque cum ea, et erit uxor tua</quote>. Constat quod de
+            infidelibus loquitur.</p>
+          <p xml:id="bb-d4e41545-d1e134">Item, I ad Corinthios 7, 14 : <quote xml:id="bb-d4e41545-Qd1e136" ana="#Icor7_14">Sanctificatur mulier infidelis per
+              virum fidelem</quote>, et e converso. Ergo inter fideles et infideles est coniugium
+            sanctum : ergo et licitum.</p>
+          <p xml:id="bb-d4e41545-d1e140">Item, ratione videtur, quia diversitas sive disparitas morum non impedit Matrimonium
+            contrahendum. Ergo pari ratione nec diversitas fidei sive cultus divini Matrimonium
+            impedit.</p>
+          <p xml:id="bb-d4e41545-d1e144">Item, Matrimonium est sacramentum commune fidelibus et infidelibus. Ergo, si ad omnes
+            se extendit, disparitas sive talis repugnantia ipsum non tollit.</p>
+          <p xml:id="bb-d4e41545-d1e147">Item, omne impedimentum Matimonii impedit, pro eo quod obsistit alicui bono Matrimonii
+            ; sed cultus disparitas nec nocet bono prolis, quia potest educari ad cultum Dei, nec
+            fidei nec Sacramenti : ergo nullo modo impedit.</p>
+          <p xml:id="bb-d4e41545-d1e150">Contra : Probatur exemplo : I Esdrae ultimo, 10 dicitur quod Esdras separavit viros ab
+            uxoribus alienigenis. Ergo non erat inter eos Matrimonium.</p>
+          <p xml:id="bb-d4e41545-d1e153">Item, auctoritate Legis, Deuteronomii 7, 3 : <quote xml:id="bb-d4e41545-Qd1e155" ana="#deut7_3">Non sociabis cum eis
+              connubia</quote> ; loquitur de infidelibus et alienigenis.</p>
+          <p xml:id="bb-d4e41545-d1e159">Item, <name ref="#Ambrose">Ambrosius</name>, in libro De Patriarchis : <quote xml:id="bb-d4e41545-Qd1e164">Cave,
+              christiane, gentili vel Iudaeo filiam tuam dare</quote>.</p>
+          <p xml:id="bb-d4e41545-d1e168">4. Item, potissima distantia est inter fideles et infideles, sicut Christi ad Belial et
+            lucis ad tenebras. Si ergo in Matrimonio magna est unio, nullum potest esse inter eos
+            Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e41545-Dd1e172">
+          <head xml:id="bb-d4e41545-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e41545-Hd1e177" type="question-title">Disparitas, quae est in fide, solummodo impedit matrimonium,
+            sed ea quae est in fide Sacramento sive baptismo, dirimit illud</head>
+          <p xml:id="bb-d4e41545-d1e180">Respondeo : Dicendum quod in Veteri Testamento distinguendum erat inter infideles, quia
+            quaedam mulieres erant infideles et erant de terra Chanaan, quam Dominus promiserat
+            filiis Israel - propter illius gentis obstinationem in infidelitate mandaverat eas
+            occidendas - et de talibus prohibitum erat. Unde si quis de populo Israel cum illis
+            contraheret, cum esset contra Domini praeceptum, non erat Matrimonium. Quaedam erant
+            infideles de aliis nationibus ; et de talibus non erat prohibitum, sed permissum et
+            concessum, ubi non timebatur lapsus in idololatriam, sicut in Ioseph et Moyse.</p>
+          <p xml:id="bb-d4e41545-d1e183">Ratio autem quare prohibuit gentes illas et non alias, fuit duplex : una, quia
+            iudicaverat omnes reos mortis ; alia, quia obstinatae erant in malo.</p>
+          <p xml:id="bb-d4e41545-d1e186">In Novo Testamento alio modo est, quia infidelis est dupliciter : aut quia caret fide
+            aut quia caret fidei sacramento. Si quia fide tantum, sic talis disparitas, ubi nota
+            est, impedit Matrimonium, sed non dirimit iam contractum, ut si catholicus contrahat cum
+            haeretica baptizata. Si autem sit infidelis, quia caret fidei sacramento, utputa
+            Baptismo, quia sacramentorum ecclesiasticorum et fidelium ianua et fundamentum est
+            Baptismus, fidelis, qui contrahere habet secundum sacramenta Ecclesiae, si cum tali
+            contrahat, nihil facit, etiam si sit fidelis, dum tamen non habeat Baptismum ; unde
+            dirimit iam contractum.</p>
+          <p xml:id="bb-d4e41545-d1e190">Cultus ergo disparitas praestabat impedimentum in Lege Veteri, non simpliciter, sed ubi
+            metuebatur periculum et divinum aderat iudicium et super hoc additum erat mandatum. Sic
+            et in Nova impedit, non simpliciter sive de se, sed ob vitationem periculi et
+            diversitatem sacramenti Baptismi et inhibitionem ecclesiastici statuti, quae ortum habet
+            a duobus praedictis.</p>
+        </div>
+        <div xml:id="bb-d4e41545-Dd1e195">
+          <head xml:id="bb-d4e41545-Hd1e197">Ad rationes</head>
+          <p xml:id="bb-d4e41545-d1e200">1-2. Et sic patent duo prima obiecta.</p>
+          <p xml:id="bb-d4e41545-d1e203">3 : Ad illud autem quod obicitur, quod sanctificatur mulier, dicendum quod loquitur
+            Apostolus de Matrimonio contracto ante cultus disparitatem, quod dicit manere, quia
+            fides viri plerumque salvat occasionaliter sive sanctificat mulierem sicut fides
+            parturit filios.</p>
+          <p xml:id="bb-d4e41545-d1e206">Ad illud quod obicitur de disparitate morum etc., dicendum quod non est simile, quia
+            disparitas fidei facit disparitatem sacramentorum, non sic disparitas morum, quia boni
+            et mali conveniunt in sacramentis. Non tamen disparitas fidei semper facit disparitatem
+            in sacramentis, sed eatenus qua facit, impedit. Praeterea periculosior est.</p>
+          <p xml:id="bb-d4e41545-d1e209">Ad illud quod obicitur, quod est commune utrisque, dicendum quod eatenus est commune
+            qua est legis naturae, sed non in quantum Ecclesiae ; et quia, si fidelis contrahit,
+            sacramentum eius iam est Ecclesiae : ideo in hoc non communicat cum infideli, immo
+            multum distat.</p>
+          <p xml:id="bb-d4e41545-d1e213">Ad illud quod obicitur, quod non est contra aliquod bonum Matrimonii, dicendum quod
+            falsum est, immo est contra bonum prolis, quia alter coniugum de facili potest impedire
+            ne proles Domino dedicetur ; est etiam contra bonum fidei propter periculum fidei ; est
+            etiam contra bonum sacramenti, quia ex parte fidelis, Matrimonium natum est esse ratum
+            et insolubile, cum sit fundatum super sacramentum fidei ; ex alia parte est contritum,
+            quia non habet fundamentum. Et sic patet illud.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

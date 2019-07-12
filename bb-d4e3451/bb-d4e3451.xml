@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e3451">
+        <head xml:id="bb-d4e3451-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e3451-Hd1e111" type="question-title">Utrum ex institutione Baptismi aliqua vis sil collata
+          aquis.</head>
+        <p xml:id="bb-d4e3451-d1e114">Secundo quaeritur, utrum ex institutione Baptismi in aqua collata sit aliqua vis
+          aquis.</p>
+        <div xml:id="bb-d4e3451-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e3451-d1e119">Et quod sic, videtur : Lucae 3, 21 : <quote xml:id="bb-d4e3451-Qd1e121" ana="#lc3_21">Baptizato Iesu</quote>,
+            Glossa : <quote xml:id="bb-d4e3451-Qd1e124">Dominus baptizatus est, non mundari indigens, sed tactu mundae carnis
+              suae aquas mundans, ut vim abluendi habeant</quote>. Ergo, si vis abluendi est aliqua
+            vis, patet quod aquis collata est aliqua vis.</p>
+          <p xml:id="bb-d4e3451-d1e128">Item, habetur De consecratione, distinctione IV :<quote xml:id="bb-d4e3451-Qd1e130" source="http://scta.info/resource/gd-p3d4-d1e258">Numquam aquae Baptismi purgare
+              credentium peccata potuissent, nisi contactu Dominici corporis sanctificata
+              fuissent</quote>.</p>
+          <p xml:id="bb-d4e3451-d1e134">Item, ratione videtur, quia omnis operatio egreditur a substantia mediante aliqua
+            virtute. Ergo, cum aqua tangendo corpus abluat animam, hoc est ab aqua virtute aliqua
+            mediante ; sed non naturali : ergo data est aquis aliqua virtus in Baptismi
+            institutione.</p>
+          <p xml:id="bb-d4e3451-d1e137">Contra : Si data est aliqua virtus aquae, quaero quomodo data ; et dicit Glossa quod
+            contactu carnis Domini. Si ergo per contactum carnis Dominicae, ergo habent ipsam, omni
+            alio circumscripto : ergo, si.quis immergeretur in aquam sine, omni verbo, aqua
+            regenerabit eum ; quod falsum est. Si tu dicas quod simul est in aqua et verbo, obicitur
+            tunc, quia haec differunt substantia et natura, ergo operatione et virtute : ergo non
+            potest una virtus esse in utroque. </p>
+          <p xml:id="bb-d4e3451-d1e140">Item, si munda caro Christi contulit illam vim, sed frequenter tetigit aquas, ut quando
+            puer lavabatur et quando lavabat manus ; et ubi eadem causa, ibi idem effectus : ergo
+            ante contulit quam baptizaretur.</p>
+          <p xml:id="bb-d4e3451-d1e144">Item, si contactu carnis, ergo solum illae aquae virtutem habent quas Christi caro
+            tetigit, non ergo omnis aqua. Si dicas quod virtus illa derivata est in alias aquas ;
+            ergo, cum derivatio a corpore in corpus non fiat nisi per continuum, nullo modo poterit
+            pervenire ad aquas illis aquis discontinuas : ergo idem inconveniens.</p>
+          <p xml:id="bb-d4e3451-d1e147">Item, si virtus aliqua collata est, quaero quid sit : quia, si bonum, aut de bonis
+            minimis aut maximis aut mediis. Si de minimis, illud est inferius anima, ergo non agit
+            in ipsam. Si de mediis, ergo par est animae nec adhuc influit. Si de maximis, ergo est
+            data aquis virtus aliqua gratuita.</p>
+        </div>
+        <div xml:id="bb-d4e3451-Dd1e151">
+          <head xml:id="bb-d4e3451-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e3451-Hd1e156" type="question-title">Probabilis et intelligibilior est opinio, quod aquae
+            baptismali non aliqua proprietas absoluta addita sit, sed tantum ordinatio ad hominem
+            regenderandum</head>
+          <p xml:id="bb-d4e3451-d1e159">Respondeo : Dicunt aliqui quod Dominus contactu mundissimae carnis suae vim contulit
+            aquis, quam non habebant ; et vis ista fuit aliqua proprietas absoluta ; et haec
+            proprietas fuit aquae melioratio et reductio ad statum primum, in quo erat ante hominis
+            lapsum, quia post lapsum omnia elementa sunt deteriorata, ut habitatio congrueret
+            habitatori deteriorato. Sed quia. homo per aquae sacramentum meliorari debebat et
+            resurgere, ideo aqua meliorata.et ad primum statum reducta est ; et hanc vocant illam
+            vim. Sed ista positio non potest stare. Primo, quia haec vis dicitur vis ad regenerandum
+            ; sed hanc non habebat aqua in statu innocentiae, quia non erat opus regeneratione ;
+            unde illa melioratio nihil facit ad rem. Praeterea, si aqua est meliorata, et non alia
+            elementa, ergo videtur quod ordinatio elementorum sit dissipata, cum necesse sit quod
+            habeant debitam proportionem.</p>
+          <p xml:id="bb-d4e3451-d1e162">Et propterea dicunt alii quod collatio vis regenerativae non est aquae melioratio vel
+            purificatio, sed alicuius virtutis supernaturalis collatio, quae non est data aquae
+            secundum esse perfectum, quoadusque veniat verbum, sicut vis immutandi visum non est in
+            colore perfecta nisi superveniente lumine ; et haec supra naturam data est et supra
+            naturam ibi existit, ut effectum habeat supra naturam per voluntatem divinam.</p>
+          <p xml:id="bb-d4e3451-d1e165">Sed quoniam illud difficile est intelligere quomodo aliquid absolutum, sive secundum
+            naturam sive supra naturam, sit modo in aqua, quod non. erat prius ; et quomodo datum
+            sit contactu carnis etiam aquis remotis : propterea dicendum, sicut tactum fuit supra,
+            quod vis illa non est aliqua : proprietas vel essentia absoluta addita aquae, sed solum
+            ordinatio eius ad hoc quod homo regeneretur. Prius enim omnes liquores erant
+            indifferentes, et poterat, quantum est de se, in aliquo alio liquore baptizari ut in
+            aqua ; sed, cum Dominus voluit mergi et baptizatus est in aqua, iam sola aqua habuit
+            ordinationem ad hoc : et ideo solum in ea potuit fieri Baptismus. Sed quia non instituit
+            Baptismum fieri tantum per immersionem, immo etiam per verborum prolationem et talium
+            verborum, similiter et verba ad hoc ordinavit. Unde et aqua, in quam mersus est, et
+            verba, quae protulit, ulterius habent vim, nec unum sine altero, quia utrumque insimul
+            ad regenerationem obtinendam ordinavit.</p>
+        </div>
+        <div xml:id="bb-d4e3451-Dd1e170">
+          <head xml:id="bb-d4e3451-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e3451-d1e175">Et sic patent obiecta ad utramque partem, quia prima procedunt de vi ut est ordinatio
+            ad regenerationem ; secunda autem de vi quae est qualitas absoluta. Haec autem vis. non
+            est per transf usionem, sed per institutionem. Unde sicut Dominus non tantum verba quae
+            protulit ordinavit et instituit ad regenerandum, sed etiam omnia consimilia, sic non
+            tantum aquam, quam tetigit, sed omnem aquam specie consimilem est autem omnis aqua omni
+            aquae specie consimilis, et ideo omni aquae contulit. Et est simile : si rex ordinaret
+            quod litterae suae tantum haberent virtutem et efficaciam, quae scriberentur in pellibus
+            caprinis et quae essent scriptae aliquibus determinatis verbis ; et hoc quidem faceret
+            manu sua, scribendo in illo genere pellis : diceretur quod rex illa manu sua efficaciam
+            dedit illi pergameno et omni pergameno eiusdem speciei, etiam quod futurum est usque ad
+            multa tempora ; et hoc per solam institutionem et ordinationem, non per alicuius
+            collationem. Sic intelligendum in proposito, quoniam Dominus tactu carnis mundae dedit
+            vim aquis, non quia munditia transiret a carne in aquam, sed quia, cum Dominus esset
+            mundus, voluit ob nihil aliud in aquam mergi nisi ut illa immersione aqua haberet istam
+            ordinationem. Unde, si aqua crearetur de novo consimilis isti in specie, credo quod
+            eamdem haberet ordinationem et eamdem diceretur habere virtutem.</p>
+          <p xml:id="bb-d4e3451-d1e178">Et si tu obicias mihi : omnis relatio fundatur super aliquid absolutum, eo quod advenit
+            : ergo si haec ordinatio, quae est relatio, advenit, oportuit aliquid absolutum dari,
+            dicendum quod illud non habet veritatem in relationibus voluntariis, quia nummus, ut
+            dicit <name ref="#Augustine">Augustinus</name>, sine sui mutatione fit pignus, et
+            similiter haec vox <mentioned> buba </mentioned> sine sui mutatione posset fieri
+            significativa. Similiter et in proposito intelligendum. Et licet utraque harum opinionum
+            sit catholica et probabilis, haec tamen est magis intelligibilis et consona Sanctorum
+            auctoritatibus. Dicuntur enim aquae mundatae et sanctificatae et virtuosae effectae,
+            quia ad sanctificationem animae et munditiam efficaciter sunt ordinatae, non faciendam
+            ab ipsis, sed suscipiendam et dandam in ipsis a Deo ipsi homini baptizando ; et sic
+            exponenda sunt consimilia. Nec est intelligendum quod aliqua : actio sit ab aquis in
+            animam. Sicut enim aquae non habent proprie virtutem, ita nec operationem ; sed earum
+            virtus et actio est efficax ordinatio vel secundum actum vel secundum habitum. Et sic
+            non habent calumniam quae circa haec dicuntur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

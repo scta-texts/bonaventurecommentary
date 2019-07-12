@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e22921">
+        <head xml:id="bb-d4e22921-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e22921-Hd1e111" type="question-title">Utrum sufficiat confiteri laico.</head>
+        <p xml:id="bb-d4e22921-d1e114">Circa primum quaeritur, utrum sufficiat confiteri laico.</p>
+        <div xml:id="bb-d4e22921-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e22921-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e22921-d1e122">Et quod sic, videtur. Iacobi ultimo, 16 ubi instituitur confessio : <quote xml:id="bb-d4e22921-Qd1e124" ana="#iac5_16">Confitemini alterutrum peccata vestra</quote>. Constat ergo quod
+            loquitur omnibus : igitur illud dictum est omnibus, ergo dictum est et laicis :
+            Confitemini alterutrum.</p>
+          <p xml:id="bb-d4e22921-d1e128">Item, Glossa ibidem dicit : <quote xml:id="bb-d4e22921-Qd1e130">Minora minoribus, maiora maioribus</quote>. Constat
+            autem quod maiora omnia confitenda sunt sacerdotibus : ergo, si minora dicit confitenda
+            minoribus, videtur quod aliis quam sacerdotibus est confitendum.</p>
+          <p xml:id="bb-d4e22921-d1e134">Item, videtur ratione, quia confessio fit homini, non quia homo remittat culpam, sed ut
+            poenitens erubescat ; sed plus erubescit aliquando aliquis de socio laico quam de
+            sacerdote : ergo magis salvatur ibi finis sive utilitas confessionis.</p>
+          <p xml:id="bb-d4e22921-d1e137">Item, confessio ad hoc ordinatur, ut homo ab homine erudiatur et cognoscat peccati
+            plagam ; sed plerumque melius hoc noverunt multi laici quam etiam sacerdotes : ergo
+            etc.</p>
+          <p xml:id="bb-d4e22921-d1e141">Item, confessio est ad multiplicationem adiutorum sive intercessorum ; sed frequentius
+            plus valet oratio laici quam sacerdotis ; ergo utilius est confiteri plerumque
+            laico.</p>
+          <p xml:id="bb-d4e22921-d1e144">Item, confessio est necessitatis, sicut in praecedentibus visum est : ergo, si Deus per
+            sacramenta non arctat viam salutis, videtur quod omnibus dari debuit potestas audiendi
+            confessiones, et e converso confiteri cuilibet.</p>
+          <p xml:id="bb-d4e22921-d1e147">Contra : <ref xml:id="bb-d4e22921-Rd1e149">Augustinus, De poenitentia, distinctione 6</ref>. <quote xml:id="bb-d4e22921-Qd1e152">Qui vult
+              confiteri peccata sua ut inveniat gratiam, quaerat sacerdotem</quote>. Ergo videtur
+            quod confiteri alii non sufficiat.</p>
+          <p xml:id="bb-d4e22921-d1e156">Item, veritas debet respondere figurae ; sed in Lege nullus iudicabatur mundatus a
+            lepra nec recipiebatur in castra per alicuius iudicium, quantumcumque esset sapiens,
+            nisi per iudicium sacerdotis : ergo videtur pari ratione quod nullus possit reconciliare
+            poenitentem Ecclesiae nisi solus sacerdos. Sed confessio ordinatur ad hoc : ergo
+            etc.</p>
+          <p xml:id="bb-d4e22921-d1e159">Item, confessio ordinata est principaliter ad absolutionem ; sed potestas ligandi et
+            solvendi data est principaliter summo Pontifici, scilicet Petro et aliis Apostolis, ergo
+            solis sacerdotibus : ergo ab illis solis potest fieri absolutio : ergo ipsis solis debet
+            fieri confessio.</p>
+          <p xml:id="bb-d4e22921-d1e162">Item, si aliis sufficit confiteri, ergo frustra est concessa potestas absolvendi
+            sacerdotibus : si ergo non frustra concessa est, patet igitur etc.</p>
+        </div>
+        <div xml:id="bb-d4e22921-Dd1e166">
+          <head xml:id="bb-d4e22921-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e22921-Hd1e171" type="question-title">Confessio, prout est opus sacramentale, soli sacerdoti est
+            facienda</head>
+          <p xml:id="bb-d4e22921-d1e174">Respondeo : Dicendum quod est loqui de confessione dupliciter : uno modo, prout est
+            opus virtutis directe repugnans hypocrisi, in quo quis se ipsum accusat, ne alius quam
+            sit appareat, vel etiam mala sua aperit ad morbi investigandam curationem ; et hoc modo
+            confessio cuilibet potest fieri, qui potest adiuvare instruendo vel orando, de quo homo
+            potest erubescere et humiliari, et ille exemplo humiliationis meliorari, non peccatorum
+            cognitione depravari ; et sic quis potest peccatum suum cuilibet confiteri, sive clerico
+            sive laico. Sicut enim dicit <name ref="#Bernard">Bernardus</name>, Super Cantica :
+              <quote xml:id="bb-d4e22921-Qd1e179">Vir perfectus tantus est veritatis amator, quod vellet omnes nosse sua mala,
+              dum tamen eis non esset occasio mali, sed boni</quote>. Alio modo confessio est opus
+            sacramentale, prout ordinatur ad reconciliationem, quae fit per absolutionem et
+            ligationem ; et quoniam haec potestas collata est solis sacerdotibus, sicut melius
+            patebit infra, ideo haec nulli nisi solis sacerdotibus est facienda. Et concedendae sunt
+            rationes ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d4e22921-Dd1e185">
+          <head xml:id="bb-d4e22921-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-d4e22921-d1e190">1-2. Ad illud ergo quod obicitur : Confitemini alterutrum pecata vestra etc., aliqui
+            dicunt hoc esse dictum de venialibus, de quibus, sicut patebit, non est necesse
+            confiteri. Aliter potest dici quod est confessio duplex, scilicet in generali, ut quando
+            quis dicit suum Confiteor ; et in speciali, quando quis dicit peccata sua. In utraque
+            harum confessionum est alternatio ; sed in confessione speciali est alternatio quantum
+            ad solos sacerdotes, in generali vero quantum ad omnes. Et ideo patet et auctoritas et
+            Glossa, et inntiitur hoc ex pluribus verbis quae ponuntur in Glossa.</p>
+          <p xml:id="bb-d4e22921-d1e193">3-5. Ad illud quod obicitur de erubescentia, instructione et oratione, dicendum quod in
+            omnibus argumentis est consequens, pro eo quod non accipit totam causam, nec etiam
+            principalem causam, quae est reconciliatio facienda Ecclesiae ; et ideo omnes ab
+            insufficienti procedunt de confessione secundum quod est sacramentum. Tamen vere
+            concludunt quod utile etiam est aliquando confiteri non sacerdoti ; sicut etiam audivi
+            de muliere, quae in morte confessa fuit viro ad vehementem confusionem, cuius
+            poenitentiam per signa valde evidentia Dominus acceptavit ; prius tamen fuerat confessa
+            sacerdoti.</p>
+          <p xml:id="bb-d4e22921-d1e196">Ad illud quod obicitur, quod, cum sit necessitatis, debuit omnibus committi, dicendum
+            quod non oportuit nec debuit. Non debuit, quia absolvere dicit actum alicuius personae
+            auctoritatem habentis. Non etiam oportuit, quia nullus volens habere sacerdotem et eo
+            carens privatur salute : sufficit enim sibi voluntas confitendi ; et ut voluntas eius
+            exterius appareat, dat <name ref="#Lombard">Magister</name> consilium quod confiteatur
+            proprio socio, non quia illa confessio sacramentum Ecclesiae sit, sed ut talis ostendat
+            se perfectam habere voluntatem et facere quod in se est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

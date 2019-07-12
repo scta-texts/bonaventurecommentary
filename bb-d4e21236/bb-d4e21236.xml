@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e21236">
+        <head xml:id="bb-d4e21236-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e21236-Hd1e111" type="question-title">Utrum ad iustificationem sit necessarius motus liberi
+          arbitrii.</head>
+        <p xml:id="bb-d4e21236-d1e114">Secundo quaeritur, utrum ad iustificationem sit necessarius motus liberi arbitrii.</p>
+        <div xml:id="bb-d4e21236-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e21236-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e21236-d1e122">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e21236-Qd1e127">Qui creavit te
+              sine te, non iustificat te sine te</quote>. Ergo necessario ad iustificationem
+            requiritur eius motus.</p>
+          <p xml:id="bb-d4e21236-d1e131">Item, <name ref="#Bernard">Bernardus</name>, De libero arbitrio : <quote xml:id="bb-d4e21236-Qd1e136" source="http://scta.info/resource/ngqwer-d1e59" type="paraphrase">Opus salutis duo
+              requirit, id est Deum dantem et liberum arbitrium recipiens et consentiens</quote>.
+            Ergo necessario concurrit opus liberi arbitrii.</p>
+          <p xml:id="bb-d4e21236-d1e140">Item, ratione videtur, quia Deus, quantum est de se, semper paratus est iustificare
+            hominem. Ergo quod homo modo iustificetur et non prius, non est secundum variationem ex
+            parte Dei, sed a parte hominis ; sed adultus iustificatur sine aliqua variatione circa
+            sensum : ergo necesse est quod sit variatio circa liberum arbitrium.</p>
+          <p xml:id="bb-d4e21236-d1e143">Item, Deus plus exigit ab homine qui plus potest, ergo plus ab adulto quam parvulo, cum
+            plus possit ; sed illud quod exigit non potest minus esse quam motus liberi arbitrii :
+            ergo ad iustificationem illum exigit.</p>
+          <p xml:id="bb-d4e21236-d1e147">Contra : Iustificatio est per virtutem ; sed <quote xml:id="bb-d4e21236-Qd1e149">virtus est bona qualitas mentis,
+              quam Deus in nobis sine nobis operatur</quote> : ergo etc.</p>
+          <p xml:id="bb-d4e21236-d1e153">Item, in iustificatione accedit homo ad Deum ; sed Ioannis 6, 44 : <quote xml:id="bb-d4e21236-Qd1e155" ana="#io6_44">Nemo venit ad me nisi traxerit eum Pater</quote> ; sed tractus est motus violentus,
+            et libero arbitrio non potest inferri yiolentia : ergo non est ibi motus liberi
+            arbitrii.</p>
+          <p xml:id="bb-d4e21236-d1e159">Item, potentius agens est Deus quam aliquod agens creatum ; sed agens creatum sine
+            aliqua cooperatione suscipientis expellit oppositum, ut patet in luce, quae expellit
+            tenebram sine aliqua cooperatione aeris : ergo etc.</p>
+          <p xml:id="bb-d4e21236-d1e162">Item, quaero, quis sit ille motus. Cum enim omnis motus meritorius sit a libero
+            arbitrio, videtur quod ille possit esse cuiuslibet virtutis.</p>
+        </div>
+        <div xml:id="bb-d4e21236-Dd1e166">
+          <head xml:id="bb-d4e21236-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e21236-Hd1e171" type="question-title">Ad iustificationem in adulto requiritur motus liberi arbitrii
+            consentiens gratiae, qui est motus fidei</head>
+          <p xml:id="bb-d4e21236-d1e174">Respondeo : Dicendum quod sicut iustificatio non est nisi volentis, sic etiam non dat
+            eam Deus nisi volenti, dum sit in tali statu quod consentire et dissentire possit. Ideo
+            ad susceptionem iustificationis in adulto requiritur motus liberi arbitrii, secundum
+            quem consentit gratiae. Et quia primus motus, per quem consentit gratiae, est motus
+            fidei, ideo motus ille est motus fidei. Unde ad Romanos 5, 1 : <quote xml:id="bb-d4e21236-Qd1e176" ana="#rom5_1">Iustificati per fidem</quote>, Glossa : <quote xml:id="bb-d4e21236-Qd1e179">Id est, ex motu liberi arbitrii, qui
+              est ex fide</quote>. Ideo dicitur, Actuum 15, 9 : <quote xml:id="bb-d4e21236-Qd1e182" ana="#act15_9">Fide
+              purificans corda</quote>, quia motus fidei primo requiritur ad purificationem.</p>
+        </div>
+        <div xml:id="bb-d4e21236-Dd1e188">
+          <head xml:id="bb-d4e21236-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e21236-d1e193">Ad illud ergo quod obicitur, quod Deus operatur virtutem sine nobis, dicendum quod
+            verum est ; sine nobis efficientibus, non tamen sine nobis disponentibus vel
+            consentientibus.</p>
+          <p xml:id="bb-d4e21236-d1e196">Ad illud quod obicitur, quod Deus trahit, dicendum quod est trahi per coactionem, et
+            sic non trahit ; et est trahi per inductionem et sublevationem, et sic trahit, quia
+            inducit et etiam sublevat hominem ad illud ad quod per se non potest pertingere.</p>
+          <p xml:id="bb-d4e21236-d1e199">Ad illud quod obicitur, quod Deus est potentissimus, dicendum quod hoc non est propter
+            impotentiam ex parte Dei, sed propter congruentiam in agenda. Non enim facit Deus
+            quidquid potest, sed quod decet et quod congruit ; et decens est quod imprimat formam in
+            materiam sicut convenit formae et materiae suscipienti ; et forma est iustitia, quae est
+            libertatis ; et materia similiter est voluntas libera, libera in agenda et recipiendo :
+            et ideo non datur sine actu eius cum quo nata est agere.</p>
+          <p xml:id="bb-d4e21236-d1e202">Ad illud quod quaeritur de illo motu, quis sit, dicendum quod, sicut Glossa dicit
+            expresse, quae prius habita est ad <ref xml:id="bb-d4e21236-Rd1e204" ana="#rom5_1">Romanos 5, 1</ref>, ille est motus
+            fidei. Liberum enim arbitrium est facultas voluntatis et rationis ; et gratia adveniens
+            utramque potentiam facit in actu, ut ratio sit in actu credendi, qui est fidei, et
+            voluntas in actu detestandi, qui est contritionis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

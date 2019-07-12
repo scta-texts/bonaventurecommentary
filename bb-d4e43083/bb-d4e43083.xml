@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43083">
+        <head xml:id="bb-d4e43083-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e43083-Hd1e111" type="question-title">Utrum affinitas praestet Matrimonio impedimentum.</head>
+        <p xml:id="bb-d4e43083-d1e114">Tertio quaeritur utrum affinitas praestet Matrimonio impedimentum.</p>
+        <div xml:id="bb-d4e43083-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e43083-d1e119">Et quod sic, videtur. <ref xml:id="bb-d4e43083-Rd1e121">Causa XXXV, quaestione 3</ref> : <quote xml:id="bb-d4e43083-Qd1e124">Aequaliter
+              coniungatur quis propinquis suis et uxoris suae consanguineis</quote>.</p>
+          <p xml:id="bb-d4e43083-d1e128">Item, Levitici 18, 8 : <quote xml:id="bb-d4e43083-Qd1e130" ana="#lev18_8">Turpitudinem uxoris patris tui non
+              revelabis</quote> : ergo nullus potest contrahere cum uxore patris ; sed hoc non est
+            ob aliud nisi ob vinculum affinitatis : ergo etc.</p>
+          <p xml:id="bb-d4e43083-d1e134">Item, hoc ipsum arguitur per rationem, quia turpitudo uxoris est turpitudo viri ; sed
+            turpitudo consanguineae non est aliquatenus per actum coniugalem revelanda : ergo nec
+            uxor viri in coniugium assumenda.</p>
+          <p xml:id="bb-d4e43083-d1e137">4. Item, proximitatis vinculum tam in consanguinitate quam in affinitate est ex
+            sanguinis unitate. Ergo, si consanguinitas propter unitatem sanguinis impedit, pari
+            ratione et affinitas, cum vir et mulier fiant una caro ratione commixtionis seminum.</p>
+          <p xml:id="bb-d4e43083-d1e140">Contra : In Lege erat prohibitum ducere sororem, et praeceptum erat ducere uxorem
+            fratris ; et illa est affinis : ergo affinitas Matrimonium non impedit.</p>
+          <p xml:id="bb-d4e43083-d1e144">Item, magis iungitur aliquis alicui qui iungitur per se et immediate quam qui mediate ;
+            sed vir qui cognoscit mulierem potest ei iungi matrimonialiter : ergo multo magis
+            consanguinei ipsius viri.</p>
+          <p xml:id="bb-d4e43083-d1e147">Item, secundum iura consanguinei succedunt defuncto in rebus suis, in quibus habuit
+            dominium et possessionem ; sed vir habuit dominium in mullerem per Matrimonium : ergo
+            secundum iura consanguinei debent et possunt habere dominium in corpus coniugis per
+            Matrimonium : ergo etc.</p>
+          <p xml:id="bb-d4e43083-d1e150">Item, commixtio carnalis est ad tempus, et Matrimonium est vinculum insolubile. Si ergo
+            maius vinculum solvit minus, cum commixtio carnalis Matrimonium non possit impedire,
+            ergo nec affinitas inde contracta.</p>
+        </div>
+        <div xml:id="bb-d4e43083-Dd1e154">
+          <head xml:id="bb-d4e43083-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e43083-Hd1e159" type="question-title">Affinitas, quae praecedit, impedit matrimonium contrahendum et
+            dirimit contractum, non autem superveniens, quae tantum aufert reo ius exigendi
+            debitum</head>
+          <p xml:id="bb-d4e43083-d1e162">Respondeo : Dicendum quod affinitas impedit Matrimonium, sicut habetur Extra, De
+            consanguinitate et affinitate ; et hoc intelligendum est de affinitate quae praecedit
+            Matrimonii contractionem, non de ea quae supervenit. Si enim praecedat, impedit
+            contrahendum et dirimit iam contractum, quia facit personam illegitimam secundum eumdem
+            modum et per easdem rationes per quem modum et per quas rationes facit consanguinitas.
+            Si autem sequatur Matrimonium, non potest ipsum dissolvere, cum sit vinculum insolubile
+            ; si tamen contractum est et consummatum, ambo sunt ad continentiam monendi. Si vero
+            contractum est et ratificatum per verba de praesenti, cum solvi non possit, nisi
+            ingrediatur alter coniugum religionem, sicut habetur Extra, De conversione coniugatorum,
+            necessario oportet quod ille qui malitiose cognovit consanguineam aliquam reddat
+            debitum, si illa non vult continere, aut in religionem ingrediatur, <ref xml:id="bb-d4e43083-Rd1e164" target="http://scta.info/resource/cice-l4t13-d1e195">Extra, De eo qui cognovit
+              consanguineam uxoris suae, Discretionem</ref> ; et infra, ubi dicitur quod tenetur
+            reddere debitum, <quote xml:id="bb-d4e43083-Qd1e167">cum non debeat coniux sine culpa iure sua privari</quote>. Ipse
+            autem non debet exigere, quia reddidit se inhabilem, sicut dicitur eodem titulo :
+            Transmissae nobis etc., ubi dicitur quod requisitus non sine gravi cordis dolore
+            accedat. Sic igitur concedendum quod affinitas praecedens Matrimonium, quantum ad primum
+            genus, ita impedit Matrimonium ut consanguinitas.</p>
+        </div>
+        <div xml:id="bb-d4e43083-Dd1e173">
+          <head xml:id="bb-d4e43083-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e43083-d1e178">Ad illud quod obicitur, quod praeceptum erat ducere uxorem fratris, dicendum quod hoc
+            verum erat in casu, scilicet cum. frater mortuus erat sine semine. Quia enim promissa
+            erat eis perfecta benedictio in semine, ideo non debebat pati Lex quod aliquis esset qui
+            videretur sine semine, si haberet propinquum qui suscitaret. Nunc autem, quia hoc
+            sublatum est, sic impedit omnino sicut consanguinitas.</p>
+          <p xml:id="bb-d4e43083-d1e181">Ad illud quod obicitur, quod vir magis iungitur mulieri, dicendum quod verum est ; sed
+            quoniam me actus consonat et consequitur Matrimonium ; hinc est quod vinculum nullum ibi
+            concurrit inter virum et mulierem quod Matrimonio praestet impedimentum. Amplius, sicut
+            praedictum est, cum affinitas sit vinculum per accidens, praesupponit vinculum per se,
+            scilicet consanguinitatem ; et quia nemo ibi ipsi est consanguineus : hinc est quod
+            mulier non effieitur affinis viro, sed eius consanguineis.</p>
+          <p xml:id="bb-d4e43083-d1e184">Ad illud quod obicitur, quod secundum iura consanguinei debent succedere, dicendum quod
+            verum est in illa hereditate quam potest quis alii communicare et dare. Sed uxor est
+            adeo bonum proprium quod nec caritas, communicat, quae facit omnia communia ; et ideo
+            illud ius nunquam se extendit ad uxorem.</p>
+          <p xml:id="bb-d4e43083-d1e187">Ad illud quod obicitur ultimo, quod carnalis commixtio est ad tempus, dicendum quod,
+            quamvis sit ad tempus, tamen habet effectum perpetuum, scilicet affinitatem, ut prius
+            visum est, et per illam impedit. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e44629">
+        <head xml:id="bb-d4e44629-Hd1e108">Quaestio 6</head>
+        <head xml:id="bb-d4e44629-Hd1e111" type="question-title">Quae sit causa nostrae resurrectionis.</head>
+        <p xml:id="bb-d4e44629-d1e114">Sexto quaeritur, quae sit causa nostrae resurrectionis.</p>
+        <div xml:id="bb-d4e44629-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e44629-d1e119">Et quod resurrectio Christi : Dicit <ref xml:id="bb-d4e44629-Rd1e121">Glossa</ref> super illud ad Romanos 1, 4 :
+              <quote xml:id="bb-d4e44629-Qd1e124" ana="#rom1_4">Ex resurrectione mortuorum Iesu Christi</quote> : <quote xml:id="bb-d4e44629-Qd1e127">Christi
+              resurrectio nostram efficit generalem resurrectionem</quote>. Idem ipsum dicit
+              <ref xml:id="bb-d4e44629-Rd1e130">Glossa</ref> super illud <ref xml:id="bb-d4e44629-Rd1e133">Psalmi [29, 6]</ref> : <quote xml:id="bb-d4e44629-Qd1e137" ana="#ps29_6">Ad
+              vesperum demorabitur fletus</quote>.</p>
+          <p xml:id="bb-d4e44629-d1e141">Item, ratione videtur, quia Apostolus arguit sic : si Christus resurrexit, et nos
+            resurgemus ; sed talis argumentatio non valeret nisi aliqua habitudo causalitatis esset
+            resurrectionis Christi ad resurrectionem nostram : ergo etc.</p>
+          <p xml:id="bb-d4e44629-d1e144">Item, videtur quod vox Christi sit causa. Super illud Psalmi [67, 34] : Dabit voci suae
+            vocem virtutis, dicit Glossa : suscitandi mortuos.</p>
+          <p xml:id="bb-d4e44629-d1e147">Item, hoc ipsum videtur per rationem, quia illud est causa excitationis in dormiente,
+            quo audito excitatur, scilicet vox vocantis ; sed mortui in monumentis excitabuntur
+            auditu vocis Filii Dei : ergo etc. Minor patet 5, 28 Ioannis : Omnes qui in monumentis
+            sunt, audient vocem Filii Dei.</p>
+          <p xml:id="bb-d4e44629-d1e150">Sed contra : Quod resurrectio Christi non sit causa aliquo modo videtur : Quia illud
+            sine quo res esset, non est causa ; sed, si Christus etiam non resurrexisset, tamen
+            mortui resurgerent, quia necesse erat malos saltem remunerari in anima et corpore sive
+            puniri, et boni etiam qui meruerunt.</p>
+          <p xml:id="bb-d4e44629-d1e154">Item, si est causa, quaero, in quo genere ? Non efficiens ; constat, quia Christi
+            resurrectio est praeterita ; sed quidquid praeteritum est non efficit id quod futurum
+            est. Non finalis nec materialis ; constat : ergo est exemplaris. Sed contra : causa
+            exemplaris non infert suum effectum ; sed resurrectio Christi infert nostram : ergo
+            etc.</p>
+          <p xml:id="bb-d4e44629-d1e157">Item, malorum resurrectio non assimilatur resurrectioni Christi : ergo non est exemplar
+            resurrectionis malorum, ergo nec generalis resurrectionis.</p>
+          <p xml:id="bb-d4e44629-d1e160">Item, quod vox Christi non sit causa, videtur : Quia resurrectio fit subito, et
+            aequalis virtutis est corpus reformare sicut et animam ; sed hoc est potentiae
+            infinitae, et illa est Filii Dei : ergo etc.</p>
+          <p xml:id="bb-d4e44629-d1e163">Item, si mortui audiunt vocem, aut antequam resurgant aut post. Si ante, ergo ante
+            audiunt quam vivunt ; si post, ergo vox non erat causa resurrectionis.</p>
+          <p xml:id="bb-d4e44629-d1e166">Item, super illud : Dabit voci suae vocem virtutis, dicit <ref xml:id="bb-d4e44629-Rd1e168">Glossa</ref> :
+              <quote xml:id="bb-d4e44629-Qd1e171">Resuscitandi corpora</quote> ; sed quando aliqua potentia datur alicui, quamvis
+            miraculose detur, operatio, tamen egrediens ab illa est naturalis, sicut patet in caeco
+            illuminato : ergo, si est per potentiam datam voci, resurrectio est naturalis, cuius
+            contrarium ostensum est supra.</p>
+        </div>
+        <div xml:id="bb-d4e44629-Dd1e176">
+          <head xml:id="bb-d4e44629-Hd1e178">Conclusio</head>
+          <head xml:id="bb-d4e44629-Hd1e181" type="question-title">Resurrectio et vox Christi aliquo modo sunt causa tum
+            exemplaris tum instrumentalis resurrectionis nostrae</head>
+          <p xml:id="bb-d4e44629-d1e184">Respondeo : Dicendum quod in Christo est assignare nostrae resurrectionis duplicem
+            causam, scilicet efficientem et exemplarem. Efficientem autem dupliciter est assignare :
+            aut sicut primum principium aut sicut instrumentum. Efficiens sicut primum principium
+            est Christus secundum Divinitatem et tota Trinitas ; efficiens sicut instrumentum est
+            vox Christi, ad cuius prolationem et vocationem mortui resurgent. Similiter causa
+            exemplaris duplex est : una, in qua res cognoscitur et disponitur, et sic est Dei Filius
+            secundum divinam natutam et tota Trinitas ; alio modo, in qua res inchoatur et
+            exemplificatur, et sic est resurrectio Christi ; quia, ut dicit <name ref="#Augustine">Augustinus</name>, De civitate Dei, <quote xml:id="bb-d4e44629-Qd1e189" source="http://scta.info/resource/adcd-l10">talia erunt corpora nostra quale Christus
+              sua resurrectione monstravit</quote>. Unde fuit quasi exemplum in quo nostra
+            resurrectio est inchoata, tamquam membrorum in capite, sicut dicitur. ad Ephesios 2, 5 :
+              <quote xml:id="bb-d4e44629-Qd1e192" ana="#eph2_5">Convivificavit nos Christo et resuscitavit</quote> etc. Patet
+            igitur quomodo Christi resurrectio et vox eius est causa nostrae resurrectionis. Et quia
+            resurrectio et vox est Filii Dei in carne, ideo dicit <name ref="#Augustine">Augustinus</name>, super Ioannis 5, 27, quod per Verbum carnem factum fit resurrectio
+            corporum.</p>
+        </div>
+        <div xml:id="bb-d4e44629-Dd1e201">
+          <head xml:id="bb-d4e44629-Hd1e203">Ad rationes</head>
+          <p xml:id="bb-d4e44629-d1e206">Ad illud quod obicitur, quod alias esset resurrectio etc., dicendum quod tunc Deus
+            aliter faceret ; sed cum decrevit sic facere, haec est causa.</p>
+          <p xml:id="bb-d4e44629-d1e209">Ad illud quod obicitur, quod exemplar non infert, dicendum quod verum est de exemplari
+            in quo res cognoscitur ; tamen exemplar in quo res inchoatur, ubi non potest relinqui
+            imperfectum, de necessitate infert ; unde sicut caput non potest esse sine membris, sic
+            nec resurrectio capitis quin consequatur resurrectio membrorum.</p>
+          <p xml:id="bb-d4e44629-d1e212">Ad illud quod obicitur, quod non assimilatur, dicendum quod non perfecte assimilatur
+            resurrectioni malorum, et ideo non sunt perfecte exemplata ; assimilatur tamen in
+            corporis iterata vivificatione et indissolubili unione ; et ideo est generalis
+            resurrectionis exemplar.</p>
+          <p xml:id="bb-d4e44629-d1e215">Ad illud quod obicitur de voce Christi, quod non sit causa, quia resurrectio est opus
+            virtutis infinitae, dici potest, sicut praedictum est supra de sacramentis, quod Deus
+            virtute infinita faciet, licet ad prolationem vocis ; unde non est ibi proprie
+            causalitas.</p>
+          <p xml:id="bb-d4e44629-d1e219">Ad illud quod obicitur : quando audiunt vocem ? dicendum quod simul tempore, tamen
+            prius natura resurgunt quam audiant ; unde vocis auditus non resuscitat, sed virtus
+            vocem concomitans. In evigilatione autem corporali, dicendum quod auditus vocis excitat
+            ; sed in auditu sunt duo, scilicet receptio speciei in organo et iudicium de re recepta
+            ; quantum ad receptionem praecedit excitationem, sed quantum ad iudicium sequitur.</p>
+          <p xml:id="bb-d4e44629-d1e222">Ad illud quod ultimo obicitur de operatione illius vocis, quod est naturalis, dicendum
+            quod sicut sanctis viris datur gratia miraculorum et virtus suscitandi mortuos, non quia
+            ipsi suscitent per aliquid quod sit in se, sed quia Deus facit ad petitionem ipsorum :
+            sic in proposito est intelligendum quod Deus facit ; et ita miraculum est, si
+            suscitantur ad vocem illam sicut si ad preces Pauli. Praeterea, esto quod data sit
+            virtus ; quia est ad actum supra naturam et modum operandi supra naturam, hinc est quod
+            miraculose exit in suam operationem, sicut exemplo patet de potentia pariendi, quae
+            dicitur data beatae Virgini. </p>
+          <p xml:id="bb-d4e44629-d1e225"> Sic igitur patet quod resurrectio Christi est causa et vox aliquo modo, tamen
+            principalis causa est Dei virtus et Dei sapientia ; et resurrectio Christi nostram
+            infert resurrectionem, sive per hypothesim - ut si una anima est immortalis, et omnes ;
+            similiter si unus resurrexit, et omnes - sive per locum a minori, quia anima Christi
+            beata minus egebat corpore quam aliae ; sive per locum a causa exemplari relata ad
+            efficientem, scilicet quia ibi est resurrectio nostra inchoata et propter nos Christus
+            est incarnatus, passus et mortuus, et resurrexit propter nos etiam et nostra resurrectio
+            in eo est inchoata tamquam in quodam exemplo. Ergo si Dei perfecta sunt opera, oportet
+            corruptibile hoc induere incorruptionem. Et sic patet illud. </p>
+          <p xml:id="bb-d4e44629-d1e228">Consequenter quantum ad secundam partem distinctionis, quaeritur de apertione librorum.
+            Et duo de hoc principaliter quaeruntur. Primo quaeritur de libro vitae. Secundo, de
+            libris conscientiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

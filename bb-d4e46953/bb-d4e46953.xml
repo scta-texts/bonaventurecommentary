@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e46953">
+        <head xml:id="bb-d4e46953-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e46953-Hd1e111" type="question-title">De receptaculis animarum ante adventum Christi.</head>
+        <div xml:id="bb-d4e46953-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e46953-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e46953-d1e119">Circa primum proceditur sic, et quod ante Christi adventum descenderant ad infernum,
+            ostenditur : Primo per Vetus Testamentum. Ita dixit patriarcha Iacob, Genesis 42, 38 :
+              <quote xml:id="bb-d4e46953-Qd1e121" ana="#gen42_38">Deducetis canos meos cum dolore ad inferos</quote> ; et Genesis
+            37, 35 : <quote xml:id="bb-d4e46953-Qd1e124" ana="#gen37_35">Descendam ad filium meum lugens in infernum</quote>.
+            Ergo etc.</p>
+          <p xml:id="bb-d4e46953-d1e128">Item, Iob 17, 13 : <quote xml:id="bb-d4e46953-Qd1e130" ana="#iob17_13">In tenebris stravi lectulum meum, infernus
+              domus mea est</quote>. Et constat quod iustus erat : ergo etc.</p>
+          <p xml:id="bb-d4e46953-d1e134">Item, hoc ipsum ostenditur etiam per Novum Testamentum, quia dicitur in Symbolo :
+              <quote xml:id="bb-d4e46953-Qd1e136">Descendit ad inferos</quote>. Constat quod non nisi ad ereptionem iustorum :
+            iusti ergo descendebant.</p>
+          <p xml:id="bb-d4e46953-d1e140">Item, Actuum 2, 24 : <quote xml:id="bb-d4e46953-Qd1e142" ana="#act2_24">Quem Deus suscitavit, solutis doloribus
+              inferni</quote>. Ergo omnes alii detinebantur in inferno.</p>
+          <p xml:id="bb-d4e46953-d1e147">Item, debitum originalis peccati nondum erat solutum, ergo nec homo de potestate
+            diaboli ereptus : ergo, quantumcumque esset iustus, poterat ipsum diabolus trahere
+            deorsum.</p>
+          <p xml:id="bb-d4e46953-d1e150">Sed contra : Infernus est locus debitus malis et iniustis ; sed ante adventum Christi
+            multi mortui sunt boni et iusti : ergo illi non descendebant in infernum.</p>
+          <p xml:id="bb-d4e46953-d1e153">Item, unaquaeque anima habet locari secundum exigentiam meritorum : ergo, cum viri
+            sancti ante adventum Christi multum distarent ab impiis quantum ad meritum, ergo etiam
+            quantum ad locum.</p>
+          <p xml:id="bb-d4e46953-d1e156">Item, <quote xml:id="bb-d4e46953-Qd1e158">in inferno nulla est redemptio</quote> ; ergo, si iusti descenderunt ad
+            infernum, videtur quod nunquam fuerunt inde liberati ; quod manifeste falsum est.</p>
+          <p xml:id="bb-d4e46953-d1e162">Item, sicut patet ex Lucae 16, 26, <quote xml:id="bb-d4e46953-Qd1e164" ana="#lc16_26">chaos magnum firmatum</quote>
+            erat inter Lazarum et divitem, ut non possent mutuo ad se transire : ergo videtur quod
+            in lacis distantibus erant.</p>
+          <p xml:id="bb-d4e46953-d1e168">Item, <ref xml:id="bb-d4e46953-Rd1e170">Augustinus, XII Super Genesim ad litteram</ref> : <quote xml:id="bb-d4e46953-Qd1e173" source="http://scta.info/resource/wN2gEA-BYdopI">Videmus inferorum mentionem non esse
+              factam in requie pauperis, sed in supplicio divitis</quote>. Et iterum idem :
+              <quote xml:id="bb-d4e46953-Qd1e176">Nondum inveni et adhuc requiro nec mihi occurrit, inferos alicubi in bono
+              posuisse Scripturam ; non autem nisi in bono accipiendum sinum <name ref="#Abraham">Abrahae</name>
+            </quote>. Ergo, si sancti Patres in sinum <name ref="#Abraham">Abrahae</name> portantur,
+            sicut Dominus ipse de Lazaro testatur, patet etc.</p>
+        </div>
+        <div xml:id="bb-d4e46953-Dd1e187">
+          <head xml:id="bb-d4e46953-Hd1e189">Conclusio</head>
+          <head xml:id="bb-d4e46953-Hd1e192" type="question-title">Infernus dicitur tum locus infimus cum poena sensus et damni,
+            tum locus inferior cum sola poena damni, scilicet limbus, qui est vel limbus parvulorum,
+            vel limbus Patrum sive sinus <name ref="#Abraham">Abrahae</name>.</head>
+          <p xml:id="bb-d4e46953-d1e198">Respondeo : Dicendum quod infernus dicitur locus poenarum et locus qui est inferior,
+            tum ratione status, qui vilis est, tum ratione situs. Potest ergo infernus denominari a
+            suo summo ; et tunc dicitur infernus locus in quo est maxima poena et locus infimus ; et
+            iste non competit nisi damnatis, qui puniuntur poena sensus et sine spe inferius
+            proiciuntur. Potest iterum appellari locus inferior, in quo quis punitur poena damni ;
+            et iste dicitur limbus. Et in hunc descendebant ante Christi adventum sancti Patres et
+            descendant nunc parvuli non baptizati.</p>
+          <p xml:id="bb-d4e46953-d1e201">Sed attendendum quod Patres fuerunt in parte superiori et parvuli in parte inferiori.
+            Et ratio huius est, quia isti habent carentiam visionis sine exspectatione ; illi
+            habebant cum exspectatione, et ideo, quia in parte superiori erant et visionem Dei
+            exspectabant, non tantum in limbo, sed in sinu <name ref="#Abraham">Abrahae</name>
+            dicebantur esse. Ille ergo locus dicebatur infernus, et quia inferior et quia aliquo
+            modo locus erat miseriae ; limbus, quia erat poena carentiae ; sed sinus <name ref="#Abraham">Abrahae</name>, quia erat exspectatio gloriae. Et ita infernus non
+            sonat nisi in malum, qualitercumque accipiatur ; sinus autem <name ref="#Abraham">Abrahae</name> in bonum, et hoc quia est ibi requies, aut per privationem mali aut
+            per collationem omnis boni ; et sic est locus gloriae.</p>
+          <p xml:id="bb-d4e46953-d1e213">Et per hanc distinctionem patet responsio ad utramque partem. Rationes enim ad primam
+            partem procedunt de inferno large dicto et secundum situm ; rationes vero ad oppositum
+            de inferno dicto proprie et secundum poenam, sicut patet discurrenti per singulas.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

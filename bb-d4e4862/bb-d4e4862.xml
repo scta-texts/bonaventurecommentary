@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4862">
+        <head xml:id="bb-d4e4862-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e4862-Hd1e111" type="question-title">Utrum Baptismus flaminis sine Baptismo fluminis sufficiat ad
+          salutem.</head>
+        <p xml:id="bb-d4e4862-d1e114">Circa primum sic proceditur et quaeritur utrum Baptismus flaminis sine Baptismo fluminis
+          sufficiat ad salutem.</p>
+        <div xml:id="bb-d4e4862-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e4862-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e4862-d1e122">Et quod non, videtur : Primo auctoritate Domini, Ioannis 3, 5 : <quote xml:id="bb-d4e4862-Qd1e124" ana="#io3_5">Nisi quis renatus fuerit</quote> etc. ; sed nullus sic renascitur nisi baptizetur
+            Baptismo aquae : ergo nullus intrat in regnum caelorum sine Baptismo aquae : ergo
+            Baptismus flaminis sive Spiritus non sufficit.</p>
+          <p xml:id="bb-d4e4862-d1e128">Item, hoc ipsum probatur exemplo, quia <ref xml:id="bb-d4e4862-Rd1e130" ana="act10_44">Actuum decimo</ref> dicitur
+            quod Cornelius et qui cum eo erant prius receperunt Spiritum Sanctum et postmodum
+            baptizati sunt Baptismo aquae. Ergo videtur quod baptizati Baptismo flaminis tenentur ad
+            Baptismum aquae : ergo sine hoc non est salus.</p>
+          <p xml:id="bb-d4e4862-d1e134">Item, si aliquis posset salvari sine Baptismo aquae, maxime videtur de parvulo, cui
+            citius debet ex misericordia Dei subveniri ; sed parvulus, qui non est renatus aqua,
+            damnatur, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro De fide ad
+            Petrum, et habetur in littera : <quote xml:id="bb-d4e4862-Qd1e139">Firmissime tene</quote>, etc. : ergo nullus alius
+            sine aquae Baptismo, quantumcumque aliter baptizatus sit, salvari potest.</p>
+          <p xml:id="bb-d4e4862-d1e143">Item, si aliter quam per Baptismum aquae potst quis salvari, ergo Baptismus aquae non
+            est sacramentum necessitatis : ergo non peccant qui nolunt baptizari ; sed hoc st
+            manifeste falsum : ergo sine Baptismo aquae non est salus : ergo nullus alius sufficit
+            sine hoc.</p>
+          <p xml:id="bb-d4e4862-d1e147">Contra : Ioannis 11, 26 : <quote xml:id="bb-d4e4862-Qd1e149" ana="#io11_26">Omnis qui vivit et credit in me, non
+              morietur in aeternam</quote> ; sed iusti credunt et fideles sunt, antequam baptizentur
+            : ergo, si moriuntur in tali fide, non moriuntur in aeternum.</p>
+          <p xml:id="bb-d4e4862-d1e153">Item, <name ref="#Ambrose">Ambrosius</name> dicit, et habetur in littera : <quote xml:id="bb-d4e4862-Qd1e158">Ille
+              quem regeneraturus eram, gratiam, quam poposcit, non amisit</quote>. Ergo me qui
+            mortuus erat non regeneratus, erat salvus sine Baptismo aquae : ergo baptismus
+            poenitentiae sine isto dat salutem.</p>
+          <p xml:id="bb-d4e4862-d1e162">Item, gratia gratum faciens est dispositio sufficiens ad salutem ; dispositio autem ad
+            gratiam est toto corde ad Deum redire et ab errore recedere, et hoc totum potest esse
+            per Dei gratiam sine Baptismo fluminis : ergo aliquis solo Spiritus Sancti Baptismate
+            salvari potest.</p>
+          <p xml:id="bb-d4e4862-d1e165">Item, <quote xml:id="bb-d4e4862-Qd1e167">propter quod unumquodque, et illud magis</quote> ; sed Baptismus fluminis
+            sive aquae non sanctificat nisi per Spiritum : ergo Spiritus magis sanctificat et facit
+            dignum vita aeterna. Si ergo aliquis habeat Baptismum flaminis, habet sanctificationem ;
+            et qui hoc habet, habet quod sufficit ad salutem : ergo etc. Si tu dicas quod nemo
+            potest habere. Baptismum flaminis, nisi prius baptizetur Baptismo aquae, ostenditur esse
+            falsum : primo, quia Deus nullum obligat ad impossibile ; et iterum, nulli se negat
+            requirenti ipsum. Si ergo aliquis, qui non potest baptizari, ad Deum convertitur, Deus
+            convertitur ad ipsum ; sed hoc non. est nisi per collationem Spiritus Sancti, et hoc est
+            baptizari Baptismo flaminis : ergo ille potest haberi sine alio. </p>
+        </div>
+        <div xml:id="bb-d4e4862-Dd1e172">
+          <head xml:id="bb-d4e4862-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e4862-Hd1e177" type="question-title">Baptismi fluminis et flaminis sunt necessarii, ille tantum
+            necessitate praecepti; sed praepediente impossibilitate, sufficit baptismus
+            flaminis</head>
+          <p xml:id="bb-d4e4862-d1e180">Respondeo : Dicendum quod Baptismus flaminis et Baptismus fluminis uterque est
+            necessarius ad salutem. Sed primus est necessarius, non quia sit in praecepto, sed quia
+            sine illo nullus liberatur a peccato. Et quoniam omnes peccatores nascimur, et nullus
+            salvari potest nisi liberetur a peccato, ideo,nullus sine Baptismo flaminis, neque
+            parvus neque magnus, potest salvari. Baptismus autem fluminis sive aquae est
+            necessarius, quia Deus instituit et quia instituit sub praecepto ; et quoniam quae
+            praecepta sunt sunt necessaria ad salutem, ideo talis Baptismus est ad salutem
+            necessarius. Sed quoniam Deus neminem obligat ad impossibile ex suo praecepto , ut dicit
+              <name ref="#Jerome">Hieronymus</name> ; et iterum, quod quis non potest facere, si
+            velit facere, reputatur ei pro facto, sicut dicit Glossa super illud Psalmi [57, 2] :
+              <quote xml:id="bb-d4e4862-Qd1e185" ana="#ps57_2">Etenim in corde iniquitates operamini</quote> etc. : Quod non
+            potes facere et vis, Deus factum reputat : ideo Baptismus aquae non sic est necessarius
+            quin, si adsit voluntas et desit possibilitas, non salvetur aliquis sine ipso.
+            Concedendum est ergo quod Baptismus flaminis sine Baptismo fluminis sufficit, dum tamen
+            homo habeat voluntatem et praepediatur ut ante mortem non recipiat, praepediente
+            necessitate, sicut ostendunt rationes ultimae. Concedendum est nihilominus quod qullus
+            sine hoc potest salvari, si possit et negligat baptizari. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name> quod potest quis salvari, non percepto sacramento
+            Baptismi. sed non potest, sacramento contempto. tunc autem contemnit, cum baptizari
+            potest et locus et tem pus se offert et negligit ; et tunc etiam privatur Baptismo
+            flaminis, quia a gratia cadit.</p>
+        </div>
+        <div xml:id="bb-d4e4862-Dd1e194">
+          <head xml:id="bb-d4e4862-Hd1e196">Ad rationes</head>
+          <p xml:id="bb-d4e4862-d1e199">1-2. Ad illud ergo quod obicitur de Domini mandato et ad illud de Cornelio, iam patet
+            responsio, quia utrumque intelligitur in eo qui facultatem habet et non praepeditur
+            necessitate. Nam Cornelius locum et tempus habebat, et Domini mandatum affirmativum eum
+            qui poterat obligabat.</p>
+          <p xml:id="bb-d4e4862-d1e202">Ad illud quod obicitur de parvulo, quod tunc maxime parvulus non baptizatus poterit
+            salvari, dicendum quod parvulus, si haberet Baptismum flaminis sine Baptismo aquae,
+            nunquam damnaretur. Quod ergo damnatur, hoc est quia privatus Baptismo aquae caret
+            gratia Spiritus Sancti, quia aliter ad gratiam non potest disponi, quantum est de iure
+            communi, nisi Deus faciat de privilegio speciali, sicut in sanctificatis in utero. Sed
+            adultus, de sententia communi, potest per fidem et dolorem de peccatis ad gratiam
+            disponi, secundum illud Ezechielis. [33, 12] : Quacumque hora ingemuerit peccator, vita
+            vivet etc. Unde non est simile, quia unicuique plus valet fides sua quam aliena ; et ita
+            adulto voluntas sua quam parvulo voluntas aliena. Nec damnatur parvulus propter
+            transgressionem praecepti, sed propter culpam originalis, quae remanet non deleta. </p>
+          <p xml:id="bb-d4e4862-d1e205">Quod ultimo obicitur iam solutum est, quia dicitur sacramentum necessitatis, non quia
+            sine ipso non possit homo salvari, sed quia ad hoc tenetur, si potest, et, hoc neglecto,
+            non potest salvari.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e25706">
+        <head xml:id="bb-d4e25706-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e25706-Hd1e111" type="question-title">Utrum inferior possit absolvere superiorem, ipso volente.</head>
+        <p xml:id="bb-d4e25706-d1e114">Secundo quaeritur, utrum inferior possit absolvere superiorem, ipso volente.</p>
+        <div xml:id="bb-d4e25706-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e25706-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e25706-d1e122">Et quod sic videtur : Quia ad Hebraeos 5, 2 dicitur quod pontifex non tantum pro se,
+            sed etiam pro populo debet orare, eo quod <quote xml:id="bb-d4e25706-Qd1e124" ana="#hebr5_2">ipse sit circumdatus
+              infirmitate</quote>. Ergo, si peccat mortaliter, indiget confiteri quemadmodum unus de
+            populo ; sed non habet superiorem ordinarium ; ergo potest confiteri et absolvi ab
+            inferiori.</p>
+          <p xml:id="bb-d4e25706-d1e128">Item, ad hoc quod de peccato mortali fiat reconciliatio, necesse est intervenire
+            mediationem sacerdotis ; sed possibile est supremum praelatorum peccare : ergo indiget
+            sacerdote reconciliante ; sed non superiori : ergo inferiori.</p>
+          <p xml:id="bb-d4e25706-d1e131">Item, quamvis Summus Pontifex sit constitutus <quote xml:id="bb-d4e25706-Qd1e133" ana="#hebr5_1">ut offerat dona et
+              sacrificia pro peccatis</quote>, tamen ipse per alium sacerdotem potest facere hostiam
+            offerri et alius potest offerre pro eo. Ergo, quamvis claves habeat ad solvendum, tamen
+            alius potest absolvere eum ; sed non nisi inferior : ergo pari ratione in omnibus
+            aliis.</p>
+          <p xml:id="bb-d4e25706-d1e137">Item, potestas absolvendi data est ad utilitatem eius qui absolvitur ; sed ille cui
+            data est potestas haec non est peioris conditionis quam alii : ergo et ille potest
+            absolvi ; sed non a se nec a superiori, quia frequenter non habet copiam eius aut non
+            habet superiorem, ut Papa : ergo etc.</p>
+          <p xml:id="bb-d4e25706-d1e141">Contra : Relationis non est relatio, nec motus est motus, nec mediationis est mediatio,
+            nec mediatoris est mediator ; sed supremus sacerdos et omnis praelatus mediator est
+            inter inferiores et Deum : ergo non potest esae nec debet e converso.</p>
+          <p xml:id="bb-d4e25706-d1e144">Item, ad hoc quod aliquis absolvat aliquem, necesse est quod habeat iurisdictionem
+            super eum, sicut in praecedentibus visum est ; sed inferior non habet iurisdictionem
+            super superiorem : ergo etc. Si dicas mihi quod superior dat ei iurisdictionem
+            absolvendi, contra : nemo dat quod non habet ; sed praelatus non habet iurisdictionem
+            absolvendi se, quia non habet potestatem supra se : ergo etc.</p>
+          <p xml:id="bb-d4e25706-d1e147">Item, praelatus inferior non potest alium excommunicare nec ipse potest dare alii
+            iurisdictionem excommunicandi se : ergo similiter videtur quod nec absolvendi.</p>
+          <p xml:id="bb-d4e25706-d1e150">Item, in hierarchia angelica non recipiunt angeli superiores illuminationem ab
+            inferioribus : ergo similiter videtur quod in Ecclesia superior ab inferiore non
+            absolvatur.</p>
+          <p xml:id="bb-d4e25706-d1e153">Item, probatum est per canones et rationes quod sacerdos non potest absolvere alienum
+            parochianum : ergo nec suum praelatum, per locum a maiori ; magis enim videtur quod
+            possit supra minorem quam supra maiorem. Si tu dicas quod praelatus dat ei potestatem in
+            se, quaeritur, quomodo hoc possit esse.</p>
+        </div>
+        <div xml:id="bb-d4e25706-Dd1e157">
+          <head xml:id="bb-d4e25706-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e25706-Hd1e162" type="question-title">Sacerdos subditus potest absolvere praelatum, qui in foro
+            poenitentiae ipsi se subiciit</head>
+          <p xml:id="bb-d4e25706-d1e165">Respondeo : Dicendum quod inferior superiorem potest absolvere, si superior velit se ei
+            subicere. Et hoc patet sic. Virtus clavium, quantum est de se, ad omnes se extendit,
+            nisi ex ordinatione superiorum manus arctaretur propter servandum ordinem
+            ecclesiasticum. Sacerdos enim ex sua ordinatione institutus est mediator inter Deum
+            iudicem et hominem peccatorem, et, quantum est ex parte Dei, non est differentia :
+            quilibet enim suum sacerdotem reputat mediatorem, et cuilibet impressit mediatoris
+            characterem ; sed differentia est ex parte hominum, quia, si quilibet esset mediator
+            cuiuslibet, esset in Ecclesia confusio ; et ideo alii aliis subiecti sunt, et qui
+            subiciuntur uni, non possunt dare alteri auctoritatem in se ; sed, si libera esset
+            persona quae posset se subicere, tunc absque dubio posset eum absolvere. Quoniam ergo
+            supremus praelatus, qui merae libertatis est et nulli subiectus, potest se cui vult
+            subicere, et alii exempti etiam sui subditis, concedo quod ipsi possunt eos
+            absolvere.</p>
+          <p xml:id="bb-d4e25706-d1e168">Quod autem supremus praelatus possit se ei subicere, ius divinum concordat, quia, cum
+            ipse sit circumdatus infirmitate, debet subici sacramentis ; et sicut medicus infirmatus
+            quaerit medicum et medicinam, non in quantum medicus, sed in quantum aegrotus, sic
+            Ecclesiae praelatus et mediator quaerit sacerdotem, in quantum Dei inimicus factus est
+            per culpam et in quantum peccator. Ius etiam canonum concordat quod unusquisque possit
+            auctoritatem suam communicare pro se et pro utilitate sua sine praeiudicio facto
+            propriae auctoritati et potestati ; et ita Summus Pontifex potest se cuilibet sacerdoti
+            subicere et absolutionem petere ; possunt etiam et alii praelati de permissione Papae,
+            sicut dicitur in illa decretali De poenitentiis et remissionibus, quae est <name ref="#GregoryGreat">Gregorii</name> : Ne pro dilatione poenitentiae periculum immineat
+            animarum, permittimus episcopis et aliis superioribus nec non minoribus praelatis
+            exemptis, ut praeter praelati sui licentiam providum et discretum sibi possint eligere
+            confessorem. Et sic patet quod subditus potest superiorem absolvere, ipso volente et
+            eligente ac per hoc se eidem in foro poenitentiali subiciente.</p>
+        </div>
+        <div xml:id="bb-d4e25706-Dd1e176">
+          <head xml:id="bb-d4e25706-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e25706-d1e181">Ad illud ergo quod obicitur primo, quod relationis non est relatio etc., dicendum quod
+            verum est, secundum quod huiusmodi ; nec medici medicus, secundum quod huiusmodi, nec
+            sacerdotis sacerdos in quantum talis, sed in quantum peccatoris.</p>
+          <p xml:id="bb-d4e25706-d1e184">Ad illud quod obicitur de iurisdictione, dicendum quod praelatus dat ei iurisdictionem
+            in se se ei subiciendo. Et si obiciat tunc quod non potest dare quod non habet in se ;
+            dicendum quod iurisdictio et subiectio est ad alterum ; et ideo, quamvis non possit quis
+            sibi ipsi esse subiectus, nihil prohibet ipsum subici posse alii, maxime si est liberae
+            potestatis.</p>
+          <p xml:id="bb-d4e25706-d1e187">Ad illud quod obicitur, quod non potest dare auctoritatem excommunicandi se, dicendum
+            quod argumentum istud deficit dupliciter. Primum quidem, quia excommunicatio est contra
+            hominem, sed absolutio pro homine ; et homo non potest auctoritate sua uti contra se,
+            quamvis possit pro se. Amplius deficit, quia alius modus iurisdictionis requiritur ad
+            excommunicationem quam ad absolutionem. Excommunicatio namque, quae respicit hominem,
+            communem dicit iurisdictionem super hominem, sed absolutio dicit mediationem inter Deum
+            et hominem, quo scilicet homo semper inferior est. Et quoniam necesse est hominem,
+            quantumcumque.sit magnus, iudicari cum Deo et iudicio esse inferiorem, quantum ad hoc
+            iudicium quilibet potest, quantumcumque sit magnus, dare alii propter se iurisdictionem.
+            Sed, quia praelatus talis super omnes est talis iurisdictio, quae attenditur quantum ad
+            praelationem potest dicere Deo : <quote xml:id="bb-d4e25706-Qd1e189" ana="#ps50_6">Tibi soli peccavi</quote>. Et ideo
+            non potest alteri dare potestatem excommunicandi se ipsum.</p>
+          <p xml:id="bb-d4e25706-d1e193">Ad illud quod obicitur de angelis, quod non descendunt ad inferiores, dicendum quod non
+            est simile, quia angeli semper in sua dignitate persistunt nec cadit in eis obscuratio
+            peccati ; et ideo non oportet eos ad inferiores descendere. Sed in eccleiastica
+            hierarchia secus est, quia peccant praelati et subditi ; et ideo oportet quod etiam ipsi
+            subiciantur inferioribus, quia et ipsi per culpam quodam modo inferiores facti sunt.</p>
+          <p xml:id="bb-d4e25706-d1e197">Ad illud quod obicitur ultimo de subdito alterius, patet responsio, quia non habet
+            iurisdictionem in talem, nec talis potest ei dare, cum alteri subiectus sit. Unde sicut
+            non valet : iste qui est servus Petri, non potest se facer servum Martini, ergo nec iste
+            qui liber est ; sic nec in proposito.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

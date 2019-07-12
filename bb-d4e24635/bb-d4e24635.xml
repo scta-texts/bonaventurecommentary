@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24635">
+        <head xml:id="bb-d4e24635-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e24635-Hd1e111" type="question-title">Pro quo quis debeat excommunicari.</head>
+        <p xml:id="bb-d4e24635-d1e114">Secundo quaeritur, pro quo quis debeat excommunicari, et quaeritur, utrum pro damno vel
+          pro iniuria illata Ecclesiae.</p>
+        <div xml:id="bb-d4e24635-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e24635-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e24635-d1e122">Et quod sic, videtur : Si quis enim frangit vel incendit ecclesiam, excommunicatus est
+            ipso iure ; non autem si aliam domum frangeret : ergo etc.</p>
+          <p xml:id="bb-d4e24635-d1e125">Item, si quis percutit clericum, excommunicatus est ipso iure et incidit in canonem
+            latae sententiae ; sed non incidit si percutit laicum saecularem : ergo, si ius recte
+            dictat, videtur quod pro iniuria etiam sibi illata possit Ecclesia excommunicare.</p>
+          <p xml:id="bb-d4e24635-d1e128">Item, ratione videtur, quia gladius unicuique datur ad defensionem ; sed potestas
+            excommunicandi est gladius spiritualis : ergo potestate excommunicandi potest Ecclesia
+            se defendere et contra damnum et contra iniuriam.</p>
+          <p xml:id="bb-d4e24635-d1e131">Item, iustum est unumquemque, puniri in eo in quo peccat : ergo, si peccat in matrem
+            Ecclesiam inferendo damnum et iniuriam, iustum est ut perdat eius beneficia et suffragia
+            ; sed hoc est excommunicari : ergo etc.</p>
+          <p xml:id="bb-d4e24635-d1e135">Contra : Excommunicatio sive anathematizatio est maledictio ; sed dicitur ad Romanos
+            12, 14 : <quote xml:id="bb-d4e24635-Qd1e137" ana="#rom12_14">Benedicite maledicentibus vos ; benedicite et nolite
+              maledicere</quote> : ergo maledicentibus vel male facientibus non debet Ecclesia
+            maledicere : ergo nec eos excomtnunicare.</p>
+          <p xml:id="bb-d4e24635-d1e141">Item, excommunicatio est beneficiorum subtractio ; sed Deus non subtrahit misericordiam
+            et benefitia ab iis qui offendunt ipsum : ergo, si praeceptum est ecclesiasticis viris
+            ut sint misericordes et <quote xml:id="bb-d4e24635-Qd1e143" ana="#mt5_48">perfecti, sicut Pater caelestis, qui facit
+              solem oriri super bonos et malos</quote>, sicut dicitur Matthaei 5, 48 : ergo non
+            debet Eccesia haec subtrahere propter damnum vel iniuriam aliquam sibi factam.</p>
+          <p xml:id="bb-d4e24635-d1e147">Item, in excommunicationibus damnificatur homo in spiritualibus ; sed
+            improportionaliter maius est damnum in spiritualibus quam in temporalibus ; sed, si quis
+            incendit vel fregit ecclesiam vel percussit clericum vel aliquod tale, non damnificavit
+            nisi in temporalibus : ergo, cum non depeat infligi maior poena quam sit damnum, videtur
+            quod propter hoc non deberet excommunicari.</p>
+          <p xml:id="bb-d4e24635-d1e150">Item, Ecclesia militans debet imitari triumphantem ; sed dicitur in canonica Iudae, 9,
+            quod <quote xml:id="bb-d4e24635-Qd1e152" ana="#iud1_9">cum Michael altercaretur de corpore Moysi, non est ausus
+              iudicium inferre blasphemiae, sed dixit : Imperet tibi Dominus</quote>. Ergo videtur
+            pari ratione quod Ecclesia nullum altercantem cum ipsa debeat excommunicare sive
+            anathematizare.</p>
+        </div>
+        <div xml:id="bb-d4e24635-Dd1e157">
+          <head xml:id="bb-d4e24635-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e24635-Hd1e162" type="question-title">Pro damno vel iniuria potest quidem excommunicationis
+            sententia dictari et etiam emenda a iudice, sed non princpaliter propter hoc</head>
+          <p xml:id="bb-d4e24635-d1e165">Respondeo : Ad praedictorum intelligentiam est notandum quod duplex.est excommunicatio
+            sive excommunicandi modus. Quaedam enim excommunicatio est a iure, quaedam a iudice.
+            Prima excommunicatio est praeservativa, secunda est curativa. Prima excommunicatio, etsi
+            fieri videatur ad conservandam libertatem ecclesiasticam, sicut secunda fieri videtur
+            propter emendam ; tamen prima principaliori modo fertur ad cavendam culpam, quia magna
+            culpa est et multum gravis, quando quis peccat in Ecclesiam. Similiter secunda
+            principaliori modo fit ad frangendam contumaciam ; et ideo talis secunqum formam itiris
+            nulli debet infligi nisi contumaci, et ideo debet monitio praemitti, ut sic de
+            contumacia convincatur. Contumax autem dicitur qui semel et bis monitus, tertio
+            peremptorie citatus, non comparet, aut, si comparet, non vult stare iuri ; vel quando
+            offensa est manifesta, vel iussus a iudice non vult emendare. Tali autem competit haec
+            medicina, sicut in primo problemate visum est. Ex his patent rationes ad utramque
+            partem.</p>
+          <p xml:id="bb-d4e24635-d1e168">Concedo enim quod pro damno vel iniuria potest excommunicationis sententia dictari a
+            iure, sed non principaliter propter hoc ; et similiter pro emenda potest ferri a iudice,
+            sed non principaliter propter hoc, sed propter contumaciam. Rationes ad primam partem
+            ostendunt quod excommunicatio fertur pro damno.</p>
+        </div>
+        <div xml:id="bb-d4e24635-Dd1e173">
+          <head xml:id="bb-d4e24635-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e24635-d1e178">1-2. Rationes vero ad oppositum ostendunt quod non principaliter pro damno, sed pro
+            peccato ; unde Ecclesia maledicit et subtrahit beneficia ob meritum illius, non propter
+            damnum suum ; ob illius culpam, non propter vindictam. Si enim ille velit redire et non
+            possit emendare, statim Ecclesia parcet.</p>
+          <p xml:id="bb-d4e24635-d1e181">Ad illud quod obicitur, quod Ecclesia damnificat illum in spiritualibus, dicendum quod
+            Ecclesia non damnificat, sed ille qui peccat et est contumax se ipsum damnificat ; sed
+            Ecclesia ostendit ipsum damnificatum, ut sic saltem malum suum erubescat et deserat ; et
+            si quodam modo magis damnificet, haec aggravatio damni ad utilitatem ipsius finaliter
+            secundum intentionem Ecclesiae ordinatur.</p>
+          <p xml:id="bb-d4e24635-d1e184">Ad illud ergo quod obicitur, quod Michael non maledixit, dicendum quod diabolus est
+            obstinatus in malo et incorrigibilis, et maledictio illata sibi non potest eum nec per
+            se nec per accidens ordinare ad benedictionem ; et ideo nulla fuit utilitas in
+            maledicendo diabolum. Sed dum Ecclesia maledicit subditum, facit ei confusionem pro
+            peccato ; et quia tali confusione potest a peccato resipiscere, ideo maledicit, ut post
+            benedicat, ideo ligat, ut absolvat ; et non est simile de hac maledictione et de
+            illa.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

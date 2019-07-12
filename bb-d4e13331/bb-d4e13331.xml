@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e13331">
+        <head xml:id="bb-d4e13331-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e13331-Hd1e111" type="question-title">Utrum accidentia possint esse sine subiecto.</head>
+        <p xml:id="bb-d4e13331-d1e114">Circa primum proceditur sic et ostenditur quod accidentia sit possibile esse sine
+          subiecto.</p>
+        <div xml:id="bb-d4e13331-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e13331-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e13331-d1e122">Basilius, In Hexaemeron : <quote xml:id="bb-d4e13331-Qd1e124">Cum enim Deus possit plus facere quam intellectus
+              intelligere</quote> ; et intellectus intelligat accidens praeter subiectum ; ergo Deus
+            potest hoc facere quod accidens sit sine subiecto.</p>
+          <p xml:id="bb-d4e13331-d1e128">Contra : Per miraculum non potest separari definitum a definitione vel a partibus
+            definitionis : unde non potest fieri quod aliquid sit homo et non sit animal rationale
+            et mortale ; sed accidens habet definiri per subiectum : ergo non potest per miraculum
+            esse sine subiecto.</p>
+          <p xml:id="bb-d4e13331-d1e131">Item, accidens habet definiri per comparationem ad subiectum et in comparatione ad suam
+            operationem, et constat quod prior est comparatio accidentis ad subiectum quam ad
+            operationem, quia ab illo recipit esse. Sed non potest aliquod accidens separari a
+            definitione in comparatione ad actum per miraculum ; unde non potest fieri quod sit
+            albedo et quod non sit color disgregativus visus : ergo nec a definitione per subiectum
+            potest separari per miraculum.</p>
+          <p xml:id="bb-d4e13331-d1e134">Item, sicut se habet esse ad ens, ita inesse ad inhaerens, quia accidentis esse est
+            inesse ; sed esse non potest separari ab ente ut sit ens et non sit : ergo nec inesse ab
+            inhaerente : ergo, cum accidens sit inhaerens, impossibile est quod sit et non
+            insit.</p>
+          <p xml:id="bb-d4e13331-d1e138">Item, facere quod aliquid non participans rationem alicuius fiat participans, est hoc
+            transmutare in illud ; sed ratio substantiae est ens per se : si ergo accidentia per
+            miraculum fiant entia per se, hoc est facere quod sint substantiae : ergo species illae
+            fiunt substantiae : cum ergo sint accidentia, illud constat, simul ergo sunt substantiae
+            et accidentia, quod nequaquam potest capere intellectus.</p>
+          <p xml:id="bb-d4e13331-d1e141">Item, eadem est oppositio distantium specierum quae est differentiarum, sicut patet,
+            quia quae est oppositio hominis ad asinum, eadem est rationalis ad irrationale ; rursus,
+            sicut opponitur asinus homini, sic opponitur rationali ; unde sicut non potest fieri
+            quod idem sit homo et asinus, ita nec quod sit asinus et sit rationalis : ergo a simili,
+            immo multo fortius, non potest fieri quod idem sit accidens et ens per se, sicut nec
+            quod idem sit substantia et accidens.</p>
+        </div>
+        <div xml:id="bb-d4e13331-Dd1e145">
+          <head xml:id="bb-d4e13331-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e13331-Hd1e150" type="question-title">Per miraculum fieri potest, quod accidentia sint sine
+            subiecto</head>
+          <p xml:id="bb-d4e13331-d1e153">Respondeo : Dicendum quod per miraculum potest fieri quod accidentia sint sine subiecto
+            sive substantia. Cum enim differant per essentiam, potest Deus sine omni inconvenientia
+            per virtutem suam illa separare.</p>
+          <p xml:id="bb-d4e13331-d1e156">Ad rationes ad oppositum respondent quidam quod esse per se et esse in allo dicunt
+            rationem substantiae et accidentis quoad modos. consequentes, qui sunt inseparabiles
+            secundum potentiam naturalem - ideo per huiusmodi habent notificari - possunt tamen per
+            potentiam supra naturam auferri. Et sic respondent ad obiecta, quia oppositiones currunt
+            quoad rationes dicentes essentiam. Similiter de oppositione quoad differentias
+            essentiales.</p>
+          <p xml:id="bb-d4e13331-d1e159">Potest tamen dici aliter quod accidens et est accidens et iterum est accidens secundum
+            species sive differentias speciales. Nam in quantum comparatur ad subiectum, habet dici
+            accidens ; in quantum ad operationem, habet dici hoc. Notandum igitur quod sicut
+            comparatio accidentis ad operationem est duplidter, scilicet secundum actum et secundum
+            aptitudinem, ita etiam ad subiectum. Comparatio vero accidentis ad propriam operationem.
+            secundum aptitudinem est essentialis et inseparabilis ; unde non potest esse quod sit
+            albedo et non sit disgregativa. Comparatio secundum actum consequitur essentiam ; unde
+            posset accidens separari ab actuali operatione ; unde albedo non semper disgregat. Sic
+            dicendum quod comparatio accidentis ad subiectum secundum aptitudinem est essentialis ;
+            et haec nunquam privatur ab accidente nec ab illis speciebus : verum est enim dicere
+            quod sunt natae esse in subiecto. Comparatio vero actualis, quamvis semper insit actu
+            secundum naturam, tamen sequiiur essentiam, et ideo ab isto potest separari sine aliquo
+            inconvenienti potentia supra naturam. His visis, patet responsio ad obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e13331-Dd1e164">
+          <head xml:id="bb-d4e13331-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e13331-d1e169">1-2. Quod enim obicit, quod definitum non potest separari a definitione, dicendum quod
+            nomina in definitione posita similiter et verba dicunt aptitudinem, non semper actum ;
+            et ideo dico quod accidens, quamvis non sit in subiecto, non tamen separatur a sua
+            definitione, immo ei convenit, quia aptum est esse in subiecto. Patet etiam responsio ad
+            sequens de operatione, quia illa definitio, si intelligatur secundum actum, est
+            separabilis ; si secundum aptitudinem, neutra est separabilis.</p>
+          <p xml:id="bb-d4e13331-d1e172">Ad illud quod obicitur de esse, dicendum quod non est simile, quia esse dicit actum
+            entis absolute, sed inesse actum accidentis in comparatione ad rem alterius generis, et
+            quia res alterius generis diversa est, potest circumscribi intellectus eius a re illa :
+            sive separari ; non sic esse ab ente.</p>
+          <p xml:id="bb-d4e13331-d1e175">Ad illud quod obicitur de substantia, dicendum quod accidentia illa nunquam participant
+            rationem substaritiae ; nam substantia dicitur res per se existens, ita quod nata est
+            per se existere et nullo modo in alio ; hoc autem nullo modo convenit illis
+            accidentibus, immo nata sunt esse in alio.</p>
+          <p xml:id="bb-d4e13331-d1e178">Ad illud quod obicitur de oppositione, dicendum quod differentiae debent dicere
+            aptitudinem sicut et definitiones. Si igitur accipiantur secundum aptitudinem naturalem
+            ens per se, id est, quod natum est esse per se, similiter ens in alio, id est, quod
+            natum est esse in alio, sicut accidens nunquam participat nomen substantiae, ita nec
+            differentiam dicto modo. Dicitur autem accidens ens per se quantum ad actum ; et sic non
+            dicit differentiam essentialem, sed modum consequentem essentiam ; et in talibus
+            differentiis non tenet obiectio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e8894">
+        <head xml:id="bb-d4e8894-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e8894-Hd1e111" type="question-title">Utrum sacramentum Eucharistiae debuerit institui a
+          principio.</head>
+        <div xml:id="bb-d4e8894-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e8894-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e8894-d1e119">Et quod a principio debuerit institui, videtur : Quia hoc sacramentum est viaticum,
+            quia praebet alimentum itineranti. Ergo tunc institui debuit quando homines itinerare
+            coeperunt ad patriam ; sed hoc statim fuit post lapsum : ergo etc.</p>
+          <p xml:id="bb-d4e8894-d1e122">Item, hoc sacramentum est sacramentum unionis corporis Christi mystici. Ergo tunc
+            debuit institui quando fuit corpus mysticum ; sed hoc fuit a principio : ergo etc.</p>
+          <p xml:id="bb-d4e8894-d1e125">Item, sacramentum Matrimonii non cessavit propter lapsum, immo quod erat in officium
+            factum est in remedium ; sed esus ligni vitae datus erat homini, ut dicit <name ref="#Augustine">Augustinus</name>, in sacramentum : ergo non debuit cessare quin
+            sacramentaliter ederet. Sed non debuit lignum comedere, quod daret vitam corporalem,
+            quia morti corporali obligatus erat : ergo lignum vitae, quod daret vitam spiritualem ;
+            sed hoc est Eucharistia : ergo etc.</p>
+          <p xml:id="bb-d4e8894-d1e131">Item, sicut Poenitentia est contra mortale, ita Eucharistia contra venialia ; sed ab
+            initio cucurrit veniale peccatum ut mortale : ergo pari ratione Eucharistia cum
+            Poenitentia.</p>
+          <p xml:id="bb-d4e8894-d1e135">Contra : Hoc sacramentum est maxime gratiae contentivum ; unde et ab hoc nomen accepit.
+            Ergo tantum tempore legis gratiae debuit institui.</p>
+          <p xml:id="bb-d4e8894-d1e138">Item, hoc sacramentum est contentivum secundum veritatem corporis Christi quod traxit
+            de Virgine. Ergo non potuit esse antequam esset hoc corpus : ergo tantum in Novo
+            Testamento.</p>
+          <p xml:id="bb-d4e8894-d1e141">Respondeo : Dicendum quod hoc sacramentum congruebat legi tantum gratiae, tum propter
+            rem contentam, quae est corpus Christi verum, tum propter efficaciam, quae est caritatis
+            vinculum, quae in Nova Lege apparere et abundare debuit, in anterioribus autem
+            imperfecte possideri ; ut ita gradus sit in mundo, sicut in uno homine.</p>
+        </div>
+        <div xml:id="bb-d4e8894-Dd1e145">
+          <head xml:id="bb-d4e8894-Hd1e147">Ad rationes</head>
+          <p xml:id="bb-d4e8894-d1e150">Ad illud ergo quod obicitur de viatico, dicendum quod non valet, quia aliquod debuerunt
+            habere sustentaculum, non perfectum cibum ; et ita aliquam figuram, non rem ipsam.</p>
+          <p xml:id="bb-d4e8894-d1e153">Ad illud quod obicitur, quod est signum corporis mystici, dicendum quod non tantum est
+            signum eius, immo corporis Christi veri, et illius est signum immediatius ; et ideo,
+            quamvis corpus Christi mysticum coeperit ab Abel, non tamen corpus Christi proprium,
+            ideo nec hoc sacramentum.</p>
+          <p xml:id="bb-d4e8894-d1e156">Ad tertium dicendum quod Matrimonium quantum ad officium omni statui conveniebat,
+            quantum autem ad remedium non. Esus autem corporalis illius ligni conveniebat statui
+            immortalitatis, esus istius ligni spiritualis omni statui, sed sacramentalis post istius
+            ligni nativitatem et fructum. Est enim eius manducatio secundum etiam assumptam
+            humanitatem, quam exposuit pro nobis in pretium et nunc exponit in cibum, Ioannis 6, 52
+            : <quote xml:id="bb-d4e8894-Qd1e158" ana="#io6_52">Panis, quem ego dabo, caro mea est pro mundi vita</quote>.</p>
+          <p xml:id="bb-d4e8894-d1e162">Ad illud quod obicitur de Eucharistia, quod est remedium contra venialia, dicendum quod
+            tripliciter deficit ista ratio : primo, quia morbus venialis non est ita periculosus ut
+            mortalis ; secundo vero, quia per Poenitentiam veniale poterat habere remedium ut
+            mortale ; tertio, quia illud sacramentum non est principaliter contra venialia
+            ordinatum, ut infra videbitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

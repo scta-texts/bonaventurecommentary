@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e48133">
+        <head xml:id="bb-d4e48133-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e48133-Hd1e111" type="question-title">Utrum Deus misericordius agat cum uno quam cum alio.</head>
+        <p xml:id="bb-d4e48133-d1e114">Tertio quaeritur, utrum Deus misericordius agat cum uno quam cum altero.</p>
+        <div xml:id="bb-d4e48133-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e48133-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e48133-d1e122">Et quod sic, videtur : Ad Romanos 9, 18 : <quote xml:id="bb-d4e48133-Qd1e124" ana="#rom9_18">Cui vult miseretur, et
+              quem vult indurat</quote>. Si ergo misericordius agit cum uno, quem revocat, quam cum
+            eo quem indurat, patet etc.</p>
+          <p xml:id="bb-d4e48133-d1e128">Item, ordo et gradus est in effectibus divinis propter sapientiam, cuius est ordinare :
+            sed divina misericordia non miseretur nisi sapienter et ordinate : ergo magis uni quam
+            alii.</p>
+          <p xml:id="bb-d4e48133-d1e131">Item, misericordia intuetur miseriam ; sed unus magis est miser quam alter : ergo Deus
+            debet magis misereri unius quam alterius.</p>
+          <p xml:id="bb-d4e48133-d1e134">Item, magis miseretur qui miseriam totam aufert quam qui temperat ; sed Deus ab
+            aliquibus aufert totam miseriam, aliquibus mitigat : ergo etc.</p>
+          <p xml:id="bb-d4e48133-d1e138">Contra. Actus et effectus respondent habitui sive origini in quolibet ; sed divina
+            misericordia est summa : ergo cuiuscumque miseretur, miseretur in summo.</p>
+          <p xml:id="bb-d4e48133-d1e141">Item, misericordia intuetur miseriam : ergo si magis miseretur alicui, ergo magis
+            misero ; sed in futuro magis miser est qui magis peccavit : ergo magis miseretur eius
+            qui magis peccavi. Sed hoc est inconveniens : ergo etc.</p>
+          <p xml:id="bb-d4e48133-d1e144">Item, quia Deus est sapientissimus, ideo facit sapientissime quidquid facit ; ergo, cum
+            sit misericordissimus, misericordissime se habet ad quemlibet : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e48133-Dd1e148">
+          <head xml:id="bb-d4e48133-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e48133-Hd1e153" type="question-title">Respectu effectus sive relevationis a miseria Deus
+            misericordius agit cum uno quam cum altero, tam in praesenti quam in futuro, sed
+            aliter</head>
+          <p xml:id="bb-d4e48133-d1e156">Respondeo : Dicendum quod magis misereri, hoc potest intelligi tripliciter : aut maiori
+            habitu aut actu aut effectu. Primo modo et secundo impossibile est ; sed tertio modo,
+            scilicet quantum ad effectum, qui est relevatio a miseria, verum est, tam in praesenti
+            quam in futuro ; sed aliter nunc, aliter tunc, quia nunc misericordiae effectus sunt
+            principales et effectus iustitiae sunt annexi ; tunc autem effectus iustitiae erunt
+            principales et misericordiae erunt annexi. Tunc enim reddet Deus secundum opera sua
+            unicuique, nunc autem secundum benignitatem suam. Et ideo simpliciter magis miseretur in
+            praesenti eius cui magis vult, in futuro magis magis eius qui magis indiget ; unde magis
+            misero plus condonabit secundum quantitatem absolutam, non tamen secundum quantitatem
+            relatam, ut patebit postea.</p>
+        </div>
+        <div xml:id="bb-d4e48133-Dd1e161">
+          <head xml:id="bb-d4e48133-Hd1e163">Ad rationes</head>
+          <p xml:id="bb-d4e48133-d1e166">Ad illud ergo quod obicitur, quod effectus respondet habitui, dicendum quod verum est
+            in agente inferiori qui facit omne quod potest ; non sic est in Deo.</p>
+          <p xml:id="bb-d4e48133-d1e169">Ad illud quod obicitur, quod peccator reportat commodum, dicendum quod falsum est, quia
+            semper sibi remanet poena maior.</p>
+          <p xml:id="bb-d4e48133-d1e172">Ad illud quod obicitur de sapientia, dicendum quod non est simile, quia sapientia
+            connotat ordinem, non effectum absolutum, ut misericordia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

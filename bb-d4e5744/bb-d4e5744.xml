@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e5744">
+        <head xml:id="bb-d4e5744-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e5744-Hd1e111" type="question-title">Utrum possint baptizare haeretici.</head>
+        <p xml:id="bb-d4e5744-d1e114">Secundo, dato quod clerici et laici possint baptizare, quaeritur, si possint baptizare
+          haeretici.</p>
+        <div xml:id="bb-d4e5744-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e5744-d1e119"> Primo auctoritate Bedae : <quote xml:id="bb-d4e5744-Qd1e121">Sive haereticus sive schismaticus in nomine sanctae
+              Trinitatis baptizat, non valet ille qui baptizatus est a catholicis
+            baptizari</quote>.</p>
+          <p xml:id="bb-d4e5744-d1e125">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e5744-Qd1e130">Nulli sacramento est
+              iniuriandum</quote> ; illi autem iniuriantur qui dicunt ea pollui per pollutionem
+            ministrorum : ergo haeretici, quamvis polluti, possunt baptizare.</p>
+          <p xml:id="bb-d4e5744-d1e134">Item, <quote xml:id="bb-d4e5744-Qd1e136">accedente verbo ad elementum, fit sacramentum</quote> ; sed haereticus
+            dicit verbum et habet elementum : ergo potest conferre sacramentum.</p>
+          <p xml:id="bb-d4e5744-d1e140">Item, potestas baptizandi non est donum gratiae gratum facientis, sed tantum gratis
+            datae, quia constat quod mali sacerdotes baptizant : ergo, esto quod aliquis sacerdos
+            catholicus fiat haereticus, cum propter hoc non amittat gratiam gratis datam, videtur
+            quod possit baptizare.</p>
+          <p xml:id="bb-d4e5744-d1e143">Contra : Cum traditur forma Baptismi, praemittuntur duo, scilicet doctrina et fides,
+            Matthaei ultimo, 19 : <quote xml:id="bb-d4e5744-Qd1e145" ana="#mt28_19">Docete eos baptizantes in nomine
+              Patris</quote> etc. ; et rursus : <quote xml:id="bb-d4e5744-Qd1e148" ana="mc16_16">Qui crediderit et baptizatus
+              fuerit</quote> ; sed doctrina haereticorum non est scientia, sed insipientia, et fides
+            eorum est error, non fides : ergo nec Baptismus eorum est Baptismus.</p>
+          <p xml:id="bb-d4e5744-d1e153">Item, Baptismus est sacramentum fidei : ergo ubi deficit fides, deficit Baptismus.
+            Probatio primae. <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e5744-Qd1e158">Accedit verbum ad
+              elementum et fit sacramentum, non quia dicitur, sed quia creditur</quote>. Ergo, si
+            non creditur, non est sacramentum : cum ergo haereticus non credat, non confert
+            sacramentum.</p>
+          <p xml:id="bb-d4e5744-d1e162">Item, ad Baptismum requiritur intentio ; sed haereticus non habet intentionem, quia non
+            habet fidem, <quote xml:id="bb-d4e5744-Qd1e164">quae intentionem dirigit</quote>, ut dicit <name ref="#Ambrose">Ambrosius</name> : ergo non potest baptizare.</p>
+          <p xml:id="bb-d4e5744-d1e171">Item, haeresis non est Ecclesia, ergo Baptismus haeresis non est Baptismus Ecclesiae ;
+            sed solus Baptismus Ecclesiae est Baptismus : haereticorum igitur, qui non sunt de
+            Ecclesia, non est Baptismus.</p>
+        </div>
+        <div xml:id="bb-d4e5744-Dd1e175">
+          <head xml:id="bb-d4e5744-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e5744-Hd1e180" type="question-title">Haereticus, observatis observandis, valide baptizat</head>
+          <p xml:id="bb-d4e5744-d1e183">Respondeo : Dicendum, sicut dictum est, quod ista tria sunt de integritate Baptismi,
+            scilicet immersio in aquam, prolatio verbi et intentio faciendi quod facit Ecclesia ; et
+            quia haereticus, manens haereticus, potest ista tria habere, potest baptizare et
+            baptizat, quando aliquod istorum non deficit ; operatur enim tune non ut haereticus, sed
+            ut catholicus.</p>
+        </div>
+        <div xml:id="bb-d4e5744-Dd1e188">
+          <head xml:id="bb-d4e5744-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e5744-d1e193">1-2. Ad illud ergo quod obicitur de doctrina et fide, dicendum quod illa non sunt
+            necessitatis, sed congruitatis, fides, inquam, baptizantis ; nam fides Ecclesiae
+            necessaria est, et haec non deficit. Et per hoc patet sequens.</p>
+          <p xml:id="bb-d4e5744-d1e196">3. Similiter ad illud quod obicitur de intentione, dicendum quod, sicut patebit infra,
+            intentio potest esse respectu operis, non respectu finis ; et sic potest esse recta.
+            etiam sine fide.</p>
+          <p xml:id="bb-d4e5744-d1e199">4. Ad ultimum dicendum quod illud argumentum non valet ; et fert <name ref="#Augustine">Augustinus</name> instantiam : Aegyptus non est paradisus : ergo fluvius Aegypti non
+            est fluvius paradisi. Et est fallacia consequentis : homo non est asinus : ergo genus
+            hominis non est genus asini. Possunt enim Ecclesia et haeresis in aliquo communicare,
+            quamvis m ultum differant.</p>
+          <p xml:id="bb-d4e5744-d1e205">Ex his patet casus qui posset quaeri de haeretico, qui credit quod Ecclesia nihil
+            faciat ; videtur enim quod, cum talis, nihil intendat facere, non baptizet.</p>
+          <p xml:id="bb-d4e5744-d1e209">Et ad hoc dicendum quod haereticus bene intendit aliquando facere quod facit Ecclesia,
+            et tamen credit quod Ecclesia nihil faciat, quia respectu alterius est intentio et
+            credulitas. Nam credulitas est respectu effectus, et ipse credit quod nullus effectus
+            subsit illi operi ; tamen nihilominus intendit facere illud opus, non tantum ut est
+            actus ablutionis corporis, verum etiam prout est actus quidam consuetus fieri ab
+            Ecclesia ; et hoc intendendo facere, quamvis principaliter non intendat effectum,
+            intendit tamen ex consequenti, sicut supra tactum est de eo qui voluntarie se subicit
+            operi exteriori, per consequens voluntarie se subicit characteri. Et sic patet
+            totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

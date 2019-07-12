@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e49684">
+        <head xml:id="bb-d4e49684-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e49684-Hd1e111" type="question-title">Utrum Christus apparebit reprobis in forma humanitatis
+          gloriosa.</head>
+        <p xml:id="bb-d4e49684-d1e114">Tertio quaeritur de qualitate formae in qua apparebit Christus, utrum scilicet in forma
+          gloriosa appareat reprobis.</p>
+        <div xml:id="bb-d4e49684-Dd1e117">
+          <head xml:id="bb-d4e49684-Hd1e119" type="question-title">Rationes principales</head>
+          <p xml:id="bb-d4e49684-d1e122">Et quod sic, videtur : Quia in primo adventu apparuit passibilis, quia adventus ille
+            fuit in infirmitate, ergo, cum secundus adventus sit in virtute, ergo apparebit
+            gloriosus.</p>
+          <p xml:id="bb-d4e49684-d1e125">Item, in iudicio apparebit talis qualem decet apparere ad confusionem inimicorum et
+            laetitiam amicorum ; sed inimici maxime confunduntur in gloria et in exaltatione illius
+            quem despexerunt, et e conversa amici laetantur : ergo apparebit in gloria.</p>
+          <p xml:id="bb-d4e49684-d1e128">Item, nulla erit in eo fictio, ergo talem osteridet formam qualem habebit ; sed habebit
+            gloriosam : ergo ostendet reprobis gloriosam formam.</p>
+          <p xml:id="bb-d4e49684-d1e131">Contra : Matthaei 24, 30 : <quote xml:id="bb-d4e49684-Qd1e133" ana="#mt24_30">Apparebit signum Filii hominis in
+              caelo</quote> ; hoc erit signum crucis. Ergo, cum crux sit signum infirmitatis,
+            videtur quod appareat in infirmitate, non in gloria.</p>
+          <p xml:id="bb-d4e49684-d1e138">Item, Chrysostomus : Veniet in iudicio Christus, non solum vulnerum cicatrices, sed
+            etiam ipsam mortem exprobratissimam otendens.</p>
+          <p xml:id="bb-d4e49684-d1e141">Item, ratione videtur, quia, sicut oculus spiritualis se habet ad lucem spiritualem,
+            ita corporalis ad corporalem ; sed sic est quod oculus spititualis malorum non videt
+            lucem spiritualem, quia est improportionalis ; ergo similiter, cum oculus non
+            glorificatus sit improportionalis, non videbit claritatem corporis glorificati.</p>
+          <p xml:id="bb-d4e49684-d1e144">Item, si videbit, cum sensus exterior pascatur in contemplatione humanitatis sicut
+            interior in contemplatione Divinitatis, videtur quod habeant delectationem ; sed non
+            videbunt Divinitatem, ne delectentur : ergo nec humanitatem.</p>
+          <p xml:id="bb-d4e49684-d1e147">Item, quamvis Christus sit benignus secundum veritatem, tamen apparebit terribilis
+            reprobis , sicut dicit <name ref="#IsidoreOfSeville">Isidorus</name>. Ergo pari ratione,
+            quamvis sit gloriosus, tamen debet reprobis apparere ingloriosus.</p>
+        </div>
+        <div xml:id="bb-d4e49684-Dd1e154">
+          <head xml:id="bb-d4e49684-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e49684-Hd1e159" type="question-title">Christus tam bonis quam malis apparebit in forma gloriosa,
+            bonis quidem cum gaudio, sed malis cum confusione</head>
+          <p xml:id="bb-d4e49684-d1e162">Respondeo : Dicendum quod Christus apparebit in forma gloriosa, ut ostensum est, non
+            tantum bonis, sed etiam reprobis ; et non erit differentia ex parte apparentis, sed ex
+            parte recipientium. Boni enim recipient gloriosam formam cum gaudio et gloria, sed mali
+            cum confusione et poena. Confundentur enim in aspectu eius et non poterunt eius
+            sustinere vultum propter conscientiae remorsum et propter exspectationem ferendae
+            sententiae contra eos ; sed econtra boni oblectabuntur.</p>
+        </div>
+        <div xml:id="bb-d4e49684-Dd1e167">
+          <head xml:id="bb-d4e49684-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e49684-d1e172">1-2. Ad illud quod obicitur, quod apparebit cum cruce et cicatricibus, dicendum quod
+            sicut cicatrices in martyribus non sunt signum infirmitatis praesentis sed infirmitatis
+            praeteritae, immo quantum ad gloriam et decentiam et pulcritudinem sunt signa victoriae
+            et gloriae, sic in Christo intelligendum, quia illae cicatrices et crux signa erunt
+            mortis vilissimae quam sustinuit ; sed tamen, quia apparebunt in excellentia gloriae,
+            signum erunt gloriae tunc praesentis. Unde Chrysostomus dicit, Super Matthaeum, quod
+            crux radiis solis erit lucentior, similiter et cicatrices.</p>
+          <p xml:id="bb-d4e49684-d1e175">3-4. Ad illud quod obicitur, quod oculi eorum sunt improportionales, dicendum quod
+            improportionales erunt per privationem sufficientis proportionis ; ideo retundentur
+            visus et confundentur ; sed tamen non erunt omnino improportionales per defectum omnis
+            proportionis. Nec est simile de luce spirituali, quia illa excedit multo plus oculum
+            peccatoris quam lux corporis gloriosi oculum corporis passibilis.</p>
+          <p xml:id="bb-d4e49684-d1e178">Ad illud quod obicitur, quod videbitur terribilis et blandus, ergo similiter gloriosus
+            et ingloriosus, dicendum quod non est simile, quia terribilis et blandus dicitur ad
+            alterum ; unde benignum hominem potest homo aspicere ut terribilem, quia eum timet ; sed
+            gloriosum et non gloriosum dicunt dispositionem a parte visibilis. Unde nisi fiat per
+            deceptionem vel per miraculum et divinam virtutem, quae teneat oculos, sicut dicitur
+            Lucae ultimo, 16 : Oculi eorum tenebantur, res talis videtur qualis est secundum
+            veritatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

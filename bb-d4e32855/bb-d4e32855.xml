@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e32855">
+        <head xml:id="bb-d4e32855-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e32855-d1e111">Haec est ultima pars totalis partis, in qua agit <name ref="#Lombard">Magister</name> de
+          sacramentis. In hac enim parte ultimo agitur de sacramento Matrimonii ; et quoniam tunc
+          unaquaeque res perfecte cognoscitur, quando cognoscitur secundum quadruplex genus causae :
+          ideo pars ista habet quatuor partes : In prima agit de Matrimonio secundum causam
+          formalem. In secunda secundum causam efficientem, infra, distinctione proxima : Post hoc
+          advertendum est, quid sit coniugium. In tertia secundum causam finalem, infra,
+          distinctione trigesima prima : Post haec de bonis coniugii. In quarta secundum causam
+          materialem, quae est personarum legitimitas ; haec enim est dispositio a parte
+          suscipientis ; et per oppositum agit de illegitimitate, et hoc agit infra, distinctione
+          trigesima quarta : Nunc superest attendere, quae personae etc.</p>
+        <p xml:id="bb-d4e32855-d1e117">Prima pars, in qua determinat de Matrimonio secundum causam formalem, habet duas : quia
+          enim Matrimonio formaliter convenit sacramentum et signum, et signum sacramentale duo in
+          se continet, secundum quod tale signum significat divinam institutionem et naturalem
+          repraesentationem : ideo pars ista hbet duas. In prima agit de Matrimonii institutione. In
+          secunda de repraesentatione sive aptatione signi ad signatum, et hoc ibi : Cum igitur
+          coniugium sacramentum sit.</p>
+        <p xml:id="bb-d4e32855-d1e120">Prima pars habet tres partes. In prima determinat institutionis tempus. In secunda modum,
+          ibi : Prima institutio habuit praeceptum. In tertia removet quoddam dubium quod habet ex
+          praedictis ortum, ibi : Fuerunt autem nonnulli haeretici.</p>
+        <p xml:id="bb-d4e32855-d1e123">Cum igitur coniugium sacramentum sit. Haec est secunda pars, in qua post institutionem
+          agit de significatione, et habet haec pars tres particulas. In prima determinat quid sit
+          in hoc sacramento signum et quid signatum tantum et, quid signatum et signum, ex quibus
+          intelligitur unicum fieri sacramentum sive integrari. In secunda ex verbis suis introducit
+          dubium, ibi : Inde est, quod quidam doctorum. In tertia vero dissolvit, ibi : Hoc si
+          secundum superficiem. Et ita in duobus est continentia huius distinctionis, scilicet in
+          huius sacramenti institutione et in sacramenti constitutione sive integratione.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e29826">
+        <head xml:id="bb-d4e29826-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e29826-Hd1e111" type="question-title">Quis debeat administrare hoc sacramentum.</head>
+        <p xml:id="bb-d4e29826-d1e114">Circa primum proceditur sic.</p>
+        <div xml:id="bb-d4e29826-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e29826-d1e119">Videtur quod huius sacramenti administratio solis episcopis competat : Primo per simile
+            Sacramentum Confirmationis, quod habet materiam consecratam, a solis episcopis traditur
+            : ergo pari ratione et sacramentum istud.</p>
+          <p xml:id="bb-d4e29826-d1e122">Item, in moralibus nobilioris artificis est uti instrumenta facto quam ipsum facere ;
+            unde nobilior est miles qui utitur ense, quam faber qui facit. Ergo, si episcopus solus
+            oleum consecrat, videtur quod ipse solus hoc oleo inungere debeat.</p>
+          <p xml:id="bb-d4e29826-d1e125">Item, in naturalibus videmus quod eadem vis quae praeparat materiam, inducit formam, et
+            hoc spectat ad rectum ordinem operandi. Si ergo gratia et virtus conformis est naturae,
+            cum episcopus materiam praeparet, videtur qupd ipse solus sacramentum consummet ; et hoc
+            est in ipsa unctione : ergo etc.</p>
+          <p xml:id="bb-d4e29826-d1e128">Sed contra ostenditur quod extendat se ad omnes : Quia verbum et elementum constituurtt
+            sacramentum ; sed oleum consecratum potest administrari per simplicem laicum et verbum
+            dici : ergo et sacramentum administrari.</p>
+          <p xml:id="bb-d4e29826-d1e131">Item, quod ita debeat esse, videtur, quia illud est sacramentum eorum qui sunt in
+            extrema mortis articula ; sed talibus frequenter non potest subveniri per sacerdotem :
+            ergo videtur quod saltem per laicum eis subveniri possit.</p>
+          <p xml:id="bb-d4e29826-d1e135">Item, hoc ostenditur exemplo, quia legitur in legenda sanctae Genovefae quod ipsa
+            inungebat oleo infirmas et curabat eos : ergo videtur quod hoc saltem spectet ad viros
+            sanctos.</p>
+        </div>
+        <div xml:id="bb-d4e29826-Dd1e139">
+          <head xml:id="bb-d4e29826-Hd1e141">Conclusio</head>
+          <head xml:id="bb-d4e29826-Hd1e144" type="question-title">Extremae unctionis minister est sacerdos, tum ratione
+            materiae, quae est oleum consecratum, quod contingi non dbet nisi manibus consecratis,
+            tum ratione formae, quae est per modum orandi, quod est officium sacerdotum</head>
+          <p xml:id="bb-d4e29826-d1e147">Respondeo : Dicendum quod huius sacramenti dispensatio ex officia spectat ad sacerdotes
+            ; et istud confirmat auctoritas et ratio : auctoritas, quia Iacobi ultimo, 14 dicitur :
+              <quote xml:id="bb-d4e29826-Qd1e149" ana="#iac5_14">Inducat presbyteros, et orent super eum</quote> ; ratio, quia,
+            cum huius sacramenti materia sit oleum consecratum, non debet administrari nec contingi
+            nisi ab eo qui habet manus consecratas ; et talis est sacerdos : ideo non se extendit ad
+            omnes. Nec ad solos episcopos, quia, cum hoc sit sacramentum periclitantium, qui non
+            possunt adire praelatos, sed magis e converso, oporteret multos perire, si a solis
+            episcopis dari deberet. Ideo disposuit Spiritus Sanctus, quod unguentum non solum esset
+            in capite vel in barba Aaron, sed etiam descenderet usque in oram vestimenti, scilicet
+            usque ad inferiores sacerdotes. Nec solum sumitur ratio a parte unctionis, verum etiam a
+            parte orationis. Quoniam enim officium mediationis sacerdotibus competit, sicut competit
+            offerre dona et sacrificia pro peccatis, nec solis episcopis nec etiam laicis, sic etiam
+            dispensatio huius sacramenti, cuius efficacia principaliter consistit in oratione fidei,
+            cuius est sacerdos minister de ratione sui officii.</p>
+        </div>
+        <div xml:id="bb-d4e29826-Dd1e155">
+          <head xml:id="bb-d4e29826-Hd1e157">Ad rationes</head>
+          <p xml:id="bb-d4e29826-d1e160">Ad illud ergo quod obicitur de Confirmatione, dicendum quod nullo modo est simile.
+            Primum, quia confirmandi possunt adire episcopum, non sic inungendi. Praeterea, manuum
+            impositio solis Apostolis competebat, sed infirmorum curatio usque ad alios discipulos
+            descendebat ; et sacramentum Confirmationis est sacramentum impositionis manuum,
+            sacramentum Unctionis est ad curationem ordinatum.</p>
+          <p xml:id="bb-d4e29826-d1e163">Ad illud quod obicitur, quod in moralibus nobilius est uti instrumenta etc., dicendum
+            quod illud veritatem habet ut plurimum in moralibus. Et ratio huius est, quoniam gradus
+            dignitatis est in eis secundum ordinationem ad finem, et utens instrumenta immediatior
+            est fini quam fabricans ; sed in his operibus Ecclesiae est gradus secundum
+            comparationem ad primum principium, ex quo fluit totum regimen et operatio in corpore
+            Ecclesiae ; et ideo virtus prior est superior. Unde superior est episcopus, qui ordinat
+            sacerdotem ad celebrandum, quam ipse sacerdos qui celebrat ; sic in proposito est
+            intelligendum. Praeterea, non est tantae servitutis oleum consecrare sicut infirmos
+            inungere ; primum enim sufficienter potuit fieri ab uno, secundum vero minime : ideo
+            magis voluit Spiritus Sanctus secundum communicari quam primum.</p>
+          <p xml:id="bb-d4e29826-d1e166">Ad illud quod obicitur, quod eiusdem est formam inducere, cuius est materiam
+            praeparare, dicendum quod verum est de forma quae perficit illam praeparationem ; sicut
+            faber fabricando ferrum inducit formam ensis, sic episcopus, quando benedicit, inducit
+            consecrationem ; sed propter hoc non oportet quod illo oleo utatur, sicut nec faber
+            ense.</p>
+          <p xml:id="bb-d4e29826-d1e169">Ad illud quod obicitur, quod verbum et elementum faciunt sacramentum, dicendum quod
+            verum est in aliquibus sacramentis, quorum dispensatio omnibus est commissa ; sed non
+            est verum in omnibus, ut in Eucharistia ; et sic intelligendum de Unctione Extrema.</p>
+          <p xml:id="bb-d4e29826-d1e173">Ad illud quod obicitur de extremo mortis articulo, dicendum quod devotio potest
+            supplere absentiam sacerdotis ; et ideo non est necesse orpnibus committi, maxime cum
+            sacerdos satis de facili possit adesse, nisi absit propter negligentiam infirmi.</p>
+          <p xml:id="bb-d4e29826-d1e176">Ad illud quod obicitur de sancta Genovefa, dicendum quod, sicut supra habitum est, quod
+            quidam absolvunt merito, quidam ex officio, sic intelligendum est in proposito. Unde
+            sicut ad solos sacerdotes pertinet absolvere, tamen viri sancti frequenter impetrant
+            vitae merito quod alii faciunt ex officio, sic in unctione intelligendum est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

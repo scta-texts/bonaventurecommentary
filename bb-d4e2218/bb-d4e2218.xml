@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e2218">
+        <head xml:id="bb-d4e2218-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e2218-Hd1e111" type="question-title">Utrum baptismus Ioannis a Deo fuerit institutus.</head>
+        <div xml:id="bb-d4e2218-Dd1e114" type="rationes-principales">
+          <p xml:id="bb-d4e2218-d1e116">Et quod fuerit a Deo institutus, videtur : Quia ille est institutor rei qui iubet rem
+            fieri et cuius auctoritate fit ; sed Ioannes auctoritate Domini et mandato baptizabat ;
+            unde Ioannis 1, 33 : <quote xml:id="bb-d4e2218-Qd1e118" ana="#io1_33">Qui misit me baptizare, ille mihi
+              dixit</quote> : ergo Ioannes a Domino missus erat ad baptizandum ; et sic etc.</p>
+          <p xml:id="bb-d4e2218-d1e122">Item, baptizator sive baptista nomen est officii et officii honorabilis ; sed nemo
+            assumit sibi honorem, sicut dicitur ad Hebraeos 5, 4, alioquin non est assumptio, sed
+            usurpatio : ergo Ioannes fuit factus a Domino baptista ; et si hoc, ergo et baptismus
+            eius est a Domino institutus.</p>
+          <p xml:id="bb-d4e2218-d1e125">Item, fiat deductio Domini Iesu : <quote xml:id="bb-d4e2218-Qd1e127" ana="#mc11_30">Baptismus Ioannis de caelo erat
+              an ex hominibus ?</quote> Si ex hominibus ; ergo non erat ei credendum. Si de caelo,
+            ergo institutus fuit ab ipso Deo.</p>
+          <p xml:id="bb-d4e2218-d1e131">Contra : Si baptismus Ioannis fuit a Domino institutus, cum ergo debeat a quo
+            instituitur denominari, non deberet dici baptismus Ioannis, sed Dei. Media patet, quia
+            baptismus Christi dabatur a Petro et a Paulo et ab eis non denominabatur, sed tantum a
+            Christo, qui erat institutor. Iuxta hoc quaeritur, cum Evangelium non tantum denominetur
+            ab auctore principali, sed etiam a scriptore, ut Evangelium Ioannis, quare non similiter
+            baptismus ?</p>
+          <p xml:id="bb-d4e2218-d1e134">Item, quod sit institutus a Ioanne, videtur, quia, si a Deo, staret utique, Ioanne
+            cessante ; sed baptismus Ioannis cessavit statim quando Ioannes missus est in carcerem,
+            sicut dicit Chrysostomus, Super Ioannem : ergo baptismus eius fuit ab eo tantum
+            institutus, non a Deo.</p>
+        </div>
+        <div xml:id="bb-d4e2218-Dd1e138">
+          <head xml:id="bb-d4e2218-Hd1e140">Conclusio</head>
+          <head xml:id="bb-d4e2218-Hd1e143" type="question-title">Baptismi a Ioanne denominati principalis institutor fuit Deus,
+            sed Ioannes fuit administrator plenarius et praecipuus</head>
+          <p xml:id="bb-d4e2218-d1e146">Respondeo : Dicendum quod baptismi Ioannis Deus fuit principalis institutor, sicut
+            ptobant rationes primae ; sed Ioannes fuit administrator plenarius et praecipuus :
+            plenarius, quia Deus nihil ibi faciebat quod per ipsum non fieret, totum enim
+            administrabat, quia tantum exterius lavabat ; praecipuus vero, quia Deus per ipsum
+            instituit et ei officium baptizandi commisit, ut nullus baptizaret mo baptismo nisi ipse
+            vel aliquis eius auctoritate. Et inde est quod denominabatur a Ioanne et cessavit ;
+            Ioanne cessante. Sed in Baptismo Christi nullus erat administrator plenarius, quia ibi
+            est interior regeneratio, quae solum fit a Deo, non ministerio humano ; nullus etiam
+            praecipuus, quia Christus instituit Baptisma suum non per aliquem hominem, sed per se
+            ipsum ; nulli etiam sic commisit suum officium, ut alii eius auctoritate baptizarent.
+            Ideo non denominatur ab eis Baptismus Christi nec cessat, eis cessantibus.</p>
+        </div>
+        <div xml:id="bb-d4e2218-Dd1e150">
+          <head xml:id="bb-d4e2218-Hd1e152">Ad rationes</head>
+          <p xml:id="bb-d4e2218-d1e155">Ad illud quod obicitur de Evangelio, dicendum quod Evangelista fuit administrator
+            plenarius, quia quantum ad verba et intellectum : verba enim ex se dicebant non omnino
+            eadem quae Christus in praedicando dixerat ; rursus, sensum servabant ; sed illi primo
+            illuminati fuerunt et postmodum aliis exprimebant. In sacramentis non sic, quia Apostoli
+            signa ex se non habebnt, sed a Domino instituta ; rursus, per gratiam, qua erant
+            purgati, alios non purgabant. Ideo non sic dicitur Baptismus Matthaei sicut Evangelium
+            Matthaei dicitur.</p>
+          <p xml:id="bb-d4e2218-d1e158">Ad aliud patet responsio, quod non ideo cessavit baptismus loannis, quia esset
+            principalis institutor, sed quia erat praecipuus administrator.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

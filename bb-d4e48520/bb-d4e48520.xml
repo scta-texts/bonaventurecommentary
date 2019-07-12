@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e48520">
+        <head xml:id="bb-d4e48520-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e48520-Hd1e111" type="question-title">Utrum Deus possit aliquem pure remunerare ex iustitia vel pure
+          ex misericordia.</head>
+        <p xml:id="bb-d4e48520-d1e114">Quarto quaeritur, utrum possit Deus aliquem pure remunerare ex iustitia vel pure ex
+          misericordia, ita quod ista duo separentur.</p>
+        <div xml:id="bb-d4e48520-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e48520-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e48520-d1e122">Et quod sic, videtur : Quia <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore
+            dicit quod, si Deus totam poenam relaxaret, non propter hoc esset iniustus. Ergo, si
+            misericordia velit relaxare poenam, et iustitia non repugnat, patet etc.</p>
+          <p xml:id="bb-d4e48520-d1e128">Item, ratione videtur, quia Deus est summe iustus et summe misericors ; sed albius est
+            quod est nigro impermixtius ; ergo cum misericordia temperet iustitiam, et iustitia
+            misericordiam, istud est summae misericordiae quod nihil habet de iustitia et e
+            converso. Ergo, si Deus summus est in utroque, potest facere opus de iustitia, in quo
+            non sit misericordia.</p>
+          <p xml:id="bb-d4e48520-d1e131">Item, tantae culpae debetur tanta poena, quaeritur igitur, utrum Deus possit tantam
+            infligere. Si non, ergo non est omnipotens ; si potest, et hoc erat purae iustitiae,
+            ergo potest facere opus purae iustitiae ; similiter concluditur quod opus purae
+            misericordiae.</p>
+          <p xml:id="bb-d4e48520-d1e134">Item, homo potest punire hominem tantum quantum meruit, potest etiam totum remittere.
+            Ergo, si Deus est iustior et misericordior homine, multo fortius Deus potest hoc
+            facere.</p>
+          <p xml:id="bb-d4e48520-d1e138">Contra : II ad Timotheum 2, 13 : <quote xml:id="bb-d4e48520-Qd1e140">Iustus est et negare se ipsum non
+              potest</quote>. Si ergo non potest facere contra se nec se negare, non potest facere
+            quin puniat ; et sic etc.</p>
+          <p xml:id="bb-d4e48520-d1e144">Item, proprium est Dei misereri ; sed proprium non potest relinquere illud cuius est
+            proprium : ergo impossibile est quod aliquem remuneret quin misericorditer faciat.</p>
+          <p xml:id="bb-d4e48520-d1e147">Item, culpa est totam culpam prosequi, et culpa est malum relinquere impunitum. Ergo
+            sicut Deus non potest mentiri, quia malum est, sine culpa, sic nec omnino iuste punire
+            nec omnino misericorditer parcere.</p>
+          <p xml:id="bb-d4e48520-d1e150">Item, sicut Deus creat in quantum unus, verus et bonus, ita regit et remunerat in
+            quantum misericors et iustus ; sed impossibile est Deum facere effectum qui non habeat
+            modum, speciem et ordinem, quae respondent unitati, veritati et bonitati : ergo
+            impossibile est quod retribuat quin in effectu illo aliquid retribuat iustitiae, aliquid
+            misericordiae.</p>
+        </div>
+        <div xml:id="bb-d4e48520-Dd1e154">
+          <head xml:id="bb-d4e48520-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e48520-Hd1e159" type="question-title">In omni Dei retributione misericorda et iustitia sic
+            coniunctae sunt, ut impossibile sit, eas ab invicem separari</head>
+          <p xml:id="bb-d4e48520-d1e162">Respondeo : Dicendum quod in omni retributione Domini sic sunt coniunctae misericordia
+            et iustitia, quod impossibile est separari eas ab invicem. Et ratio huius est, quia
+            sicut in nobis quaedam sunt virtutes quarum perfectio attenditur per accessum ad
+            extremum, ut puta caritas ; quaedam per accessum ad medium, ut iustitia et misericordia
+            ; unde non dicitur summe iustus per excessum severitatis, nec summe misericors propter
+            omnimodam reinissionem culpae ; sed quia tantum miseretur quantum est conveniens
+            similiter et tantum punit. Et ratio huius est, quia iustitia et misericordia maxime
+            dicuntur respectu actuum et meritorum nostrorum.</p>
+        </div>
+        <div xml:id="bb-d4e48520-Dd1e167">
+          <head xml:id="bb-d4e48520-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e48520-d1e172">Ad illud quod dicit <name ref="#HughOfStVictor">Hugo</name>, quod potest totam poenam
+            remittere, dicendum quod verum est de potentia simpliciter, sed non est verum de
+            potentia ordinata ad merita. Vel intelligitur de poena subsequente, non de poena
+            concomitante culpam, quia, ut dicitur in I Confessionum, impossibile est esse dedecus
+            peccati sine decore iustitiae.</p>
+          <p xml:id="bb-d4e48520-d1e178">Ad illud quod obicitur, quod est summe iustus, dicendum est quod non dicitur summe
+            iustus per recessum a misericordia ad severitatem, sed per recessum ab iniustitia.</p>
+          <p xml:id="bb-d4e48520-d1e181">Ad illud quod quaeritur, utrum possit isti tantam poenam infligere, dico quod non
+            potest, et hoc, quia misericordia repugnat et non potest suam. misericordiam negare, hoc
+            enim est non-posse ; unde sicut non posse esse nimis rigidum non sonat in defectum, sed
+            in nobilitatem, sic in proposito intelligendum. Posset etiam dici quod ratione offensae,
+            quae est in Deum infinitum, poena non possit sufficiens taxari nec peccator esset capax
+            ; unde defectus est ex parte naturae suscipientis, non naturae infligentis.</p>
+          <p xml:id="bb-d4e48520-d1e184">Ad illud quod obicitur, quod homo potest parcere totum, dicendum quod est homo ad quem
+            spectat misereri, ut est ille qui recepit iniuriam, et iste non potest omnino punire
+            quin excedat ; et homo ad quem spectat punire, ut est iudex, et iste non potest omnino
+            dimittere quin excedat. Et quoniam Deus gerit istam duplicem personam, scilicet eius qui
+            offenditur et eius qui iudicat, cum non possit excedere, facit utrumque.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

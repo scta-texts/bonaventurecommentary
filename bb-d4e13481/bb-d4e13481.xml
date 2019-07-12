@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e13481">
+        <head xml:id="bb-d4e13481-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e13481-Hd1e111" type="question-title">Utrum sit verum accidentia ibi esse sine subiecto.</head>
+        <p xml:id="bb-d4e13481-d1e114">Tertio quaeritur, utrum sit verum accidentia ibi esse sine subiecto.</p>
+        <div xml:id="bb-d4e13481-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e13481-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e13481-d1e122">Et quod non, videtur : Quia movere et operari debetur substantiae, quae est hoc aliquid
+            ; sed accidentia illa habent movere et operari : ergo sunt in substantia.</p>
+          <p xml:id="bb-d4e13481-d1e125">Item, nullum accidens extenditur nisi in materia, quia omnis forma de se simplex est ;
+            sed constat quod accidentia illa habent extensionem et maiorem possunt habere : ergo
+            sunt in materia.</p>
+          <p xml:id="bb-d4e13481-d1e128">Item, miraculum non aufert operationem ; sed albedo est lux incorporata : cessante ergo
+            materia corporali, manet pura lux : ergo albedo per se deberet movere visum.</p>
+          <p xml:id="bb-d4e13481-d1e131">Contra : Omne accidens quod est in subiedo aliquo denominat illud vel simpliciter vel
+            secundum quid ; sed hoc non faciunt illae species, quia nec denominant panem nec corpus
+            Christi nec aerem : ergo etc.</p>
+          <p xml:id="bb-d4e13481-d1e135">Item, accidentia naturalia non consequuntur materiam secundum essentiam, sed solum
+            secundum esse ut sub forma completiva, nec aliter materia est accidentium subiectum ;
+            sed materia non est ibi sub forma panis, hoc constat, sed sub forma substantiali carnis
+            ; sed tales proprietates non sunt natae esse in carne Christi : ergo etc.</p>
+          <p xml:id="bb-d4e13481-d1e138">Item, quandocumque in aliqua mutatione. salvatur accidens secundum esse quod habet in
+            subiecto, necesse est quod sit commune ei quod mutatur et in quod mutatur, ut si de aere
+            fiat ignis, manet calidum ; sed panis convertitur in corpus Christi, et color et sapor
+            et odor non sunt communia utrisque : ergo vel non manent vel non remanent in subiecto ;
+            sed manent : ergo sunt sine subiecto.</p>
+        </div>
+        <div xml:id="bb-d4e13481-Dd1e142">
+          <head xml:id="bb-d4e13481-Hd1e144">Conclusio</head>
+          <head xml:id="bb-d4e13481-Hd1e147" type="question-title">In eucharistia accidentia sunt sine subiecto, non in aere
+            circumfuso</head>
+          <p xml:id="bb-d4e13481-d1e150">Respondeo : Aliqui voluerunt dicere quod species illae erant in aere circumfuso. Sed
+            illud manifeste falsum est, tum propter hoc quod non denominant accidentia aerem
+            circumiacentem ; tum etiam, quia impossibile est accidens transmutare subiectum ; si
+            ergo fuerunt in pane, non possunt esse in aere. Et iterum, aere mutato, transferuntur de
+            uno loco ad alium. Item, locum replent et aerem expellunt ; sed nullum locatum
+            comparatur ad locum ut ad suum subiectum et nullum accidens expellit subiectum
+            proprium.</p>
+          <p xml:id="bb-d4e13481-d1e153">Propter haec et his similia communiter tenent magistri quod accidentia sunt ibi sine
+            subiecto.</p>
+        </div>
+        <div xml:id="bb-d4e13481-Dd1e158">
+          <head xml:id="bb-d4e13481-Hd1e160">Ad rationes</head>
+          <p xml:id="bb-d4e13481-d1e163">Ad illud quod obicitur de operationibus, dicendum quod quaedam sunt ibi operationes
+            naturales, quaedam supra naturam, quaedam partim sic, partim sic, et ideo ex
+            operationibus nihil potest concludi ; sed quae operationes sunt ibi naturales, infra
+            patebit. Attamen sicut miraculum est quod accidentia sunt sine subiecto, ita miraculum
+            est ut operentur per se.</p>
+          <p xml:id="bb-d4e13481-d1e166">Ad illud quod obicitur de extensione, dicendum. quod quantitas, formaliter loquendo,
+            habet extensionem de natura sui generis ; unde, cum salvatur quantitas, et extensio ;
+            sed tamen caualiter habet a substantia, et ideo, quia esse quantitatis et natura ortum
+            habet a substantia. Sed divina virtus facit quod sit quantitas vere et sine substantia :
+            et hoc faciendo necesse est extensionem salvari sine materia ; et hoc miraculi est, non
+            naturae.</p>
+          <p xml:id="bb-d4e13481-d1e169">Ad illud quod obicitur de albedine, quod est lux incorporata. potest responderi
+            dupliciter : primo, quod non est in actu, sed in potentia ; et ideo, adhuc cessante
+            corpore ; manet adhuc in potentia. Secundo, quia non omnino cessat corpus, immo quamvis
+            cesset substantia, manet dimensio, superficies et terminatio, et ideo albedo secundum
+            illum actum solum quem prius habebat. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

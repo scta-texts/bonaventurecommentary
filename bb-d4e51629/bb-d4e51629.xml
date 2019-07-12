@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51629">
+        <head xml:id="bb-d4e51629-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e51629-Hd1e111" type="question-title">Utrum corpus gloriosum sit passibile passione veniente ab
+          extrinseco.</head>
+        <p xml:id="bb-d4e51629-d1e114">Secundo quaeritur, utrum corpus gloriosum sit passibile passione veniente ab extrinseco,
+          sicut igne, vel cultello.</p>
+        <div xml:id="bb-d4e51629-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e51629-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e51629-d1e122">Et quod non, videtur : Quia dicit <name ref="#Anselm">Anselmus</name> quod <quote xml:id="bb-d4e51629-Qd1e127">erunt
+              omnipotentes suae voluntatis, sicut Deus suae</quote>. Ergo, si voluntas animarum est
+            in conservatione corporis, ergo nihil poterit corpus animae laedere.</p>
+          <p xml:id="bb-d4e51629-d1e131">Item, omnis passio magis facta abicit a substantia : ergo, si est passibile ab
+            exteriori, ergo potest fieri abiectio a substantia, ergo et corruptio. Sed supra
+            probatum est quod est incorruptibile et immortale : ergo etc.</p>
+          <p xml:id="bb-d4e51629-d1e134">Item, nihil composit um potest pati exterius quod non possit pati interius ; sed corpus
+            gloriosum non potest pati interius : ergo etc.</p>
+          <p xml:id="bb-d4e51629-d1e137">Contra : Corpus gloriosum constat materialiter ex terra ; sed terra non potest, manente
+            forma quam habet, tantum sublimari quod sit igne superior : ergo manet infra ignem :
+            ergo, si inferius patitur a superiori, sed tale corpus est inferius igne, videtur
+            etc.</p>
+          <p xml:id="bb-d4e51629-d1e141">Item, corpus nobilissimum est inferius infimo spiritu quantumcumque peccatore ; sed
+            spiritus peccatorum positus in igne patitur : ergo corpus humanum quantumcumque
+            nobilitatum potest ab igne pati.</p>
+          <p xml:id="bb-d4e51629-d1e144">Item, omne continuum divisibile, omne divisibile partibile, et omne partibile est
+            passibile ab exteriori : ergo etc.</p>
+          <p xml:id="bb-d4e51629-d1e147">Item, quandocumque corpus durum obviat molli, necesse est illud dividere, si sit
+            impellentia vehemens ; esto igitur quod cultellus obviet corpori glorioso, aut ergo est
+            durius cultello aut cultellus penetrat ; sed non est durius, cum sit carneum, ergo
+            etc.</p>
+        </div>
+        <div xml:id="bb-d4e51629-Dd1e151">
+          <head xml:id="bb-d4e51629-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e51629-Hd1e156" type="question-title">Corpus gloriosum est impassibile ab extrinseco omni genere
+            passionis corrumpentis</head>
+          <p xml:id="bb-d4e51629-d1e159">Respondeo : Dicendum quod corpus gloriosum est impassibile ab extrinseco omni genere
+            passionis corrumpentis. Haec autem est duplex, scilicet per influentiam ; sicut ignis
+            comburit corpus ; et per violentiam, sicut cultellus dividit. Prima non est in corpore
+            glorioso quia talis influentia aut est secundum ordinem iustitiae ; et haec est in
+            daemonibus et peccatricibus animabus secundum ordinem iustitiae ; in corpore glorioso
+            non est talis passio, quia non meruit puniri. Alia est secundum ordinem naturae ; et
+            ista est solum quando patiens est talis naturae quod materia illa appetit esse sub alio
+            actu : privatio enim est principium patiendi. Quoniam autem in corpore glorificato iam
+            terminati sunt appetitus, ideo, si gloriosum corpus poneretur in igne inferni, non
+            laederetur.</p>
+        </div>
+        <div xml:id="bb-d4e51629-Dd1e164">
+          <head xml:id="bb-d4e51629-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e51629-d1e169">1-2. Et per hoc patet solutio ad duo prima, quia daemon patitur secundum ordinem
+            iustitiae, licet sit superior per naturam. Patet etiam secundum, quod terra patitur,
+            quia materia est rationem habens privationis. Alia est actio per violentiam, et de hac
+            dicunt aliqui quod non patitur, quia nemo est qui inferat ; et si esset qui vellet
+            inferre, corpus posset declinare.</p>
+          <p xml:id="bb-d4e51629-d1e172">Sed tunc secundum istam viam corpus Adam ante lapsum habuisset dotem impassibilitatis.
+            Ponatur etiam per impossibile quod cultellus applicetur ventri, aut venter resistit aut
+            non. Si non, ergo patitur et cultellus subintrat, et ita est passibile ; si resistit,
+            quaero : per quam naturam ? Et dicunt aliqui quod habet naturam quintae essentiae, quae
+            non est secabilis nec divisibilis ; unde, si quis iuxta solem esset et impingeret
+            cultellum, non pertransiret ; et non resisteret per naturam duri et mollis, sed quia
+            caret duritie et mollitie et passibilitate. Sed quia hoc difficile est intelligere, ideo
+            dicendum quod corpus gloriosum non potest pati per violentiam corporis obviantis, quia
+            omne corpus est pervium ei et illud pertransit, sicut videbitur. Unde sicut si aliquis
+            haberet cultellum crystallinum, non expelleret radium per eius ictum, immo radius
+            penetraret, unde non pateretur ab ipso ; sic in proposito intelligendum corpus gloriosum
+            penetrare cultellum.</p>
+          <p xml:id="bb-d4e51629-d1e175">Quod ergo dicitur : omne continuum divisibile, intelligendum est de divisione
+            mathematica, non de divisione naturali, de qua hic opponitur. Sic enim exponit <name ref="#Anselm">Anselmus</name> quod illud intelligitur secundum.intellectum, non
+            secundum actum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

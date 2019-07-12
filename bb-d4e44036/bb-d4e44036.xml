@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e44036">
+        <head xml:id="bb-d4e44036-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e44036-d1e111">Terminata parte principali huius libri, in qua <name ref="#Lombard">Magister</name>
+          determinavit de sanitate quam sacramentorum medicamenta conferunt, sequitur pars, in qua
+          agit de sanitate ad quam sacramenta disponunt. Prima est sanitas gratuita, secunda est
+          gloriosa ; prima est viae, secunda patriae ; prima et a culpa, secunda a miseria. Et
+          quoniam ad hanc gloriam habendam concurrit resurrectio et concurrit iudicium, ideo primo
+          determinat de resurrectione, secundo vero de iudicio, infra, quadragesima septima
+          distinctione : Solet etiam quaeri, qualiter dabitur sententia iudicii.</p>
+        <p xml:id="bb-d4e44036-d1e117">Prima pars habet duas. Quoniam enim in resurrectione anima separata reiungitur corpori,
+          ideo primo agit de resurrectione, secundo vero de statu animae separatae, infra,
+          distinctione quadragesima quinta : Praeterea scienqum est quod omnes animae etc.</p>
+        <p xml:id="bb-d4e44036-d1e120">Prima pars habet duas. In prima determinat de resurrectione secundum id quod est. In
+          secunda, quantum ad modum sive quantum ad qualitatem et quidditatem resurgentium, infra,
+          distinctione quadragesima quarta : Solent autem nonnulli percontari etc. Prima pars habet
+          duas. In prima procedit per modum narrationis. In secunda per modum inquisitionis, ibi :
+          Hic quaeritur , utrum electis tunc adsit etc. Prima pars habet tres partes. In prima parte
+          ostendit resurrectionem esse futuram. In secunda vero determinat resurrectionis causam,
+          ibi : Causa enim resurrectionis mortuorum etc. In tertia determinat resurrectionis horam,
+          ibi : Media autem nocte dicitur venturus, ubi dicitur quod dicit resurrectionem futuram
+          media nocte, non propter temporis qualitatem, sed potius propter horae incertitudinem.</p>
+        <p xml:id="bb-d4e44036-d1e123">Hic quaeritur, utrum electis tunc adsit etc. Haec est secunda pars, in qua procedit <name ref="#Lombard">Magister</name> per modum inquisitionis, determinans dubitabilia. quae
+          habent ortum ex praedictis ; illa autem dubia sunt quatuor, quae habent ortum ex verbis
+          Apostoli quae prius tacta sunt ; et ideo pars ista habet quatuor particulas et quatuor
+          capitula in quibus illa dubia determinat. In primo quaerit de librorum apertione, et quae
+          ibi leguntur et quae ad memoriam reducuntur. In secundo quaerit de vivorum inventione, ibi
+          : Quaeri etiam solet, utrum illi quos vivos etc. In tertio vero determinat quomodo
+          intelligitur quod iudicabit vivos et mortuos, ibi : His autem adiciendum est. In quarto,
+          quomodo intelligitur illud quod mortui resurgent incorrupti, ibi : Cumque ex praedictis
+          sane credi valeat etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

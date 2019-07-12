@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e38643">
+        <head xml:id="bb-d4e38643-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e38643-Hd1e111" type="question-title">Utrum crimen incestus impediat Matrimonium et faciat personam
+          illegitimam.</head>
+        <p xml:id="bb-d4e38643-d1e114">Secundo quaeritur de perversione voluntatis in incestuosis, ut puta cum quis iacet cum
+          uxoris sorore ; quaeritur ergo, utrum tale crimen impediat Matrimonium et faciat personam
+          illegitimam.</p>
+        <div xml:id="bb-d4e38643-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e38643-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e38643-d1e122">Et quod sic, videtur : Per auctoritates, quas adducit <name ref="#Lombard">Magister</name> in littera.</p>
+          <p xml:id="bb-d4e38643-d1e128">Item, hoc ipsum probatur ratione, quia, in quo quis peccat, in hoc torquendus est ; sed
+            incestus iste fuit contra bonum Matrimonii : ergo in eo debet puniri.</p>
+          <p xml:id="bb-d4e38643-d1e131">Item, affinitas contrahitur in copula carnali ; sed affinitas impedit Matrimonium
+            contrahendum et dirimit iam contractum, sicut et consanguinitas vel cognatio : ergo, si
+            factus est affinis uxori, iam non manet Matrimonium.</p>
+          <p xml:id="bb-d4e38643-d1e134">Item, quod saltem non debeat reddere debitum, videtur, quia quicumque coit cum
+            consanguinea vel affine, peccat mortaliter ; sed nullus tenetur peccare mortaliter :
+            ergo non tenetur reddere debitum.</p>
+          <p xml:id="bb-d4e38643-d1e138">Contra : Uxor non debet puniri in peccato viri, ergo non privatur viro ; et si hoc,
+            ergo iste est vir et potest ab eo petere debitum : ergo, si Matrimonium est vinculum
+            relationis in utroque extremo, ergo et ista est uxor et ille vir.</p>
+          <p xml:id="bb-d4e38643-d1e141">Item, quod, mortua uxore, possit contrahere cum alia, videtur, quia omne crimen potest
+            deleri per poenitentiam : ergo si, omnino deleto crimine, non debet durare poena,
+            videtur quod talis possit contrahere.</p>
+          <p xml:id="bb-d4e38643-d1e144">Item, esto quod contrahat, numquid Ecclesia separabit ? Constat quod non : ergo
+            incestus non impedit Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e38643-Dd1e148">
+          <head xml:id="bb-d4e38643-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e38643-Hd1e153" type="question-title">Incestuosa copula cum sorore uxoris impedit tantum ius petendi
+            debitum, si fit post contractionem matrimonii; si vero ante eandem, est impedimentum
+            dirimens</head>
+          <p xml:id="bb-d4e38643-d1e156">Respondeo : Dicendum quod aliquis potest committere incestum cognoscendo sororem uxoris
+            suae dupliciter : aut antequam contrahat Matrimonium cum sorore, aut post contractionem.
+            Si post contractionem Matrimonii, Matrimonium illud non solvitur, amittit tamen ius
+            petendi debitum, non tamen reddendi, quia non potuit peccatum eius praeiudicare uxori,
+            nisi fuerit conscia sceleris. Interdicitur etiam tali ab Ecclesia, ut non contrahat cum
+            alia, etiam priori mortua ; dispensatur tamen cum eo, maxime si timetur de fornicatione,
+            quia est iuvenis. Si vero contrahat sine dispensatione, non debet separari omnino, sed
+            ad tempus ad poenitentiam faciendam ; peccat tamen contrahendo sine Ecclesiae licentia.
+            Si autem cognovit sororem ante Matrimonii contractionem, etiam post sponsalia de futuro,
+            nullum est Matrimonium contractum ratione affinitatis ; unde separandi sunt iudicio
+            Ecclesiae, et mulier potest nubere, vir autem, quantum est de rigore iuris, nubere non
+            potest.</p>
+        </div>
+        <div xml:id="bb-d4e38643-Dd1e161">
+          <head xml:id="bb-d4e38643-Hd1e163">Ad rationes</head>
+          <p xml:id="bb-d4e38643-d1e166">Et in hoc casu intelliguntur auctoritates a Magistro inductae.</p>
+          <p xml:id="bb-d4e38643-d1e169">Ad illud quod obicitur de crimine, dicendum quod, quamvis sit homo puniendus pro
+            crimine, quantum est de rigore, dispensatur tamen, ubi timetur periculum, et detrahitur
+            severitati.</p>
+          <p xml:id="bb-d4e38643-d1e172">Ad illud quod obicitur de affinitate, dicendum quod affinitas superveniens non
+            dissolvit Matrimonium iam contractum, quia quod firmum est, non potest infirmari aliquo
+            casuali vel accidentali superveniente.</p>
+          <p xml:id="bb-d4e38643-d1e175">Ad illud quod obicitur de debito, dicendum quod ipse in petendo cognoscit affinem, sed
+            in reddendo cognoscit uxorem, quia illa petit affectu uxorio et petit ius quod habet in
+            eo ; et ideo tenetur ille reddere.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

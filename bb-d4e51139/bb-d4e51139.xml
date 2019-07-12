@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51139">
+        <head xml:id="bb-d4e51139-Hd1e108">Quaestio 1</head>
+        <p xml:id="bb-d4e51139-d1e111">De numero et sufficientia dotium.</p>
+        <p xml:id="bb-d4e51139-d1e114">Quantum ergo ad primum proceditur sic. Dotes corporis consueverunt quatuor assignari,
+          scilicet claritas, impassibilitas, subtilitas et agilitas.</p>
+        <div xml:id="bb-d4e51139-Dd1e117">
+          <head xml:id="bb-d4e51139-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e51139-d1e122">Sed quod debeant esse pauciores, videtur : Quia dotes sunt in corpore secundum quod
+            comparatur ad animam ; sed anima tantum dupliciter comparatur, scilicet ut motor et ut
+            perfectio : ergo videtur quod tantum sint duae dotes.</p>
+          <p xml:id="bb-d4e51139-d1e125">Item, tantum tres dicuntur esse vires secundum quas anima regit corpus et perficiendo
+            et movendo, scilicet naturalis, vitalis et animalis ; et secundum hoc dicuntur tres
+            spiritus in corpore : ergo videtur quod sint tantum tres.</p>
+          <p xml:id="bb-d4e51139-d1e128">Item, dotes animae sunt tres : ergo, si anima pluribus dotibus dotanda est quam corpus,
+            si anima non habet nisi tres, nec corpus.</p>
+          <p xml:id="bb-d4e51139-d1e131">Contra : Quod sint plures, videtur : Quoniam sicut claritas facit ad pulcritudinem, ita
+            et partium congruentia ; unde <name ref="#Augustine">Augustinus</name>, De civitate Dei
+            : <quote xml:id="bb-d4e51139-Qd1e136" source="http://scta.info/resource/adcd-l22">Pulcritudo est quaedam partium
+              congruentia cum quadam coloris suavitate</quote>. Ergo sicut claritas est dos
+            corporis, sic et congruentia, et sic etc.</p>
+          <p xml:id="bb-d4e51139-d1e141">Item, sicut corpus, ad hoc quod sit animae congruum organum, requirit debitam
+            qualitatem, ita etiam debitam quantitatem. Ergo sicut assignantur dotes a parte
+            qualitatis, ita etiam a parte quantitatis : ergo plures sunt quam quatuor dictae.</p>
+          <p xml:id="bb-d4e51139-d1e144">Item, <name ref="#Anselm">Anselmus</name>, in libro De similitudinibus, ponit septem
+            esse conditiones quibus anima glorificatur in corpore : agilitatem, fortitudinem,
+            libertatem, salutem, voluptatem, longaevitatem, pulcritudinem. Ergo videtur quod sint
+            multo plures quam praedictae quatuor.</p>
+        </div>
+        <div xml:id="bb-d4e51139-Dd1e151">
+          <head xml:id="bb-d4e51139-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e51139-Hd1e156" type="question-title">Dotes corporis erunt quatuor: claritas, impassibilitas,
+            subtilitas et agilitas; quarum sufficientia quadruplici via insinuatur</head>
+          <p xml:id="bb-d4e51139-d1e159">Respondeo : Dicendum quod numerus istarum dotium sive qualitatum perficientium corpus
+            accipitur ex Sapientiae 3, 7 : <quote xml:id="bb-d4e51139-Qd1e161" ana="#sap3_7">Fulgebunt iusti et tanquam
+              scintillae in arundineto discurrent</quote> : in fulgore claritas ; in iustitia
+            impassibilitas, quia iustitia est perpetua et immortalis ; in scintillae nomine
+            subtilitas ; in discursu agilitas.</p>
+          <p xml:id="bb-d4e51139-d1e165">Ratio autem istius numeri accipitur multipliciter a diversis. Et primo modo secundum
+            causam finalem, hoc modo. Dicunt enim quod corpus resurgit, disponitur et dotatur
+            propter gloriam animae, quae consistit in perfecta cognitione cognitivae et unione
+            affectivae. Ad cognitionem autem duo requiruntur, scilicet spiritualitas et luminositas,
+            quia cognoscens debet esse spirituale et debet habere lumen ; et ideo propter
+            cognitionem animae est in corpore subtilitas et claritas. Unio autem amoris est
+            liberalis et fortis : Fortis enim est ut mors dilectio. Propter libertatem debet esse
+            corpus agile, propter fortitudinem et indissolubilitatem debet corpus esse impassibile.
+            Et sic patet quod quatuor sunt dotes.</p>
+          <p xml:id="bb-d4e51139-d1e168">Secundo modo accipitur secundum causam efficientem. Dotes enim huiusmodi in corpore, ut
+            supra ostensum est, consummatum et perfectum esse habent ab influentia animae in corpus.
+            Anima autem in corpus influit dupliciter, scilicet ut perfectio et ut motor. Ut
+            perfectio anima gloriosa influit vivificando vita immortali, ut motor movendo motu
+            infatigabili ; alioquin non esset gloriosa nisi excluderet mortem et poenam. Quia ergo
+            vivificat vita, ideo necesse est in corpore esse dispositionem ad vitam, et haec est
+            lucis abundantia et claritas ; quia vero vita immortali, necesse est corpus habere
+            dispositionem ad immortalitatem, et ita est impassibilitas. Quia vero motu infatigabili
+            movet, ideo oportet quod nihil resistat, et ideo subtilitas est in corpore ; oportet
+            etiam quod nihil retardet, et sic agilitas. Et sic patet similiter quod quatuor
+            sunt.</p>
+          <p xml:id="bb-d4e51139-d1e172">Tertio modo accipitur secundum causam formalem. Dicunt enim aliqui quod in corpore
+            nostro, cum sit natura caelestis concilians et elementaris, modo dominatur elementaris,
+            sed post dominabitur natura caelestis, quae est natura lucis ; haec erit sicut formalis
+            et completiva corporis. Et quia lux habet quatuor istas proprietates, sicut patet in
+            radio, scilicet claritatem, quia illuminat ; impassibilitatem, quia nihil ipsum
+            corrumpit ; agilitatem, quia subito vadit ; penetrabilitatem, quia corpora diaphana sine
+            eorum corruptione pertransit : sic etiam corpus gloriosum, in quo dominatur natura
+            lucis, quatuor habet dotes.</p>
+          <p xml:id="bb-d4e51139-d1e175">Quarto modo accipitur secundum causam materialem sic. Corpus nostrum est compositum ex
+            quatuor elementis. Et quia elementa sunt imperfecta, quadruplicem habet ab eis
+            defectibilitatem. Ab aqua, quae est elementum humidum et passibile, habet passibilitatem
+            et corruptionem ; unde humidum aqueum corpus corrumpit. A terra vero habet obscuritatem,
+            quia est elementum opacum. Ab igne animalitatem, quia calor consumit continue ; ideo
+            continua indiget alimonia ciborum. Ab aere vero habet infirmitatem ; aer enim facillime
+            immutatur et cedit cuilibet impellenti. Quoniam igitur quatuor isti defectus debent per
+            bona opposita removeri, ad hoc quod corpus sit perfectum perfectione completa, ideo
+            quatuor sunt dotes : contra corruptionem impassibilitas, contra obscuritatem claritas,
+            contra animalitatem spiritualitas, contra infirmitatem virtus sive penetrabilitas.</p>
+          <p xml:id="bb-d4e51139-d1e178">Et haec ultima sumptio convenientior est inter omnes, quoniam concordat auctoritati et
+            rationi : auctoritati Apostoli, I ad Corinthios 15, 42-44 : <quote xml:id="bb-d4e51139-Qd1e180" ana="#Icor15_42">Seminatur in corruptione, resurget in incorruptione</quote> ; ecce impassibilitas.
+              <quote xml:id="bb-d4e51139-Qd1e183" ana="#Icor15_43">Seminatur in ignobilitate, surget in gloria</quote> ; ecce
+            claritas. <quote xml:id="bb-d4e51139-Qd1e186" ana="#Icor15_43">Seminatur in infirmitate, surget in virtute</quote> ;
+            ecce penetrabilitas. <quote xml:id="bb-d4e51139-Qd1e189" ana="#Icor15_44">Seminatur animale, surget
+              spirituale</quote> ; ecce agilitas. Unde Apostolus sumit dotes per comparationem ad
+            illos quatuor defectus quos removent Similiter <name ref="#Augustine">Augustinus</name>,
+            De civitate Dei, XXII : Aberit a corporibus nostris omnis deformitas, omnis tarditas,
+            omnis infirmitas, omnis corruptio. Omnis deformitas per claritatem, omnis tarditas per
+            agilitatem, omnis infirmitas per spiritualitatem, omnis corruptio per impassibilitatem.
+            Concordat etiam haec suppositio rationi. Dotes enim corporis dicunt non omnes
+            qualitates, sed qualitates nobiles et principales de novo superadditas naturae. Et quia
+            de novo superadditae, debent accipi secundum naturales defectus, et hi secundum causas
+            principales, quae sunt quatuor elementa : patet quod ista via inter omnes est magis
+            congrua. Ex his patent obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e51139-Dd1e198">
+          <head xml:id="bb-d4e51139-Hd1e200">Ad rationes</head>
+          <p xml:id="bb-d4e51139-d1e203">1-2. Quod enim obicit, quod anima comparatur dupliciter vel tripliciter tantum,
+            dicendum quod anima secundum illas duas comparationes ad corpus, ut motor et perfectio,
+            requirit in corpore quatuor dispositiones, ut ostensum est prius.</p>
+          <p xml:id="bb-d4e51139-d1e206">Ad illud quod obicitur, quod plures debent esse dotes animae quam corporis, dicendum
+            quod dotes animae attenduntur secundum potentias, sed dotes corporis secundum qualitates
+            respicientes elementa ; et ideo patet quare illae tres, istae plures.</p>
+          <p xml:id="bb-d4e51139-d1e209">1-2. Ad illud quod obicitur de congruentia partium et quantitate, dicendum quod illa
+            erit quae nunc est, in quibus convenienter est ; ideo non est aliqua de novo dos penes
+            ipsam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

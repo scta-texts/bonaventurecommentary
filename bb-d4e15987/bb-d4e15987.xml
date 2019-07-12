@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e15987">
+        <head xml:id="bb-d4e15987-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e15987-Hd1e111" type="question-title">Utrum poenitentia sit virtus theologica vel cardinalis.</head>
+        <p xml:id="bb-d4e15987-d1e114">Tertio quaeritur, utrum sit virtus theologica vel cardinalis.</p>
+        <div xml:id="bb-d4e15987-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e15987-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e15987-d1e122">Et quod theologica, videtur : Quia poenitentiae est reconciliare Deo et detestari
+            peccatum in quantum Dei offensivum : ergo respicit ipsum Deum non tantum ut finem, sed
+            etiam in ratione obiecti ; sed omnis talis virtus est theologica : ergo etc.</p>
+          <p xml:id="bb-d4e15987-d1e125">Item, videtur quod sit caritas, quia poenitentiae est detestari peccatum quia peccatum
+            sive Dei offensivum ; sed non detestatur aliquis separationem ab aliquo nisi quia
+            diligit coniungi cum eo ; sed hoc est caritatis : ergo poenitentia est caritas.</p>
+          <p xml:id="bb-d4e15987-d1e128">Item, eadem vi naturali, qua homo refugit malum ne fiat, aspernatur cum factum est ;
+            sed caritate refugit homo separari a Deo : ergo eadem refugit separationem iam factam.
+            Sed hoc est poenitentiae : ergo etc.</p>
+          <p xml:id="bb-d4e15987-d1e131">Contra: Quod sit virtus cardinalis, videtur, quia omnis virtus theologica secundum
+            actum suum transit in Deum ut in obiectu m ; sed poenitentia non transit in Deum ut in
+            obiectum quantum ad actum poenitendi : ergo etc.</p>
+          <p xml:id="bb-d4e15987-d1e135">Item, quod sit iustitia, videtur : super illud Psalmi [4, 6] : <quote xml:id="bb-d4e15987-Qd1e137" ana="#ps4_6">Sacrificate sacrificium iustitiae</quote>, Glossa : <quote xml:id="bb-d4e15987-Qd1e140">Quid iustius quam ut suis
+              quisque peccatis potius quam alienis peccatis irascatur, seque puniens per
+              poenitentiam et satisfactionem Deo offerat ?</quote>
+          </p>
+          <p xml:id="bb-d4e15987-d1e144">Item, <name ref="#IsidoreOfSeville">Isidorus</name> : <quote xml:id="bb-d4e15987-Qd1e149">tunc iudicium homo de se
+              sumit, quando per dignam poenitentiam sua prava facta damnat</quote> ; sed iudicium
+            sumere est iustitiae : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e15987-Dd1e154">
+          <head xml:id="bb-d4e15987-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e15987-Hd1e159" type="question-title">Poenitentia non est virtus theologica, sed cardinalis,
+            contenta sub iustitia</head>
+          <p xml:id="bb-d4e15987-d1e162">Respondeo : Dicendum quod hic duplex fuit opinio.</p>
+          <p xml:id="bb-d4e15987-d1e165">Quidam enim voluerunt dicere quod poenitentia non est aliud quam caritas secundum
+            substantiam, differens secundum statum. Dicitur enim caritas, in quantum amat Deum, sed
+            poenitentia, in quantum resurgens, et eius est detestari malum in quantum Dei
+            offensivum. Sed certe si timor, qui facit declinare a malo, differt a caritate, non
+            video quare poenitentia non differat. Sed quia habitus cognoscuntur per actus, non
+            quoscumque, sed formales sive elicitos et primos, notandum quod poenitentiae actus est
+            detestari culpam sive peccatum, quia Dei offensivum, et hoc in reconciliationem sive
+            emendam. Et quia haec ratio est ipsius iustitiae, dico quod poenitentia est virtus
+            cardinalis, contenta sub iustitia. Sicut enim fortitudo multos habet ramos ab una radice
+            procedentes, ut patientiam, perseverantiam, fiduciam, quae induunt unam rationem, sic
+            etiam iustitia, ut puta largitatem, pietatem, humilitatem, obedientiam, poenitentiam,
+            quae forte sunt partes potentiales ipsius virtutis iustitiae, sicut melius patebit
+            infra.</p>
+          <p xml:id="bb-d4e15987-d1e168">Ad intelligentiam autem obiectorum notandum quod virtutes invicem se adiuvant et
+            invicem sibi imperant, sicut patet consideranti motus earum, ut patet. Aliquis enim
+            obedit ad hoc solum, quod praecipitur ; et hoc est obedientiae purae. Aliquis obedit
+            praecepto Domini, quia amat eum ; et hoc est. obedientiae imperatae a caritate. Aliquis
+            obedit in hoc praecepto continentiae, quia diligit ipsam ; et hoc est obedientiae
+            imperatae a continentia. Unde obedire semper ab obedientia elicitur, aliquando per se,
+            aliquando ab aliis imperata. Similiter patet in aliis, quia continere est actus elicitus
+            a castitate. Si quis autem continet amore castitatis, talis actus est elicitus et
+            imperatus a castitate ; si quis amore Dei, sic est elicitus a castitate et imperatus a
+            caritate ; si propter praeceptum Dei, sic est imperatus ab obedientia. Similiter
+            dicendum quod poenitentia detestatur peccatum aut quia Dei offensivum, ut ei
+            reconcilietur et emendet, et hoc facit secundum se ; aut quia a Deo separativum, et hoc
+            facit imperata a caritate ; aut quia specialis virtutis corruptivum, et hoc facit
+            imperata et adiuta a qualibet speciali virtute. Et sic patet quod proprie est iustitia,
+            tamen contingit aliarum virtutum motus sibi commisceri.</p>
+        </div>
+        <div xml:id="bb-d4e15987-Dd1e173">
+          <head xml:id="bb-d4e15987-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e15987-d1e178">Ad illud ergo quod obicitur primo, quod est theologica, quia habet Deum pro obiecto,
+            dicendum quod falsum est, quia sicut obedientia proprie respicit Dei mandatum et latria
+            honorem Deo debitum, sic poenitentia offensam Deo factam et emendam faciendam.</p>
+          <p xml:id="bb-d4e15987-d1e181">Ad aliud patet responsio, quia ille motus est a caritate per modum imperantis, sed a
+            poenitentia per modum elicientis ; unde, quamvis caritas moveat ad detestandum quod
+            separat a Deo, non tamen elicit, quia est ibi specialis difficultas sicut in aliis
+            actibus virtutum ; unde sicut caritas movet ad omne bonum imperando, sed non eliciendo,
+            immo speciales virtutes sunt. necessariae, sic in actu poenitentiae intelligendum.</p>
+          <p xml:id="bb-d4e15987-d1e184">Ad illud quod obicitur de virtute naturali, dicendum quod non est simile, quia virtus
+            naturalis non dicit tantam approximationem ad actum sicut virtus infusa vel acquisita ;
+            et ideo magis diversificatur quam naturalis. Et hoc patet, quia plures virtutes sunt in
+            eadem potentia naturali ; et ideo non sequitur, quodsi naturalis eadem est, quod propter
+            hoc sit eadem virtus moralis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

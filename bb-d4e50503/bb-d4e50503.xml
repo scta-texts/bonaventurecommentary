@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e50503">
+        <head xml:id="bb-d4e50503-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e50503-Hd1e111" type="question-title">In quo subiecto sit beatitudo.</head>
+        <p xml:id="bb-d4e50503-d1e114">Tertio quaeritur de beatitudinis subiecto ; et quaeritur, utrum homo sit subiectum
+          beatitudinis secundum animam an totum coniunctum.</p>
+        <div xml:id="bb-d4e50503-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e50503-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e50503-d1e122">Et quod totum coniunctum, videtur :<ref xml:id="bb-d4e50503-Rd1e124">
+              <name ref="#Augustine">Augustinus</name>, XIX De civitate Dei</ref> : <quote xml:id="bb-d4e50503-Qd1e130" source="http://scta.info/resource/adcd-l19">Summum bonum, a quo homo beatus efficitur,
+              ex utriusque rei bonis constat, animae scilicet et corporis</quote>.</p>
+          <p xml:id="bb-d4e50503-d1e134">Item, De spiritu et anima, dicit quod Deus factus est homo, ut totum hominem
+            beatificaret, exterius per humanitatem, interius per Divinitatem.</p>
+          <p xml:id="bb-d4e50503-d1e137">Item, <name ref="#Anselm">Anselmus</name>, definiens beatitudinem, dicit quod est
+            sufficientia omnium bonorum ; et bona illa dividit in bona animae et corporis.</p>
+          <p xml:id="bb-d4e50503-d1e143">Item, ratione videtur, quia praemium respondet merito ; sed meritum est totius
+            coniuncti, quia anima exuta non meretur : ergo beatitudo sive praemium.</p>
+          <p xml:id="bb-d4e50503-d1e147">Item, beatitudo opponitur miseriae ; sed miseria est non tantum de animae, sed etiam
+            est totius coniuncti, maxime. ratione corporis : ergo etc.</p>
+          <p xml:id="bb-d4e50503-d1e150">Item, si beatitudo omnino respiceret animam ut subiectum, ergo non necesse esset corpus
+            resurgere ; sed necesse est resurgere : ergo etc.</p>
+          <p xml:id="bb-d4e50503-d1e153">Contra : Super illud Psalmi [32, 12] : <quote xml:id="bb-d4e50503-Qd1e155" ana="#ps32_12">Beata gens, cuius Dominus
+              Deus</quote> etc., Glossa : <quote xml:id="bb-d4e50503-Qd1e158">Beatitudo hominis tantum in animo est, quia animus
+              hominis tantum capax est, valens frui illa</quote>.</p>
+          <p xml:id="bb-d4e50503-d1e162">Item, ratione videtur, quia beatitudo consistit in Deo, quia ipse est finis ultimus, in
+            quo standum est ; sed solus spiritus ad Deum videndum et amandum convertitur : ergo
+            beatitudo est in solo spiritu.</p>
+          <p xml:id="bb-d4e50503-d1e165">Item, beatitudo gloriae respondet gratiae ; sed gratia, cum sit qualitas spiritualis,
+            est in homine ratione solius animae : ergo et beatitudo, quia, quantum se extendit
+            dispositio ad formam, tantum se extendit forma.</p>
+          <p xml:id="bb-d4e50503-d1e168">Item, si aliqua passio inest aliquibus subiectis, inest secundum aliquod commune ; sed
+            beatitudo inest angelo et homini : ergo inest secundum aliquod commune angelo et homini.
+            Sed non est aliquod commune angelo et homini nisi spiritus et potentiae spirituales :
+            ergo beatitudo est tantum in potentia spirituali.</p>
+          <p xml:id="bb-d4e50503-d1e172">Item, si aliqua duo communicant in aliqua natura et non possunt convenire in eo quod
+            superadditum est naturae, illud superadditum non inest secundum naturam in qua
+            communicant ; sed homo communicat cum brutis in corpore et in potentiis sentiendi et non
+            potest communicare in beatitudine : ergo non inest secundum corpus.</p>
+        </div>
+        <div xml:id="bb-d4e50503-Dd1e176">
+          <head xml:id="bb-d4e50503-Hd1e178">Conclusio</head>
+          <head xml:id="bb-d4e50503-Hd1e181" type="question-title">Beatitudo est in sola anima ut in subiecto primo per
+            inhaerentiam, in corpore vero propter coniunctionem per quandam redundantiam</head>
+          <p xml:id="bb-d4e50503-d1e184">Respondeo : Ad hoc dixerunt aliqui quod beatitudo dicitur dupliciter : proprie et
+            communiter. Proprie est gaudium de participatione Dei perfecta per cognitionem et amorem
+            ; communiter vero dicitur omnis remuneratio excludens omnem miseriam. Primo modo
+            comprehendit praemium substantiale tantum, secundo modo accidentale ; primo modo est
+            tantum in anima, secundo modo est in anima et corpore et toto coniuncto. Et per hoc
+            solvunt rationes ad partes oppositas.</p>
+          <p xml:id="bb-d4e50503-d1e187">Sed ista solutio non videtur conveniens, quoniam, sicut dicit <name ref="#Augustine">Augustinus</name>, beate vivere est bonis veris certisque gaudere ; sed gaudium et
+            dolor, sicut dicit, XIV De Trinitate, est ipsius animae : ergo et gaudium beatitudinis
+            est in anima sicut in subiecto, sive sit de bono increato, quod est Deus, sive de bonis
+            corporis.</p>
+          <p xml:id="bb-d4e50503-d1e193">Et ideo dicunt alii aliter, quod gaudium etiam accidentale et beatitudo accidentalis
+            est in anima sicut in subiecto, sed huius gaudii materia est in corpore, quia gaudet
+            anima de bonis corporis ; et ideo beatitudo non est in corpore sicut in subiecto, sed
+            sicut in materia et obiecto, non principali tamen. Sed istud non sufficit dicere, quia
+            similiter materia gaudii est in omnibus creaturis remanentibus post iudicium : ergo non
+            magis diceretur secundum hoc, corpus nostrum beatificari quam aliae creaturae ; quod non
+            est conveniens dicere. Si tu dicas quod magis, propter hoc quod habet conditiones
+            nobiliores, hoc non valet, quia similiter corpus solis easdem conditiones quas corpus
+            nostrum habebit.</p>
+          <p xml:id="bb-d4e50503-d1e197">Et ideo dicendum aliter quod beatitudo, cum sit gaudium de bonis, est in aliquo sicut
+            in subiecto primo per inhaerentiam, et sic dico quod est in sola anima ; et est in
+            aliquo sicut in coniuncto per quamdam redundantiam, et sic, quia corpus est coniunctum
+            animae, gaudium redundat in corpus.</p>
+          <p xml:id="bb-d4e50503-d1e200">Concedendae ergo sunt rationes probantes quod beatitudo non sit in corpore tamquam in
+            subiecto primo, sed tamen est ibi propter coniunctionem per quamdam redundantiam et
+            comparticipationem.</p>
+        </div>
+        <div xml:id="bb-d4e50503-Dd1e205">
+          <head xml:id="bb-d4e50503-Hd1e207">Ad rationes</head>
+          <p xml:id="bb-d4e50503-d1e210">Ad illud ergo quod obicitur, quod ex utriusque bonis constat beatitudo, dicendum quod
+              <name ref="#Augustine">Augustinus</name> dicit illud secundum opinionem Tullii.</p>
+          <p xml:id="bb-d4e50503-d1e216">Ad illud quod obicitur, ut totum hominem beatificaret, dicendum quod ibi est quaedam
+            congruentia, quia etiam, etsi non esset incarnatus, homo esset beatus, dum tamen esset
+            redemptus et ad visionem Dei perductus.</p>
+          <p xml:id="bb-d4e50503-d1e219">Ad illud quod dicit <name ref="#Anselm">Anselmus</name>, dicendum quod bene continet
+            bona corporis ; sed beatitudo non dicitur esse illa bona, sed gaudium de illis
+            bonis.</p>
+          <p xml:id="bb-d4e50503-d1e225">Ad illud quod obicitur de merito, dicendum quod anima non potest mereri extra corpus,
+            non propter defectum virtutis, sed propter defectum status et temporis merendi.</p>
+          <p xml:id="bb-d4e50503-d1e229">Ad illud quod obicitur, quod miseria est ex parte corporis, dicendum quod miseria
+            subiective et proprie est in natura rationali ; sed materialiter potest esse ratione
+            corporis, sicut dicit <name ref="#Augustine">Augustinus</name>, VIII De civitate
+            Dei.</p>
+          <p xml:id="bb-d4e50503-d1e235">Ad aliud patet responsio, quod corpus necesse est resurgere, ut fiat beatum per quamdam
+            comparticipationem et redundantiam. Et est simile in gratia, quia, si gratia existens in
+            anima secundum potentiam rationalem, redundat in sensibilem, quando abundans est, et
+            ipsam tranquillat, et quando delectatio magna est, similiter, sicut dicitur in Psalmo
+            [41, 3] : Sitivit in te anima mea ; cum in gloria sit perfecta abundantia et delectatio,
+            non est mirum si redundat in corpus ; et hoc nemo dubitat nisi inexpertus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e2769">
+        <head xml:id="bb-d4e2769-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e2769-Hd1e111" type="question-title">Utrum expressio verbi vocalis sit de integritate Baptismi</head>
+        <p xml:id="bb-d4e2769-d1e114">Secundo quaeritur, utrum expressio verbi vocalis sit de integritate Baptismi.</p>
+        <div xml:id="bb-d4e2769-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e2769-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e2769-d1e122">Et quod sic, patet : Ex ipsa Domini institutione, Matthaei ultimo, 19 : <quote xml:id="bb-d4e2769-Qd1e124" ana="#mt28_19">Baptizantes eos in nomine Patris et Filii et Spiritus Sancti</quote> :
+            ergo necesse est, ibi Trinitatem nominari. Si dicas quod debet nominari in corde, et non
+            oportet quod voce ; contra : in Baptismo, quod est sacramentum fidei, necesse est esse
+            professionem fidei : ergo, cum sit perfectum sacramentum, debet habere perfectam
+            professionem ; sed haec est in verbo, quia dicitur ad Romanos 10, 10 : Corde creditur ad
+            iustitiam, ore autem etc. : ergo necesse est verbum exprimi. </p>
+          <p xml:id="bb-d4e2769-d1e128">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera :
+              <quote xml:id="bb-d4e2769-Qd1e133">Verbo Baptisma consecratur ; detrahe verbum, et quid est aqua nisi aqua</quote>
+            ? Aut, ergo intelligit de verbo creato aut increato. Si de increato, sed illud non
+            potest detrahi, quia semper adest : ergo, cum intelligat de verbo quod potest accedere
+            et recedere, et hoc est verbum vocale, videtur quod sit de integritate Baptismi.</p>
+          <p xml:id="bb-d4e2769-d1e137">Contra : <name ref="#HughOfStVictor">Hugo</name> : <quote xml:id="bb-d4e2769-Qd1e142">Decuit per Verbum, per quod
+              omnia sunt creata, omnia recreari</quote>, ideo verbum consonat Sacramento ; sed illud
+            fuit Verbum increatum tantum : ergo non requiritur ad essentiam sacramenti verbum vocale
+            sive creatum.</p>
+          <p xml:id="bb-d4e2769-d1e146">Item, et si creatum, non videtur quod vocale, quia <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera, quod <quote xml:id="bb-d4e2769-Qd1e151">virtus aquae est a verbo,
+              non quia dicitur, sed quia creditur</quote>; ergo sufficit verbum mentale.</p>
+          <p xml:id="bb-d4e2769-d1e156">Item, si verbum vocale est necessarium, cum Patris et Filii et Spiritus Sancti sint
+            tria nomina vocalia, debet ergo baptizari non in nomine, sed in nominibus.</p>
+          <p xml:id="bb-d4e2769-d1e159">Item, quod non verbum vocale, videtur, quia verba vocalia non sunt eadem apud omnes,
+            ergo nec sacramentum ; et hoc falsum est, quia una fides et unum baptisma, ad Ephesios
+            4, 5.</p>
+        </div>
+        <div xml:id="bb-d4e2769-Dd1e163">
+          <head xml:id="bb-d4e2769-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e2769-Hd1e168" type="question-title">In baptismo necesse est exprimi verbum vocale.</head>
+          <p xml:id="bb-d4e2769-d1e171">Respondeo : Dicendum quod necesse est exprimi verbum vocale, quia Deus contulit vim
+            verbo ; unde sine verbo nullius est efficaciae. Ratio autem quare voluit exprimi est
+            perfecta fidei professio, ut sit in facto et verbo. Est etiam perfecta signatio ; quia
+            enim facta est regeneratio per Verbum incarnatum, et Verbum incarnatum optime signatur
+            per verbum voce indutum : ideo voluit et instituit quod esset ibi verbum vocale.</p>
+        </div>
+        <div xml:id="bb-d4e2769-Dd1e176">
+          <head xml:id="bb-d4e2769-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e2769-d1e181">Ad illud ergo quod obicitur primo, quod omnia sunt creata per Verbum increatum,
+            dicendum quod per illud, secundum quod incarnatum est, omnia sunt recreata sufficienter,
+            sed efficienter per fidem et professionem huius ; et quia in sacramento est efficientia,
+            ideo est ibi expressio in verbo vocali.</p>
+          <p xml:id="bb-d4e2769-d1e184">Ad illud quod obicitur : non quia dicitur, sed quia creditur, intelligendum est cum
+            praecisione, non quia dicitur tantum, sed etiam quia creditur.</p>
+          <p xml:id="bb-d4e2769-d1e187">Ad illud quod obicitur, quod deberet dici in nominibus, dicendum quod nomen dicitur
+            tripliciter : uno modo vox imposita ad significandum aliquem, ut Petrus. Alio modo nomen
+            dicitur notitia, ut cum dicitur : Deus, in nomine tuo salvum me fac, quia, si esset vox
+            tantum, iam non esset salus muto. Tertio modo nomen dicitur notitia voce expressa ut in
+            Psalmo [75, 2] : Notus in Iudaea Deus, in Israel magnum nomen eius ; ille enim dicitur
+            magni nominis, cuius nominis fama percrebuit ; et sic accipitur in proposito. Et quoniam
+            una est notitia Patris et Filii et Spiritus Sancti, quia una fides, ideo dicitur in
+            nomine, non in nominibus.</p>
+          <p xml:id="bb-d4e2769-d1e190">Ad illud quod obicitur, quod voces sunt diversae, dicendum quod, etsi diversae sint
+            linguae, tamen conveniunt in intellectu et modo intelligendi, id est significatione et
+            modo significandi ; et quia non requiritur nomen secundum quod vox tantum, sed secundum
+            quod vox sit significans et taleni intellectum generans et tali modo ; et hoc est idem
+            apud omnes : ideo sacramentum est idem, sicut homo et anthropos.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

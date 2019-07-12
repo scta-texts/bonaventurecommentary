@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e17831">
+        <head xml:id="bb-d4e17831-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e17831-Hd1e111" type="question-title">Utrum homo per talia opera aliquid mereatur.</head>
+        <p xml:id="bb-d4e17831-d1e114">Quinto, supposito quod per opera facta extra caritatem non fiat satisfactio nec
+          vivificentur, quaeritur, utrum homo per ea aliquid mereatur.</p>
+        <div xml:id="bb-d4e17831-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e17831-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e17831-d1e122">Et quod sic, videtur : Quia, sicut dicit auctoritas communis, nullum malum impunitum et
+            nullum bonum irremuneratum. Sed divina iustitia nunquam malum quantulumcumque dimittit
+            quin puniat : ergo nec quantulumcumque bonum quin remuneret.</p>
+          <p xml:id="bb-d4e17831-d1e125">Item, si non remunerantur, ergo aequaliter se habet iudex ad eum qui nullum bonum fecit
+            et ad eum qui fecit multa bona. Ergo stultum est alicui peccatori consulere quod faciat
+            aliquod bonum opus.</p>
+          <p xml:id="bb-d4e17831-d1e128">Item, Exodi 20, 12 : <quote xml:id="bb-d4e17831-Qd1e130" ana="#ex20_12">Honora patrem tuum, ut sis
+            longaevus</quote>; aut hoc dicitur habenti caritatem aut non habenti. Si habenti tantum,
+            haec est parva remuneratio, quia ipse non amat istam vitam, sed aliam. Ergo dicitur non
+            habenti : ergo meretur aliquid, si honorat, et sic etc.</p>
+          <p xml:id="bb-d4e17831-d1e134">Item, Dominus dicit de hypocrita, Matthaei 6, 2, qui facit opus bonum propter gloriam,
+            quod <quote xml:id="bb-d4e17831-Qd1e136" ana="#mt6_2">recepit mercedem suam</quote>. Esto ergo quod aliquis faciat
+            opus bonum propter Deum, non propter gloriam ; cum non sit peius quam illud quod fuit ad
+            gloriam, immo melius, ergo dignum est mercede aliqua.</p>
+          <p xml:id="bb-d4e17831-d1e141">Contra : <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e17831-Qd1e146">Peccator non est dignus pane
+              quo vescitur</quote>. Ergo si peccator non est dignus vivere, multo minus est dignus
+            remunerari.</p>
+          <p xml:id="bb-d4e17831-d1e150">Item, qui nihil est in conspectu alicuius, apud illum nihil meretur ; sed peccator
+            nihil est in conspectu Dei ; Psalmus [14, 4] : <quote xml:id="bb-d4e17831-Qd1e152" ana="#ps14_4">Ad nihilum deductus
+              est in conspectu eius malignus</quote> : ergo etc.</p>
+          <p xml:id="bb-d4e17831-d1e156">Item, Sapientiae 14, 9 : <quote xml:id="bb-d4e17831-Qd1e158" ana="#sap14_9">Similiter odio sunt Deo impius et
+              impietas eius</quote> ; sed impietas omnino displicet Deo : ergo et impius. Sed qui
+            omnino displicet alii, nihil meretur apud ipsum : ergo etc.</p>
+          <p xml:id="bb-d4e17831-d1e162">Item, nihil meretur organum nisi vivum in operatione servitii, unde ligo nihil meretur,
+            dum operatur, homo in vinea ; sed peccator organum est non vivum : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e17831-Dd1e166">
+          <head xml:id="bb-d4e17831-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e17831-Hd1e171" type="question-title">Peccator potest apud Deum aliquid mereri, sed tantum de
+            congruo</head>
+          <p xml:id="bb-d4e17831-d1e174">Respondeo : Aliqui dicunt quod peccator nihil omnino meretur apud Deum, neque ex
+            congruo neque ex condigno ; sed tamen Deus ratione abundantissimae largitatis bona eius
+            opera non dimittit irremunerata, immo remunerat ; et est bonum peccatori bene operari,
+            quamvis non.sit iustum eum remunerari, sed magis benignum.</p>
+          <p xml:id="bb-d4e17831-d1e177">Alii dicunt et probabilius, quod est mereri de congruo et de condigno ; peccator autem
+            apud Deum nihil meretur de condigno, sed tamen mereri potest de congruo. Peccator enim
+            aliquando facit bonum opus in genere ad gloriam suam, ut cum dat eleemosynam propter
+            gloriam ; et ex hoc opere non meretur mercedem, sed poenam, quia procedit ex contumelia.
+            Aliquando facit ad Dei gloriam et propter amorem Dei quem habet, et hoc non potest esse
+            sine aliqua gratia gratis data, quae disponit de congruo ad gratiam gratum facientem,
+            quam Deus aliquo modo acceptat ; et ex hoc meretur de congruo. Illud autem meritum
+            comparatum merito caritatis est improportionale, sicut linea latitudini et superficiei.
+            Unde sicut linea nihil est in comparatione ad superficiem, aliquid tamen est in se, sic
+            est de peccatore ad iustum et de eius amore ad amorem caritatis et de merito ad
+            meritum.</p>
+        </div>
+        <div xml:id="bb-d4e17831-Dd1e182">
+          <head xml:id="bb-d4e17831-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e17831-d1e187">1-2. Ex his patent obiecta. Et primo ad illud <name ref="#Augustine">Augustini</name> :
+            Non est dignus etc., dico bene quod non meretur ex condigno. Similiter ad duo sequentia,
+            quod nihil est in comparatione caritatis.</p>
+          <p xml:id="bb-d4e17831-d1e193">Ad illud de Sapientia : Similiter est odio impius, dicendum quod illud intelligitur per
+            se secundum quod impius, non secundum quod habens naturam bonam et aliqua dona gratis
+            data ; et, cum facit opus secundum quod impius, nihil meretur ; sed quando secundum
+            gratiam gratis datam, aliquid saltem meretur de congruo.</p>
+          <p xml:id="bb-d4e17831-d1e196">Ad ultimum de instrumenta, dicendum quod non vivum dicitur dupliciter : negative, quod
+            nec vivit nec natum est vivere ; et privative, quod non vivit, sed tamen natum est
+            vivere. Per primum nec de congruo nec de condigno ; per secundum autem est meritum de
+            congruo, eo quod non privatur simpliciter vita ; vivit enim in morte et voluntarie
+            operatur bonum et est quodam modo Dei adiutor.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

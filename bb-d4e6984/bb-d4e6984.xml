@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e6984">
+        <head xml:id="bb-d4e6984-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e6984-Hd1e111" type="question-title">Utrum aliquis in utro possit baptizari</head>
+        <div xml:id="bb-d4e6984-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e6984-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e6984-d1e119">Et quod aliquis possit baptizari in utero, ostenditur sic : Maior est gratia
+            sanctificationis quam gratia baptismalis ; sed parvulus in utero est susceptibilis
+            gratiae sanctificationis, sicut patet de Ioanne Baptista et Ieremia : de Ioanne, Lucae
+            1, 15 : <quote xml:id="bb-d4e6984-Qd1e121" ana="#lc1_15">Spiritu Sancto replebitur adhuc ex utero matris
+              suae</quote>. Si ergo parvulus in utero est capax gratiae sanctificationis, videtur
+            similiter quod et gratiae baptismalis.</p>
+          <p xml:id="bb-d4e6984-d1e125">Item, pronior est Deus ad miserandum quam ad condemnandum ; sed parvulus in utero non
+            tantum est susceptibilis culpae, sed etiam poenae : ergo videtur quod Deus debeat in
+            utero remedium praeparare. Sed remedium contra culpam originalem est Baptismus : ergo
+            videtur quod homo possit in utero baptizari.</p>
+          <p xml:id="bb-d4e6984-d1e128">Sed contra : <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera
+            <!-- IV, d. 6, c. 3 --> : <quote xml:id="bb-d4e6984-Qd1e135">Non potest quis renasci antequam sit natus</quote> ;
+            sed baptizari est renasci : ergo non potest baptizari antequam nascatur.</p>
+          <p xml:id="bb-d4e6984-d1e139">Item, originalis culpa contrahitur ex carne corrupta : ergo quamdiu parvulus est
+            coniunctus carni corruptae, est coniunctus causae morbi, quia semper nutritur sanguine
+            menstruo : ergo non debet quis purificari in loco infectionis nisi separetur : ergo non
+            debet baptizari antequam nascatur et a matre separetur.</p>
+          <p xml:id="bb-d4e6984-d1e143">Item, Baptismus est sacramentum exterius, et omne aliud sacramentum : ergo nullus est
+            susceptibilis Baptismi nisi exterius prodeat in lucem : non ergo baptizabilis est
+            quamdiu in utero latet.</p>
+        </div>
+        <div xml:id="bb-d4e6984-Dd1e147">
+          <head xml:id="bb-d4e6984-Hd1e149">Conclusio</head>
+          <head xml:id="bb-d4e6984-Hd1e152" type="question-title">Baptismus non potest dari existentibus in utero</head>
+          <p xml:id="bb-d4e6984-d1e155">Respondeo : Ad praedictorum intelligentiam est notandum quod ratio quare quis non
+            purificatur nec baptizatur in utero est divina institutio, quae sic instituit. Ratio
+            autem divinae institutionis assignatur congruitatis, non necessitatis, quia posset
+            utique aliter esse, si Deus vellet. Et secundum diversos plures et diversae congruentiae
+            assignantur.</p>
+          <p xml:id="bb-d4e6984-d1e158">Fuerunt enim qui dixerunt quod ratio sumitur ex parte aequitatis divini iudicii, quae
+            nec parvulum nec adultum iustificat sine aliquantula poena ; et ideo debuit circa
+            parvulum aliquid fieri poenale ad hoc ut iustificaretur ; et illud dicunt fuisse omni
+            tempore. Sed ista ratio non videtur conveniens, quia non est generalis. Nam tempore
+            legis ; naturae, ut dicit <name ref="#GregoryGreat">Gregorius</name>, iustificabantur in
+            sola fide parentum. Praeterea, esto quod parvulus baptizetur in aqua calida sive tepida,
+            potius esset ei solatium quam poena, et ita haec ratio non sufficit.</p>
+          <p xml:id="bb-d4e6984-d1e164">Fuerunt alii qui dixerunt quod ratio sumitur ex parte sacramenti. Quia enim in
+            originali peccato et est caro infecta et anima deformata, ideo sacramentum Baptismi duo
+            habet, scilicet aquam et Spiritum, ut dicit Damascenus, et quodam modo est ibi
+            purificatio et generatio carnis et spiritus : et ideo non tantum praesupponit
+            nativitatem in utero, quae est in infusione animae, verum etiam nativitatem ex utero,
+            quae est in egressu. Et ista quidem ratio bona est, sed particularis, quia non valet ad
+            remedium legis naturae, quod non respiciebat parvuli carnem.</p>
+          <p xml:id="bb-d4e6984-d1e168">Fuerunt et alii qui sumpserunt rationem ex parte culpae. Quia enim culpa originalis
+            contracta est ex carne infecta et ex carne parentum secundum actum generationis, totum
+            tempus generationis et cibationis ex illa carne infecta, ut puta ex sanguine menstruo,
+            est tempus deputatum peccato, non remedio : et ideo ante necesse est a carne matris
+            parvulum separari et totam generationis actionem corisummari quam superveniat
+            benedictio, quoniam illud totum est tempus maledictionis. Et ista quidem ratio bona est,
+            nisi etiam repugnaret sanctificationi, quoniam ibi datur gratia mundans a culpa
+            originali.</p>
+          <p xml:id="bb-d4e6984-d1e171">Fuerunt et quarti qui dixerunt quod ratio est ex parte gratiae. Quia enim gratiae est
+            dare esse ordinatum et gratiae est regenerare ; et esse ordinatum praesupponit esse
+            distinctum, et renasci praesupponit nasci : ideo necesse est quod ante Baptismum
+            parvulus nascatur, ut sit perfecte natus secundum carneni ; sit etiam distinctus,
+            quoniam, quamdiu est in ventre, coniungitur matrici per umbilicum, unde recipit
+            alimentum. Et haec quidem ratio bona est, maxime quia consonat et ortum habet a verbis
+            Sanctorum ; tamen adhuc per istam rationem posset ostendi quod parvulus non deberet
+            sanctificari in utero sicut nec baptizari.</p>
+          <p xml:id="bb-d4e6984-d1e174">Et propterea est dicendum quod ratio sumenda est ex parte sacramentalis remedii. Quia
+            enim sacramentale remedium respicit operationem Ecclesiae, et operatio Ecclesiae non se
+            extendit ad parvulum nisi extra uterum : ideo nullo tempore nec fide parentum nec aliquo
+            sacramento iustificatus est parvulus antequam natus, quantum est de lege communi, quia
+            Deus decrevit salvare puerum per sacramentum vel aliquid quod sit loco sacramenti.</p>
+          <p xml:id="bb-d4e6984-d1e177">Ad hoc autem intelligendum est notandum quod triplex status distinguitur in homine post
+            animae infusionem : primus est in utero ; secundus extra uterum in statu infantiae ;
+            tertius in statu naturae adultae. In primo statu manifestus est Deo ; in secundo
+            manifestus est nobis ; in tertio manifestus est sibi. In primo igitur statu, cum soli
+            Deo sit notus, potest per eius voluntatem sanctificari, non per nostram cooperationem,
+            cum non cognoscat eum Ecclesia nec sit de foro Ecclesiae. In secundo statu, quia notus
+            est Deo et Ecclesiae, remedium potest habere a Deo, cooperante adiutorio alieno, non
+            suo. In tertio. statu, cum sit omnibus modis notus, scilicet Deo et sibi et Ecclesiae,
+            potest omnibus his modis adiuvari, ut non tantum Deus sua virtute faciat, sed adiuvet
+            fides aliena quantum ad sacramentum et fides et devotio propria. Prima igitur
+            sanctificatio est per divinam voluntaem et pertinet ad singulare privilegium. Secunda
+            vero est per legem datam, sicut patet in circumcisione, patet etiam in Baptismate, cum
+            dictum est Ioannis 3, 5 : Nisi quis renatus fuerit etc. Tertia est per legem inditam,
+            quam Deus indidit ut ad Deum recurrat homo petere veniam pro offense. Et prima quidem
+            est paucorum, ut puta illorum quos deputat ad aliquod magnum officium, et est praeter
+            legem communem. Ita enim decrevit divina iustitia, ut, quantum est de lege communi, non
+            relevetur qui cecidit nisi aliqua dispositio occurrat ; et parvulus quidem, sicut per
+            alium cecidit, ita potest per alium relevari disponendo, ut puta per fidem alienam ;
+            adultus autem per propriam, sicut per propriam voluntatem peccavit. Quia vero, in utero
+            non potest per fidem alienam vel per sacramentum adiuvari, quoniam non est de foro
+            Ecclesiae nec nobis notus, et hoc decrevit Deus de lege communi : ideo nullus in ventre
+            purificatus est nisi de privilegio speciali. Quoniam igitur Baptismus respicit legem
+            communem et legem datam, ideo non debet quis in utero baptizari. Et haec ratio communis
+            est omnibus sacramentis secundum omne tempus.</p>
+        </div>
+        <div xml:id="bb-d4e6984-Dd1e181">
+          <head xml:id="bb-d4e6984-Hd1e183">Ad rationes</head>
+          <p xml:id="bb-d4e6984-d1e186">Et patet responsio ad illud quod obicitur de sanctificatione. Concedo enim quod Deus
+            posset dare gratiam, si vellet, parvulo ; sed per sacramentum Baptismi vel aliud
+            ecclesiasticum non debet fieri, non quia maius sit, sed quia alius est modus, qui non
+            competit illi statui.</p>
+          <p xml:id="bb-d4e6984-d1e189">Ad illud quod obicitur, quod Deus pronior est ad miserandum, dicendum quod verum est ;
+            sed tamen cum misericordia currit iustitia : et ideo, quia iustitia dictabat ut aliqua
+            satisfactio vel aliquod praeparatorium fieret sibi pro parvulo, ideo ante non remittebat
+            culpam ; tamen <quote xml:id="bb-d4e6984-Qd1e191" ana="#ps76_10">non continet misericordiam suam in ira</quote>,
+            quia hoc ipsum, quod conservat in utero et praeparat remedium extra, misericordiae est ;
+            et si retribuisset Adae secundum peccatum suum, totam posteritatem eius delesset.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

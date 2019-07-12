@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24904">
+        <head xml:id="bb-d4e24904-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e24904-Hd1e111" type="question-title">Utrum communicans cum excommunicato sit excommunicatus.</head>
+        <p xml:id="bb-d4e24904-d1e114">Quinto quaeritur de excommunicatione quantum ad communicationem, et quaeritur, utrum
+          communicans cum excommunicato sit excommunicatus.</p>
+        <div xml:id="bb-d4e24904-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e24904-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e24904-d1e122">Et quod sic, ostenditur : Quia iura istud dicunt.</p>
+          <p xml:id="bb-d4e24904-d1e125">Item, ratione videtur, quia accedere ad unum oppositorum est recedere a reliquo ; sed
+            excommunicatus est extra communionem positus : ergo qui ei communicat a communione
+            recedit.</p>
+          <p xml:id="bb-d4e24904-d1e128">Item excommunicatio infligitur in poenam erubescentiae ; sed nulla est erubescentia ubi
+            alii communicant : ergo ad hoc quod sententia illa sit alicuius valoris, necesse est
+            ipso iure alios arcere : ergo, si censura ecclesiastica est in excommunicatione, videtur
+            quod talis iuste et debite sit excommunicatus.</p>
+          <p xml:id="bb-d4e24904-d1e131">Item, aut licet communicare excommunicato aut non. Si sic, ergo tales non sunt vitandi
+            : et hoc est contra illud I ad Corinthios 5, 11 : <quote xml:id="bb-d4e24904-Qd1e133" ana="#Icor5_11">Si quis
+              frater</quote> etc. ; et post : <quote xml:id="bb-d4e24904-Qd1e136" ana="#Icor5_11">Cum huiusmodi nec cibum
+              sumere</quote>. Si non licet, ergo per aliquam sententiam alii arcentur communicare
+            cum isto ; et non nisi per sententiam excommunicationis : ergo qui communicant ei
+            incidunt in excommunicationis sententiam : ergo sunt excommunicati.</p>
+          <p xml:id="bb-d4e24904-d1e141">Contra : Communicans cum infideli sive cum altero peccatore, sive in cibo sive in potu,
+            non incurrit illud vitium, nisi communicet in actu consimili sive in crimine. Ergo pari
+            ratione nullus participans cum excommunicato est excommunicatus nisi participet in
+            crimine.</p>
+          <p xml:id="bb-d4e24904-d1e144">Item, excommunicatio aut est morbus contagiosus aut non. Si sic, ergo qua ratione iste
+            primo excommunicatus inficit participantem pari vitio, ita et alius alium, et sic
+            deinceps : ergo, si hoc falsum est et contra iura, non est morbus contagiosus : ergo non
+            videtur quod communicans excommunicato sit excommunicatus. Si tu dicas quod hoc facit
+            institutio, non contagio, contra : institutio ista ab homine est sicut et excommunicatio
+            ; sed nullus debet infligere poenam nisi pro culpa : ergo, si non communicat in merito
+            sive in culpa, nec in poena : ergo institutio illa quae facit communicari in poena sine
+            culpa est iniusta.</p>
+          <p xml:id="bb-d4e24904-d1e147">Item, filius communicans patri aut est excommunicatus aut non. Si sic, ergo debet
+            vitare patrem. Sed si patrem non potest vitare sine suo detrimento, ergo filius portat
+            iniquitatem patris, quod est contra ius divinum. Si autem non est excommunicatus, ergo
+            licet alicui ex familiaritate communicare cum excommunicato. Sed laudabilior est
+            societas et amicitia et caritas : ergo videtur pari ratione quod ex sociali amore vel
+            liquo tali licet excommunicato communicare, et ita non videtur communicans excommunicato
+            esse excommunicatus.</p>
+          <p xml:id="bb-d4e24904-d1e150">Item, excommunicatio omnis, sive maior sive minor, separat a sacramentis ; sed nullus
+            separandus est a sacramentis nisi pro culpa mortali : ergo omnis communicans
+            excommunicato peceat mortaliter. Sed si hoc verum est, cum ista medicina sit occasio
+            multorum periculorum, videtur tunc quod non sit medicina, sed morbus ; et quod quicumque
+            infert eam, cum ponat multos in gravi periculo, quod graviter peccat.</p>
+        </div>
+        <div xml:id="bb-d4e24904-Dd1e154">
+          <head xml:id="bb-d4e24904-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e24904-Hd1e159" type="question-title">Communicantes temere cum excommunicato sive non propter
+            necessitatem, aut ignorantiam, vel excommunicati utilitate, incidunt in
+            excommunicationem minorem</head>
+          <p xml:id="bb-d4e24904-d1e162">Respondeo : Dicendum quod, sicut tactum est, duplex est excommunicatio, scilicet minor
+            et maior. Minor tantum separat a sacramentis ; maior vero non tantum a sacramentis
+            separat, sed etiam ab actibus legitimis cum aliis personis. Et ideo excommunicatio minor
+            est morbus respiciens personam absolute ; excommunicatio vero maior est morbus
+            respiciens personam ut est pars communitatis et separans a communitate. Haec autem
+            separatio, cum sit relatio aequiparantiae, locum non haberet nisi alii separarentur ab
+            eo. Ergo ad hoc quod ista excommunicatio sit efficax, statuit ius ut alii eum vitent. Et
+            quia homines ut in pluribus magis timent poenam quam culpam, in firmitatem sententiae
+            adiunxit poenam consimilem, sed minorem ; unde non separat a communione fidelium, sed
+            sacramentorum. Et hoc totum. dictat ratio recta esse convenienter factum et
+            statutum.</p>
+          <p xml:id="bb-d4e24904-d1e165">Sed quoniam periculum est omnes a communicatione, utpote qui necessitate vel ignorantia
+            communicant, prohibere, ideo debuerunt tales personae excipi. Unde qui communicant
+            necessitate, sicut filii et filiae, quamdiu sunt sub manu parentum, sicut uxor, sicut
+            servi et servientes et ancillae, sicut peregrini et pauperes, quando unde sustententur
+            non habent, in talibus ius sententiam relaxat. Similiter, qui communicant ex utilitate,
+            ut convertatur peccator a via sua mala et corrigatur, cum secundum legem caritatis
+            arttbulent, non arcentur. Similiter, qui communicant ex ignorantia excommunicati non
+            sunt, pro eo quod talis ignorantia facti excusat ; dicitur autem hic ignorare quamdiu
+            homo nescit vel per denuntiationem vel per famam. Unde non debet sibi quis de facili
+            conscientiam facere, quia de quolibet praesumendum est bonum nisi probetur contrarium.
+            Et hae circumstantiae hoc versu continentur : Utile, lex, humile, res ignorata,
+            necesse.</p>
+          <p xml:id="bb-d4e24904-d1e168">In quo tangitur haec triplex causa, et necessitas comprehendit tria membra. His
+            personis exceptis et sic communicantibus, sine aliqua harum conditionum intervenientium
+            communicantes excommunicatis secundum regulam iuris excommunicati sunt minori
+            excommunicatione ; et hoc quidem rationabile est, ut visum est.</p>
+        </div>
+        <div xml:id="bb-d4e24904-Dd1e173">
+          <head xml:id="bb-d4e24904-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e24904-d1e178">1-3. Ex his patent obiecta. Quod enim obicitur de aliis peccatis et de contagione et de
+            filio, in. omnibus patet responsio, quia hoc facit institutio ; et ratio institutionis
+            dicta est et convenientia exceptionis, et quare maior transit et minor non. Et ideo
+            regula est quod excommunicatio non transit in tertiam personam. Patet etiam quod
+            communicans non communicat in culpa ; sed, quia non adhibet debitam reverentiam
+            sententiae, hinc est quod iustum est quod reportet poenam.</p>
+          <p xml:id="bb-d4e24904-d1e181">Ad illud quod obicitur, quod ista est poena tantum mortaliter peccantium, dicendum quod
+            secundum aliquos conclusio conceditur. Dicunt enim quod praeter casus exceptas
+            mortaliter peccat, quia facit. contra Ecclesiae mandatum et scienter videtur contemnere
+            sententiam Ecclesiae. Sed quia valde durum videtur illud dicere et maximum periculum
+            esset omnes communicantes excommunicari, ut declinemus periculum utrumque, sine
+            praeiudicio hic distinguendum videtur. Dicere enim quod tantum sit peccatum veniale, non
+            videtur conveniens, cum communiter parvam vim faciant homines in peccatis venialibus.
+            Dicere iterum quod pro quolibet verbo humanitatis, quod amicus amico dicit, peccet
+            mortaliter, durum videtur.</p>
+          <p xml:id="bb-d4e24904-d1e184">Et ideo dicendum quod qui communicat scienter aut communicat in actu exteriori in
+            contemptum sententiae latae, et tunc peccat mortaliter ; aut non communicat in
+            contemptum, sed tamen rationabiliter videre potest quod sententia veniat in contemptum,
+            et adhuc credendum est eum mortaliter peccare ; aut probabiliter credit quod ex hoc
+            nunquam magis sententia contemnetur, et ipse cum timore hoc facit et ex quadam
+            affabilitate vel societate aliqua verba praeter necessitatem dicit vel alio modo in
+            casibus non exceptis communicat, tunc credendum est circa tales sententiam
+            temperari.</p>
+          <p xml:id="bb-d4e24904-d1e187">Unde si quis quaerat, utrum homo debeat magis dimittere se interfici quam aliquod
+            verbum dicere, dico quod, si ex hoc in contemptum veniret sententia, debret utique. Sed
+            quis iudicaret istum male facere, cum ante debeat de furto comedere quam fame perire ?
+            Si qui ergo dicunt quod peccat mortaliter, intelligendum. est quando contemptus
+            intervenit. Et quia vix potest frequentari sine contemptu, ideo sanum consilium est
+            unicuique, ut se a talibus elanget propter vitandum periculum, sicut dicit <name ref="#Augustine">Augustinus</name> quod faciendum est de iuramento.</p>
+          <p xml:id="bb-d4e24904-d1e194">Ad illud ergo quod obicitur, quod non privantur sacramentis nisi mortaliter peccantes,
+            dicendum quod hoc factum est propter terrorem, ne forte per assuetudinem et periculum
+            contemptus incideretur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

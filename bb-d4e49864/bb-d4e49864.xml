@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e49864">
+        <head xml:id="bb-d4e49864-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e49864-Hd1e111" type="question-title">Utrum corpora supercaelestia remunerabuntur.</head>
+        <p xml:id="bb-d4e49864-d1e114">Quantum ergo. ad primum proceditur sic, et ostenditur quod corpora supercaelestia
+          remunerabuntur.</p>
+        <div xml:id="bb-d4e49864-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e49864-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e49864-d1e122">
+            <ref xml:id="bb-d4e49864-Rd1e124">Isaiae 30, 26</ref> habetur ex textu et Glossa : <quote xml:id="bb-d4e49864-Qd1e127" ana="#is30_26">Erit lux
+              lunae sicut lux solis, et lux solis sicut lux septem dierum</quote>, et Glossa ibi
+            dicit, id est, sol et luna praemium sui laboris percipient.</p>
+          <p xml:id="bb-d4e49864-d1e131">Item, hoc videtur ratione, quia pronior est Deus ad praemiandum quam ad puniendum ; sed
+            corporum supercaelestium, homine peccante, lux est diminuta , sicut dicit ibi Glossa :
+            ergo, homine glorificato, debet augeri.</p>
+          <p xml:id="bb-d4e49864-d1e134">Item, ordo est in universo convenientissimus : ergo, lino meliorato quod et de
+            perfectione universi, necesse est cetera meliorari quae sunt de eius constitutione ; sed
+            corpora supercaelestia sunt de constitutione universi : ergo aut ordo corrumpitur, aut,
+            si homo nobilitatur, necesse est ill magis nobilitari.</p>
+          <p xml:id="bb-d4e49864-d1e137">Item, habitatio debet congruere habitatori : ergo, si homo, propter quem factus est
+            mundus, est nobilior factus, ergo et totus mundus : ergo et corpora mundi
+            nobilissima.</p>
+          <p xml:id="bb-d4e49864-d1e141">Contra : Nihil quod perit remunerabitur ; sed caeli peribunt : ergo corpora
+            supercaelestia non remunerabuntur. Minor patet ex Psalmo 101, 26 et ad Hebraeos 1, 10 :
+              <quote xml:id="bb-d4e49864-Qd1e143" ana="#hebr1_10">Et : tu in principio</quote> etc. ; et post : Ipsi
+            peribunt.</p>
+          <p xml:id="bb-d4e49864-d1e147">Item, ratione videtur, quia nihil praemiatur nisi quod meretur, et nihil meretur nisi
+            quod voluntarie servit, et nihil voluntarie servit nisi quod habet liberum arbitrium ;
+            talia autem non sunt corpora supercaelestia : ergo etc.</p>
+          <p xml:id="bb-d4e49864-d1e150">Item, dupliciter contingit mereri ex opere : aut quia factum ex caritate, aut quia
+            laboriosum ; per opus enim laboriosum meretur quis de congtuo ; sed. corpora
+            supercaelestia non faciunt quidquam ex caritate nec moventur cum labore, quia dicit
+            Philosophus quod moventtir sine labore et poena : ergo etc.</p>
+          <p xml:id="bb-d4e49864-d1e153">Item, cum duplex sit corporum superiorum proprietas, scilicet calor et lux, et serviant
+            nobis quantum ad utramque, ergo remunerari debent quantum ad utramque : ergo, cum non
+            remuneretur sol in calore nec luna in frigiditate, ergo nec debent remunerari in maiori
+            lumine</p>
+        </div>
+        <div xml:id="bb-d4e49864-Dd1e157">
+          <head xml:id="bb-d4e49864-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e49864-Hd1e162" type="question-title">Corpora caelestia aliquo modo praemiabuntur in augmento lucis
+            et splendoris, quatenus homo praemiatur in illis</head>
+          <p xml:id="bb-d4e49864-d1e165">Respondeo : Dicendum quod tripliciter est aliquid remunerabile : primo modo, quod est
+            aptum natum mereri, et hoc est liberum arbitrium ; alio modo, quod est ipsi merenti
+            coniunctum, ut corpus humanum ; tertio modo, quod est ad ipsum ordinatum sicut ad
+            obsequium. Secundum hoc praemiatur homo aliquando in se ipso, aliquando in corpore,
+            aliquando ex eis quae sibi sunt utilia ; sic etiam praemiatur in se ipso, in corpore
+            suo, et etiam in ipso mundo, qui eius est habitaculum. Unde dico quod corpora
+            supercaelestia praemiari, non est aliud quam hominem praemiari in illis, quia Dominus
+            totum mundum hominis amore faciet pulcriorem. Et ideo, quia propter hominem praemiantur
+            corpora supercaelestia, secundum eam proprietatem praemiantur secundum quam sunt consona
+            corporibus gloriosis ; haec autem est lux : et ideo in luce et splendore augebuntur et
+            crescent, ut probant primae rationes.</p>
+        </div>
+        <div xml:id="bb-d4e49864-Dd1e170">
+          <head xml:id="bb-d4e49864-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e49864-d1e175">Ad illud ergo quod obicitur, quod peribunt, dicendum quod ipse textus consequenter
+            exponit : velut amictum mutabis eos, et mutabuntur ; ideo non dicuntur perire quia
+            desinant, sed quia pulcriora efficiuntur et innovantur.</p>
+          <p xml:id="bb-d4e49864-d1e178">Ad illud quod obicitur, quod non habent voluntatem, dicendum quod ipsa non merentur
+            proprie, sed homo meretur et in eis remuneratur.</p>
+          <p xml:id="bb-d4e49864-d1e181">Ad illud quod obicitur, quod non laborant, dicendum quod labor dicitur dupliciter : uno
+            modo proprie, et sic dicitur opus poenale ; et hoc modo nec cqrpora supercaelestia nec
+            Angeli boni laborant ; alio modo communiter, et sic dicitur labor quodcumque obsequium,
+            secundum quem modum Angeli dicuntur laborare in vinea Domini et circa nos, quia nobis
+            obsequuntur ; sic et corpora caelestia.</p>
+          <p xml:id="bb-d4e49864-d1e184">Ad ultimum, quare non remunerentur in calore, patet, quia in his proprietatibus debent
+            remunerari, quae conveniunt corporibus nostris et faciunt ad gloriam nostram.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

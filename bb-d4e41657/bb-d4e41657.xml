@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41657">
+        <head xml:id="bb-d4e41657-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e41657-Hd1e111" type="question-title">Utrum sacramentum Matrimonii possit contrahi inter infidelem et
+          infidelem.</head>
+        <p xml:id="bb-d4e41657-d1e114">Secundo quaeritur, utrum sacramentum Matrimonii sit inter infidelem et infidelem.</p>
+        <div xml:id="bb-d4e41657-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e41657-d1e119">Et quod sic : Innuit Apostolus I ad Corinthios 7, 12 : <quote xml:id="bb-d4e41657-Qd1e121" ana="#Icor7_12">Si quis
+              frater uxorem habet infidelem</quote> etc. ; vocat uxorem cui cohabitandum ; sed non
+            fuit uxor propter contractionem quae fuit post fidem, sed ante : ergo etc.</p>
+          <p xml:id="bb-d4e41657-d1e125">Item, ratione videtur, quia Matrimonium est de dictamine legis naturae ; sed lex
+            naturae communis est apud omnes : ergo etc.</p>
+          <p xml:id="bb-d4e41657-d1e128">Item, Matrimonium definitur sic : Matrimonium est maris et feminae coniunctio
+            individuam vitae consuetudinem retinens ; sed hoc est inter infideles : ergo etc.</p>
+          <p xml:id="bb-d4e41657-d1e131">Item, infideles haeretici habent vera sacramenta Ecclesiae : quamvis non habeant fidem,
+            habent verborum formam. Ergo, si Matrimonium apud fideles contrahitur per verba
+            exprimentia consensum, et talis forma est apud infideles : ergo et Matrimonii
+            sacramentum.</p>
+          <p xml:id="bb-d4e41657-d1e134">Contra : <ref xml:id="bb-d4e41657-Rd1e136" target="http://scta.info/resource/gd-p2c28q1-d1e109">Causa XXVIII,
+              quaestione 1</ref> : <quote xml:id="bb-d4e41657-Qd1e139">Non est ratum coniugium, quod sine Deo est</quote> ; sed
+            tale est coniugium infidelium : ergo non est ratum, ergo non est Matrimonium.</p>
+          <p xml:id="bb-d4e41657-d1e144">Item, <name ref="#Ambrose">Ambrosius</name> ibidem :
+              <quote xml:id="bb-d4e41657-Qd1e149"><!-- also quoted in above gratian passage -->Non est putandum coniugium, quod
+              extra Dei decretum est factum ; sed tale est coniugium infidelium</quote> : ergo
+            etc.</p>
+          <p xml:id="bb-d4e41657-d1e154">Item, Matrimonium est sacramentum Ecclesiae ; sed Baptismus est fundamentum
+            sacramentorum Ecclesiae : ergo non habentes Baptismum, non habent Matrimonium.</p>
+          <p xml:id="bb-d4e41657-d1e157">Item, Matrimonium. est sacramentum et signum unionis Dei et animae sive divinae naturae
+            et humanae ; sed hanc non percipiunt infideles nec credunt : ergo non est eorum
+            sacramentum</p>
+        </div>
+        <div xml:id="bb-d4e41657-Dd1e161">
+          <head xml:id="bb-d4e41657-Hd1e163">Conclusio</head>
+          <head xml:id="bb-d4e41657-Hd1e166" type="question-title">Matrimonium apud infideles habet tantum semiplene rationem
+            officii, remedii et Sacramenti; unde est legitimum quidem, sed non ratum</head>
+          <p xml:id="bb-d4e41657-d1e169">Respondeo : Dicendum quod Matrimonium est institutum in officium et in remedium et in
+            sacramentum ; et ista tria complete habet secundum quod est apud fideles ; apud
+            infideles vero habet ista secundum rationem semiplenam. Nam est in officium, quia est
+            procreatio prolis legitimae, sed non ad cultum Dei, apud fideles autem ad cultum Dei.
+            Est in remedium, quia excusat coitum maritalem a culpa, et rursus, datur ibi gratia
+            remittens concupiscentiam ratione benedictionis adiunctae : apud infideles vero maritali
+            affecta uxores cognoscentes est excusatio a culpa, sed non datur gratia ; apud fideles
+            utrumque. Est et sacramentum, quia significat unionem Dei et animae sive unionem divinae
+            naturae et humanae, non tantum aptitudine, sed actu ; apud infideles vero aptitudine
+            tantum. Et praeterea, ratio sacramenti maxime consistit in ratificatione vinculi ; apud
+            infideles autem vinculum non habet ratificationem perfectam. Unde distinguitur<ref xml:id="bb-d4e41657-Rd1e171">
+              Causa XXVIII, quaestione 1</ref> quoddam Matrimonium ratum et legitimum, ut fidelium ;
+            quoddam legitimum, sed non ratum, ut infidelium ; quoddam ratum, sed non legitimum, ut
+            Matrimonium contractum a fidelibus in occulto.</p>
+          <p xml:id="bb-d4e41657-d1e175">Si autem quaeratur, quare Matrimonium infidelium non est ratum, dicendum quod hoc est
+            propter defectum sacramenti fidei et propter statum ; quia in tali statu iunctus est
+            uxori, in quo potest vinciri vinculo fortiori, scilicet suscipiendo sacramentum
+            Baptismi, et Christo alligari, a quo statu nemo potest prohibere ; et ideo potest in
+            casu istud vinculum infirmari. Habet tamen ratitudinem, ut, illo statu in utroque
+            manente, non possit solvi.</p>
+        </div>
+        <div xml:id="bb-d4e41657-Dd1e180">
+          <head xml:id="bb-d4e41657-Hd1e182">Ad rationes</head>
+          <p xml:id="bb-d4e41657-d1e185">Et per hoc patet responsio ad illud <name ref="#Augustine">Augustini</name> : Non est
+            ratum etc.</p>
+          <p xml:id="bb-d4e41657-d1e191">Ad illud quod obicitur de <name ref="#Ambrose">Ambrosio</name>, dicendum quod illud
+            intelligendum est sic : extra decretum, id est contra mandatum divinum.</p>
+          <p xml:id="bb-d4e41657-d1e197">Ad illud quod obicitur, quod est sacramentum Ecclesiae, dicendum quod verum est ; sed
+            non tantum Ecclesiae, sed etiam legis naturae.</p>
+          <p xml:id="bb-d4e41657-d1e200">Ad illud quod obicitur de significatione, dicendum quod, etsi non actu repraesentet,
+            tamen habitu ; et hoc sufficit ad hoc quod sit sacramentum. Vel die quod actu
+            repraesentat, licet nemo percipiat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

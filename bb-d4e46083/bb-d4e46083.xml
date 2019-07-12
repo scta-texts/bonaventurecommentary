@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e46083">
+        <head xml:id="bb-d4e46083-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e46083-Hd1e111" type="question-title">Utrum sit infernus.</head>
+        <p xml:id="bb-d4e46083-d1e114">Primo ergo est quaestio, utrum sit ponere cruciatum aeternum quem vocamus infernum.</p>
+        <div xml:id="bb-d4e46083-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e46083-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e46083-d1e122">Et quod non, videtur : Deuteronomii 25, 2 : <quote xml:id="bb-d4e46083-Qd1e124" ana="#deut25_2">Iuxta mensuram
+              peccati erit et plagarum modus</quote>. Sed nullus peccat aeternaliter : ergo nullus
+            cruciatur aeternaliter.</p>
+          <p xml:id="bb-d4e46083-d1e128">Item, Isaiae 24, 22 : <quote xml:id="bb-d4e46083-Qd1e130" ana="#is24_22">Congregabuntur congregatione unius fascis,
+              et post multos dies visitabuntur</quote>. Sed congregatio malorum est in die iudicii,
+            secundum quod dicitur <ref xml:id="bb-d4e46083-Rd1e133" ana="#mt13_41">Matthaei 13, 41</ref> : ergo visitatio erit
+            post iudicium. Sed non erit ad intensionem supplicii, ergo erit ad liberationem : ergo
+            non cruciabuntur aeternaliter.</p>
+          <p xml:id="bb-d4e46083-d1e137">Item, hoc ipsum videtur per Novum Testamentum, Matthaei 7, 2 : <quote xml:id="bb-d4e46083-Qd1e139" ana="#mt7_2">Qua
+              mensura mensi fueritis, remetietur vobis</quote>. Constat illud esse dictum quantum ad
+            peccati punitionem ; sed omnis peccati mensura finita est, cum sit a virtute finita :
+            ergo punitio peccati finita est : ergo nullus cruciatus aeternus.</p>
+          <p xml:id="bb-d4e46083-d1e143">Item, Iacobi 2, 13 : <quote xml:id="bb-d4e46083-Qd1e145" ana="#iac2_13">Misericordia superexaltat iudicium</quote>.
+            Ergo magis misericors est Deus quam iustus in effectu : ergo, si aeternaliter punire hoc
+            est summae severitatis, impossibile est quod Deus aeternaliter puniat.</p>
+          <p xml:id="bb-d4e46083-d1e150">Item, hoc ipsum videtur ratione, quia ad hoc quod iudicium sit iustum requiritur iustus
+            ordo, iusta causa et iustus animus : Iustus autem animus dicitur qui punit, non libidine
+            vindictae, sed propter aliquod bonum : ergo Deus non intendit vindictam, sed potius
+            correctionem. Si ergo intentio divina non frustratur, homo aliquando corrigitur, dum a
+            Deo punitur ; sed cum correctus est, non indiget amplius puniri : ergo necesse est ipsam
+            poenam terminari.</p>
+          <p xml:id="bb-d4e46083-d1e153">Item, summe misericordis est a summa miseria liberare ; sed summa miseriarum est poena
+            debita damnatis : ergo Deus ab illa liberat : ergo nullum aeternaliter cruciat ; et ita
+            non est ponere cruciatum aeternum, ac per hoc nec infernum.</p>
+          <p xml:id="bb-d4e46083-d1e156">Contra : Isaiae ultimo, 24 : <quote xml:id="bb-d4e46083-Qd1e158" ana="#is66_24">Vermis eorum non morietur et ignis
+              eorum non exstinguetur</quote>. Ergo aeternaliter cruciabuntur in infinitum : ergo est
+            ponere infernum et cruciatum aeternum.</p>
+          <p xml:id="bb-d4e46083-d1e162">Item, Matthaei 25, 41 : <ref xml:id="bb-d4e46083-Rd1e164" ana="#mt25_41">Ite, maledicti, in ignem aeternum</ref> ;
+            ignem autem aeternum vocamus aeternum supplicium : ergo etc.</p>
+          <p xml:id="bb-d4e46083-d1e168">Item, ratione videtur, quia, si de duobus contrariis est reperire alterum extremorum et
+            medium, necesse est ponere alterum extremum : hoc enim est radix et via stabiliendi
+            contraria apud philosophos ; sed est ponere perfectam beatitudinem in patria et medium
+            statum in via inter beatitudinem et perfectam miseriam : ergo est ponere perfectam
+            miseriam post hanc vitam ; hanc autem dicimus infernum : ergo etc.</p>
+          <p xml:id="bb-d4e46083-d1e171">Item, peccatum opponitur merito iustitiae ; sed merito debetur gloria aeterna, secundum
+            quod dicitur <ref xml:id="bb-d4e46083-Rd1e173" ana="#IIcor4_17">II ad Corinthios, 4, 17</ref> : ergo et peccato poena
+            aeterna, per locum a commutata proportione sive per consequentiam in ipso, quia sicut se
+            habet meritum ad praemium, ita demeritum ad supplicium ; et iterum, si oppositum in
+            opposito, et propositum in proposito.</p>
+          <p xml:id="bb-d4e46083-d1e178">Item, qui peccat mortaliter, praeponit bonum commutabile bono aeterno et infinito, ergo
+            contemnit et offendit bonum infinitum ; sed tanta est offensa, quantus est is qui
+            offenditur : ergo, cum ipse sit infinitus, offensa debet iudicari infinita. Cum igitur
+            poena debeat proportionari offensae, necesse est quod peccato mortali reddatur poena
+            infinita ; sed non potest reddi infinita intensione ; sed duratione : ergo etc.</p>
+          <p xml:id="bb-d4e46083-d1e181">Item, sicut Deus est summe misericors, ita est summe iustus ; sicut ergo summe
+            misericordis est summe misereri et misericordiam suam summe manifestare, sic et summe
+            iusti est summe punire et suam iustitiam manifestare per effectum. Si ergo infinita
+            iustitia non potest manifestari nisi per effectum infinitum, videtur quod aliquibus
+            peccatoribus reddi debeat cruciatus infinitus ; sed non potest esse cruciatus immensus :
+            ergo necesse est esse cruciatum aeternum ; hunc autem dicimus infernum : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e46083-Dd1e185">
+          <head xml:id="bb-d4e46083-Hd1e187">Conclusio</head>
+          <head xml:id="bb-d4e46083-Hd1e190" type="question-title">In inferno ponendus est cruciatus aeternus</head>
+          <p xml:id="bb-d4e46083-d1e193">Respondeo : Ad praedictorum intelligentiam est notandum quod aliqui negaverunt infernum
+            esse, pro eo quod dixerunt nullum cruciatum esse post hanc vitam. Et istorum errorem
+            convincit ratio manifesta, quoniam aequitas iustitiae et ratio recta ita dictat, quod
+            malum non debet remanere impunitum. Si ergo multi peccant in hac vita, qui in hae vita
+            non cruciantur, immo gaudent et laetantur : ergo necesse est eos post hanc vitam
+            cruciari aut destruere ordinem universi aut divinam iustitiam negligentem et remissam
+            esse circa punitionem peccati.</p>
+          <p xml:id="bb-d4e46083-d1e196">Alii vero negaverunt infernum esse, pro eo quod negaverunt impios aeternaliter
+            cruciari, quamvis eis post hanc vitam aliquis maneat cruciatus. Dixerunt enim quod hoc
+            non potest divina misericordia sustinere, quod creatura sua, quam non odit, sed diligit,
+            aeternaliter sit in poenis, cum ipse non delectetur in punitione nostra nec satietur
+            cruciatibus nostris ; nec aliquid obsistat quin bene possit eos qui puniuntur sine
+            aliquo praeiudicio liberare a poenis. Et si aliquando Scriptura comminatur peccatoribus
+            poenam aeternam, hoc dicunt non esse dictum secundum veritatem promissionis, sed
+            secundum terrorem comminationis, qua intendit Deus malos liberare a peccatis.</p>
+          <p xml:id="bb-d4e46083-d1e199">Iste autem error Origenis fuit et suorum sequacium, qui tanto est immanior, quanto
+            videtur esse mitior et misericordior, pro eo quod divinam iustitiam blasphemat, dum eam
+            diminuit, dum tantum dat misericordiae quod non relinquit locum iustitiae. Secundo vero,
+            quia spem nostram evacuat Si enim Scriptura supplicium peccatoribus comminatur non
+            secundum veritatem, sed ut deterreat, quid causae est cur etiam non intelligamus praemia
+            promittere non secundum veritatem, sed ut ad opus iustitiae alliciat ? Ac per hoc
+            Scriptura tota et fides nostra vana et frivola poterit iudicari.</p>
+          <p xml:id="bb-d4e46083-d1e203">Et ideo est tertia positio rationabilis et fidelis quod sit ponere cruciatum aeternum ;
+            et hoc manifeste dicit divina Scriptura, confirmat fides et concordat ratio recta. Et
+            quod Scriptura dicat et quod fides consentiat, hoc planum est ex obiectis. Quod etiam
+            ratio concordet, hoc patet quia hoc dictat et per modum congruitatis et necessitatis.
+            Cruciatum enim aeternum ponere facit ad complementum universi et fustum iudicium Dei.
+            Sed prima est ratio congruitatis, secunda necessitatis.</p>
+          <p xml:id="bb-d4e46083-d1e206">Congruum enim est ut pulcritudo universi decoretur quibusdam antithetis, ut sicut bonis
+            redduntur bona aeterna, ita et malis aeterna supplicia. Necessarium est etiam ad
+            servandum ordinem iustitiae, ut unicuique reddatur secundum merita sua, cum ventum
+            fuerit ad iudicium. Peccator autem, cum peccat, peccat contra bonum aeternum et
+            infinitum ; et ex hoc dignus est cruciatu aeterno. Dum in peccato perseverat, peccat in
+            suo aeterno, id est peccandi proposito aeterno ; et dum decesserit, non est amplius
+            locus meriti, ac per hoc nec remissionis peccati, et ideo semper est culpa ; et quia
+            culpa ordinatur in poena, semper debet esse in poena. Quia igitur peccat in bonum
+            aeternum, ideo cruciatu aeterno est dignus, sed quia in suo aeterno, ideo cruciatum
+            aeternum assequitur. Et ista est una ratio completa, quae colligitr ex <name ref="#GregoryGreat">Gregorio</name> et <name ref="#Augustine">Augustino</name>. <name ref="#GregoryGreat">Gregorius</name> enim dicit, in IV Dialogorum, quod ideo peccator
+            aeternaliter cruciandus est, quia peccat in suo aeterno. <name ref="#Augustine">Augustinus</name> vero dicit quod ideo aeternaliter punitur, quia peccavit contra
+            bonum aeternum Et quod istud sit iustum, ostendit per hoc exemplum in humanis iudiciis
+            et legibus, ubi dicitur quod peccans contra rempublicam aliquo grandi crimine morte
+            moriatur, non quia moram, qua occiditur, eius supplicium leges esse aestiment, cum sit
+            hora perbrevis, sed quia eum in sempiternum auferunt a societate viventium. Sic igitur
+            concedendae sunt rationes ostendentes infernum esse.</p>
+        </div>
+        <div xml:id="bb-d4e46083-Dd1e223">
+          <head xml:id="bb-d4e46083-Hd1e225">Ad rationes</head>
+          <p xml:id="bb-d4e46083-d1e228">Ad illud quod obicitur de commensuratione poenae et culpae, dicendum quod in poena duo
+            sunt, scilicet duratio et intensio ; et intensio respondet intensioni libidinis, duratio
+            vero durationi peccati. Et quia peccatum, quamvis sit finitum, tamen durat in infinitum,
+            ideo punitur poena finita acerbitate, tamen infinita duratione.</p>
+          <p xml:id="bb-d4e46083-d1e231">Ad illud quod obicitur de visitatione et congregatione, dicendum quod est loqui de
+            congregatione dupliciter : aut de congregatione in fieri aut in facto esse. Si in fieri,
+            sic quotidie congregantur quantum ad animas ; si in facto esse, sic congregabuntur in
+            iudicio quantum ad animas et corpora. Et de prima congregatione loquitur Isaias, post
+            quam est visitatio iudicio ad incrementum poenae ; de secunda vero est sermo in
+            Matthaeo, post quam non est visitatio, sed aeterna damnatio.</p>
+          <p xml:id="bb-d4e46083-d1e234">Ad illud quod obicitur de mensura retributionis, dicendum quod, secundum quod dicit
+              <name ref="#Augustine">Augustinus</name>, istud intelligitur non quantum ad
+            commensurationem in quantitate, sed quantum ad similitudinem in qualitate, ut qui male
+            fecerunt, male recipiant. Vel potest dici quod hoc intelligitur quantum ad comparationem
+            proportionalitatis, non quantum ad aequalitatem proportionis, ut magna poena respondeat
+            magnae culpae, non quod praecise sit tanta poena, quanta culpa. Vel dicendum, sicut
+            prius dictum est, quod hoc intelligitur quantum ad acerbitatem.</p>
+          <p xml:id="bb-d4e46083-d1e240">Ad illud quod obicitur, quod misericordia superexaltat iudicium, dicendum quod illud
+            est verum quando est tempus misericordiae, ut puta in praesenti, in futuro autem erit
+            tempus iustitiae, iuxta illud : Cum accepero tempus, ego iustitias iudicabo. Aliter
+            potest dici quod intelligitur de misericordia in merito, per quam quis meretur evadere
+            severitatem divinae iustitiae.</p>
+          <p xml:id="bb-d4e46083-d1e244">Ad illud quod obicitur, quod iustus animus non punit amore vindictae, dicendum quod
+            Deus punit amore iustitiae, non vindictae ; et quamvis non puniat ad correctionem, punit
+            tamen ad iustitiae manifestationem. Aliter enim sunt puniendi corrigibiles, aliter
+            incorrigibiles. Si quando tamen legatur quod Deus ulciscitur se de suis inimicis et
+            vindicat se de eis, hoc non est in praeiudicium iustitiae, quia, cum ipse sit iustitia,
+            vindicare se hoc non est aliud quam servare iustitiam. Hoc autem in homine non
+            contingit, qui non est iustitia, licet sit iustus ; ideo non debet appetere vindicare
+            se.</p>
+          <p xml:id="bb-d4e46083-d1e247">Ad illud quod obicitur ultimo, quod summe misericordis est summe misereri, dicendum
+            quod sicut Deus est summe misericors, ita etiam decet ut sit summe iustus ; et ideo
+            effectus summae misericordiae non excludit effectum iustitiae ; et propter hoc Deus duo
+            tempora sibi distinxit : unum, in quo ostenderet misericordiae suae infinitatem,
+            tradendo unigenitum Filium suum pro omnibus inimicis suis et parcendo omnibus ad se
+            redire volentibus ; aliud, in quo ostenderet iustitiae suae immensitatem, et hoc est
+            tempus quod deputatum est aeternis cruciatibus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

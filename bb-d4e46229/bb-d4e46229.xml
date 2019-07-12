@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e46229">
+        <head xml:id="bb-d4e46229-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e46229-Hd1e111" type="question-title">Ubi sit infernus.</head>
+        <p xml:id="bb-d4e46229-d1e114">Secundo quaeritur, ubi sit infernus.</p>
+        <div xml:id="bb-d4e46229-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e46229-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e46229-d1e122">Et quod sit sub terra, videtur : Primo per <ref xml:id="bb-d4e46229-Rd1e124">Symbolum</ref>, ubi dicitur :
+              <quote xml:id="bb-d4e46229-Qd1e127">Descendit ad inferos</quote> etc. Si descendit, cum descendere dicat motum ad
+            illud quod deorsum est, et ipse erat in terra : ergo infernus sub terra.</p>
+          <p xml:id="bb-d4e46229-d1e131">Item, hoc ostenditur per Scripturam, <ref xml:id="bb-d4e46229-Rd1e133">Isaiae 14, 9</ref> : <quote xml:id="bb-d4e46229-Qd1e136" ana="#is14_9">Infernus subtus conturbatus est</quote>.</p>
+          <p xml:id="bb-d4e46229-d1e140">Item, hoc ostenditur per denominationem, quia, ut dicit <ref xml:id="bb-d4e46229-Rd1e142">Gregorius, in IV
+              Dialogorum</ref>, <quote xml:id="bb-d4e46229-Qd1e145">infernus dicitur, quia inferius iacet ; quod enim est terra
+              ad caelum, hoc est infernus ad terram</quote>.</p>
+          <p xml:id="bb-d4e46229-d1e149">Item, hoc videtur per rationem, quia quanta corpus est nobilius, tanto locus debetur ei
+            nobilior : si ergo nobilissimis corporibus, utpote gloriosis, debetur locus supremus,
+            scilicet empyreum, ergo restat ut corporibus ignobilibus, utpote corporibus damnatorum,
+            debeatur locus infimus. Hic autem est sub terra : ergo etc.</p>
+          <p xml:id="bb-d4e46229-d1e153">Item, locus debet per concordantiam respondere statui ; sed status viae est medius
+            inter poenam et gloriam : ergo et locus debet esse medius : ergo, cum sit inferior loco
+            Beatorum, debet esse superior loco damnatorum.</p>
+          <p xml:id="bb-d4e46229-d1e156">Contra :<ref xml:id="bb-d4e46229-Rd1e158">
+              <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, libro XII</ref> :
+              <quote xml:id="bb-d4e46229-Qd1e164" source="http://scta.info/resource/wN2gEA-BYdopI">Sub terris dicuntur esse
+              inferi vel creduntur, quia congruenter in spiritu per illas corporalium rerum
+              similitudines sic demonstrantur</quote>. Ergo videtur secundum hoc quod infernus non
+            sit sub terra, etsi appareat esse sub terra.</p>
+          <p xml:id="bb-d4e46229-d1e168">Item, idem, volens rationem nominis assignare, dicit : <quote xml:id="bb-d4e46229-Qd1e170">Inferi, eo quod infra
+              sunt, appellantur Latine. Sicut autem secundum corpus, si ponderis. sui ordinem
+              teneant, inferiora sunt omnia graviora, ita secundum spiritum inferiora sunt omnia
+              tristiora</quote>. Ergo, si tristari non dicit inferioritatem secundum situm, sed
+            potius secundum spiritum, videtur quod infernus non sit inferius secundum situm, sed
+            secundum affectum.</p>
+          <p xml:id="bb-d4e46229-d1e174">Item, locus debet proportionari ponderi trahenti ad locum, alioquin pondus nunquam
+            traheret, nisi haberet cum loco similitudinem ; sed pondus trahens ad infernum est
+            peccatum, et hoc est quid spirituale, non corporale : ergo et locus debet habere situm
+            spiritualem, non corporalem, ergo non est sub terra.</p>
+          <p xml:id="bb-d4e46229-d1e177">Item, multo plures sunt damnati quam electi ; sed caelum erit plenum electis, secundum
+            quod dicitur Matthaei 22, 10 : Ut impleatur domus discumbentibus : ergo necesse est quod
+            damnati habeant maiorem locum quam sit locus caeli, cum. sint multo plures : ergo, cum
+            infernus complectatur omnes damnatos, necesse est quod sit tantae amplitudinis, ut
+            caelum : ergo impossibile est quod sit sub terra.</p>
+          <p xml:id="bb-d4e46229-d1e180">Item, ordo partium in maiori mundo debet respondere ordini partium in minori mundo ;
+            sed nobilissima pars hominis est in medio, utpote cor : ergo, si medium terrae est
+            medium mundi, ille locus erit nobilissimus : ergo in illo loco debet situari nobilissima
+            pars mundi, non ergo peccatores : ergo, si sunt in inferno, infernus non est sub terra
+            vel in media terrae.</p>
+        </div>
+        <div xml:id="bb-d4e46229-Dd1e184">
+          <head xml:id="bb-d4e46229-Hd1e186">Conclusio</head>
+          <head xml:id="bb-d4e46229-Hd1e189" type="question-title">Possumus dicere, infernum esse locum corporeum sub terra situm
+            habentem</head>
+          <p xml:id="bb-d4e46229-d1e192">Respondeo : Dicendum quod, quamvis temerarium videatur istam quaestionem determinare,
+            pro eo quod <name ref="#Augustine">Augustinus</name> arbitratus est eam neminem scire,
+            secundum quod dicitur in littera, sed opinatus est infernum non esse locum corporalem
+            sed spiritualem, secundum quod dicitur XII Super Genesim ad litteram ; attamen non est
+            praesumptuosum modernis aliquid super hoc dicere, cum <name ref="#GregoryGreat">Gregorius</name> expresse dicat, IV Dialogorum, infernum esse locum corporalem se non
+            ambigere ; et astrui etiam per auctoritatem Scripturae, infernum sub terra esse, tum ex
+            illo quod dicitur in Psalmo [85, 13] : <quote xml:id="bb-d4e46229-Qd1e200" ana="#ps85_13">Eruisti animam meam ex
+              inferno inferiori</quote> ; tum ex illo quod dicitur Apocalypsis 5, 3 : <quote xml:id="bb-d4e46229-Qd1e203" ana="#ap5_3">Non est inventus aliquis, nec in caelo nec in terra nec subtus
+              terram</quote> etc. Et ideo ipsius auctoritate muniti, dicere possumus infernum locum
+            esse corporeum sub terra habentem situm. Et huic concordat Scriptura, concordat
+            denominatio, concordat et ratio. Sicut enim status damnatorum perfecta distantia distat
+            a statu Beatorum, ita et locus a loco ; et sicut statui beatitudinis debetur locus
+            supremus, ita et statui miseriae locus infimus, etiam secundum corpus.</p>
+        </div>
+        <div xml:id="bb-d4e46229-Dd1e209">
+          <head xml:id="bb-d4e46229-Hd1e211">Ad rationes</head>
+          <p xml:id="bb-d4e46229-d1e214">1-2. Ad illud quod obicitur in contrarium, dicendum quod <name ref="#Augustine">Augustinus</name> non dixit hoc asserendo, sed ratiocinando et conieturando ; unde et
+            illud retractavit in <ref xml:id="bb-d4e46229-Rd1e219">libro Retractationum, II</ref>, dicens : <quote xml:id="bb-d4e46229-Qd1e222">Magis mihi
+              videtur dicere debuisse de inferis quod sub terra sint, quam rationem reddidisse cur
+              sub terris esse creduntur, quasi non ita sit</quote>.</p>
+          <p xml:id="bb-d4e46229-d1e226">Ad aliud quod obicitur secundo de pondere peccati, dicendum quod est ordo iustitiae et
+            ordo naturae. Peccatum autem trahit deorsum non secundum ordinem naturae, cum non habeat
+            conformitatem ad illum, sed secundum ordinem iustitiae, quia peccatum, cum sit
+            vilissimum, disponit hominem ad locum vilissimum et infimum.</p>
+          <p xml:id="bb-d4e46229-d1e229">Ad illuci quod obicitur, quod caelum plenum est electis, dicendum quod istud non
+            intelligitur de plenitudine coangustationis, sed de plenitudine pulcritudinis, qua
+            dicimus caelum plenum esse stellis et mare piscibus et mundum hominibus. Si autem
+            quaeras imaginationem, qualiter capiatur istud, quod tanta hominum multitudo sub terra
+            sit, dici potest quod omnes homines qui nunc sunt vix caperent millesimam partem terrae,
+            si simul essent. Si ergo omnes homines qui fuerunt ab initio usque in finem vix excedunt
+            homines qui nunc sunt in millecupla proportione, omnes homines vix occuparent
+            superficiem terrae. Si ergo concavitas maioris est capacitatis, qua sit superficies,
+            multo magis poterunt capi in concavitatibus terrae, quae, quamvis nobis non appareant,
+            tamen multae sunt, sicut ostendunt decursus aquarum de montibus et concussiones terrae
+            motuum ; et infernus creditur esse maximae concavitatis, ac per hoc et magnae
+            capacitatis.</p>
+          <p xml:id="bb-d4e46229-d1e232">Ad illud quod ultimo obicitur de ordine vel de situ in partibus hominis, voluerunt
+            aliqui dicere quod id quod est cor in corpore hominis, hoc est corpus solis in medio
+            mundi ; et secundum istam viam terra non iudicatur esse media, sed magis extremum, et
+            extremum infimum. Aliter potest dici quod non est simile, quia, cum universum sit
+            orbiculare, et circumferentia sit eiusdem naturae, quodlibet extremum tenet rationem
+            superioris ; et ideo medium tenet rationem infimi. In homine autem non sic, quia una
+            extremitas, ut caput, dicitur esse superius ; alia, ut pedes, dicitur esse inferius ; et
+            ideo medietas nec inferius nec superius est, sed habet influentiam ad utrumque : et ideo
+            nobilis pars debet situari in homine in medio ; non sic in universo, sed potius in
+            extremo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

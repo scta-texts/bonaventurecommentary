@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e17467">
+        <head xml:id="bb-d4e17467-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e17467-Hd1e111" type="question-title">Utrum possibile sit Deo reconciliari per satisfactionem.</head>
+        <div xml:id="bb-d4e17467-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e17467-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e17467-d1e119">Circa primum ostenditur quod sit possibile Deo reconciliari : Per definitionem eius
+            quod est satisfacere, quia dicit <name ref="#Anselm">Anselmus</name> :
+              <quote xml:id="bb-d4e17467-Qd1e124">Satisfacere est honorem debitum Deo reddere</quote>. Sed hoc est possibile
+            homini : ergo possibile est satisfacere.</p>
+          <p xml:id="bb-d4e17467-d1e128">Item, quanto is contra quem delinquitur misericordior est, tanto minorem exigit poenam
+            ; et quanto minorem exigit poenam, tanto facilius et possibilius est ei satisfacere ;
+            sed Deus est multo misericordior homine : ergo, si potest homini satisfieri, et Deo.</p>
+          <p xml:id="bb-d4e17467-d1e131">Item, sufficienter aliquis punitur, quando tantum datur ei tormentum, quantum fuit
+            delectamentum, quia haec est iustitia legis Moysaicae : Deuteronomii 25, 2 :
+              <quote xml:id="bb-d4e17467-Qd1e133">Iuxta mensuram peccati erit et plagarum modus</quote> etc. ; et legis divinae :
+            Quantum se glorificavit etc. Sed aliquis potest sibi hoc facere : ergo potest Deo
+            satisfacere.</p>
+          <p xml:id="bb-d4e17467-d1e137">Contra : Tanta est offensa, quantus is est qui offenditur ; sed Deus est infinitus, qui
+            offenditur in peccato : ergo et offensa. Sed quanta est offensa, tanta debet esse
+            satisfactio, alioquin non fit satis : ergo in infinitum oportet quod homo se puniat. Sed
+            hoc est impossibile alicui : ergo non potest Deo satisfacere homo de peccato.</p>
+          <p xml:id="bb-d4e17467-d1e141">Item, peccatum diaboli peccatum nostrum non excedit in infinitum, immo quanto eius
+            culpa excedit humanam, tanto virtus naturae ad sustinendum mala et faciendum bona est
+            fortior ; sed diabolus non potest satisfacere : ergo nec homo.</p>
+          <p xml:id="bb-d4e17467-d1e144">Item, primus parens non potuit de culpa sua satisfacere, quia, cum esset homo, voluit
+            in scientia assimilari Deo ; ideo ad satisfactionem necesse fuit quod Deus fieret homo ;
+            sed quilibet peccator praefert voluntatem suam voluntati divinae : ergo non potest
+            satisfacere.</p>
+          <p xml:id="bb-d4e17467-d1e147">Item, nullus de originali potuit satisfacere nisi pet mortem Christi ; sed multo minus
+            ponderat originale quam actuale : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e17467-Dd1e151">
+          <head xml:id="bb-d4e17467-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e17467-Hd1e156" type="question-title">Possibile est homini Deo satisfacere quod duplici via
+            explicatur</head>
+          <p xml:id="bb-d4e17467-d1e159">Respondeo : Dicendum quod hic est unus modus dicendi satis probabilis, quod de omni eo
+            quod est in peccato non.fit satisfactio, quoniam hoc est impossibile. Unde et Deus non
+            exigit satisfactionem de omni eo quod est in culpa, sed aliquid condonat per
+            misericordiam, de aliquo requirit satisfactionem per iustitiam, ut simul sit hic
+            misericordia et veritas ; nec unquam est satisfactio, nisi praecedat condonatio, sicut
+            nunquam est meritum nisi praecedat donum gratuitum. Unde notandum quod in peccato duo
+            sunt, scilicet offensa Dei et libido deordinata. Offensa Dei est infinita, et pro illa
+            non fit satisfactio ; sed Dei misericordia illam remittit suam dando gratiam. Libido
+            autem perversa finita est ; et quia Deus iustus est, non totum remittit, sed pro illa
+            exigit poenam condignam ; et quantum ad hoc possibile est Deo satisfacere.</p>
+        </div>
+        <div xml:id="bb-d4e17467-Dd1e163">
+          <head xml:id="bb-d4e17467-Hd1e165">Ad rationes</head>
+          <p xml:id="bb-d4e17467-d1e168">1-2. Et per hoc patet responsio ad duo prima : ad primum, quia non fit satisfactio de
+            offensa ; ad secundum, quia diabolus non potest satisfacere propter impossibilitatem
+            percipiendi gratiam in qua remittatur sibi divina offensa.</p>
+          <p xml:id="bb-d4e17467-d1e171">3-4. Patet etiam responsio ad tertium. Deus enim per misericordiam relinquit omnino
+            offensam dando gratiam, sed satisfactionem exigit de ipso damno quod intulit sibi
+            peccator per culpam et delectationem libidinosam. Et quia Adam intulit sibi damnum
+            mortis et toti posteritati, ideo non potuit plene satisfacere nisi ille qui non esset
+            mortis debitor et valeret totum genus humanum. Sed peccator quilibet, dum peccat, infert
+            damnum in imaginis deformatione, quae reparabilis est, et infert damnum sibi, non aliis
+            ; et ideo non est simile.</p>
+          <p xml:id="bb-d4e17467-d1e174">Alius etiam modus dicendi est satis probabilis et videtur rationabilis, quod, etsi
+            divina misericordia relinquat offensam homini dando gratiam, non tamen ita omnino
+            relinquit quin etiam exigat de offensa satisfactionem per iustitiam. Et quia homo non
+            potuit pro tanta offensa satisfacere, ideo Deus dedit ei Mediatorem, qui satisfaceret
+            pro offensa. Unde in sola fide passionis Christi remittitur omnis culpa ; sine fide enim
+            nullus iustificatur. Et secundum hoc dicunt quod omnis satisfactio nostra virtutem habet
+            a satisfactione Christi. Sed ipsa satisfactio Christi habet effectum in membris per
+            sacramentum Baptismi plenum, per sacramentum Poenitentiae secundum partem, per fidem
+            autem et ante Novam Legem et etiam post, ut in his qui non possunt confiteri, effectum
+            habet adhuc minorem. Unde omnis satisfactio non tantum de peccato primi parentis, sed
+            etiam de aliis, fundata est super satisfactionem Mediatoris.</p>
+          <p xml:id="bb-d4e17467-d1e177">Et secundum hanc viam facilis est responsio ad obiecta. Sicut enim offensa est
+            infinita, sic quod Deus patitur est satisfactio infinita. Similiter secundum patet, quia
+            diabolus non habuit mediatorem super quem posset fundari eius satisfactio. Similiter
+            patet tertium de Adam, quoniam sicut ipse non potuit satisfacere de peccato suo, sic
+            nemo posset sufficienter satisfacere de suo, nisi super satisfactionem passionis Christi
+            per fidem esset fundatus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

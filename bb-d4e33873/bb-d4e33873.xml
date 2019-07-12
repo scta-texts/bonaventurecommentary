@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33873">
+        <head xml:id="bb-d4e33873-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e33873-Hd1e111" type="question-title">Utrum Matrimonium consummatum sit insolubile.</head>
+        <div xml:id="bb-d4e33873-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e33873-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e33873-d1e119">Quantum ad primum, quod tale Matrimonium sit insolubile, ostenditur : Per verbum
+            Domini, Matthaei 19, 6 : <quote xml:id="bb-d4e33873-Qd1e121" ana="#mt19_6">Quod Deus coniunxit, homo non
+              separet</quote>. Ergo tales, qui a Deo sunt coniuncti, sunt inseparabiles, quia Deus
+            nullos separat.</p>
+          <p xml:id="bb-d4e33873-d1e125">Item, quaecumque sunt separabilia, plura sunt ; sed Dominus dicit quod vir et mulier
+            non sunt duo, sed una caro : ergo non sunt separabiles.</p>
+          <p xml:id="bb-d4e33873-d1e128">Item, hoc ipsum ostenditur per definitionem Matrimonii, quam ponit <name ref="#Lombard">Magister</name> in littera : Individuam vitae consuetudinem retinens.</p>
+          <p xml:id="bb-d4e33873-d1e134">Item, hoc Matrimonium est signum unionis Christi et Ecclesiae secundum conformitatem
+            naturae ; sed illa unio est inseparabilis : ergo etc.</p>
+          <p xml:id="bb-d4e33873-d1e138">Contra : Omne vinculum iterabile, est dissolubile ; sed Matrimonium est iterabile, quia
+            possunt esse secundae nuptiae : ergo est dissolubile.</p>
+          <p xml:id="bb-d4e33873-d1e141">Item, omne sacramentum perpetuum imprimit aliquod signaculum in subiecto perpetuo ; sed
+            Matrimonium nihil imprimit in animam : ergo etc.</p>
+          <p xml:id="bb-d4e33873-d1e144">Item, omnis effectus, cuius causa est dissolubilis, ipse est dissolubilis ; sed causa
+            Matrimonii est mutuus consensus, et ille est dissolubilis : ergo etc. Prima patet per
+            illud Chrysostomi, quod eisdem causis, quibus unumquodque construitur, per easdem
+            destruitur.</p>
+          <p xml:id="bb-d4e33873-d1e147">Item, vir tenetur uxori ex vinculo Matrimonii reddere debitum ; sed ex mutuo consensu
+            possunt se perpetuo absolvere : ergo similiter ex mutuo consensu Matrimonium dividere.
+            Similiter ex lege Matrimonii tenentur insimul cohabitare ; et possunt diversas
+            religiones ex communi consensu intrare : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e33873-Dd1e151">
+          <head xml:id="bb-d4e33873-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e33873-Hd1e156" type="question-title">Matrimonium est vinculum insolubile, extremis manentibus, sed
+            non perpetuum</head>
+          <p xml:id="bb-d4e33873-d1e159">Respondeo : Dicendum quod Matriinonium est insolubile, extremis. manentibus ; sed ipsis
+            corruptis vel eorum altero, solvitur, quia non manet ligatio nisi etiam maneant quae
+            ligantur. Extrema autem sunt destructibilia, quia sunt extrema ratione sexuum, non
+            animorum ; et quia sexus respicit dispositionem a parte corporis, et ita vitam
+            corporalem : dico quod recte Matrimonium dicitur vinculum insolubile, sed non
+            perpetuum.</p>
+        </div>
+        <div xml:id="bb-d4e33873-Dd1e163">
+          <head xml:id="bb-d4e33873-Hd1e165">Ad rationes</head>
+          <p xml:id="bb-d4e33873-d1e168">1-2. Et per hoc patet responsio ad duo prima ; obicit enim ac si vinculum esset
+            perpetuum. Ratio autem huius insolubilitatis dispositive venit ab eius significatione,
+            quia significat unionem indissolubilem, scilicet Christi et Ecclesiae secundum
+            conformitatem naturae ; sed effective venit ab institutione, quia sic Deus instituit, ut
+            amplius non solvantur dum vivunt.</p>
+          <p xml:id="bb-d4e33873-d1e171">Et per hoc patet responsio ad illud de consensu, quia non est tota causa Matrimonii -
+            unde, si esset tata causa, bene obiceret - sed ulterius est ibi divina institutio.
+            Verumtamen illud non bene solvit, pro eo quod si duae causae concurrunt ad eumdem
+            effectum, altera destructa, non manet effectus ; et ideo, si ad Matrimonium cum
+            institutione divina concurrit consensus, videtur etc. Dicendum igitur quod est causa
+            introducens tantum et introducens et conservans. Quando dicitur quod, si destruitur
+            causa, et effectus, verum est de conservante, non autem est verum de introducente tantum
+            ; consensus vinculum illud introducit, non conservat : et ideo, ipso desinente, non
+            desinet. Et ideo patet illud.</p>
+          <p xml:id="bb-d4e33873-d1e174">Ad illud quod obicitur de redditione debiti et cohabitatione, dicendum quod illud est
+            in potestate coniugatorum, quia uterque habet potestatem super corpus alterius ; et
+            quoniam uterque potest iuri suo renuntiare, inde est quod cohabitatio et debiti solutio
+            potest dividi ; non sic vinculum, quod Deus instituit, quod tenet rationem
+            sacramenti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

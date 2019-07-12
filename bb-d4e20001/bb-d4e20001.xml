@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20001">
+        <head xml:id="bb-d4e20001-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e20001-Hd1e111" type="question-title">Utrum contritio possit intendi.</head>
+        <div xml:id="bb-d4e20001-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e20001-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e20001-d1e119">Circa primum, quod possit intendi, videtur : Quia contritio est actus alicuius virtutis
+            ; sed quaelibet virtus potest intendi, ut in primo probatum est de caritate ; sed,
+            augmentata eius virtute, augetur eius motus : ergo etc.</p>
+          <p xml:id="bb-d4e20001-d1e122">Item, in contritione non sunt nisi duo, scilicet dolor et gratia, et unum est sicut
+            formate, reliquum sicut materiale ; sed est possibile dolorem in nobis intendi,
+            possibile est etiam gratiam augeri : ergo etc.</p>
+          <p xml:id="bb-d4e20001-d1e125">3. Item, si non potest intendi, ergo in omnibus est aequalis ; sed, contritione
+            existente aequali, aequalis est iustificatio et gratificatio : ergo omnes secundum hoc
+            essent aequaliter iusti.</p>
+          <p xml:id="bb-d4e20001-d1e128">Item, in omni actu animae in quo contingit proficere per assuefactionem et
+            coittinuationem, contingit ipsum intendi ; hoc patet ; sed profectus est in
+            multiplicatione contritionis et frequentatione : ergo etc.</p>
+          <p xml:id="bb-d4e20001-d1e132">Contra : Nihil intenditur cuius <quote xml:id="bb-d4e20001-Qd1e134">impositio est in termino</quote> ; sed impositio
+            contritionis est in termino, quia contritio est divisio in minima ; sed minimo non est
+            minus : ergo etc.</p>
+          <p xml:id="bb-d4e20001-d1e138">Item, nihil intenditur quo non potest cogitari vel esse maius ; sed illo quod habet
+            effectum infinitum nihil potest esse maius, cum sit infinitum : ergo nihil tale potest
+            intendi. Sed contritio est huiusmodi, cum deleat omnem culpam, quod est virtutis
+            infinitae : ergo etc.</p>
+          <p xml:id="bb-d4e20001-d1e141">Item, omne quod intenditur, aut intenditur per accessum ad veram nominis impositionem
+            vel per depurationem a contrario ; sed contritio non intenditur per depurationem a
+            contrario, cum statim, cum est, expellat totaliler omnem culpam ; quia habet gratiam
+            coniunctam ; nec per accessum ad impositionem nominis veram, quia eius impositio est in
+            termino : ergo etc.</p>
+          <p xml:id="bb-d4e20001-d1e144">Item, si intenditur, aut ergo a gratia aut a libero arbitrio. A libero arbitrio non,
+            quoniam contritio est motus gratuitus, et talis mensuratur secundum quantitatem gratiae
+            ; sed augmentum gratiae et caritatis non potest esse a libero arbitrio, sed a Deo. Si a
+            gratia, contra : gratia uniformiter movet liberum arbitrium quantum est de se : ergo non
+            videtur intendere in eo contritionem. Praeterea, secundum illud attenditur intensio vel
+            augmentum, penes quod consistit ratio quantitatis ; sed quantitas est ex parte materiae
+            ; formalis vero contritionis ratio potius convenit gratiae quam materialis : ergo
+            secundum illam non intenditur nec augetur.</p>
+        </div>
+        <div xml:id="bb-d4e20001-Dd1e148">
+          <head xml:id="bb-d4e20001-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e20001-Hd1e153" type="question-title">Contritio potest intendi atque augeri tum secundum fervorem
+            motus, tum secundum augmentum virtutis poenitentiae per gratiam factum</head>
+          <p xml:id="bb-d4e20001-d1e156">Respondeo : Dicendum quod contritio est motus virtutis habens quantitatem virtutis,
+            sicut est virtus a qua est. Unde et augmentum et intensionem habet secundum illud a quo
+            recipit quantitatem ; haec autem est virtus poenitentiae. Unde sicut certum est
+            caritatem augeri, ita et poenitentiam ; ac per hoc certum est contritionem et intendi et
+            augeri.</p>
+          <p xml:id="bb-d4e20001-d1e159">Unde notandum quod quemadmodum caritas dicitur intendi quantum ad fervorem et augeri
+            quantum ad essentialem virtutem, et primum est a cooperatione liberi arbitrii, secundum
+            vero est a dono caelesti : ita et in proposito oportet intelligi quod motus contritionis
+            ferventior esse potest secundum cooperationem liberi arbitrii. Unde ex aequali gratia
+            aliquando magis fervens elicitur motus, aliquando. minus, secundum cooperationem liberi
+            arbitrii. Sed, proprie loquendo, non dicitur maior, nisi virtute poenitentiae augmentata
+            ; et hoc est per gratiam. Concedendae igitur sunt rationes ostendentes quod contritio
+            possit intendi.</p>
+        </div>
+        <div xml:id="bb-d4e20001-Dd1e163">
+          <head xml:id="bb-d4e20001-Hd1e165">Ad rationes</head>
+          <p xml:id="bb-d4e20001-d1e168">Ad illud quod obicitur, quod est divisio, in minima, dicendum quod contritio et habet
+            respectum ad obiectum, supra quod dirigitur, et ad virtutem a qua oritur, sive dicatur
+            habitus sive liberum arbitrium. Secundum comparationem ad obiectum, quia omne mortale
+            expellit et quasi in pulvetem redigit, non habet intendi. Habet etiam comparationem ad
+            vim a qua exit ; et secundum. illam viam habet intendi ; et in prima via ratio procedit,
+            et ideo non concludit.</p>
+          <p xml:id="bb-d4e20001-d1e171">Ad illud quod obicitur, quod est virtutis infinitae, dicendum quod contritio non delet
+            nisi virtute gratiae ; gratia autem est donum, per quod inhabitat in nobis ille cuius
+            virtus est infinita ; et illa est quae potest in infinitum effectum, et illi virtuti
+            attribuitur expulio primo et per se et contritioni per illam. Et ideo non sequitur quod
+            contritio sit infinita ; sed quod coniuncta est cum virtute, cuius operatio est
+            infinita.</p>
+          <p xml:id="bb-d4e20001-d1e174">Ad illud quod obicitur, quod non accedit magis nec recedit, dicendum quod utrumque
+            falsum est ; immo ratione gratiae magis accedit, ratione vero doloris, dico quod magis
+            recedit. Dolor enim non tantum habet oppositionem ad culpam, sed etiam ad sequelas et
+            pronitates peccati, quae quodam modo doloris intensione in nobis remittuntur paulative
+            et expelluntur, prout dolor est purior et intensior. Accessus autem ad veram
+            impositionem non attenditur in hoc quod non habeat verum nomen, sed quia non participat
+            illud in termina secundum rationem gratuiti.</p>
+          <p xml:id="bb-d4e20001-d1e177">Ad illud quod quaeritur, utrum intendatur secundum intensionem doloris aut gratiae,
+            sive a libero arbitrio an a gratia, iam patet responsio. Si enim loquamur de fervore,
+            dico quod est a libero arbitrio ; si autem loquamur quantum ad veram augmentationem, sic
+            dico quod immediate venit a cremento poenitentiae, qua augmentata, augetur dolor
+            rationalis partis, qui est detestationis vel displicentiae. Et si quaeras, unde veniat,
+            dico quod a Deo effective, a libero arbitrio dispositive, a gratia completive. Et si tu
+            obicias quod grati uniformis est, et praeterea est forma, dicendum quod, quamvis ipsa
+            uniformiter gratificet, dum tamen magis a Deo influitur et abundantius datur, magis
+            gratificat. Et rursus, quamvis a gratia, cum sit forma, non habeat principaliter ortum
+            quantitas molis, quae est a materia principaliter, habet tamen ortum quantitas virtutis,
+            quae est a forma ; et hoc genere quantitatis est contritio quanta. Et ex hoc patet
+            quomodo vel unde habeat quantitatem et unde habeat intensionem et qualiter.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

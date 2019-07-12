@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e34771">
+        <head xml:id="bb-d4e34771-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e34771-Hd1e111" type="question-title">Utrum consensus coactus faciat Matrimonium.</head>
+        <p xml:id="bb-d4e34771-d1e114">Circa primum ostenditur quod consensus coactus faciat Matrimonium.</p>
+        <div xml:id="bb-d4e34771-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e34771-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e34771-d1e122">Et quod sic, videtur : Quia <name ref="#Augustine">Augustinus</name> dicit quod
+              <quote xml:id="bb-d4e34771-Qd1e127">coacta voluntas voluntas est</quote> : ergo cum consensus sit voluntatis,
+            consensus est ; sed <quote xml:id="bb-d4e34771-Qd1e130">posita causa, ponitur effectus</quote> : ergo posito tali
+            consensu, est Matrimonium.</p>
+          <p xml:id="bb-d4e34771-d1e134">2 Item, hoc videtur ratione, per simile, quia qui baptizari consentit timore mortis,
+            baptizatus est et pro baptizato habetur : ergo similiter est in Matrimonio.</p>
+          <p xml:id="bb-d4e34771-d1e137">Item, hoc videtur per rationem, quia consensus non potest cogi, sed tantum induci, sed
+            sicut inducitur minis, ita inducitur blanditiis ; sed, si aliquis inductus blanditiis
+            consentiat in Matrimonium, Matrimonium tenet : ergo similiter, si inducitur minis.</p>
+          <p xml:id="bb-d4e34771-d1e140">Item, qui negat Christum timore mortis, peccat ; sed nullus peccat nisi liber : ergo
+            consentiens in aliquid timore mortis libere, consentit. Sed consensus liber facit
+            Matrimonium : ergo qui consentit timore mortis etc.</p>
+          <p xml:id="bb-d4e34771-d1e144">Contra : <ref xml:id="bb-d4e34771-Rd1e146" target="http://scta.info/resource/cice-l4t1-d1e316">Decretalis, De
+              sponsalibus et Matrimonio</ref> : <quote xml:id="bb-d4e34771-Qd1e149">Cum locum non habeat consensus, ubi metus
+              vel, coactio intercedit, necesse est ut ubi consensus communis requiritur, coactionis
+              materia repellatur</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e34771-d1e153">Item, consensus matrimonialis signum est coniunctionis animae et Dei ; sed anima non
+            coniungitur Deo consensu coacto : ergo, si signum est congruum, Matrimonium non
+            contrahitur consensu timore coacto.</p>
+          <p xml:id="bb-d4e34771-d1e156">Item, nunquam anima fit sponsa Dei nisi uniatur per amorem : ergo mulier nunquam fit
+            sponsa viri nisi uniatur per amorem ; sed unio quae est per consensum coactum, non fit
+            per amorem : ergo etc.</p>
+          <p xml:id="bb-d4e34771-d1e159">Item, in consensu Matrimonii acquiritur potestas in alterutrum : ergo necesse est quod
+            in consentiendo sint aequales ; sed, cum alter cogit alterum ad consentiendum, non sunt
+            aequales : ergo tali consensu non contrahitur Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e34771-Dd1e163">
+          <head xml:id="bb-d4e34771-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e34771-Hd1e168" type="question-title">Consensus coactus vel vi, vel metu cadente in virum constantem
+            non facit matrimonium, nisi post coactionem in carnalem copulam consentiatur.</head>
+          <p xml:id="bb-d4e34771-d1e171">Respondeo : Dicendum quod consensus coactus potest esse dupliciter, scilicet vi vel
+            metu. Vis est maioris rei impetus qui repelli non potest ; metus est instantis periculi
+            trepidatio. Tunc autem fit vis, quando capitur, ducitur, trahitur invitus vel ligatus,
+            ipso reclamante et renitente ; haec est coactio, in qua non est consensus, et in hac
+            omnino non est Matrimonium. Est et alia coactio per metum, ut cum aliquis minatur mortem
+            vel intentat nisi consentiat ; et de hac coactione distinguunt aliqui, quod talis
+            consentiens aut consentit ore, sed non corde, et tunc non est Matrimonium aliquo modo ;
+            aut corde consentit, quamvis coactus, et tunc Matrimonium est in conspectu Dei, quia
+            voluntas coacta voluntas est ; sed non est in conspectu Ecclesiae, quae praesumit quod
+            talis non consenserit corde ; et ideo sic iudicat et sententiat ut uterque alteri in
+            Domino nubat. Sed certe istud non videtur consentire decretali praedictae, quae dicit
+            quod consensus non habet locum, ubi metus vel coactio intercedit.</p>
+          <p xml:id="bb-d4e34771-d1e174">Et ideo distinguitur aliter, quod metus duplex est, quidam levis, quidam iustus :
+            iustus, utpote qui in virum constantem cadere potest ; levis est, cum quis parvum malum
+            minatur vel cum talis minatur de quo praesumitur quod. implere non possit ; et talis
+            metus non facit consensum adeo defectivum, quod impediat Matrimonium contrahendum. vel
+            dirimat iam contractum, sed consensus cum tali metu facit Matrimonium. Tunc autem est
+            metus iustus, quando aliquis comminatur damnum mortis, mutilationis, servitutis et
+            stupri ; tunc autem cadit in virum constantem, quando praesumitur probabiliter quod ille
+            qui minatur possit minas implere ; non enim esset timendum, si simplex rusticus
+            minaretur duci. In hoc metu dicunt iura consensum non facere Matrimonium.</p>
+          <p xml:id="bb-d4e34771-d1e177">Sed ratio huius sumitur a diversis diversimode. Quidam enim dicunt quod hoc est ex
+            indulgentia iuris. Iura enim indulgent tales separari, primum, quia praesumunt
+            consentientem ore non consensisse corde, et quia verbum solum dixit, ut poenam redimeret
+            ; vel etiam ratione finis, quia coacta Matrimonia pessimos exitus consueverunt habere.
+            Alii dicunt quod non ex iuris indulgentia, sed hoc facit defectus perfecti et liberi
+            consensus, qui debet esse in Matrimonio, quia, sicut ostensum est, plenus debet ibi esse
+            consensus ; et hoc videtur probabilius. Si tamen post coactionem in carnalem copulam
+            consensit, ex tunc incipit esse Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e34771-Dd1e182">
+          <head xml:id="bb-d4e34771-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e34771-d1e187">Ad illud ergo quod primo obicitur, quod coacta voluntas voluntas est, dicendum quod
+            verum est ; sed nunquam sufficit talis voluntas ad faciendum bonum nec etiam ad
+            contrahendum Matrimonium, pro eo quod Dominus voluit hoc sacramentum contrahi per
+            consensum liberum, non coactum.</p>
+          <p xml:id="bb-d4e34771-d1e190">Ad illud quod obicitur, quod qui coactus consentit in Baptismum baptizatur, respondetur
+            quod Baptismus est opus Dei, non hominum, sed Matrimonium est a consensu hominum. Aliter
+            potest dici quod non est simile, quia non tanta libertas ibi requiritur, quanta in
+            Matrimonio ; totum enim esse Matrimonii a consensu causatur.</p>
+          <p xml:id="bb-d4e34771-d1e193">Ad illud quod obicitur, quod consensus inducitur per blanditias, dicendum quod
+            blanditiae non ita detrahunt de ratione consensus sicut minae, quia blanditiae ad amorem
+            excitant, sed minae ad terrorem.</p>
+          <p xml:id="bb-d4e34771-d1e196">Ad illud quod obicitur de eo qui negat Christum timore, dicendum quod facilius est
+            peccare quam bene facere, unde plura exiguntur ad construendum bonum quam ad faciendum
+            malum. Praeterea, nullus timor respectu peccati perpetrandi potest nec debet cadere
+            rationabiliter in virum constantem, sed respectu alicuius rei faciendae, quae non est
+            nostrae saluti contraria ; sicut vir constans rationabiliter prius deberet permittere se
+            interfici quam Deum negaret ; sed non rationabiliter ageret, si dimitteret se interfici
+            antequam in aliquid indifferens consentiret ; Matrimonium autem non est de his quae sunt
+            saluti contraria vel contra salutem. Et sic patet quomodo intelligitur de metu qui
+            potest cadere in constantem virum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

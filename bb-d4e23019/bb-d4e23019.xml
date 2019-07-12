@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e23019">
+        <head xml:id="bb-d4e23019-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e23019-Hd1e111" type="question-title">Utrum contra voluntatem proprii sacerdotis liceat poenitenti
+          confiteri alii discretiori, an tenatur confiteri proprio sacerdoti.</head>
+        <p xml:id="bb-d4e23019-d1e114">Secundo quaeritur, utrum contra voluntatem proprii sacerdotis liceat confiteri alii
+          discretiori, an teneatur confiteri proprio sacerdoti.</p>
+        <div xml:id="bb-d4e23019-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e23019-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e23019-d1e122">Et quod teneatur ei confiteri, ostenditur : Primo auctoritate sacra Scripturae.
+            Proverbiorum 27, 23 : <quote xml:id="bb-d4e23019-Qd1e124" ana="#prov27_23">Diligenter cognosce vultum pecoris
+              tui</quote>. Si ergo vultus pecoris est conscientia, et nullus potest scire vultum
+            sive conscientiam nisi per confessionem, ergo, si praeceptum est sacerdoti qui habet
+            curam animae scire conscientiam, subditus ei tenetur confiteri <sic>test</sic>.</p>
+          <p xml:id="bb-d4e23019-d1e131">Item, ad Hebraeos ultimo, 17 : <quote xml:id="bb-d4e23019-Qd1e133" ana="#hebr13_17">Obedite praepositis vestris per
+              omnia ipsi enim pervigilant, quasi rationem reddituri pro animabus vestris</quote>.
+            Ergo, si sacerdos qui habet curam tenetur reddere rationem de anima subditi ; videtur
+            quod subditus teneatur ei statum suum indicare.</p>
+          <p xml:id="bb-d4e23019-d1e137">Item, hoc ipsum ostenditur auctoritate canonis. Innocentius, in Concilio generali :
+            Omnis utriusque sexus fidelis, ex quo ad annos discretionis pervenerit, omnia sua
+            peccata solus confiteatur proprio sacerdoti. Et in eadem decretali : Si quis ex causa
+            voluerit alii confiteri, prius licentiam petat et obtineat a proprio sacerdote. Si ergo
+            sacerdos non dat licentiam, videtur quod nullo modo posssit confiteri alii.</p>
+          <p xml:id="bb-d4e23019-d1e140">Item, <ref xml:id="bb-d4e23019-Rd1e142" target="http://scta.info/resource/gd-p2c33q3d6-d1e155">De poenitentia,
+              distinctione 6, Urbanus II</ref> : <quote xml:id="bb-d4e23019-Qd1e145">Placuit ut nulli deinceps sacerdotum liceat
+              quemlibet commissum alii sacerdoti suscipere ad poenitentiam, sine eius consensu cui
+              prius se commisit</quote>. Ergo videtur quod non liceat confiteri nisi proprio
+            sacerdoti.</p>
+          <p xml:id="bb-d4e23019-d1e150">Itemr ratione videtur, quia confessus alii aut tenetur iterum confiteri proprio
+            sacerdoti aut non. Si sic, ergo nullius fuit valoris prior confessio sive absolutio ;
+            vere enim absolutus de aliquo non tenetur iterum absolvi de eodem in eodem foro. Si non
+            tenetur, ergo nisi habeat privilegium : ergo nullus potest alteri confiteri nisi
+            privilegium habeat ipse vel nisi sacerdos licentiet.</p>
+          <p xml:id="bb-d4e23019-d1e153">Item, quilibet fidelis tenetur sacramenta percipere a proprio sacerdote, ergo
+            sacramentum Eucharistiae ; sed confessio est praeparatio ad illud Sacramentum : ergo
+            illi tenetur confiteri, a quo Sacramentum illud tenetur suscipere. Sed hic est sacerdos
+            proprius : ergo, quantumcumque confiteatur alii, tenetur confiteri proprio
+            sacerdoti.</p>
+          <p xml:id="bb-d4e23019-d1e156">Contra : <ref xml:id="bb-d4e23019-Rd1e158" target="http://scta.info/resource/gd-p2c33q3d6-d1e112">Augustinus, in
+              libro De poenitentia</ref> : <quote xml:id="bb-d4e23019-Qd1e161">Qui vult peccata confiteri, quaerat sacerdotem
+              scientem ligare et solvere, ne ambo in foveam cadant</quote>. Ergo, si sacerdos
+            proprius est simplex, videtur quod possit alii confiteri pro voto.</p>
+          <p xml:id="bb-d4e23019-d1e165">Item, sicut dicit <name ref="#Bernard">Bernardus</name> : <quote xml:id="bb-d4e23019-Qd1e170">Quod ex caritate
+              institutum est, contra caritatem non debet militare</quote>. Ergo similiter, quod
+            institutum est in remedium, non debet militare contra remedium. Esto igitur quod
+            sacerdos sollicitet mulierem ; si ipsa confitetur ei peccatum suum, est in periculo :
+            ergo, si non tenetur periculo se committere, non tenetur ei confiteri.</p>
+          <p xml:id="bb-d4e23019-d1e174">Item, privilegium datum est praedicantibus, quod possunt audire confessiones ; sed qui
+            concedit principale, et accessorium ; ergo, si dominus Papa concessit potestatem
+            absolvendi, ergo et potestatem peccatoribus tribuit eos adeundi : ergo contra voluntatem
+            sacerdotis possunt eos adire.</p>
+          <p xml:id="bb-d4e23019-d1e177">Item, potestas iurisdictionis descendit a superioribus ad inferiores : ergo, si
+            aliquibus dat epicopus auctoritatem suam, cum inferior non possit supra superiorem,
+            videtur quod sit exemptus a proprio sacerdote ; sed nullus eximitur sed e converso,
+            videtur quod omnis fidelis, etiam nolente proprio sacerdote, possit eum adire.</p>
+          <p xml:id="bb-d4e23019-d1e181">Item, quod tali confessus non teneatur illo anno amplius confiteri, videtur, quia
+            natura nihil facit frustra nec ars : ergo nec gratia vel regula Spiritus Sancti : ergo
+            superfluum est duo remedia eiusdem speciei, maxime quando alterum est efficax, contra
+            idem ordinari ; sed confessus est ei qui superioris auctoritate potuit absolvere et
+            absolvit ; ergo amplius non tenetur confiteri proprio sacerdoti.</p>
+          <p xml:id="bb-d4e23019-d1e184">Item, si teneretur, ergo frustra daretur illud privilegium sive illa auctoritas, et
+            videretur duplex tribulatio consurgere ; et cum hoc non sit aequum, nec in iure divino
+            nec in iure humano, non videtur quod teneatur confiteri proprio sacerdoti.</p>
+        </div>
+        <div xml:id="bb-d4e23019-Dd1e188">
+          <head xml:id="bb-d4e23019-Hd1e190">Conclusio</head>
+          <head xml:id="bb-d4e23019-Hd1e193" type="question-title">Confessio sacramentalis facienda est proprio sacerdoti, sive
+            parochiali, sive superiori, sive ei qui habet facultatem plenam per commissionem; sed si
+            facultas non est plena, in casu adhuc tenetur confiteri proprio sacredoti peccata, quae
+            tunc habet</head>
+          <p xml:id="bb-d4e23019-d1e196">Respondeo : Dicendum quod, sicut supra tactum est de confessione non sacramentali, quae
+            quidem fit ad peccati recognitionem et erubescentiam, cum non spectet ad aliquem
+            determinate, sed ad omnem qui prodesse potest, sine licentia et mandato potest peccator
+            cui vult ad libitum confiteri ; dum tamen sit de fidelibus numero, sive sit laicus sive
+            sit sacerdos, sive saecularis sive religiosus, ita quod non sit vel excommunicatus vel
+            praecisus. </p>
+          <p xml:id="bb-d4e23019-d1e199"> De confessione autem sacramentali, quae fit ad habendam absolutionem, aliter dicendum,
+            quod non potest fieri nisi potenti absolvere ; aliter enim nihil fit ab absolvente et
+            nihil recipitur a poenitente et oportet iterum confiteri. Secundum hoc intelligendum
+            quod proprius sacerdos dicitur tripliciter : uno modo cummunissime, alio modo communiter
+            et tertio modo proprie. Communissime dicitur proprius sacerdos quicumque potest
+            confitentem absolvere, sive per propriam auctoritatem sive per commissionem vel
+            demandationem, utpote sunt illi qui habent privilegium, dum praedicant, audiendi
+            confessiones. Communiter vero dicitur proprius sacerdos omnis ille qui ex propria
+            auctoritate vel officio tamquam praelatus ordinarius potest absolvere, ut episcopus et
+            sacerdos parochialis. Proprie vero dicitur proprius sacerdos ille qui administrat
+            sacramenta et cui commissa est specialis cura ; et iste est sacerdos parochialis. </p>
+          <p xml:id="bb-d4e23019-d1e202">Intellige igitur quod cuilibet horum licitum est confiteri ; et proprio sacerdoti,
+            scilicet parochiali, confessus non tenetur iterum confiteri ; similiter confessus
+            superiori qui curam habet, dico quod non tenetur confiteri sacerdoti parochiali, nisi
+            superior remittat, sed sufficit quod sacerdoti. suo innotescat ; et hoc dico, si fiat ex
+            causa.</p>
+          <p xml:id="bb-d4e23019-d1e206">Sed de tertio sacerdote, qui solvit per demandatioriem sive commissionem, non habens
+            animae curam, distinguendum est. Aut enim commissa est ei et licentia data a sacerdote,
+            et tunc sacerdos ius suum commisit alii ; et tunc qui confitetur alii ex licentia
+            sacerdotis, etiam ipso exigente illo anno, nisi recidivet, non tenetur iterum confiteri
+            eidem, quoniam sacerdos ius suum et potestatem pro illo tempore alteri dedit. Aut est
+            auctoritas commissa a superiori ordinario, et tunc aut plena aut in casu. Si plena sit,
+            est iudicandum sicut de ordinario, sicut patet de his qui sunt poenitentiarii domini
+            Papae et episcoporum ; aut est commissa in casu, sicut his qui praedicant datum est
+            privilegium. Credo enim quod talibus data sit potestas audiendi confessiones, non in
+            praeiudicium sacerdotum bonorum sed potius in favorem fidelium et propter ignorantiam,
+            negligentiam et malitiam quorumdam sacerdotum. Et credo hoc privilegium in extremis
+            temporibus emanasse, quia iam verificatum est illud : Erit sicut populus, sic sacerdos ;
+            et pro magna parte sunt venales et conductitii, ei multi parochianos suos plus ad malum
+            quam ad bonum trahunt. Unde dico quod secundum intentionem privilegii sacerdotes
+            parochiales iure suo non privantur, immo faciendum est semper quod a suis parochianis
+            debita eis reverentia exhibeatur ; nec contra hoc privilegium illud facit. Ideo
+            credendum est quod omnes parochiani, quandocumque et quotiescumque talibus confiteantur,
+            tenentur sacerdotibus propriis confiteri, si sint boni et idonei, et ipsi exigunt nec
+            alias contenti sunt ; et hoc dico saltem semel in anno de his peccatis quae habent tunc.
+            Si autem habet causam legitimam, propter quam rationabiliter refugit ipsum, vel quia
+            sollicitat ad malum vel quia timet revelationem confessionis vel quia simplex est et
+            idiota, dico quod confessus iterum non tenetur, etiam si exigat sacerdos, quia in
+            favorem clavium expresse hoc privilegium datum est. Alioquin, si non habet excusationem,
+            et, ipso exigente, nolit confiteri, vix crederem talem personam vere poenitentem. Ideo
+            omnibus sanum consilium est, quod remittant ad proprios sacerdotes, ut, si non est
+            contentus illa confessione, iterum audiat.</p>
+          <p xml:id="bb-d4e23019-d1e209">Quando ergo quaeritur, utrum teneatur confiteri proprio sacerdoti, dicendum quod, si
+            intelligatur de confessione in qua est absolutio et de proprio sacerdote largo modo
+            sumendo, scilicet qui habet potestatem absolvendi, dico quod tenetur, nec sufficit alii
+            confiteri. Si autem intelligatur de parochiali, sic non est generaliter verum, ut visum
+            est. Potest enim alii confiteri, non solum ex licentia eius, verum etiam ex licentia
+            superioris. Unde consilium dandum est omnibus, quibus imminet periculum, quod recurrant
+            ad superiores, si sacerdos non vult eis licentiam dare, vel ad eos qui habent potestatem
+            dioecesani, vel ad poenitentiarium domini Papae. Alioquin non potest absolvi ab aliis,
+            quin teneatur ipsi saltem semel confiteri.</p>
+          <p xml:id="bb-d4e23019-d1e212">Concedo ergo, sicut ostendunt rationes, quod in casu bene potest confiteri alii nec
+            tenetur confiteri proprio sacerdoti ; in casu vero potest confiteri alii, et tamen adhuc
+            tenetur, propter hoc quod ille non habet auctoritatem plenariam.</p>
+        </div>
+        <div xml:id="bb-d4e23019-Dd1e217">
+          <head xml:id="bb-d4e23019-Hd1e219">Ad rationes</head>
+          <p xml:id="bb-d4e23019-d1e222">1-2. Ad illud ergo quod obicitur primo, quod debet cognoscere vultum pecoris, dicendum
+            quod ipse absolvitur, dum alius vicem eius supplet, et hoc quando superior praelatus vel
+            habens licentiam ab ipso vel a praelato audit ; et ideo ipse non tenetur audire nec
+            alius confiteri.</p>
+          <p xml:id="bb-d4e23019-d1e225">3-4. Ad illud quod obicitur, quod non possit confiteri alii sine licentia, per
+            decretalem, etiam si causam habeat, unde dicit : petat et obtineat, dicendum quod ratio
+            redditur in eadem decretali, quia alius non potest absolvere ; unde loquitur de eo qui
+            non habet iurisdictionem aliquam super poenitentem nisi per commissionem sacerdotis.
+            Similiter ad sequens decretum Urbani patet responsio, quia loquitur de illo qui non
+            habet potestatem aliquo modo nisi per sacerdotem absolvendi ; et hoc melius patebit
+            infra, cum agetur de potestate clavium.</p>
+          <p xml:id="bb-d4e23019-d1e228">Ad illud quod obicitur, quod aut tenetur, aut non tenetur, dicendum quod aliquando
+            tenetur, sed tamen non frustra alii confitetur ; perutile enim est pluribus sacerdotibus
+            integre confiteri : tum propter multiplicationem intercessorum ; tum etiam quia, si
+            devotionem habeat, cum audit praedicationem, vix fortassis tantam recuperabit ; tum quia
+            promovet ad humiliationem et gratiae meliorem impetrationem. Aliquando non tenetur, ut
+            praedeterminatum est, non quia sit exemptus, sed quia alius ex causa supplet eius
+            officium. Credo tamen, quodsi sacerdos parochialis sit idoneus, quod semper bonum est ut
+            subditus ad eum remittatur, a quocumque audiatur, in his quae ad ipsum spectant ; non
+            tamen semper est necessarium. Unde argumenta ad oppositum non valent, quia efficaciori
+            modo curatur qui ex causa rationabili pluries confitetur. Potest tamen dici, sicut
+            aliqui iurisperiti senserunt, quod, si teneatur iterum confiteri proprio sacerdoti in
+            eodem anno, non tamen oportet quod illa eadem, quia vere absolutus est peccator. Et
+            istud videtur satis probabile, quia frequenter peccatores praedicantibus suas monstrant
+            conscientias, quas nullo modo propriis sacerdotibus aperirent ; immo illa dicunt
+            frequenter, quae longo tempore celaverunt, licet aliqua minora dicerent, sicut expertis
+            notum est. Et ideo credendum est etiam summum Pontificem hoc movisse ad illud
+            privilegium concedendum, quod non est adeo ampliandum ut praeiudicium fiat potestati
+            sacerdotali, nec adeo restringendum ut obsit fidelium pietati. Unde nec sunt poenitentes
+            arctandi ad illa enormia iterum confitenda, cum semel praedicanti legitime sunt confessi
+            ; nec ita liberi sunt iudicandi, quin etiam semel in anno, quae alias occurrunt in
+            conscientia teneantur sacerdotibus propriis confiteri, si illi velint.</p>
+          <p xml:id="bb-d4e23019-d1e231">Ad illud quod obicitur, quod tenetur a proprio sacerdote Eucharistiae sacramentum
+            accipere, ergo et sacramentum Poenitentiae, dicendum quod non est tantum periculum in
+            susceptione illius sicut in susceptione huius. Dico tamen quod sufficit sacerdoti quod
+            alius, qui potuit et debuit, supplevit locum eius. Unde non tenetur nec debet de iure
+            amplius exigere, maxime si parochianus non ex contemptu, sed ex rationabili causa ad
+            alium accedat, petita licentia.</p>
+          <p xml:id="bb-d4e23019-d1e235">Rationes vero ad oppositum verum probant. Tamen illud verbum <name ref="#Augustine">Augustini</name> non intelligitur generaliter de omni sacerdote sciente, sed de
+            sacerdote sciente et potente, vel si scit et non potest, cum licentia sacerdotis
+            proprii, qui habet posse, quamvis non habeat scire.</p>
+          <p xml:id="bb-d4e23019-d1e241">Ad illud quod obicitur de periculo, dicendum quod illud non dat posse, sed rationabilem
+            causam dat, ut possit superiorem adire vel ab ipso licentiam petere ; quod si non potest
+            aliquod horum facere, debet in communi loco confiteri.</p>
+          <p xml:id="bb-d4e23019-d1e244">3-4. Ad illud quod obicitur de privilegiatis, credo quod malo velle sacerdotum
+            parochialium possint confiteri ex licentia privilegii ; et sacerdos non est audiendus,
+            si prohibet, quia manifeste male movetur.</p>
+          <p xml:id="bb-d4e23019-d1e247">5-6. Ad illud quod obicitur, quod non debet iterum confiteri, dicendum quod non tenetur
+            de eisdem, tenetur tamen de aliis, propter mandatum decretalis, quia non potest
+            sacerdotem iure suo privare.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41855">
+        <head xml:id="bb-d4e41855-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e41855-Hd1e111" type="question-title">Utrum Matrimonium contractum ante Baptismum ponat in numerum cum
+          Matrimonio contracto post Baptismum.</head>
+        <p xml:id="bb-d4e41855-d1e114">Quarto quaeritur, utrum Matrimonium ante Baptismum ponat in numerum cum Matrimonio
+          contracto post Baptismum, ita quod talis iudicetur bigamus.</p>
+        <div xml:id="bb-d4e41855-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e41855-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e41855-d1e122">Et quod non, videtur. <name ref="#Jerome">Hieronymus</name>, super Epistolam ad
+            Timotheum I [3, 2] : <quote xml:id="bb-d4e41855-Qd1e127" ana="#Itim3_2">Si unam habuit ante Baptismum, alteram post
+              Baptismum, non est putandus bigamus</quote>.</p>
+          <p xml:id="bb-d4e41855-d1e131">Item, hoc ipsum, ostenditur ratione <name ref="#Jerome">Hieronymi</name> :
+              <quote xml:id="bb-d4e41855-Qd1e136">Prorsus innovato per Baptismum omnia vetera sunt dimissa</quote>. Ergo, cum
+            tale coniugium et talis actus coniugalis ad statum vetustatis pertineat, ergo habetur
+            tamquam si non fuerit : ergo non computatur cum Matrimonio subsequenti.</p>
+          <p xml:id="bb-d4e41855-d1e140">Item, ordinatus ante Baptismum et ordinatus post Baptismum non est bis ordinatus, etiam
+            si ordinetur ab alio et alio. Ergo pari ratione coniugatus ante et coniugatus post non
+            est bis coniugatus, etiam si contrahat cum alia et alia.</p>
+          <p xml:id="bb-d4e41855-d1e143">Item, secundum quid non connumeratur ei quod est simpliciter ; sed vinculum
+            matrimoniale est vinculum ante Baptismum imperfectum et secundum quid, post Baptismum
+            vero est perfectum : ergo non debet unum alteri connumerari : ergo etc.</p>
+          <p xml:id="bb-d4e41855-d1e147">Contra : <name ref="#Augustine">Augustinus</name>, super Epistolam ad Titum :
+              <quote xml:id="bb-d4e41855-Qd1e152">Qui ante Baptismum habuit unam et post Baptismum habuit aliam non est
+              reputandus nisi bigamus</quote>.</p>
+          <p xml:id="bb-d4e41855-d1e156">Item, hoc videtur ratione sua : <quote xml:id="bb-d4e41855-Qd1e158">In Baptismate crimina abolentur, non id quod
+              honestum est, utpote foederatio coniugalis</quote>. Ergo, si non aboletur, adhuc
+            manet, et iudicatur iste fuisse coniugatus : ergo, si iterum contrahat, est iudicandus
+            bigamus.</p>
+          <p xml:id="bb-d4e41855-d1e162">Item, virgo quae corrupta fuit carne ante Baptismum, semper post iudicatur corrupta et
+            nunquam poterit inter virgines consecrari, et hoc, quia amissio virginitatis respicit
+            aliquid ex parte carnis, quod nunquam potest recuperari. Ergo, cum bigamia respiciat
+            divisionem carnis, patet etc.</p>
+          <p xml:id="bb-d4e41855-d1e165">Item, si baptizatus, apud haereticos iterum baptizetur, quantum est in se, iterat
+            Baptismum et puniendus est poenitentia rebaptizati. Ergo, cum coniugium sit verum apud
+            infideles, qui iterum contrahit iterat Matrimonium : ergo non potest esse nisi
+            bigamus.</p>
+        </div>
+        <div xml:id="bb-d4e41855-Dd1e169">
+          <head xml:id="bb-d4e41855-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e41855-Hd1e174" type="question-title">Qui contrahit matrimonium eum una ante baptismum, cum alia
+            post baptismum est bigamus</head>
+          <p xml:id="bb-d4e41855-d1e177">Respondeo : Dicendum quod, sicut expresse apparet, <name ref="#Jerome">Hieronymus</name> et <name ref="#Augustine">Augustinus</name> hic fuerunt contrarie
+            opinati ; et nisi quis velit distorquere verba, non video quomodo possint reduci ad
+            concordiam. Ideo enim in hoc habuerunt opiniones contrarias, quia fundati sunt super
+            diversa.</p>
+          <p xml:id="bb-d4e41855-d1e186">Hieronymus enim voluit quod omnis vita infidelium esset culpa et quod Matrimonium
+            infidelium ad veterem hominem pertineret ; et quia in Baptismo exspoliatur vetus homo
+            cum actibus suis et induitur novus, hinc est quod dixit quod sicut peccata praeterita
+            isti non imputantur nec computantur, sic etiam nec coniugia.</p>
+          <p xml:id="bb-d4e41855-d1e189">Augustinus vero posuit quod coniugia infidelium, etsi non essent meritoria, non tamen
+            erant culpabilia, immo erunt licita et bona. Et hoc patet, quia Dominus instituit et ius
+            naturale dictat et ulterius Apostolus confirmat, qui dicit uxorem infidelem non esse
+            dimittendam ; et quia licita sunt, hinc est quod per Baptismum non delentur. Et quoniam
+              <name ref="#Augustine">Augustinus</name> melius habuit fundamentum et verius, hinc est
+            quod verius et sanius dixit ; et ideo canones positioni <name ref="#Augustine">Augustini</name> concordant, et illud nunc tenet Ecclesia, quod Matrimonium ante
+            Baptismum contractum cum una et post Baptismum cum alia, facit bigamum, sicut expresse
+            dicitur <ref xml:id="bb-d4e41855-Rd1e197" target="http://scta.info/resource/gd-p1d34-d1e319">distinctione XXXIV</ref>
+            : <quote xml:id="bb-d4e41855-Qd1e200">Si quis viduam, licet laicus, duxerit uxorem, seu ante Baptismum seu post
+              Baptismum, non admittatur ad clerum. In Baptismate enim crimina dimittuntur, non
+              acceptae uxoris consortium relaxatur</quote>.</p>
+        </div>
+        <div xml:id="bb-d4e41855-Dd1e206">
+          <head xml:id="bb-d4e41855-Hd1e208">Ad rationes</head>
+          <p xml:id="bb-d4e41855-d1e211">1-2. Ad illud ergo quod primo obicitur et secundo, dicendum quod illud iam solutum est,
+            quia nec auctoritas <name ref="#Jerome">Hieronymi</name> hic habet robur nec ratio sua ;
+            unde opinando dixit, non asserendo.</p>
+          <p xml:id="bb-d4e41855-d1e217">Ad illud quod obicitur de ordinato ante Baptismum et post, dicendum quod non est
+            simile, quia in Ordine imprimitur character qui non potest alicui dari nisi habeat
+            characterem baptismalem, sicut in praecedentibus probatum est et ostensum ; unde qui
+            ordinatur ante Baptismum non est ordinatus : ideo, cum ordinatur post Baptismum, semel
+            tantum est ordinatus. Non sic est de Matrimonio ; quia enim ibi non imprimitur
+            character, ideo potest contrahi ante Baptismum, et ante coniugatus est quam
+            baptizatus.</p>
+          <p xml:id="bb-d4e41855-d1e220">Ad illud quod obicitur, quod est secundum quid, dicendum quod duplex est secundum quid
+            : unum quod diminuit ab esse, aliud quod diminuit ab esse perfecto. Primum, quod
+            diminuit ab esse, non ponit in numerum ; cum enim non participet esse, non potest
+            connumerari alii in illo esse. Aliud vero potest ; dam ; et tale est Matrimonium
+            infidelium, quod quidem habet rationem coniugii et definitionem, licet non habeat in
+            tanta perfectione in quanta habet Matrimonium fidelium.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

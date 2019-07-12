@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e49577">
+        <head xml:id="bb-d4e49577-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e49577-Hd1e111" type="question-title">Utrum Christus in forma Divinitatis apparebit malis.</head>
+        <p xml:id="bb-d4e49577-d1e114">Secundo quaeritur de forma, in qua Christus apparebit ; et quaeritur, utrum in forma
+          Divinitatis appareat malis.</p>
+        <div xml:id="bb-d4e49577-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e49577-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e49577-d1e122">Et quod non : <name ref="#IsidoreOfSeville">Isidorus</name> dicit, et habetur ab <name ref="#Augustine">Augustino</name> : <quote xml:id="bb-d4e49577-Qd1e130">In forma, in qua iudicatus est, videbunt
+              eum, ut doleant ; in forma Divinitatis non videbunt, ne gaudeant</quote>.</p>
+          <p xml:id="bb-d4e49577-d1e134">Item, ratione videtur, quia lux illa est inaccessibilis oculis intellectus nostri
+            secundum statum infirmitatis : ergo, si damnati surgent cum infirmitatibus et
+            imperfectionibus, ergo inaccessibilis erit ipsis.</p>
+          <p xml:id="bb-d4e49577-d1e137">Item, Ioannis 17, 3 : <quote xml:id="bb-d4e49577-Qd1e139" ana="#io17_3">Haec est vita aeterna, ut cognoscant te,
+              verum Deum</quote>. Ergo, cum videre Deum sit vita aeterna, et mali non sint habituri
+            vitam aeternam, ergo non videbunt eum in forma Divinitatis.</p>
+          <p xml:id="bb-d4e49577-d1e143">Item, reprobi debent puniri et quantum ad rationem et quantum ad voluntatem ; sed
+            quantum ad voluntatem Deum non poterunt amare : ergo nec quantum ad rationem videre.</p>
+          <p xml:id="bb-d4e49577-d1e147">Contra : Reprobi, qui noluerunt Christum credere esse Deum, tunc non dubitabunt ipsum
+            esse Deum. Ergo Christi Divinitas erit eis manifesta cognitione certissima : ergo ipsam
+            videbunt, non solum per speculum, sed per se ipsam.</p>
+          <p xml:id="bb-d4e49577-d1e150">Item, videtur quod debeant videre, quia reprobi debent terreri ad aspectum Christi ;
+            sed quod summe terret est potestas Divinitatis et maiestas ; et quod ita sit, dicitur
+            Matthaei 24, 30 : Veniet Filius hominis cum potestate magna et maiestate : ergo etc.</p>
+          <p xml:id="bb-d4e49577-d1e153">Item, nemo punitur perfecte ex amissione alicuius boni nisi illud cognoscat. Ergo, si
+            reprobi debent puniri carentia visionis Dei, debet eis ostendi quantum bonum sit visio
+            Dei ; sed hoc non potest scire nisi qui videt : ergo saltem in iudicio debent
+            videre.</p>
+          <p xml:id="bb-d4e49577-d1e156">Item, quaero rationem quare non debent videre ? Si dicas ne gaudeant, sicut dicit <name ref="#IsidoreOfSeville">Isidorus</name> et <name ref="#Augustine">Augustinus</name>,
+            contra : Omne quod recipitur in aliquo, est ibi per modum recipientis. Ergo, si habent
+            oculos infirmos, lux vera potius contristabit quam delectet, sicut patet etiam in luce
+            corporali.</p>
+          <p xml:id="bb-d4e49577-d1e165">Item, possibile est Deo separare in reprobis cognitionem a delectatione, sicut in
+            iudicio in igne lucem a calore ; et si hoc, tunc videtur quod propter istam rationem non
+            debeat dimittere. Item, secundum humanitatem apparebit blandus iustis et terribilis
+            malis, quare non potest similiter facere secundum Divinitatem ?</p>
+        </div>
+        <div xml:id="bb-d4e49577-Dd1e169">
+          <p xml:id="bb-d4e49577-d1e171">Respondeo : Dicendum quod, sicut dicit <name ref="#Augustine">Augustinus</name> et
+              <name ref="#IsidoreOfSeville">Isidorus</name> et <name ref="#Lombard">Magister</name>
+            in littera et etiam <name ref="#HughOfStVictor">Hugo</name>, De sacramentis, Patrem
+            nullus de reprobis videbit in iudicio, sed omnes Filium, quia Filius hominis est, ut ab
+            omnibus possit videri. Unde non apparebit malis in forma Dei.</p>
+          <p xml:id="bb-d4e49577-d1e186">Propter quod nota quod duplex est cognitio Divinitatis : una per signa et effectus,
+            alia in sua forma et essentia. Dico ergo quod reprobi bene habebunt cognitionem de
+            Christi Divinitate per signa certissima et per effectus manifestos cognoscent quod ipse
+            est Deus omnipotens. Cognitionem autem quae est in propria forma, quae est per visionem
+            apertam, hanc quidem non habebunt. Et prima ratio huius est, quia talis forma oninino
+            est improportionalis oculis peccatoris et improportionalis oculis omnibus qui non sunt
+            sublimati per gloriam vel per superabundantiam gratiae ; et quia reprobis non dabitur
+            gratia, nec simpliciter nec ad tempus, ideo non videbunt.</p>
+          <p xml:id="bb-d4e49577-d1e189">Ratio autem quare non dabitur eis virtus quae faciat eorum aspectum habilem ad videndum
+            illam lucem, est illa quam tangit <name ref="#IsidoreOfSeville">Isidorus</name> et <name ref="#Augustine">Augustinus</name>, quia si haberent oculum aptum, haberent summam
+            delectationem, quam impossibile est esse et indecens in peccatoribus.</p>
+        </div>
+        <div xml:id="bb-d4e49577-Dd1e200">
+          <head xml:id="bb-d4e49577-Hd1e202">Ad rationes</head>
+          <p xml:id="bb-d4e49577-d1e205">1-3 : Ex his patent obiecta. Prima enim tria ostendunt quod habebunt cognitionem de Deo
+            quantum ad maiestatem et bonitatem ; sed non ostendunt quod per speciem, sed sufficit
+            quod per signa certa.</p>
+          <p xml:id="bb-d4e49577-d1e208">Ad aliud iam patet responsio quae sit ratio, quia scilicet sunt improportionales et
+            impossibile est intelligere quod fiant proportionales et non gaudeant ; non sic est in
+            luce creata, quia oculus est proportionalis per naturam et per infirmitatem non omnino
+            efficitur improportionalis, sed tamen minuitur proportio, et ideo videt cum tristitia ;
+            illa alitem lux cum tristitia videri non potest.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

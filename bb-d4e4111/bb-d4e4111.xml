@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio Textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4111">
+        <head xml:id="bb-d4e4111-Hd1e108">Divisio Textus</head>
+        <p xml:id="bb-d4e4111-d1e111">Supra egit <name ref="#Lombard">Magister</name> de Baptismo secundum se. Haec est secunda
+          pars, in qua agit de Baptismo in comparatione ad recipientes. Et dividitur haec pars in
+          duas partes. In prima agit per comparationem ad communiter recipientes. In secunda
+          specialiter quantum ad parvulos, infra, capitulo ultimo : Solet etiam quaeri, si parvulis
+          in Baptismo datur gratia etc. Prima pars habet duas. In prima agit de recipientibus
+          sacramentum. In secunda de recipientibus sacramenti rem tantum, ibi : Sunt et alii, ut
+          supra posuimus, qui suscipiunt rem et non sacramentum.</p>
+        <p xml:id="bb-d4e4111-d1e117">Prima pars habet duas. In prima, agit de accipientibus rem et sacramentum. In secunda
+          agit de recipientibus sacramentum tantum, ibi : Qui vero sine fide accedunt.</p>
+        <p xml:id="bb-d4e4111-d1e120">Prima pars habet duas. In prima determinat veritatem. In secunda dissolvit dubitationem
+          sive removet falsitatem, ibi : Quamvis quidam diffiteantur, illis etc.</p>
+        <p xml:id="bb-d4e4111-d1e123">Similiter secunda pars, in qua agit de ficte accedentibus ad sacramentum, duas habet. In
+          prima determinat veritatem. In secunda vero removet dubitationem, ibi : Videtur tamen
+            <name ref="#Augustine">Augustinus</name> dicere quod ficte accedenti etc. Et ibi primo
+          determinat dubium ortum ex auctoritate <name ref="#Augustine">Augustini</name>. Secundo
+          vero determinat dubium quod habet ortum ex auctoritate Apostoli, ibi : Quaeritur ergo
+          quomodo illud accipiatur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

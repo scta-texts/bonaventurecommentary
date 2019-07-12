@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e7831">
+        <head xml:id="bb-d4e7831-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e7831-Hd1e111" type="question-title">Utrum materia Confirmationis sit necessaria.</head>
+        <p xml:id="bb-d4e7831-d1e114">Secundo quaeritur de materia, utrum sit necessaria.</p>
+        <div xml:id="bb-d4e7831-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e7831-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e7831-d1e122">Et videtur primo, quod istud sacramentum indigeat necessario materia : Quia, sicut
+            dicit <name ref="#HughOfStVictor">Hugo</name>, <quote xml:id="bb-d4e7831-Qd1e127" source="http://scta.info/resource/hds-l1p9">
+              <!-- update to c2 -->Sacramentum est elementum foris sensibiliter propositum, ex
+              similitudine repraesentans</quote>. Sed repraesentatio est per materiam : ergo materia
+            est necessaria.</p>
+          <p xml:id="bb-d4e7831-d1e133">Praeterea, supra habitum est quod Dominus potestatem mundandi non tradidit homini per
+            se, sed per elementum, ne poneretur spes in homine. Ergo pari ratione potestatem
+            confirmandi non debuit dare homini nisi mediante elemento.</p>
+          <p xml:id="bb-d4e7831-d1e136">Contra: Apostoli sola manus impositione confirmabant : ergo videtur quod successores
+            eorum sola manus impositione hoc possint, si transmiserunt potestatem quam habebant.</p>
+          <p xml:id="bb-d4e7831-d1e139">Item, materia aliorum sacramentorum fuit instituta a Christo, ut patet in Baptismo et
+            Eucharistia, et Christus etiam ea suscepit. Ergo videtur pari ratione, quodsi hoc
+            sacramen.tum haberet materiam, quod Christus instituisset sacramentum suscipiendo. Si tu
+            dicas quod non decebat eum confirmari, obicitur tunc, quia similiter nec circumcidi nec
+            baptizari ; sed fecit propter auctoritatem sacramenti et humilitatis, ut habitum est,
+            exemplum : ergo etc. </p>
+          <p xml:id="bb-d4e7831-d1e143">Item, quaero utrum materia huius sacramenti debeat esse consecrata. Et videtur quod
+            sic, quia est chrisma, quod consecratur a Pontificibus determinato tempore anni. Sed
+            videtur quod non, cum alia sacramenta possint fieri sine consecratione, ut patet in
+            Baptismo qui antecedit, et Eucharistia quae sequitur Baptismum : ergo et in
+            Confirmatione.</p>
+          <p xml:id="bb-d4e7831-d1e146">Item, quaero, cum alia sacramenta habeant elementa simplicia non mixta, quarn hoc
+            sacramentum habet mixta ? Et videtur quod non deberet habere, quia dicitur Ecclesiastici
+            24, 21 : <quote xml:id="bb-d4e7831-Qd1e148" ana="#sir24_21">Quasi balsamum non mixtum odor meus</quote> ; hoc dicit
+            Sapientia de se.</p>
+          <p xml:id="bb-d4e7831-d1e152">Item, quaero : quare magis assumitur balsamum quam aqua ? Et videtur quod aqua magis,
+            quia morbo generali debet respondere elementum commune et generale ; sed balsamum est
+            pretiosum et rarum, aqua communis est omnibus : ergo etc..</p>
+          <p xml:id="bb-d4e7831-d1e155">Item, quare magis oleum quam vinum ? Et videtur quod vinum magis, quia facit hominem
+            audacem et disertum ; et hic est huius sacramenti effectus.</p>
+        </div>
+        <div xml:id="bb-d4e7831-Dd1e159">
+          <head xml:id="bb-d4e7831-Hd1e161">Conclusio</head>
+          <head xml:id="bb-d4e7831-Hd1e164" type="question-title">Materia consecrata est de integritate confirmationis</head>
+          <p xml:id="bb-d4e7831-d1e167">Respondeo : Sicut tactum est prius, Christus hoc sacramentum non instituit, quia
+            credentes post eius ascensionem erant confirmandi. Unde nec materiam nec formam Apostoli
+            dispensaverunt, sed rem huius sacramenti sine forma, a Spiritu Sancto immediate
+            confirmante, et sine elemento vel materia, quia in datione Spiritus Sancti signa
+            visibilia apparebant ; et ideo non erat opus elemento. Sed post a successoribus
+            institutis dandus erat vi verborum et invisibiliter ; ideo oportuit institui sensibile
+            elementum.</p>
+          <p xml:id="bb-d4e7831-d1e170">Institutum est igitur hoc elementum, Spiritu Sancto dictante, ab ipsis Ecclesiae
+            rectoribus ; et quia Christus non instituerat nec vim ei dederat, secundum quod ipse
+            contactu mundissimae carnis dederat aquis, et ut ipse, conficiendo corpus suum,
+            instituit elementum sive materiam Eucharistiae, ut panem vel vinum : ideo episcopi non
+            valentes se ipsis materias consecrare, consecrari per benedictionem instituerunt. Et
+            ideo materia huius sacramenti debet esse consecrata.</p>
+          <p xml:id="bb-d4e7831-d1e173">Ad illud quod quaeritur : quare mixta in isto, et non in aliis ? dicendum quod, sicut
+            dictum est de forma, quia erat ad duplicem actum arduum, ideo duplex actus exprimitur in
+            forma ; et ideo et duplex elementum, consonans illi duplici actui et rei, commiscetur :
+            oleum olivarum propter nitorem signat interiorem fidem ex bona conscientia ; balsamum
+            propter odorem dignam et laudabilem confessionem. Et ex hoc patet quare haec duo
+            elementa magis quam alia.</p>
+          <p xml:id="bb-d4e7831-d1e177">Ad illud quod obicitur de generalitate, dicendum quod hoc verum esset ; si esset
+            sacramentum necessitatis et salvaretur in aqua completa ratio signandi. De vino
+            similiter dicendum quod non convenit propter hoc quod audacem et fortem faciat
+            obnubilando rationem : ideo non convenit, quia fortitudo spiritualis est ex ratione
+            recta et pura, non ex ratione obnubilata.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

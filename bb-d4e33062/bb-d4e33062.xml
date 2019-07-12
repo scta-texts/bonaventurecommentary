@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33062">
+        <head xml:id="bb-d4e33062-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e33062-Hd1e111" type="question-title">Utrum institutio Matrimonii fuerit sub praecepto.</head>
+        <p xml:id="bb-d4e33062-d1e114">Tertio quaeritur, qualiter fuerit institutum Matrimonium ; et est quaestio, utrum
+          institutio Matrimonii fuerit sub praecepto.</p>
+        <div xml:id="bb-d4e33062-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e33062-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e33062-d1e122">Et quod sic, videtur : Per textum Genesis, quia praeceptum est eis quod crescerent et
+            multiplicarentur ; sed non poterat hoc fieri nisi per coniunctionem maris cum femina ;
+            hoc autem est Matrimonium : ergo Matrimonium fuit institutum sub praecepto.</p>
+          <p xml:id="bb-d4e33062-d1e125">Item, <name ref="#Lombard">Magister</name> in littera : Prima institutio Matrimonii
+            habuit praeceptum ; sed prima fuit in paradiso : ergo etc.</p>
+          <p xml:id="bb-d4e33062-d1e131">Item, ratione videtur, quia Matrimonium ordinatum erat ad conservationem speciei
+            quantum ad generativam, et esus lignorum ordinatus erat ad conservationem individui
+            quantum ad nutritivam, quia, etsi nunquam moreretur, tamen determinato tempore in aliam
+            vitam transferretur ; sed esus cadebat sub praecepto : ergo et coitus.</p>
+          <p xml:id="bb-d4e33062-d1e134">Item, omnes qui possunt, tenentur pro loco et tempore multiplicare prolem spiritualem,
+            revocando scilicet hominem a peccato. Ergo, cum secundum statum primum multiplicatio
+            corporalis esset coniuncta spirituali, videtur quod omnes tenebantur, et sic videtur
+            institutum fuisse Matrimonium sub praecepto.</p>
+          <p xml:id="bb-d4e33062-d1e138">Contra : Si fuit institutum sub praecepto, aut ergo illud praeceptum fuit iuris
+            naturalis aut disciplinae. Non disciplinae, quia unum solum fuit ; non iuris naturalis,
+            quia adhuc maneret : ergo nullo modo fuit institutum sub praecepto.</p>
+          <p xml:id="bb-d4e33062-d1e141">Item, semper licitum fuit homini facere quod melius est ; sed melius est omnino
+            continere quam coire, quia castitas virginalis est dignior coniugali : ergo licuit non
+            coire nec nubere. Sed non licuisset, si fuisset vel esset sub praecepto : et sic
+            etc.</p>
+          <p xml:id="bb-d4e33062-d1e144">Item, si praeceptum fuit, cum Abel uxorem non habuerit, videtur quod peccaverit ; sed
+            constat quod hoc est falsum, quia Abel est primus iustorum, sicut testatur Dominus,
+            Matthaei 23, 35 : A sanguine Abel iusti : ergo etc.</p>
+          <p xml:id="bb-d4e33062-d1e147">Item, ad Matrimonium maxime requiritur liber consensus : ergo nullo modo arctari debuit
+            homo per praeceptum.</p>
+        </div>
+        <div xml:id="bb-d4e33062-Dd1e151">
+          <head xml:id="bb-d4e33062-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e33062-Hd1e156" type="question-title">Prima institutio matrimonii praeceptum habuit affirmativum et
+            fuit de iure naturali, non simpliciter, sed secundum tempus: secunda vero habuit
+            indulgentiam, non praeceptum</head>
+          <p xml:id="bb-d4e33062-d1e159">Respondeo : Dicendum quod prima institutio Matrimonii praeceptum habuit, sicut dicit
+              <name ref="#Lombard">Magister</name> ; et praeceptum illud fuit affirmativum et fuit
+            iuris naturalis. Sed attendendum quod ius naturale quaedam dictat simpliciter, quaedam
+            secundum tempus : simpliciter, ut Deum amandum ; secundum tempus, ut omnia esse
+            communia. Dico igitur quod praeceptum de usu matrimonii fuit naturale secundo modo,
+            quia, quamdiu pauci erant, dictabat ius naturale quod multiplicanda esset proles ad
+            cultum Dei. Sed, cessante isto statu, cessavit praeceptum ; et ideo secunda institutio
+            tempore legis gratiae habuit indulgentiam, non praeceptum.</p>
+        </div>
+        <div xml:id="bb-d4e33062-Dd1e167">
+          <head xml:id="bb-d4e33062-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e33062-d1e172">Et ex hoc patet primo obiectum.</p>
+          <p xml:id="bb-d4e33062-d1e175">Ad secundum dicendum quod nec tempore legis naturae institutae nec etiam corruptae in
+            statu primo perfectius fuit continere quam nubere : primo quidem, quia non erat ibi
+            pruritus nec turpitudo aliqua ; secundo vero, quia erat obedientiae meritum ; unde
+            caelibatus Ioannis non praefertur coniugio <name ref="#Abraham">Abrahae</name>.</p>
+          <p xml:id="bb-d4e33062-d1e181">Ad illud quod obicitur de Abel, dicendum quod illud erat praeceptum affirmativum, et
+            ideo non obligabat ad semper, sed pro loco et tempore ; et ideo non peccavit, quia
+            nondum senuerat.</p>
+          <p xml:id="bb-d4e33062-d1e184">Ad illud quod obicitur de libertate consensus, dicendum quod sicut praeceptum non
+            aufert motum caritatis, qui motus maxime gratuitus et liberalis est, sic non aufert
+            libertatem consensus nec diminuit. Praeterea, quamvis Dominus praeciperet contractionem
+            matrimonii cum aliqua, tamen, utrum cum hac quis contraheret vel cum alia, reliquit in
+            mera libertate contrahentis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

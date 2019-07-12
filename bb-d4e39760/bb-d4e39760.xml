@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e39760">
+        <head xml:id="bb-d4e39760-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e39760-Hd1e111" type="question-title">Utrum status aetatis impediat Matrimonium.</head>
+        <div xml:id="bb-d4e39760-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e39760-Hd1e116">Ratioes principales</head>
+          <p xml:id="bb-d4e39760-d1e119">Circa primum sic proceditur et ostenditur, quod status aetatis impediat Matrimonium :
+            Quia statum aetatis sequitur impotentia coeundi ; sed impotentia coeundi impedit
+            Matrimonium : ergo et status aetatis.</p>
+          <p xml:id="bb-d4e39760-d1e122">Item, statum aetatis consequitur indiscretio ; sed discretio requiritur ad consensum
+            legitimum et consensus ad Matrimonium : ergo talis potest esse status aetatis quod
+            impedit Matrimonium.</p>
+          <p xml:id="bb-d4e39760-d1e125">Item, iura canonica et civilia dicunt quod impuberes non possunt contrahere Matrimonium
+            ; sed impuberes iudicantur ratione aetatis, ut masculus ante decimum quartum annum et
+            femina ante duodecimum : ergo etc.</p>
+          <p xml:id="bb-d4e39760-d1e128">Contra : Status pubertatis non impedit susceptionem alicuius alterius sacramenti, quae
+            etiam maioris sunt perfectionis : ergo nec Matrimonium.</p>
+          <p xml:id="bb-d4e39760-d1e132">Item, quare non possunt contrapere ante tempus pubertatis ? Aut propter impotentiam
+            coeundi aut propter defectum discretionis. Si propter impotentiam, sed multi infirmi
+            sunt impotentes reddere debitum, et tamen possunt contrahere ; praeterea, multi senio
+            confecti sunt impotentes, et tamen possunt contrahere ; praeterea, multi etiam ante
+            annum decimum quartum coeunt. Si propter defectum discretionis, contra hoc est quod
+            multi sunt discretiores in decennio quam alii in vigesimo anno, qui possunt contrahere :
+            ergo etc.</p>
+          <p xml:id="bb-d4e39760-d1e135">Item, quaeritur, quare tempus pubertatis citius completur in muliere quam in viro ? Et
+            videtur quod non deberet, quia quantum ad sponsalia contrahenda ad par tempus et aequale
+            masculus et femina iudicantur, ut puta ad septennium : ergo pari ratione ad Matrimonium
+            contrahendum.</p>
+        </div>
+        <div xml:id="bb-d4e39760-Dd1e139">
+          <head xml:id="bb-d4e39760-Hd1e141">Conclusio</head>
+          <head xml:id="bb-d4e39760-Hd1e144" type="question-title">Ante tempus pubertatis de iure non potest contrahi
+            matrimonium</head>
+          <p xml:id="bb-d4e39760-d1e147">Respondeo : Ad praedictorum intelligentiam est notandum quod Matrimonium est in
+            officium et in remedium et in sacramentum vel signum : in officium, inquam, procreandi
+            prolem, in remedium contra impulsum libidinis, et in sacramentum insolubilis
+            coniunctionis naturarum Christi. Quoniam igitur ante tempus pubertatis non possunt
+            masculus et femina generare, nec fervore libidinis excitantur tamquam impotentes ad eius
+            actum, quia etiam ante tempus illud sunt variabiles, et Matrimonium est immutabile :
+            decreverunt iura tales personas non esse legitimas, antequam ad tempus veniant
+            pubertatis.</p>
+        </div>
+        <div xml:id="bb-d4e39760-Dd1e151">
+          <head xml:id="bb-d4e39760-Hd1e153">Ad rationes</head>
+          <p xml:id="bb-d4e39760-d1e156">Ad illud ergo quod obicitur de sacramentis aliis, dicendum quod non est simile, quia
+            utilia et necessaria sunt ante tempus pubertatis.</p>
+          <p xml:id="bb-d4e39760-d1e159">Ad illud quod quaeritur, quid impediat, dicendum quod defectus aetatis ratione
+            instabilitatis puerilis et impotentia coeundi naturalis. Quod obicit de sene et infirmo
+            non est simile, quia stabiles sunt in sensu et in affectu. Sed quod dicit quod ante
+            possunt, dicendum quod iura iudicant et instituunt non ea quae semper, sed ea quae fiunt
+            frequenter, et quia, licet ante tempus indictum aliqui possint coire propter
+            accelerationem naturae, tamen ut frequenter ante illud tempus non possunt. Quia tamen
+            iura viderunt quod aliqui possent, ideo non tantum arctaverunt quin etiam proximi
+            pubertati circa medium annum possint contrahere.</p>
+          <p xml:id="bb-d4e39760-d1e162"> Ad illud quod quaeritur : quare citius completur tempus pubertatis in muliere ?
+            dicendum quod tempus sponsalium determinatur quantum ad discretionem, sed tempus
+            pubertatis quantum ad potentiam coeundi ; et quia citius potest coire femina quam
+            masculus, ideo etc. Si tu quaeras : quare mulier citius quam masculus ? responderi
+            potest quod hoc fit multis rationibus : primo, quia prius fit solutio viscositatis
+            propter meatus largiores ; secundo, quia difficilius est agere quam pati ; tertio, quia
+            natura imperfecta in muliere appetit virum, sicut materia formam ; unde propter maiorem
+            appetitum naturae maior fit acceleratio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

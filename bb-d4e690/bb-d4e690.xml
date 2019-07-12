@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e690">
+        <head xml:id="bb-d4e690-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e690-Hd1e111" type="question-title">De differentia inter sacramenta vetera et nova.</head>
+        <p xml:id="bb-d4e690-d1e114">Quinto quaeritur de differentia sacramentorum Novae Legis et Veteris ; et assignat <name ref="#Lombard">Magister</name> hanc differentiam : <quote xml:id="bb-d4e690-Qd1e119">quia illa tantum promittebant
+            gratiam et non dabant, haec autem dant</quote>. Unde communiter assignatur differentia,
+          quod sacramenta Novae Legis efficiunt quod figurant, sed Veteris non. </p>
+        <div xml:id="bb-d4e690-Dd1e123" type="rationes-principales">
+          <head xml:id="bb-d4e690-Hd1e125">Rationes principales</head>
+          <p xml:id="bb-d4e690-d1e128">Contra haec sic obicit <name ref="#HughOfStVictor">Hugo</name>, in libro De sacramentis
+            : <quote xml:id="bb-d4e690-Qd1e133">Sacramentorum alia sub natura, alia sub Lege, alia sub gratia, alia quidem in
+              specie, sed eumdem effectum sanitatis habentia</quote>.</p>
+          <p xml:id="bb-d4e690-d1e137">Item, <name ref="#HughOfStVictor">Hugo</name> : Ex quo homo aegrotare coepit, Deus
+            reparando in sacramentis suis medicinam praeparavit. Sed impossibile est mederi Deum
+            sine gratia iustificante : ergo in omnibus sacramentis est gratia iustificans et sic.
+            nulla differentia.</p>
+          <p xml:id="bb-d4e690-d1e143">Item, per rationem videtur, quia semper decuit ut curreret medicina cum morbo, quia
+            semper et in omni Lege aliqui sunt salvati ; sed sacramentum non est medicina nisi curet
+            per gratiam : ergo in omni tempore sacramenta contulerunt gratiam : et sic etc.</p>
+          <p xml:id="bb-d4e690-d1e146">Item, sacramenta Novae Legis non habent efficaciam nisi per gratiam fidei, quia qui
+            infidelis est ficte accedit et non reportat commodum ; sed sacramenta illa coniuncta
+            fidei iustificabant, quia omne opus, nisi sit secundum se malum, quando est a fide
+            operante per dilectionem, fit meritorium : ergo sicut ista iustificant, sic et illa.</p>
+          <p xml:id="bb-d4e690-d1e150">Contra : <name ref="#HughOfStVictor">Hugo</name>, in libro De sacramentis : Tempore
+            legis naturae relictus est homo sibi, et sibi relictus erravit per ignorantiam, et ideo
+            convictus est de caecitate ; postmodum data est Lex Vetus sine gratia, in qua quid esset
+            faciendum cognovit, sed concupiscentia pressus cecidit ; et sic est victus de impotentia
+            ; et tunc venit Christus, de quo Ioannis 1, 17 : Gratia et veritas per Iesum Christum
+            iacta est. Ergo sacramenta tempore Legis Veteris non conferebant aliquam gratiam : ergo
+            etc.</p>
+          <p xml:id="bb-d4e690-d1e156">Item, super illud ad Romanos 3, 20 : <quote xml:id="bb-d4e690-Qd1e158" ana="#rom3_20">Ex operibus Legis</quote>,
+            Glossa : <quote xml:id="bb-d4e690-Qd1e161">Opera Legis dicuntur, quae cum Lege instituta et terminata sunt, quae
+              nunquam iustificare potuerunt, etiam si in fide et caritate fierent</quote>.</p>
+          <p xml:id="bb-d4e690-d1e165">Item, super illud Isaiae 1, 11 : <quote xml:id="bb-d4e690-Qd1e167" ana="#is1_11">Sanguinem hircorum nolui</quote>,
+            Glossa : <quote xml:id="bb-d4e690-Qd1e170">Praeterito utens, ostendit se nunquam sacrificia Iudaeorum
+              amasse</quote>.</p>
+          <p xml:id="bb-d4e690-d1e174">Item, ratione videtur, quia Lex Vetus data est in onus ; unde Ezechielis 20, 25 :
+              <quote xml:id="bb-d4e690-Qd1e176" ana="#ez20_25">Dedi eis praecepta non bona et verba, in quibus non
+              vivent</quote> ; sed si haberent sacramenta dantia gratiam, alleviarent ; et beatus
+            Petrus, Actuum 15, 10 : <quote xml:id="bb-d4e690-Qd1e179" ana="#act15_10">Hoc est onus, quod nec nos nec patres
+              nostri portare potuimus</quote>. Ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e690-Dd1e184">
+          <head xml:id="bb-d4e690-Hd1e186">Conclusio</head>
+          <head xml:id="bb-d4e690-Hd1e189" type="question-title">Sacramenta novae legis per se iustifiant et gratiam conferunt
+            ex opere operato, quod non faciebant Sacramenta legis veteris nisi per accidens</head>
+          <p xml:id="bb-d4e690-d1e192">Respondeo : Dicendum quod istam differentiam aliter intellexit <name ref="#HughOfStVictor">Hugo</name>, aliter intellexit Pictaviensis et <name ref="#Lombard">Magister</name>.</p>
+          <p xml:id="bb-d4e690-d1e201">Magister enim, secutus Pictaviensem, dixit quod sacramenta Veteris Legis, excepta
+            circumcisione, instituta essent ad significandum tantum in perfectis viris et fidelibus,
+            quia aliis erant instituta vel in onus, si duri erant, vel ad revocandum ab idololatria.
+            Et si ad aliquam fuerunt efficaciam ordinata, hoc fuit solum ut absolverent ab
+            irregularitate carnali vel poena temporali, ut baptismata et sacrificia. Et quia solum
+            ad hoc instituta erant, etiam si ex fide et caritate fierent, non erat in eis meritum,
+            quia non se extendebant ultra id ad quod erant. Unde sicut motus caritatis non erit in
+            patria meritorius, sic tunc non merebantur in opere exteriori, sed tantum in interiori.
+            Et si tu obicias ei de medicina, dicit quod fides Redemptoris fuit medicina pro tempore
+            illo ; illa vero non iustificabant nec per se nec per accidens. Et huius positionis fuit
+            Pictaviensis. Sed haec positio magistro <name ref="#HughOfStVictor">Hugoni</name> non
+            videbatur rationabilis, quia tunc sacrificia facta a viris sanctis non placuissent Deo,
+            nec sacrificium Abel nec <name ref="#Abraham">Abraham</name> nec Salomonis ; quod
+            manifeste falsum est, sicut patet in narratione canonis. Et quid etiam de oblatione
+            sacrae Virginis, cum obtulit par turtutum, nunquid a merito vacua fuit ?</p>
+          <p xml:id="bb-d4e690-d1e210">Propter hoc aliter magister <name ref="#HughOfStVictor">Hugo</name> voluit dicere quod
+            sacramenta Veteris Legis, excepta circumcisione, instituta fuerunt primo ad
+            significandum vel. passionem, ut sacrificia, vel etiam nostra sacramenta, ut baptismus
+            eorum nostrum ; et ad efficiendum non sunt instituta nisi solum exterius circa carnem.
+            Sed, quia significant quod fides credit, in eorum perceptione est professio fidei, non
+            tantum verbo, sed et facto ; et quia talis fides disponebat ad iustificationem, ideo
+            sacramenta illa per accidens iustificabant. Sed Novae Legis sacramenta non solum ex
+            prima sua institutione ordinata sunt ad significandum, sed etiam ad gratiam obtinendam,
+            et ideo per se ordinata sunt ad iustificationem ; ideo, per se loquendo, ista
+            iustificant, illa non nisi per accidens. Et huius signum est quod sacramenta Veteris
+            Legis principaliter significant id quod credendum est, ut Christi passionem et, per
+            posterius iustificationem, excepta sola circumcisione, quae principaliter significat
+            amotionem originalis. Sed sacramenta Novae Legis e contrario primo significant gratiae
+            efficaciam per posterius passionem, sive id quod est credendum, ut Baptismus interiorem
+            ablutionem et passionem. Unde <name ref="#HughOfStVictor">Hugo</name> : Sacramenta Novi
+            Testamenti primo loco spiritualis gratiae signa sunt et ad ipsam gratiam sanctificandis
+            conferendam principaliter instituta. llla vero signa horum tantum erant, et mediantibus
+            his gratiam in sustentationem contulerunt ; mediantibus his, id est fide istorum, quia
+            non erant in re, sed in fide.</p>
+          <p xml:id="bb-d4e690-d1e220">Et has opiniones tamquam rationabiles concordant aliqui magistri moderni temporis,
+            dicentes Magistrum locutum esse quod illa non iustificabant per se, sed <name ref="#HughOfStVictor">Hugo</name> per accidens ; ideo non est contradictio. Sunt etiam
+            alii qui dicunt idem ipsum aliis verbis, quod ista iustificant ratione operis operati,
+            sed illa ratione operis operantis, non operati ; et opus operans est fides, sed operatum
+            exterius est sacramentum ; et quod iustificarent, hoc est ratione fidei et caritatis
+            coniunctae.</p>
+          <p xml:id="bb-d4e690-d1e226">Sed si quis attendat, hae positiones directe sibi contradicunt. Primum quidem, quia
+              <name ref="#Lombard">Magister</name> non solum dicit quod illa sacramenta non
+            iustificabant, sed etiam quod non iustificabant etiam si in fide et caritate fierent ;
+            et sic nec per se nec per accidens. Rursus, uterque loquitur de his in quantum sunt
+            sacramenta ; et constat quod opus operans non est sacramentum, sed opus operatum : ergo
+            uterque intellexit de operato ; et illud verum est, et de illo opere operato dixit <name ref="#Lombard">Magister</name> quod solum significabat, non iustificabat ;sicut
+            aspersio aquae vel sanguinis. Nunquam enim iustificabat sanguis hircorum aspersus, etiam
+            si in fide et caritate fieret, et hoc nec per se nec per accidens ; et hoc satis fuit
+            probabile.</p>
+          <p xml:id="bb-d4e690-d1e235">Sed certe multo probabilius est quod magister <name ref="#HughOfStVictor">Hugo</name>
+            posuit quod, cum in mo opere operato, esset professio fidei facto, quod ratione fidei
+            coniunctae erat in illis primo et per illa, per accidens tamen, iustificatio. Sed in hoc
+            est differentia ipsorum ad nova, quod in sacramentis Novae Legis, quantum ad opera
+            operata, est iustificatio non tantum per accidens, sed etiam per se. Huius autem signum
+            evidens praeostensum est in modo significandi horum sacramentorum et illorum. Si vero
+            quaeratur ratio unde hoc est, responsio est ex praedictis, quia causalitas sacramentorum
+            non est aliud quam quaedam efficax ordinatio ad recipiendam gratiam ex pactione divina ;
+            hoc autem fuit solum in sacramentis Novae Legis, et non Veteris, nisi in circumcisione,
+            quia ibi fuit pactio. Quare autem in istis est pactio et ordinatio, in illis non, patet,
+            quia tunc fuit tempus figurae et vincendi duritiam, modo est tempus gratiae.</p>
+          <p xml:id="bb-d4e690-d1e241">Ex his patent obiecta ad utramque partem ; nam illa quae probant quod non iustificant
+            intelliguntur per se loquendo ; alia vero ad oppositum, per accidens.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

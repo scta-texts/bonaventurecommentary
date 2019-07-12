@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e46621">
+        <head xml:id="bb-d4e46621-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e46621-Hd1e111" type="question-title">Utrum ignis inferni consumat corpora damnatorum.</head>
+        <p xml:id="bb-d4e46621-d1e114">Circa primum proceditur sic, et ostenditur quod ille ignis consumat corpora
+          damnatorum.</p>
+        <div xml:id="bb-d4e46621-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e46621-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e46621-d1e122">Augustinus, De natura boni : <quote xml:id="bb-d4e46621-Qd1e124">Quoniam volentes corrumpuntur in peccatis, nolentes
+              corrumpuntur in poenis</quote>. Ergo, si non corrumpuntur nisi ab affligente, et ignis
+            non corrumpit nisi consumendo, videtur quod ignis ille consumat corpora.</p>
+          <p xml:id="bb-d4e46621-d1e128">Item, ille ignis agit in corpora : ergo corpora patiuntur ; sed omnis passio magis
+            facta abicit a substantia : ergo, si abiectio facta a substantia per calorem non est
+            aliud quam consumptio, ergo ille ignis consumit corpora.</p>
+          <p xml:id="bb-d4e46621-d1e131">Item, ad adustionem necessario sequitur inflammatio, et ad inflammationem consumptio :
+            ergo, si ignis ille corpora adurit, ergo consumit. Si tu dicas quod non sequitur, quia
+            salamandra calefit ab igne, et tamen non consumitur in igne, sed renovatur, contra : hoc
+            non solvit, quia salamandra ab igne non laeditur, sed corpora damnatorum ab igne
+            laeduntur et in igne cruciantur : si igitur ignis, quod laedit, consumit, patet etc.</p>
+          <p xml:id="bb-d4e46621-d1e134">Item, dolor intensus est via ad mortem, sicut patet ; ergo magis intensus magis
+            disponit : si ergo ille ignis est causa intensi doloris, contingit hominem per illum
+            disponi ad mortem ultima dispositione : ego necesse est quod damnatos perimat : ergo
+            pari ratione quod corpora consumat.</p>
+          <p xml:id="bb-d4e46621-d1e138">Contra : Isaiae ultimo, 24 : <quote xml:id="bb-d4e46621-Qd1e140" ana="#is66_24">Vermis eorum non morietur, et ignis
+              non exstinguetur</quote> ; tantum ergo durabit ignis agens, quantum homo patiens ; sed
+            ignis ille nunquam exstinguetur nec minuetur : ergo nec corpus consumetur.</p>
+          <p xml:id="bb-d4e46621-d1e144">Item, <ref xml:id="bb-d4e46621-Rd1e146">Magister in littera</ref> : <quote xml:id="bb-d4e46621-Qd1e149" source="http://scta.info/resource/pl-l4d44c5-d1e115">Augustinus variis exemplis
+              astruit ea ardere et non consumi ulla consumptione</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e46621-d1e153">Item, ratione videtur, quia omne quod consumitur perdit aliquam partem sui : ergo, si
+            corpora damnatorum consumuntur, sunt in continua deperditione. Sed constat quod non
+            restaurantur, cum omni refectione careant ; quod autem patitur deperditionem et non
+            habet restaurationem, necessario aliquando est totaliter consumptum : ergo etc.</p>
+          <p xml:id="bb-d4e46621-d1e156">Item omne quod consumitur necessario efficitur minus potens, ergo et magis passibile :
+            ergo, si continue consumuntur, continue illorum poena intenditur, et si hoc ; cum duret
+            in infinitum, crescet in infinitum ; quod omnino est inconveniens, quod crescat poena et
+            non crescat culpa.</p>
+        </div>
+        <div xml:id="bb-d4e46621-Dd1e160">
+          <head xml:id="bb-d4e46621-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e46621-Hd1e165" type="question-title">Corpora damnatorum ab igne affligentur, sed non corrumpentur
+            quoad esse substantiale</head>
+          <p xml:id="bb-d4e46621-d1e168">Respondeo : Dicendum quod, si de corporibus damnatorum quaeratur, utrum ab igne
+            affligantur, simpliciter est concedendum. Si autem quaeratur, utrum consumantur,
+            simpliciter est negandum. Sed si quaeratur, utrum corrumpantur, hoc est distinguendum.
+            Nam, corruptio uno modo dicit defectionem rei quantum ad esse substantiale, et hoc modo
+            idem est quod consumptio ; et tali modo non corrumpuntur, cum non moriantur. Alio modo
+            corruptio idem est quod privatio bonae dispositionis ; et hoc modo, quoniam a corporibus
+            damnatorum auferetur quies et bona dispositio, quae generat in anima voluptatem ; hinc
+            est quod continue corrumpuntur. Est igitur corruptio afflictionis, non interemptionis
+            sive consumptionis, et haec fit per adustionem ignis.</p>
+          <p xml:id="bb-d4e46621-d1e171">Si autem quaeratur, quomodo istud possit capi et intelligi, possumus ad hoc manuduci et
+            exemplo et ratione. Videmus quaedam in igne vivere et non deficere, sicut ponit <name ref="#Augustine">Augustinus</name> exemplum de salamandra, in XXI De civitate Dei. Si
+            ergo mirabilius est aliquod animal in igne conservari sine afflictione quam affligi sine
+            consumptione, et istud est secundum naturam possibile : ergo nec istud debet iudicari
+            impossibile. Quodsi dicas hoc non esse simile, quia natura illius animalis conformis est
+            igni, natura vero humani corporis omnino difformis, responderi potest dupliciter : uno
+            modo, quod quamvis natura humani corporis secundum statum praesentem sit ab igne
+            consumptibilis, nihil prohlibet quin Creator, qui naturam, quam voluit, omnibus et
+            singulis dedit, talem haturam homini dare possit. Nec mirum, cum homo ante lapsum
+            alterius dispositionis et naturae corpus habuerit quam post lapsum, quia prius possibile
+            ad mortalitatem, modo necessarium ad mortem. Hoc ipsum persuaderi potest exemplis
+            sumptis a parte ignis ; ideo enim ille ignis urit et non consumit, quia pabulum non
+            requirit. Et est exemplum manifestum in inflammatione auri ab igne, quod quidem
+            inflammatur, sed non consumitur, quia igni non praebet pabulum. Sic nec humanum corpus
+            igni infernali. Evidentissimum autem exemplum ponit <name ref="#Augustine">Augustinus</name> de igne qui est in partibus Siciliae, sicut patet aspicientibus,
+            quod ille ignis montes illos ab antiquissimis temporibus aestuare facit, et tamen adhuc
+            integri perseverant : et isti sunt satis idonei testes, quod non omne quod uritur,
+            consumitur. In legenda etiam beati Nicolai scribitur quod in partibus orientalibus
+            quidam ignis invenitur, qui appositam sibi manum vehementer affligit, et tamen de manu
+            nihil consumit. Sic ergo ex his exemplis colligitur quod possibile est aliquid in igne
+            ardere, et tamen non deficere.</p>
+          <p xml:id="bb-d4e46621-d1e180">Ex quibus etiam possumus colligere rationem huiusmodi, quoniam hoc venit ex parte
+            agentis et ex parte patientis. Isti enim igni data est virtus ad inflammandum, non ad
+            consumendum ; et corpori data est natura possibilis ad patiendum, non ad deficiendum. Si
+            autem quaeratur ratio huius, dicendum quod est a parte naturae possibilitas ad
+            suscipiendum, ex parte Dei est potestas ad dandum, ex parte finis est congruitas ad sic
+            faciendum, quia in infinitum debet homo in corpore cruciari, ut manifestetur Dei
+            iustitia infinita. Nec sunt ista duo incompossibilia, quod aliquod corpus tangatur a
+            calido et non consumatur, cum videamus naturaliter aliquod corpus tangi a frigido quod
+            potius calefacit quam infrigidet, sicut exemplum manifestum est in aqua et calce.</p>
+          <p xml:id="bb-d4e46621-d1e184">Et sicut illa corpora uruntur et non consumuntur, ita etiam compositum ex anima et
+            corpore affligitur et non moritur. Et tamen ad hoc similiter possumus manuduci exemplo
+            et ratione ; exemplo : quia anima immortalis in corpore affligitur, quia dolor est
+            animae proprie, et tamen non occiditur. Quid ergo prohibet similiter intelligi in ipsis
+            damnatis ? Quodsi dicas hoc non esse simile, quia anima non sic composita est ex
+            contrariis secundum quod natura humani corporis, respondere possumus quod istud non
+            obsistit, cum aliqua corruptibilia, utpote vermes, in aquis calidissimis reperiri
+            queant, quarum fervorem nemo impune pertractat, sicut dicit <name ref="#Augustine">Augustinus</name>. Si igitur quae mortalia sunt et defectibilia possunt in his
+            calidissimis vivere sine afflictione, pari ratione immortalia et passibilia corpora
+            affligi possunt sine interemptione. Si autem quaeratur ratio huius, dici potest quod hoc
+            est propter coniunctionem animae ad carnem indissolubilem. Quod enim homo moriatur
+            dolore, hoc non est quia dolor sit contrarius vitae, cum dolor non sit nisi in
+            substantia vivente - unde sequitur : si dolet, sentit, et si sentit, vivit - sed quia
+            anima non est indissolubili vinculo corpori alligata ; ideo intensus dolor eam expellit
+            de praesenti habitaculo. Nunc enim est carcer temporalis, sed tunc erit perpetuus. His
+            visis, satis facile est ad obiecta respondere. Concedo enim rationes probantes quod
+            ignis non est consumptivus corporum.</p>
+        </div>
+        <div xml:id="bb-d4e46621-Dd1e192">
+          <head xml:id="bb-d4e46621-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e46621-d1e197">Ad illud ergo quod primo obicitur de corruptione, iam patet responsio : loquitur enim
+            de corruptione afflictionis, non desitionis ; prima non ponit consumptionem sicut
+            secunda.</p>
+          <p xml:id="bb-d4e46621-d1e200">Ad illud quod obicitur, quod passio magis facta abicit a substantia, dicendum quod
+            substantia patiens in duplici differentia est : aut quia potest recipere formam
+            contrariam suae perfectioni quantum ad esse, aut quia potest suscipere contrariam
+            dispositionem quantum ad bene esse. Primo modo passio intensa corrumpit simpliciter
+            auferendo esse ; secundo modo aufert bene esse. Unde damnati semper sunt et semper male
+            sunt ; ideo semper vivunt et semper moriuntur. Si autem obicias mihi, quod quidquid sit
+            illud quod abicitur, cum non sit infinitum, videtur totum abici aliquando, ac per hoc
+            locum actioni et passioni non relinqui, responderi potest quod semper est abiectio et
+            corruptio, non quia novum aliquid semper adimatur, sed quia per continuam actionem
+            eiusdem rei ademptio continuatur. Exemplum huius manifestum est in suo opposito. Sicut
+            enim Beati continue reficiuntur, non quia semper novum aliquid recipiant, sed quia in
+            suo praemio conservantur et continuantur ; sic damnati continue affliguntur et
+            corrumpuntur, quia salutis et quietis eis privatio per continuam actionem ignis
+            continuatur. Et huius exemplum clarum est in generatione radii, qui dicitur semper oriri
+            et semper a sole egredi, non quia sol semper aliquid novum emittat, sed quia primum
+            lumen missum continuat. Sic ignis dicitur semper damnatos affligere, non quia novam
+            dispositionem de novo afferat, sed quia continue agendo a priori afflictione non
+            cessat.</p>
+          <p xml:id="bb-d4e46621-d1e203">3-4. Ad duo sequentia iam patet responsio, quia nec inflammatio consumptionem nec dolor
+            necessario infert mortem, sed solum secundum statum praesentem ; ideo, variato statu,
+            necessaria consequentia non est inter ista. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

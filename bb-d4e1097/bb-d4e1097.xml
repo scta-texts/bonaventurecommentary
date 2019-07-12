@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio Textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e1097">
+        <head xml:id="bb-d4e1097-Hd1e106">Divisio Textus</head>
+        <p xml:id="bb-d4e1097-d1e109">Post partem prooemialem et principalem <name ref="#Lombard">Magister</name> ponit hic
+          partem incidentem ; et haec pars habet ortum ex differentia praeassignata. Dixerat enim
+          quod sacramenta Veteris Legis non efficiebant sive non praestabant gratiam iustificantem
+          et hoc habebat instantiam in circumcisione ; ideo, illam excipit et ostendit
+          circumcisionis efficaeiam. Et haec pars habet duas partes. In prima determinat
+          circumcisionis efficaciam. In secunda determinat eius formam sive integritatem et
+          substantiam, ibi : Hic dicendum est, in quo instituta fuerit.</p>
+        <p xml:id="bb-d4e1097-d1e115">Prima pars habet duas partes. In prima ostendit circumcisionis efficaciam. In secunda
+          vero removet et determinat quaestionem annexam, ibi : Quaeritur autem de viris qui fuerunt
+          ante etc., ubi determinat quod remedium fuerit contra originale ante circumcisionem.</p>
+        <p xml:id="bb-d4e1097-d1e118">Similiter secunda pars, in qua determinat de his quae spectant ad huius sacramenti
+          substantiam, habet duas partes. In prima determinat sive dicit veritatem. In secunda vero
+          removet dubitationem, ultimo capitula : Si vero quaeritur de parvulis. Subdivisiones
+          partium manifeste apparent in littera.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

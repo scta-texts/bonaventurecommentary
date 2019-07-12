@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e18621">
+        <head xml:id="bb-d4e18621-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e18621-Hd1e111" type="question-title">De quibus debeat fieri eleemosyna.</head>
+        <p xml:id="bb-d4e18621-d1e114">Circa primum. proceditur sic. Communiter dicitur quod eleemosyna debet fieri de rebus
+          propriis iuste acquisitis et necessariis.</p>
+        <div xml:id="bb-d4e18621-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e18621-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e18621-d1e122">Et quod solum de rebus propriis, videtur : Quia dicit ius quod non potest alienari
+            possessio nisi a proprio domino ; sed cum eleemosyna datur, possessio alienatur, quia
+            fit ipsius pauperis recipientis : ergo nullus potest dare eleemosynam nisi qui habet
+            proprium et super rem temporalem habet dominium.</p>
+          <p xml:id="bb-d4e18621-d1e125">Item, hoc probatur ex textu Bibliae, Proverbiorum 3, 9 : <quote xml:id="bb-d4e18621-Qd1e127">Honora Dominum de tua
+              substantia, et de primitiis frugum tuarum da pauperibus</quote>.</p>
+          <p xml:id="bb-d4e18621-d1e131">Quod autem solum de iuste acquisitis, ostenditur.</p>
+          <p xml:id="bb-d4e18621-d1e134">Ecclesiastici 34, 21 : <quote xml:id="bb-d4e18621-Qd1e136" ana="#sir34_21">Immolantis ex iniquo oblatio est
+              maculata</quote> ; et infra : <quote xml:id="bb-d4e18621-Qd1e139" ana="#sir34_23">Dona iniquorum non probat
+              Altissimus</quote>.</p>
+          <p xml:id="bb-d4e18621-d1e144">Item, <name ref="#GregoryGreat">Gregorius</name>, in Moralibus : <quote xml:id="bb-d4e18621-Qd1e149">Eleemosyna
+              Redemptoris oculis placet, quae non ex illicitis vel iniquitate congeritur, sed quae
+              de rebus concessis et iuste acquisitis</quote>. Et iterum ipse dicit : <quote xml:id="bb-d4e18621-Qd1e152">Non est
+              computanda eleemosyna, si pauperibus dispensetur quod ex illicitis rebus
+              acquiritur</quote>.</p>
+          <p xml:id="bb-d4e18621-d1e156">Item, quod de necessariis, videtur : Illud enim non est satisfactorium ad quod quis
+            alias tenetur ; sed quilibet tenetur ad dandum superflua pauperibus, quantumcumque sit
+            sine peccato, Lucae 11, 41 : <quote xml:id="bb-d4e18621-Qd1e158">Quod superest date eleemosynam</quote> : ergo
+            etc.</p>
+          <p xml:id="bb-d4e18621-d1e162">Item, <name ref="#GregoryGreat">Gregorius</name>, in Homilia super illud :
+              <quote xml:id="bb-d4e18621-Qd1e167">Facile dignos fructus poenitentiae</quote> : <quote xml:id="bb-d4e18621-Qd1e170">Qui se novit nonnulla
+              illicita commisisse, debet a licitis abstinere</quote>. Ergo, si abstinentia
+            satisfactoria non est illa quae est ab illicitis, sed quae a licitis, videtur similiter
+            quod eleemosyna satisfactoria sit illa, non quae est de superfluis, sed quae de
+            necessariis.</p>
+          <p xml:id="bb-d4e18621-d1e174">Ad oppositum, quod non debeat esse de necessariis, ut resolvendo sive destruendo
+            incipiamus, videtur : Quia unusquisque tenetur se magis quam alterum diligere : ergo
+            tenetur sibi necessaria reservare</p>
+          <p xml:id="bb-d4e18621-d1e177">Item, dare necessaria vitae humanae est supererogationis ; sed nullus sacerdos potest
+            imponere opera supererogationis : ergo nec talem eleemosynam. Si ergo eleemosyna illa
+            quae est imposita a sacerdote est satisfactoria, non oportet quod sit de
+            necessariis.</p>
+          <p xml:id="bb-d4e18621-d1e180">Item, videtur quod possit esse de iniuste acquisitis : Quia Lucae 16, 9 dicitur :
+              <quote xml:id="bb-d4e18621-Qd1e182" ana="#lc16_19">Facite vobis amicos de mammona iniquitatis</quote> ; Glossa :
+              <quote xml:id="bb-d4e18621-Qd1e185">Iniquitas bene dispensata vertitur in iustitiam</quote>.</p>
+          <p xml:id="bb-d4e18621-d1e190">Item <name ref="#Augustine">Augustinus</name>, in <ref xml:id="bb-d4e18621-Rd1e195" target="http://scta.info/resource/gd-p2c14q5-d1e314">Causa XIV, quaestione 5</ref> :
+              <quote xml:id="bb-d4e18621-Qd1e198">Qui habetis aliquid de malo, facite inde bonum</quote>.</p>
+          <p xml:id="bb-d4e18621-d1e202">Item, hic quaeritur, si meretrix vel usurarius vel aleator de lucro suo possint facere
+            eleemosynam, cum omnes hi malo modo acquirant.</p>
+          <p xml:id="bb-d4e18621-d1e205">Item, videtur quod non oporteat fieri ex propriis : Quia filii Israel abstulerunt vasa
+            Aegyptiorum, <ref xml:id="bb-d4e18621-Rd1e207" ana="#ex12_35">Exodi 12, 35</ref>, et postea obtulerunt ea in usum
+            tabernaculi, <ref xml:id="bb-d4e18621-Rd1e210" ana="#ex35_22">Exodi 35, 22</ref>.</p>
+          <p xml:id="bb-d4e18621-d1e214">Item, si hoc esset verum, cum mulier et filius et monachus non habeant dominium,
+            videtur quod nullam eleemosynam possint facere ; quod falsum est, cuni magis teneantur
+            esse hospitales, et frequenter mulieres plus dent quam viri.</p>
+        </div>
+        <div xml:id="bb-d4e18621-Dd1e218">
+          <head xml:id="bb-d4e18621-Hd1e220">Conclusio</head>
+          <head xml:id="bb-d4e18621-Hd1e223" type="question-title">Eleemosyna, ut proprie sit satisfactoria, debet fieri de
+            propriis, iuste acquisitis et necessariis secundum communem usum vivendi</head>
+          <p xml:id="bb-d4e18621-d1e226">Respondeo : Dicendum quod illud est necessarium ad hoc quod eleemosyna sit
+            satisfactoria, scilicet quod ille qui tribuit, iusto eam titulo habeat et tenere et
+            possidere possit ; si enim aliter habeat, potius tenetur reddere quam dare.</p>
+          <p xml:id="bb-d4e18621-d1e229">Quod ergo quaeritur, utrum neccesse sit eleemosynam dare de proprio, dicendum quod aut
+            dicitur proprium, quia habet principale dominium alienandi, aut quia ab alio habet sibi
+            commissum officium administrandi. Primo modo simpliciter potest facere ille qui habet
+            proprium ; secundo modo non potest facere, superiore prohibente ; ut monachus, qui
+            administrat res et bona monasterii ex mandato abbatis, potest utique eleemosynam dare ;
+            si autem ille vetet, non potest nec debet. Unde <ref xml:id="bb-d4e18621-Rd1e231" target="http://scta.info/resource/gd-p2c12q1-d1e286">Causa XII, quaestione 1</ref> :
+              <quote xml:id="bb-d4e18621-Qd1e234"><!-- augustine sermon de communi vita clericorum -->Certum est quod monachus
+              nihil habere vel dare vel accipere sine superioris licentia debet</quote>, nisi forte
+            ille qui indiget sit in extrema necessitate ; tunc enim non debet obedire abbati, quia
+            manifeste faceret contra Deum. Similiter iudicandum est de muliere, si non habeat dotem
+            vel aliquid iuxta dotem, quod contra mandatum viri non potest eleemosynam facere, si
+            conscientia dictat ei quod nullo modo velit ; sed non debet sibi formare conscientiam
+            quod vir prohibeat medium, sed superfluitatem, nisi manifeste viderit voluntatem viri ad
+            oppositum.</p>
+        </div>
+        <div xml:id="bb-d4e18621-Dd1e241">
+          <head xml:id="bb-d4e18621-Hd1e243">Ad rationes</head>
+          <p xml:id="bb-d4e18621-d1e246">Si ergo obiciatur de filiis Israel, qui furati sunt, dicendum quod Dominus transtulit
+            dominium, et revera non fuit ibi furtum.</p>
+          <p xml:id="bb-d4e18621-d1e249">Ad illud quod obicitur, quod sunt malae conditionis monachi, dicendum quod non ; quia
+            unica temporalium dimissione, si vere dimiserunt temporalia, meruerunt tantum quantum in
+            multis ; et praeterea, bona voluntas supplet quod deest ex manu.</p>
+          <p xml:id="bb-d4e18621-d1e252">Ad illud quod quaeritur de male acquisitis, dicendum quod quaedam sunt male acquisita,
+            in quibus transfertur dominium et non competit repetitio ; et talia non est necesse
+            restitui et possunt licite retineri, ut pretium prostibuli et lucrum histrionis. Et
+            talia possunt dari in eleemosynam, sed tamen non debent recipi in oblationem, si sit
+            publicum, propter reverentiam altaris et confusionem peccati, ut resipiscant. Et hoc est
+            quod dicitur Deuteronomii 23, 18 : Non offeres mercedem prostibuli. Quaedam autem sunt
+            in quibus non transfertur dominium, sed competit repetitio, ut in furto et rapina ; et
+            de talibus non potest fieri nec oblatio nec eleemosyna, sed debet fieri restitutio. Ad
+            huiusmodi autem genus reducuntur omnia quae iniusto titulo et mala fide possidentur,
+            quia iniustus titulus pro nullo haberidus est. Malae autem fidei possessor dicitur, qui
+            contra legum interdicta mercatur ; talia sunt quae habentur per simoniam et usuram ; et
+            ideo de talibus nullo modo nec potest nec debet fieri eleemosyna.</p>
+          <p xml:id="bb-d4e18621-d1e255">Si vero quaeratur de aleatore, dicendum est generaliter quod malae fidei possessor est
+            et iniusto possidet titulo ; et ideo nullo modo potest nec debet sibi tenere quod
+            lucratus est, cum talis ludus sit turpis et reprobatus et contra Deum et contra omnia
+            iura. Utrum tamen teneatur restituere, distinguunt aliqui, quia aut ille penes quem
+            lucratus est, est talis persona quae rebus suis praeesse non potest, ut puta minor sive
+            pupillus, surdus, mutus, perpetuo morbo languidus ; et sic tenetur restituere. Si autem
+            sit talis persona quae potuit amittere : aut socius tractus est ab illo et inductus aut
+            non. Si tractus fuit ab illo, non tenetur illi restituere, quia illi non competit
+            repetitio in vindictam peccati, sed potest inde facere eleemosynam. Si autem ipse
+            traxit, eum, non potest eleemosynam facere, sed tenetur restituere, saltem in foro
+            conscientiae ; quia, licet nullus velit amittere, tamen qui non vult amittere nec
+            ludere, sed inducitur, minus culpabilis videtur, et alius, qui inducit, magis ; et ideo
+            iste non debet damnificari, nec auctor nec inductor in aliquo meliorari. Nulli tamen
+            licet ex hoc aliquid lucri acquisiti in proprios usus convertere.</p>
+          <p xml:id="bb-d4e18621-d1e259">Similiter iudicandum de torneamentis et dicendum quod in illis pactionibus, quas habent
+            inter se, bona non transferuntur invicem, sed in usus pauperum convertuntur propter ludi
+            inhonestatem et iuris interdictionem.</p>
+          <p xml:id="bb-d4e18621-d1e262">Ex his patent obiecta. Quod enim dicitur, quod de iniquo non potest fieri eleemosyna,
+            intelligitur de eo quod inique possidetur et iniusto titulo.</p>
+          <p xml:id="bb-d4e18621-d1e265">Quod obicitur ad contrarium procedit secundum aliam viam.</p>
+          <p xml:id="bb-d4e18621-d1e268">Ad illud quod quaeritur de necessariis et superfluis, dicendum quod necessarium dicitur
+            dupliciter : vel secundum naturae arctitudinem vel secundum communem usum vivendi. Si
+            secundum arctitudinem, non tenetur nec oportet ei imponi qui peccavit, quia hoc est
+            perfectionis illorum qui totum victum exspectant a Christo, sicut sunt viri qui sunt in
+            statu perfecto ; et ideo, si fiat eleemosyna, debet fieri de eo quod superest huic
+            necessario et bene est satisfactoria. Alio modo dicitur necessarium, quod expedit homini
+            secundum communem modum vivendi. De quo dicit <name ref="#Augustine">Augustinus</name>
+            quod <quote xml:id="bb-d4e18621-Qd1e273">multa superflua habere probabimur, si sola necessaria teneamus</quote> ; et
+            de tali fit proprie eleemosyna satisfactoria ; de superfluo vero non fit, quantum est de
+            rigore iustitiae. Tamen credo quod divinae misericordiae benignitas tanta est, quod
+            totum acceptat et quasi pro nihilo salvat nos. Et sic patet responsio ad utramque
+            partem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

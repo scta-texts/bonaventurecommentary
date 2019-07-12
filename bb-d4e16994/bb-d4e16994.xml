@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e16994">
+        <head xml:id="bb-d4e16994-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e16994-Hd1e111" type="question-title">Utrum perfecta poenitentia restituat in pristinum gradum.</head>
+        <p xml:id="bb-d4e16994-d1e114">Secundo quaeritur, utrmn perfecta poenitentia restituat in pristinum gradum.</p>
+        <div xml:id="bb-d4e16994-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e16994-d1e119">Et quod sic, videtur. <name ref="#Augustine">Augustinus</name>, in libro Quinque
+            responsionum : <quote xml:id="bb-d4e16994-Qd1e124">Poenitentia est res quaedam optima et perfecta omnes defectus
+              revocans ad perfectum</quote>. Sed, si non revocaret in gradum pristinum, non esset
+            perfecta revocatio : ergo etc.</p>
+          <p xml:id="bb-d4e16994-d1e128">Item, ratione videtur, quia peccator Deum offendit, non tantum quia contra eius
+            imperium facit, sed etiam in hoc quod se, servum suum et eius imaginem, deformat et
+            peiorem reddit : ergo non potest perfecte reconciliari quamdiu aliquid manet minus bene
+            quam ante, quia non tantum Deo restituit, quantum abstulit.</p>
+          <p xml:id="bb-d4e16994-d1e131">Item, perfectus medicus perfectum largitur antidotum ; sed perfectum antidotum non est
+            nisi pristinam plene restituat sanitatem : cum ergo Dominus sit perfectus medicus
+            animarum, patet etc.</p>
+          <p xml:id="bb-d4e16994-d1e134">Item, Dominus, cum, sanavit in corpore, semper restituit sanitatem pristinam perfecte,
+            ergo similiter, cum sanat in spiritu ; sed sanat, in spiritu per poenitentiam ; ergo
+            poenitentia pertecta restituit in pristinam sanitatem.</p>
+          <p xml:id="bb-d4e16994-d1e137">Contra : Possibile est, ut dictum est, resurgere in minori caritate et in eadem suam
+            perficere poenitentiam : ergo poenitentia perfecta non restituit semper in sanitatem
+            pristinam.</p>
+          <p xml:id="bb-d4e16994-d1e141">Item, aliquis per peccatum amisit virginitatem ; sed impossibile est ipsum ulterius
+            virginem fieri : ergo impossibile est per poenitentiam in statum pristinum redire.</p>
+          <p xml:id="bb-d4e16994-d1e144">Item, gloria magna est homini in hoc quod nunquam offendit Deum ; sed eum qui poenitet
+            post peccatum necesse est Dominum offendisse : ergo nunquam in statum pristinum et
+            gloriam redibit.</p>
+          <p xml:id="bb-d4e16994-d1e147">Item, potentior est Baptismus virginitate et efficacior quam Poenitentia ; sed
+            Baptismus nunquam reparat omnes defectus quos incurreramus per originale ; quod patet,
+            quia remanet quadruplex poena animae et poena corporis multiplex : ergo nec poenitentia
+            restituet omnia quae incurrimus per actuale.</p>
+        </div>
+        <div xml:id="bb-d4e16994-Dd1e151">
+          <head xml:id="bb-d4e16994-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e16994-Hd1e156" type="question-title"> Poenitentia et in duratione et in fervore perfecta restituit
+            sanitatem, sed tantum quoad substantiam </head>
+          <p xml:id="bb-d4e16994-d1e159">Respondeo : Dicendum quod poenitentia perfecta potest considerari dupliciter : aut
+            quantum ad durationem aut quantum ad durationem et fervorem. Si quantum ad durationem,
+            ut scilicet ieiunet quamdiu imponitur et compleat quod sibi imponitur secundum rectam
+            taxationem sacerdotis, non est necesse restitui in statum pristinum, quia ita
+            negligenter potest exequi quod non praeparat se ad tantam gratiam quantam amisit. Si
+            autem sit perfecta quantum ad fervorem et durationem, sic dico quod si ita ferventer
+            poenitet et dolet de culpa secundum quod congruit ei qui de tanto statu cecidit, credo
+            quod per hanc redit in pristinam sanitatem. Et de hac intelligit <name ref="#Augustine">Augustinus</name> et concurrunt praedictae rationes, quia antidotum illud operatur
+            secundum congruentiam suscipientis. Intelligendum est tamen quod dupliciter est loqui de
+            sanitate : aut quantum ad substantiam habituum gratiae et habilitatum naturalium ; et
+            sic restituit in sanitatem pristinam. Est etiam loqui quantum ad aliquem statum sive
+            integritatem vel decorem accidentalem, et quantum ad hoc non est necesse restitui ; et
+            haec continuatio innocentiae et integritatis carnis etc.</p>
+        </div>
+        <div xml:id="bb-d4e16994-Dd1e167">
+          <head xml:id="bb-d4e16994-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e16994-d1e172">Ad illud ergo quod obicitur, quod potest in minori resurgere et poenitentiam perficere,
+            dicendum quod, si non negligenter perficit poenitentiam, ad ulteriorem gratiam se
+            disponit.</p>
+          <p xml:id="bb-d4e16994-d1e175">2-3. Ad illud quod obicitur de virginitate et gloria illa de innocentia, dicendum quod
+            quantum ad hoc non restituit, sed quantum ad omne quod fuit substantiale circa
+            meritum.</p>
+          <p xml:id="bb-d4e16994-d1e178">Ad illud quod obicitur de Baptismo, quod non restituit, dicendum quod verum est ; et
+            ratio huius est quia sanat tantum personam ; sed originale inficit et naturam et
+            personam : et ideo non omnes poenae tolluntur. Non sic autem est in Poenitentia ; ipsa
+            enim sanat morbum personalem tantum, et ideo totaliter et omnino sanat, cum perfecta
+            est.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

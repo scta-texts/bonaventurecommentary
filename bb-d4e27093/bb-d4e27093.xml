@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e27093">
+        <head xml:id="bb-d4e27093-Hd1e108">Quaestio 6</head>
+        <head xml:id="bb-d4e27093-Hd1e111" type="question-title">Utrum indulgentiae tantum valeant, quantum praedicatur.</head>
+        <p xml:id="bb-d4e27093-d1e114">Sexto et ultimo quaeritur, quantum valeant huiusmodi indulgentiae quae fiunt.</p>
+        <div xml:id="bb-d4e27093-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e27093-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e27093-d1e122">Et quod valeant tantum quantum praedicatur, videtur : Quia Iob 13, 7 : <quote xml:id="bb-d4e27093-Qd1e124" ana="#iob13_7">Non indiget Deus nostro mendacio</quote> : ergo videtur quod Summus
+            Pontifex in suis litteris mentiri non debeat. Si ergo verum dicit, tantam tribuit
+            indulgentiam, quantam in suis litteris promittit.</p>
+          <p xml:id="bb-d4e27093-d1e128">Item, qui promittit aliquantam summam pecuniae alicui, tenetur ei, si est in solvendo ;
+            sed Summus Pontifex et alii qui dant indulgentias promittunt aliquam partem poenitentiae
+            relaxare : ergo, si potest, solvere tenetur. Quod autem possit, videtur per illud quod
+            dicitur II ad Corinthios 2, 10 : <quote xml:id="bb-d4e27093-Qd1e130" ana="#IIcor2_10">Si quid donavi in persona
+              Christi</quote> ; Glossa : <quote xml:id="bb-d4e27093-Qd1e133">Ac si Christus donasset ; sed Christus potuit totum
+              condonare</quote> : ergo etc.</p>
+          <p xml:id="bb-d4e27093-d1e137">Item, aliquis episcopus potest aliquantam indulgentiam facere, esto quod viginti dierum
+            vel quadraginta ; sed Summus Pontifex plus potest quam omnes episcopi, eo quod
+            plenitudinem habet potestatis super omnes : ergo plus potest dare quam omnes : ergo
+            videtur quod totum possit condonare : ergo, si totum, et per consequens quantamlibet
+            partem.</p>
+          <p xml:id="bb-d4e27093-d1e140">Item, Summus Pontifex potest facere indulgentiam generalem unius diei : ergo centum
+            millibus potest dare unum diem, ita quod cuilibet unum : ergo pari ratione uni potest
+            dare quod divisim dat omnibus : ergo totum condonare : ergo tantum valent indulgentiae,
+            quantum faciunt litterae pontificales.</p>
+          <p xml:id="bb-d4e27093-d1e144">Contra : Si tantum valent indulgentiae quantum dicitur, ergo, cum multae et largae
+            indulgentiae fiant, et merita sint adeo pauca nunc, quod vix potest homo sibi sufficer,
+            videtur quod iam totus thesaurus Ecclesiae a longo tempore defecisset, et ita nulla
+            indulgentia nunc valeret.</p>
+          <p xml:id="bb-d4e27093-d1e147">Item, si tantum valent quantum dicitur, sed in aliquibus indulgentiis pro adiutorio
+            facto fabricae ecclesiae vel consimili indulgentiae partis tertiae poenitentiae
+            promittuntur : ergo, si detur primo unus denarius et secundo secundus et tertio tertius,
+            videtur quod ille qui mille peccata commisit pro tribus obolis vel denariis sit
+            liberatus ; quod non tantum falsum, sed etiam irrisione dignum iudicat omnis anima
+            recta.</p>
+          <p xml:id="bb-d4e27093-d1e150">Item, si tantum valent quantum dicitur ergo, si peccatori qui debet novem annos
+            remittitur triennium, similiter illi qui debet triginta remittitur tertia pars, et ita
+            decennium, videtur quod reportet commodum de malitia sua.</p>
+          <p xml:id="bb-d4e27093-d1e153">Item, si tantum valent quantum dicitur ergo me qui habitat iuxta ecclesiam, in qua est
+            indulgentia unius anni, dum visitat ecclesiam, tantum habet quantum ille qui longe
+            distat per decem dietas ; et dives offerens unum obolum tantum habet quantum una
+            paupercula. Sed haec omnia sunt abusiones ; ergo non tantum valent indulgentiae quantum
+            Ecclesia praedicat.</p>
+        </div>
+        <div xml:id="bb-d4e27093-Dd1e157">
+          <head xml:id="bb-d4e27093-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e27093-Hd1e162" type="question-title">Indulgentiae, quantum est ex parte concedentis, tantum valent,
+            quantum promittitur; non tamen cuilibet tantum nec aequaliter, sed secundum
+            aestimationem concedentis</head>
+          <p xml:id="bb-d4e27093-d1e165">Respondeo : Dicendum quod communiter secundum doctores, ad hoc quod indulgentiae vel
+            relaxationes aliquid valeant, exigitur duplex conditio ex parte donantis et duplex ex
+            parte recipientis. Ex parte dantis requiritur potentia, requiritur etiam honesta et
+            rationabilis causa. Non enim credenda esset indulgentia alicuius valoris, si quis daret
+            eam euntibus videre torneamenta. Ex parte recipientis duplex, scilicet confessio cum
+            vera, contritione et fides cum vera devotione, ut vere de peccatis sit poenitens et vere
+            confidens quod pastoris indulgentia sibi valeat.</p>
+          <p xml:id="bb-d4e27093-d1e168">His praesuppositis, dixerunt aliqui huiusmodi indulgentias aliquid valere, sed nunquam
+            tantum quantum promittitur ; sed aliquid valent modicum, secundum quod meretur fides et
+            devotio. Praedicat tamen hoc, Ecclesia, ut filios suos bona quadam deceptione ad bonum
+            alliciat, sicut mulier filio pomum promittit, quod postea non donat. Sed istud Ecclesiae
+            est derogare, dicendo eam sub specie quadam mentiri et opera inania et puerilia et
+            iocosa esse quae facit ; quod abhorret mens recta.</p>
+          <p xml:id="bb-d4e27093-d1e171">Alii dixerunt quod simpliciter tantum valent quantum promittitur, quia non consideratur
+            hic emptio, sed Ecclesiae largitas ; et aequa est hic conditio, quicumque sit ille qui
+            se disponat. Unde sicut dives, mittens ad tabernam, tantum habet de vino quantum habet
+            vetula paupercula : si par pretium mittat, sic in ecclesiastica volunt intelligi
+            indulgentia. Sed ista positio nimis videtur adhuc magnum forum facere de indulgentiis,
+            ac per hoc potius facit ad vilificationem ipsarum quam ad laudem.</p>
+          <p xml:id="bb-d4e27093-d1e175">Tertii dixerunt quod, ad hoc quod valeant istae indulgentiae tantum quantum
+            promittitur, necessario requiritur existimatio iusta. Iustam autem existimationem
+            vocaverunt quando homo tantum eleemosynae facit pro Ecclesiae sublevatione quantum
+            vellet dare ad hoc ut remitteretur tertia pars poenitentiae suae sive quantum deberet
+            velle dare. Sed certe, si ita esset, nulla in mundo esset relaxatio, sed solum
+            commutatio, si quis inspiciat.</p>
+          <p xml:id="bb-d4e27093-d1e178">Possumus igitur dicere quod quantitas indulgentiae attenditur respectu poenae, secundum
+            quod habet rationem pretii vel debiti solvendi, non ratione antidoti vel purgationis
+            scoriae peccati, quam necesse est amoveri per propriam poenam, ut puta per contritionem
+            vel alicuius poenae perpessionem. Haec autem quantitas mensuratur secundum rectum
+            iudicium Summi Pontificis vel eius qui indulgentias facit. Ille autem qui dat
+            indulgentias, cum eas tribuit, considerat causam, pro qua reputat eum dignum tanta
+            gratia ; et secundum quod plus vel minus accedunt homines ad illam causam, plus vel
+            minus participant de indulgentia ; ut verbi gratia stationes Romae institutae sunt, ubi
+            sunt indulgentiae determinatae. Hoc instituerunt sancti Patres propter peregrinos qui
+            veniebant de locis remotis ; nec existimaverunt dignum esse tanta gratia eum qui est
+            natus iuxta ecclesiam, sicut eum qui longa venit via ; unde nec tantam recipit
+            indulgentiam, sed aliquantam.</p>
+          <p xml:id="bb-d4e27093-d1e181">Concedo ergo quod indulgentiae, quantum est ex parte dantis, tantum valent quantum
+            promittunt, sicut ostendunt primae rationes. Concedo nihilominus quod non cuilibet
+            valent tantum nec aequaliter omnibus, sed secundum existimationem eius quam habuit vel
+            habere debuit qui indulgentiam fecit ; quam non oportuit exprimere, quia omnes fideles
+            debent illud in corde praesupponere, quod dona et miserationes Sancti Spiritus donentur
+            cum aequo libramine. Nec hoc debet aliquem ab his retrahere, quia semper plus valent, si
+            homo sit in caritate ; quam valeat obsequium vel aliud aliquid pro quo indulgentia
+            conceditur vel donatur. Et ex hoc patent omnia obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

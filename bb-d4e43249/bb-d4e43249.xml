@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43249">
+        <head xml:id="bb-d4e43249-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e43249-Hd1e111" type="question-title">Utrum cognatio spiritualis contrahatur per aliquod
+          sacramentum.</head>
+        <div xml:id="bb-d4e43249-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e43249-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e43249-d1e119">Circa primum sic proceditur; et quod. cognatio spiritualis contrahatur per sacramenta,
+            videtur : Per illud quod dicitur <ref xml:id="bb-d4e43249-Rd1e121" target="http://scta.info/resource/gd-p2c30q1-d1e240">Causa XXX, quaestione 1</ref> :
+              <quote xml:id="bb-d4e43249-Qd1e124">Omnes quos suscepimus, ita filii nostri sunt ut illi quos, nobis
+              suscipientibus, unda sacri Baptismatis regeneravit</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e43249-d1e128">Item, hoc ostenditur ratione, quia cognatio attenditur penes generationem ; sed sicut
+            est carnalis generatio in filiis, ita et spiritualis in sacramentis : cum ergo sit vera
+            regeneratio, videtur, quod sit ibi vera cognatio.</p>
+          <p xml:id="bb-d4e43249-d1e131">Item, qui suscipit aliquem in Baptismo tenetur eum fovere et erudire in spiritualibus :
+            ergo obligatur ad actum paternum spiritualem : ergo per aliquod vinculum spirituale :
+            hoc autem appellamus cognationem : ergo etc.</p>
+          <p xml:id="bb-d4e43249-d1e134">Item, reverentiam et honorem tenetur aliquis ei facere qui se regeneravit, maiorem quam
+            aliis ; hoc autem non est propter aliud, nisi propter illud mandatum quo pater est
+            honorandus specialiter prae aliis hominibus : ergo iste aliquo modo est pater ; sed non
+            carnalis ; ergo spiritualis. Sed carnalis paternitas facit cognationem carnalem : ergo
+            et spiritualis spiritualem.</p>
+          <p xml:id="bb-d4e43249-d1e138">Contra : Maius est vinculum caritatis quam alicuius sacramenti ; sed vinculum caritatis
+            non efficit aliquam cognationem, nec carnalem nec spiritualem : ergo nec per aliquod
+            sacramentum cognatio contrahitur.</p>
+          <p xml:id="bb-d4e43249-d1e141">Item, inter omnia sacramenta sacramentum Eucharistiae est maioris unionis, pro eo quod
+            unit in uno corpore : sed per sacramenti Eucharistiae susceptionem nulla efficitur
+            spiritualis cognatio : ergo nec per alia.</p>
+          <p xml:id="bb-d4e43249-d1e144">Item, plus assimilantur et conveniunt participantes unum sacramentum quam dans et
+            suscipiens in quantum huiusmodi ; sed qui participant idem sacramentum propter hoc non
+            dicuntur habere cognationem, nec spiritualem nec carnalem : ergo etc.</p>
+          <p xml:id="bb-d4e43249-d1e147">Item, quia pater et filius sunt proximi, necesse est quod filii ab eodem patre
+            procedentes sint proximi et cognati in cognatione carnali : ergo pari ratione, si est
+            cognatio inter patrem spiritualem et filium, erit cognatio inter filios spirituales
+            eiusdem patrii : ergo omnes qui baptizarentur ab uno essent cognati spiritualiter :
+            ergo, cum hoc non sit verum, nec illud est verum quod cognatio spiritualis sit inter
+            dantem sacramentum et suscipientem.</p>
+        </div>
+        <div xml:id="bb-d4e43249-Dd1e151">
+          <head xml:id="bb-d4e43249-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e43249-Hd1e156" type="question-title">Cognatio spiritualis vere contrahitur in duobus
+            Sacramentis</head>
+          <p xml:id="bb-d4e43249-d1e159">Respondeo : Dicendum quod spiritualis cognatio est et esse debet, et hoc propter
+            conformitatem spiritualium ad carnalia. Sicut enim est carnalis generatio, in qua est
+            vinculum et quidam amor naturalis, sic est spiritualis regeneratio per sacramenta aliqua
+            et per illam similiter aliquod vinculum acquiritur et amor spiritualis : et ideo in
+            illis sacramentis praecipue contrahitur in quibus est regeneratio. Quoniam igitur
+            dispositio ad regenerationem est in catechismo, regeneratio in Baptismo, regenerationis
+            consummatio in Confirmatione, hinc est quod in his tribus secundum communem opinionem
+            contrahitur cognatio. Sed tamen, quia in catechismo non est vera regeneratio, ideo non
+            contrahitur ibi vera cognatio nec alligatio fortis, sed adeo exilis ut, sicut dictum
+            est, non dirimat Matrimonium iam contractum et vix impediat contrahendum. Et sic
+            concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e43249-Dd1e163">
+          <head xml:id="bb-d4e43249-Hd1e165">Ad rationes</head>
+          <p xml:id="bb-d4e43249-d1e168">1-2. Ad illud quod obicitur in contrarium de vinculo caritatis et Sacramento altaris,
+            dicendum quod in neutro attenditur regeneratio, sed in aqua et Spiritu Sancto, quorum
+            unum est in sacramento Baptismi, reliquum in sacramento Confirmationis ; et si aliqua
+            regeneratio spiritualis attendatur, penes virtutes, haec facit cognationem ad Deum et
+            Filium Dei, non filium vel cognatum hominis, pro eo quod virtutem operatur Deus in nobis
+            sine nobis, sacramentum autem dispensatur per hominem.</p>
+          <p xml:id="bb-d4e43249-d1e171">Ad illud quod obicitur de comparticipatione, dicendum quod comparticipatio sacramenti
+            est vinculum commune, sive ab eodem sive a diversis sit, quia unus Deus, una fides, unum
+            baptisma ; sed cognatio est vinculum speciale : et ideo sacramenti comparticipatio nec
+            est cognatio nec facit cognationem ; non sic datio et susceptio sacramenti, immo dicit
+            ordinem ad aliquam personam specialem et quoddam vinculum supraddit et quamdam specialem
+            tentionem ; et hanc rectissime possumus. appellare cognationem. Et sic patet illud.</p>
+          <p xml:id="bb-d4e43249-d1e174">Ad illud quod obicitur ultimo de fraternitate carnali, dicendum quod non est simile,
+            quia utrumque est vinculum speciale, et aliquo modo magis conveniunt qui generantur ab
+            eodem, sicut supra monstratum fuit ; qui autem baptizantur ab eodem non magis conveniunt
+            quam qui baptizantur a diversis. Amplius, ex affinitate et affinitate non surgit tertia
+            affinitas, nisi interveniat consanguinitas, quae est vinculum per se ; sic ex cognatione
+            spirituali ex utraque parte non surgit cognatio spiritualis, nisi ex altera parte sit
+            consanguinitas. Unde cognatio ponitur inter filium spiritualem et filium carnalem, non
+            inter spiritualem et spiritualem. Et sic patet illud.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

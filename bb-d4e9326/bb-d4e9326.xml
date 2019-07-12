@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9326">
+        <head xml:id="bb-d4e9326-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e9326-Hd1e111" type="question-title">De forma verbi supra vinum.</head>
+        <p xml:id="bb-d4e9326-d1e114">Secundo quaeritur de forma verbi super vinum, et haec habetur in canone 2 : <quote xml:id="bb-d4e9326-Qd1e116">Hic
+            est calix sanguinis mei</quote> etc.</p>
+        <div xml:id="bb-d4e9326-Dd1e120" type="rationes-principales">
+          <p xml:id="bb-d4e9326-d1e122">Sed videtur haec non esse forma : Propter hoc quod <name ref="#Lombard">Magister</name>
+            dicit, quod haec est forma : <quote xml:id="bb-d4e9326-Qd1e127">Hic est sanguis meus</quote>. Cum ergo non sint
+            duae, patet etc.</p>
+          <p xml:id="bb-d4e9326-d1e131">Item, in nullo Evangelistarum habetur haec forma, quia in Matthaeo [26, 28] et Marco
+            [14, 24] dicitur : <quote xml:id="bb-d4e9326-Qd1e133" ana="#mat26_28 #mc14_24">Hic est sanguis meus</quote> ; in
+            Luca [22, 20] : <quote xml:id="bb-d4e9326-Qd1e136" ana="#lc22_20">Hic est calix in meo sanguine</quote>. Si igitur
+            non debet credi alicui, quod non sit in Novo vel Veteri Testamento, sed Novo et Veteri
+            simpliciter est credendum, ergo forma est abicienda, et forma, quae in Evangelio
+            traditur, est tenenda.</p>
+          <p xml:id="bb-d4e9326-d1e140">Item, quaero de huius formae congruentia.</p>
+          <p xml:id="bb-d4e9326-d1e143">Et cum in forma non debeat poni nisi quod spectat ad essentiam sacramenti, et calix non
+            sit nec de materia nec de forma, sed vas continens, ergo non debet in forma poni.</p>
+          <p xml:id="bb-d4e9326-d1e146">Si dicas quod tenetur transsumptive, quaero : ad quid ? Si ad passionem, ergo sensus
+            est : haec est passio sanguinis ; si ad potum, ergo sensus est : hic est potus ; sed
+            sicut sanguis est potus, sic corpus est cibus : ergo, si in forma panis non dicitur :
+            hic est cibus corporis, nec in forma vini debet dici : hic est potus sanguinis.</p>
+          <p xml:id="bb-d4e9326-d1e150">Item, ubi est sermo translatus, est improprietas, et ubi est improprietas, est occasio
+            erroris ; et omnis talis excludenda est ; ergo etc.</p>
+          <p xml:id="bb-d4e9326-d1e153">Item, ubi transsumptio, ibi plures intellectus, scilicet proprius et transsumptus ; sed
+            multiplicitas intellectuum est ratio evagandi, quod specialiter debet esse alienum a
+            dispensante et conficiente hoc sacramentum : ergo etc.</p>
+          <p xml:id="bb-d4e9326-d1e156">Obicitur autem ultra de hoc quod est sanguinis. Si enim hoc est principale in
+            sacramento, videtur quod debeat exprimi in recto potius quam in obliquo.</p>
+          <p xml:id="bb-d4e9326-d1e159">Item, si calix stat ibi pro contenta, et contentum non differt a sanguine, et obliqui
+            sunt transitivi, non ergo debet poni in obliqua.</p>
+          <p xml:id="bb-d4e9326-d1e162">Quaeritur etiam ultra de hoc quod dicit novi et aeterni testamenti , quia, si
+            testamentum novum, non ergo aeternum : ergo male coniungitur unum cum altero.</p>
+          <p xml:id="bb-d4e9326-d1e165">Item, videtur quod non deberet poni <mentioned> Mysterium fidei </mentioned>, quia in
+            aliis sacramentis est mysterium fidei, et tamen non ponitur : ergo nec in isto.</p>
+          <p xml:id="bb-d4e9326-d1e172">Item, additur <mentioned> Qui pro vobis et pro multis effundetur </mentioned> ; quare
+            similiter non dicitur de corpore tradetur ?</p>
+          <p xml:id="bb-d4e9326-d1e178">Item, quare distinguit ? Cum enim. aequaliter pro omnibus sit effusus, videtur, quod
+            non deberet dicere pro vobis et pro multis, sed pro omnibus.</p>
+        </div>
+        <div xml:id="bb-d4e9326-Dd1e182">
+          <head xml:id="bb-d4e9326-Hd1e184">Conclusio</head>
+          <head xml:id="bb-d4e9326-Hd1e187" type="question-title">Forma, qua consecratur calix, videlicet: hic est calix
+            sanguinis mei, est certa, congrua, et ut videtur, tota.</head>
+          <p xml:id="bb-d4e9326-d1e190">Respondeo : Dicendum quod haec forma : <quote xml:id="bb-d4e9326-Qd1e192">Hic est calix sanguinis mei</quote>, est
+            forma certa, forma congrua ; sed utrum sit tota, an quod sequitur sit de integritate,
+            dubium est ; creditur tamen quod est tota. Tamen quod sequitur non est frustra additum
+            nec debet aliquid resecari.</p>
+          <p xml:id="bb-d4e9326-d1e196">Quod autem ista sit forma certa, patet per hoc quod ipsam tenet Romana Ecclesia, quae
+            fuit ab Apostolorum principibus edocta. Unde Innocentius : <quote xml:id="bb-d4e9326-Qd1e198" source="http://scta.info/resource/hy7y7y-d1e1498">Romana Ecclesia illud semper integra
+              fide servavit quod ab ipsis Apostolis, qui eam praesentialiter factis et doctrinis
+              ecclesiasticos ritus docuerunt, accepit ; ab ipsis Apostolis Petro et Paulo, quos
+              vivos auctores habuit et defunctos custodit, hunc ritum sacrificii accepit quem
+              hactenus immobili cultu servavit</quote>. Accipienda est igitur forma a canone, quia
+            illa traditur non per modum narrationis, sed institutionis. <name ref="#Lombard">Magister</name> autem non intendit dare formam, sicut nec in aliis sacramentis fecit,
+            sed illi consimilem insinuare. Accipienda est ab ipsis Apostolis, non ab Evangelistis,
+            quia Apostoli Ecclesiam instituerunt secundum quod a Domino acceperunt ; Evangelistae
+            vero divina verba et opera narraverunt, attendentes ad intellectum, non ad vocem. Ideo
+            nec Evangelistae in forma conveniunt, quia formam fortassis tradere non intendant ; sed
+            conveniunt in sensu quem narrare volebant. Et sic patet quod haec est forma.</p>
+          <p xml:id="bb-d4e9326-d1e205">Utrum autem illa quae traditur in Evangeliis sit forma in qua conficiatur, quis audeat
+            negare aut quis praesumat asserere, cum nesciamus an ipsi intenderint formam describere
+            an verba narrare ? Quod si intenderunt formam dare, forma in illis verbis omnibus
+            salvatur, et modica variatio verbi, salvo sensu, formam non mutat ; et ita ex hoc non
+            habetur quod ista quae habetur in canone, non sit forma, immo vere est forma, cum in
+            sensu cum aliis conveniat. Quod si non intendant, tunc restat quod ista est forma ac per
+            hoc haec forma est certa.</p>
+        </div>
+        <div xml:id="bb-d4e9326-Dd1e210">
+          <head xml:id="bb-d4e9326-Hd1e212">Ad rationes</head>
+          <p xml:id="bb-d4e9326-d1e215">1-2. Et patet responsio ad obiecta. duo prima.</p>
+          <p xml:id="bb-d4e9326-d1e218">3-4. Est etiam congrua, quia in hoc sacramento significatur sanguis Christi ut effusus
+            in pretium et ut administratus in potum ; sanguis autem neutrum dicit de se expresse,
+            sed per coniunctionem cum calice, quia sanguis in calice ut effusus et potandus
+            proponitur. Ideo calix in Scriptura significat aliquando passionem, ut Matthaei 20, 22 :
+            Potestis bibere calicem, quem etc. ; significat et potus refectionem per
+            transsumptionem, ut in Psalmo [22, 5] : Calix inebrians quam praeclarus est ! Propter
+            hunc duplicem tropum melius dicitur calix sanguinis quam sanguis per se. Si ergo
+            quaeratur : ad quid transsumitur ? dico quod ad contentum. Unde dicitur calix sanguinis
+            sicut calix vini, cum : dicitur : bibe calicem. Si quaeras : quare non de corpore
+            dicitur cibus corporis ? dicendum quod corpus Christi de se panis est ; sed sanguis non
+            dicitur potus nisi prout propinatur in calice passionis.</p>
+          <p xml:id="bb-d4e9326-d1e221">5-6. Ad illud ergo quod obicitur de transsumptione, quod est occasio erroris et
+            evagationis, dicendum quod hoc verum est ubi est transsumptio occulta, impropria et
+            inconsueta ; sed sic non est hic.</p>
+          <p xml:id="bb-d4e9326-d1e224">7-8. Ad illud quod ultra quaeritur : quare sanguis ponitur in obliqua ? dicendum quod
+            in recto intelligitur, nec obliquus et rectus construuntur transitive ut diversa, sed
+            identitas est, sicut cum dicitur potus vini vel creatura salis. Et sic patet quod est
+            forma congrua.</p>
+          <p xml:id="bb-d4e9326-d1e228">Est etiam tota et perfecta ; sufficiens enim est ad significandum transsubstantiationem
+            vini in sanguinem Christi. Unde quod additur est de bene esse, quia in sequentibus
+            describuntur effectus sanguinis in hoc sacramento significati et in passione effusi, qui
+            triplex est. Unus est Testamenti innovatio et innovati confirmatio, quia in morte
+            confirmatur testamentum et novum efficitur, quia Vetus, quod in sanguine taurorum fuerat
+            confirmatum, ibi est evacuatum.</p>
+          <p xml:id="bb-d4e9326-d1e231">Ideo dicit : Novi et aeterni Testamenti.</p>
+          <p xml:id="bb-d4e9326-d1e234">Alius effectus effusionis sanguinis est fidei manifestatio, quia quod erat sigillatum
+            et secretum in passione Agni est apertum.</p>
+          <p xml:id="bb-d4e9326-d1e237">Ideo dicit <mentioned> Mysterium fidei </mentioned>, id est secretum ; hoc enim erat in
+            fide secretissimum, et, hoc reveIato, revelata est fides ; vel quia difficilius ad
+            credendum.</p>
+          <p xml:id="bb-d4e9326-d1e243">Tertius effectus est salus quorumdam Iudaeorum et multorum gentilium.</p>
+          <p xml:id="bb-d4e9326-d1e246">11-12. Ideo dicit <mentioned> Qui pro vobis </mentioned>, per Apostolos intelligens
+            Iudaeos ; et pro multis, per hoc intelligens gentiles.</p>
+          <p xml:id="bb-d4e9326-d1e253">Vel ideo dicit, quia in hoc sacramento debent pro se specialiter et pro aliis rogare ;
+            ideo dicit : pro vobis sacerdotibus, et pro multis subditis per vos convertendis.</p>
+          <p xml:id="bb-d4e9326-d1e256">Posset hic quaeri de harum formarum variatione quantum ad additionem, diminutionem et
+            cetera consimilia ; et de hoc sentiendum est quod dictum est circa formam Baptismi. Hic
+            enim sunt diversae opiniones. Nam quidam dicunt quod qualiscumque variatio, salvo sensu,
+            non tollit efficaciam formae ; alii vero dicunt quod minima mutatio tollit, quia his
+            verbis sic ordinatis data est virtus. Sed sicut tactum fuit supra, distinctione tertia,
+            melius est viam mediam tenere ; unde quae ibi dicta sunt hic etiam supponenda sunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

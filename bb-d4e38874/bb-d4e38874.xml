@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e38874">
+        <head xml:id="bb-d4e38874-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e38874-Hd1e111" type="question-title">Utrum liceat uxorem dimittere ex causa fornicationis.</head>
+        <p xml:id="bb-d4e38874-d1e114">Circa primum ostenditur quod possit fieri divortium ex causa fornicationis.</p>
+        <div xml:id="bb-d4e38874-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e38874-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e38874-d1e122">Matthaei 19, 9 : <quote xml:id="bb-d4e38874-Qd1e124" ana="#mt19_9">Si quis uxorem dimiserit, excepta causa
+              fornicationis</quote> etc. : ergo, si hanc causam excipit, et vera est exceptio
+            Domini, videtur quod ex hoc licet dimittere.</p>
+          <p xml:id="bb-d4e38874-d1e128">Item, ratione videtur, quia alter coniugum non habet potestatem in corpore alterius,
+            nisi quia dat ei sui corpori potestatem : ergo si, quantum est in se, subtrahit, amittit
+            potestatem in corpore coniugis. Sed hoc facit per fornicationem : ergo etc.</p>
+          <p xml:id="bb-d4e38874-d1e131">Item, vir non tenetur esse cum uxore nec reddere ei debitum, nisi ratione boni fidei
+            nec e converso : ergo, si fornicans frangit bonum fidei, non tenetur debitum reddere nec
+            cohabitare : ergo potest eam dimittere.</p>
+          <p xml:id="bb-d4e38874-d1e134">Item, alter coniugum fornicando scandalizat alterum quia est factum minus rectum,
+            praebens occasionem ruinae. Ergo, si omne quod scandalizat potest homo a se sequestrare,
+            ut patet Matthaei 18, 9 : Si oculus tuus scandalizat te : ergo etc.</p>
+          <p xml:id="bb-d4e38874-d1e138">Contra : Matthaei 19, 6 : <quote xml:id="bb-d4e38874-Qd1e140" ana="#mt19_6">Quod Deus coniunxit, homo non
+              separet</quote> ; sed coniuges sunt divinitus coniuncti : ergo non debent humano
+            iudicio separari : ergo nec divortium fieri ex aliqua causa.</p>
+          <p xml:id="bb-d4e38874-d1e144">Item, non est reddendum malum pro malo : ergo, quamvis uxor fornicando iniurietur viro,
+            vir non debet ei reddere malum : ergo non debet eam abicere.</p>
+          <p xml:id="bb-d4e38874-d1e147">Item, sicut dicunt canones, utroque fornicante, non potest alter ab altero separari ;
+            sed maior culpa est, cum uterque fornicatur quam cum alter tantum. : ergo, si non potest
+            fieri divortium ex maiori culpa, nec ex minori.</p>
+          <p xml:id="bb-d4e38874-d1e150">Item, propter defectum boni prolis, ut puta si alter sit sterilis, non potest coniux
+            dimitti : ergo, si hoc non est minus quam bonum fidei, propter defectum boni fidei
+            Matrimonium non solvitur.</p>
+          <p xml:id="bb-d4e38874-d1e153">Item, quaero, qua de causa possit divortium fieri magis ex fornicatione quam ex alio
+            peccato. Si quia peccat in coniugem, similiter peccare potest detrahendo, odiendo ; si
+            vero quia dividit carnem, ergo, cum in peccato sodomitico non dividatur caro, videtur
+            quod ex illo non possit dimitti uxor ; quod nefarium videtur, cum illud sit magis contra
+            Matrimonium.</p>
+          <p xml:id="bb-d4e38874-d1e156">Item, quaero, cum in repudio vir et uxor non iudicarentur ad paria, quia uxor non
+            repudiabat virum, unde est hoc quod in divortio ad paria iudicantur secundum iura ?
+            Praeterea, guae est differentia inter divortium et repudium ?</p>
+        </div>
+        <div xml:id="bb-d4e38874-Dd1e160">
+          <head xml:id="bb-d4e38874-Hd1e162">Responsio</head>
+          <head xml:id="bb-d4e38874-Hd1e165" type="question-title">Ex causa fornicationis culpabilis et singularis divortium
+            fieri potest, postulante innocente</head>
+          <p xml:id="bb-d4e38874-d1e168">Respondeo : Dicendum quod propter fornicationem licitum est fieri divortium inter
+            coniuges, altero postulante. Et ratio huius est, quia Dominus concessit ; ratio autem
+            quare concessit, haec est, quia non servanti fidem, immo frangenti, non tenetur vir
+            fidem servare ; et quia directe peccavit contra actum matrimonialem, in eodem puniri
+            debet. Concessit igitur Dominus divortium fieri, hoc exigente aequitate iuris
+            matrimonialis, quae surgit ex hoc quod alter iniuriatur alteri culpabiliter, subtrahendo
+            ius quod habebat in corpore sine iniuria alterius. Unde non ex quacumque fornicatione
+            fit divortium, sed ex ea quae est culpabilis et singularis in altera personarum. Si ergo
+            fornicetur sine culpa, ut puta per violentiam vel per ignorantiam, cum credit alium, cum
+            quo coit, esse virum suum, vel credit virum mortuum et contrahit cum alio ; ex tali non
+            fit divortium. Si vero fornicatio non est singularis vel quia alter similiter
+            fornicatur, et non potest de hoc alterum increpare ; vel etiam, quia alter fornicatur,
+            altero consentiente et prostituente, et tunc est particeps criminis ; vel etiam altero
+            occasionem praebente, ut puta cum repudiavit eam et illa contraxit cum alio - si ambo
+            veniant ad fidem, tenetur ipsam recipere - vel etiam altero tolerante et dissimulante,
+            ut puta cum cognoscit eam voluntarie, postquam scit coniugem fornicari : omnibus istis
+            modis fit quasi criminis particeps ; et ideo non fit ei iniuria, et ideo ex causa tali
+            non debet fieri divortium ; quod si fiat ex tali causa propter defectum probationis,
+            peccat ille, qui procurat divortium, quia iniuste subtrahit ius coniugi.</p>
+        </div>
+        <div xml:id="bb-d4e38874-Dd1e173">
+          <head xml:id="bb-d4e38874-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e38874-d1e178">Ad illud ergo quod obicitur, quod fit ab homine divortium, dicendum quod falsum est,
+            immo a Deo fit ex causa iusta. Non enim homo separat, sed Deus, quos poena damnat, quos
+            reatus accusat , quos maleficium coarctat.</p>
+          <p xml:id="bb-d4e38874-d1e181">Ad illud quod obicitur, quod non est reddendum malum pro malo, dicendum quod, si quis
+            uxorem dimittat in ultionem iniuriae, utique peccat ; sed dimitti debet propter
+            scandalum proprium evitandum et propter uxoris vitium corrigendum.</p>
+          <p xml:id="bb-d4e38874-d1e184">Ad illud quod obicitur, quod non debet propter peccatum utriusque, dicendum quod
+            divortium non fit nisi altero petente et altero coniugum alterum repellente ; et quia,
+            quando uterque reus est, non habet actionem in alterum - quia, in quo iudicat alterum,
+            se ipsum condemnat, ad Romanos 2, 1 - cum autem alter est innocens, potest agere : ideo
+            non est simile.</p>
+          <p xml:id="bb-d4e38874-d1e187">Ad illud quod obicitur, quod non fit propter defectum prolis divortium, dicendum quod
+            non est simile quia fornicator peccat in corpus comparis, sed ubi defectus est prolis,
+            potest esse sine peccato vel saltem sine peccato in corpus viri.</p>
+          <p xml:id="bb-d4e38874-d1e191">Ad illud quod quaeritur, quare fornicatio separet, dicendum quod est culpa, non tantum
+            contra Deum et contra corpus suum, sed contra Matrimonii bonum et contra coniugii actum
+            et contra corpus coniugis ; est enim contra fidem et contra actum matrimonialem ;
+            abutitur etiam corpore, quod non est suum, sed alterius : et ideo talis amittit ius
+            petendi debitum, et quia hoc totum est in peccato contra naturam, ideo sub fornicatione
+            comprehenditur.</p>
+          <p xml:id="bb-d4e38874-d1e194">Ad illud quod quaeritur de repudio, dicendum quod differt repudium.et divortium, quia
+            repudium fiebat ex indebita causa, sed divortium ex debita ; et illud est permissum, hoc
+            concessum ; differunt etiam, quia post repudium non proibebantur nubere, post divortium
+            autem prohibentur ; differunt etiam, quia vir repudiabat uxorem, non e converso : unde
+            non iudicabantur ad paria, in divortio iudicantur ad paria. Et huius ratio est, quia
+            mulier merito primi peccati subiecta est viro ; sed post reconciliationem Christi, in
+            quo non est servus et liber, masculus et femina, omnino quantum ad legem tori ad paria
+            iudicantur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

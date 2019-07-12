@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e36586">
+        <head xml:id="bb-d4e36586-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e36586-Hd1e111" type="question-title">Utrum tempore menstruorum possit reddi et peti debitum.</head>
+        <p xml:id="bb-d4e36586-d1e114">Circa primum ostenditur quod tempore menstruorum non possit peti.</p>
+        <div xml:id="bb-d4e36586-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e36586-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e36586-d1e122">Levitici 15, 24 : <quote xml:id="bb-d4e36586-Qd1e124" ana="#lev15_24">Vir, qui ad menstruatam accesserit, immundus
+              erit septem diebus</quote>. Si tu dicas quod caerimoniale est, contra : Ezechielis 18,
+            5-6 : <quote xml:id="bb-d4e36586-Qd1e127" ana="#ez18_5">Vir si iustitiam fecerit</quote> etc. ; et post : <quote xml:id="bb-d4e36586-Qd1e130" ana="#ez18_6">Ad menstruatam non accesserit</quote>, ubi inter moralia computatur. Et
+            Glossa ibidem : <quote xml:id="bb-d4e36586-Qd1e133">Praecipitur, ut viri non solum in alienis, sed etiam in prupriis
+              uxoribus modum et tempora servent</quote>.</p>
+          <p xml:id="bb-d4e36586-d1e137">Item, quod non debeat reddi, videtur : Quia non solum qui male agunt peccant, sed etiam
+            qui consentiunt : ergo peccat qui reddit, cum consentiat</p>
+          <p xml:id="bb-d4e36586-d1e140">Item, non est reddendus gladius furioso ut se interficiat ; sed petens debitum tempore
+            menstruorum, contra salutem suam petit : ergo non ei reddendum est.</p>
+          <p xml:id="bb-d4e36586-d1e143">Item, quod nec sit reddendum nec petendum, videtur. Levitici 20, 18 dicitur quod
+            uterque interficiatur, scilicet vir et mulier ; sed poena mortis non nisi pro peccato
+            mortali infligebatur : ergo uterque peccat mortaliter.</p>
+          <p xml:id="bb-d4e36586-d1e147">Item, <name ref="#Jerome">Hieronymus</name> dicit quod ex tali coitu nascuntur pueri
+            elephantici et monstruosi : ergo uterque facit contra bonum prolis ; et si hoc, ergo
+            uterque mortaliter peccat.</p>
+          <p xml:id="bb-d4e36586-d1e153">Contra : Maior passio est passio leprae quam passio menstrui : ergo, si propter lepram
+            non potest mulier debitum negare, nec propter menstruum.</p>
+          <p xml:id="bb-d4e36586-d1e156">Item, mulier non habet potestatem sui corporis : ergo, cum vir petit, suum petit ; et
+            iustum es unicuique reddere quod suum est : ergo iuste reddit mulier.</p>
+          <p xml:id="bb-d4e36586-d1e159">Item, esto quod vir nesciat quod sit tempus menstruorum et mulier timet de lapsu eius,
+            quaeritur : quid debet facere ? Et ostenditur quod reddere, quia illius animam liberat a
+            morte et ab omni culpa.</p>
+          <p xml:id="bb-d4e36586-d1e162">Item, sicut fluxus sanguinis reddit mulierem immundam, ita fluxus seminis reddit virum
+            immundum ; sed non peccat mulier quae petit a viro seminifluo debitum : ergo etc.</p>
+          <p xml:id="bb-d4e36586-d1e165">Item, si aliquo modo repugnat Matrimonio talis coitus, hoc non est nisi ratione prolis
+            ; sed possibile est quod talis mulier sit sterilis, et tunc non timetur deformitas
+            prolis : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e36586-Dd1e169">
+          <head xml:id="bb-d4e36586-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e36586-Hd1e174" type="question-title">Tempore menstruorum, quae sunt secundum naturam, non licet sub
+            mortali scienter exigere debitum; secus iudicandum de redditione</head>
+          <p xml:id="bb-d4e36586-d1e177">Respondeo : Dicendum quod aliqui voluerunt dicere quod omni tempore, sive menstruorum
+            sive alio, debet debitum reddi, sed non debet peti. Et dicunt quod ratio huius est, quia
+            petere est agere, sed reddere quodam modo pati ; et primum est libertatis, secundum vero
+            est necessitatis. Unde et Dominus non praecepit mulieri non reddere, sed homini non
+            accedere ; ac per hoc non exemit mulierem a tentione, sed vir obligatur ut hoc non
+            possit petere sine transgressione. Et hoc videtur <name ref="#Lombard">Magister</name>
+            dicere in littera, cum dicit : Et licet omni tempore debitum sit petenti solvendum, non
+            tamen licet omni tempore petere. Sed istud non videtur consonare nec rationi nec
+            auctoritati. Primum non auctoritati ; quia est contra bonum prolis, sicut dicit <name ref="#Jerome">Hieronymus</name> super illud Isaiae 64, 6 : <quote xml:id="bb-d4e36586-Qd1e185" ana="#is64_6">Omnes
+              iustitiae nostrae sicut pannas menstruatae</quote>, dicit : <quote xml:id="bb-d4e36586-Qd1e188">Tunc concipiuntur
+              membris damnati, caeci, claudi, leprosi, ut, quia parentes non erubuerunt in conclavi
+              commisceri, patenter eorum peccatum et aperte redarguatur in parvulis</quote>. Item,
+              <name ref="#Augustine">Augustinus</name>, super Leviticum [18, 19] : <quote xml:id="bb-d4e36586-Qd1e195" ana="#lev18_19">Ad mulierem</quote> etc. : <quote xml:id="bb-d4e36586-Qd1e198">Necessario utrique interim
+              continentia indicitur</quote> : Et iterum : <quote xml:id="bb-d4e36586-Qd1e201">Cum sufficienter prohibuisset, hic
+              etiam repetit, ne forte in superioribus videretur figurative dictum</quote>. Et
+            iterum, uterque praecipitur interfici, <ref xml:id="bb-d4e36586-Rd1e204" ana="#lev20_18">Levitici 20, 18</ref> sicut
+            ibi patet : ergo uterque mortaliter peccat. Et iterum, esto quod mulier menstruata tunc
+            temporis petat a viro, et hoc constet viro, durum videtur dicere quod vir teneatur sibi
+            reddere in prolis praeiudicium. Si ergo ad paria iudicantur ; et dominium non habet
+            alter in alterum contra divinum statutum ; non videtur quod reddere teneatur.</p>
+          <p xml:id="bb-d4e36586-d1e208">Et ideo aliqui voluerunt dicere quod non debet reddere, nisi praesumat de viro quod
+            cadat in fornicationem ; quod si praesumit, debet occurrere maiori periculo, nec reddit
+            sibi gladium ad interficiendum, sed potius ad sanandum. Sed nec istud sufficit, quia aut
+            mulier tenetur aut non tenetur. Si tenetur, absque omni praesumptione periculi debet
+            reddere. Si non tenetur ut tunc, hoc non est nisi quia hoc est contra divinum mandatum :
+            ergo quantumcumque timeat de culpa alterius, cum non sit faciendum malum certum pro
+            incerto evitando, non debet sibi reddere debitum, non quia reddat gladium furioso, quia
+            ista non est ratio : nam aliter se ipsum interficit. Nec dat ei occasionem periculi nisi
+            ipsa petat ; non enim ideo est culpa, quia gladium furioso reddat, sed quia contra
+            praeceptum sive prohibitionem agendo se deordinat ; et hoc non est propter tempus, sed
+            propter morbum, qui est contra prolis bonum. Unde similiter esset de vicina partui, quia
+            ex actu illo timetur parvulus opprimi et occidi ; vel si ipsa laboraret acuta, nullus
+            pro illo tempore diceret eam teneri, non ratione temporis, sed ratione morbi vel
+            periculi.</p>
+          <p xml:id="bb-d4e36586-d1e211">Tertius modus dicendi est, qui videtur esse probabilior, quod tempus menstruorum aut
+            est secundum naturam aut praeter naturam. Si secundum naturam semel in mense, quia tunc
+            possibile, est filios generare et per abundantiam et corruptionem humoris in pessimo
+            statu : ideo morale est praeceptum ut illo tempore non cognoscatur. Unde, si ignoranter
+            petit vel violenter reddit, excusatur ; si scienter et libenter petit et reddit, contra
+            praeceptum facit et mortaliter peccat, et vir secundum tempus illud non habet potestatem
+            in corpus mulieris. Si autem sit tempus contra naturam et passio praeter naturam, tunc
+            dicitur quod filii non generantur ; et tunc, si diu duret, debitum potest peti et reddi.
+            Ex his patent obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e36586-Dd1e216" type="rationes-principales">
+          <head xml:id="bb-d4e36586-Hd1e218">Rationes principales</head>
+          <p xml:id="bb-d4e36586-d1e221">Quod enim obicit de lepra, non est simile, quia ille morbus est continuus, iste
+            momentaneus.</p>
+          <p xml:id="bb-d4e36586-d1e224">Ad illud quod obicit, quod non habet potestatem, dicendum quod tunc non habet, vel
+            etiam quod plus est obediendum Deo quam homini sive mulieri.</p>
+          <p xml:id="bb-d4e36586-d1e227">Ad illud quod quaeritur, quando vir nescit, dicendum quod, si credit ipsum desistere,
+            debet ei infirmitatem dicere vel saltem infirmitatem simulare ; quodsi nec tunc vult
+            liesistere, debet quantum potest resistere ; quia, si ille violenter extorqueat, mulier
+            est immunis a culpa. Aliter enim propter vitandam culpam viri non debet ipsa facere
+            culpam.</p>
+          <p xml:id="bb-d4e36586-d1e230">Ad illud quod obicitur de immunditia, dicendum quod non est propter immunditiam, sed
+            quia talis est proli contraria.</p>
+          <p xml:id="bb-d4e36586-d1e234">Ad illud quod obicitur de sterili, dicendum quod nescitur, quamdiu habet muliebria,
+            utrum concipiat ; et ideo obligatur divino mandato sicut et aliae quae consueverunt
+            concipere.</p>
+          <p xml:id="bb-d4e36586-d1e237">Quamvis autem iste modus ultimo dictus videatur esse probabilior primus tamen modus
+            dicendi est securior et sanior, quoniam standum est pro Matrimonio ; et valde durum
+            videtur quod mulier debitum non reddat viro instanter petenti, cum non apparet
+            infirmitas gravis et manifesta. Si tu dicas quod non debet sine violentia, potest esse
+            quod vir non potest sibi violentiam facere, et ex hoc cadet in peiorem fornicationem. Et
+            ideo dicendum est secundum primum modum quod secus est in petitione et redditione, sicut
+            dicit <name ref="#Lombard">Magister</name> in littera, et primo notatum est. Unde
+            prohibitio de cognitione menstruae se extendit ut non petant, sed non ut non reddant ;
+            et ideo non absolvitur a tentione reddendi. Et secundum hoc intelligendae sunt
+            auctoritates de hoc loquentes. Sed tamen mulier aliquo modo se debet reddere difficilem
+            et cum dolore debitum solvere, ne, dum appetit a se peti, ipsa rea sit ac si peteret ;
+            unde resistere potest nisi credat scandalum praestare marito.</p>
+          <p xml:id="bb-d4e36586-d1e243">Ex hoc patet illud quod obicit de consensu. Dum enim necessitate compulsa femina
+            reddit, non dicitur consentire nec furioso gladium reddere, sed ipse agit et haec
+            patitur. Praeterea, gladius furioso est reddendus, si evitetur maius periculum ; sic in
+            proposito ; cum timetur periculum, et vir potest evadere periculum fornicationis vel
+            odii per redditionem, in quam incurreret per abnegationem. Ex his patent alia.
+            Concedendum est enim quod debitum non potest peti scienter, quia hoc est mortale,
+            propter praeceptum quod debitum non petatur. Et non valet de lepra nec de potestate
+            corporis, quia usus est ei arctatus per mandatum illud ; et patent auctoritates inductae
+            in contrarium ; omnes enim intelligendae sunt quantum ad scienter exigentes.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

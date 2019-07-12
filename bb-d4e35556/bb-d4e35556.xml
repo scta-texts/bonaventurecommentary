@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e35556">
+        <head xml:id="bb-d4e35556-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e35556-Hd1e111" type="question-title">Utrum Matrimonium sit in genere utilis an honesti.</head>
+        <div xml:id="bb-d4e35556-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e35556-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e35556-d1e119">Et quod sit in genere honesti, videtur. Super illud I ad Corinthios 7, 35 : <quote xml:id="bb-d4e35556-Qd1e121" ana="#Icor7_35">Non ut laqueum</quote> etc., Glossa : <quote xml:id="bb-d4e35556-Qd1e124">Non esse turpe
+              demonstravit, sed quod honesto honestius est generali nomine honesti
+              commendavit</quote>.</p>
+          <p xml:id="bb-d4e35556-d1e128">Item, hoc videtur ratione, quia castitas, cum sit virtus, est in genere honesti ; sed
+            actus coniugalis est actus castitatis, quoniam est castitas coniugalis sicut vidualis :
+            ergo etc.</p>
+          <p xml:id="bb-d4e35556-d1e131">Item, actus, qui alias esset fornicarius, fit non fornicarius per coniugium ; sed nihil
+            tollit dehonestatem peccati nisi honestum : ergo coniugium etc.</p>
+          <p xml:id="bb-d4e35556-d1e134">Item, servare fidem coniugii hoc est opus iustitiae de se ; sed talia cadunt in genere
+            honesti, et hoc est bonum Matrimonii ; ergo etc.</p>
+          <p xml:id="bb-d4e35556-d1e138">Contra : <name ref="#Augustine">Augustinus</name>, De bono coniugali : <quote xml:id="bb-d4e35556-Qd1e143">Quaedam
+              bona data sunt a Deo quae propter se appetenda sunt, ut sapientia, salus et amicitia ;
+              quaedam vero propter aliud necessaria, ut doctrina, cibus et coniugium</quote> ; sed
+            honestum est propter se appetendum : ergo etc</p>
+          <p xml:id="bb-d4e35556-d1e147">Item, <name ref="#Jerome">Hieronymus</name>, in libro De virginibus :
+              <quote xml:id="bb-d4e35556-Qd1e152">Fornicationis periculo conceduntur nuptiae, et excusabile fit quod non propter
+              se est appetendum, sicut viduis solum fornicationis periculo conceduntur secunda
+              connubia</quote>.</p>
+          <p xml:id="bb-d4e35556-d1e156">Item, ratione videtur, quia honestum est quod sua vi nos trahit et dignitate nos
+            allicit ; sed omne tale est ab omnibus appetendum, coniugium autem non est ab omnibus
+            appetendum : ergo etc.</p>
+          <p xml:id="bb-d4e35556-d1e159">Item, omnis verecundia recta est de eo quod habet aliquid inhonestatis, non de honesto
+            ; sed omnis homo sanae mentis actum coniugalem erubescit : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e35556-Dd1e163">
+          <head xml:id="bb-d4e35556-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e35556-Hd1e168" type="question-title">Matrimonium secundum aliquid sui est in genere tum honesti,
+            tum utilis, tum delectabilis, quae tamen bona suis contrariis sunt admixta</head>
+          <p xml:id="bb-d4e35556-d1e171">Respondeo : Dicendum quod, cum triplex bonum sit in coniugio, scilicet fides, proles et
+            sacramentum ; fides est, quod suam cognoscat et non aliam ; hoc est bonum moris de se
+            ordinatum et cadit in genere honesti. Prolis vero bonum cadit in genere conferentis :
+            confert enim prolis multiplicatio ad speciei conservationem et perfectionem numeri,
+            sicut cibus ad conservationem individui. Bonum vero sacramenti cadit in genere
+            delectabilis, quia tanta est ibi unio ut relinquat homo patrem et matrem, et sint duo in
+            carne una ; unde, praecipitur viris ut uxores diligant sicut corpora sua.</p>
+          <p xml:id="bb-d4e35556-d1e174">Et sic patet quod, cum tria sitit in electione, sicut vult Philosophus, scilicet
+            honestum, conferens et delectabile, in triplici genere est bonum coniugii. Et haec tria
+            bona pura essent in statu puritatis et innocentiae ; sed per peccatum sunt suis
+            contrariis admixta, quoniam in actu illo est quaedam inhonestas contracta ratione
+            improbitatis libidinis et pruritus ; et ideo in bono honesto quaedam permiscetur
+            inhonestas. Est etiam quoddam damnum, quia impeditur homo ab orationis instantia ; unde
+            procreando prolem ad cultum Dei, impeditur ut tunc perfecte colere Deum : sic ergo bono
+            conferenti permiscetur damnum. Et etiam delectabili, scilicet sacramenti indivisioni,
+            quaedam tribulatio et angustia, quia qui cum uxore est, cogitat quae sunt mundi, quomodo
+            placeat uxori, et divisas est ; quoniam tribulationem carnis habet huiusmodi : et ita
+            bonum delectabile permiscetur tristitiae et angustiae. Quoniam ergo bonum est tamen
+            permixtum, ideo appeti potest et etiam melius est non appeti. Unde qui iungit virginem
+            bene facit, et qui non iungit virginem melius facit. Concedendae igitur sunt rationes
+            ostendentes Matrimonium secundum aliquid sui esse in genere honesti.</p>
+        </div>
+        <div xml:id="bb-d4e35556-Dd1e178">
+          <head xml:id="bb-d4e35556-Hd1e180">Ad rationes</head>
+          <p xml:id="bb-d4e35556-d1e183">Ad illud ergo quod obicitur, quod est propter aliud appetendum, dicendum quod loquitur
+            ratione boni conferentis, quod ibi est.</p>
+          <p xml:id="bb-d4e35556-d1e186">2-4. Ad illud quod obicitur de <name ref="#Jerome">Hieronymo</name> et ad rationes
+            sequentes, solvendum est quod non est pure bonum, sed aliquid habens admixtum ; et quia
+            bonum istud est medicinale, ideo bonum non fit malum propter malum quod ibi est, immo
+            curat et excusat malum, non ut non sit poenale - et ideo est ibi verecundia et
+            tribulatio - sed solum ut non sit culpabile, sicut patebit infra.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

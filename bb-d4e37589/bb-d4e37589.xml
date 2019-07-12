@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e37589">
+        <head xml:id="bb-d4e37589-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e37589-Hd1e111" type="question-title">Utrum virginitas praeferatur continentiae coniugali.</head>
+        <p xml:id="bb-d4e37589-d1e114">Secundo quaeritur de comparatione continentiae virginalis ad Matrimonium sive
+          coniugium.</p>
+        <div xml:id="bb-d4e37589-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e37589-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e37589-d1e122">Et quod virginitas sit melior et perfectior, videtur : quia <quote xml:id="bb-d4e37589-Qd1e124">virtus consistit
+              circa difficile et arduum</quote>. Ergo circa magis arduum maior virtus ; sed magis
+            arduum est omnino abstinere a coitu quam aliquando tantum : ergo maioris virtutis.</p>
+          <p xml:id="bb-d4e37589-d1e128">Item, opera perfectionis sunt in consilio, imperfectionis vero in indulgentia : sed
+            virginitas est in consilio, Matrimonium in indulgentia : ergo etc.</p>
+          <p xml:id="bb-d4e37589-d1e131">Item, cui debetur fructus maior, illud est maioris virtutis ; sed continentiae
+            virginali debetur fructus centesimus, sicut dicitur <ref xml:id="bb-d4e37589-Rd1e133" ana="#mt13_23">Matthaei 13,
+              23</ref> in Glossa, coniugali trigesimus : ergo etc.</p>
+          <p xml:id="bb-d4e37589-d1e137">Item, quod similius est statui gloriae, est perfectius ; sed continentia virginalis est
+            similior statui gloriae, quia ibi est incorruptio, ibi non nubunt ; unde <name ref="#Jerome">Hieronymus</name> dicit quod angelis est cognata virginitas : ergo
+            etc.</p>
+          <p xml:id="bb-d4e37589-d1e144">Contra : <name ref="#Augustine">Augustinus</name>, De bono coniugali : <quote xml:id="bb-d4e37589-Qd1e149">Non est
+              impar meritum in Ioanne, qui nullas expertus est nuptias, et in <name ref="#Abraham">Abraham</name>, qui filios generavit</quote>.</p>
+          <p xml:id="bb-d4e37589-d1e156">Item, <name ref="#Augustine">Augustinus</name>, De bono viduali : <quote xml:id="bb-d4e37589-Qd1e161">In continentia
+              coniugali bene utitur homo malo, qui concupiscentiam restringit in connubio</quote>.
+            Sed laboriosius est bene uti malo quam bene uti bono : ergo etc.</p>
+          <p xml:id="bb-d4e37589-d1e165">Item, ratione videtur : si optimum in aliquo genere melius est optimo alterius generis,
+            ipsum simpliciter est melius altero. Sed optima fecunditas melior est omni integritate :
+            unde melius est in beata Virgine quod est mater quam quod virgo : ergo simpliciter
+            fecunditas melior virginitate. Sed fecunditas est in coniugio : ergo etc.</p>
+          <p xml:id="bb-d4e37589-d1e168">Item, quod ad plura valet et magis facit ad perfectionem gloriae, illud est melius ;
+            sed continentia coniugalis non tantum prodest continentibus, sed etiam filiis generatis,
+            facit etiam ad perfectionem numeri electorum ; sed virglnalis sibi soli prodest et
+            perfectionem electorum non accelerat : ergo etc.</p>
+          <p xml:id="bb-d4e37589-d1e171">Item, terra sterilis est iuste maledicenda ; sed virginitas facit ventrem sterilem :
+            ergo merito est maledicenda : non ergo melior.</p>
+          <p xml:id="bb-d4e37589-d1e174">Item, si homo stetisset, non minus perfectas habuisset virtutes ; sed tunc non esset
+            virginitas, sed tantum continentia coniugalis : ergo continentia coniugalis est
+            continentia perfectissima : ergo virginitas non superexcellit, immo exceditur.</p>
+        </div>
+        <div xml:id="bb-d4e37589-Dd1e178">
+          <head xml:id="bb-d4e37589-Hd1e180">Conclusio</head>
+          <head xml:id="bb-d4e37589-Hd1e183" type="question-title">Virginitas praefertur continentiae coniugali tum ratione
+            decoris integritatis, tum ratione status secundum tempus gratiae</head>
+          <p xml:id="bb-d4e37589-d1e186">Respondeo : Dicendum quod, sicut tactum est, in virginitate est tria considerare,
+            scilicet habitum, statum et decorem integritatis. Si loquamur quantum ad habitum, sic se
+            habent ut excedentia et excessa, quia ex maiori virtute potest continere etiam coniugata
+            quam virgo et e converso. Si autem loquamur quantum ad decorem, sic semper virginitas
+            praefertur continentiae coniugali, quia ibi est corruptio foeda, hic autem est incorru
+            ptio sancta. Si autem quantum ad statum, tunc est loqui dupliciter : aut secundum idem
+            tempus aut secundum diversa. Si secundum idem, dupliciter : aut secundum tempus Legis
+            aut secundum tempus gratiae. Si secundum tempus Legis, status continentiae coniugalis
+            omnino praefertur et status virginitatis prohibetur et sterilis maledicitur et in
+            contumelia habetur. Si secundum statum gratiae, ubi non requiritur fecunditas ventris,
+            sed sanctitas et incorruptio et puritas mentis, virginitas praefertur continentiae
+            coniugali. Si autem secundum diversa tempora loquamur, utpote si continentiae statum
+            consideremus in tempore Legis et virginitatis in tempore gratiae, sicut unusquisque in
+            suo optimo, sic status statui non praefertur nec meritum merito, dum tamen sit caritas
+            aequalis. Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, quod
+            caelibatus Ioannis non praefertur coniugio <name ref="#Abraham">Abrahae</name>. Rationes
+            igitur probantes quod continentia virginalis est dignior, procedunt ratione statuum
+            relatorum ad tempus gratiae vel ratione decoris virginitatis.</p>
+        </div>
+        <div xml:id="bb-d4e37589-Dd1e197">
+          <head xml:id="bb-d4e37589-Hd1e199">Ad rationes</head>
+          <p xml:id="bb-d4e37589-d1e202">Ad illud quod obicitur in contrarium de auctoritate <name ref="#Augustine">Augustini</name>, dicendum quod loquitur secundum status diversos, scilicet Legis et
+            gratiae.</p>
+          <p xml:id="bb-d4e37589-d1e208">Ad illud quod obicitur, quod laboriosius est etc., dicendum quod verum est, ceteris
+            paribus ; sed, licet activa sit laboriosior, non tamen melior, quia alia purior.</p>
+          <p xml:id="bb-d4e37589-d1e211">Ad illud quod obicitur, quod optima fecunditas est melior etc., dicendum quod hoc verum
+            esset, si fecunditas illa esset per actum coniugalem, sed non fuit, ideo nihil ad
+            coniugium ex hoc, immo magis ad commendationem virginitatis.</p>
+          <p xml:id="bb-d4e37589-d1e214">Ad illud quod obicitur, quod valet ad plura est melius, dicendum quod hoc est verum, si
+            aeque intense valeat ; sed aliquid intense valet ad unum, quod praevalet remisse valenti
+            ad plura.</p>
+          <p xml:id="bb-d4e37589-d1e218">Ad illud quod obicitur, quod terra sterilis est maledicenda, dicendum quod verum est,
+            si sterilis est a fructu quem tempore illo debet producere ; sed tempore gratiae non
+            quaeritur fructus ventris, sed mentis, non corporalis, sed spiritualis.</p>
+          <p xml:id="bb-d4e37589-d1e221">Quod ultimo obicitur, loquitur de habitu, et hoc verum est ; de statu autem non est
+            verum : aliquem enim statum patientiae et temperantiae contingit habere nobiliorem et
+            fortiorem post lapsum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

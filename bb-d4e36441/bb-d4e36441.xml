@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e36441">
+        <head xml:id="bb-d4e36441-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e36441-Hd1e111" type="question-title">Utrum oporteat coniugi debitum reddere, si alter fiat
+          leprosus.</head>
+        <div xml:id="bb-d4e36441-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e36441-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e36441-d1e119">Et quod leproso coniugi oporteat debitum reddere, videtur : Quia dicit decretalis, De
+            coniugio leprosorum : <quote xml:id="bb-d4e36441-Qd1e121">Uxores viros et viri uxores sequantur et eis coniugali
+              affectione ministrent</quote>.</p>
+          <p xml:id="bb-d4e36441-d1e125">Item, ratione videtur, quia Matrimonium est vinculum insolubile, ergo non solvitur per
+            infirmitatem : ergo manet potestas petendi etiam superveniente lepra ; ergo, si mulier
+            non habet potestatem sui corporis, et sic etc.</p>
+          <p xml:id="bb-d4e36441-d1e128">Item, leprosi, si tentantur de fornicatione, ergo possunt et debent habere remedium :
+            ergo, si iste qui habet uxorem, remedium non potest habere nisi ipsa reddat debitum,
+            videtur etc.</p>
+          <p xml:id="bb-d4e36441-d1e131">Item, leprosi, eo ipso quod leprosi, non tenentur ad continentiam nec possunt cogi :
+            ergo necesse est uxores eorum eis reddi.</p>
+          <p xml:id="bb-d4e36441-d1e135">Contra: Levitici 13, 3 praecipitur ut leprosi extra communionem sanorum eiciantur :
+            ergo, cum uxor est sana, debet per Legem sequestrari ab uxore.</p>
+          <p xml:id="bb-d4e36441-d1e138">Item, lepra est morbus contagiosus, ergo morbus quem licet homini fugere : ergo mulier
+            cum viro leproso non tenetur cohabitare ; et si hoc, ergo nec debitum reddere.</p>
+          <p xml:id="bb-d4e36441-d1e141">Item, lepra est morbus hereditarius, ergo transmittitur ad prolem : ergo, cum coitus
+            qui est causa deformitatis in prole sit contra bonum prolis, et talis sit prohibitus,
+            ergo nullo modo licebit mulieri coire cum leproso aut e converso.</p>
+          <p xml:id="bb-d4e36441-d1e144">Item, sicut lepra reddit inhabilem ad Ordinis susceptionem, ita reddit inhabilem ad
+            Ordinis suscepti administrationem. Ergo sicut reddit inhabilem ad Matrimonii
+            contractionem post sponsalia, quia solvit , sponsalia, ita videtur quod reddat inhabilem
+            ad debiti solutionem.</p>
+        </div>
+        <div xml:id="bb-d4e36441-Dd1e148">
+          <head xml:id="bb-d4e36441-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e36441-Hd1e153" type="question-title">Coniux leprosus habet ius petendi debitum, sed sanus cogi non
+            potest, ut omnino cohabitet.</head>
+          <p xml:id="bb-d4e36441-d1e156">Respondeo : Dicendum quod, quamvis lepra solvat sponsalia, tamen non potest solvere
+            Matrimonium ; et ideo, cum aliquis efficitur leprosus, et coniux est et leprosus ; et
+            quia coniux est, habet ius petendi debitum et reddendi ; quia vero leprosus, debet extra
+            sanos habitare : ita dico quod mulier petenti debitum potest solvere, sed tamen non
+            habet necesse cohabitare omnino. Unde quod dicitur, quod viri uxores sequantur et
+            administrent, dicitur per modum admonitionis, non praecepti ; nec cogi potest sanus ad
+            aliud quam ut reddat debitum infirmo, et hoc propter periculum fornicationis. Et sic
+            concedendae sunt rationes probantes quod debeat solvere debitum.</p>
+        </div>
+        <div xml:id="bb-d4e36441-Dd1e160">
+          <head xml:id="bb-d4e36441-Hd1e162">Ad rationes</head>
+          <p xml:id="bb-d4e36441-d1e165">1-2. Ad rationes duas ad oppositum patet responsio, quia non sequitur, si non tenetur
+            cohabitare, quod nec debitum solvere.</p>
+          <p xml:id="bb-d4e36441-d1e168">Ad illud quod obicitur de prole, dicendum quod secus est in menstruatis et leprosis.
+            Nam menstruatae alio tempore possunt bonam prolem procreare, sed leprosi non possunt nec
+            omnino faciunt contra, quia, quantum in se est, libenter generarent sanum ; attamen
+            proli generatae melius est sic esse quam omnino non esse.</p>
+          <p xml:id="bb-d4e36441-d1e171">Ad illud quod obicitur de irregularitate, dicendum quod non est simile, quia utraque
+            est congruitatis, scilicet quod Ordinem suscipiat et quod in Ordine suscepto
+            administret. Sed Matrimonium contrahere, hoc libertatis est, sed ius reddere, hoc
+            necessitatis est propter insolubilitatern vinculi. Et sic patet illud quod obicit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e21453">
+        <head xml:id="bb-d4e21453-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e21453-Hd1e111" type="question-title">Utrum ad iustificationem necessaria sit confessio.</head>
+        <p xml:id="bb-d4e21453-d1e114">Quarto quaeritur, utrum ad iustificationem necessaria sit confessio.</p>
+        <div xml:id="bb-d4e21453-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e21453-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e21453-d1e122">Et quod sic, videtur : Proverbiorum 28, 13 : <quote xml:id="bb-d4e21453-Qd1e124" ana="#prov28_13">Qui abscondit
+              scelera sua non dirigetur, qui autem confessus fuerit et reliquerit ea misericordiam
+              consequetur</quote> Sed iustificatio nihil aliud est quam spiritualis directio, quia
+              <quote xml:id="bb-d4e21453-Qd1e127">iustitia est rectitudo voluntatis</quote> : cum ergo nullus possit dirigi nisi
+            praecedat confessio, nullus sine confessione praevia potest iustificari.</p>
+          <p xml:id="bb-d4e21453-d1e131">Item, Isaiae 43, 26 : <quote xml:id="bb-d4e21453-Qd1e133" ana="#is43_26">Narra, si quid habes ut
+              iustificeris</quote> ; sicut exponit <name ref="#Ambrose">Ambrosius</name> et
+            Origenes, hoc intelligitur de narratione culpae quae est in confessione : ergo haec
+            necessaria est.</p>
+          <p xml:id="bb-d4e21453-d1e140">Item, Ioannes Chrysostomus : <quote xml:id="bb-d4e21453-Qd1e142">Non potest quis gratiam accipere nisi purgatus
+              fuerit ab omni peccato per confessionem</quote>: ergo confessio necessaria est.</p>
+          <p xml:id="bb-d4e21453-d1e146">Item, <name ref="#Ambrose">Ambrosius</name>, in libro De paradiso : <quote xml:id="bb-d4e21453-Qd1e151">Non potest
+              quis iustificari a peccato ante confessionem</quote>: ergo confessio necessario
+            praeit.</p>
+          <p xml:id="bb-d4e21453-d1e156">Item, ratione videtur, quia omnis habens gratiam et iustitiam ingreditur in regnum
+            caelorum, nec aliquis potest portam claudere, salva iustitia et gratia ; sed nullus
+            potest intrare in regnum caelorum nisi per ostiarium Petrum, cum data sit ei clavis, a
+            qua nullus est exemptus : ergo nullus potest obtinere gratiam nec habere remissionem
+            culpae, nisi habeat per auctoritatem summi Pontificis et eorum qui in hoc communicant.
+            Sed nullus absolvitur a sacerdote sine confessione praevia : ergo etc.</p>
+          <p xml:id="bb-d4e21453-d1e159">Item, Poenitentia est sacramentum necessarium ad salute, ergo partes eius sunt
+            necessariae ; sed prima, id est contritio, est necessaria ad impii iustificationem, ut
+            visum est : ergo pari ratione necessaria est confessio.</p>
+          <p xml:id="bb-d4e21453-d1e162">Contra hoc obicitur, sicut <name ref="#Lombard">Magister</name> obicit : Primo
+            auctoritate Psalmi [31, 5] : <quote xml:id="bb-d4e21453-Qd1e167" ana="#ps31_5">Dixi, confitebor</quote> etc.,
+            Cassiodorus : <quote xml:id="bb-d4e21453-Qd1e170">Magna pietas Dei, quod ad solam promissionem peccatum dimittit.
+              Votum enim pro operatione iudicatur</quote>.</p>
+          <p xml:id="bb-d4e21453-d1e174">Item, <name ref="#Augustine">Augustinus</name>, super illud idem : <quote xml:id="bb-d4e21453-Qd1e179">Luce clarius
+              constat cordis contritione, non oris confessione, peccata dimitti</quote>. Sed
+            iustificatio est ibi, ubi est peccati dimissio : ergo sine confessione est iustificatio,
+            et sic etc. Ad hoc etiam sunt auctoritates Magistri in littera.</p>
+          <p xml:id="bb-d4e21453-d1e183">Item, ratione videtur, quia pronior est Deus ad miserandum quam ad condemnandum ; sed
+            solo actu cordis consentaneo subtrahit gratiam : ergo multo fortius actu cordis peccata
+            dimittit.</p>
+          <p xml:id="bb-d4e21453-d1e186">Item, <quote xml:id="bb-d4e21453-Qd1e188">Deus non alligavit suam potentiam sacramentis</quote>. Ergo quandocumque
+            homo facit quod in se est, Deus facit quod in se est : ergo, si corde doleat quis de
+            culpa, si non sit confessor vel confessio extra, Deus facit quod est in se : ergo
+            iustificat.</p>
+        </div>
+        <div xml:id="bb-d4e21453-Dd1e193">
+          <head xml:id="bb-d4e21453-Hd1e195">Conclusio</head>
+          <head xml:id="bb-d4e21453-Hd1e198" type="question-title">Iustificatio potest esse sine confessione</head>
+          <p xml:id="bb-d4e21453-d1e201">Respondeo : Dicendum quod, si iustificatio dicatur iustitiae infusio, non est ncessaria
+            confessio, sicut expresse ostendunt illae rationes quae inductae sunt. Unde solum ista
+            quatuor sunt necessaria, scilicet gratiae infusio, motus liberi arbitrii, contritio et
+            peccati expulsio. Secundum enim rectum ordinem, sicut patebit, confessio sequitur
+            tempore et natura contritionem ; et si sequitur contritionem, cum ipsa contritio non sit
+            sine iustificatione, nec e converso ipsa iustificatio potest esse sine confessione.</p>
+        </div>
+        <div xml:id="bb-d4e21453-Dd1e206">
+          <head xml:id="bb-d4e21453-Hd1e208">Ad rationes</head>
+          <p xml:id="bb-d4e21453-d1e211">Ad illud ergo quod obicitur in contrarium de illis auctoritatibus, dicendum. quod,
+            sicut dicit <name ref="#Augustine">Augustinus</name>, quamvis aliquis iustificari possit
+            sine sacramentis, tamen nullus iustificatur contemnens sacramenta. Quoniam igitur
+            confessio est peccantibus imposita, impossibile est aliquem iustificari, qui non habeat
+            confessionem in facto vel in proposito. Si enim confessionem contemnat, quantumcumque
+            doleat, non acquirit iustitiam. Si autem confessionem habeat in proposito, cum Deus
+            bonam voluntatem et propositum in talibus reputet pro facto, si vere bona et efficax
+            est, tunc, si adsit dolor, potest esse iustificatus. Ideo pro tanto dicunt auctoritates
+            Sanctorum et rationes praedictae quod confessio necessaria sit ad iustificationem.
+            Voluntatem enim confitendi confessionem vocant, et hoc patet discurrendo per
+            singulas.</p>
+          <p xml:id="bb-d4e21453-d1e217">Nam quod primo dicitur : Qui abscondit scelera, constans est quod loquitur de
+            hypocrita, quia non tantum caret proposito confitendi, immo etiam habet malitiam celandi
+            et excusandi.</p>
+          <p xml:id="bb-d4e21453-d1e220">2-4. Ad illud similiter quod dicitur : Dictu iniquitates etc., dicendum quod, quando
+            homo vult huic mandato obedire, se disponit de congruo ad gratiam ; et divina
+            misericordia largissima, cum invenit animam dispositam, gratiam tribuit, ac si esset
+            confessa per sermonem. Aliae vero duae auctoritates ita intelligendae sunt ; vel si
+            intelligantur de actu confitendi, tunc sumunt confessionem pro peccati recognitione,
+            quae interius est inter animam et Deum, et sic non concludunt.</p>
+          <p xml:id="bb-d4e21453-d1e223">Ad illud quod obicitur, quod nullus intrat sine potestate clavium, dicendum quod sine
+            potestate clavium intrare dupliciter potest intelligi : aut sine potestate, ita quod
+            intelligatur contrarie, sicut contemnens clavem Petri ; vel sine potestate, ita quod
+            privative ; et adhuc dupliciter : vel simpliciter privative, ita quod non habet effectum
+            absolutionis nec in opere nec in devotione sive in desiderio ; aut ita quod habet in
+            devotione et proposito, et ita quodam modo habet. Primo et secundo modo non intrat nec
+            iustificatur, sed tertio modo intrat et aliquo modo per clavem, licet non sic sicut ille
+            qui absolvitur actualiter.</p>
+          <p xml:id="bb-d4e21453-d1e227">Ad illud quod obicitur, quod Poenitentia est sacramentum necessarium, dicendum quod
+            nullum sacramentum est adeo necessarium, quin fides et devotio suppleat locum eius,
+            sicut patet in Baptismo ; et ideo sine sacramento Poenitentiae salus alicui esse potest.
+            Et quod obicitur de contritione, quod est necessaria, dicendum quod non est necessaria
+            secundum quod est pars Poenitentiae-sacramenti, sed secundum quod est actus
+            poenitentiae-virtutis ; et illa est prima virtus, sine qua non est salus peccatori
+            adulto, et simul est in actu et habitu virtus illa in ipsa infusione, quia invenit
+            liberum arbitrium in actu sibi conformi in iustificatione, ut visum est. Praeterea, esto
+            quod contritio poenitentialis prout est sacramentalis, esset necessaria, non sequitur
+            propter hoc de confessione, quae est actus exterior, superaddens contritioni.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

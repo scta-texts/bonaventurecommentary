@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e8016">
+        <head xml:id="bb-d4e8016-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e8016-Hd1e111" type="question-title">Utrum Confirmatio conferat gratiam gratum facientem.</head>
+        <div xml:id="bb-d4e8016-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e8016-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e8016-d1e119">Et quod conferat gratiam gratum facientem, ostenditur : Primo per auctoritatem <name ref="#RabanusMaurus">Rabani:</name>
+            <quote xml:id="bb-d4e8016-Qd1e124">Per impositionem manus summi sacerdotis Spiritus Sanctus traditur
+              baptizato</quote>; sed non dicitur dari Spiritus Sanctus nisi quando datur gratia
+            gratum faciens : ergo in sacramento Confirmationis gratia gratum faciens datur.</p>
+          <p xml:id="bb-d4e8016-d1e128">Item, ratione videtur, quia hoc sacramentum confirmat in bono : sed sicut solius
+            gratiae gratum facientis est revocare a malo, ita et confirmare in bono : ergo etc.</p>
+          <p xml:id="bb-d4e8016-d1e131">Item, gratia collata in hoc sacramento est completiva et confirmativa et augmentativa
+            gratiae baptismalis, sicut dicit <name ref="#Lombard">Magister</name>, quia maius
+            augmentum virtutum praestat ; sed gratia gratis data nec complet nec confirmat nec auget
+            gratum facientem : ergo non confertur in sacramento Confirmationis talis gratia, sed
+            potius gratum faciens</p>
+          <p xml:id="bb-d4e8016-d1e137">Contra : Habens gratiam gratum facientem, accedens ad Baptismum, ipsam non suscipit.
+            Ergo, si omnis accedens digne ad Confirmationem habet gratiam gratum facientem, ergo non
+            dat eam Confirmatio.</p>
+          <p xml:id="bb-d4e8016-d1e141">Item, esse spirituale, potest esse sine esse robusto, sicut et naturale esse potest
+            esse sine robusto esse, quia hoc est bene esse ; sed omne illud sine quo potest stare
+            esse spirituale est gratia gratis data, non gratum faciens ; ergo, cum Confirmatio
+            conferat tale esse, non. confert nisi gratiam gratis datam.</p>
+          <p xml:id="bb-d4e8016-d1e144">Item, inter hanc gratiam et illam hoc interest quod gratia gratis data respicit poenam,
+            sed gratum faciens culpam ; sed Confirmatio est contra poenam : ergo etc.</p>
+          <p xml:id="bb-d4e8016-d1e147">Item, videmus Christum libere confiteri multos in mortali peccato, actus ergo ille
+            potest esse a gratia gratis data. Si ergo ad hoc confertur Confirmatio, non est necesse
+            quod det gratiam gratum facientem.</p>
+        </div>
+        <div xml:id="bb-d4e8016-Dd1e151">
+          <head xml:id="bb-d4e8016-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e8016-Hd1e156" type="question-title">Confirmatio gratiam gratum facientem confert scilicet
+            secundam</head>
+          <p xml:id="bb-d4e8016-d1e159">Respondeo : Dicendum quod, sicut innuit <name ref="#RabanusMaurus">Rabanus</name> et
+              <name ref="#Lombard">Magister</name> dicit et communiter concordant doctores,
+            Confirmatio dat gratiam gratum facientem. Sed notandum quod gratia gratum faciens
+            dupliciter dicitur : aut gratum faciens de non grato, et talis est gratia baptismalis et
+            poenitentialis ; aut magis gratum faciens de iam grato, et talis est gratia
+            Confirmationis, quae gratiam acceptam ampliat et confirmat.</p>
+        </div>
+        <div xml:id="bb-d4e8016-Dd1e169">
+          <head xml:id="bb-d4e8016-Hd1e171">Ad rationes</head>
+          <p xml:id="bb-d4e8016-d1e174">Et per hoc patet responsio ad primum obiectum in contrarium, quia, quamvis baptizatus
+            habeat gratiam gratum facientem, non tamen habet ad illum effectum nec in illo statu in
+            quo habet post Confirmationem ; et ideo recipitur hoc sacramentum ad perfectionem illius
+            gratiae et confirmationem, et hoc per gratiam in hoc sacramento collatam, quae nondum
+            habetur. Non sic est de gratia baptismali, quia baptismus flaminis dat primam gratiam
+            iustificantem sicut Baptismus fluminis. Nihilominus tamen non est negandum quod in
+            Baptismo fluminis tribuatur gratia gratum faciens etiam prius grato, non ad
+            iustificandum, sed ad augendum ; et hoc principaliter est in Confirmatione.</p>
+          <p xml:id="bb-d4e8016-d1e177">Ad illud quod obicitur, quod esse spirituale est sine gratia Confirmationis, dicendum
+            quod gratia augmentans utique gratum faciens est ; et tamen sine ea est esse spirituale
+            : et ideo illa propositio est falsa : omne illud etc.</p>
+          <p xml:id="bb-d4e8016-d1e180">Ad illud quod obicitur, quod gratia gratum faciens est contra culpam, dicendum quod non
+            tantum est contra culpam, sed etiam coritra poenam, eatenus qua ordinata est ad culpam ;
+            et talis est pusillanimitas.</p>
+          <p xml:id="bb-d4e8016-d1e183">Ad ultimum dicendum quod, quamvis possit aliquis Christum confiteri sine gratia
+            Confirmationis, non tamen ita faciliter nec ita utiliter nec ita salubriter sicut cum
+            gratia gratum faciente, quoniam ex ipsa est confessio laudabilis et Deo accepta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

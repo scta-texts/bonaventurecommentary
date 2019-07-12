@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e49497">
+        <head xml:id="bb-d4e49497-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e49497-Hd1e111" type="question-title">Utrum potestas iudiciaria sit Christi secundum humanitatem an
+          secundum Divinitatem.</head>
+        <p xml:id="bb-d4e49497-d1e114">Quantum ergo, ad primum proceditur sic, et quaeritur, utrum potestas iudiciaria sit
+          Christi secundum humanitatem an secundum Divinitatem.</p>
+        <div xml:id="bb-d4e49497-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e49497-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e49497-d1e122">Et quod secundum Divinitatem, videtur : Quia Danielis 7, 9, ubi agitur de iudicio,
+            dicitur quod throni positi sunt, et Antiquus dierum sedit ; et Glossa exponit de Patre.
+            Sed quod convenit Christo cum Patre, convenit ratione Divinitatis ; iudicare est
+            huiusmodi, ut probatum est : ergo etc.</p>
+          <p xml:id="bb-d4e49497-d1e125">Item, Ioannis 5, 22 : <quote xml:id="bb-d4e49497-Qd1e127">Pater omne iudicium dedit Filio, ut omnes honorificent
+              Filium, sicut omnes honorificant Patrem</quote> ; sed Filius non est honorandus ut
+            Pater nisi solum secundum Divinitatem : ergo, cum iudicium sit ad hoc datum, ergo
+            secundum Divinitatem.</p>
+          <p xml:id="bb-d4e49497-d1e131">Item, eius est iudicare, cuius est retribuere ; sed retribuere est secundum
+            Divinitatem, quia de Deo oportet credere, quoniam est et remunerator est, ad Hebraeos
+            11, 6 : ergo et iudiciara potestas inest ei ratione Divinitatis.</p>
+          <p xml:id="bb-d4e49497-d1e134">Item, a sententia Christi nullus poterit appellare : ergo secundum illam potentiam
+            iudicabit, secundum quam non habet superiorem ; sed haec est Divinitas : ergo etc.</p>
+          <p xml:id="bb-d4e49497-d1e138">Contra : Ioannis 5, 22 : <quote xml:id="bb-d4e49497-Qd1e140" ana="#io5_22">Pater non iudicat quemquam, sed omne
+              iudicium dedit Filio</quote> ; sed omnis actus, qui convenit Filio secundum
+            Divinitatem, convenit Patri ; sed iudicare non : ergo etc.</p>
+          <p xml:id="bb-d4e49497-d1e144">Item, Iob 36, 17 : <quote xml:id="bb-d4e49497-Qd1e146" ana="#iob36_17">Causa tua quasi impii iudicata est</quote>,
+            Glossa : a Pilato ; ideo iudicium causamque recipies, ut iuste iudices. Ergo, si
+            iudicatus est secundum humanitatem, potestatem iudicandi habebit secundum
+            humanitatem.</p>
+          <p xml:id="bb-d4e49497-d1e150">Item, Ioannis 5, 27 expresse dicitur : <quote xml:id="bb-d4e49497-Qd1e152">Potestatem dedit ei iudicium facere, quia
+              Filius hominis est</quote>.</p>
+          <p xml:id="bb-d4e49497-d1e156">Item, ratione. Constat quod ipse secundum humanitatem promulgabit sententiam, et
+            secundum illam naturam promulgabit secundum quam habet auctoritatem et potestatem ad hoc
+            faciendum, alioquin esset iudicium usurpatum : ergo secundum humanitatem habebit
+            auctoritatem et potestatem.</p>
+          <p xml:id="bb-d4e49497-d1e159">Item, ipse Christus erit iudex secundum humanitatem, aut principalis aut delegatus. Si
+            delegatus, ergo ab eius sententia poterit appellari, quod nefarium est dicere. Erit ergo
+            iudex principalis ; sed iudex principalis in iudicando habet auctoritatem principalem :
+            ergo secundum humanitatem habet praecipuam auctoritatem.</p>
+        </div>
+        <div xml:id="bb-d4e49497-Dd1e163">
+          <head xml:id="bb-d4e49497-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e49497-Hd1e168" type="question-title">Potestas iudiciaria est Christi secundum Divinitatem
+            principaliter et per naturam, secundum humanitatem per gratiam et commissa; sed latio
+            sententiae fit a Christo secundum humanitatem, non ut iudice delegato, sed
+            principali</head>
+          <p xml:id="bb-d4e49497-d1e171">Respondeo : Dicendum quod ad hoc quod iudicium sit firmum, concurrit auctoritas et
+            potestas : auctoritas in sententiando et potestas in retribuendo praemium secundum
+            meritum. Si alterum horum deficiat, non est firmum iudicium. Haec duo principaliter sunt
+            in Deo. Nam in ipso est auctoritas ad sententiandum, quia Dominus omnium est et nos
+            omnes servi eius. Est etiam potestas ad retribuendum, quia potentissimus, et non est qui
+            contra eum se valeat erigere vel eius sententiam irritare. Haec duo communicavit
+            Deus-Trinitas homini Christo : auctoritatem, dando dominium, sicut dicitur Actuum 2, 36
+            : Dominum fecit Deus hunc Iesum ; potestatem etiam, sibi cetera subiciendo, Matthaei
+            ultimo, 18 : Data est mihi omnis potestas. Et ideo ipse est qui constitutus est a Deo
+            iudex vivorum et mortuorum, sicut dicitur Actuum 10, 42.</p>
+          <p xml:id="bb-d4e49497-d1e174">Quoniam igitur potestas iudiciaria respicit illa duo iam dicta, et illa sunt in Deo per
+            naturam, in Christo homine per gratiam, ideo iudiciaria potestas est Christi secundum
+            Divinitatem per naturam, secundum humanitatem collata per gratiam. Unde secundum
+            utramque naturam habet auctoritatem, sed secundum Divinitatem principalem et naturalem,
+            secundum humanitatem commissam : unde constitutus est.</p>
+          <p xml:id="bb-d4e49497-d1e177">Cum igitur sit potestas primaria in Deo, sed commissa in homine Christo, latio
+            sententiae debet fieri a Christo-homine secundum humanitatem, quia, si fieret secundum
+            potestatem primariam, cum secunda nihil det primae, non esset vere iudex secundum
+            humanitatem ; sed quando secunda operatur, cum recipiat a prima, ratio iudicandi residet
+            penes utramque : secunda enim recipit a prima. Ideo latio sententiae fiet a Christo
+            secundum humanitatem. Sed quia Christus est Deus et homo, sententia eius non erit
+            tamquam iudicis delegati, sed tamquam principalis. Et ideo ab ea propter utramque
+            potestatem nullus poterit appellare.</p>
+          <p xml:id="bb-d4e49497-d1e181">Concedendae sunt igitur rationes ad utramque partem : primae, quia verum concludunt,
+            quod iudiciaria potestas sit Christi secundum Divinitatem ; similiter ad oppositum, quia
+            verum concludunt, quod sit Christi secundum humanitatem maxime quantum ad sententiae
+            rationem. Robur tamen sententiae, ut dictum est, non principaliter est ex humanitate
+            Christi, sed potius ex eius Divinitate.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

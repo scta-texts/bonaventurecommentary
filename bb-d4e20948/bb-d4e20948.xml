@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20948">
+        <head xml:id="bb-d4e20948-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e20948-Hd1e111" type="question-title">Utrum quis teneatur poenitere de veniali.</head>
+        <p xml:id="bb-d4e20948-d1e114">Secundo quaeritur de poenitentia venialium quantum ad necessitatem remedii. Et est
+          quaestio, utrum teneatur quis poenitere de veniali.</p>
+        <div xml:id="bb-d4e20948-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e20948-Hd1e119">Rationes princiales</head>
+          <p xml:id="bb-d4e20948-d1e122">Et quod sic, videtur : Quia impossibile est intrare in gloriam nisi veniale remittatur
+            ; sed veniale est actuale peccatum, et ab illo non iustificatur nisi per poenitentiam :
+            ergo necesse est poenitere.</p>
+          <p xml:id="bb-d4e20948-d1e125">Item, aliquod est veniale quod per consensum fit mortale : ergo aliqua sunt in quae
+            tenemur dissentire ne fiant : ergo postquam talia sunt commissa, tenemur dissentire et
+            de eis dolere : ergo et poenitere.</p>
+          <p xml:id="bb-d4e20948-d1e128">Item, multitudo venialium de proximo disponit ad mortale, licet non necessario : ergo
+            qui dimittit venialia in se multiplicari, committit se discrimini ; sed omnes tenentur
+            non committere se discrimini : ergo etc.</p>
+          <p xml:id="bb-d4e20948-d1e131">Item, quod poena exterior sit necessaria, videtur, quia dicit <name ref="#Lombard">Magister</name> in littera quod est pectus percutiendum et quantulacumque poena est
+            sustinenda.</p>
+          <p xml:id="bb-d4e20948-d1e138">Item, <name ref="#Augustine">Augustinus</name>, loquens de periculo venialium :
+              <quote xml:id="bb-d4e20948-Qd1e143">Ieiunia, inquit, et orationes et eleemosynae invigilent</quote>.</p>
+          <p xml:id="bb-d4e20948-d1e147">Sed contra : Quae non tenemur vitare, non tenemur de his poenitere : hoc certum est,
+            quia sicut virtus poenitentiae detestatur factum, ita cavet faciendum ; sed talia sunt
+            venialia : ergo etc.</p>
+          <p xml:id="bb-d4e20948-d1e150">Item, ad nihil tenemur sine quo potest esse caritas ; sed caritas potest esse sine
+            deletione venialium, quia stat cum venialibus : ergo de venialibus non tenemur
+            poenitere.</p>
+          <p xml:id="bb-d4e20948-d1e153">Item, non teneor poenitere de hoc veniali nec de illo, et sic de aliis pari ratione :
+            ergo de nullo.</p>
+          <p xml:id="bb-d4e20948-d1e156">Item, quod non debeatur veniali poena exterior, videtur, quia veniale est minus mortali
+            in infinitum ; sed mortali debetur poena finita exterior : ergo veniali nulla.</p>
+        </div>
+        <div xml:id="bb-d4e20948-Dd1e160">
+          <head xml:id="bb-d4e20948-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e20948-Hd1e165" type="question-title">Poenitentia de peccato veniali secundum se non est necessaria,
+            sed bene, prout praebet rationem periclitandi</head>
+          <p xml:id="bb-d4e20948-d1e168">Respondeo : Dicendum quod dupliciter est loqui de morbo peccati venialis : aut in se
+            aut in quantum praebet occasionem periclitandi, quam ponit <name ref="#Augustine">Augustinus</name> in littera, sive per consensum sive per contemptum. Si loquamur de
+            veniali in se, sic dico quod non est necesse poenitere de veniali, nec poenitentia
+            interiori nec poenitentia exteriori ; quoniam, sicut infra videbitur, veniale non solum
+            in hac vita deletur, verum etiam post mortem. Si autem loquamur ratione periculi ad quod
+            ducit, sic dico quod, quia ducunt ad periculum ipsum impoenitentem, quod tenetur homo de
+            aliquibus poenitere, quando advertit periculum, sicut manifeste dicit <name ref="#Augustine">Augustinus</name> in littera.</p>
+          <p xml:id="bb-d4e20948-d1e177">Et ideo notandum est, sicut tactum est, quod tria sunt genera venialium : quaedam ex
+            subreptione ; et de his non tenemur poenitere nisi de congruo ; quaedam ex cogitatione,
+            cui si consentiatur, incidit homo in mortale ; et de tali tenetur homo poenitere non
+            simpliciter, sed in casu, sive pro loco et tempore, quando recogitat ea, ne, si
+            consentiat, cadat. Quaedam autem sunt venialia, quae per sui multitudinem augent
+            libidinem, sicut illa in quae est consensus, sed deordinatio infra Deum ; et de talibus
+            dico quod tenetur homo poenitere ne multiplicentur et homo periculo et discrimini se
+            committat. Et ad talium poenitentiam hortatur <name ref="#Augustine">Augustinus</name>,
+            ostendens periculum quod est in multitudine venialium, comparans arenae, comparans
+            bestiis minutis, comparans guttis multiplicatis, comparans scabiei ; et intelligenda est
+            similitudo quantum ad haec omnia ratione periculi, non quod faciant ipsa venialia de se,
+            sed quod ad hoc hominem praeparant. Et de his sanum consilium est etiam poenam
+            sustinere, sicut <name ref="#Augustine">Augustinus</name> determinat. Utrum autem
+            teneamur sacerdoti ea confiteri et ad eius arbitrium satisfacere, quaestio erit infra,
+            cum agetur de confessione.</p>
+          <p xml:id="bb-d4e20948-d1e186">Ex his patent obiecta ad utramque partem. Nam rationes ad primam partem procedunt
+            ratione periculi ad quod disponunt, praeter primum, quod solvendum per interemptionem,
+            quia remitti possunt in alio saeculo. Rationes vero ad oppositum procedunt ratione morbi
+            in se.</p>
+          <p xml:id="bb-d4e20948-d1e190">Ultimum tamen non valet. Quamvis enim mortale, quamdiu est mortale, sit
+            improportionale, tamen in ipsa iustificatione remittitur poena aeterna et mortale fit
+            quodam modo veniale, et ita proportionale.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

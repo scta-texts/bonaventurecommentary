@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e14375">
+        <head xml:id="bb-d4e14375-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e14375-Hd1e111" type="question-title">Utrum hoc sacramentum habeat efficaciam in aliquo
+          peccatore.</head>
+        <p xml:id="bb-d4e14375-d1e114">Secundo quaeritur, utrum habeat efficaciam in aliquo peccatore, videlicet qui est in
+          mortali peccato.</p>
+        <div xml:id="bb-d4e14375-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e14375-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e14375-d1e122">Et quod sic, videtur : Per illam Collectam : <quote xml:id="bb-d4e14375-Qd1e124">Sit ablutio scelerum, sit fortitudo
+              fragilium</quote> ; sed scelera non dicuntur nisi magna peccata : ergo etc.</p>
+          <p xml:id="bb-d4e14375-d1e128">Item, Damascenus : <quote xml:id="bb-d4e14375-Qd1e130" source="http://scta.info/resource/jddfo-l4c13">Corpus Christi
+              omnis laesionis est unctio, omnis sordis purgatio</quote>. Ergo sordis mortalis.</p>
+          <p xml:id="bb-d4e14375-d1e134">Item, <ref xml:id="bb-d4e14375-Rd1e136" target="http://scta.info/resource/gd-p3d2-d1e202">Iulius Papa, De
+              consecratione, distinctione II</ref> :
+              <quote xml:id="bb-d4e14375-Qd1e139"><!-- quote should point to source of Iulius -->Omne crimen atque peccatum
+              oblatis Deo sacrificiis deletur</quote> ; sed crimen pro maioribus peccatis accipitur
+            : ergo etc.</p>
+          <p xml:id="bb-d4e14375-d1e144">Item, ratione videtur , quia illud sacramentum est expressivum signum passionis. Ergo,
+            cum efficacia sequatur significantiam, et omnia Sacramenta efficaciam habeant a
+            passione, hoc habebit potissimam : ergo, si Baptismus et Poenitentia habent efficaciam
+            in peccatore, videtur similiter quod et illud.</p>
+          <p xml:id="bb-d4e14375-d1e148">Item, in sacramento isto realiter continetur auctor et mediator et fons gratiae ; quod
+            in nullo alio. Ergo videtur, quodsi aliquod sacramentum potest fugare culpam, quod hoc
+            multo magis ; sed aliquod potest, ut Baptismus : ergo etc.</p>
+          <p xml:id="bb-d4e14375-d1e151">Item, esto quod aliquis peccator attritus accedat ad hoc sacramentum, non tamen
+            sufficienter ; si talis accederet ad Baptismum et Poenitentiam, iustificaretur, quia non
+            habet obicem : ergo pari ratione, cum non habeat obicem , iustificatur in hoc
+            sacramento.</p>
+          <p xml:id="bb-d4e14375-d1e154">Item, accedens fictus ad Baptismum, fictione recedente, habet efficaciam : ergo
+            similiter videtur quod istud sacramentum, et ita est utile peccatori.</p>
+          <p xml:id="bb-d4e14375-d1e157">Contra : <name ref="#Augustine">Augustinus</name>, Ad Renatum : <quote xml:id="bb-d4e14375-Qd1e162">Quis offerat
+              corpus Christi nisi pro his qui sunt de corpore Christi</quote>; Sed nullus peccator
+            est talis : ergo pro eo non debet offerri.</p>
+          <p xml:id="bb-d4e14375-d1e166">Item, <name ref="#Ambrose">Ambrosius</name> : <quote xml:id="bb-d4e14375-Qd1e171">Spiritualiter manducat qui
+              innocentiam ad altare portat</quote> ; sed nullus existens in mortali portat
+            innocentiam : ergo etc.</p>
+          <p xml:id="bb-d4e14375-d1e175">Item, ratione videtur, quia accedens ad. hoc sacramentum aut accedit digne aut non. Si
+            digne accedit, ergo dignus est, et ita non habet culpam ; si non digne, ergo non
+            reportat efficaciam : ergo non habet efficaciam in peccatore.</p>
+          <p xml:id="bb-d4e14375-d1e179">Item, hoc sacramentum habet efficaciam mediante manducatione spirituali ; sed
+            manducatio spiritualis fit mediante caritate : ergo praesupponit caritatem : ergo qui
+            accedit sine caritate non reportat efficaciam.</p>
+        </div>
+        <div xml:id="bb-d4e14375-Dd1e183">
+          <head xml:id="bb-d4e14375-Hd1e185">Conclusio</head>
+          <head xml:id="bb-d4e14375-Hd1e188" type="question-title">Licet Deus in hoc Sacramento facere possit et aliquando faciat
+            remissionem omnis culpae; tamne de communi lege illud non habet effectum nisi in
+            iustis</head>
+          <p xml:id="bb-d4e14375-d1e191">Respondeo : Non limitamus largitatem Dei quin in hoc Sacramento possit et aliquando
+            faciat remissionem omnis culpae ; sed secundum forum commune et generalem rationem
+            institutionis sacramenti dicendum quod istud sacramentum datum est in cibum illis qui
+            sunt de corpore Christi ; et omnes tales habent caritatem : ideo effectum habet in solis
+            iustis. Effectus autem in iustis est liberando a culpa veniali et praeservando a
+            mortali, ut patebit.</p>
+        </div>
+        <div xml:id="bb-d4e14375-Dd1e196">
+          <head xml:id="bb-d4e14375-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d4e14375-d1e201">1-3. Ex hoc patet responsio ad tria prima : quia illud intelligitur per praeservationem
+            vel quantum ad aliquas reliquias.</p>
+          <p xml:id="bb-d4e14375-d1e204">4-6. Ad tria sequentia dicendum quod sacramentum tantam habet efficaciam quantam
+            congruit habere his quibus datur ; et hoc solis iustis datur : ideo non valet de
+            Baptismo, et Poenitentia. Si ergo obicias, quod nobile est illud sacramentum inter
+            cetera ; dicendum quod nobile est ratione contenti, non ratione effectus prae ceteris
+            aliis.</p>
+          <p xml:id="bb-d4e14375-d1e207">Sed tunc obicitur, quia adhuc non videtur solvi : cum enim Christus sit hic praesens,
+            videtur quod abundantius congrueret hic gratiam eius communicari. Nam in adventu Christi
+            abundanter gratia collata est. Et ad hoc dicendum quod hoc spectat ad nobilitatem
+            sacramenti quod non deletur ibi culpa mortalis ; tam enim est nobile sacramentum et tam
+            nobilis panis quod non debet dari nisi filiis et iam iustificatis ; et qui tales sunt
+            non habent culpam mortalem. Ideo de speciali dignitate huius Sacramenti est, quod non
+            ordinatur contra mortalem culpam. Et sic patet responsio ad illa tria.</p>
+          <p xml:id="bb-d4e14375-d1e210">Ad illud quod obicitur de recessu fictionis, dicendum quod non est simile, quia in
+            Baptismo manet character, ex quo est susceptibilis gratiae ; non sic in proposito.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

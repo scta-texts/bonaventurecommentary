@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e39244">
+        <head xml:id="bb-d4e39244-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e39244-Hd1e111" type="question-title">Utrum post divortium possint vir et mulier invicem
+          reconciltari.</head>
+        <p xml:id="bb-d4e39244-d1e114">Quinto quaeritur, utrum post divortium possint vir et uxor invicem reconciliari.</p>
+        <div xml:id="bb-d4e39244-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e39244-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e39244-d1e122">Et quod sic, videtur : I ad Corinthios 7, 11: <quote xml:id="bb-d4e39244-Qd1e124" ana="#Icor7_11">Si discesserit
+              uxor a viro, praecipit, manere innuptam aut viro suo reconciliari</quote>. Ergo potest
+            ei reconciliari.</p>
+          <p xml:id="bb-d4e39244-d1e128">Item, quod vir innocens possit reconciliare uxorem invitam, videtur : Quia non
+            peccavit, ergo nihil amisit de iure suo, ergo potest petere debitum : ergo illa tenetur
+            reddere.</p>
+          <p xml:id="bb-d4e39244-d1e131">Item, vir non tenetur continere quia non obligatur, nec ex voto nec ex poena ; et non
+            potest alteram ducere : ergo potest sibi uxorem propriam reconciliare.</p>
+          <p xml:id="bb-d4e39244-d1e134">Item, quod fornicaria possit reconciliare virum invitum, videtur : Esto quod
+            sufficienter egerit poenitentiam, remissa est culpa et poena : ergo cessat causa
+            divortii ; ergo cum, cessante causa, cesset effectus, videtur etc.</p>
+          <p xml:id="bb-d4e39244-d1e138">Item, possibile est virum fornicari ; sed, fornicante viro, competit exceptio contra
+            virum petentem divortium : ergo pari ratione competit actio mulieri ad repetendum
+            virum.</p>
+          <p xml:id="bb-d4e39244-d1e141">Contra : Regula est in <ref xml:id="bb-d4e39244-Rd1e143" target="http://scta.info/resource/gd-p2c6q4-d1e202">canone,
+              Causa VI, quaestione 4</ref> : <quote xml:id="bb-d4e39244-Qd1e146">Quod semel bene definitum est, nulla debet
+              iteratione retractari</quote>. Ergo, cum divortium sit celebratum per definitionem
+            Ecclesiae, patet etc.</p>
+          <p xml:id="bb-d4e39244-d1e150">Item, uterque potest servare continentiam et vovere post divortium : ergo unus non
+            habet ius in altero : ergo, si non habent invicem ius, non possunt invicem reconciliaii
+            amplius.</p>
+          <p xml:id="bb-d4e39244-d1e153">Item, quod fornicanti non competat actio in alium, videtur, quia regula est in iure
+            quod factui semel perempta non resuscitatur. Ergo, si ex fornicatione amisit ius petendi
+            debitum, patet etc.</p>
+          <p xml:id="bb-d4e39244-d1e156">Item, quod vir non possit sibi reconciliare fornicariam, videtur, quia in iudicio
+            petiit et obtinuit separationem : ergo renuntiavit iuri petendi debitum ; et si hoc, cum
+            non possit agere ex eo cui renuntiavit, videtur etc.</p>
+        </div>
+        <div xml:id="bb-d4e39244-Dd1e160">
+          <head xml:id="bb-d4e39244-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e39244-Hd1e165">Reconciliatio fieri potest, utraque parte consentiente, vel nocente tantum
+            refragante; non vero vel utraque dissentiente, vel innocente refragante.</head>
+          <p xml:id="bb-d4e39244-d1e168">Respondeo : Dicendum quod ad reconciliationem faciendam aut uterque concordat aut
+            uterque discordat, aut unus petit et alter repugnat. Si uterque concordat, absque dubio
+            fit ; si uterque discordat, nec potest nec debet fieri nisi fiat propter scandalum
+            Ecclesiae, quae scandalizatur pro eo quod uterque fornicatur publice. Si autem alter
+            petit, aut nocens petit innocentem, et sic non debet cogi ad reconciliationem. Aut
+            innocens nocentem, ut vir castus uxorem adulteram, et sic, ipsa invita, debet
+            reconciliari per iudicium Ecclesiae, quia, sicut dicunt iura, quod in meum favorem
+            introductum est, in meum damnum non debet retorqueri. Aut nocens nocentem petit, ut
+            mulier quae prius est fornicata repetit virum qui est post divortium fornicatus, et sic
+            restituendus est maritus uxori invitus, non quia actio mulieris resuscitata sit, sed in
+            poenam fornicationis viri, quia abusus est privilegio libertatis. Quantumcumque tamen
+            mulier faciat poenitentiam, nunquam acquirit ius in virum, ipso nolente, nisi vir
+            fornicetur ; et hoc propter contumeliam quam intulit Matrimonio, quia directe peccavit
+            contra bonum fidei. Ex his patet solutio obiectorum ad primam partem.</p>
+        </div>
+        <div xml:id="bb-d4e39244-Dd1e173">
+          <p xml:id="bb-d4e39244-d1e175">Ad illud ergo quod obicitur, quod non est retractanda sententia, dicendum quod hoc
+            verum est quantum et de rigore iuris, non tamen quantum est de favore personae
+            innocentis, ut dictum est.</p>
+          <p xml:id="bb-d4e39244-d1e178">Ad illud quod obicitur, quod uterque potest vovere continentiam, dicendum quod falsum ,
+            est : quia fornicans non potest nisi alter consentiat ; et nisi post poenitentiam velit
+            eam recipere, episcopus potest eam licentiare ut intret religionem</p>
+          <p xml:id="bb-d4e39244-d1e181">3-4. Ad illud quod obicitur, quod actio mulieris est perempta et quod vir renuntiavit
+            iuri suo, dicendum quod falsum est, quia actio mulieris non perimitur simpliciter, sed
+            sub conditione, scilicet si vir permanserit continens ; et ratio huius est, quia
+            vinculum semper manet. Vel potest dici quod actio non vivificatur, sed de novo datur vel
+            acquiritur a iure ob peccatum viri. Similiter sequens est falsum, quia vir non renuntiat
+            iuri suo impliciter, sed ad tempus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

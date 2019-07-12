@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e8259">
+        <head xml:id="bb-d4e8259-Hd1e108">Quaestio 1</head>
+        <p xml:id="bb-d4e8259-d1e111">Utrum usus sacramenti Confirmationis debeat esse generalis.</p>
+        <div xml:id="bb-d4e8259-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e8259-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e8259-d1e119">Et quod non debeat eius usus esse generalis, videtur : Et primo, quod debeant excludi
+            mulieres, quia hoc sacramentum ordinat ad pugnam ; sed mulieres excluduntur a bello :
+            ergo debent excludi ab hoc sacramento.</p>
+          <p xml:id="bb-d4e8259-d1e122">Item, videtur quod debeant excludi parvuli per eamdem rationem, cum non sint apti ad
+            portandum arma.</p>
+          <p xml:id="bb-d4e8259-d1e125">Item, videntur excludi illi qui sunt in periculo mortis, quia illi exeunt extra omnem
+            pugnam : ergo liberi sunt a sacramento pugnae.</p>
+          <p xml:id="bb-d4e8259-d1e128">Item, videtur quod hoc sacramentum non competat mutis, quoniam hoc sacramentum est ad
+            liberam nominis Christi confessionem ; sed muti non possunt confiteri ore : ergo frustra
+            recipiunt qui hoc recipiunt.</p>
+          <p xml:id="bb-d4e8259-d1e132">Item, aut ab hoc sacramento excluduntur aliqui aut nulli. Si aliqui, non ergo est
+            omnium generaliter ; si nulli excluduntur, ergo character impressus distinguit solum ab
+            infidelibus : ergo a tot et eisdem, a quot et quibus character baptismalis : ergo
+            videtur quod alter istorum superfluat ; quod est inconveniens.</p>
+          <p xml:id="bb-d4e8259-d1e135">Contra : Quod istud sacramentum competat omnibus, videtur, quia, sicut dicit <name ref="#Lombard">Magister</name> et <name ref="#RabanusMaurus">Rabanus</name>, in hoc
+            sacramento datur septiformis gratia Spiritus Sancti ; sed iste effectus est omnibus
+            generalis : ergo et hoc sacramentum.</p>
+          <p xml:id="bb-d4e8259-d1e144">Item, quod conveniat omni sexui, videtur, et maxime muliebri, quia omnes qui pie volant
+            vivere in Christo persecutionem patiuntur, ergo et sexus infirmus ; sed infirma, qui
+            persecutionem patitur ; sunt maxime necessaria arma fortitudinis : ergo, cum haec dentur
+            in Confirmatione, videtur quod mulieres maxime indigeant hoc sacramento.</p>
+          <p xml:id="bb-d4e8259-d1e147">Item, quod sit necessarium omni aetati et maxime puerili, videtur, quia discreti ducis
+            est armare milites suos ante pugnam et ante laesionem ; sed pugna et laesiones et ictus
+            statini incipiunt in annis discretionis : ergo competens est sacramentum Confirmationis
+            ante annos discretionis dari.</p>
+          <p xml:id="bb-d4e8259-d1e150">Item, videtur quod omni statui, quia certum est de viventibus ; et hoc ostenditur de
+            morientibus auctoritate <name ref="#HughOfStVictor">Hugonis</name>, qui dicit, in libro
+            De sacramentis : <quote xml:id="bb-d4e8259-Qd1e155">Omnino periculosum esset, si ab hac vita sine Confirmatione
+              migrare contingeret</quote> ; et ita morienti etiam opportunum est.</p>
+        </div>
+        <div xml:id="bb-d4e8259-Dd1e160">
+          <head xml:id="bb-d4e8259-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e8259-Hd1e165" type="question-title">Sacramentum confirmationis competit omnibus</head>
+          <p xml:id="bb-d4e8259-d1e168">Respondeo : Dicendum quod illud sacramentum omnibus competit propter gratiae
+            ampliationem quae ibi datur, sed maxime competit his qui sunt de acie pugnantium in
+            bello spirituali ; et quia hoc competit omni sexui, ideo et hoc sacramentum omnibus
+            competit.</p>
+        </div>
+        <div xml:id="bb-d4e8259-Dd1e172">
+          <head xml:id="bb-d4e8259-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e8259-d1e177">Ad illud ergo quod obicitur de mulieribus, patet, quia, licet non competat bellum
+            materiale, competit tamen spirituale. Multae enim in hoc bello strenues fuerunt, ut
+            patet de sacris Virginibus quae martyrizatae sunt pro confessione.et nomine Christi.</p>
+          <p xml:id="bb-d4e8259-d1e180">Ad illud quod obicitur de parvulis, dicendum quod parvuli non armantur pro statu illius
+            aetatis, ut tunc pugnent, sed ut postmodum sint pugnaturi. Sed nec hoc fit nisi
+            convenienter, quia arma illa non sunt aggravantia, sed alleviantia ; nec solum sunt
+            defendentia, sed praemunientia ; et melius est hominem muniri ante laesionem quam
+            post.</p>
+          <p xml:id="bb-d4e8259-d1e183">Ad illud quod obicitur de his qui sunt in periculo mortis, patet responsio, quia non
+            recipiunt sacramentum ad pugnam et conflictum, sed ad meritum obedientiae et virtutis
+            augmentum ; quod est eis utile et bonum.</p>
+          <p xml:id="bb-d4e8259-d1e186">Ad illud quod obicitur de mutis, dicendum quod sacramentum istud est ad corroborationem
+            fidei in corde ; et hoc ita indiget mutus ut disertus ; nec tantum in corde, verum etiam
+            in nutu et passione potest Christum profiteri : et ideo hoc sacramento indiget sicut et
+            alii.</p>
+          <p xml:id="bb-d4e8259-d1e190">Ad illud quod ultimo quaeritur de charactere, dixerunt aliqui quod unus est character,
+            differens solum secundum statum ; ideo non est superfluitas, quamvis ab eisdem
+            distinguat. Sed tamen illud non est conveniens dicere, quod idem sit character, cum
+            aliud sit signum exterius, cum etiam non confirmatus possit ordinari.</p>
+          <p xml:id="bb-d4e8259-d1e193">Et ideo dicendum est aliter quod alius est character et ab eisdem distinguit ; sed
+            tamen non superfluit, quia secundum alium et alium statum distinguit. Quamvis enim omnis
+            Christianus sit Christi pugil, tamen ex gratia in alio et alio statu dicitur Christianus
+            et pugil ; et secundum alium et alium actum, scilicet confessionem exteriorem et
+            credulitatem interiorem. Et quia secundum aliud distinguit character et ad alium actum
+            gratiae disponit, ideo non superfluit ; et cum alius sit status fidei, et character
+            statum respiciat, quamvis fides sit eadem, character est alius sicut signum
+            exterius.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

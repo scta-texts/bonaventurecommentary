@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4252">
+        <head xml:id="bb-d4e4252-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e4252-Hd1e111" type="question-title">Utrum Baptismus deleat omnem poenam.</head>
+        <p xml:id="bb-d4e4252-d1e114">Secundo quaeritur, utrum sacramentum Baptismi deleat omnem poenam.</p>
+        <div xml:id="bb-d4e4252-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e4252-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e4252-d1e122">Et quod sic, videtur: Ad Romanos 11, 29 : <quote xml:id="bb-d4e4252-Qd1e124" ana="#rom11_29">Sine poenitentia sunt
+              dona Dei</quote>, Glossa : <quote xml:id="bb-d4e4252-Qd1e127">Gratia Dei in Baptismo non requirit gemitum aut
+              planctum aut aliquod aliud opus</quote>. Ergo videtur quod baptizatus nullius poenae
+            sit debitor.</p>
+          <p xml:id="bb-d4e4252-d1e131">Item, <name ref="#Augustine">Augustinus</name>, De cataclysmo : <quote xml:id="bb-d4e4252-Qd1e136">Baptizatus es,
+              mundatus es, restitutum est corpus tuum ad statum primi hominis</quote>. Ergo, si
+            primus homo nullius poenae fuit debitor, videtur similiter quod nec baptizatus.</p>
+          <p xml:id="bb-d4e4252-d1e140">Item, pronior est Deus ad miserandum quam ad condemnandum, et passio Christi plus
+            mentit quam peccatum Adae demeruit ; sed Deus in ultione peccati Adae poenas nobis
+            multiplices inflixit : ergo multo fortius propter meritum passionis Christi, non tantum
+            a culpa, sed etiam a poena debet eripere, omni scilicet quam inflixit.</p>
+          <p xml:id="bb-d4e4252-d1e143">Item, remota causa, removeri debet effectus ; sed causa nostrae poenalitatis et
+            mortalitatis fuit culpa : ergo, restituta innocentia, iam non debet durare poenalitas
+            aliqua vel mortalitas. Si tu dicas quod culpa fuit causa mortalitatis, non sic
+            innocentia causa contrarii, contra : <quote xml:id="bb-d4e4252-Qd1e145">si oppositum est causa oppositi, et
+              propositum propositi</quote> : ergo, cum culpa sit causa ponens mortalitatem,
+            similiter innocentia ponet impunitatem et immortalitatem : ergo, si Baptismus reducit
+            innocentiam, videtur quod tollat omnem poenam.</p>
+          <p xml:id="bb-d4e4252-d1e150">Contra : Videmus parvulos baptizatos, qui nullam culpam commiserunt, post Baptismum
+            multis cruciatibus subiacere ; et constat quod non iniuste : ergo Baptismus non absolvit
+            ab omni pnena.</p>
+          <p xml:id="bb-d4e4252-d1e153">Item, videtur quod non debeat ab aliqua poena absolvere, quia <name ref="#Augustine">Augustinus</name> dicit : Aut Deus punit aut homo punit ; et iterum, II ad Timotheum
+            2, 13 : Iustus est, se ipsum negare non potest. Ergo, cum dimittere malum impunitum sit
+            relinquere universum inordinatum, sic etiam facere contra iustitiam, videtur quod Deus
+            in Baptismo non debeat ab omni poena absolvere.</p>
+          <p xml:id="bb-d4e4252-d1e159">Item, Baptismus magis est remedium contra originale quam contra actuale ; sed non curat
+            a poenis contractis per originale : ergo nec absolvit a poenis debitis actuali : ergo
+            videtur quod a nulla. Si tu dicas quod relinquitur ad exerdtium, contra : maius est
+            exercitium in poenis personalibus quam sit in naturalibus : ergo potius deberet illas
+            dimittere.</p>
+          <p xml:id="bb-d4e4252-d1e162"> Propter hoc est quaestio : cum bonus medicus intendat semper radicem morbi curare, et
+            bonum remedium ad hoc feratur, propter quid Baptismus relinquit magis poenam fomitis,
+            quae inclinat ad peccatum, quam alias poenas debitas pro peccatis ?</p>
+        </div>
+        <div xml:id="bb-d4e4252-Dd1e166">
+          <head xml:id="bb-d4e4252-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e4252-Hd1e171" type="question-title">Baptismus absolvit ab omnia poena aeterna et assumta, non vero
+            ab omni contracta</head>
+          <p xml:id="bb-d4e4252-d1e174">Respondeo : Dicendum quod distinguendum est in poenis. Quaedam enim poenae sunt
+            aeternales et quaedam temporales. Ab omni aeternali absolvit Baptismus delendo omnem
+            culpam. In temporali vero distinguendum, quia quaedam contrahuntur, quaedam assumimtur.
+            Contrahuntur autem sicut fames, sitis et passiones contemporaneae vitae. Quaedam
+            imponuntur et assumuntur, ut ieiunia et corporalia et spiritualia exercitia et laboriosa
+            opera. Baptismus igitur absolvit ab omni poena aeternali, absolvit nihilominus ab omni
+            poena temporali satisfactoria sive assumpta ; non autem ab omni contracta, utpote a fame
+            ; siti et infirmitate et ceteris poenis spiritualibus.</p>
+          <p xml:id="bb-d4e4252-d1e177">Ratio autem huius est, quia Deus ad hoc ipsum non ordinavit. Et ratio quare non
+            ordinavit est, quia congruum fuit quod huiusmodi poenalitates in nobis relinqueret, et
+            hoc ad manifestandam aequitatem divini iudicii, ad demonstrandum meritum passionis
+            Christi, ad promovendum meritum liberi arbitrii. Ad manifestandam aequitatem divini
+            iudicii, ut illa sententia, quam dictaverat de morte Adae et posterorum eius, immobilis
+            permaneret ; unde ab illa nemo evadit. Ad ostendendum fructum passionis Christi, quia,
+            si Dominus curaret naturam et fomitem, filius nasceretur immunis a culpa nec indigeret
+            regenerari a Christo ; ideo, ut omnes se ipsius passione noscant egere, data est virtus
+            sacramento a passione, sive ad hoc ordinatum est ut poenas remittat personales, non
+            naturales, quia remedium respicit personam, non naturam. Ad amplificandum meritum liberi
+            arbitrii ; promovent enim ad bonum multiplex huiusmodi poenalitates. Dantur enim propter
+            humilitatem, Iob 6, 4 : <quote xml:id="bb-d4e4252-Qd1e179" ana="#iob6_4">Sagittae Domini militant in me, quarum
+              indignatio</quote> etc. Propter timoris incussionem, Iob 6, 4 : <quote xml:id="bb-d4e4252-Qd1e182" ana="#iob6_4">Terrores Domini militant contra me</quote>. Propter sui ipsius cognitionem, Isaiae
+            28, 19 : <quote xml:id="bb-d4e4252-Qd1e185" ana="#is28_19">Tantummodo sola vexatio dabit intellectum</quote> etc.
+            Propter stimulationem ad bonum, Michaeae 2, 10 : <quote xml:id="bb-d4e4252-Qd1e188" ana="#mich2_10">
+              <!-- dbcheck bible quote ref -->Surgite et ite, quia non habetis hic requiem</quote>.
+            Propter exemplum non peccandi, Zachariae 13, 5 : <quote xml:id="bb-d4e4252-Qd1e193" ana="#zac13_5">Adam exemplum
+              meum ab adolescentia mea</quote>. In exercitium virtutum, Iudicum 3, 1 : <quote xml:id="bb-d4e4252-Qd1e197" ana="#iud3_1">Hae sunt gentes, quas reliquit Dominus, ut erudiret Israel</quote>.
+            Propter hoc, ut sint signum adoptionis filiorum, ad Hebraeos 12, 8 : <quote xml:id="bb-d4e4252-Qd1e200" ana="#hebr12_8">Si extra disciplinam estis</quote> etc. Propter hoc etiam ut nemo hoc
+            accipiat in retributionis praemium, ne scilicet homines propter hoc ad Baptismum
+            venirent. Si enim daretur ibi immortalitas, propter hoc plures accederent quam propter
+            gratiam, <quote xml:id="bb-d4e4252-Qd1e203">nec fides tunc haberet meritum cui humana ratio praeberet
+              experimentum</quote>.</p>
+        </div>
+        <div xml:id="bb-d4e4252-Dd1e209">
+          <head xml:id="bb-d4e4252-Hd1e211">Ad rationes</head>
+          <p xml:id="bb-d4e4252-d1e214">Prima igitur ratio, quae dicit quod remanet poena corporalis, concedenda est.</p>
+          <p xml:id="bb-d4e4252-d1e217">Sed quod dicit <name ref="#Augustine">Augustinus</name> quod corpus restitutum est in
+            statum primi hominis, dlcendum quod intelligitur quantum ad innocentiam, non quantum ad
+            naturam</p>
+          <p xml:id="bb-d4e4252-d1e223">Ad illud quod oblcitur, quod Deus pronior est ad miserandum, dicendum quod sic decet
+            Deum misereri ut tamen inviolabilis maneat sententia veritatis ; et ideo patet quod non
+            debuit sententiam Iatam contra hominem retractare, sed, manente sententia, remedium
+            misericorditer adhibere. Et primum fecit quasi compulsus, secundum vero ex se. Rursus,
+            meritum Christi non ordinatur efficaciter nisi his qui ei adhaerent, et ita perscinas
+            respicit.</p>
+          <p xml:id="bb-d4e4252-d1e226">Ad illud quod obicitur de causa, dicendum quod est quaedam causa efficiens et
+            conservans ; quaedam inducens, sed non conservans. Primo modo habet veritatem, secundo
+            modo non. Exemplum horum est in sole et lumine, gladio et vulenre. Primo modo culpa non
+            est causa poenae, sed secundo modo. Quod tamen obicitur, quod si oppositum est causa
+            oppositi etc., dicendum quod illud est verum ubi est tota causa. Potest nihilominus dici
+            quod innocentia non est causa immortalitatis, sed meritoria, sicut culpa fuit meritoria
+            mortalitatis ; et quamvis mereatur, tamen divina dispensatione, ut dictum est, non
+            redditur statim.</p>
+          <p xml:id="bb-d4e4252-d1e230">2. Ad illud quod obicitur, quod aut punit Deus aut homo, dicendum quod homo aliquam
+            poenam habuit, cum peccavit ; aliquam, cum conteritur ; residuum vero solvit Christus de
+            suo, et sic non remanet impunitum.</p>
+          <p xml:id="bb-d4e4252-d1e233">Ad aliud dicendum, quod Baptismus est remedium respiciens personam, non naturam ; et
+            rationes huius dictae sunt. Ideo poenam personalem, non naturalem remittit.</p>
+          <p xml:id="bb-d4e4252-d1e236">Ad aliud quod quaeritur de medico, quod curat radicem, dicendum quod Deus utroque modo
+            curare potuit, sed tamen magis hoc modo curare disposuit, non ut totum genus curetur
+            simul, sed quilibet qui vellet curari et quilibet in propria persona, quia magis
+            adstringebatur Deo, dum hoc recognoscebat beneficium ; et divina etiam iustitia hoc
+            exigebat tamquam congruum et decens. Si enim unumquemque nostrum Deus curasset in
+            radice, non sic gratiam Dei cognosceret quilibet nec ita gratus esset de beneficio
+            praestito in alio, sicut de praestito in se ipso.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

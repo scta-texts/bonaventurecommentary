@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e42526">
+        <head xml:id="bb-d4e42526-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e42526-Hd1e111" type="question-title">Utrum consanguinitas Matrimonio praestet impedimentum.</head>
+        <p xml:id="bb-d4e42526-d1e114">Secundo quaeritur, utrum consanguinitas Matrimonio praebeat impedimentum.</p>
+        <div xml:id="bb-d4e42526-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e42526-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e42526-d1e122">Et quod non, videtur : Genesis 2, 23 : <quote xml:id="bb-d4e42526-Qd1e124" ana="#gen2_23">Hoc nunc os ex ossibus
+              meis, et caro de carne mea</quote> ; sed nulla persona potest alteri magis alligari
+            quam ut sit de carne et de ossibus : ergo, si propter hoc non est Matrimonium Adae
+            impeditum, immo propter hoc est mulier de latere sumpta, videtur quod consanguinitas non
+            impediat, sed expediat.</p>
+          <p xml:id="bb-d4e42526-d1e128">Item, Ecclesiastici 13, 19 : <quote xml:id="bb-d4e42526-Qd1e130" ana="#sir13_19">Omne animal diligit simile sibi, et
+              volatilia ad sibi similia conveniunt</quote>. Ergo quanto aliquae personae magis
+            similes sunt et coniunctae, tanto magis natae sunt invicem convenire et copulari ; sed
+            ad Matrimonium est copula et coniunctio : ergo consanguinitas magis expedit quam
+            impediat.</p>
+          <p xml:id="bb-d4e42526-d1e134">Item, firmiori vinculo iunguntur qui natura et voluntate alligantur quam qui voluntate
+            tantum, et melius invicem cohabitant et conversantur ; sed sic est, cum aliqui iunguntur
+            vinculo carnali et foedere matrimoniali : ergo magis deberent homines coniungi
+            propinquis quam extraneis, cum voluntas habeat naturam sibi conformem et natura
+            voluntatem adiuvet : ergo magis praestat consanguinitas Matrimonio solatium et
+            fulcimentum quam impedimentum.</p>
+          <p xml:id="bb-d4e42526-d1e137">Item, si aliquid repugnat Matrimonio et impedit, hoc non facit nisi quia alicui bono
+            Matrimonii repugnat et aliquid adimit ; sed, si consanguinei iungantur, salvantur ibi
+            tria hona Matrimonii : fides, proles et sacramentum : ergo consanguinitas, ut videtur,
+            nullum praestat impedimentum Matrimonio.</p>
+          <p xml:id="bb-d4e42526-d1e141">Contra : Genesis 2, 24 : <quote xml:id="bb-d4e42526-Qd1e143" ana="#gen2_24">Propter hoc relinquet homo patrem et
+              matrem</quote> etc. Constat quod istud non intelligitur de derelictione quantum ad
+            cohabitationem : ergo intelligitur de derelictione quantum ad Matrimonii contractionem :
+            ergo pater et mater non sunt legitimae personae ad contrahendum respectu filiae et filii
+            ; hoc autem non est ob aliud nisi ob vinculum consanguinitatis : ergo etc ;</p>
+          <p xml:id="bb-d4e42526-d1e147">Item, Levitici 18, 5 : <quote xml:id="bb-d4e42526-Qd1e149" ana="#lev18_5">Ego Dominus Deus vester. Omnis homo ad
+              proximam sanguinis sui non accedet, ut revelet turpitudinem eius</quote>. Ergo, si
+            contra Domini praeceptum est proximam sanguinis sui cognoscere, cum Matrimonium sit
+            ordinatum ad actum illum, nullus cum proxima sua potet contrahere Matrimonium : ergo
+            proximitas sanguinis praestat Matrimonio impedimentum.</p>
+          <p xml:id="bb-d4e42526-d1e153">Item, quod est contra bonum prolis impedit Matrimonium ; sed contrahere cum
+            consanguinea est contra bonum prolis : ergo etc. Probatio minoris : <name ref="#GregoryGreat">Gregorius</name> dicit, et habetur in littera : Quaedam lex Romana
+            permittit ut duorum fratrum aut duarum sororum filius et filia sibi matrimonialiter
+            copulentur ; sed expedento didicimus ex tali copula sobolem non posse succrescere.</p>
+          <p xml:id="bb-d4e42526-d1e159">Item, Matrimonium est vinculum honestatis, sicut supra ostensum est ; sed naturalis
+            honestas refugit revelare ignominiam et turpitudinem propinqui : si ergo haec turpitudo
+            revelatur in coitu, quicumque cognoscit propinquam, facit contra honestatem naturalem.
+            Si ergo Matrimonium honestum est, cum consanguinitas. sit contra honestatem,
+            consanguinitas impedit Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e42526-Dd1e163">
+          <head xml:id="bb-d4e42526-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e42526-Hd1e168" type="question-title">Consanguinitas impedit matrimonium in aliquo propter dictamen
+            legis naturae, in aliquo propter prohibitionem legis divinae, in aliquo propter statutum
+            Ecclesiae</head>
+          <p xml:id="bb-d4e42526-d1e171">Respondeo : Dicendum quod vinculum consanguinitatis impedit Matrimonium in aliquo
+            propter dictamen legis naturae, in aliquo vero propter prohibitionem legis divinae, in
+            aliquo propter statutum Ecclesiae. Vinculum consanguinitatis, quod est stipitis ad
+            prolem, impedit propter dictamen naturae ; unde et naturale. apud omnes quod filius
+            non.coniungatur matri et quod filia non coniungatur patri. Et si quaeratur ratio huius,
+            dicendum quod hoc est propter reverentiam et honorem qui debet exhiberi patri et matri,
+            et ideo non debent commisceri ; vel etiam propter generationis successionem ; quae debet
+            procedere, non retrocedere ; unde non debet proles genita coniungi suo principio, ut
+            gignat. Et hinc est quod patura dictat quod alio affectu tractandi sunt parentes, alio
+            affectu tractari debent coniuges. Ideo propter dictamen naturae impeditur Matrimonium
+            per consanguinitatis primum vinculum, quod est prolis genitae ad suum principium.</p>
+          <p xml:id="bb-d4e42526-d1e174">Propter prohibitionem legis divinae impeditur Matrimonium per consanguinitatem usque ad
+            secundum gradum, sicut patet per Levitici 18 capitulum, ubi fit prohibitio usque ad
+            secundum gradum. Et si quaeratur ratio huius, dicendum quod hoc est propter honestatem ;
+            qui enim mulierem cognoscit revelat eius turpitudinem et discooperit ignominiam ; et hoc
+            inhonestum est facere propinquae, maxime cum honestas dictet quod soror non est
+            tractanda ut uxor. Et hinc est quod in praecepto suo Dominus dicit : Non discooperies
+            turpitudinem eius.</p>
+          <p xml:id="bb-d4e42526-d1e177">Ulterius, propter statutum Ecclesiae impeditur Matrimonium a secundo gradu et deinceps.
+            Et si quaeratur ratio huius, dicendum quod hoc statutum fuit propter dilectionem
+            dilatandam. Quia enim homo pronus est ad diligendum sibi propinquum, et Matrimonium
+            aggenerat propinquitatem et dilectionis mutuae praestat fomentum : hinc est quod
+            Ecclesia statuit ut amor ad extraneos extenderetur, quod Matrimonia extra propriam
+            parentelam contraherentur ; et ita non solum in secundo, sed etiam deinceps, propter
+            dilatandam caritatem et propter ampliandam honestatem. Et sic patet quod
+            consanguinitatis vinculum ob diversas causas habet impedire Matrimonium ; et hoc
+            concedendum.</p>
+        </div>
+        <div xml:id="bb-d4e42526-Dd1e182">
+          <head xml:id="bb-d4e42526-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e42526-d1e187">Ad illud ergo quod obicitur de Eva et Adam, quod fuerunt os et caro, dicendum quod,
+            quamvis Eva et Adam fuerint os et caro, non tamen sic fuit tunc quemadmodum nunc est,
+            quoniam nunc eadem est via propagationis et commixtionis, sed Eva non exiit ab Adam per
+            viam generationis, sed per modum supernaturalem, non per coitum, immo de latere, qualis
+            modus producendi peroptime competebat coniugio, tum propter figuram, tum etiam, ut
+            significaretur vinculi matrimonialis aequalitas, quia de latere et adhaerentia. Unde,
+            quia non similiter modo alii sibi attinent, ideo modus ille ad consequentiam trahi non
+            potest nec debet.</p>
+          <p xml:id="bb-d4e42526-d1e190">Ad illud quod obicitur, quod omne animal diligit sibi simile, dicendum quod illud
+            intelliitur de similitudine secundum speciem ; vel si intelligatur de similitudine
+            secundum carnis proximitatem, adhuc habet veritatem, quod diligit. Sed alius est modus
+            affectionis quo diligenda est uxor, alius quo diligenda est soror ; et ideo coniunctio
+            affectionis naturalis repugnat copulae matrimoniali : ergo, si copuletur per affectionis
+            vinculum, non sequitur quod debeat copulari per Matrimonium.</p>
+          <p xml:id="bb-d4e42526-d1e193">Ad illud quod obicitur, quod natura firmitatem praestat vinculo voluntatis, dicendum
+            quod verum est, ubi affectio voluntaria ad id dirigitur ad quod inclinat natura ; et
+            quoniam natura bene ordinata non inclinat ad coeundum cum sorore, et affectio
+            matrimonialis inclinat ad cognoscendum uxorem : hinc est quod naturalis affectio non
+            praestat voluntati fulcimentum, sed potius impedimentum.</p>
+          <p xml:id="bb-d4e42526-d1e196">Ad illud quod obicitur, quod non repugnat alicui bono Matrimonii, dicendum quod hoc
+            solvi potest per interemptionem, quoniam <name ref="#GregoryGreat">Gregorius</name>
+            dicit quod experimento didicit ex tali copula non posse sobolem succrescere. Potest
+            tamen et aliter dici quod impedit maius bonum, quod est vinculum affinitatis, quae,
+            exinde contracta, est occasio mutuae dilectionis. Quod patet : si aliquis accipiat
+            filiam patris sui et exinde generet. prolem, idem est socer et pater et eadem mulier est
+            socrus et mater et idem filius et gener, eadem nurus et filia et idem vir et frater et
+            eadem uxor et soror : ita respectu necessitatis, quae poterat esse in octo sicut in
+            quatuor ; similiter respectu prolis. Ut istae alligationes diffunderentur, et caritas
+            mediante vinculo Matrimonii mutuo conservaretur, statuit Ecclesia, Matrimonium ad
+            remotas personas protendi, non quia in proximis impediretur Matrimonium, sed quia
+            perderetur maius bonum. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

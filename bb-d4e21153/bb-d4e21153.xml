@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e21153">
+        <head xml:id="bb-d4e21153-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e21153-Hd1e111" type="question-title">Utrum ad iustificationem impii necessaria sit gratiae
+          infusio.</head>
+        <div xml:id="bb-d4e21153-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e21153-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e21153-d1e119">Circa primum, quod necessaria sit gratiae infusio, videtur. Ad Romanos 3, 24 : <quote xml:id="bb-d4e21153-Qd1e121" ana="#rom3_24">Iustificati per gratiam ipsius</quote> etc.</p>
+          <p xml:id="bb-d4e21153-d1e125">Item, ratione videtur, quia peccatum est privatio ; sed non removetur privatio nisi per
+            collationem habitus : ergo confertur in deletione peccati aliquis habitus. Sed peccatum
+            Deo displicebat et displicere faciebat : ergo, ab oppositis, habitus ille Deo placet et
+            placere facit ; sed hunc dicimus gratiam gratum facientem : ergo etc.</p>
+          <p xml:id="bb-d4e21153-d1e128">Item, per peccatum separatur homo a Deo, ergo, ab oppositis, in iustificatione unitur
+            Deo ; sed unio in Deo non est sine dispositione uniente, quia tunc peccator inimicus Deo
+            haberet ante gratiam Deum : ergo etc.</p>
+          <p xml:id="bb-d4e21153-d1e131">Item, non decet esse post hunc statum nisi duo loca, scilicet gloriae et poenae : ergo
+            non decet hominem esse nisi in statu in quo possit esse in altero istorum : ergo hominem
+            mortalem necesse est esse vel in culpa vel in gratia ; sed per iustificationem recedit a
+            statu culpae : ergo necesse est sibi conferri habitum gratiae.</p>
+          <p xml:id="bb-d4e21153-d1e135">Contra : Isaiae 43, 25 : <quote xml:id="bb-d4e21153-Qd1e137" ana="#is43_25">Ego sum, qui deleo iniquitates tuas
+              propter me</quote>. Ergo deletio culpae erit ante habitum gratiae.</p>
+          <p xml:id="bb-d4e21153-d1e141">Item, non minus est impium iustificare quam creare ; sed Deus creat sine medio : ergo
+            et iustificat.</p>
+          <p xml:id="bb-d4e21153-d1e144">Item, lapsus fuit proprie ab innocentia in culpam : ergo, cum reformatio respondeat
+            deformation, debet homo in puram innocentiam restitui ; sed haec media est inter culpam
+            et gratiam : ergo etc.</p>
+          <p xml:id="bb-d4e21153-d1e147">Item, si gratia expellit culpam, aut quando est aut quando non est. Si quando est, sed
+            accidentis esse est inesse : ergo expellit culpam, cum subiecto inest. Quaero : a quo
+            subiecto ? Non ab alieno nec a suo, quia prius est culpam expelli quam hominem
+            gratificari. Si quando non est, sed nihil agit quando non est : ergo non expellit.</p>
+          <p xml:id="bb-d4e21153-d1e150">Item, iustificatio est gratia quaedam : ergo, si a gratia, similiter illa ab alia, et
+            sic in infinitum.</p>
+        </div>
+        <div xml:id="bb-d4e21153-Dd1e154">
+          <head xml:id="bb-d4e21153-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e21153-Hd1e159" type="question-title">Deus decrevit culpam delere per gratiam, quae non tantum
+            restituat innocentiam, sed etiam naturam debilitatam habilitet ad bonum</head>
+          <p xml:id="bb-d4e21153-d1e162">Respondeo : Dicendum : quia in omni opera Domini est misericordia et veritas, hoc
+            maxime in nobili opere oportet esse, scilicet in opere iustificationis. Quoniam igitur
+            homo peccavit et nihil ante gratiae infusionem apud Deum meruit, Deus iusto iudicio non
+            omnino effectum culpae tollit, immo poenam relinquit ; et ideo in priorem statum hominem
+            non statim restituit. Et quoniam misericos est, ideo etiam amplius bonum reddit, quia
+            magis indiget ; ideo non tantum restituit innocentiam, sed etiam dat gratiam. Ideo,
+            quamvis delere posset Deus sine medio culpam, decrevit tamen delere per gratiam, qtiae
+            non tantum faceret innocentem, immo etiam naturam debilitatam habilitaret ad bonum. Unde
+            concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e21153-Dd1e166">
+          <head xml:id="bb-d4e21153-Hd1e168">Ad rationes</head>
+          <p xml:id="bb-d4e21153-d1e171">Ad illud quod obicitur in contrarium, quod Deus solus delet, dicendum quod verum est
+            effective, sed formaliter delet ipsa gratia ; Deus autem nullius est forma
+            perfectiva.</p>
+          <p xml:id="bb-d4e21153-d1e174">Ad illud quod obicitur, quod solus creat, dicendum quod non est simile, quia creare
+            dicit opus quod non respicit materiam recipientem ; sed iustificare respicit materiam
+            subiectam, et ideo non tantum respicit efficientem causam, verum etiam formalem.</p>
+          <p xml:id="bb-d4e21153-d1e177">Ad illud quod obicitur, quod culpa aufert innocentiam, dicendum quod non decrevit Deus
+            restituere innocentiam quin daret gratiam, ratione prius habita.</p>
+          <p xml:id="bb-d4e21153-d1e180">Ad illud quod quaeritur : aut gratia expellit quando est etc., dicendum quod quando
+            est, et simul est et expellit. Ad illud quod obicit, quod accidentis esse est inesse,
+            dicendum quod gratia est accidens et habet ortum realiter ab alio quam a subiecto
+            proprio, scilicet a Deo. Unde triplicem habet comparationem : ad principium a quo
+            procedit ; ad peccatum contrarium quod expellit ; ad subiectum quod perficit ; et omnes
+            istae comparationes sunt simul tempore, tamen naturaliter prius gratia comparatur ad
+            principium a quo procedit, secundo ad peccatum quod expellit, tertio, ad subiectum qubd
+            perficit. Unde, proprie loquendo, prius est gratia ab efficiente quam expellat culpam,
+            per naturam. Et sic patet responsio ad illud. Obicit enim de esse gratiae in quantum
+            informat subiectum ; prius autem est gratiam creari per naturam quam subiectum esse
+            gratia informatum. Unde sicut in actione et productione aliarum formarurn intelligimus
+            quod forma prius se habeat in ratione virtutis agentis quam qualitatis informantis, sic
+            in proposito intelligatur, tamen prioritas non est temporis, sed naturae.</p>
+          <p xml:id="bb-d4e21153-d1e184">Ad illud quod ultimo obicitur, dicendum quod gratia aliquando dicitur habitus,
+            aliquando actus, aliquando status est in habitu. Iustificatio autem dicitur magis actus
+            gratiae vel status quam dicatur ipse habitus. Quare autem magis sic appellatur, infra
+            videbitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

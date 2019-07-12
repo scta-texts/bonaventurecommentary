@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e53105">
+        <head xml:id="bb-d4e53105-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e53105-Hd1e111" type="question-title">Utrum Beati et damnati mutuo se cognoscant.</head>
+        <p xml:id="bb-d4e53105-d1e114">Tertio quaeritur de cognitione animae separatae per comparationem ad statum Beatorum ; et
+          quaeritur, utrum mutuo se cognoscant, scilicet damnati Beatos, et e converso.</p>
+        <div xml:id="bb-d4e53105-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e53105-d1e119">Et quod sic, videtur : Per illud Lucae 16, 23, quod dives positus in tormentis vidit
+              <name ref="#Abraham">Abraham</name>, et <name ref="#Abraham">Abraham</name> e converso
+            vidit ipsum.</p>
+          <p xml:id="bb-d4e53105-d1e128">Item, <name ref="#GregoryGreat">Gregorius</name> : Infideles in imo positi fideles
+            super se in requie attendunt.</p>
+          <p xml:id="bb-d4e53105-d1e134">Item, ratione videtur, quia opposita sibi invicem comparata et simul visa magis
+            elucescunt et etiam decorant universum. Ergo, si mali habebunt poenam eatenus intensam
+            qua potest cogitari, et similiter boni gloriam, et utraque intenditur respectu alterius,
+            ergo utrique debent mutuo se videre.</p>
+          <p xml:id="bb-d4e53105-d1e137">Item constat quod boni gaudebunt et laudabunt Dei iustitiam, mali similiter dolebunt de
+            gloria amissa. Ergo, si non contingit gaudere et dolere nisi de cognito, utrique
+            cognoscent, scilicet boni severitatem iustitiae, et mali dignitatem gloriae. Sed boni
+            hoc non vident in se nec mali in se : ergo constat quod vident invicem.</p>
+          <p xml:id="bb-d4e53105-d1e140">Contra : Inter eos est improportionalis distantia : ergo, si ad visionem requiritur
+            praesentia, videtur quod non possint mutuo se videre.</p>
+          <p xml:id="bb-d4e53105-d1e144">Item, gloria est qualitas spiritualis sicut gratia ; sed qualitas gratiae non videtur
+            exterius a non habente : ergo nec gloriae.</p>
+          <p xml:id="bb-d4e53105-d1e147">Item, consideratio poenae incutit terrorem et consideratio gloriae generat gaudium ;
+            sed in malis nullum erit gaudium, in bonis nullus terror : ergo etc. Si dicas quod
+            recipitur secundum modum recipientis, non recepti, et ideo in malis generat confusionem
+            et in bonis gaudium, ergo, si haec duo debent esse post iudicium, ergo post se
+            cognoscent ; quod est contra <name ref="#GregoryGreat">Gregorium</name>, ut habetur in
+            littera.</p>
+          <p xml:id="bb-d4e53105-d1e153">Item, in bonis est compassio de bonitate naturae : ergo, si non tollitur bonitas
+            naturae, etgo maxime vigebit in eis compassio : ergo videtur, quodsi videant tormenta
+            malorum, quod maxime doleant. Et hoc videtur <name ref="#GregoryGreat">Gregorius</name>
+            dicere, et habetur in littera, quod volunt transire per affectum misericordiae.</p>
+        </div>
+        <div xml:id="bb-d4e53105-Dd1e160">
+          <head xml:id="bb-d4e53105-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e53105-Hd1e165" type="question-title">Electi damnatorum poenas et nunc et post iudicium vident in
+            Deo ad gloriae cumulum; damnati vero electorum gloriam nunc aliquatenus considerant, non
+            vero post iudicium</head>
+          <p xml:id="bb-d4e53105-d1e168">Respondeo : Dicendum quod consideratio sive cognitio gloriae Beatorum est reprobis
+            poena, et consideratio sive cognitio poenae reproborum est electis gaudium, quia illi
+            considerant gloriam sub ratione amissionis, isti poenam sub ratione divinae ultionis ;
+            unde : Laetabitur iustus, cum viderit vindictam. Quoniam igitur gloria electorum semper
+            manet et post iudicium erit copiosior, ideo electi et nunc et tunc vident poenam
+            reproborum, secundum quod dicitur ultimo, 24 Isaiae ; vident, inquam, in Deo, sive in
+            speculo aeterno, cum faciat ad eorum gloriam cumulandam. Reproborum poena similiter post
+            iudicium intendetur, et adeo intendetur, ut Beatorum gloriam non liceat eis considerare
+            nec ab eis auxilium petere, ut dives petiit, quia tormentorum suorum magnitudinem non
+            poterunt sustinere, ita quod liceat aliis vacare, immo absorbebuntur totaliter a poenis.
+            Concedendae ergo sunt rationes quod mutuo se cognoscunt.</p>
+        </div>
+        <div xml:id="bb-d4e53105-Dd1e173">
+          <head xml:id="bb-d4e53105-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e53105-d1e178">Ad illud quod obicitur in contrarium, quod est inter eos improportionalis distantia,
+            dicendum quod non agnoscunt mali bonos per intuitum praesentiae, sed per considerationem
+            intelligentiae, boni vero malos in speculo et in Deo.</p>
+          <p xml:id="bb-d4e53105-d1e181">Ad illud quod obicitur de gloria, dicendum quod non vident ipsam gloriae essentiam, sed
+            considerant requiem, quia cognoscunt quod gaudent sed ipsi laborant et dolent ; et
+            cognoscunt, sicut infirmus cognoscit sanitatem alterius quam non habet.</p>
+          <p xml:id="bb-d4e53105-d1e184">Ad illud quod obicitur, quod generat dolorem etc., patet responsio, quia consideratio
+            bonorum non est in poena, quia afflictiva, sed fertur ulterius, quia iusta et optime et
+            digne inflicta ; et talis consideratio amanti generat gaudium. Similiter nec
+            consideratio malorum sistit in bono gloriae quia bonum, sed quia perditum ; et haec
+            consideratio generat dolorem.</p>
+          <p xml:id="bb-d4e53105-d1e187">Ad illud quod obicitur, quod post iudicium videre debent etc., dicendum quod tunc
+            maiori poena erunt absorpti, ut iam non liceat eis cogitare gloriae dignitatem ; semper
+            tamen in mente habebunt eius amissionem et carentiam, ut tristentur.</p>
+          <p xml:id="bb-d4e53105-d1e191">Ad illud quod obicitur, quod compati est de bonitate naturae, dicendum quod hoc non est
+            verum generaliter, nisi intelligatur de natura passibili</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

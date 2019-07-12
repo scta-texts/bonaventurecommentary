@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e45581">
+        <head xml:id="bb-d4e45581-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e45581-Hd1e111" type="question-title">Utrum caro, quae est in duobus hominibus caro, resurgat caro in
+          primo vel in secundo.</head>
+        <p xml:id="bb-d4e45581-d1e114">Quantum ergo ad primum quaeritur, cum caro est in duobus hominibus caro, utrum resurgat
+          caro in primo vel in secundo.</p>
+        <div xml:id="bb-d4e45581-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e45581-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e45581-d1e122">Et quod in primo, videtur. <name ref="#Augustine">Augustinus</name>, De civitate Dei,
+            et habetur in littera : <quote xml:id="bb-d4e45581-Qd1e127">Illi animae in puncto temporis redditur quae eam
+              primitus, ut ex ea homo fieret, viveret, cresceret, animavit</quote>.</p>
+          <p xml:id="bb-d4e45581-d1e131">Item, ratione videtur, quia propria forma in propria materia nata est fieri. Ergo, si
+            haec caro est propria materia huius animae, cui primo est unita, ergo semper anima
+            appetit ei uniri : ergo si non potest, frustratur eius appetitus. Hoc autem est
+            inconveniens : ergo etc.</p>
+          <p xml:id="bb-d4e45581-d1e134">Item, caro ex unione cum anima dispositionem contrahit sive ordinationem ad
+            immortalitatem. Ergo, si haec caro unita est cum hac anima, necessitatem habet iterum ad
+            unionem cum ipsa ; et si hoc, cum haec necessitas non patiatur ut haec caro ordinetur ad
+            animam aliam, patet etc.</p>
+          <p xml:id="bb-d4e45581-d1e137">Item, si non est necesse resurgere cum prima, ergo si tota caro hominis manducetur,
+            privabitur omnino, anima suo corpore, et ita dabitur ei aliud corpus : non ergo erit ei
+            resurrectio, quia resurrectio est eiusdem numero.</p>
+          <p xml:id="bb-d4e45581-d1e141">Sed contra : Costa fuit in Adam et in Eva ; quaero igitur : in quo resurget ? Si in
+            Adam, ergo, cum tota Eva sit inde facta, nihil resurget in Eva. Si non in Adam, sed in
+            Adam primo fuit costa : non ergo resurget in quo primo fuit.</p>
+          <p xml:id="bb-d4e45581-d1e144">Item, homo est de semine patris et Christus ex purissimis sanguinibus Virginis. Ergo,
+            si semen debet resurgere in patre et sanguis in Virgine, tunc nullus homo generatus
+            resurgeret nec etiam Christus. Quodsi hoc non est verum, ergo caro resurget in eo in quo
+            secundo est caro.</p>
+          <p xml:id="bb-d4e45581-d1e147">Item, esto quod aliquis nutriatur ex carne humana ; dicit <name ref="#Augustine">Augustinus</name> quod redit ad primum ; esto quod de illa generet, constat quod, si
+            tunc redit ad primum, nihil remanebit generato ; et. hoc est in. conveniens. Quodsi non
+            redit : ergo non est necesse quod resurgat in primo, sed in secundo potest.</p>
+          <p xml:id="bb-d4e45581-d1e153">Item, quod debeat resurgere in secundo, videtur, quia ab ultimo res denominatur et a
+            fine ; unde statur in ultimo testamento, quod est in morte testatoris. Ergo, si caro
+            ista fuit istius hominis finaliter et posterius, ergo ad ipsum magis spectat : ergo ad
+            secundum et postremum debet redire, non ad primum.</p>
+        </div>
+        <div xml:id="bb-d4e45581-Dd1e157">
+          <head xml:id="bb-d4e45581-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e45581-Hd1e162" type="question-title">Caro, quae est in duobus, in uno sicut in principio, in alio
+            sicut in individuo et toto suo, resurget in secundo; si est in ambobus secundum
+            materiam, resurget in primo: si vero in hoc secundum materiam, in alio secundum speciem,
+            resurget in secundo; impossibile est autem, quod in pluribus sit secundum speciem</head>
+          <p xml:id="bb-d4e45581-d1e165">Respondeo : Dicendum quod caro quae est in duobus potest esse dupliciter : aut ita quod
+            sit in uno sicut in principio ; in altero sicut in individuo et toto suo, aut in utroque
+            sicut in individuo. Si sit in uno sicut in principio, in alio sicut in individuo et
+            toto, resurget in secundo, quia non erat in primo ad ipsum, sed ad alterum ordinata,
+            sicut fuit costa in Adam, quia ordinata ad propagationem Evae ; sic semen in patre, quia
+            ordinatum ad propagationem filii ; sic illi sanguines in Virgine beata, quia ordinati
+            erant ad conceptionem Christi. Si autem in utroque sit sicut in toto absoluto, hoc
+            tripliciter potest intelligi : aut ita quod sit in utroque caro secundum speciem, aut in
+            utroque secundum materiam, aut in uno secundum speciem, in altero secundum. materiam. De
+            primo est controversia. Nam aliqui dicunt quod caro unius secundum speciem potest fieri
+            caro alterius secundum speciem, utpote si homo de illa nutriatur et generet ; et hoc
+            dicunt, quia omnino est transmutabilis caro ut alia, sicut experimento patet. Et si
+            quaeras : in quo resurget ? dicunt quod in illo in quo maiorem et essentialem habet
+            ordinationem, et Deus supplet alteri illud, ut verbi gratia, si de modica parte corporis
+            unius quantum ad carnem secundum speciem sit aliquis generatus, ista resurget in
+            generato, et Deus post supplebit in alio quod amissum est, sicut in Adam replevit carnem
+            pro costa.</p>
+          <p xml:id="bb-d4e45581-d1e168">Alia positio est quod de carne secundum speciem alius homo nec potest nutriri nec
+            generari , sed solum de carne secundum materiam ; et rationem huius reddunt ex parte
+            actualitatis ipsius, quia transsubstantiatio haec conversio est, et conversio et
+            transmutatio sive transsubstantiatio est ex ente in potentia ; et quia est caro secundum
+            speciem, ideo non est possibilis converti in carnem secundum speciem. Sed quoniam hoc
+            non habet stabile fundamentum, quia lupus nutritur de carnibus lupi, et in aliis
+            animalibus eiusdem speciei hoc videmus ; et iterum, caro secundum speciem potest fieri
+            non-caro, et tunc erit in potentia : ideo rationem fundant super pulverum appetitum, qui
+            plantatus est ad illam formam determinate et sempiternaliter, qui non patitur ipsam
+            carnem vivificari ab alia anima immortali. Et ideo respondent quod istud est
+            impossibile, quod in primo sit caro secundum speciem unius, et postmodum fiat
+            alterius.</p>
+          <p xml:id="bb-d4e45581-d1e171">Sed prima positio repugnare videtur resurrectioni eiusdem corporis, quia, si de una
+            parte carnis meae secundum speciem posset fieri caro alterius secundum speciem, pari
+            ratione et de alia, et sic de qualibet, et sic anima perderet suam carnem totam. Quomodo
+            ergo verum est quod dicit Iob [19, 26] : <quote xml:id="bb-d4e45581-Qd1e173" ana="#iob19_26">In carne mea videbo
+              Deum, Salvatorem meum ?</quote>
+          </p>
+          <p xml:id="bb-d4e45581-d1e178">Secunda positio non habet multum robur, tum quia videtur inconveniens dicere quod homo
+            non possit nutriri de carne secundum speciem, cum sint aptae ad nutriendum et bestiae
+            possint inde nutriri. Amplius, nec istud est multum stabile, quod in corpore humano sit
+            aliquid actu incorruptibile, et cum sit resolubile usque ad elementa, quod ibi sit
+            appetitus impediens transmutationem.</p>
+          <p xml:id="bb-d4e45581-d1e181">Unde sanius dici potest quod sicut resurrectio fit per divinam virtutem, sic ordinatio
+            carnis ad suam animam est secundum divinum decretum et dispositionem, quae, quoniam est
+            inviolabilis, facit quod caro secundum speciem unius ad carnem secundum speciem alterius
+            hominis sit impossibilis. Dicamus ergo quod in utroque secundum speciem esse omnino est
+            impossibile, quia tunc esset de necessaria constitutione utriusque et necessario
+            resurgeret in utroque ; et hoc est impossibile. Istam impossibilitatem non dico venire
+            de virtute carnis secundum speciem ipsius hominis, quia sic necessario est ordinata ad
+            incorruptionem propter appetitum ad animam primam ; et ideo non potest esse corporis
+            alterius animae principalis materia, quia, sive sit ibi iste appetitus sive non sine
+            calumnia potest dici quod hoc venit ex ordinatione divina, quae carnem hominis sicut non
+            dimittit perire, sic nec eius substantiam confundi nec permisceri. Unde sicut divina
+            providentia faciebat Adam ab exteriori impassibilem, sic etiam facit carnem secundum
+            speciem unius in carnem secundum speciem alterius inconvertibilem.</p>
+          <p xml:id="bb-d4e45581-d1e184">Si autem caro sit in utroque secundum materiam, ut quando homo nutritur de carne
+            alterius secundum materiam, dico quod redit ad primum, quia ad utrumque ordinata est de
+            congruo ; et sequens ordinatio, cum non sit fortior, non solvit praecedentem. Si autem
+            in uno sit secundum speciem, in altero secundum materiam, resurgit in eo in quo fuit
+            secundum speciem, quia ad illum essentialiorem ordinationem habet, sive sit primus sive
+            secundus. Unde si aliquis nutritur de carnibus alterius secundum speciem, talis caro
+            redit ad primum. Si autem generatur de carnibus secundum materiam, quia de his quae
+            secundum speciem non potest generari, dico quod caro stat in secundo, et Deus
+            recompensat primo. Et ratio huius est, quia essentialiorem habet ordinationem ad animam
+            in secundo.</p>
+        </div>
+        <div xml:id="bb-d4e45581-Dd1e189">
+          <head xml:id="bb-d4e45581-Hd1e191">Ad rationes</head>
+          <p xml:id="bb-d4e45581-d1e194">Ex his patent obiecta, quia <name ref="#Augustine">Augustinus</name> loquitur in duobus
+            casibus, scilicet quando in primo fuit caro secundum speciem ; et hoc patet ex verbo suo
+            : Ut ex ea homo fieret etc. ; vel etiam quando in duobus est secundum materiam.</p>
+          <p xml:id="bb-d4e45581-d1e200">Ad illud ergo quod obicitur, quod debet denominari ab ultimo, dicendum quod sequens
+            ordinatio non solvit priorem nisi sit fortior ; et quia non est fortior, prior manet,
+            maxime quando in primo fuit caro secundum speciem, habuit essentialem ordinationem ad
+            animam, quia caro secundum speciem, vivificata ab hac anima, habuit necessariam et
+            indissolubilem ordinationem ad illam animam ; et ideo sicut Matrimonium legitime
+            contractum cum aliqua non potest solvi, si illa contrahit de facto cum aliquo, sic nec
+            caro ordinationem ad primam carnem perdere. Quid autem sit caro secundum speciem, hoc
+            habet locum in libro secundo, ubi agitur, utrum aliquid transeat in veritatem humanae
+            naturae, et quaeratur distinctio trigesima.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

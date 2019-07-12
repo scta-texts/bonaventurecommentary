@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e44381">
+        <head xml:id="bb-d4e44381-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e44381-Hd1e111" type="question-title">Utrum resurrectio sit eorumdem corporum secundum numerum.</head>
+        <p xml:id="bb-d4e44381-d1e114">Quarto quaeritur, utrum resurrectio sit eorumdem secundum numerum.</p>
+        <div xml:id="bb-d4e44381-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e44381-Hd1e119">Ratines principales</head>
+          <p xml:id="bb-d4e44381-d1e122">Et quod sic, videtur. Iob 19, 26 : <quote xml:id="bb-d4e44381-Qd1e124" ana="#iob19_26">In carne mea videbo Deum,
+              Salvatorem meum, quem visurus sum ego ipse, et non alius</quote>. Constat quod non
+            dicit alius secundum speciem, sed secundum numerum : ergo etc.</p>
+          <p xml:id="bb-d4e44381-d1e128">Item, Philosophus : <quote xml:id="bb-d4e44381-Qd1e130">Si ex mortali fiat immortale, non dicimus eum aliam vitam
+              sumere</quote>. Ergo, si non est alia vita nec aliud vivens, ergo idem : ergo etc.</p>
+          <p xml:id="bb-d4e44381-d1e134">Item, ratione videtur, quia identitas rei venit ab identitate principiorum
+            substantialium ; sed idem est principium materiale et idem formale : ergo idem homo qui
+            prius.</p>
+          <p xml:id="bb-d4e44381-d1e137">Item, propria forma non est nata fieri nisi in propria materia. Ergo, cum anima sit
+            propria forma corporis quod perficit, non est nata uniri nisi illi : ergo, si unitur in
+            resurrectione, unitur eidem. Et si hoc, cum ipsa sit eadem, totum erit idem.</p>
+          <p xml:id="bb-d4e44381-d1e141">Contra : <quote xml:id="bb-d4e44381-Qd1e143">Omnis forma corrupta et iterum generata non est eadem numero, sed
+              specie</quote>, sicut dicit <ref xml:id="bb-d4e44381-Rd1e146">Philosophus, in II De generatione</ref>. Cum ergo
+            humanitas corrumpatur in isto in morte et iterum generetur in resurrectione, ergo alia
+            numero. Si tu dicas quod istud tenet in corruptione, quae est in contrarium, non in
+            morte, contra : maior est corruptio in privationem quam in contrarium, quia ad hoc quod
+            fiat reparatio necesse est fieri resolutionem usque ad ultima et omnia rursus de novo
+            generari : ergo etc.</p>
+          <p xml:id="bb-d4e44381-d1e150">Item, quamvis artifex de eadem materia iterum faciat statuam, tamen alia est statua
+            post quam ante. Ergo pari ratione videtur quod, quamvis homo sit ex eisdem pulveribus,
+            tamen est alius. Si dicas quod Deus potest facere plus quam natura vel artifex, verum
+            est quod plus potest, tamen non facit nisi quod congruit et congruum est ; nec est
+            intelligibile, quomodo aliquid corrumpatur et cedat in non-ens, et iterum fiat quod sit
+            idem ; aut si est congruum, quare non dat istam potentiam naturae ?</p>
+          <p xml:id="bb-d4e44381-d1e153">Item, differentiae essentiales rem diversificant non tantum numero, sed etiam essentia
+            ; sed mortale et immortale sunt essentiales differentiae : ergo, cum resurgens sit
+            immortalis et ante mortalis, patet etc.</p>
+          <p xml:id="bb-d4e44381-d1e156">Item, prima generatio et reformatio sunt operationes diversae : ergo, si diversarum
+            operationum diversi sunt termini secundum substantiam, aliud est corpus quod primo
+            generatur, aliud corpus quod postmodum reformatur.</p>
+        </div>
+        <div xml:id="bb-d4e44381-Dd1e160">
+          <head xml:id="bb-d4e44381-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e44381-Hd1e165" type="question-title">Resurrectio est eiusdem secundum numerum corporis</head>
+          <p xml:id="bb-d4e44381-d1e168">Respondeo : Ad praedictorum intelligentiam est notandum quod circa hoc diversi diversa
+            senserunt.</p>
+          <p xml:id="bb-d4e44381-d1e171">Quidam enim dixerunt quod triplex est diversitas secundum numerum : una, quae venit ex
+            diversitate partis materiae et formae specificatae, sicut differt numero haec aqua et
+            hic ignis ; quaedam, quae venit ex diversitate partis materiae, sicut iste ignis ab illo
+            differt ; tertia, quae venit ex discontinuatione in duratione ; et haec diversitas
+            secundum numerum ortum habet, ut dicuntur ex tempore : tempus enim durationem numerat,
+            sicut et actionem. Prima diversitas secundum numerum est magna, secunda minor, tertia
+            minima. Prima et secunda diversitate carebit corpus resurgens, sed tertia non carebit
+            nec potest carere, quia propositio de praeterito non potest non esse vera. Unde sicut
+            virgo corrupta non potest fieri virgo - quia non potest non fuisse corrupta - nec a Deo
+            nec a natura nec hoc est intelligibile, sic corpus corruptum non potest omnimoda
+            identitate reparari idem, quia non potest non fuisse corruptum. Tamen haec est ita
+            modica diversitas ut non mereatur aliquid propter hoc dici diversum, quoniam idem est
+            secundum alium duplicem modum identitatis, scilicet propter identitatem materiae et
+            formae, quia identitas materiae et principalis formae erit in resurgentibus. Hinc est
+            quod resurrectio est in eisdem. Quod ergo dicit Philosophus quod forma corrupta et
+            iterum generata est alia numero, intelligit de ista diversitate.</p>
+          <p xml:id="bb-d4e44381-d1e174">Sed istud non videtur multum rationabile. Primum quidem, quia stultum videtur dicere
+            quod Deus non possit omnino idem corpus reformare identitate secundum numerum. Amplius,
+            identitas secundum numerum in substantia non venit ex accidentibus, licet per illa
+            innotescat, nec etiam diversitas. Et iterum, quod discontinuatio in esse non inducat
+            diversitatem in numero, videtur expresse in artificiatis, ut si arca dissolvatur et
+            iterum ex eisdem tabulis et secundum eumdem ordinem reparetur, non dicetur alia arca
+            numero, sed eadem ; et tamen desiit esse arca.</p>
+          <p xml:id="bb-d4e44381-d1e178">Et propter hoc dicunt alii aliter quod duplex est corruptio : quaedam per dissolutionem
+            sive separationem principiorum componentium sive partium ; quaedam per corruptionem
+            formae. In prima possibile est idem numero reparari ei qui scit ad eumdem modum et ad
+            eadem loca reducere. In secunda, quia quod corruptum est non potest esse idem, quoniam
+            nova est essentia formae, sicut de novo generatur, dicunt quod necessario oportet esse
+            aliud ; et de hac intelligit Philosophus. Separatio et dissolutio corporis humani est
+            quantum ad primum modum ; ideo reparatur idem sicut artificiatum, quia, salva anima et
+            corpore, fit separatio unius ab alio, et post, salvis partibus materiae, fit incineratio
+            ; et Deus sicut bonus artifex cineres colligit et unit et reformat idem corpus : et
+            quoniam illud corpus habet eamdem perfectionem, ideo totum consummatum est idem.</p>
+          <p xml:id="bb-d4e44381-d1e181">Sed istud non solvit sufficienter. Certum est enim quod forma carnis humanae
+            corrumpitur, dum generatur inde vermis et serpens ; et sicut potest corrumpi in carnem
+            serpentis vel alterius animalis, sic resolvi potest sicut et illud animal, etiam in
+            quatuor elementa et unumquodque elementorum corrumpi in aliud, et ita corrumpuntur
+            formae mixti et elementi : ergo necesse est elementa alia esse numero et aliam carnem.
+            Et ita non potest stare, ista responsio.</p>
+          <p xml:id="bb-d4e44381-d1e184">Et propterea notandum quod est resurrectio eiusdem numero, quia aliter non esset
+            resurrectio. Si quaeras a me, quomodo hoc esse possit, dico, quod hoc potest esse per
+            virtutem divinam, quamvis non possit esse per naturam ; et istud intelligere possumus
+            sic.</p>
+          <p xml:id="bb-d4e44381-d1e187">Supponamus nunc quod natura aliquid agit et illud non agit ex nihilo ; et cum agat in
+            materiam, oportet quod producat formam ; et cum materia non sit pars formae nec forma
+            fiat pars materiae, necesse est aliquo modo formas naturales esse in materia antequam
+            producantur ; et substantia materiae praegnans est omnibus : ergo rationes seminales
+            omnium formarum sunt in ipsa. Sed ad illud stat resolutio a quo incipit generatio : ergo
+            nulla forma omnino corrumpitur, sed manet in materia, sicut antequam produceretur. Et
+            sic dicit <name ref="#Augustine">Augustinus</name> ; unde formas in materia ante
+            productionem dicit esse quantum ad rationes seminales. Dicit etiam resolvi ad materiam
+            sicut ad occultissimos sinus naturae, idem utroque nomine secundum alteram et alteram
+            rationem intelligi volens. Quid autem haec sint, alibi melius patet, scilicet in
+            secundo. Nunc autem hoc dixisse sufficiat, quod omnes formae, cum corrumpuntur, non
+            omnino corrumpuntur, sed manent aliquo modo. Et huic concordat ratio et auctoritas
+            philosophica et auctoritas beati <name ref="#Augustine">Augustini</name>, et quod maius
+            est, auctoritas Sacrae Scripturae, quae est auctoritas Spiritus Sancti.</p>
+          <p xml:id="bb-d4e44381-d1e196">Hoc praesupposito, dicendum quod, quamvis forma ibi sit aliquo modo post corruptionem,
+            tamen natura non potest producere ad idem esse quod habuit prius Et ratio huius est,
+            quia agens naturale agit influendo et impertiendo aliquid sui, quo mediante perficit
+            illud quod erat in materia ; et illud quod influitur a parte agentis fit aliquid de
+            completo esse ipsius producti ; et ideo necesse est quod natura det aliquid novi quantum
+            ad modum essendi substantialem, qui est esse in actu. Quamvis enim natura non det novam
+            essentiam, dat tamen novum modum essendi, non tantum accidentalem, immo etiam
+            substantialem, sicut esse in actu, secundum quem potest res substantialiter numerari et
+            diversificari. Et propterea natura, cum reparat, non idem, sed novum producit ; sed
+            Deus, qui potest ipsas rationes seminales sine immissione alicuius novi ad perfectum
+            esse deducere, potest facere quod sit idem. Et sic facit in proposito, quia ex illis
+            solis et per eumdem ordinem in reformatione rem constituit ex quibus erat ante. Unde, si
+            omnia elementa convertantur in ignem, Deus ex illo igne reformat eadem elementa quae ibi
+            erant in rationibus seminalibus et ex illis formam carnis per eumdem ordinem. Et sic
+            patet quod Deus potest reformare idem corpus secundum numerum ; et sic potest dici ad
+            praesens.</p>
+        </div>
+        <div xml:id="bb-d4e44381-Dd1e201">
+          <head xml:id="bb-d4e44381-Hd1e203">Ad rationes</head>
+          <p xml:id="bb-d4e44381-d1e206">1-2. Ad illud ergo quod obicitur primo et secundo, iam patet responsio, quia, quamvis
+            istud sit impossibile agenti inferiori, est tamen possibile agenti superiori, scilicet
+            ipsi Deo. Et quare istam potentiam non communicat Deus creaturae, patet, quia nulla
+            creatura agit se ipsa, sed per aliquid sui, immittendo virtutem, sicut et color ad hoc
+            quod immutet visum, facit speciem sui in medio : unde agit aliquid extrinsecum in
+            intrinseco ; non sic Deus. Hoc autem dico de operatione naturali.</p>
+          <p xml:id="bb-d4e44381-d1e209">Ad illud quod obicitur de mortali et immortali, dicendum quod, quidquid sit de mortali,
+            utrum sit differentia an non - quia non est praesentis considerationis, cum rationes ad
+            utramque partem sint, quia videtur dicere defectum et imperfectionem et non habet
+            differentiam in eodem genere condividentem et alia plura - tamen hoc absque calumnia
+            verum est, quod mortale tripliciter accipitur : uno modo dicit naturalem aptitudinem ad
+            moriendum ; alio modo, possibilitatem ad moriendum ; tertio modo, necessitatem. Et primo
+            quidem modo mortale inest homini ea ratione, qua compositum ex partibus heterogeneis.
+            Unde Hilarius : Non ex compositis est Deus, quia vita est. Si ergo homo est ex
+            compositis heterogeneis et diversis naturis et dispositionibus, impossibile est quod
+            vitam habeat nisi cum aptitudine ad moriendum ; et sicut talis compositio est homini
+            naturalis, ita et mortale. Et hoc modo accipiendo mortale contra immortale, nunquam
+            concurrunt in idem ; sic nec spirituale aut simplex et compositum. Et si aliquo modo est
+            differentia, isto modo est non dividens animal, sed substantiam viventem, cuius una
+            differentia est immortale, et per oppositum mortale. Secundo modo mortale inest eo modo
+            quo est quid compositum ex partibus heterogeneis, habentibus defectibilitatem, sicut in
+            primo homine qui habebat statum animalem ; et hoc modo dicit statum medium inter
+            miseriam et gloriam. Tertio modo mortale inest ea ratione qua vivens est compositum ex
+            contrariis habentibus defectibilitatem et pugnam ad invicem ; et sic inest homini lapso,
+            et hoc modo dicit statum miseriae ; et immortale huic oppositum dicit alium statum. Et
+            quoniam status mutari potest, unitate secundum numerum remanente, hinc est quod ex
+            mortali secundum hunc duplicem modum fit immortale sine diversitate substantiae. Et hoc
+            modo fit in homine glorificato, qui est mortalis primo modo, scilicet secundum naturalem
+            aptitudinem, sed immortalis, prout dicit privationem potentiae et necessitatis.</p>
+          <p xml:id="bb-d4e44381-d1e212">Ad illud quod ultimo obicitur, quod diversae sunt operationes, dicendum quod diversae
+            operationes diversos effectus inducunt quando dividuntur ex aequo ; sed quando sic est
+            quod una ad alteram ordinatur et una est reparativa effectus alterius, si secunda
+            egrediatur ab agente omnino patente, potest omnino idem reparari. Et sic est in
+            proposito.</p>
+          <p xml:id="bb-d4e44381-d1e215">Sed obicitur : quomodo potest hoc intelligi ? Cum istae operationes sint discontinuae
+            et esse rei sit discontinuum et unius continui duo sint ultima tantum : si ergo esse
+            discontinuatur, ergo est aliud et aliud. Cum ergo unum numero consequatur. idem actuale,
+            necessario videtur sequi quod sit aliud et aliud. Et iterum, quomodo potest bis incipere
+            aliquid et esse idem ? Impossibile enim est esse et intelligere, quod aliquis currat bis
+            eodem cursu. Et potest ad hoc responderi quod de esse rei est loqui dupliciter : aut
+            quantum ad defluxum et durationem, aut secundum se. Si quantum ad durationem et
+            defluxum, sic necessario oportet quod duratio sit alia et alia sicut mensura durationis.
+            Si quantum ad ipsum esse secundum se, sic numeratur et plurificatur a principiis
+            permanentibus ; et quoniam principia permanentia sunt eadem, quamvis defluxus durationis
+            et inceptio sit alia et alia : hinc est quod res est una et esse rei est unum. Nec est
+            simile de actionibus successivis, quia illae necessario numerantur, et praeteritum et
+            futurum respiciunt partes diversas actionis sive mutationis sive durationis successivae.
+            Non sic oportet iudicare de forma absoluta, quae corrupta potest a Deo numerari eadem,
+            quia aliquo modo manet in ratione seminali.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

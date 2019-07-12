@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e7075">
+        <head xml:id="bb-d4e7075-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e7075-Hd1e111" type="question-title">Utrum sanctificatus in utero debeat baptizari.</head>
+        <p xml:id="bb-d4e7075-d1e114">Secundo quaeritur circa hoc, utrum sanctificatus in utero debeat baptizari, cum natus
+          est.</p>
+        <div xml:id="bb-d4e7075-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e7075-d1e119">Et quod sic videtur : Quia talis per sanctificationem non habet characterem, sed debet
+            signo Christi consignari, quod fit in Baptismo : ergo debet baptizari.</p>
+          <p xml:id="bb-d4e7075-d1e122">Item, baptizati baptismo flaminis baptizantur aqua et tenentur baptizari, ut patet de
+            Cornelio, <ref xml:id="bb-d4e7075-Rd1e124" ana="#act10_22">Actuum 10, 22</ref> ; sed sanctificari non est aliud quam
+            gratiam Spiritus Sancti recipere : ergo sanctificati tenentur baptizari.</p>
+          <p xml:id="bb-d4e7075-d1e128">Item, nullus quantucumque magnus absolvitur a divino mandato ; sed Dominus mandatum
+            dedit de suscipiendo Baptismum : ergo ita tenetur ad hoc sanctificatus ut alius.</p>
+          <p xml:id="bb-d4e7075-d1e131">Sed contra : Vigor singularis privilegii semper transcendit beneficium commune : ergo
+            in sanctificatione datur gratia curans sicut in Baptismo, et maior et efficacior ; sed
+            ordo non est a maiori perfectione ad minorem, sed e converso : ergo sanctificatus non
+            tenetur baptizari.</p>
+          <p xml:id="bb-d4e7075-d1e134">Item, si sanctificatus baptizatur, videtur quod sit vanitas, quia quod potest
+            sufficienter fieri per unum, frustra fit per duo in natura : ergo, si natura non facit
+            frustra , multo minus nec gratia ; sed gratia sanctificans sufficit ad curationem,
+            alioquin Deus agit imperfecte : ergo etc.</p>
+          <p xml:id="bb-d4e7075-d1e138">Item, videtur quod sit ibi contemptus, quia qui baptizatus est, si iterum baptizetur,
+            facit contumeliam sacramento, quia primum remedium reputat insufficiens. Ergo pari
+            ratione qui baptizatur post sanctificationem iniuriatur sanctificationi.</p>
+        </div>
+        <div xml:id="bb-d4e7075-Dd1e142">
+          <head xml:id="bb-d4e7075-Hd1e144">Conclusio</head>
+          <head xml:id="bb-d4e7075-Hd1e147" type="question-title">Sanctificatus in utero debet baptizari</head>
+          <p xml:id="bb-d4e7075-d1e150">Respondeo : Dicendum quod sanctificatus baptizari debet Baptismo aquae sicut baptizatus
+            baptismo flaminis. Et est ratio triplex : prima propter bonum obedientiae, quia Deus
+            praecipit ut omnes qui nascuntur renascantur aqua ; secunda propter humilitatem, quia
+            debet se reputare peccatorem et indigere Christi redemptione ; tertia propter unitatem,
+            ut ab aliis membris Christi non discordet. Non ergo baptizatur propter hoc quod
+            sanctificatio non sufficiat, sed propter rationes praedictas. Propter quarum exempla
+            danda Christus fuit circumcisus : ut scilicet obediret Legi, subiecit se signo
+            peccatoris, quo non ipse se peccatorem, sed alios se peccatores profiteri doceret :
+            postremo, ut Patribus non esset dissimilis.</p>
+          <p xml:id="bb-d4e7075-d1e153">Patet igitur responsio, quod sanctificatus non recipit Baptismum in remedium - quod si
+            faceret, esset inordinatio, vanitas et contemptus - sed in signaculum, quod habet tria
+            bona coniuncta, scilicet obedientiam, humilitatem et unitatem quantum ad unitatem
+            characteris.</p>
+        </div>
+        <div xml:id="bb-d4e7075-Dd1e158">
+          <head xml:id="bb-d4e7075-Hd1e160">Ad rationes</head>
+          <p xml:id="bb-d4e7075-d1e163">Ad illud ergo quod obicitur, quod sanctificatio transcendit, dicendum quod, quamvis hoc
+            verum sit quantum ad gratiam, quae delet culpam et habilitat ad bonum, tamen non
+            transcendit quantum ad characterem, quia illum non imprimit ; et ideo ratione illius
+            adhuc Baptismus debet recipi.</p>
+          <p xml:id="bb-d4e7075-d1e166">Ad illud quod obicitur, quod superfluit, patet responsio, quia non recipit ad idem ad
+            quod praecessit sanctificatio.</p>
+          <p xml:id="bb-d4e7075-d1e169">Ad illud quod obicitur, quod rebaptizatus iniuriatur Baptismo, dicendum quod hoc verum
+            est, quia iterat idem remedium et ad idem ; non sic est in proposito. Et sic patet
+            totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e26156">
+        <head xml:id="bb-d4e26156-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e26156-Hd1e111" type="question-title">Utrum poena purgatorii sit voluntaria.</head>
+        <p xml:id="bb-d4e26156-d1e114">Tertio quaeritur, utrum poena illa sit voluntaria.</p>
+        <div xml:id="bb-d4e26156-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e26156-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e26156-d1e122">Et quod sic, videtur : Quia omnis sapiens vult illud sine quo non potest adipisci
+            desideratum : unde desiderans sanitatem vult secari et uri ; sed animae in purgatorio
+            non sunt insipientes et desiderant gloriam et sciunt se non posse ad eam pervenire nisi
+            per illius poenae tolerantiam : ergo etc. Si tu dicas quod hoc non est velle
+            simpliciter, sed sub conditione, ostenditur quod simpliciter velint. Correctum habet qui
+            voluntatem suam voluntati divinae conformat, ut dicit <name ref="#Ambrose">Ambrosius</name> et Glossa super Psalmum, sicut habitum est in primo ; sed iusti in
+            purgatorio habent rectum cor, et Deus vult ibi esse ipsos : ergo et ipsi volunt se ibi
+            esse et pati.</p>
+          <p xml:id="bb-d4e26156-d1e128">Item, omnis vere poenitens vult facere emendam, sive agendo sive sustinendo ; sed anima
+            quae moritur vere poenitens, poenitentiam non amittit : ergo vult emendam facere. Sed
+            non potest agendo, ergo patiendo : ergo vult illam poenam pati.</p>
+          <p xml:id="bb-d4e26156-d1e131">Item, omnis qui patitur aliquam poenam et non vult illam pati, iudicatur impatiens et
+            illi est qui infert inobediens. Ergo, cum viri iusti in purgatorio poenam patiantur, si
+            nolunt illam pati, sunt impatientes et inobedientes.</p>
+          <p xml:id="bb-d4e26156-d1e134">Contra : Voluntarium est illud quod est in ipso cognoscente singularia. Ergo quod non
+            est a principio intrinseco, sed extrinseco, et de necessitate, non de libertate, non
+            habet rationem voluntarii ; sed talis est poena purgatoria : ergo etc.</p>
+          <p xml:id="bb-d4e26156-d1e138">Item, nihil a quo quis desiderat et petit liberari est voluntarium : si enim esset
+            voluntarium, in eo vellet persistere ; sed iusti qui sunt in purgatorio petunt et
+            desiderant inde liberari : ergo etc. Minor multis revelationibus nota est, sicut etiam
+            potest probari per IV Dialogorum.</p>
+          <p xml:id="bb-d4e26156-d1e141">Item, quanto poena acerbior est, si voluntaria est, tanto gloriosius est martyrium ;
+            sed poena purgatorii est acerbissima, ut supra monstratum est : ergo, si est voluntaria,
+            videtur quod omnes qui transeunt purgatorium martyres iudicandi sunt.</p>
+        </div>
+        <div xml:id="bb-d4e26156-Dd1e145">
+          <head xml:id="bb-d4e26156-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e26156-Hd1e150" type="question-title">Poena purgatorii minimam habet rationem voluntarii, quia est a
+            voluntate tolerante quidem, sed oppositum desiderante.</head>
+          <p xml:id="bb-d4e26156-d1e153">Respondeo : Dicendum quod aliqua poena dicitur tripliciter voluntaria : uno modo, quia
+            assumitur a voluntate imperante, sicut est poena poenitentialis ; alio modo, quia
+            sustinetur a voluntate acceptante, sicut est poena martyrum, quia adeo eis placet, quod
+            ab ea liberari non vellent ; tertio modo est quaedam poena, quae sustinetur a voluntate
+            tolerante, ut puta poena quae est in patientia, ita quod eius oppositum est in
+            desiderio, sicut cum amans et desiderans sanitatem infirmatur, sustinet quidem
+            infirmitatem tamquam poenam divinitus inflictam, attamen ab ea liberari procurat ; et
+            illud minime habet rationem voluntarii. Hoc modo voluntaria est poena purgatoria in
+            viris iustis, qui voluntarie eam sustinent et desiderant vehementer ad patriam pervenire
+            et alios sibi auxilium praebere.</p>
+          <p xml:id="bb-d4e26156-d1e156">Secundum hoc patet responsio ad utramque partem, quoniam rationes ad primam partem
+            probant illam poenam-voluntariam esse hoc modo tertio. Rationes vero ad oppositum
+            probant quod non est voluntaria primo modo vel secundo ; quod patet discurrendo per
+            singulas. Primae enim omnes rationes currunt secundum voluntatem tolerantem, quae Deo se
+            conformat, cum etiam liceat aliquid sibi desiderare quod et Deus vellet ipsam habere,
+            quantum in se est. Sequentes rationes currunt secundum voluntatem imperantem, quae est
+            ab intrinseco ; vel secundum desiderantem, quae nollet separari a volito et quae tanto
+            magis delectat, quanta voluntarium, quod obtinet, magis desiderat.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

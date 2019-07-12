@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e48899">
+        <head xml:id="bb-d4e48899-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e48899-Hd1e111" type="question-title">Utrum omnes iudicabuntur, tam boni quam mali.</head>
+        <p xml:id="bb-d4e48899-d1e114">Tertio quantum ad iudicandos quaeritur, utrum omnes iudicabuntur, tam boni quam mali.</p>
+        <div xml:id="bb-d4e48899-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e48899-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e48899-d1e122">Et quod omnes homines, videtur. <ref xml:id="bb-d4e48899-Rd1e124">II ad Corinthios 5, 10</ref> : <quote xml:id="bb-d4e48899-Qd1e127">Omnes
+              astabimus ante tribunal Christi, ut recipiat unusquisque</quote> etc.</p>
+          <p xml:id="bb-d4e48899-d1e131">Item, Isaiae 45, 23 : <quote xml:id="bb-d4e48899-Qd1e133" ana="#is45_23">Egredietur de ore meo iustitiae verbum : et
+              mihi curvabitur omne genu</quote>. Ergo, si hoc est in iudicio, patet etc.</p>
+          <p xml:id="bb-d4e48899-d1e137">Item, Sancti, qui modo sunt in beatitudine, in die iudicii iudicabuntur, et mali, qui
+            in inferno : ergo et omnes.</p>
+          <p xml:id="bb-d4e48899-d1e140">Item, alia ratione videtur, quia iudicium fiet ad manifestationem divinae iustitiae :
+            ergo, si iustitia Dei ibi potissime manifestatur, ergo quantum ad omnia merita et omnes
+            merentes. Sed non est creatura rationalis quae non sit digna bono vel malo : ergo omnes
+            debent iudicari.</p>
+          <p xml:id="bb-d4e48899-d1e144">Contra : Videtur quod nullus bonus debeat iudicari, quia Ioannis 3, 18 dicitur : <quote xml:id="bb-d4e48899-Qd1e146" ana="#io3_18">Qui credit in eum non iudicatur</quote> ; et rursus 5, 24 : <quote xml:id="bb-d4e48899-Qd1e149" ana="#io5_24">In iudicium non veniet</quote> etc.</p>
+          <p xml:id="bb-d4e48899-d1e153">Item, saltem videtur quod non iudicentur boni perfecti, quia iudicantis non est
+            iudicari, sed iudicare ; et viri perfecti in die iudicii erunt iudices : ergo etc.</p>
+          <p xml:id="bb-d4e48899-d1e156">Item, quod nullus inflidelis, videtur, quia Ioannis 3, 18 : <quote xml:id="bb-d4e48899-Qd1e158" ana="#3_18">Qui non
+              credit iam iudicatus es</quote>t ; sed qui iudicatus est ; iterum non debet iudicari :
+            ergo etc.</p>
+          <p xml:id="bb-d4e48899-d1e162">Item, videtur quod nullus parvulus, quia parvuli nihil boni nec mali operati sunt nec
+            meruerunt nec in igne cremabuntur. Si ergo iudicium est secundum merita et ad poenam
+            ignis vel gloriam, patet etc.</p>
+        </div>
+        <div xml:id="bb-d4e48899-Dd1e166">
+          <head xml:id="bb-d4e48899-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e48899-Hd1e171" type="question-title">Iudicio collationis meriti ad praemium iudicabuntur omnes,
+            iudicio discussionis non omnes, iudicio condemnationis tantum mali</head>
+          <p xml:id="bb-d4e48899-d1e174">Respondeo : Dicendum quod iudicium dicitur tripliciter, scilicet communiter, proprie et
+            appropriate. Iudicium communiter dicitur collatio manifesta meriti ad praemium ludicium
+            proprie dicitur discussio meritorum et prolatio cum quadam discussione et sententiae
+            definitione. Iudicium appropriate dicitur ipsa condemnatio ; unde iudicatus dicitur
+            condemnatus.</p>
+          <p xml:id="bb-d4e48899-d1e177">Primo igitur modo omnes iudicabuntur, quia omnes convenient, et patebit quomodo Deus
+            omnibus retribuet secundum merita ; et hoc est quod dicit Apostolus : Omnes manifestari
+            oportet. Secundo modo, prout dicitur iudicium discussionis, non omnes iudicabuntur, sed
+            erunt quatuor ordines, sicut distinguit beatus <name ref="#GregoryGreat">Gregorius</name>, et <name ref="#Lombard">Magister</name> ponit in littera. Tertio
+            modo, secundum quod dicitur iudicium condemnationis, iudicabuntur mali solum ; et istud
+            iudicium incipit in praesenti per excaecationem in infidelibus et per exspoliationem in
+            daemonibus et consummabitur in futuro. Unde iudicium non iterabitur, sed consummabitur.
+            Et sic patent omnia.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

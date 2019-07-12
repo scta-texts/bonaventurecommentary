@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e40724">
+        <head xml:id="bb-d4e40724-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e40724-Hd1e111" type="question-title">Quid sit votum secundum essentiam.</head>
+        <p xml:id="bb-d4e40724-d1e114">Quantum ad primum sic proceditur, et ostenditur quod votum secundum substantiam sit
+          promissio.</p>
+        <div xml:id="bb-d4e40724-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e40724-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e40724-d1e122">Per definitionem <name ref="#HughOfStVictor">Hugonis</name> : <quote xml:id="bb-d4e40724-Qd1e127">Votum est
+              testificatio quaedam promissionis spontaneae quae Deo et de his quae Deo pertinent
+              proprie fieri debet</quote>.</p>
+          <p xml:id="bb-d4e40724-d1e131">2. Item, voto se obligat homo ad id ad quod prius non obligatur ; sed homo ad novum se
+            non obligat nisi propter beneficium vel propter peccatum vel propter promissum ; sed in
+            voto non obligatur homo beneficio vel peccato : ergo obligatur promissione : ergo
+            promissio est de substantia voti.</p>
+          <p xml:id="bb-d4e40724-d1e134">Item, quod sit obligandi intentio, videtur: Quia sicut Matrimonium est ab opere nostro,
+            sic et votum ; sed nullus contrahit Matrimonium, quantumcumque promittat exterius, nisi
+            intendat se obligare sive consentiat interius : ergo etc.</p>
+          <p xml:id="bb-d4e40724-d1e137">Item, votum est obligatio spontanea sive voluntaria ; sed nullus obligatione voluntaria
+            obligatur, nisi velit obligari ; et nullus vult obligari verbo, nisi qui intendit se
+            obligare : ergo etc.</p>
+          <p xml:id="bb-d4e40724-d1e141">Contra : Ostenditur quod promissio non sit de genere voti : Per aliam definitionem voti
+            : <quote xml:id="bb-d4e40724-Qd1e143">Votum est melioris boni conceptio cum deliberatione firmata</quote> ; haec
+            definitio dicit voti substantiam ; sed hoc totum potest esse sine promissione : ergo
+            etc.</p>
+          <p xml:id="bb-d4e40724-d1e147">Item, <name ref="#GregoryGreat">Gregorius</name>, Super Ezechielem : <quote xml:id="bb-d4e40724-Qd1e152">Qui meliora
+              agere deliberant et deliberata non faciunt, dum se elevant, cadunt</quote>. Ergo
+            deliberatio melioris obligat ad faciendum, alioquin non esset casus ; sed non est ibi
+            alia obligatio quam voti : ergo sola deliberatio sine promissione est votum : non ergo
+            promissio est de essentia voti.</p>
+          <p xml:id="bb-d4e40724-d1e156">Item, quod nec sit obligandi intentio, videtur : Quia aliquis promotus ad sacros
+            Ordines, intendens Ordines. suseipere et nullo modo obligari ad castitatem, nihilominus
+            obligatur ac si intenderet : ergo videtur quod de substantia voti non sit obligandi
+            intentio.</p>
+          <p xml:id="bb-d4e40724-d1e159">Item, si aliquis iurat alicui, non intendens se obligare ad id quod verba significant,
+            iudicatur nihilominus ita obligatus ac si intenderet. Ergo pari ratione videtur in voto
+            quod fit sine intentione.</p>
+          <p xml:id="bb-d4e40724-d1e162">Item, cum ista duo similiter faciant ad esse iuramenti, scilicet promissio et obligandi
+            intentio, quaeritur, quae sit differentia.</p>
+        </div>
+        <div xml:id="bb-d4e40724-Dd1e166">
+          <head xml:id="bb-d4e40724-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e40724-Hd1e171" type="question-title">De essentia voti sunt promissio et obligandi intentio; et in
+            voto simplici requiritur verbum interius, in solemni exterius</head>
+          <p xml:id="bb-d4e40724-d1e174">Respondeo : Dicendum quod ista duo sunt de essentia voti, scilicet promissio et
+            obligandi intentio. Cum votum sit obligatio nova et voluntaria,. quia de novo est
+            superaddita, promissio est necessaria ; quia vero voluntaria, oportet quod velit
+            obligari, et ita quod se obligare intendat. Sed contingit promittere alicui duplici
+            verbo, scilicet interiori et exteriori. Promissio quantum ad verbum interius
+            cogitationis et deliberationis est de necessitate voti simplicis, quod obligat quantum
+            ad Deum, qui intuetur cor. Sed promissio quantum ad verbum vel signum exterius est de
+            necessitate voti solemnis, quod obligat quantum ad faciem Ecclesiae, quae iudicat
+            secundum ea quae patent. Secundum hoc duplex datur definitio de voto ; illa magistralis
+            et communis est de voto simplici : Conceptio melioris propositi etc.</p>
+        </div>
+        <div xml:id="bb-d4e40724-Dd1e179">
+          <head xml:id="bb-d4e40724-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e40724-d1e184">1-2. Ad illud quod. obicitur per definitionem voti et auctoritatem <name ref="#GregoryGreat">Gregorii</name>, in sola deliberatione votum consistere, dicendum
+            quod non intelligunt de qualibet deliberatione, sed de illa quae firmat propositum ; et
+            haec est quae consensui addit promissionem, aliter non firmat ; unde licitum est
+            dissentire.</p>
+          <p xml:id="bb-d4e40724-d1e190">Ad illud quod obicitur, quod obligandi intentio non est necessaria, sicut patet in
+            Ordine, dicendum quod intentio respectu alicuius potest esse dupliciter : aut
+            principaliter, quia de illo cogitat et illud placet, aut quia intendit aliquid
+            antecedens ad illud vel simpliciter illi annexum ; sicut si aliquis intendit vovere
+            regulam monachorum, per consequens et ad continentiam obligari intendit et ad
+            obedientiam, alioquin stulte appetit et vult. Similiter, quia Ordini sacro annexum est
+            votum, si intendit Ordinem sacrum suscipere, per consequens et ad continentiam obligari
+            principaliter vel ex consequenti ; quod si nullo modo intendat, non est votum ; sic nec
+            Matrimonium.</p>
+          <p xml:id="bb-d4e40724-d1e193">Ad. illud quod obicitur, quod qui iurat in dolo tenetur, dicendum quod duplex est
+            forum, scilicet iudiciale et poenitentiale. In foro iudiciali iudicatur secundum
+            exteriora, in foro poenitentiali secundum conscientiam. In foro iudiciali, quia fraus
+            nulli debet patrocinari, accipiuntur verba secundum intellectum communem et sanum ; et
+            quia fraus non debet ei patrocinari, iudicatur teneri sicut si secundum intentionem
+            rectam verba dixisset. In foro poenitentiali, ubi est iudicium secundum veritatem,
+            iudicatur istum peccasse in dolo, sed nequaquam ex illa promissione esse obligatum ;
+            unde sicut Matrimonium contractum per verba exteriora sine consensu omni est Matrimonium
+            solum secundum interpretationem fori iudicialis, non secundum veritatem, sic de voto
+            dicendum.</p>
+          <p xml:id="bb-d4e40724-d1e196">Ad illud quod ultimo quaeritur de differentia voti ad iuramentum obligatorium, dicendum
+            quod triplex est differentia, scilicet in obiecto, medio et fine. In obiecto, quia votum
+            fit Deo, sed iuramentum homini ; in medio, quia iuratur per Deum, sed vovetur per
+            promissionem ; in fine, quia iuramentum est ad astruendam veritatem, votum autem ad
+            augendam honestatem et bonitatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e19604">
+        <head xml:id="bb-d4e19604-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e19604-Hd1e111" type="question-title">Utrum necesse sit dolorem contritionis esse maximum.</head>
+        <p xml:id="bb-d4e19604-d1e114">Quantum ergo ad primum quaeritur, utrum necesse sit dolorem contritionis esse maximum, id
+          est, utrum ad hoc quod contritio sit sufficiens, necesse sit plus dolere de peccato quam
+          de aliquo temporali.</p>
+        <div xml:id="bb-d4e19604-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e19604-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e19604-d1e122">Et quod sic, videtur : Ieremiae 6, 26 : <quote xml:id="bb-d4e19604-Qd1e124">Luctum unigeniti fac tibi</quote> ;
+            Glossa : <quote xml:id="bb-d4e19604-Qd1e127">Docet poenitentem quid facere debeat</quote> ; et alia Glossa :
+              <quote xml:id="bb-d4e19604-Qd1e130">Nihil dolentius morte unigeniti</quote>. Ergo tantum debet quis dolere de
+            peccato, quod de nullo magis.</p>
+          <p xml:id="bb-d4e19604-d1e134">Item, <name ref="#Augustine">Augustinus</name>, XXI De civitate Dei : <quote xml:id="bb-d4e19604-Qd1e139" source="http://scta.info/resource/adcd-l21">Necesse est ut tantum urat dolor, quantum
+              haeserat amor</quote> , Ergo, si dolet plus de amissione rei temporalis quam de
+            amissione Dei per culpam, plus ergo diligit rem temporalem quam Deum ; sed nullus talis
+            poenitet vere : ergo etc.</p>
+          <p xml:id="bb-d4e19604-d1e143">Item, ratione videtur, quia dolor fundatur in amore et omnis affectio, ut dicit <name ref="#Augustine">Augustinus</name> ; sed amor Dei debet esse maior omni amore
+            creaturae : ergo et dolor ex amissione Dei.</p>
+          <p xml:id="bb-d4e19604-d1e149">Item, dolor contritionis est a gratia et libero. arbitrio, sed alius tantum a culpa et
+            libero arbitrio ; sed gratia plus roborat in bono quam culpa inclinet ad malum : ergo
+            motus doloris fortior.</p>
+          <p xml:id="bb-d4e19604-d1e153">Item, animus iustus plus Deo unitur quam sibi. per amorem ; sed de eo cui magis unitur,
+            magis dolet cum separatur : ergo magis dolet se per peccatum separatum esse a Deo quam
+            de morte proximi et corporis, si esset possibile.</p>
+          <p xml:id="bb-d4e19604-d1e156">Item, omnis habens animum ordinatum plus dolet de amissione maioris boni ; sed Deus est
+            summum bonum, et omnis contritus habet animum ordinatum : ergo plus dolet de amissione
+            Dei quam de amissione alterius boni creati.</p>
+          <p xml:id="bb-d4e19604-d1e159">Sed contra : Ostenditur quod non oportet esse maiorem quam de aliquo temporali, quia
+              <quote xml:id="bb-d4e19604-Qd1e161">albius est quod est nigro impermixtius</quote>. Ergo maior dolor est qui minus
+            habet de gaudio ; sed dolor contritionis est admixtus gaudio, aliquis autem alius sine
+            aliquo gaudio est quandoque : ergo ille maior.</p>
+          <p xml:id="bb-d4e19604-d1e165">Item, magis, dolendum est de eo quod recuperari non potest quam de eo quod recuperari
+            potest et recuperatum est ; sed amissio filii non potest recuperari, amissio Dei in
+            poenitente est recuperata : ergo non tantum debet dolere de amissione Dei, quantum de
+            amissione filii.</p>
+          <p xml:id="bb-d4e19604-d1e168">Item, quod non oporteat tantum dolere, videtur, quia, quantumcumque parva sit gratia,
+            delet omnem culpam. Ergo similiter ex parte doloris, quantumcumque parvus est, dum tamen
+            gratia sit informatus, delebit omnem culpam : ergo non oportet quod sit maior omni
+            alio.</p>
+          <p xml:id="bb-d4e19604-d1e171">Item, si hoc oporteret, tunc pauci essent contriti : pauci enim sunt qui mallent esse
+            caeci quam nunquam peccasse : videmus etiam multos viros poenitentes qui flent ex morte
+            consanguineorum, qui non possunt flere pro peccatis.</p>
+        </div>
+        <div xml:id="bb-d4e19604-Dd1e175">
+          <head xml:id="bb-d4e19604-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e19604-Hd1e180" type="question-title">Dolor contritionis quoad sensualitatem non debet esse maximus,
+            neque quoad displicentiam rationis absolute, sed tantum maior in comparatione ad alios
+            dolores</head>
+          <p xml:id="bb-d4e19604-d1e183">Respondeo : Dicendum quod, cum quaeritur de quantitate doloris ; dolor, potest dici
+            displicentia rationis vel passio ex hac resultans in sensualitatem. Si hoc secundo modo
+            accipiatur ; dico quod non est necesse magis dolere de peccato quam de re temporali nec
+            etiam necesse est dolere, quia non est in. potestate cuiuslibet. Talis enim dolor non
+            consequitur amorem, sed consequitur ipsam affectionem et affectio experimentalem
+            cognitionem ; et quia non omnes habent experientiam divinae dilectionis, ideo non omnes
+            ita sensibiliter dolent de peccatis. Tamen quod magis etiam sensibiliter doleat aliquis
+            de peccato quam de aliquo damno, hoc est perfectionis et congruum, non necessarium.</p>
+          <p xml:id="bb-d4e19604-d1e186">Sed in quantum dolor dicitur displicentia rationis, sic dico quod ista displicentia
+            mensuratur secundum quantitatem caritatis. Quantitas autem caritatis dupliciter potest
+            accipi : vel in se vel in comparatione ad alios amores : in se, sic dico quod est parva
+            et maior et maxima ; in comparatione ad alios, sic dico quod vindicat sibi dominium. in
+            corde quamdiu est ; nec unquam ibi est nisi sit domina ; unde dico quod ad hoc quod
+            aliquis habeat caritatem, necesse est quod diligat Deum super omnia ; hoc autem est
+            diligere super omnia, quod pro nullo damno vel commodo velit offendere Deum. Sic
+            intelligendum est de displicentia contritionis. Unde dico quod peccatum debet tantum
+            displicere rationi quod nullo pacto, nullo commodo vel incommodo velit in ipsum
+            consentire vel consensisse, quoniam voluntas, quae ex aliqua causa consentit in
+            peccatum, iusta non est. Unde sicut non oportet habentem caritatem velle mori pro
+            Christo - sed in casu, in quo vel oportet ipsum amittere caritatem vel vitam, tunc
+            tenetur magis velle mori pro Christo quam caritatem amittere - sic in proposito est
+            intelligendum, quod non teneor nunc pro satisfactione peccati omnem poenam sustinere ad
+            reconciliationem, quia Deus non exigit. Et ideo sicut ego possum salvari non sustinendo
+            martyrium, sic possum reconciliari Deo sine multis doloribus et amissionibus rerum
+            temporalium.</p>
+          <p xml:id="bb-d4e19604-d1e189">Si vero de comparatione et praeelectione quaeratur, respondent aliqui et faciunt in hoc
+            vim, quia potest intelligi respectu praeteriti vel futuri. Sed ego non video in hoc vim,
+            quia iusta voluntas et vere poenitens ita detestatur praeteritum peccatum ut futurum ne
+            fiat ; et ita est peccatum velle peccasse sicut velle peccare. Ideo de peccati
+            praecedentis dolore et detestatione dicendum quod in casu in quo oportet praeeligere,
+            vel consentire in peccatum sive complacentiam peccati vel tolerantiam poenae, quilibet
+            tenetur praeeligere sive magis eligere poenam quam velle peccare vel peccasse. Praeter
+            casum necessitatis dico quod praeeligere omnem poenam est perfectae virtutis ; dubitare
+            vero est infirmitatis, quia timor naturalis valde fadt dubitare, et ista dubitatio simul
+            potest stare cum caritate ; sed praeeligere culpam alicui poenae, hoc est iniquitatis,
+            si est cum deliberatione et plena voluntate, quia omnis talis voluntas est iniqua, quae
+            peccatum vult vel absolute vel conditionaliter. Unde periculum est et stultitia quaerere
+            hoc ab aliquo infirmo vel etiam a se ipso, quia hoc est hominem ponere in tentationem ;
+            unde nullus confessor debet hoc ab aliquo qui sibi confitetur quaerere. Sed, si
+            poenitens se offerat et dicat se malle mortuum esse quam peccasse vel simile aliquod,
+            gaudendum est, quia hoc est signum bonae voluntatis.</p>
+          <p xml:id="bb-d4e19604-d1e193">Si ergo quaeratur, utrum dolorem contritionis necesse sit esse maximum, si dicatur de
+            dolore sensualitatis, manifestum est quod non ; si de displicentia rationis, aut quantum
+            ad intensionem motus absolute, et sic nec hoc modo oportet esse maximum ; si in
+            comparatione ad alios dolores, dico, sicut de amore, quod oportet quod habeat
+            praedominium. Et sic procedunt rationes probantes ipsum inter omnes alios dolores de
+            rebus creatis obtinere principatum. Quod si intelligatur de dolore sensualitatis, ad
+            omnes per interemptionem solvendum est, sicut tactum, quia sequitur experientiam et
+            delectationem et etiam complexionem vel aliquid tale ; ideo sensibiliter magis dolet
+            quis de morte unigeniti.</p>
+          <p xml:id="bb-d4e19604-d1e196">Ad illud tamen quod obicitur ultimo, quod semper superior movet inferiores, dicendum
+            quod verum est in bis in quibus natae sunt simpliciter obedire, sicut in motu manuum vel
+            pedum ; sed non est ita in affectionibus nisi per multam assuefactionem.</p>
+        </div>
+        <div xml:id="bb-d4e19604-Dd1e201">
+          <head xml:id="bb-d4e19604-Hd1e203">Ad rationes</head>
+          <p xml:id="bb-d4e19604-d1e206">Ad illud quod obicitur, quod parvus, quia admixtus gaudio, dicendum quod dolor
+            contritionis, quando est in anima bene disposita, valde magnus est, et gaudium mitigat
+            dolorem et intendit. Ideo enim dolet, quia vult dolere ; et quanto magis appetit dolere,
+            tanto magis dolet ; et quanto videt se magis dolere, tanto magis gaudet. Ideo patet quod
+            non remittitur, quia non habet oppositionem, immo unum est causa alterius ; tamen bene
+            concedo quod mitigatur et minus laedit. Unde intenditur et mitigatur ; intenditur
+            respectu peccati, et mitigatur respectu poenitentis ; intenditur respectu obiecti,
+            mitigatur respectu subiecti ; vel in tenditur sub ratione displicentiae, mitigatur sub
+            ratione poenae.</p>
+          <p xml:id="bb-d4e19604-d1e209">Ad illud quod obicitur, quod potest recuperari, dicendum quod hoc etiam mitigat dolorem
+            ut dolor contriti non sit cum desperatione, sed cum spe. Tamen quia contritus de se non
+            sperat, quantum est de se, ita se affligit dolore ac si omnino perdidisset ; respirat
+            tamen in misericordia Dei. Et quod obicit, quod magis est dolendum de re irrecuperabili,
+            dicendum quod verum est, ceteris paribus.</p>
+          <p xml:id="bb-d4e19604-d1e212">Ad illud quod obicitur, quod minima gratia delet omnem culpam, dicendum quod dolor,
+            quantumcumque sit parvus, sufficit, si sit gratia informatus ; sed tamen nunquam gratia
+            informat, quin vindicet sibi in corde dominium quoad actum vel motum voluntatis
+            rationalis, non sensualitatis.</p>
+          <p xml:id="bb-d4e19604-d1e215">Ad illud quod obicitur, quod pauci vel nulli mallent esse caeci quam peccasse, iam
+            patet responsio secundum viam praetactam. Si enim in necessitate essent positi, scilicet
+            vel quod a detestatione peccati desisterent vel quod oculos amitterent, et loquor de
+            detestatione interiori, necesse haberent praeeligere ; nunc autem non habent.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

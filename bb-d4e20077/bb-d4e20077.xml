@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20077">
+        <head xml:id="bb-d4e20077-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e20077-Hd1e111" type="question-title">Utrum oporteat intensius conteri de uno peccato quam de
+          alio.</head>
+        <p xml:id="bb-d4e20077-d1e114">Secundo quaeritur, utrum per contritionem plus vel intensius oporteat conteri de uno
+          peccato quam de alio.</p>
+        <div xml:id="bb-d4e20077-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e20077-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e20077-d1e122">Et quod non, videtur : Quia contritio delens culpam est in instanti, sicut patet de
+            iustificatione impii ; sed motus idem in instanti non potest esse magis et min us
+            intensus : ergo etc.</p>
+          <p xml:id="bb-d4e20077-d1e125">Item, quidquid agit in multa simul, ita quod non in singula, non agit in quoddam plus,
+            in quoddam minus ; sed contritio simul agit in multa peccata, ita quod non considerat
+            singula, quia tunc oporteret respectu illorum dividi actionem : ergo contritio non magis
+            detestatur unum peccatum quam alterum.</p>
+          <p xml:id="bb-d4e20077-d1e128">Item, contritio ea ratione detestatur peccatum, qua separativum est a Deo ; sed
+            quodlibet separat a Deo, et ita amittitur Deus per unum peccatum mortale sicut per
+            aliud, et ita per parvum sicut per magnum : ergo etc.</p>
+          <p xml:id="bb-d4e20077-d1e131">Item, contritio respicit peccatum quantum ad duo, scilicet quantum ad offensam et
+            quantum ad damnum ; sed quantum ad offensam omne peccatum habet rationem infiniti, cum
+            sit contra Deum infinitum ; quantum ad damnum, omne peccatum aufert omnes virtutes,
+            sicut dicitur Iacobi 2, 10 et habetur in littera : <quote xml:id="bb-d4e20077-Qd1e133" ana="#iac2_10">Qui peccat in
+              uno factus est omnium reus</quote>. Cum ergo damnum et offensa habeant rationem
+            aequalitatis, videtur quod contritio debeat de omnibus esse aequalis.</p>
+          <p xml:id="bb-d4e20077-d1e138">Item, quantumcumque contritio detestetur modicum peccatum, laudabile est ; et
+            quantumcumque sit parva contritio etiam de maximo peccato, bona est et laudabilis. Ergo
+            videtur quod non sit necessarius gradus intensionis secundum gradum vitiorum et
+            peccatorum.</p>
+          <p xml:id="bb-d4e20077-d1e141">Contra : Maior est dolor de mortali et debet esse quam de veniali. Ergo pari ratione de
+            uno peccato mortali graviori quam de alio minus gravi.</p>
+          <p xml:id="bb-d4e20077-d1e144">Item, secundum <name ref="#GregoryGreat">Gregorium</name>, <quote xml:id="bb-d4e20077-Qd1e149">magis se debet punire
+              per satisfactionem qui gravius peccavit</quote>. Ergo pari ratione idem ipse, cum
+            gravius peccat, gravius se debet punire per contritionem : si ergo de graviori peccato
+            in diversis oportet esse contritionem maiorem, pari ratione in eodem.</p>
+          <p xml:id="bb-d4e20077-d1e153">Item, is est ordo in dolore, qui est et debet esse in amore, quoniam ab. ipso habet
+            ortum ; sed magis bonum secundum ordinatam dilectionem magis est amandum ; ergo pari
+            ratione maius malum magis est detestandum.</p>
+          <p xml:id="bb-d4e20077-d1e156">Item, contritio est dolor rationalis ; sed dolor consequitur existimationem rationis,.
+            existimatio autem rationis non aequaliter pensat omnia peccata, sed quaedam maiora :
+            ergo pari ratione et dolor.</p>
+          <p xml:id="bb-d4e20077-d1e159">Item, esto per impossibile quod aliquis perplexus esset ut caderet in alterum duorum
+            malorum ; constat quod, si ordinatam haberet dilectionem, magis refugeret maius malum :
+            ergo, si magis refugit ante lapsum, pari ratione et post lapsum, et sic etc.</p>
+        </div>
+        <div xml:id="bb-d4e20077-Dd1e163">
+          <head xml:id="bb-d4e20077-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e20077-Hd1e168" type="question-title">Contritio, ut est deletiva culpae, ordinem habet ad magis
+            detestandum maius malum secundum habitum, non secundum actum, sed ut est deletiva
+            poenae, etiam secundum actum</head>
+          <p xml:id="bb-d4e20077-d1e171">Respondeo : Dicendum quod dupliciter est loqui de contritione : aut prout est deletiva
+            culpae aut prout est deletiva poenae. Si prout est deletiva culpae, sic operatur in
+            iustificatione impii in instanti, et sic actu non potest habere ordinem respectu
+            specialium peccatorum , quia simul et in instanti est contra omne peccatum commissum ;
+            habet tamen secundum habitum, quia dolor ille habitualiter disponit ad detestandum
+            aliquod plus, aliquod minus ; et quia habilitat ad detestandum malum quia malum, ideo ad
+            magis detestandum maius malum.. Si autem loquamur de deletiva poenae, sic dicendum quod
+            habet maiorem intensionem et minorem etiam secundum actum, sicut ostendunt rationes
+            inductae ad secundam partem.</p>
+        </div>
+        <div xml:id="bb-d4e20077-Dd1e176">
+          <head xml:id="bb-d4e20077-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e20077-d1e181">1-2. Ad illud ergo quod obicitur in contrarium, patet responsio, scilicet ad primum et
+            secundum. Procedunt enim de contritione secundum primam viam, scilicet ut est in
+            iustificatione impii.</p>
+          <p xml:id="bb-d4e20077-d1e184">3-4. Ad illud quod obicitur de separatione et damno et offensa, dicendum quod separatio
+            attenditur in elongatione secundum dissimilitudinem, et offensa secundum contemptum, et
+            damnum secundum amissionem gratuitorum et vulnerationem naturalium sive dehabilitationem
+            ; et in.his poenae gradus est ; unde illud non valet Quamvis enim Deus ab omnibus
+            offendatur, tamen aliqui contemnunt eum plus, aliqui minus ; et similiter in aliquo
+            peccato plus natura laeditur et a virtute plus elongatur.</p>
+          <p xml:id="bb-d4e20077-d1e187">Ad illud quod obicitur, quod de parvo non minus potest dolere, dicendum quod sicut in
+            caritate non est dare quin amor, quantumcumque sit parvus et quantumcumque magnus,
+            semper sit bonus, tamen in sua magnitudine et parvitate necessario habet ordinem ; sic
+            in proposito est intelligendum. Et sic facile est ad cetera respondere.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

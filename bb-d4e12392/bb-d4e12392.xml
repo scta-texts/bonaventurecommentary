@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12392">
+        <head xml:id="bb-d4e12392-Hd1e108">Dubia</head>
+        <div xml:id="bb-d4e12392-Dd1e111">
+          <head xml:id="bb-d4e12392-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-d4e12392-d1e116">In parte ista sunt dubitationes circa litteram. Et primo de hoc quod dicit <name ref="#Lombard">Magister</name> : Mysterium fidei credi salubriter potest, investigari
+            salubriter non potest. Videtur enim secundum hoc quod omnes peccent graviter qui
+            disputant de bis quae ad fidem spectant.</p>
+          <p xml:id="bb-d4e12392-d1e122">Respondeo : Dicendum quod facienda est vis tam in hoc quod dicit mysterium fidei, quam
+            in verbo investigandi. Mysterium enim secretum est, et illud non est investigandum, ut
+            homo velit ratione comprehendere quod Dominus voluit occultare ; et qui aliter facit
+            peccat et praesumptuosus est, dum se elevat ad id ad quod non potest pertingere. Qui
+            autem disputat de fide, non ad mysterii investigationem, sed potius ad defensionem, ille
+            non facit contra hoc quod dicit <name ref="#Augustine">Augustinus</name> et <name ref="#Lombard">Magister</name>.</p>
+        </div>
+        <div xml:id="bb-d4e12392-Dd1e132">
+          <head xml:id="bb-d4e12392-Hd1e134">Dub. II.</head>
+          <p xml:id="bb-d4e12392-d1e137">Item quaeritur de hoc quod dicit quod haec concedenda est : Illud quod erat panis vel
+            vinum, post consecrationem est corpus Christi. Videtur enim falsum dicere, quia
+              <mentioned> quod </mentioned> est relativum identitatis ; sed ibi nihil manet commune
+            : ergo talis locutio est falsa. Praeterea, quaero : pro quo supponit, cum dicitur : quod
+            erat panis ? Aut pro supposito panis aut Christi. Si pro supposito panis, contra : isti
+            nunquam convenit praedicatum. Si pro supposito corporis, ergo implicatio est falsa, quia
+            corpus Christi nunquam fuit panis.</p>
+          <p xml:id="bb-d4e12392-d1e143">Respondeo : Dicendum quod, proprie loquendo - cum hoc relativum quod sit relativum
+            identitatis, et suppositum non sit idem cum praedicato - quod, simpliciter loquendo,
+            proprie falsa est ; nec <name ref="#Lombard">Magister</name> dicit concedendam secundum
+            opinionem suam. Si autem legatur a Sanctis, exponendam esse credo. Unde cum <name ref="#Augustine">Augustinus</name> dicit quod corpus Christi dicimus illud quod ex
+            fructibus terrae collectum etc., dicendum quod illud dictum est quantum ad signum
+            exterius, et secundum metaphoram es intelligendum illud, secundum, quod signum pro
+            signato ponitur ; et vocatur hic corpus Christi Sacramentum corporis Christi.</p>
+        </div>
+        <div xml:id="bb-d4e12392-Dd1e153">
+          <head xml:id="bb-d4e12392-Hd1e155">Dub. III.</head>
+          <p xml:id="bb-d4e12392-d1e158">Item quaeritur : quid est quod dicit <name ref="#GregoryGreat">Gregorius</name>, in
+            ipsa immolationis hora caelos aperiri ? Videtur enim male dicere, quia, si aperiuntur,
+            quaero, ad quid ? Si ut descendat, videtur falsum, quia potest descendere sine apertione
+            caelorum. Et iterum, ad quid descendit, si panis convertitur in corpus suum hic inferius
+            ? Si dicas hoc dictum tropice, quaero, quo tropo ?</p>
+          <p xml:id="bb-d4e12392-d1e164">Respondeo : Dicendum quod panis iste qui in altari conficitur est panis caelestis ;
+            caelum autem dicitur aperiri, quando vehemens fit influentia de supernis. Quoniam igitur
+            immolationis hora nobis panis caelestis et supersubstantialis tribuitur, hinc est quod
+              <name ref="#GregoryGreat">Gregorius</name> caelos dicit aperiri, sicut in eius
+            nativitate dicitur quod per totum mundum melliflui facti sunt caeli, quia datus est
+            nobis ille qui, dulcio est super mel et favum.</p>
+        </div>
+        <div xml:id="bb-d4e12392-Dd1e171">
+          <head xml:id="bb-d4e12392-Hd1e173">Dub. IV.</head>
+          <p xml:id="bb-d4e12392-d1e176">Item quaeritur de hoc quod dicit : In caelum rapitur, ministerio angelorum consociaqdum
+            corpori Christi. Videtur enim falsum dicere, quia illud corpus sumitur a sacerdote, ergo
+            non rapitur ministerio. Item, quomodo consociatur corpori Christi, cum idem sit corpus ?
+            Item, quaeritur : quomodo intelligitur illud quod scribitur in canone : Iube haec
+            perferri per manus sancti angeli tui ? quid est quod perfertur ? et quis est angelus qui
+            perfert ?</p>
+          <p xml:id="bb-d4e12392-d1e179">Respondeo : Dicendum quod sicut praedicta verba circa confectionem figurative et
+            secundum tropum intelligenda sunt, sic et ista. Unde sicut maous angelorum non
+            intelliguntur corporaliter, sic nec rapi hoc sacramentum intelligendum est localiter vel
+            corporaliter ; similiter nec consociari situaliter. Sed hoc intelligendum est quod sicut
+            angeli intelliguntur Deo offerre orationes nostras et petitiones similiter et desideria
+            non propter ignorantiam Dei, sed propter commoditatem nostram, quia suis sanctis
+            affectibus puris nos adiuvant et merita nostra in conspectu Dei replicant, ut ex eorum
+            puritate sancta et affectione ferventi ratione dignitatis nuntii sint acceptabilia -sic
+            intelligendum est offerre sacrificia, quia sacris mysteriis assistentes una : nobiscum
+            precantur, ut nostra munera sint accepta et una nobiscum reverentur sanctissimum corpus
+            Christi sicut in caelo. Ideo dicuntur in caelum rapere et consociare quantum ad hoc quod
+            reputant honore dignum in altari ut in caelo. Per hunc etiam modum intelligenda est
+            oratio canonis, quia, sicut exponit <ref xml:id="bb-d4e12392-Rd1e181" target="http://scta.info/resource/hy7y7y-d1e1964">Innocentius</ref>, angelus ille
+            magni consilii est Christus ; per manus illius oramus sacrificium perferri, id est
+            ipsius meritis et precibus nostrum sacrificium Deo acceptari. Unde ipse est pontifex et
+            advocatus noster et apparet continue vultui Dei, ad interpellandum pro nobis. Et sic
+            patent quaesita.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

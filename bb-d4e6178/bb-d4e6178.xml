@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e6178">
+        <head xml:id="bb-d4e6178-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e6178-Hd1e111" type="question-title">Utrum Christo data sit potestas dimittendi peccata.</head>
+        <p xml:id="bb-d4e6178-d1e114">Secundo quaeritur circa hoc, utrum Christo data sit potestas dimittendi peccata.</p>
+        <div xml:id="bb-d4e6178-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e6178-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e6178-d1e122">Et quod sic, videtur : Ante resurrectionem enim dicit, Matthaei 9, 6 : <quote xml:id="bb-d4e6178-Qd1e124" ana="#mt9_6">Ut autem sciatis, quia Filius hominis habet potestatem dimittendi
+              peccata</quote> ; post resurrectionem etiam dicit, Matthaei ultimo, 18 : <quote xml:id="bb-d4e6178-Qd1e127" ana="#mt28_18">Data est mihi omnis potestas</quote> etc.</p>
+          <p xml:id="bb-d4e6178-d1e131">Item, ratione videtur, quia Christus est redemptor secundum quod homo, et mediator,
+            sicut dicitur in libro III Sententiarum, distinctione decima nona ; sed maius est
+            redimere genus humanum quam peccata dimittere : ergo etc.</p>
+          <p xml:id="bb-d4e6178-d1e134">Item, humana natura est unita divinae in unitate personae, ergo multo fortius in
+            unitate operationis : ergo, quamvis sit Dei solius, est tamen hominis Christi etiam
+            dimittere peccata.</p>
+          <p xml:id="bb-d4e6178-d1e137">Contra : Ille solus potest peccata dimittere qui potest animas vivificare ; sed solius
+            Dei, et non alterius, est animas vivificare, sicut dicit <name ref="#Augustine">Augustinus</name> : ergo etc.</p>
+          <p xml:id="bb-d4e6178-d1e144">Item, quamvis homo ille sit Deo unitus, tamen homo est et creatura, ergo finitae
+            potentiae ; sed animam recreare, cum sit facta nihil per peccatum, est infinitae
+            potentiae : ergo illud non potest Christus secundum quod homo.</p>
+        </div>
+        <div xml:id="bb-d4e6178-Dd1e148">
+          <head xml:id="bb-d4e6178-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e6178-Hd1e153" type="question-title">Christo, secundum quod est homo, competit potestas dimittendi
+            peccata dispositive sive per modum meriti, non vero effective</head>
+          <p xml:id="bb-d4e6178-d1e156">Respondeo : Dicendum quod, si hoc intelligatur de potestate effectiva dimittendi
+            peccata, sic solius Dei est, non hominis, quia Christus interius baptizat, non secundum
+            quod homo, sed secundum quod Deus. Si autem de potestate dispositiva, utpote per modum
+            meriti, sic Christus meruit nobis dimittere peccata et quantum ad poenam et quantum ad
+            culpam. Unde quia Deus, dedit dona hominibus et condonavit culpam ; quia vero homo
+            innocens, accepit in nobis dona, id est meruit, ut nos acciperemus.</p>
+          <p xml:id="bb-d4e6178-d1e159">Meruit autem Christus nobis remissionem culpa et relaxationem poenae sua passione, quae
+            fuit Deo gratissima et in se fuit acerbissima, nullo modo ex delicto suo, immo propter
+            solvenda debita nostra ; et in hoc habet Christus excellere, in quantum homo, in
+            potestate dimittendi poenam, quia per se potest totum condonare ; sicut et fecit mulieri
+            in adulterio deprehensae et nunc etiam potest sine clave aliqua. Alii autem homines si
+            possunt, hoc est potestate per quam Dominus eis commisit suae passionis thesaurum et
+            meritum dispensandum quasi custodibus thesauri. Ideo ampliori modo nobilitatis
+            attribuitur Christo, etiam secundum quod homo, potestas dimittendi peccata quam aliis ;
+            non quod ipse deleat culpam, sicut ostendunt rationes, quia, sicut probatum est in primo
+            libro et in praecedenti problemate, talis deletio fit per gratiae infusionem et
+            creationem, et iste est actus potentiae infinitae ; creatura autem potentiae infinitae
+            non est capax, nec per potentiam finitam potest continuari potentiae agentis actu
+            infinito : et ideo nullo modo nec unitae nec non unitae creaturae alicui convenit
+            potestas baptizandi interius sive remittendi peccata effective, sed solum dispositive,
+            et hoc competit merito Christi ; vel tantum formaliter, et hoc competit gratiae, quam
+            impetrat Christus.</p>
+        </div>
+        <div xml:id="bb-d4e6178-Dd1e164">
+          <head xml:id="bb-d4e6178-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e6178-d1e169">Ex his patent obiecta. Quod enim dicitur in Matthaeo, intelligitur secundum idiomatum
+            communicationem, non quod, secundum quod homo, hoc possit.</p>
+          <p xml:id="bb-d4e6178-d1e172">Ad illud quod obicitur de redemptione, dicendum quod in redemptione duo sunt : est enim
+            ibi solutio pretii, pro quo eramus obligati, et donatio gratiae, per quam sumus
+            reconciliati. Primum quidem est minoris potentiae, secundum maioris ; et ratione primi
+            dicitur Redemptor, scilicet ratione humanitatis, ratione secundi quantum ad divinitatem
+            ; nec humanitas suffecisset nisi Deitati unita esset.</p>
+          <p xml:id="bb-d4e6178-d1e175">Ad aliud dicendum quod unitas operationis non sequitur unitatem personae, sed naturae.
+            Et quia Patris et Filii una est natura, quamvis duae sint personae, ideo unam habent
+            operationem. Quia vero humanitas et divinitas in Christo sunt diversae naturae, ideo
+            diversas operationes habent.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20567">
+        <head xml:id="bb-d4e20567-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e20567-Hd1e111" type="question-title">Utrum adultum, accedentem ad Baptismum cum actuali peccato,
+          necesse sit antea sacramentum Poenitentiae accipere.</head>
+        <p xml:id="bb-d4e20567-d1e114">Secundo quaeritur, utrum adultum, accedentem ad Baptismum cum actuali, necesse sit ante
+          sacramentum Poenitentiae accipere quam Baptismum.</p>
+        <div xml:id="bb-d4e20567-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e20567-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e20567-d1e122">Et quod sic, videtur : Actuum 2, 38 : <quote xml:id="bb-d4e20567-Qd1e124" ana="#act2_38">Poenitemini, et baptizetur
+              unusquisque vestrum</quote>, Glossa : <quote xml:id="bb-d4e20567-Qd1e127">Dicturus de Baptismate praemisit lamenta
+              poenitentiae, ut prius se aqua afflictioni perfunderent et post sacramento baptismatis
+              lavarent</quote>.</p>
+          <p xml:id="bb-d4e20567-d1e131">Item, Matthaei 3, 5 : <quote xml:id="bb-d4e20567-Qd1e133" ana="#mt3_5">Exibant ad illum</quote> etc., Glossa :
+              <quote xml:id="bb-d4e20567-Qd1e136">Iam tunc exemplum baptizandis dabatur confitendi peccata et promittendi
+              meliora</quote>. Ergo, si debent confiteri, similiter et conteri et satisfacere.</p>
+          <p xml:id="bb-d4e20567-d1e140">Item, ratione videtur, quia Dominus et beatus Ioannes inceperunt praedicationem suam a
+            poenitentia ; sed ab eo deberunt incipere quod est salutis initium : ergo, si ita
+            inceperunt, patet quod primo debet accipere poenitentiam.</p>
+          <p xml:id="bb-d4e20567-d1e143">Item, primo persona corrupit naturam ; sed actuale est corruptio personae et originale
+            naturae, et contra actuale est poenitentia : ergo praeit Baptismum.</p>
+          <p xml:id="bb-d4e20567-d1e147">Item, parvulus non habet nisi originale, sed adultus actuale cum originali ; sed qui
+            habet ampliorem morbum, debet habere amplius remedium : cum ergo Baptismus necessarius
+            sit parvulo, aliquid ultra Baptismum erit necessarium adulto. Sed hoc non est nisi
+            poenitentia : ergo etc.</p>
+          <p xml:id="bb-d4e20567-d1e150">Contra : Baptismus est ianua sacramentorum ; sed ianua est primo, et ante ipsam nihil
+            debet praemitti : ergo etc.</p>
+          <p xml:id="bb-d4e20567-d1e153">Item, <quote xml:id="bb-d4e20567-Qd1e155">Poenitentia est secunda tabula post naufragium</quote>, ut dicit <name ref="#Jerome">Hieronymus</name>, et habetur in littera supra, distinctione decima
+            quarta ; sed secunda dicitur respectu Baptismi : ergo haec non praecedit ipsum.</p>
+          <p xml:id="bb-d4e20567-d1e162">Item, Baptismus omnem culpam delet, sicut supra monstratum est ; unde <name ref="#Augustine">Augustinus</name>, Ad Valerium : Lavacro regenerationis omnia peccata
+            hominum mundantur atque sanantur ; sed superfluum est facere per plura quod potest fieri
+            per unum : ergo ad emundationem non est necessaria poenitentia.</p>
+        </div>
+        <div xml:id="bb-d4e20567-Dd1e169">
+          <head xml:id="bb-d4e20567-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e20567-Hd1e174" type="question-title">Poenitentia, prout est virtus et contritio, in adultis
+            praecedere debet baptismum, sed non, prout est Sacramentum et absolutio et satisfactio;
+            confessio autem de congruo praemitti potest</head>
+          <p xml:id="bb-d4e20567-d1e177">Respondeo : Dicendum quod est loqui de poenitentia ut est virtus et ut est sacramentum.
+            Si loquamur de poenitentia ut est virtus, cuius actus est contritio, necesse est quod
+            praecedat Baptismum in adulto qui habet actuale peccatum ; nemo enim inchoare potest
+            novam vitam nisi poeniteat eum veteris vitae. Si autem loquamur de poenitentia ut est
+            sacramentum, secundum quod homo confitetur et recipit absolutionem, dico quod non est
+            necesse. praecedere, sed de congruo potest. Fit enim confessio sacerdoti, ut homo
+            erubescat et peccata sua recognoscat et de eorum remissione Deo ingratus non existat, et
+            quantum ad hoc congruum est ; sed non oportet nec debet sequi absolutio nec ligatio,
+            quia omnino solvitur in Baptismo. Igitur Poenitentia quantum ad contritionem praecedit
+            necessario ; quantum ad confessionem de congruo ; quantum ad absolutionem et
+            satisfactionem neutro modo. Et quia sacramentum completum est in absolutione, quia ibi
+            est remedium, ideo dico quod poenitentia, secundum quod sacramentum est Ecclesiae,
+            sequitur, non praecedit.</p>
+        </div>
+        <div xml:id="bb-d4e20567-Dd1e182">
+          <head xml:id="bb-d4e20567-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e20567-d1e187">1-2. Ad illud ergo quod obicitur primo, quod lamenta poenitentiae debent praecedere,
+            dicendum quod istud concedendum est ; similiter, quod exemplum dabatur confidendi, non
+            quia necessarium, sed quia congruum.</p>
+          <p xml:id="bb-d4e20567-d1e190">Ad illud quod obicitur, quod praedicatio incepit a poenitentia, dicendum quod incepit a
+            poenitentia-virtute, non sacramento.</p>
+          <p xml:id="bb-d4e20567-d1e193">Ad illud quod obicitur, quod prior est corruptio personae, dicendum quod verum est in
+            primis parentibus, sed post fuit e converso ; et quia sacramenta currunt secundum cursum
+            necessitatis nostrae, ideo patet quod prius debuit esse Baptismus.</p>
+          <p xml:id="bb-d4e20567-d1e196">Ad illud quod obicitur, quod amplius remedium debet habere, dicendum quod verum est,
+            scilicet contritionem ; sed non oportet quod aliud sacramentum, quia Baptismus ad
+            utrumque valet ; et ideo non requiritur aliud sacramentum, sed sufficit actus mentis,
+            per quem se praeparat ad effectum Baptismi, alioquin accederet fictus. Et sic patet
+            illud.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

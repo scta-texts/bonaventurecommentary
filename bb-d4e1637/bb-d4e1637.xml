@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e1637">
+        <head xml:id="bb-d4e1637-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e1637-Hd1e111" type="question-title">De efficacia circumcisionis.</head>
+        <p xml:id="bb-d4e1637-d1e114">Tertio quaeritur de efficacia circumcisionis, et quaeritur, utrum sacramentum
+          circumcisionis sit gratiae collativum.</p>
+        <div xml:id="bb-d4e1637-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e1637-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e1637-d1e122">Et quod non, dicit <name ref="#Lombard">Magister</name> in littera. Hoc ipsum dicit
+            Glossa ad Romanos 4, 11, super illud : <quote xml:id="bb-d4e1637-Qd1e127" ana="#rom4_11">Signaculum fidei
+              accepit</quote>, Glossa : <quote xml:id="bb-d4e1637-Qd1e130">In circumcisione tantum peccata remittebantur sed non
+              gratia per eam praestabatur</quote>.</p>
+          <p xml:id="bb-d4e1637-d1e134">Item, hoc videtur ratione, quia in sacramento aeque vel amplius se extendit ratio
+            significandi quam efficiendi ; sed ratio significandi in circumcisione solum est in
+            ablatione : ergo et efficacia.</p>
+          <p xml:id="bb-d4e1637-d1e137">Item, sicut se habet culpa ad gratiae amotionem, sic gratia ad remotionem culpae ; sed
+            Deus, cum homo peccat, subtrahit gratiam, nec tamen facit culpam : ergo a simili
+            possibile est quod aliquod remedium removeat culpam, quod tamen non dat gratiam : ergo,
+            si hoc est possibile, et concordat ratio et auctoritas, in circumcisione non datur
+            gratia.</p>
+          <p xml:id="bb-d4e1637-d1e140">Item, si Deus esset dator formarum, virtus particularis agentis esset solum in
+            abiciendo, non in ponendo. Ergo, cum Deus sit dator gratiae, virtus circumcisionis solum
+            erit in amovendo oppositum gratiae.</p>
+          <p xml:id="bb-d4e1637-d1e144">Contra : Quod in circumcisione detur gratia, ostenditur, quia eadem vi est corruptio
+            unius oppositi et generatio alterius, et eadem vi, qua receditur ab uno oppositorum,
+            acceditur ad reliquum. Ergo, cum gratia et culpa sint opposita, eadem vi, qua deletur
+            culpa, confertur gratia : ergo, si circumcisio est ad delendam culpam, necesse est in ea
+            conferri gratiam. Si dicas quod hoc non tenet in moribus ; hoc nihil est, quia <name ref="#Ambrose">Ambrosius</name> dicit quod <quote xml:id="bb-d4e1637-Qd1e149">egressus vitii est virtutis
+              ingressus</quote>. </p>
+          <p xml:id="bb-d4e1637-d1e153">Item, accidens corrumpitur dupliciter : aut propter corruptionem subiecti aut propter
+            inductionem contrarii. Ergo, si circumcisio aufert culpam, cum non corrumpat subiectum,
+            de necessitate inducit contrarium ; sed hoc est gratia : ergo etc. Si dicas quod culpa
+            non est accidens, sed privatio, idem sequitur, quia privatio non removetur ab aliquo
+            nisi per positionem habitus : ergo, si culpa est privatio gratiae, nunquam delebitur
+            nisi ponatur gratia. </p>
+          <p xml:id="bb-d4e1637-d1e156">Item, peccatum dicit non-esse moris ; sed impossibile est quod Deus auferat alicui
+            non-esse naturae nisi dando esse, immo non est intelligibile : ergo impossibile et non
+            intelligibile est quod auferat non-esse moris nisi dando esse ; sed non-esse moris est
+            per culpam, esse per gratiam : ergo etc. Si dicas quod non est simile, quia esse et
+            non-esse sunt immediata, non sic culpa et gratia ; contra hoc est, quia privatio et
+            habitus circa suum susceptibile sunt immediata sicut affirmatio et negatio : ergo
+            impossibile est privare unum quin ponatur reliquum. </p>
+          <p xml:id="bb-d4e1637-d1e159">Item, si circumcisio delet culpam et gratia delet, aut ergo circumcisio delet per
+            gratiam aut e converso aut utrumque simul ; sed constat quod non utrumque simul, quia,
+            cum non sint idem in substantia, non habent eamdem operationem immediatam. Item, non
+            gratia per circumcisionem, quia, si non esset circumcisio, gratia per se sufficienter
+            deleret culpam tamquam immediata causa ; ergo circumcisio delet per gratiam : ergo per
+            prius ordinatur circumcisio ad gratiam quam ad culpam delendam.</p>
+        </div>
+        <div xml:id="bb-d4e1637-Dd1e163">
+          <head xml:id="bb-d4e1637-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e1637-Hd1e168" type="question-title">In circumcisione conferebatur gratia, sed tantum parvula
+            respectu magnae gratiae, quae datur in baptismo</head>
+          <p xml:id="bb-d4e1637-d1e171">Respondeo : Dicendum quod circa hoc diversi diversimode senserunt.</p>
+          <p xml:id="bb-d4e1637-d1e174">Quorumdam enim positio fuit quod originale, ut est culpa, est concupiscentia cum debito
+            non concupiscendi ; et non ideo est culpa quia concupiscentia, haec enim est in
+            iustificatis, sed ideo quia est cum debito non concupiscendi. Cum ergo deletur culpa
+            originalis, quia deletur quantum ad reatum et remanet quantum ad actum, dicunt quod
+            solvitur debitum, id est, non imputatur ; et tunc igitur remanet concupiscentia actu
+            poena. Hoc igitur est quod dicunt originale deleri, id est, debitum non concupiscendi
+            non imputari ; et hoc quidem sine alicuius gratiae collatione fieri potest et fit in
+            circumcisione. Sed haec responsio non potest stare duplici ratione : una quidem, quia,
+            si Deus non imputat hoc debitum ipsi animae quod prius imputabat, aut ergo aliqua
+            innovatio facta est circa animam aut mutatio circa Deum ; non mutatio circa Deum : ergo
+            innovatio circa animam : ergo aut aliquid est ab ea ablatum aut positum. Si ablatum, aut
+            bonum aut malum ; non bonum, ergo malum ; non malum poenae tantum, ergo culpae : ergo,
+            si culpa est privatio, quae non aufertur nisi aliquid ibi ponatur, necesse est aliquid
+            poni. Sed nihil ponitur in anima quod expellat culpam nisi gratia. Alia ratio est, quia,
+            si debitum tantum non imputaretur et gratia non daretur, cum nullus possit videre Deum
+            quin habuerit gratiam, tunc ergo iustus ab originali peccato mundatus per
+            circumcisionem, si moriatur, cum non habuerit gratiam, non videbit Deum : ergo eamdem
+            poenam habebit ac si haberet originale.</p>
+          <p xml:id="bb-d4e1637-d1e177">Alia positio magis ultra processit et dixit quod in circumcisione dabatur gratia et
+            delebatur culpa ; sed culpa delebatur vi circumcisionis, gratia non dabatur vi eius, sed
+            ex liberalitate Dei, qui non delet culpam quin decoret animam et gratam sibi faciat,
+            quamvis posset aliter facere, quia secundum naturam medium est inter culpam et gratiam,
+            scilicet ipsa innocentia, et delere culpam, hoc est reddere innocentiam ; sed Deus
+            nunquam reddit innocentiam quin superaddat gratiam. Et per hoc respondent ad obiecta de
+            contrarietate et de habitu et privatione, quia gratia non est directe et immediate
+            habitus oppositus culpae, sed innocentia. Ad hanc innocentiam, secundum quod est
+            privatio culpae, ordinatur circumcisio disponens ex parte suscipientis, sed gratia ex
+            parte agentis. Sed haec positio non potest stare, duplici ratione : prima quidem, quia,
+            si innocentia esset medium secundum naturam inter culpam et gratiam ; prius naturaliter
+            restitueretur innocentia et expelleretur culpa quam infunderetur gratia ; sed hoc est
+            manifeste falsum, quia tunc gratia non deleret culpam. Si enim delet, prius naturaliter
+            infunditur quam culpa deleatur. Alia ratio est, quia, etsi Deus posset delere culpam
+            sine gratia, non tamen decrevit delere nisi per gratiam : ergo, si dat virtutem
+            sacramento consonantem suo decreto, non dat virtutem ad. culpam delendam nisi disponendo
+            ad gratiam.</p>
+          <p xml:id="bb-d4e1637-d1e181">Tertia positio est quod in circumcisione delebatur culpa et conferebatur gratia et ad
+            utrumque ordinabatur circumcisio ; sed gratia quosdam effectus habet privativos, quosdam
+            positivas ; et circumcisio non ordinabatur primo et per se nisi quantum ad effectus
+            ptivativos ; et ideo solum significabat ablatiotionem. Sed quia effectus privativi non
+            sunt sine positivis, ex consequenti erant ibi effectus positivi ; et quia ex
+            consequenti, non oportebat eos significari. Exemplum autem manifestum est in conversione
+            panis in corpus Christi, in quo est consequenter et sanguis, sed tamen non significatur
+            ibi. Effectus autem gratiae positivi sunt sicut habilitare ad bona opera, privativi,
+            sicut removere culpam. Sed ista positio non potest stare, duplici ratione : prima
+            quidem, quia, si vi circumcisionis ponitur gratia in anima et potentiis, quia delet
+            culpam, quae in his est, cum poni gratiam in anima non sit aliud quam gratificari, et in
+            potentiis quam potentias habilitari : ergo non separantur nec secundum rem nec secundum
+            intellectum : ergo impossibile est ponere vel intelligere quod circumcisio habeat vim ad
+            unum quin edam habeat ad reliquum. Alia ratio est, quia effectus positivi aliqui
+            secundum rem idem sunt cum privativis, quia, sicut lumen materiale nunquam delet
+            tenebras nisi illuminando aera, sic nec lumen gratiae tenebras peccati.</p>
+          <p xml:id="bb-d4e1637-d1e184">Quarta positio fuit quod in circumcisione dabatur gratia, sed tamen parvula respectu
+            eius quae datur in Baptismo. Et ratio huius videbitur in sequenti distinctione, cum de
+            profectu sacramentorum disputabitur. Et quia gratia quantumcumque parva plenum effectum
+            habet ad delendum omnem culpam mortalem, sed semiplenum ad habilitandum animas et
+            perficiendum, ideo circumcisio dicitur ordinari ad effectum ablationis culpae, non quia
+            ipsum solum habeat, sed quia solum habet completum. Et quia sacramentum non omne
+            significat quod, facit, sed quod plenius et perfectius facit, ideo in circumcisione
+            solum est signum ablationis principaliter.</p>
+        </div>
+        <div xml:id="bb-d4e1637-Dd1e189">
+          <head xml:id="bb-d4e1637-Hd1e191">Ad rationes</head>
+          <p xml:id="bb-d4e1637-d1e194">Et per hoc patent auctoritates et obiecta : quia nec Glossa nec <name ref="#Lombard">Magister</name> voluerunt negare quod nullo modo daretur gratia habilitans, sed quod
+            ita parum habilitans et ita parum reprimens concupiscentiam quod solum merebatur dici
+            deletiva culpae, non habilitativa potentiae.</p>
+          <p xml:id="bb-d4e1637-d1e200">Ad illud quod obicitur de significatione, patet responsio, quod illud debet sacramentum
+            significare quod plene et perfecte facit, non omne quod facit ex consequenti sive
+            imperfecte.</p>
+          <p xml:id="bb-d4e1637-d1e203">Ad illud quod obicitur, quod Deus subtrahit gratiam et non facit culpam, ergo etc.,
+            dicendum quod Deus dicitur subtrahere gratiam, non quia perimat datam, sed quia ultra
+            non apponit ; sed homo per culpam perimit datam, et ita non conveniunt in effectu Deus
+            et culpa.</p>
+          <p xml:id="bb-d4e1637-d1e206">Ad ultimum dicendum, quod illud nihil valet, quia, sicut solus Deus dat gratiam, ita
+            solus delet oppositum ; unde Isaiae 43, 25 : Ego sum qui deleo iniquitates etc.
+            Praeterea, si illa positio esset vera, nunquam agens particulare aliquid abiceret.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

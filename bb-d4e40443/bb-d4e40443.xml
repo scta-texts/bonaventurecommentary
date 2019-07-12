@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e40443">
+        <head xml:id="bb-d4e40443-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e40443-Hd1e111" type="question-title">Utrum sit gravius peccatum occidere uxorem quam matrem.</head>
+        <p xml:id="bb-d4e40443-d1e114">Secundo quaeritur, utrum gravius peccatum sit occidere uxorem quam matrem.</p>
+        <div xml:id="bb-d4e40443-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e40443-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e40443-d1e122">Et quod sic, videtur : Quia quod gravius punitur, gravius est in offensa ; sed peccatum
+            interfectionis uxoris gravius punitur quam peccatum interfectionis matris, sicut patet
+              <ref xml:id="bb-d4e40443-Rd1e124" target="gd-p2c33q2-d1e236">Causa XXXIII, quaestione 2, Admonere etc.</ref>
+          </p>
+          <p xml:id="bb-d4e40443-d1e128">Item, quod est magis contra naturam, illud est maius peccatum ; sed magis contra
+            naturam est odire et occidere carnem suam quam alienam, quia, ad Ephesios 5, 29, <quote xml:id="bb-d4e40443-Qd1e130" ana="#eph5_29">nemo unquam camem suam odio habuit</quote> ; et uxor est caro viri,
+            sicut ibidem dicitur, quia sunt una caro : ergo videtur gravius peccatum.</p>
+          <p xml:id="bb-d4e40443-d1e134">Item, amor uxoris, sicut patet ex textu Genesis 2, 24, superexcedit amorem patris et
+            matris, etiam amor castus ; et hoc etiam videtur innui Genesis 24, 67, de Isaac, qui
+            tantum dilexit Rebeccam quod dolorem, qui de matre acciderat, temperaret ; sed quanto
+            magis aliquis inclinatur ad amorem, tanto minus ad laesionem : ergo videtur quod, si
+            occidat uxorem, gravius peccat.</p>
+          <p xml:id="bb-d4e40443-d1e137">Item, qui occidit uxorem, facit contra bonum naturae et sacramenti, cum sint coniuncti
+            ad individuam vitae consuetudinem ; qui autem occidit matrem, facit contra alterum
+            tantum : ergo etc.</p>
+          <p xml:id="bb-d4e40443-d1e141">Contra : Licitum est percutere et verberare uxorem in casu ; sed nunquam licitum est
+            verberare matrem : ergo gravior est offensa illata matri quam uxori : ergo etc.</p>
+          <p xml:id="bb-d4e40443-d1e144">Item, tanto gravior est offensa, quanto personae, in quam est, debetur maior reverentia
+            ; sed multo maior reverentia debetur matri quam uxori : ergo maior est offensa quae est
+            in matrem, et sic etc.</p>
+          <p xml:id="bb-d4e40443-d1e147">Item, facilius frangitur amor socialis quam naturalis, pro eo quod naturalia magis
+            adhaerent ; sed amor matris est naturalis, amor uxoris socialis : ergo maioris
+            perversitatis et crudelitatis est occidere matrem.</p>
+          <p xml:id="bb-d4e40443-d1e150">Item, gravius est eum offendere a quo plura beneficia sunt percepta ; sed plura
+            beneficia percipiuntur a matre quam ab uxore : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e40443-Dd1e154">
+          <head xml:id="bb-d4e40443-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e40443-Hd1e159" type="question-title">Gravius peccatum est, in genere loquendo occcidere matrem quam
+            uxorem</head>
+          <p xml:id="bb-d4e40443-d1e162">Respondeo : Dicendum quod absque dubio gravius peccatum est, in genere loquendo,
+            occidere matrem quam occidere uxorem, tum ratione personae exterioris, cui debetur maior
+            reverentia, tum ratione minoris pronitatis. Pronior enim est homo iracundus ad
+            verberandam uxorem quam matrem, quoniam, quando propter aliquam causam displicet,
+            mirabile odium et taedium generatur, et ideo pronior est ad occidendam uxorem quam
+            matrem. Ad occidendam autem matrem nullius natura inclinatur, nisi sit per iniquitatem
+            conversa in crudelitatem super bestias. Et quoniam homo pronior est ad uxoricidium, hinc
+            est quod, quamvis minus sit peccatum, tamen maior poena imponitur, ut per incussionem
+            timoris pronitas restringatur.</p>
+        </div>
+        <div xml:id="bb-d4e40443-Dd1e167">
+          <head xml:id="bb-d4e40443-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e40443-d1e172">Et per hoc patet primo obiectum.</p>
+          <p xml:id="bb-d4e40443-d1e175">Ad illud quod obicitur, quod magis est contra naturam, quia una caro, dicendum quod
+            maior est unio inter filium et matrem quam inter virum et uxorem secundum rem, quamvis
+            in Matrimonio sit maior secundum significationem, pro eo quod caro matris et filii
+            habent convenientiam in substantia et natura, sed caro masculi et feminae secundum actum
+            commixtionis et unionis ; et ideo ad tempus plus trahitur homo ad uxorem, sed
+            simpliciter plus trahitur ad matrem.</p>
+          <p xml:id="bb-d4e40443-d1e178">Ad illud quod obicitur, quod plus excedit amorem matris, dicendum quod verum est
+            intensive, tamen quantum ad radicationem facilius est quod vir concitetur in odium
+            uxoris et e converso per unam fornicationem quam mater in odium filii vel e converso.
+            Tamen hoc non dicitur, quod relinquat matrem quantum ad affectum, sed quantum ad
+            coniunctionem sexuum.</p>
+          <p xml:id="bb-d4e40443-d1e181">Ad illud quod obicitur, quod facit contra bonum naturae et sacramenti, dicendum quod
+            verum est ; sed illud praeponderat, scilicet matricidium, adeo est contra naturam ;
+            nunquam enim natura abhorret ita occisionem alicuius cui commiscetur, sicut eius in
+            cuius utero fuit totus. Unde quamvis canon dicat, Causa XXXIII, quaestione 2, quod
+            occidens uxorem est crudelior omni bestia, quia partem sui corporis occidit,
+            intelligendum est hoc dictum esse per emphaticum modum loquendi, secundum quem modum
+            posset dici quod mater est totum corpus filii, cum totum ex matre traxerit ; et ista est
+            veritas, licet <name ref="#HughOfStVictor">Hugutio</name>, super Decreta, senserit
+            contrarium ; non enim in hoc approbatur eius sententia a modernis doctoribus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

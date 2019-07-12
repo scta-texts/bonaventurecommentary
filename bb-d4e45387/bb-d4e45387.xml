@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e45387">
+        <head xml:id="bb-d4e45387-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e45387-Hd1e111" type="question-title">Utrum humores resurgant.</head>
+        <p xml:id="bb-d4e45387-d1e114">Quantum, ergo ad primum quaeritur, utrum humores resurgent.</p>
+        <div xml:id="bb-d4e45387-Dd1e117">
+          <p xml:id="bb-d4e45387-d1e119">Et quod non, videtur : Quia nihil resurget nisi quod est de veritate humanae naturae ;
+            sed humores non sunt de veritate humanae naturae, quia quotidie mutantur et restaurantur
+            et deperduntur : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e122">Item, si humor resurget et est de veritate naturae humanae, ergo totaliter oportet
+            resurgere : ergo totus sanguis, qui exit de homine per phlebotomiam vel alio modo,
+            resurget ; sed hoc generaret indecentiam : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e125">Item, quod non vivit, non debet resurgere, quia resurrectio est ad vitam ; sed humores
+            non vivunt : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e128">Item, nihil debet resurgere in corpore, quod non habeat aliquem usum ; sed humores sunt
+            ad restaurationem deperditi, quod non est in corpore resurgente : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e131">Item, nihil resurget nisi quod consonat qualitati et naturae corporis resurgentis ; sed
+            corpus resurgens erit luminosum et impassibile, humores autem sunt fluxibiles et
+            variabiles : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e135">Contra: Quod est de constitutione corporis resurget in illo ; sed humores sunt
+            huiusmodi : ergo etc. unde <name ref="#Augustine">Augustinus</name> : Corpus constat ex
+            membris officialibus, officialia ex similibus, similia ex humoribus, humores ex cibis,
+            cibi ex elementis. Ergo immediatius se habent humores ad corpus quam elementa : si ergo
+            illa resurgent, et hi similiter.</p>
+          <p xml:id="bb-d4e45387-d1e141">Item, quod est de perfectione corporis resurget in illo : sed humores sunt huiusmodi,
+            quia penes humores distinguuntur complexiones : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e144">Item, hoc videtur, quia medium et dispositio uniendi animam corpori resurget in illo ;
+            sed sanguis est huiusmodi, et hoc patet auctoritate Deuteronomii 12, 23 : Sanguis eorum
+            pro anima, Glossa : Aliquid vitale est in sanguine, et per ipsum maxime anima carni
+            unitur.</p>
+          <p xml:id="bb-d4e45387-d1e147">Item, hoc ipsum videtur ratione, quia spiritus est medium uniendi animam corpori ; sed
+            spiritus, sicut dicunt physici, ex humoribus generantur ; hoc ipsum patet exemplo : quia
+            nulla laesione facta in corpore, si totus sanguis exiret, statim anima recederet : si
+            ergo humores sunt medium et ratio uniendi : ergo necesse est quod resurgant.</p>
+          <p xml:id="bb-d4e45387-d1e150">Item, si non resurgent, cum huiusmodi humores impleant corpus, resurget vacuum et
+            imperfectum, et per hoc deforme ; sed hoc est indecens in Beatis : ergo etc.</p>
+          <p xml:id="bb-d4e45387-d1e153">Item, in Sacramento altaris convertitur vinum in verum sanguinem ; sed hoc esset
+            impossibile nisi sanguis resurrexisset in Christo ; sed si in ipso resurrexit, et in
+            quolibet alio : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e45387-Dd1e157">
+          <head xml:id="bb-d4e45387-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e45387-Hd1e162" type="question-title">Humiditas complexionalis et humores resurgent</head>
+          <p xml:id="bb-d4e45387-d1e165">Respondeo : Dicendum quod differt, sicut dicunt physici, humor et humiditas. Nam humor
+            dicitur prout est in venis ; humiditas autem prout extra venas dirigitur et extra venas
+            st et prout ab eis derivatur ad membra. Distinguit enim Avicenna inter humorem et
+            humiditatem et dicit quod humor dicitur prout est in venis, humiditas autem prout a
+            venis derivatur ad membra ; et hoc in triplici statu : aut in primo egressu a venis, et
+            sic vocatur ros, humiditas scilicet quae est in foraminibus parvarum venarum ; aut prout
+            incipit ultra progredi et dealbari, et sic vocatur cambium ; aut prout est iam dealbata
+            et cibans in actu, et sic vocatur gluten. Haec autem distinctio humiditatis ad duo
+            membra reducitur, scilicet ad humiditatem nutrimentalem, et haec complectitur rorem et
+            cambium ; et complexionalem, et haec est gluten, quae est de complexione membri
+            consimilis, in qua est tertia species hecticae. Et nutrimentalis, quia respicit statum
+            et indigentiam, non resurget ; sed humiditas complexionalis absque dubio resurget.</p>
+          <p xml:id="bb-d4e45387-d1e168">Sed quid de humoribus dicemus, cum sint currentes et non sint de substantia membri nec
+            de complexione radicali ? Dicendum quod absque dubio resurgent ; cum vinum convertatur
+            in Sacramento altaris in sanguinem, qui effusus est in remissionem peccatorum, et iste
+            est sanguis habens speciem sanguinis. Unde non video quomodo vere sanguis non
+            resurrexerit in Christo ; et si hoc, pari ratione et in quolibet alio. Et praeterea,
+            numquid venae remanebunt vacuae ? Et quod hoc sit verum, quod sanguis resurgat, habetur
+            in sermone sancti <name ref="#Ambrose">Ambrosii</name> De Martyribus : Dignum et
+            congruum. Et ideo dicendum quod humores resurgent. Et concedendae sunt rationes ad
+            hoc.</p>
+        </div>
+        <div xml:id="bb-d4e45387-Dd1e176">
+          <head xml:id="bb-d4e45387-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e45387-d1e181">1-2. Ad illud quod obicitur, quod non sunt de veritate humanae naturae, dicendum quod
+            aliquid est de veritate humanae naturae tripliciter : aut quantum ad esse necessarium,
+            sicut membra principalia ; aut quoad esse integrum et completum, ut illa quae faciunt ad
+            corporis perfectionem ; aut quoad esse decorum. Prima necessarium est resurgere secundum
+            totalitatem ; sed quae secundo et tertio, congruum est resurgere secundum id secundum
+            quod faciunt ad complementum et decorem. Et quia humores ad plenitudinem et integritatem
+            faciunt, resurgent in tanta quantitate quanta corpori competit. Et per hoc patet
+            secundum, quia non oportet quod totus sanguis quem emittimus per minutionem resurgat,
+            sed quantum congruit. Similiter de carne quae fluit et refluit iudicandum est.</p>
+          <p xml:id="bb-d4e45387-d1e184">Ad illud quod obicitur, quod non vivunt, dicendum quod tripliciter est aliquid vivere :
+            aut quia recipit influentiam vitae, aut quia disponit ad vitam, aut quia ortum et
+            conservationem habet ex actu vitae. Primo modo vivificatur substantia corporalis et
+            caro, secundo modo vivit spiritus et humor, tertio modo capilli et etiam ungues ; et
+            quia omnia ista complexionem habent cum vita, omnia resurgent.</p>
+          <p xml:id="bb-d4e45387-d1e187">Ad illud quod obicitur, quod non habent usum, dicendum quod falsum est, immo habent
+            usum, scilicet ipsum corpus disponere ad vitam ; sed nunc habent ulteriorem usum,
+            scilicet restaurare, et hunc habent, quia de novo generantur ; et hunc ibi non
+            habebunt.</p>
+          <p xml:id="bb-d4e45387-d1e190">Ad illud quod obicitur, quod non congruunt corpori luminoso et impassibili, dicendum
+            quod sicut caro et os secundum statum praesentem non congruunt, sed sublimabuntur et
+            subtiliabuntur ; sic est intelligendum de humoribus et membris omnibus interioribus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

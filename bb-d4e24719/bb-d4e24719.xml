@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24719">
+        <head xml:id="bb-d4e24719-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e24719-Hd1e111" type="question-title">A quo possit excommunicatio fieri.</head>
+        <p xml:id="bb-d4e24719-d1e114">Tertio quaeritur, a quo possit excommunicatio fieri.</p>
+        <div xml:id="bb-d4e24719-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e24719-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e24719-d1e122">Et quod a solo habente clavem, ostenditur sic : Solvere et ligare sunt actus clavium ;
+              <quote xml:id="bb-d4e24719-Qd1e124">sed excommunicare est ligare</quote>, ut dicit <name ref="#Lombard">Magister</name> in littera ; sed <quote xml:id="bb-d4e24719-Qd1e130">cuius est actus, eius est et potentia</quote>
+            : ergo etc.</p>
+          <p xml:id="bb-d4e24719-d1e134">Item, excommunicare est a communione sacramentorum separare ; sed eius est a communione
+            sive a participatione separare, cuius est administrare ; sed solus sacerdos qui habet
+            claves potest Sacramentum corporis et sanguinis administrare : ergo solus potest
+            excommunicare.</p>
+          <p xml:id="bb-d4e24719-d1e137">Item, Petro data est potestas ligandi et solvendi in foro iudiciali et poenitentiali ;
+            quaero igitur, quando ? Non nisi quando datae fuerunt ei claves : ergo qui non habet
+            claves, non habet hanc potestatem.</p>
+          <p xml:id="bb-d4e24719-d1e140">Item, maioris virtutis est et potestatis ligare vinculo excommunicationis quam
+            satisfactionis ; sed solus sacerdos potest poenitentiam imponere et confessiones audire
+            qui habet claves : ergo solus talis potest excommunicare, quia qui non potest in minus
+            non potest in maius.</p>
+          <p xml:id="bb-d4e24719-d1e144">Contra : Iudices delegati habent potentiam excommunicandi ; tamen multi eorum claves
+            non habent, quia non sunt sacerdotes : ergo aliquis potest excommunicare, qui non habet
+            claves. Si tu dicas quod non sua auctoritate excommunicat ; obicitur tunc de
+            archidiacono, qui ex suo officio causas audit et decidit : ergo excommunicare potest, et
+            tamen, si non est sacerdos, non habet claves. Si tu dicas quod similiter habet per
+            demandationem vel consuetudinem ; quare non similiter habet actum ligandi in foro
+            poenitentiali per commissionem vel per consuetudinem ? Non enim videtur maior ratio in
+            uno quam in alio.</p>
+          <p xml:id="bb-d4e24719-d1e147">Item, electus canonice et approbatus certum est quod, antequam ordinetur in
+            presbyterum, non habet claves ; tamen potest causas audire et excommunicare propria
+            auctoritate : ergo videtur etc.</p>
+          <p xml:id="bb-d4e24719-d1e150">Item, sacerdos parochialis non habet secundum iura potestatem excommunicandi nisi pro
+            furtis et rapinis et consimilibus ; et constat quod ipse habet claves et usum clavium :
+            ergo excommunicatio non est a potestate clavium.</p>
+          <p xml:id="bb-d4e24719-d1e153">Item, multitudo tota, ut capitulum, excommunicat, ita quod nullus ; sed multitudinem
+            habere claves, ita quod nullus, est impossibile, cum dicat proprietatem absolutam : ergo
+            actus excommunicandi non est a clave.</p>
+          <p xml:id="bb-d4e24719-d1e156">Iuxta hoc quaeritur, cum multitudo non possit excommunicari, ita quod nullus, quomodo
+            possit excommunicare, ita quod nullus.</p>
+        </div>
+        <div xml:id="bb-d4e24719-Dd1e160">
+          <head xml:id="bb-d4e24719-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e24719-Hd1e165" type="question-title">Potestas excommunicandi non sequitur praecise claves, sed est
+            in omnibus qui habent iurisdictionem ordinariam in foro iudicali</head>
+          <p xml:id="bb-d4e24719-d1e168">Respondeo : Dicendum quod inter ipsos iuristas de hac quaestione est controversia.
+            Quidam enim dixerunt quod potestas excommunicandi solum est in episcopis. Alii dixerunt
+            quod non solum est in episcopis, sed etiam in archipresbyteris, archidiaconis et
+            abbatibus et aliis praelatis. Tertii dixerunt quod hoc competit his et etiam
+            sacerdotibus parochialibus.</p>
+          <p xml:id="bb-d4e24719-d1e171">Sed licet in hac quaestione canonum sit dicere quia, tamen theologiae est dicere
+            propter quid, tamquam scientiae superioris. Quod enim in Ecclesia aliquis habeat
+            potestatem, hoc est ab ipso Christo, qui potestatem contulit Apostolis et praecipue ipsi
+            Petro Dominus autem ipsi Petro utramque contulit potestatem, et ligandi et solvendi in
+            foro poenitentiali, et ligandi et solvendi in foro iudiciali. Prima potestas respicit
+            Ordinem, secunda praelationem. Unde secundum primam par potest absolvere parem, secundum
+            secundam non potest par ligare parem nec superiorem ; et hoc est, quia illa est Ordinis,
+            haec ; autem praelationis, scilicet potestas excommunicandi.</p>
+          <p xml:id="bb-d4e24719-d1e174">Prima potestas ligandi et solvendi in foro poenitentiali aditum caeli aperit ; et ideo
+            recte dicitur clavis. Secunda per censuram iudicii subditos coercet ; et ideo dicitur
+            gladius. Prima potestas est potestas arbitrandi inter Deum et hominem, secunda vero
+            inter hominem et hominem ; et ideo prima respicit Ordinem, secunda praelationem. Prima
+            potestas, quoniam collata est Petro ut sacerdoti, descendit in omnes sacerdotes, quamvis
+            non omnes habeant exsecutionem. Secunda, quia collata est Petro ut praelatus est,
+            descendit in omnes personas ecclesisaticas quae habent praelationem vel iurisdictionem.
+            Unde qui habent iurisdictionem ordinariam in iudicando aliquos, habent potestatem
+            coercendi eos per censuram ecclesiasticam, ut iudicium eorum inviolabiliter observetur.
+            Et quoniam iurisdictionem habent non solum habentes claves, sed etiam non habentes,
+            habent, inquam, vel ex iure vel ex consuetudine, sicut archidiaconi et aliqua capitula ;
+            ideo possunt excommunicare. Rursus, quia aliqui habent claves, qui non habent
+            iurisdictionem in foro iudiciali, ut simplices acerdotes, ideo non possunt excommunicare
+            nisi per commissionem vel nisi in casibus determinatis, ut in furto et rapinis. Concedo
+            ergo rationes probantes quod haec potestas non sequitur praecise potestatem clavium.</p>
+        </div>
+        <div xml:id="bb-d4e24719-Dd1e179">
+          <head xml:id="bb-d4e24719-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e24719-d1e184">Ad illud ergo quod primo obicitur, quod solvere et ligare sunt actus clavium ; dicendum
+            quod verum est in foro poenitentiali, sed in foro iudiciali non sunt clavium, nisi
+            accipiatur potestas clavium secundum plenitudinem, secundum quem modum dicitur esse in
+            episcopis, qui, quando promoventur a sacerdotio in episcopatum, non recipiunt novam
+            clavem, sed clavis potestatis. in eis ampliatur.</p>
+          <p xml:id="bb-d4e24719-d1e187">Ad illud quod obicitur, quod eius est excominunicare, cuius est comniunicationem dare,
+            dicendum quod non solum eius est, verum etiam eius qui praeest communitati vel etiam
+            administranti sacramenta ; et quoniam tales sunt qui habent iurisdictionem, quamvis non
+            habeant claves, ideo etc.</p>
+          <p xml:id="bb-d4e24719-d1e190">Ad illud quod quaeritur : quando data est haec potestas Petro ? dici potest quod simul
+            data est utraque, quia data est potestas clavis in sua plenitudine. Vel potest dici quod
+            non simul, sed potestas clavium promissa fuit <ref xml:id="bb-d4e24719-Rd1e192" ana="#mt16_19">Matthaei 16, 19</ref>,
+            et personas ecclesiasticas quae habent data Ioannis 20, 22 : <quote xml:id="bb-d4e24719-Qd1e195" ana="#io20_22">Accipite Spiritum Sanctum</quote> etc. ; potestas vero excommunicandi insinuatur
+            fuisse data Matthaei 18, 17, ubi, postquam dictum est : <quote xml:id="bb-d4e24719-Qd1e198" ana="#mt18_17">Si
+              Ecclesiam non audierit</quote> etc., additum est : <quote xml:id="bb-d4e24719-Qd1e201" ana="#mt18_18">Amen dico
+              vobis, quodcumque ligaveritis</quote> etc.</p>
+          <p xml:id="bb-d4e24719-d1e205">Ad illud quod obicitur, quod hoc est maioris virtutis, scilicet excommunicare, dicendum
+            quod se habent sicut excedentia et excessa et sunt alterius et alterius ordinationis ;
+            et ideo non sequitur quod qui habet unam potestatem, habet aliam ; utraque tamen
+            concurrit ad potestatis plenitudinem et una sine alia esse potest. Pluribus tamen
+            conceditur clavis quam gladius, quia plures habent Ordinem sacerdotalem quam
+            praelationem et ecclesiasticam iurisdictionem.</p>
+          <p xml:id="bb-d4e24719-d1e209">Et si quaeratur ratio huius, duplex est. Una est diffusio boni, quia potestas clavium
+            est ad reconciliandum, potestas gladii ad compellendum. Alia ratio est vitatio periculi,
+            quia pauci sunt qui sciant hoc ense percutere ; ideo propter periculum paucorum manibus
+            tradi debuit. Ideo etiam solemnem excommunicationem, quae fit cum candelis prius
+            accensis et deinde exstinctis et pulsatis campanis, oportet a solis episcopis fieri,
+            licet aliae possint ab aliis fieri.</p>
+          <p xml:id="bb-d4e24719-d1e212">Ad illud quod quaeritur ultimo : quare congregatio sive multitudo potest excommunicare,
+            ita quod nullus, et non excommunicari ? dicendum quod peccata multitudinis nulla sunt,
+            sed iurisdictio multitudinis nonnulla est. Et si tu quaeras : unde hoc est ? dicendum
+            quod multitudo bene facit ad augmentum potentiae in excellentia : unde multitudo potest
+            trahere navem, ita quod nullus trahit navem per se ; sed multitudo, in quantum
+            huiusmodi, non facit defectum nec impotentiam virium : unde multitudo non trahitur quin
+            quilibet de multitudine trahatur. Sic tota multitudo excommunicat, ita quod nullus ; non
+            sic excommunicatur, ad minus secundum nova iura, ut iuristae dicunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4811">
+        <head xml:id="bb-d4e4811-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e4811-d1e111">Supra egit <name ref="#Lombard">Magister</name> de his qui suscipiunt sacramentum tantum
+          ; hic agit de his qui suscipiunt rem sacramenti. Et habet haec pars duas partes. In prima
+          inquirit <name ref="#Lombard">Magister</name> utrum possint habere rem sine sacramento. In
+          secunda quaerit utrum post debeant suscipere sacramentum, ibi : Solet etiam quaeri de his
+          qui iam sanctificati.</p>
+        <p xml:id="bb-d4e4811-d1e120">Prima pars habet duas. In prima determinat veritatem. In secunda removet dubitationem,
+          ibi : His autem videtur obviare quod Dominus dicit. Et primo removet dubitationem habentem
+          ortum ex verbo Domini in Ioanne. Secundo vero ex verbo <name ref="#Augustine">Augustini</name>, ibi : Sed dicunt aliqui nullum adultum.</p>
+        <p xml:id="bb-d4e4811-d1e126">Solet etiam quaeri de bis qui iam sanctificati. Haec est secunda pars, in qua <name ref="#Lombard">Magister</name> determinat utrum iam habentes rem debeant suscipere
+          sacramentum, et habet haec pars duas partes. In prima inquirit quid sacramentum in his
+          efficiat sive conferat. In secunda vero quaerit quid in eis significet, ibi : Si
+          quaeritur, cuius rei Baptismus ille sit sacramentum, ubi determinat quid significet.</p>
+        <p xml:id="bb-d4e4811-d1e132">Solet etiam quaeri, si parvulis in Baptismo datur. Haec est secunda pars principalis
+          distinctionis, in qua <name ref="#Lombard">Magister</name> determinat specialiter effectum
+          Baptismi in parvulis, utrum scilicet parvuli recipiant dona virtutum. Et habet haec pars
+          duas partes. In prima quaerit. In secunda determinat secundum veritatem et opinionem, ibi
+          : Videtur quod non receperint, etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e44496">
+        <head xml:id="bb-d4e44496-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e44496-Hd1e111" type="question-title">Utrum resurrectio sit naturalis an miraculosa.</head>
+        <p xml:id="bb-d4e44496-d1e114">Quinto quaeritur, utrum resurrectio sit naturalis an miraculosa.</p>
+        <div xml:id="bb-d4e44496-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e44496-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e44496-d1e122">Et quod non sit naturalis, ostenditur : A parte initii, quia a privatione in habitum
+            per naturam non fit regressus. Sed in morte est summa privatio : ergo resurrectio, cum
+            sit a morte, non est per naturam.</p>
+          <p xml:id="bb-d4e44496-d1e125">Item, hoc ipsum ostenditur a parte termini, quia omne quod natura producit est
+            corruptibile et mortale ; sed corpus glorificatum est immortale et incorruptibile : ergo
+            etc.</p>
+          <p xml:id="bb-d4e44496-d1e128">Item, tertio ostenditur a parte modi operandi, quia natura operatur successive, non
+            subito ; sed resurrectio erit subito, in ictu oculi : ergo non est a natura.</p>
+          <p xml:id="bb-d4e44496-d1e131">Item, ostenditur etiam a parte principii effectivi, quia natura est vis insita. rebus,
+            ex similibus similia procreans. Sed in resurrectione non fit simile ex simili : ergo
+            etc.</p>
+          <p xml:id="bb-d4e44496-d1e135">Ultimo ostenditur a parte omnium horum, quia est articulus fidei ; quae non est de his
+            quae fiunt per naturam, sed supra naturam : ergo etc.</p>
+          <p xml:id="bb-d4e44496-d1e138">Contra : Iob comparat resurrectionem hominis germinationi ligni praecisi, <ref xml:id="bb-d4e44496-Rd1e140" ana="#iob14_7">Iob 14, 7</ref> ; Apostolus vivificationi grani mortui, <ref xml:id="bb-d4e44496-Rd1e143" ana="#Icor15_36">I ad Corinthios 15, 36</ref> ; <name ref="#GregoryGreat">Gregorius</name> in homilia Paschali, generationi circulari corporis arboris ex parvo
+            semine. Et in his ostendere volunt et probare resurrectionem : ergo, si ratio et
+            similitudo bona est quam ponunt ; cum omnia haec sint a natura, resurrectio est
+            naturalis.</p>
+          <p xml:id="bb-d4e44496-d1e150">Item, hoc ipsum ostenditur, quia dicit <name ref="#Augustine">Augustinus</name>, in
+            libro De quantitate animae : <quote xml:id="bb-d4e44496-Qd1e155">Si cursum naturalium rerum attendamus, certius erit
+              nobis resurrectionem esse futuram quam solem oriri cras</quote>.</p>
+          <p xml:id="bb-d4e44496-d1e159">Item, Apostolus dicit : <quote xml:id="bb-d4e44496-Qd1e161">Oportet corruptibile hoc induere incorruptionem</quote>
+            ; sed quod et supra naturam non. oportet evenire ; ergo resurrectio est in potentia
+            naturae.</p>
+          <p xml:id="bb-d4e44496-d1e165">Item, ratione probatur hoc ipsum, quia maior est aptitudo pulveris hominis ad
+            generationem hominis quam alterius animalis ; sed natura per putrefactionem potest de
+            tali pulvere aliud animal generare : ergo et corpus hominis reparare.</p>
+          <p xml:id="bb-d4e44496-d1e168">Item, maior est aptitudo materiae corporis hominis ad ipsum quam virgarum ad serpentes
+            ; sed productio serpentum ex virgis magorum, quamvis ministerio fieret diabolico, tamen
+            erat naturalis : ergo etc.</p>
+          <p xml:id="bb-d4e44496-d1e172">Item, quod est in appetitu naturae est naturale, quia natura non fundavit appetitum
+            frustra ; sed anima naturaliter appetit reuniri corpori ; hoc constat per <name ref="#Augustine">Augustinum</name>, Super Genesim ad litteram, ubi dicit quod anima
+            propter appetitum ad corpus retardatur ne tota intentione feratur in summum caelum :
+            ergo etc. Si tu dicas quod appetitus est tantum ex parte animae, ostenditur etiam quod
+            ex parte pulverum, quia corpus humanum ex coniunctione sui cum anima habet ordinari ad
+            immortalitatem ; sed coniunctio cum anima est naturalis : ergo et illa ordinatio. Sed ad
+            illud ad quod res naturaliter ordinatur, habet naturalem appetitum, ut ignis sursum
+            ferri : ergo etc. Praeterea, pulveres illi aut resolvuntur in elementa prima aut non. Si
+            sic, cum elementa sint homogenea, non magis habent ordinationem ad corpus humanum quam
+            alia pars elementi quae nunquam fuit corpus : ergo non est maior ratio quare de eo
+            iterum fiat corpus humanum quam de alio ; quod falsum est. Si non resolvuntur ad
+            elementa, aliqua vis tenet quae est in ipsis pulveribus et per ipsam ordinantur ad
+            ulteriorem formam, ergo naturalem : ergo ex parte corporis et animae est resurrectio
+            naturalis.</p>
+        </div>
+        <div xml:id="bb-d4e44496-Dd1e179">
+          <head xml:id="bb-d4e44496-Hd1e181">Conclusio</head>
+          <head xml:id="bb-d4e44496-Hd1e184" type="question-title">Resurrectio non est naturalis, sed supra naturam</head>
+          <p xml:id="bb-d4e44496-d1e187">Respondeo : Dicendum quod in resurrectione tria sunt : primum est corporis ex
+            pulveribus reformatio ; secundum, ipsi corpori reformato animae unio ; tertium, unitorum
+            inseparabilis colligatio. Primum est contra naturam, id est contra solitum cursum
+            naturae, quae potest perfecta destruere, non destructa reparare. Secundum est secundum
+            naturam, quod anima optime corpori sibi organizato, cui desiderabat uniri, uniatur.
+            Tertium est supra naturam, scilicet quod ex corruptibili fiat incorruptibile non
+            separabile. Quoniam igitur primum et ultimum est non a natura, sed supra vel contra,
+            ideo non est dicendum resurrectionem naturalem esse, sed supra naturam.</p>
+        </div>
+        <div xml:id="bb-d4e44496-Dd1e192">
+          <head xml:id="bb-d4e44496-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e44496-d1e197">1-2. Ad illud ergo quod obicitur, quod probatur et comparatur operationibus naturae,
+            dicendum quod probatio est bona et per locum a minori. Si enim natura creata potest
+            facere vivum de mortuo, de semine parvo facere magnum corpus, quae est potentiae
+            finitae, multo magis Deus potest per se facere de homine ; et ad hoc tendunt illae
+            rationes et comparationes. Et propter hoc dicit <name ref="#Augustine">Augustinus</name>
+            : Certissima erit nobis resurrectio, si cursum naturalem attendamus, non quia ipsa sit a
+            natura, sed quia a Deo melius hoc potest fieri quam a natura possint fieri opera
+            sua.</p>
+          <p xml:id="bb-d4e44496-d1e203">Ad illud quod obicitur de opportunitate, dicendum quod est opportunitas materiae et
+            efficientis sicut et necessitas ; et opportunitas a parte efficientis est ratione
+            immutabilitatis, non coactionis ; et ideo opportunum, quia Deus decrevit et disposuit,
+            non quia compellatur vel materia necessario ex parte naturae praeparetur. Et ideo talis
+            opportunitas non infert huiusmodi resurrectionem esse a causa naturali, cum stet cum
+            causa supernaturaliter operante.</p>
+          <p xml:id="bb-d4e44496-d1e206">4-5. Ad illud quod obicitur, quod natura potest de his quae generata sunt per
+            putrefactionem, et de serpentibus, dicendum quod quaedam animalia modicam organizationem
+            habent, utpote vermes et animalia corporis anulosi ; et talium est natura productiva per
+            putrefactionem. Quaedam completam, ut animalia sensibilia perfecta et gradientia, ut
+            equus ; et talia non potest nisi per vim formativam influxam cum decisione seminis ; et
+            tale est corpus humanum, quod non potest naturaliter organizari nisi adsit semen et
+            debitum vas suscipiens, scilicet matrix ; et ideo non est simile de serpentibus.</p>
+          <p xml:id="bb-d4e44496-d1e209">Ad illud, quod obicitur de appetitu naturae, dupliciter potest responderi : uno modo,
+            quod propositio illa falsa est. Quaedam enim sunt in naturae appetitu, quae tamen non
+            sunt in eius potestate ; et talia non sunt naturalia, ut patet de beatitudine. Quae
+            autem sunt in appetitu et potestate, talia sunt naturalia ; tale autem non est
+            resurrectio. Aliter solvi potest quod ex parte animae est appetitus, ex parte pulverum
+            non est appetitus, nec ex illa parte est naturalis, sed contra naturam. </p>
+          <p xml:id="bb-d4e44496-d1e213"> Unde nota de pulveribus tres opiniones. Quidam enim dicunt quod habent appetitum et
+            naturalem ordinationem ad. incorruptionem propter animam ; et ratione illius habent quod
+            non possunt resolvi usque ad elementa, tamen possunt esse materia quorumlibet corporum.
+            Sed istud non capio, quod in corpus vermis possit reverti homo, vel in corpus lupi, et
+            non resolvi in elementa ; immo Glossa super illud Psalmi [78, 2) : Posuerunt morticina,
+            videtur dicere quod resurrectio est ex occultissimis naturae sinibus. Verbum etiam <name ref="#Augustine">Augustini</name>, in Enchiridio, repugnat, quod innuit quod in ipsa
+            etiam elementa possunt resolvi.</p>
+          <p xml:id="bb-d4e44496-d1e219"> Alia opinio est quod resolvuntur in elementa, et tamen manet appetitus, propter hoc
+            quod elementa illa, ut fuerunt corporis humani materia, habuerunt multum de natura
+            lucis, quae stat cum omnibus elementis ; et ratione illius naturae habent appetitum et
+            ordinationem. Sed nec hoc intelligo, quomodo lux maneat simul cum terra et quod terra,
+            quae est materia corporis humani, magis sit lucida ; et quod vermis, qui generatur de
+            humano corpore, plus habeat de natura lucis quam alius vermis. </p>
+          <p xml:id="bb-d4e44496-d1e222"> Tertia opinio est quod pulveres resolvuntur vel resolvi possunt in elementa ; nec
+            elementa illa habent aliquem appetitum nec ordinationem ad corpus secundum naturam, sed
+            solum secundum divinam providentiam, quae disponit illud idem corpus reformare animae,
+            ut in eo remuneretur ; nec est distincta illa pars ab aliis partibus elementi in se, sed
+            in comparatione ad divinam sapientiam, quam nihil latet, nihil subterfugit. Et haec
+            opinio probabilior est, ut credo. Et tunc patet responsio ad illud, quia nunquam corpus
+            ex unione ad animam aliquam recipit qualitatem creatam vel dispositionem
+            incorruptibilitatis secundum statum praesentem -nisi forte dicas meritum vel demeritum,
+            sed illud manet in anima, non in corpore - aut si quam aliam des dispositionem, aut post
+            corruptionem et resolutionem non manet, aut in potentia valde remota manet. Hoc tamen
+            sine calumnia verum est, quod corpus, ex quo unitur animae rationali, ordinationem
+            statim habet ad immortalitatem secundum divinam providentiam. </p>
+          <p xml:id="bb-d4e44496-d1e225"> Et si tu quaeras : quomodo anima habet appetitum ad hanc partem elementi, cum sit
+            omnino homogeneum et unius naturae cum aliis partibus elementi nec etiam distinctionem
+            habeat, quia potest omnino aliis commisceri, et iterum aeque bene possit ei corpus ex
+            alia parte elementi reparari et eiusdem complexionis et habitudinis et complementi ?
+            dicendum quod, quantumcumque fuerit simile et commisceatur aliis elementis, sive uni
+            sive pluribus, semper tamen manet substantia materiae cum ratione seminali, et pars
+            substantiae illius materiae, etsi non sit actu separata ab aliis partibus, quibus est
+            commixta, est tamen separabilis ; et quamvis non sit separabilis nec distinguibilis
+            secundum humanam potentiam, est tamen separabilis et distinguibilis secundum potentiam
+            et sapientiam divinam, quae novit in quid redierit corpus humanum, quotcumque et
+            quibuscumque mutationibus et conversionibus sit mutatum : et sic per illius sapientiae
+            discretionem et potentiae operationem illud per easdem formas, per quas disponebatur ad
+            formationem animae, postmodum disponitur. </p>
+          <p xml:id="bb-d4e44496-d1e228"> Et si tu quaeras, quare anima appetat magis illud quam aliud, cum nulla sit
+            praeelectio propter uniformitatem, dicendum quod magis appetit propter colligantiam et
+            coniunctionem quam habuit ad illud. Et hoc patet sic. Anima enim rationalis, quia est
+            anima, differt ab angelo et convenit cum aliis animabus, et per hoc habet inclinationem
+            ad corpus ; quia rationalis, ad corpus humanum ; quia nobilis, ad nobilius organizatum ;
+            sed ad hoc magis quam ad aliud ; propter coniunctionem quam habuit ad illud. Exemplum
+            est : si quis velit contrahere cum duabus virginibus existentibus aeque pulcris et bonis
+            et paribus conditionibus ceteris, hic erit indifferens respectu utriusque. Sed esto quod
+            coniungatur alteri, ipsa coniunctio iam alligabit adeo isti, si fuit ex amore, ut iam
+            non consoletur habere aliam nec daret hanc pro alia pulcriori et meliori. Sic anima
+            tanto affectu unitur substantiae carnis quam prius vivificavit, quod non complete ei
+            satisfit nisi illa eadem, ubicumque lateat, reparetur.</p>
+          <p xml:id="bb-d4e44496-d1e231">Et sic patet quod anima habet ordinationem et appetitum per quem ordinatur ad illud
+            corpus, quantumcumque aliis conformetur ; sed corpus habet ordinationem ratione divinae
+            providentiae. Quod autem habeat per aliquid quod sit in se, ex quo plene resolutum est,
+            non audeo asserere, propter hoc quia nec ratio nec auctoritas nec fides compellit.
+            Attamen, quia potest esse quod Deus dedit, non audeo pertinaciter negare. Ideo certum
+            tenentes, incertum profundioribus relinquamus. Nam esto quod non sit in pulveribus
+            appetitus et quod fiat resolutio usque ad ultima, non perit aliquid quod ad
+            resurrectionem spectet, propter hoc quod, sicut dicit <name ref="#Augustine">Augustinus</name>, non perit Deo terrena materies, de qua mortalium creatur caro. Sed
+            in quemlibet pulverem cineremve solvatur, in quoslibet halitus aurasve diffugiat, in
+            quamcumque aliorum corporum substantiam vel in ipsa elementa vertatur, in quemcumque
+            cibum etc., illi animae etiam in puncto temporis redit, quae ipsam primitus
+            animavit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

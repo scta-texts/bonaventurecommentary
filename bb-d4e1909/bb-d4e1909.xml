@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio Textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio Textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e1909">
+        <head xml:id="bb-d4e1909-Hd1e108">Divisio Textus</head>
+        <p xml:id="bb-d4e1909-d1e111">Haec est secunda pars, in qua <name ref="#Lombard">Magister</name> agit de sacramentis in
+          speciali. Et habet haec pars duas partes. In prima determinat quaedam praeambula. In
+          secunda vero determinat de unoquoque per se, ibi : Post haec videndum est quid sit
+          Baptismus, distinctione tertia.</p>
+        <p xml:id="bb-d4e1909-d1e117">Prima pars habet duas partes. In prima parte determinat praeambula ad omnia sacramenta,
+          scilicet tempus institutionis et numerum. In secunda vero determinat praeambulum
+          specialiter ad Baptismum, ibi : Nunc vero de Baptismi sacramento videamus. Prima iterum
+          pars habet duas. In prima determinat mimerum. In secunda vero institutionis tempus, ibi :
+          Si vero quaeritur quare non fuerunt etc. Nunc vero de Baptismi sacramento etc. Haec est
+          secunda pars, in qua agit de praeambulo ad baptismum Christi, quod quidem fuit baptismus
+          Ioannis, et habet haec pars tres partes. In prima <name ref="#Lombard">Magister</name>
+          determinat de utilitate sive ad quid fuit. In secunda vero de eius institutione sive
+          denominatione, ibi : Sed quaeritur quare dictus est baptismus Ioannis. In tertia vero agit
+          de usu sive de iteratione, ibi : Hic considerandum est, si baptizati etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

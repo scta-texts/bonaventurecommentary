@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e34699">
+        <head xml:id="bb-d4e34699-Hd1e108">Dubia</head>
+        <div xml:id="bb-d4e34699-Dd1e111">
+          <head xml:id="bb-d4e34699-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-d4e34699-d1e116">In parte ita sunt dubitationes circa litteram. Et primo de hoc quod dicit : Si quis
+            promittat alicui et iuret etc ; quaeritur, utrum iuramentum addat ad promissionem. Si
+            enim nihil addit, ergo frustra apponitur ; si addit, ergo firmior est promissio et maius
+            vinculum. Sed contra : maius vinculum superveniens solvit minus, ut votum privatum
+            solvitur per Matrimonium consummatum. Ergo, si aliquis spondeat alicui eum simplici
+            fide, et post alii cum iuramento, videtur quod teneatur ad secundam.</p>
+          <p xml:id="bb-d4e34699-d1e119">Respondeo : Dicendum quod in his quae sunt eiusdem fori generis, quamvis unum sit maius
+            alio, tamen non solvit. Unde Matrimonium consummatum non solvit ratum, eo quod utrumque
+            est Matrinionium et ligat in facie Ecclesiae ; similiter nec sponsalia solvunt
+            sponsalia, sed Matrimonium sponsalia solvit ; et ideo standum est primae fidei et
+            obligationi. Nam secundum iuramentum nullum est, eo quod contra id est quod fideliter
+            adimplere tenetur ; unde faciendum est secundum illud <name ref="#IsidoreOfSeville">Isidori</name> : <quote xml:id="bb-d4e34699-Qd1e124">In malis promissis rescinde fidem</quote> : ideo iurando
+            peccavit, sed non peccavit adhaerendo primae.</p>
+        </div>
+        <div xml:id="bb-d4e34699-Dd1e129">
+          <head xml:id="bb-d4e34699-Hd1e131">Dub. II.</head>
+          <p xml:id="bb-d4e34699-d1e134">Item quaeritur de hoc quod dicit : Non autem sic est, quando iuramentum coniugii
+            praesentis consensus attestatione firmatur. Videtur enim male dicere, quia Matrimonium
+            ante copulam solvitur per votum solemne. Ergo, cum Matrimonium consummatum tantae sit
+            obligationis ut votum, videtur quod similiter solvere debeat.</p>
+          <p xml:id="bb-d4e34699-d1e137">Respondeo : Dicendum quod non est simile, quia hic sunt obligationes eiusdem generis ;
+            praeterea, uterque vivit mundo ; et iterum, in sequenti Matrimonio fides promittitur et
+            datur mulieri. In voto autem solemni est obligatio alterius generis ; praeterea, moritur
+            homo mundo, quod solvit tale vinculum ; et iterum, fides et obsequium promittitur Deo,
+            cui plus tenemur quam alii : et ideo non est simile. Status perfectionis assumitur ; et
+            ideo tale votum licitum est ac per hoc obligatorium ; secundum autem Matrimonium non est
+            licitum, et ideo nec robur habet nec obligationem. Et sic patet quod non est simile.</p>
+        </div>
+        <div xml:id="bb-d4e34699-Dd1e141">
+          <head xml:id="bb-d4e34699-Hd1e143">Dub. III.</head>
+          <p xml:id="bb-d4e34699-d1e146">Item quaeritur de hoc quod dicit, quod sine benedictione non fit coniugium quantum ad
+            honestatem sacramenti. Videtur enim falsum, quia in secundis nuptiis est sacramentum
+            honestum, et tamen non est benedictio.</p>
+          <p xml:id="bb-d4e34699-d1e149">Respondeo : Dicendum quod in secundis nuptiis, maxime quando mulier est vidua, non fit
+            benedictio propter defectum sacramenti, sicut infra patebit. Fit autem benedictio et
+            celebratur Missa de Trinitate propter triplex bonum Matrimonii, quod tribus personis
+            appropriatur : bonum prolis Patri, bonum fidei Filio, bonum sacramenti sive vinculi
+            indivisibilis Spiritui Sancto appropriatur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

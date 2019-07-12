@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e52297">
+        <head xml:id="bb-d4e52297-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e52297-Hd1e111" type="question-title">Utrum damnati velint se peccasse.</head>
+        <p xml:id="bb-d4e52297-d1e114">Quantum ergo ad primum proceditur sic, et ostenditur quod damnati vellent se peccasse
+          :</p>
+        <div xml:id="bb-d4e52297-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e52297-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e52297-d1e122">Quia <name ref="#Augustine">Augustinus</name>, De fide ad Petrum, dicit quod
+              <quote xml:id="bb-d4e52297-Qd1e127">bonam habere nullatenus poterunt voluntatem</quote> ; sed nolle se peccasse est
+            voluntatis bonae : ergo non poterunt hoc habere : ergo, si considerabunt peccatum suum,
+            cum non possint nolle, necesse habent velle.</p>
+          <p xml:id="bb-d4e52297-d1e131">Item, voluntas hominis post mortem est invertibilis sicut voluntas angeli mali ; sed
+            angelus malus vult se peccasse : ergo etc.</p>
+          <p xml:id="bb-d4e52297-d1e134">Item, malitia inclinat voluntatem ad malum sicut gratia ad bonum ; sed malitiit
+            remanebit in damnatis sicut et gratia in Beatis : ergo sicut Beati bona quae semel
+            voluerunt semper volunt, ita damnati semper volunt mala.</p>
+          <p xml:id="bb-d4e52297-d1e137">Item, quod quis dimittat actum peccandi in praesenti, non potest esse sine gratia
+            gratis data, multo fortius de peccandi voluntate : ergo, si nulla gratia datur ipsis
+            reprobis nec natura melioratur, ergo peccandi voluntatem nunquam amittunt.</p>
+          <p xml:id="bb-d4e52297-d1e141">Contra : Sapientiae 5, 3 : <quote xml:id="bb-d4e52297-Qd1e143" ana="#sap5_3">Dicent intra se, poenitentiam
+              agentes</quote> etc. Constat quod illa est consideratio rationis deliberantis : ergo
+            videtur quod velint non peccasse.</p>
+          <p xml:id="bb-d4e52297-d1e147">Item, <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestionum : <quote xml:id="bb-d4e52297-Qd1e152" source="http://scta.info/resource/a83-q36">Videmus, inquit, ferissimas bestias dolore
+              poenarum a maximis voluptatibus abstinere</quote>. Sed damnati non ardentius appetunt
+            quam bestiae atroces, et maxime cruciantur : ergo eorum appetitus retrahitur, et sic
+            etc.</p>
+          <p xml:id="bb-d4e52297-d1e156">Item, peccatum non placebat quia peccatum, sed propter libidinosam delectationem ; sed
+            in damnatis exclusa est omnis libidinosa delectatio : ergo nullum peccatum eis
+            placet.</p>
+          <p xml:id="bb-d4e52297-d1e159">Item, mala voluntas, eo ipso quod mala est, est contra Deum, et eo ipso quod est contra
+            Deum, est meritoria poenae. Ergo semper merentur poenam, et ita debet semper eis poena
+            augeri, et sic in infinitum. Sed sic non dicitur : ergo etc.</p>
+          <p xml:id="bb-d4e52297-d1e162">Item, voluntas mala, eo ipso quod mala, est inordinata : ergo quando exit in actum
+            novum, de novo inordinatur ; sed nihil potest Deus relinquere inordinatum : ergo, si
+            peccatum non ordinatur nisi in poena, et est nova inordinatio, ergo nova poena, et ita
+            semper cresceret.</p>
+          <p xml:id="bb-d4e52297-d1e165">Item, esto quod damnatis daretur libertas peccandi, nunquam fornicarentur ; si redirent
+            ad corpora et locum haberent, constat quod nollent peccare, cum magis horreant tantam
+            poenam quam delectationem peccati diligant : ergo videtur etc.</p>
+        </div>
+        <div xml:id="bb-d4e52297-Dd1e169">
+          <head xml:id="bb-d4e52297-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e52297-Hd1e174" type="question-title">Damnati nolunt, se peccasse, loquendo de actu, non vero de
+            habitu voluntatis malae</head>
+          <p xml:id="bb-d4e52297-d1e177">Respondeo : Dicendum quod mala voluntas dicitur dupliciter, scilicet actus et habitus.
+            Dico ergo quod timor servilis peccatoribus non aufert habitum malae voluntatis, sed
+            aufert actum : iste enim non vult luxuriari, quia timet puniri ; de ipsa voluntate tamen
+            habitum non aufert ; quod patet, quia, si speraretur impunitas, vellet utique luxuriari.
+            Sic intelligendum in damnatis quod dolor poenalis aufert ab ipsorum voluntate actum
+            volendi peccare, quia revera damnati non appetunt luxuriari nee dominari propter poenas
+            quas ex illis actibus sentiunt se incurrisse ; habent tamen habitum voluntatis malae,
+            per quam appeterent peccare, si non crederent se ex hoc puniri. Si ergo quaeras, utrum
+            damnati nolint peccasse, dico quod nolunt, non propter hoc quod peccatum eis displiceat,
+            quia iniustum, sed quia eis displicet poena iusta. Et ideo malam habent voluntatem hoc
+            volendo, et ideo adhuc vivit in eis voluntas peccandi, licet dolore poenarum impediatur
+            ne exeat in actum suum.</p>
+        </div>
+        <div xml:id="bb-d4e52297-Dd1e182">
+          <p xml:id="bb-d4e52297-d1e184">Et sic patet responsio ad primum.</p>
+          <p xml:id="bb-d4e52297-d1e187">Ad illud quod obicitur, quod voluntas est invertibilis, dicendum quod verum est de
+            voluntate quantum ad habitum, in qua fit plena versio ; sed non est verum de
+            vertibilitate quantum ad actum.</p>
+          <p xml:id="bb-d4e52297-d1e190">Ad illud quod obicitur, quod malitia inclinat sicut gratia, dicendum quod non est
+            simile, quia motus gratiae praemiatur in simili et convenienti, sed motus libidinis in
+            dissimili, ut in dolore ; et ideo impeditur, sed motus gratiae consummatur.</p>
+          <p xml:id="bb-d4e52297-d1e193">Ad illud quod obicitur, quod abstinere a voluntate peccandi non est sine gratia,
+            dicendum quod, loquendo de voluntate-habitu, non est sine gratia ; sed in voluntate-actu
+            distinguendum est, quia aut abstinet ab actu malo, quia contra Deum et quia iniquum ; et
+            hoc non est sine gratia gratis data : haec enim praeparat ad ulteriorem gratiam ; aut
+            quia hoc est laesivum, sicut aliquis dimittit fornicari vel inebriari, quia amittit
+            visum ; et talis est per naturam puram. Similiter dico quod damnati refugiunt propter
+            timorem poenae.</p>
+          <p xml:id="bb-d4e52297-d1e196">1 Ad illud quod obicitur in contrarium, quod habent poenitentiam, dicendum quod verum
+            est ; sed illa poenitentia est stimulus poenitudinis, non correctio voluntatis ; unde,
+            si daretur libertas peccandi, ut speraretur omnino impunitas, dico quod peccarent ; sed,
+            si deberent ita puniri pro aliis quae facerent sicut pro his quae fecerunt, nunquam
+            vellent peccare.</p>
+          <p xml:id="bb-d4e52297-d1e200">Ad illud quod quaeritur, utrum habeant aliquam inordinationem actualem voluntatis,
+            potest dici quod sic ; sed illa inordinatio est eis versa in poenam sicut Beatis bona
+            voluntas in gloriam ; unde sicut isti non merentur amplius bona voluntate, ita nec illi
+            demerentur mala ; et hoc dicit <name ref="#Augustine">Augustinus</name>, et habetur in
+            littera.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

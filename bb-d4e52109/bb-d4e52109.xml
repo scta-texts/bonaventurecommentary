@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e52109">
+        <head xml:id="bb-d4e52109-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e52109-Hd1e111" type="question-title">Utrum agilitas sit in omnibus corporibus gloriosis.</head>
+        <p xml:id="bb-d4e52109-d1e114">Quantum ergo ad primum proceditur sic, et ostenditur quod agilitas sit in corporibus
+          gloriosis.</p>
+        <div xml:id="bb-d4e52109-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e52109-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e52109-d1e122">Sapientiae 3, 7 : <quote xml:id="bb-d4e52109-Qd1e124" ana="#sap3_7">Tamquam scintillae in arundineto
+              discurrent</quote> ; dicitur de Beatis.</p>
+          <p xml:id="bb-d4e52109-d1e128">Item, ratione videtur, quia anima sensitiva habet vim motivam et sensitivam, et
+            resurgent organa virtutis motivae et sensitivae ; sed organa sensitivae erunt habilia
+            sensui : ergo organa motivae motui.</p>
+          <p xml:id="bb-d4e52109-d1e131">Item corpus propter suam tarditatem animae repugnat ; sed tunc nulla erit repugnantia :
+            ergo nulla tarditas, et sic etc.</p>
+          <p xml:id="bb-d4e52109-d1e134">Item, non statim ut resurgent erunt in empyreo ; et ille est locus debitus, et
+            unumquodque corpus habet habilitatem tendendi ad locum suum : ergo, cum habeat
+            habilitatem tendendi et hanc non habeat nisi per agilitatem ; patet etc.</p>
+          <p xml:id="bb-d4e52109-d1e138">Contra : Frustra est agilitas ad motum, si non decet esse motum ; sed in corporibus
+            illis impossibile est esse motum, prout dicitur Apocalypsis 10, 6 : <quote xml:id="bb-d4e52109-Qd1e140" ana="#ap10_6">Iuravit, quod non erit ultra tempus</quote> ; sed omnis motus localis est in tempore
+            : ergo, si non erit tempus, ergo nec motus.</p>
+          <p xml:id="bb-d4e52109-d1e144">Item, <name ref="#Augustine">Augustinus</name>, De Trinitate : <quote xml:id="bb-d4e52109-Qd1e149" source="http://scta.info/resource/adt-l2">In habentibus mutationem nonnulla mors est
+              ipsa mutatio</quote>. Et ratio huius est, quia in omni motu aliquid deperditur, et
+            illud mori non incongrue dicitur ; sed corpus illud erit ab omni morte alienum : ergo
+            etc.</p>
+          <p xml:id="bb-d4e52109-d1e153">Item, Philosophus dicit quod <quote xml:id="bb-d4e52109-Qd1e155" source="http://scta.info/resource/aristdp-d1e64">motus est entelechia entis in potentia</quote> ; unde omnis motus imperfectioni
+            attestatur, quia est propter habendum aliquid non habitum ; sed omnis imperfectio abest
+            a corporibus gloriosis : ergo et omnis motus.</p>
+          <p xml:id="bb-d4e52109-d1e159">Item, hoc ostenditur per simile in superiori et inferiori, quia anima remuneratur per
+            affectionum et cogitationum quietationem, corpora etiam supercaelestia, quae sunt maxime
+            habilia ad motum, per quietem : ergo similiter corpora gloriosa.</p>
+        </div>
+        <div xml:id="bb-d4e52109-Dd1e163">
+          <head xml:id="bb-d4e52109-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e52109-Hd1e168" type="question-title">Corpora gloriosa habent agilitatem</head>
+          <p xml:id="bb-d4e52109-d1e171">Respondeo : Dicendum quod, quidquid sit de motu, tamen de agilitate certum est quod
+            ista proprietas est de perfectione et nobilitate corporis et faciens ad expeditiemem
+            animae in corpore : et ideo dico quod erit ibi, sicut probant rationes.</p>
+        </div>
+        <div xml:id="bb-d4e52109-Dd1e176">
+          <head xml:id="bb-d4e52109-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e52109-d1e181">Quod vero obicitur de motu, dicendum quod motus omnis est propter carentiam alicuius
+            rei. Carentia autem potest esse aut rei quae inhaeret aut rei quae assistit. Si rei quae
+            inhaeret ut proprietas absoluta, haec quidem imperfectionem facit in mobili, et
+            similiter motus. Alia est carentia rei quae assistit, et tunc aut illa est nata
+            assistere per naturam, et tunc illa indiget ; et talis motus, etsi sit rei perfectae,
+            attestatur tamen alicui imperfectioni, ut cum lapis movetur ad locum deorsum ; aut locus
+            ille non est natus assistere per naturam magis quam alius, quia illo non indiget, sed
+            per voluntatem, quia aliquid vult circa illum locum operari ; et talis motus non ponit
+            imperfectionem, sed libertatem, et talis esse poterit in corpore glorioso.</p>
+          <p xml:id="bb-d4e52109-d1e184">Ad illud ergo quod obicitur, quod non erit tempus, dicendum quod verum est prout est
+            mensura motus primi mobilis.</p>
+          <p xml:id="bb-d4e52109-d1e187">Ad illud quod obicitur de mutatione, quod est mors, dicendum quod illud non
+            intelligitur de qualibet mutatione : sed de mutatione ad formam.</p>
+          <p xml:id="bb-d4e52109-d1e190">Ad illud quod obicitur, quod motus attestatur imperfectioni, dicendum quod verum est de
+            motu ad formam vel ad situm propter indigentiam : hic autem motus est propter
+            libertatem.</p>
+          <p xml:id="bb-d4e52109-d1e194">Ad illud quod obicitur, quod anima non mutat affectiones, dicendum quod mutatio
+            veniebat ex eius instabilitate, mutatio corporum superiorum est propter inferiorum
+            necessitatem ; mutatio autem corporis ab anima ex libertate : ideo non est simile.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

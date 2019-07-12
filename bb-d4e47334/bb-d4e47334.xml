@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e47334">
+        <head xml:id="bb-d4e47334-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e47334-Hd1e111" type="question-title">Utrum defunctis prosint suffragia facta per malos.</head>
+        <p xml:id="bb-d4e47334-d1e114">Secundo quaeritur, utrum. prosint suffragia facta per malos.</p>
+        <div xml:id="bb-d4e47334-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e47334-d1e119">Et quod non, videtur : Ioannis 9, 31 : <quote xml:id="bb-d4e47334-Qd1e121" ana="#io9_31">Scimus quia peccatores Deus
+              non exaudit</quote> : ergo si non prodest oratio quam Deus non exaudit, patet etc.
+            Quodsi dicas quod verbum illud non est verum, quia a caeco, non ab Evangelista dictum
+            est, contra : hoc non solvit, quia Isaiae 1, 15 : <quote xml:id="bb-d4e47334-Qd1e124" ana="#is1_15">Cum
+              multiplicaveritis orationes, non exaudiam, Manus enim vestrae plenae sunt
+              sanguine</quote>, Glossa : Sanguine, id est peccato. Ergo si omnis peccator et malus
+            est talis, videtur quod suffragia facta per malos non prosint.</p>
+          <p xml:id="bb-d4e47334-d1e128">Item, <name ref="#GregoryGreat">Gregorius</name> : <quote xml:id="bb-d4e47334-Qd1e133">Cum is qui displicet ad
+              intercedendum mittitur, irati animus ad deteriora provocatur</quote>: ergo potius
+            obsunt quam prosint.</p>
+          <p xml:id="bb-d4e47334-d1e137">Item, ratione videtur, quia nullum opus est satisfactorium nisi quod fit ex radice
+            caritatis ; sed illud non fit sic quod fit a malo : ergo non satisfacit.</p>
+          <p xml:id="bb-d4e47334-d1e140">Item, iste peccator non est membrum Ecclesiae : ergo nullam habet connexionem cum illo
+            qui mortuus est : ergo opus eius omnino est alienum ab ipso defuncto, ergo nihil ei
+            facit.</p>
+          <p xml:id="bb-d4e47334-d1e143">Item, si malus faceret pro se, nihil ibi prodesset : ergo pari ratione non prodest
+            alii, si faceret pro illo, quia unusquisque efficacius meretur sibi quam alii.</p>
+          <p xml:id="bb-d4e47334-d1e147">Contra : Sacramenta Ecclesiae aeque bona sunt, cum dispensantur per bonos et malos :
+            ergo Missa mali sacerdotis ita prodest ut boni.</p>
+          <p xml:id="bb-d4e47334-d1e150">Item, quando servus, existens extra caritatem, dat eleemosynam ad imperium domini,
+            meretur dominus ac si servus bene daret. Ergo similiter in proposito, cum ille pro quo
+            fit sit in caritate valet ei.</p>
+          <p xml:id="bb-d4e47334-d1e153">Item, ratione videtur quia Dominus sua largitate reputat opus factum ab alio ac si fiat
+            ab eo pro quo fit ; sed ille est in caritate : ergo etc.</p>
+          <p xml:id="bb-d4e47334-d1e156">Item, quando aliquis facit alicui eleemosynam, etsi dans sit extra caritatem, tamen
+            recipiens potest mereri in recipiendo, si recipit ex caritate ; sed iste mortuus
+            suffragia vivorum recipit ex caritate : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e47334-Dd1e160">
+          <head xml:id="bb-d4e47334-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e47334-Hd1e165" type="question-title">Suffragia pro mortuis, exceptis operibus sacramentalibus, si
+            fiant pure a malis, non prosunt, nisi concomitetur caritas viri iusti.</head>
+          <p xml:id="bb-d4e47334-d1e168">Respondeo : Dicendum quod quidam dicunt generaliter quod suffragia Ecclesiae prosunt,
+            sive a bonis fiant sive a malis. Et ratio huius est, quia tam boni quam mali faciunt
+            secundum doctrinam Ecclesiae et faciunt pro eo qui est in caritate, et ubi deficit
+            caritas facientis, supplet caritas Ecclesiae dictantis et mortui suscipientis. Sed non
+            credo, breviter, quod oratio peccatoris aliquid mereatur apud Deum nisi solum
+            dispositive, quia disponit ad meritum. Opus enim formam recipit a proximo agente sicut
+            aqua a vase continente, non a fonte ; similiter, corona valorem et pulcritudinem habet a
+            gemmis et ab auro, et non a quatuor elementis.</p>
+          <p xml:id="bb-d4e47334-d1e171">Et ideo distinguendum quod suffragia facta aut sunt opera Sacramentalia, ut celebratio
+            Missae ; et tunc, quia opera Dei sunt, ratione contenti prosunt, sive fiant a bonis sive
+            a malis. Aut sunt alia opera, et hoc dupliciter : aut enim fiunt pure a malis, sicut
+            aliquis malus orat et se affligit pro aliquo ; et tunc non credo quod valeant defundis.
+            Aut fiunt a malis ad imperium alicuius boni, ut ipsius defuncti vel amici eius, de re
+            quae illius est, ut eleemosyna ; vel ad consortium alterius, ut quando duo legunt
+            Psalterium, unus existens in caritate, alter non ; et in aliis operibus, ut quando datur
+            eleemosyna iusto, ut oret pro mortuo ; et tunc valent ratione caritatis boni hominis
+            coniunctae.</p>
+          <p xml:id="bb-d4e47334-d1e174">Et sic solvuntur rationes ad utramque partem. Concedendum enim quod non prosunt
+            secundum quod fiunt a malis tantum ; concedendum nihilominus quod prosunt, si
+            concomitatur caritas viri iusti. Sed tamen ultima ratio non valet, quia defunctorum non
+            est suffragia recipere, sed Dei est acceptare et ex hoc eis parcere ; sed non acceptat
+            nisi preces bonorum. Et sic manifesta sunt obiecta ad utramque partem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

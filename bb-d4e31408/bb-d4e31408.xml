@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e31408">
+        <head xml:id="bb-d4e31408-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e31408-Hd1e111" type="question-title">De divisione Ordinum in sacros et non sacros.</head>
+        <p xml:id="bb-d4e31408-d1e114">Quaeritur igitur primo de hac divisione Ordinum.</p>
+        <div xml:id="bb-d4e31408-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e31408-d1e119">Et videtur quod nulla sit : Primo, quia Ordo essentialiter et universaliter est
+            sacramentum ; sed omne sacramentum dicit rem sacram : ergo Ordo universaliter est res
+            sacra : ergo omnis Ordo est sacer.</p>
+          <p xml:id="bb-d4e31408-d1e122">Item, in inferioribus Ordinibus datur potestas ministrandi circa altare et ea quae
+            pertinent ad Sacramentum sacramentorum, scilicet Corpus Dominicum. Ergo, si in minoribus
+            ministratur circa altare, sicut in diaconatu et subdiaconatu, licet non ita de
+            propinquo, videtur quod sicut illi sunt sacri, sic et isti.</p>
+          <p xml:id="bb-d4e31408-d1e125">Item, in Ecclesia primitiva non fuerunt Ordines nisi sacri, scilicet presbyteratus et
+            diaconatus : ergo vel illa Ecclesia fuit diminuta vel ista superfluit.</p>
+          <p xml:id="bb-d4e31408-d1e128">Item, ea quae spectant ad substantiam sacramenti, semper eadem perseverant : si ergo
+            Ordines minores vere Ordines sunt, aut tunc esse debuerunt aut vere Ordines non sunt.
+            Quod si tunc non fuerunt, sicut patere potest, videtur etc.</p>
+          <p xml:id="bb-d4e31408-d1e131">Contra : In Veteri Testamento erant distincta officia ministrantium, ita quod alii
+            ministrabant circa altare, alii circa custodiam templi. Si ergo maioris ordinis et
+            dignitatis est nunc sacerdotium et cultus divinus est ampliandus et ampliatus, videtur
+            quod alii debent ad haec et ad illa deputari. Ergo videtur quod, cum Ordines penes
+            officia maiora et minora distinguantur, quod Ordines maiores et minores esse debent.</p>
+          <p xml:id="bb-d4e31408-d1e135">Item, sicut patebit, cum de Matrimonio agetur, et habetur <ref xml:id="bb-d4e31408-Rd1e137">distinctione 32 in
+              Decretis</ref>, aliqui sunt Ordines impedientes Matrimonium, et aliqui non. Si ergo in
+            illo Ordine corpus Domini consecratur, in quo homo ab actu libidinis per omnia
+            removetur, videtur quod aliqui sint Ordines sacri et aliqui non.</p>
+          <p xml:id="bb-d4e31408-d1e141">Item, quod ita debeat esse, probatur : primo, quia Ordo est sacramentum perfectorum :
+            sed ad statum perfectionis non statim ascenditur, sed paulative pervenitur : ergo, si
+            sacer Ordo collocat aliquo modo in statu perfectionis, videtur quod aliquos Ordines
+            inferiores habere debeat, non sacros.</p>
+          <p xml:id="bb-d4e31408-d1e144">Item, videmus in curia regis terreni quod ad hoc quod sit sufficienter ordinata,
+            ministri superiores indigent inferioribus qui obediunt et subserviunt et maiores
+            indigent minoribus. Ergo, si domus Dei ordinata debet esse, videtur quod ibi debent esse
+            ministri, et rursus ministri ministrantium ; et primi sunt in Ordine superiori, secundi
+            in minori : ergo minores et maiores.</p>
+        </div>
+        <div xml:id="bb-d4e31408-Dd1e148">
+          <p xml:id="bb-d4e31408-d1e150">Respondeo : Dicendum quod sacramentum Ordinis gradus habet plurimos ; et prima quidem
+            distinctio est per gradus inferiores et superiores, sive per gradus sacros et non
+            sacros. Ratio autem, quare hoc sacramentum gradus habet, est, quia ordinat ad
+            dispensandum Sacramentum dignissimum et ministrandum in templo Dei ; ad ministerium
+            autem illud concurrunt quaedam officia digniora et quaedam minus digna. Etsi omnia
+            requirant ministros sanctos, illa tamen quae attenduntur circa altare et circa
+            portationem vasorum sacrorum et circa oblationem sacrificii consummandam potissime
+            requirunt ministros sanctos, secundum illud Isaiae 52, 11 : Mundamini qui fertis vasa
+            Domini. Sanctitas autem vel sanctificatio potissime consistit in continentia ; ideo sunt
+            quidam Ordines qui requirunt continentiam in ministris, quidam vero minime. Ideo recte
+            quidam Ordines sacri dicuntur, quidam non sacri, non ratione sui, sed ratione
+            ministerii, ad quod requiritur sanctitas in ministro. Et sic patet ratio huius
+            distinctionis Ordinum per sacros et non sacros ; concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e31408-Dd1e155">
+          <head xml:id="bb-d4e31408-Hd1e157">Ad rationes</head>
+          <p xml:id="bb-d4e31408-d1e160">Ad illud ergo quod obicitur, quod omnis Ordo est sacramentum, dicendum quod omnes
+            Ordines signa sunt sacra et rei sacrae ; sed ab hac ratione non dicuntur Ordines sacri,
+            sicut visum est sed a consecratione ministri, et quia ipsi Ordines disponunt ad
+            contingendum et ministrandum vasa consecrata.</p>
+          <p xml:id="bb-d4e31408-d1e163">Ad illud quod obicitur, quod in omnibus datur potestas ad ministrandum aliquid circa
+            Sacramentum maximum ; dicendum quod verum est, tamen secundum plus et minus, secundum
+            propinquum et remotum. Illis enim qui sunt in inferioribus constituti, non licet vasa
+            consecrata portare ex officia, quamvis propter inopiam ministrorum frequenter talibus
+            permittatur.</p>
+          <p xml:id="bb-d4e31408-d1e166">Ad illud quod obicitur, quod in Ecclesia primitiva soli Ordines sacri fuerunt, dicendum
+            quod falsum est, immo et alii fuerunt ; sed implicite dabantur in impositione manuum,
+            quoniam manus est organum organorum. Ratio autem quare non distinguebantur erat propter
+            paucitatem ministrantium et propter paucitatem fidelium ; ideo oportebat quod omnia
+            officia darentur uni ; nunc autem multiplicatus est divinus cultus : ideo non est
+            simile.</p>
+          <p xml:id="bb-d4e31408-d1e169">Et per hoc patet ultimum. Quod enim dicit, quod substantialia semper fuerunt eadem,
+            dicendum quod verum est ; et semper isti Ordines et gradus in Ecclesia fuerunt, licet
+            non essent explicati et distincti ut nunc. Non solum enim nunc debent distingui propter
+            ministrantium amplificationem, sed etiam propter manuductionem, quia ab ipsis cunabulis
+            ordinantur nunc qui debent esse clerici. Ideo secundum profectum. aetatis in susceptione
+            gradimm debent et possunt promoveri nec statim ad supremum gradum provehi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

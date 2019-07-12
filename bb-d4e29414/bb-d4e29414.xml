@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e29414">
+        <head xml:id="bb-d4e29414-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e29414-Hd1e111" type="question-title">Utrum sacramentum Extremae Unctionis principaliter sit ordinatum
+          ad morbum corporalem an ad spiritualem.</head>
+        <p xml:id="bb-d4e29414-d1e114">Quantum ad finem quaeritur, utrum istud sacramentum principaliter sit ordinatum ad morbum
+          corporalem an ad spiritualem.</p>
+        <div xml:id="bb-d4e29414-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e29414-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e29414-d1e122">Et quod ad corporalem, videtur : Ex eius institutione, Iacobi 5, 14 : <quote xml:id="bb-d4e29414-Qd1e124" ana="#iac5_14">Infirmatur quis in vobis ? inducat presbyteros</quote> etc., et post
+            dicit, infra : <quote xml:id="bb-d4e29414-Qd1e127" ana="#iac5_15">Oratio fidei salvabit infirmum</quote>.</p>
+          <p xml:id="bb-d4e29414-d1e131">Item, Marci 6, 13 : <quote xml:id="bb-d4e29414-Qd1e133" ana="#mc6_13">Ungebant oleo multos infirmos</quote>, et
+            curabantur. Si ergo utebantur hoc sacramento, secundum quod dicitur in Glossa ; et hoc
+            ad curationem infirmantium corporaliter, ergo principaliter videtur ad hoc ordinari.</p>
+          <p xml:id="bb-d4e29414-d1e137">Item, sacramentum ad illud finaliter ordinatur propter quod principaliter dispensatur ;
+            sed illud principaliter dispensatur propter infirmitatem corporalem, quia nunquam datur
+            nisi existentibus in gravi infirmitate corporali : ergo videtur quod principaliter sit
+            ad hoc.</p>
+          <p xml:id="bb-d4e29414-d1e140">Item, si est conta infirmitatem sicut medicina, quaero, contra quam ; aut contra
+            corporalem aut contra spiritualem. Si contra spiritualem, cum non sit contra actuale
+            mortale nec originale, erit contra veniale ; sed veniale quolibet die iteratur : ergo et
+            hoc sacramentum. Sed hoc sacramentum non datur frequenter, sed rarissime : ergo non est
+            contra peccatum veniale : ergo est contra infirmitatem corporalem. Si tu dicas quod est
+            contra peccatorum sequelas, quaero : aut contra aliquas determinate aut contra omnes. Si
+            contra aliquas, quare non similiter contra alias ? Si contra omnes, cum sint diversae
+            secundum diversitatem morborum, videtur quod debeant diversa ad hoc esse sacramenta.</p>
+          <p xml:id="bb-d4e29414-d1e144">Contra : Quod non sit ad morbum corporalem curandum per se, videtur, quia sacramenta
+            Novae Legis in digne suscipientibus efficiunt quod significant. Si ergo viri sancti
+            digne suscipiunt sacramenta, ergo haberet Unctio semper in eis efficaciam sanandi : ergo
+            viri sancti nunquam morerentur.</p>
+          <p xml:id="bb-d4e29414-d1e147">Item, multi sunt viri perfecti qui secundum Pauli exemplum desiderant dissolvi et esse
+            cum Christo. Si ergo sacramentum Unctionis ordinatur ad vitam corporis conservandam,
+            ergo a talibus nullo modo debet suscipi.</p>
+          <p xml:id="bb-d4e29414-d1e150">Item, sacramentum est medicina spiritualis : ergo sicut medicina corporalis sanat solum
+            morbum corporalem et ad hoc est principaliter et universaliter, ita videtur quod
+            medicina spiritualis curet solum morbum spiritualem, ita quod ad hoc sit universaliter
+            et totaliter et principaliter.</p>
+          <p xml:id="bb-d4e29414-d1e153">Item, si Unctio sanat morbum corporalem, aut per virtutem naturalem aut per virtutem
+            supra naturam. Non per virtutem naturalem, hoc constat, quia operatio sacramentorum non
+            est secundum virtutes naturales elementorum exteriorum : ergo per virtutem supra naturam
+            ; sed illa aeque potest in infirmitatem incurabilem ut curabilem : ergo videtur quod
+            istud sacramentum liberaret a lepra ; sed hoc est falsum : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e29414-Dd1e157">
+          <head xml:id="bb-d4e29414-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e29414-Hd1e162" type="question-title">Extrema unctio principaliter est ad curationem et
+            alleviationem infirmitatis spiritualis, scilicet peccati venialis, et per accidens ad
+            curationem et alleviationem infirmitatis corporalis</head>
+          <p xml:id="bb-d4e29414-d1e165">Respondeo : Dicendum quod aliquorum opinio fuit, quod sacramentum istud principaliter
+            est ordinatum contra sequelas vel reliquias peccati quae gravant, quae relictae sunt tam
+            ex originali quam ex actuali ; quae quidem reliquiae sunt poenae spirituales, habentes
+            tamen frequenter poenas corporales annexas propter sui expurgationem : et ideo
+            principaliter hoc saramentum est contra poenam spiritualem, sed ex consequenti est ad
+            sanandum morbum corporalem. Sed contra hoc est quod dicitur Iacobi 5, 15 in institutione
+            istius sacramenti : <quote xml:id="bb-d4e29414-Qd1e167" ana="#iac5_15">Si in peccatis fuerit, remittentur ei</quote>
+            : ergo istud sacramentum. est ordinatum contra aliquem morbum peccati, et hoc ipsum
+            tangitur in Glossa. Et, cum non sit contra originale nec contra mortale, relinquitur
+            quod sit contra peccatum veniale. Et hoc communis opinio tenet.</p>
+          <p xml:id="bb-d4e29414-d1e171">Sed notandum quod de veniali peccato est loqui dupliciter : aut prout est quis in statu
+            viae, aut prout est in egressu. Si prout est in statu viae sive in itinere, sic morbus
+            venialis est quasi inseparabilis et quadam necessitate iterabilis, ac per hoc quodam
+            modo incurabilis. Et ideo non debuit contra ipsum aliqua medicina specialiter et
+            principaliter ordinari ; immo quodam modo omnia sacramenta valent ad eius curationem
+            secundum plus et minus. Si autem loquamur prout anima est in statu egrediendi, sic
+            potest curari sine iteratione ; et sic, cum anima possit trahere talia cremabilia, quae
+            retraherent a gloria, instituit divina misericordia remedium quo anima curari posset
+            quantum ad remissionem culpae et etiam partis poenae ; et hoc est sacramentum Unctionis
+            Extremae.</p>
+          <p xml:id="bb-d4e29414-d1e174">Modus autem curandi veniale peccatum in hoc sacramento respondet modo infirmitatis.
+            Veniale autem peccatum gravat animam deprimendo deorsum, ut non ita intendat in Deum per
+            devotionem et amorem, pro eo quod est ibi conversio inordinata ad commutabile bonum et
+            pro eo quod est minor amor Dei, sicut tangit <name ref="#Augustine">Augustinus</name>,
+            in libro Confessionum ; et ideo, cum curatio directe sit per contrarium, per illud
+            curatur quod animam aggravatam per devotionem sursum elevat. Et quoniam corpus quod
+            corrumpitur, aggravat animam, cum illud sacramentum sit ad elevandam animam per
+            devotionem, in qua anima recipit vigorem quemdam, in quo semper est deletio venialium,
+            si sunt in anima, et per consequens repressio molestiarum corporalium, si expedit ipsi
+            animae : hinc est quod istud sacramentum principaliter est ad curationem et
+            alleviationem infirmitatis spiritualis, scilicet peccati venialis, et per accidens est
+            ad curationem et alleviationem infirmitatis corporalis, quodam modo roborando animam
+            quae regit corpus.</p>
+          <p xml:id="bb-d4e29414-d1e181">Et sic patet quid sit in hoc sacramento res tantum, quid signum et quid res et signum.
+            Signum tantum est unctio exterior, res tantum est venialis eu. rationes et signum ipsa
+            in anima devotionis excitatio, quae non est aliud quam quaedam spiritualis unctio.
+            Concedendae igitur sunt rationes probantes istud sacramentum valere ad infirmitates
+            corporales curandas. Concedendae etiam sunt rationes probantes quod non valet
+            principaliter contra illas, quoniam solum per accidens et ex. consequenti valet, ut
+            prius ostensum est.</p>
+        </div>
+        <div xml:id="bb-d4e29414-Dd1e186">
+          <head xml:id="bb-d4e29414-Hd1e188">Ad rationes</head>
+          <p xml:id="bb-d4e29414-d1e191">Ad illud ergo quod obicitur, quod non datur nisi in statu infirmitatis, dicendum quod
+            non est propter infirmitatem, sed propter hoc quod appropinquat egressui, in quo possunt
+            venialia perfecte curari. Et quod istud sit verum, patet, quia quantumcumque quis
+            infirmetur, non datur ei hoc sacramentum nisi praesumatur quod moriatur, vel quod sit in
+            articula mortis. Et si constaret nobis de aliquo quod liberaretur sive liberandus sit,
+            non deberet dari ei hoc sacramentum, sicut patebit inferius.</p>
+          <p xml:id="bb-d4e29414-d1e194">Ad illud quod obicitur de veniali, quod quotidie iteratur, patet iam responsio, quia
+            non datur hoc sacramentum contra illud peccati genus ; nisi in statu in quo praesumitur
+            quod liberetur et a culpa et a peccandi necessitate.</p>
+          <p xml:id="bb-d4e29414-d1e197">1-2. Ad illud quod obicitur, quod non valet principaliter, dicendum quod verum est, et
+            hoc innuit ipsa forma orationis, in qua non fit mentio nisi de remissione
+            peccatorum.</p>
+          <p xml:id="bb-d4e29414-d1e200">Quod tamen obicitur, quod nullo modo debet valere, a simili, quia corporalis medicina
+            non sanat spiritualem morbum, dicendum quod non est simile, quia spiritus continet
+            corpus ; unde passiones animales multum redundant in carnem, unde Sapiens dicit : <quote xml:id="bb-d4e29414-Qd1e202" ana="#prov17_22">Spiritus tristis exsiccat ossa</quote>. Ideo non est mirum, si
+            tranquillatur anima et vigoratur et laetificatur, si etiam hoc redundat ad corpus. Et
+            sic hoc sacramentum respectum habet ad corpus relevandum propter alleviationem
+            spiritus.</p>
+          <p xml:id="bb-d4e29414-d1e207">Ad illud quod quaeritur : per quam virtutem hoc facit ? dicendum quod per virtutem
+            supra naturam ; sed illa operatur secundum divinam institutionem, quae noluit per hoc
+            sacramentum prodere secretum fidei, et ita nec secundum legem communem ab infirmitatibus
+            incurabilibus liberare. Et iterum, in hoc sacramento aliquid est naturale, aliquid supra
+            naturam. Effectus namque, qui est in spiritu, est supra naturam, sed quod me redundet in
+            carnem, istud naturale est, secundum quod in Psalmo [62, 2] dicit homo devotus : <quote xml:id="bb-d4e29414-Qd1e209" ana="#ps62_2">Sitivit in te anima mea</quote> etc. ; et iterum alibi : <quote xml:id="bb-d4e29414-Qd1e212" ana="#ps27_7">Refloruit caro mea</quote> etc.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

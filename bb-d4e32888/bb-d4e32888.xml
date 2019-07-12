@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e32888">
+        <head xml:id="bb-d4e32888-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e32888-Hd1e111" type="question-title">Quando Matrimonium fuerit institutum.</head>
+        <div xml:id="bb-d4e32888-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e32888-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e32888-d1e119"> Circa primum ostenditur quod matrimonium fuerit institutum ante lapsum : Per illud
+            quod dicitur Matthaei 19, 4 : <quote xml:id="bb-d4e32888-Qd1e121" ana="#mt19_4">Non legistis, quod ab initio qui
+              fecit homines, masculum et feminam fecit illos ? Et dixit : Propter hoc</quote>
+            etc.</p>
+          <p xml:id="bb-d4e32888-d1e125">Item, <name ref="#Lombard">Magister</name> in littera : Cum alia sacramenta post
+            peccatum exordium sumpserint, matrimonii sacramentum etiam ante peccatum legitur
+            institutum.</p>
+          <p xml:id="bb-d4e32888-d1e131">Item, ratione videtur, quia usus coniugii est ad procreationem prolis ; sed prolis
+            procreatio conveniebat statui innocentiae : ergo tunc debuit institui.</p>
+          <p xml:id="bb-d4e32888-d1e134">Item, matrimonium est apud omnes, ergo est de dictamine naturae ; sed talia ab initio
+            homini sunt impressa : ergo etc.</p>
+          <p xml:id="bb-d4e32888-d1e138">Contra : <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore : Tempus
+            institutionis sacramentorum ex tunc esse coepit quando homo a gaudiis paradisi eiectus
+            est ; et ita videtur quod Matrimonium post lapsum sit institutum.</p>
+          <p xml:id="bb-d4e32888-d1e144">Item, ratione videtur, quia sacramentum est medicina contra morbum ; sed tempore status
+            innocentiae nullus fuit morbus : ergo etc. Si tu dicas, sicut dicit <name ref="#Lombard">Magister</name>, quod institutum est in officium, non in remedium , quaeritur tunc :
+            quare similiter alia non sunt instituta in officium et post in remedium, sicut
+            Matrimonium ?</p>
+          <p xml:id="bb-d4e32888-d1e150">Item, sacramenta sunt signa visibilia rerum invisibilium, per quae homo manuducitur ad
+            spiritualia cognoscenda ; sed Adam non indigebat manuduci, quia spirituali mente erat
+            praeditus : ergo non fuit necesse institui in statu innocentiae.</p>
+          <p xml:id="bb-d4e32888-d1e153">Item, ante lapsum non erat maior inordinatio vel libido in actu generativae quam in
+            actu nutritivae ; sed licuit Adae comedere de omni ligna : ergo similiter videtur quod
+            licuit ei coire cum omni muliere ; aut si non, quaeritur : quare magis est arctatus ad
+            istum actum quam ad alium ?</p>
+          <p xml:id="bb-d4e32888-d1e156">Item, cum post lapsum habeamus sacramentum quod respicit actum nutritivae et
+            generativae, et utrumque est in remedium, quare Adam similiter non habuit in statu
+            innocentiae sacramentum quantum ad utrumque actum in officium ? Et videtur quod magis
+            debuit habere quantum ad nutritivam, quia nutritiva magis erat ibi in usu quam
+            generativa.</p>
+        </div>
+        <div xml:id="bb-d4e32888-Dd1e160">
+          <head xml:id="bb-d4e32888-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e32888-Hd1e165" type="question-title">Matrimonium fuit institutum tempore status innocentiae tantum
+            in officium, post lapsum etiam in remedium</head>
+          <p xml:id="bb-d4e32888-d1e168">Respondeo : Dicendum quod, quia institutio respicit usum, et usus matrimonii est in
+            remedium et est in officium, usus autem aliorum sacramentorum est tantum in remedium :
+            ideo matrimonii usus non tantum convenit infirmis, sed etiam sanis ; et ideo duplex fuit
+            eius institutio : una ante lapsum in officium, et alia post lapsum in remedium. Est
+            autem usus matrimonii in remedium contra ignorantiam, dum erudit in quantum signum ; et
+            in remedium contra concupiscentiam, dum illam refrenat ut medicamentum. Sic et eius
+            officium fuit quantum ad duas operationes potentiarum : et quantum ad actum cognitivae,
+            ut homo videret exterius coniunctionem in creatura quam intelligebat interius, non,
+            inquam, ut erudiretur, sed ut, videndo materialiter quod sciebat, oblectaretur.
+            Similiter quantum ad actum generativae fuit in officium, ut, quia per se homo non potuit
+            speciem conservare, adiuncta socia, in actum illum conservationis prodire posset.</p>
+        </div>
+        <div xml:id="bb-d4e32888-Dd1e172">
+          <head xml:id="bb-d4e32888-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e32888-d1e177">1-3. Ex hoc patent tria obiecta.</p>
+          <p xml:id="bb-d4e32888-d1e180">Ad illud vero quod obicitur de nutritiva, dicendum quod non est simile, quia ibi fit
+            continua deperditio per calorem ; ideo frequens debet fieri restauratio et de multis,
+            non de uno tantum. Aliter potest dici quod duplex est deperditio, scilicet quantum ad
+            humidum nutrimentale et radicale ; similiter duplex est restauratio, scilicet quantum ad
+            humidum nutrimentale per lignum paradisi et similiter quantum ad humidum radicale per
+            lignum vitae ; hoc autem, ut dicit <name ref="#Augustine">Augustinus</name>, non solum
+            fuit in usum, sed etiam in sacramentum. Significabat enim pastum sapientiae interiorem ;
+            et quia una est sapientia, unicus fuit ille cibus, licet alii essent plures. Similier,
+            quia in actu coniugii intelligitur coniunctio Christi et Ecclesiae, et Christus est
+            sponsus unicus, et Ecclesia unica : inde est quod divina institutione est mulier viro
+            matrimonio coniuncta, sicut et lignum vitae provisum in sacramentum. Quia vero per
+            peccatum est amissa conservatio individui, salva nihilominus illa quae est speciei, ideo
+            remansit matrimonium, sed non remansit illud lignum ; habuerunt tamen aliquod signum
+            quousque Christus incarnaretur.</p>
+          <p xml:id="bb-d4e32888-d1e186">Si tunc quaeratur : quare magis quantum ad nutritivam et generativam Adam habuit
+            sacramenta quam quantum ad alias potentias, ut visum etc. ? dicendum quod ista fuerunt
+            in usum et in talem usum qui veniebat ex indigentia. Nam Adam nec per se poterat
+            conservari nec per se poterat generare. Et ideo indiguit aliquibus quibus uteretur ; et
+            quia usus exterioris hominis et indigentia importabant similitudinem interioris, quia
+            anima non per se potest vivere, nisi reficiatur a Christo, nec similiter per se bona
+            opera facere, nisi fecundetur ab ipso : ideo patet quod utrumque fuit sacramentum, nec
+            penes alios sensus oportuit alia sacramenta institui.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

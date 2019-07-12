@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diviso textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Diviso textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e34747">
+        <head xml:id="bb-d4e34747-Hd1e108">Diviso textus</head>
+        <p xml:id="bb-d4e34747-d1e111">Supra egit <name ref="#Lombard">Magister</name> de consensu qui deficit a parte
+          exteriori. Hic agit de consensu qui deficit defectu interiori, scilicet a ratione
+          voluntarii ; tamen iste et praecedens et interius et exterius deficit, sed hoc per
+          arctationem dictum esse intelligendum est. Consensus autem dupliciter deficit, aut a parte
+          voluntatis per coactionem, aut a parte rationis per errorem. Ideo primo quaerit, utrum
+          consensus coactus faciat Matrimonium. Secundo, utrum erroneus, infra, distinctione
+          trigesima : Nec solum coactio impedit vel excludit consensum etc.</p>
+        <p xml:id="bb-d4e34747-d1e117">Prima pars habet tres partes. In prima veritatem determinat. In secunda explanat, ibi :
+          Ex bis apparet, coniugia fieri etc. In tertia vero illud quod determinavit circa
+          Matrimonium, applicat ad sponsalia, ibi : Consentire autem probatur, qui evidenter non
+          contradicit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

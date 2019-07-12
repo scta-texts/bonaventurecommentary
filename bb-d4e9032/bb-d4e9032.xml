@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9032">
+        <head xml:id="bb-d4e9032-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e9032-Hd1e111" type="question-title">Utrum Dominus Eucharistiae sacramentum prius confecerit quam
+          verbum protulerit.</head>
+        <p xml:id="bb-d4e9032-d1e114">Tertio quaeritur de modo instituendi sacramentum Eucharistiae. Et cum institutio huius
+          sacramenti fuerit in institutione verbi, quaeritur, utrum prius confecerit quam verbum
+          protulerit.</p>
+        <div xml:id="bb-d4e9032-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e9032-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e9032-d1e122">Et quod sic, ostenditur : Ex textu Evangelii. Matthaei 26, 26 scribitur : <quote xml:id="bb-d4e9032-Qd1e124" ana="#mt26_26">Coenantibus illis, accepit Iesus panem et benedixit ac fregit ac dedit
+              discipulis suis dicens : Accipite</quote> etc. ; et post : <quote xml:id="bb-d4e9032-Qd1e127" ana="#mt26_26">Hoc
+              est corpus meum</quote>. Ex hoc verbo duplex elicitur ratio : prima, quia prius
+            benedixit quam verbum proferret ; sed benedictio fuit consecratio : ergo prius benedixit
+            et consecravit quam verbum proferret.</p>
+          <p xml:id="bb-d4e9032-d1e131">Item, arguitur ex alio verbo, quia prius fregit quam verbum proferret ; sed fractio
+            consequitur confectionem in hoc sacramento, sicut patet : ergo prius confecit quam
+            proferret verba : ergo non instituit verba conficiendo.</p>
+          <p xml:id="bb-d4e9032-d1e134">Sed contra : Si verba non protulit conficiendo, aut confecit aliis verbis aut sine
+            verbo. Si confecit aliis verbis, ergo illa maxime debent habere virtutem ; si sine
+            verbo, ergo videtur quod Ecclesia non imitetur summum magistrum in conficiendo ; quod
+            videtur inconveniens, cum in isto sacramento praecipue summus sacerdos formam et
+            exemplar dederit consecrandi.</p>
+          <p xml:id="bb-d4e9032-d1e137">Item, si non confecit his verbis, ergo verba in ore Christi fuerunt tantum
+            significativa, ergo non habuerunt virtutem neque efficaciam : si tunc non habuerunt,
+            videtur ergo quod nunquam habeant, quia non habent nunc nisi propter illud quod factum
+            est tunc.</p>
+        </div>
+        <div xml:id="bb-d4e9032-Dd1e141">
+          <head xml:id="bb-d4e9032-Hd1e143">Conclusio</head>
+          <head xml:id="bb-d4e9032-Hd1e146" type="question-title">Dominus conficiendo verba formae instituit et proferendo verba
+            confecit</head>
+          <p xml:id="bb-d4e9032-d1e149">Respondeo : Dicendum quod circa hoc sunt tres opiniones satis probabiles.</p>
+          <p xml:id="bb-d4e9032-d1e152">Prima est quod Dominus prius confecit qua verbum instituerit, sicut prius baptizatus
+            est quam formam Baptismi institueret. Et ratio eorum est, quia ipse, qui est Verbum
+            Patris, confecit se ipso sine verbo ; nobis autem, qui indigemus virtute Verbi, dedit
+            formam post consecrationem.</p>
+          <p xml:id="bb-d4e9032-d1e155">Alia opinio est quod Dominus confecit simul et verba protulit, sed his protulit : primo
+            in occulto ad conficiendum, secundo in aperto ad formam institutam manifestandam. Primum
+            quidem intelligitur fecisse, cum dicitur : Benedixit et fregit ; et exponunt :
+            Benedixit, scilicet occulte dicendo : Hoc est corpus meum ; et post fregit et
+            distribuendo dixit aperte illud verbum : Hoc est corpus meum.</p>
+          <p xml:id="bb-d4e9032-d1e159">Tertia opinio est quod Dominus simul confecit et verbum instituit ; et sicut semel
+            tantum confecit, ita semel tantum verba protulit. Et illud videtur convenientius. Ad
+            quid enim toties verba proferret, cum bene posset facere semel proferendo ? Ulterius,
+            quamvis posset conficere sine verbo, debuit tamen conficere verbum dicendo, ut Apostolis
+            formam traderet, quia Dominus non tantum ibi suam potentiam ostendebat, sed etiam
+            discipulos informabat. Et haec positio est parvulus quam communicetur communior et
+            probabilior. Hanc sustinendo dicendum est quod Dominus conficiendo verba instituit, quia
+            verba proferendo post confecit.</p>
+        </div>
+        <div xml:id="bb-d4e9032-Dd1e164">
+          <head xml:id="bb-d4e9032-Hd1e166">Ad rationes</head>
+          <p xml:id="bb-d4e9032-d1e169">Ad illud ergo quod obicitur, quod prius benedixit, dicendum quod benedictio illa non
+            fuit consecratio, sed fuit quaedam praeparatio vel magis quaedam orationis sive
+            gratiarum actionis praemissio, in qua ostendit nobis nullum cibum attrectandum nisi
+            praevia benedictione. Unde mos est ecclesiasticorum virorum ad omnem cibum praemittere
+            benedictionem.</p>
+          <p xml:id="bb-d4e9032-d1e172">Ad illud quod obicitur de fractione, dicendum quod duplici de causa potest esse fractio
+            : vel ad figurandum vel ad distribuendum. Ad figurandum, sicut sacerdos frangit in
+            altari, et haec sequitur confectionem. Alia vero est ad distribuendum, et sic, si
+            aliquis conficeret pro multis, ita quod haberet unum panem, non hosias distinctas,
+            congrue posset prius frangere. Et sic fecit Dominus ; unde fregit ut inter discipulos
+            distribueret.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

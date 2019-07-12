@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51247">
+        <head xml:id="bb-d4e51247-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e51247-Hd1e111" type="question-title">Utrum dotes corporis aequaliter sint in omnibus.</head>
+        <p xml:id="bb-d4e51247-d1e114">Secundo quaeritur, utrum dotes corporis aequaliter sint in omnibus, vel secundum magis et
+          minus.</p>
+        <div xml:id="bb-d4e51247-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e51247-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e51247-d1e122">Et quod aequaliter, videtur : Quia magis et minus dicitur per admixtionem contrarii
+            minorem et maiorem, quoniam ibi tantum summum est, ubi nihil admixtum de contrario ; sed
+            omnes dotes in omnibus Beatis nihil habent admixtum de contrario : ergo in omnibus sunt
+            aequaliter.</p>
+          <p xml:id="bb-d4e51247-d1e125">Item, de impassibilitate videtur, quia I ad Corinthios 15, 41 super illud : <quote xml:id="bb-d4e51247-Qd1e127" ana="#Icor15_41">Alia claritas</quote> etc., Glossa : <ref xml:id="bb-d4e51247-Rd1e130">In differenti gloria
+              resurgent</ref> ; sed hoc communiter habebunt quod incorrupti erunt. Hoc ergo commune
+            aut dicitur commune secundum aequalitatem, aut secundum magis et minus. Si secundum
+            magis et minus, similiter et gloria ; sed non dicitur gloria secundum magis et minus :
+            ergo secundum aequalitatem.</p>
+          <p xml:id="bb-d4e51247-d1e134">Item, unum corpus non dicitur altero subtilius nisi quia aliquid potest penetrare quod
+            non alterum ; sed quodlibet corpus glorificatum poterit omne corpus penetrare : ergo
+            etc.</p>
+          <p xml:id="bb-d4e51247-d1e137">Item, agilius est quod potest citius moveri ; sed quam cito volet spiritus, ibi
+            protinus erit et corpus, ut dicit <ref xml:id="bb-d4e51247-Rd1e139" target="http://scta.info/resource/acdc-l22">Augustinus, De civitate Dei, XXII</ref> : ergo quodlibet est agile in summo. A simili
+            ergo arguatur de claritate et aliis.</p>
+          <p xml:id="bb-d4e51247-d1e144">Contra : I ad Corinthios 15, 41 : <quote xml:id="bb-d4e51247-Qd1e146" ana="#Icor15_41">Alia claritas solis</quote>
+            etc. Si ergo differens claritas, pari ratione et aliae dotes.</p>
+          <p xml:id="bb-d4e51247-d1e150">Item, dotes animae sunt secundum plus et minus, ut supra ostensum est, quia liberius
+            videt unus quam alter : ergo et dotes corporis.</p>
+          <p xml:id="bb-d4e51247-d1e153">Item, anima quae plus servivit et meruit, excellentiores habet dotes : ergo et corpus
+            per quod anima plus servivit Deo et meruit, debet similiter.</p>
+        </div>
+        <div xml:id="bb-d4e51247-Dd1e157">
+          <head xml:id="bb-d4e51247-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e51247-Hd1e162" type="question-title">Corporis dotes erunt in diversis secundum plus et minus, et
+            perfectius et minus perfectum</head>
+          <p xml:id="bb-d4e51247-d1e165">Respondeo : Dicendum quod dotes in corporibus Beatorum sunt secundum plus et minus et
+            perfectius et minus perfectum in diversis.</p>
+          <p xml:id="bb-d4e51247-d1e168">Ad cuius intelligentiam notandum quod quaedam recipiunt magis et minus per contrarii
+            impermixtionem, ut puta quando utrumque contrariorum est aliqua natura, ut album et
+            nigrum. Quaedam recipiunt magis et minus per accessum ad complementum, ut sunt illa
+            quorum opposita sunt privationes, ut bonum et lucidum. Dico ergo quod dotes corporis
+            recipiunt magis et minus per accessum ad terminum, non per immixtionem contrarii. Et per
+            hoc patet solutio ad primum.</p>
+          <p xml:id="bb-d4e51247-d1e171">Rursus, notandum est quod in recipientibus magis et minus quaedam sunt quae dicunt
+            privationem simul et positionem, sicut impassibile, quod dicit virtutem ad non patiendum
+            et dicit privationem passionis ; similiter subtile et agile. Et dico quod, quantum ad
+            privationem, quia totum et universaliter privat, non recipit magis et minus ; sed
+            quantum ad positionem, quae non est in summo, recipit magis et minus. Et per hoc patent
+            argumenta sequentia.</p>
+          <p xml:id="bb-d4e51247-d1e175">Quod vero dicitur protinus etc., intelligendum est sine retardatione, non quia subito,
+            sed repente.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

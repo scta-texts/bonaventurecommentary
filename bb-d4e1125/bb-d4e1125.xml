@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e1125">
+        <head xml:id="bb-d4e1125-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e1125-Hd1e111" type="question-title">Utrum ad remedium originalis suffecerit fides informis.</head>
+        <p xml:id="bb-d4e1125-d1e114">Et quod fides informis non suffecerit, ostenditur sic :</p>
+        <div xml:id="bb-d4e1125-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e1125-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e1125-d1e122">Nihil placet Deo nisi ex caritate ; sed professio fidei informis est sine caritate :
+            ergo Domine non placebat : ergo propter illam vel meritum illius iustificationem parvulo
+            non infundebat.</p>
+          <p xml:id="bb-d4e1125-d1e125">Item, si aliquis possit mereri alii, tamen efficacius meretur sibi : ergo, si parentes
+            per fidem informem non poterant sibi mereri iustificationem, ergo nec parvulo.</p>
+          <p xml:id="bb-d4e1125-d1e128">Contra : Per fidem informem meretur quis et iacit operationem miraculorum et impetrat
+            alii sanitatem corporalem. Ergo, si Deus aeque pronus est et magis ad sanandum
+            spiritualiter quam corporaliter, videtur quod per fidem informem possit spiritualis
+            sanitas impetrari ei saltem qui non potest se ad sanitatem praeparare.</p>
+          <p xml:id="bb-d4e1125-d1e131">Item, si non posset, tria ex hoc inconvenientia sequerentur. Primum, quia peccatum
+            actuale imputaretur filio, qui alias mundaretur, si essent parentes sine peccato.
+            Secundum, quia, cum nullus sit certus utrum sit in caritate, nulla ei esset certitudo de
+            curatione parvuli : ergo semper deberet curare et remedium offerre. Tertium, quia potius
+            deberet dici parvulus mundari in caritate parentum quam in fide ; quod non dicit <name ref="#GregoryGreat">Gregorius</name>.</p>
+        </div>
+        <div xml:id="bb-d4e1125-Dd1e138">
+          <head xml:id="bb-d4e1125-Hd1e140">Conclusio</head>
+          <head xml:id="bb-d4e1125-Hd1e143" type="question-title">Fides informis parentum in lege naturae probabiliter poterat
+            esse remedium parvulis</head>
+          <p xml:id="bb-d4e1125-d1e146">Respondeo : Ad hoc dixerunt aliqui quod fides parentum erat remedium parvulo non
+            ratione actus credendi principaliter, sed ratione ipsius crediti, a quo, in quantum
+            creditum, fluit virtus in omnia sacramenta. Et quia creditum nunquam est informe, sed
+            uniforme respectu fidei informis et formatae, ideo. per fidem, quantumcumque informem,
+            dum tamen esset vera, dabatur remedium parvulo.</p>
+          <p xml:id="bb-d4e1125-d1e149">Aliter tamen potest dici quod non ipsum creditum erat remedium, sed ipsa fidei
+            professio, quae vel fit motu fidei vel actu exteriori, erat dispositio curationis ; et
+            haec est in circumcisione et Baptismate, quia est ibi professio fidei ipso facto ; sed
+            professio fidei, quam faciebant parentes, reputabatur parvulo ex divina misericordia. Et
+            quia professio fidei in habente originale tantum sufficienter disponit ad gratiam, etiam
+            si non fiat in caritate - habens enim originale, cum non teneatur conteri, ex sola
+            voluntate credendi et captivatione intellectus ad gratiam se praeparat ; sic et parvulus
+            praeparatur merito congrui ; in iustificatione enim sive in curatione parvuli potius
+            requiritur meritum congrui quam condigni, sicut etiam in iustificatione adulti - ideo
+            dico sine praeiudicio quod fides informis, parentum esse poterat remedium parvulo.</p>
+        </div>
+        <div xml:id="bb-d4e1125-Dd1e154">
+          <head xml:id="bb-d4e1125-Hd1e156">Ad rationes</head>
+          <p xml:id="bb-d4e1125-d1e159">Ad illud ergo quod obicitur, quod fides informis non placet Deo, dicendum quod non
+            placet Deo tamquam meritorium ex condigno, pene tamen placet sicut dispositivum de
+            congruo.</p>
+          <p xml:id="bb-d4e1125-d1e162">Ad illud quod obicitur, quod fides informis non sufficit ad remissionem propriae
+            culpae, dicendum quod illud non valet, quia maior dispositio requiritur ad hoc ut
+            remittatur actuale quam originale, quia est ex maiori culpa commis sum ; ideo requiritur
+            attritio cum fide, sed in habente originale sufficit fides. Quando ergo dicit : magis
+            meretur quilibet sibi quam alii, intelligendum est, ceteris conditionibus existentibus
+            paribus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

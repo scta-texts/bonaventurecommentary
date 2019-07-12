@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e15821">
+        <head xml:id="bb-d4e15821-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e15821-Hd1e111" type="question-title">Utrum poenitentia sit virtus.</head>
+        <div xml:id="bb-d4e15821-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e15821-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e15821-d1e119">Circa primum proceditur sic: Matthaei 3, 2 : <quote xml:id="bb-d4e15821-Qd1e121" ana="#mt3_2">Poenitentiam
+              agite</quote>, Glossa : <quote xml:id="bb-d4e15821-Qd1e124">Prima virtus est per poenitentiam perimere veterem
+              hominem</quote>. Hoc ipsum dicit <name ref="#Lombard">Magister</name> in littera.</p>
+          <p xml:id="bb-d4e15821-d1e131">Item, sicut dicit Philosophus, <quote xml:id="bb-d4e15821-Qd1e133" source="http://scta.info/resource/aristneth-l2">virtus est quae habentem perficit et opus eius bonum reddit</quote> ; sed talis est
+            poenitentia : ergo est virtus.</p>
+          <p xml:id="bb-d4e15821-d1e137">Item, nullus actus est laudabilis nec meritorius nisi actus virtutis ; sed poenitere
+            est laudabile et meritorium : ergo est actus virtutis. Sed est actus poenitentiae : ergo
+            poenitentia est virtus.</p>
+          <p xml:id="bb-d4e15821-d1e140">Item, nihil expellit vitium et peccatum nisi gratia vel virtus ; sed poenitentia
+            expellit haec : ergo poenitentia est gratia vel virtus. Sed non est gratia, quia gratia
+            dicit pure quod Deo est, poenitentia autem actum nostrum : ergo etc.</p>
+          <p xml:id="bb-d4e15821-d1e144">Item, poenitere non ideo bonum est quia praeceptum, sed magis e conversa : ergo per se
+            bonum. Et iterum, arduum et difficile est modo debito poenitere, et circa ipsum
+            contingit errare : ergo necessario indigemus virtute ordinante ad hoc. Sed haec non est
+            nisi poenitentia : ergo etc.</p>
+          <p xml:id="bb-d4e15821-d1e147">Contra : Sacramentum et virtus ex opposito dividuntur ; sed poenitentia est sacramentum
+            : ergo non est virtus. Si dicas quod poenitentia dupliciter accipitur et secundum duas
+            acceptiones est virtus et sacramentum, quaeritur : quare magis poenitentia quam
+            Baptismus vel aliud sacramentum ?</p>
+          <p xml:id="bb-d4e15821-d1e150">Item, poenitentia est passio ; sed omnis virtus, ut dicit Philosophus, est habitus :
+            ergo poenitentia non est virtus.</p>
+          <p xml:id="bb-d4e15821-d1e153">Item, omnis virtus habet obiectum bonum, sicut scientia verum ; sed poenitentiae
+            obiectum est peccatum : poenitens enim non poenitet recte nisi de culpa : ergo etc.</p>
+          <p xml:id="bb-d4e15821-d1e156">Item, omnes virtutes sunt connexae et manent aliquo modo in patria et fuerunt in
+            Christo et in primo homine ; sed poenitentia non fuit in Christo nec in primo homine nec
+            etiam erit in patria : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e15821-Dd1e160">
+          <head xml:id="bb-d4e15821-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e15821-Hd1e165" type="question-title">Poenitentia recte dici potest gratia, virtus, Sacramentum,
+            actus et passio, et hoc sensu analgo.</head>
+          <p xml:id="bb-d4e15821-d1e168">Respondeo : Dicendum quod circa hoc multiplex fuit opinio. Quidam enim dicere voluerunt
+            quod poenitentia non est virtus, sed actus virtutis ; non unius, sed omnium, et
+            concurrunt omnes ad hunc actum ; sicut chordae citharae ad unum sonum secundum regulam
+            tangentis, sic omnes virtutes secundum dictamen prudentiae. Sed ista positio non est
+            conveniens. Si enim iste actus est bonus et difficilis et circa quem contingit errare ;
+            sicut ira per zelum est habitus quo homo irascitur vitiis alienis, sic poenitentia est
+            habitus quo homo irascitur vitiis propriis. Si enim non esset habitus, tunc non
+            diceretur haber poenitentiam nisi actu poenitens.</p>
+          <p xml:id="bb-d4e15821-d1e171">Secunda opinio fuit quod est habitus, non virtutis, sed gratiae ; nec tantum nominat
+            gratiam secundum substantiam, sed etiam secundum actum, ut sicut gratia baptismalis
+            dicitur innocentia, sic gratia iustificationis poenitentia. Sed haec positio non debet
+            stare, quia gratia non dirigit liberum arbitrium ad aliquem motum specialem per se nisi
+            mediante virtute, quod facit poenitentia.</p>
+          <p xml:id="bb-d4e15821-d1e174">Tertia positio est quod poenitentia est virtus, sed non est virtus nisi extenso nomine
+            virtutis. Nam virtus proprie est in dirigendo ad bonum : virtus enim est qualitas
+            mentis, qua recte vivitur ; sed ponitentia revocat a malo. Sed haec positio non videtur
+            adhuc sufficiens, quia poenitentia non facit tantum dolere de culpa perpetrata, sed
+            etiam facit emendare ; unde eius est subiectum punire et Deo reconciliare ; et hoc patet
+            ex definitione, et ita est virtus proprie.</p>
+          <p xml:id="bb-d4e15821-d1e178">Ultima positio est quod poenitentia est habitus virtutis et virtutis secundum propriam
+            acceptionem, non tantum secundum communem. Et haec probabilior est, ut credo, sicut
+            patebit melius in sequentibus</p>
+          <p xml:id="bb-d4e15821-d1e181">Ad intelligentiam autem obiectorum notandum quod poenitentia est expulsiva peccati
+            actualis, quod est macula animam deformans et iterum ad malum inclinans, sive a bono
+            dehabilitans et iterum naturam vulnerans ; quam etiam perpetravit quis per actum
+            voluntatis cum delectatione et libidine. Quia igitur delere culpam ut deformantem, est
+            gratiae reformantis ; ut dehabilitantem, virtutis habilitantis ; ut vulnerantem,
+            sacramenti curantis ; ut actu perpetratam, per actum similiter voluntatis ; ut cum
+            delectatione perpetratam, cum passione contraria : ideo poenitentia recte dicitur
+            gratia, virtus, sacramentum, actus et passio. Et iste modus est secundum diversas
+            naturas in ea repertas, tamen per ordinationem ad unum ; unde non dicitur poenitentia
+            his modis omnino aequivoce, sed analogice. Et propter hoc concedendae sunt rationes ad
+            primam partem.</p>
+        </div>
+        <div xml:id="bb-d4e15821-Dd1e185">
+          <head xml:id="bb-d4e15821-Hd1e187">Ad rationes</head>
+          <p xml:id="bb-d4e15821-d1e190">1-2. Ad illud autem quod obicitur in contrarium, quia est sacramentum et passio, patet
+            responsio et ratio illius analogiae ; non sic enim est in aliis sacramentis. Quia enim
+            poenitentia respicit culpam actualem, in cuius deletione concurrit motus liberi arbitrii
+            concordans gratiae ad culpae expulsionem, qui quidem motus rectus et virtuosus est ; et
+            propter displicentiam peccati, quod necesse est esse perpetratum, non potest esse sine
+            passione doloris, patet quare poenitentia magis est virtus quam alia sacramenta ; patet
+            etiam quare magis habet passionem coniunctam quam alia.</p>
+          <p xml:id="bb-d4e15821-d1e193">Ad illud quod obicitur, quod omnis virtus habet obiectum bonum, dicendum quod falsum
+            est : instantia enim est in temperantia, in pietate et etiam in fortitudine ; sed
+            sufficit quod actus sit bonus. Nihilominus tamen poenitentia duplicem habet actum,
+            scilicet refugere vel detestari malum et emendare ; isti sunt actus ordinati, et ratione
+            secundi habet obiectum bonum.</p>
+          <p xml:id="bb-d4e15821-d1e196">Ad illud ergo quod obicitur de connexione virtutum et huiusmodi, dicendum quod virtutes
+            habent connexionem et durationem secundum id quod perfectionis est in ipsis ;
+            poenitentia autem habet aliquid perfectionis, et hoc est velle emendare, si in aliquo
+            contingat offendere. Et haec quidem voluntas est in omnibus iustis ; impossibile enim
+            est quod sit voluntas recta sine hoc. Habet etiam aliquid imperfectionis, sicut est
+            luctus pro peccato perpetrato ; et ratione huius non attenditur connexio nec duratio,
+            immo potius fit evacuatio, tamquam eius quod est ex parte.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

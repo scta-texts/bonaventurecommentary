@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e32130">
+        <head xml:id="bb-d4e32130-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e32130-Hd1e111" type="question-title">Utrum simoniacus episcopus aliquem Ordinem possit
+          vendere.</head>
+        <p xml:id="bb-d4e32130-d1e114">Tertio quaeritur, utrum simoniacus episcopus aliquem valeat Ordinem vendere.</p>
+        <div xml:id="bb-d4e32130-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e32130-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e32130-d1e122">Et quod sic, videtur : Quoniam nihil prohibetur nisi quod fieri est possibile, alioquin
+            frustra prohibetur ; sed sacri Ordinis venditio prohibetur, <ref xml:id="bb-d4e32130-Rd1e124" target="http://scta.info/resource/gd-p2c1q1-d1e251">Causa I, quaestione 1</ref>,
+            Calixtus prohibet : <quote xml:id="bb-d4e32130-Qd1e127">Sanctorum, inquit, Patrum exempla sequentes, ordinari
+              quemquam in Ecclesia Dei vel promoveri per pecuniam ; auctoritate sedis apostolicae
+              modis omnibus prohibemus</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e32130-d1e131">Item, quod potest furtive accipi, potest etiam pecunia emi et vendi ; sed Ordo sacer
+            potest furtive accipi, sicut dicitur Extra, De eo qui furtive ordinem suscepit, ubi cum
+            eis dispensatur, si ingrediantur religionem ; quod possunt in susceptis Ordinibus
+            ministrare : ergo etc.</p>
+          <p xml:id="bb-d4e32130-d1e134">Item, illud quod in humana dispensatione consistit, potest emi et vendi, sicut etiam
+            liberaliter ministrari ; sed Ordinum collatio in humana dispensatione consistit : ergo
+            potest emi et vendi : ergo simoniace dari.</p>
+          <p xml:id="bb-d4e32130-d1e137">Item, character Ordinis stat cum quantacumque culpa et malitia, ergo et potestas
+            ordinandi et Ordinem suscipiendi : ergo, quantacumque sit in aliquo simoniaca pravitas,
+            non videtur dationem vel susceptionem Ordinis impedire.</p>
+          <p xml:id="bb-d4e32130-d1e141">Contra : <name ref="#GregoryGreat">Gregorius</name> dicit, et habetur <ref xml:id="bb-d4e32130-Rd1e146" target="http://scta.info/resource/gd-p2c1q1-d1e138">Causa I, quaestione 12</ref> :
+              <quote xml:id="bb-d4e32130-Qd1e149">Quicumque studet pretii datione sacrum Ordinem accipere, non est sacerdos, sed
+              inaniter tantummodo dici concupiscit</quote>. Ergo per simoniam Ordo non potest
+            suscipi, ergo nec simoniacus dare.</p>
+          <p xml:id="bb-d4e32130-d1e153">Item, Leo Papa sic arguit, <ref xml:id="bb-d4e32130-Rd1e155" target="http://scta.info/resource/gd-p2c1q1-d1e120">Causa I, quaestione prima</ref> : <quote xml:id="bb-d4e32130-Qd1e158">Gratia, si non gratis datur vel accipitur,
+              gratia non est ; simoniaci autem non gratis accipiunt : igitur gratiam, quae maxime in
+              ecclesiasticis Ordinibus operatur, non accipiunt. Si autem non accipiunt, non habent ;
+              si autem non habent, nec gratis nec non gratis cuiquam dare possunt</quote>.</p>
+          <p xml:id="bb-d4e32130-d1e162">Item, dona Spiritus Sancti sunt in potestate Dei, non hominis : ideo enim Sancti
+            Spiritus dicuntur et sunt, quia ipse ea donat. Ergo nemo potest ea habere nisi a Spiritu
+            Sancto ; sed Spiritus Sanctus, cum sit liberalissimus, nihil potest vendere neque vendit
+            : ergo eius dona nec pecunia possunt vendi nec pretio comparari. Si ergo Ordo donum
+            Spiritus Sancti est, impossibile est ipsum pretio vendi vel emi : ergo nec ab aliquo
+            simoniaco dari.</p>
+          <p xml:id="bb-d4e32130-d1e165">Item, in sacris Ordinibus, scilicet diaconatu et sacerdotio, Spiritus Sanctus datur ;
+            quod patet per hoc quod dicitur ibi : Accipite Spiritum Sanctum ; sed Spiritus Sanctus
+            non potest vendi : ergo nec Ordines sacri, qui etiam eius datione conferuntur. Probatio
+            minoris : quod potest emi et vendi, potest in servitutem redigi ; sed Spiritus Sanctus
+            non potest redigi in servitutem : ergo etc.</p>
+          <p xml:id="bb-d4e32130-d1e168">Quaeritur igitur, cum simonia sit studiosa voluntas emendi vel vendendi spirituale,
+            quomodo possit incidere in sacrorum Ordinum collatione vel aliorum spiritualium, cum
+            illa, ut videtur, vendi non possint.</p>
+        </div>
+        <div xml:id="bb-d4e32130-Dd1e172">
+          <head xml:id="bb-d4e32130-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e32130-Hd1e177" type="question-title">Episcopus simoniacus simoniace ordines dare potest</head>
+          <p xml:id="bb-d4e32130-d1e180">Respondeo : Ad praedictorum intelligentiam est notandum quod spirituale dicitur
+            dupliciter : uno modo, quod est spirituale pure, ut gratia et virtutes et dona ; et hoc
+            nec de facto nec de iure vendi potest, immo si quis habens vellet emere, non solum non
+            acquireret amplius, sed etiam quod haberet amitteret. Alio modo spirituale est quod
+            adiungitur, scilicet rei corporali, quae tamen ratione illius spiritualis consecratur et
+            accipit rationem spiritualis, et hoc, quia spirituale de iure non potest vendi, pro eo
+            quod non potest poni sub pretio ; de facto tamen ratione rei corporalis vendi potest ;
+            et talia sunt sacramenta ecclesiastica. Quoddam est spirituale, quod adiungitur rei
+            corporali, quae tamen habet rationem rei temporalis, ut calix consecratus vel etiam ius
+            patronatus, quia ibi consecratio iuncta est argento et ius patronatus fundo ; et illud
+            dicitur spirituale, quia spirituali annexum ; et hoc de facto vendi potest, de iure non
+            potest vendi, tamen potest cum eo cui adiunctum est in venditione transire. Calix enim
+            consecratus vendi potest, ita tamen quod consecratio non vendatur, sed argenti valor ;
+            et fundus vendi potest cui annexum est ius patronatus, sed non ipsum ius patronatus de
+            iure quin committatur simonia.</p>
+          <p xml:id="bb-d4e32130-d1e183">His praenotatis ad Ordines veniendum est, in quibus est aliquid de primo gepere,
+            scilicet gratia sanctificans, aliquid de secundo, scilicet potestas ministerialis, per
+            aliquod signum exterius dispensata, cui inseparabiliter est adiuncta. Primam impossibile
+            est pretio comparare nec vendere ; secundam vero possibile est pro pretio dari, quia
+            inseparabiliter est adiuncta exteriori sacramento ; et cum illud possit pro pecunia
+            dari, potest et illa potestas vendi. Et sic patet quod simoniacus simoniace ordines dare
+            potest.</p>
+        </div>
+        <div xml:id="bb-d4e32130-Dd1e188">
+          <head xml:id="bb-d4e32130-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e32130-d1e193">Ad illud ergo quod obicitur de <name ref="#GregoryGreat">Gregorio</name> et de Leone
+            Papa, patet responsio, quod loquuntur de gratia gratum faciente, quae non potest nisi
+            gratis dari, et haec est quae sacrum facit, non quantum ad potestatem, quae iuncta est
+            rei exteriori positae in hominis dispensatione.</p>
+          <p xml:id="bb-d4e32130-d1e199">Ad illud quod obicitur de donis Spiritus Sancti etc., dicendum quod dupliciter est
+            loqui de huiusmodi donis gratis datis : aut ratione sui aut ratione annexi ; et secundum
+            hoc duplicem habent dispensatorem : quantum ad se habent dispensatorem Spiritum Sanctum,
+            qui characterem imprimit, vel totam Trinitatem ; quantum vero da annexum, dispensatorem
+            habent hominem purum. Et primus nunquam vendit, sed secundus vendere potest annexum illi
+            quod est quodam modo spirituale, et propter illud emitur ; et ideo ipsa dona dicitur
+            vendere et potest, cum in eius potestate commissa sint temporalia dispensanda.</p>
+          <p xml:id="bb-d4e32130-d1e202">Ad illud quod obicitur ultimo, quod Spiritus Sanctus non potest redigi in servitutem,
+            dicendum quod in se ipso vendi non potest, tamen eius effectus vendi possunt, pro eo
+            quod sunt in humano dominio constituti. Et sic concedendum est veros Ordines a
+            simoniacis posse dari ; quamvis non dentur nec recipiantur ad utilitatem, sed potius ad
+            damnationem et bonum convertatur eis in malum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

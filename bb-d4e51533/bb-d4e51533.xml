@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e51533">
+        <head xml:id="bb-d4e51533-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e51533-Hd1e111" type="question-title">Utrum corpus gloriosum sit passibile ab intrinseco.</head>
+        <p xml:id="bb-d4e51533-d1e114">Quantum ergo ad primum proceditur sic, et ostenditur quod non sit passibile ab
+          intrinseco.</p>
+        <div xml:id="bb-d4e51533-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e51533-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e51533-d1e122">Augustinus, XXII De civitate Dei : <quote xml:id="bb-d4e51533-Qd1e124" source="http://scta.info/resource/adcd-l22">Aberit a corporibus nostris omnis deformitas, omnis infirmitas, omnis
+              corruptio</quote>.</p>
+          <p xml:id="bb-d4e51533-d1e128">Item, ratione videtur, quia passio corporis contristat animam ; corpus enim, quod
+            corrumpitur, aggravat animam. Sed gaudium beatitudinis est impermixtum tristitiae : ergo
+            etc.</p>
+          <p xml:id="bb-d4e51533-d1e131">Item, si interius pateretur, ergo aliquando corrumperetur ; sed anima gaudet de unione
+            sui ad corpus, sed gaudium beatitudinis est perpetuum et securum ; hoc autem non esset,
+            si esset dissolubile : ergo etc.</p>
+          <p xml:id="bb-d4e51533-d1e134">Item, anima gloriosa est perfectissima omnium formarum ; sed sic est quod aliqua forma
+            est ita nobilis, quod omnino terminat appetitum suae materiae, ut forma corporis quinti
+            : ergo multo fortius anima gloriosa appetitum sui corporis. Sed forma terminans
+            appetitum materiae facit ipsam incorruptibilem : ergo etc.</p>
+          <p xml:id="bb-d4e51533-d1e138">Contra : Omne compositum ex contrariis est corruptibile et passibile ; sed corpus
+            gloriosum est huiusmodi : ergo etc. Si dicas quod non manent contraria, quia contraria
+            non sunt secundum substantiam, sed secundum qualitates, et manent secundum substantiam,
+            non secundum qualitates, contra : A corporibus gloriosis, ut dicit <name ref="#Augustine">Augustinus</name>, vitia detrahentur et natura servabitur ; sed
+            qualitates elementares sunt eis naturales : ergo manebunt. Si dicas quod manent secundum
+            essentiam, non secundum actum, contra : unumquodque nobilius est quando est coniunctum
+            actui quam quando non : ergo etc. Si dicas quod actus ille est imperfectionis, contra :
+            elementa plura impossibile est venire ad constitutionem corporis unius nisi per
+            mixtionem, ergo necesse est elementa misceri ; sed ubi est mixtio, necessario est mutua
+            actio et passio et qualitatum confractio ; et ubi haec sunt, elementa sunt in suis
+            actibus : ergo etc.</p>
+          <p xml:id="bb-d4e51533-d1e144">Item, corpus gloriosum erit nobilioris complexionis quam nunc ; sed quanta aliquod
+            corpus elementatum et animatum nobilioris est complexionis, tante passibilius ; quod
+            patet, quia passibilius est corpus animalis quam plantae et hominis quam bruti animalis
+            : ergo corpus glorificatum magis quam nunc erit passibile.</p>
+          <p xml:id="bb-d4e51533-d1e147">Item, elementa miscentur in corpore illo : aut ergo aequaliter aut inaequaliter. Si
+            inaequaliter, sed inaequalis commixtio via est ad dissolutionem : ergo illud corpus erit
+            dissolubile et passibile. Si aequaliter, aut adaequatione punctali aut citra. Si
+            adaequatione punctali, ergo omnia corpora essent eiusdem complexionis et nobilitatis ;
+            quod non est verum. Si non punctali, ergo unum aliquo modo excedit reliquum, in virtute
+            ; sed excessus generat aliquo modo pugnam et litem, et haec dissolutionem : ergo
+            etc.</p>
+          <p xml:id="bb-d4e51533-d1e150">Item, aut erit in corpore calor aut non. Si non, nec operatio animae, cum operatio
+            motus et sensus et vitae sit mediante calore. Quodsi est ibi calor, sed calor indiget
+            pabulo, quia eius est consumere ; sed omne quod indiget pabulo, est corruptibile et
+            passibile : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e51533-Dd1e154">
+          <head xml:id="bb-d4e51533-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e51533-Hd1e159" type="question-title">Corpora glorificata erunt incorruptibilia ab intrinseco; tamen
+            elementa in eis manent secundum substantiam, qualitates et duas tantum
+            operationes</head>
+          <p xml:id="bb-d4e51533-d1e162">Respondeo : Dicendum quod omnes concordant in hoc, quod corpora illa sunt
+            incorruptibilia et indefectibilia ; sed rationem sumunt ex diversis causis.</p>
+          <p xml:id="bb-d4e51533-d1e165">Quidam enim dicunt quod elementa sunt in corpore glorioso secundum substantiam, non
+            secundum qualitates ; et ideo, quia substantiae nihil est contrarium, et ubi nulla
+            contrarietas, non est pugna nec dissolutio ; ideo etc. Sed hoc improbatum est, quia
+            natura debet remanere.</p>
+          <p xml:id="bb-d4e51533-d1e168">Alii dicunt quod sunt ibi secundum qualitates : sed qualitates non agunt nec patiuntur,
+            et hoc divina virtute mirabiliter faciente. Et hoc est iterum improbatum, quia, si
+            miscentur, constat quod franguntur et mutuo agunt et patiuntur.</p>
+          <p xml:id="bb-d4e51533-d1e172">Tertii dicunt quod sunt secundum substantiam et qualitates et actus. Sed tamen actus
+            nunc sunt in ipsa mixtione, sed post non, quia in eis dominatur natura caelestis, quae
+            omnino reconciliat elementa et quasi naturam elementarem absorbet et transfert totum
+            corpus in naturam caelestem ; unde debetur ei locus caelestis et incorruptibilitas. Sed
+            illud est dubium, quomodo natura caelestis sit de compositione corporis nostri ; non
+            enim videtur componi nisi ex quatuor elementis.</p>
+          <p xml:id="bb-d4e51533-d1e175">Et ideo aliter dicendum quod elementa manent in corpore illo secundum substantiam et
+            qualitates et operationes. Sed attendendum quod quadruplex est operatio : una quantum ad
+            constitutionem, et haec est mixtionis ; alia quantum ad conservationem, et haec est
+            ministerialis delatio caloris vitalis per corpus ; tertia est pugnae ordinans ad
+            dissolutionem ; quarta exterioris impressionis, per quam alicuius elementi operatio
+            intenditur et pugna oritur. Primae duae operationes manebunt ; secundae duae non
+            manebunt, quae ordinant ad dissolutionem ; et ideo corpus erit indissolubile.</p>
+          <p xml:id="bb-d4e51533-d1e178">Ratio autem quare non manent est triplex. Prima est temperata, mixtio, confringens
+            contrarietatem ; secunda est elementarium appetituum quietatio tertia est animae
+            influentis conservatio. Et ratione primi non pugnant, ratione secundi non possunt
+            pugnare, ratione tertii necesse habent quiescere.</p>
+        </div>
+        <div xml:id="bb-d4e51533-Dd1e183">
+          <head xml:id="bb-d4e51533-Hd1e185">Ad rationes</head>
+          <p xml:id="bb-d4e51533-d1e188">Ad illud ergo quod obicitur, quod compositum ex contrariis est dissolubile, dicendum
+            quod illud debet intelligi quando contraria habent contrarios appetitus et
+            interminatos.</p>
+          <p xml:id="bb-d4e51533-d1e191">Ad illud quod obicitur quod corpus nobilioris complexionis facilius patitur, dicendum
+            quod hoc non est verum, simpliciter loquendo, immo contrarium, quia est fortioris
+            virtutis, nec habet locum in homine nisi ratione poenalitatum inflictarum.</p>
+          <p xml:id="bb-d4e51533-d1e194">Ad illud quod obicitur, utrum in puncto, dicendum quod non oportet ; nec tamen mutuo
+            pugnant, quia neutrum praevalet, licet aliquo modo excedat. Praeterea, non appetit se
+            multiplicare nec ab illo dividi ; et ideo, etiam si excedat, non corrumpit aliud.</p>
+          <p xml:id="bb-d4e51533-d1e197">Ad illud quod obicitur de calore, dicendum quod ex complexione inaequali nascitur calor
+            elementaris consumens, ex complexione vero aequali calor caelestis conservans ; et ideo,
+            quia tunc elementa erunt perfecta et contemperata, calor vitalis erit assimilatus
+            naturae caelesti ; et ideo non consumet nec indigebit pabulo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

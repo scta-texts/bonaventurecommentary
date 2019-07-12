@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43200">
+        <head xml:id="bb-d4e43200-Hd1e108">Praeambulum</head>
+        <p xml:id="bb-d4e43200-d1e111">Quantum ad primum primo procedamus per modum narrationis ; secundo vero per modum
+          inquisitionis.</p>
+        <p xml:id="bb-d4e43200-d1e114">Circa primum tria sunt notanda. Primo, quid sit. Secundo, quot eius species. Tertio, quot
+          modis contrahatur.</p>
+        <p xml:id="bb-d4e43200-d1e117">De primo sciendum quod cognatio spiritualis ita definitur : Cognatio spiritualis est
+          propinquitas aut proximitas proveniens ex sacramenti donatione vel ad illud tentione. Unde
+          tam ille qui baptizat quam ille qui tenet proximus et cognatus spiritualiter iudicatur,
+          Causa XXX, quaestione 1, Omnes quos in poenitentia, et Extra, De cognatione spirituali,
+          capitulo ultimo.</p>
+        <p xml:id="bb-d4e43200-d1e120">De secundo notandum quod cognationis spiritualis tres sunt species. Una dicitur
+          compaternitas, quae attenditur inter patrem spiritualem et carnalem patrem. Alia dicitur
+          paternitas, et haec attenditur inter eum qui suscipitur et eum qui suscipit, sive sit
+          masculus sive femina. Tertia dicitur fraternitas, et haec attenditur inter filium
+          spiritualem et filium carnalem praecise et universaliter ; nam non se extendit nisi ad
+          illum qui suscipitur, Causa XXX, quaestione 3, Super quibus, et <ref xml:id="bb-d4e43200-Rd1e122" target="http://scta.info/resource/cice-l4t11-d1e210">Extra, De cognatione spirituali,
+            capitulo 7, Tua nos</ref>. Et omnes istae species impediunt Matrimonium.</p>
+        <p xml:id="bb-d4e43200-d1e127">De tertio sciendum quod spiritualis cognatio dupliciter contrahitur, scilicet directe et
+          indirecte. Indirecte, ut quando uxor efficitur commater alicuius per actum viri, vel e
+          converso vir efficitur compater per actum uxoris. Directe vero contrahitur per actum
+          proprium, ut cum tenet aliquem vel aliquam ad sacramenti susceptionem. Sed circa hoc
+          fuerunt tres opiniones.</p>
+        <p xml:id="bb-d4e43200-d1e130">Prima dicit quod sicut septem sunt dona Spiritus sancti, ita sunt septem dona Baptismi,
+          scilicet a primo pabulo salis usque ad Confirmationem, quae fit per episcopum ; et in
+          quolibet horum contrahitur compaternitas, ita quod non potest esse Matrimonium inter
+          tales, <ref xml:id="bb-d4e43200-Rd1e132" target="http://scta.info/resource/gd-p2c30q1-d1e123">Causa XXX, quaestione 1,
+            Pervenit, in fine</ref>.</p>
+        <p xml:id="bb-d4e43200-d1e136">Secunda dicit quod per tria tantum sacramenta contrahitur, scilicet per catechismum,
+          Baptismum et Confirmationem episcopi, <ref xml:id="bb-d4e43200-Rd1e138" target="http://scta.info/resource/gd-p3d4-d1e1567">De consecratione, distinctione 4, In
+            catechismo</ref>.</p>
+        <p xml:id="bb-d4e43200-d1e142">Tertia opinio parum differt a secunda. Dicit enim quod in his tribus contrahitur cognatio
+          spirituatis, sed in Baptismo et Confirmatione adeo fortis est, quod impedit contrahendum
+          et dirimit iam contractum, <ref xml:id="bb-d4e43200-Rd1e144" target="http://scta.info/resource/gd-p2c30q1-d1e139">Causa
+            XXX, quaestione 1, Si quis filiastrum</ref>. In catechismo autem contrahitur adeo
+          exilis, quod vix impedit contrahendum et non dirimit iam contractum, <ref xml:id="bb-d4e43200-Rd1e147" target="http://scta.info/resource/cice-l4t11-d1e180">Extra, De cognatione spirituali,
+            Contracto</ref>.</p>
+        <p xml:id="bb-d4e43200-d1e151">Sed quae istarum opinionum sit verior, dubitationem habet. Et propterea circa hoc
+          quaeruntur tria. Primo quaeritur, utrum cognatio spiritualis contrahatur per aliquod
+          sacramentum. Secundo quaeritur, utrum impediat Matrimonium. Tertio quaeritur, utrum
+          transeat ab uno in alterum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

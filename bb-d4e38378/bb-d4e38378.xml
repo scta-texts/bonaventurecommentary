@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e38378">
+        <head xml:id="bb-d4e38378-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e38378-Hd1e111" type="question-title">Utrum impotentia naturalis coeundi sit impedimentum
+          Matrimonii.</head>
+        <div xml:id="bb-d4e38378-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e38378-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e38378-d1e119">Quantum ergo ad primum ostenditur quod naturalis impotentia coeundi non impediat
+            Matrimonium : Quia verum Matrimonium est Matrimonium sine carnali coitu ; sed
+            quandocumque aliquid habet perfectum esse sine aliquo, non impeditur per defectum illius
+            ; ergo etc.</p>
+          <p xml:id="bb-d4e38378-d1e122">Item, voluntas continendi in utroque coniugum non solvit Matrimonium, ergo nec
+            necessitas continendi, pari ratione ; sed ubi est impotentia etc.</p>
+          <p xml:id="bb-d4e38378-d1e125">Item, Matrimonium est vinculum insolubile ; sed possibile est impotentiam coeundi
+            accidentalem contrahi : ergo, si perpetuum non impeditur accidentali, nec Matrimonium
+            impeditur impotentia coeundi.</p>
+          <p xml:id="bb-d4e38378-d1e128">Item, naturalis impotentia venit ex frigiditate in viro ; sed frigiditas est accidens :
+            ergo potest expelli per caliditatem : ergo et talis impotentia. Sed accidens cito
+            transiens non solvit vinculum perpetuum : ergo etc. Similiter obicitur de arctatione ex
+            parte mulieris.</p>
+          <p xml:id="bb-d4e38378-d1e132">Contra : <ref xml:id="bb-d4e38378-Rd1e134" target="http://scta.info/resource/cice-l4t15-d1e134">Extra, libro IV De
+              frigidis et maleficiatis</ref> :<quote xml:id="bb-d4e38378-Qd1e137"> Sicut puer, qui non potest reddere debitum,
+              non est aptus coniugio, sic qui impotentes sunt, minime apti ad contrahenda Matrimonia
+              reputantur</quote>.</p>
+          <p xml:id="bb-d4e38378-d1e141">Item, in Matrimonio obligatur homo ad reddendum debitum ; sed nullus potest se obligare
+            ad impossibile ; sed impotens coire non potest debitum reddere : ergo non potest
+            Matrimonium contrahere.</p>
+          <p xml:id="bb-d4e38378-d1e144">Item, in Matrimonio transit potestas corporis viri in mulierem et e converso : sed
+            quando alter est impotens, non transit potestas, quia nemo dat quod non habet : ergo
+            etc.</p>
+          <p xml:id="bb-d4e38378-d1e147">Item, si Matrimonium est in remedium : ergo inter personas, inter quas nec officium nec
+            remedium potest esse, non potest esse Matrimonium ; sed hoc est per impotentiam : ergo
+            etc.</p>
+          <p xml:id="bb-d4e38378-d1e150">Item, ad hoc est auctoritas iuris, <ref xml:id="bb-d4e38378-Rd1e152" target="http://scta.info/resource/gd-p2c33q1-d1e127">Causa XXXIII, quaestione 1</ref>,
+            quae dat licentiam contrahendi alteri personarum in casu isto : ergo non est
+            Matrimonium.</p>
+        </div>
+        <div xml:id="bb-d4e38378-Dd1e157">
+          <p xml:id="bb-d4e38378-d1e159">Respondeo : Dicendum quod impotentia coeundi naturalis aut est temporalis aut perpetua.
+            Si temporalis, non impedit ; si perpetua, tunc impedit contrahendum et dirimit
+            contractum ; et si alter coniugum petat separationem, separandi sunt ; si autem velint
+            mutuo cohabitare, possunt, ut qui non potest mulierem habere ut uxorem, habeat ut
+            sororem. Sed quia dubium est utrum impotentia talis sit perpetua, ideo Ecclesia utrique
+            adhibet debitam diligentiam ad sciendam perpetuitatem et indicit cohabitare per tres
+            annos et experiri actum illum et remedia, si qua possunt esse contra talem impotentiam.
+            Ad sciendum autem quod praecesserit, creditur iuramento septem testium vel etiam
+            inspectioni claustrorum ; alioquin statur verbo viri. Decipitur tamen aliquando
+            Ecclesia, et cum constat de deceptione, iubet eos quos separaverat ad priora iura
+            redire. Concedendum est igitur quod impotentia coeundi, quae venit ex naturali
+            frigiditate, Matrimonium impedit, si sit perpetua secundum veritatem. Qualiter autem
+            cognoscatur eius perpetuitas, et quae sit diligentia adhibenda, hoc est inferioris
+            scientiae determinare, ut iuristarum aut medicorum.</p>
+        </div>
+        <div xml:id="bb-d4e38378-Dd1e163">
+          <head xml:id="bb-d4e38378-Hd1e165">Obiecta</head>
+          <p xml:id="bb-d4e38378-d1e168">Ad illud ergo ex complexione et naturaliter inest quod obicitur, quod verum Matrimonium
+            est sine copula carnali, dicendum quod verum est ; sed non est sine ordinabilitate ad
+            carnalem copulam, quia, sicut supra dictum fuit, necesse est consentire in mutuam
+            corporum potestatem ; hic autem consensus nullus est nec talis obligatio in eo qui non
+            habet posse exercendi actum illum. Et ideo argumentum non valet, quia potentia coeundi,
+            quantum ad legitimitatem personae contrahentis, est de essentia, non sic actus.</p>
+          <p xml:id="bb-d4e38378-d1e171">Per hoc patet responsio ad sequens, quod voluntas continendi non impedit Matrimonium,
+            quoniam adhuc manet ordinabilitas ad actum cum voluntate, quia non necesse est esse
+            perpetuam, pro eo quod voluntas potest verti ; et ideo non est simile de impotentia et
+            voluntate.</p>
+          <p xml:id="bb-d4e38378-d1e174">Ad illud quod obicitur, quod est vinculum insolubile, dicendum quod istud verum est,
+            postquam contractum est legitime ; et ex tunc, si superveniat illegitimitas, non solvit
+            Matrimonium ; sed si praevenit, impedit contractionem : et adeo impedit quod, etsi
+            videatur Matrimonium contrahi secundum faciem hominum, tamen secundum veritatem non
+            contrahitur. Et ideo dicitur dirimere iam contractum, non quia illud vinculum infringat,
+            sed tantum est impedimentum guod, etsi de facto consummetur in facie hominum, nullam
+            tamen soliditatem habeat.</p>
+          <p xml:id="bb-d4e38378-d1e177">Ad illud quod obicitur, quod frigiditas est accidens etc., dicendum quod frigiditas
+            duplex est : quaedam accidentaliter, quaedam complexionaliter et per naturam. Illa quae
+            est in homine accidentaliter, potest ut plurimum expelli, pro eo quod non est a prima
+            complexione. Sed frigiditas quae est ex complexione et naturaliter inest - sicut in his
+            qui sunt insensibiles per naturam vel per malam dispositionem membri alicuius ad hoc
+            ordinati, ut arctitudo in muliere, si tanta est quod nullum remedium adhiberi possit
+            secundum iudicium bonarum matronarum - haec est quae impedit, et haec est inseparabilis
+            et perpetua ; et de hac non valet ratio. Quod enim dicitur contrarium expelli per
+            contrarium, verum est, ut dicit Philosophus, nisi alterum insit per naturam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

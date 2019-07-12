@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12600">
+        <head xml:id="bb-d4e12600-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e12600-Hd1e111" type="question-title">Utrum utraque harum specierum sit de integritate
+          sacramenti.</head>
+        <p xml:id="bb-d4e12600-d1e114">Secundo quaeritur, utrum utraque harum specierum sit de integritate sacramenti.</p>
+        <div xml:id="bb-d4e12600-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e12600-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e12600-d1e122">Et quod sic, videtur : Quia Dominus, cum illud sacramentum tradidit, in utraque specie
+            confecit ; sed non est sacramentum completum nisi secundum quod ipse instituit : ergo
+            etc.</p>
+          <p xml:id="bb-d4e12600-d1e125">Item, forma verbi est de integritate sacramenti ; sed forma corporis non est nisi super
+            panem et forma sanguinis non est nisi super vinum : ergo utraque species est de
+            integritate.</p>
+          <p xml:id="bb-d4e12600-d1e128">Item, nullum sacramentum est iterandum, quamdiu manet : ergo nec consecratio supra
+            consecrationem est addenda, cum est perfecta ; sed ad consecrationem panis additur
+            consecratio vini : ergo nondum est perfecta : ergo etc.</p>
+          <p xml:id="bb-d4e12600-d1e131">Item, in hoc Sacrameno exprimitur mysterium nostrae redemptionis ; sed hoc non fit in
+            solo pane, sive in corpore, sed etiam in sanguine : et sic etc.</p>
+          <p xml:id="bb-d4e12600-d1e135">Contra : In hoc Sacramento quantum ad speciem panis totus Christus continetur nec
+            aliquid amplius in duobus quam in uno, nec aliud, sed omnino idem : ergo videtur quod
+            non sit de integritate species vini, quia, illa remota, remanet totum completum.</p>
+          <p xml:id="bb-d4e12600-d1e138">Item, fideles integrum et perfectum sacramentum recipiunt, nec recipiunt nisi in altera
+            specie tantum : ergo etc.</p>
+          <p xml:id="bb-d4e12600-d1e141">Item, quaero : quae necessitas est in hoc sacramento sanguinem Christi significari ? Si
+            quia de integritate, multo magis anima : ergo anima multo magis debet significari. Si
+            dicas quod in hoc significatur anima, quia <quote xml:id="bb-d4e12600-Qd1e143" source="http://scta.info/resource/pl-l4d11c4-d1e118">sedes animae est in sanguine
+              <!-- seems to be a quote in Lombard as well --></quote>, ut dicit <name ref="#Lombard">Magister</name>, contra : anima ut perfectio est in toto corpore et in singulis
+            partibus, non ergo in sanguine. Praeterea, quaedam animalia sunt sine sanguine.</p>
+          <p xml:id="bb-d4e12600-d1e151">Item, Baptismus est sacramentum valens ad remedium corporis et animae, et tamen non est
+            ibi signum nisi unicum : ergo nec hic.</p>
+        </div>
+        <div xml:id="bb-d4e12600-Dd1e155">
+          <head xml:id="bb-d4e12600-Hd1e157">Conclusio</head>
+          <head xml:id="bb-d4e12600-Hd1e160" type="question-title">Utraque species est de integritate Sacramenti eucharistiae
+            quoad significantiam, sed non quoad efficaciam</head>
+          <p xml:id="bb-d4e12600-d1e163">Respondeo : Dicendum quod in sacramento duo sunt, scilicet efficacia et significantia.
+            Esse igitur de integritate sacramenti dupliciter est : aut quantum ad efficaciam, et sic
+            neutra species est de integritate, sed in qualibet totum, quod habet efficaciam ; aut
+            quantum ad significationem, et sic sunt de integritate ; quia in neutra per se
+            exprimitur res huius sacramenti, sed in utraque simul. Et hoc patet sic.</p>
+          <p xml:id="bb-d4e12600-d1e166">Hic significatur Christus cibus perfecte reficiens manducantes sacramentaliter et
+            spiritualiter ; perfecta autem refectio non est in pane tantum nec in vino tantum, sed
+            in utroque : ideo non in uno tantum perfecte significatur ut reficiens, sed in utroque.
+            Reficit autem hoc sacramentum non quoscumque, sed manducantes spiritualiter. Manducare
+            autem spiritualiter est recognoscere et affici circa eius passionem, quae fuit in
+            corporis eius multiplici afflictione et sanguinis effusione ; in quo manifestatur
+            immensa Dei caritas, et in hoc anima perfecte reficitur et delectatur ; et ideo utrumque
+            distincte significatur, scilicet corpus et sanguis. Rursus, delectatio et refectio non
+            est in passione quia passio, sed quia nostra redemptio ; ibi etiam mira nostra utilitas
+            nos delectat, et quia redempti sumus in corpore et anima : ad hoc est perfecta redemptio
+            et Christus exposuit corpus et animam ; et ideo, ut perfecta esset vel significaretur
+            redemptio, et ex hoc perfecta refectio, debuit significari corpus in pane et anima,
+            cuius sedes est in sanguine, in vino.</p>
+          <p xml:id="bb-d4e12600-d1e169">Ratio igitur integritatis est significantia Christi nos perfecte reficientis in
+            meditatione suae amantissimae passionis et nostrae iucundae redemptionis, quae non per
+            alterum horum perfecte significari potuit, sed per utrumque. Rationes autem ad primam
+            partem procedunt quantum ad significantiam.</p>
+        </div>
+        <div xml:id="bb-d4e12600-Dd1e174">
+          <head xml:id="bb-d4e12600-Hd1e176">Ad rationes</head>
+          <p xml:id="bb-d4e12600-d1e179">1-2. Ad illud quod obicitur primo ad oppositum, patet, quia, etsi totum in utraque
+            specie contineatur, non tamen per alterum perfecte significatur. Et ideo fideles
+            perfectum sacramentum recipiunt, quia ad efficaciam recipiunt ; sed quantum ad
+            significantiam sufficit quod Ecclesia faciat in eorum praesentia ; nec oportet quod ipsi
+            recipiant, propter periculum eff usionis et propter periculum erroris, quia non
+            crederent simplices in altera specie totum Christum recipere. Exemplum patet de eo cui
+            exivit sanguis ab hostia, qui.a non credebat quod esset sanguis in specie corporis.</p>
+          <p xml:id="bb-d4e12600-d1e182">Ad illud quod obicitur tertio : quae necessitas est quare oporteat sanguinem
+            significari , dicendum quod hoc est tum propter passionem, tum propter animae
+            redemptionem. Anima enim, cum sit spiritualis, non potuit in se significari, sed in
+            annexo, ut puta in sanguine, in quo est sedes animae, non quia in solo sanguine, sed
+            quia anima rationalis unitur mediante potentia sentiendi, et illa mediante potentia
+            vegetandi, et illa, cum habeat tres virtutes, prima, fundamentum omnium, est nutritiva
+            et nutrimentum sanguinis vel aliquid loco eius : ideo etc.</p>
+          <p xml:id="bb-d4e12600-d1e185">Ad illud quod obicitur de Baptismo, dicendum quod Baptismus principaliter significat
+            mortem et sepulturam, sed hoc sacramentum significat Christum passum ; et quoniam passus
+            est in anima et in carne, passus corporis afflictione et sanguinis effusione : ideo
+            utrumque hic significari debet. Unde non est simile ; tamen ista non est tota causa nec
+            principalis, sed principalis est significatio refectionis perfectae secundum statum
+            viae. Causae autem congruentiae multae sunt et accipiuntur tum ex propria rei
+            significatione quam efficit sacramentum, et haec est nostra refectio ; tum rei quam
+            significat allegorice, et haec est Christi passio. Refectio autem potest significari ut
+            perfecta ; et sic significatur per haec duo quantum ad modum duplicem, quia alii
+            suaviter, alii cum maiori labore reficiuntur ; prima significatur per sanguinem et
+            speciem vini, secunda per speciem panis. Vel quantum ad effectus quia confortat, et hoc
+            per speciem panis ; et laetificat sive delectat, et hoc per vinum. Quantum ad
+            significationem allegoricam debet significari corpus et anima, quia Christus utram que
+            assumpsit et in utraque passus est et utramque redemit. Et haec omnia ad congruitatem
+            faciunt ; et institutio quae praeexigit congruitatem, superveniens inducit necessitatem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

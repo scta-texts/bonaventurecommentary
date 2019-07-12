@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e6715">
+        <head xml:id="bb-d4e6715-Hd1e108">Quaestio 5</head>
+        <head xml:id="bb-d4e6715-Hd1e111" type="question-title">Utrum character imprimatur delebiliter vel indelebiliter.</head>
+        <p xml:id="bb-d4e6715-d1e114">Quinto quaeritur, utrum character imprimatur delebiliter vel indelebiliter.</p>
+        <div xml:id="bb-d4e6715-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e6715-d1e119">Et quod indelebiliter, videtur : Quia sacramenta, in quibus imprimitur character,
+            nullatenus iterantur ; sed, si deleretur, passent et deberent iterari : ergo non
+            deletur.</p>
+          <p xml:id="bb-d4e6715-d1e122">Item, character stat cum culpa, sicut patet in sacerdote malo, ergo non repugnat culpae
+            ; stat etiam cum ignorantia, ut in parvulo baptizato, ergo videtur quod non habeat
+            contrarium per quod deleatur ; et est in subiecto perpetuo ; ergo eius impressio est
+            indelebilis.</p>
+          <p xml:id="bb-d4e6715-d1e125">Contra : Possibile est aliquem baptizatum habere characterem bestiae, de quo habetur
+              <ref xml:id="bb-d4e6715-Rd1e127" ana="#ap14_9">Apocalypsis 14, 9</ref> ; sed nullus simul potest placere Deo et
+            diabolo : ergo nullus simul potest habere signum huius et illius : ergo unus character
+            potest alterum delere et destruere.</p>
+          <p xml:id="bb-d4e6715-d1e131">Item, character bestiae est delebilis, quia nullus est adeo malus quin possit fieri
+            bonus : ergo a simili character Christi, cum ille qui bonus est, possit malus fieri.</p>
+          <p xml:id="bb-d4e6715-d1e134">Item, si character est indelebilis, quaero unde illud habeat. Si ab efficiente, sed
+            gratia gratum faciens est a Deo, et tamen delebilis. Si a subiecto, ergo quidquid est in
+            anima est indelebile. Praeterea, quod magis sit delebilis ratione subiecti, videtur,
+            quia voluntarie recipitur ; sed quod subiacet voluntati est variabile : ergo etc.</p>
+          <p xml:id="bb-d4e6715-d1e138">Item, quod post hanc vitam deleatur, videtur in Beatis, quia est ex parte, multo enim
+            magis est imperfectum lumen quam fides : ergo, si fides excidit, et character.</p>
+          <p xml:id="bb-d4e6715-d1e141">Item, quod in damnatis deleatur, videtur, quia character aliquo modo habilitat ad
+            gratiam ; sed tunc erunt ipsi omnino inhabiles : ergo carebunt charactere.</p>
+        </div>
+        <div xml:id="bb-d4e6715-Dd1e145">
+          <head xml:id="bb-d4e6715-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e6715-Hd1e150" type="question-title">Character est signum indelebile, quia est habitus in subiecto
+            perpetuo impressus ad distinguendum</head>
+          <p xml:id="bb-d4e6715-d1e153">Respondeo : Dicendum quod communis opinio est quod character est proprietas
+            indelebilis. Sed in huius indelebilitatis causa differenter sentiunt diversi.</p>
+          <p xml:id="bb-d4e6715-d1e156">Quidam enim dicunt quod, quia character est in anima secundum substantiam vel
+            essentiam, et ipsa est perpetua et invariabilis, ideo et character. Sed istud supra
+            improbatum est.</p>
+          <p xml:id="bb-d4e6715-d1e159">Alii dicunt quod, quia est in anima secundum potentiam cognitivam, quae non subiacet
+            variabilitati, ut voluntas - quaedam enim cognoscimus, etiam voluntate nolente - ideo
+            invariabilis. Sed hoc non valet, quiar per ignorantiam expelluntur habitus cognitivi,
+            sed non character.</p>
+          <p xml:id="bb-d4e6715-d1e163">Tertii dicunt quod sicut ex matrimonii obligatione contrahitur vinculum insolubile
+            quamdiu vivitur, ita ex consimili in susceptione sacramenti, scilicet quia ibi est
+            quoddam matrimonium spirituale ; et quoniam tam Deus quam anima sunt perpetuam
+            durationem habentia, ideo character semper durat. Sed, quamvis istud possit dici de
+            Baptismo, ubi est quaedam contractio matrimonii, non tamen in aliis sacramentis.</p>
+          <p xml:id="bb-d4e6715-d1e166">Et propterea dicendum aliter quod perpetuitas characteris principaliter sumitur ab eius
+            conditione et natura. Unde notandum quod est habitus innatus, et hic est indelebilis
+            omnino ; et est habitus acquisitus, et hic, quia est ex acquisitione, perdi potest ; et
+            est habitus infusus vel datus ; et hic est duplex. Quidam est datus ad dirigendum, et
+            quia potentiae possunt obliquari, ideo est delebilis : potest enim invenire repugnantiam
+            in subiecto ; et alius impressus ad distinguendum, et huic directio vel obliquatio
+            potentiae non repugnat. Si enim aliquid repugnaret, hoc solum esset opposita consignatio
+            ; sed opposita non potest esse, quia solus Deus potest imaginem suam consignare : ideo,
+            si debet opposito signo signari, a solo Deo fiet. Sed ipse nunquam imprimit signum sibi
+            contrarium ; ideo necesse est quod character aeternaliter perseveret. Quoniam igitur
+            character proprietas est existens in subiecto perpetuo, in quo non potest habere
+            repugnantiam, ideo eius impressio est perpetua.</p>
+        </div>
+        <div xml:id="bb-d4e6715-Dd1e171">
+          <head xml:id="bb-d4e6715-Hd1e173">Ad rationes</head>
+          <p xml:id="bb-d4e6715-d1e176">1-2. Ad illud quod obicitur de charactere bestiae, dicendum quod character bestiae non
+            dicitur aliquod signaculum, quod diabolus animae impresserit, sed culpa secundum eius
+            voluntatem perpetrata, in qua est anima per obstinationem disposita ad perpetuitatem ;
+            et ideo non est omnino simile.</p>
+          <p xml:id="bb-d4e6715-d1e179">Ad illud quod quaeritur unde hoc habeat, dicendum quod a sui conditione, subiecto
+            concordante, non repugnante ; et efficiente, non producente contrarium nec
+            subtrahente.</p>
+          <p xml:id="bb-d4e6715-d1e182">Ad illud quod obicitur de damnatis, dicendum quod in damnatis manet ad confusionem, in
+            Beatis ad quantulumcumque decorem.</p>
+          <p xml:id="bb-d4e6715-d1e185">Quod obicitur, quod est ex parte, dicendum quod imperfectio characteris compatitur
+            secum perfectionem gloriae ; non sic autem est de imperfectione fidei, quia fides,
+            secundum quod est virtus, dicit aenigma et absentiam rei creditae, et hoc repugnat
+            statui gloriae ; et ideo evacuatur, non secundum quod lumen tantum, sed secundum quod
+            habet annexum aenigma et absentiam rei in se, quod est essentiale fidei, secundum quod
+            virtus ; alioquin, si videret certitudinaliter, non esset meritum. Non autem est simile
+            de charactere, quoniam dicit quamdam consignationem et lumen quoddam ; et illud non
+            habet oppositionem ad lumen perfectum nec habet oppositionem ad tenebram poenae propter
+            lucis modicitatem : ideo nec ibi evacuatur nec hic extinguitur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

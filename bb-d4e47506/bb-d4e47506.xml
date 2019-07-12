@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e47506">
+        <head xml:id="bb-d4e47506-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e47506-Hd1e111" type="question-title">Utrum Sancti orent pro nobis.</head>
+        <div xml:id="bb-d4e47506-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e47506-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e47506-d1e119">Quantum ergo ad primum ostenditur quod Sancti orent pro nobis : Quia dicitur de
+            Christo, qui est Sanctus Sanctorum, ad Hebraeos 7, 25 : <quote xml:id="bb-d4e47506-Qd1e121" ana="#hebr7_25">Semper
+              vivens ad interpellandum pro nobis</quote> ; sed Sancti sunt eius imitatores : ergo
+            sicut Christus orat, et Sancti orant.</p>
+          <p xml:id="bb-d4e47506-d1e125">Item, hoc ipsum probatur per illud quod dicitur Ioannis 14, 16 : <quote xml:id="bb-d4e47506-Qd1e127" ana="#io14_16">Ego rogabo Patrem, et alium Paraclitum dabit vobis</quote> : ergo similiter Sancti
+            orant.</p>
+          <p xml:id="bb-d4e47506-d1e131">Item, Ecclesia communiter orat : Sancta Maria, ora pro nobis ; ergo etc. Ergo, si non
+            stulte petit, patet etc.</p>
+          <p xml:id="bb-d4e47506-d1e134">Item, ratione videtur, quia Sancti diligunt nos ex caritate, ergo optant et desiderant
+            salutem nostram ; sed constat quod sciunt illam non posse esse nisi a Deo, ergo optant
+            illam per Deum : ergo, cum desiderium alicuius rei a Deo sit oratio, patet etc.</p>
+          <p xml:id="bb-d4e47506-d1e138">Contra : Sancti volunt nobis salutem vel aliud bonum, aut non volunt. Si nolunt, ergo
+            non orant ; si volunt, sed dicit <ref xml:id="bb-d4e47506-Rd1e140">Anselmus, in Proslogio</ref>, quod <quote xml:id="bb-d4e47506-Qd1e143">Beati
+              erunt omnipotentes suae voluntatis sicut et Deus suae</quote>. Ergo, cum nullus oret
+            quod potest per se, sicut dicit <ref xml:id="bb-d4e47506-Rd1e146">Augustinus, De correctione et gratia</ref>, si
+            Sancti possunt, salutem nostram non orant, vel non sunt omnipotentes, si non
+            possunt.</p>
+          <p xml:id="bb-d4e47506-d1e150">Item, ut dicit Damascenus, <quote xml:id="bb-d4e47506-Qd1e152">oratio est ascensus intellectus in Deum</quote> ; sed
+            Beati sunt in termino suae contemplationis : ergo eorum intellectus in Deum non
+            ascendit, ergo non orant.</p>
+          <p xml:id="bb-d4e47506-d1e156">Item, beatus est cui ad votum cuncta succedunt ; unde <ref xml:id="bb-d4e47506-Rd1e158">Augustinus, XIII De
+              Trinitate</ref>, dicit quod : <quote xml:id="bb-d4e47506-Qd1e161">Beatus habet quidquid vult. Sed nullus, habens
+              quidquid vult</quote>, aliquid orat vel petit : ergo Sancti in patria non orant pro
+            nobis.</p>
+          <p xml:id="bb-d4e47506-d1e165">Item, si Christus orat pro nobis, quaeritur : quare non dicitur in Litania : Christe,
+            ora pro nobis ? Ergo, si non dicitur, videtur quod non oret pro nobis, ac per hoc nec
+            Sancti. Item, quaeritur : quare non dirigitur ad Spiritum Sanctum oratio sicut ad Patrem
+            et Filium ?</p>
+        </div>
+        <div xml:id="bb-d4e47506-Dd1e169">
+          <head xml:id="bb-d4e47506-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e47506-Hd1e174" type="question-title">Sancti in caelo pro nobis orant</head>
+          <p xml:id="bb-d4e47506-d1e177">Respondeo : Dicendum quod, sicut dicit <name ref="#Lombard">Magister</name> in littera,
+            Sancti pro nobis orant. Et huius ratio est duplex : una est, quia vident nostram
+            necessitatem, qua nos indigemus ab aliis relevari ; alia propter Dei voluntatem, quia
+            vult ut unum membrum aliud relevet, et quod pro invicem sollicita sint membra ; unde,
+            cum ipsi sint liberati, debent alios adiuvare.</p>
+        </div>
+        <div xml:id="bb-d4e47506-Dd1e184">
+          <head xml:id="bb-d4e47506-Hd1e186">Ad rationes</head>
+          <p xml:id="bb-d4e47506-d1e189">Ad illud ergo quod obicitur quod possunt quidquid volunt, dicendum quod voluntas
+            dupliciter comparatur ad actum : aut ad actum proprium, ut volo hoc facere ; aut ad
+            actum alienum, ut volo quod alius faciat hoc, scilicet Deus vel homo. Unde dico quod
+            auctoritas <name ref="#Anselm">Anselmi</name> est respectu actus proprii, sed oratio vel
+            petitio salutis respectu actus divini, ut scilicet Deus salvet.</p>
+          <p xml:id="bb-d4e47506-d1e195">Ad illud quod obicitur, quod non ascendit intellectus in Deum, dicendum quod
+            intellectus dicitur in Deum ascendere tripliciter : aut per novum aspectum in Deum,
+            scilicet quando homo revocat cogitationem ab aliis et convertit in Deum ; et sic est
+            tantum in viatoribus. Alio modo, per aspectum alterius inferioris rei, ut cum quis
+            cogitat humanam miseriam et implorat misericordiam, ut relevet miseriam ; ibi dicitur
+            aspectus, non quia de novo aspiciat, sed quia aliud inferius ad illud respiciat ; et sic
+            est in Beatis, quando pro nobis rogant, quia tunc nostram indigentiam considerant.
+            Tertio modo, propter continuationem intuitus primi ; unde, cum quis considerat Deum, qui
+            est super se, et continue considerat, continue ascendit, non quia ad aliud et ad aliud,
+            sed quia super se fertur ; et hoc modo continue est in Beatis. Et sic patet istud, quia,
+            si primo modo dicatur oratio, ascensus est tantum viae, secundo modo est viae et
+            patriae, tertio modo tantum patriae.</p>
+          <p xml:id="bb-d4e47506-d1e198">Ad illud quod obicitur, quod Beatus habet quidquid vult, dicendum quod Beatus aliqua
+            vult sibi, aliqua vult aliis. Dico ergo quod ad substantiam beatitudinis est ut habeat
+            omne quod vult sibi ; sed ut habeat omne quod vult aliis, non est de substantia
+            beatitudinis, sed de consummatione et bene esse ; et hoc non erit, quousque omnes electi
+            sint glorificati tunc enim quilibet habebit quod vult sibi et quod vult cuilibet alii ;
+            et tunc plena est beatitudo. Unde Beati orant tantum pro aliis, miseri pro se et pro
+            aliis ; sed, consummato numero electorum, non rogabunt pro se nec pro aliis.</p>
+          <p xml:id="bb-d4e47506-d1e201">Ad illud quod ultimo quaeritur de Christo, dicendum quod propter errorem Arii vitandum,
+            ne videamur Christum credere creaturam ; et ne videamur eius potestatem minuere qua
+            potest omnia, eius petimus miserationem, non orationem.</p>
+          <p xml:id="bb-d4e47506-d1e205">Quod vero quaeritur de Spiritu Sancto dicendum est quod, quia est donum in quo omnia
+            dona donantur, ideo petendus est ipse ; non porrigenda est ei petitio.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

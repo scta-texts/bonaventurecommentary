@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e53000">
+        <head xml:id="bb-d4e53000-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e53000-Hd1e111" type="question-title">Utrum anima separata cognoscat ea quae circa nos
+          geruntur.</head>
+        <p xml:id="bb-d4e53000-d1e114">Secundo quaeritur de cognitione animae separatae per comparationem ad statum viatorum ;
+          et quaeritur, utrum anima separata cognoscat ea quae circa nos geruntur.</p>
+        <div xml:id="bb-d4e53000-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e53000-Hd1e119">Ad rationes</head>
+          <p xml:id="bb-d4e53000-d1e122">Et quod sic, videtur saltem de bonis : <name ref="#GregoryGreat">Gregorius</name> :
+              <quote xml:id="bb-d4e53000-Qd1e127">Quid est quod non vident, qui videntem omnia vident ?</quote> Sed tales sunt
+            animae beatae : ergo etc.</p>
+          <p xml:id="bb-d4e53000-d1e131">Item, hoc etiam videtur de reprobis, quia <name ref="#GregoryGreat">Gregorius</name>
+            narrat, in Dialogo, quod quidam malus homo praedixit locum suae sepulturae ; et solvit
+            quod hoc fuit virtute animae, quae iam abstrahebatur a corpore. Si ergo plus est
+            cognoscere futura quam praesentia, et tanto magis cognoscit, quanto magis est abstracta,
+            patet etc.</p>
+          <p xml:id="bb-d4e53000-d1e137">Item, communiter de utraque videtur, quia utraque habet potentiam intelligendi, quae
+            non indiget adminiculo exterioris luminis, nec est arctata ad aliquid : ergo potest per
+            istam cognoscere quae circa nos geruntur.</p>
+          <p xml:id="bb-d4e53000-d1e140">Item, quanto substantia liberior, tanto facilius et certius exit in actum suum : ergo,
+            cum anima separata a corpore sit multo liberior quam ei coniuncta, si poterat coniuncta
+            cognoscere quae sunt circa nos, poterit et separata.</p>
+          <p xml:id="bb-d4e53000-d1e144">Contra : Quod beatae animae non cognoscant, videtur, quia beatae animae magis adhaerent
+            Deo quam aliqui viatores ; sed aliqui viatores ita adhaerent Deo quod parum vel nihil
+            sciunt de his quae hic geruntur : ergo etc.</p>
+          <p xml:id="bb-d4e53000-d1e147">Item, de damnatis videtur, quia lumen cognitionis non. accrescit in damnatis, immo
+            potius obscuratur ; sed, cum damnati erant hic, non poterant cognoscere ea quae fiunt
+            apud inferos : ergo nec modo poterunt cognoscere ea quae fiunt apud nos.</p>
+          <p xml:id="bb-d4e53000-d1e150">Item, quod nec isti nec illi, videtur, quia tam isti quam illi habent potentiam
+            cognoscendi finitam ; sed ad hoc quod aliquid cognoscatur de novo, necesse est
+            praesentari ipsi virtuti cognoscenti : ergo, si a nobis multum distant et absentes sunt,
+            patet etc.</p>
+          <p xml:id="bb-d4e53000-d1e153">Item, tam isti quam illi diligunt nos ; sed qui diligit alterum congaudet in bonis et
+            contristatur in malis : ergo, si mali non debent cognoscere unde gaudeant nec boni unde
+            doleant, videtur quod nec isti nec illi nos cognoscant. Et hoc confirmatum est per illud
+            quod dictum est Iosiae, IV Regum 22, 20. Dixit enim Dominus quod auferret eum, ne
+            videret mala gentis suae.</p>
+        </div>
+        <div xml:id="bb-d4e53000-Dd1e157">
+          <head xml:id="bb-d4e53000-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e53000-Hd1e162" type="question-title">Utrum anima separata cognoscat ea quae circa nos
+            geruntur</head>
+          <p xml:id="bb-d4e53000-d1e165">Respondeo : Dicendum quod est aliquid cognoscere dupliciter, scilicet propria
+            consideratione et alterius instructione. Cognitio per propriam considerationem est
+            duplex : aut enim est rei ut praesentis et per certitudinem, aut est rei ut absentis et
+            per quamdam coniecturationem. Similiter per instructionem cognitio est duplex : aut enim
+            est per relationem alterius, aut per revelationem Dei.</p>
+          <p xml:id="bb-d4e53000-d1e168">Cum igitur sit quadruplex modus cognoscendi, primus non est in animabus separatis
+            quantum ad actus nostros, quamdiu sunt in locis sibi deputatis ; distant enim a nobis,
+            nisi fortassis divina permissione veniant ad nos. Secundus vero, qui est per quamdam
+            coniecturationem, sicut nos facimus de illis quos novimus, cum sint nobis absentes, in
+            damnatis esse potest, non in bonis, quia huic admixtus est error et dubietas. Tertius
+            per relationem potest esse in bonis, quibus referunt angeli boni, et in malis, quibus
+            referunt daemones vel ipsi damnati. Quartus vero per illustrationem et revelationem
+            tantum in bonis. Unde <name ref="#Augustine">Augustinus</name>, in libro De cura pro
+            mortuis agenda : Possunt, inquit, spiritus mortuorum aliqua quae hic aguntur, quae
+            necessarium est eos nosse, non solum praesentia ; sed etiam praeterita et futura,
+            Spiritu Dei revelante, cognoscere. Et <name ref="#GregoryGreat">Gregorius</name>, in
+            Dialogo : <quote xml:id="bb-d4e53000-Qd1e176">Fit in electis quoddam mirabile, ut etiam illos quos hic nunquam
+              viderunt vel noverunt bonos agnoscant</quote>. Non tamen omnia cognoscunt, sed quaedam
+            per revelationem.</p>
+        </div>
+        <div xml:id="bb-d4e53000-Dd1e182">
+          <head xml:id="bb-d4e53000-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e53000-d1e187">Ad illud ergo quod obicitur, quod omnia vident boni, quia vident videntem omnia,
+            dicendum quod <name ref="#GregoryGreat">Gregorius</name> intelligit de his quae sunt
+            eorum saluti necessaria.</p>
+          <p xml:id="bb-d4e53000-d1e193">Ad illud quod obicitur de illo qui praevidit locum, dicendum quod hoc potuit esse ex
+            multa sollicitudine et animae abstractione vel etiam aliqua facta interius
+            revelatione.</p>
+          <p xml:id="bb-d4e53000-d1e196">3-4. Ad illud quod obicitur, quod non indigent organo et sunt liberrimae, dicendum
+            quod, quamvis non indigeant organo ad cognoscendum ea quorum habent species, indigent
+            tamen ad accipiendum de novo et cognoscendum, maxime singularia.</p>
+          <p xml:id="bb-d4e53000-d1e199">Ad illud quod obicitur in contrarium, quod Santi sunt ab his abstracti, dicendum quod
+            non est simile, quia, quamdiu sunt in carne, impediuntur a contemplatione Dei ex
+            consideratione multa nostrorum actuum, sed iam beati non impediuntur.</p>
+          <p xml:id="bb-d4e53000-d1e203">2-3. Ad illud quod obicitur, quod non habent maius lumen cognitionis, dicendum quod
+            sicut modo cognoscimus revelatione ; ita et ipsi, et consideratione similiter ; sed
+            certius considerant nos quam nos ipsos, quia nos hactenus cognoverunt, sed non nos
+            ipsos.</p>
+          <p xml:id="bb-d4e53000-d1e206">Ad illud quod obicitur, quod dolerent boni, dicendum, sicut iam patebit, quod nec bonis
+            tristitia nec malis gaudium aliquod ex hoc esset.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

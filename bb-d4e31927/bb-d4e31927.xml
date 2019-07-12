@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e31927">
+        <head xml:id="bb-d4e31927-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e31927-Hd1e111" type="question-title">Utrum solus episcopus possit ordinare.</head>
+        <div xml:id="bb-d4e31927-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e31927-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e31927-d1e119">Circa primum proceditur sic et ostenditur quod solus episcopus possit ordinare. Ad
+            Hebraeos 7, 7 : <quote xml:id="bb-d4e31927-Qd1e121" ana="#hebr7_7">Sine ulla contradictione quod minus est a maiore
+              benedicitur</quote>. Sed Ordinum collatio est per benedictionem : ergo necesse est
+            quod ille qui Ordines confert, eminentiam habeat ultra omnes Ordines. Sed talis non est
+            nisi episcopus : ergo etc.</p>
+          <p xml:id="bb-d4e31927-d1e125">Item, <name ref="#IsidoreOfSeville">Isidorus</name>, in libro VII Etymologiarum,
+            capitulo 12, loquens de officio episcopi, dicit : Ipse summus sacerdos, ipse et pontifex
+            maximus nominatur ; <quote xml:id="bb-d4e31927-Qd1e130" source="http://scta.info/resource/wer3fe-d1e119">ipse enim
+              efficit sacerdotes atque levitas, ipse omnes ecclesiasticos Ordines
+            disponit</quote>.</p>
+          <p xml:id="bb-d4e31927-d1e134">Item, ratione videtur, quia eius est in Ecclesia Ordines constituere, cuius est
+            Ecclesiam gubernare ; sed gubernatio Ecclesiarum spectat ad episcopos, qui sunt
+            superintendentes : ergo et dispensatio Ordinum.</p>
+          <p xml:id="bb-d4e31927-d1e137">Item, eius est in Ecclesia Ordines conferre, ad quem spectat ex Ecclesia filios
+            generare perfectos, pro eo quod Ordo collocat in statu perfectionis ; sed hoc est illius
+            solius qui est sponsus, hic autem est episcopus : ergo etc.</p>
+          <p xml:id="bb-d4e31927-d1e141">Item, maioris dignitatis est Ordines dispensare, quam sit sacramentum Confirmationis
+            dare ; sed secundum est episcoporum tantum : ergo et primum.</p>
+          <p xml:id="bb-d4e31927-d1e144">Contra : I ad Timotheum 4, 14 : <quote xml:id="bb-d4e31927-Qd1e146" ana="#Itim4_14">Noli negligere gratiam, quae est
+              in te per impositionem manuum presbyteri</quote>. Ergo in primitiva Ecclesia
+            presbyterorum erat manus episcopis imponere, ergo et ordinare : ergo etc.</p>
+          <p xml:id="bb-d4e31927-d1e150">Item, ordinatio Ordinum principalium fit per manuum impositionem : ergo cui competit
+            manuum impositio, competit et potestas ordinandi ; sed prima competit presbyteris : ergo
+            etc. Probatio mediae : <ref xml:id="bb-d4e31927-Rd1e152" target="http://scta.info/resource/gd-p1d23-d1e227">distinctione 23</ref> :<quote xml:id="bb-d4e31927-Qd1e155"> Presbyter cum ordinatur, episcopo eum benedicente et
+              manum super caput eius tenente, etiam omnes presbyteri, qui praesentes. sunt, manus
+              suas iuxta manus episcopi teneant super caput illius</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e31927-d1e159">Item, quod perfectum est, potest in tale quale ipsum est ; sed Ordo sacerdotalis est
+            Ordo perfectus : ergo potest in tale quale est : ergo videtur quod sacerdos sacerdotem
+            possit facere.</p>
+          <p xml:id="bb-d4e31927-d1e162">Item, plus est corpus Domini conficere quam aliquem ordinare in aliquo gradu
+            ecclesiastico ; sed primum est non tantum episcopi, sed etiam sacerdotum : ergo pari
+            ratione videtur quod ordinatio clericorum.</p>
+          <p xml:id="bb-d4e31927-d1e165">Item, plus praestat sacerdos diacono quam praesit episcopus episcopo ; sed episcopus,
+            potest alium promovere et consecrare in episcopum : ergo multo fortius sacerdos potest
+            facere diaconum.</p>
+          <p xml:id="bb-d4e31927-d1e169">Propter hoc est quaestio : cum minus a maiore benedicatur, quomodo episcopus potest
+            benedicere episcopum, et quod amplius est, archiepiscopum, immo quod adh uc maius est,
+            Ostiensis benedicit Papam ?</p>
+        </div>
+        <div xml:id="bb-d4e31927-Dd1e173">
+          <head xml:id="bb-d4e31927-Hd1e175">Conclusio</head>
+          <head xml:id="bb-d4e31927-Hd1e178" type="question-title">Soli episcopi possunt sacros ordines conferre</head>
+          <p xml:id="bb-d4e31927-d1e181">Solutio : Dicendum quod, sicut sacri canones dicunt, secundum ius commune non potest
+            aliquis Ordines dispensare, praesertim Ordines sacros, nisi solus episcopus. Huius autem
+            statutum ortum habet ex sacra Scriptura et Spiritus Sancti ordinatione. Ex sacra
+            Scriptura quia, cum Dominus duo genera discipulorum habuit, quosdam in numero duodeno,
+            quosdam in numero septuagesimo -primos Apostolos nominavit, super quos etiam fundavit
+            Ecclesiam, ipsos tamen primo fundando in se ; alios simplices discipulos appellavit - et
+            Apostolis primo collata fuit potestas imponendi manus et consecrandi, non autem
+            simplicibus discipulis, sicut patet ex textu et ex Glossa Actuum 8, 11 ; et quoniam
+            Apostolis succedunt episcopi, discipulis vero sacerdotes simplices successerunt, sicut
+            habetur distinctione 21, capitulo : In Novo Testamento : et ita patet quod auctoritas
+            ordinandi et manus imponendi secundum formam Ecclesiae primitivae episcopis
+            approprietur. Unde et Apostolus, scribens Timotheo, I ad Timotheum 5, 22 : <quote xml:id="bb-d4e31927-Qd1e183" ana="#Itim5_22">Manus cito nemini imposueris</quote>.</p>
+          <p xml:id="bb-d4e31927-d1e187">Consilium etiam Spiritus Sancti concordat, quo et Scripturae sunt editae et
+            constitutiones ecclesiasticae. Quia enim Ordo potestas est sive in Ordine traditur, ideo
+            ab eo debet tradi qui potestatem habet et in quantum habet potestatem. Posse autem
+            gradus distribuere et conferre non est cuiuslibet potentis, sed eius qui in potentia
+            supereminet, sicut patet etiam in regimine curiae saecularis. Ad hoc ergo quod Ordo
+            recte tradatur, disponit Spiritus Sanctus quod tradatur ab eo qui non solum Ordinem
+            habet, sed qui habet Ordines, per quos est potens sicut et alii, et eminentiam
+            dignitatis, per quam potest super alios ; hunc autem dicimus Ordinem qui dicit Ordinem
+            cum eminentia : ideo patet quod duo requiruntur ad hoc quod episcopus possit Ordinem
+            conferre, scilicet quod ille habeat illum Ordinem et quod habeat episcopalem dignitatem.
+            Alia ratio est, quia si passim omnibus esset concessum, tot admitterentur ad Ordines
+            quod non servaretur ordo, immo potius generaretur confusio ; et ideo dispositum est Dei
+            consilio, quod solis episcopis Ordinum dispensatio et aliorum perfectorum, ut
+            consecratio abbatum, monialium et ecclesiarum et consimilium concedatur. Posset etiam
+            alia ratio assignari, sive ex hoc quod episcopus sponsus est, sive ex hoc quod
+            sacramentum Ordinis statum perfectionis dicit ; ideo his qui habent potestatis
+            eminentiam debuit reservari, et episcopus tamquain sponsus filios, id est perfectos, et
+            filias, id est imperfectos, debuit generare. Prima tamen ratio multum valet.</p>
+        </div>
+        <div xml:id="bb-d4e31927-Dd1e191">
+          <head xml:id="bb-d4e31927-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e31927-d1e196">Ad illud quod obicitur de impositione manuum presbyteri, dicendum quod presbyter
+            vocatur ibi senior ; et Apostolus intelligebat se ipsum per impositionem manus
+            presbyteri - Glossa : presbyterum vocat episcopum, vel presbyteri, id est presbyterorum
+            - quia, sicut dicit ius, saltem tres sacerdotes debent manus imponere ; sed tamen ipsi
+            non imponunt ut dantes potestatem vel Ordinem, quia ab uno solo dari potest et debet ;
+            unde ipsi non benedicunt, sed solus episcopus, sed hoc est in signum consecrationis
+            suae.</p>
+          <p xml:id="bb-d4e31927-d1e199">Et per hoc patet sequens, quia manuum impositio non facit Ordinem, nisi illa quae
+            iuncta est benedictioni.</p>
+          <p xml:id="bb-d4e31927-d1e202">Ad illud quod obicitur de perfectione, dicendum quod est perfectio sufficientiae et
+            redundantiae. Ad hoc autem quod aliquid aliud faciat sibi simile vel perfectum, non
+            sufficit quod sit perfectum perfectione sufficientiae, sed redundantiae ; et quoniam in
+            sacerdote est perfectio sufficientiae, in episcopo, ratione eminentiae superadditae, est
+            perfectio redundantiae : ideo haec perfectio sufficit ad generandum filios perfectos,
+            non prima.</p>
+          <p xml:id="bb-d4e31927-d1e205">Ad illud quod obicitur, quod plus est corpus Domini consecrare etc., dicendum quod
+            illud argumentum peccat dupliciter : primo, quia potestas ordinandi praesupponit
+            ordinationem et superaddit, per quam non solum, est ordinatus, sed etiam ordinator, et
+            ideo prima est falsa. Et iterum, consequentia non valet, quia non sequitur, si aliquis
+            potest in maius, quod possit in minus, nisi maius includat illud minus, ut ferre duos
+            modios indudit unum. Non sic est in proposito.</p>
+          <p xml:id="bb-d4e31927-d1e209">Ad illud quod obicitur, quod magis superat sacerdos diaconum etc., dicendum quod verum
+            est, quod magis superat quam episcopus superat episcopum, qui est iam, et super illum
+            non habet posse ; sed non magis quam superat ille qui est episcopus in actu illum qui
+            est episcopus in potentia. Praeterea, etsi magis superet in Ordine secundum quein
+            accipitur ratio ordinati, non tamen in Ordine secundum quem accipitur ratio ordinantis,
+            qualis est in episcopo, non in presbytero. Et ideo non valet illud.</p>
+          <p xml:id="bb-d4e31927-d1e212">Ad illud quod ultimo quaeritur, quomodo episcopus benedicit episcopum, dicendum quod
+            hoc nullum inconveniens est, quia non benedicitur nisi in quantum caret Ordine sive
+            dignitate episcopali ; et sic maior est. Sed tunc adhuc restat quaestio, quomodo
+            benedicit archiepiscopum, cum ille superior sit, et non possit dare quod non habet. Si
+            tu dicas quod hoc facit auctoritate Summi Pontificis qui superest, tunc non minor restat
+            quaestio de ipso, qualiter Summus Pontifex benedicitur ab episcopo Ostiensi. Si tu dicas
+            quod Christus dedit ei hanc potestatem auctoritate, contra : esto quod ipse non esset,
+            nec esset commissa alteri, numquid non posset Summus Pontifex consecrari ? Et propter
+            hoc dicendum quod infallibiliter verum est quod dicit Apostolus, quod minus a maiore
+            benedicitur, pro statu in quo benedicitur ; sine contradictione verum est quod nullus
+            dat alii maiorem dignitatem quam habeat, nec minimum Ordinem dare potest quem non habet
+            : et ideo episcopus, consecrans archiepiscopum vel Papam, omnino non tribuit ei nisi
+            consecrationem episcopalem. Sed ille ampliorem habet auctoritatem et iurisdictionem a
+            subditorum electione, suo consensu et Domini institutione, qui ordinavit Petrum et eius
+            successores super totam Ecclesiam, volens ut omnes qui canonice electi fuerint eamdem
+            quam et Petrus habeant potestatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

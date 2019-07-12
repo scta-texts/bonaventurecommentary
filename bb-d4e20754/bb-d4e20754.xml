@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20754">
+        <head xml:id="bb-d4e20754-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e20754-Hd1e111" type="question-title">Utrum necesse sit conteri de peccatis scienter commissis et
+          postmodum oblitis.</head>
+        <p xml:id="bb-d4e20754-d1e114">Secundo quaeritur, utrum de peccatis scienter commissis et postmodum oblitis teneatur
+          homo conteri, aut possit de talibus sine poenitentia salvari.</p>
+        <div xml:id="bb-d4e20754-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e20754-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e20754-d1e122">Et quod teneatur conteri, videtur : Quia, si aliquis peccet et post cadat in furiam
+            ante poenitentiam, non potest postmodum iustificari ; et huius ratio est, quia non
+            potest de peccatis poenitere : ergo, si furiosus non excusatur, nec obliviosus.</p>
+          <p xml:id="bb-d4e20754-d1e125">Item, I ad Corinthios 4, 4 : <quote xml:id="bb-d4e20754-Qd1e127" ana="#Icor4_4">Nihil mihi conscius sum</quote>
+            etc., Glossa : <quote xml:id="bb-d4e20754-Qd1e130">Quia potest latere quod nescio</quote>. Ergo latentia peccati
+            impedit iustificationem ; sed hoc non esset. nisi de illo teneretur poenitere : ergo
+            etc. Si tu dicas quod in generali tenetur, hoc non solvit, quia in generali non latet,
+            immo quilibet debet reputare se fuisse peccatorem.</p>
+          <p xml:id="bb-d4e20754-d1e134">Item, quod teneatur in speciali, videtur, quia, si non esset oblitus, teneretur
+            poenitere in speciali. Ergo esto quod ex culpa inciderit in oblivionem et ex
+            negligentia, si non reportat commodum de malitia, adhuc tenetur.</p>
+          <p xml:id="bb-d4e20754-d1e137">Item, quaero quid sit conteri sive poenitere in generali. Si sub conditione, ut doleo
+            si feci, similiter potest homo poenitere de his quae non fecit sicut de his quae
+            fecit.</p>
+          <p xml:id="bb-d4e20754-d1e141">Contra : Aliquis ita oblitus est quod non potest recordari, quia memoria non est in
+            nostra potestate. Ergo, si non tenetur ad impossibile, non tenetur ad recordari ; sed
+            non potest poenitere nisi de malis quae recordatur : ergo. nec de his.</p>
+          <p xml:id="bb-d4e20754-d1e144">Item, si facit homo quod in se est, Deus facit quod in se est ; sed possibile est istum
+            facere quod in se est sine recordatione : ergo possibile est facere quod in se est sine
+            poenitentia : ergo possibile est iustificari sine poenitentia : ergo non tenetur
+            poenitere.</p>
+          <p xml:id="bb-d4e20754-d1e147">Item, aliquis est paratus dolere de omnibus, et non dolet vel poenitet de his nisi quia
+            non recordatur : ergo oblivio introducta est impedimentum. Si ergo dolet de oblivione,
+            removetur impedimentum : ergo iustificatur.</p>
+          <p xml:id="bb-d4e20754-d1e150">Item, esto quod totum oblitus sit in generali et particulari, quia nunquam recordatur
+            se offendisse ; talis non potest poenitere nec in generali nec in speciali, et tamen
+            potest iustificari, quia est viator et potest demereri : ergo non oportet quod de illis
+            poeniteat.</p>
+        </div>
+        <div xml:id="bb-d4e20754-Dd1e154">
+          <head xml:id="bb-d4e20754-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e20754-Hd1e159" type="question-title">De peccatis commissis et oblitis necesse est conteri in
+            generali, non autem in speciali</head>
+          <p xml:id="bb-d4e20754-d1e162">Respondeo : Dicendum quod oblitus aut est oblitus omnino ; ita quod non recordatur nec
+            in generali nec in speciali, aut est oblitus in speciali, sed tamen in generali
+            recordatur. Quando est oblitus in speciali, tamen recordatur in generali, dico quod
+            tenetur poenitere et conteri in generali de negligentia sua propter quam venit in illam
+            oblivionem ; et tenetur facere quod in se est ut recordetur in speciali vel per
+            recogitationem vel per orationem. Si autem sit omnino oblitus, adhuc tenetur conteri in
+            generali. Et voco conteri in generali, non. sub conditione, sed sub existimatione
+            probabili. Debet enim homo probabiliter credere quod in multis offendit, quorum non
+            recordatur ; et si ex hac existimatione doleat, sicut si. certus esset, contritus est et
+            poenitens. Concedendae sunt igitur rationes monstrantes quod non est necesse conteri in
+            speciali sive poenitere. Nec valet illud quod ultimo opponitur, quod nec in generali
+            tenetur, quia totum est oblitus. Dico enim quod totum, quod est oblitus
+            certitudinaliter, potest cognoscere probabiliter.</p>
+        </div>
+        <div xml:id="bb-d4e20754-Dd1e167">
+          <head xml:id="bb-d4e20754-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e20754-d1e172">Ad illud vero quod obicitur ad oppositum, quod oportet specialiter, per simile de
+            furioso, responsio est quod furiosus nec generaliter nec specialiter potest poenitere ;
+            et nullus iustificatur sine poenitentia, vel in generali vel in speciali.</p>
+          <p xml:id="bb-d4e20754-d1e175">Ad illud quod obicitur, quod peccatum latens impedit iustificationem, dicendum quod
+            falsum est, immo certitudinem iustificationis, quia non est certus de iustitia, eo quod
+            non est certus de culpa.</p>
+          <p xml:id="bb-d4e20754-d1e178">Ad illud quod obicitur, quod reportat commodum, dicendum quod falsum est, quia debet
+            dolere in generali de illis et praeterea de oblivione ; et iterum, gravius punitur a Deo
+            quam si non fuisset oblitus, tamen via salutis non praecluditur.</p>
+          <p xml:id="bb-d4e20754-d1e181">Ultimum de generalitate patet, quia poenitere in generali non est per conditionem, sed
+            per certitudinem de peccatis commissis, quia scit se aliquando peccasse, sed tamen non
+            recolit quo peccato ; aut per praesumptionem probabilem, quae aliquando tantum dolorem
+            generat in homine sicut certitudo peccati et tantumdem valet.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

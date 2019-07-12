@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e52784">
+        <head xml:id="bb-d4e52784-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e52784-Hd1e111" type="question-title">Utrum in damnatis sint tenebrae spirituales quoad actum
+          memorandi.</head>
+        <p xml:id="bb-d4e52784-d1e114">Tertio quaeritur, utrum in damnatis sint tenebrae quantum ad actum memorandi.</p>
+        <div xml:id="bb-d4e52784-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e52784-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e52784-d1e122">Et quod sic, videtur : Per illud quod dicitur Ecclesiastici 11, 29 : <quote xml:id="bb-d4e52784-Qd1e124" ana="#sir11_29">Malitia unius horae oblivionem facit luxuriae maximae</quote>. Ergo
+            maiorem oblivionem facit aeterna poena, et sic patet etc.</p>
+          <p xml:id="bb-d4e52784-d1e128">Item, hoc videtur per illud quod dicitur in littera : Exteriores tenebrae intelligi
+            possunt quaedam malignitas odii et quaedam oblivio Dei, quae tunc excrescent.</p>
+          <p xml:id="bb-d4e52784-d1e131">Item, hoc videtur ratione, quia recte oblitus est, qui non habet copiam memorandi ; sed
+            damnati non habent copiam memorandi ; unde dicit <name ref="#Augustine">Augustinus</name> in littera quod, quia nimio dolore premuntur, adeo stupescunt et
+            terrentur, ut interim mentem in aliam cogitationem non ferant. Ergo etc.</p>
+          <p xml:id="bb-d4e52784-d1e137">Item, damnati erunt subiecti tempori, secundum illud Psalmi [80, 16] : <quote xml:id="bb-d4e52784-Qd1e139" ana="#ps80_16">Erit tempus eorum in saecula</quote>, et aliis infirmitatibus: ergo
+            videtur quod ex longitudine temporis possint omnium oblivisci, sicut nunc videmus in
+            nobis.</p>
+          <p xml:id="bb-d4e52784-d1e144">Contra : Imago non tolletur a damnatis ; sed imago consistit in memoria, intelligentia
+            et voluntate respectu Dei : ergo saltem Dei habebunt memoriam.</p>
+          <p xml:id="bb-d4e52784-d1e147">Item, constat quod non habent remorsum nisi de peccatis praeteritis ; sed de nullo
+            habent remorsum nisi de quo cogitant : ergo cogitant de peccatis praeteritis, ergo et
+            eorum memorantur.</p>
+          <p xml:id="bb-d4e52784-d1e150">Item, hoc videtur per illud quod damnati dicent, Sapientiae 5, 3 : <quote xml:id="bb-d4e52784-Qd1e152" ana="#sap5_3">Dicent infra se, poenitentiam agentes : hi sunt quos aliquando habuimus in
+              derisum</quote>. Ergo rememorabuntur praeteritorum.</p>
+          <p xml:id="bb-d4e52784-d1e156">Item, <name ref="#Abraham">Abraham</name> dixit diviti : <quote xml:id="bb-d4e52784-Qd1e161">Recordare, quod
+              recepisti bona in vita tua et Lazarus similiter mala</quote>. Sed hoc non dixisset, si
+            non potuisset recordari : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e52784-Dd1e166">
+          <head xml:id="bb-d4e52784-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e52784-Hd1e171" type="question-title">In damnatis sunt tenebrae spirituales, ut non recordentur sive
+            Dei sive aliorum ad consolationem et itineris directionem, sed tantum ad moerorem et
+            confusionem</head>
+          <p xml:id="bb-d4e52784-d1e174">Respondeo : Dicendum quod ad hoc facile est respondere, si revocatur ad mentem
+            distinctio praecedens, quoniam est recordatio aliquorum ad moestitiam et dolorem et
+            confusionem, aliquorum ad itineris directionem, aliquorum ad consolationem. Secundam et
+            tertiam non habebunt damnati, nec respectu Dei nec respectu aliorum, quia non erit eis
+            memoria Dei, vel ut convertantur sive revertantur ad ipsum aut ut delectentur in ipso.
+            Vigebit tamen in eis actus memoriae quantum ad primum, scilicet desolationem, quia
+            semper habebunt memoriam peccatorum quae commiserunt et Dei quem offenderunt, ad suam
+            confusionem. Nec hoc repugnabit poenis, quia poenae exteriores ducent ad cogitandum
+            interius suum demeritum ; et ita recordatio illa non est eis via lucis, sed tenebrarum,
+            nec ponet hominem in statu bono vel in Deo, sed potius elongabit a Deo et a vero
+            lumine.</p>
+          <p xml:id="bb-d4e52784-d1e177">Et sic patent rationes ad utramque partem. Verumtamen illud argumentum, quod facit de
+            tempore et passibilitate damnatorum, non valet, quia sicut corpora passibilia erunt
+            immortalia, ita, etsi anima sit subiecta variationi passionum, adeo tamen erit actus
+            memorandi conversus ad ea quae spectant ad poenam et adeo, sine intermissione, quod non
+            poterit anima oblivisci. Et illud magis patebit ultimo, cum agetur de verme. Haec autem
+            sufficiant ad praesens, quibus intellectis, satis patet littera.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

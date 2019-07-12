@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e13916">
+        <head xml:id="bb-d4e13916-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e13916-Hd1e111" type="question-title">Utrum corpus Christi verum in Eucharistia frangatur.</head>
+        <div xml:id="bb-d4e13916-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e13916-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e13916-d1e119">Et quod corpus Christi verum frangatur, videtur <name ref="#Augustine">Augustinus</name> dicere : <quote xml:id="bb-d4e13916-Qd1e124">Norunt, inquit, fideles : quando manducant carnem
+              Christi, unusquisque accipit partem suam</quote> ; quod si verum est : ergo
+            dividitur.</p>
+          <p xml:id="bb-d4e13916-d1e128">Item, ostenditur ex confessione Berengarii, quae acceptata fuit a Nicolao Papa :
+            Confessus est enim <quote xml:id="bb-d4e13916-Qd1e130">corpus Christi verum sacerdotis manibus attrectari et
+              frangi</quote>. Ergo, si ista confessio ut fidelis acceptata est, patet etc.</p>
+          <p xml:id="bb-d4e13916-d1e134">Item, ratione videtur, quia corpus Christi verum manducatur ; sed quod manducatur
+            atteritur et quod atteritur frangitur : ergo etc.</p>
+          <p xml:id="bb-d4e13916-d1e137">Item, hoc Sacramentum est memoriale passionis, et ita memoriale quod hic non tantum est
+            signum, sed etiam veritas ; sed in passione vere fuit corpus Christi fractum et divisum
+            : ergo in hoc sacramento vere frangitur.</p>
+          <p xml:id="bb-d4e13916-d1e141">Si dicas quod est incorruptibile, ideo non potest frangi, hoc nihil est, quia corpus
+            Christi, quod natum est esse in uno loco, est in pluribus per miraculum : ergo similiter
+            per miraculum potest incorruptibile frangi.</p>
+          <p xml:id="bb-d4e13916-d1e144">Sed contra : Corpus animatum quod dividitur corrumpitur. Ergo, cum corpus Christi sit
+            animatum, si frangitur et dividitur, corrumpitur ; et si corrumpitur, non manet verum
+            sacramentum : ergo etc.</p>
+          <p xml:id="bb-d4e13916-d1e147">Item, si potest frangi et masticari, ergo eadem ratione et digeri : ergo et eadem
+            ratione et in secessum emitti ; quod nefas est dicere.</p>
+          <p xml:id="bb-d4e13916-d1e150">Item, de manna, quod fuit figura huius Sacramenti, nec qui plus colligebat habuit plus
+            nec qui minus habuit minus. Si ergo fuit vera figura, corpus Christi tantum est in parva
+            parte hostiae quantum in utraque vel in magno pane : ergo non dividitur.</p>
+        </div>
+        <div xml:id="bb-d4e13916-Dd1e154">
+          <head xml:id="bb-d4e13916-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e13916-Hd1e159" type="question-title">Corpus Christi verum in eucharistia non fragitur</head>
+          <p xml:id="bb-d4e13916-d1e162">Respondeo : Quidam dixerunt, quos tangit <name ref="#Lombard">Magister</name> in
+            littera, quod corpus Christi verum frangitur in Sacramento, et tamen non corrumpitur ;
+            et hoc quidem fit per virtutem supra naturam, sicut factum est quod corpus Christi
+            passibile datum est discipulis, et tamen non est ab eorumdem dentibus passum. Et in
+            assertionem suae positionis habere voluerunt confessionem Berengarii. Sed haec positio
+            non potest stare, quia, si est incorruptibile, non dividitur ; si frangitur, dividitur :
+            ergo simul dividitur et non dividitur : tunc ergo Deus faceret duo contradictorie
+            opposita simul esse vera, quod nunquam faciet.</p>
+          <p xml:id="bb-d4e13916-d1e168">Propter hoc dicendum quod corpus Christi verum non frangitur, immo in quotcumque partes
+            dividitur hostia, est totum et integrum.</p>
+        </div>
+        <div xml:id="bb-d4e13916-Dd1e172">
+          <head xml:id="bb-d4e13916-Hd1e174">Ad rationes</head>
+          <p xml:id="bb-d4e13916-d1e177">1-2. Quod ergo obicitur de confessione Berengarii et verbo <name ref="#Augustine">Augustini</name>, dicendum quod utrumque dictum est ratione specierum exteriorum,
+            circa quas contingit esse attritionem, fractionem et masticationem. Nec modus iste
+            loquendi est tenendus. Recepit tamen Ecclesia confessionem Berengarii et publicavit,
+            quamvis nimis expressam, ad elidendum suum errorem, qui.non concedebat corpus Christi
+            verum ibi esse nisi sicut in signo. Unde propter hoc recepit, ut intelligeretur ibi vere
+            esse, non vere dividi.</p>
+          <p xml:id="bb-d4e13916-d1e183">Ad illud quod obicitur, quod corpus Christi verum manducatur, dicendum quod in
+            manducatione tria sunt : masticatio, in ventrem traiectio et incorporatio ; et haec tria
+            respondent tribus quae sunt in Sacramento. Nam masticatio est specierum tantum ;
+            incorporatio est quantum ad corpus Christi mysticum ; in ventrem traiectio est non solum
+            specierum, sed etiam corporis Christi veri, quod ibi est quamdiu species panis. Non ergo
+            dicitur corpus Christi verum vere manducari corporaliter, quia corporaliter masticetur ;
+            sicut enim non frangitur, sic nec masticatur.</p>
+          <p xml:id="bb-d4e13916-d1e186">Ad illud quod obicitur, quod est signum passionis, dicendum quod non est signum
+            passionis quae tunc sit, quia tunc semper pateretur Christus ; sed passionis quae semel
+            fuit. Et quod obicit, quod est ibi veritas, dicendum quod non est ibi veritas passionis
+            sed veritas eius qui est passus.</p>
+          <p xml:id="bb-d4e13916-d1e189">Ad illud quod dicitur hoc posse fieri per miraculum, dicendum quod non est simile de
+            esse in pluribus locis, quia ibi nulla est contradictio, hic autem sic.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

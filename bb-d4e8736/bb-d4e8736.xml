@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e8736">
+        <head xml:id="bb-d4e8736-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e8736-Hd1e111" type="question-title">De numero et sufficientia quatuor figurarum.</head>
+        <p xml:id="bb-d4e8736-d1e114">Secundo quaeritur de numero et sufficientia figurarum huius sacramenti ; et <name ref="#Lombard">Magister</name> assignat quatuor, scilicet agnum paschalem, manna,
+          sacrificium Melchisedech et sanguinem, qui profluxit de latere Christi.</p>
+        <div xml:id="bb-d4e8736-Dd1e120" type="rationes-principales">
+          <head xml:id="bb-d4e8736-Hd1e122">Rationes principales</head>
+          <p xml:id="bb-d4e8736-d1e125">Sed videtur quod <name ref="#Lombard">Magister</name> assignet insufficienter : Quia
+            aliae figurae praecesserunt in sacrificiis et oblationibus diversorum, ut in hoedo, quem
+            obtulit Manue, <ref xml:id="bb-d4e8736-Rd1e130" ana="#iud13_19">Iudicum 13, 19</ref>, et favo mellis, <ref xml:id="bb-d4e8736-Rd1e133" ana="#Ireg14_27">I Regum 14, 27</ref>.</p>
+          <p xml:id="bb-d4e8736-d1e137">Item, videtur falsus in assignando manna pro figura, quia habuit omnem saporem ; sed
+            hoc non habet Eucharistia, quia tunc alia sacramenta superfluerent.</p>
+          <p xml:id="bb-d4e8736-d1e140">Item, obicitur de oblatione Melchisedech, quia ipse obtulit et dedit <name ref="#Abraham">Abrahae</name> ; sed sacramentum Eucharistiae offertur Deo : et ita non
+            videtur figura.</p>
+          <p xml:id="bb-d4e8736-d1e146">Item, obicitur de agno. paschali et eius sanguine, quoniam praecessit transitum maris
+            rubri, ergo figuram Baptismi ; et ita videtur, si recta fuit figura, quod et Eucharistia
+            fuit ante Baptismum ; quod absurdum est.</p>
+          <p xml:id="bb-d4e8736-d1e150">Item, obicitur de sanguine, qui fluxit de latere Christi, quia ille idem est in hoc
+            Sacramento secundum veritatem et est signatum in hoc sacramento : ergo idem est figura
+            sui et idem est signum et signatum respectu eiusdem ; quod est omnino inconveniens.</p>
+        </div>
+        <div xml:id="bb-d4e8736-Dd1e154">
+          <head xml:id="bb-d4e8736-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e8736-Hd1e159" type="question-title">Sufficienter a Magistro assignantur quatuor figurae
+            eucharistiae</head>
+          <p xml:id="bb-d4e8736-d1e162">Respondeo : Dicendum quod <name ref="#Lombard">Magister</name> sufficienter assignat
+            figuras in hoc sacramento, habita respectu ad omnes leges. Nam in lege naturae ponit
+            figuram sacrificium Melchisedech et in lege Moysi similiter agnum et manna et in lege
+            gratiae sanguinem passionis. Similiter sufficientes sunt figurae, si attendamus ad ea
+            quae praesignantur. Nam in hoc sacramento est visibilis forma, et haec praesignata est
+            in sacrificio Melchisedech ; et est res contenta, et haec in agno paschali ; et res
+            signata tantum, et haec in manna ; et virtus dans efficaciam, et haec in sanguine, qui
+            fluxit, de latere Christi. Unde tres primae tenent rationem figurae, sed ultima magis
+            tenet rationem causae, nihilominus tamen habet rationem figurae, pensatis
+            circumstantiis, quod de passo et iam mortuo profluxit sanguis et aqua.</p>
+        </div>
+        <div xml:id="bb-d4e8736-Dd1e170">
+          <head xml:id="bb-d4e8736-Hd1e172">Ad rationes</head>
+          <p xml:id="bb-d4e8736-d1e175">Quod ergo obicitur de sufficientia, iam patet, quia aliae figurae reducuntur ad has ;
+            omnes enim oblationes et omnia sacrificia ad agnum paschalem et omnes cibi ad manna
+            reduci possunt.</p>
+          <p xml:id="bb-d4e8736-d1e178">Ad illud quod obicitur de manna, dicendum quod omnem tantum valet dicere quantum
+            perfectum ; vel si omnem distributive dicatur, intelligitur quantum ad rem contentam ;
+            vel si intelligatur quantum ad effectum, facienda est vis in sapore quantum ad actum
+            cibandi ; et tunc alia non superfluunt.</p>
+          <p xml:id="bb-d4e8736-d1e181">Ad illud quod obicitur de sacrificio Melchisedech, dicendum quod peroptime
+            praefiguratum est ibi et in manna sacramentum Eucharistiae, quoniam hoc sacramentum
+            nobis profertur ad esum et Deo offertur ad cultum ; et ideo datur nobis divinitus et nos
+            Deo offerimus ; et hoc signatum est in manna, quod repositum fuit in urna coram Domino,
+            quia datum fuit de caelo ad esum, et iterum coram Domino repositum ; taliter datur hoc
+            sacramentum, si quis inspiciat diligentius, quia de caelo nobis datur et nos sumimus,
+            tamen nihilominus Deo offerimus.</p>
+          <p xml:id="bb-d4e8736-d1e184">Ad illud quod obicitur de agno paschali, dicendum quod agnus ille proprie significabat
+            Christi passionem, quae erat radix et fundamentum virtutem praebens omnibus sacramentis,
+            et ideo omnia praecessit. Et quamvis omnia sacramenta efficaciam habeant a passione,
+            quia in hoc sacramento veraciter continetur Christus passus, ideo esus et usus illius
+            agni praecipue hoc sacramentum signabat, et ideo figuram Baptismi praecedebat non
+            ratione qua illud sacramentum praefigurabat, sed ratione qua praefigurabat
+            passionem.</p>
+          <p xml:id="bb-d4e8736-d1e188">Ad ultimum dicendum quod sanguis Christi, qui fluxit de latere Christi, non habuit,
+            proprie loquendo, rationem figurae, quia ibi erat veritas ; tamen ratione modi emanandi,
+            quia profluxit de latere mortui, habuit rationem quodam modo praefigurandi, maxime
+            ratione annexi, scilicet aquae ; et istud melius tactum fuit in principio huius libri.
+            Et sic patet solutio obiectorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

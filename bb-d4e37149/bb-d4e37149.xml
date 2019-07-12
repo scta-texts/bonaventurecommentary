@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e37149">
+        <head xml:id="bb-d4e37149-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e37149-Hd1e111" type="question-title">Utrum contra legem naturae sit habere concubinam.</head>
+        <div xml:id="bb-d4e37149-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e37149-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e37149-d1e119">Quantum ad primum ostenditur quod non sit contra legem naturae habere concubinam : Quia
+            non est contra legem naturae habere ancillam et servum ; sed ancilla potest homo uti ut
+            libet : ergo non est contra legem naturae carnaliter eam cognoscere, et sic etc.</p>
+          <p xml:id="bb-d4e37149-d1e122">Item, mulier non coniugata et libera habet potestatem sui corporis ; sed qui habet rem
+            aliquam, potest illam dare cui vult : ergo et ille qui acquirit licite, licite accipit,
+            quia nulli facit iniuriam : ergo quando de voluntate mulieris procedit ut cognoscat eam,
+            etiam sine pactione coniugali, cum non sit alterius, nec alicui fiat iniuria, videtur
+            etc.</p>
+          <p xml:id="bb-d4e37149-d1e125">Item, <name ref="#IsidoreOfSeville">Isidorus</name>, in V libro Etymologiarum : <quote xml:id="bb-d4e37149-Qd1e130" source="http://scta.info/resource/wer3fe-d1e96">Ius naturale est commune omnium
+              nationum</quote>. Sed habere concubinam non est contra hoc : ergo etc.</p>
+          <p xml:id="bb-d4e37149-d1e134">Item, quod possit de iure naturae habere eam cum uxore, videtur : Quia vir non habet
+            sui corporis potestatem, sed mulier : ergo, uxore volente suscipere semen de ancilla
+            sua, tenetur vir ancillam cognoscere.</p>
+          <p xml:id="bb-d4e37149-d1e138">Item, ad hoc ipsum facit exemplum de <name ref="#Abraham">Abraham</name>, qui ad
+            petitionem Sarae cognovit Agar ; ubi etiam dicit <name ref="#Augustine">Augustinus</name> quod hoc fecit Sara eo iure quo non habet vir sui corporis
+            potestatem ; sed hoc est secundum ius naturae : ergo etc.</p>
+          <p xml:id="bb-d4e37149-d1e147">Contra : Secundum omnes leges, filii qui de concubinis sunt, vituperabiles sunt, et
+            contumelia est eis sic nasci ; sed non est vituperium nisi praecedat inordinatio : ergo,
+            si secundum dictamen naturae est contumelia in filiis qui sic nascuntur, videtur quod in
+            tali actu sit deordinatio, et sic etc.</p>
+          <p xml:id="bb-d4e37149-d1e150">Item, recta ratio dictat quod filius debet succedere patri, ergo poena est filio quando
+            non habet hereditatem paternam ; sed secundum omnium mores est ; quod nati de concubinis
+            non succedunt in hereditate paterna : ergo, cum similiter recta ratio dictet quod non
+            est poena iusta nisi propter deordinationem culpae, cum non fuerit in eo culpa post
+            generationem, fuit culpa in generando.</p>
+          <p xml:id="bb-d4e37149-d1e153">Item, recta ratio dictat quod vir et mulier in actu illo uniuntur et fiunt una caro et
+            quod actus ille est aequalitatis, quoniam similis in specie et natura ; sed unio ad
+            aequalitatem non est nisi uxoris et viri, aliter non sunt aequales : ergo recta ratio
+            sive dictamen naturale refugit coitum cum concubina.</p>
+          <p xml:id="bb-d4e37149-d1e156">Item, recta ratio dictat quod parentes ambo debent filium educare, et quod proies
+            postmodum in senectute debet educare parentes et aequaliter eos educare tenetur et
+            semper. Ergo, cum iudicet virum et mulierem debere coniungi propter prolis generationem,
+            quia ad hoc data est vis generativa, iudicatur eos ex hoc simul convenire ad prolis
+            educationem et rursus ad prolis recipiertdum obsequium et honorem usque in finem : ergo
+            iudicat quod non recte conveniunt, nisi aequaliter et inseparabiliter conveniant in actu
+            illo. Sed si sic, tunc vir et uxor solum debent convenire : ergo etc.</p>
+          <p xml:id="bb-d4e37149-d1e159">Item, quod non debeat habere concubinam cum uxore, videtur : Quia uxor non potest
+            convenire cum alio viro quin committat adulterium, quod est contra ius naturale : ergo
+            nec vir cum aliqua alia muliere quam cum uxore.</p>
+          <p xml:id="bb-d4e37149-d1e163">Item, ius naturale dictat quod homo quod sibi vult fieri faciat alii, et non faciat
+            alii quod sibi non vult fieri ; sed maritus secundum rectam rationem abominatur et odit
+            quod alius suam cognoscat uxorem : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e37149-Dd1e167">
+          <head xml:id="bb-d4e37149-Hd1e169">Conclusio</head>
+          <head xml:id="bb-d4e37149-Hd1e172" type="question-title">Habere concubinam, licet non sit contra ius naturae
+            propriissime sumtum, est tamen contra ius communiter et proprie sumtum; ideo non solum
+            est malum, quia prohibitum, sed prohibitum, quia malum </head>
+          <p xml:id="bb-d4e37149-d1e175">Respondeo : Dicendum quod ius naturale tripliciter dicitur, scilicet communiter,
+            proprie et magis proprie ; et secundum hoc tripliciter definitur ab <name ref="#IsidoreOfSeville">Isidoro</name>. Uno modo sic : Ius naturale est quod in Lege
+            et Evangelio continetur ; sic definitur in principio Decreti. Si sic accipiatur ius
+            naturale, sic habere concubinam est contra ius naturale, quia est contra Legem et
+            Evangelium ; sed contra legem Moysi implicite, quia non praecipit expresse fornicatorem
+            interfici nisi in casu, sicut patet Deuteronomii 22, 23 ; tamen implicite clauditur ibi
+            : Non moechaberis, ubi prohibetur omnis coitus non matrimonialis. Contra legem
+            evangelicam est expresse ; nam dicit fornicarios non habere partem in regno Dei ; I ad
+            Corinthios 6, 9, et in 7, 2 dicit quod habeat unusquisque suam propter fornicationem.
+            Ratio autem huius praeceptionis est sacramentum Matrimonii, quod est institutum a Deo in
+            significationem et in curationem : in significationem ante lapsum, sed in curationem
+            post lapsum. Quia enim corrupta est illa vis et deordinata, ut dictum est supra, adeo
+            quod non exit in actum quin regnum animae pervertatur, non potest fieri post lapsum sine
+            peccato nisi excusetur per Matrimonium ; ideo taliter cognoscere concubinam est
+            peccatum, quantum est de se, et contra Legem et Evangelium, et ita contra ius naturale
+            communiter dictum.</p>
+          <p xml:id="bb-d4e37149-d1e181">Secundo modo dicitur proptie, et sic definitur in principio Decretorum : Ius naturale
+            est quod est commune omnium nationum ; et hoc ius est quod dictat ratio recta. Contra
+            illud adhuc est cognoscere sive habere concubinam. Et hoc patet quia ius naturale dictat
+            quod conveniant vir et mulier in tali actu ad generationem prolis, quae utrique succedat
+            et cui communiter praesint et illa utrique aequaliter subsit. Et quoniam actus ille est
+            consimilis in specie et ad generandum consimilem in specie, dictat natura ut conveniant
+            in quadam aequalitate ; sed hoc est, cum pater coniungitur illi ut sit uxor et
+            materfamilias. Et ideo recta ratio dictat quod non conveniat ut concubinae ; sed ista in
+            multis est obfuscata per libidinem, sed tamen salva manet in his qui non depravant
+            iudicium per mala opera.</p>
+          <p xml:id="bb-d4e37149-d1e184">Tertio modo dicitur ius naturale propriissime, quod natura docuit omnia animalia ; et
+            hoc modo non est contra naturam, nec tamen omnino secundum naturam ; et hoc, quia
+            quaedam animalia bruta sunt, licet non omnia, quae coniunguntur in individuam copulam ;
+            ut sunt turtures ; et quoniam, sicut vult Philosophus, omnes virtutes quae sunt in
+            animalibus dispersae, in homine colliguntur, sicut arma omnium animalium in manu
+            hominis, quamvis non omnia alia animalia habeant instinctum, tamen natura hominis habet
+            : unde ad hoc inclinatur recta natura hominis, ut, si adhaeret mulieri, sic adhaereat ut
+            pro ipsa patrem et matrem deserat, et sic accipiat in copulam individuam.</p>
+          <p xml:id="bb-d4e37149-d1e188">Secundum haec igitur patet quod fornicari vel habere concubinam non solum est malum
+            quia prohibitum, sed prohibitum quia malum. Unde concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e37149-Dd1e192">
+          <head xml:id="bb-d4e37149-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e37149-d1e197">Ad illud ergo quod obicitur, quod potest uti re sua etc., dicendum quod quae ad talem
+            usum accipitur, ad aequalitatem accipitur ; et si ordinate accipitur, oportet quod
+            aequalis fiat. Et ideo nunquam recte utitur nec andlla nec libera, nisi cum ea tamquam
+            cum uxore contrahat.</p>
+          <p xml:id="bb-d4e37149-d1e200">Ad illud quod obicitur, quod nulli facit iniuriam, quia illa se ei committit, dicendum
+            quod facit iniuriam Deo ; contra cuius statutum facit ; facit etiam iniuriam sibi, pro
+            eo quod se deordinando in corpus suum peccat ; nam vir facit sibi iniuriam quamvis ipsa
+            velit, quia ut phrenetica vult malum suum. Si enim aliqua vellet ut se occideret vel
+            abuteretur contra naturam, quis auderet dicere hoc non esse malum ?</p>
+          <p xml:id="bb-d4e37149-d1e203">Ad illud quod obicitur, quod ius naturale est commune, dicendum quod quoddam est
+            apertum, quoddam magis occultum ; et secundum quod plus apertum ; est communius,
+            secundum quod minus, est minus commune ; et quoniam istud magis est occultum, ideo minus
+            commune ; tamen lex Matrimonii apud omnes repertur.</p>
+          <p xml:id="bb-d4e37149-d1e206">Ad illud quod obicitur, quod mulier habet potestatem corporis viri, dicendum quod, etsi
+            cetera bona sint communia, hoc tamen bonum debet esse privatum. Unde nulli alii potest
+            uxorem suam communicare nec potestatem exigere in alio, sed solum in corpore suo ; sic
+            nec mulier de viro.</p>
+          <p xml:id="bb-d4e37149-d1e210">Ad illud quod obicitur de Sara, dicendum quod <name ref="#Abraham">Abraham</name>
+            nunquam obtemperasset nec obtemperare debuisset ; nisi divina dispensatio intervenisset.
+            Unde illud quod dicit <name ref="#Augustine">Augustinus</name>, non fuit tota causa
+            excusans, sed signum fuit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

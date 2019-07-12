@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e10210">
+        <head xml:id="bb-d4e10210-Hd1e106">Quaestio 2</head>
+        <head xml:id="bb-d4e10210-Hd1e109" type="question-title">Utrum peccator, qui est in peccato ex certa scientia, manducet
+          corpus Christi damnabiliter.</head>
+        <p xml:id="bb-d4e10210-d1e112">Secundo quaeritur, utrum peccator, qui est in peccato ex certa scientia, manducet corpus
+          Christi damnabiliter.</p>
+        <div xml:id="bb-d4e10210-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e10210-d1e117">Et quod sic, videtur. I ad Corinthios 11, 29 : <quote xml:id="bb-d4e10210-Qd1e119" ana="#Icor11_29">Iudicium sibi
+              manducat et bibit</quote>, de malis loquitur ; et iterum : <quote xml:id="bb-d4e10210-Qd1e122" ana="#Icor11_27">Reus est corporis et sanguinis Domini</quote>. Ergo graviter peccat.</p>
+          <p xml:id="bb-d4e10210-d1e126">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e10210-Qd1e131" source="http://scta.info/resource/iuy75t-d1e549">Et mala prosunt bonis, ut angelus
+              satanae Paulo, et sancta obsunt malis</quote>. Ergo etc.</p>
+          <p xml:id="bb-d4e10210-d1e135">Item, ratione videtur, quia qui proiceret corpus Domini in sterquilinium gravissime
+            peccaret ; sed non est maius sterquilinium quam homo peccator : ergo etc.</p>
+          <p xml:id="bb-d4e10210-d1e138">Item, in hoc sacramento Deus offert gratiam homini ; sed peccator accipiens in peccato
+            opponit se gratiae ; sed qui repellit gratiam Dei peccat : ergo etc.</p>
+          <p xml:id="bb-d4e10210-d1e141">Contra : Sacramentum illud est de bonis nobilissimis ; sed nobilissimis bonis sive
+            maximis, sicut dicit <name ref="#Augustine">Augustinus</name>, De libero arbitrio, non
+            contingit male uti ; ergo nec hoc sacramento. Ergo peccator non peccat sumendo.</p>
+          <p xml:id="bb-d4e10210-d1e148">Item, <quote xml:id="bb-d4e10210-Qd1e150" ana="#lc5_31">non egent qui sani sunt medico, sed qui male habent</quote>.
+            Ergo, cum peccator male habeat, peccator indiget hac medicina ; sed qui accedit ad
+            medicinam qua indiget non errat ; et si non errat, non peccat : ergo etc.</p>
+          <p xml:id="bb-d4e10210-d1e154">Item, nullus faciendo illud ad quod tenetur peccat ; sed peccator aliquo tempore
+            tenetur manducare : ergo non peccat. Si dicit quod peccat, quia non debite facit, contra
+            : actus est in praecepto, non modus manducandi : ergo etc.</p>
+          <p xml:id="bb-d4e10210-d1e157">Item, si manducare est peccatum ; sed sicut peccator est indignus manducare, ita et
+            videre : ergo peccat videndo.</p>
+        </div>
+        <div xml:id="bb-d4e10210-Dd1e163">
+          <head xml:id="bb-d4e10210-Hd1e163">Conclusio</head>
+          <head xml:id="bb-d4e10210-Hd1e166" type="question-title">Peccator sumendo corpus Christi committit grave peccatum
+            omissionis et contemptus</head>
+          <p xml:id="bb-d4e10210-d1e169">Respondeo : Dicendum quod peccator sumit sibi corpus Christi ad damnationem, non quia
+            ipsum corpus aliquam maculam det animae, sed quia peccator ipsum contemnit, dum se
+            praeparare, quem immundum scit, negligit et Dominum in tam foedum hospitium introducit.
+            Et est ibi peccatum omissionis in hoc quod se non praeparavit tanto hospiti suscipiendo
+            ; et peccatum contemptus, quia Christo, quantum in se est, contumeliam facit. Ideo dicit
+            Apostolus, quod reus est corporis et sanguinis Domini, quia ei contumeliam facit et
+            contemnit.</p>
+        </div>
+        <div xml:id="bb-d4e10210-Dd1e176">
+          <head xml:id="bb-d4e10210-Hd1e176">Ad rationes</head>
+          <p xml:id="bb-d4e10210-d1e179">Ad illud quod obicitur, quod hoc sacramento non contingit male uti, dicendum quod
+            falsum est, quia non solum sacramento, sed Deo contingit male uti, cum ipse diligitur
+            propter aliud. Quare autem virtutibus non contingit male uti, patet, quia ipsae sunt
+            boni usus et quibus utitur homo formaliter ; contingit tamen male uti ut obiecto ; sic
+            in proposito intellige.</p>
+          <p xml:id="bb-d4e10210-d1e182">Ad illud quod obicitur de medicina, dicendum quod sicut corporalis medicina nocet
+            imparato, sic spiritualis est imparato occasio nocumenti, quia medicina quae renda est
+            cum praeparatione, non tantum corporalis, sed etiam spiritualis, illa scilicet quae
+            nobilissima est.</p>
+          <p xml:id="bb-d4e10210-d1e185">Ad aliud autem dicendum, quod non peccat ratione actus, sed circumstantiae ; sicut si
+            aliquis eleemosynam daret in contemptum Dei, sic et me peccat, quia bonum malo modo
+            facit. Ad illud quod subditur quod modus non est in praecepto, dicendum quod, etsi non
+            sit expressus aliquo praecepto, maxime tamen est attendendus, sicut patet per
+            Apostolum.</p>
+          <p xml:id="bb-d4e10210-d1e188">Ad illud quod obicitur, quod videre sit peccatum sicut manducare, dicendum quod non est
+            simile : primo quidem, quia non est tantae irreverentiae videre sicut manducare ;
+            secundo vero ; quia manducando sacramentum sumitur et gratia offertur ; et quando
+            peccator perseverat in peccato tempore quo Dominus ipsum visitat personaliter, non
+            tantum vocaliter, auget contemptum : ideo peccat mortaliter.</p>
+          <p xml:id="bb-d4e10210-d1e192">Unde dicendum quod est peccatum in gustu propter duo, scilicet propter irreverentiam et
+            propter negligentiam, quia debebat se praeparare ad gratiam ; in visu quantum ad neutrum
+            est peccatum ; in tactu vero est medio modo. Nam si est peccatum, hoc est solum propter
+            irreverentiam, quia non est ordinatum sacramentum ut tactu det gratiam ; sed qui est
+            immundus et foetidus spiritualiter peccat, si tangit, quia tantae rei, quantum in se
+            est, facit iniuriam. Distinguitur tamen in tactu, quia aut praevenitur et necessitas
+            urget, quia corpus Christi in locum immundum caderet nisi colligeret ; et hoc modo si
+            tangit, non peccat, quia non est irreverentia ; alias peccat. Et si tu obicias, quod
+            semper est peccatum, quia Bethsamitae videntes arcam sunt interfecti, I Regum 6, 13 ; et
+            similiter Oza percussus est, quia arcam tetigit, II Regum 6, 6, dicendum quod hoc non
+            fuit figura videntium et tangentium Christum ; sed Bethsamitae figuram gerunt simplicium
+            huius sacramenti arcana videre volentium, qui propter curiositatem frequenter in fide
+            pereunt et moriuntur ; et Oza figuram gerit sacerdotum carnalium, qui in peccatis
+            existentes ad conficiendum accedunt. Nam aliqui dicunt quod nocte cum uxore iacuit.
+            Litteralis autem ratio quare illi interfecti sunt est, quia contra Domini mandatum
+            fecerunt, quia Dominus praeceperat quod nullus de plebe videret arcam. Praeceperat
+            etiam, ut sacerdotes eam ferrent ; et quia utrique contra praeceptum Domini fecerunt,
+            ideo percussi sunt.</p>
+          <p xml:id="bb-d4e10210-d1e195">Nunc autem dicendum est quod, tantum peccat, et potest esse quod sine peccato faciat.
+            Quia in visu irreverentia non est, ideo nulla est culpa, nisi aliqua conditio
+            superaddita faciat culpam ex sua deformitate.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e16554">
+        <head xml:id="bb-d4e16554-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e16554-Hd1e111" type="question-title">Utrum contingat cadere a vera poenitentia.</head>
+        <div xml:id="bb-d4e16554-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e16554-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e16554-d1e119">Circa primum proceditur sic, et ostenditur quod contingat a vera poenitentia cadere :
+            Exemplo David, qui de peccato mortis Uriae poenitens, quod Dominus eius poenitentiam
+            acceptavit, peccavit in enumerando populum, II Regum ultimo, 1.</p>
+          <p xml:id="bb-d4e16554-d1e122">Item, auctoritate Domini. Ioannis 5, 14 dixit paralytico : <quote xml:id="bb-d4e16554-Qd1e124" ana="#io5_14">Vade et
+              amplius noli peccare, ne deterius tibi aliquid contingat</quote>. Sed non fuisset
+            comminatus malum propter recidivum nisi posset cadere : ergo etc.</p>
+          <p xml:id="bb-d4e16554-d1e128">Item, ratione videtur, quia poenitentia habet esse in libero arbitrio secundum statum
+            viae, et hoc non coacto ; sed tale est vertibile, et per vertibilitatem potest cadere a
+            statu gratiae et iustitiae : ergo et poenitentiae.</p>
+          <p xml:id="bb-d4e16554-d1e131">Item, gratia baptismalis est maior quam Poenitentiae et Confirmationis similiter ; sed
+            post veram gratiam Baptismatis et Confirmationis contingit cadere : ergo et post gratiam
+            Poenitentiae.</p>
+          <p xml:id="bb-d4e16554-d1e135">Contra : <name ref="#Ambrose">Ambrosius</name> et <name ref="#Augustine">Augustinus</name> sic definiunt poenitentiam : <quote xml:id="bb-d4e16554-Qd1e143">Poenitentia est perpetrata
+              plangere et plangenda non committere</quote>. Ergo, si admittit vel committit post
+            plangenda, prius non poenituit : si ergo poenituit, patet quod ultra non committet. Si
+            dicas quod refertur ad idem tempus, hoc superfluit, quia nemo in eodem tempore in quo
+            plangit peccata admittit.</p>
+          <p xml:id="bb-d4e16554-d1e147">Item, <name ref="#IsidoreOfSeville">Isidorus</name> : <quote xml:id="bb-d4e16554-Qd1e152">Inanis est poenitentia
+              quam sequens culpa inquinat</quote>. Ergo, si post peccat, prima poenitentia fuit
+            inanis : ergo, ab oppositis, si fuit vera, postea non peccavit.</p>
+          <p xml:id="bb-d4e16554-d1e156">Item, ratione videtur, quia offensa est infinita, ergo et satisfactio, si vera est,
+            debet esse infinita : ergo, cum non sit infinita intensione, saltem est infinita
+            duratione : ergo si non semper durat, non est vera poenitentia nec satisfactio.</p>
+          <p xml:id="bb-d4e16554-d1e159">Item, vere poenitentis est semper dolere, ergo semper peccatum ctetestari ; sed semper
+            detestanti gratiam impossibile est resurgere : ergo vere poenitentem, cum semper
+            detestetur culpam, impossibile est cadere.</p>
+        </div>
+        <div xml:id="bb-d4e16554-Dd1e163">
+          <head xml:id="bb-d4e16554-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e16554-Hd1e168" type="question-title">Homo potest cadere a poenitentia vera, quatenus vera importat
+            essentiam poenitentiae, non vero, quatenus includit perserverantiam finalem</head>
+          <p xml:id="bb-d4e16554-d1e171">Respondeo : Dicendum quod sic erraverunt aliqui circa poenitntiam sicut circa
+            caritatem. Dixerunt enim quod habens semel veram caritatem nunquam perdit eam ;
+            similiter et habens veram poenitentiam nunquam eam perdit. Sed hoc est manifestus error
+            et contra Scripturam.</p>
+          <p xml:id="bb-d4e16554-d1e174">Ratio autem quae istos decepit fuit, quia non consideraverunt quid dicatur vel
+            hnportetur per hoc nomen verum, cum dicitur vera poenitentia vel vera caritas. Quamvis
+            enim unum dicat indivisionem principiorum entis et verum indivisionem entis ab esse sive
+            actu absoluto, prout tamen natum est fieri apud intellectum, et bonum indivisionem ab
+            actu ut in finem relato ; tamen quando verum reflectitur supra bonum, ut dicatur vera
+            virtus, utrumque potest importare et utroque modo accipi potest.</p>
+          <p xml:id="bb-d4e16554-d1e177">Et ideo intelligendum quod veritas poenitentiae dupliciter accipitur sieut et
+            cuiuslibet virtutis. Uno enim modo dicitur virtus vera, quae habet verum virtutis opus
+            vel nata est habere quantum est de se ; et haec veritas est de essentia virtutis. Alio
+            modo dicitur virtus vera, quae perducit in finem ; et haec veritas non est essentialis
+            virtuti, sed tamen dicit virtutis statum sive continuationem. Secundum hoc dicendum
+            quod, si primo modo dicatur poenitentia vera quae verum virtutis habet actum, sic de
+            veritate poenitentiae est detestari malum commissum et pro illo tempore nullum
+            committere et de futuro proponere non committere ; et ab omnibus his potest homo cadere,
+            et ita a poenitentia vera, veritate primo modo dicta. Si autem dicatur vera, quia
+            perducit in finem, ut finalis et continuata, ab hac non est cadere ; sed hanc non est
+            dicere hominem habere nisi in fine et post non contingit cadere.</p>
+        </div>
+        <div xml:id="bb-d4e16554-Dd1e181">
+          <head xml:id="bb-d4e16554-Hd1e183">Ad rationes</head>
+          <p xml:id="bb-d4e16554-d1e186">1-2. Ad illud ergo quod obicitur primo, quod ad veritatem eius spectat plangenda non
+            committere, dicendum quod, si loquamur de veritate primo modo, ad veritatem spectat non
+            committere tunc, nec actu nec proposito, sed non post ; et sic accipitur in illis
+            definitionibus. Vel si accipiatur pro futuro simpliciter, tunc erit poenitentiae dictae
+            verae veritate perseverantiae sive ducente in. finem. Et per hoc patet illud <name ref="#IsidoreOfSeville">Isidori</name>, quia dicitur inanis propter frustrationem
+            finis.</p>
+          <p xml:id="bb-d4e16554-d1e192">Ad illud quod obicitur, quod offensa est.infinita, dicendum quod Deus remittit offensam
+            per gratiam et pro delectatione exigit poenam per poenitentiam ; et ideo non oportet
+            quod sit infinita.</p>
+          <p xml:id="bb-d4e16554-d1e195">Ad illud quod obicitur, quod semper dolere debet, dicendum quod semper dolere debet
+            habitu ; sed qui habitu dolet de peccato praeterito, nihil impedit quin actu committat
+            futurum. Vel referendum est ad poenitentiam finalem, sicut dictum est. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

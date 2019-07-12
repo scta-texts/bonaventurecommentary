@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e25582">
+        <head xml:id="bb-d4e25582-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e25582-Hd1e111" type="question-title">Utrum sacerdos qui potest absolvere subditum unum, possit et
+          quemlibet alium absolvere.</head>
+        <p xml:id="bb-d4e25582-d1e114">Circa primum sic proceditur, et ostenditur quod sacerdos, qui in unum potest, eadem
+          ratione potest et in omnem alium.</p>
+        <div xml:id="bb-d4e25582-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e25582-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e25582-d1e122">Levitici 13, 2 dicitur : <quote xml:id="bb-d4e25582-Qd1e124" ana="#lev13_2">Homo, in cuius cute apparuerit plaga
+              leprae, adducetur ad Aaron sacerdotem, vel ad unum quemlibet filiorum eius</quote>. Ex
+            hoc patet quod quilibet sacerdos in Veteri Lege poterat iudicare de omnibus fidelibus de
+            populo Israel, de quacumque esset tribu ; sed quod praecessit in figura, debet sequi in
+            veritate : ergo videtur quod hic possit quilibet sacerdos de lepra cuiuslibet iudicare.
+            Et multo fortius hic videtur, quia maior est unitas in Ecclesia, et quantum ad
+            ministrantes sacramenta et quantum ad caritatem fidelium, quam tunc temporis erat ; sed
+            tunc quod poterat unus poterant omnes, et in quem poterat unus, et omnes : ergo et modo
+            debet esse similiter.</p>
+          <p xml:id="bb-d4e25582-d1e128">Item, Dominus virtutem istam sive potestatem dedit primis sacerdotibus, et secund um
+            conformitatem eorum descendit in posteros ; sed Dominus dixit generaliter Ioannis 20, 23
+            : <quote xml:id="bb-d4e25582-Qd1e130" ana="#io20_23">Quorum remiseritis peceata, remittuntur eis</quote> ; et hoc
+            ipsum dicitur sacerdoti : ergo videtur quod detur potestas in omnes : ergo omnes potest
+            absolvere.</p>
+          <p xml:id="bb-d4e25582-d1e134">Item, ratione videtur, quoniam ita videmus in corporalibus, quod ignis qui comburit in
+            una materia, comburit et in qualibet simili et eiusdem speciei ; et lux quae fugat
+            tenebram de uno loco, similiter et de alio pellit sine instantia : ergo pari ratione
+            videtur in proposito, quodsi aliquis sacerdos potest ab solvere, unum peccatorem
+            poenitentem, quod pari ratione possit et quemlibet consimilem.</p>
+          <p xml:id="bb-d4e25582-d1e137">Item, ita videmus in artificialibus, quod clavis quae unam seram aperit, aperit et
+            omnes per eum modum factas, et e converso multae claves similes in quantitate et
+            qualitate unam seram. Si ergo debitum peccati est conforme in omnibus peccatoribus
+            poenitentibus et potestas aperiendi in omnibus clavibus sacerdotalibus, ergo qui potest
+            in unum, et in quemlibet alium.</p>
+          <p xml:id="bb-d4e25582-d1e141">Item, ita videmus in supercaelestibus, quod angelus ordinis inferioris potest purgari,
+            illuminari et perfici a quolibet angelo superoris ordinis. Ergo, si haec hierarchia
+            illam imitatur, cum Ordo sacerdotalis sit supra laicos, videtur quod quilibet laicus a
+            quolibet sacerdote possit absolvi.</p>
+          <p xml:id="bb-d4e25582-d1e144">Item, si non potest absolvere omnes, cum possit unum, quaero, unde hoc sit. Aut enim
+            est potentiae laxatione et corruptione aut ex ligatione, quia superior potestas non
+            permittit. Primo modo non, illud patet. Secundo modo non decet, quia bonum est
+            diffundendum et multiplicandum et colendum : ergo non est restringenda potestas : et ita
+            videtur quod qui in unum potest, quod possit in omnem.</p>
+          <p xml:id="bb-d4e25582-d1e147">Contra : <ref xml:id="bb-d4e25582-Rd1e149">Causa XVI, quaestione 1</ref> : <quote xml:id="bb-d4e25582-Qd1e152" source="http://scta.info/resource/gd-p2c16q1-d1e401">Nulli sacerdotum liceat
+              parochianum alterius aut absolvere aut ligare</quote>.</p>
+          <p xml:id="bb-d4e25582-d1e156">Item <ref xml:id="bb-d4e25582-Rd1e158">Causa IX, quaestione 2</ref> : <quote xml:id="bb-d4e25582-Qd1e161" source="http://scta.info/resource/gd-p2c9q2-d1e120">Nullus alterius parochianum
+              iudicare, ordinare aut excummunicare praesumat, quia tale iudicium aut ordinatio vel
+              excommunicatio nec rata erit nec vires ullas habebit</quote>.</p>
+          <p xml:id="bb-d4e25582-d1e165">Item, in Concilio generali, Extra, De Poenitentiis et remissionibus : Si quis aliquando
+            ex causa voluerit alteri confiteri, licentiam petat et obtineat a proprio sacerdote,
+            quia aliter ipsum non poterit absolvere vel ligare. Sed non quilibet sacerdos est
+            proprius, quia proprium dicitur quod convenit uni soli : ergo non quilibet sacerdos
+            potest quemlibet absolvere.</p>
+          <p xml:id="bb-d4e25582-d1e168">Item, videtur ratione, quia nos videmus in ordinatione pradicamentorum in rationalibus
+            et in ordine causarum in naturalibus, quod reductio fit usque ad supremum per unum
+            immediatum, ita quod non sunt plura immediata respectu unius. Et hoc patet, quia una est
+            species specialissima individui unius, similiter est in causis. Ergo, si ordo est in
+            Ecclesia secundum gradus descendendo et ascendendo a Summo Pontifice usque ad
+            parochianum, videtur tunc quod per unum sacerdotem, per unum archidiaconum, per unum
+            episcopum, per unum hierarcham reducatur ad Summum Pontificem. Ergo non poterunt
+            secundum rectum ordinem plures sacerdotes in unum : non ergo quilibet quemlibet potest
+            absolvere vel ligare.</p>
+          <p xml:id="bb-d4e25582-d1e172">Item, ita videmus in exercitibus, quod sunt ordines distincti, ut tribunus super
+            centuriones, et centurio super quinquagenarios, et quinquagenarius super decuriones, et
+            decurio super decem ; et qui sunt sub uno, non sunt sub alio decurione, nec potest
+            decurio compescere nisi suos decem, et sic de aliis ascendendo ; secundum hoc pari
+            ratione videtur quod nec sacerdos alterius parochianum nec episcopus. alienum
+            subditum.</p>
+          <p xml:id="bb-d4e25582-d1e175">Item, si duo haberent posse super unum, qui possent discordare, possent contraria
+            iubere ; sed nemo potest duobus dominis contraria iubentibus. obtemperare rationabiliter
+            : ergo posset in isto subdito perplexitas generari : ergo secundum rectum ordinem non
+            debet duobus sacerdotibus super eumdem subditum aequalis potestas dari : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e25582-Dd1e179">
+          <head xml:id="bb-d4e25582-Hd1e181">Conclusio</head>
+          <head xml:id="bb-d4e25582-Hd1e184" type="question-title">Non quilibet sacerdos potest quemlibet absolvere nisi in
+            articulo necessitatis</head>
+          <p xml:id="bb-d4e25582-d1e187">Respondeo : Dicendum quod, sicut dicit Dionysius, <quote xml:id="bb-d4e25582-Qd1e189">lex divinitatis est media per
+              prima et ultima per media perducere ad purgationem, illuminationem et
+              perfectionem</quote>. Ideo, sicut videmus in omnibus, sive in rationalibus sive in
+            naturalibus sive in caelestibus, quod ad hoc quod sit concordia et decor, oportet quod
+            sit ordo, sic intelligendum est et in spiritualibus potestatibus in ipsa Ecclesia ; unde
+            Cantici 6, 3 legitur quod <quote xml:id="bb-d4e25582-Qd1e192" ana="#cant6_3">terribilis est ut castrorum acies
+              ordinata</quote>.</p>
+          <p xml:id="bb-d4e25582-d1e196">Quoniam igitur ordo attenditur secundum praelationem et subiectionem, et praelatio
+            attenditur secundum ascensum et descensum, non secundum aequalitatem ; et in ascendendo
+            ad superius est status et reductio ad unum, econtra in descendendo est multiplicatio :
+            ideo secundum rectum ordinem Ecclesiae oportuit unum esse praelatum primum et supremum,
+            in quo esset status omnis praelationis ecclesiasticae. Et quia in illo status est
+            tamquam in primo et simplicissimo in illo genere, ideo virtus in eo unita est, et solus
+            est inter praelatos qui habet plenitudinem potestatis. Item, quoniam per reces sum ab
+            uno fit multiplicatio, et per hoc virtutis diminutio, ideo quanto praelati alii
+            inferiores sunt, tanto plures sunt et tanto minorem habent potestatem, ita quod status
+            est in sacerdotibus parochialibus qui immediate gerunt populi curam ; et istorum
+            iurisdictio arctata est ad portiunculam determinatam, et cuilibet commissa est sua
+            portio secundum rectam ordinationem, et illa iudicatur esse messis sua. Et quoniam non
+            licet alii sacerdoti mittere manum vel falcem in alienam messem, ideo alius non habet
+            potestatem eius subditum absolvere, nisi superior vel vicem habeat superioris, ut
+            poenitentiarii domini Papae et poenitentiarii episcopi, legati et privilegiati, qui
+            faciunt hoc auctoritate superioris, sicut nuntiu a principe procedens potest in omnes
+            subditos aliis inferioribus. Haec autem intelligenda sunt secundum legem communem quia
+            in articulo necessitatis indulget rectitudo iuris cuilibet sacerdoti quemlibet
+            absolvere, si sit in Ecclesiae unitate.</p>
+          <p xml:id="bb-d4e25582-d1e199">Pro regula igitur habendum est, quod solus sacerdos proprius habet potestatis
+            exsecutionem in suos, exceptis quinque casibus. Primus est, si ovis aliena in parochia
+            sua deliquit. Secundus, si mutavit ibi domicilium, sicut est in scholaribus qui student
+            Parisius. Tertius est, si sit vagabundus. Quartus est, si sacerdos proprius sit inscius
+            vel malitiosus, et, petita licentia, vult adire peritiorem. Ultimus est in articulo
+            necessitatis, et hoc in casu non oportet sacerdotem esse licentiatum. In aliis autem
+            oportet, non a sacerdote poenitentis solum, quia ille non potest nisi subditum
+            licentiare, sed oportet esse licentiatum ab ordinario, scilicet ipso episcopo.
+            Concedendae igitur sunt rationes probantes quod non quilibet potest in quemlibet.</p>
+        </div>
+        <div xml:id="bb-d4e25582-Dd1e204">
+          <head xml:id="bb-d4e25582-Hd1e206">Ad rationes</head>
+          <p xml:id="bb-d4e25582-d1e209">Ad illud ergo quod obicitur de filiis Aaron, dicendum quod non est simile, quia populus
+            Israel populus unus erat et unum templum habebat, nec erant ibi regna terrarum
+            sollicitudini sacerdotum commissa sicut nunc sunt ; et ideo oportet modo esse plures
+            episcopos et plures ecclesias, quarum quaelibet habet suam potestatem.</p>
+          <p xml:id="bb-d4e25582-d1e212">Ad illud quod obicitur de hoc quod dicit Dominus : Quorum remiseritis etc., dicendum
+            quod clavis sacerdotalis, quamvis, quantum est de se, indifferens sit ad omnes, tamen
+            vis motiva huius clavis, quae est iurisdictio, ut prius visum est, non se habet ad omnes
+            nisi in uno solo ; et ideo unus solus potest omnes absolvere. Quando ergo Dominus dedit
+            clavem et banc potestatem, ipse praesupposuit eius exsecutionem secundum regulam
+            potestatis collatae Petro et eius successoribus.</p>
+          <p xml:id="bb-d4e25582-d1e215">Ad illud quod obicitur, quod ignis agit in quodlibet combustibile, dicendum quod non
+            est simile, quia prima est actio naturalis, quae est secundum necessitatem, haec autem
+            actio est spiritualis et rationalis, quae quidem attenditur secundum ordinem.</p>
+          <p xml:id="bb-d4e25582-d1e218">Ad illud quod obicitur de clave et sera, dicendum quod istud verum est quando adest
+            virtus motiva quae clavem moveat ; sed in aliquibus vis ista arctata est, ut in
+            sacerdotibus inferioribus ; in aliquibus ligata, ut in haereticis et excommunicatis ; in
+            aliquibus est amputata, ut in degradatis. Unde sicut hi non possunt absolvere aliquem,
+            quorum manus est ligata simpliciter, ita in aliis non potest clavis claudere, ubi se
+            manus iurisdictionis non valeat extendere.</p>
+          <p xml:id="bb-d4e25582-d1e222">Ad illud quod obicitur de angelis superioris ordinis, dicendum quod non est simile,
+            quia in hierarchia angelica non potest cadere zelus nec controversia, pro eo quod
+            concordia in sublimibus est facta ; non sic est in Ecciesia, immo quilibet vult sibi ius
+            alterius vindicare : ideo oportuit potestates distinguere et limitare.</p>
+          <p xml:id="bb-d4e25582-d1e225">Ad illud quod ultimo obicitur, quod potestas non est arctanda, dicendum quod arctatio
+            potestatis potest venire dupliciter : aut propter defectum amoris, aut propter
+            conservationem ordinis. Prima est invidiae et repugnat bonitati ; secunda vero est
+            sapientiae et concordat paci et communi utilitati ; et talis arctatio facta est in
+            minoribus sacerdotibus, regulante iure divino, immo ipso Spiritu Sancto, per Patres et
+            Apostolos, qui Ecclesiam fundaverunt et ordinaverunt. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

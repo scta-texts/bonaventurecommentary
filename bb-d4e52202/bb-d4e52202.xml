@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e52202">
+        <head xml:id="bb-d4e52202-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e52202-Hd1e111" type="question-title">Utrum agilitas inclinet corpus gloriosum ad omnem differentiam
+          positionis an ad aliquem locum determinatum.</head>
+        <p xml:id="bb-d4e52202-d1e114">Secundo quaeritur de inclinatione corporis gloriosi, quae est per agilitatem ; et
+          quaeritur, utrum agilitas inclinet corpus gloriosum ad omnem differentiam positionis an ad
+          aliquem locum deterininatum.</p>
+        <div xml:id="bb-d4e52202-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e52202-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e52202-d1e122">Et quod non ad omnem differentiam, videtur : Quia inclinatio mobilis sequitur
+            praedominans secundum quantitatem ; sed praedominans secundum quantitatem in corporibus
+            illis est terra et aqua : ergo etc. Si dicas quod auferetur gravitas, contra : haec est
+            de natura terrae ; sed <name ref="#Augustine">Augustinus</name> dicit quod natura
+            servabitur : ergo etc.</p>
+          <p xml:id="bb-d4e52202-d1e128">Item, unumquodque appetit quod est magis sibi conveniens ; sed locus caeli empyrei est
+            magis sibi conveniens : ergo appetit esse ibi. Sed inclinatio est appetitus naturalis :
+            ergo. etc.</p>
+          <p xml:id="bb-d4e52202-d1e131">Item, omne quod quiescit alicubi, habet vim ipsum ibi stabilientem ; sed corpus
+            gloriosum quiescit in caelo : ergo ibi stabilitur per aliquam virtutem. Sed virtus
+            stabiliens in loco inclinat ad locum determinatum : ergo etc.</p>
+          <p xml:id="bb-d4e52202-d1e134">Contra : Corpus illud est per omnia obediens animae : ergo, si voluntas illa potest
+            movere ad omnem differentiam positionis et aeque ad unam sicut ad alia, ergo corpus
+            gloriosum non magis inclinatur ad unam quam ad aliam.</p>
+          <p xml:id="bb-d4e52202-d1e138">Item, quod habet inclinationem ad unam partem, si moveatur ad oppositam, movetur cum
+            fatigatione et poena : ergo, si illud inclinaretur sursum et moveretur deorsum, esset
+            ibi labor et poena,</p>
+          <p xml:id="bb-d4e52202-d1e141">Item, quod appetit unum locum, si extra illum ponatur, efficitur indigens et
+            imperfectum : ergo, si corpus gloriosum inclinaretur ad aliquem locum secundum
+            appetitum, aut impossibile esset quod inde moveretur, aut, si inde moveretur, esset
+            imperfectum.</p>
+        </div>
+        <div xml:id="bb-d4e52202-Dd1e145">
+          <head xml:id="bb-d4e52202-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e52202-Hd1e150" type="question-title">Agilitas corporis gloriosi non inclinat ad aliquem locum
+            determinatum, sed est promptitudo, ut ad omnem locum, sicut vult anima, moveatur</head>
+          <p xml:id="bb-d4e52202-d1e153">Respondeo : Dicendum quod habilitas ad motum sequitur inclinationem, et inclinatio
+            appetitus est respectu perfectionis, quia propter illam est. Quoniam igitur corpus
+            gloriosum totam suae existentiae et nobilitatis et stabilitatis rationem trahit ab
+            anima, ideo inclinatio eius est ad animam, non ad aliquid extra. Et quoniam agilitas
+            sequitur inclinationem, et anima potest movere in omnem differentiam positionis : ideo
+            et corpus habet habilitatem ad omnem situm. Unde agilitas non inclinat ad aliquem locum
+            determinatum, ut probatum est, sed est promptitudo, ut corpus moveatur in omnem locum ad
+            quem vult movere anima. Et concedendae sunt rationes ad hoc.</p>
+        </div>
+        <div xml:id="bb-d4e52202-Dd1e158" type="rationes-principales">
+          <head xml:id="bb-d4e52202-Hd1e160">Ad rationes</head>
+          <p xml:id="bb-d4e52202-d1e163">Ad illud quod obicitur, quod terra praedominatur, dicendum quod, quia appetitus
+            elementorum totaliter quietatur in illo corpore, quod nullum elementum in eo appetit
+            suam sphaeram ; et ideo ablatus est terrae appetitus ille et gravitas. Quod obicitur,
+            quod natura servatur, et vitium detrahitur, dicendum quod vitium dicitur omne quod
+            importat imperfectionem.</p>
+          <p xml:id="bb-d4e52202-d1e166">Ad illud quod obicitur, quod appetit magis conveniens, dicendum quod hoc verum est, si
+            illo indiget ; sed corpus gloriosum nullo indiget loco.</p>
+          <p xml:id="bb-d4e52202-d1e169">Ad ultimum dicendum quod corpus stabilitur in omni loco per animam et anima per Deum ;
+            et sic non indiget alia inclinatione.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e36345">
+        <head xml:id="bb-d4e36345-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e36345-Hd1e111" type="question-title">Utrum vir ante carnalem commixtionem possit continere, uxore
+          nolente.</head>
+        <p xml:id="bb-d4e36345-d1e114">Secundo quaeritur, utrum vir ante carnalem commixtionem possit continere, uxore
+          nolente.</p>
+        <div xml:id="bb-d4e36345-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e36345-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e36345-d1e122">Et quod non, videtur : I ad Corinthios 7, 3 : <quote xml:id="bb-d4e36345-Qd1e124">Uxori vir debitum reddat,
+              similiter et uxor viro</quote> ; sed ante commixtionem sunt vir et uxor : ergo ante
+            commixtionem tenentur : ergo etc.</p>
+          <p xml:id="bb-d4e36345-d1e128">Item, uxor viro obligatur voluntarie et per mutuum consensum : si ergo ante
+            commixtionem est mutuus consensus, ergo et obligatio ad redditionem debiti.</p>
+          <p xml:id="bb-d4e36345-d1e131">Item, mulier non tenetur continere et non potest cum altero contrahere : ergo potest
+            iuste debitum exigere ; sed iuste exigenti iniustum est negare : ergo etc.</p>
+          <p xml:id="bb-d4e36345-d1e134">Item, esto quod vir post consensum de praesenti violenter extorqueat copulam carnis,
+            est Matrimonium consummatum. Ergo tenetur ad solvendum debitum omnino ipsa uxor ei ; sed
+            violentia non inducit novam obligationem : ergo prius obligabatur.</p>
+          <p xml:id="bb-d4e36345-d1e138">Contra : <ref xml:id="bb-d4e36345-Rd1e140">Decretalis, De conversione coniugatorum</ref>, concedit viro potestatem
+            intrandi religionem, uxore nolente ; sed plus est religionem intrare quam continere :
+            ergo concedit licentiam continendi.</p>
+          <p xml:id="bb-d4e36345-d1e144">Item, per consensum contrahitur Matrimonium, esto etiam quod non ,sit in copulam
+            carnalem, ut supra ostensum est : ergo, si non obligatur nisi ad illud in quod
+            consentit, patet etc.</p>
+          <p xml:id="bb-d4e36345-d1e147">Item, si omnis vir esset obligatus ad solvendum debitum ante carnalem copulam, ergo
+            nihil adderet carnalis commixtio ad consummationem Matrimonii.</p>
+          <p xml:id="bb-d4e36345-d1e150">Item, quaeritur iuxta hoc : unde hoc est quod copula coniugalis, violenter extorta,
+            Matrimonium consummat, et consensus coactus Matrimonium non ratificat ? Et utrum huic
+            liceat post copulam mulieris vovere continentiam. Et quod sic, videtur, quia, si prius
+            licebat, et nullus potest ei ius suum violenter auferre, patet etc.</p>
+        </div>
+        <div xml:id="bb-d4e36345-Dd1e154">
+          <head xml:id="bb-d4e36345-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e36345-Hd1e159" type="question-title">Ante consummationem matrimonii utraque persona continere
+            potest per duos menses, sed post vel tenetur reddere debitum, vel per solemne votum se
+            manifestare mortuum mundo</head>
+          <p xml:id="bb-d4e36345-d1e162">Respondeo : Dicendum quod ante consummationem Matrimonii utraque persona nec omnino
+            obligatur nec omnino est libera. Non omnino obligatur, quia potest mori mundo ; et sic
+            Matrimonium solvitur, ipso vivente in carne, et tunc, cum hoc facit, omnino est
+            absolutus. Nec omnino libera, quia, si vult huic mundo vivere, necesse habet petenti
+            debitum reddere. Et quia in medio est inter vitam huius saeculi et vitam religiosam sive
+            spiritualem, ideo sacri canones terminum praefixerunt, ut possit deliberare, videlicet
+            termintun duorum mensium vel circa illud. Et ideo dicendum quod, uxore petente,
+            continere potest per duos menses, sed post vel tenetur reddere debitum vel manifestare
+            se mundo mortuum per solemne votum ad religionis ingressum ; quod si non faciat, tenetur
+            ad debitum solvendum, sicut primae rationes ostendunt.</p>
+        </div>
+        <div xml:id="bb-d4e36345-Dd1e167">
+          <head xml:id="bb-d4e36345-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e36345-d1e172">Ad illud ergo quod obicitur in contrarium, quod potest intrare religionem, ergo in
+            saeculo continere, dicendum quod non valet, quia introitus in religionem facit mori
+            mundo et solvi vinculum ; unde in nullo fit sponsae praeiudicium ; non sic est cum manet
+            in saeculo.</p>
+          <p xml:id="bb-d4e36345-d1e175">Ad illud quod obicitur, quod non oportet consentire in carnalem copulam, dicendum quod,
+            quamvis non oporteat in eam consentire, oportet tamen consentire in copulam coniugalem,
+            quae necessario ordinat ad illam nisi interveniat mors spiritualis.</p>
+          <p xml:id="bb-d4e36345-d1e178">Ad illud quod obicitur, quod nihil addit, dicendum quod falsum est, immo addit quantum
+            ad significationem et quantum ad obligationem. Quia enim fiunt unum corpus et una caro,
+            ideo non potest unus transire de hoc mundo, reliquo remanente ; et ideo non potest
+            vovere continentiam nisi coniux pariter voveat. Praeterea, tenetur ad statim reddendum
+            post carnalem copulam, sed ante datur ei spatium duorum mensium ; et ideo addit.</p>
+          <p xml:id="bb-d4e36345-d1e181">Ad illud quod quaeritur de ea quae corrupta est violenter a viro, dicendum quod, quia
+            Matrimonium est consummatum, non potest sine assensu viri religionem intrare nec votum
+            vovere.</p>
+          <p xml:id="bb-d4e36345-d1e185">Ad illud quod obicitur , quod Matrimonium debet esse liberum, dicendum, quod verum est
+            quantum ad consensum, in quo est Matrimonii fundamentum ; ista tamen copula, quamvis sit
+            violenta, quia tamen maritalis est et fundata super consensum voluntarium, ideo
+            voluntaria iudicatur ; et ideo Matrimonium ratum consummat. Praeterea, consensus de sui
+            ratione importat libertatem, non sic coniunctio corporalis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

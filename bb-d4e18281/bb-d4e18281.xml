@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e18281">
+        <head xml:id="bb-d4e18281-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e18281-Hd1e111" type="question-title">Cui sit facienda satisfactio.</head>
+        <p xml:id="bb-d4e18281-d1e114">Secundo quaeritur, cui sit facienda satisfactio.</p>
+        <div xml:id="bb-d4e18281-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e18281-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e18281-d1e122">Et quod Deo, videtur : <name ref="#Anselm">Anselmus</name> ita definit :
+              <quote xml:id="bb-d4e18281-Qd1e127">Satisfacere est honorem debitum Deo impendere</quote>, Sed ei satisfit
+            impendendo honorem cui bonorem impendimus : cum ergo honorem impendamus Deo,
+            satisfaciendum est Deo.</p>
+          <p xml:id="bb-d4e18281-d1e131">Item, illi fit satisfactio, qui exigit poenam et emendam ; sed ille qui exigit poenam a
+            peccatore, Deus est ; <name ref="#GregoryGreat">Gregorius</name> :<quote xml:id="bb-d4e18281-Qd1e136"> Aut homo punit
+              aut Deus</quote> ; ergo satisfactio fit Deo.</p>
+          <p xml:id="bb-d4e18281-d1e140">Item, ei fit satisfactio, cui iniuriatum est per culpam ; sed hic est Deus, quia
+            peccatum est, spreto incommutabili bono, rebus commutabilibus adhaerere : ergo
+            satisfactio proprie fit ipsi Deo.</p>
+          <p xml:id="bb-d4e18281-d1e143">Item, Christi satisfactio fuit exemplar nostrae satisfactionis, et inde non tantum
+            exemplum trahitur, sed etiam fundamentum nostrae satisfactionis ; sed Christus
+            satisfecit Patri, quia semetipsum obtulit oblationem et hostiam Deo : ergo nostra
+            satisfactio similiter est Deo facienda.</p>
+          <p xml:id="bb-d4e18281-d1e147">Item, si satisfactio non fieret nisi Ecclesiae, videtur quod, cum peccator exiret forum
+            Ecclesiae, non teneretur ad poenam aliquam : ergo omnes evolarent : ergo frustra fiunt
+            suffragia Ecclesiae et errant qui ponunt poenam purgatoriam. Sed hoc est contra fidem :
+            ergo etc.</p>
+          <p xml:id="bb-d4e18281-d1e150">Item, si Deus peccatori, quotiescumque iustificatur, totum condonaret, malum remaneret
+            multum et daretur unicuique libertas transgrediendi contra Deum suum ; sed hoc est
+            inconveniens, quia universum sic remaneret inordinatum : ergo etc.</p>
+          <p xml:id="bb-d4e18281-d1e153">Contra : <name ref="#Augustine">Augustinus</name> dicit, et <name ref="#Lombard">Magister</name> ponit in littera : <quote xml:id="bb-d4e18281-Qd1e161">Infidelitatis impietas est ab eo qui iustus
+              est dimidiam sperare veniam</quote>. Sed, si hoc est erroneum dicere, quod dimidiam
+            veniam donet, ergo, si dimittit, totum condonat : ergo culpam et poenam : ergo ipse
+            amplius non exigit, ergo nec ei oportet satisfacere, ergo soli Ecclesiae.</p>
+          <p xml:id="bb-d4e18281-d1e165">Item, Deus in contritione dimittit culpam et poenam aeternam, quae excedit omnem poenam
+            temporalem improportionaliter. Ergo, cum contritio non excedat confessionem
+            improportionaliter, nec quantum ad poenam nec quantum ad meritum, multo fortius in
+            confessione absolvitur peccator ab omni poena temporali quantum ad Deum : ergo Deus non
+            exigit ampliorem satisfactionem.</p>
+          <p xml:id="bb-d4e18281-d1e168">Item, tanta potest esse contritio quod delet omnem culpam et poenam, et tunc constat
+            quod Deus nihil exigeret satisfactionis ; sed, si talis veniat ad poenitentiam, poena
+            satisfactoria est imponenda : ergo videtur quod satisfactio non fiat Deo, sed Ecclesiae,
+            quae est eius sponsa.</p>
+          <p xml:id="bb-d4e18281-d1e171">Item, confessio ultra contritionem est solum necessaria propter reconciliationem
+            faciendam Ecclesiae, et ideo fit homini. Ergo multo fortius de satisfactione quae
+            consequitur confessionem.</p>
+          <p xml:id="bb-d4e18281-d1e175">Item, videmus quod Ecclesia absolvit a maiori parte poenae satisfactoriae in huiusmodi
+            relaxationibus ; sed nullus potest alicui relaxare nisi quod sibi debetur : ergo videtur
+            quod ista debeatur Ecclesiae : ergo videtur quod satisfactio non fiat Deo, sed magis
+            Ecclesiae.</p>
+        </div>
+        <div xml:id="bb-d4e18281-Dd1e179">
+          <head xml:id="bb-d4e18281-Hd1e181">Conclusio</head>
+          <head xml:id="bb-d4e18281-Hd1e184" type="question-title">Satisfactio de peccato proprie fit ipsi Deo, tamen per
+            Ecclesiam et in Ecclesia</head>
+          <p xml:id="bb-d4e18281-d1e187">Respondeo : Dicendum quod, cum peccator peccat, se ad poenam aeternam obligat. Cum
+            autem divina misericordia iustificat, remittit omnem culpam et reatum poenae aeternae
+            qui inseparabiliter adhaeret culpae. Sed quia misericordia non potest praeiudicare
+            iustitiae, cuius est mata punire, ideo sic solvit a culpa et poena, ut tamen remaneat
+            obligatus ad aliquantulam poenam temporalem. Sed quoniam peccator ipsum offenderat et
+            etiam damnificaverat eius Ecclesiam, commisit Dominus iudiciariam potestatem super
+            peccatores rectoribus Ecclesiae et in eos compromisit tamquam in arbitros, ut sic
+            innotescat voluntas Dei poenitentibus per sacerdotes et per illos imponatur poena
+            peccatoribus et Domino satisfiat principaliter et Ecclesiae per consequens. Unde
+            satisfactio proprie de peccato fit ipsi Deo, tamen per Ecclesiam et in Ecclesia. Et
+            concedo rationes ad hoc inductas.</p>
+        </div>
+        <div xml:id="bb-d4e18281-Dd1e192">
+          <head xml:id="bb-d4e18281-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e18281-d1e197">Ad illud ergo quod obicitur, quod non est speranda dimidia venia, dicendum quod tunc
+            venia dimidiatur, quando unum mortale dimittitur et reliquum tenetur ; et hoc est
+            inconveniens ponere quod Deus, qui iustus est, posset confoederari et reconciliari
+            homini in sua iniustitia permanenti ; alibquin simul esset amicus et inimicus. Non sic
+            autem est de aliquantula poena temporali, quia obligatio ad poenam non facit iniustitiam
+            in eo qui vult solvere.</p>
+          <p xml:id="bb-d4e18281-d1e200">Ad illud quod obicitur, quod in contritione dimittit poenam aeternam, dicendum quod hoc
+            est quia ibi priricipaliter operatur misericordia relaxans, sed in satisfactione
+            iustitia, in confessione vero utraque : unde quasi medium tenet ; in cuius signum fit
+            ibi ligatio et solutio. Et ideo non est simile.</p>
+          <p xml:id="bb-d4e18281-d1e203">Ad illud quod obicitur, quod tanta potest esse contritio quod totum remittitur,
+            dicendum quod verum est ; sed quia Ecclesiae non constat, ideo debet a sacerdote imponi.
+            Si autem sacerdoti constaret, reputaret omnino sibi satisfactum, et tunc poenam non
+            imponeret, sed absolutum absolveret. Nunc autem in aliquibus decipitur, sed deceptio est
+            fructuosa - quia semper merita cumulantur - et Ecclesiae imponenti et ulterius
+            satisfacienti ; quia enim Dominus non vult ultra sortem, reliquum in thesauris Ecclesiae
+            habetur repositum.</p>
+          <p xml:id="bb-d4e18281-d1e206">Ad illud quod obicitur, quod confessio est propter reconciliationem, dicendum quod non
+            est solum propter hoc, sed ad arbitrandum poenam inter hominem et Deum ; qua soluta,
+            tunc fit reconciliatio perfecta.</p>
+          <p xml:id="bb-d4e18281-d1e210">Ad illud quod obicitur, quod Ecclesia absolvit a maiori parte, dicendum quod hoc non
+            est remittendo, sed pro eo solvendo de thesauris suis, vel quia Deus plenarie
+            compromisit in eos quibus plenitudinem tradidit potestatis. Quod autem horum verum magis
+            sit, infra videbitur, cum de relaxationibus agetur.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

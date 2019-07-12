@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e26610">
+        <head xml:id="bb-d4e26610-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e26610-Hd1e111" type="question-title">Utrum unus pro alia possit satis facere.</head>
+        <p xml:id="bb-d4e26610-d1e114">Quaeritur igitur primo, utrum possit fieri satisfactionis. commutatio, et hoc est
+          quaestionis fundamentum, scilicet, utrum unus pro alio satisfaciat. </p>
+        <div xml:id="bb-d4e26610-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e26610-d1e119">Et quod sic, videtur. Ad Galatas 6, 2 : <quote xml:id="bb-d4e26610-Qd1e121" ana="#gal6_2">Alter alterius onera
+              portate</quote> : sed onera quae maxime sunt portanda, sunt onera spiritualia : ergo,
+            si alicui imposita est poenitentia gravis, videtur quod aliquis partem vel totum possit
+            pro eo portare.</p>
+          <p xml:id="bb-d4e26610-d1e125">Item, in littera dicitur : <quote xml:id="bb-d4e26610-Qd1e127">Amicorum orationibus et elemosynarum largitionibus
+              pondus poenitentiae sublevandum est</quote> ; loquitur de eo qui graviter
+            infirmatur.</p>
+          <p xml:id="bb-d4e26610-d1e131">Item, hoc videtur per rationem, primo per simile in rebus naturalibus. Videmus enim in
+            aliquo corpore animalis quod unum membrum se exponit ut sustineat laesionem et gravamen
+            alterius. Sicut patet quod brachium se exponit pro capite. Si ergo in corpore mystico
+            est connexio per assimilationem ad corpus naturale, videtur similiter quod unum membrum
+            onus alterius possit et debeat supportare.</p>
+          <p xml:id="bb-d4e26610-d1e134">Item, hoc videtur per simile in humanis actibus. Videmus enim quod sic est in actibus,
+            quod si aliquis est alicui debitor, non refert apud creditorem utrum ipse vel alius
+            solvat, immo pro eodem utrumque acceptat. Si ergo multo benignior est Deus et avidior ad
+            percipiendam solutionem quam homo terrenus, videtur quod ipse sit con tentus et sibi
+            sufficiat, si alius satisfaciat pro eo.</p>
+          <p xml:id="bb-d4e26610-d1e137">Item, hoc videtur per locum a minori, quia plus est impetrare remissionem culpae quam
+            remissionem poenae ; sed sanctus vir impetrat alicui, qui est extra gratiam, per suas
+            orationes remissionem culpae : ergo et remissionem poenae per suas afflictiones.</p>
+          <p xml:id="bb-d4e26610-d1e141">Item, Christus punitus est et poena sua satisfecit ; non pro peccato suo, hoc constat :
+            ergo pro alieno : ergo Christus satisfecit pro nobis. Si ergo omnes nos unum sumus in
+            Christo et membra eius sumus et imitatores eius esse debemus, videtur quod unus pro alio
+            possit et debeat satisfacere.</p>
+          <p xml:id="bb-d4e26610-d1e144">Contra : II ad Corinthios 5, 10 : <quote xml:id="bb-d4e26610-Qd1e146" ana="#IIcor5_10">Omnes stabimus ante tribunal
+              Christi, ut recipiat unusquisque propria corporis, prout gessit, sive bonum sive
+              malum</quote>. Ergo unicuique retribuetur iuxta opera sua : ergo non videtur quod unus
+            pro alio satisfaciat, quia tunc Deus alicui retribueret secundum opera aliena.</p>
+          <p xml:id="bb-d4e26610-d1e150">Item, in Psalmo [61, 13] : <quote xml:id="bb-d4e26610-Qd1e152" ana="#ps61_13">Tu reddes unicuique iuxta opera
+              sua</quote>. Ergo idem quod prius.</p>
+          <p xml:id="bb-d4e26610-d1e156">Item, ratione videtur, quoniam non exigit Deus satisfactionem ab aliquo quia delectetur
+            in poena, sed quia satisfactio est remedium contra culpam, ut anima reordinetur ; sed
+            antidotum sive remedium circa membrum infirmans debet apponi : ergo videtur quod non
+            possit in alium hominem commutari.</p>
+          <p xml:id="bb-d4e26610-d1e159">Item, non potest conteri nec confiteri unus pro alio, immo oportet quod ipse qui peccat
+            conteratur et confiteatur : ergo videtur similiter quod oporteat ipsum satisfacere et
+            poenam pati.</p>
+          <p xml:id="bb-d4e26610-d1e162">Item, si sani possunt supra se suscipere satisfactionem infirmi, ponatur igitur quod
+            aliquis debeat poenitentiam septennem, et consanguinei recipiant super se, et infirmus
+            moritur ; quaero ergo a te : aut evolat aut non evolat. Si non evolat, sed punitur in
+            purgatorio ; et illi puniunt se pro eo, ergo Deus punit bis in id ipsum. Si vero evolat,
+            ponatur quod illi nihil faciant de satisfactione suscepta, tunc ergo salvabitur quis et
+            culpa remanebit impunita ; quod est contra divinam iustitiam.</p>
+          <p xml:id="bb-d4e26610-d1e166">Item, nullus potest mereri alteri quin mereatur sibi, secundum quod dicit illa
+            auctoritas : Qui pro alio orat, pro se ipso laborat. Ergo pari ratione nullus potest
+            satisfacere pro alio quin satisfaciat pro se : ergo, si potest unus pro alio
+            satisfacere, potest unus simul et una poena satisfacere pro se et pro alio, et ita pari
+            ratione pro tertio et quarto et sic deinceps : ergo pro omnibus. Ergo videtur, si hoc
+            verum est, quod uno satisfaciente, satisfaciant et omnes.</p>
+        </div>
+        <div xml:id="bb-d4e26610-Dd1e170">
+          <head xml:id="bb-d4e26610-Hd1e172">Conclusiones</head>
+          <head xml:id="bb-d4e26610-Hd1e175" type="question-title">Poena satisfactionis, non quatenus est medicinalis, sed
+            quatenus solvit poenam, potest commutari in aliam personam</head>
+          <p xml:id="bb-d4e26610-d1e178">Respondeo : Dicendum quod poena satisfactoria habet in se duplicem rationem sive
+            virtutem. Poena enim talis propter duo est maxime : et propter medicamentum contra
+            sequelas peccati et in pretium ad solvendum reatum peccati. Si igitur loquamur de ista
+            poena secundum quod est purgatoria sive medicinalis, cum morbus non recipiat medicinam
+            ex poena aliena, sed propria - unde non exstinguitur concupiscentia in me, si tu ieiunas
+            pro me - quantum ad hanc rationem poena satisfactoria nec potest nec debet commutari in
+            aliam personam. Posset tamen commutari in poenam internam, quia gemitus cordis plus
+            frequenter medetur et reparat animam quam diuturnitas poenae exterioris. Si autem
+            loquamur de poena secundum quod habet rationem pretii, hoc modo concedendum quod potest
+            commutari, quia potest unus pro alio solvere poenam. Sed haec commutatio debet fieri
+            auctoritate sacerdotis, cuius est hic duo considerare, scilicet debitam in subditis
+            dispositionem et debitam proportionem in poena. Debitam dispositionem voco, quod in uno
+            sit sufficientia et in alio indigentia et in utroque sit caritas, quae faciat bona
+            communia ; si vero alterum horum desit, non fit commutatio recte. Debitam vero
+            proportionem voco, ut minor poena in maiorem commuetur, quia plus satisfacit Deo poena
+            propria quam aliena, sicut efficacius homo meretur sibi quam alii. Unde sicut poena
+            assumpta commutatur in maiorem poenam purgatoriam, eo quod multo minus est illa accepta,
+            pro eo quod ista est voluntaria simpliciter, illa minime voluntaria, similiter propria
+            poena debet commutari in maiorem alienam ad hoc ut fiat commutatio recta.</p>
+          <p xml:id="bb-d4e26610-d1e181">Sic igitur concedendum, sicut probant primae rationes, quod poena satisfactoria
+            commutari potest ratione unitatis caritatis, quantum ad id quod habet in se pretii
+            solvendi, sed non quantum ad id quod habet in se medicamenti.</p>
+        </div>
+        <div xml:id="bb-d4e26610-Dd1e186">
+          <head xml:id="bb-d4e26610-Hd1e188">Ad rationes</head>
+          <p xml:id="bb-d4e26610-d1e191">1-2. Ad illud ergo quod obicitur, quod unicuique reddetur secundum opera sua, dicendum
+            quod caritas opera aliena facit sua, maxime quando caritas alterius voluntarie quod suum
+            est alteri donat.</p>
+          <p xml:id="bb-d4e26610-d1e194">Ad illud quod obicitur de remedio, iam patet responsio, quoniam quantumcumque aliquis
+            supra se poenam recipiat alterius, tamen ille non est omnino liberatus a poena, quousque
+            consumatur peccati scoria quam contraxit ex culpa, quae etiam non potest deleri nisi per
+            poenam exteriorem vel per contritionem internam.</p>
+          <p xml:id="bb-d4e26610-d1e197">Ad illud quod obicitur, quod non potest conteri nec confiteri, dicendum quod non est
+            simile, quia prima, scilicet confessio et contritio, sunt ordinata ut ingrediatur
+            unitatem ecclesiasticam, per quam fit ut bona unius sint alterius ; satisfactio vero
+            utramque consequitur ; et quia fundamentum istius communicationis est in caritate, ideo
+            non est simile. Alia ratio est, quia in potestate cuiuslibet est confiteri, in nullius
+            potestate est conteri nisi eius qui novit occulta cordis, scilicet spiritus hominis ;
+            sed poenam pati est in potestate cuiuslibet tam pro se quam pro alio. Attamen non est
+            inutile nec a satisfactione alienum, si vir iustus peccata defleat minus iusti. </p>
+          <p xml:id="bb-d4e26610-d1e200">Ad illud quod quaeritur, utrum statim evolet ille cuius satisfactio commutatut,
+            dicendum quod non, tum quia oportet quod scoria peccati purgetur, tum etiam quia nullus
+            ingreditur paradisum, quousque sit extra debitum omne, ita quod nec ipse sit debitor nec
+            alius pro eo. Si ergo obicias quod tunc bis punit Deus in id ipsum, dicendum quod falsum
+            est, quia, secundum quod illi celerius faciunt, ipse liberatur et computat Dominus in
+            sortem poenam quam ille sustinet pro se et quam alii sustinent pro eo ; unde si debuit
+            poenam duorum mensium, taliter poterit iuvari quod liberabitur infra mensem. Nunquam
+            tamen inde extrahitur, quousque debitum sit plene solutum ; quo soluto, iam illud quod
+            solvitur deinceps est ipsius qui satisfacit : oratio enim in sinu suo convertitur, vel,
+            si ipse non indiget, convertitur in sinu Ecclesiae.</p>
+          <p xml:id="bb-d4e26610-d1e204">Ad illud quod obicitur, quod qui meretur alii, et sibi, dicendum quod non est simile de
+            opere meritorio et satisfactorio. Opus enim meritorium est ea ratione, qua est ex radice
+            caritatis - quae semper placet Deo et ille in quo est illa radix - quae omnes communiter
+            respicit et omnia communia facit ; ideo non potest aliquis mereri alii, quin ipse
+            placeat apud Deum, quia hoc ipsum Deo placet maxime. Opus vero satisfactorium est
+            ratione poenae et tanta poena solvit tantum debitum et maior maius debitum ; ideo per
+            eamdem poenam non potest quis in integrum duo debita solvere ; et ideo si satisfacit pro
+            alio, quantum ad totum non satisfacit pro se , et si pro se, non pro alio ; sibi quidem
+            meretur aeternam gloriam ; quia opus illud placitum est Deo, et faciens illud Deo placet
+            in faciendo, ac per hoc dignus retributione a Deo iudicatur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

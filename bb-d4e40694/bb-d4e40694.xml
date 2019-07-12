@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e40694">
+        <head xml:id="bb-d4e40694-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e40694-d1e111">Supra egit <name ref="#Lombard">Magister</name> de impedimento quod venit ex
+          ecclesiastica institutione. Hic agit de impedimento quod venit ex nostra obligatione. Et
+          quoniam dupliciter potest aliquis obligari alicui, scilicet voto et Matrimonio, ideo primo
+          agit de impedimento quod venit ex obligatione voti ; secundo vero de illo quod provenit ex
+          obligatione Matrimonii, et incipit illa secunda pars, ibi : Cum vir et mulier legitime
+          coniuncti sunt, etc.</p>
+        <p xml:id="bb-d4e40694-d1e117">Prima pars habet duas. In prima determinat quid sit votum, breviter innuens quid sit et
+          de quo et quorum. In secunda determinat de obligatione in comparatione ad Matrimonium,
+          osfendens quod quoddam impedit, sed non dirimit, ut votum simplex ; quoddam et impedit et
+          dirimit, ut solemne. Et incipit illa secunda pars ibi : Sciendum vero est quod votorum
+          aliud est commune etc.</p>
+        <p xml:id="bb-d4e40694-d1e120">Secundo modo : Cum vir et mulier legitime etc. Haec est secunda pars, in qua determinat
+            <name ref="#Lombard">Magister</name> de impedimento ligaminis, et habet haec pars duas.
+          In prima ostendit quod legitime copulatus uni, non potest, illa vivente, alii copulari nec
+          e converso ; et si copuletur de facto, non est Matrimonium. In secunda quaerit, utrum
+          copulati de facto possint per ignorantiam ab adulterio excusari, ibi : Hic quaeritur de
+          illis feminis, quae putantes etc. ; ubi determinat quod excusantur, quando dubitant, sed
+          quando certificantur, non excusantur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

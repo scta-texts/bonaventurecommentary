@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e1523">
+        <head xml:id="bb-d4e1523-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e1523-Hd1e111" type="question-title">De forma sive de integritate circumcisionis.</head>
+        <p xml:id="bb-d4e1523-d1e114">Secundo quaeritur de forma sive de integritate circumcisionis.</p>
+        <div xml:id="bb-d4e1523-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e1523-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e1523-d1e122">Et dicit <name ref="#HughOfStVictor">Hugo</name>, in libro De sacramentis, quod tria
+            sunt quae sunt de integritate eius, scilicet sexus masculinus, membrum praeputii et dies
+            octavus. 1. Sed ostenditur quod de integritate huius sacramenti non debet esse sexus,
+            quia remedium debet respondere morbo ; sed in morbo non est sexus distinctio nec
+            determinatio quia communiter est in omni sexu : ergo nec in remedio debet esse
+            distinctio.</p>
+          <p xml:id="bb-d4e1523-d1e128">Item, videtur quod membrum praeputii non debeat esse de substantia sacramenti, quia
+            sacramenta sunt in honestatem et decorem ; sed illud membrum est verecundum et
+            inhonestum : ergo nullo modo debet fieri circa illud membrum ; aut si fit, quaero quare
+            magis circa illud quam circa aliud ?</p>
+          <p xml:id="bb-d4e1523-d1e131">Item, quod octavus dies non sit de substantia sacramenti, ostenditur : Quia nec in
+            Baptismo nec in sacramentis legis naturae est determinatio temporis : ergo nec in
+            sacramentis legis scriptae debet esse.</p>
+          <p xml:id="bb-d4e1523-d1e134">Item, si tempus illud est de necessitate, si post fiat, sacramentum nullius est
+            efficaciae : ergo nihil valuit <name ref="#Abraham">Abrahae</name> nec aliquibus de domo
+            eius ; et iterum, nihil valuit illis quos circumcidit Iosue ; et iterum, nihil valebat
+            proselytis. Et ex hoc sequitur, quod si aliquis negligebat diem octavum, quod nullo modo
+            posset curari ab originali, quia nec per circumcisionem nec alio modo, quia non erat
+            aliud remedium.</p>
+          <p xml:id="bb-d4e1523-d1e141">Item, si fuit de necessitate, ergo omnes illi viri qui fuerunt in desrto fuerunt
+            transgressores, quia nullus eorum fuit circumcisus.</p>
+          <p xml:id="bb-d4e1523-d1e144">Item, si erat de substantia, tunc ergo non debebat praeveniri : ergo parvulum morientem
+            ante octavum diem necesse erat damnari, quia masculus incircumcisus damnabatur ; et ante
+            non debebat circumcidi : ergo etc.</p>
+          <p xml:id="bb-d4e1523-d1e147">Sed contra : Quod sit de necessitate, probatur, quia, circumcisio est sacramentum
+            necessitatis, quia cadit sub praecepto ; sed omnia ista tria praecepta sunt, Genesis 17,
+            14 : ergo omnia sunt de necessitate. Ibi enim dicitur : <quote xml:id="bb-d4e1523-Qd1e149" ana="#gen17_14">Masculus,
+              cuius praeputii caro circumcisa non fuerit, peribit</quote> etc. ; et iterum : <quote xml:id="bb-d4e1523-Qd1e152" ana="#gen17_12">Infans octo dierum circumcidetur</quote>.</p>
+          <p xml:id="bb-d4e1523-d1e156">Item, quod tempus sit de substantia, ostenditur, quia circumcisio significabat utramque
+            circumcisionem, scilicet primam in anima a culpa, et secundam in corpore a miseria, quae
+            futura erat in octava resurrectionis. Ergo octavus dies erat de. integritate
+            significationis, ergo et de integritate sacramenti.</p>
+          <p xml:id="bb-d4e1523-d1e159">Item, praeceptum de circumcisione est praeceptum affirmativum, quod obligat ad aliquod
+            tempus, non ad omne, ergo determinato tempore ln praecepto, obligat ad illud : ergo,
+            cum. in praecepto illo sit determinatio temporis, in quo instituitur circumcisio, tempus
+            determinatum est de necessitate circumcisionis.</p>
+        </div>
+        <div xml:id="bb-d4e1523-Dd1e163">
+          <head xml:id="bb-d4e1523-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e1523-Hd1e168" type="question-title">De necessitate circumcisionis simpliciter sunt secus
+            masculinus et membrum; tempus vero necessario observandum erat ob praeceptum</head>
+          <p xml:id="bb-d4e1523-d1e171">Respondeo : Dicendum quod duo ex istis, scilicet sexus et membrum, sunt de necessitate
+            circumcisionis simpliciter ; sed tempus uno modo est de necessitate, alio modo non. Est
+            enim in hoc sacramento tria considerare, scilicet efficaciam, significantiam et
+            observantiam. Quantum ad efficaciam nihil facit ; quantum ad significantiam est de
+            congruitate, quia expressius significat ; quantum ad observantiam est de necessitate,
+            quia cadit sub praecepto ; unde peccat qui negligit observare.</p>
+        </div>
+        <div xml:id="bb-d4e1523-Dd1e176">
+          <head xml:id="bb-d4e1523-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e1523-d1e181">1. Ad illud ergo quod obicitur primo, quod in morbo non est distinctio, ergo etc.,
+            dicendum quod circumcisio non tantum fuit in remedium, sed etiam in signum distinctionis
+            ; ut gens Iudaeorum ab aliis discerneretur, ex quo Christus debebat ab ea nasci ; et
+            quia propagatio et genealogia attenditur penes mares, ideo illis data fuit, non
+            mulieribus.</p>
+          <p xml:id="bb-d4e1523-d1e184">2. Ad illud quod obicitur, quod membrum illud non deberet esse, quia est verecundum,
+            dicendum quod membrum illud maxime conveniebat significationi circumcisionis et
+            efficaciae. Circumcisio enim data fuit in pactum ; sicut dicitur Genesis 17, 10, et hoc
+            pactum est certitudo quod Christus ex gente illa esset nasciturus. Fuit etiam data in
+            remedium contra originale peccatum ; unde dicitur Genesis 17, 14 : <quote xml:id="bb-d4e1523-Qd1e186" ana="#gen17_14">Masculus, cuius caro praeputii circumcisa non fuerit, peribit</quote>
+            etc. Fuit similiter data in meritum obedientiae ; meruit enim <name ref="#Abraham">Abraham</name> et posteri eius sic Domino obediendo. Fuit etiam data in signum
+            repressionis concupiscentiae ; unde significat quid sit agendum sive a quo sit
+            cessandum.</p>
+          <p xml:id="bb-d4e1523-d1e193">Et quia per praeputium est generatio, et sic convenit pacto generationis ; est
+            originalis culpae transfusio, et sic convenit remedio circumcisionis ; et in praeputio
+            regnat inobedientia et concupiscentia, ab oppositis per ipsius significationem et ab
+            ipso factam ablationem et meretur obedientia et significatur continentia. Ideo
+            rectissime convenit. Quod ergo dicit quod est membrum ignobile, dicendum quod de sui
+            natura est nobile, sed factum est ignobile propter culpam, unde per remedium nobilitatur
+            ; unde I ad Corinthios 12, 23 dicitur quod <quote xml:id="bb-d4e1523-Qd1e195" ana="#Icor12_23">membris
+              ignobilioribus abundantiorem honorem circumdamus</quote> ; et hoc intelligitur, dum
+            passionibus et desideriis obviatur.</p>
+          <p xml:id="bb-d4e1523-d1e199">Ad illud quod quaeritur de tempore, dicendum, sicut dictum est, quod quantum ad
+            efficaciam nihil facit ; unde aeque bene curabat circumcisio proselytos ut etiam
+            parvulos, est tamen congruentia quantum ad significationem.</p>
+          <p xml:id="bb-d4e1523-d1e203">1. Quod obicitur de Baptismo, dicendum quod res circumcisionis erat circumcisio a culpa
+            et a miseria. Circumcisio a culpa significabatur in actu et materia, sed circumcisio a
+            miseria per actum et materiam non significabatur ; et ideo congruum fuit tempus addere
+            per quod significaretur. Baptismus autem ratione immersionis et elevationis expresse
+            significat mortem et resurrectionem ; ideo non fuit congruum addere. Et sic dies octavus
+            est de bene esse circumcisionis quantum ad significantiam ; est tamen de necessitate
+            quantum ad observantiam, quia cadit in praecepto. Et ratio huius fuit, quia sacramentum
+            illud fuit poenale ; ideo oportuit observare tempus, quia, si ante octavum diem
+            circumcideretur, propter teneritudinem posset perire ; si ultra differretur, esset
+            periculum propter mortem, et liberiter differrent propter dolorem. Ideo voluit eis
+            Dominus praefigere terminum.</p>
+          <p xml:id="bb-d4e1523-d1e206">3-4. Ad illud quod obicitur, quod, si est de necessitate praecepti, non poterat
+            differri nec praeveniri sine peccato, dicendum quod circa hoc duplex fuit opinio : una
+            quidem, quod praeveniri non poterat nec differri sine peccato, nisi interveniret Dei
+            auctoritas vel etiam necessitas. Et utraque fuit in viris qui fuerunt in deserto
+            incircumcisi, ut dicunt : necessitas propter periculum, quia ad motum nubis movebantur,
+            et ideo circumcisionem servare non poterant ; divina etiam auctoritas fuit dispensans,
+            quia in deserto erant, in quo non poterant gentibus commisceri nec indigebant distingui.
+            Rursus, Dominus. voluit ob figuram circumcisionem differri, ut una generalis circumcisio
+            fieret in terra promissionis in signum illius quae futura erat in patria. Et isti
+            dicunt, quodsi de parvulis timerent, quod tempus circumcisionis poterat et debebat
+            praeveniri ; alioquin puer.damnabatur, sicut modo damnatur puer non baptizatus. Sed haec
+            positio, licet probabilis videatur, tamen mori repugnat Iudaeorum quem nunc observant et
+            credibile est quod a Patribus acceperunt. Nullum enim ante octavum diem circumcidunt.
+            Contrarietatem etiam habet in se ipsa, quia, si ob necessitatem infirmitatis poterat
+            differri, cum parvulus erat in gravi infirmitate, non debebat secundum eos circumcidi,
+            sed diutius exspectari ; et iterum, si non poterat sine peccato differri, qualiter
+            poterat praeveniri, ex quo Dominus illum praefixerat ? </p>
+          <p xml:id="bb-d4e1523-d1e209">Et ideo alia opinio est et probabilior quod non debebant praevenire nec differre, nisi
+            Dominus ipse dispensaret ; alioquin peccabant. Et si tu obicias, quod tunc puer
+            damnaretur, quia scribitur : Masculus, cuius caro etc., dicendum quod secundum
+            translationem Septuaginta habetur : Carus praeputii caro octava die circumcisa non
+            fuerit ; et quamvis in nostra translatione non repetatur, tamen intelligitur repeti sub
+            ea conditione in qua fuit praeceptum. Et quia non erant obligati, eodem remedio
+            curabantur quo mulieres. Sed huic positioni occurrit difficultas. Esto enim quod
+            parvulus ille mundatus illo remedio viveret usque ad octo dies et tunc non
+            circumcideretur, aut salvatur aut non. Si non salvatur, ergo ex peccato patris amittit
+            gratiam aut eam non habuit ; sed constat quod propter peccatum patris non potest eam
+            perdere : ergo nunquam habuit. Si salvatur, et non est octavo die circuincisus, ergo non
+            est verum quod dicit Dominus : <quote xml:id="bb-d4e1523-Qd1e211" ana="#gen17_14">Masculus, cuius caro</quote>
+            etc.</p>
+          <p xml:id="bb-d4e1523-d1e215">Propter hoc igitur respondendum quod, currente circumcisione, alia remedia non
+            disponebant parvulum nisi cum hac conditione quod ipse esset impossibilis ad implendum
+            mandatum de circumcisione : et ita propter impossibilitatem absolvebatur ; et si
+            moriturus erat ante octvum diem, disponebant et curabatur ; sed victurus non curabatur,
+            quousque mandatum esset totum impletum. Et hoc totum est probabile ; et ideo hanc
+            opinionem credo saniorem. Si autem Dominus dispensaret, tunc secus esset ; et ita dicunt
+            factum esse circa viros qui fuerunt in deserto. Aliqui tamen dicunt quod peccaverunt,
+            quia ex contemptu dimiserunt ; sed tamen illud non est credibile quod omnes ita mandatum
+            Dei contemnerent.</p>
+          <p xml:id="bb-d4e1523-d1e218">Si autem obicias similiter de parvulo, qui praeventus morte non baptizatur, utrum in
+            fide parentum salvetur, dico quod non quia Baptismus propter suam generalitatem et
+            perfectionem et temporis indeterminatiortem alia remedia evacuavit, non sic autem
+            circumcisio. Huius autem positionis probabilitas habetur ex auctoritate, quia
+            Proverbiorum 4, 3 dicit Salomon : Unigenitus eram coram matre mea, ubi dicitur in Glossa
+            quod filius Bersabee, alius parvulus, non fuit nominatus, quia ante octavuru diem est
+            mortuus ; et ita non fuit circumcisus. Habetur ex ratione, quia nullum animal
+            offerebatur Domino ante octavum diem. Habetur etiam ex more Iudaeorum quem modo
+            observant. Et ideo haec positio magis est tenenda. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

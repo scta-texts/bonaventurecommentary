@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e45871">
+        <head xml:id="bb-d4e45871-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e45871-Hd1e111" type="question-title">Utrum deformitates resurgant in corporibus damnatorum.</head>
+        <p xml:id="bb-d4e45871-d1e114">Secundo quaeritur, utrum deformitates resurgant in corporibus damnatorum.</p>
+        <div xml:id="bb-d4e45871-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e45871-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e45871-d1e122">Et quod sic, videtur : Per <name ref="#Augustine">Augustinum</name>, in Enchiridio :
+              <quote xml:id="bb-d4e45871-Qd1e127">Nulla debet esse quaestio de pulcritudine, ubi est certitudo de
+              damnatione</quote>. Si ergo certi sumus quod reprobi damnabuntur, certi sumus etiam
+            quod pulcritudine non decorabuntur.</p>
+          <p xml:id="bb-d4e45871-d1e131">Item, a corporibus damnatorum non tolletur tarditas nec passibilitas : ergo nec
+            deformitas consimili ratione. Prima patet, quoniam passibilia erunt damnatorum corpora
+            et gravia : ergo etc.</p>
+          <p xml:id="bb-d4e45871-d1e134">Item, quod deformitates tollantur ab electis, hoc gratiae est ; sed nulla gratia debet
+            fieri damnatis ; ergo ab eis deformitates non debent auferri.</p>
+          <p xml:id="bb-d4e45871-d1e137">Item, deformitates animarum ab animabus non tolluntur : ergo nec a corporibus ratione
+            consimili, immo, a causa, quia deformitas culpae est causa deformitatis poenae.</p>
+          <p xml:id="bb-d4e45871-d1e141">Item, corpus damnatis animabus redditur, non propter perfectionem, sed propter maiorem
+            punitionem ; sed deformitas corporis redundat in poenam animae ; cum ergo non debeat in
+            eis poena minui, sed augeri, non debet corpus eorum deformitatibus exui, sed
+            reindui.</p>
+          <p xml:id="bb-d4e45871-d1e144">Contra : Deformitates in effectu veniunt ex errore virtutis producentis : sed corpora
+            resurgentium sola virtus divina reficiet : ergo, si illa non potest errare, impossibile
+            est quod habeant deformitatem.</p>
+          <p xml:id="bb-d4e45871-d1e147">Item, artifex, qui effectum cum deformitatibus producit, non dicitur reformator, sed
+            deformator. Ergo, si Deus corpora damnatorum cum deformitatibus facit resurgere, non
+            debet dici reformator, sed deformator ; sed hoc est facere contumeliam ipsi artifici,
+            quam oportet longe a Deo relegare : ergo nullo modo cum deformitatibus producit.</p>
+          <p xml:id="bb-d4e45871-d1e150">Item, optimi est optimum producere : si ergo Deus optimus est artifex, ergo optima
+            artificiata producit ; sed ipse est artifex in resurrectione, et corpora deformia non
+            sunt bene facta nec ordinata : ergo etc.</p>
+          <p xml:id="bb-d4e45871-d1e153">Item, est ordo partium in toto et ordo rei ad finem, et primus respicit sapientiam,
+            secundus respicit bonitatem ; sed Deus, cum sit bonus, non potest facere rem fine
+            carentem sive a fine deordinatam : ergo, cum sit summe sapiens, non potest rem producere
+            deordinatam quantum ad ordinem, qui est partium in toto : ergo nec deformitates.</p>
+          <p xml:id="bb-d4e45871-d1e156">Item, a damnatis auferetur deformitas quae est per diminutionem ; unde, si caret manu,
+            non carebit manu : ergo pari ratione et deformitas quae est ex superfluitate, et ita, ut
+            videtur, omnis deformitas.</p>
+        </div>
+        <div xml:id="bb-d4e45871-Dd1e160">
+          <head xml:id="bb-d4e45871-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e45871-Hd1e165" type="question-title">Corpora reproborum resurgent cum suis deformitatibus</head>
+          <p xml:id="bb-d4e45871-d1e168">Respondeo : Dicendum quod <name ref="#Augustine">Augustinus</name>, in Enchiridio,
+            istam quaestionem dimittit insolutam, quasi non sit magnae utilitatis ; attamen, cum
+            assignet rationem quare circa hoc non debet laborari, determinationem quaestionis nobis
+            tribuit. Dum enim dicit quod non debet nos molestare inquisitio circa pulcritudinem, ubi
+            est certitudo circa damnationem, si enim ad hoc resurgunt ut damnentur, non ut melioris,
+            sed ut peioris sint conditionis, manifeste apparet quod non dabitur eis pulcritudo quam
+            non habuerunt nec auferetur deformitas quam habuerunt. Unde Deus quantum ad eos est
+            purus reformator, quia secundum eamdem formam reformat quam eis natura dedit in
+            generatione primaria. In qua reformatione apparet Dei saplentia et iustitia : sapientia,
+            quia scit omnino eodem modo reparare, sicut ante fuit ; iustitia, ut sicut qui meruit in
+            corpote pulcro, remuneretur in eius pulcritudine : sic qui in turpi peccavit, in eius
+            turpitudine cruciari debet ; nec debet auferri, sed potius confirmari. Et rationes hoc
+            ostendentes concedendae sunt.</p>
+        </div>
+        <div xml:id="bb-d4e45871-Dd1e176">
+          <head xml:id="bb-d4e45871-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e45871-d1e181">Ad illud ergo quod obicitur primo, quod venit ex errore virtutis, dicendum quod verum
+            est in operatione naturae, quae producit effectum quanto melius potest ; sed non sic in
+            operatione Dei, qui non reparat secundum quod melius potest, sed secundum quod meritis
+            eius melius congruit.</p>
+          <p xml:id="bb-d4e45871-d1e184">Ad illud, quod producens effectum deformem est deformator, dicendum quod effectus
+            deformis productus potest dupliciter considerari : aut absolute aut in comparatione. Si
+            absolute, verum est ; si autem in comparatione ad meritum aut ad praecedentem statum,
+            non est verum. Et quoniam effectus competit meritis damnatorum, competit nihilominus
+            statui praeterito, ideo talis reparatio non deformatio, sed reformatio et conformatio
+            debet dici. Et est exemplum in artifice, qui picturam diaboli facit turpem ; ipse enim
+            non dicitur deformator sed conformator, quia conformem statui diabolico picturam facit,
+            quamvis in se pictura sit deformis. Sic etiam in proposito intelligendum.</p>
+          <p xml:id="bb-d4e45871-d1e187">Ad illud quod obicitur, quod optimi est optima producere, dicendum quod verum est in
+            ordine, et corpus deforme optime ordinatur in inferno, sicut pulcrum in caelo.</p>
+          <p xml:id="bb-d4e45871-d1e190">Ad illud quod obicitur de ordine duplici, dicendum quod ordo creaturae quantum ad finem
+            est dupliciter : vel quantum ad finem creatum vel quantum ad finem ultimum, qui Deus
+            est, qui est finis universalis. Similiter ordo partium est duplex, scilicet partium in
+            toto et rerum in universo. Et sicut creatura non potest produci a Deo deordinata a fine
+            ultimo, ita quod illam deordinationem habeat a Deo, sic nec ab ordinatione quae est in
+            universo ; et quamvis deforme corpus sit deordinatum in se, est tamen ordinatum in
+            Mundo.</p>
+          <p xml:id="bb-d4e45871-d1e194">Ad illud quod obicitur, quod auferetur deformitas per diminutionem : ergo etc.,
+            dicendum quod hoc est propter perfectam punitionem voluntatis, quae, quoniam omnium
+            membrorum fuit rectrix et omnia habere voluit, licet non habuerit, ideo in omnibus
+            puniri debet et torqueri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e42895">
+        <head xml:id="bb-d4e42895-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e42895-Hd1e111" type="question-title">Utrum per omnem coitum, sive legitimum sive fornicarium, possit
+          contrahi affinitas.</head>
+        <p xml:id="bb-d4e42895-d1e114">Circa primum sic proceditur et ostenditur quod per omnem coitum, sive legitimum sive
+          fornicarium, contrahi possit affinitas.</p>
+        <div xml:id="bb-d4e42895-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e42895-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e42895-d1e122">
+            <ref xml:id="bb-d4e42895-Rd1e124">Causa XXXV, quaestione 3
+              <!-- modern editions collapses qq. 2-3 into one section; why? --></ref> : <quote xml:id="bb-d4e42895-Qd1e128">Si
+              homo fornicatus fuerit cum muliere, et frater eius uxorem duxerit, super eo quod
+              frater eius crimen celaverit poeniteat septem annis</quote>. Sed hoc non est ob aliud
+            nisi quia illa facta est affinis fratri : ergo etc.</p>
+          <p xml:id="bb-d4e42895-d1e132">Item, <title>Extra</title>, De eo qui cognovit consanguineam uxoris suae, expresse
+            dicitur quod non licet petere debitum, in <ref xml:id="bb-d4e42895-Rd1e137" target="http://scta.info/resource/cice-l4t13-d1e164">decretali illa : Transmissae
+              nobis litterae etc.</ref> ; sed hoc non est nisi propter affinitatem : ergo per coitum
+            fornicarium contrahitur affinitas.</p>
+          <p xml:id="bb-d4e42895-d1e141">Item, ratione videtur, quia non ob aliud contrahitur affinitas per coitum nisi quia est
+            carnis commixtio, per quam vir et mulier fuerunt una caro ; sed hoc non tantum est in
+            actu legitimo, verum etiam in fornicario, secundum quod dicitur I ad Corinthios 6, 16 :
+              <quote xml:id="bb-d4e42895-Qd1e143" ana="#Icor6_16">Qui adhaeret meretrici unum corpus cum ea
+            efficitur</quote>.</p>
+          <p xml:id="bb-d4e42895-d1e147">Item, filius fratris tui natus de fornicatione ita est tibi consanguineus sicut si
+            esset de legitimo Matrimonio natus. Si ergo per actum fornicarium contrahitur
+            consanguinitas, pari ratione et affinitas.</p>
+          <p xml:id="bb-d4e42895-d1e151">Contra : <ref xml:id="bb-d4e42895-Rd1e153">Causa XXXV, quaestione 3</ref> : <quote xml:id="bb-d4e42895-Qd1e156">Extraordinaria pollutio citra
+              maritalem affectum, si ita esse constiterit, non videtur Matrimonium impedire</quote>.
+            Sed fornicarius actus est extra rectum ordinem : ergo non impedit Matrimonium ; sed
+            affinitas impedit : ergo ibi non contrahitur affinitas.</p>
+          <p xml:id="bb-d4e42895-d1e160">Item, affinitas est vinculum legitimum, quod est institutum a Deo et ab Ecclesia :
+            ergo, cum fornicatio sit actio contra legitimitatem et contra divinum statutum, per
+            fornicationem nunquam contrahitur tale vinculum.</p>
+          <p xml:id="bb-d4e42895-d1e163">Item, affinitas est vinculum insolubile ; sed coniunctio per coitum fomicarium non
+            iungit insolubiliter, immo solubiliter : ergo nunquam per illum coitum contrahitur
+            affinitatis vinculum.</p>
+          <p xml:id="bb-d4e42895-d1e166">Item, per coitum extra Matrimonium non contrahitur irregularitas ad Ordinem
+            suscipiendum : ergo pari ratione nec illegitimitas ad Matrimonium contrahendum : si ergo
+            affinitas facit illegitimitatem, videtur quod per talem coitum affinitas nec debet nec
+            potest contrahi.</p>
+        </div>
+        <div xml:id="bb-d4e42895-Dd1e170">
+          <head xml:id="bb-d4e42895-Hd1e172">Conclusio</head>
+          <head xml:id="bb-d4e42895-Hd1e175" type="question-title">Affinitas generaliter contrahitur per omnem copulam
+            completam</head>
+          <p xml:id="bb-d4e42895-d1e178">Respondeo : Dicendum quod affinitas generaliter contrahitur per omnem coitum in quo est
+            commixtio sanguinum. Et ratio huius est, quia affinitas non contrahitur nisi ratione
+            unionis ; tunc autem dicuntur una caro fieri, quaneto per commixtionem seminum fit
+            consummatio illius operis. Si ergo aliter conveniant, sive contra naturam polluendo
+            extra vas illi usui deputatum, sive invadendo claustra, ita quod opus nefarium non
+            consummetur, affinitas contrahi non iudicatur, secundum quod dicitur <ref xml:id="bb-d4e42895-Rd1e180">Causa XXXV,
+              quaestione 3, Extraordinaria</ref>. Quodsi videatur dici contrarium <ref xml:id="bb-d4e42895-Rd1e183" target="http://scta.info/resource/cice-l4t13-d1e210">Extra, De eo qui cognovit
+              consanguineam, Fraternitati etc</ref>., dicendum quod illa se paratio non fuit propter
+            affinitatem, sed propter publicae iustitiam honestatis, quae contrahitur ex puris
+            sponsalibus.</p>
+        </div>
+        <div xml:id="bb-d4e42895-Dd1e189">
+          <head xml:id="bb-d4e42895-Hd1e191">Ad rationes</head>
+          <p xml:id="bb-d4e42895-d1e194">Ad illud ergo quod obicitur in contrarium de extraordinaria pollutione, iam patet
+            responsio, quia intelligitur ubi non fuit seminum commixtio, ob quam dicerentur vir et
+            mulier una caro effici.</p>
+          <p xml:id="bb-d4e42895-d1e197">Ad illud quod obicitur, quod vinculum legitimum est a Deo institutum, dicendum quod in
+            fornicatione duo sunt, scilicet actio substrata, quae est naturalis, et deformitas
+            voluntatis, qua aliquis vult cognoscere non suam, sive circa ipsum actum defectus
+            circumstantiae. Quantum ad primum est actio naturalis bona et a Deo ; quantum ad
+            secundum. dicit defectum et deformitatem et soditur nomen vitii ; vinculum ergo
+            affinitatis contrahitur ratione primi, non ratione secundi.</p>
+          <p xml:id="bb-d4e42895-d1e200">Ad illud quod obicitur, quod est vinculum insolubile, dicendum quod actio transiens ut
+            plurimum relinquit effectum perpetuum, sive ut melius dicam, diuturnum , ut patet, quia,
+            sicut fornicatio inducit carnis corruptionem, sic uxoris cognitio efficit corporis
+            unionem ; et quoniam, ex quo cognovit, necesse est cognovisse : ideo ex hac coniunctione
+            resultat vinculum insolubile. Et est exemplum : quia sicut ex uno actu tali potest
+            proles generari, quae vinculo perpetuo alligatur patri et matri, sic potest affinitas
+            generari, quoniam alis coniunctio est introducens affinitatem, non conservans. Ideo,
+            ipsa existente transitoria, potest esse affinitas diuturna.</p>
+          <p xml:id="bb-d4e42895-d1e203">Ad illud quod obicitur de irregularitate ad Ordines, dicendum quod cognitio mulieris
+            non generat irregularitatem nisi prout inducit defectum scramenti ; et quonam defectus
+            sacramenti praesupponit aliquod esse sacramenti, et post privationem perfectionis, hinc
+            est quod irregularitas non contrahitur per coitum extra Matrimonium. Sed affinitas
+            respicit unitatem carnis et corporis, : et haec est communis tam actui fornicario quam
+            legitimo ; ideo potest causare affinitatem, sed non irregularitatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

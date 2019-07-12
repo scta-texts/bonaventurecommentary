@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e1186">
+        <head xml:id="bb-d4e1186-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e1186-Hd1e111" type="question-title">Utrum ad remissionem originalis sufficeret sola fides.</head>
+        <p xml:id="bb-d4e1186-d1e114">Secundo quaeritur, utrum ad remissionem originalis sufficeret sola fides.</p>
+        <div xml:id="bb-d4e1186-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e1186-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e1186-d1e122">Et quod sic, videtur : Per verbum <name ref="#GregoryGreat">Gregorii</name>, quod
+            ponitur in littera : <quote xml:id="bb-d4e1186-Qd1e127">Pro parvulis sola fides</quote>.</p>
+          <p xml:id="bb-d4e1186-d1e131">Item, <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore dicit quod
+              <quote xml:id="bb-d4e1186-Qd1e136">tempore legis naturae non fuerunt aliqua sacramenta in praecepto</quote>, ergo
+            sine omnibus poterat homo salvari ; sed nullus poterat salvari sine remissione
+            originalis : ergo remissio originalis poterat fieri sine aliquo sacramento exteriori in
+            sola fide.</p>
+          <p xml:id="bb-d4e1186-d1e140">Item, si tempore illo sacramenta virtutem totam habebant a fide, ergo tantum faciebat
+            sola fides, quantum fides cum illis sacramentis. Ergo videtur quod sola fide parentum
+            potuerunt salvari.</p>
+          <p xml:id="bb-d4e1186-d1e143">Contra : Si parvulis sufficiebat sola fides tunc temporis, et modo non sufficit nec
+            tempore circumcisionis sufficiebat, ergo videtur quod fides tunc esset maioris virtutis
+            quam post. Ergo videtur post fuisse deterioris conditionis ; sed post non fuit
+            deterioris conditionis : ergo, si post non sufficeret, nec prius.</p>
+          <p xml:id="bb-d4e1186-d1e147">Item, si sola fides sufficiebat, ergo parvulus in omni statu salvari poterat. Cum ergo
+            nihil oporteret circa corpus pueri fieri, videtur quod posset iustificari in ventre
+            matris.</p>
+          <p xml:id="bb-d4e1186-d1e150">Item, videtur quod non posset parvulus mori sine remedio, parentibus existentibus
+            fidelibus ; sed modo non sic est, immo possunt et praepediuntur etiam nati : ergo sunt
+            peioris conditionis in statu gratiae quam in statu naturae.</p>
+        </div>
+        <div xml:id="bb-d4e1186-Dd1e154">
+          <head xml:id="bb-d4e1186-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e1186-Hd1e159" type="question-title">In remissionem peccati originalis parvulis tunc sufficiebat
+            fidei professio, qualitercumque fieret, sive signo, sive verbo, sive actu cordis, dum
+            tamen fieret a parentibus cum respectu ad parvulum</head>
+          <p xml:id="bb-d4e1186-d1e162">Respondeo : Ad hoc est duplex opinio, cum dicitur quod fides parentum erat in remedium
+            parvulo.</p>
+          <p xml:id="bb-d4e1186-d1e165">Quidam dicunt quod non fides habitus, sed fides ratione actus et motus sive
+            professionis, et non cuiuscumque professionis, sed eius qua profitebantur parvulum
+            curandum esse ab eo quem exspectabant. Et de hac professione quidam dicunt quod
+            oportebat quod fieret professio, non tantum actu mentis vel oris, sed etiam in signo
+            visibili, ut puta in oblatione vel in sacrificio sive decimatione vel aliquo alio signo,
+            quoniam Ecclesia fidelium semper aliqua signa habuit, in quibus fideles colligebantur et
+            profitebantur fidem in facto. Unde <name ref="#Augustine">Augustinus</name>, Contra
+            Faustum : <quote xml:id="bb-d4e1186-Qd1e170">In nullum nomen religionis, sive verum sive falsum, coadunari possent
+              homines, nisi aliquo signorum velut sacramentorum visibilium consortio
+              unirentur</quote>. Unde dicunt quod aliquod erat signum cum fide. Et quod dicit <name ref="#GregoryGreat">Gregorius</name> sola fide intelligit : fide parentum sine
+            consensu vel fide parvuli. Sed haec positio non congruit, quia ipse addit in auctoritate
+            : <quote xml:id="bb-d4e1186-Qd1e176">vel pro maioribus virtus sacrificii</quote>. Quare ergo dicit sola ? Quia, cum
+            de maioribus agit, addit et dicit : virtus sacrificii ; praeterea ; cum nulla essent
+            necessitatis, etsi talis professio de congruo deberet esse cum fide, non tamen
+            necessario. Unde <name ref="#HughOfStVictor">Hugo</name> : <quote xml:id="bb-d4e1186-Qd1e183">Commonemur quod illa
+              sacramenta primi temporis magis ad devotionem proposita fuerunt quam ad obtinendam
+              salutem indicta</quote>. </p>
+          <p xml:id="bb-d4e1186-d1e187"> Propter hoc alia positio dicit quod professio fidei sufficiebat, qualitercumque
+            fieret, sive signo sive verbo sive actu cordis, dum tamen fieret a parentibus et
+            haberetur respectu ad parvulum.</p>
+          <p xml:id="bb-d4e1186-d1e191">Si autem quaeratur quare magis fides parentum, dici potest quod parentes dicuntur hic
+            omnes qui curam gerebant de parvulo ; aut si dicantur parentes proprie, ratio, quare
+            magis in fide ipsorum, est quia per ipsos parvulus. contraxerat culpam, congruum erat ut
+            eorum fide mereretur gratiam.</p>
+        </div>
+        <div xml:id="bb-d4e1186-Dd1e196">
+          <head xml:id="bb-d4e1186-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d4e1186-d1e201">Ad illud quod obicitur, quod videtur fides deteriorata, dicendum quod illud non
+            sequitur simpliciter, quod fides sit deteriorata, sed quod vel deteriorata est vel
+            aliquid sit ei adiunctum, quod necessitate servari oportet, sicut sunt instituta
+            sacramenta sub praecepto. Exemplum de observantia mandatorum in eo qui est liberae
+            voluntatis et in eo qui intravit religionem : primo sufficit ad salutem, secundo
+            non.</p>
+          <p xml:id="bb-d4e1186-d1e204">Ad illud quod obicitur, quod secundum hoc parvulus in ventre matris posset iustificari,
+            dicendum quod non habebat efficaciam fides secundum communem legem nisi quando natus
+            erat ex utero, sicut nec Baptismus. Deus enim secundum ius commune non regenerat nisi
+            prius per naturam natum. Quare autem non, infra dicetur in tractatu de Baptismo.</p>
+          <p xml:id="bb-d4e1186-d1e207">Sed quod de natis obicit, dicendum quod habent se sicut excedentia et excessa. In hoc
+            enim excedit illud quod parvulo periclitanti facilius poterat subveniri : sed in hoc
+            aliud excedit, quia, parentibus entibus infidelibus, adultus salvari poterat, sed
+            parvulus non ; praeterea, dubium est quin oporteret, utrumque esse fidelem ; et alia
+            multa bona nunc habentur quae non tune, ut puta maior certitudo salutis, maius munus
+            gratiae et alia bona quae proveniunt, scilicet obedientia et humiliatio et consimilia ;
+            et ideo non sequitur ex hoc quod status ille esset melior.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

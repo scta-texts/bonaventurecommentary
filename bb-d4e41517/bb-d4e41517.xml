@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41517">
+        <head xml:id="bb-d4e41517-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e41517-d1e111">Supra determinata sunt impedimenta Matrimonii quae impediunt respectu omnis personae. Hic
+          determinantur impedimenta quae respiciunt personas determinatas. Et dividitur haec pars in
+          duas, quoniam aliquae personae non sunt legitimae propter nimiam distantiam, ut illae in
+          quibus est cultus disparitas. Quaedam propter nimiam convenientiam, ut illae in quibus est
+          spiritualis vel carnalis proximitas. Ideo haec pars habet duas. In prima agit de
+          impedimento quod venit ex cultus disparitate. In secunda de impedimento quod venit ex
+          proximitate, infra, distinctione quadragesima : Nunc superest de cognatione etc.</p>
+        <p xml:id="bb-d4e41517-d1e114">Prima pars habet duas. In prima agit de cultus disparitate per comparationem ad
+          Matrimonii contractionem. In secunda per comparationem ad dissolutionem, ibi : Potest
+          tamen licite dimittere etc. Prima pars habet duas. In prima determinat veritatem. In
+          secunda dissolvit dubitationem, ibi : Huic autem videtur obviare etc. ; ubi ostendit quod,
+          quamvis Matrimonium non possit contrahi inter fidelem et <unclear>inffelem</unclear>,
+          potest tamen esse, si prius contractum est.</p>
+        <p xml:id="bb-d4e41517-d1e120">Potest tamen licite dimittere, quia in infideli etc. Haec pars secunda agit de Matrimonii
+          dissolutione, et haec pars duas habet. In prima determinat veritatem. In secnda manifestat
+          mentiente, ibi : Sunt tamen nonnulli, qui inter infideles etc., ubi reprehendit eos qui
+          dicebant inter infideles non esse coniugiuin. Prima pars habet duas. In prima parte agit
+          de dissolutione Matrimonii quoad cohabitationem inter eos qui sunt disparis cultus. In
+          secunda agit de dissolutione Matrimonii quoad vinculi fractionem sive omnimodam
+          separationem, ostendens quod, si infidelis non vult cohabitare, fidelis potest contrahere,
+          ibi : Hic quaeritur, si fidelis infidelem dimittat etc.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

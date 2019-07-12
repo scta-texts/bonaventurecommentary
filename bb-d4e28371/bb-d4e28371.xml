@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e28371">
+        <head xml:id="bb-d4e28371-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e28371-Hd1e111" type="question-title">Utrum in aliquo casu liceat confessionem revelare.</head>
+        <p xml:id="bb-d4e28371-d1e114">Quantum ad primum ostenditur quod non possit revelare.</p>
+        <div xml:id="bb-d4e28371-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e28371-d1e119">Augustinus, De poenitentia, distinctione 6 : <quote xml:id="bb-d4e28371-Qd1e121">Sacerdos ante omnia caveat, ne de
+              his qui ei confitentur peccata sua alicui recitet</quote>.</p>
+          <p xml:id="bb-d4e28371-d1e125">Item, <ref xml:id="bb-d4e28371-Rd1e127" target="http://scta.info/resource/cice-l5t38-d1e286">decretalis edita in
+              Concilio generali De poenitentiis et remissionibus</ref>: <quote xml:id="bb-d4e28371-Qd1e130" source="http://scta.info/resource/nhyjhg-d1e214">Caveat autem sacerdos, ne verbo vel
+              signa vel alio quovis modo prodat aliquatenus peccatorem</quote>.</p>
+          <p xml:id="bb-d4e28371-d1e134">Item, hoc videtur ratione, quia peccata in confessione delentur ; sed pro peccato quod
+            Deus remisit nemo est accusandus : ergo, si sacerdos est minister remissionis, non
+            potest accusare vel detegere peccatorem, quin faciat contra officium veri sacerdotis :
+            ergo omnis talis est deponendus.</p>
+          <p xml:id="bb-d4e28371-d1e137">Item, peccator confitetur sacerdoti et sacerdos accipit loco Dei ; sed Deus peccatum
+            poenitentis occultat et non detegit : ergo et sacerdos tenetur occultare.</p>
+          <p xml:id="bb-d4e28371-d1e140">Item, sacerdos qui audit peccatorem, nescit utrum dicat sibi verum : ergo nescit utrum
+            ille sit culpabilis : ergo, si nullius peccatum debemus accusare, nisi eius de quo nabis
+            constat, ergo peccatum per confessionem cognitum nullatenus est prodendum.</p>
+          <p xml:id="bb-d4e28371-d1e144">Contra : Ponatur quod aliquis iuret dicere verum super aliquo facto ; nullus potest nec
+            debet mentiri nec falsum iurare nec peierare sive deierare propter aliquod scandalum
+            evitandum : ergo magis debet manifestare quam falsum respondere.</p>
+          <p xml:id="bb-d4e28371-d1e147">Item, ponatur quod audiat haereticum in confessione, qui nolit poenitere, sed alios
+            corrumpere ; magis debet fidem Christo servare sacerdos quam ipsi haeretico : ergo magis
+            debet confessionem illius detegere, quam permittat eum gregem Domini corrumpere.</p>
+          <p xml:id="bb-d4e28371-d1e150">Item, ponatur quod sacerdos sciat per confessionem inter duos esse contractam
+            affinitatem per coitum fornicarium, et post, eos velle contrahere in facie Ecclesiae ;
+            si sacerdos iungit istos, cum isti peccent mortaliter, consentit peccato eorum : ergo
+            mortaliter peccat ; ergo, si non debet sceleris alieni fieri particeps, debet hoc
+            manifestare. Similis casus est in decano qui audivit confessionem habentium
+            irregularitatem, si debet eos praesentare ordinandos ab episcopo vel revelare
+            confessionem.</p>
+          <p xml:id="bb-d4e28371-d1e153">Item, ponatur quod aliquis prior de ordine monachorum confiteatur abbati, et quamdiu
+            est in prioratu, habet occasionem trahentem ad peccatum, a quo non vult desistere ; si
+            habet curam animae suae, tenetur inde ilium amovere ; sed amovendo innotescit ipsum
+            peccasse : ergo videtur quod confessio possit aliquo modo revelari.</p>
+        </div>
+        <div xml:id="bb-d4e28371-Dd1e157">
+          <head xml:id="bb-d4e28371-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e28371-Hd1e162" type="question-title">Pro nullo scandalo, vel causa confessio a sacerdote est
+            revelanda</head>
+          <p xml:id="bb-d4e28371-d1e165">Respondeo : Ad hoc voluerunt aliqui distinguere quod dupliciter potest quis sacerdoti
+            confiteri : aut tamquam poenitens et volens a peccato absolvi, et tunc sigillum
+            confessionis claudit omne quod dicit, sine apertione ; aut ita quod non vult a peccato
+            desistere, ut si revelat propositum periurandi vel occidendi hominem vel aliquod tale,
+            et tunc non tenetur sub sigillo confessionis claudere, sed potest dicere ei qui potest
+            prodesse et non obesse.</p>
+          <p xml:id="bb-d4e28371-d1e168">Sed quamvis illud videatur dici probabiliter, tamen, cum mandatum et institutio de omni
+            culpa dicat generaliter, et poenitens peccatum suum non tamquam homini, sed tamquam Deo
+            revelet, et nesciat sacerdos utrum ille verum dicat, an eum seducat ; nisi noverit per
+            aliam personam, nullatenus debet manifestare personam illam, propter hoc quod sigillum
+            confessionis diligentissime est custodiendum, propter scandalum, ne poenitens retrahatur
+            a confessione. Propter quod etiam miraculum magnum in quadam navi contigit, ut narratur
+            de quodam qui peccata sua publice confessus est in mari, et postquam ventum est ad
+            portum, nemo novit quod dixerat. Unde sacerdos taliter debet noscere, quasi non audierit
+            et quasi non noverit. Et propter hoc dicendum quod, sicut dicit <name ref="#GregoryGreat">Gregorius</name> et habetur in littera, pro nullo scandalo est
+            confessio revelanda.</p>
+        </div>
+        <div xml:id="bb-d4e28371-Dd1e176">
+          <head xml:id="bb-d4e28371-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e28371-d1e181">Ad illud ergo quod obicitur de iuramento, dicendum quod secure potest dicere : nescio ;
+            nec periurat, quia iuramentum non obligat illum ad dicendum nisi illud quod novit ut
+            homo, non ut Deus, quia supra Deum nullus est. Unde pro nullo praecepto obedientiae, pro
+            nullo iuramento vel periculo debet illud dicere.</p>
+          <p xml:id="bb-d4e28371-d1e184">Ad illud quod obicitur de haeretico, dicendum quod debet tacere nec per illam
+            cognitionem aliquid dicere specialiter ; potest tamen sine revelatione confessionis
+            superiori dicere : vigila super oves, quia lupus est in grege, si probabiliter videt
+            illum qui confessus est verum dixisse et periculum ovium imminere. Potest etiam et debet
+            esse sollicitus sine revelatione confessionis, quomodo sciat et gregi dominico provideat
+            ; et tunc Domino suo et etiam confitenti fidem quam debet servat.</p>
+          <p xml:id="bb-d4e28371-d1e187">Ad illud quod obicitur de presbytero, dicendum quod presbyter debet dissuadere ei qui
+            est confessus, et similiter decanus clerico : et si ille petat, debet differre, et nisi
+            ille cogatur per superiorem vel per scandalum populi, non debet nec matrimonium tale
+            benedicere nec clericos praesentare. Ex tunc autem potest, quia non ipse facit, sed
+            Ecclesia ; et Ecclesia iudicat secundum ea quae exterius sunt. Consilium tamen est quod
+            et sacerdos et decanus faciant per vicarium, tum propter confusionem illorum occultam,
+            tum etiam propter criminis horrorem. Si tamen ipse faciat, non credo quod peccet, dum
+            non ultro se offerat, sed coactus sustineat.</p>
+          <p xml:id="bb-d4e28371-d1e190">Ad illud quod quaeritur de subdito qui non vult a culpa cessare, dicendum quod superior
+            debet ei persuadere voluntariam cessionem, et quod ipse petat absolvi ab onere officii.
+            Quod si non vult, non debet eum absolvere, sed debet eum sustinere, nisi sit talis
+            religio in qua subditi possint transmutari et transferri sine nota infamiae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

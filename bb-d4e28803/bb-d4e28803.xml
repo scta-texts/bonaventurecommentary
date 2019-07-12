@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e28803">
+        <head xml:id="bb-d4e28803-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e28803-Hd1e111" type="question-title">Utrum peccata dimissa redeant quantum ad reatum poenae.</head>
+        <p xml:id="bb-d4e28803-d1e114">Secundo quaeritur, utrum peccata dimissa redeant quantum ad reatum.</p>
+        <div xml:id="bb-d4e28803-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e28803-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e28803-d1e122">Et quod sic, videtur : Per textum Matthaei 18, 32-35 : <quote xml:id="bb-d4e28803-Qd1e124" ana="#mt18_32">Serve
+              nequam, omne debitum dimisi tibi</quote> etc. ; et post : <quote xml:id="bb-d4e28803-Qd1e127" ana="#mt18_34">Tradidit eum tortoribus, quousque redderet</quote> etc., et post : <quote xml:id="bb-d4e28803-Qd1e130" ana="#mt18_35">Sic Pater vester</quote> etc. Ergo Dominus debitum quod dimiserat
+            iterum exigit : ergo etc.</p>
+          <p xml:id="bb-d4e28803-d1e134">Item, ponatur quod aliquis ante completam satisfactionem cadat in culpam ; constat quod
+            satisfacere non potest extra gratiam, ponatur ergo quod decedat ; iste reatum secum
+            portat, qui non potest solvi per poenam satisfactoriam : ergo punitur poena aeterna.</p>
+          <p xml:id="bb-d4e28803-d1e137">Item, quot peccata sunt isti dimissa, tot tenetur gratias agere, tot etiam tenetur
+            detestari continue peccata ; sed, cum peccat uno peccato, omittit gratias agere et
+            peccata detestari : ergo tot poenarum reus erit, quot prius erat.</p>
+          <p xml:id="bb-d4e28803-d1e140">Item, in legibus humanis servus manumissus redigitur in servitutem, quando dominum suum
+            attrectat munu cruenta vel pro alia enormi offensa. Ergo, si leges istae a lege
+            procedant aeterna, videtur quod Deus similiter faciat : ergo ita recidivantem assidue
+            reputat obligatum ad poenam sicut prius reputabat.</p>
+          <p xml:id="bb-d4e28803-d1e144">Contra : <quote xml:id="bb-d4e28803-Qd1e146" ana="#nah1_9">Non iudicat Deus bis in idipsum</quote>, Nahum 1, 9, non
+            ergo bis punit. Si ergo aliquis pro peccato commisso poenituit et se punivit, videtur
+            quod amplius pro illo non puniatur, quantumcumque peccat alias : ergo etc.</p>
+          <p xml:id="bb-d4e28803-d1e150">Item, reatus poenae aeternae est inseparabiliter annexus culpae ; sed culpa non potest
+            redire : ergo etc.</p>
+          <p xml:id="bb-d4e28803-d1e153">Item, si reatus peccatorum praecedentium redit, ergo nulla est in mundo utilitas quod
+            quis bene fecit et poenituit ; sed hoc videtur impium dicere : ergo etc.</p>
+          <p xml:id="bb-d4e28803-d1e156">Item, <quote xml:id="bb-d4e28803-Qd1e158" ana="#rom11_29">dona Dei sunt sine poenitentia</quote>. Ego, si Deus
+            aliquid condonat, non poenitet de condonatione : ergo non potest reatus redire quem Deus
+            dimisit vel a quo solvit.</p>
+        </div>
+        <div xml:id="bb-d4e28803-Dd1e163">
+          <head xml:id="bb-d4e28803-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e28803-Hd1e168" type="question-title">Peccata omnino dimissa non redeunt per sequentem culpam nisi
+            quoad poenam damni</head>
+          <p xml:id="bb-d4e28803-d1e171">Respondeo : Dicendum quod aliqui voluerunt dicere peccata praecedentia redire quoad
+            reatum, quia per culpam sequentem tot reatibus obligatur ad poenam, quot prius erat
+            obligatus. Et ratio huius tangitur in littera. Dicebant enim quod quot peccata
+            commiserat, tot vinculis obligabatur, cum veniebat ad poenitentiam, ut detestaretur
+            praeterita mala ; et ideo, cum peccat, omnia vincula rumpit : et ideo tot reatibus reus
+            est, quot prius peccata commisit. Sed illud nihil est ; primum, quia sufficit una
+            detestatione detestari cetera, nec tenetur simul et semel divisim detestari omnia : ergo
+            in uno non peccat nisi omissione unica.</p>
+          <p xml:id="bb-d4e28803-d1e174">Aliorum opinio fuit quod peccata priora redeant per recidivum quantum ad
+            aequivalentiam, pro eo quod ingratitudo, quae est conditio peccati, adeo aggravat
+            peccatum, ut sit ita reus sicut per omnia peccata praecedentia reus fuerat. Sed illud
+            adhuc non videtur ; primo, quia ingratitudo pensatur secundum quantitatem beneficii, sed
+            maius beneficium praestat Deus conservando innocentiam quam revocando ad poenitentiam :
+            ergo gravius peccavit, cum primo innocentiam perdidit, quam quando post recidivavit :
+            ergo ingratitudo non facit quod adeo sit peccatum grave ut praecedentia. Praeterea,
+            ingratitudo ista est peccati circumstantia a parte peccantis ; sed magis aggravat
+            peccatum libido vel genus peccati quam aggravat circumstantia : ergo nunquam propter
+            ingratitudinem unum peccatum leve secundum genus aequipollebit peccatis praecedentibus
+            gravibus et enormibus.</p>
+          <p xml:id="bb-d4e28803-d1e177">Et ideo aliter dicendum quod reatus est obligatio ad poenam, poena autem peccati duplex
+            est, scilicet poena damni et sensus. Possumus ergo loqui de reatu peccati dupliciter :
+            aut quantum ad poenam damni, aut quantum ad poenam sensus. Si autem quantum ad poenam
+            damni, sic, quia qui pecat in uno factus est omnium reus, credendum est quod peccata
+            dimissa redeunt. Si autem loquamur quantum ad poenam sensus, sic distinguendum est, quia
+            quaedam peccata sunt omnino dimissa quantum ad poenam et culpam, et talia nullo modo
+            redeunt ; quaedam autem dimissa sunt in parte, et de talibus fienda est satisfactio. Et
+            quoniam culpa sequens tollit potentiam satisfaciendi, quamdiu manet, per hoc ipsum iste
+            obligatur ad supplicium aeternam, non ratione sui principaliter, sed ratione annexi ; et
+            sic intelligendum est peccata redire. Verum est tamen quod aliquo modo aggravat culpam
+            sequentem praecedens remissio, quia est ibi contemptus praestiti beneficii, non tamen
+            ita quod faciat aequivalentiam.</p>
+        </div>
+        <div xml:id="bb-d4e28803-Dd1e182">
+          <head xml:id="bb-d4e28803-Hd1e184">Ad rationes</head>
+          <p xml:id="bb-d4e28803-d1e187">1-2. Ad illud quod obicitur de auctoritate Matthaei, dicendum quod altero horum modorum
+            intelligendum est. Et similiter sequens obiectum patet, quia verum concludit.</p>
+          <p xml:id="bb-d4e28803-d1e190">Ad illud quod obicitur de tentionibus, iam responsum est per interemptionem, quia non
+            tot tentionibus tenetur, sed ea sola tentione qua tenetur conteri.</p>
+          <p xml:id="bb-d4e28803-d1e193">Ad illud quod obicitur de servo manumisso, dicendum quod in legibus humanis illud fit
+            ad cautelam et terrorem ; et ideo non oportet sic in lege divina reperiri. Rationes
+            autem ad oppositum, quibus ostenditur quod reatus non omnino redit, verum
+            concludunt.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

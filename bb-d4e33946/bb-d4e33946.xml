@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e33946">
+        <head xml:id="bb-d4e33946-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e33946-Hd1e111" type="question-title">Utrum Matrimonium ratum sit insolubile.</head>
+        <p xml:id="bb-d4e33946-d1e114">Secundo quaeritur de insolubilitate illius Matrimonii, quod solum est in coniunctione
+          animorum.</p>
+        <div xml:id="bb-d4e33946-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e33946-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e33946-d1e122">Et quod tale Matrimonium sit insolubile, ostenditur : Quia determinatum est in iure,
+            quodsi quis per verba de praesenti consentiat in aliquam, et post in aliam consentit et
+            carnaliter cognoscit, quod ad primam revocandus est. Ergo primum vinculum fuit
+            insolubile, cum non solvatur per Matrimonium consummatum.</p>
+          <p xml:id="bb-d4e33946-d1e125">Item, hoc ipsum ostenditur per definitionem Matrimonii praedictam. Si sic dicas quod ei
+            non convenit, obicitur per <name ref="#HughOfStVictor">Hugonem</name>, qui ita definit
+            Matrimonium : Matrimonium est maris et feminae legitimus consensus, individuam vitae
+            consuetudinem retinens.</p>
+          <p xml:id="bb-d4e33946-d1e131">Item, quod Dominus dixit Matthaei 19, 6 : <quote xml:id="bb-d4e33946-Qd1e133" ana="#mt19_6">Quod Deus coniunxit,
+              homo non separet</quote>, aut intelligitur quoad coniunctionem animorum aut corporum.
+            Quod animorum videtur, quia illa copula est sanctior : ergo, si de illa intelligit,
+            videtur quod quoad illani sit inseparabile.</p>
+          <p xml:id="bb-d4e33946-d1e137">Item, Matrimonium significat quantum ad coniunctionem animorum coniunctionem Dei et
+            Ecclesiae ; sed Ecclesia semel Christo desponsata, nunguam separatur nec separabitur :
+            ergo nec illud Matrimonium.</p>
+          <p xml:id="bb-d4e33946-d1e141">Item, cum vir consentit in mulierem, transfert potestatem sui corporis in potestatem
+            mulieris, quia tunc ei alligatur : ergo, si non habet potestatem sui corporis, nec
+            intrare religionem nec alii potest se copulare.</p>
+          <p xml:id="bb-d4e33946-d1e144">Contra : <name ref="#Jerome">Hieronymus</name> dicit quod Dominus Ioannem vocavit de
+            nuptiis : ergo solvit eum ab uxore ; sed non solvisset, si fuisset ligatus vinculo
+            insolubili : ergo etc.</p>
+          <p xml:id="bb-d4e33946-d1e150">Item, sacri canones ante commixtionem carnalem dant liberam potestatem alteri
+            ingrediendi. religionem et alteri nubendi post eius ingressum, sicut patet per multa
+            quae habentur in littera ; sed non posset nubere nisi vinculum esset solutum : ergo
+            etc.</p>
+          <p xml:id="bb-d4e33946-d1e153">Item, anima nunquam in hac vita sic Deo coniungitur, quin possit ab eo separari. Ergo
+            nec sponsus coniungitur inseparabiliter sponsae ante copulam carnalem.</p>
+          <p xml:id="bb-d4e33946-d1e156">Iuxta hoc quaeritur, si statim post ingressum in religionem est solutum tale vinculum.
+            Et quod sic, videtur, quia alioquin mulier damnum sustineret, quia esset alligata et vir
+            non esset alligatus ; quod non est conveniens, quia ad paria iudicantur. Si autem statim
+            solvitur, sed possibile est ipsum egredi religionem : ergo potest nubere, esto quod uxor
+            alteri nupserit, quod est contra canones. Propter hoc quaeritur : quando solvitur et
+            quare solvitur per vinculum voti, non per vinculum Matrimonii maioris ? </p>
+        </div>
+        <div xml:id="bb-d4e33946-Dd1e160">
+          <head xml:id="bb-d4e33946-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e33946-Hd1e165" type="question-title">Matrimonium solummodo ratum est insolubile suo modo, cum
+            tantum per solemne votum castitatis solvi possit</head>
+          <p xml:id="bb-d4e33946-d1e168">Respondeo : Dicendum quod insolubilitas consequitur Matrimonium non tantum consummatum,
+            sed etiam ratum ; et propter hoc etiam ratum est, quia quamdam insolubilitatem habet,
+            licet minorem quam Matrimonium consummatum ; habet tamen sibi competentem sicut et
+            illud. Sicut enim vinculum Matrimonii consummati est insolubile, viventibus extremis
+            vita corporali, nec solvitur nisi morte corporali, sic nec Matrimonium, in quo est
+            coniunctio mentium et animorum, potest solvi nisi homo moriatur spiritualiter huic mundo
+            sive operi carnis ; et hoc fit intrando religionem et emittendo votum castitatis
+            solemne. Ex tunc enim solvitur tale Matrimonium, ex quo spiritualiter moritur ; et hoc
+            probatur per illam decretalem Innocentii, De conversione coniugatorum, Ex parte tua.
+            Concedendum est igitur Matrimonium illud esse insolubile suo modo, cum sit sacramentum,
+            nec separatur ab homine, sed a Deo, cui solemne votum continentiae promittitur.</p>
+        </div>
+        <div xml:id="bb-d4e33946-Dd1e173">
+          <head xml:id="bb-d4e33946-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e33946-d1e178">1-4. Et ex hoc patent. obiecta praeter ultima.</p>
+          <p xml:id="bb-d4e33946-d1e181">Ad illud quod obicitur de translatione potestatis, dicendum quod potestas corporis non
+            simpliciter transfertur in Matrimonio rato, sed sub conditione utriusque, scilicet statu
+            et vita manente. Unde dico, quodsi uxor peteret sibi statim debitum, non teneretur
+            reddere ; nec Ecclesia cogeret quod statim redderet, sed saltem dat inducias usque ad
+            duos menses, ultra quod tempus tenetur aut mulieri debitum reddere aut ad vitam aliam se
+            transferre. Tunc ergo est vinculum solutum, cum homo ad vitam aliam est
+            irregressibiliter translatus, et ideo dicitur mortuus.</p>
+          <p xml:id="bb-d4e33946-d1e184">Et ex hoc patet illud quod ultimo quaeritur, quando scilicet solvitur vinculum,
+            videlicet quando ita ligatur ut non possit redire ad saeculum ; et si uxor instet,
+            necesse habet unum sibi de duobus eligere infra duos menses secundum canones. Et per,
+            hoc patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e32555">
+        <head xml:id="bb-d4e32555-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e32555-Hd1e111" type="question-title">Utrum ad susceptionem ordinis sit necessaria indivisio
+          carnis.</head>
+        <p xml:id="bb-d4e32555-d1e114">Tertio quaeritur, utrum ad Ordinis susceptionem necessaria sit indivisio carnis.</p>
+        <div xml:id="bb-d4e32555-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e32555-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e32555-d1e122">Et quod sic, videtur : I ad Timotheum 3, 2 : <quote xml:id="bb-d4e32555-Qd1e124" ana="#Itim3_2">Oportet episcopum
+              esse unius uxoris virum</quote> ; et hoc ipsum dicitur de diacono.</p>
+          <p xml:id="bb-d4e32555-d1e128">Item, <ref xml:id="bb-d4e32555-Rd1e130">Ambrosius, Ad Vercellenses, et habetur 34 distinctione</ref> :
+              <quote xml:id="bb-d4e32555-Qd1e133">Cognoscimus, non solum de episcopo et presbytero Apostolum statuisse, sed etiam
+              Patres in Concilii Nicaeni tractatu addidisse clericum quempiam non debere esse qui
+              secunda coniugia sit sortitus</quote>.</p>
+          <p xml:id="bb-d4e32555-d1e137">Item, ille non potest promoveri, qui habuit uxorem cuius caro est divisa : ergo multo
+            minus potest ille qui habuit plures uxores. Prima patet ex hoc quod dicit, <ref xml:id="bb-d4e32555-Rd1e139" target="http://scta.info/resource/gd-p1d34-d1e319">distinctione 34</ref>, Innocentius
+            Papa : <quote xml:id="bb-d4e32555-Qd1e142">Si quis viduam, licet laicus, duxerit uxorem, seu ante Baptismum seu post,
+              non admittatur ad clerum</quote>.</p>
+          <p xml:id="bb-d4e32555-d1e146">Item, sacerdos sive episcopus gerit figuram Christi ; sed Christus non fuit divisus,
+            immo unitus unitate : ergo deficit in tali significatio Ordinis : ergo et Ordo, quoniam
+            significatio est essentialis sacramento.</p>
+          <p xml:id="bb-d4e32555-d1e150">Item, bigamia est proprietas quae nunquam relinquitur, nec potest ille qui est bigamus
+            fieri non bigamus : ergo, si impedit sacramentum, videtur quod reddat se impossibilem ad
+            Ordinis susceptionem.</p>
+          <p xml:id="bb-d4e32555-d1e153">Contra : Carnis corruptio non impedit sacramenti susceptionem : ergo nec divisio
+            consimili ratione.</p>
+          <p xml:id="bb-d4e32555-d1e156">Item, si carnis divisio impedit quae est cum uxore, cum multo vituperabilior sit illa
+            quae est cum meretrice, multo.fortius illa impediret ; sed illa non impedit : ergo nec
+            ista.</p>
+          <p xml:id="bb-d4e32555-d1e159">Item, si carnis divisio impedit, aut ratione alicuius quod fit in carne, aut ratione
+            eius quod fit in anima. Ratione alicuius quod fit in carne, non videtur, quia non
+            relinquit aliam dispositionem quam in cognitione unius. Ratione alicuius quod fit in
+            anima non, quoniam, mortua uxore, nihil remanet de matrimonio.</p>
+          <p xml:id="bb-d4e32555-d1e162">Item, quaero : quare impedit ? Si propter defectum sacramenti, quaero : cuius ? Si
+            Matrimonii, contra : plus deficit a sacramento Matrimonii qui nunquam contraxit quam qui
+            bis contraxit : ergo non deficit a sacramento Matrimonii. Si a sacramento Ordinis,
+            contra : bigamia non attenditur secundum sacramentum Ordinis, sed secundum Matrimonium :
+            ergo non deficit Ordo.</p>
+          <p xml:id="bb-d4e32555-d1e165">Est igitur quaestio : quare divisio impedit et non corruptio ?</p>
+          <p xml:id="bb-d4e32555-d1e169">Et iterum : quare corruptio impedit in muliere, ut non consecretur, quare non similiter
+            et in episcopo ?</p>
+          <p xml:id="bb-d4e32555-d1e172">Et iterum : quare fornicatio uxoris potius facit virum irregularem quam fornicatio
+            viri, cum magis puniendus sit propter divisionem carnis suae quam alienae ?</p>
+        </div>
+        <div xml:id="bb-d4e32555-Dd1e176">
+          <head xml:id="bb-d4e32555-Hd1e178">Conclusio</head>
+          <head xml:id="bb-d4e32555-Hd1e181" type="question-title">Bigami propter defectum significationis inepti sunt ad
+            susceptionem ordinis, praesertim sacri, ita tamen, ut valide ordinem recipiant.</head>
+          <p xml:id="bb-d4e32555-d1e184">Respondeo : Ad praedictorum intelligentiam est notandum quod sacramentum Ordinis
+            abundat ab aliis in ratione significandi, quoniam non solum illud quod adhibetur
+            exterius, significat, immo ipse suscipiens signum est et significat ipse episcopus
+            consecratus vel presbyter ordinatus ipsum Christuin, secundum quod superius tactum est.
+            Et in hac proprietate differt ab aliis sacramentis, praeterquam a Matrimonio, in quo
+            ipse vir, qui est subiectum ipsius sacramenti, signum est ipsius Christi, sicut mulier
+            signum est Ecclesiae, et ita concurrunt ad idem significandum.</p>
+          <p xml:id="bb-d4e32555-d1e187">Quoniam ergo de significatione Ordinis primaria est quod ordinatus significet Christum
+            ut sponsum Ecclesiae, et hoc non potest significare bigamus, qui habuit uxorem viduam,
+            quoniam Ecclesia unicum habuit sponsum et Christus unicam sponsam : hinc est quod tales
+            inepti sunt ad Ordines, maxime principales et sacros, in quibus homo iam incipit
+            expresse figurare Christum. Unde bigamia reddit ineptum ad diaconatum et subdiaconatum
+            et sacerdotium et potissime ad episcopatum ; et ideo in his Ordinibus nunquam legitur
+            dispensatum nec dispensari debet, non quia sacramentum essentialiter deficiat, immo
+            bigamus recipit characterem, sed quia perfectio sacramenti in ipso deficit, quae nulla
+            ratione potest suppleri per hominem nec recompensari. Tamen in Ordinibus inferioribus ex
+            causa necessitatis dispensationem recipit, sicut dicitur 34 distinctione, Necessitate
+            cogente ; et iterum, Lector si viduam etc. Ex his patet quod divisio carnis impedit et
+            quare impedit et quae divisio.</p>
+        </div>
+        <div xml:id="bb-d4e32555-Dd1e192">
+          <head xml:id="bb-d4e32555-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e32555-d1e197">1-2. Ad illud ergo quod obicitur de corruptione, dicendum quod non est simile, quia non
+            repugnat necessitati sacramenti nec significationi ut bigamia. Similiter divisio per
+            fornicationem non impedit, quia non est divisio per significationem ; sed haec est
+            divisio significans.</p>
+          <p xml:id="bb-d4e32555-d1e200">Ad illud quod obicitur, aut hoc est ex parte animae aut ex parte carnis, dicendum quod
+            ratio sumitur ex parte totius hominis, cuius est Matrimonium corttrahere et quod est
+            subiectum Matimonii ; in quo quidem est impedimentum non ratione immunditiae vel
+            qualitatis absolutae quae fit in carne, sed propter significationem deficientem. Quia
+            enim contraxit cum una, significavit Christum ; quia vero ab una recessit et contraxit
+            cum secunda, recessit a significatione ; et ita est defectus sacramenti, scilicet
+            unitatis, quae in sacramento Matrimonii et Ordinis debebat significari.</p>
+          <p xml:id="bb-d4e32555-d1e203">Et per hoc patet sequens, quod obicitur de defectu sacramenti. Dico enim quod in eo
+            deficit sacramentum unitatis, quod, sive deficiat ex parte sua sive ex parte uxoris,
+            reddit ipsum minus idoneum ad Ordinis sacramentum. Si ergo quaeras : quod sacramentum
+            deficit, utrum Ordinis vel Matrimonii ? dico quod sacramentum Ordinis deficit, quia non
+            est perfectio quae possit significare quod exigit Ordo. Praeterea, est defectus
+            sacramenti Matrimonii, defectus, inquam, non simplicis negationis, sicut est in eo qui
+            nunquam fuit uxoratus, sed defectus privationis, ubi aliquid est de significatione,
+            aliquid de privatione, quae generat quamdam enormitatem sive deformitatem, ratione cuius
+            ad tam nobile sacramentum non debet admitti.</p>
+          <p xml:id="bb-d4e32555-d1e206">Ex his patent quaestiones sequentes, quare scilicet impedit divisio, non corruptio,
+            quia non privatur sacramentum aliquod nec efficitur defectivum propter corruptionem
+            sicut propter divisionem.</p>
+          <p xml:id="bb-d4e32555-d1e210">Ad illud quod quaeritur : quare non impedit corruptio consecrationem viri sicut et
+            mulieris ? dicunt aliqui iuristae quod episcopus significat Ecclesiam militantem, sed
+            virgo significat Christum, qui fuit virgo. Sed illud non capit ratio recta. Et ideo
+            aliter dicendum quod episcopus significat Christum, sed mulier significat Ecclesiam
+            triumphantem sive ipsam Ecclesiam, quae virgo est et nunquam fuit nisi uxor Christi ;
+            Christus autem, etsi virgo fuit, tamen Synagogam habuit non ut uxorem, sed ut
+            concubinam.</p>
+          <p xml:id="bb-d4e32555-d1e213">Et per hoc patet ultimum, quare ille qui desponsat corruptam ab alio et cognoscit est
+            ineptus et bigamus iudicatur. Dicendum quod quia non est unicus unicae ; ista enim non
+            est unica, et maiorem oportet significari unitatem ex parte uxoris quam viri, quoniam
+            Ecclesia non fuit copulata nisi Christo, nec matrimonialiter nec alio modo. Christus
+            autem copulatus fuit Synagogae, quamvis non insolubiliter, et ita non matrimonialiter.
+            Et sic patet quod omnia talia statuta sunt valde rationabilia, quia in eorum
+            constitutione non pensatur culpa, sed potius significatio congrua.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

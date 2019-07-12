@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e14295">
+        <head xml:id="bb-d4e14295-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e14295-Hd1e111" type="question-title">Utrum hoc Sacramentum habeat efficaciam in quolibet viro
+          iusto.</head>
+        <div xml:id="bb-d4e14295-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e14295-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e14295-d1e119">Circa primum ostenditur quod habeat efficaciam in quolibet viro iusto : Quia
+            Sacramentum habet efficaciam nisi habeat obicem ; sed in nullo viro iusto habet obicem :
+            ergo in quolibet habet efficaciam. Item, sacramentalis manducatio, quando coniuncta est
+            spirituali, semper habet efficaciam ; sed semper coniuncta est spirituali in viro iusto,
+            quia <quote xml:id="bb-d4e14295-Qd1e121" source="http://scta.info/resource/iuy75t-d1e255">spiritualiter manducare est
+              in ipso manere</quote>, ut dicit <name ref="#Augustine">Augustinus</name>, sed omnis
+            iustus manet in ipso : ergo etc.</p>
+          <p xml:id="bb-d4e14295-d1e128">Item, Damascenus dicit quod caro <quote xml:id="bb-d4e14295-Qd1e130" source="http://scta.info/resource/jddfo-l4c13">Christi est sicut carbo ignitus</quote> ; sed habens sensum corporalem semper calefit
+            per contactum carbonis materialis : ergo similiter habens sensum spiritualem per
+            contactum carbonis spiritualis. Sed omnis iustus sensum habet spiritualem : ergo
+            etc.</p>
+          <p xml:id="bb-d4e14295-d1e134">Item, si aliquid requiritur ultra caritatem in suscipiente, quaeritur, quid sit illud
+            et quae et quot.</p>
+          <p xml:id="bb-d4e14295-d1e137">Contra : Baptismus non habet efficaciam in adulto nisi se praeparet : ergo a simili nec
+            hoc Sacramentum habet efficaciam in iusto nisi se praeparet ; et ad hoc facit verbum
+            beati Pauli I ad Corinthios 11, 28 : Probet autem se ipsum homo.</p>
+          <p xml:id="bb-d4e14295-d1e141">Item, possibile est quod iustus habeat conscientiam se graviter peccasse vel esse in
+            gravi peccato, quia frequenter peccatum veniale perpetratum reputatur mortale a
+            perfectis, propter hoc tamen non cadit a iustitia ; sed si talis accedit, accedit
+            indigne, et talis non recipit efficaciam : ergo etc.</p>
+          <p xml:id="bb-d4e14295-d1e144">Item, efficacia huius Sacramenti consistit in deletione venialium et augmento virtutum
+            ; sed venialia non dimittuntur nisi homo se praeparet per contritionem, cum ex actu
+            nostro sint commissa ; similiter nec virtutes augentur ; ergo non in omni iusto habet
+            efficaciam.</p>
+        </div>
+        <div xml:id="bb-d4e14295-Dd1e148">
+          <head xml:id="bb-d4e14295-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e14295-Hd1e153" type="question-title">Eucharistia non habet efficaciam nisi in digne accedente et
+            debito modo praeparato</head>
+          <p xml:id="bb-d4e14295-d1e156">Respondeo : Dicendum quod Sacramentum hoc non habet efficaciam in aliquo nisi in digne
+            accedente ; digne autem accedere in hoc consistit quod homo se praeparet sicut debet.
+            Tantum enim Sacramentum recipere sicut recipitur alius cibus, non est congruum nec
+            fructuosum ; et quia in hoc Sacramento praesens est divina Maiestas et summa exprimitur
+            caritas, ideo debet recipi cum honore et devotione. Et quia cum honore et devotione non
+            suscipitur tam nobilis hospes in immundo hospitio, necesse est quod hot ;no hospitium
+            Deo paret per sui diiudicationem. Et quia non parat hospitium hospiti nisi ipsum
+            cognoscat, necesse est quod cibum istum ab aliis discernat. Ad hoc ergo quod Sacramentum
+            hoc habeat in aliquo efficaciam, primo oportet cibum istum ab aliis discernere per fidem
+            ; secundo, hospitium parare per sui ipsius probationem ; tertio, in hospitium paratum
+            recipere cum honore et devotione. Et primum et secundum habemus ab Apostolo I ad
+            Corinthios 11, 28 ; secundum ibi : <quote xml:id="bb-d4e14295-Qd1e158" ana="#Icor11_28">Probet se ipsum homo</quote>
+            ; primum ibi : Non diiudicans corpus Domini ; de tertio habemus exemplum in Zachaeo. Et
+            quia multi recipiunt hoc Sacramentum qui se non debite parant, ideo multi imbecilles et
+            infirmi et dormiunt multi.</p>
+          <p xml:id="bb-d4e14295-d1e162">Ad illud quod quaeritur, utrum vir iustus recipiat efficaciam, dicendum quod, si se
+            debite praeparet, recipit ; alioquin, si ex quodam torpore vel ex distractione non se
+            debite praeparet, aut nullam aut modicam reportat efficaciam, quamvis non incurrat
+            mortalem offensionem.</p>
+        </div>
+        <div xml:id="bb-d4e14295-Dd1e166">
+          <head xml:id="bb-d4e14295-Hd1e168">Ad rationes</head>
+          <p xml:id="bb-d4e14295-d1e171">Ad illud quod obicitur de obice, dicendum quod ad illud Sacramentum requiritur liberi
+            arbitrii cooperatio ; et ideo omissio obex est, non tantum peccaturp, verum etiam
+            sollicitudo vel distractio.</p>
+          <p xml:id="bb-d4e14295-d1e174">Ad illud quod obicitur, quod manducat spiritualiter, dicendum quod vir iustus non
+            semper manducat spiritualiter, ut puta quando dormit vel quando distrahitur per
+            cogitationes extrinsecas ; sed tunc spiritualiter manducat quando movetur motu fidei et
+            caritatis, quia tunc masticat et incorporatur ; et ideo, si negligit, non reportat
+            effectum.</p>
+          <p xml:id="bb-d4e14295-d1e177">Ad illud quod obicitur de carbone ignito, dicendum quod operatur in sensum ratione
+            organi ; sed si operaretur in sensum ratione sui, tunc sensus occupatus circa aliud non
+            sentiret nec calefieret. Huius autem exemplum est in visu, quando quis dormit vel
+            occupatur alibi. Si ergo sensus mentis nostrae vult ab hoc carbone inflammari, necesse
+            habet ad ipsum converti et dirigi : converti autem ad ipsum debet sicut ad memoriale
+            passionis vivum. Triplex enim habemus memoriale passionis, scilicet in scripto, in verbo
+            et Sacramento. In scripto, ut quando passio pescribitur vel narratur per scripturam vel
+            quando imaginibus exprimitur ; et hoc est memoriale quasi mortuum et habet fieri ad
+            visum qui apprehendit magis de longinquo. In verbo, utpote cum aliquis verbotenus narrat
+            passionem Christi ; et illud partim est vivum, partim mortuum. Vivum est in corde
+            bonorum praedicatorum, sed mortuum in corde tepidorum et malorum ; vel vivum in corde et
+            cogitatione, non vivum in voce ; et hoc est ad auditum, auditus autem non ita
+            apprehendit de longinquo. In Sacramento vero est memoriale, cum ipsum corpus Christi
+            significatur et continetur in specie panis et sanguis in specie vini ; et hoc est
+            memoriale vivum, quia ipse Christus se ipsum ibi praebet, offerens nobis corpus quod pro
+            nobis fuit occisum et sanguinem qui pro nobis fuit effusus ; et hoc est ad gustum, qui
+            de proximo apprehendit, ut iam non quasi speculatione, sed quadam experientia passionis
+            eius memores simus.</p>
+          <p xml:id="bb-d4e14295-d1e180">Si ergo accendit affectum nostrum passio descripta et amplius ferventer praedicata,
+            multo magis inflammare et afficere debet in hoc Sacramento expressa. Et hoc absque dubio
+            facit, si quis sensum habet et illum convertit ad hoc Sacramentum. Ille ergo est qui ex
+            hoc Sacramento efficaciam reportat, qui se convertit ; ille vere audit Missam, non qui
+            tantum verba dicit vel audit sine devotione, sed qui ad hoc memoriale totam mentis
+            intentionem convertit. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

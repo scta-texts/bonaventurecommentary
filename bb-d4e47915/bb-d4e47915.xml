@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e47915">
+        <head xml:id="bb-d4e47915-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e47915-Hd1e111" type="question-title">Utrum per suffragia Ecclesiae aliqua mitigatio fiat
+          damnatis.</head>
+        <div xml:id="bb-d4e47915-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e47915-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e47915-d1e119">Quantum ergo ad primum sic proceditur, et ostenditur quod per suffragia Ecclesiae
+            aliqua mitigatio fiat damnatis : Primo per <ref xml:id="bb-d4e47915-Rd1e121">Augustinum, in Enchiridio</ref>, qui
+            dicit quod <quote xml:id="bb-d4e47915-Qd1e124">quibus prosunt, vel ad hoc prosunt ut plena fiat remissio vel ut
+              tolerabilior sit eis damnatio</quote>. Ergo, si damnatio est in damnatis, videtur quod
+            illa possit mitigari.</p>
+          <p xml:id="bb-d4e47915-d1e128">Item, <name ref="#Augustine">Augustinus</name> dicit quod poena Arii non est
+            determinata, quia augetur secundum quod peccantes suo errore multiplicantur ; sed Deus
+            pronior est ad miserandum quam ad condemnandum : ergo si in statu in quo sunt potest
+            eorum poena augeri, potest et minui.</p>
+          <p xml:id="bb-d4e47915-d1e134">Item, impossibile est multorum preces non exaudiri ; sed Ecclesia orat pro omnibus
+            baptizatis et fidelibus qui moriuntur, de quibus non constat quod vadant in infernum ;
+            sed multi talium damnantur : ergo, si Ecclesia non frustra orat, patet etc.</p>
+          <p xml:id="bb-d4e47915-d1e137">Item, ratione videtur, quia plus placet Deo improportionaliter poena quam quis sustinet
+            voluntarius, quam illa quam quis sustinet invitus ; sed damnatus poenam sustinet
+            invitus, aliquis vir iustus, qui ei suffragatur, pro eo sustinet voluntarius : ergo iste
+            plus solvit Deo pro illo patiendo quam ille pro se : ergo, si Dominus dimittit quod
+            minus placet pro eo quod magis, patet etc.</p>
+          <p xml:id="bb-d4e47915-d1e141">Item, iste punit se ex caritate et pro eo qui est in inferno : ergo Deus acceptat hanc
+            poenam pro illo ; sed non punit bis in id ipsum : ergo etc.</p>
+          <p xml:id="bb-d4e47915-d1e144">Contra : <name ref="#Augustine">Augustinus</name>, De cura pro mortuis agenda, dicit
+            quod <quote xml:id="bb-d4e47915-Qd1e149">Ecclesiae suffragia pro valde bonis sunt gratiarum actiones, pro valde malis
+              sunt qualescumque vivorum consolationes</quote>. Ergo non prosunt valde malis ; sed
+            valde mali sunt qui sunt in inferno : ergo etc.</p>
+          <p xml:id="bb-d4e47915-d1e153">Item, auctoritas dicit quod <quote xml:id="bb-d4e47915-Qd1e155">in inferno nulla est redemptio</quote> et Ecclesia
+            istud cantat : ergo, si nulla redemptio est ibi, videtur quod nulla sit mitigatio.</p>
+          <p xml:id="bb-d4e47915-d1e159">Item, Ecclesia non facit suffragia pro damnatis ; quod patet, quia in Corpore Christi,
+            in quo est specialiter suffragium defunctorum, ut dicit <ref xml:id="bb-d4e47915-Rd1e161">Magister, supra,
+              distinctione duodecima</ref>, non fit memoria nisi pro vivis et illis qui sunt in
+            purgatorio et qui sunt in paradiso ; sed faceret, si damnatis prodesset : ergo etc.</p>
+          <p xml:id="bb-d4e47915-d1e165">Item, ratione videtur, quia damnati non sunt ex caritate diligendi ; quod patet, quia
+            non sunt ordinati ad vitam : ergo, cum caritas faciat suffragium acceptabile, nullum
+            suffragium pro eis factum Deo est acceptum : ergo nec debet pro eis fieri.</p>
+          <p xml:id="bb-d4e47915-d1e168">Item, suffragia facta pro Beatis, quia sunt in termino, non augent gloriam : ergo, cum
+            damnati similiter sint in termino, non minuunt eis poenam.</p>
+          <p xml:id="bb-d4e47915-d1e172">Item, quod non minuit de culpa, nec de poena, quia tantae culpae debetur tanta poena ;
+            sed damnatorum culpa non potest minui : ergo etc.</p>
+          <p xml:id="bb-d4e47915-d1e175">Item, si minuat, aut extensive aut intensive. Si intensive : ergo, cum non sit
+            intensione infinita tota poterit auferri per suffragia. Si ergo extensive, sed infinita
+            est extensione, et ab infinito nihil adimitur. Si dicas quod est finita ex parte ante,
+            et ex illa est diminutio, quia est poenae dilatio : ergo tunc dedecus peccati est sine
+            decore iustitiae.</p>
+        </div>
+        <div xml:id="bb-d4e47915-Dd1e179">
+          <head xml:id="bb-d4e47915-Hd1e181">Conclusio</head>
+          <head xml:id="bb-d4e47915-Hd1e184" type="question-title">Suffragia damnatis non prosunt, nec Ecclesia intendit pro eis
+            rogare</head>
+          <p xml:id="bb-d4e47915-d1e187">Respondeo : Dicendum quod aliquorum fuit positio, ut magistri Praepositivi, quod
+            suffragia damnatis prosunt, non tamen omnibus, quia non valde malis, sed mediocriter, ut
+            puta illis qui habuerunt opera bona per quae merentur ab aliis adiuvari. Sed in modo
+            positionis diversificati sunt.</p>
+          <p xml:id="bb-d4e47915-d1e190">Nam quidam dicunt quod prosunt ad dimissionem poenae quantum ad interpolationem ; et
+            ideo non totaliter aufertur, sed solum ad modicum temporis. Sed ista positio non videtur
+            conveniens. Cum enim deordinatio culpae non recipiat intermissionem, quomodo reordinatio
+            poenae recipiet ?</p>
+          <p xml:id="bb-d4e47915-d1e193">Ideo dicunt alii quod fit remissio simpliciter, non ad tempus ; sed tamen, nunquam tota
+            poena aufertur, quia fit ablatio secundum proportionem geometricam, non secundum
+            proportionem arithmeticam, id est, quando fit, remittitur primo aliquota pars poenae, in
+            secunda vice adimitur tantum, non secundum quantitatem, sed secundum proportionem, ut si
+            primo aufertur centesima pars, similiter et secundo et tertio centesima pars eius quod
+            remanet ; et ideo semper remanet. Sed certe istud non solvit, quia suffragia sequentia
+            non minus valent quam praecedentia : ergo tantumdem de poena faciunt remitti secundum
+            quantitatem poenae remissae.</p>
+          <p xml:id="bb-d4e47915-d1e197">Ideo dicunt tertii quod prosunt, non in ablationem totalis poenae nec ad ablationem de
+            parte poenae diminuendo puniens, sed fortificando subiectum, ut melius et tolerabilius
+            portet. Sed ista opinio non videtur posse stare, quia, si fortificatur, aut fortitudine
+            gratiae aut naturae ; non gratiae, hoc constat ; non naturae, quia haec fortitudo non
+            est a natura : ergo nullo modo.</p>
+          <p xml:id="bb-d4e47915-d1e200">Ideo est aliorum opinio communior et verior, quod suffragia damnatis non prosunt nec
+            Ecclesia intendit orare pro eis.</p>
+        </div>
+        <div xml:id="bb-d4e47915-Dd1e204">
+          <head xml:id="bb-d4e47915-Hd1e206">Ad rationes</head>
+          <p xml:id="bb-d4e47915-d1e209">1. Ad illud ergo quod primo obicitur in contrarium, quod prosunt ad tolerabiliorem
+            damnationem, dicendum quod non intelligit de damnatione facta in inferno, ubi nulla est
+            redemptio, sed in purgatorio. Et vult dicere quod illis dupliciter prosunt : vel
+            liberando, ut illos qui parum habent de cremabili ; vel mitigando quantum ad illos qui
+            multum.</p>
+          <p xml:id="bb-d4e47915-d1e212">Ad aliud dicendum quod non est simile, quia remissio debet fundari super fundamentum
+            caritatis ; et quoniam Arius habet malam voluntatem, ideo potest augeri poena eius et
+            non remitti.</p>
+          <p xml:id="bb-d4e47915-d1e215">Ad illud quod obicitur, quod multorum preces exaudiuntur, dicendum quod ubi constaret
+            Ecclesiae quod esset damnatus, non oraret ; sed non constat, ergo orat, quia aut valet,
+            si non est damnatus ; aut si est damnatus, revertitur in sinu suo.</p>
+          <p xml:id="bb-d4e47915-d1e218">4-5. Ad illud quod obicitur, quod plus placet Deo poena voluntaria quam involuntaria,
+            dicendum quod est verum ; unde Deus remunerat virum iustum pro illa poena ; sed ista
+            poena voluntaria non potest assumi nec acceptari pro eo qui non habet caritatem. Et ideo
+            patet sequens.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

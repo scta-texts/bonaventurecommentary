@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e41756">
+        <head xml:id="bb-d4e41756-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e41756-Hd1e111" type="question-title">Utrum Matrimonium infidelium excuset coitum, ut non sit ibi
+          peccatum.</head>
+        <p xml:id="bb-d4e41756-d1e114">Tertio quaeritur, utrum Matrimonium infidelium excuset coitum sive coniugalem actum, ut
+          non sit ibi peccatum.</p>
+        <div xml:id="bb-d4e41756-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e41756-Hd1e119">Ad rationes</head>
+          <p xml:id="bb-d4e41756-d1e122">Et quod non, videtur. Ad Romanos 14, 23 : <quote xml:id="bb-d4e41756-Qd1e124" ana="#rom14_23">Omne quod non est ex
+              fide peccatum est</quote> ; sed actus coniugalis apud infideles non est ex fide : ergo
+            est peccatum. Si tu dicas quod ibi appellatur fides conscientia, et illud dicitur non
+            esse ex fide quod est contra conscientiam, sicut exponit <ref xml:id="bb-d4e41756-Rd1e127">Magister in littera</ref>,
+            obicitur tunc de Glossa, quae exponit quod omnis vita infidelium est peccatum. Ergo et
+            vita matrimonialis peccatum est ; ergo Matrimonium non excusat a peccato.</p>
+          <p xml:id="bb-d4e41756-d1e131">Item, <ref xml:id="bb-d4e41756-Rd1e133" target="http://scta.info/resource/gd-p2c28q1-d1e109">Causa XXVIII,
+              quaestione 1, capitulo 1</ref> : <quote xml:id="bb-d4e41756-Qd1e136">Non est vera pudicitia infidelis cum coniuge
+              sua</quote>, et est verbum <name ref="#Augustine">Augustini</name>. Ergo infidelis non
+            cognoscit coniugem suam pudice ; et cognoscit pudice vel impudice : ergo impudice : ergo
+            coitus eius non est sine peccato.</p>
+          <p xml:id="bb-d4e41756-d1e143">Item, sacramenta ecclesiastica apud haereticos, quamvis sint veracia, non tamen sunt
+            utilia, quoniam, etsi habeant formam, tamen propter infidelitatem nullam habent
+            efficaciam : ergo pari ratione apud infideles.</p>
+          <p xml:id="bb-d4e41756-d1e146">Item, haereticus baptizando peccat mortaliter quia non baptizat ut ad cultum Dei
+            perducat, sed ut ad errorem trahat ; sed infideles non procreant prolem ad cultum Dei,
+            sed potius ad permanendum in suis tenebris et erroribus : ergo peccant coeundo propter
+            prolem. Sed nullus coitus est isto honestior qui fit propter prolem habendam : ergo
+            nullus coitus in infidelibus fit sine peccato.</p>
+          <p xml:id="bb-d4e41756-d1e150">Contra : Triplex est pars continentiae, scilicet virginalis, vidualis et coniugalis ;
+            sed infideles continentia virginali continendo non peccant, similiter continendo
+            continentia viduali : ergo pari ratione nec in continentia coniugali. Sed ista est in
+            reddendo et petendo debitum uxori : ergo etc.</p>
+          <p xml:id="bb-d4e41756-d1e153">Item, infidelis, qui habet uxorem et cognoscit eam affectu maritali, cognoscit suam
+            ordinato affectu ; sed actus transiens super debitam materiam cum ordinatione affectus
+            est absque peccato : ergo actus coniugalis in infidelibus est absque peccato.</p>
+          <p xml:id="bb-d4e41756-d1e156">Item, Matrimonium excusat a peccato : aut ergo in quantum sacramentum legis naturae,
+            aut in quantum sacramentum Ecclesiae. Si in quantum sacramentum legis naturae, ergo, cum
+            hoc modo sit apud infideles, ergo excusat eorum coitum. Si in quantum sacramentum
+            Ecclesiae solum, ergo non excusavit ante adventum Christi : ergo quotquot ante adventum
+            Christi uxores cognoverunt, fornicatores fuerunt : ergo, cum hoc sit nefas dicere, redit
+            primum.</p>
+          <p xml:id="bb-d4e41756-d1e159">Item, ubi est Matrimonium, ibi est mutua obligatio : ergo, cum apud infideles sit
+            Matrimonium, ergo est ibi mutua obligatio : ergo alter alteri tenetur debitum reddere.
+            Sed nullus peccat faciendo id ad quod tenetur nisi per malam voluntatem illud depravet :
+            ergo ille qui redit debitum uxori suae, nort peccat.</p>
+        </div>
+        <div xml:id="bb-d4e41756-Dd1e163">
+          <head xml:id="bb-d4e41756-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e41756-Hd1e168" type="question-title">Matrimonium infidelium excusat aliquo modo coitum a
+            culpa</head>
+          <p xml:id="bb-d4e41756-d1e171">Respondeo : Dicendum quod, sicut tactum est in praecedenti problemate, Matrimonium
+            infidelium est remedium semiplenum. Et ratio huius est, quia bona Matrimonii imperfecte
+            sunt ibi, tum quia in eis deficit fides, tum quia defieit in eis sacramentum fidei. Quia
+            deficit fidei sacramentum, ideo non est perfectum sacramentum sive vinculum, cum possit
+            fortiori vinculo ligari. Quia deficit fides, ideo non est in eis perfectum remedium,
+            quia sine fide impossibile est placere Deo ; et quamvis sine fide possit quis in aliquo
+            actu vitare peccatum, quia non agit malum, tamen impossibile est mereri praemium. Unde
+            sicut aliter est apud infideles continentia et aliter apud fideles, quia fideles per
+            pudicitiam et vitant poenam et acquirunt palmam, illi vero, etsi vitent poenam, cum a
+            malo cessant, non tamen acquirunt palinam ; sic in Matrimonio intelligendum quod apud
+            fideles tum propter meritum fidei, tum propter benedictionem Ecclesiae non solum datur
+            remedium, quod praeservat a culpa, sed etiam datur gratia, quae remittit
+            concupiscentiam. Apud infideles vero nulla omnino datur gratia, tamen, quia coniunguntur
+            secundum divinum statutum, vitant culpam nisi affectio libidinosa interveniat, quae
+            etiam apud Christianos actum coniugalem foedat. Et sic concedendae sunt rationes
+            ostendentes quod Matrimonium apud infideles aliquo modo coitum excusat.</p>
+        </div>
+        <div xml:id="bb-d4e41756-Dd1e176">
+          <head xml:id="bb-d4e41756-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e41756-d1e181">Ad illud ergo quod obicitur, quod non est ex fide, ergo est peccatum, dicendum quod
+            illud intelligitur sicut praedictum est, et patet ex Glossa, quod non est ex fide, id
+            est contra conscientiam, quia qui facit contra conscientiam aedificat ad gehennam. Sed
+            quod subiungit quod omnis vita infidelium est peccatum ; hoc dictum est per
+            concomitantiam, quia nunquam est sine peccato, pro eo quod sola fide purificantur
+            peccata ; et ideo, quidquid faciant, quamdiu sine fide sunt, absque peccato esse non
+            possunt.</p>
+          <p xml:id="bb-d4e41756-d1e184">Ad illud quod obicitur, quod vera pudicitia non est infidelis etc., dicendum quod vera
+            tantum valet quantum perfecta ; unde dicitur non esse vera quia non est perfecta. Sed
+            ista expositio aliquantulum est extranea ; et ideo dicendum est quod non est vera
+            pudicitia, quia non habet verum et proprium effectum virtutis, sicut non est verum vinum
+            quod non habet operationem vini. Operatio autem sive effectus virtutis est, quia facit
+            declinare a malo, et per hoc vitat poenam ; facit etiam quod bonum est, et per hoc
+            acquirit gloriam. Et quamvis apud infideles possit reperiri primum, non tamen secundum,
+            ideo pudicitia non est vera virtus apud eos. Et hoc est quod dicit. <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e41756-Qd1e189">Ubi deest cognitio aeternae et
+              incommutabilis Veritatis, falsa est virtus etiam in optimis moribus</quote>.</p>
+          <p xml:id="bb-d4e41756-d1e193">Ad illud quod obicitur, quod sacramenta Ecclesiae non habent efficaciam apud
+            haereticos, dicendum quod non est simile de Matrimonio et aliis sacramentis. Nam in
+            aliis praestatur remedium contra morbum, qui iam inest : unde in aliis datur gratia vel
+            effectus gratiae, quo mediante curatur anima a morbi corruptela ; in Matrimonio autem,
+            in quantum sacramentum legis naturae, datur remedium praeservativum a culpa, ne quis in
+            cognoscendo mulierem peccet ; licet, in quantum est sacramentum Ecclesiae, ratione
+            benedictionis annexae det etiam gratiam digne accedentibus. Quoniam ergo infideles non
+            suscipiunt gratiam gratum facientem nec eius effectum, quamdiu sunt in infidelitate,
+            ideo alia sacramenta non praestant eis remedium, hoc vero solum potest eis praestare,
+            licet non perfectum, sed solum ad cavendum malum.</p>
+          <p xml:id="bb-d4e41756-d1e196">Ad illud quod obicitur, quod haereticus baptizando peccat mortaliter, dicendum quod
+            peccat, quia usurpat quod suum non est ; et quodsi actualiter intendat ad errorem
+            perducere, tunc gravius peccat. Sed sicut potest esse quod aliquis haereticus baptizet,
+            non intendens hominem perducere ad errorem, sic potest esse quod aliquis generet prolem,
+            non intendens ad cultum idolorum pertrahere, sed solum intendens posteritatem habere. Et
+            hoc quidem, quia caret intentione formata, non habet perfecte. bonum prolis nec meritum
+            ; quia tamen non habet intentionem deformatam, ideo non habet demeritum. Et ideo tales
+            filii iudicari possunt legitimi, quod est signum quod matrimonialiter sunt generati ;
+            aliter enim iudicarentur illegitimi.</p>
+          <p xml:id="bb-d4e41756-d1e200">Est enim quadruplex differentia filiorum, ita apud infideles sicut apud fideles. Quidam
+            enim sunt naturales et legitimi, ut qui de legitimis uxoribus generantur ; et isti
+            debent et possunt succedere in bonis. Quidam legitimi, sed non naturales, ut filii
+            adoptivi ; et isti similiter possunt succedere. Quidam naturales, sed non legitimi, ut
+            illi qui nati sunt de concubinis. Quidam sunt nec legitimi nec naturales, ut sunt illi
+            qui de adulterio sunt nati vel etiam de incestu.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

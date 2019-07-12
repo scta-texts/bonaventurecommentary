@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e18186">
+        <head xml:id="bb-d4e18186-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e18186-Hd1e111" type="question-title">Quid sit satisfactio.</head>
+        <p xml:id="bb-d4e18186-d1e114">Circa primum sic proceditur. Augustinus definit, et habetur in littera :
+            <quote xml:id="bb-d4e18186-Qd1e116">Satisfacere est peccatorum causas excidere et earum suggestionibus aditum non
+            indulgere</quote>.</p>
+        <div xml:id="bb-d4e18186-Dd1e120" type="rationes-principales">
+          <head xml:id="bb-d4e18186-Hd1e122">Rationes principales</head>
+          <p xml:id="bb-d4e18186-d1e125">Videtur primo ista definitio sive notificatio superflua, quia idem est prorsus
+            peccatorum causas excidere et non consentire suggestionibus.</p>
+          <p xml:id="bb-d4e18186-d1e128">Item, videtur diminuta, quia hoc totum vere dicitur de eo qui a peccato cessat : ergo
+            secundum hoc cessare a peccato habet completam rationem satisfactionis : ergo non
+            oportet amplius facere.</p>
+          <p xml:id="bb-d4e18186-d1e131">Item, videtur falsa, cum dicit : <quote xml:id="bb-d4e18186-Qd1e133">peccatorum causas excidere</quote>, quia hoc
+            est solius Dei ; ipse enim est qui delet peccata.</p>
+          <p xml:id="bb-d4e18186-d1e137">Item, videtur falsi implicativa, cum dicit : peccatorum causas ; <quote xml:id="bb-d4e18186-Qd1e139">peccatum enim
+              nihil est</quote> : ergo non habet causas, quia <quote xml:id="bb-d4e18186-Qd1e142">causa est cuius esse sequitur
+              aliud</quote>. Si dicas quod non habet causam efficientem, sed deficientem, sed tunc,
+            cum talis non sit nisi nostra voluntas, videtur quod oportet excidere voluntatem ; sed
+            non voluntatem-potentiam, quia hoc est impossibile ; non voluntatem-affectionem, quia
+            hoc est per Dei gratiam ; non voluntatem-actum, quia illa est ipsum peccatum. Si dicas
+            quod <mentioned> causas </mentioned> idem est quod occasiones, contra : non est in
+            nostra potestate vitare occasiones ; et iterum, esto quod eas non vitet, dum tamen non
+            peccet, satisfacit.</p>
+          <p xml:id="bb-d4e18186-d1e150">Item, <name ref="#Anselm">Anselmus</name> definit : <quote xml:id="bb-d4e18186-Qd1e155">Satisfacere est honorem
+              debitum Deo impendere</quote>.</p>
+          <p xml:id="bb-d4e18186-d1e159">Quaeritur ergo, quomodo differant hae definitiones.</p>
+        </div>
+        <div xml:id="bb-d4e18186-Dd1e163">
+          <head xml:id="bb-d4e18186-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e18186-Hd1e168" type="question-title">Augustini definitio explicatur eo sensu, quod tangat emedam
+            praesentem pro culpa praeterita et propositum vitandi futuram</head>
+          <p xml:id="bb-d4e18186-d1e171">Respondeo : Ad praedictorum evidentiam notandum quod haec notificatio tripliciter
+            exponitur : uno modo, ut sequens pars sit expositio praecedentis, ut sit sensus :
+            satisfacere est peccatorum causas excidere, id est motiva et occasiones ; et hoc quidem
+            est earum suggestionibus aditum non indulgere ; tunc enim exciduntur quando nullo modo
+            admittuntur. Aliter exponitur, quod motiva ad peccatum sunt duplicia : quaedam infra
+            nos, et illa sunt excidenda, sicut pronitas ad malum et difficultas ad bonum vel etiam
+            radices peccatorum ; quaedam extra, et illa non sunt introducenda ; et quantum ad haec
+            duo genera duas ponit differentias.</p>
+          <p xml:id="bb-d4e18186-d1e174">Sed tamen primae expositioni repugnat nugatio, secundae repugnat relatio eius quod est
+            earum. Et ideo tertio modo dicitur quod ad satisfactionem completam duo requiruntur,
+            scilicet emenda praesens pro culpa praeterita et propositum firmum in vitando futuram ;
+            et ista duo tangit in hac notificatione. Quantum ad emendam pro culpa perpetrata dicit :
+            peccatorum causas excidere. Non enim potest pro culpa melius emenda fieri quam ea a se
+            cum dolore et poena praecidendo removere, quae cum amore sequendo peccavit. Quantum ad
+            firmum propositum de futuro dicit : et suggestionibus aditum non indulgere.</p>
+        </div>
+        <div xml:id="bb-d4e18186-Dd1e179">
+          <head xml:id="bb-d4e18186-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e18186-d1e184">Et per hoc patet responsio ad obiectum primo, quia non est nugatio ; et ulterius, quae
+            sit differentia definitionum; quia haec definitio tangit recessum a malo, illa <name ref="#Anselm">Anselmi</name> accessum ad boimm.</p>
+          <p xml:id="bb-d4e18186-d1e190">Ad illud quod obicitur secundo, quod hoc totum convenit a peccato cessare, dicendum
+            quod peccatorum causas excidere dupliciter est : uno modo per declinationem solam, alio
+            modo per pugnam et violentiam. Primo modo opponit, secundo modo accipit hic excidere
+            causas peccatorum per poenalitates assumptas illis contrarias, per quas violenter illae
+            exciduntur.</p>
+          <p xml:id="bb-d4e18186-d1e193">Ad illud quod obicitur, quod Deus solus excidit, dicendum quod est excisio quaedam per
+            cautelam et praeventionem et est excisio per ablationem causae in effectu. Prima potest
+            fieri ab homine, secunda non nisi a Deo.</p>
+          <p xml:id="bb-d4e18186-d1e196">Ad illud quod obicitur, quod peccatum non habet causam etc., dicendum quod causas hic
+            vocat occasiones. Occasiones autem duplices sunt : quaedam proximae, ut coena splendida
+            est occasio edacitatis ; quaedam remotae, ut invitatio ad bonam coenam. Et qui bene vult
+            satisfacere necesse habet occasiones propinquas excidere ; et tales sunt in nostra
+            potestate, remotae autem non.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

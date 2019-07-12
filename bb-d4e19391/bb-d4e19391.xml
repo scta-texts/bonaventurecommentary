@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e19391">
+        <head xml:id="bb-d4e19391-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e19391-Hd1e111" type="question-title">Quid sit contritio quoad suam substantiam.</head>
+        <p xml:id="bb-d4e19391-d1e114">Circa primum proceditur sic : Magistri dicunt quod contritio est dolor voluntarie pro
+          peccatis assumptus.</p>
+        <div xml:id="bb-d4e19391-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e19391-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e19391-d1e122">Et quod ita sit, videtur : Quia, sicut dicit <name ref="#Ambrose">Ambrosius</name>,
+              <quote xml:id="bb-d4e19391-Qd1e127">poenitentia est commissa deflere ; et iterum</quote> : <quote xml:id="bb-d4e19391-Qd1e130">Poenitentia est
+              dolor et amaritudo mentis pro peccatis, quae quisque commisit</quote>. Sed hoc non est
+            confessio neque satisfactio : ergo contritio.</p>
+          <p xml:id="bb-d4e19391-d1e134">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e19391-Qd1e139">Dolendum est et dolore
+              purgandum</quote>. Sed contritio est illud in poenitentia quod peccata depurgat : ergo
+            contritio est dolor.</p>
+          <p xml:id="bb-d4e19391-d1e143">Item, ratione videtur, quia primum quod est in penitentia est dissentire a peccato
+            facto ; sed quod factum est necesse est esse factum ; sed, cum aliquid displicet alicui
+            vehementer, quod tamen non potest facere quin fuerit, generat dolorem : ergo etc.</p>
+          <p xml:id="bb-d4e19391-d1e146">Contra : Sicut vere poenitentem necesse est dolere, ita etiam pudere : ergo pudor est
+            de poenitentia ; et non est confessio nec satisfactio : ergo contritio, et sic etc.</p>
+          <p xml:id="bb-d4e19391-d1e150">Item, in poenitentia non tantum est dolere, verum etiam gaudere ; unde in praecedenti
+            distinctione : <quote xml:id="bb-d4e19391-Qd1e152">Doleat et de dolore gaudeat</quote>. Ergo quemadmodum contritio
+            dicitur dolor, ita etiam debet. dici gaudium.</p>
+          <p xml:id="bb-d4e19391-d1e156">Item, videtur quod non sit dolor, quia, sicut dicit <name ref="#Augustine">Augustinus</name>, XIV De civitate Dei, <quote xml:id="bb-d4e19391-Qd1e161" source="http://scta.info/resource/adcd-l14">dolor est dissensus ab his rebus quae
+              nobis nolentibus accidunt</quote> ; sed contritio est dissensus a peccatis quae nobis
+            volentibus accidunt : ergo etc. Si dicas quod peccata prius sunt placita et volita, post
+            autem displicent et non sunt volita, et pro illo tempore est dolor, contra : dolor est
+            ex coniunctione disconvenientis ; ergo, ab oppositis, ex dissensu a disconvenienti non
+            est dolor, sed gaudium : ergo, si peccata displicent, et per contritionem dissentit quis
+            a peccatis, videtur quod non dolor, sed gaudium est contritio.</p>
+          <p xml:id="bb-d4e19391-d1e165">Item, contritus dolet de peccato facto, aut ergo quia vult ipsum esse factum aut quia
+            non vult. Si quia vult, cum factum sit, tunc evenit quod vult. Si quia non vult, sed
+            omnis voluntas est indiscreta quae appetit impossibile et refugit necessarium : ergo,
+            cum voluntas contriti non sit talis, patet etc. Si dicas quod verum est de voluntate
+            absoluta, sed non de vellitate, et talis est contritio, contra : contritus habet
+            voluntatem a virtute et gratia informatam ; sed omnis talis consistit in pleno consensu
+            : ergo voluntas contriti non est velleitas, sed plena voluntas ; et ita nulla est illa
+            responsio.</p>
+          <p xml:id="bb-d4e19391-d1e168">Item, differt dolor et timor, quia dolor est affectio de praesenti malo, sed timor de
+            futuro ; sed peccatum est praeteritum, et de eo est contritio : ergo non est dolor. Si
+            dicas quod non est praesens secundum affectum, sed secundum aspectum ; similiter et
+            futurum est praesens secundum aspectum : ergo sicut est dolor de praeterito, ita etiam
+            de futuro.</p>
+          <p xml:id="bb-d4e19391-d1e171">Item, cum contritio sit dolor, ut quid magis denominatur nomine contritionis quam
+            doloris ?</p>
+        </div>
+        <div xml:id="bb-d4e19391-Dd1e175">
+          <head xml:id="bb-d4e19391-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e19391-Hd1e180" type="question-title">Contritio est dolor per essentiam, quatenus dolor sumitur pro
+            dissensu voluntatis, non pro passione sensibili</head>
+          <p xml:id="bb-d4e19391-d1e183">Respondeo : Dicendum quod sicut peccatum perpetratur per consensum, sic econtra deletur
+            et destruitur per dissensum voluntatis rationalis ; et quia dissensus. ab ea re quam
+            impossibile est non esse generat dolorem, sicut dicit <name ref="#Augustine">Augustinus</name> : ideo dicendum quod contritio est dolor per essentiam. Sed
+            attendendum quod dolor dicitur dupliciter : uno modo ipse dis sensus voluntatis, alio
+            modo passio resultans in sentientem ex illo dissensu, per quam prorumpit homo in
+            lacrymas ; et ille dissensus est de essentia contritionis, sed illa passio est effectus
+            eius.</p>
+        </div>
+        <div xml:id="bb-d4e19391-Dd1e191">
+          <head xml:id="bb-d4e19391-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e19391-d1e196">1-2. Quod ergo obicitur, quod sit pudor et gaudium sicut et dolor, dicendum quod pudor
+            consequitur ad illum dissensum, secundum quod dissentit a peccato tamquam a turpi.
+            Consequitur etiam gaudium, secundum quod ex illo dissensu sentit se elongari a peccato ;
+            immediatius autem consequitur passio, quae est dolor. Nam ipse dissensus vehemens a re
+            quam nolumus esse et tamen est, immediate dolorem generat, quia dissensus ; sed quia a
+            turpi, pudorem ; et quia ab illo elongat, gaudium.</p>
+          <p xml:id="bb-d4e19391-d1e199">Ad illud quod obicitur, quod peccatum nobis volentibus accidit, dicendum quod peccatum
+            est voluntarium quoad delectationem, sed non voluntarium ratione malitiae et
+            deformitatis et poenae. Sed illud non solvit, quia dolor non tantum est de deformitate,
+            immo etiam de delectatione. Ideo dicendum quod, ad hoc quod doleat, sufficit quod illud
+            de quo dolet sit nolitum pro tempore in quo dolet ; tamen non oportet quod omni tempore.
+            Et quod in contrarium adducit, quod dissensus a re disconvenienti generat gaudium, verum
+            est, quando est tantum dissensus, ut puta, cum refugit ne faciat peccatum, non dolet,
+            sed gaudet ; sed quando est dissensus cum coniunctione, tunc est dolor ; et ita est in
+            contritione, quia nollet peccasse, et tamen necessarium est ipsum peccasse.</p>
+          <p xml:id="bb-d4e19391-d1e202">Ad illud quod obicitur, quod contritus vult impossibile, dicendum quod velleitate vult,
+            non voluntate absoluta ; sicut aliquis ex pietate de illo qui mortuus est vellet quod
+            viveret.</p>
+          <p xml:id="bb-d4e19391-d1e205">Et quod obicit, quod virtus est in pleno consensu, dicendum quod consensus semiplenus
+            autest propter defectum voluntatis, sicut piger vult et non vult, et talis velleitas non
+            est gratiae, sed pigritiae ; aut est propter defectum voliti, quia non est natum eligi,
+            cum sit impossibile, et talis bene est a virtute, ut patet in pietate ; et hic est
+            plenus consensus a parte voluntatis, quia reflectitur voluntas supra se et vult se sic
+            velle.</p>
+          <p xml:id="bb-d4e19391-d1e209">Ad illud quod obicitur, quod dolor est de praesenti, dicendum sicut dictum fuit, quod
+            est de praesenti secundum aspectum. Quod obicitur in contrarium, quod non sufficit quod
+            sit praesens secundum aspectum, respondent aliqui quod est praesens secundum
+            reputationem, quia pro tali reputat se vere contritus ac si esset infectus peccato prius
+            facto. Sed illud non solvit, quia, esto quod constaret sibi de iustitia praesenti, tamen
+            adhuc doleret de praeterito. Ideo dicunt alii quod est praesens secundum effectum, quia
+            remanent reliquiae. Sed tunc esto quod nullae reliquiae remanerent, adhuc tamen doleret
+            homo de malo quod fecit.</p>
+          <p xml:id="bb-d4e19391-d1e212">Ideo dicendum quod ad dolorem faciendum sufficit quod res quae displicet voluntati sit
+            praesens aspectui, non secundum coniecturam, sed secundum certitudinem, quia ita est et
+            non potest aliter esse ; et tunc est dolor, sive illud de quo gemitus est sit praesens
+            sive praeteritum sive futurum. Unde, cum dicitur mihi certitudinaliter quod aliquls quem
+            diligo morietur, generat in me dolorem ; multo magis de praeterito in quo est perfecta
+            certitudo.</p>
+          <p xml:id="bb-d4e19391-d1e215">Ad illud quod quaeritur : quare magis denominatur nomine contritionis et quae
+            convenientia doloris ad contritionem ? dicunt aliqui quod ideo hoc nomine censetur, quia
+            sicut unguentum sanativum conficitur ex multis herbis in mortario contritis, sic
+            unguentum compunctionis conficitur ex herbis peccatorum, quae natae sunt in terra
+            nostra, dum conteruntur in mortariolo conscientiae : ita videtur <name ref="#Bernard">Bernardus</name>, Super Cantica, dicere. Sed tunc ab hac contritione non diceretur
+            homo contritus, sed conterens. Ideo addendum quod in hac contritione tria sunt
+            attendenda : quod conteritur, a quo conteritur et ad quid contritio terminatur. Quod
+            conteritur est cor peccatoris, quod est tamquam vas fictile repletum veneno peccati,
+            iuxta illud Deuteronomii 32, 33 : <quote xml:id="bb-d4e19391-Qd1e220" ana="#deut32_33">Fel draconum vinum
+              eorum</quote> etc. A quo conteritur est duplex mola : una superius sursum elevans, et
+            haec est spes veniae ex consideratione misericordiae ; alia mola deorsum deprimens, est
+            timor poenae veniens ex consideratione divinae iustitiae. Et de his molis dicitur
+            Deuteronomii 24, 6 : <quote xml:id="bb-d4e19391-Qd1e223" ana="#deut24_6">Non accipies loco pignoris inferiorem et
+              superiorem molam</quote>. Istud vas hic conteritur, quia durum est, ut emollescat :
+            cor enim durum male habebit in novissimo ; vel melius, ut peccati delectatio totaliter
+            effundatur. Ideo dicitur contritio, non fractio, quia fractio est in maiores partes,
+            contritio in minores ; et quando in maiores partes est fractio, sapor aliquo modo
+            remanet ; ut autem non remaneat nec sapor nec veritas, ideo in partes minims conteritur.
+            Et haec delectatio, totaliter removetur per poenam aeternam et removetur per gratiam ;
+            et ideo utrbbique contritio, et in poena aeterna, secundum illud Ecclesiastici 27, 3 :
+              <quote xml:id="bb-d4e19391-Qd1e226" ana="#sir27_3">Conteretur cum delinquente delictum</quote> ; et per gratiam,
+            Psalmo [50, 19]. <quote xml:id="bb-d4e19391-Qd1e229" ana="#ps50_19">Cor contritum et humiliatum Deus non
+              despicies</quote> ; sed aliter : quia ibi conteritur in pulverem, non ut aliud vas
+            fiat, quia de impiis dicitur : Non sic impii, non sic, sed tamquam pulvis etc. ; sed in
+            contritione gratiae est contritio ad generandum. vas novum et solidum per humorem
+            gratiae et lacrymarum, ; et ideo recte dicitur contritio, non attritio, quia partium
+            tritarum est unio, ut fiat vas in honorem, secundum illud de Paulo : <quote xml:id="bb-d4e19391-Qd1e233" ana="#act9_15">Vas electionis est mihi</quote>, Actuum 9, 15 ; et II ad Timotheum 2,
+            21 : <quote xml:id="bb-d4e19391-Qd1e236" ana="#IItim2_21">Si quis emundaverit se ab his, erit vas</quote> etc. Et sic
+            patet ratio dicti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

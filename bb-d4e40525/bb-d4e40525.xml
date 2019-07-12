@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3 Utrum uxoricidium impediat Matrimoniizm.</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3 Utrum uxoricidium impediat Matrimoniizm.</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e40525">
+        <head xml:id="bb-d4e40525-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e40525-Hd1e111">Utrum uxoricidium impediat Matrimoniizm.</head>
+        <p xml:id="bb-d4e40525-d1e114">Tertio quaeritur, utrum uxoricidium impediat Matrimonium.</p>
+        <div xml:id="bb-d4e40525-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e40525-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e40525-d1e122">Et quod sic, videtur : <ref xml:id="bb-d4e40525-Rd1e124" target="http://scta.info/resource/gd-p2c33q2-d1e188">Causa
+              XXXIII, quaestione 2</ref> : <quote xml:id="bb-d4e40525-Qd1e127">Interfectores suarum coniugum ad poenitentiam
+              redigendi unt, quibus penitus denegatur coniugium</quote>.</p>
+          <p xml:id="bb-d4e40525-d1e131">Item, <ref xml:id="bb-d4e40525-Rd1e133" target="http://scta.info/resource/gd-p2c33q2-d1e236">eodem titulo, in
+              poenitentia Arnulfi</ref>, qui occiderat uxorem, dicitur : <quote xml:id="bb-d4e40525-Qd1e136">Uxorem nunquam
+              ducere, concubinam nunquam habere nec adulterium committere audeas</quote>.</p>
+          <p xml:id="bb-d4e40525-d1e140">Item, in eo in quo quis peccat, in eo torquendus est ; sed iste peccavit contra
+            Matrimonium, occidendo uxorem : ergo etc.</p>
+          <p xml:id="bb-d4e40525-d1e143">Item, supra, distinctione trigesima quinta, dicit <name ref="#Lombard">Magister</name>
+            in littera, et tractum est de canone expresse, Extra, De eo qui duxit in coniugium quam
+            polluit per adulterium, ubi dicitur quod Matrimonium nullum est et dirimendum est. Ergo
+            quod impedit, hoc est propter homicidium mariti quod perpetravit : ergo, si hic vir
+            occidit uxorem, patet etc.</p>
+          <p xml:id="bb-d4e40525-d1e150">Contra : Si quis occideret uxorem alienam, propter homicidium non efficitur inhabilis
+            ad Matrimonium. Ergo, si plus potest in uxorem propriam, videtur quod propter eius
+            occisioriem a Matrimonio non debeat prohiberi.</p>
+          <p xml:id="bb-d4e40525-d1e153">Item, possibile est quod vir occidat uxorem zelo quem habet in detestationem adulterii.
+            Ergo videtur quod stet pro Matrimonio : ergo non debet puniri privatione Matrimonii.</p>
+          <p xml:id="bb-d4e40525-d1e156">Item, omne peccatum potest deleri per poenitentiam : si ergo poena ista est ratione
+            peccati, et haec poena potest esse occasio peccati, maxime iuveni qui habet incentivum
+            libidinis : ergo videtur quod non possit impediri, saltem poenitentia facta.</p>
+          <p xml:id="bb-d4e40525-d1e159">Item, magis repugnat bono Matrimonii adulterium quam homicidium ; sed adulterium
+            simpliciter non impedit : ergo nec uxoricidium.</p>
+        </div>
+        <div xml:id="bb-d4e40525-Dd1e163">
+          <head xml:id="bb-d4e40525-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e40525-Hd1e168" type="question-title">Coniugicidium impedit matrimonium, et quidem coniunctum cum
+            adulterio, vel cum primissione matrimonii dirimit respectu complicis, sicut et
+            adulterium cum eadem promissione</head>
+          <p xml:id="bb-d4e40525-d1e171">Respondeo : Dicendum quod occidere uxorem potest quis tripliciter : aut persequendo
+            culpam, aut persequendo naturam, aut persequendo Matrimonium. Persequendo culpam, ut cum
+            in fornicationis crimine deprehendit et adeo detestatur quod in ultionem criminis mortem
+            infligit. Persequendo naturam, ut si mulier propter defectum aliquem quem habet in se,
+            non habet gratiam viri ; unde vir eam exosam habet et gravem et propter istam
+            detestationem et odii intensionem, furore accenso, ipsam perimit. Persequendo
+            Matrimonium, ut quando moechatur cum aliqua quam vult ducere in uxorem et non potest
+            nisi uxore mortua ; et ideo ipsam interficit. Primum est grave peccatum propter excessum
+            ; secundum est gravius et tertium est gravissimum.</p>
+          <p xml:id="bb-d4e40525-d1e174">In quolibet horum prohibetur a Matrimonio contrahendo, sed magis in secundo ex maxime
+            in tertio ; et in quolibet horum casuum dispensatur ab Ecclesia, et maxime in iuvenibus
+            ; sed in primo de facili, in secundo difficilius, in tertio quodam modo sic et quodam
+            modo non. Respectu enim illius personae cum qua moechabatur et propter quam habendam in
+            Matrimonio occidit coniugem, nunquam cum eo dispensabitur, immo, si iunctus fuerit,
+            simpliciter separatur ; sed respectu aliarum, propter periculum, dispensatur. Unde,
+            quamvis crimen non faciat omnino illegitimum respectu omnium propter periculum
+            fornicationis, facit tamen simpliciter illegitimum respectu alicuius personae
+            determinatae, scilicet homicidium iunctum cum adulterio vel adulterium cum fidei datione
+            vel datio fidei cum uxoricidio. Et sic concedendum est quod tale crimen impedit
+            Matrimonium aliquo modo taliter, quia impedit, sed non dirimit ; alio modo quod etiam
+            dirimit, sicut tactum est.</p>
+        </div>
+        <div xml:id="bb-d4e40525-Dd1e179">
+          <head xml:id="bb-d4e40525-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e40525-d1e184">Ad illud ergo quod obicitur, quod qui occidit uxorem alienam, dicendum quod non est
+            simile ; quia enim offendit Matrimonium in se, cum uxorem propriam interficit, ideo in
+            se debet puniri ; non sic cum interficit alienam.</p>
+          <p xml:id="bb-d4e40525-d1e187">Ad illud quod obicitur de zelo, dicendum quod zelus non excusat a toto, sed a tanto ;
+            unde facilius cum eo dispensatur.</p>
+          <p xml:id="bb-d4e40525-d1e190">Ad illud quod obicitur, quod potest per poenitentiam deleri, dicendum quod enormitas
+            non ita cito deletur ; immo in poenam manet diutius, sicut patet in irregularitate.</p>
+          <p xml:id="bb-d4e40525-d1e193">Ad illud quod obicitur, quod adulterium magis repugnat, dicendum quod falsum est, quia
+            uxoricidium est contra substantiam Matrimonii, quia perimit subiectum ; sed adulterium
+            est contra bonum fidei, sine quo Matrimonium esse potest ; et ideo non est simile.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

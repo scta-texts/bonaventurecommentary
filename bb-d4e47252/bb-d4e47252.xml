@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e47252">
+        <head xml:id="bb-d4e47252-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e47252-Hd1e111" type="question-title">Utrum suffragia prosint defunctis mediocriter bonis.</head>
+        <div xml:id="bb-d4e47252-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e47252-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e47252-d1e119">Quantum ergo ad primum proceditur sic, et ostenditur quod non prosint mediocriter bonis
+            : Magis dignis debent Ecclesiae suffragia proficere ; sed non prosunt bonis qui sunt in
+            paradiso : ergo etc. Si dicas quod non indigent, ideo non est simile, contra : in vita
+            ista peccatores indigent, et tamen necesse est quod ipsi faciant poenitentiam, non alii
+            pro ipsis.</p>
+          <p xml:id="bb-d4e47252-d1e122">Item, illi qui non est in statu merendi nec esse potest, nihil prodest alienum
+            suffragium, sicut patet si aliquis sit stultus irrevocabiliter ; sed tales sunt mortui :
+            ergo etc. Si tu dicas quod prius meruerunt, ut eis prodessent in statu illo contra :
+            quodcumque meruerunt necesse est eos meruisse, et quod necesse est eos meruisse, necesse
+            est remunerari : ergo, si nunquam fiant suffragia remunerabuntur : ergo nihil eis
+            prosunt.</p>
+          <p xml:id="bb-d4e47252-d1e125">Item, poena purgatoria mensuratur secundum quantitatem cremabilis : ergo, cum suffragia
+            non minuant de culpa, ergo nec de poena. Quod non minuant de culpa, patet, quia solus
+            Deus habet effectum in animam. Si tu dicas quod habent effectum in animam per modum
+            meriti, et Deus merito suffragiorum minuit, contra : etsi Deus deleat culpae maculam per
+            se, tamen reatum per poenam ; sed constat quod in eis quantum ad reatum oportet deleri
+            culpam : ergo per poenam purgatoriam ; sed hoc nihilominus faceret sine suffragiis :
+            ergo etc.</p>
+          <p xml:id="bb-d4e47252-d1e128">Item, hoc ostenditur per deductionem ad impossibile, quoniam, si delet partem, ergo
+            possibile est quod totum, et ita ille remanebit impunitus.</p>
+          <p xml:id="bb-d4e47252-d1e132">Sed contra : Auctoritate Sacrae Scripturae, II Machabaeorum 12, 46 : <quote xml:id="bb-d4e47252-Qd1e134">Sancta et
+              salubris est cogitatio pro defunctis exorare, ut a peccatis solvantur</quote>.</p>
+          <p xml:id="bb-d4e47252-d1e138">Item, <ref xml:id="bb-d4e47252-Rd1e140">Augustinus, De cura pro mortuis agenda</ref> : <quote xml:id="bb-d4e47252-Qd1e143">Beneficia et
+              sacrificia, quae offeruntur pro non valde malis, sunt propitiationes</quote>. Ergo
+            etc.</p>
+          <p xml:id="bb-d4e47252-d1e147">Item, hoc ostenditur auctoritate Ecclesiae et usu, quae orat pro defunctis. Si ergo
+            Ecclesia non, decipitur, patet quod suffragia valent.</p>
+          <p xml:id="bb-d4e47252-d1e150">Item, ratione videtur, quia poena purgatoria est terminabilis, ergo et diminuibilis ;
+            sed, si pro eo qui potest crescere in gratia, fiat oratio, valet ad gratiam augmentandam
+            : ergo pari ratione, si fiat pro eo cuius poena potest diminui, valet ad poenam
+            diminuendam.</p>
+          <p xml:id="bb-d4e47252-d1e153">Item, sicut se habent orationes Sanctorum mortuorum ad vivos, sic vivorum ad mortuos ;
+            sed Sancti mortui impetrant nobis bona et nos adiuvant : ergo et vivi mortuos.</p>
+        </div>
+        <div xml:id="bb-d4e47252-Dd1e157">
+          <head xml:id="bb-d4e47252-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e47252-Hd1e162" type="question-title">Suffragia defunctis mediocriter bonis prosunt</head>
+          <p xml:id="bb-d4e47252-d1e165">Respondeo : Dicendum quod, quia in omni opere Domini est misericordia et veritas, duo
+            sunt quae faciunt suffragia Ecclesiae valere, scilicet dignitas et necessitas. Iustitia
+            enim considerat dignitatem ; et digni sunt qui in caritate decesserunt ab aliis membris
+            Ecclesiae adiuvari, maxime si ipsi alios adiuverunt. Misericordia vero considerat
+            necessitatem ; et haec quidem magna est in his qui sunt in purgatorio, quia graviter
+            puniuntur et se iuvare non possunt.</p>
+        </div>
+        <div xml:id="bb-d4e47252-Dd1e169">
+          <head xml:id="bb-d4e47252-Hd1e171">Ad rationes</head>
+          <p xml:id="bb-d4e47252-d1e174">Ex hoc patet responsio ad primum, quia suffragia non ita valent comprehensoribus,
+            scilicet quia non indigent, et non ita viatoribus, quia adhuc se possunt iuvare.</p>
+          <p xml:id="bb-d4e47252-d1e177">Ad illud quod obicitur, quod non sunt in statu merendi, dicendum quod, quamvis non sint
+            in statu merendi, sunt tamen in statu solvendi ; solvunt enim quae debent : et ideo,
+            etsi non possint adiuvari in merito, possunt tamen adiuvari in solutione ; status autem
+            solvendi non est semper cum statu meriti, sed illum praesupponit, scilicet quod prius
+            meruit quod in tali statu posset solvere et iuvari. Quod obicit, quod, si meruit,
+            necesse est meruisse, dicendum quod verum est de merito absoluto, sed illud fuit meritum
+            conditionale.</p>
+          <p xml:id="bb-d4e47252-d1e180">Ad illud quod obicitur secundum quantitatem cremabilis etc., dicendum quod quantitas
+            poenae non respicit maculam, sed reatum ; et obligatio ad poenam minuitur, solutione
+            poenae facta ab ipso vel ab alio.</p>
+          <p xml:id="bb-d4e47252-d1e183">Ad illud, quod solveretur tota, et sic etc., dicendum quod verum est, si tot essent
+            suffragia ; sed suffragia non auferunt a poena nec liberant nisi dum fiunt ; et in illo
+            tempore homo punitur et alii pro ipso : ideo non remanet impunitus. Verumtamen, si
+            superabundarent, tunc possibile esset totum remitti ; nec tamen peccatum remaneret
+            impunitum, quia, quamvis non puniatur in se, punitur tamen alio modo in aliis, sicut
+            supra dictum fuit de Baptismo ; hoc tamen vix aut nunquam fit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

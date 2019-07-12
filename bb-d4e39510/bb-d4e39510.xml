@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e39510">
+        <head xml:id="bb-d4e39510-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e39510-Hd1e111" type="question-title">Utrum conditio servitutis cum contradictione domini impediat
+          Matrimonium.</head>
+        <div xml:id="bb-d4e39510-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e39510-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e39510-d1e119">Circa primum sic proceditur et ostenditur, quod conditio cum contradictione domini
+            impediat Matrimonium : Quia servus non potest intrare religionem, domino suo
+            contradicente ; sicut dicunt iura, et si intrat, compellitur exire, et pro nullo habetur
+            votum : si ergo non potest se obligare Deo per votum, multo minus nec mulieri per
+            Matrimonium.</p>
+          <p xml:id="bb-d4e39510-d1e122">Item, servus, contradicente domino, non potest ad sacros Ordines promoveri : ergo
+            videtur, quod nec Matrimonium contrahere pari ratione.</p>
+          <p xml:id="bb-d4e39510-d1e125">Item, in Matrimonio transfertur potestas corporis viri in uxorem et e converso ; sed
+            servus non habet potestatem sui corporis, sed eius dominus : ergo non potest contra
+            voluntatem domini contrahere.</p>
+          <p xml:id="bb-d4e39510-d1e128">Item, servus tenetur domino suo obedire, cum praecipit sibi aliquid ; item tenetur
+            uxori debitum reddere, cum petit ; sed potest esse quod dominus petat servitium, et uxor
+            tunc petat debitum ; sed utrumque reddere est impossibile ; ergo si nullus potest se
+            obligare ad incompossibilia, si est servus, non potest contrahere.</p>
+          <p xml:id="bb-d4e39510-d1e132">Item, conditio enumeratur inter impedimenta Matrimonii ; sed haec est servitus : ergo
+            etc.</p>
+          <p xml:id="bb-d4e39510-d1e135">Contra : Ad Galatas 3, 2 : <quote xml:id="bb-d4e39510-Qd1e137" ana="#gal3_2">In Christo Iesu non est servus neque
+              liber</quote>. Ergo nec quantum ad sacramenta Christi et Ecclesiae est distinctio
+            servi et liberi : ergo nec in Matrimonio.</p>
+          <p xml:id="bb-d4e39510-d1e141">Item, servus et dominus sunt pares in concupiscentiae morbo, ergo et in remedio ; sed
+            remedium concupiscentiae carnalis est Matrimonium : ergo in hoc sunt pares : ergo unus
+            non potest alterum impedire.</p>
+          <p xml:id="bb-d4e39510-d1e144">Item, servitus est de iure positivo ; sed Matrimonium est de iure naturali ; ergo, si
+            ius positivum non praeiudicat nec impedit ius naturale, nec servitus Matrimonium.</p>
+          <p xml:id="bb-d4e39510-d1e147">Item, sicut servus tenetur obedire domino, ita et filius patri ; sed in hoc filitts non
+            tenetur obedire patri, ut habitum est supra et ostensum quantum ad Matrimonium
+            contrahendum : ergo nec servus domino.</p>
+        </div>
+        <div xml:id="bb-d4e39510-Dd1e151">
+          <head xml:id="bb-d4e39510-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e39510-Hd1e156" type="question-title">Conditio servitutis non impedit matrimonium, etiam
+            contradicente domino</head>
+          <p xml:id="bb-d4e39510-d1e159">Respondeo : Dicendum quod secundum ius novum conditio servitutis non impedit
+            Matrimonium, etiam domino contradicente vel dominis, quia sacramenta ecclesiastica
+            omnibus sunt communia, et servus, etiam coniugatus, potest suo domino debita servitia
+            exhibere ; unde per Matrimonium non subtrahitur a domini potestate.</p>
+        </div>
+        <div xml:id="bb-d4e39510-Dd1e163">
+          <head xml:id="bb-d4e39510-Hd1e165">Ad rationes</head>
+          <p xml:id="bb-d4e39510-d1e168">1-2. Ad illud ergo quod obicitur de religione, dicendum quod in religione religiosus
+            omnino subest praecepto religionis quantum ad omne tempus, et ideo absolvitur ab omni
+            alia potestate : et quia non potest nec debet auferri ius domini quod habet in servum,
+            ipso invito, ideo patet etc. Non sic in Matrimonio, quia adhuc servus est. Et per hoc
+            patet illud de Ordine, quia promotus ad Ordines sacros hoc ipso efficitur liber.</p>
+          <p xml:id="bb-d4e39510-d1e171">Ad illud quod obicitur, quod transfertur in mulierem potestas viri, dicendum quod non
+            simpliciter transfertur - quia uxor non dicitur domina viri - sed quoad actum
+            coniugalem, quantum ad quem nullam habebat potestatem dominus super servum ; et ideo
+            quantum ad illum actum transferre potest, licet non ita libere, sicut unus alius, ut
+            videbitur.</p>
+          <p xml:id="bb-d4e39510-d1e174">Ad illud, quod obicitur de redditione servitii, dicendum quod servus aut contrahit
+            domino consentiente aut contradicente. Si consentiente, cum concedens aliquid concedat
+            et illa que ad illius ius pertinent, et ad Matrimonium pertinet redditio debiti, cum
+            uxor petat, uxore petente debit.um et domino aliud imperante, tenetur et debet non
+            obedire domino, sed uxori. Si autem, domino contradicente, contractum est, cum dominus
+            suo iure privari non debeat, ex utraque parte pari imminente periculo, debet domino
+            obedire. Quodsi maius periculum sit ex parte uxoris, quia timet lapsum in fornicationem
+            et non timet graviter dominum offendere, debet secundum legem caritatis divinae debitum
+            prius uxori reddere quam exsequi imperium domini sui. Regulariter tamen tenendum est
+            quod, cum contrahit cum servo scienter, domino contradicente vel e converso, sibi
+            praeiudicat, ut ius petendi non habeat, quando obsequium postulabit ; et ideo servus non
+            obligatur hac repugnantia, quia tenetur debitum solvere, cum nullum praeiudicium domino
+            generatur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

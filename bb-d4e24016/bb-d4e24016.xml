@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24016">
+        <head xml:id="bb-d4e24016-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e24016-Hd1e111" type="question-title">Utrum potestas clavium habeat posse in culpam.</head>
+        <p xml:id="bb-d4e24016-d1e114">Circa primum sic proceditur : quod habeat posse in culpam.</p>
+        <div xml:id="bb-d4e24016-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e24016-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e24016-d1e122">Ioannis 20 23 : <quote xml:id="bb-d4e24016-Qd1e124">Quorum remiseritis peccata, remittuntur</quote> etc. Ergo
+            videtur quod habeat posse super peccata.</p>
+          <p xml:id="bb-d4e24016-d1e128">Item, sacramentum Poenitentiae est remedium contra mortale actuale sicut Baptismus
+            contra originale : ergo sicut virtute Baptismi deletur originale, ita virtute
+            Poenitentiae actuale ; sed virtus Poenitentiae principaliter consistit penes claves :
+            ergo etc.</p>
+          <p xml:id="bb-d4e24016-d1e131">Item, vir iustus merito vitae potest alii primam gratiam impetrare, cui non est
+            commissum officium mediatoris ; sed sacerdoti per officium clavium est commissum
+            officium mediatoris ; ergo multo fortius sacerdos gratiam impetrare potest : ergo et
+            peccata dimittere.</p>
+          <p xml:id="bb-d4e24016-d1e134">Item, communiter conceditur quod sacramentum Baptismi delet omnem culpam, sed tamen in
+            hoc non detogatur divinae potentiae in aliquo ; sed maioris virtutis est susceptivus
+            spiritua rationalis, quam aqua : ergo videtur quod sine aliquo inconvenienti possit dici
+            quod sacerdos virtute clavium ministerialiter absolvit a culpa.</p>
+          <p xml:id="bb-d4e24016-d1e138">Contra : Matthaei. 9 ; 2, cum Dominus dixisset : <quote xml:id="bb-d4e24016-Qd1e140" ana="#mt9_2">Fili, dimittuntur
+              tibi peccata tua</quote>, statim dixerunt : <quote xml:id="bb-d4e24016-Qd1e143" ana="#mt9_3">Hic blasphemat</quote>
+            ; sed non credebant blasphemare ob aliud, nisi quia peccata diittere est solius Dei :
+            non ergo sacerdotis.</p>
+          <p xml:id="bb-d4e24016-d1e147">Item <name ref="#Augustine">Augustinus</name> et <name ref="#GregoryGreat">Gregorius</name> dicunt quod in suscitatione Lazari significata est resuscitatio
+            peccatoris ; sed Lazarus est prius a Domino vivificatus quam traderetur discipulis
+            exsolvendus : ergo absolutio sacerdotis nihil valet antequam homo sit vivificatus per
+            gratiam et suscitatus a morte culpae : ergo sacerdos non potest super culpam.</p>
+          <p xml:id="bb-d4e24016-d1e156">Item, paris potestatis est interius baptizare et a culpa mortali absolvere ; sed Deus
+            non debuit potestatem baptizandi interius communicare ; ne spes poneretur in homine :
+            ergo pari ratione nec potestatem absolvendi ab actuali.</p>
+          <p xml:id="bb-d4e24016-d1e159">Item, nullo modo fit remissio culpae nisi per gratiam ; sed gratiam dare est potentiae
+            infinitae, sicut monstratum est in praecedentibus : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e24016-Dd1e163">
+          <head xml:id="bb-d4e24016-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e24016-Hd1e168" type="question-title">Claves ecclesiae ad delendam culpam se estendunt per modum
+            deprecantis et impetrantis, sed, proprie loquendo sive per modum activi et impertientis,
+            non se extendunt supra culpam</head>
+          <p xml:id="bb-d4e24016-d1e171">Respondeo : Ad praedictorum intelligentiam est notandum. quod circa hoc est duplex
+            modus dicendi secundum diversos doctores.</p>
+          <p xml:id="bb-d4e24016-d1e174">Aliqui enim dicere voluerunt quod dupliciter est loqui de clavium potestate : aut prout
+            operatur in proposito confitendi, aut in actu confessionis. Si prout operatur in
+            proposito confitendi, sic, quia illud propositum clauditur in contritione, et in
+            contritione primo deltur culpa, sic virtus clavium quodam modo se extendit ad delendam
+            culpam. Non enim a culpa potest iustificari, nisi proponat sacerdoti confiteri. Si autem
+            loquamur de potestate prout operatur in actu absolvendi, sic non potest in culpam, pro
+            eo quod digne accedens ad absolutionem, accedit contritus et suscitatus ; et ita est ei
+            iam culpa remissa. Sed iste modus dicendi, licet videatur probabilis, tamen habet in
+            superficie phantasiam : primum, quia Baptismus-sacramentum non dicitur operari antequam
+            homo baptizetur, alioquin operatum fuisset ab initio ; pari ratione nec clavis. Item,
+            plus potest unumquodque in re quam in solo proposito : si ergo in proposito delet
+            culpam, quanto magis dum exhibetur in re ipsa. Et iterum, possibile est quod aliquis ad
+            absolutionem accedat attritus, sicut ad Baptismum ; quare tunc non fiet attritio
+            contritio, cum non sit fictus ?</p>
+          <p xml:id="bb-d4e24016-d1e177">Et ideo est alius modus dicendi, quod habens clavem per potestatem clavis mediator est
+            Dei ad. hominem et hominis ad Deum. Unde per ipsum peccator ascendit ad Deum, et sic est
+            sacerdos os peccatoris sive loquens pro peccatore ; per ipsum descendit Deus ad.
+            hominem, et sic est sacerdos angelus Dei, immo os, eo quod ipse separat pretiosum a
+            vili. Secundum quod ascendit, habet se per modum inferioris et supplicantis ; secundum
+            quod descendit per modum superioris et iudicantis. Secundum primum modum potest gratiam
+            impetrare, et ad hoc est idoneus ; secundum secundum modum potest Ecclesiae
+            reconciliare. Et ideo in huius significationem in forma absolutionis praemittitur de
+            precatio per modum deprecativum, et subiungitur absolutio per modum indicativum ; et
+            deprecatio gratiam impetrat, sed absolutio praesupponit. Nunquam enim sacerdos
+            absolveret quemquam, de quo non praesumeret quod esset absolutus a Deo.</p>
+          <p xml:id="bb-d4e24016-d1e181">Si ergo quaeratur, utrum potestas clavium se extendat ad delendam culpam, dicendum quod
+            bene potest se extendere per modum deprecantis et impetrantis ; et illud significatum
+            est in benedictione sacerdotum, <ref xml:id="bb-d4e24016-Rd1e183" ana="#num6_11">Numerorum 6, 11</ref> ; sed per
+            modum impertientis non. Quoniam ergo potestas sonat per modum activi et impertientis ex
+            se, hinc est quod potestas clavium, proprie loquendo, non se extendit supra culpam. Et
+            concedendae sunt rationes ad hoc inductae.</p>
+        </div>
+        <div xml:id="bb-d4e24016-Dd1e189">
+          <head xml:id="bb-d4e24016-Hd1e191">Ad rationes</head>
+          <p xml:id="bb-d4e24016-d1e194">Ad illud quod obicitur de Ioanne, dicendum quod vel illud de remissione dicitur quantum
+            ad ostensionem vel solum quantum ad poenam.</p>
+          <p xml:id="bb-d4e24016-d1e197">Ad illud quod obicitur, quod sacramentum Poenitentiae est contra morbum actualis,
+            dicendum quod sacramentum Poenitentiae accipitur prout comprehendit rem interiorem,
+            scilicet contritionem, per eum modum per quem in perfectionem Poenitentiae tria
+            concurrunt, scilicet contritio, confessio et satisfactio.</p>
+          <p xml:id="bb-d4e24016-d1e200">Ad illud quod obicitur, quod vir iustus impetrat gratiam, dicendum quod verum est,
+            tamen non largitur ; et bene potest sacerdos ibi, ut gratiam impetret peccatori ; sed
+            ipse non dat eam, sed alius, et ideo illi soli attribuitur absolutio a culpa.</p>
+          <p xml:id="bb-d4e24016-d1e203">Ad illud quod obicitur de sacramento Baptismi, dicendum quod Baptismus delet culpam per
+            gratiam, sed illius non est causa efficiens, sicut supra ostensum estl, sed virtus
+            divina. Et Baptismus dicitur peccata remittere ratione rei interioris quam solus Deus
+            infundit ; similiter , et Poenitentiae sacramentum. Sed potestas clavis dicit potestatem
+            creaturae rationalis, nec concernit gratiam, sed quod exterius est, quia clavis est
+            extra in sacerdote, et ideo non sic ei attribuitur. Si enim sibi attribueretur mundatio,
+            cum hoc non possit intelligi per modum informandi, intelligeretur per modum
+            efficiendi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

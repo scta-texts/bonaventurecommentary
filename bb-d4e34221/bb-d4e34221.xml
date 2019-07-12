@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e34221">
+        <head xml:id="bb-d4e34221-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e34221-Hd1e111" type="question-title">Utrum consensus ad tempus faciat Matrimonium.</head>
+        <p xml:id="bb-d4e34221-d1e114">Secundo quaeritur, utrum consensus ad tempus faciat Matrimonium, ut cum dicitur : accipio
+          te in meam usque ad decem annos.</p>
+        <div xml:id="bb-d4e34221-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e34221-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e34221-d1e122">Et quod sic, videtur : Quia hic est consensus viri in uxorem et uxoris in virum, facta
+            expressione per verbum : ergo etc.</p>
+          <p xml:id="bb-d4e34221-d1e125">Item, hoc videtur ratione, quia sicut se habet simpliciter ad simpliciter, sic secundum
+            tempus ad secundum tempus ; sed consensus simpliciter facit uxorem simpliciter et
+            matrimonium simpliciter : ergo similiter consensus ad tempus facit Matrimonium ad
+            tempus.</p>
+          <p xml:id="bb-d4e34221-d1e128">Item, sicut aliquis fit servus simpliciter, se subdendo simpliciter, ita etiam fit
+            servus ad tempus, se subdendo ad tempus. Ergo similiter videtur in coniugio, et sic
+            videtur quod ad certum tempus possit fieri Matrimonium.</p>
+          <p xml:id="bb-d4e34221-d1e131">Item, qui aliquid potest dare simpliciter, potest dare et ad tempus ; sed vir potest
+            dare simpliciter potestatem sui corporis : ergo et ad tempus. Sed non potest potestatem
+            sui corporis dare nisi uxori : ergo potest habere uxorem ad tempus. Si tu dicas quod
+            Dominus instituit ad semper, contra : nihil debet Dominus instituere, quod possit
+            vergere in diminutionem sui honoris vel nostrae perfectionis ; sed si Matrimonium esset
+            temporale, posset quis se totum ad Dei obsequium deputare quando venet : ergo.etc.</p>
+          <p xml:id="bb-d4e34221-d1e135">Contra : In quadam <ref xml:id="bb-d4e34221-Rd1e137">decretali <name ref="#GregoryGreat">Gregorii</name> IX, De
+              conditionibus appositis in desponsationibus</ref>, dicitur : <quote xml:id="bb-d4e34221-Qd1e143">Si quis dicat :
+              contraham tecum, donec inveniam aliam honore vel facultatibus digniorem, matrimonialis
+              contractus, quantumcumque sit favorabilis, caret effectu</quote>.</p>
+          <p xml:id="bb-d4e34221-d1e147">Item, ad hoc est definitio <name ref="#HughOfStVictor">Hugonis</name>, qui dicit quod
+            Matrimonium est consensus individuam. vitae consuetudinem tenens.</p>
+          <p xml:id="bb-d4e34221-d1e153">Item, hoc videtur ratione, quia de esse Matrimonii ; ut supra ostensum est, est
+            indissolubilitas : ergo qui consentit in Matrimonium, ad omne tempus se obligat : ergo,
+            si exprimit quod non obligatur nisi ad tempus, nullo modo est Matrimonium.</p>
+          <p xml:id="bb-d4e34221-d1e156">Item, nulla anima unitur Deo per desponsationem nisi simpliciter consentiat et proponat
+            coniungi : ergo similiter in signo, si hoc est conveniens signum ; sed Matrimonium est
+            conveniens signum : ergo non fit Matrimonium nisi exprimatur simpliciter consensus.</p>
+        </div>
+        <div xml:id="bb-d4e34221-Dd1e160">
+          <head xml:id="bb-d4e34221-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e34221-Hd1e165" type="question-title">Ut matrimonium sit validum, oportet simpliciter et ad omne
+            tempus consentire et talem consensum simpliciter exprimere</head>
+          <p xml:id="bb-d4e34221-d1e168">Respondeo : Dicendum quod ad hoc quod sit Matrimonium, necesse est consensum esse et
+            exprimi simpliciter ; unde dici debet : accipio te in meam ; quodsi alio modo consentiat
+            non est consensus matrimonialis sive coniugalis, sed adulterinus. Unde deficit
+            Matrimonium verum, sive deficiat in corde sive in ore consensus simpliciter ; sed quando
+            in.corde, tunc in conspectu Dei et secundum veritatem ; quando in ore, tunc in facie
+            Ecclesiae.</p>
+          <p xml:id="bb-d4e34221-d1e171">Ratio autem quare oportet simpliciter consentire et quod nihil valet consensus ad
+            tempus, est quia consensus non facit Matrimonium nisi eatenus quatenus praesupponit
+            divinam institutionem ; divina autem institutio respicit congruam significationem. Si
+            ergo est significatio rei indivisibilis sive coniunctionis, ideo constituit Dominus
+            coniunctionem talem. ad perpetuitatem ; et huic etiam competit dictamen iuris naturalis.
+            Et ideo, si consensus consonat institutioni, necesse est quod sit ad omne tempus,
+            alioquin causa particularis non concordat universali ; et ideo nihil fit, nec consentit
+            in talem ut in uxorem, sed potius ut in concubinam. Et concedendae sunt rationes ad hoc,
+            quia in forma verborum implicatur aliquid quod est contra Matrimonii substantiam.</p>
+        </div>
+        <div xml:id="bb-d4e34221-Dd1e176">
+          <head xml:id="bb-d4e34221-Hd1e178">Ad rationes</head>
+          <p xml:id="bb-d4e34221-d1e181">Ad illud ergo quod obicitur, quod sicut se habet simpliciter etc., dicendum quod hoc
+            verum est, ubi contingit reperire secundum quid in utroque extremorum ; sed Matrimonium
+            nullo modo est secundum tempus : et ideo non valet illud.</p>
+          <p xml:id="bb-d4e34221-d1e184">Ad illud quod obicitur de servitute, dicendum quod non est simile, quia servitutis
+            vinculum potest esse temporale et perpetuum, sed Matrimonium est perpetuum.</p>
+          <p xml:id="bb-d4e34221-d1e187">Ad illud quod obicitur, quod potestas corporis potest dari ad tempus, dicendum quod non
+            potest dari ad tempus nisi detur simpliciter ; et est simile : quia Deus non acceptat
+            bonam voluntatem vel servitium alicuius, nisi velit vel proponat semper sibi
+            servire.</p>
+          <p xml:id="bb-d4e34221-d1e190">Ad illud quod obicitur, quod Dominus non debuit instituere, dicendum quod in huius
+            sacramenti institutione magis congruitas in.significando et necessitas quam aliud
+            consideratur ; et haec exigunt ipsum esse perpetuum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e44767">
+        <head xml:id="bb-d4e44767-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e44767-Hd1e111" type="question-title">De quidditate libri vitae.</head>
+        <div xml:id="bb-d4e44767-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e44767-Hd1e116">Rationes princiopales</head>
+          <p xml:id="bb-d4e44767-d1e119">Quantum ergo ad primum sic proceditur. Et ostenditur, quod liber ille sit ipse Dei
+            Filius. Super illud Psalmi [68, 29] : <quote xml:id="bb-d4e44767-Qd1e121" ana="#ps68_29">Deleantur de libro</quote>,
+            Glossa : id est, <quote xml:id="bb-d4e44767-Qd1e124">Dei notitia, qua praedestinavit et praescivit conformes fieri
+              imaginis Filii Dei</quote>
+          </p>
+          <p xml:id="bb-d4e44767-d1e128">Item, Apocalypsis 20, 12 : <quote xml:id="bb-d4e44767-Qd1e130" ana="#ap20_12">Alius liber apertus est</quote>,
+            Glossa : <quote xml:id="bb-d4e44767-Qd1e133">Liber iste est praedestinatio, in qua omnes salvandi scripti
+              sunt</quote>.</p>
+          <p xml:id="bb-d4e44767-d1e137">Quod autem liber vitae sit Christus secundum humanitatem, videtur : Quia <name ref="#GregoryGreat">Gregorius</name>, in Moralibus dicit : <quote xml:id="bb-d4e44767-Qd1e142">Liber vitae est
+              visio iudicis advenientis, quia, quisquis eum viderit, mox, teste conscientia,
+              quidquid boni vel mali fecerit, intelligit</quote>. Sed Christus iudicaturus est in
+            forma servi : ergo etc.</p>
+          <p xml:id="bb-d4e44767-d1e146">Item, Glossa <ref xml:id="bb-d4e44767-Rd1e148" ana="#ap20_12">Apocalypsis 20, 12</ref> dicit quod <quote xml:id="bb-d4e44767-Qd1e151">liber vitae
+              est Christus, qui, tunc potens omnibus apparebit</quote>. Sed non apparebit omnibus
+            nisi secundum humanitatem : ergo etc.</p>
+          <p xml:id="bb-d4e44767-d1e156">Sed quod sit vis quaedam, nec Divinitas nec humanitas, videtur dicere <ref xml:id="bb-d4e44767-Rd1e158">Augustinus,
+              XX De civitate Dei</ref> : <quote xml:id="bb-d4e44767-Qd1e161" source="http://scta.info/resource/adcd-l20">Vis
+              quaedam divina nomine libri intelligenda, qua fiet ut cuique bona et mala ad memoriam
+              revocentur, quae libri nomen accepit</quote>.</p>
+          <p xml:id="bb-d4e44767-d1e165">Item, libri intentio ad legendum, est : ergo proprie dicitur liber illud per quod
+            recolit homo bona vel mala ; hoc autem est virtus : ergo etc.</p>
+          <p xml:id="bb-d4e44767-d1e168">Sed contra : Quod non sit Dei notitia, videtur, quia in libro est scripturae impressio,
+            in Deo autem nulla est impressio : ergo, si translatio debet esse secundum
+            similitudinem, non videtur talis translatio recta.</p>
+          <p xml:id="bb-d4e44767-d1e171">Item, quod non humanitas, videtur, quia in libro est legere ; sed in Christo homine nec
+            bona nec mala est legere : ergo etc.</p>
+          <p xml:id="bb-d4e44767-d1e174">Item, quod non sit virtus, videtur quia illa virtus ita mala reducet ad memoriam ut
+            bona, secundum quod dicit <name ref="#Augustine">Augustinus</name> ; sed mala sunt ratio
+            mortis : ergo esset tunc dicendus liber mortis non vitae.</p>
+        </div>
+        <div xml:id="bb-d4e44767-Dd1e181">
+          <head xml:id="bb-d4e44767-Hd1e183">Conclusio</head>
+          <head xml:id="bb-d4e44767-Hd1e186" type="question-title">Liber vitae dicitur Dei notitia et vis secundum duplicem eius
+            proprietatem</head>
+          <p xml:id="bb-d4e44767-d1e189">Respondeo : Dicendum quod libri duplex est proptietas : una in se, scilicet scientiae
+            retentio in simultate et uniformitate ; et ratione huius proprietatis nomen libri
+            transfertur ad Dei notitiam. Alia proprietas est ad nos, quia per librum est in nobis
+            oblitorum recordatio ; et ratione huius transfertur ad vim illam per quam fit recordatio
+            praeteritorum. Humanitas autem sive visio eius non dicitur liber ; et quod dicit <name ref="#GregoryGreat">Gregorius</name> et Glossa intelligitur per quamdam
+            concomitantiam. Concedendum. igitur quod liber dicitur Dei notitia et quod dicitur illa
+            virtus divina secundum duplicem proprietatem, sicut ostendunt rationes ad hoc
+            inductae.</p>
+        </div>
+        <div xml:id="bb-d4e44767-Dd1e196">
+          <head xml:id="bb-d4e44767-Hd1e198">Ad rationes</head>
+          <p xml:id="bb-d4e44767-d1e201">Ad illud ergo quod obicitur, quod in libro illo non est scripturae impressio, dicendum
+            quod quantum ad hanc proprietatem non transfertur, immo in hac differunt, quia liber
+            iste repraesentat quod in eo fit, sed ille liber repraesentat quod facit.</p>
+          <p xml:id="bb-d4e44767-d1e204">Ad illud quod obicitur, quod virtus illa reducit mala ad memoriam quae sunt causa
+            mortis, dicendum quod liber et vis Dei causa vitae in se est, et quod mortis sit, hoc
+            est solum per occasionem et rationem aliorum librorum, scilicet conscientiarum ; et ideo
+            ab eo denominatur ad quod principaliter est. Vel dicendum quod non dicitur liber vitae,
+            quia det vitam ; sed notitia Dei dicitur liber vitae, quia omnia ibi sunt vita.
+            Similiter, vis illa liber dicitur, quia recolit ; sed vita dicitur, quia hoc non facit
+            per creaturae defectibilitatem et fallibilitatem, sed secundum divinae notitiae vivam
+            veritatem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

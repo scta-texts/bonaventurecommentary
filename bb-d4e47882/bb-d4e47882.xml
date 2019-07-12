@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Divisio textus</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Divisio textus</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e47882">
+        <head xml:id="bb-d4e47882-Hd1e108">Divisio textus</head>
+        <p xml:id="bb-d4e47882-d1e111">Supra egit <name ref="#Lombard">Magister</name> de statu et conditione animarum bonarum.
+          In hac parte agit de statu et conditione animarum damnatarum. Unde in hac parte <name ref="#Lombard">Magister</name> quaerit, utrum animae damnatae recipiant unquam
+          mitigationem in poena per benignitatem misericordiae, an solummodo puniantur per
+          severitatem iustitiae. Et haec pars dividitur in duas. In prima quaerit et determinat. In
+          secunda ostendit qualiter misericordia Dei in omni opere currit cum iustitia, ibi : Sed
+          quomodo iustitiam Dei et pietatem etc.</p>
+        <p xml:id="bb-d4e47882-d1e120">Prima pars habet duas. In prima investigat et opponit. In secunda determinat et solvit,
+          ibi : Unde non incongrue dici potest etc.</p>
+        <p xml:id="bb-d4e47882-d1e123">Similiter secunda pars habet duas. In prima comparat misericordiam et iustitiam ad
+          invicem. In secunda vero compart ad operationem, ibi : Quod autem quaedam opera
+          misericordiae etc. Et illa secunda pars habet duas. In prima ostendit quod quaedam opera
+          aptantur misericordiae, quaedam iustitiae. In secunda vero determinat quomodo illud
+          intelligitur : Universae viae Domini misericordia et veritas, ibi : Post haec considerari
+          oportet. Et sic duo determinat hic principaliter, scilicet utrum poenae malorum recipiant
+          mitigationem. Secundo vero, quomodo misericordia et veritas eamdem respiciant
+          operationem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e5960">
+        <head xml:id="bb-d4e5960-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e5960-Hd1e111" type="question-title">Utrum haeretici dent rem sacramenti.</head>
+        <p xml:id="bb-d4e5960-d1e114">Secundo quaeritur, utrum haeretici dent rem sacramenti.</p>
+        <div xml:id="bb-d4e5960-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e5960-d1e119">Et quod non, videtur <ref xml:id="bb-d4e5960-Rd1e121" target="http://scta.info/resource/gd-p3d4-d1e781">Augustinus,
+              De consecratione, distinctione IV</ref> : <quote xml:id="bb-d4e5960-Qd1e124" source="http://scta.info/resource/oki8u6-d1e75">Ecclesia paradiso comparata indicat
+              nobis posse quidem foris Baptismum eius recipere, sed salutem beatitudinis extra eam
+              nec accipere nec habere
+              <!-- <name ref="#Augustine">Augustinus</name> de Baptismo contra Donatistas, IV, c. 1, n. 1 --></quote>.</p>
+          <p xml:id="bb-d4e5960-d1e129">Item, <name ref="#Augustine">Augustinus</name> : Qui foris Ecclesiam baptizantur non
+            sumunt Baptismum ad salutem, sed ad perniciem, habentes formam Baptismi, virtutem eius
+            negantes.</p>
+          <p xml:id="bb-d4e5960-d1e135">Item, ratione videtur, quia, si Baptisma haereticorum facit filios Dei, dando gratiam
+            Baptismatis, videtur quod inter haereticos extra Ecclesiam sint filii Dei ; hoc autem
+            falsum : ergo etc.</p>
+          <p xml:id="bb-d4e5960-d1e138">Item, si Baptisma haereticorum facit remissionem peccatorum, et remissio fit per
+            Spiritum Sanctum, ergo inter eos est Spiritus Sanctus : ergo haeretici dant Spiritum
+            Sanctum ; sed hoc est falsum : ergo etc.</p>
+          <p xml:id="bb-d4e5960-d1e141">Contra : Unum est Baptisma Christi, Ecclesiae et haereticorum, qui in eadem forma
+            baptizant. Ergo eamdem efficaciam habent : ergo, si in Baptismo Ecclesiae datur gratia,
+            et in Baptismo haereticorum.</p>
+          <p xml:id="bb-d4e5960-d1e145">Item, Baptisma illud est verum sacramentum ; quod patet, quia non est iterandum. Ergo,
+            si non invenit obstaculum, ita confert gratiam ut Catholicorum.</p>
+          <p xml:id="bb-d4e5960-d1e148">Item, possibile est quod ille qui baptizat sit haereticus, me nesciente : ergo damnum
+            incurram de malitia aliena sine omni mea culpa.</p>
+        </div>
+        <div xml:id="bb-d4e5960-Dd1e152">
+          <head xml:id="bb-d4e5960-Hd1e154">Conclusio</head>
+          <head xml:id="bb-d4e5960-Hd1e157" type="question-title">Baptismus haereticorum in forma Ecclesiae collatus habet
+            efficaciam, nisi obsit obex</head>
+          <p xml:id="bb-d4e5960-d1e160">Respondeo : Dicendum quod Baptismus, qui datur ab haereticis in forma Ecclesiae,
+            Baptismus est et Baptismus Ecclesiae, quia regenerat filios Ecclesiae, non haeresi,
+            generat etiam filios in Christo. Exemplum <name ref="#Augustine">Augustini</name>,
+            Contra Donatum, est quia, sicut Iacob semen non tantum genuit per uterum liberarum, sed
+            etiam ancillarum, sic et Christus ; unde qui boni baptizantur ab haereticis, comparat
+            eos filiis ancillarum, sed qui mali ab Ecclesia, comparat Esau. Habet igitur semper
+            efficaciam nisi habeat obicem in suscipiente ; tunc autem hatiet obicem, quando ille qui
+            baptizatur consentit haeresi. Et hoc potest esse tripliciter : aut quando est haereticus
+            et favet errori ; aut, si non est haereticus, tamen vadit ad haereticum praecisum in
+            contemptum Ecclesiae ; aut, si non est praecisus, vadit tamen ad occultum, quem scit
+            esse haereticum propter aliquod commodum vel favorem. Et tunc nihil accipit, quia
+            accipit ab haeretico ut est haereticus. Sed tunc non consentit, quando habet impotentiam
+            discernendi, ut parvulus ; vel quando ille haereticus est occultus et creditur esse
+            Catholicus ; aut quando homo est in necessitate constitutus, solo necessitatis
+            intuitu.</p>
+        </div>
+        <div xml:id="bb-d4e5960-Dd1e168">
+          <head xml:id="bb-d4e5960-Hd1e170">Ad rationes</head>
+          <p xml:id="bb-d4e5960-d1e173">1-4. Auctoritates <name ref="#Augustine">Augustini</name> secundum primam viam
+            intelliguntur. Rationes ad oppositum patent, quia quos haeretici baptizant non
+            consentientes haeresi suae, etsi videantur esse de eis, tamen sunt Ecclesiae filii et
+            intra Ecclesiam. Unde <name ref="#Augustine">Augustinus</name> dicit, Contra Donatum,
+            quod haeretici baptizant non per id quod habent repugnans Ecclesiae, sed per id quod
+            habent communitatem cum ea et unitatem ; et ideo, si ille qui baptizatur nihil recipiat
+            ab haereticis nisi Baptisma nec in aliis conveniat, iudicandus est Catholicus, quia cum
+            Catholicis convenit et non habet repugnans ; et talis est parvulus. Et ideo, quamvis
+            parvuli baptizentur ab haereticis, non tamen sunt intra haereticos quantum ad meritum,
+            sed solum quantum ad numerum ; et ideo non sequitur quod sint intra haereticos secundum
+            quod haeretici sunt, sicut filii Dei ; nec etiam quod inter eos sit Spiritus sanctus,
+            per quem remittuntur peccata.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

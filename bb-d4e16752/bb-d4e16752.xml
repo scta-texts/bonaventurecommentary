@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e16752">
+        <head xml:id="bb-d4e16752-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e16752-Hd1e111" type="question-title">Utrum omnis agens poenitentiam super culpam, quamvis
+          gravissimam, inveniat veniam a Deo.</head>
+        <p xml:id="bb-d4e16752-d1e114">Tertio quaeritur, utrum omnis agens poenitentiam super culpam inveniat veniam, etiam
+          quantumcumque peccaverit.</p>
+        <div xml:id="bb-d4e16752-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e16752-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e16752-d1e122">Et quod non, videtur : II Machabaeorum 9, 13 :<quote xml:id="bb-d4e16752-Qd1e124">Orabat scelestus Dominum, a quo
+              non erat misericordiam consecuturus</quote> ; loquitur de Antiocho, qui veniam petiit
+            et propter multa scelera non invenit.</p>
+          <p xml:id="bb-d4e16752-d1e128">Item, ad Hebraeos 12, 17 Paulus, de Esau loquens, dicit : <quote xml:id="bb-d4e16752-Qd1e130" ana="#hebr12_17">Non
+              invenit locum poenitentiae, quamquam cum lacrymis postulasset eam</quote>. Constans
+            est quod poenitebat et petebat veniam et non invenit, et tamen non fuit multum enormis
+            peccator : ergo multo minus qui sunt in gravibus peccatis.</p>
+          <p xml:id="bb-d4e16752-d1e134">Item, de angelo et de daemonibus dicit <name ref="#IsidoreOfSeville">Isidorus</name>,
+            in libro De ordine creaturarum : <quote xml:id="bb-d4e16752-Qd1e139">Non poenituerunt, et si poenituissent, veniam
+              non. invenissent</quote>.</p>
+          <p xml:id="bb-d4e16752-d1e143">Item, sententia definitiva est irrevocabilis : ergo, si aliquis damnatus est per
+            sententiam definitivam, quantumcumque poeniteat, non invenit veniam ; sed damnati
+            poenitebunt, sicut dicitur Sapientiae 5, 3 : <quote xml:id="bb-d4e16752-Qd1e145" ana="#sap5_3">Dicent intra se,
+              poenitentiam agentes</quote> etc. : ergo, cum eis nunquam detur venia, non omnis agens
+            poenitentiam apud Deum invenit veniam.</p>
+          <p xml:id="bb-d4e16752-d1e150">Contra : Matthaei 18, 21 : <quote xml:id="bb-d4e16752-Qd1e152" ana="#mt18_21">Quoties peccaverit in me</quote> etc.
+            ; et post : <quote xml:id="bb-d4e16752-Qd1e155" ana="#mt18_22">Non dico tibi usque septies, sed asque septuagies
+              septies</quote>, Glossa : <quote xml:id="bb-d4e16752-Qd1e158">Finitum ponit pro infinito</quote>. Ergo, si
+            praecepit nobis misericordiam ad infinitas culpas, si quaeratur ei venia, cum maiorem
+            misericordiam faciat quam praecipiat et ipse sit misericordissimus, multo magis videtur
+            quod ipse petenti sibi veniam parcat.</p>
+          <p xml:id="bb-d4e16752-d1e162">Item, <name ref="#Bernard">Bernardus</name>, in libro De gradibus humilitatis, dicit de
+            diaboli damncitione : <quote xml:id="bb-d4e16752-Qd1e167">Sic Deus temperavit in vindicta sententiam, ut, si vellet
+              resipiscere, Deus veniam non negaret</quote>.</p>
+          <p xml:id="bb-d4e16752-d1e171">Item, misericordia Dei superexcellit omne peccatum intensive ; unde, quia ipsa est
+            infinita, videtur quod, quantumcumque iteretur peccatum, adhuc superexcellit. Ergo plus
+            potest Deus remittere quam homo possit peccare : ergo, si veniam petit, misericordiam
+            non negat.</p>
+          <p xml:id="bb-d4e16752-d1e174">Item, Chrysostomus dicit : <quote xml:id="bb-d4e16752-Qd1e176">Etiam si ad summum quis perveniat malorum et inde
+              velit reverti, suscipit libenter et amplectitur</quote>. Ergo videtur quod omnis agens
+            poenitentiam apud Deum inveniat veniam.</p>
+        </div>
+        <div xml:id="bb-d4e16752-Dd1e181">
+          <head xml:id="bb-d4e16752-Hd1e183">Conclusio</head>
+          <head xml:id="bb-d4e16752-Hd1e186" type="question-title">Quicumque agit poenitentiam propter Dei offensam, paratus ei
+            facere emendam, invenit gratiam et veniam</head>
+          <p xml:id="bb-d4e16752-d1e189">Respondeo : Dicendum quod agere poenitentiam sive dolere de culpa commissa est
+            dupliciter : aut propter laesionem naturae aut propter offensionem Maiestatis divinae et
+            ipsius iustitiae.</p>
+          <p xml:id="bb-d4e16752-d1e192">Primam poenitentiam super culpa commissa habere potest quis ex sola natura sine aliqua
+            gratia. Sicut enim homo naturaliter se diligit, ita etiam odit omne propter quod malum
+            incurrit. Et haec poenitentia est in malis et in damnatis et erit aliquando in angelis
+            malis, cum absorpti erunt a poenis. Sed in hac vivit et regnat mala voluntas, cum sit
+            proprii boni amica ; ideo Deus eam non acceptat nec quis sic poenitens invenit gratiam
+            vel veniam.</p>
+          <p xml:id="bb-d4e16752-d1e195">Alia est poenitentia, qua quis poenitet propter Dei offensam paratus ei facere emendam.
+            Et haec non est sine divina gratia gratum faciente vel gratis data ; et haec adeo
+            disponit ad gratiam, quod nullus est sic poenitens quin inveniat gratiam et veniam ; et
+            ideo Deus nulli eam dat nisi cum quo proponit facere misericordiam. Et quoniam diabolus
+            hanc habere non potest, ideo non potest habere veniam. Sed si per impossibile poneretur,
+            quod diabolus hanc haberet, utique Dominus daret ei gratiam. Haec igitur est potissima
+            causa irremediabilitatis peccati diaboli, quia non potest poenitere nec liberum
+            arbitrium eius verti ad veniam petendam. Quae autem huius sit ratio, habet locum in
+            secundo libro. Concedendum igitur quod omnis agens poenitentiam super culpam secundum
+            assignationem praedictam, quantumcumque peccaverit, invenit veniam.</p>
+        </div>
+        <div xml:id="bb-d4e16752-Dd1e200">
+          <head xml:id="bb-d4e16752-Hd1e202">Ad rationes</head>
+          <p xml:id="bb-d4e16752-d1e205">Ad illud ergo quod obicitur de Antiocho, dicendum quod poenituit propter laesionem
+            naturae quam incurrerat, non propter divinam offensam. Unde non intendebat satisfacere
+            pro offensa, sed, sicut patet ex Littera, desperabat, quamvis mentiendo contrarium
+            diceret.</p>
+          <p xml:id="bb-d4e16752-d1e208">Ad illud quod obicitur de Esau, dicendum quod ipse similiter poenituit propter
+            amissionem benedictionis et propterea nolebat facere emendam, sed potius de fratre
+            quaerebat vindictam, sicut patet ex textu.</p>
+          <p xml:id="bb-d4e16752-d1e211">Ad illud quod obicitur, quod diabolus et daemones veniam non haberent, si peterent,
+            dicendum quod loquitur de petitione veniae quantum ad primum modum, scilicet propter
+            poenas, non propter iustitiam ; si enim alio modo poeniterent, haberent, sicut dicit
+              <name ref="#Bernard">Bernardus</name>, sed non possunt.</p>
+          <p xml:id="bb-d4e16752-d1e217">Ad illud quod obicitur de damnatis, dicendum, secundum distinctionem praehabitam, quod
+            non poenitebunt propter amorem iustitia, sed propter odium poenae.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e43703">
+        <head xml:id="bb-d4e43703-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e43703-Hd1e111" type="question-title">Utrum cognatio legalis transeat ab uno in alterum.</head>
+        <p xml:id="bb-d4e43703-d1e114">Tertio quaeritur, utrum cognatio legalis transeat in alterum.</p>
+        <div xml:id="bb-d4e43703-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e43703-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e43703-d1e122">Et quod sic, videtur : <ref xml:id="bb-d4e43703-Rd1e124" target="http://scta.info/resource/gd-p2c30q3-d1e120">Causa
+              XXX, quaestione 3</ref>, et habetur in <ref xml:id="bb-d4e43703-Rd1e127" target="http://scta.info/resource/pl-l4d42c3-d1e115">littera</ref> : <quote xml:id="bb-d4e43703-Qd1e130">Inter eos
+              qui natura et eos qui adoptione sunt filii, venerandae leges Matrimonia contrahi non
+              permittunt</quote>. Hoc autem non esset nisi cognatio transiret a patre in filium :
+            ergo etc.</p>
+          <p xml:id="bb-d4e43703-d1e134">Item, plus concordat unio carnis cum cognatione legali quam spirituali ; sed unio
+            carnis facit cognationem spiritualem esse communem : ergo multo fortius cognationem
+            legalem.</p>
+          <p xml:id="bb-d4e43703-d1e137">Item, cognatio carnalis et spiritualis transit : ergo pari ratione cognatio legalis.
+            Aut si non, quare non ? Quodsi non transiret, tunc non esset nisi unica species ; nunc
+            autem tres assignantur.</p>
+          <p xml:id="bb-d4e43703-d1e140">Contra : Quia cognatio spiritualis est communicabilis, ideo necesse est, quodsi aliquis
+            efficitur spiritulis pater alicuius, quod efficiatur compater patris eiusdem. Ergo pari
+            ratione in adoptione ; quod tamen non conceditur : ergo non est cognationis
+            transitus.</p>
+          <p xml:id="bb-d4e43703-d1e144">Item, quia in cognatione spirituali transitus est a patre in filiam naturalem, ideo
+            impossibile est quod unquam contrahat filius spiritualis cum filia naturali. Ergo pari
+            ratione nunquam posset filius adoptivus contrahere cum naturali filia ; cuius contrarium
+            dicitur Causa XXX, quaestione 3, Per adoptionem quaesita fraternitas.</p>
+          <p xml:id="bb-d4e43703-d1e147">Iuxta hoc quaeritur, cum vinculum cognationis legalis transeat in filios et nepotes et
+            in uxores, quare non transit in parentes, cum se habeant in eadem proximitate ?</p>
+        </div>
+        <div xml:id="bb-d4e43703-Dd1e151">
+          <head xml:id="bb-d4e43703-Hd1e153">Conclusio</head>
+          <head xml:id="bb-d4e43703-Hd1e156" type="question-title">Vinculum cognationis legalis transit in uxorem simpliciter, in
+            filios tantum ad tempus</head>
+          <p xml:id="bb-d4e43703-d1e159">Respondeo : Dicendum quod vinculum adoptionis transit in alteram personam dupliciter,
+            scilicet per carnis commixtionem et per generationem ; sed per carnis commixtionem
+            transit ad semper, per generationem vero ad tempus.</p>
+          <p xml:id="bb-d4e43703-d1e162">Et ratio huius est, quia talis adoptio respicit bona temporalia et educationem paternam
+            ; et quoniam vir et uxor coniunguntur ad semper et omnia quae habent pro indiviso
+            habent, ideo contrahitur vinculum sempiternum ad uxorem. Sed filii naturales nec semper
+            cohabitant nec semper cum parentibus habent bona indivisa, immo, cum emancipantur,
+            patrem relinquunt ; et bine est quod non manet illud vinculum. Et sic patet quomodo
+            transit illud vinculum et quando simpliciter et quando ad tempus.</p>
+        </div>
+        <div xml:id="bb-d4e43703-Dd1e167">
+          <head xml:id="bb-d4e43703-Hd1e169">Ad rationes</head>
+          <p xml:id="bb-d4e43703-d1e172">1-2. Ad illud vero quod quaeritur : quare cognatio legalis non transit in patrem ?
+            dicendum quod cognatio spiritualis transit in patrem, quoniam eumdem regenerat quem
+            pater generavit, ita quod cognatio spiritualis respicit bonum interius ; ideo
+            communicator in uno et ideo contrahitur cognatio compaternitatis. Sed adoptans adoptatum
+            assumit ad aliquid extra, ideo non sic communicatur. Quod obicitur secundo, iam
+            patet.</p>
+          <p xml:id="bb-d4e43703-d1e175">Ad illud quod quaeritur : quare non transit in ascendendo ? dicendum quod humor venit a
+            radice ad ramos, non e converso ; et quoniam filii rami sunt patris, ideo cognatio
+            legalis a patre communicatur filiis ; non sic oportet nec debet communicari parentibus.
+            Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

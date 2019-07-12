@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e29239">
+        <head xml:id="bb-d4e29239-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e29239-Hd1e111" type="question-title">Utrum Poenitentia habeat rationem tabulae.</head>
+        <p xml:id="bb-d4e29239-d1e114">Secundo quaeritur circa hoc de Poenitentia sub ratione tabulae.</p>
+        <div xml:id="bb-d4e29239-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e29239-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e29239-d1e122">Et primo videtur quod ista duo non compatiantur se circa Poenitentiam, scilicet tabula
+            et fundamentum : Quoniam fundamenti est subsistere et tabulae est superefferri : ergo,
+            si Poenitentia recte dicitur fundamentum, improprie a <ref xml:id="bb-d4e29239-Rd1e124" target="http://scta.info/resource/pl-l4d14c1-d1e118">Magistro</ref> tabula
+            appellatur.</p>
+          <p xml:id="bb-d4e29239-d1e128">Item, <name ref="#Jerome">Hieronymus</name> super illud : <quote xml:id="bb-d4e29239-Qd1e133" ana="#is3_9">Peccatum
+              suum sicut Sodoma</quote> etc. : <quote xml:id="bb-d4e29239-Qd1e136">Secunda tabula post naufragium est peccati
+              absconsio</quote>. Sed Poenitentia consistit in peccati detectione : ergo etc.</p>
+          <p xml:id="bb-d4e29239-d1e140">Item, fundamentum est primum : ergo, si Poenitentia est fundamentum et est tabula, ergo
+            est prima tabula : ergo male dicit <name ref="#Jerome">Hieronymus</name> quod sit
+            secunda tabula. Videntur enim ista incompossibilia, quod sit fundamentum et quod sit
+            secundum. Si dicas quod est tabula secundum quod est sacramentum, et fundamentum
+            secundum quod est virtus, contra : si est tabula in quantum sacramentum, ergo est
+            secundum sacramentum : ergo immediate de ipsa debet determinari post Baptismum.</p>
+          <p xml:id="bb-d4e29239-d1e146">Item, tabula dicitur, quia liberat a naufragio ; sed poenitentia liberat a naufragio
+            secundum quod virtus : ergo est tabula secundum quod virtus.</p>
+          <p xml:id="bb-d4e29239-d1e150">Quaeritur ergo, secundum quem tropum dicatur tabula.</p>
+        </div>
+        <div xml:id="bb-d4e29239-Dd1e154">
+          <head xml:id="bb-d4e29239-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e29239-Hd1e159" type="question-title">Poenitentia secundum diversas acceptiones recte ut vitus
+            dicitur fundamentum, et ut Sacramentum, tabula</head>
+          <p xml:id="bb-d4e29239-d1e162">Respondeo : Dicendum quod Poenitentia, sive dicatur fundamentum sive tabula, sub tropo
+            dictum est, tamen secundum aliam et aliam acceptionem, secundum quam fit duplex
+            translatio. Poenitentia enim est virtus, et sic competit ei ratio fundamenti ;
+            Poenitentia sacramentum st, et sic secundum hoc competit ei ratio tabulae.</p>
+          <p xml:id="bb-d4e29239-d1e165">Ratio autem huius est, quia virtus, ut vult <name ref="#Augustine">Augustinus</name>,
+            De quantitate animae, nihil aliud est quam <quote xml:id="bb-d4e29239-Qd1e170">aequalitas mentis undique rationi
+              consentientis</quote> ; unde est quaedam quadratura, per quam anima in spirituali
+            aedificio collocatur. Et quoniam in hac collocatione poenitentiae virtus primo occurrit
+            in aedificatione, ideo competit ei ratio primae partis aedificii ; haec autem est
+            fundamentum ; et ideo poenitentiae virtuti rectissime aptatur nomen et proprietas
+            fundamenti.</p>
+          <p xml:id="bb-d4e29239-d1e174">Sed nomen et proprietas tabulae competit Poenitentiae sacramento. Ad quod intelligendum
+            oportet nosse quid sit mare, quid naufragium, quid navis et quid tabula. Mare est
+            praesens saeculum, secundum illud Psalmi [103, 25] : <quote xml:id="bb-d4e29239-Qd1e176" ana="#ps103_25">Hoc mare
+              magnum</quote> etc. Navis, quae perducit ad portum salutis, est unitas ecclesiastica,
+            de qua dicitur Sapientiae 14, 5 : <quote xml:id="bb-d4e29239-Qd1e179" ana="#sap14_5">Transeuntes mare per ratem
+              liberati sunt</quote> ; et Actuum 27, 31 : <quote xml:id="bb-d4e29239-Qd1e182" ana="#act27_31">Nisi in navi
+              manseritis</quote> etc. Naufragium navis est per separationem et scissionem membrorum,
+            secundum illud Iudae, 19 : Hi sunt qui segregant semetipsos etc. Tabula est adiutorium
+            aliquod collatum, per quod possit ille qui est in periculo naufragii, sublevari a
+            periculo peccati ; et hoc est sacramentum. Et, cum duplex sit peccati periculum, duplex
+            et naufragium, duplex est sacramentum liberans a duplici naufragio, scilicet a naufragio
+            originalis, et hoc est Baptismus ; et quia originale est primum, ideo Baptismus est
+            prima tabula. Et secundum naufragium est per actuale, et quia ab hoc liberat
+            Poenitentia, ideo dicitur secunda tabula.</p>
+        </div>
+        <div xml:id="bb-d4e29239-Dd1e188">
+          <head xml:id="bb-d4e29239-Hd1e190">Ad rationes</head>
+          <p xml:id="bb-d4e29239-d1e193">Et sic patet quod recte dicitur fundamentum et recte dicitur tabula secundum diversas
+            acceptiones ; et recte in quantum virtus dicitur fundamentum, recte in quantum
+            sacramentum liberans a naufragio dicitur secunda tabula.</p>
+          <p xml:id="bb-d4e29239-d1e196">Et sic patet illud argumentum : est secunda tabula : ergo secundum sacramentum. Patet
+            etiam secundo obiectum de incompossibilitate horum duorum.</p>
+          <p xml:id="bb-d4e29239-d1e199">Ad illud ergo quod obicitur de absconsione, dicendum quod est absconsio per hypocrisim
+            et per Poenitentiam veram quae totum remittit. Et <name ref="#Jerome">Hieronymus</name>
+            loquitur de absconsione secunda, quae fit per revelationem, non de prima.</p>
+          <p xml:id="bb-d4e29239-d1e205">Ad illud quod obicitur, quod poenitentia libetat secundum quod virtus, dicendum quod
+            sicut fides supplet locum Baptismi, ubi quis non potest baptizari, sic
+            poenitentia-virtus locum sacramenti ; attamen, quia hoc non habet nisi in articula
+            necessitatis, ut possit a naufragio liberare, sacramentum autem habet de se : ideo ratio
+            tabulae debet sacramento attribui, non virtuti. Praeterea, sacramentum respicit
+            liberationem a malo sive a periculo, non sic virtus ; et quia. tabula sonat in rationem
+            refugii et liberationis a malo naufragii et periculo peccati : ideo magis competit
+            sacramento quam virtuti. Et sic patet responsio ad obiecta omnia circa partem oppositam.
+            Solum hoc diligenter attendendum est quod, quamdiu sumus in hoc mari, stringamus tabulam
+            propter periculum evitand um a mari magno.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

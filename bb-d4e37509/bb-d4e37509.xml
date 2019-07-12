@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e37509">
+        <head xml:id="bb-d4e37509-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e37509-Hd1e111" type="question-title">Utrum virginitas sit virtus.</head>
+        <p xml:id="bb-d4e37509-d1e114">Quantum ergo ad primum quaeritur, utrum virginitas sit virtus.</p>
+        <div xml:id="bb-d4e37509-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e37509-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e37509-d1e122">Et quod sic, videtur : Per definitionem virtutis, quia <quote xml:id="bb-d4e37509-Qd1e124">virtus est bona qualitas
+              mentis</quote> etc. ; et per definitionem Philosophi illud idem.</p>
+          <p xml:id="bb-d4e37509-d1e128">Item, hoc ostenditur per definitionem virginitatis quam ponit <name ref="#Augustine">Augustinus</name>, dicens : <quote xml:id="bb-d4e37509-Qd1e133">Virginitas est in carne corruptibili
+              incorruptionis perpetuae meditatio</quote>. Sed meditari incorruptionem perpetuam, hoc
+            est maxime arduum et difficile, et tale est virtutis genus : ergo etc.</p>
+          <p xml:id="bb-d4e37509-d1e137">Item, hoc iterum videtur ratione, quia abstinere a coitu illicito est virtutis ; sed
+            difficilius est ab omni coitu abstinere quam ab illicito : ergo, si illud est virtutis,
+            multo fortius istud.</p>
+          <p xml:id="bb-d4e37509-d1e140">Item, in virginitate meremur non tantum auream, sed etiam aureolam ; sed omne meritum
+            consistit mediante virtute vel dono vel beatitudine : ergo etc.</p>
+          <p xml:id="bb-d4e37509-d1e144">Contra : Omnis virtus quae non est in finem, in medietate consistit ; sed virginitas in
+            extremo, quia omnino abstinet : ergo etc.</p>
+          <p xml:id="bb-d4e37509-d1e147">Item, actus omnis virtutis est in praecepto, quia est necessarius ad salutem ; sed
+            actus virginitatis non est in praecepto : ergo virginitas non est virtus.</p>
+          <p xml:id="bb-d4e37509-d1e150">Item, nulla virtute quis male utitur, ut patet ; sed virginitate contingit male uti, ut
+            patet de fatuis virginibus, Matthaei 25, 2.</p>
+          <p xml:id="bb-d4e37509-d1e153">Item, omnes virtutes sunt connexae : unde qui habet unam, habet omnes ; sed hoc non est
+            de virginitate : ergo etc.</p>
+          <p xml:id="bb-d4e37509-d1e156">Item, nulla virtus expellitur vel amittitur nisi per vitium et peccatum ; sed
+            virginitas perditur sine peccato in his quae violenter corrumpuntur : ergo etc. Si tu
+            dicas de his quod non amittunt, obicitur de his quae transeunt de continentia virginali
+            ad coniugalem, quae virginitatem perdunt sine culpa in qua est omnis virtus ; sed
+            virginitas perdita nunquam recuperatur : ergo etc</p>
+        </div>
+        <div xml:id="bb-d4e37509-Dd1e160">
+          <head xml:id="bb-d4e37509-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e37509-Hd1e165" type="question-title">Virginitas, secundum illud quod nominat habitum, est virtus et
+            consistit in medio</head>
+          <p xml:id="bb-d4e37509-d1e168">Respondeo : Dicendum quod continentia virginalis sive virginitas tria dicit : primum
+            est abstinentia ab omni coitu illicito ; secundum est abstinentia ab omni coitu licito ;
+            tertium est integritas mentis et carnis. Quantum ad primum dicit habitum, quantum ad
+            secundum dicit virtutis statum, quantum ad tertium dicit decorem ; unde virginitas est
+            habitus continentiae perfectus et decorus. Concedendae igitur sunt rationes probantes
+            virginitatem virtutem esse, secundum id quod nominat habitum.</p>
+        </div>
+        <div xml:id="bb-d4e37509-Dd1e173">
+          <head xml:id="bb-d4e37509-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e37509-d1e178">2-6. Quae vero obiciuntur in contrarium, omnia procedunt ratione status vel decoris,
+            quantum ad quem statum ad extremum tendit. Ratione etiam status non est in praecepto,
+            ratione de cuius status potest perdi per descensum ad inferiorem statum, ratione cuius
+            status non est aliis connexa. Ratione vero decoris contingit quod perdatur, homine
+            invito ; contingit etiam superbe et male uti ; contingit etiam ut amissa non possit
+            recuperari. Quantum vero ad illud quod est ibi habitus substrati, omnes conditiones
+            virtutum in ea reperiuntur.</p>
+          <p xml:id="bb-d4e37509-d1e181">Et sic patent omnia praeter primum, quod obicit de medietate, quia ita similiter posset
+            opponi de continentia viduali. Et propterea dicendum quod, quando dicitur quod virtus
+            consistit in medietate, hoc non est intelligendum respectu obiecti, quia sic nullus
+            esset castus nisi cognosceret medietatem omnium mulierum de mundo, quia illud est medium
+            inter aliquam et nullam ; sed istud intelligitur ut sic medium teneatur, et virtus sit
+            medium circa delectationes et tristitias. Nam qui omnino nihil sentit de passionibus
+            carnis, hic insensibilis iudicatur, sed hoc habet per naturam ; qui vero omnino eis
+            consentit, hic luxuriosus est ; qui vero excitatur, sed tamen non consentit, talis
+            virtuosus est ; et hoc omnino bene est in virginibus, quia aliquo modo caro excitat,
+            quamvis non ita sicut in corruptis. Hoc autem intelligitur, loquendo secundum virtutes
+            politicas et naturam lapsam ; nam per superabundantem gratiam potest esse quod non
+            sentiat et tamen virtutem habeat, ut patet in Christo et eius Matre dulcissima.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

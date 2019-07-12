@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e19878">
+        <head xml:id="bb-d4e19878-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e19878-Hd1e111" type="question-title">Utrum debeat homo semper conteri.</head>
+        <p xml:id="bb-d4e19878-d1e114">Secundo quaeritur de diuturnitate contritionis, utrum debeat homo semper conteri.</p>
+        <div xml:id="bb-d4e19878-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e19878-d1e119">Et quod sic, videtur : <name ref="#Augustine">Augustinus</name>, in tractatu De
+            poenitentia : <quote xml:id="bb-d4e19878-Qd1e124">Semper doleat et de dolore gaudeat</quote> ; et post : <quote xml:id="bb-d4e19878-Qd1e127">Ubi
+              dolor finitur, ibi deficit poenitentia ; si poenitentia finitur, quid relinquitur de
+              venia ? Tamdiu gaudeat et speret de gratia, quamdiu sustentatur a poenitentia</quote>.
+            Semper igitur debet homo poenitere.</p>
+          <p xml:id="bb-d4e19878-d1e131">Item, <name ref="#GregoryGreat">Gregorius</name>, Super Iob 14, 22 : <quote xml:id="bb-d4e19878-Qd1e136" ana="#iob14_22">Anima eius super semetipso lugebit</quote> : <quote xml:id="bb-d4e19878-Qd1e139" source="http://scta.info/resource/jiu7y7-d1e143">Dignum est ut in se ipso homo semper
+              moerores inveniat, qui in se gaudia, relicto Creatore, quaerebat</quote>.</p>
+          <p xml:id="bb-d4e19878-d1e143">Item, Ecclesiastici 5, 5 : <quote xml:id="bb-d4e19878-Qd1e145" ana="sir5_5">De propitiatu peccatorum noli esse sine
+              metu</quote> ; similiter nec sine spe debet esse : ergo semper debet esse inter istas
+            duas molas ; sed hoc est conteri : ergo semper debet homo conteri.</p>
+          <p xml:id="bb-d4e19878-d1e149">Item, sicut se habet vera innocentia et perseverans ad peccatum de futuro, ita
+            poenitentia contra peccatum de praeterito ; sed perseverans innocentia semper refugit
+            peccatum ne fiat : ergo et poenitentia peccatum factum.</p>
+          <p xml:id="bb-d4e19878-d1e152">Item, sicut culpa est velle peccare, ita culpa est velle peccasse ; sed homo semper
+            tenetur nolle peccare : ergo et nolle peccasse. Sed ex hoc quod non vult peccasse et
+            peccavit, generatur dolor : ergo etc.</p>
+          <p xml:id="bb-d4e19878-d1e156">Contra : <name ref="#Augustine">Augustinus</name>, in libro De poenitentia : Doleat et
+            de dolore gaudeat. Non ergo semper est dolendum, immo aliquando gaudendum.</p>
+          <p xml:id="bb-d4e19878-d1e162">Item, ratione videtur, quia dolor est ex sensu disconvenientis ; sed contingit peccatum
+            amotum esse ab anima secundum se et secundum suum effectum : ergo non est ibi aliquid
+            quod generet dolorem : ergo non semper est dolendum.</p>
+          <p xml:id="bb-d4e19878-d1e165">Item, contritio est aeque bene una pars poenitentiae ut confessio et satisfactio ; sed
+            non oportet semper confiteri: ergo nec semper conteri.</p>
+          <p xml:id="bb-d4e19878-d1e168">Item, contritio est medicina ; sed contingit hominem perfecte esse sanatum, ut puta si
+            baptizatur vel etiam si perfecerit poenitentiam condignam, quae omnes defectus reducit
+            ad perfectum : ergo, si post recuperationem sanitatis cessat usus medicinae, debet
+            igitur cessare contritio.</p>
+          <p xml:id="bb-d4e19878-d1e171">Item, contritio est poena qua peccator se punit. Ergo esto quod sufficienter sit
+            punitus pro peccato ; tunc, si amplius punit se per contritionem, punit se supra
+            condignum ; sed hoc est impietatis et crudelitatis : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e19878-Dd1e175">
+          <head xml:id="bb-d4e19878-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e19878-Hd1e180" type="question-title">Peccator semper tenetur conteri habitu, non autem actu ad
+            semper, sed pro loco et tempore</head>
+          <p xml:id="bb-d4e19878-d1e183">Respondeo : Dicendum quod, sicut dicit <name ref="#HughOfStVictor">Hugo</name>, cum
+            Deus absolvit hominem a culpa, ligat eum vinculo perpetuae detestationis ; tenetur enim
+            semper malum quod fecit detestari. Sed quia tentio talis est praecepti affirmativi, quod
+            semper obligat, sed non ad semper, ideo dico quod semper tenetur conteri, sed non ad
+            semper, sed pro loto et tempore, videlicet cum recogitat mala sua in quibus offendit
+            Deum. Concedendae sunt igitur rationes hoc probantes.</p>
+        </div>
+        <div xml:id="bb-d4e19878-Dd1e191">
+          <head xml:id="bb-d4e19878-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e19878-d1e196">Ad illud quod obicitur, quod non semper, quia aliquando est gaudendum, dicendum quod
+            non tantum gaudere, immo alia cogitare debet ; nec <name ref="#Augustine">Augustinus</name> vult quod teneatur semper, id est in omni instanti, sed quod semper
+            teneatur pro loco et tempore, ita quod voluntas conterendi semper sit in habitu, sed in
+            actu pro Ioco et tempore.</p>
+          <p xml:id="bb-d4e19878-d1e202">Ad illud quod obicitur, quod dolor est ex praesentia disconvenientis, dicendum quod
+            quidam est dolor illatus, ut puta in sectione carnis ; quidam est dolor voluntarie
+            assumptus, ut quando dolet de morte amici ; et iste dolor non causatur ab amici morte,
+            sed causatur a voluntate mortem amici. refugiente ; et quia refugit quod necesse est
+            esse, ideo necesse habet dolere. Sicut si ego nollem vehementer te infirmari, et, si tu
+            infirmareris, dolerem ; sic, quia ego nollem me peccasse et video me peccasse, doleo.
+            Unde de dolore causato a voluntate non oportet quod illud pro quo quis dolet sit
+            praesens. affectu nec effectu nec reputatione, sed solum aspectu certo.</p>
+          <p xml:id="bb-d4e19878-d1e205">Ad illud quod obicitur per simile de confessione, dicendum quod dolor contritionis
+            potest dici prout est quaedam pars poenitentiae, divisa contra confessionem et
+            satisfactionem , et est purgativa culpae ; alio modo, prout motus interior voluntatis,
+            cui se subicit anima poenitens, et dolor iste est poena satisfactoria, impetrativa
+            augmenti gratiae et gloriae. Primus dolor est sacramentalis proprie et per se, quia est
+            effetivus remissionis culpae, ad quem solum semel tenetur poenitens ; alius non est
+            sacramentalis proprie et per se, sed est elicitus a virtute, et ad illum tenetur semper,
+            sed non ad semper.</p>
+          <p xml:id="bb-d4e19878-d1e208">Ad illud quod obicitur de medicina, dicendum quod quaedam medicina est sanativa tantum,
+            et haec est quando est morbus : quaedam praeservativa et meliorativa, et talis est
+            contritio ; et hanc semper habere bonum est.</p>
+          <p xml:id="bb-d4e19878-d1e212">Ad illud quod obicitur, quod est poena, dicendum quod nunquam peccator se tantum potest
+            punire, quin maiori poena sit dignus secundum rigorem iustitiae. Et quia homo sibi
+            rigidus debet esse et aliis pius, nunquam tantum se affligit per contritionem, quod sit
+            superfluum, dum tamen hoc possit sustinere, quia totum est ei ad gloriae cumulum. Tamen
+            nota quod contritio, ratione displicentiae peccati, semper est necessaria, saltem in
+            habitu ; ratione vero gemitus et planctus vel doloris sensibilis, non est necessaria,
+            maxime viris perfectis, qui audierunt voce interna quod audivit Magdalena : Dimittuntur
+            tibi peccata tua, sicut dicit <name ref="#Bernard">Bernardus</name>, In Cantica, circa
+            principium, sed ulterius possunt et debent meditationem suam ad dulcedinem patriae
+            supernae convertere. Ante hunc statum sanum consilium est peccata sua ante oculos
+            revocare ad gemitum et dolorem. Praeterea, displicentia non dicit semper poenam, immo
+            frequenter magnam habet laetitiam coniunctam, dum considerat in se liberationem
+            plenam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

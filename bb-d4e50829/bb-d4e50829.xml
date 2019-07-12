@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e50829">
+        <head xml:id="bb-d4e50829-Hd1e108">Quaestio 6</head>
+        <head xml:id="bb-d4e50829-Hd1e111" type="question-title">De differenti participatione beatitudinis, utrum scilicet omnes
+          habeant aequalem beatitudinem.</head>
+        <p xml:id="bb-d4e50829-d1e114">Sexto quaeritur, de differenti participatione beatitudinis ; et quaeritur, utrum omnes
+          habeant aequalem beatitudinem.</p>
+        <div xml:id="bb-d4e50829-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e50829-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e50829-d1e122">Et quod sic, videtur : Ex textu Matthaei 20, 9, ibi dicitur quod omnes acceperunt
+            singulos denarios, et quod Dominus tantum dedit novissimo quantum primo. Et Glossa dicit
+            I ad Corinthios 15, 41, super illud : Stella differt a stella : Eumdem denarium
+            Paterfamilias dedit omnibus qui operati sunt in vinea ; quo utique aliquid significatur
+            quod omnes communiter habebunt. Sed illud non, est nisi beatitudo : ergo etc.</p>
+          <p xml:id="bb-d4e50829-d1e125">Item, <name ref="#Augustine">Augustinus</name> : In dispari claritate erit par gaudium
+            ; sed beatitudo est gaudium per essentiam : ergo etc.</p>
+          <p xml:id="bb-d4e50829-d1e131">Item, ratione videtur, quia beatitudo consistit in Deo, qui est bonum summum in fine et
+            omnino invariabile, non. recipiens magis et minus : ergo nec beatitudo recipit magis et
+            minus. Si dicas quod consistit in Dei participatione, quae magis et minus recipit,
+            contra : unusquisque tantum participabit Deum in gloria, quod non volet nec poterit plus
+            participare : ergo unusquisque in summo ; sed quod summum est, est in termina, et quod
+            est in termina non recipit magis et minus : ergo etc.</p>
+          <p xml:id="bb-d4e50829-d1e134">Item, tantum diliget unusquisque homo proximum, sicut se ipsum : ergo tantum gaudepit
+            Linus de gloria Petri et tantum volet eam Petro quantum sibi ; et si hoc, tantum
+            gaudebit de gloria Petri quantum si eam haberet ; sed si haberet, tantum gauderet
+            quantum Petrus gaudet : ergo etc.</p>
+          <p xml:id="bb-d4e50829-d1e138">Contra : Ioannis 14, 2 : <quote xml:id="bb-d4e50829-Qd1e140" ana="#io14_2">In domo Patris mei mansiones multae
+              sunt</quote> ; <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e50829-Qd1e146">Multae mansiones in
+              una vita erunt, quia variae praemiorum dignitates</quote>.</p>
+          <p xml:id="bb-d4e50829-d1e150">Item, Apostolus, I ad Corinthios 15 ; 41 : <quote xml:id="bb-d4e50829-Qd1e152" ana="#Icor15_41">Stella differt a
+              stella in claritate</quote>. Si ergo claritas cognitionis generat gaudium et
+            delectationem et differens est, ergo differens erit gaudium.</p>
+          <p xml:id="bb-d4e50829-d1e156">Item, ratione videtur, quia praemium respondet merito ; sed constat aliquos esse
+            maioris meriti : ergo et praemii.</p>
+          <p xml:id="bb-d4e50829-d1e159">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e50829-Qd1e164">Si essent aequalia, non essent
+              omnia</quote>. Ordo ergo facit ad perfectionem ; sed superna civitas est perfectissima
+            : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e50829-Dd1e169">
+          <head xml:id="bb-d4e50829-Hd1e171">Conclusio</head>
+          <p xml:id="bb-d4e50829-d1e174">Respondeo : Dicendum quod diversitas et distinctio est in praemiis secundum maius et
+            minus ; sicut fuit in meritis. Ad intelligentiam autem obiectorum notandum quod sicut
+            beatitudo, ut dictum est supra, dicitur dupliciter : vel satians effective sicut
+            obiectum, vel satians informative sicut perfectio, sic et praemium sive donum. Nam si
+            dicatur sicut obiectum, omnino una est merces, unus Deus, una beatitudo, unum praemium.
+            Si autem formaliter dicitur, beatitudo una est unitate conformitatis et unitate
+            connexionis, sed tamen differens est quantitate gaudii et remunerationis. Unus enim alio
+            clarius videt Deum et magis de illo gaudet et strictius tenet.</p>
+        </div>
+        <div xml:id="bb-d4e50829-Dd1e179">
+          <head xml:id="bb-d4e50829-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e50829-d1e184">1-2. Et sic patet primum de denario. Patet etiam secundum, quomodo gaudium par dicitur,
+            non, inquam, intensive, sed extensive, quia de eisdem tot gaudet unus, de quibus et quot
+            gaudet alter.</p>
+          <p xml:id="bb-d4e50829-d1e187">Ad illud quod obicitur, quod quilibet participat Deum in summo, dicendum quod est
+            summum simpliciter et summum huic. Nullus participat in summo simpliciter, sed in summo
+            sibi ; quilibet enim tantum participat, non quin possit participari plus, sed non plus
+            ab ipso, quia non potest ultra proficere et contentus est omnino eo statu quem
+            habet.</p>
+          <p xml:id="bb-d4e50829-d1e190">Ad illud quod obicitur, quod tantum gaudet de bono proximi quantum de suo, dicendum
+            quod verum est ; unde Petrus plus gaudet de bono Lini quam ipse Linus ; sed ex hoc non
+            sequitur quod tantum gaudeat quantum si haberet illud, quia, si haberet illud bonum,
+            haberet maiorem caritatem et potestatem intensius gaudendi. His visis, satis patent ea
+            quae possent dici circa litteram.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

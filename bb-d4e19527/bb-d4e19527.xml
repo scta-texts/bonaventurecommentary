@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e19527">
+        <head xml:id="bb-d4e19527-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e19527-Hd1e111" type="question-title">Quid sit contritio in genere moris.</head>
+        <p xml:id="bb-d4e19527-d1e114">Secundo quaeritur, quid sit contritio in genere moris.</p>
+        <div xml:id="bb-d4e19527-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e19527-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e19527-d1e122">Et quod sit actus virtutis, videtur : Quia omnis actus difficilis et meritorius est
+            actus virtutis vel doni vel beatitudinis ; sed contritio est huiusmodi et non est doni
+            nec beatitudinis : ergo est virtutis.</p>
+          <p xml:id="bb-d4e19527-d1e125">Item, omnis actus meritorius specialis, qui egreditur a potentia determinata, est
+            vittutis specialis ; sed contritio est huiusmodi : ergo contritio est virtutis
+            specialis.</p>
+          <p xml:id="bb-d4e19527-d1e128">Item, poenitentia est dolor et amaritudo mentis ; sed constat illud esse dictum per
+            causam, quia poenitentia, ut dicit <name ref="#Ambrose">Ambrosius</name>, facit dolere :
+            ergo, si contritio est dolor, contritio est actus virtutis poenitentiae : ergo etc.</p>
+          <p xml:id="bb-d4e19527-d1e134">Sed contra : Contritio est dolor ; sed dolor est passio, et passio non est actus
+            virtutis nec gratiae : ergo nec contritio. Quod dolor sit passio, patet, quia dolor
+            opponitur delectationi.</p>
+          <p xml:id="bb-d4e19527-d1e138">Item, contritio est expulsiva peccati ; sed peccatum expellere est ipsius gratiae :
+            ergo contritio est gratiae actus. Si tu dicas hoc esse virtutis, contra : aut hoc est
+            virtutis per gratiam aut e ccinverso. Constat quod virtutis ratione gratiae, quae est
+            vita, et ideo expellit mortem. Cum ergo contritio per se sit expulsiva peccati, patet
+            quod contritio est actus gratiae.</p>
+          <p xml:id="bb-d4e19527-d1e141">Item, contritione omnia peccata expelluntur ; sed omne tale est commune ad omnem animae
+            potentiam et habitum : ergo contritio non est actus virtutis, aut si est non est
+            virtutis specialis.</p>
+        </div>
+        <div xml:id="bb-d4e19527-Dd1e145">
+          <head xml:id="bb-d4e19527-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e19527-Hd1e150" type="question-title">Contritio est motus specialis virtutis, scilicet
+            poenitentiae</head>
+          <p xml:id="bb-d4e19527-d1e153">Respondeo : Dicendum quod circa hoc triplex fuit opinio : quaedam, quod contritio est
+            motus liberi arbitrii informati gratia, non virtute, propter quod est expulsiva peccati
+            ; alia, quod motus omnium virtutum, quia contra omnia peccata ; tertia, quod motus
+            virtutis specialis, scilicet poenitentiae. Et habent istae tres opiniones ortum ab
+            opinionibus de poeniteritia, quia quidam dicebant quod poenitentia esset gratia ;
+            quidam, quod virtus generalis ; quidam, quod specialis. Sed, cum supra ostensum sit
+            ipsam esse virtutem specialem, cuius motus est peccatum detestari commissum ad emendam,
+            et hoc est conteri, dicendum quod contritio est motus specialis virtutis, scilicet
+            poenitentiae.</p>
+        </div>
+        <div xml:id="bb-d4e19527-Dd1e158">
+          <head xml:id="bb-d4e19527-Hd1e160">Ad rationes</head>
+          <p xml:id="bb-d4e19527-d1e163">Ad illud quod obicitur, quod est passio, dicendum quod dolor dicitur dupliciter : uno
+            modo dissensus voluntatis rationalis, alio modo passio redundans in sentientem. Primo
+            modo est motus voluntatis, et sic contritio est dolor per essentiam ; alio modo passio,
+            et sic contritio est dolor per concomitantiam.</p>
+          <p xml:id="bb-d4e19527-d1e166">Ad illud quod obicitur, quod delere culpam est gratiae, dicendum quod, etsi delere
+            culpam sit gratiae, tamen in adulto, qui praeparat se per usum liberi arbitrii,
+            infunditur gratia ut in tali usu est ; deletio culpae in illo fit per gratiam, ut induit
+            rationem virtutis, et ideo per poenitentiam, quae concernit gratiam et habitum
+            virtutis.</p>
+          <p xml:id="bb-d4e19527-d1e169">Ad illud quod obicitur, quod omnia expellit, dicendum quod expellit per modum
+            detestantis : et unius virtutis est omne malum detestari sub ea ratione qua est Dei
+            offensivum, et quia commissum est contra Deum ; et sic contritio detestatur et expellit
+            et est virtus poenitentiae. Unde sicut obedientia opera omnium virtutum respicit sub
+            ratione mandati, nec propter hoc est virtus generalis, quia, licet illa differant per
+            essentiam, tamen ratio formalis est una secundum speciem ; sic et in proposito. Et est
+            simile de visu qui videt hominem et plantam, quae non tantum differunt specie, sed etiam
+            genere ; videt tamen, quia sunt colorata ; videt etiam album et nigrum, quae sunt
+            obiecta per se et differunt specie ; et tamen ipse non differt, quia videt per naturam
+            lucis : sic contritio detestatur superbiam et luxuriam in quantum malum contra Deum
+            perpetratum ab ipso qui conteritur. Et si tu obicias, quod contritio est vis
+            concupiscibilis et poenitentia est in irascibili, supra solutum est. Nam dolor et odium
+            cum insurrectione consistit in irascibili ; nihilominus tamen cum illo est dolor quidam
+            in concupiscibili, et iste est imperatus a poenitentia et coniunctus cum illo dolore ;
+            et sic non est contrarium praedictis, quia utrumque concurrit ad contritionem, sed
+            primus dolor est praecipuus et principalis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

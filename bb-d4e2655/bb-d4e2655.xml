@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e2655">
+        <head xml:id="bb-d4e2655-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e2655-Hd1e111" type="question-title">Quid sit Baptismus a parte elementi, utrum aqua vel intinctio in
+          aqua.</head>
+        <p xml:id="bb-d4e2655-d1e114">Primo ergo quaeritur, quid sit Baptismus secundum suam essentiam, utrum aqua vel tinctio
+          in aqua.</p>
+        <div xml:id="bb-d4e2655-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e2655-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e2655-d1e122">Et quod aqua sit, videtur : Per definitionem <name ref="#HughOfStVictor">Hugonis</name>
+            : <quote xml:id="bb-d4e2655-Qd1e127">Baptismus est aqua abluendis criminibus sanctificata</quote>. Similiter per
+            definitionem sui generis : <quote xml:id="bb-d4e2655-Qd1e130">Sacramentum est elementum ex similitudine
+              repraesentans</quote> etc. Ergo si aqua est elementum, sacramentum Baptismi est aqua.
+            Si dicas quod utramque definitionem assignat per causam materialem, non per essentiam ;
+            contra : haec est per essentiam : Baptismus est sacramentum ; et haec : sacramentum est
+            signum ; et haec : Signum est species sensibilis, aliud faciens in cognitionem venire.
+            Ergo haec est vera secund um substantiam : Baptismus est species vel forma visibilis rei
+            invisibilis ; sed haec forma vel species non est nisi aqua : ergo etc. </p>
+          <p xml:id="bb-d4e2655-d1e134">Item, species panis est sacramentum in Eucharistia, non ipsa panis manducatio, sed
+            magis usus ; et hoc, quia similitudinem habet ad significatum ibi contentum : ergo, si
+            in Baptismo gratia abluens significatur per aqilam abluentem, ergo aqua abluens est
+            sacramentum ; sed non aliud quam Baptismus : ergo etc.</p>
+          <p xml:id="bb-d4e2655-d1e137">Quod autem aqua non sit Baptismus, sed tinctio, videtur : Per illud quod dicit <name ref="#Lombard">Magister</name> in littera, definiens <quote xml:id="bb-d4e2655-Qd1e142">Baptismum : Baptismus est
+              ablutio corporis exterior facta sub forma verborum praescripta</quote> ; et subdit :
+              <quote xml:id="bb-d4e2655-Qd1e145">Accedente verbo ad elementum, fit sacramentum ; non ipsum elementum fit
+              sacramentum, sed ablutio facta in elemento</quote>. Ergo patet quod Baptismus non est
+            aqua, sed ablutio in aqua.</p>
+          <p xml:id="bb-d4e2655-d1e149">Item, hoc ipsum patet ratione, quia, si Baptismus esset aqua, cum aqua sit semper aqua,
+            semper esset Baptismus ; quod falsum est, quia non est, nisi dum aliquis baptizatur. Et
+            iterum, cum aliquis baptizaretur in mari, tunc mare esset Baptismus et flumen ; quod non
+            est rationabile.</p>
+          <p xml:id="bb-d4e2655-d1e153">Item, ad sacramentum Baptismi concurrit verbum et elementum : ergo, si verbum est
+            necessariunt, utpote quod significat, illud proprie est Baptismus ad quod refertur
+            verbum ; sed verbum refertur ad actum abluendi, cum dicitur abluo te, non ad aquam :
+            ergo Baptismus non est aqua.</p>
+          <p xml:id="bb-d4e2655-d1e156">Quod autem nec aqua sit nec tinctio in aqua, videtur, quia Baptismus manet, recedente
+            aqua et ablutione, in. baptizato : ergo etc. Quod maneat, videtur, quia semper denominat
+            et nunquam iteratur.</p>
+        </div>
+        <div xml:id="bb-d4e2655-Dd1e160">
+          <head xml:id="bb-d4e2655-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e2655-Hd1e165" type="question-title">Utrumque, scilicet aqua abluens et ablutio, est Sacramentum,
+            unum tamen</head>
+          <p xml:id="bb-d4e2655-d1e168">Respondeo : Ad intelligentiam praedictorum est notandum quod baptizare in Graeco tantum
+            valet quantum lavare in Latino ; unde Iudith 12, 7 : <quote xml:id="bb-d4e2655-Qd1e170" ana="#iud12_7">Descendebat
+              in vallem Bethuliae et baptizabat se</quote>. Ab eo autem quod est lavare oritur
+            lavacrum et lotio. Lavacrum est aqua deputata ad lavandum, sicut balneum est aqua
+            deputata ad balneandum humano artificio. Lotio vero est usus vel effectus aquae.
+            Baptismus igitur accipitur pro lavacro, ut Canticorum 4, 2 :<quote xml:id="bb-d4e2655-Qd1e173" ana="#cant4_2">
+              Dentes lui sicut greges tonsarum, quae ascenderunt de lavacro</quote>, Glossa :
+              <quote xml:id="bb-d4e2655-Qd1e176">Loti in baptismo</quote>. Et e converso, ad Titum 3, 5 : Per lavacrum
+            regenerationis et renovationis. Accipitur etiam pro lotione, Marci 7, 3 : Tenentes
+            traditionem hominum, baptismata calicum et urceorum, id est lotiones ; similiter ablutio
+            pro baptismo, Ioannis 13, 10 : Qui lotus est non indiget etc. : lotus, id est
+            baptizatus.</p>
+          <p xml:id="bb-d4e2655-d1e180">Cum igitur nomen baptismi aequivaleat lavacro et etiam lotioni, dixerunt aliqui quod
+            Baptismus, secundum quod est nomen sacramenti, idem est quod lavacrum ; alii, quod est
+            idem quod tinctio. Primae opinionis videtur fuisse magister <name ref="#HughOfStVictor">Hugo</name>, sed secundae <name ref="#Lombard">Magister</name>.</p>
+          <p xml:id="bb-d4e2655-d1e189">Credo tamen quod utroque modo dictum est sacramentum, quia secundum quod lavacrum, est
+            sacrae rei signum ; aqua enim abluens signum est gratiae intus mundantis, et ablutio
+            signum interioris mundationis ; et ita utrumque sacramentum, nec tamen duo sacramenta,
+            quia unum est propter alterum. Aqua enim non est sacramentum, nisi in quantum abluens ;
+            et lotio non est sacramentum, nisi quia lotio aquae vel in aqua ; et ideo unum tantum
+            sacramentum.</p>
+          <p xml:id="bb-d4e2655-d1e193">Si tamen quaeras quod per prius et proprius dicitur sacramentum, utrum Baptismus pro
+            lavacro an pro lotione, est distinguendum quod Baptismus dicitur sacramentum
+            sanctificans, et sic principalius dicitur de lotione, quia immediatius respicit
+            interiorem effectum et verbum ; dicitur etiam sacramentum significans, et sic
+            principaliter dicitur de lavacro, quia significatur interius proprie et per prius est
+            gratia mundans, et per consequens ipsa lotio. Et est exemplum : circulus expositus ante
+            tabernam signum est vini vendendi et expositio circuli est signum venditionis ; tamen
+            magis proprie est signum circulus quam expositio ; sic aqua magis quam ablutio. Et
+            concedendae sunt rationes hoc probantes.</p>
+        </div>
+        <div xml:id="bb-d4e2655-Dd1e198">
+          <head xml:id="bb-d4e2655-Hd1e200">Ad rationes</head>
+          <p xml:id="bb-d4e2655-d1e203">Ad illud autem quod obicitur in contrarium de Magistro, dicendum quod ipse fuit
+            alterius opinionis ; nihilominus tamen concedendum, est quod Baptismus sit ablutio ; nec
+            ex hoc sequitur quod non sit aqua abluens. Quod autem dicit quod elementum non fit
+            sacramentum, intelligendum, non secundum id quod est, sed secundum actum, qui est
+            lavare.</p>
+          <p xml:id="bb-d4e2655-d1e206">2-3. Per hoc etiam patet sequens, quia aqua non est sacramentum secundum quod aqua
+            solum, sed secundum actum lavandi, sicut gratia medetur secundum actum pugandi ; et ideo
+            non squitur quod semper aqua sit sacramentum, nec quod omnis aqua, sed aqua quae lavat
+            et quae deputatur ad hoc ; et hoc non est totum mare vel fluvius, sed illud aquae quod
+            de proximo coniungitur corpori lavando. Ex hoc etiam patet sequens, quia verbum refertur
+            ad aquam.secund,um quod sacramentum in actu, et sic est in quantum lavans.</p>
+          <p xml:id="bb-d4e2655-d1e209">Ad illud quod obicitur, quod manet, dicend um quod Baptismus proprie, secundum quod
+            dicit sacramentum exterius, non manet in se, sed in suo effectu, et ratione illius
+            dicitur manere. Effectus enim Baptismi aliquando dicitur Baptismus.</p>
+          <p xml:id="bb-d4e2655-d1e212">Unde notandum quod, cum in Baptismo sint tria quoddam, quod est sacramentum tantmn, ut
+            elementum visibile ; quoddam, quod est res tantum, sicut gratia curans ; quoddam, quod
+            est sacramentum et res sacramenti, ut character de re sacramenti dicitur communiter ; de
+            re et sacramento dicitur proprie ; de sacramento autem dicitur magis proprie ; sed de
+            lotione adhuc magis proprie ; de elemento autem sub tali actu maxime proprie. Et
+            secundum has quatuor acceptiones quadrupliciter definitur. Secundum quod Baptisrnus est
+            nomen elementi significantis et sanctificantis virtute verbi, definitur ab <name ref="#HughOfStVictor">Hugone</name> : Baptismus est aqua diluendis criminibus
+            sanctificata. Secundum quod pro actu vel usu elementi, a Magistro : Baptismus est
+            tinctio corporis exterior facta sub forma verborum praescripta. Secundum. quod accipitur
+            pro sacramento et re sacramenti, quod est character, sic a Damasceno : Baptismus est
+            vitae spiritualis principium, sigillum et custodia et illuminatio mentis. Et tangitur
+            quadruplex conditio characteris : quia enim praeparat ad gratiam, ideo principium vitae
+            ; quia distinguit gregem Domini, sic sigillum ; quia indelebiliter perseverat, sic
+            custodia ; quia specialiter disponit ad fidem, dicitur illuminatio mentis. Secundum quod
+            accipitur pro re sacramenti ; definitur a Dionysio : Baptismus est regenerationis
+            sacramentum, secundum quod primitus subsistit in anima, spiritualiter formans animales
+            motus ad opportunitatem divinorum eloquiorum et actionum, et ad caelestis quietis
+            anagogen iter faciens. In hac definitione tangitur res huius sacramenti, quae est gratia
+            animam vivificans, cum dicit : secundum quod primitus subsistit in anima ; tangitur
+            etiam habilitatio potentiae per virtutem, primo ad activam, cum dicit : formans animales
+            motus ; secundo ad contemplativam, cum dicit : ad caelestis quietis anagogen.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

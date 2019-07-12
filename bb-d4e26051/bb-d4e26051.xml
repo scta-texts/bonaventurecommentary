@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e26051">
+        <head xml:id="bb-d4e26051-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e26051-Hd1e111" type="question-title">Utrum poena purgatorii sit maxima poenarum temporalium.</head>
+        <p xml:id="bb-d4e26051-d1e114">Secundo quaeritur, utrum poena purgatoria sit maxima poenarum temporalium.</p>
+        <div xml:id="bb-d4e26051-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e26051-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e26051-d1e122">Et quod sic, videtur : <name ref="#Augustine">Augustinus</name>, in quodam Sermone :
+              <quote xml:id="bb-d4e26051-Qd1e127">Ille ignis durior erit quam quidquid in hoc saeculo poenarum aut videre aut
+              sentire aut cogitare quis potest</quote>.</p>
+          <p xml:id="bb-d4e26051-d1e131">Item, in littera, dicit quod excellit omnem poenam quam unquam passus sit aliquis in
+            hac vita.</p>
+          <p xml:id="bb-d4e26051-d1e134">Item ratione videtur, quia quanto quis est debilior, tanto iudex puniens minori poena
+            debet esse contentus. Ergo quanto est fortior, tanto exigitur ab eo poena gravior ; sed
+            spiritus separatus improportionaliter est fortior quam sit totum coniunctum sive homo
+            totus ; sed post hanc vitam est spiritus separatus : ergo videtur quod gravius
+            puniatur.</p>
+          <p xml:id="bb-d4e26051-d1e137">Item, spiritus separatus a carne semper gravius peccat quam spiritus carni unitus ; sed
+            malum poenae proportionatur malo culpae, et malum culpae semper gravius est in spiritu
+            separato : ergo pari ratione et malum poenae.</p>
+          <p xml:id="bb-d4e26051-d1e141">Item, maior et gravior est poena passioni quam poena compassionis ; sed, anima exuta
+            punitur poena passionis, coniuncta vero poena compassionis : ergo etc.</p>
+          <p xml:id="bb-d4e26051-d1e144">Item, quanto poena est universalior, tanto gravior ; sed anima exuta, cum punitur, tota
+            punitur et secundum totum : cum enim sit simplex, ignis totam attingit ; sed in
+            praesenti vix aut nunquam aliqua poena totum hominem cruciat : ergo generaliter gravior
+            est illa quam sit aliqua temporalis poena.</p>
+          <p xml:id="bb-d4e26051-d1e147">Contra : Deus retribuit unicuique secundum meritum suum : unde proportionaliter
+            respondet poena reatui ; sed, cum quis moritur reatus non intenditur : ergo nec poena
+            debet intendi : ergo nec debet esse maior in futuro quam in praesenti.</p>
+          <p xml:id="bb-d4e26051-d1e150">Item, quanto aliquid magis est passibile, adiunctum punienti magis patitur et gravius
+            punitur ; sed coniunctum magis est passibile quam anima secundum se : ergo adiunctum
+            affligenti magis patitur. Ergo, si punitur coniunctum in praesenti, et in futuro anima
+            separata, patet etc.</p>
+          <p xml:id="bb-d4e26051-d1e153">Item, maior est passio in qua agens est transmutans et abiciens, quam ubi alterum horum
+            deficit ; sed in purgatorio anima punitur ita quod non transmutatur nec aliquid abicitur
+            ; in praesenti autem a corpore fit abiectio : ergo videtur quod ista poena sit
+            gravior.</p>
+          <p xml:id="bb-d4e26051-d1e156">Item, beatior erit anima quando glorificabitur, corpore resumpto, et similiter miserior
+            quando punietur, corpore resumpto. Ergo unio animae ad corpus potius facit ad poenae
+            augmentum quam ad diminutionem : ergo, ab oppositis, separatio facit potius ad
+            diminutionem quam ad augmentum. Ergo videtur quod minus graviter puniatur in purgatorio
+            anima separata quam nunc, cum sit coniuncta.</p>
+        </div>
+        <div xml:id="bb-d4e26051-Dd1e160">
+          <head xml:id="bb-d4e26051-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e26051-Hd1e165" type="question-title">Poena purgatorii in suo genere gravior est omni tmeporali
+            poena, quem modo sustinet anima carni coniuncta</head>
+          <p xml:id="bb-d4e26051-d1e168">Respondeo : Dicendum quod, sicut dicit <name ref="#Lombard">Magister</name> in littera
+            et Sancti etiam multi dicunt, oportet nos concedere, etiamsi non appareat nobis ratio,
+            quod poena purgatoria gravior est omni temporali poena, quam modo sustinet anima carni
+            coniuncta. In huiusmodi autem magis adhaerendum est auctoritati quam rationi, pro eo
+            quod illud est magis supra naturam et rationem quam secundum naturam et rationem. Sane
+            tamen hoc intelligendum, ut generaliter poena illa sit maior ista, secundum illam
+            regulam Philosophi : Si optimum in uno genere est melius optimo in alio genere, et hoc
+            simpliciter illo melius. Similiter intelligendum est hic, quod illa sit maior, non quia
+            minima sit maior maxima in hoc genere, sed quia maxima, in illo genere maior sit maxima
+            in hoc genere. Sicut enim dicit beatus <name ref="#GregoryGreat">Gregorius</name>,
+            quibusdam revelatum est quasdam animas in umbra punitas esse.</p>
+          <p xml:id="bb-d4e26051-d1e177">Ad hoc autem quod tenemus intelligendum, aliqui voluerunt assigare rationem naturalem,
+            ostendentes quod ex natura animae vertiret quod, cum anima exuta patitur, per se ipsam
+            patitur secundum se totam, et ideo poena modica est ei gravissima. Sed hunc modum
+            dicendi non approbat ratio catholica, quae in inferno credit animas gravius puniendas
+            post corpora iam resumpta ; unde credenedum est quod iusti, qui igne conflagrationis in
+            corpore purgabuntur in die iudicii, gravius punientur, quia brevius et ideo intensius,
+            quam qui nunc purgantur.</p>
+          <p xml:id="bb-d4e26051-d1e180">Alii voluerunt assignare rationem partim naturalem, partim supernaturalem. Dixerunt
+            enim quod animae exutae habent potentias suas expeditas et naturale desiderium habent
+            pertingendi ad bonum propter quod sunt creatae ; et ulterius, gratia est in eis, quae
+            magis istud desiderium inclinat : et ideo, cum illud bonum sitiant et ab illo
+            retrahantur et quasi incarcerentur, modica poena sensibilis cum hac tristitia est eis
+            maxima. Et pro tanto dicunt poenam purgatoriam esse maximam. Sicut enim delectationes
+            spirituales sunt intensae multum et praecellunt corporales, ita et tristitia de absentia
+            superexcellit mortem dolorem corporalem. Sed certe nec ista ratio bene manuducit, si
+            quis aspiciat. Primum quidem, quia desiderium summi Boni est desiderium quod habet
+            necessario iunctam secum fruitionem et aliquam realem possessionem, et ideo parit
+            gaudium ; unde qui plus desiderat summum Bonum, magis ibi delectatur. In hoc enim
+            dissimile est desigerium temporalium et corporalium a desiderio spiritualium, ut
+            ostendit <ref xml:id="bb-d4e26051-Rd1e182" target="http://scta.info/resource/a83-q35">Augustinus, in libro 83
+              Quaestionum</ref>. Et illud veritatem habet maxime cum Deus inhabitat per caritatem in
+            anima. Sed secundum istam rationem poena limbi maxima esset et fuisset maxima in sanctis
+            Patribus, ubi creditur duisse requies sancta. Ista etiam ratio nihil ad propositum
+            facit, si quis inspiciat, pro eo quod Sancti non de carentia loquuntur, sed de poena
+            afflictiva, sicut de igne sive de flamma purgatoria.</p>
+          <p xml:id="bb-d4e26051-d1e187">Ideo dicendum quod ratio huius sumitur ex divina iustitia. Et ista est ratio recta,
+            quia quod ignis agat in animam, ut infra videbitur, non est naturae, sed iustitiae ; et
+            ideo, quod magis agat, divinae iustitiae est attribuendum. Quoniam ergo Deus iustus
+            poenam non acceptat secundum quod punitiva tantum, sed secundum quod plus est in ea
+            ratio ordinis recti, secundum hoc intelligendum quod est poena assumpta et poena
+            inflicta. In poena assumpta pon tantum placet Deo ordinatio poenae ad culpam, sed ordo
+            et rectitudo quae est in voluntate assumente ; in poena inflicta placet ordinatio poenae
+            ad culpam. Quoniam igitur poena poenitentium in praesenti plus est assumpta, poena
+            morientium est inflicta in purgatorio, pro eo quod iam non est tempus agendi, sed
+            recipiendi ; ideo modica poena in praesenti plus satisfacit et magis est de ea contenta
+            divina iustitia quam de magna in futuro ; et ideo quasi improportionaliter maiorem
+            exigit, ut ei satisfaciat. Exemplum autem potest haberi in istis materialibus debitis.
+            Creditor enim plus acceptat marcam auri quam decem marcas argenti ; et poena praesens
+            illi comparata multo pretiosior est in conspectu Dei, quam sit aurum argento in
+            conspectu hominum. Concedendae igitur sunt rationes probantes poenam illam graviorem
+            esse.</p>
+        </div>
+        <div xml:id="bb-d4e26051-Dd1e192">
+          <head xml:id="bb-d4e26051-Hd1e194">Ad rationes</head>
+          <p xml:id="bb-d4e26051-d1e197">Ad illud ergo quod obicitur, quod reatus non augetur, dicendum quod verum est. Sed
+            reatus poenae melius solvitur de modica poena assumpta quam de multa inflicta.</p>
+          <p xml:id="bb-d4e26051-d1e200">Ad illud quod obicitur, quod quanto magis est passibile, magis patitur, dicendum quod
+            illud est verum, ceteris paribus ; sed divina virtus, cuius est ille ignis instrumentum,
+            ordinat ut puniat gravius. Vel dicendum quod, poena non iudicatur maior et minor
+            secundum laesionem sive passionem, sed secundum sensum passionis, prout sensus refugit
+            illam poenam. Et quoniam spiritus, licet minus laedatur ab igne quam corpus, vivaciorem
+            tamen habet vim sentiendi passionem, et iterum, maxime refugit, quia hoc contra naturam
+            suam est, non sic contra naturam corporis : ideo, quamvis minus patiatur et minus
+            laedatur, passione naturali magis punitur et magis dolet ; et per hoc patet responsio ad
+            duo ultima.</p>
+          <p xml:id="bb-d4e26051-d1e203">Quod enim dicitur, quod magis punit quod abicit et transmutat, dicendum quod falsum
+            est, quia ignis infernalis, qui urit et non consumit, gravius punit quam iste alius
+            ignis, qui utrumque facit.</p>
+          <p xml:id="bb-d4e26051-d1e206">Similiter de alio, quod magis punit quod magis nocet, dicendum quod falsum est, quia
+            maior poena est brachium conterere quam etiam amputare, quia remanet ibi sensus et dolor
+            continuus. Sic et in anima, quae nunquam dormit, semper est actualis sensus nocivi et
+            dissensus, ita quod uterque viget et neuter minuitur quantum est ex parte spiritus ; et
+            ideo dolor est intensus et continuus, ac per hoc gravissimus. Quomodo autem corpus agat
+            in spiritum, infra in suo loco dicetur, cum agetur de poenis infernalibus.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

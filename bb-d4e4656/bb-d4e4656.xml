@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e4656">
+        <head xml:id="bb-d4e4656-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e4656-Hd1e111" type="question-title">Utrum fictus recipiat rem post sacramentum, recedente
+          fictione.</head>
+        <p xml:id="bb-d4e4656-d1e114">Tertio quaeritur, utrum fictus recipiat rem post sacramentum, recedente fictione.</p>
+        <div xml:id="bb-d4e4656-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e4656-d1e119">Et quod sic, videtur : Quoniam <name ref="#Augustine">Augustinus</name> dicit, et
+            habetur in littera : <quote xml:id="bb-d4e4656-Qd1e124">tunc incipit valere Baptismus ad salutem quando illa fictio
+              veraci confessione de corde recesserit</quote>.</p>
+          <p xml:id="bb-d4e4656-d1e128">Item, fictio erat sola causa quare sacramentum non habebat efficaciam. Ergo, illa
+            remota, habet effectum.</p>
+          <p xml:id="bb-d4e4656-d1e131">Item, si non haberet effectum, cum sacramentum non possit iterari et nullus sine
+            efficacia Baptismi possit salvari, non pateret huic via salutis.</p>
+          <p xml:id="bb-d4e4656-d1e134">Contra : Opera mortua non vivificantur ; sed iste recipit Baptismum extra caritatem ;
+            et ita est opus mortuum.</p>
+          <p xml:id="bb-d4e4656-d1e137">Item, necesse est causam esse coniunctam effectui, alioquin, si causa praeterit et non
+            est, ergo nihil facit ; sed ita est in hoc : ergo etc.</p>
+          <p xml:id="bb-d4e4656-d1e141">Item, si aliquis indigne recipit corpus Domini, recedente indignitate, non propter hoc
+            aliquid efficit : ergo etc.</p>
+          <p xml:id="bb-d4e4656-d1e144">Item, quid erit de eo qui media tempore peccavit ? Si enim habet efficaciam, tunc, cum
+            remittat omnem culpam, remittetur fictio et alia peccata ; sed hoc non fieret ei nisi
+            fuisset fictus : ergo reportat commodum de malitia.</p>
+        </div>
+        <div xml:id="bb-d4e4656-Dd1e148">
+          <head xml:id="bb-d4e4656-Hd1e150">Conclusio</head>
+          <head xml:id="bb-d4e4656-Hd1e153" type="question-title">Character in baptismo impressus, recedente fictione,
+            praecedentia peccata remittit quoad culpam et poenam</head>
+          <p xml:id="bb-d4e4656-d1e156">Respondeo : Dicendum breviter quod sacramentum Baptismi, cum non sit iterabile,
+            imprimit characterem ; et ille habet omnem efficaciam, recedente fictione, quam
+            habuisset ante : unde peccata illa remittit quantum ad poenam et culpam, quae
+            praecesserunt ; quae autem post commisit, virtute poenitentiae remittuntur, et pro illis
+            est poenitentia imponenda. Ex his patent omnia.</p>
+        </div>
+        <div xml:id="bb-d4e4656-Dd1e161">
+          <head xml:id="bb-d4e4656-Hd1e163">Ad rationes</head>
+          <p xml:id="bb-d4e4656-d1e166">Ad illud ergo quod primo obicitur, quod opera mortua etc., dicendum quod Baptismus non
+            est opus hominis, sed Dei, et ideo nunquam potest esse mortuum. Illud autem quod dicitur
+            de operibus mortuis intelligitur de operibus nostris.</p>
+          <p xml:id="bb-d4e4656-d1e169">Ad illud quod obicitur, quod causa debet esse coniuncta effectui, dicendum quod
+            character semper manet et illud efficit quod faceret gratia, fidione recedente.</p>
+          <p xml:id="bb-d4e4656-d1e172">Ad illud quod obicitur de sacramento Eucharistiae, patet responsio, quod non valet, tum
+            quia transit et nihil relinquit gratis datum disponens ad gratiam gratum facientem, tum
+            etiam quia est iterabile.</p>
+          <p xml:id="bb-d4e4656-d1e175">Ad illud quod obicitur de eo qui medio tempore commisit, dicendum quod omnia
+            remittuntur ei, sed non reportat commodum, quoniam tam de fictione quam de peccatis
+            postea perpetratis est ei poenitentia imponenda. Et sic patet totum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

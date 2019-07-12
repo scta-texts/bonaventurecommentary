@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2 Utrum puniens in inferno sit solus ignis.</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2 Utrum puniens in inferno sit solus ignis.</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e46522">
+        <head xml:id="bb-d4e46522-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e46522-Hd1e111">Utrum puniens in inferno sit solus ignis.</head>
+        <p xml:id="bb-d4e46522-d1e114">Secundo quaeritur, utrum puniens in inferno sit ignis solus.</p>
+        <div xml:id="bb-d4e46522-Dd1e117" type="rationes-principales">
+          <p xml:id="bb-d4e46522-d1e119">Et quod sic, videtur : Matthaei 25, 41 : <quote xml:id="bb-d4e46522-Qd1e121" ana="#mt25_41">Ite, maledicti, in ignem
+              aeternum</quote> ; ubi Dominus per sententiam infert aeternale supplicium : ergo
+            videtur quod in igne pure consistat.</p>
+          <p xml:id="bb-d4e46522-d1e125">Item, calefacto in igne aqua frigida non est poenalis, sed delectabilis, nec auget
+            supplicium, sed refrigerium. Ergo, si nulla est eis consolatio, nullum refrigerium :
+            ergo est calor in igne sine frigore aquae.</p>
+          <p xml:id="bb-d4e46522-d1e128">Item, si sunt ibi elementa, aut sunt activa aut non. Si sic, ergo, cum unum contrarium
+            agens in aliud eius actionem debilitet et infringat, tunc videtur quod actio ignis sit
+            ibi remissa ; quod non videtur conveniens, cum illa poena sit acerbissima. Si vero non
+            sunt activa, ergo nihil faciunt ad poenam : ergo, si in inferno non debent esse corpora,
+            quae ad poenam non faciunt, patet etc.</p>
+          <p xml:id="bb-d4e46522-d1e131">Item, si ibi sunt alia elementa, aut sunt distincta aut mixta. Si mixta, ergo eorum
+            actio est confracta et contemperata ; si vero sunt distincta, ergo et pari ratione
+            ordinata, ergo sunt quatuor elementa distincta et ordinata : ergo videtur quod ibi sit
+            unus mundus ; et iterum, illud esset falsum quod dicitur Iob 10, 22 : Terra miseriae et
+            tenebrarum, ubi nullus ordo, sed sempiternus horror inhabitat. Ergo, si nec distincta
+            nec confusa sunt, tunc nullo modo.</p>
+          <p xml:id="bb-d4e46522-d1e134">Contra : Quod sit ibi ignis, patet ex Matthaei 25, 41, ubi dicitur : <quote xml:id="bb-d4e46522-Qd1e136" ana="#mt25_41">Ite, maledicti, in ignem aeternum</quote> ; hoc etiam habetur ex multis
+            aliis locis.</p>
+          <p xml:id="bb-d4e46522-d1e141">Item, quod sit ibi aer, videtur per illud Psalmi [10, 7] : <quote xml:id="bb-d4e46522-Qd1e143" ana="#ps10_7">Ignis,
+              sulphur et spiritus procellarum</quote> etc. Si ergo Spiritus procellarum vere habet
+            naturam aeris, sicut ibi vere est ignis, ita et aer.</p>
+          <p xml:id="bb-d4e46522-d1e147">3.Item, quod sit ibi aqua, videtur, Iob 24, 19 : <quote xml:id="bb-d4e46522-Qd1e149" ana="#iob24_19">Transibunt ab
+              aquis nivium ad calorem nimium</quote>. Ergo, si vere erunt in calore ignis non
+            secundum tropum, vere erunt in frigore aquarum.</p>
+          <p xml:id="bb-d4e46522-d1e153">Item, quod terra sit ibi, videtur per illud quod dicitur Iob 10, 22 : <quote xml:id="bb-d4e46522-Qd1e155" ana="#iob10_22">Terra miseriae et tenebrarum</quote> ; et hoc patet, quia, ut probatum
+            est, locus ille est sub terra.</p>
+          <p xml:id="bb-d4e46522-d1e159">Item, hoc videtur de omnibus simul, quia enim mali per corpus peccaverunt, ideo per
+            totum corpus puniuntur. Ergo pari ratione secundum omnes partes et qualitates corporis :
+            ergo videtur quod secundum quatuor elementa et eorum quatuor qualitates.</p>
+        </div>
+        <div xml:id="bb-d4e46522-Dd1e163">
+          <head xml:id="bb-d4e46522-Hd1e165">Conclusio</head>
+          <head xml:id="bb-d4e46522-Hd1e168" type="question-title">In inferno non tantum ignis, sed etiam tria alia elementa esse
+            creduntur, sed confusa</head>
+          <p xml:id="bb-d4e46522-d1e171">Respondeo : Dicendum quod in inferno, sicut ex Scriptura colligitur, quatuor elementa
+            esse creduntur ad perfectam damnatorum punitionem, ut omnis creatura excandescat in
+            tormentum contra iniustos et armetur in ultionem Creatoris, et per eadem puniantur ex
+            quibus constituuntur. Quia vero sunt ibi ad poenam, ideo illa ibi esse dicuntur quae
+            vigent in qualitatibus activis, ut ignis et aqua. Et rursus, quia ignis maxime activus
+            est, ille est qui maxime ibi viget ; unde etiam per ignem in Scriptura omne acerbe
+            puniens significari solet. Unde, cum Dominus ignem infernalem comminatur, aut comminatur
+            tamquam praecipuum tormentum aut sub nomine ignis intelligit omne aliud afflictivum.</p>
+          <p xml:id="bb-d4e46522-d1e174">Si autem quaeratur, per quem modum ibi elementa esse intelligantur, dicendum quod
+            elementa ibi sunt confusa, non distincta, non ordinata. Nec tamen illa confusio poenam
+            minuit, sed auget ; pro eo quod actio elementorum mutua post resurrectionem cessabit,
+            cum cesset generatio et corruptio ; sed tamen manebit actio eorum in corpus damnandorum,
+            quia ad hoc omnis eorum virtus dirigetur, non tamquam intendentia multiplicare speciem,
+            sed secundum imperium Creatoris intendunt vindicare divinam iniuriam, quod quidem fit
+            affligendo humanam naturam. His visis, patent omnia obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e46522-Dd1e179">
+          <head xml:id="bb-d4e46522-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e46522-d1e184">1-2. Primum enim patet de Domini comminatione, quia sub igne alia affligentia
+            continentur, vel a maiori fit denominatio. Secundum similiter patet, quia simul utrumque
+            affliget secundum diversas partes aut, si successive secundum easdem, tanta erit
+            intensio ex parte utriusque, quod potius sentietur maior acerbitas quam contemperetur.
+            Et si obiciatur de divite, qui guttam aquae petiit, dici potest quod forte in alia parte
+            sentiebat frigus ; aut diversi diversis suppliciis cruciantur, secundum quod diversis
+            vitiis sunt infecti. Unde sicut prima mundi purgatio fuit per aquam, secunda per ignem,
+            sic in proposito intelligendum.</p>
+          <p xml:id="bb-d4e46522-d1e187">3-4. Ad illud quod obicitur de actione et mixtione, patet responsio, quia ibi est actio
+            non in alterum, sed in miserum corpus damnatum ; et ibi non est commixtio, sed potius
+            quaedam confusio, sicut dicitur quod ignis et grando mixta pariter ferebantur. Unde ibi
+            erit ignis ardens et aqua congelans et aeris inquietudo et perturbatio et terrae foetor.
+            Unde <name ref="#GregoryGreat">Gregorius</name> : In inferno erit frigus importabile,
+            ignis inexstinguibilis, foetor intolerabilis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12011">
+        <head xml:id="bb-d4e12011-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e12011-Hd1e111" type="question-title">Utrum ista conversio sil annihilatio.</head>
+        <p xml:id="bb-d4e12011-d1e114">Tertio quaeritur, utrum ista conversio sit annihilatio.</p>
+        <div xml:id="bb-d4e12011-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e12011-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e12011-d1e122">Et quod sic, videtur : Quia omne illud quod sic mutatur quod nihil de ipso remanet
+            annihilatur ; sed taliter est de substantia panis in proposito : ergo est
+            annihilatio.</p>
+          <p xml:id="bb-d4e12011-d1e125">Item, succedens generatio non aufert corruptionem praecedentem : ergo succedens
+            conversio non aufert corruptionem praecedentem ; sed hic corrumpitur materia et forma,
+            et ita totum : ergo quidquid succedat, nihilominus est annihilatus panis.</p>
+          <p xml:id="bb-d4e12011-d1e128">Item, esto quod pari virtute converteretur totum universum in corpus Christi, ipsum
+            esset annihilatum. Probatio : toto universo cedente in nihil, solo Christo manente, nil
+            minus remanet quam si converteretur totum in Christum, quia tantum Christus est : ergo,
+            si ibi esset annihilatio, et hic.</p>
+          <p xml:id="bb-d4e12011-d1e131">Item, argumentum hoc est necessarium : A non est B nec pars B nec aliquid eius nec
+            aliquid aliud ; et fuit : ergo est annihilatum. Sed panis non est Christus nec pars
+            Christi nec aliquid aliud : ergo etc.</p>
+          <p xml:id="bb-d4e12011-d1e135">Contra : Nihil quod convertitur in rem digniorem se annihilatur ; sed panis convertitur
+            in rem multo digniorem se : ergo etc.</p>
+          <p xml:id="bb-d4e12011-d1e138">Item, actio penes terminum denominatur : ergo, cum annihilatio denominetur ab hoc quod
+            est nihil, et annihilatione nihil fit, sed nihil non habet aliquid de bono : ergo nec
+            annihilatio. Sed nulla actio est a summo Bono nisi bona : ergo etc.</p>
+          <p xml:id="bb-d4e12011-d1e141">Item, a summo Bono nunquam id quod est bonum fit malum : ergo a simili nunquam id quod
+            est ens fit non-ens sive nihil.</p>
+          <p xml:id="bb-d4e12011-d1e144">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e12011-Qd1e149">Conditor naturae nihil facit
+              contra naturam</quote> ; sed omnis natura appetit esse, sicut dicit Philosophus :
+              <quote xml:id="bb-d4e12011-Qd1e152">Naturam, inquimus, desiderare quod melius est et melius est esse quam non
+              esse</quote>.</p>
+          <p xml:id="bb-d4e12011-d1e156">Item, in sacramento debet salvari ratio signi sive conveniens significatio ; sed hoc
+            Sacramentum non est corruptivum, sed conservativum et meliorativum : ergo in ipso non
+            debet esse annihilatio.</p>
+        </div>
+        <div xml:id="bb-d4e12011-Dd1e160">
+          <head xml:id="bb-d4e12011-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e12011-Hd1e165" type="question-title">Transsubstantiato non est annihilatio, sed in meliorem
+            substantiam commutatio</head>
+          <p xml:id="bb-d4e12011-d1e168">Respondeo : Dicendum quod, sicut tangit <name ref="#Lombard">Magister</name> in
+            littera, quorumdam positio fuit quod esset annihilatio panis, cum nihil de eo remaneat,
+            vel quia videbatur indignum dicere quod aliquid extraneum in corpus Christi transiret,
+            ideo rationabilius videbatur eis quod panis corpori Christi cederet, non mutando locum,
+            sed desinendo esse, et Christi corpus superveniret. Sed haec positio stare non potest,
+            cum hoc non deceat Deum facere, qui est tota causa in hac conversione, nec deceat
+            Sacramentum opus tam vile.</p>
+          <p xml:id="bb-d4e12011-d1e174">Ideo communiter ponunt omnes quod non est annihilatio panis, immo in meliorem
+            substantiam commutatio, et ideo transsubstantiatio, non annihilatio, talis conversio est
+            et sic appellari debet. Amplius, si panis non converteretur in corpus Christi, non esset
+            intelligere quomodo corpus Christi inciperet esse in altari sine sui mutatione, sicut
+            prius ostensum fuit ; propter quod conversio panis, non annihilatio dicenda est.</p>
+        </div>
+        <div xml:id="bb-d4e12011-Dd1e179">
+          <head xml:id="bb-d4e12011-Hd1e181">Ad rationes</head>
+          <p xml:id="bb-d4e12011-d1e184">Ad illud ergo quod obicitur : Nihil remanet de pane, ergo annihilatur, dicendum quod
+            istud non sequitur, quia annihilatio est non tantum nihil de re remanere, sed illud in
+            nihilum cedere ; sed hic non cedit in nihil, immo in aliquid melius.</p>
+          <p xml:id="bb-d4e12011-d1e187">Ad illud quod obicitur, quod posterior generatio non tollit priorem corruptionem etc.,
+            dicendum quod verum est, quia forma corrumpitur quae non cedit in formam contrariam ;
+            sed, si forma illa converteretur in contrariam, non diceretur omnino corrumpi, sed in
+            aliud transire.</p>
+          <p xml:id="bb-d4e12011-d1e190">Ad illud quod obicitur de universo, dicendum quod propter hoc non annihilatur omnino.
+            Quod obicit : Non plures res remanent, quam si nihil, verum est non plures res, sed
+            tamen Christus fit in pluribus locis et sub omnibus speciebus et locum omnium
+            substantiarum supplet, et illa accidentia ex praesentia Dominici corporis habent
+            operationem quam haberet substantia, sicut patebit infra. Et cum destruitur aliqua
+            operatio conveniens speciei, eodem miraculo redit forma panis et eius materia, sicut
+            melius patebit infra ; ideo nil perit propter hoc in natura, sed quodam modo ad tempus
+            cesat.</p>
+          <p xml:id="bb-d4e12011-d1e193">Ad illud quod ultimo obicitur, dicendum quod illa divisio est insufficiens, quia non
+            sequitur quod sit annihilatum, si non est hoc nec aliud, quia haec habet duas causas
+            veritatis : non est hoc nec aliud aut quia cessit in nihil aut quia transit in aliud ;
+            et ratione huius est vera, et hoc non est annihilari.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e5221">
+        <head xml:id="bb-d4e5221-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e5221-Hd1e111" type="question-title">Utrum parvuli in Baptismo recipiant sanctificationem.</head>
+        <p xml:id="bb-d4e5221-d1e114">Circa primum sic proceditur.</p>
+        <div xml:id="bb-d4e5221-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e5221-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e5221-d1e122">Quod parvulus non possit iustificari, videtur : Quoniam <name ref="#Bernard">Bernardus</name>, De libero arbitrio, dicit quod <quote xml:id="bb-d4e5221-Qd1e127">duo sunt ad salutem
+              necessaria ; scilicet dans et liberum arbitrium</quote>, et subiungit quod tam non
+            potest esse salus nostra sine voluntate consentientis quam non potest esse sine gratia
+            dantis. Sed in parvulo non est usus liberi arbitrii : ergo non potest esse in. eo
+            salus.</p>
+          <p xml:id="bb-d4e5221-d1e131">Item, <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e5221-Qd1e136">Qui creavit te sine te non
+              iustificat te sine te</quote>, hoc est sine actu tuae voluntatis ; sed parvulus hunc
+            non habet : ergo non potest iustificari.</p>
+          <p xml:id="bb-d4e5221-d1e140">Item, voluntas parvuli non mutatur, ergo semper se habet uniformiter respectu gratiae ;
+            sed Deus, semper paratus est dare : ergo quod modo dat, modo non, hoc est propter
+            mutationem in voluntate suscipientis : ergo, si in.parvulo non mutatur voluntas, non
+            recipit rem. Si dicas quod parvulus disponitur non actu suo, sed fide offerentium, esto
+            quod illi essent infideles, tunc ergo parvulus damnaretur. </p>
+          <p xml:id="bb-d4e5221-d1e143">Item, in sacramento significatio antecedit sanctificationem : ergo, non existente
+            significatione, non est sanctificatio ; sed parvulo sacramentum non significat, quia
+            nihil facit in intellectum eius venire : ergo parvulum non sanctificat.</p>
+          <p xml:id="bb-d4e5221-d1e147">Sed contra : Magis consonat rationi et pietati quod conditio parvulorum possit ab
+            aliquo iuvari quam laedi ; sed parvuli sine suo consensu possunt trahere et frahunt
+            culpam : ergo multo magis gratiam.</p>
+          <p xml:id="bb-d4e5221-d1e150">Item, ad Romanos 5, 12 : <quote xml:id="bb-d4e5221-Qd1e152" ana="#rom5_12">Per unum hominem peccatum intravit in
+              mundum</quote> et per unum vita ; sed non est minus potens Christus quam Adam, et
+            gratia se magis diffundit quam culpa : ergo, si Adam potuit ipsos vitiare sine.
+            consensu, multo magis salvare eos potuit sacramentum Christi.</p>
+          <p xml:id="bb-d4e5221-d1e156">Item, omnis suscipiens sacramentum suscipit rem nisi habeat obstaculum ; sed parvulus
+            suscipit sacramentum et non habet obstaculum, quia voluntas non repugnat nec culpa
+            potest resistere : ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e5221-Dd1e160">
+          <head xml:id="bb-d4e5221-Hd1e162">Conclusio</head>
+          <head xml:id="bb-d4e5221-Hd1e165" type="question-title">Parvuli in baptismo recipiunt rem Sacramenti, qua fit remissio
+            culpae originalis</head>
+          <p xml:id="bb-d4e5221-d1e168">Respondeo : Dicendum quod parvuli recipiunt rem sacramenti, quae est remissio culpae
+            originalis ; et hoc merito passionis Christi et alienae fidei et virtute sacramenti. Et
+            ratio huius est tum ratione divinae misericordiae, tum ratione suae impotentiae, tum
+            ratione talis culpae. Quia enim per actum alterius fuit culpa contracta et ipsi non
+            poterant se adiuvare, misericors Deus congruum reputavit eis per alium subveniri. Quia
+            enim pro illa culpa nullus satisfacere poterat purus homo, ideo subvenit Deus toti
+            humano generi per passionem Christi. Et rursus, quia passio effectum non habet nisi in
+            his qui volunt fieri membra Christi et consentiunt, et hoc non poterat parvulus velle :
+            ideo subvenit ei voluntas et fides aliena. Sed quia fides subvenit profitendo, et hoc
+            est in sacramento ubi est professio mortis Christi in signo, ideo subvenit per
+            sacramentum. Tria igitur sunt disponentia parvulum ad salutem : et primum est passio
+            Christi, secundum fides aliena, tertium vero et immediatum est virtus sacramenti, quae
+            characterem imprimit, qui ad gratiam disponit. Et per hoc patent obiecta.</p>
+        </div>
+        <div xml:id="bb-d4e5221-Dd1e173">
+          <head xml:id="bb-d4e5221-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e5221-d1e178">1-3. Nam primum intelligitur de iustificatione a culpa acta, non contracta ; secundum
+            similiter patet et tertium, quia parvulus non disponitur secundum actum suum, sed
+            alienum, quia divina misericordia alienam voluntatem in propriam reputat. </p>
+          <p xml:id="bb-d4e5221-d1e181">4. Ad quartum dicendum quod sacramentum, quantum est de se, semper significat et
+            sanctificat ; sed tamen in parvulo non habet effectum significandi, sed sanctificandi,
+            quia non est capax doctrinae, est tamen capax gratiae, sicut et culpae, et hoc est ex
+            largitate divinae misericordiae ; quamvis enim non significet parvulo, tamen aliis
+            significat gratiam quam tribuit parvulo.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

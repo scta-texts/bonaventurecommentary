@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e28096">
+        <head xml:id="bb-d4e28096-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e28096-Hd1e111" type="question-title">Utrum liceat aliquod peccatum in confessione omittere.</head>
+        <div xml:id="bb-d4e28096-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e28096-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e28096-d1e119">Quantum ad primum ostenditur quod non liceat de confitendis dimittere : Primo,
+            auctoritate <name ref="#Augustine">Augustini</name>, in <ref xml:id="bb-d4e28096-Rd1e124">libro De poenitentia</ref>
+            : <quote xml:id="bb-d4e28096-Qd1e127">Caveat ne verecundia ductus dividat apud se confessionem, ut diversa diversis
+              velit manifestare ; quod est se laudare et ad hypocrisim tendere et semper venia
+              carere, ad quam per frusta sperat pervenire</quote>.</p>
+          <p xml:id="bb-d4e28096-d1e131">Item, ratione ostenditur sic. Confessio ordinatur ad peccati cognitionem ; sed nunquam
+            recognoscit aegritudinem sufficienter qui solum peccatum unum novit, cum homo multis
+            aegrotet, sicut patet in medicinis : ergo non sufficienter peccatum detegit, qui non
+            dicit uni sacerdoti omnia peccata quae commisit.</p>
+          <p xml:id="bb-d4e28096-d1e134">Item, confessio est ad peccatoris accusationem ; sed, cum peccator se accusat de tribus
+            peccatis et fecit decem, hoc ipso praetendit sacerdoti se non peccasse nisi ter ; sed
+            hoc est falsitas et hypocrisis manifesta : ergo etc.</p>
+          <p xml:id="bb-d4e28096-d1e137">Item, confessio fit propter absolutionem, absolutio autem sacerdotis signum est divinae
+            absolutionis ; sed Deus nunquam absolvit ab una culpa quin absolvat ab omni culpa
+            mortali : ergo absolutio, sacerdotis aut nulla est, aut est ab omni culpa. Sed non
+            meretur absolvi a sacerdote pecccator qui celat ei peccatum : ergo nulla est absolutio
+            nisi confiteatur uni sacerdoti omnia a quibus indiget absolvi.</p>
+          <p xml:id="bb-d4e28096-d1e141">Contra : Omnes sacerdotes tenent locum unius, scilicet Christi : ergo idem est
+            confiteri diversis quod confiteri uni : ergo tantum valet si peccator divisim diversis
+            confiteatur omnia, quantum si omnia confiteretur uni.</p>
+          <p xml:id="bb-d4e28096-d1e144">Item, confessio instituta est in remedium, ergo non debet fieri in scandalum ; sed
+            possibile est quod poenitens confiteatur proprio sacerdoti aliquod peccatum quod
+            scandalizabit eum, utpote si cognata sacerdotis fuerit eius adultera : ergo videtur quod
+            possit peccatum hoc reservare et alia sibi dicere, et ita confessionem dimidiare.</p>
+          <p xml:id="bb-d4e28096-d1e147">Item, aliquis confessus est uni decem et commissit duodecim, et oblitus duorum, post
+            recordatur, non habens copiam sacerdotis ; iste fuit legitime confessus de decem : ergo,
+            si non debet bis puniri pro eodem, sufficit nunc confiteri duo : ergo videtur quod
+            confessio possit dimidiari.</p>
+          <p xml:id="bb-d4e28096-d1e150">Item, sufficit si quis confitetur sacerdoti proprio illud a quo potest absolvere ; sed
+            possibile est quod aliquis habeat casum vel peccatum a quo non potest absolvere nisi
+            superior : ergo sufficit quod minora confiteatur uni et peccatum illud confiteatur
+            maiori : ergo videtur quod confessio possit dimidiari.</p>
+        </div>
+        <div xml:id="bb-d4e28096-Dd1e154">
+          <head xml:id="bb-d4e28096-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e28096-Hd1e159" type="question-title">Necesse est uni confiteri, non qidem omnia venialia, sed omnia
+            mortalia, quorum poenitens est memor, et de quibus non fuit alias legitime
+            confessus.</head>
+          <p xml:id="bb-d4e28096-d1e162">Respondeo : Dicendum quod in venialibus non est vis ; sicut enim non est necesse ea
+            confiteri, sic non est necesse ea simul et omnia integre confiteri. Sed de mortalibus
+            dicitur quod necesse est omnia confiteri uni sacerdoti, omnia, inquam, quorum est memor
+            et de quibus non fuit alias legitime confessus. Et tunc voco legitime confessum, quando
+            nihil intervenit quod absolutionem sacerdotis irritam faceret ; quod est in quatuor
+            casibus, et duo sunt a parte absolventis : unus, si non sciat ; alter, si non possit ;
+            unus contra clavent scientiae, alter contra clavem potentiae. Duo a parte confitentis :
+            unus, si ficte confiteatur ; alter, si post confessionem, satisfactionem contemnens,
+            eius obliviscatur. Si autem legitime confessus est, non oportet iterare nisi in
+            universali ; si vero non, oportet quod omnia dicat, pro eo quod sacerdos absolvit ab
+            omni culpa, aut nulla est absolutio ; nullus autem sacerdos intendit absolvere
+            poenitentem ab eo quod sibi celat : ad hoc ergo quod confessio sit integra, necesse est
+            quod omnia quae simul habet in conscientia, de quibus tenetur confiteri, uni sacerdoti
+            dicat, alioquin, sicut expresse dicit <name ref="#Augustine">Augustinus</name>, probatur
+            confessio ficta.</p>
+        </div>
+        <div xml:id="bb-d4e28096-Dd1e169">
+          <head xml:id="bb-d4e28096-Hd1e171">Ad Rationes</head>
+          <p xml:id="bb-d4e28096-d1e174">Ad illud ergo quod obicitur, quod omnes sacerdotes tenent locum unius, scilicet
+            Christi, dicendum quod verum est ; sed ita tenent locum unius quod non simul omnes, sed
+            quilibet per se, et ideo, qui vult confiteri sacerdoti tamquam Christo, si recte
+            confitetur, necesse est quod omnia dicat uni ; quod si aliquid celat uni, quamvis dicat
+            alii, quantum est in se, mediatori celavit, et ita Christo.</p>
+          <p xml:id="bb-d4e28096-d1e177">Ad illud quod obicitur de scandalo sacerdotis, dicendum quod ubi timetur scandalum, non
+            est confessio dimidianda, sed licentia petenda ; et si non datur, superior est adeundus
+            vel alius qui habeat eius auctoritatem. Nam in tali casu licentiam petere est
+            obtinere.</p>
+          <p xml:id="bb-d4e28096-d1e180">Ad illud quod obicitur de eo qui commisit duodecim, sed oblitus confessus est decem,
+            dicendum quod sanum consilium esset quod totum diceret, sicut in praecedentibus tactum
+            est ; tamen credo quod non teneatur dicere nisi in generali, nisi forte aliquis
+            praedictorum casuum intervenisset. Nam aliud dicere est viam confessioni et salutis
+            multis auferre, cum multi confiteantur aliquando aliquod peccatum enorme, quod deinceps
+            vix alii sacerdoti dicerent. Nec auctoritates Sanctorum hoc compellunt dicere, quia. hoc
+            non est confessionem dividere. Prima enim fuit integra et secunda similiter, quia non
+            oportet hunc de aliis habere remorsum novum nec novam absolutionem. Similiter iudicandum
+            est de recidivo.</p>
+          <p xml:id="bb-d4e28096-d1e183">Ad illud quod obicitur de recursu ad superiorem, dicendum quod aut recurrit propter
+            absolutionem a culpa aut a poena propter excommunicationem vel irregularitatem. Si
+            propter absolutionem a poena vel poenali vinculo, sufficit quod confiteatur illud solum.
+            Si propter absolutionem a culpa, si superior non remittit ad proprium confessorem, sanum
+            consilium est - si non habet causam excusantem nisi solum erubescentiam vel opinionem
+            falsam - quod omnia de quibus habet remorsum ipsi dicat et pro omnibus illis generalem
+            absolutionem et poenitentiam suscipiat. Si autem aliquam excusationem habet probabilem,
+            ratione cuius magis vult confiteri alteri, tenetur, totum inferiori revelare, et
+            peccatum illud quod superiori est, confessus et cetera alia ; et sic non erit confessio
+            divisa, et ille ex tunc poterit ab omnibus absolvere, quoniam, si aliqua peccata
+            absolutioni superiorum reservantur, in quibus minores sacerdotes cum eis non
+            communicant, hoc magis factum est propter taxationem poenae, quam tali peccato superior
+            debet sapienter infligere sive iniungere pro culpa quam pro alio ; et ideo, si talem
+            culpam confessus est et poenam pro ea a superiore suscepit, potest illam cum aliis
+            inferiori integre confiteri et ille absolvere eum ab omni culpa, ita dumtaxat ut ille
+            faciat poenitentfam a superiore sibi iniunctam. Et si tu obicias, quod iste qui adit
+            superiorem et unicum tantum vel duo, aliis tacitis, confitetur, videtur esse hypocrita
+            et se laudare, dicendum quod verum est, si innueret se sibi generaliter confiteri ; tunc
+            enim videretur ipsum alia crimina non habere. Sed dum ostendit se specialiter pro illo
+            unico advenisse et alium confessorem pro minoribus habere et hoc acceptat superior,
+            nulla est ibi deceptio, quamvis totum dicere sit maior perfectio. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

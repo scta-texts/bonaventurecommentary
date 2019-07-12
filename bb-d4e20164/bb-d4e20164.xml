@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e20164">
+        <head xml:id="bb-d4e20164-Hd1e108">Dubia</head>
+        <div xml:id="bb-d4e20164-Dd1e111">
+          <head xml:id="bb-d4e20164-Hd1e113">Dub. I.</head>
+          <p xml:id="bb-d4e20164-d1e116">In parte ista sunt dubitationes circa litteram. Et primo de hoc quod <name ref="#Lombard">Magister</name> dicit in littera : In perfectione autem poenitentiae
+            tria observanda sunt. Quaeritur enim, utrum ista tria sint partes Poenitiae subiectivae
+            vel integrales. Et quod non sint integrales, videtur, quia totum non praedicatur de
+            parte integrali ; sed conteri est poenitere, similiter confiteri est poenitere et
+            satisfacere : ergo non sunt partes integrales. Si tu dicas quod istud fallit in toto
+            homogeneo, quia quaelibet pars panis est panis, obicitur, quia totum homogeneum habet
+            partes unius naturae ; Poenitentia autem non habet partes unius naturae et conformis.
+            Nam Poenitentia continet contritionem et confessionem et satisfactionem, quae sunt
+            diversa secundum formam. Item, partes integrales constituentes aliquod totum, sive
+            homogeneum sive heterogeneum, debent esse simul ; sed hae partes Poenitentiae non sunt
+            simul : ergo etc.</p>
+          <p xml:id="bb-d4e20164-d1e122">Quod autem non sint subiectivae, videtur, quia tota natura totius universalis salvatur
+            in qualibet parte : unde ratio tota animalis est in homine ; sed contritio non est tota
+            et perfecta Poenitentia, nec confessio : ergo non sunt subiectivae. Item, numeratis
+            partibus subiectivis, numeratur totum. Si ergo istae sunt partes Poenitentiae
+            subiectivae, cum sint tres, tres sunt Poenitentiae : aut ergo poenitentiae tres virtutes
+            aut tria sacramenta, quorum utrumque falsum est.</p>
+          <p xml:id="bb-d4e20164-d1e125">Respondeo : Dicendum quod poenitentia sumitur dupliciter, scilicet pro
+            poenitentia-virtute et pro Poenitentia-sacramento. Si loquamur de poenitentia-virtute,
+            sic contritio et confessio et satisfactio non sunt partes integrales, sed potestativae.
+            Sicut enim ab una essentia plures egrediuntur potentiae, sic ab uno habitu plures actus
+            consequuntur. Virtus enim poenitentiae ordinat hominem, ut puniendo se faciat emendam
+            secundum omne forum ; et ideo quilibet horum actuum denominationem recipit ab habtu, ut
+            poenitere dicatur ; et sic videtur habere rationem partium subiectivarum, sed re vera
+            non habent, quia confessio et satisfactio non est poenitentia, sed actus egrediens a
+            poenitentia, similiter satisfactio et contritio. Si autem loquamur de
+            Poenitentia-sacramento, sic sunt partes integrales quantum ad esse perfectum ; unde
+            rationabiliter loquitur <name ref="#Lombard">Magister</name>, cum dicit quod in
+            perfectione Poenitentiae etc. Et sic patet quod nullum horum est perfectum Sacramentum
+            sine alio.</p>
+          <p xml:id="bb-d4e20164-d1e131">Et si tu obicias quod non habent esse simul, dicendum quod, quamvis non sint simul
+            actu, sunt tamen simul voto vel effectu. Unde quando quis conteritur, habet confessionem
+            et satisfactionem in proposito ; et quando quis satisfacit, habet quorum praecedentium
+            effectum. Et sic patet illud.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e135">
+          <head xml:id="bb-d4e20164-Hd1e137">Dub. II</head>
+          <p xml:id="bb-d4e20164-d1e140">Item, quaeritur de hoc quod dicit : Ut, sicut tribus modis Deum offendimus, ita tribus
+            modis satisfaciamus in contritione etc. Secundum hoc enim videtur quod satisfactio non
+            debet distingui contra alias partes. Item, si tribus modis est satisfacere secunqum
+            triplicem modum peccandi, ergo qui peccavit in corde, non videtur quod debeat sibi
+            imponi poena in carne, quia per quae quis peccat, per haec et punietur. Tunc ergo pro
+            nullo peccato spirituali est imponenda satisfactio ; et illud est manifeste falsum, cum
+            peccata spiritualia sint graviora carnalibus : ergo gravius puniuntur a Deo et gravius
+            debent puniri a sacerdote.</p>
+          <p xml:id="bb-d4e20164-d1e143">Respondeo : Dicendum quod satisfactio dicitur dupliciter. Uno modo satisfactio dicitur
+            ipsa recoriciliatio ; et sic, quia omnes partes poenitentiae sunt ad reconciliationem
+            ordinatae, quaelibet potest dici satisfactio sive satisfactoria. Alio modo dicitur
+            satisfactio persolutio poenae debitae ; et sic competit proprie uni parti poenitentiae,
+            quae est assumptio sive adimpletio poenae iniunctae. Nihilominus tamen aliis partibus
+            cornpetit per accidens, utpote contritioni ratione doloris coniuncti, qui est in parte
+            sensibili ; similiter confessioni ralione erubescentiae. Et sic patet primum.</p>
+          <p xml:id="bb-d4e20164-d1e146">Ad illud quod obicitur, quod non debemus satisfacere exterius pro peccato cordis,
+            dicendum quod illud verbum Chrysostomi et similiter <name ref="#Augustine">Augustini</name>, per appropriationem intelligitur, quoniam ista tria respondent omni
+            peccato mortali, quia quodlibet meretur poenam aeternam animae et corporis et cuilibet
+            debetur poena interior et exterior, nisi tanta sit interior, quod exterior non sit
+            opportuna et eius locum suppleat. Unde sicut certum est quod non sufficit confiteri
+            peccatum oris, immo : etiam pro illo oportet conteri et satisfacere, ita et in proposito
+            intelligendum est.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e153">
+          <head xml:id="bb-d4e20164-Hd1e155">Dub. III.</head>
+          <p xml:id="bb-d4e20164-d1e158">Item quaeritur de hoc quod dicit : Compunctio ibi commendatur. Videtur enim accipere
+            cotnpunctionem pro eodem et contritionem. Sed contra : super illud Psalmi [4, 5] :
+              <quote xml:id="bb-d4e20164-Qd1e160" ana="#ps4_5">In cubilibus vestris compungimini</quote>, Glossa :
+              <quote xml:id="bb-d4e20164-Qd1e163">Quibusdam stimulis excitate vos, non pro dolore peccatorum, sed ad videndam
+              lucem Christi et ut invisibilium amore inardescatis</quote>. Sed contritio est de
+            peccatis tantum : ergo non sunt idem, male ergo accipit pro eodem.</p>
+          <p xml:id="bb-d4e20164-d1e167">Respondeo : Dicendum quod dolor dicitur contritio et dolor dicitur compunctio :
+            contritio, quia cor terit vel peccata in corde illo dolore teruntur ; sed compunctio,
+            quia cor compUngitur. Sed compungitur cor secundum duplicem aspectum : aut carentia
+            gloriae aut consideratione offensae ; et secundum hoc attenditur duplex dolor et duplex
+            irriguum, scilicet superius et inferius ; et ita compunctio communior est quam
+            contritio, sicut patet ex Glossa illa. <name ref="#Lombard">Magister</name> autem
+            appropriat hic compunctionem ad dolorem de peccatis, ex quorum consideratione pungitur
+            cor quasi quibusdam aculeis.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e174">
+          <head xml:id="bb-d4e20164-Hd1e176">Dub. IV.</head>
+          <p xml:id="bb-d4e20164-d1e179">Item queritur de hoc quod dicit : Confessio ibi commendatur : Iustus in principio est
+            accusator sui. Videtur enim male dicere, quia aut accusat se iustus in quantum iustus
+            aut in quantum peccator. Si in quantum iustus, sed omnis qui accusat iustum in quantum
+            huiusmodi, accusat iustitiam ; et omnis qui accusat iustitiam est iniustus : ergo, si
+            accusat se in quantum iustus, est iniustus. Si accusat se secundum quod peccator, sed
+            omnis qui accusat peccatorem secundum quod peccator, accusat peccatum ; et omnis talis
+            iuste accusat et est iustus : ergo, si accusat secundum quod peccator, accusator est
+            iustus, et ita secundum quod peccator est iustus.</p>
+          <p xml:id="bb-d4e20164-d1e182">Respondeo : Dicendum quod in accusatione est accusans et accusatus ; et cum iustus
+            accusat se, adest accusans et accusatus, sed tamen habens quasi duplicis personae
+            rationem ; et secundum quod tenet duplicis personae rationem, ita et duplicis
+            proprietatis, quia ille idem secundum quod iustus accusat se secundum quod peccator est.
+            Et sic patet quod sophisma est de illa reduplicatione, quod potest referri ad actum
+            accusandi ratione subiecti vel ratione obiecti.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e187">
+          <head xml:id="bb-d4e20164-Hd1e189">Dub. V.</head>
+          <p xml:id="bb-d4e20164-d1e192">Item quaeritur de hoc quod dicit : Satisfactio praecipitur a Ioanne. Videtur enim male
+            dicere, quia Ioannes non potuit sacramenta Novae Legis instituere : ergo nec
+            satisfactionem praecipere.</p>
+          <p xml:id="bb-d4e20164-d1e195">Respondeo : Dicendum quod Ioannes praecepit insinuando vel praedicando ; sed Christus.
+            mandavit tamquam principalis auctor, quia Ioannes praecucurrit et dixit, <ref xml:id="bb-d4e20164-Rd1e197" ana="#mt3_3">Matthaeus 3, 3</ref>, sed Salvator confirmavit et instituit, ut habetur
+              <ref xml:id="bb-d4e20164-Rd1e200" ana="#mt4_17">4, 17 eiusdem</ref>.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e205">
+          <head xml:id="bb-d4e20164-Hd1e207">Dub. VI</head>
+          <p xml:id="bb-d4e20164-d1e210">Item quaeritur de hoc quod dicit : Facite dignos fructus poenitentiae. Videtur enim non
+            esse praeceptum conveniens, quia digni fructus poenitentiae sunt Deo accepti ; sed non
+            est in nostra potestate nec in nostra cognitiorie ea facere quae sunt in divina
+            acceptatione : ergo etc. Item, si satisfactio est in praecepto, cum nemo sciat utrum
+            satisfecerit, quia nemo scit se esse in caritate, videtur quod semper est iteranda
+            satisfactio.</p>
+          <p xml:id="bb-d4e20164-d1e213">Respondeo : Dicendum quod dignitas fructus dupliciter potest accipi : aut per
+            comparationem ad meritum culpae, aut in comparatione ad divinam acceptationem. Et nota
+            quod hic vocat dignos fructus poenitentiae non in comparatione ad divinam acceptationem,
+            quia hoc non praecipitur, sed quantum ad meritum culpae. Similiter intelligendum quod
+            satisfacere Deo dupliciter est : vel secundum forum suum et secundum veritatem, et sic
+            non est in praecepto ; vel secundum probabilitatem conscientiae, et sic est in
+            praecepto.</p>
+          <p xml:id="bb-d4e20164-d1e216">Sed tunc videtur quod ille peccator, qui non vult suscipere satisfactionem condignam a
+            sacerdote impositam, mortaliter peccat. Et dicendum quod illud est praeceptum
+            affirmativum, quod non obligat. ad semper, et praeterea commissum est in potestate
+            sacerdotis ; et ita, si poenitens hic condignam poenam a sacerdote suscipit, plenam
+            poenitentiam facit ; si non, propter hoc quod sacerdos nort imponit, attendens
+            fragilitatem peccatoris, Dominus exspectat et solvet in purgatorio.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e220">
+          <head xml:id="bb-d4e20164-Hd1e222">Dub. VII.</head>
+          <p xml:id="bb-d4e20164-d1e225">Item quaeritur de hoc quod dicit : Ut secundum qualitatem et quantitatem culpae ; quae
+            sit differentia inter qualitatem culpae et quantitatem. Cum enim non habeat culpa
+            quantitatem molis, sed virtutis, et haec sit quantas, videtur quod non differant. Item,
+            si secundum quantitatem culpae est quantitas poenae ; sed tanta est culpa, quanta est
+            offensa ; et tanta est offensa, quantus est is qui offenditur ; sed ille est infinitus :
+            ergo debet imponi poena infinita. Item, quomodo poena potest esse secundum qualitatem,
+            cum sint diversorum generum culpa et poena ?</p>
+          <p xml:id="bb-d4e20164-d1e228">Respondeo : Dicendum quod possibile est quantitatem et qualitatem culpae causari ab
+            eodem principio, sed tamen secundum aliam rationem, sicut cognoscere coniugatain auget
+            culpam et ulterius ponit in specie peccati. Unde qualitas culpae attenditur secundum id
+            quod distinguit peccatum, secundum quod dicitur quod est inquinamentum carnis et
+            spiritus ; quantitas, secundum quod aggravat in eodem genere. Et his etiam duobus modis
+            respondet qualitas poenae, ut peccato spirituali poena spiritualis, scilicet oratio ;
+            peccato earnali poena in carne, scilicet ieiunium, et quantitas quantitati in eodem
+            genere. Et nota quod quantitas peccati non accipitur hic penes eum contra quem, sed
+            penes libidinem peccantis. Et sic patent obiecta, quia haec quantitas est finita ; et
+            assimilatio qualitatum poenae et culpae attenditur in eodem genere.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e232">
+          <head xml:id="bb-d4e20164-Hd1e234">Dub. VIII.</head>
+          <p xml:id="bb-d4e20164-d1e237">Item quaeritur de hoc quod dicit : Purgans lacrymis omnem qualitatem vitii, quia aut
+            hoc est praeceptum aut consilium. Si praeceptum est, videtur periculum, quia pauci aut
+            nulli ita discurrunt deflendo singula ; et constans est quod unica contritione
+            iustificatur homo, quae non potest omnes qualitates quid, cur, quando, ubi, quomodo,
+            considerare. Si consilium, contra : sicut dicit Philosophus, <quote xml:id="bb-d4e20164-Qd1e239">species
+              delectationis movet appetitum</quote>. Ergo, si aliquis ita singillatim vitium
+            recogitet ; videtur quod det sibi occasionem tentationis et lapsus : ergo melius est
+            oblivisci quam ita ante oculos reducere.</p>
+          <p xml:id="bb-d4e20164-d1e243">Respondeo : Dicendum quod quantum ad aliquam qualitatem vitii est in praecepto, utpote
+            quantum ad illam quae trahit in genus peccati aliud ; quantum ad aliquas est in consilio
+            ; scilicet quantum ad illas quae non mutant peccati genus. Sive autem sit consilium sive
+            praeceptum, non obligat ad semper, sed quando est locus et tempus ; et quando poenitens
+            ita maceravit se et domuit sensualitatem, ita quod ad recogitationem circumstantiarum
+            ignis concupiscentiae non incalescit, sed magis indignatio voluntatis, tunc debet talia
+            recogitare, maxime quando est in actu orationis et gemitu ; alias potius debet abigere
+            quam talia ruminare, maxime in peccatis carnis, in quibus habet homo incitationem intra,
+            propter quod signanter dicitur I ad Corinthios 6, 18. <quote xml:id="bb-d4e20164-Qd1e245" ana="#Icor6_18">Fugite
+              fornicationem</quote>, quasi, non tantum in opere vel in voluntate, sed etiam in
+            recogitatione.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e250">
+          <head xml:id="bb-d4e20164-Hd1e252">Dub. IX.</head>
+          <p xml:id="bb-d4e20164-d1e255">Item quaeritur de hoc quod dicit : Defleat virtutem, qua, interim caruit. Contritus
+            enim non debet dolere nisi de culpa : ergo, si debet dolere de carentia virtutis,
+            videtur quod haec sit culpa ; sed in infinitis instantibus caruit : ergo in infinitis
+            peccavit. Item, cum multae sint aliae circumstantiae, sicut determinat Tullius, scilicet
+            quis, quid, cur, quando, ubi, quomodo, quibus auxiliis ; et illam quae est sicut quis
+            dividit in undecim circumstantias, scilicet nomen, naturam, convictum, fortunam etc.,
+            quae ibi patent : videtur quod <name ref="#Augustine">Augustinus</name> nimis
+            insufficienter hic tangat.</p>
+          <p xml:id="bb-d4e20164-d1e261">Respondeo : Dicendum quod non solum contritione deflentur peccata, sed etiam poenae
+            peccatorum ; poenae, inquam, quae sunt sequelae et quae dehabilitant et reddunt hominem
+            ineptum ad bonum. Inter has quas praecipua est carentia virtutum ; et per hanc <name ref="#Augustine">Augustinus</name> intelligit alias sequelas vitiorum, quae
+            considerandae sunt et deflendae, non quia sint culpae, sed poena, non inflicta, sed
+            acta.</p>
+          <p xml:id="bb-d4e20164-d1e267">Ad illud quod obicitur, quod plures ponit Tullius, dicendum quod <name ref="#Augustine">Augustinus</name> non ponit hic omnes circumstantias, sed solum aggravantes ; Tullius
+            vero ponit omnes circumstantias quae contingunt negotium vel personam. Possunt autem
+            omnes circumstantiae reduci ad quatuordecim, quae his versibus notantur : Aggravat ordo,
+            locus, persona, scientia, tempus, Aetas, conditio, numerus, mora, copia, causa ; Est
+            modus in culpa, status altus, lucta pusilla.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e274">
+          <p xml:id="bb-d4e20164-d1e276">Ex his autem quinque respiciunt personam, scilicet scientia, ordo, aetas, conditio et
+            status. Tres respiciunt crimen sive actum, scilicet numerus, mora et modus agendi. Tres
+            respiciunt causam, scilicet copia, causa, lucta pusilla. Et duae sunt adiacentes,
+            scilicet locus et tempus.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e281">
+          <head xml:id="bb-d4e20164-Hd1e283">Dub. X.</head>
+          <p xml:id="bb-d4e20164-d1e286">Item quaeritur de hoc quod dicit : Cum gaudio enim debet facere immortalis futurus etc.
+            Videtur enim male dicere, quia poenitentia maxime consistit in dolore et lacrymis : ergo
+            non debet facere cum gaudio, sed potius cum dolore. Si tu dicas quod utrumque ibi
+            concurrit, quaeritur : quare potius dicit cum gaudio esse faciendum ?</p>
+          <p xml:id="bb-d4e20164-d1e289">Respondeo : Dicendum quod ideo hortatur ad gaudium, quia illud est conservativum omnium
+            virtutum et maxime virtutum quae consistunt circa poenalitatem. Unde Philosophus dicit :
+            Qui continet et hoc ipso gaudet, vere castus est ; et ille vere habet perfectam
+            fortitudinem, qui non solum non succumbit, sed etiam in poenalitatibus vel poenalibus
+            gaudet. Et haec est principalis ratio quare hortatur ad gaudium, quia aliter assumptio
+            poenalitatis non est virtuosa.</p>
+          <p xml:id="bb-d4e20164-d1e292">Ratio autem quare gaudendum est in poenitentia est duplex. Prima est consideratio
+            aequitatis, secunda est consideratio utilitatis. Aequitas est maxima ibi, ut caro, quae
+            traxit spiritum et subiugavit per delectationem et inimica est Spiritui veritatis, e
+            contrario subiciatur per afflictionem et per hoc reconcilietur et de inimico vindicta
+            sumatur. Unde sicut homo carnalis multum gaudet in depressione inimici, ita spiritualis
+            debet gaudere de afflictione carnis. Et sicut iudex iustus multum gaudet in
+            exercitatione iustitiae, sic poenitens debet gaudere ; et ideo Proverbiorum 21, 15 :
+              <quote xml:id="bb-d4e20164-Qd1e294" ana="#prov21_15">Gaudium est iusto facere iustitiam</quote> ; propterea etiam
+            Proverbiorum 14, 10 : <quote xml:id="bb-d4e20164-Qd1e297" ana="#prov14_10">Cor, quod novit amaritudinem animae
+              suae</quote> etc.</p>
+          <p xml:id="bb-d4e20164-d1e301">Alia est consideratio multiplicis utilitatis, quia est tabula liberationis a naufragio.
+            Unde sicut gaudet quis quando de naufragio evadit, sic poenitens debet gaudere. Alia
+            ratio potest esse ex parte boni, quia renovat hominent, secundum illud Psalmi [102 ; 5]
+            : <quote xml:id="bb-d4e20164-Qd1e303" ana="#ps102_5">Renovabitur ut aquilae iuventus tua</quote>. Damna etiam
+            spiritualia ibi restaurantur. Et sic patet multiplex ratio gaudii.</p>
+          <p xml:id="bb-d4e20164-d1e308">Et quod obicit, quod debet facere cum dolore, dicendum quod illud non impedit, quia,
+            quando quis vehementer dolet, in solo dolore invenit delectationem. Unde exemplum est de
+              <name ref="#Augustine">Augustino</name> qui narrat, in IV Confessionum, quod quando
+            mortuus erat socius, in nullo delectabatur nisi in gemitu, et poena erat ei omnis alia
+            delectatio et in hac sola quiescebat. Quanto magis igitur debet quis in dolore de
+            propria morte laetari. Et ideo recte dicit quod cum gaudio facere debet.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e315">
+          <head xml:id="bb-d4e20164-Hd1e317">Dub. XI.</head>
+          <p xml:id="bb-d4e20164-d1e320">Item quaeritur de hoc quod dicit : Caveat, ne verecundia ductus dividat apud se
+            confessionem etc. Videtur enim male dicere, quia quanto pluribus revelat, tanto maior
+            erit verecundia et plus habet unde erubescat. Unde non videtur quod hoc sit ex
+            verecundia, sed contra verecundiam.</p>
+          <p xml:id="bb-d4e20164-d1e323">Respondeo : Dicendum quod verecundia maior potest esse dupliciter : aut quia reputatur
+            quis peccator enormis et magnus, aut quia a pluribus esse peccator cognoscitur ; et
+            prima verecundia maior est : et ideo pro vitanda maiori bene assumeret quis minorem, ac
+            per hoc derogaret eritati confessionis, quae non est dividenda, sicut patebit infra.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e327">
+          <head xml:id="bb-d4e20164-Hd1e329">Dub. XII.</head>
+          <p xml:id="bb-d4e20164-d1e332">Item quaeritur de hoc quod dicit : Ne prius ad Dominicum corpus accedat quam
+            confortetur bona conscientia : quid vocatur hic confortari bona conscientia ? Videtur
+            quod qui est ; in gratia possit accedere sine culpa : et. talis est contritus ante
+            confessionem. Sed in contrarium est quod dicit <name ref="#HughOfStVictor">Hugo</name>,
+            in epistola Ad <name ref="#Bernard">Bernardum</name> : Audacter dico, si fuerit
+            contritus ; non amen debet communicare antequam confessus fuerit. Propter hoc est
+            quaestio, utrum aliquis contritus in casu aliquo possit accedere ante confessionem.</p>
+          <p xml:id="bb-d4e20164-d1e341">Respondeo : Dicendum quod tunc aliquis confortat se bona conscientia, dum probabiliter
+            percipit culpam sibi esse dimissam ; hoc autem percipit ; quando facit quod in se est ad
+            obtinendam veniam. Hoc autem non plene facit ante confessionem, si habet sacerdotis
+            copiam ; tunc enim, si confitetur exterius ; conscientia interior confortatur et bene
+            potest accedere. Si autem habet copiam et non confitetur, male facit, si accedit. Si
+            vero non habet copiam, aut habet necessitatem conficiendi, ut sacerdos parochialis, et
+            tunc potest accedere cum dolore et proposito confitendi ; aut non habet necessitatem, et
+            sic nullo modo debet accedere ante confessionem, quia qui fuit per mortale
+            excommunicatus ; ad Sacramentum unitatis Ecclesiae non debet accedere nisi prius
+            reconciliatus Ecclesiae, nisi alias cogatur ; et tunc evidens excusatio habetur.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e345">
+          <head xml:id="bb-d4e20164-Hd1e347">Dub. XIII.</head>
+          <p xml:id="bb-d4e20164-d1e350">Item quaeritur de hoc quod dicit : Cohibeat se a ludis et a spectaculis : quid vocantur
+            ista duo ? Et quare dicit ipsum debere se cohibere ? Aut enim sunt mata aut bona et
+            licita. Si mala, tunc ergo omhes debent se cohibere. Si vero bona et licita, ergo nullus
+            debet se cohibere.</p>
+          <p xml:id="bb-d4e20164-d1e353">Respondeo : Dicendum quod, sicut dicitur : <ref xml:id="bb-d4e20164-Rd1e355">I ad Corinthios 10, 7 in Glossa</ref>,
+            ludus est gesticulatio libidinosa, cuiusmodi est in choreis ; spectacula sunt, sicut
+            dicit <name ref="#Augustine">Augustinus</name>, sicut cithara et venatio et huiusmodi.
+            Dico igitur quod ludus chorearum non est malus secundum se, sicut patet de sorore <ref xml:id="bb-d4e20164-Rd1e361" ana="#ex15_20">Moysi, Exodi 15, 20</ref> ; sed fit malus quadruplici de causa,
+            scilicet propter modum, quando est modus lascivus ; propter finem, quando fit ad
+            provocandam libidinem ; propter tempus, ut non fiat tempore tristitiae ; propter
+            personam, ut non fiat a persona religiosa. His remotis, potest fieri Quoniam igitur
+            poenitens et persona, est cui non competit, et quamdiu vere poenitet, est in tempore
+            tristitiae : ideo ei non competit. Similiter iudicandum est de spectaculis ; his enim
+            quatuor de causis possunt male fieri et fiunt ; his exclusis ; bene possunt fieri.</p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e366">
+          <head xml:id="bb-d4e20164-Hd1e368">Dub. XIV.</head>
+          <p xml:id="bb-d4e20164-d1e371">Item quaeritur de hoc quod dicit, quod non omnes digni fructus sunt digni fructus
+            poenitentiae. Videtur enim male dicere, quia opera, quae facit poenitens ex virtute
+            poenitentiae, sunt fructus virtutis ; et non nisi poenitentiae : ergo etc. Praeterea,
+            sicut virtus poenitentiae : est circa bonum et difficile, ita aliae virtutes : ergo etc.
+            Item, cum fructus dicatur a fruendo, quomodo opera poenitentiae : possunt dici fructus
+            ?</p>
+          <p xml:id="bb-d4e20164-d1e374">Respondeo : Dicendum quod opera poenitentiae dicuntur fructus non quia eis fruamur, sed
+            quia ad fruitionem ducunt ; vel fructus metaphorice : sicut.ex arbore nascitur pomum,
+            quod dicitur fructus arboris, ita ex voluntate poenitentis bonum opus. Et nota quod
+            differt dicere bonum fructum et dignum fructum poenitentiae. Bonus fructus potest dici
+            omne opus bonum ; dignus fructus plus dicit, scilicet bonum opus cum convenientia ad
+            statum. Bonum enim est opus et ita perfectum, si competit statui. Sed dignus fructus
+            poenitentiae non dicit solummodo bonum opus, prout competit statui, sed ut competit
+            merito peccati, quia qui plus peccavit, ampliora debet pati, ut <name ref="#GregoryGreat">Gregorius</name> determinat, in Homilia. </p>
+        </div>
+        <div xml:id="bb-d4e20164-Dd1e381">
+          <head xml:id="bb-d4e20164-Hd1e383">Dub. XV.</head>
+          <p xml:id="bb-d4e20164-d1e386">Item quaeritur de hoc quod dicit : Miles vel negotiator vel alicui officio deditus
+            etc., quia, si hoc verum est, ergo nullus negotiator, nullus miles salvatur ; et hoc est
+            contra sacram Scripturam. Nam beatus Ioannes militiam non reprobavit, sed dixit : <quote xml:id="bb-d4e20164-Qd1e388" ana="#lc3_14">Contenti estote stipendiis vestris</quote>, Lucae 3, 14. Item de
+            negotiatoribus, Genesis 49, 13 : <quote xml:id="bb-d4e20164-Qd1e391" ana="#gen49_13">Zabulon in littore maris
+              habitabit</quote>, ubi secundum litteram terra Zabulon benedicitur negotiationibus.
+            Item, si hoc verum esset, periret militia, quae necessaria est ad defendendam fidem ;
+            perirent negotiationes, sine quibus multae terrae non possent vivere.</p>
+          <p xml:id="bb-d4e20164-d1e395">Respondeo : Dicendum quod militia et negotiatione et officio telonii sive vectigaliuin
+            exactione, a qua dicitur Matthaeus publicanus, potest quis recte uti, si faciat eo modo
+            quo instituta sunt : ut miles nemini iniurietur, negotiator neminem circumveniat et
+            telonearius non exigat vectigal immoderatum, sed quod institutum est ex certa, causa et
+            utili ; et hoc totum potest esse sine peccato, et hoc modo poenitens potest in hoc statu
+            salvari. Sed his propinquissimae sunt abusiones : in militibus violentiae, in
+            negotiatoribus deceptiones, in aliis immoderatae exactiones ; et ideo huiusmodi sunt
+            periculosa. Et quantum ad tales abusiones dicit <name ref="#GregoryGreat">Gregorius</name> : Non poenitet quis quousque dimittat haec, scilicet quantum ad
+            abusionem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

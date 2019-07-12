@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e22470">
+        <head xml:id="bb-d4e22470-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e22470-Hd1e111" type="question-title">Utrum omnes adulti, boni et mali, ad confessionem
+          teneantur.</head>
+        <p xml:id="bb-d4e22470-d1e114">Primo igitur quaeritur, utrum omnes adulti, boni et mali, ad confessionem teneantur.</p>
+        <div xml:id="bb-d4e22470-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e22470-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e22470-d1e122">Et quod sic, videtur : Per <ref xml:id="bb-d4e22470-Rd1e124" target="http://scta.info/resource/cice-l5t38-d1e286">decretalem De poenitentiis et remissionibus, libro quinto</ref> : <quote xml:id="bb-d4e22470-Qd1e127" source="http://scta.info/resource/nhyjhg-d1e214">Omnis utriusque sexus fidelis
+              postquam ad annos discretionis pervenerit, omnia peccata sua, saltem semel in anno,
+              fideliter confiteatur proprio sacerdoti</quote>. Et quod illud sit praeceptum, patet
+            in hoc quod subiungitur gravis poena, scilicet quod vivens ab ingressu Ecclesiae
+            arceatur et moriens christiana careat sepultura.</p>
+          <p xml:id="bb-d4e22470-d1e131">Item, I Ioannis 1, 8 : <quote xml:id="bb-d4e22470-Qd1e133" ana="#Iio1_8">Si dixerimus quoniam peccatum non habemus,
+              mendaces sumus et veritas non est in nobis</quote> ; loquitur de omnibus communiter.
+            Ergo omnis qui dicit se peccatum non habere, peccat mortaliter : ergo quilibet tenetur
+            se recognoscere peccatorem secundum formam Ecclesiae, quae tradita est peccatoribus ;
+            sed hoc est per confessionem : ergo etc.</p>
+          <p xml:id="bb-d4e22470-d1e137">Item, praeceptum est omnibus orare, et nullus absolvitur, quantumcumque perfectus, ab
+            oratione dominicali : ergo omnes tenentur dicere : <quote xml:id="bb-d4e22470-Qd1e139" ana="#mt6_12">Dimitte nobis
+              debita nostra</quote> ; sed Dominus non tantum ad hoc instituit orationem, immo etiam
+            confessionem ; sed oratio est opus satisfactiorum et praesupponit confessionem : ergo
+            etc.</p>
+          <p xml:id="bb-d4e22470-d1e143">Item, quantumcumque aliquis sit sanctus et iustus, si potens est corpore, tenetur
+            Quadragesimam ieiunare, nec propter aliquam sanctitatem absolvitur ab Ecclesiae
+            institutione. Ergo pari ratione nec a confessione.</p>
+          <p xml:id="bb-d4e22470-d1e147">Contra : <name ref="#Augustine">Augustinus</name> dicit, et habetur distinctione
+            praecedenti : <quote xml:id="bb-d4e22470-Qd1e152">Poenitentia perfecta ad Baptismi puritatem conatur
+            reducere</quote>. Sed possibile est aliquem veram poenitentiam perficere pro peccato :
+            ergo possibile est ipsum redire ad innocentiam baptismalem ; sed habens innocentiam
+            baptismalem non tenetur confiteri, quia purus est : ergo non videtur quod omnes ad
+            confessionem teneantur.</p>
+          <p xml:id="bb-d4e22470-d1e156">Item, confessio et sacramentum Poenitentiae est institutum propter hoc, ut recidivantes
+            post Baptismum possint resurgere : sed possibile est quod aliquis conservet innocentiam
+            baptismalem : ergo talis non tenetur confiteri.</p>
+          <p xml:id="bb-d4e22470-d1e159">Item, possibile est in multis quod non habeant nisi venialia ; sed venialia non tenetur
+            confiteri homo, quia in illis decedens potest salvari et sola contritione possunt deleri
+            : ergo talis non tenetur confiteri, quamdiu in tali statu consistit.</p>
+          <p xml:id="bb-d4e22470-d1e162">Item, possibile est quod aliquis ita intentus sit circa aeterna, quod non habeat
+            remorsum de aliqua culpa ; aut ergo talis tenetur confiteri aut non. Si non, tunc non
+            omnes obligantur : si tenetur, et non habet conscientiam peccati, tenetur ad confitendum
+            sive ad dicendum contra conscientiam, et ita mentiri ; quod nefas est dicere : ergo non
+            omnes obligantur.</p>
+        </div>
+        <div xml:id="bb-d4e22470-Dd1e166">
+          <head xml:id="bb-d4e22470-Hd1e168">Conclusio</head>
+          <head xml:id="bb-d4e22470-Hd1e171" type="question-title">Omnes, sive boni sive mali, semel in anno tenentur confiteri,
+            partim ex praecepto primae institutionis, partim ex superaddito mandato in generali
+            Concilio</head>
+          <p xml:id="bb-d4e22470-d1e174">Respondeo : Dicendum quod teneri ad confessionem peccatorum est dupliciter, scilicet ex
+            institutione prima, quia instituta est sub praecepto, vel ex constitutione superaddita.
+            Primum praeceptum datum fuit ab Apostolis et vulgatum fuit a Iacobo, apostolo et
+            episcopo Ierosolymitano, <ref xml:id="bb-d4e22470-Rd1e176" ana="#iac5_16">Iacobi 5, 16</ref> ; secundum a patribus in
+            generali Concilio et vulgatum fuit ab Innocentio III. Ratione primi mandati
+            institutionis, quoniam instituta est directe contra mortale, tenebantur omnes confiteri
+            qui post Baptismum peccaverant mortaliter. Ratione vero secundae institutionis tenentur
+            omnes, saltem ad semel in anno.</p>
+          <p xml:id="bb-d4e22470-d1e180">Ratio autem huius institutionis triplex est. Prima est universalis indigentia. <quote xml:id="bb-d4e22470-Qd1e182" ana="#rom3_23">Omnes enim peccaverunt et egent gloria Dei</quote>. <quote xml:id="bb-d4e22470-Qd1e185" ana="#sir7_21">Non est enim qui facial bonum et non peccet</quote>, Ecclesiastici 7,
+            21. Ideo Deum debet quilibet glorificare confitendo se peccatorem. Qui enim se
+            peccatorem confitetur, Deum glorificat, ostendens se Dei gratia et misericordia
+            indigere. Secunda ratio fuit sacrae communionis reverentia, quia omnes tenentur in
+            Pascha communicare, tam perfecti quam alii ; et tunc, quia Agnus paschalis cum
+            solemnitate manducandus est, ut mundi essent manducantes et digni, oportuit remedium
+            praemitti probationis et purgationis ; et hoc quidem est in confessione peccati. Tertia
+            ratio fuit discretio gregis dominici, ne tupi absconderentur in grege qui manducarent
+            agnos ; ideo institutum est ut vultus conscientiarum suarum sacerdotibus ostenderent. Et
+            ne haeretici innocentiam palliarent et sub pelle innocentiae se absconderent, omnibus,
+            quantumcumque sint innocentes, praeceptum est confiteri. Et ideo omnes, quantumcumque
+            sint boni, tenentur confiteri semel in anno.</p>
+        </div>
+        <div xml:id="bb-d4e22470-Dd1e191">
+          <head xml:id="bb-d4e22470-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e22470-d1e196">Ad illud ergo quod obicitur, quod poenitentia perfecta reducit ad innocentiam, dicendum
+            quod illud verum est de culpa, pro qua fuit illa poenitentia assumpta ; sed quamdiu
+            sumus in hac vita, uni culpae succedit alia ; et ideo oportet quod renovetur confessio
+            et poenitentia.</p>
+          <p xml:id="bb-d4e22470-d1e199">Ad illud quod obicitur, quod instituta est propter recidivantes, dicendum quod in
+            Baptismo deletur principaliter originale, delentur nihilominus venialia et mortalia, et
+            ideo Baptismus valet contra illa. Similiter de Poenitentia intelligendum quod
+            principaliter instituta est propter mortalia, ad minus ipsa confessio ; sed tamen valet
+            contra omne peccatum, et ita contra omnem lapsum, sive per mortale sive per veniale.
+            Licet igitur aliquis conservet gratiam baptismalem in quantum delet originale et culpam
+            mortalem, nullus tamen adeo est iustus, qui conservet quantum ad deletionem venialis,
+            quia tota die iteratur : ideo expedit ei, si nunquam mandasset Ecclesia, confiteri ;
+            nunc autem non solum expedit, sed etiam necessario obligatur.</p>
+          <p xml:id="bb-d4e22470-d1e202">Ad illud quod obicitur, quod non tenemur venialia confiteri, dicendum quod, sicut
+            tactum est, tentio ad confessionem est dupliciter : vel ob vinculum peccati vel propter
+            vinculum solius praecepti. Venialia igitur non tenetur quis confiteri propter vinculum
+            peccati, sed hoc solum est propter obligationem praecepti, quae obligat unumquemque ad
+            confitendum. Et ideo, si non habet nisi venialia, tenetur illa confiteri ; unde si
+            haberet mortalia quae confiteretur, non teneretur ad venialia.</p>
+          <p xml:id="bb-d4e22470-d1e205">Ad illud quod obicitur de eo qui non habet remorsum etc., dicendum quod impossibile
+            credo, secundum statum viatoris, quod aliquis unum diem vel septimanam transeat sine
+            remorsu venialis ; tamen quod totum annum transeat, hoc habeo magis pro impossibili, et
+            vix credo quod fuerit hoc donum in aliquo, nisi in Christo et eius Matre ; et ideo
+            unusquisque vel habet conscientiam vel debet habere et omni hora petere : Dimitte nobis
+            etc. Vix enim est quod homo aliquamdiu sit in vita ista sine veniali, tum propter
+            frequentiam, quia strepitus vitiorum et peccatorum venialium semper insonant auribus
+            cordis nostri ; tum propter ignorantiam, quia in multis venialiter peccamus et ignoramus
+            et non consideramus ; tum propter adhaerentiam, quoniam venialia ista sunt magnae
+            adhaerentiae, maxime quando habetur affectio circa aliquod terrenum : et ideo,
+            quantumcumque sit perfectus, corde debet reeognoscere et ore confiteri se peccatorem
+            esse. Si tamen aliquis esset qui non haberet peccatum, propter superabundantem gratiam,
+            dico quod non teneretur ad illud mandatum, quia solis peccatoribus et viatoribus est
+            datum ; talis autem iam in caelis habitat. Si autem esset alius qui non haberet, propter
+            ignorantiam vel negligentiam, non excusatur a mandato propter ignorantiam ; non tamen
+            tenetur aliquid dicere quod non habeat in corde, sed tenetur recogitare et postea
+            tenetur dicere. Hoc autem non credo posse contingere homini habenti intellectum et usum
+            rationis nisi per specialissimam gratiam - quam etiam credo Apostolos non habuisse, quia
+            venialiter peccaverunt, sicut dicit <name ref="#GregoryGreat">Gregorius</name> - vel
+            propter nimiam negligentiam. Et sic patet quod secundum communem legem, saltem semel in
+            anno omnes adulti tenentur confiteri universaliter, et omnes debent orare : Dimitte
+            nobis etc. ; nec est aliquis qui in multis non possit se ipsum arguere. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

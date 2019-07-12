@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e6047">
+        <head xml:id="bb-d4e6047-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e6047-Hd1e111" type="question-title">Quae sit illa potestas quam Christus dare potuit ministris, et
+          non dedit.</head>
+        <div xml:id="bb-d4e6047-Dd1e114" type="rationes-principales">
+          <head xml:id="bb-d4e6047-Hd1e116">Rationes principales</head>
+          <p xml:id="bb-d4e6047-d1e119">Circa primum sic proceditur : Super illud Ioannis 1, 33 : <quote xml:id="bb-d4e6047-Qd1e121" ana="#io1_33">Hic est
+              qui baptizat</quote>, dicit <name ref="#Augustine">Augustinus</name> quod Ioannes
+            didicit quod <quote xml:id="bb-d4e6047-Qd1e127" source="http://scta.info/resource/iuy75t-d1e83">Christus potestatem
+              mundandi a peccatis ministris dare potuit, sed non dedit</quote>. Ergo videtur quod
+            illa fuerit potestas cooperationis.</p>
+          <p xml:id="bb-d4e6047-d1e131">Item, quod illam dare potuerit, sed non dedit, videtur per verbum <name ref="#Augustine">Augustini</name> et Magistri, quia non dedit hanc potestatem, ne homo
+            spem poneret in homine ; sed propter nullam potentiam homo speraret in homine, nisi homo
+            haberet potentiam dimittendi culpam et dandi gratiam : ergo de illa intelligitur.</p>
+          <p xml:id="bb-d4e6047-d1e137">Item, hoc ipsum ostenditur ratione, quod potuit banc communicare, per simile in
+            spiritualibus, quia angelo superioris ordinis dedit potentiam purgandi alium qui est
+            inferioris ordinis : ergo, cum ita sit ordo in ecclesiastica hierarchia sicut in
+            angelica, patet etc.</p>
+          <p xml:id="bb-d4e6047-d1e140">Item, ostenditur etiam per simile in corporalibus, quia rebus corporalibus dedit
+            potentiam curandi a morbo corporali. Ergo animabus sanctis debuit dare potentiam curandi
+            a morbo spirituali.</p>
+          <p xml:id="bb-d4e6047-d1e144">Item, hoc etiam probatur a minori, quia dare potuit ministris Ecclesiae potentiam
+            expellendi daemones. Ergo multo fortius seminarium eorum, quod est peccatum.</p>
+          <p xml:id="bb-d4e6047-d1e147">Item, a minori videtur alio modo, quia nulla creatura nobilior est anima sancta ; sed
+            gratiae dedit potentiam expellendi culpam : ergo et animae dare potuit.</p>
+          <p xml:id="bb-d4e6047-d1e150">Contra : <name ref="#Augustine">Augustinus</name> : <quote xml:id="bb-d4e6047-Qd1e155" source="http://scta.info/resource/iuy75t-d1e631">Maius est iustificare impium quam
+              creare caelum et terram</quote> ; sed potentiae creandi non est capax creatura : ergo
+            nec potentiae iustificandi sive dimittendi peccata.</p>
+          <p xml:id="bb-d4e6047-d1e159">Item, omnis actio est per coniunctionem agentis ; sed solus Deus potest illabi animae :
+            ergo solus potest purgare.</p>
+          <p xml:id="bb-d4e6047-d1e162">Item, purgatio a culpa est a superiori ; sed solus Deus est supra liberum arbitrium :
+            ergo solus Deus potest culpam dimittere, quae est in libero arbitrio.</p>
+          <p xml:id="bb-d4e6047-d1e165">Item, interius baptizare est gratiam infundere, et gratiam infundere est. ipsam creare
+            ; sed solius Dei est creare gratiam : ergo ipsius tantum est interius baptizare, sive a
+            culpa purgare.</p>
+        </div>
+        <div xml:id="bb-d4e6047-Dd1e169">
+          <head xml:id="bb-d4e6047-Hd1e171">Conclusio</head>
+          <head xml:id="bb-d4e6047-Hd1e174" type="question-title">Potestas, de qua loquitur <name ref="#Augustine">Augustinus</name>, est potestas cooperationis talis, ut homo non efficiendo, sed
+            impetrando baptizato gratiam obtineat</head>
+          <p xml:id="bb-d4e6047-d1e180">Respondeo : Dicendum quod circa Baptismum possunt sex potestates annotari, ut videamus
+            quam dare potuit Dominus et non dedit. Prima est auctoritatis ; haec est qua Deus a se
+            ipso, non aliunde, habet potestatem interius mundandi a culpa. Secunda est
+            cooperationis, ut homo, accepta divinitus potentia, in tali actu esset cooperator.
+            Tertia est excellentiae, ut secundum abundantiorem gratiam existentem in baptizante
+            maiorem conferret gratiam in baptizato. Quarta. est invocationis, ut homo in nomine
+            Petri baptizari possit sicut in nomine Christi vel etiam Trinitatis. Quinta est
+            institutionis, ut sicut Christus habuit potestatem instituendi Baptismum in aqua, ita
+            alius haberet in aqua vel alibi. Sexta est ministerii, qua dat ut per hominem possit
+            exterius ministrari et verbum et elementum.</p>
+          <p xml:id="bb-d4e6047-d1e183">Primam nec dare potuit nec dedit, ultimam dare potuit et dedit. De omnibus intermediis
+            dicunt Magistri quod dare potuit, sed non dedit. Secundam enim et tertiam non dedit, ne
+            spes in homine poneretur, quia, si unus homo posset alium sanare spiritualiter vel suis
+            meritis plus de gratia dare, speraret homo ab homine gratiam et veniam. Quartam vero et
+            quintam non dedit, ne tot essent baptismi quod baptistae, quia numeratur Baptismus et
+            denominatur ab, eo in cuius nomine fit et ab eo qui instituit ; et ideo, ne multi essent
+            baptismi, sed unus solus, instituit ut unus solus invocaretur. De potestate vero
+            cooperationis controversia est, quia <name ref="#Lombard">Magister</name> dicit quod
+            illam dare potuit ; hoc tamen communiter negatur.</p>
+          <p xml:id="bb-d4e6047-d1e189">Sed quia <name ref="#Augustine">Augustinas</name> videtur hoc dicere, propter hoc
+            notandum quod cooperari alii est dupliciter : vel per modum vere efficientis, sicut
+            natura cooperatur Deo in productione naturalium et liberum arbitrium gratiae in faciendo
+            opus meritorium ; secundo vero per modum disponentis, sicut cooperatur homo Deo quantum
+            ad gratiam, quia se disponit. Primo modo, quidquid videatur dicere <name ref="#Lombard">Magister</name>, Deus dare non potuit, quia creatura capax non fuit ; nec hoc modo
+            intellexit <name ref="#Augustine">Augustinus</name>. Sicut enim tactum fuit in primo
+            libro, distinctione decima quarta, et per obiectiones ostensum, dare gratiam est
+            potentiae infinitae et potentiae supra mentem humanam, quae immediate es in Deum.
+            Secundo vero modo dare potuit, ut homo secundum actum interiorem baptizato gratiam
+            obtineret, non gratiam efficiendo, sed ipsam impetrando, sicut dedit homini virtutem
+            faciendi miracula, non quia ipse ea efficeret, sed virtute sibi a Deo data, quoties
+            vellet impetraret. Sed hanc non dedit homini, scilicet ut tantum posset interius in
+            sanando animam sicut exterius virtute miraculorum sanat corpora. Tunc enim ad eos
+            recurreretur pro salute animae sicut ad Deum. Dominus autem quantum ad hanc potentiam
+            omnes fecit aequales, ut salutem animae a se solo doceat requirendam. Omnes enim
+            aequaliter purgant qui sacramentum administrant ; et ita non est efficacia in actu
+            mentis baptizantis, sed solum in administratione sacramenti. Et per hoc manifesta est
+            solutio obiectorum.</p>
+        </div>
+        <div xml:id="bb-d4e6047-Dd1e202">
+          <head xml:id="bb-d4e6047-Hd1e204">Ad rationes</head>
+          <p xml:id="bb-d4e6047-d1e207">Ad illud ergo quod obicitur, quod angelus superioris ordinis purgat etc., dicendum quod
+            illud est intelligendum quantum ad cognitionem, et hoc solum dispositive. Sed maius est
+            purgare affectivam, quia magis est Deo coniuncta ; praeterea, habitus qui reformat
+            affectivam est habitus magis deiformis. Nihilominus tamen dicit <name ref="#Augustine">Augustinus</name> quod solus Deus est doctor sicut solus baptizat interius. Sed in
+            hoc non contradicit Dionysio ; non enim vult excludere dispositionem doctoris
+            exterioris, quae est per modum cuiusdam extensionis ; sed vult quod habitus a solo Deo
+            infundatur ; nec in hoc excludit cooperationem luminis naturalis. Aliqua enim sunt quae
+            possumus cognoscere per lumen naturaliter inditum ; similiter aliqua bona sunt ad quae
+            possumus assuefieri per rectitudinem naturaliter insertam. Et sicut ad ea quae supra
+            naturam sunt solus Deus elevat cognitivam, infundendo habitum cognitivum, utpote
+            illustrationem prophetiae vel fidei sic, cum gratia gratum faciens et caritas elevent
+            supra naturam, non insunt ibi nisi per infusionem. Et sicut cognitiva, Deo cooperante,
+            potest se perficere aliquo habitu naturali, utpote cognitionis naturalis, aliquo vero
+            non, utpote infusae, sic ex parte affectivae est intelligendum quantum ad habitus
+            morales et infusos ; et quia gratia gratum faciens naturam supra se elevat, habitus est
+            infusus, et ideo ab illo solo est qui potest illabi animae. Quamvis autem utrumque sit a
+            Deo, tamen in habitu cognitionis doctor praeparat non solum verbo exteriori, sed etiam
+            per habitum interiorem ; et ita unus est melior doctor quam alter. Ita Deus potuisset
+            facere in Baptismo, sed noluit, ut ei soli omnipotentia, honor et gloria attribuatur. </p>
+          <p xml:id="bb-d4e6047-d1e213">Ad illud quod obicitur de medicina corporali, patet responsio, quod non est simile,
+            quia medicinae sanitatem non efficiunt, sed disponunt adiuvando naturam. Non est etiam
+            simile, quia corporalia mutuo agunt et patiuntur ; non sic autem anima influit in animam
+            ; et ratio huius assignata fuit in primo libro.</p>
+          <p xml:id="bb-d4e6047-d1e216">Ad illud quod obicitur de expulsione daemonum, dicendum quod illud non est maius, sed
+            minus, quia daemon potest expelli sine melioratione et infusione gratiae, sed non culpa
+            ; daemon enim potest expelli, quia potest arctari per contrariam potestatem.</p>
+          <p xml:id="bb-d4e6047-d1e219">Ad illud quod obicitur de gratia, dicendum quod gratia expellit informando, non
+            efficiendo ; et quia anima non potest animam informare, ideo nec actum illum communicare
+            ; effective autem solus Deus est qui potest gratiam dare.</p>
+          <p xml:id="bb-d4e6047-d1e223">Patet igitur de qua potestate <name ref="#Augustine">Augustinus</name> intellexerit,
+            scilicet de potestate cooperationis, qua dicitur aliquis cooperari, non quia simul cum
+            illo efficit, sed quia aliquo dono sibi dato aliquid facit, quo facto Deus facit,
+            scilicet solo nutu mentis sine actu sacramenti. Unde sicut beatus Petrus dicitur mortuos
+            suscitasse et infirmos curasse et habere virtutem curandi et gratiam sanitatum, non quia
+            ipse faceret, sed quia Deus nutu suo faciebat sine aliquo visibili sacramento, sic
+            diceretur aliquis purgare et purificare et Deo cooperari, si data esset ei consimilis
+            gratia ad animas purgandas ; quod noluit Deus, sicut dicit <name ref="#Augustine">Augustinus</name>. Ideo etiam non dedit quod uns baptizaret melius quam alter. Et si
+              <name ref="#Lombard">Magister</name> ita intellexit, bene intellexit, et rationes
+            inductae ad oppositum non sunt contra ipsum. Verumtamen ipse in littera multum exprimit
+            ; et ideo in parte ista non est ei usquequaque consentiendum. Et ita patet solutio
+            obiectorum. Ad hoc problema terminandum valent quae scripta sunt de donatione gratiae,
+            decima quarta distinctione libri primi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

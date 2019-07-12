@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e22577">
+        <head xml:id="bb-d4e22577-Hd1e108">Quaestio 2</head>
+        <head xml:id="bb-d4e22577-Hd1e111" type="question-title">Utrum peccator statim, cum potest, teneatur confiteri.</head>
+        <p xml:id="bb-d4e22577-d1e114">Secundo quantum ad tempus quaeritur, utrum peccator statim, cum potest, teneatur
+          confiteri.</p>
+        <div xml:id="bb-d4e22577-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e22577-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e22577-d1e122">Et quod sic, videtur : <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore :
+              <quote xml:id="bb-d4e22577-Qd1e127" source="http://scta.info/resource/hds-l1p9c5">Si necessitas non est quae
+              praetendatur, contemptus non excusatur</quote>. Sed, cum se offert confitendi
+            opportunitas, nulla potest praetendi necessitas ; ergo non excusatur a contemptu.</p>
+          <p xml:id="bb-d4e22577-d1e131">Item, quanto homo plus permanet in peccato, tanto est inhabilior : ergo quanto citius
+            confitetur, tanto est habilior ad resurgendum ; sed constat quod aliquando tenetur
+            confiteri, et non nisi quando est habilior ; si ergo tanto habilior, quanto citius :
+            ergo quam citius potest, tenetur confiteri.</p>
+          <p xml:id="bb-d4e22577-d1e134">Item, aegrotans morbo corporali et periculoso, qui approximat morti et ignorat mortem,
+            tenetur quaerere medicum et consulere sine dilatione et statim, si offert se
+            opportunitas. Ergo, cum maior sit morbus spiritualis et maius periculum et dies mortis
+            ignotetur, videtur quod sine dilatione tenetur confiteri.</p>
+          <p xml:id="bb-d4e22577-d1e137">Item, iste qui est in gratia tenetur numquam cadere : ergo, ab oppositis, iste qui est
+            in culpa, si non reportat de malo commodum, tenetur nunquam in culpa esse : ergo, si
+            tenetur nunquam in culpa esse, et hoc non potest esse nisi resurgendo, antequam resurgat
+            tenetur semper resurgere : ergo statim, ex quo peccavit. Sed confessio est ad relevandum
+            a peccato : ergo etc.</p>
+          <p xml:id="bb-d4e22577-d1e141">Contra : Praeceptum affirmativum non obligat ad semper, sed ad aliquod tempus
+            determinatum ; sed quandocumque rei indeterminatae additur determinatio temporis, non
+            tenetur ante illud tempus quis observare ; sed in mandato secundo de confessione dicitur
+            quod debet confiteri semel in anno : ergo videtur quod non sit transgressor, sive
+            omittat sive differat confiteri usque ad annum.</p>
+          <p xml:id="bb-d4e22577-d1e144">Item, si tenetur ad statim, pari ratione in alio nunc, et cum sint nunc infinita in
+            tempore, tunc infinities peccaret, si omitteret ; sed hoc est inconveniens : ergo etc.
+            Si tu dicas quod tenetur statim, cum recognoscit offensam, contra : esto quod non
+            recogitet, non tenetur ; sed hoc est malum et negligentia ; ergo reportat commodum de.
+            malitia.</p>
+          <p xml:id="bb-d4e22577-d1e147">Item, in eadem Decretali datur mandatum de Eucharistia et sub eadem poena ; sed constat
+            quod nemo peccat omittendo, si differat sumere Eucharistiam usque ad Pascha : ergo pari
+            ratione de conf essione.</p>
+          <p xml:id="bb-d4e22577-d1e150">Item, licitum est peccatori quaerere sacerdotem discretum et exspectare : ergo licitum
+            est etiam quaerere tempus idoneum et exspectare ad poenitendum et satisfaciendum ; sed
+            hoc est tempus Quadragesimae ad hoc institutum : ergo videtur quod sine peccato liceat
+            exspectare Quadragesimam.</p>
+        </div>
+        <div xml:id="bb-d4e22577-Dd1e154">
+          <head xml:id="bb-d4e22577-Hd1e156">Conclusio</head>
+          <head xml:id="bb-d4e22577-Hd1e159" type="question-title">Hi quoque, qui non tantum ex ecclesiastica institutione, sed
+            etiam ex gravi transgressione ad confitendum tenentur, sub gravi non obligantur ad
+            statim actu confitendum nisi in casu secundum varias circumstantias</head>
+          <p xml:id="bb-d4e22577-d1e162">Respondeo : Circa hoc notandum quod est loqui de confessione dupliciter : vel quantum
+            ad propositum interius, vel quantum ad verbum exterius. Si quantum ad propositum
+            interius, sic communiter conceditur quod tenetur proponere confiteri, quando et conteri,
+            quia sine proposito confitendi et emendandi.non dimittitur peccatum, sicut nec sine
+            contritione. Ad hoc autem tenetur, quando recogitat culpam commissam et Dei offensam,
+            vel quando tempus se offert in quo recogitare debet, sicut in hora mortis vel periculo
+            vel aliquo alio simili.</p>
+          <p xml:id="bb-d4e22577-d1e165">Sed quando teneatur progredi in actum, hic diversimode opinantur diversi. Aliqui enim
+            dicunt quod, cum actus confitendi non sit necessarius ad iustificationem, quia per
+            contritionem est iustificatio, et ita confessio solum sit necessaria quia est in
+            praecepto, et Ecclesia non exigat ante Pascha, quod ante non tenetur, nisi periculum
+            mortis immineat. Huius autem dilationis dicunt concessam esse licentiam ex decretali
+            illa in generali Concilio edita : <quote xml:id="bb-d4e22577-Qd1e167" source="http://scta.info/resource/nhyjhg-d1e214">Omnis utriusque sexus</quote>
+            etc.</p>
+          <p xml:id="bb-d4e22577-d1e171">Aliorum opinio est, quod sicut tenetur ad propositum confitendi, quando se offert
+            opportunitas interior, sic tenetur ad opus, quando se offert exterior. Aut enim
+            propositum non est efficax aut cadit a proposito efficaci, si, quando se offert
+            opportunitas, in opus non exit. Et dicunt quod se offert opportunitas quando habet
+            discreti sacerdotis copiam et peccati commissi memoriam. Nec obstat decretalis, quia non
+            dat licentiam differendi, sed prohibet negligentiam et dilationem ; sicut Ecclesia
+            prohibet ne quis ultra annum in excommunicatione remaneat, non tamen dat licentiam
+            remanendi usque ad horam illam. Similiter, si imperator dat alicui personae infami
+            privilegium ut non agatur contra eum sicut contra infamem, non propter hoc liberat ab
+            infamiae nota, sed solummodo a poena, ut contra ipsum non agatur. Sic decretalis illa
+            non liberat a tentione et offensa, sed ne Ecclesia neget alicui ingressum in ecclesiam
+            vel etiam sepulturam, sicut facit post. Si ergo ante conditionem decretalis tenebatur
+            confiteri, quando se offerebat opportunitas, sic videtur quod post eius conditionem,
+            quia decretalis non pro negligentibus, sed contra negligentes est edita.</p>
+          <p xml:id="bb-d4e22577-d1e175">Quae autem istarum opinionum verior sit, dubium est et difficile iudicare. Tamen ad
+            veritatis clariorem intelligentiam distingui potest : quando quaeritur, ad quando
+            obligatur fidelis confiteri, secundum duplicem obligationem, quae superius tacta est, et
+            secundum duplex mandatum diversimode respondendum. est. Quidam enim ad confessionem
+            obligantur non ex culpa commissa, sed ex institutione ecclesiastica, utpote illi qui non
+            habent mortalia peccata. Tales differre possunt usque ad Pascha, quia mandatum illius
+            decretalis non obligat nisi sicut obligat ad Eucharistiam, ad quam praeparat confessio
+            sacerdoti facta. Quidam vero non tantum obligantur ex ecclesiastica institutione, sed ex
+            propria transgressione ; et hi tenentur ex sacramenti institutione. De talibus
+            generaliter asserere quod possunt usque ad Pascha differre, videtur mihi periculosum ;
+            similiter, quod teneantur semper, quando offert se opportunitas, confiteri, videtur
+            valde durum. Ideo videtur rationabiliter sentiendum medium, scilicet quod opportunitas
+            loci, temporis et sacerdotis tripliciter potest se ante Pascha offerre : aut ita quod
+            timetur ne unquam se offerat, sicut est in his qui graviter infirmantur, et tales
+            tenentur absque dubitatione ad confessionem ; aut ita quod maior opportunitas
+            exspectatur, vel quantum ad tempus vel quantum ad sacerdotem, et sic potest differri
+            sine aliquo peccato ; aut ita quod nunquam rationabiliter maior opportunitas
+            exspectatur, nec quantum ad sacerdotem nec quantum ad tempus, et tunc credo sine
+            praeiudicio quod tenetur.</p>
+          <p xml:id="bb-d4e22577-d1e178">Et ideo aliter censendum est hic de religioso, aliter de laico. Nam religioso totum
+            tempus vitae est tempus poenitentiae ; et ideo, habita copia sacerdotis, si peccavit
+            mortaliter, credo quod tenetur sine mora confiteri et ad ipsum recurrere ; et
+            intelligatur sine mora, sicut ratio recta determinavit. Laicus vero rationabiliter
+            potest exspectare tempus quadragesimale, quod est tempus poenitentiae. Unde, cum tempus
+            sit magis opportunum eis ad satisfaciendum et confitendum, si exspectent, rationabile
+            est iudicare quod non peccent, dum tamen proponant firmiter tunc temporis confiteri. De
+            clericis autem iudicare non audeo ; consilium tamen sanum credo, quod omnes qui cadunt
+            per mortale, quam citius possunt, confiteantur. Non enim videtur vere contritus, qui tam
+            longo tempore vulnus peccati portat occultum. Si autem obicias mihi quod status non
+            obligat aliquem nisi per votum, respondeo quod status non obligat, sed mandatum omnibus
+            datum ; ad nunc autem vel ad tunc obligat opportunitas, quae diversimode offert se
+            diversis. Et illud veritatem habet in omnibus affirmativis, quod ad aliquod tempus
+            obligatur unus, ad quod quidem tempus alter non obligatur, sicut patet in honore
+            parentum. Fatendum est igitur quod mandatum illud nullum obligat ad statim nisi in casu,
+            ut visum est.</p>
+        </div>
+        <div xml:id="bb-d4e22577-Dd1e183">
+          <head xml:id="bb-d4e22577-Hd1e185">Ad rationes</head>
+          <p xml:id="bb-d4e22577-d1e188">Ad illud ergo quod obicitur, quod contemptus non excusatur, dicendum quod ipse vocat
+            necessitatem non tantum inevitabilem, sed necessitate commoditatem. Vel dicendum quod
+            loquitur de illis qui de hac vita sine sacramentis decedunt, qui non excusantur, si tunc
+            possunt sacramentum recipere.</p>
+          <p xml:id="bb-d4e22577-d1e191">Ad illud quod obicitur, quod citius confitens est habilior, dicendum quod homo potest
+            resurgere a peccato ante confessionem, ut visum est ; et ideo, cum deletum sit per
+            contritionem, non sequitur illud.</p>
+          <p xml:id="bb-d4e22577-d1e194">Ad illud quod obicltur de aegrotante morbo corporali, dicendum quod, si aliam videat
+            viam curationis, non tenetur medicum consulere, vel etiam si exspectat tempus magis
+            congruum ; et quia ita est in proposito, ideo etc.</p>
+          <p xml:id="bb-d4e22577-d1e197">Ad illud quod obicitur, quod tenetur nunquam cadere, dicendum quod non est simile, quia
+            teneri ad non cadendum est tentfo praecepti negativi, quod obligat ad semper ; sed
+            teneri ad resurgendum est tentio affirmativi, quod non obligat ad semper.</p>
+          <p xml:id="bb-d4e22577-d1e201">Ad illud quod obicitur ad oppositum, dicendum quod, quantum est de mandata illius
+            decretalis, non obligantur ante Pascha, sicut probant illae rationes ; obligantur tamen
+            aliqui ex necessitate institutionis sacramenti.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

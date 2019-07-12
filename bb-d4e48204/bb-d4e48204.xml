@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e48204">
+        <head xml:id="bb-d4e48204-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e48204-Hd1e111" type="question-title">Utrum Deus agat iustius cum uno quam cum altero.</head>
+        <p xml:id="bb-d4e48204-d1e114">Quarto quaeritur, utrum Deus agat iustius cum uno quam cum altero.</p>
+        <div xml:id="bb-d4e48204-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e48204-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e48204-d1e122">Et quod sic, videtur : Quia, sicut iustitiae est punire, ita misericordiae est parcere
+            : ergo, cum magis puniat unum quam alterum, ergo iustius agit cun uno quam cum
+            altero</p>
+          <p xml:id="bb-d4e48204-d1e125">Item, quantum intenditur misericordia, tantum minuitur rigor iustitiae et e converso.
+            Ergo, cum agat misericordius cum uno quam cum altero, ergo et iustius.</p>
+          <p xml:id="bb-d4e48204-d1e128">Item, quantum iste meruit praemiari, tantum iustum est istum praemiari ; sed unus magis
+            meruit quam alter : ergo iustius est magis unum praemiari quam alterum. Sed Deus
+            praemiat secundum quod meruit : ergo iustius praemiat unum quam alterum.</p>
+          <p xml:id="bb-d4e48204-d1e131">Item, demonstratis duobus, quorum unus peccat duplo magis quam alter, qui minus
+            peccavit meruit sex, qui magis peccavit meruit duodecim. Tunc esto quod Dominus remittat
+            duo illi qui minus peccavit, quaero : quantum illi remittit qui magis peccavit ? Si
+            amplius quam duo, ergo misericordius agit cum eo qui magis peccavit, et ita reportat
+            commodum de malitia ; quod est inconveniens. Si autem remittit duo, arguitur sic : ille
+            punitur plus duplo et non meruit nisi duplo : ergo est magis dignus quatuor quam ille
+            sit dignus decem, quia ita dignus est sex sicut ille duodecim : ergo ita quatuor sicut
+            ille octo : ergo, si Deus isti infligit quatuor, illi decem, iustius agit cum illo qui
+            recipit decem.</p>
+          <p xml:id="bb-d4e48204-d1e135">Contra : Quod non iustius, videtur, quia sicut Deus est optimus, ita et iustissimus ;
+            sed, quia optimus est, optime agit : ergo, quia iustissimus, iustissime.</p>
+          <p xml:id="bb-d4e48204-d1e138">Item, quanto aliquis est iustior, tanto magis accedit ad medium in iudicando : ergo, si
+            est iustissimus, summe accedit ad medium : cum ergo summe, non est ibi magis et
+            minus.</p>
+          <p xml:id="bb-d4e48204-d1e141">Item, sicut Petrus est dignus gloria sua, ita et Linus sua : ergo similiter ex parte
+            poenarum. Si ergo considerat dignitatem meritorum, ergo non magis iuste agit cum uno
+            quam cum alio.</p>
+        </div>
+        <div xml:id="bb-d4e48204-Dd1e145">
+          <head xml:id="bb-d4e48204-Hd1e147">Conclusio</head>
+          <head xml:id="bb-d4e48204-Hd1e150" type="question-title">Quoad ordinem in remunerando Deus non agit iustius cum uno
+            quam cum alio, sed iustissime: tamen quoad severitatem poenae agit severius cum uno quam
+            cum alio.</head>
+          <p xml:id="bb-d4e48204-d1e153">Respondeo : Dicendum quod iustitia in opere uno modo dicit severitatem, alio modo
+            ordinem, sicut et bene facere uno modo qualitatem absolutam, alio modo ordinem. Si
+            iustitia in opere dicat severitatem sive qualitatem absolutam, dico quod sic iustius
+            agit cum uno quam cum alio, quia se verius ; et sic melius facit unum quam aliud. Alio
+            modo iustitia dicit ordinem praemii ad meritum ; et sic dico quod iustissime retribuit.
+            Sicut enim quae producit optime ordinat, sic in remunerando optime et aequissime ordinat
+            praemia ad merita. Concedendae igitur sunt duae primae rationes ostendentes quod iustius
+            agit, quia severius.</p>
+        </div>
+        <div xml:id="bb-d4e48204-Dd1e158">
+          <head xml:id="bb-d4e48204-Hd1e160">Ad rationes</head>
+          <p xml:id="bb-d4e48204-d1e163">Quod vero obicitur, quod quantum quis meruit, tantum iustum est praemiari, dico quod
+            concedendum est ; et hoc similiter : iustius est unum praemiari quam alterum, comparando
+            ad idem praemium ; unde, si Deus tantum praemium daret Petro, quantum Lino, dico quod
+            iustius agit cum Petro. Sed maius praemium dat Petro et minus Lino, ita quod Petrus non
+            est magis dignus suo praemio quam Linus suo. Quoniam ergo iustitia dicit ordinationem
+            secundum diversitatem praemiorum, correspondentem diversitati meritorum, ideo non
+            iustius agit cum uno quam cum alio.</p>
+          <p xml:id="bb-d4e48204-d1e166">Ad illud quod obicitur de remissione, dico quod, si remittit duo ei qui meruit sex,
+            remittit quatuor ei qui meruit duodecim, nec magis remittit comparando ad meritum sive
+            ad quantitates diversas, licet absolute magis. Quod ergo dicit quod reportat commodum,
+            dicendum quod falsum est, quia semper duplo punitur. Misericordia enim, quando currit
+            cum iustitia, magis remittit quantitate absoluta, ubi est maior miseria ; sed tamen
+            aequaliter, loquendo proportionaliter ; quia sicut uni, ita et alteri.</p>
+          <p xml:id="bb-d4e48204-d1e169">1-3. Rationes vero ad partem oppositam procedunt de iustitia secundum quod dicit
+            ordinem ; et sic, quemadmodum sapientia optime producit secundum ordinem conditionum,
+            ita iustitia iustissime remunerat secundum ordinem retributionum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

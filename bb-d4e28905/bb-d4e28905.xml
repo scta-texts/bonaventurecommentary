@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e28905">
+        <head xml:id="bb-d4e28905-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e28905-Hd1e111" type="question-title">De sacramento Poenitentiae quoad institutionem.</head>
+        <p xml:id="bb-d4e28905-d1e114">Quantum ad primum quaeritur, utrum sacramentum Poenitentiae fuerit institutum.</p>
+        <div xml:id="bb-d4e28905-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e28905-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e28905-d1e122">Et quod sic, videtur. Ita definit <name ref="#HughOfStVictor">Hugo</name> sacramentum :
+              <quote xml:id="bb-d4e28905-Qd1e127" source="http://scta.info/resource/hds-l1p9c2">Sacramentum est ex similitudine
+              repraesentans, ex institutione significans</quote> etc. Si ergo Poenitentia est
+            sacramentum, patet etc.</p>
+          <p xml:id="bb-d4e28905-d1e131">Item, sicut Dominus praecepit baptizari, ita praecepit poenitentiam agere, sicut patet
+              <ref xml:id="bb-d4e28905-Rd1e133" ana="#mt4_17">Matthaei 4, 17</ref>; et sicut dicitur Ioannis 3, 5 : <quote xml:id="bb-d4e28905-Qd1e136" ana="#io3_5">Nisi quis renatus fuerit</quote> etc., ita dicitur Lucae 13, 5 : <quote xml:id="bb-d4e28905-Qd1e139" ana="#lc13_5">Si poenitentiam non egeritis, omnes similiter peribitis</quote>. Ergo
+            sicut praecipiendo baptizari instituit Baptismatis sacramentum, ita praecipiendo
+            poenitere instituit sacramentum Poenitentiae.</p>
+          <p xml:id="bb-d4e28905-d1e143">Item, modus agendi poenitentiam in Veteri Lege fuit praefixus, sicut patet Levitici 4
+            et 5, similiter in Nova secundum sacerdotis arbitrium ; sed talis modus non est ex
+            naturae dictamine : ergo est ex institutione.</p>
+          <p xml:id="bb-d4e28905-d1e146">Contra : <name ref="#HughOfStVictor">Hugo</name> de Sancto Victore dicit quod in lege
+            naturae nullum sacramentum institutum est sub praecepto, sed solum sub consilio ; sed
+            poenitentia in lege naturae fuit sub praecepto, quia nemo sine ea unquam salvari potuit
+            : ergo non fuit instituta.</p>
+          <p xml:id="bb-d4e28905-d1e153">Item, nullum sacramentum indiget institutione, quod est ex naturali dictainine ; sed
+            poenitentia est ex naturali dictamine, quia naturaliter dictat ratio quod peccans et
+            offendens debet per poenitentiae humilitatem reconciliari : ergo etc.</p>
+          <p xml:id="bb-d4e28905-d1e156">Item omne sacramentum quod institutum est, variatum est ; sed poenitentia semper fuit
+            ab initio, usque nunc quantum ad contritionem et satisfactionem saltem : etgo non
+            videtur per legem institutum.</p>
+          <p xml:id="bb-d4e28905-d1e159">Item, si institutum est sacramentum, quaeritur, ubi et a quo. Si ibi ubi dicitur,
+            Matthaei 4, 17 : <quote xml:id="bb-d4e28905-Qd1e161" ana="#mt4_17">Agite poenitentiam</quote>, similiter institutum
+            potest dici a Ioanne, qui praedicavit : <quote xml:id="bb-d4e28905-Qd1e164" ana="#mt3_2">Poenitentiam agite</quote>,
+            Matthaei 3, 2. Si ibi, Matthaei 8, 4 : <quote xml:id="bb-d4e28905-Qd1e167" ana="#mt8_4">Vade et ostende te
+              sacerdotibus</quote> ; sed constat quod intelligebatur de sacerdotibus legalibus. Si
+            ibi : <quote xml:id="bb-d4e28905-Qd1e170" ana="#io20_23">Quorum remiseritis peccata</quote>, Ioannis 20, 23 ; sed
+            contra : ibi est institutum quod est Ordinis sacerdotalis.</p>
+        </div>
+        <div xml:id="bb-d4e28905-Dd1e175">
+          <head xml:id="bb-d4e28905-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e28905-Hd1e180" type="question-title">Poenitentiae Sacramentum, quatenus est reconciliativum Deo,
+            iam ante Legem aliquatenus insinuatum fuit: sed quatenus proprie est Sacramentum, a
+            Domino est institutum et quoad materiale per Apostolos promulgatum</head>
+          <p xml:id="bb-d4e28905-d1e183">Respondeo : Dicendum quod de poenitentia est loqui dupliciter : aut prout est
+            reconciliativa Deo, aut prout est non solum reconciliativa Deo, sed etiam Ecclesiae. Si
+            loquamur de ipsa, prout Deo reconciliat, sic est de dictamine legis naturalis, quae
+            dictat conteri de peccato et humiliari debere, cum aliqua illustratione fidei ; et sic
+            tale sacramentale potius habuit insinuationem quam institutionem ; eo enim quod natura
+            dictabat, insinuari sufficiebat.</p>
+          <p xml:id="bb-d4e28905-d1e186">Et aliqui voluerunt dicere quod insinuatum fuit ante lapsum, in illo verbo Genesis 2,
+            17 : <quote xml:id="bb-d4e28905-Qd1e188" ana="#gen2_17">In quacumque die comederitis</quote> etc. Sed illud verbum
+            videtur potius minari supplicium quam instituere remedium. Et iterum, cum poenitentia
+            sit in remedium de sua institutione primaria, non videtur competens eius institutio nisi
+            ex quo coepit peccatum.</p>
+          <p xml:id="bb-d4e28905-d1e192">Et ideo est alia positio, et melior, quod Dominus tunc insinuavit et instituit, quando
+            post peccatum Adam vocavit. Genesis 3, 9 : <quote xml:id="bb-d4e28905-Qd1e194" ana="#gen3_9">Ubi es ?</quote> ubi
+            dicit Glossa quod monebat eum redire ad cor, iuxta illud propheticum : Redite,
+            praevaricatores, ad cor, et multae Glossae, quae ibi ponuntur, hoc innuunt. Et sic patet
+            quod poenitentia, prout fuit sacramentum reconcilians Deo, ibi fuit insinufitum, quantum
+            pro illo tempore sufficiebat ; et illa insinuatio cum naturali dictamine suficiebat loco
+            institutionis.</p>
+          <p xml:id="bb-d4e28905-d1e199">Est et alio modo loqui de Poenitentia, secundum quod est sacramentum Ecclesiae ; et sic
+            habuit institutionem in lege scripta, sive Moysaica sive evangelica. In lege Moysaica,
+            quia nondum erat unitas perfecta nec perfecta reconciliatio, institutionem habuit
+            secundum imperfectionem, scilicet quantum ad quamdam generalitatem in determinatione
+            oblationum, quae erant loco confessionis et satisfactionis. In lege autem Nova, ubi
+            unitas ecclesiastica est perfecta et reconciliatio plena, instituta fuit secundum statum
+            perfectionis, et quantum ad formate, quod est absolutio sacerdotalis et ligatio, et
+            quantum ad materiale, quod est quidem lucida et aperta confessio, non solum in generali,
+            verum etiam in speciali. Et primum Dominus instituit per se et promulgavit, scilicet
+            clavium potestatem, <quote xml:id="bb-d4e28905-Qd1e201" ana="#io20_22">Ioannis 20, 22</quote>, post resurrectionem.
+            Secundum vero institutum fuit per Apostolos, vel, ut melius dicam, promulgatum, quia
+            Dominus Apostolos docuit et ipsi a Domino docti et auctoritate ab ipso accepta, immo
+            eius auctoritate promulgaverunt. Non enim nobis tradiderunt nisi quod a Domino vel a
+            Domini Spiritu acceperunt. Et sic patet quando et quomodo et ubi et a quo institutum est
+            hoc sacramentum. Concedendae igitur sunt rationes hoc probantes.</p>
+        </div>
+        <div xml:id="bb-d4e28905-Dd1e207">
+          <head xml:id="bb-d4e28905-Hd1e209">Ad rationes</head>
+          <p xml:id="bb-d4e28905-d1e212">Ad illud quod obicitur, quod non fuit institutum in lege naturae, dicendum quod proprie
+            institutum non fuit praecepto disciplinae vel praecepto sacramentali, sed magis ex
+            praecepto naturali, ad quod illuminabat excitatio et visitatio Dei, qua homines
+            increpavit in signo audibili et increpat spiritualiter per dolorem in lectulo et omnia
+            ossa hominis marcescere facit.</p>
+          <p xml:id="bb-d4e28905-d1e215">Ad illud quod obicitur, quod est ex naturali dictamine, dicendum quod verum concludit
+            secundum illam acceptionem ; attamen, quia natura per se non sufficit, patet etc.</p>
+          <p xml:id="bb-d4e28905-d1e218">Ad. illud quod obicitur, quod non est variatum, dicendum quod, in quantum est
+            sacramentum Ecclesiae, variatum est ; et lex scripta aliquid addidit supra illud quod
+            erat naturalis dictaminis, et lex evangelica illud additum non evacuavit, immo magis
+            implevit in addendo additione perfecta. Quod quaeritur, ubi et a quo sit institutum, iam
+            patet ex praedictis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

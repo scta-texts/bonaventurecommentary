@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e30065">
+        <head xml:id="bb-d4e30065-Hd1e108">Quaestio 4</head>
+        <head xml:id="bb-d4e30065-Hd1e111" type="question-title">Quoties debeat hoc sacramentum dari.</head>
+        <p xml:id="bb-d4e30065-d1e114">Quarto et ultimo quaerittir, quoties debeat hoc saeramentum dari ; et quaeritur, utrum
+          debeat iterari.</p>
+        <div xml:id="bb-d4e30065-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e30065-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e30065-d1e122">Et quod non, videtur : Primo, quia <quote xml:id="bb-d4e30065-Qd1e124">nulli sacramento facienda est iniuria</quote>
+            ; sed qui iterat sacramentum, facit ei iniuriam : ergo etc.</p>
+          <p xml:id="bb-d4e30065-d1e128">Item, per simile videtur, quia unctio episcopalis sive Confirmationis non iteratur.
+            Ergo nec Unctio Extrema iterari debet ratione consimili.</p>
+          <p xml:id="bb-d4e30065-d1e131">Item, hoc videtur per denominationem, quia dicitur Unctio Extrema ; sed unius hominis
+            una est mors et unum extremum : ergo tantum semel debet inungi.</p>
+          <p xml:id="bb-d4e30065-d1e134">Contra : Quoties iteratur morbus, et medicina ; sed tam morbus corporalis quam
+            spiritualis iteratur, scilicet veniale peccatum et corporalis infirmitas : ergo etc.</p>
+          <p xml:id="bb-d4e30065-d1e138">Item, aliquis, qui est in periculo secundum humanum iudicium et opinionem medicorum,
+            est inungendus, quia praesumitur quod laboret in extremis. Si ergo ille idem in extremis
+            alias laborare potest, videtur quod inungi debet. Iuxta hoc quaeritur, si aliquis
+            sacerdos incipit inungere et in unctione deficit, utrum debeat a capite incipi vel
+            perfici.</p>
+          <p xml:id="bb-d4e30065-d1e141">Et iterum, utrum aliquis in eadem infirmitate debeat bis inungi, ut puta in infirmitate
+            incurabili.</p>
+        </div>
+        <div xml:id="bb-d4e30065-Dd1e145">
+          <head xml:id="bb-d4e30065-Hd1e147">Conclusiones</head>
+          <head xml:id="bb-d4e30065-Hd1e150" type="question-title">Cum in hoc Sacramento nec imprimatur character, nec detur
+            effectus perpetuus, potest et debet ipsum iterari</head>
+          <p xml:id="bb-d4e30065-d1e153">Respondeo : Dicendum quod istud sacramentum, sicut innuitur aperte in littera, et debet
+            et potest iterari. Si autem quaeratur ratio huius, dicendum est quod generalis ratio
+            quare sacramentum non debeat iterari, est, quia effectus eius est perpetuus, qui non
+            iteratur. Unde characteris impressio non est generalis ratio, sed potius effectus
+            perpetuatio. Unde ex quo panis semel consecratus est, non debet amplius consecrari ;
+            quamvis non imprimatur ibi character ; et simiIiter oleum benedictum non debet amplius
+            benedici sive consecratum non debet amplius consecrari. Quoniam igitur in Unctione
+            Extrema non imprimitur nec datur effectus perpetuus, maxime si homo ab infirmitate
+            resurgat, ideo secunda operatio sacramenti est necessaria, et ideo iterari potest et
+            debet medicina absque aliqua contumelia sacramenti.</p>
+        </div>
+        <div xml:id="bb-d4e30065-Dd1e158">
+          <head xml:id="bb-d4e30065-Hd1e160">Ad rationes</head>
+          <p xml:id="bb-d4e30065-d1e163">Ad illud ergo quod obicitur, quod sibi fiat iniuria in iteratione, dicendum. quod hoc
+            verum est quando iteratur sacramentum et nihil novum efficitur ; hoc autem in proposito
+            non habet locum.</p>
+          <p xml:id="bb-d4e30065-d1e166">Ad illud quod obicitur de unctione Confirmationis, dicendum quod non est simile, quia
+            non utrobique est effectus characteris, qui est perpetuus, propter quem amplius
+            sacramentum iterari non debet</p>
+          <p xml:id="bb-d4e30065-d1e169">Ad illud quod obicitur de denominatione, dicendum quod Unctio Extrema est dupliciter :
+            aut secundum veritatem aut secundum nostram opinionem. Primo modo non iteratur, sed
+            secundo modo sic ; et ita frequenter accidit multos inungi.</p>
+          <p xml:id="bb-d4e30065-d1e172">Ad illud quod quaeritur, si sacerdos deficit, utrum sit initiandum, dicendum quod
+            potius est supplendum quod inchoatum est, pro eo quod quaelibet unctio habet specialem
+            sibi formam, sicut patet aspicienti ordinarium, attamen generaliter conveniunt in
+            remissione peccati.</p>
+          <p xml:id="bb-d4e30065-d1e176">Ad illud quod quaeritur de infirmitatibus prolixis, aliqui voluerunt dicere quod post
+            annum iterari potest, pro eo quod completa est revolutio corporum superiorum. Sed
+            absurdum valde videtur sacramenta regulari secundum motum astrorum. Et ideo potest
+            aliter dici quod nullus in aliqua infirmitate inungendus est, nisi cum praesumitur ad
+            exitum propinquare ; et hoc est in infirmitatis aggravatione, quem statum natura diu
+            sustinere non potest, immo aut vincit aut vincitur. Si ergo infirmus melioretur, ut
+            diutius vivat, etsi non perfecte curetur, curatur tamen aliquo modo ab intensione morbi
+            ; et ideo, quia venialia iterum redire possunt et iterum infirmitas corporalis
+            aggravatur, potest et debet sacramentum Unctionis iterari. Et sic patet responsio ad
+            obiecta.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

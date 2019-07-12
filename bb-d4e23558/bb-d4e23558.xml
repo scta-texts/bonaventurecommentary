@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e23558">
+        <head xml:id="bb-d4e23558-Hd1e108">Quaestio 3</head>
+        <head xml:id="bb-d4e23558-Hd1e111" type="question-title">Utrum teneamur confiteri omnem peccati circumstantiam.</head>
+        <p xml:id="bb-d4e23558-d1e114">Tertio quaeritur, utrum teneamur confiteri omnem peccati circumstantiam.</p>
+        <div xml:id="bb-d4e23558-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e23558-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e23558-d1e122">Et quod sic, videtur : Quia <name ref="#Augustine">Augustinus</name> dicit sic, in
+              <ref xml:id="bb-d4e23558-Rd1e127">libro De poenitentia</ref>, enarrans multiplicia genera circumstantiarum :
+              <quote xml:id="bb-d4e23558-Qd1e130">Omnis, inquit, ista varietas confitenda est et deflenda</quote>.</p>
+          <p xml:id="bb-d4e23558-d1e134">Item, ratione videtur, quia confessio maxime fit ad sciendam peccati quantitatem, quia
+            imponenda est poenitentia secundum mensuram et aestimationem peccati, sicut dicitur
+            Levitici 5, 18 ; sed penes circumstantias consistit peccati quantitas : ergo necesse est
+            eas confiteri. Prima manifesta est ; secunda probatur per hoc quod dicit <name ref="#Bernard">Bernardus</name>, quod nugae in ore sacerdotis blasphemiae sunt. Hoc
+            autem non dicit nisi propter aggravationem peccati : ergo etc.</p>
+          <p xml:id="bb-d4e23558-d1e140">Item, in confessione necesse est genus peccati aperiri ; sed genus peccati variatur per
+            circumstantias, sicut patet : cognoscere enim non suam, quae soluta est, fornicatio est
+            ; cognoscere non suam, quae habet virum, est adulterium : ergo necesse est confiteri
+            circumstantias.</p>
+          <p xml:id="bb-d4e23558-d1e143">Item, confessio potissime fit ad erubesceritiam ; sed maior est erubescentia in
+            confessione circumstantiarum adiacentium quam etiam in enarratione actus : ergo videtur
+            quod potissime circa circumstantias in confessione insistendum est.</p>
+          <p xml:id="bb-d4e23558-d1e147">Item, confessio principaliter fit ad accusationem peccantis ; sed accusatio actionis
+            est ex circumstantiis. Unde <ref xml:id="bb-d4e23558-Rd1e149">Tullius in I Rhetoricae</ref> : <quote xml:id="bb-d4e23558-Qd1e152">Circumstantiae
+              sunt a quibus trahuntur argumenta accusationis vel defensionis</quote>. Et
+              <ref xml:id="bb-d4e23558-Rd1e155">Boethius in IV</ref> : <quote xml:id="bb-d4e23558-Qd1e158">Circumstantiae sunt quae quaestionem rhetoricam
+              faciunt de laude et vituperio personae</quote>.</p>
+          <p xml:id="bb-d4e23558-d1e162">Item, strictius est divinum iudicium quam humanum ; sed in humano iudicio modo fit
+            inquisitio et responsio de circumstantiis ; unde non est sufficiens quaerere de actu :
+            ergo multo fortius in iudicio divino. Sed hoc est iudicium poenitentiae : ergo etc.</p>
+          <p xml:id="bb-d4e23558-d1e165">Item, diligentius curandus est morbus spiritualis quam corporalis, sicut magna
+            diligentia est habenda circa spiritum et maior quam circa corpus ; sed morbus corporalis
+            non detegitur sufficienter nisi etiam circumstantiae detegantur : ergo etc.</p>
+          <p xml:id="bb-d4e23558-d1e168">Contra : Translato principali, necesse est quod transferatur annexum, sicut Apostolus
+            dicit ad Hebraeos 7, 12 : <quote xml:id="bb-d4e23558-Qd1e170" ana="#hebr7_12">Translata sacerdotio, necesse est ut
+              Legis translatio fiat</quote>. Sed peccatum est principale : ergo, si per confessionem
+            Dominus transfert peccatum, pari ratione et circumstantiam.</p>
+          <p xml:id="bb-d4e23558-d1e174">Item, circumstantiae sunt infinitae nobis ; et nullus tenetur ad illud quod sibi est
+            impossibile : ergo non tenetur circumstantias peccati recolligere et referre.</p>
+          <p xml:id="bb-d4e23558-d1e177">Item, non est necesse quod peccatori imponat sacerdos ita gravem poenam sicut exigit
+            culpa, immo tota die imponuntur multo minores. Ergo pari ratione non est necesse quod
+            peccator confiteatur se ita graviter peccasse sicut peccavit.</p>
+          <p xml:id="bb-d4e23558-d1e181">Item, si tenetur confiteri circumstantias ad sciendam quantitatem peccati, sed
+            quantitas peccati non scitur nisi sciantur circumstantiae alleviantes sicut aggravantes,
+            et circumstantiae defendentes sicut accusantes : ergo homo tenetur in confessione se
+            ipsum excusare ; sed hoc est falsum : ergo etc.</p>
+          <p xml:id="bb-d4e23558-d1e184">Item, videtur quod circumstantia non augeat quantitatem, quia in bonis quantitas meriti
+            non causatur ex circumstantiis, sed ex quantitate amoris quo convertitur homo ad Deum :
+            ergo pari ratione, cum peccatum sit aversio, quantitas peccati consistit in libidine
+            sive contemptu cordis ; non ergo in circumstantia exteriori.</p>
+          <p xml:id="bb-d4e23558-d1e187">Item, videtur quod non det speciem peccato, quia omne illud quod dat speciem et formam,
+            debet esse essentiale et intrinsecum et unicum ; sed circumstantiae sunt extrinsecae et
+            accidentales et variabiles : ergo nulla circumstantia trahit in genus peccati novum :
+            non ergo videtur quod oporteat circumstantias confiteri.</p>
+          <p xml:id="bb-d4e23558-d1e190">Est igitur quaestio, quas oporteat confiteri et quas non.</p>
+        </div>
+        <div xml:id="bb-d4e23558-Dd1e194">
+          <head xml:id="bb-d4e23558-Hd1e196">Conclusio</head>
+          <head xml:id="bb-d4e23558-Hd1e199" type="question-title">Confessio circumstantiarum speciem mutantium necessaria est,
+            aggravantium est congrua, alleviantium vero potius incongrua</head>
+          <p xml:id="bb-d4e23558-d1e202">Respondeo : Dicendum quod circumstantiae, quae attingunt peccatum, quaedam sunt
+            alleviantes, quaedam in aliud genus trahentes, quaedam aliquo modo aggravantes.
+            Circumstantias in aliud genus trahentes confiteri est necessarium, quoniam genus peccati
+            confiteri oportet. Circumstantias vero alleviantes confiteri non est bonum, nisi propter
+            hoc ut satisfiat alienae inquisitioni vel ut provideatur eius scandalo et perturbationi,
+            utpote si timeret confessorem ex hoc accipere occasionem ad malum ; vel si etiam tantum
+            diminuat ut sit in genere venialis, sicut comedere carnes in Quadragesima propter
+            infirmitatem, ita tamen quod a latere non sit gulositas aliqua. Et ratio huius est, quia
+            in confessione non debet peccator se excusare sed accusare. De circumstantiis autem quae
+            aggravant, si genus peccati non mutatum est, est inter doctores opinio diversa.</p>
+          <p xml:id="bb-d4e23558-d1e205">Quidam enim dicunt quod poenitentes tenentur confiteti ; sed praeceptum affirmativum
+            est et obligat non ad semper, sed pro loco et tempore, scilicet quando eas cognoscit,
+            sive per se sive per inquisitionem alienam. Unde sapiens et intelligens tenetur eas
+            confiteri absque inquisitione, simplex tenetur si ab eo inquiratur.</p>
+          <p xml:id="bb-d4e23558-d1e208">Alii dicunt quod non tenemur ad confessionem harum circumstantiarum tentione
+            necessitatis, sed de bono et aequo ; et quanto magis sapientes et perfecti, tanto magis
+            debent distinctius eas explicare ; sed non tenentur ad hoc nisi forte ex propria
+            conscientia obligentur. Hanc positionem credo probabiliorem.</p>
+          <p xml:id="bb-d4e23558-d1e212">Unde dicendum quod confessio circumstantiarum in aliud genus trahentium spectat ad
+            confessionem quantum ad necessitatem ; confessio vero aggravantium quantum ad
+            congruitatem ; confessio vero alleviantium potius facit incongruitatem ; et hoc
+            intelligatur, exceptis casibus praedictis.</p>
+          <p xml:id="bb-d4e23558-d1e215">Omnes igitur rationes probantes circumstantias esse confitendas sunt congruitatis
+            quantum ad aggravantes ; aliter, si velint probare necessitatem, ab insufficienti
+            procedunt : illa excepta quae est de circumstantia trahente in aliud genus.</p>
+        </div>
+        <div xml:id="bb-d4e23558-Dd1e220">
+          <head xml:id="bb-d4e23558-Hd1e222">Ad rationes</head>
+          <p xml:id="bb-d4e23558-d1e225">1-7. Unde verbum <name ref="#Augustine">Augustini</name> consilium est. Et quod
+            obicitur de quantitate et erubescentia et accusatione et diligentia habenda, non
+            concludunt nisi quod competentius fiat, si exprimatur cuiuslibet peccatf
+            circumstantia.</p>
+          <p xml:id="bb-d4e23558-d1e231">Quod obicitur in contrarium, quod non oportet eas confiteri, concedendum est.</p>
+          <p xml:id="bb-d4e23558-d1e234">Tamen illud quod obicit, quod circumstantiae alleviantes sunt confitendae etc.,
+            dicendum quod non est simile, quia aggravantes non tantum oportet confiteri propter
+            quantitatem peccati, verum etiam propter erubescentiam et accusationem.</p>
+          <p xml:id="bb-d4e23558-d1e237">Ad illud quod obicitur, quod non augent quantitatem, dicendum quod non augent
+            principaliter, sed quia augent contemptum vel libidinem. Nec est simile de bono ; quia
+            enim boni sumus, bona facimus ; unde quantitas bonitatis venit ab habitu intrinseco, sed
+            quantitas malitiae ab actu ; quia enim mala facimus, mali sumus.</p>
+          <p xml:id="bb-d4e23558-d1e241">Ad illud quod obicitur, quod non mutat speciem, dicendum quod est esse naturae et est
+            esse moris. Et aliquid est alicui accidentale secundum esse naturae, quod tamen est
+            essentiale secundum esse moris ; et quamvis circumstantiae sint accidentales actui
+            secundum esse naturae, tamen essentiales sunt secundum laudem et vituperium, quae laus
+            venit ex parte maris vel eius contrarium. Et si tu obicias, quod non debent dici
+            circumstantiae, dicendum quod aliqua est circumstantia respectu esse naturalis, quae non
+            est circumstantia respectu peccati, sed forma, utpote furti, accipere rem non suam,
+            invito domino. Aliquando circumstantia est accidentalis respectu actus quantum ad esse
+            naturae et in quantum peccatum, quia sine, ea nihilominus est peccatum, sicut accipere
+            rem alienam et sacram de loco sacro, et ita est circumstantia et forma ; sed
+            circumstantia respectu peccati furti, quia sine ea poterat esse furtum, sed forma
+            respectu sacrilegii.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

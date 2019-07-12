@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubia</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Dubia</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e10511">
+        <head xml:id="bb-d4e10511-Hd1e106">Dubia</head>
+        <div xml:id="bb-d4e10511-Dd1e111">
+          <head xml:id="bb-d4e10511-Hd1e111">Dub. I.</head>
+          <p xml:id="bb-d4e10511-d1e114">In parte ista sunt dubitationes circa litteram, et primo de hoc quod dicit <name ref="#Augustine">Augustinus</name> : Crede, et manducasti. Cum enim summa unio et
+            incorporatio sit in caritate, videttir potius quod deberet dicere : dilige et manducasti
+            quain crede.</p>
+          <p xml:id="bb-d4e10511-d1e120">Respondeo : Dicendum quod ipse intelligit de fide operante per dilectionem. Ratio autem
+            quare magis dicit de fide duplex est : quia fides respicit intellectum et affectum, et
+            ita utroque modo unit. Item, alia ratio est, quia, licet caritas perfectius dicat
+            unionem, tamen proprietas manducationis magis in actu fidei invenitur, quia credens
+            masticat recogitando, sed diligens non incorporat, sed incorporatur.</p>
+        </div>
+        <div xml:id="bb-d4e10511-Dd1e126">
+          <head xml:id="bb-d4e10511-Hd1e126">Dub. II.</head>
+          <p xml:id="bb-d4e10511-d1e129">Item quaeritur de hoc quod dicit : Credere in eum, hoc est comedere panem et vinum.
+            Videtur enim falsum dicere, quia illud est spirituale, scilicet credere, hoc est
+            corporale : ergo unum non est alterum.</p>
+          <p xml:id="bb-d4e10511-d1e132">Respondeo : Dicendum quod hoc non est dictum per omnimodam identitatem, sed per
+            aequipollentiam in effectu, quia idem facit ; vel per expressionem significationis, quia
+            hoc significat illud ; et sic patet obiectio.</p>
+        </div>
+        <div xml:id="bb-d4e10511-Dd1e138">
+          <head xml:id="bb-d4e10511-Hd1e138">Dub. III.</head>
+          <p xml:id="bb-d4e10511-d1e141">Item quaeritur de hoc quod dicit ; Qui non manet in me, nec ego in illo, etsi accipit
+            sacramentum, acquirit magnum tormentum. Videtur enim male dicere, quia, cum nemo sciat
+            utrum maneat in eo, ergo nemo scit utrum peccet, quando accipit sacramentum : ergo
+            quilibet, quando accipit, committit se discrimini.</p>
+          <p xml:id="bb-d4e10511-d1e144">Respondeo : Verbum illud intelligendum est de eo qui scit se esse extra Christum, ita
+            quod plura signa et fortiora habeat ad oppositum quam ad propositum. Nam si probabilia
+            signa habeat de gratia, sufficit sibi ad hoc quod peccatum non incurrat, quia non
+            incurrit contemptum, quamvis non tantum se disponat quod Deus acceptet omnino.</p>
+        </div>
+        <div xml:id="bb-d4e10511-Dd1e150">
+          <head xml:id="bb-d4e10511-Hd1e150">Dub. IV.</head>
+          <p xml:id="bb-d4e10511-d1e153">Item quaeritur de hoc quod dicit : In illo sacramento corpus et sanguinem suum
+            commendavit quod et fecit nos ipsos. Videtur enim male dicere, quia, si nos sumus res
+            sacramenti, ergo, cum recipimus rem sacramenti, manducamus nosmetipsos ; quod est omnino
+            inconveniens, ut videtur.</p>
+          <p xml:id="bb-d4e10511-d1e156">Respondeo : Dicendum quod nos sumus res huius sacramenti, non simpliciter, sed in
+            quantum sumus membra, sive in quantum sumus uniti ipsi capiti ; unde sacramentum illud
+            significat unionem corpori Christi per comparationem membrorum ad invicem et ad caput.
+            Quando ergo nos sibi univit, fecit nos, id est ipsam unionem, rem huius sacramenti, quia
+            nobis rem sacramenti tribuit ; quae unio quotidie in nobis crescit et melioratur
+            secundum quod devotius sacramentum suscipitur.</p>
+        </div>
+        <div xml:id="bb-d4e10511-Dd1e163">
+          <head xml:id="bb-d4e10511-Hd1e163">Dub. V.</head>
+          <p xml:id="bb-d4e10511-d1e166">Item quaeritur de hoc quod dicitur : Qui manducat et bibit indigne, quid sit manducare
+            indigne.</p>
+          <p xml:id="bb-d4e10511-d1e169">Respondeo : Dicendum quod triplex est indignitas, secundum quod distinguit Glossa, I ad
+            Corinthios 11, 21, quae facit hominem accedere indigne : <quote xml:id="bb-d4e10511-Qd1e171" ana="#Icor11_21">Indignus est, inquit, qui aliter celebrat mysterium quam a Domino institutum est et
+              qui non devota mente accedit ad eucharistiam vel in voluntate peccandi manet</quote>.
+            Et ex hoc elicere possumus triplicem indignitatem : una quarum est in memoria ; secunda
+            in voluntate ; tertia in opere. Prima respicit peccatum praeteritum de quo non poenitet
+            ; et haec vocatur indevotio. Secunda respicit peccatum futurum quod proponit facere, et
+            hanc vocat voluntatem peccandi. Tertia respicit peccatum praesens ; et haec est, quando
+            aliter celebrat mysterium, ita quod actu peccat dum conficit. Et haec indignitas
+            secundum triplicem differentiam inducit contemptum, ac per hoc facit accedere indigne,
+            et ita actu peccare.</p>
+        </div>
+        <div xml:id="bb-d4e10511-Dd1e178">
+          <head xml:id="bb-d4e10511-Hd1e178">Dub. VI.</head>
+          <p xml:id="bb-d4e10511-d1e181">Item quaeritur de hoc quod dicit : Factum est malum, dum male ac cipitur bonum. Videtur
+            enim male dicere, quia corpus Christi et ipse Christus est bonum secundum se. Ergo non
+            potest fieri malum aliquo modo.</p>
+          <p xml:id="bb-d4e10511-d1e184">Respondeo : Dicendum quod sacramentum dicitur fieri malum non in se, sed isti, et ita
+            ut comparatum ad hoc ; et comparatur per sumptionem et manducationem. Et ita vult dicere
+            quod sumere corpus Christi, quod erat bonum in genere sive in se, per circumstantiam
+            factum est malum, non, inquam, ipsum quod sumitur, sed actus sumendi.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

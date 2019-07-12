@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e12501">
+        <head xml:id="bb-d4e12501-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e12501-Hd1e111" type="question-title">Utrum Eucharistia confici debeat in specie panis et vini.</head>
+        <p xml:id="bb-d4e12501-d1e114">Et quod istud sacramentum debeat confici in specie panis et vini, ipsa Domini institutio
+          sive consecratio et Ecclesiae catholicae observatio sufficientem praebet auctoritatem et
+          rationem.</p>
+        <div xml:id="bb-d4e12501-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e12501-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e12501-d1e122">Sed quod non, videtur : Quia, secundum. quod dicit <name ref="#HughOfStVictor">Hugo</name>, <quote xml:id="bb-d4e12501-Qd1e127">crescente veritatis cognitione, signa debuerunt esse
+              evidentiora</quote>. Ergo, cum panis et vinum fuerint sacramenta legis naturae, nullo
+            modo debent esse sacramenta legis gratiae, in qua tantum concurrit cognitio
+            veritatis.</p>
+          <p xml:id="bb-d4e12501-d1e131">Item, lex scripta plus cognitionis dabat et habebat quam naturalis : ergo eius signa
+            erant certiora et expressiora. Ergo magis Lex Nova debuit conficere in sacramentis sive
+            signis traditis tempore legis scriptae quam tempore legis naturae, de quibus sunt
+            species panis et vini.</p>
+          <p xml:id="bb-d4e12501-d1e134">Item, hoc ipsum videtur, quia in lege scripta agnus et eius sanguis offerebatur ; sed
+            caro magis exprimit carnem et sanguis sanguinem : ergo magis in illa specie debet
+            confici sacramentum Eucharistiae quam in ista.</p>
+          <p xml:id="bb-d4e12501-d1e137">Item, species sacramenti naturaliter habent repraesentare ; sed panis et vinum fiunt
+            artificio : ergo non congruunt sacramento.</p>
+          <p xml:id="bb-d4e12501-d1e141">Item, hoc specialiter ostenditur de pane, quia in hoc sacramento specialiter debet
+            significari Christus passus, unde ipse dicit : Hoc facite in meam commemorationem ; sed
+            panis integer non significat passionem : ergo non congruit huic sacramento.</p>
+          <p xml:id="bb-d4e12501-d1e144">Item, in hoc sacramento continetur Christus ut cibus parvulorum, qui prius erat cibus
+            angelorum ; sed cibus parvulorum est lac : ergo in lacte deberet confici.</p>
+          <p xml:id="bb-d4e12501-d1e147">Item, obicitur de vino, quia hic significatur Christus ut cibus sive potus sanans ; sed
+            vinum non datur infirmis : ergo non debet in vino confici hoc sacramentum quod est
+            sanativum infirmitatis spiritualis.</p>
+          <p xml:id="bb-d4e12501-d1e150">Item, effectus istius sacramenti est exstinguere morbum concupiscentiae ; sed vini est
+            accendere, Proverbiorum 20, 1 : <quote xml:id="bb-d4e12501-Qd1e152" ana="#prov20_1">Luxuriosa res est vinum</quote> :
+            ergo etc.</p>
+        </div>
+        <div xml:id="bb-d4e12501-Dd1e157">
+          <head xml:id="bb-d4e12501-Hd1e159">Conclusio</head>
+          <head xml:id="bb-d4e12501-Hd1e162" type="question-title">Panis et vinum congrue exprimunt duplicem rem huius
+            Sacramenti</head>
+          <p xml:id="bb-d4e12501-d1e165">Respondeo : Dicendum quod istius sacramenti duplex est res, scilicet corpus Christi
+            verum et mysticum ; et quia signa sunt instituta propter expressionem rei significatae,
+            talia debuerunt esse quae de sui natura nata essent utrumque exprimere. Et quoniam
+            corpus mysticum est ex multis aggregatis in unum, talia elementa esse debuerunt quae ex
+            multis facerent unum ; tale autem est panis, quia est ex multis granis puris ; tale
+            etiam est vinum, quod est ex multis acinis puris : ideo recte unionem corporis mystici
+            significant.</p>
+          <p xml:id="bb-d4e12501-d1e168">Corpus autem Christi verum continetur in hoc sacramento ut cibus, quia propter hoc
+            institutum est sacramentum ; et ut cibus non qualiscumque, sed ut cibus conveniens,
+            cibus efficax, cibus sanans, cibus omnibus communis : ideo debuit institui signum, quod
+            quidem esset cibus habens istas proprietates. Cibus autem magis conveniens est panis de
+            frumento et vinum ; et huius signum est quod naturae non generat ex frequentatione
+            fastidium, quod non convenit de aliquo alio cibo. Est etiam efficax in confirmando, quia
+            panis confortat et vinum laetificat. Est etiam sanus, sicut dicit Isaac, in Dietis, quod
+            uterque ad sanitatem facit. Ulterius est cibus communis et usitatus, maxime inter gentes
+            rationabiliter viventes. Unde Damascenus : Consuetudo est hominibus panem comedere et
+            bibere vinum ; ideo coniugavit eis Dominus Divinitatem et fecit ea corpus et sanguinem
+            suum, ut per haec quae sunt. secundum naturam consueta, in quibus vita conservatur, ad
+            ea quae sunt supra naturam anima transferatur.</p>
+        </div>
+        <div xml:id="bb-d4e12501-Dd1e173">
+          <head xml:id="bb-d4e12501-Hd1e175">Ad rationes</head>
+          <p xml:id="bb-d4e12501-d1e178">Ex his patent obiecta. Quod enim obicit, quod sacramenta in Nova Lege sunt evidentiora,
+            dicendum quod evidentius factum est ratione verbi additi : Hoc est corpus meum ; sed non
+            oportuit a parte elementi, quia sufficiebat illa evidentia.</p>
+          <p xml:id="bb-d4e12501-d1e181">2-3. Ad illud quod obicitur de signis legis scriptae, dicendum quod evidentiora signa.
+            erant passionis, quia, sicut supra dictum est, ad illam significandam principaliter
+            ordinabantur, sed non evidentiora quantum ad expressionem gratiae sacramentalis ; et hoc
+            principaliter significatur in sacramentis Novae Legis. Et per hoc patet de carne, quia
+            non significatur caro ut caro, sed ut reficiens.</p>
+          <p xml:id="bb-d4e12501-d1e184">Ad illud quod obicitur, quod sunt ab artificio, dicendum quod habilitas est a natura,
+            sed perfectio ab opere humano ; sic et Christus a sua origine habuit cibandi
+            habilitatem, sed actu est cibus effectus decoctione in igne passionis et compressione in
+            torculari crucis ; sic est in ipso igno, scilicet pane et vino.</p>
+          <p xml:id="bb-d4e12501-d1e187">Et per hoc patet sequens quod obicit, quod non significat passionem ; dicendum enim
+            quod falsum est, immo significat per decoctionem vel etiam compressionem. Posset tamen
+            dici quod non exprimitur Christus ut passus principaliter, sed ut cibus.</p>
+          <p xml:id="bb-d4e12501-d1e191">Ad illud quod obicitur, quod est cibus parvulorum, dicendum quod est cibus parvulorum
+            et humilium, eorum tamen qui aliquo modo creverunt, non accedentium ad fidem. Unde <name ref="#Augustine">Augustinus</name> : Cibus sum grandium, cresce, et manducabis me etc.
+            Et ideo in pane, non in lacte, fuit institutum.</p>
+          <p xml:id="bb-d4e12501-d1e197">Ad illud quod obicitur de vino, quod non sanet, dicendum quod vinum datur iam
+            convalescentibus et non actu infirmantibus ; in quo significatur quod istud Sacramentum
+            dari debet iam confidentibus per bonam conscientiam, non iacentibus in lecto
+            peccati.</p>
+          <p xml:id="bb-d4e12501-d1e200">Ad illud quod obicitur, quod auget luxuriam, dicendum est quod hoc facit quando sumitur
+            ad ebrietatem, non quando sumitur ad refectionem et iucunditatem, servata
+            sobrietate.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

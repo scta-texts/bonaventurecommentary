@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e9208">
+        <head xml:id="bb-d4e9208-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e9208-Hd1e111" type="question-title">De forma verbi super panem.</head>
+        <p xml:id="bb-d4e9208-d1e114">Quantum ergo ad formam panis, quae est Hoc est corpus meum, quaeritur primo quantum ad
+          subiectum, scilicet quoad pronomen.</p>
+        <div xml:id="bb-d4e9208-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e9208-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e9208-d1e122">Cum enim hoc sit pronomen et non relativum, est demonstrativum, quia aliter esset
+            cassum, ut dicit Priscianus. Si igitur demonstrat, aut ad intellectum aut ad sensum. Si
+            ad intellectum, tunc quaero : quid ? Non potest dici nisi corpus Christi verum : ergo
+            sensus est : corpus meum est corpus meum ; hoc nihil videtur, quia nullam rationem
+            operandi dicit. Si ad sensum, ergo sensus est : panis est corpus meum ; sed hoc
+            simpliciter falsum : ergo neutro modo potest accipi.</p>
+          <p xml:id="bb-d4e9208-d1e125">Item, hoc pronomen importat demonstrationem non ut conceptam, sed ut exercitam ; sed
+            demonstratio non exercetur nisi circa illud quod actu est tempore prolationis : ergo si,
+            cum profertur pronomen, non est ibi nisi panis, demonstratur ergo panis : ergo idem quod
+            prius.</p>
+          <p xml:id="bb-d4e9208-d1e128">Item, <quote xml:id="bb-d4e9208-Qd1e130">regula est quod terminus supponens verbo de praesenti non habenti vim
+              ampliandi supponit pro eo quod actu est</quote>. Sed actu non est ibi nisi panis :
+            ergo supponit pro pane. Sed illi non convenit praedicatum ; ergo locutio falsa.</p>
+          <p xml:id="bb-d4e9208-d1e134">Quaeritur etiam de compositione, scilicet de verbo <mentioned> est </mentioned>.</p>
+          <p xml:id="bb-d4e9208-d1e141">Et cum ista forma sit forma operativa, videtur quod deberet ibi poni verbum operativum
+            ; sed hoc verbum est verbum apracticon, id est extra operationem : ergo nullo modo
+            deberet ibi poni.</p>
+          <p xml:id="bb-d4e9208-d1e144">Item, hoc verbo Christus confecit et sacerdos intendit conficere, sicut Deus Verbo
+            increato creavit. Ergo, si ad prolationem huius verbi statim fit, verbum illud est
+            imperiosum : ergo videtur potius utendum verbo imperativo, ut diceretur sic : fiat
+            corpus meum, sicut in creatione non dicitur fit, sed fiat lux.</p>
+          <p xml:id="bb-d4e9208-d1e147">Item, subiectum et praedicatum dicunt formas incompossibiles ; sed verbum substantivum
+            praesentis temporis dicit simultatem formarum praedicati et subiecti : ergo non debet
+            dici de praesenti <mentioned> hoc est </mentioned>, sed <mentioned> hoc erit
+            </mentioned>.</p>
+          <p xml:id="bb-d4e9208-d1e156">Quaeritur etiam de hoc praedicato corpus meum.</p>
+          <p xml:id="bb-d4e9208-d1e159">Videtur enim quod deberet magis dici caro, quia, caro magis est conveniens cibationi ;
+            unde Ioannis 6, 56 : <quote xml:id="bb-d4e9208-Qd1e161" ana="#io6_56">Caro mea vere est cibus</quote>.</p>
+          <p xml:id="bb-d4e9208-d1e165">Item, si ista verba proferuntur a conficiente, ergo, cum conficiens loquatur de Christo
+            ut de tertia persona, non. debet dici meum, sed Christi. Si dicas quod Christus vim
+            dedit his verbis sicut vim dedit in nomine suo daemonia expellere, cum dixit : <quote xml:id="bb-d4e9208-Qd1e167" ana="#mc16_17">In nomine meo daemonia eiicient</quote>, Marci ultimo ; et tamen
+            eicientes dicebant : In nomine Christi.</p>
+          <p xml:id="bb-d4e9208-d1e172">Item, cum de forma aliorum sacramentorum sint actu pertinentes ad intentionem et usum
+            sive ad consecrantem, ergo videtur quod illud quod antecedit : Accipite et comedite, et
+            hoc quod sequitur : In mei memoriam facietis, sit de forma. Quaeritur ergo quae sit
+            forma praecise ; et quare non ponatur in verbo exprimente actum ministri.</p>
+        </div>
+        <div xml:id="bb-d4e9208-Dd1e176">
+          <head xml:id="bb-d4e9208-Hd1e178">Conclusio</head>
+          <head xml:id="bb-d4e9208-Hd1e181" type="question-title">Conveniens est forma, qua consecratur panis</head>
+          <p xml:id="bb-d4e9208-d1e184">Respondeo : Dicendum quod circa hoc multiplex fuit opinio.</p>
+          <p xml:id="bb-d4e9208-d1e187">Quidam enim dicunt quod verba illa dicit sacerdos non ut sua, sed ut Christi, unde
+            materialiter tenentur ; nec tunc est quaerere quid ibi demonstretur per pronomen vel
+            quid copuletur per verbum. Sed hoc non sufficit dicere : primo quidem, quia, etsi verba
+            in persona alterius proferantur, non propter hoc omnino materialiter tenentur, sed
+            significative, cum recitentur in eo sensu in quo ille dixit. Praeterea, similiter
+            possumus quaerere secundum quod a Christo prolata sunt.</p>
+          <p xml:id="bb-d4e9208-d1e190">Alii dicunt quod verba tenentur significative ; sed oratio non habet veritatem pro
+            tempore in quo profertur, sed pro tempore in quo prolata est, ut haec oratio : ego bibo,
+            non est vera pro tempore prolationis, sed pro tempore sibi coniuncto. Sed illud non
+            solvit, quia aut demonstratur ibi panis aut corpus Christi. Si panis, nullo tempore est
+            oratio vera ; si Christi corpus, est omni tempore vera.</p>
+          <p xml:id="bb-d4e9208-d1e194">Alii dicunt quod tenetur significative oratio, et vera est etiam pro tempore in quo
+            profertur ; sed non demonstratur ibi aliquid ad sensum, sed ad intellectum : ad
+            intellectum, inquam, non sicut simile in simili, ut cum dicitur : haec herba crescit in
+            horto meo, sed sicut signatum in signo, ut sit sensus : hoc, id est signatum per hoc,
+            est corpus meum. Et haec significatio orationis vera est, etiam si nihil fieret. Sed
+            rursus, quia significationi verae addita est ex institutione divina virtus
+            efficacissima, ulterius oratio illa et ex Domini institutione et ex sacerdotis
+            intentione est conversiva, ut sit sensus : significatum, per hoc quod est convertendum
+            in corpus meum, est corpus meum. Et haec opinio probabilior est praedictis ; adhuc tamen
+            illud non plene satisfacit. Si enim, ut dicit <name ref="#Augustine">Augustinus</name>,
+            verbum debet accedere ad elementum, ut fiat sacramentum ; et elementum non est ibi
+            significatum, sed magis illud quod in corpus convertitur : non demonstratur ergo corpus
+            Christi, sed substantia panis sub accidentibus, quae possunt oculis conspici. Et hoc
+            quidem verum est, maxime cum intentio conficientis super panem feratur, ut convertatur
+            in corpus, et illud demonstrat super quod fertur sua intentio.</p>
+          <p xml:id="bb-d4e9208-d1e200">Et propterea notandum quod ista oratio singularis est inter omnes orationes ; aliae
+            enim sunt indicativae veritatis sive existentiae, haec autem id ipsum quod figurat
+            facit. Unde est verbum operativum, et operativum non operatione successiva, sed
+            instantanea ; et.operativum non alicuius rei novae vel non existentis, sed terminus eius
+            est ens actu completum et non mutatum ; et ad illud quidem terminatur ut est alterius
+            signum, id est corporis Christi mystici ; et hoc tofom facit virtute Verbi increati
+            adiuncta ministro circa materiam nihil agenti.</p>
+          <p xml:id="bb-d4e9208-d1e203">Ex his sex conditionibus patet ratio omnium dictorum in hac forma, si quis inspiciat.
+            Quia enim hic sermo conversivus et transitivus sive ad transsubstantiationem ordinatus
+            est operativus, et operatio est circa substantiam panis : ideo pronomen demonstrat panis
+            substantiam sub accidentibus, quae oculis conspici possunt, et tangitur illud quod
+            convertitur, per subiectum, sicut illud in quod, per praedicatum. Quia vero terminus
+            operationis est actu ens, non innovatum, ideo debet poni ibi verbum essendi, non fiendi,
+            ut significetur conversio esse sine mutatione termini, scilicet in eo quod est. Quia
+            subito, ideo simul est fieri et factum esse, ideo praesens verbum instantaneum et non
+            futurum : et tale est praesens huius verbi est : ideo melius dicitur est quam erit. Quia
+            vero operatio terminatur ad corpus Christi verum ut signum mystici, in quo est
+            diversitas operationum, ideo dicitur corpus, non caro, quia corpus commune est ad totum
+            heterogeneum et homogeneum, caro autem dicit homogeneum. Quia vero hoc operatur virtute
+            Verbi increati coniuncta et ut coniuncta, ideo dicit meum ; loquitur enim sacerdos in
+            persona Christi : ideo pro Christo dicit meum. Quia vero minister nihil operatur circa
+            materiam nec immutat, ideo nihil plus est de forma ; etenim, si minister non tangat nec
+            frangat, dum tamen intendat et verba dicat, confectum est ; non sic est in Baptismo.</p>
+        </div>
+        <div xml:id="bb-d4e9208-Dd1e208">
+          <head xml:id="bb-d4e9208-Hd1e210">Ad rationes</head>
+          <p xml:id="bb-d4e9208-d1e213">1-6. Ex his patent omnia obiecta, hoc solo excepto, scilicet de veritate locutionis.
+            Quomodo enim est locutio vera, si demonstratur substantia panis, cum haec sit semper
+            falsa : panis est corpus Christi, cum sint formae incompossibiles ? Et si tu dicas quod
+            hoc verbum est non dicit ibi inhaerentiam, sed potius conversionem, tunc ergo secundum
+            hoc potius competeret verbum imperativum.</p>
+          <p xml:id="bb-d4e9208-d1e216">Et propterea notandum quod sicut in Verbo aeterno, Filio Dei, Domino nostro Iesu
+            Christo, est veritas et omnipotentia, sic verbo suo, ab ipso prolato, est veritas et
+            efficacia, ut tale verbum sacramentis Novae Legis competat ; ideo debuit ita dicere
+            verbum enuntiativum veritatis, sicut. est ips veritas, ac per hoc indicativum. Et quia
+            non esset verum simplici enuntiatione, ut non esset falsus, iunxit verbo efficaciam ore
+            suo. Et quia mandavit aliis facere et dicere, et ipse non iubet aliquem esse falsum :
+            ideo in ore eorum, quibus dedit mandatum, dedit verbo efficaciam. Et ideo hoc verbum est
+            in hac oratione non identitatem nec simultatem significat, sed hoc esse corpus, hoc est,
+            ad huius verbi prolationem hoc totum transire in corpus. Unde oratio ista in ore
+            alterius quam in ore sacerdotis falsa est, quia non convertit neque transsubstantiat hoc
+            in illud ; nec vera est per identitatem. Et hic sensus, quamvis sit huic orationi
+            proprius, et similiter formae sanguinis, tamen non est alienus a ratione, pensatis
+            conditionibus superius assignatis.</p>
+          <p xml:id="bb-d4e9208-d1e219">7-9. Ex quibus alia obiecta patent : Nec videatur inconveniens dicere quod hoc verbum
+            est non identitatem dicit, sed potius conversionem in hac oratione, quae non tantum est
+            significativa, sed etiam operativa. Magis tamen debuit poni verbum essendi quam
+            operandi, quia magis competebat formae ut simul esset efficacia cum veritatis
+            enuntiatione, simul etiam notaretur termini immutabilitas cum conversione.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

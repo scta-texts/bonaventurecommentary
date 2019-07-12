@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e22067">
+        <head xml:id="bb-d4e22067-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e22067-Hd1e111" type="question-title">Utrum mandatum de confessione pertineat ad legem naturae</head>
+        <div xml:id="bb-d4e22067-Dd1e114" type="rationes-principales">
+          <p xml:id="bb-d4e22067-d1e116">Circa primum, quod in lege naturae fuerit instituta, videtur. Super illud Genesis 3, 9
+            : <quote xml:id="bb-d4e22067-Qd1e118" ana="#gen3_9">Adam, ubi es ?</quote> Glossa : <quote xml:id="bb-d4e22067-Qd1e121">Verba increpantis sunt et
+              ad confessionem cogentis, non ignorantis</quote>. Sed Adam non tenebatur nisi ad legem
+            naturae : ergo confessio est de iure naturali, confessio scilicet vocalis, quia
+            vocaliter ei Dominus loquebatur et ille vocaliter respondebat.</p>
+          <p xml:id="bb-d4e22067-d1e125">Item, Iob 31, 33 : <quote xml:id="bb-d4e22067-Qd1e127">Si abscondi quasi homo peccatum meum et celavi iniquitatem
+              meam in sinu meo</quote>, quasi dicat : non. Ergo peccatum erat abscondere peccatum,
+            et ut peccatum reprobabat Iob ; sed ipse non tenebatur nisi ad ius naturale : ergo ius
+            naturale prohibet absconsionem peccati : ergo praecipit vel suadet confessionem.</p>
+          <p xml:id="bb-d4e22067-d1e131">Item, <name ref="#GregoryGreat">Gregorius</name>, ibidem in Glossa : <quote xml:id="bb-d4e22067-Qd1e136">Vere
+              humilis et mala sua cognoscit et voce confessionis aperit</quote>. Sed humilitas de
+            peccatis commissis est de iure naturali : ergo et vox confessionis peccati.</p>
+          <p xml:id="bb-d4e22067-d1e140">Item, ratione videtur, quia duplex est confessio, scilicet confessio taudis et
+            confessio peccati, et utraque est in gloriam Dei, sicut patet, quia dixit Iosue ad
+            Achor, Confitere peccatum et da gloriam Deo, Iosue 7, 19 ; sed natura dictat Deum
+            glorificandum et dictat Deum laudandum, non tantum corde, sed etiam ore : ergo pari
+            ratione dictat peccatum utroque modo confitendum.</p>
+          <p xml:id="bb-d4e22067-d1e143">Item, poenitentia tres habet partes, scilicet contritionem, confessionem et
+            satisfactionem ; sed contritio et satisfactio sunt de lege naturali : ergo pari ratione
+            et confessio.</p>
+          <p xml:id="bb-d4e22067-d1e147">Item, omne opus virtutis spectat ad dictamen naturae ; sed confessio peccati est opus
+            virtutis : ergo etc. Probatio minoris : Veritas, ut vult Philosophus, est virtus et
+            veritas est illa quae habilitat ad dicendum verum ; sed maxima difficultas est in
+            enarrando suum peccatum vere : ergo maxime circa hunc actum consistit virtus : ergo
+            etc.</p>
+          <p xml:id="bb-d4e22067-d1e150">Contra : <quote xml:id="bb-d4e22067-Qd1e152">Ius naturale, ut dicit <name ref="#IsidoreOfSeville">Isidorus</name>,
+              est idem apud omnes</quote> ; sed confessio peccati non est eadem apud omnes : ergo
+            confessio peccati non est de iure naturali.</p>
+          <p xml:id="bb-d4e22067-d1e159">Item, videtur quod sit contra naturam, quia naturale est cuilibet et de natura recta
+              <quote xml:id="bb-d4e22067-Qd1e161" ana="#prov11_13">celare amici commissum</quote>, sicut dicitur Proverbiorum 11,
+            13 ; sed magis se debet quisque diligere quam proximum ex dictamine naturae : ergo
+            natura dictat peccata propria esse celanda.</p>
+          <p xml:id="bb-d4e22067-d1e165">Item, naturale est cuilibet celare verenda corporis, ergo similiter verenda spiritus ;
+            sed peccata sunt turpitudines animae : ergo peccatum confiteri potius est contra naturam
+            quam secundum naturam.</p>
+          <p xml:id="bb-d4e22067-d1e168">Item, recta ratio, quae est naturae conformis, erubescit turpia cogitare : ergo, si
+            plus est referre sive dicere, per naturam erubescit dicere : ergo, cum cogitare turpia
+            et facere sit contra naturam et rationem rectam, pari ratione et referre.</p>
+          <p xml:id="bb-d4e22067-d1e171">Item, per naturam recordatio iniuriarum est occasio inimicitiae confirmandae ; sed
+            peccator per peccatum est iniuriatus Deo : ergo recordando peccatum et narrando renovat
+            inimicitias. Sed quod facit hominem inimicum Deo vel magis inimicum est contra naturam
+            et rationem rectam : ergo et confessio sceleris.</p>
+        </div>
+        <div xml:id="bb-d4e22067-Dd1e175">
+          <head xml:id="bb-d4e22067-Hd1e177">Conclusio</head>
+          <head xml:id="bb-d4e22067-Hd1e180" type="question-title">Vocaliter confiteri Deo non dictat natura specialiter et per
+            modum necessitatis nisi in casu; sed homini confiteri dictat tantum in generali</head>
+          <p xml:id="bb-d4e22067-d1e183">Respondeo : Dicendum quod dupliciter sunt aliqua de dictamine iuris naturalis : aut in
+            generali aut in speciali. In speciali, ut honorare parentes ; in generali vero dictat
+            natura ea quae superaddit lex evangelica, sicut sunt aliqua supererogationis, ut
+            consilia, vel etiam aliqua sacramenta.</p>
+          <p xml:id="bb-d4e22067-d1e186">Intelligendum est igitur quod est confessio peccati mentalis et vocalis. Mentalis
+            confessio est recognitio peccati et offensae ; et haec est de dictamine naturae in
+            speciali, secundum quod cognitio offensae est de dictamine naturae. Cognitio autem
+            offensae humanae est de dictamine naturae per se, secudum quod est rationalis ; sed
+            cognitio offensae divinae est de dictamine naturae adiutae aliquo modo per fidem.
+            Quomodo enim scit homo se offendere Deum, quem non videt, nisi per aliquem radium fidei
+            hoc cognosceret ? Cum autem hoc cognoscit, quod Deum per praevaricationem inhonorat,
+            natura dictat quod ab ipso est misericordia humiliter petenda ; et hoc nunquam est nisi
+            recognoscatur culpa.</p>
+          <p xml:id="bb-d4e22067-d1e189">Vocalis vero confessio est duplex, scilicet quae fit Deo et quae fit homini. Vocaliter
+            confiteri Deo dictat natura non simpliciter, sed in casu, ut puta, quando Deus exigit,
+            sicut exegit ab Adam et a Cain ; vocaliter autem confiteri homini non dictat natura nisi
+            in generali. Dictat enim quod omnibus modis reconciliari oportet Deo quibus ipse
+            statuit. Unde natura dictabat, quodsi Deus arbitrum constitueret inter se et peccatorem,
+            quod ipsi esset culpa revelanda ; et ita dictabat in generali ; dictabat etiam quod illi
+            essent dicenda vera.</p>
+          <p xml:id="bb-d4e22067-d1e193">Et sic patet quomodo confessio spectat ad legem naturae. Quaedam enim est de dictamine
+            naturae per modum necessitatis, quia natura dictat illam simpliciter et specialiter.
+            Quaedam etiam est de dictamine naturae per modum expedientis simpliciter, sed
+            necessitatis in casu, ut confessio vocalis facta Deo. Quaedam vero dictabat in
+            universali solum, et haec est confessio facta homini.</p>
+        </div>
+        <div xml:id="bb-d4e22067-Dd1e197">
+          <head xml:id="bb-d4e22067-Hd1e199">Ad rationes</head>
+          <p xml:id="bb-d4e22067-d1e202">1-3. Ex his patent obiecta ad primam partem ; nam auctoritates procedunt secundum
+            primam viam vel secundam, ut patet.</p>
+          <p xml:id="bb-d4e22067-d1e205">Similiter prima ratio inducta ex simili in confessione vocali laudis, quia sicut in
+            casu laudare oportet ore, tamen semper debet actu vel habitu laudare in corde, sic etiam
+            intelligendum de confessione peccati.</p>
+          <p xml:id="bb-d4e22067-d1e208">Ad illud quod obicitur de partibus aliis, scilicet contritione et satisfactione,
+            dicendum quod istae tres partes respiciunt poenitentiam secundum quod est virtus et
+            secundum quod est sacramentum ; sed specialiter contritio et satisfactio respiciunt
+            virtutem, sed confessio magis est poenitentiae ut est sacramentum, sicut melius patebit
+            infra. Confessio enim peccati, quae fit homini, ortum habet non tantum a natura, sed
+            etiam ab institutione divina.</p>
+          <p xml:id="bb-d4e22067-d1e211">Et ex hoc patet responsio ad ultimum, quod dicit quod est opus virtutis. Dico enim quod
+            revera opus virtutis est, sed non omnino ; sed virtutis cum adiunctione institutionis
+            sacramenti. Veritas enim non dictat quod peccata occulta dicantur homini ; similiter nec
+            poenitentia dictat illud per se, quantumcumque homo doleat ; sed cum Deus instituit,
+            tunc virtus obedientiae imperavit, poenitentia acceleravit et veritas actum direxit. Et
+            ita patet ad quam virtutem spectet confiteri et quomodo sit opus virtutis et cuius. Unde
+            poenitentia in generali dictat illam, secundum quod est virtus volens facere emendam ;
+            obedientia per mandatum specificat ; veritas elicit et regulat.</p>
+          <p xml:id="bb-d4e22067-d1e215">Ad illud quod obicitur in oppositum, quod non est idem apud omnes, dicendum quod illud
+            intelligitur de eo quod natura dictat in particulari, non in universali.</p>
+          <p xml:id="bb-d4e22067-d1e218">2-5. Ad illud quod obicitur, quod manifestare peccatum est contra rationem, dicendum
+            quod peccati propalatio potest fieri dupliciter : vel ad sui ipsius commendationem,
+            sicut faciunt peccatores, qui laetantur, cum male fecerint, et exsultant in rebus
+            pessimis, quorum viae perversae etc., quibus est facta frons mulieris meretricis, et de
+            quibus dicitur : Peccatum suum sicut Sodoma praedicaverunt etc. ; et haec est contra
+            naturam et contra rationem rectam et ad provocandam divinam inimicitiam ; et verecundia
+            et confusio huic opposita est adducens gratiam et gloriam. Alia est confessio ad sui
+            accusationem ad inveniendam divinam propitiationem ; et haec est ordinata ad faciendam
+            emendam et ad curandam plagam occultam. Unde sicut natura dictat vulnus, etiam in locis
+            secretis, aperiendum medico ad curationem, quamvis dictet pudenda operienda, sic est de
+            peccatis. Et sicut, si aliquis nollet vulnus ostendere, iudicaretur superbus et stultus
+            et faceret contra naturam et salutem suam, sic intelligendum est in proposito.</p>
+          <p xml:id="bb-d4e22067-d1e221">Et ex hoc patet responsio ad omnes rationes. Nam, si vulnus amici deberet curari per
+            meam confessionem sicut et proprium, dictaret ratio et natura quod ego deberem ipsum
+            prodere. Quamvis autem naturae dictamini consonum sit erubescere, et nunquam deberet
+            esse sine confusione, propter illam tamen non est confessio dimittenda ; et hoc propter
+            multiplicem utilitatem quam habet. Et propter hanc instituit eam Deus.</p>
+          <p xml:id="bb-d4e22067-d1e224">Valet enim ad peccati cognitionem propter instructionem sacerdotis, Deuteronomii 17, 8
+            : <quote xml:id="bb-d4e22067-Qd1e226" ana="#deut17_8">Si difficile et ambiguum apud te</quote> etc. Ad cogniti
+            deletionem, Psalmo [31, 5] : <quote xml:id="bb-d4e22067-Qd1e229" ana="#ps31_5">Dixi, confitebor</quote> etc. ; si
+            propositum valet, quanto magis valet opus. Ad cogniti et deleti satisfactionem, quia
+            erubescentia in confessione est magna pars satisfactionis, Ecclesiastici 4, 25 : <quote xml:id="bb-d4e22067-Qd1e232" ana="#sir4_25">Est confusio adducens gratiam et gloriam</quote>. Ad poenae
+            diminutionem vi clavium, Matthaei 16, 19 : <quote xml:id="bb-d4e22067-Qd1e235" ana="#mt16_19">Quodcumque solveris
+              super terram</quote> etc. Ad Dei laudem, Iosue 7, 19 : <quote xml:id="bb-d4e22067-Qd1e238" ana="#ios7_19">Da
+              gloriam Deo et confitere</quote> etc., et : Indica mihi, quid feceris. Ad
+            intercessorum multiplicationem, Iacobi ultimo, 16 : <quote xml:id="bb-d4e22067-Qd1e242" ana="#iac5_16">Confitemini
+              alterutrum peccata vestra, et orate pro invicem</quote> etc. Ad conscientiae
+            assecurationem ; Unde David statim, cum dixit : Peccavi, audivit : Transtulit Dominus
+            etc., II Regum 12, 13. <quote xml:id="bb-d4e22067-Qd1e245" ana="#IIreg12_13">Et hoc magnum bonum est</quote>, II ad
+            Corinthios 1, 12 : <quote xml:id="bb-d4e22067-Qd1e248" ana="#IIcor1_12">Gloria nostra haec est, testimonium
+              conscientiae nostrae</quote>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

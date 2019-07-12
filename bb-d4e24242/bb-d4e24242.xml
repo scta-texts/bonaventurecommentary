@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Bonaventure">Bonaventure</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder; OCR Correction</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="GRPL">GRPL</name>
+          <resp>OCR Correction</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2019-07-12">July 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority><ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project
+            714427: Authority and Innovation in Early Franciscan Thought</ref></authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="bb-d4e24242">
+        <head xml:id="bb-d4e24242-Hd1e108">Quaestio 1</head>
+        <head xml:id="bb-d4e24242-Hd1e111" type="question-title">Utrum scientia sit clavis.</head>
+        <p xml:id="bb-d4e24242-d1e114">Circa primum ostenditur quod scientia sit clavis.</p>
+        <div xml:id="bb-d4e24242-Dd1e117" type="rationes-principales">
+          <head xml:id="bb-d4e24242-Hd1e119">Rationes principales</head>
+          <p xml:id="bb-d4e24242-d1e122">Primo sic : Super illud Matthaei 16, 19 : <quote xml:id="bb-d4e24242-Qd1e124" ana="#mt16_19">Tibi dabo
+              claves</quote>, Glossa : <quote xml:id="bb-d4e24242-Qd1e127">Clavis dicitur scientia et potentia, qua debet dignos
+              recipere et indignos repellere</quote>. Ergo scientia est clavis.</p>
+          <p xml:id="bb-d4e24242-d1e131">2. Item, in quodam sermone de Apostolis Petro et Paulo dicitur : <quote xml:id="bb-d4e24242-Qd1e133">Petrus accepit
+              clavem potentiae, Paulus clavem scientiae</quote>. Ergo scientia est clavis.</p>
+          <p xml:id="bb-d4e24242-d1e137">Item, ratione videtur, quia omne illud quod directe repugnat errori, scientia est vel
+            de genere scientiae ; sed clavis aliqua est huiusmodi : ergo etc. Probatio minoris.
+              <name ref="#Jerome">Hieronymus</name> super illud : Tibi dabo claves etc. : Sciat
+            prudens lector hoc esse de futuro promissum, quia, si statim datae essent, nunquam in eo
+            error pravae confessionis locum habuisset. Ergo aliqua clavium excludit errorem.</p>
+          <p xml:id="bb-d4e24242-d1e143">Item, <name ref="#Augustine">Augustinus</name> dicit, et habetur in littera,
+            distinctione praecedenti : <quote xml:id="bb-d4e24242-Qd1e148">Qui vult peccata confiteri ut inveniat gratiam,
+              quaerat sacerdotem qui sciat ligare et solvere, ne, cum negligens circa se exstiterit,
+              negligatur</quote>. Ergo necessarium est absolventi habere scientiam : ergo, si illud
+            quod tenet rationem ad aperiendum est clavis, videtur quod scientia clavis sit.</p>
+          <p xml:id="bb-d4e24242-d1e153">Sed contra : Super illud : <quote xml:id="bb-d4e24242-Qd1e155">Tibi dabo claves</quote> etc., Glossa.
+              <quote xml:id="bb-d4e24242-Qd1e158">Praesentis iudicii potestatem</quote>. Ergo videtur quod utraque clavis est
+            potestas, non ergo.scientia.</p>
+          <p xml:id="bb-d4e24242-d1e162">Item, claves dantur in Ordine et consequuntur praecise Ordinem ; sed multi habent
+            Ordinem, qui non habent scientiam et e converso : ergo scientia non est clavis.</p>
+          <p xml:id="bb-d4e24242-d1e165">Item, clavis semel habita nunquam amittitur, sicut nec Ordo ; sed scientia habita
+            potest amitti : ergo scientia non est clavis.</p>
+          <p xml:id="bb-d4e24242-d1e168">Item, si scientia est clavis, aut scientia innata aut acquisita aut infusa. Si innata,
+            ergo claves sunt a natura. Si scientia acquisita, ergo claves sunt per acquisitionem,
+            non per gratiam. Si infusa, sed multi sunt qui nihil noverunt per infusionem propter
+            suam nequitiam : ergo mali non habent claves. Si tu dicas quod infunditur scientia quae
+            est gratis data, sicut Salomoni, contrarium videmus aperte, quia ommes fere ita sunt
+            simplices et idiotae post susceptionem sacerdotii ut ante.</p>
+        </div>
+        <div xml:id="bb-d4e24242-Dd1e172">
+          <head xml:id="bb-d4e24242-Hd1e174">Conclusio</head>
+          <head xml:id="bb-d4e24242-Hd1e177">Scientia non est clavis, secundum quod dicit habitum, sed secundum quod dicit
+            auctoritatem sive officium discernendi</head>
+          <p xml:id="bb-d4e24242-d1e180">Respondeo : Dicendum quod circa hoc. duplex fuit opinio antiquorum.</p>
+          <p xml:id="bb-d4e24242-d1e183">Quidam enim dixerunt quod scientia est clavis, prout scientia nominat habitum sciendi
+            discernere. Sed non est clavis principalis nec per se, sed prout iuncta est auctoritati
+            solvendi et ligandi ; et haec clavis non est de esse Ordinis, sed de bene esse ; ita
+            quod, si aliquis recipit Ordinem de facto, non habens scientiam, factum est ; sed
+            exsecutionem iurisdictionis in absolvendo non recipit sine periculo animae, eo quod
+            altera clavium caret. Et hi dixerunt quod quidam habeant scientiam clavium, ut illi qui
+            habent scientiam acquisitam ; quidam claviculam, ut illiqui carent acquisita, tamen per
+            naturalem industriam noscunt quod ars docet et Scriptura ; quidam vero nullam, ut qui
+            carent utraque. Et videtur fuisse opinio Magistri. Sed non videtur hoc bene posse
+            sustineri - licet aliquam habeat probabilitatem - cum dicamus has claves Ordinem
+            consequi et ita dari sicut Ordinem et ita durare sicut Ordo durat.</p>
+          <p xml:id="bb-d4e24242-d1e186">Et ideo est secunda opinio, quod scientia non est clavis secundum quod dicit habitum
+            sed in quantum dicit auctoritatem sive officium discernendi ; hoc autem officium sive
+            haec auctoritas est consequens Ordinem inseparabiliter ; et haec clavis est
+            essentialiter. Et haec fuit Praepositivi, et hanc tenent communiter doctores, hoc
+            addentes, quod scientia-habitus est sicut dispositio faciens ad bene esse vel etiam
+            sicut dispositio materialis, sine qua altera clavis exire non potest in actum. Sicut
+            enim vis visiva non est humidum crystallinum, tamen illud exigit ad suam operationem,
+            sic ipsa auctoritas discernendi requirit habitum scientiae ; et quanto melius habetur
+            scientia, tanto meliori modo habetur clavis. Et ideo maluerunt Sancti hanc clavem vocare
+            hoc nomine quam alio. Ex his patent obiecta ad utramque partem.</p>
+        </div>
+        <div xml:id="bb-d4e24242-Dd1e191">
+          <head xml:id="bb-d4e24242-Hd1e193">Ad rationes</head>
+          <p xml:id="bb-d4e24242-d1e196">1-2. Nam primae auctoritates, quae dicunt scientiam clavem, intelliguntur de scientia
+            prout dicit auctoritatem discernendi.</p>
+          <p xml:id="bb-d4e24242-d1e199">Ad illud quod obicitur de <name ref="#Jerome">Hieronymo</name>, dicendum quod non
+            intelligit tantum quantum ad esse nec etiam solum quantum ad bene esse, sed etiam
+            ulterius quantum ad perfectum esse, sicut fuerunt in Apostolis, qui post adventum
+            Spiritus Sancti non fuerunt decepti nec a veritate abducti.</p>
+          <p xml:id="bb-d4e24242-d1e205">Ad illud quod obicitur de <name ref="#Augustine">Augustino</name>, quod solus sciens
+            potest utiliter ligare, dicendum quod hoc non est quia habitus scientiae sit clavis, sed
+            quia dispositio est ad clavem, sicut dictum est.</p>
+          <p xml:id="bb-d4e24242-d1e211">Quae autem ad oppositum inducuntur concedenda sunt, quoniam verum concludunt, scilicet
+            scientiam, ut dicit habitum, non esse clavem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
